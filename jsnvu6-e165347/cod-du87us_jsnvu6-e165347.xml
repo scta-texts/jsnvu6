@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="201-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e165347"><!-- l3d12q1 -->
+            <head xml:id="jsnvu6-e165347-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e165347-Hd1e103" type="question-title">Utrum haec sit vera, Christus incepit esse</head>
+            <p xml:id="jsnvu6-e165347-d1e106">
+               <lb ed="#L" n="27"/>YAISTIO PELVA. 
+      <lb ed="#L" n="28"/>Vtrum haec sit vera, Christus incepit esse. 
+      <lb ed="#L" n="29"/>Thom. 3. q. 16. ar. 9. 
+    </p>
+            <p xml:id="jsnvu6-e165347-d1e115">
+               <lb ed="#L" n="30"/>CIRCA distinctionem istam primo quaeritur 
+      <lb ed="#L" n="31"/>vtrum haec sit veta, Christus vel iste homo 
+      de<lb ed="#L" n="32" break="no"/>monstrato Christo incepit esse. Et arguitur quod 
+      <lb ed="#L" n="33"/>sunc, quia esse hominem est esse simpliciter, sed Chri 
+      <lb ed="#L" n="34"/>Istus incepit esse homo, ergo incepit esse 
+      simpli<lb ed="#L" n="35" break="no"/>ter 
+    </p>
+            <p xml:id="jsnvu6-e165347-d1e131">
+               <lb ed="#L" n="36"/>a Item Aug. super Ioan. dicit quod priusquam mundus esset, 
+      <lb ed="#L" n="37"/>nec nos eramus, nec ipse mediator Dei &amp; hominum homo 
+      Chri<lb ed="#L" n="38" break="no"/>stus Iesus, sed illud quod non semper fuit, &amp; nunc est, incepi 
+      <lb ed="#L" n="39"/>esse, ergo Christus vel iste homo incepit esse. 
+      </p>
+            <p xml:id="jsnvu6-e165347-d1e143">
+               <lb ed="#L" n="40"/>
+               <!--3--> IN CONTRARIVM arguitur, quia illud 
+      quo<lb ed="#L" n="41" break="no"/>semper fuit, nunquam incepit esse, sed Christus semper fui 
+      <lb ed="#L" n="42"/>ergo nunquam incepit esse. Minor probatur. Primo per illud 
+      <lb ed="#L" n="43"/>quod dicit Christus Ioan. 8. Priusquam Abraham fieret ego 
+      <lb ed="#L" n="44"/>sum, quia eadem ratione potuit dicere, priusquam mundus 
+      fie<lb ed="#L" n="45" break="no"/>ret ab aeterno ego sum. Secundo per illud quod habetur ad Heb. 
+      <lb ed="#L" n="46"/>vltim. Iesus Christus heri, &amp; hodie, &amp; ipse in secula. 
+      </p>
+            <p xml:id="jsnvu6-e165347-d1e163">
+               <lb ed="#L" n="47"/>
+               <!--4--> RESPONSIO. Circa quaestionem istam est triplex 
+      mo<lb ed="#L" n="48" break="no"/>dus dicendi. Primus est, quod haec est falsa, Christus vel iste ho 
+      <lb ed="#L" n="49"/>mo incepit esse, nisi addatur inquantum homo, &amp; assignatur 
+      ta<lb ed="#L" n="50" break="no"/>lis ratio. Si incipere esse competeret Christo, aut competeret ei 
+      <lb ed="#L" n="51"/>ratione suppositi, aut ratione humanae naturae, non ratione suj 
+      <lb ed="#L" n="52"/>positi, quia illud semper fuit, &amp; nunquam incepit esse, nec 
+      ra<lb ed="#L" n="53" break="no"/>tione naturae humanae, quia terminus in subiecto positus non 
+      <lb ed="#L" n="54"/>tenetur formaliter pro natura, sed magis materialiter pro 
+      sup<lb ed="#L" n="55" break="no"/>posito, &amp; ideo ratione naturae humanae non potest competere 
+      <lb ed="#L" n="56"/>Christo incipere esse, quamuis nomine Christi vel hominis 
+      <lb ed="#L" n="57"/>importetur natura humana, quia quando talia nomina ponun 
+      <lb ed="#L" n="58"/>tur ex parte subiecti non stant pro natura, sed pro supposito 
+      </p>
+            <p xml:id="jsnvu6-e165347-d1e194">
+               <lb ed="#L" n="59"/>
+               <!--5--> Sed istud non valet, quia sicut dictum fuit prius, pro tanto 
+      <lb ed="#L" n="60"/>terminus in subiecto positus dicitur materialiter teneri pro 
+      <lb ed="#L" n="61"/>supposito, &amp; non ratione naturae per terminum importatae, vt 
+      <lb ed="#L" n="62"/>si dicatur album disputat: per hoc tamen non excluditur, quin 
+      <lb ed="#L" n="63"/>termino posito in subiecto, multa possint conuenire ratione 
+      <lb ed="#L" n="64"/>naturae per terminum importatae, vt si dicatur album 
+      disgre<lb ed="#L" n="65" break="no"/>gat, vel homo est rationalis, &amp; eodem modo, licet iste terminus 
+      <lb ed="#L" n="66"/>Christus, vel iste homo a parte subiecti positus stet pro suppo 
+      <lb ed="#L" n="67"/>sito, &amp; non formaliter pro natura humana, quia aliqua possunt 
+      <lb ed="#L" n="68"/>ei conuenire, non ratione humanae naturae, vt esse infinitae 
+      vir<lb ed="#L" n="69" break="no"/>tutis, &amp; huiusmodi, tamen per hoc non excluditur, quin 
+      ratio<lb ed="#L" n="70" break="no"/>ne naturae humanae possint ei conuenire multa, etiam 
+      incipe<lb ed="#L" n="71" break="no"/>re esse, nisi aliud obstet. 
+      </p>
+            <p xml:id="jsnvu6-e165347-d1e227">
+               <lb ed="#L" n="72"/>
+               <!--6--> ET IDEO est secundus tenens eandem conclusionem, 
+      <lb ed="#L" n="73"/>sed assignans aliam rationem, quae talis est, proprietas naturae 
+      <lb ed="#L" n="74"/>humanae, quae excludit a Christo proprietatem diuinae naturae, 
+      <lb ed="#L" n="75"/>non potest ei absolute conuenire, sed incipere esse est 
+      huiusmo<lb ed="#L" n="76" break="no"/>di, ergo non potest absolute dici, quod Christus vel iste homo 
+      in<lb ed="#L" n="77" break="no"/>cepit esse, Maior patet ex praecedente distinctione. Minor patet 
+      <lb ed="#L" n="78"/>quia incipere esse includit non semper fuisse, sed proprietas di¬ 
+      <!--00476.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>uinae naturae est semper fuisse: ergo incipere esse excludit a 
+      <lb ed="#L" n="80"/>Christo proprietatem diuinae naturae: &amp; haec fuit minor. Sed nec 
+      <lb ed="#L" n="81"/>istud videtur valere, quia quamuis ponendo in Christo solum vnum 
+      <lb ed="#L" n="82"/>esse, incipere esse excludat semper fuisse secundum quodcunqe 
+      <lb ed="#L" n="83"/>esse, ex quo non ponitur nisi vnum: tamen ponendo in ipsa plura 
+      <lb ed="#L" n="84"/>esse, sicut aliquo modo oportet ponere, vt visum fuit sup. d. 6. 
+      <lb ed="#L" n="85"/>incipere esse secundum vnum non excludit semper fuisse, nisi 
+      se<lb ed="#L" n="86" break="no"/>cundum illud tantum: &amp; hoc verum est in Christo, quia dato qo 
+      <lb ed="#L" n="87"/>inceperit secundum humanam naturam esse, &amp; non semper 
+      fue<lb ed="#L" n="88" break="no"/>rit secundum illud, per hoc tamen non excluditur, quin 
+      sem<lb ed="#L" n="89" break="no"/>per fuerit secundum aliud, scilicet secundum esse diuinum: &amp; sic 
+      <lb ed="#L" n="90"/>proprietas humanae naturae non excludit proprietatem 
+      diui<lb ed="#L" n="91" break="no"/>nae naturae, non enim sic est de incipere esse, sicut de creari, quia 
+      <lb ed="#L" n="92"/>creari est produci nullo penitus praesupposito, ex parte eius 
+      <lb ed="#L" n="93"/>quod dicitur creari, incipere autem esse, est de nouo accipere 
+      es<lb ed="#L" n="94" break="no"/>se quod prius non habebat, quamuis forsitan haberet: aliud esse. 
+      </p>
+            <p xml:id="jsnvu6-e165347-d1e286">
+               <lb ed="#L" n="95"/>
+               <!--7--> TERTIVS modus est, quod ista potest concedi, Christus 
+      <lb ed="#L" n="96"/>vel iste homo incepit esse, sed cum quadam distinctione cuius ra 
+      <lb ed="#L" n="97"/>tio est, quia quamuis esse dicatur multipliciter, tamen illa 
+      mul<lb ed="#L" n="98" break="no"/>tiplicitas terminatur per adiuncta, non solum ex parte 
+      praedica<lb ed="#L" n="99" break="no"/>ti, vt dicendo, homo incepit esse albus, ibi esse non accipitur pro 
+      <lb ed="#L" n="100"/>esse simpliciter, sed pro esse tali, imo etiam per id quod ponitur 
+      <lb ed="#L" n="101"/>ex parte subiecti, vt dicendo albedo incipit esse: hoc enim verisi 
+      <lb ed="#L" n="102"/>catur non pro esse simpliciter, quia tale non competit albedini, 
+      <lb ed="#L" n="103"/>sed pro esse secundum quid, quod competit accidentibus, &amp; quod 
+      <lb ed="#L" n="104"/>ipsum esse in praedicato sic accipiatur, vt congruit subiecto, 
+      istu<lb ed="#L" n="105" break="no"/>aut est de virtute sermonis, vel saltem ex vsu loquendi. Quando 
+      <lb ed="#L" n="106"/>ergo ex parte subiecti ponitur terminus concretus importans 
+      <lb ed="#L" n="107"/>suppositum &amp; naturam, si per illam naturam constituitur suppo 
+      <lb ed="#L" n="108"/>situm, tunc si attribuatur esse, oportet quod intelligatur de esse 
+      <lb ed="#L" n="109"/>suppositi &amp; naturae, quia non per aliam naturam est suppositum 
+      <lb ed="#L" n="110"/>nec habet aliud esse suppositi, quam illud quod congruit ei 
+      ra<lb ed="#L" n="111" break="no"/>tione naturae. Si vero suppositum non constituatur per naturam 
+      <lb ed="#L" n="112"/>importatam per terminum in subiecto positum, vt quum dici 
+      <lb ed="#L" n="113"/>tur album, vel quum in subiecto ponitur duplex terminus, vnus 
+      <lb ed="#L" n="114"/>importans naturam per quam suppositum constituitur, alius 
+      ve<lb ed="#L" n="115" break="no"/>ro non, sed quandam aliam, sicut dicendo homo albus est, vel 
+      in<lb ed="#L" n="116" break="no"/>cepit esse, tunc non est loquendum simpliciter, sed cum quadam 
+      di<lb ed="#L" n="117" break="no"/>stinctione hac, scilicet an incipere esse referatur ad suppositum 
+      <lb ed="#L" n="118"/>secundum se, &amp; secundum naturam constituentem ipsum, an ac 
+      <lb ed="#L" n="119"/>ipsum ratione alterius naturae: verbi gratia, Si quaeratur an 
+      ho<lb ed="#L" n="120" break="no"/>mo albus incepit esse, supposito, quod homo, qui fuit prius, 
+      poste<lb ed="#L" n="121" break="no"/>factus est albus: non enim est respondendum absolute, sed dicen 
+      <lb ed="#L" n="122"/>dum quod si incipere esse referatur ad hominem, falsum est, si 
+      <lb ed="#L" n="123"/>vero ad hominem inquantum albus, vera est: &amp; causa huius di 
+      <lb ed="#L" n="124"/>stinctionis est, quia esse positum in praedicato accipitur secundum 
+      <lb ed="#L" n="125"/>vsum loquendi, prout congruit subiecto: propter quod vbi diue 
+      <lb ed="#L" n="126"/>sa implicantur in subiecto, quibus diuersimode competit esse 
+      <lb ed="#L" n="127"/>opus est praedicta distinctione. Modo in proposito nostro, quum 
+      <lb ed="#L" n="128"/>dicitur, Christus incipit esse per terminum in subiecto posito, im 
+      <lb ed="#L" n="129"/>portatur suppositum diuinum, &amp; natura humana per quam non 
+      <lb ed="#L" n="130"/>constituitur, &amp; similiter quum dicitur iste homo, non autem 
+      si<lb ed="#L" n="131" break="no"/>est, quum dicitur filius dei, quia per hoc nomen non importatu 
+      <lb ed="#L" n="132"/>nisi suppositum diuinum cum constituentibus ipsum, &amp; ideo s 
+      <lb ed="#L" n="133"/>dicatur, filius dei incepit esse, falsa est, quia intelligitur de esse 
+      <lb ed="#L" n="134"/>quod conuenit supposito ratione sui, &amp; constituentium ipsum 
+      <lb ed="#L" n="135"/>quod esse nunquam incepit: sed quum dicitur, Christus vel ist. 
+      <lb ed="#L" n="136"/>homo incepit esse, distinguendum est, quia aut refertur ad sup. 
+      <lb ed="#L" n="137"/>positum ratione suppositi, &amp; sic est falsa, aut ratione naturae 
+      hu<lb ed="#L" n="138" break="no"/>manae, &amp; tunc est vera. Et hoc est quod dixerunt antiqui 
+      docto<lb ed="#L" n="139" break="no"/>res in simili. Distinguebant enim modo praedicto hanc 
+      proposi<lb ed="#L" n="140" break="no"/>tionem, scutum album incepit hodie esse, supposito quod 
+      scu<lb ed="#L" n="141" break="no"/>tum antiquum hodie fuerit dealbatum, dicentes, si incipere esse 
+      <lb ed="#L" n="142"/>referatur ad subiectum, falsa est, si ad determinationem 
+      subie<lb ed="#L" n="143" break="no"/>cti, scilicet, ad albedinem, vera est. 
+      </p>
+            <p xml:id="jsnvu6-e165347-d1e397">
+               <lb ed="#L" n="144"/>
+               <!--8--> AD PRIMVM argumentum dicendum est quod 
+      quam<lb ed="#L" n="145" break="no"/>uis esse substantiae sit esse simpliciter per operationem ad esse 
+      <lb ed="#L" n="146"/>accidentium, tamen esse substantiae creatae, maxime quando per 
+      <lb ed="#L" n="147"/>se non subsistit per comparationem ad esse diuinum, est aliquo 
+      <lb ed="#L" n="148"/>modo esse secundum quid, &amp; tale est esse humanae naturae in 
+      <lb ed="#L" n="149"/>Christo, dato quod esset simpliciter. Tamen quia illud non es 
+      <lb ed="#L" n="150"/>vnius rationis cum esse diuino: Opus est distinguere de esse, 
+      <lb ed="#L" n="151"/>quando ex parte subiecti ponuntur plura, quibus competuni 
+      <lb ed="#L" n="152"/>diuersa esse 
+      </p>
+            <p xml:id="jsnvu6-e165347-d1e422">
+               <lb ed="#L" n="153"/>
+               <!--9--> Ad secundum dicendum est quod beatus Augustinus, &amp; al 
+      <lb ed="#L" n="154"/>sancti causa breuitatis quandoque omittunt distinguere, vbi 
+      es<lb ed="#L" n="155" break="no"/>set opus distinctione, vel determinatione. 
+      </p>
+            <p xml:id="jsnvu6-e165347-d1e433">
+               <lb ed="#L" n="156"/>
+               <!--10--> AD ARGVMENTVM in oppositum dicendum 
+      <lb ed="#L" n="157"/>quod sicut ista est distinguenda, Christus incepit esse, ita &amp; haec 
+      <lb ed="#L" n="158"/>Christus semper fuit, quia si referatur ad suppositum, vera est: &amp; 
+      <lb ed="#L" n="159"/>sic loquitur Christus de seipso Ioannis 8. Et Apostolus ad 
+      He<lb ed="#L" n="160" break="no"/>braeos vltimo. Si vero referatur ad naturam humanam, falsa est. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

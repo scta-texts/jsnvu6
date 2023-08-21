@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="152-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3558"><!-- l2d27q2 -->
+            <head xml:id="jsnvu6-d1e3558-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e3558-Hd1e103" type="question-title">Utrum habens gratiam possit mereri gloriam de condigno</head>
+            <p xml:id="jsnvu6-d1e3558-d1e106">
+               <lb ed="#L" n="17"/>gYAISTIO AbeTDA. 
+      <lb ed="#L" n="18"/>vrum habens gratiam possit mereri 
+      glo<lb ed="#L" n="19" break="no"/>riam de condigno. 
+      <lb ed="#L" n="20"/>Ttum. i. . 3 109. a.. G. 111. ar. 3..
+    </p>
+            <p xml:id="jsnvu6-d1e3558-d1e117">
+               <lb ed="#L" n="21"/>DEINDE quaeritur, vtrum habens gratiam 
+      pos<lb ed="#L" n="22" break="no"/>sit mereri gloriam de condigno. Et videtur quod sic 
+      <lb ed="#L" n="23"/>quia sicut se habet peccatum ad gehennam, sic 
+      <lb ed="#L" n="24"/>sopus meritorium ad gloriam: sed per peccatum 
+      me<lb ed="#L" n="25" break="no"/>aj remur ex condigno poenam gehennae, ergo per 
+      <lb ed="#L" n="26"/>bonum opus cum gratia meremur ex condigno gloriam. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e133">
+               <lb ed="#L" n="27"/>
+               <!--2--> Item quod redditur secundum rectum iudicium, videtur esse 
+      <lb ed="#L" n="28"/>merces condigna, vel ex condigno debita, sed vita aeterna 
+      reddi<lb ed="#L" n="29" break="no"/>tur secundum rectum iudicium, secundum illud 2. ad Timoth. 4 
+      <lb ed="#L" n="30"/>In reliquo reposita est mihi corona iustitiae, quam reddet mihi 
+      <lb ed="#L" n="31"/>Dominus in illa die iustus iudex: ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e150">
+               <lb ed="#L" n="32"/>
+               <!--3--> IN CONTRARIVM est, quia inter opera 
+      meri<lb ed="#L" n="33" break="no"/>toria maxime videntur esse meritoriae sanctorum passiones, &amp; 
+      <lb ed="#L" n="34"/>tamen illae non sunt meritoriae de condigno. Dicit enim 
+      Apo<lb ed="#L" n="35" break="no"/>stolus ad Rom. 8. Non sunt condignae passiones huius temporis 
+      <lb ed="#L" n="36"/>ad futuram gloriam, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e166">
+               <lb ed="#L" n="37"/>
+               <!--4--> RESPONSIO. Dicunt quidam quod habens 
+      gra<lb ed="#L" n="38" break="no"/>tiam potest ex condigno mereri gloriam, quod probant sic, vbi 
+      <lb ed="#L" n="39"/>est aequalitas proportionis inter meritum &amp; praemium, ibi 
+      po<lb ed="#L" n="40" break="no"/>test esse meritum de condigno, sed inter opus informatum 
+      gra<lb ed="#L" n="41" break="no"/>tia; &amp; inter gloriam est aequalitas proportionis; licet ibi non 
+      <lb ed="#L" n="42"/>fit aequalitas quantitatis: ergo &amp;c. major patet, est enim 
+      du<lb ed="#L" n="43" break="no"/>plex aequalitas, scilicet, quantitatis &amp; proportionis 
+      quantita<lb ed="#L" n="44" break="no"/>tis quae est secundum aestimationem rei ad rem absolute, vt est 
+      <lb ed="#L" n="45"/>in emptionibus &amp; venditionibus. Et haec aequalitas spectat ad 
+      <lb ed="#L" n="46"/>iustitiam commutatiuam. Aequalitas proportionis est quando 
+      <lb ed="#L" n="47"/>sic se habet res ad rem, sicut persona ad personam secundum 
+      <lb ed="#L" n="48"/>excessum vel defectum. Et haec pertinet ad iustitiam 
+      distributi<lb ed="#L" n="49" break="no"/>uam. In redditione autem praemij pro merito magis seruatur 
+      <lb ed="#L" n="50"/>forma distributionis, quam commutationis, quum Deus 
+      red<lb ed="#L" n="51" break="no"/>det vnicuique secundum opera sua, nihil a nobis accipiens: 
+      er<lb ed="#L" n="52" break="no"/>go inter praemium &amp; meritum sufficit aequalitas proportionis, 
+      <lb ed="#L" n="53"/>&amp; haec fuit maior. Probatur minor, licet enim opus gratia 
+      <lb ed="#L" n="54"/>informatum non sit tantum bonum in quantitate, sicut est glo 
+      <lb ed="#L" n="55"/>ria, tamen est ibi aequalitas proportionis: tantum enim vel 
+      plu<lb ed="#L" n="56" break="no"/>excedit Deus hominem, quantum excedit gloria gratiam, nec 
+      <lb ed="#L" n="57"/>majus est Deo nobis gloriam tribuere, quam nobis actum 
+      vir<lb ed="#L" n="58" break="no"/>tutis exhibere: ideo est ibi aequalitas proportionis, quae sufficit 
+      <lb ed="#L" n="59"/>ad meritum de condigno, vt dictum est, ideo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e221">
+               <lb ed="#L" n="60"/>
+               <!--5--> Sed hic est duplex defectus. Primus in hoc quod redditio 
+      prae<lb ed="#L" n="61" break="no"/>mij pro merito pertinet ad iustitiam distributiuam. Si enim ali 
+      <lb ed="#L" n="62"/>cui qui seruit communitati retribuatur merces pro seruitio 
+      im<lb ed="#L" n="63" break="no"/>penso, non esset hoc distributiuae iustitiae, sed commutatiuae, 
+      <lb ed="#L" n="64"/>quia considerare habitudinem rei ad rem, vel actionis ad 
+      passio<lb ed="#L" n="65" break="no"/>nem, non habito principali respectu ad habitudinem personae ad 
+      <lb ed="#L" n="66"/>personam, pertinet ad iustitiam commutatiuam, &amp; non ad distri 
+      <lb ed="#L" n="67"/>butiuam, distributiua enim iustitia per quam bona communia 
+      <lb ed="#L" n="68"/>dantur personis priuatis, inquantum sunt partes ciuitatis primo 
+      <lb ed="#L" n="69"/>respicit ad proportionem personarum, ex qua concludit propor 
+      <lb ed="#L" n="70"/>tionem rerum distribuendarum, vt quanto persona maiorem 
+      <lb ed="#L" n="71"/>principalitatem habet in communitate, tanto plura de bonis 
+      <lb ed="#L" n="72"/>communibus recipiat. Sed commutatiua iustitia econtrario 
+      pri<lb ed="#L" n="73" break="no"/>mo respicit ad habitudinem rei ad rein, sicut in 
+      commutationi<lb ed="#L" n="74" break="no"/>bus, puta in emptione &amp; venditione, vel ad habitudinem 
+      actio<lb ed="#L" n="75" break="no"/>nis ad passionem, vt in iniuriis vindicandis vel puniendis. Ad 
+      <lb ed="#L" n="76"/>conditionem autem personae nunquam, nisi ex consequenti, 
+      in<lb ed="#L" n="77" break="no"/>quantum conditio personae facit ad quantitatem rei, vel iniuriae, 
+      <lb ed="#L" n="78"/>sicut maior est iniuria, si percutiatur princeps. quam si 
+      percu<lb ed="#L" n="79" break="no"/>tiatur priuata persona. Sic igitur considerare habitudinem rei ad 
+      <!--00372.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>rem, vel actionis ad passionem, siue in bonis siue in malis, non 
+      <lb ed="#L" n="81"/>habito principali respectu ad habitudinem personae ad 
+      perso<lb ed="#L" n="82" break="no"/>nam, pertinet ad commutatiuam iustitiam &amp; non ad distribu 
+      <lb ed="#L" n="83"/>tiuam. Sed in redditione praemiorum &amp; poenarum pro meritis 
+      <lb ed="#L" n="84"/>&amp; culpis attenditur principaliter habitudo actionum, vt cuiu 
+      <lb ed="#L" n="85"/>actio fuit melior plus praemietur, cuius deterior plus puniatur 
+      <lb ed="#L" n="86"/>nec habetur respectus ad conditionem personarum, nisi 
+      qua<lb ed="#L" n="87" break="no"/>tenus faceret differentiam actionum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e291">
+               <lb ed="#L" n="88"/>
+               <!--6.--> Secundus defectus est in hoc quod male accipitur hic 
+      aequa<lb ed="#L" n="89" break="no"/>litas proportionis, quae pertinet ad iustitiam distributiuam. I1 
+      <lb ed="#L" n="90"/>iustitia enim distributiua non attenditur proportio rerum se 
+      <lb ed="#L" n="91"/>cundum proportionem dantis &amp; accipientis, sed secundum 
+      pro<lb ed="#L" n="92" break="no"/>portionem personarum accipientium, vt quanto quis maiorem 
+      <lb ed="#L" n="93"/>principalitatem habet in communitate, tanto plus de bonis con 
+      <lb ed="#L" n="94"/>munibus accipiat, vt dictum est. In proposito autem non 
+      ser<lb ed="#L" n="95" break="no"/>uatur iste modus proportionis, sed sumitur proportio merit 
+      <lb ed="#L" n="96"/>ad praemium, secundum proportionem merentis, &amp; 
+      praemian<lb ed="#L" n="97" break="no"/>tis, seu dantis, &amp; accipientis, quod non conuenit iustitiae 
+      distri<lb ed="#L" n="98" break="no"/>butiuae. Alioquin si princeps distribueret bona communia 
+      ali<lb ed="#L" n="99" break="no"/>cuius ciuitatis ciuibus, plus acciperet vnusquisque, quam si 
+      e<lb ed="#L" n="100" break="no"/>distribueret proconsul. Et si proportio meriti de condigno, ad 
+      <lb ed="#L" n="101"/>praemium sic attenderetur: illi qui locant operas suas plus 
+      me<lb ed="#L" n="102" break="no"/>rereutur ex condigno colendo agros diuitis quam pauperis, &amp; 
+      <lb ed="#L" n="103"/>operando in opere regis, quam ciuis, quod est falsum, patet ergo 
+      <lb ed="#L" n="104"/>quod reddere praemium pro merito, non pertinet ad iustitiam 
+      <lb ed="#L" n="105"/>distributiuam, sed ad commutatiuam quae respicit aequalitaten 
+      <lb ed="#L" n="106"/>quantitatis, quae nullo modo est inter opus nostrum, quantum 
+      <lb ed="#L" n="107"/>cunque gratia informatum, &amp; gloriam; propter quod nondum 
+      <lb ed="#L" n="108"/>apparet qualiter possumus gloriam mereri de condigno. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e341">
+               <lb ed="#L" n="109"/>
+               <!--7.--> Ideo dicitur, aliter tamen tenendo eandem conclusionem. 
+      <lb ed="#L" n="110"/>scilicet quod conuenit mereri de condigno vitam aeternam quia 
+      <lb ed="#L" n="111"/>inter opus gratia informatum &amp; gloriam est aequalitas non 
+      so<lb ed="#L" n="112" break="no"/>lum proportionis, sed quantitatis. Cuius aequalitatis duplex 
+      as<lb ed="#L" n="113" break="no"/>signatur modus. Primus quia opus nostrum consideratum 
+      se<lb ed="#L" n="114" break="no"/>cundum substantiam operis, &amp; vt procedit a libero arbitrio, non 
+      <lb ed="#L" n="115"/>sit condignum gloriae propter maximam inaequalitatem, tamen 
+      <lb ed="#L" n="116"/>secundum quod procedit ex gratia spiritus sanct. sic valor eius 
+      <lb ed="#L" n="117"/>attenditur secundum virtutem spiritus sancti mouentis nos in 
+      <lb ed="#L" n="118"/>vitam aeternam: &amp; est ibi quaedam aequalitas inter meritum &amp; 
+      <lb ed="#L" n="119"/>praemium, ita vt iam non solum sit meritum de congruo, sec 
+      <lb ed="#L" n="120"/>etiam de condigno. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e372">
+               <lb ed="#L" n="121"/>
+               <!--8--> Secundus modus est, quia gratia spiritus sancti quam 
+      habe<lb ed="#L" n="122" break="no"/>mus, etsi non sit aequalis gloriae in actu, est tamen aequalis in 
+      vir<lb ed="#L" n="123" break="no"/>tute, quia est quoddam seminarium gloriae. Semen autem 
+      ani<lb ed="#L" n="124" break="no"/>malis, vel arboris in virtute est totum animal, &amp; tota arbor. 
+      Con<lb ed="#L" n="125" break="no"/>firmant autem quidam hanc opinionem dupliciter. Primo quia 
+      <lb ed="#L" n="126"/>plus meretur homo cum gratia, quam sine gratia. Sed ante 
+      gra<lb ed="#L" n="127" break="no"/>tiam meremur de congruo, ergo post gratiam meremur de 
+      con<lb ed="#L" n="128" break="no"/>digno. Secundo quia sicut peccatum veniale est peccatum 
+      secun<lb ed="#L" n="129" break="no"/>dum quid, &amp; mortale est peccatum simpliciter. Sic meritum de 
+      <lb ed="#L" n="130"/>congruo est meritum secundum quid, &amp; meritum de condigne 
+      <lb ed="#L" n="131"/>est meritum simpliciter: si ergo non contingeret mereri gloriam 
+      <lb ed="#L" n="132"/>de condigno simpliciter, esset dicendum quod nullus mereretur, 
+      <lb ed="#L" n="133"/>gloriam, quod videtur esse inconueniens 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e406">
+               <lb ed="#L" n="134"/>
+               <!--9--> Sed nec ista valent, quod enim primo dicitur de motione 
+      <lb ed="#L" n="135"/>spiritus sancti non valet, quia valor actus nunquam est a 
+      moto<lb ed="#L" n="136" break="no"/>re, nisi ratione alicuius formaliter existentis in actu vel in 
+      poten<lb ed="#L" n="137" break="no"/>tia elicitiua actus, agens enim non perficit passum secundum 
+      se<lb ed="#L" n="138" break="no"/>ipsum, sed secundum aliquid immissum. Spiritus etiam sanctu 
+      <lb ed="#L" n="139"/>mouet ad actus qui non sunt meritorij (vt prophetare) vt 
+      ap<lb ed="#L" n="140" break="no"/>paret de Balaam. num. 23. &amp; 24. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e426">
+               <lb ed="#L" n="141"/>
+               <!--10.--> Quod autem dicitur de gratia quod aequatur gloriae in 
+      <lb ed="#L" n="142"/>virtute, quia est eius seminarium, patet quod metaphorice 
+      di<lb ed="#L" n="143" break="no"/>citur: non enim est semen, nisi respectu eorum quae educuntur 
+      <lb ed="#L" n="144"/>de naturali potentia creaturae, quod non conuenit gloriae, sicui 
+      <lb ed="#L" n="145"/>nec gratiae 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e442">
+               <lb ed="#L" n="146"/>
+               <!--11--> Rationes etiam non valent: quod enim primo dicitur quod 
+      <lb ed="#L" n="147"/>plus meremur cum gratia quam sine gratia, dicendum quod 
+      plu<lb ed="#L" n="148" break="no"/>meremur cum gratia, quam sine gratia, quantum ad 
+      quantita<lb ed="#L" n="149" break="no"/>tem meriti, sed non quantum ad tale genus merendi, quia est in 
+      <lb ed="#L" n="150"/>nobis simpliciter impossibile vt statim videbitur. Quod 
+      poste<lb ed="#L" n="151" break="no"/>dicitur, quod sicut peccatum veniale est peccatum secundun 
+      <lb ed="#L" n="152"/>quid, sic meritum de congruo est meritum secundum quid. 
+      Di<lb ed="#L" n="153" break="no"/>cendum est quod peccatum veniale factum ex deliberatione est 
+      <lb ed="#L" n="154"/>peccatum simpliciter, &amp; qui diceret quod mentiens iocose 
+      e<lb ed="#L" n="155" break="no"/>deliberatione non peccaret, falsum diceret. Et eodem modo qui 
+      <lb ed="#L" n="156"/>diceret quod meritum de congruo non sit meritum, falsum 
+      di<lb ed="#L" n="157" break="no"/>ceret, vt postea patebit. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e473">
+               <lb ed="#L" n="158"/>
+               <!--12--> Dicendum est ergo quod prout dictum fuit libro primo, 
+      di<lb ed="#L" n="159" break="no"/>stinctione vigesimaseptima. Meritum de condigno 
+      subdistin<lb ed="#L" n="160" break="no"/>guitur; quia quoddam est meritum de condigno large sumpte 
+      <lb ed="#L" n="161"/>pro quadam dignitate quam deus ex ordinatione requirit in 
+      <!--00373.xml-->
+      <pb ed="#L" n="153-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>o. operibus nostris, ad hoc vt remunerentur vita aeterna. Et haec 
+      <lb ed="#L" n="2"/>dignitas est in nobis per gratiam &amp; charitatem habitualem, vi 
+      <lb ed="#L" n="3"/>declaratum fuit ibidem. Aliud est meritum de condigno 
+      stri<lb ed="#L" n="4" break="no"/>cte, &amp; proprie accepto, &amp; tale meritum est actio voluntaria 
+      <lb ed="#L" n="5"/>propter quam alicui debetur merces ex iustitia, sic quod si non 
+      <lb ed="#L" n="6"/>reddatur ille ad quem pertinet reddere iniuste facit, &amp; est 
+      sim<lb ed="#L" n="7" break="no"/>pliciter &amp; proprie iniustus, &amp; tale meritum de condigno 
+      inue<lb ed="#L" n="8" break="no"/>nitur inter homines, sed non est hominis ad Deum. Quod 
+      pa<lb ed="#L" n="9" break="no"/>tet, quia quod redditur potius ex liberalitate dantis quam ex 
+      <lb ed="#L" n="10"/>debito operis non cadit sub merito de condigno stricte &amp; 
+      pro<lb ed="#L" n="11" break="no"/>prie accepto, vt expositum est. Sed quicquid a Deo accipimus 
+      <lb ed="#L" n="12"/>siue sit gratia, siue sit gloria, siue bonum temporale, vel 
+      spiri<lb ed="#L" n="13" break="no"/>tuale (praecedente in nobis propter hoc quocunque bono 
+      ope<lb ed="#L" n="14" break="no"/>re) potius &amp; principalius accipimus ex liberalitate Dei, quam 
+      <lb ed="#L" n="15"/>reddatur ex debito operis, ergo nihil penitus cadit sub merito 
+      <lb ed="#L" n="16"/>de condigno sic accepto. Maior patet ex ratione meriti de 
+      con<lb ed="#L" n="17" break="no"/>digno prius posita. Minor probatur, quia facilius &amp; minus est 
+      <lb ed="#L" n="18"/>reddere aequiualens eius quod quis accepit ab alio, quam eum 
+      <lb ed="#L" n="19"/>conftituere debitorem, (quia ad constituendum eum 
+      debito<lb ed="#L" n="20" break="no"/>rem, requiritur quod plus reddat quam acceperit, vt sic 
+      ra<lb ed="#L" n="21" break="no"/>tione plurium alius efficiatur debitor) sed nullus potest 
+      red<lb ed="#L" n="22" break="no"/>dere Deo aequiualens dicente Philosopho 8. Ethicorum, quod 
+      <lb ed="#L" n="23"/>in his quae sunt ad deos &amp; ad parentes impossibile est 
+      aequiua<lb ed="#L" n="24" break="no"/>lens reddere: ergo multo minus est possibile, quod ex 
+      quo<lb ed="#L" n="25" break="no"/>cunque nostro opere Deus fiat nobis debitor, ita vt si non red 
+      <lb ed="#L" n="26"/>deret debitum esset iniustus. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e549">
+               <lb ed="#L" n="27"/>
+               <!--13--> Causa autem huius est, quia &amp; illud quod sumus, &amp; quod 
+      <lb ed="#L" n="28"/>habemus, siue sunt boni actus, siue boni habitus seu vsus, 
+      to<lb ed="#L" n="29" break="no"/>tum est in nobis ex liberalitate diuina gratis dante &amp; 
+      conser<lb ed="#L" n="30" break="no"/>uante. Et quia ex dono gratuito nullus obligatur ad dandum 
+      <lb ed="#L" n="31"/>amplius, sed potius recipiens magis obligatur danti, ideo ex 
+      <lb ed="#L" n="32"/>bonis habitibus, &amp; ex bonis actibus, siue vsibus nobis a Deo 
+      <lb ed="#L" n="33"/>datis Deus non obligatur nobis ex aliquo debito iustitiae ac 
+      <lb ed="#L" n="34"/>aliquid amplius dandum, ita quod si non dederit sit iniustus, sed 
+      <lb ed="#L" n="35"/>potius nos sumus Deo obligati. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e573">
+               <lb ed="#L" n="36"/>
+               <!--14--> Et sentire, seu dicere oppositum est temerarium seu blasphe 
+      <lb ed="#L" n="37"/>mium propter quod si decedenti in gratia Deus non daret 
+      glo<lb ed="#L" n="38" break="no"/>riam nihil iniustum faceret. Et si habenti gloriam auferret eam 
+      <lb ed="#L" n="39"/>non esset iniustus. Quinimo si quis conqueretur de hoc posse e 
+      <lb ed="#L" n="40"/>dicere Deus illud euangelicum, an non licet mihi quod volo fa 
+      <lb ed="#L" n="41"/>cerem, an oculus tuus nequam est, quia ego bonus sum. Et ille qui 
+      <lb ed="#L" n="42"/>hoc pateretur deberet dicere illud Iob. I. Dominus dedit, 
+      Do<lb ed="#L" n="43" break="no"/>minus abstulit, sicut Domino placuit, ita factum est, sit nomen 
+      <lb ed="#L" n="44"/>Domini benedictum, quia quum omne bonum sit ex gratuito 
+      <lb ed="#L" n="45"/>Dei dono, ex hoc quod Deus dat quaedam non obligatus ad 
+      dan<lb ed="#L" n="46" break="no"/>dum alia, ita vt non dando sit iniustus, &amp; si quid pro bonis 
+      op<lb ed="#L" n="47" break="no"/>ribus nostris nobis datur vel redditur potius &amp; principalius est 
+      <lb ed="#L" n="48"/>ex liberalitate Dei dantis, quam ex debito nostri operis. Et sic 
+      <lb ed="#L" n="49"/>patet propositio minor &amp; per consequens ratio. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e609">
+               <lb ed="#L" n="50"/>
+               <!--15--> Quod si quis dicat, quod quamuis Deus non constituatur 
+      <lb ed="#L" n="51"/>nobis debitor ex aliquo nostro opere, constituitur tamen 
+      de<lb ed="#L" n="52" break="no"/>bitor ex sua promissione quam exprimit scriptura Iacobi I. 
+      <lb ed="#L" n="53"/>Beatus vir, &amp;c. Et sequitur, accipiet coronam vitae, quam 
+      re<lb ed="#L" n="54" break="no"/>promisit Deus diligentibus se. Non valet, propter duo. Primum 
+      <lb ed="#L" n="55"/>est, quia promissio diuina in scripturis sanctis non sonat in 
+      ali<lb ed="#L" n="56" break="no"/>quam obligationem, sed insinuat meram dispositionem libera 
+      <lb ed="#L" n="57"/>litatis diuinae. Secundum est, quia quod redditur, non ex 
+      debi<lb ed="#L" n="58" break="no"/>to praecedentis operis, sed ex promissione praecedente, non 
+      <lb ed="#L" n="59"/>quidem redditur ex merito operis de condigno, sed solum vel 
+      <lb ed="#L" n="60"/>principaliter ex promisso. Et ita non est ibi illud debitum de 
+      <lb ed="#L" n="61"/>quo loquimur. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e640">
+               <lb ed="#L" n="62"/>
+               <!--16.--> Et sic patet quod meritum de condigno stricte &amp; proprie 
+      <lb ed="#L" n="63"/>sumptum, videlicet pro actione voluntaria propter quam 
+      op<lb ed="#L" n="64" break="no"/>ranti debetur merces ex iustitia, sic quod si non reddatur ille ad 
+      <lb ed="#L" n="65"/>quem pertinet reddere iniuste facit, &amp; est simpliciter &amp; 
+      pro<lb ed="#L" n="66" break="no"/>prie iniustus, non est hominis ad Deum. Et ideo propter tale 
+      me<lb ed="#L" n="67" break="no"/>ritum, cum sit homini simpliciter impossibile, non est necesse in 
+      <lb ed="#L" n="68"/>nobis ponere gratiam vel charitatem habitualem. Et si 
+      pone<lb ed="#L" n="69" break="no"/>retur, frustra poneretur. Sed solum per gratiam est in nobis istud 
+      <lb ed="#L" n="70"/>meritum de condigno, quod Deus ex sua ordinatione 
+      gratuit<lb ed="#L" n="71" break="no"/>requirit in operibus nostris ad hoc vt remunerentur vita 
+      aeter<lb ed="#L" n="72" break="no"/>na. Et hoc meritum est medium inter meritum quod est 
+      sim<lb ed="#L" n="73" break="no"/>pliciter de congruo &amp; ante gratiam, &amp; meritum quod est 
+      sim<lb ed="#L" n="74" break="no"/>pliciter de condigno, &amp; ideo comparatum ad vtrumque potest 
+      <lb ed="#L" n="75"/>dici vtrumque, quia comparatum ad meritum ante gratiam 
+      <lb ed="#L" n="76"/>potest dici de condigno. Et comparatum ad meritum de 
+      con<lb ed="#L" n="77" break="no"/>digno simpliciter potest dici de congruo. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e679">
+               <lb ed="#L" n="78"/>
+               <!--17.--> Huic autem sententiae concordat communis doctrina, quae 
+      <lb ed="#L" n="79"/>ponit quod sicut reddere iustum precium pro re accepta ab ali 
+      <lb ed="#L" n="80"/>quo est actus iustitiae, ita recompensare mercedem, vel praemium 
+      <lb ed="#L" n="81"/>laboris nostri operis est actus iustitiae. Et ideo in illis in quibus 
+      <lb ed="#L" n="82"/>est simpliciter iustum etiam simpliciter ratio meriti &amp; praemij 
+      <!--00373.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>seu mercedis, in quibus autem non est simpliciter iustum, sed 
+      se<lb ed="#L" n="84" break="no"/>cundum quid, in his non est simpliciter ratio meriti, sed secundum 
+      <lb ed="#L" n="85"/>quid: inter Deum autem &amp; hominem, non potest esse iustum 
+      sim<lb ed="#L" n="86" break="no"/>pliciter, sicut nec aequale, sed solum iustum secundum quid, 
+      sci<lb ed="#L" n="87" break="no"/>licet dominatiuum, quia totum bonum quod est hominis est Dei 
+      <lb ed="#L" n="88"/>&amp; a Deo, &amp; multo amplius, quam actiones serui sint sui Domini 
+      <lb ed="#L" n="89"/>in humanis: propter quod meritum hominis apud Deum non 
+      po<lb ed="#L" n="90" break="no"/>test esse meritum simpliciter de condigno, sed solum secundum 
+      <lb ed="#L" n="91"/>praesuppositionem diuinae ordinationis, ita scilicet vt homo id 
+      <lb ed="#L" n="92"/>consequatur a Deo per suam operationem quasi praemium vel 
+      <lb ed="#L" n="93"/>mercedem, ad quod Deus ei virtutem operandi deputauit quae 
+      <lb ed="#L" n="94"/>virtus operandi ad merendum beatitudinem est non solum po 
+      <lb ed="#L" n="95"/>tentia voluntatis, sed habitus gratiae, vel charitatis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e727">
+               <lb ed="#L" n="96"/>
+               <!--18--> Ad primum argumentum dicendum quod non est simile 
+      <lb ed="#L" n="97"/>de merito, &amp; de demerito, quia qui in toto alteri obligatur 
+      <lb ed="#L" n="98"/>tanto ex sua ingratitudine plus demeretur quanto plus 
+      rece<lb ed="#L" n="99" break="no"/>pit: sed qui totum habet ab alio totum ei debet, nec potest 
+      <lb ed="#L" n="100"/>eum constituere debitorem quod requiritur ad meritum de 
+      <lb ed="#L" n="101"/>condigno, vt dictum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e3558-d1e745">
+               <lb ed="#L" n="102"/>
+               <!--19--> Ad aliud dicendum quod Apostolus non dicit quod corona 
+      glo<lb ed="#L" n="103" break="no"/>riae non reddatur secundum iustum iudicium, sed quod 
+      redde<lb ed="#L" n="104" break="no"/>tur a iusto iudice, quia a Domino, qui iustus est &amp; miserieors, 
+      <lb ed="#L" n="105"/>sed misericordiam ostendit coronando bonos qui ex condigno 
+      <lb ed="#L" n="106"/>non possunt mereri, iustitiam vero puniendo malos qui ex con 
+      <lb ed="#L" n="107"/>digno possunt demereri, nec tamen etiam eis reddit secundum 
+      <lb ed="#L" n="108"/>rigorem iustitiae, quos iustae posset adnihilare.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

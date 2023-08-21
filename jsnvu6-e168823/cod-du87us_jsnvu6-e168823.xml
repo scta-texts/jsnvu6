@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="205-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e168823"><!-- l3d14q5 -->
+            <head xml:id="jsnvu6-e168823-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e168823-Hd1e103" type="question-title">Utrum anima Christi habuerit omnipotentiam</head>
+            <p xml:id="jsnvu6-e168823-d1e106">
+               <lb ed="#L" n="93"/>QVAESTIO QVINTA. 
+      <lb ed="#L" n="94"/>Vtrum anima Christi habuerit omnipotentiam. 
+      <lb ed="#L" n="95"/>Tham. 3. 4. 13. art. 1. 
+    </p>
+            <p xml:id="jsnvu6-e168823-d1e115">
+               <lb ed="#L" n="96"/>CONSEQVENTER quaeritur, vtrum anima Christi 
+      <lb ed="#L" n="97"/>habuerit omnipotentiam. Et videtur quod sic Matth. 
+      <lb ed="#L" n="98"/>vlti. dicit Christus, data est mihi omnis potestas in 
+      <lb ed="#L" n="99"/>coelo &amp; in terra, sed nomine coeli &amp; terrae omnis 
+      <lb ed="#L" n="100"/>creatura intelligitur secundum illud Genes. 1. In principio 
+      crea<lb ed="#L" n="101" break="no"/>uit deus coelum &amp; terram, ergo Christus habuit potentiam 
+      su<lb ed="#L" n="102" break="no"/>per omnem creaturam, sed haec est omnipotentia igitur, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e168823-d1e133">
+               <lb ed="#L" n="103"/>
+               <!--2--> Item anima Christi habuit plenissime gratiam virtutum &amp; 
+      mi<lb ed="#L" n="104" break="no"/>raculorum, sed hanc habere non potuit, nisi habuerit super onni) 
+      <lb ed="#L" n="105"/>creaturam, quia omnis mutatio creaturae potest ad gratiam 
+      mira<lb ed="#L" n="106" break="no"/>culorum pertinere, cum etiam corpora coelestia fuerint aliquando 
+      <lb ed="#L" n="107"/>per miraculum a suo ordine transmutata: ergo anima Christi 
+      ha<lb ed="#L" n="108" break="no"/>buit potentiam super omnem creaturam: &amp; sic idem quod prius. 
+      </p>
+            <p xml:id="jsnvu6-e168823-d1e152">
+               <lb ed="#L" n="109"/>
+               <!--3--> Item sicut potentia dei est infinita, ita &amp; eius scientia: sed scientia 
+      <lb ed="#L" n="110"/>respectu omnium est aliquo modo communicata animae Christi: 
+      er<lb ed="#L" n="111" break="no"/>go &amp; potentia respectu omnium. Et haec est omnipotentia, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e168823-d1e163">
+               <lb ed="#L" n="112"/>
+               <!--4--> IN CONTRARIVM arguit quia potentia 
+      propor<lb ed="#L" n="113" break="no"/>tionatur essentiae in qua fundatur, sed essentia animae Christi 
+      <lb ed="#L" n="114"/>non potest esse infinita, ergo nec eius potentia, sed sola potentia 
+      <lb ed="#L" n="115"/>infinita est omnipotentia, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e168823-d1e176">
+               <lb ed="#L" n="116"/>
+               <!--5--> RESPONSIO. Praemittendae sunt duae distinctiones 
+      <lb ed="#L" n="117"/>necessariae ad propositum. Et secundo eis positis respondebit ad 
+      <lb ed="#L" n="118"/>quaestionem. 
+      </p>
+            <p xml:id="jsnvu6-e168823-d1e187">
+               <lb ed="#L" n="119"/>
+               <!--6--> Prima distinctio est, quod cum potentia sit principium 
+      transmu<lb ed="#L" n="120" break="no"/>tandi alterum, vt habetur 5. Metap. Illud habet omnipotentiam 
+      <lb ed="#L" n="121"/>quod habet principium per quod potest transmutare omne aliud 
+      <lb ed="#L" n="122"/>a se secundum quodcunque genus transmutationis possibilis: est 
+      au<lb ed="#L" n="123" break="no"/>tem triplex genus transinutationis possibilis in rebus, loquendo 
+      <lb ed="#L" n="124"/>de transmutatione largo modo. Vna quidem naturalis, quae fit: 
+      <lb ed="#L" n="125"/>proprio agente secundum ordinem naturae. Alia est miraculosa, quae 
+      <lb ed="#L" n="126"/>fit ab agente supernaturali, super cursum consuetum naturae. 
+      Ter<lb ed="#L" n="127" break="no"/>tia est secundum quam omnis creatura producta est de nihilo, &amp; 
+      ver<lb ed="#L" n="128" break="no"/>tibilis est in nihil. Illud igitur habet simpliciter omnipotentiam, 
+      <lb ed="#L" n="129"/>quod habet in se principium, per quod potest transmutare omnem 
+      cre<lb ed="#L" n="130" break="no"/>turam. Secunda distinctio est, quod in aliquam transmutationem aliquod 
+      <lb ed="#L" n="131"/>agens potest dupliciter. Vno modo per potentiam in ipso forma 
+      <lb ed="#L" n="132"/>liter existentem. Alio modo non per potentiam in ipso existentem, sed 
+      <lb ed="#L" n="133"/>per virtutem alterius ipsi assistentem: possumus enim non solum 
+      <lb ed="#L" n="134"/>ea quae possumus per nos, &amp; per virtutem propriam, sed ea quae 
+      <lb ed="#L" n="135"/>possumus per amicos, tanquam per potentiam nobis assistentem. 
+      </p>
+            <p xml:id="jsnvu6-e168823-d1e229">
+               <lb ed="#L" n="136"/>
+               <!--7--> His suppositis dicendum est ad quaestionem, quod si loquamur de 
+      <lb ed="#L" n="137"/>potentia animae Christi, quae est in Christo formaliter, &amp; secundum 
+      <lb ed="#L" n="138"/>se, sic anima Christi non habuit omnipotentiam, nec habere 
+      po<lb ed="#L" n="139" break="no"/>tuit. Cuius ratio est, quia potentia habet rationem principij 
+      ef<lb ed="#L" n="140" break="no"/>fectiui, vt patet ex eius diffinitione, s. quod est principium 
+      transinutan<lb ed="#L" n="141" break="no"/>di, cui ergo non potest communicari quod sit principium omnium, 
+      <lb ed="#L" n="142"/>illi non potest communicari quod habeat potentiam respectu 
+      om<lb ed="#L" n="143" break="no"/>nium, sed animae Christi, vel cuicunque creaturae non potest 
+      con<lb ed="#L" n="144" break="no"/>municari quod sit principium omnium, quia hoc est proprium dei, &amp; 
+      <lb ed="#L" n="145"/>secundum fidem, &amp; secundum philosophos: ergo ipsi non potuit com 
+      <lb ed="#L" n="146"/>municari quod haberet potentiam respectu omnium. Haec autem sola est 
+      <lb ed="#L" n="147"/>omnipotentia, quare &amp;c. Hoc etiam modo loquendo de potenti 
+      <lb ed="#L" n="148"/>non video quod in anima Christi fuerit alia potentia naturalis, quam 
+      <lb ed="#L" n="149"/>in caeteris hominibus perfectis. Cuius ratio est, quia potentia 
+      na<lb ed="#L" n="150" break="no"/>turalis sequitur naturam in qua fundatur. Cum igitur natura anime 
+      <lb ed="#L" n="151"/>Christi fuerit eiusdem rationis cum caeteris animabus, consequens est 
+      <lb ed="#L" n="152"/>quod potentia naturalis in ipsa &amp; in caeteris animabus fuerit eiusdem 
+      <lb ed="#L" n="153"/>rationis. Et ideo quantum fuit ex vi naturae anima Christi non 
+      ha<lb ed="#L" n="154" break="no"/>buit maiorem potestatem in immutatione proprij corporis, quam 
+      <lb ed="#L" n="155"/>caeteri homines bene dispositi, vel si maiorem habuerit (quia 
+      for<lb ed="#L" n="156" break="no"/>te fuit melius complexionatus) talis maioritas non fuit secundum 
+      <lb ed="#L" n="157"/>formam specificam, sed secundum intensionem in eadem specie. S 
+      <lb ed="#L" n="158"/>autem anima Christi ex virtute propria &amp; naturali non habui 
+      <lb ed="#L" n="159"/>potentiam transmutandi corpus proprium, nisi secundum 
+      ordi<lb ed="#L" n="160" break="no"/>nem naturae, multominus habuit potestatem transmutandi 
+      na<lb ed="#L" n="161" break="no"/>turam miraculose, seu transmutatione, quae est ex nihilo, vel in 
+      <!--00485.xml-->
+      <pb ed="#L" n="206-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nihil. Non solum autem anima Christi non habuit naturalem 
+      po<lb ed="#L" n="2" break="no"/>tentiam hoc faciendi, imo nec supernaturalem sibi inhaerentem 
+      <lb ed="#L" n="3"/>per quam hoc facere posset. Quia omnis potentia supernatura 
+      <lb ed="#L" n="4"/>lis data est Christo, vel perficiebat corpus eius ad actus corpo 
+      <lb ed="#L" n="5"/>rales, vel animam ad actus animae solum, vel ad actus corpori 
+      <lb ed="#L" n="6"/>mediantibus actibus animae: non enim potest dici quod perfectic 
+      <lb ed="#L" n="7"/>animae sit immediate ad actus corporis, cum eiusdem sit poten 
+      <lb ed="#L" n="8"/>tia cuius est actus. Nulla autem potentia videtur data fuisse 
+      <lb ed="#L" n="9"/>Christo quoad corpus ad secundos actus, quia vt patebit in 
+      se<lb ed="#L" n="10" break="no"/>quenti distinctione, Christus per defectus corporis quos assum 
+      <lb ed="#L" n="11"/>psit, manifestauit se esse verum hominem, sicut per miracula 
+      ma<lb ed="#L" n="12" break="no"/>nifestauit se esse verum Deum: ergo omnia miracula quae fecit 
+      <lb ed="#L" n="13"/>attribuenda sunt virtuti diuinae, sicut omnes defectus quos ha 
+      <lb ed="#L" n="14"/>buit sunt referendi ad corpus. Et sic loquitur ipsemet 
+      Chri<lb ed="#L" n="15" break="no"/>stus de miraculis suis Io. 5. dicens, Pater meus vsque modo 
+      ope<lb ed="#L" n="16" break="no"/>ratur, &amp; ego operor: &amp; Io. 12. Opera quae ego facio in nomin 
+      <lb ed="#L" n="17"/>patris mei, ipsa testimonium perhibent de me: illud inquam 
+      <lb ed="#L" n="18"/>testimonium quod subditur, Pater &amp; ego vnum sumus. Et infra 
+      <lb ed="#L" n="19"/>in eodem dicit, Si non vultis mihi credere, operibus credite, vi 
+      <lb ed="#L" n="20"/>cognoscatis, quia ego in patre, &amp; pater in me est. &amp; 14. cap. 
+      eius<lb ed="#L" n="21" break="no"/>dem dicitur, Pater in me manens ipse facit opera. 
+      </p>
+            <p xml:id="jsnvu6-e168823-d1e342">
+               <lb ed="#L" n="22"/>
+               <!--8--> Ex quibus clare patet quod Christus faciebat miracula, &amp; 
+      cae<lb ed="#L" n="23" break="no"/>tera opera quae sunt supra cursum naturae per virtutem 
+      diui<lb ed="#L" n="24" break="no"/>nam, per quam est vnum cum patre, &amp; non per aliquam virtute 
+      <lb ed="#L" n="25"/>creatam sibi datam supernaturaliter perficientem ipsum ad hu 
+      <lb ed="#L" n="26"/>iusmodi actus. De claritate autem transfigurationis, &amp; de am 
+      <lb ed="#L" n="27"/>bulatione super aquas, per quam virtutem fuerint in Christo 
+      <lb ed="#L" n="28"/>dicetur infra. In Christo autem fuit aliquod donum 
+      supernatu<lb ed="#L" n="29" break="no"/>rale, imo plura perficientia animam eius ad actus proprios, qui 
+      <lb ed="#L" n="30"/>sunt recte intelligere, &amp; bene velle, &amp; ad actus corporales 
+      me<lb ed="#L" n="31" break="no"/>ritorios ex prioribus actibus imperatos. Ad actus autem 
+      super<lb ed="#L" n="32" break="no"/>naturales, puta ad transmutandum creaturam super ordinem 
+      <lb ed="#L" n="33"/>naturae, nequaquam propter eandem rationem quae prius facta 
+      <lb ed="#L" n="34"/>est, quia illa quae Christus fecit, supra homines fecit ad ostensio 
+      <lb ed="#L" n="35"/>nem suae dignitatis. Et ideo in ipso inquantum homo, non fuit 
+      <lb ed="#L" n="36"/>aliqua virtus ad faciendum aliquid exterius supra modum 
+      hu<lb ed="#L" n="37" break="no"/>manum, quanquam ad actus interiores perficientes personam 
+      <lb ed="#L" n="38"/>in se habuerit multa dona super homines: patet ergo quid ess 
+      <lb ed="#L" n="39"/>sentiendum de potentia animae Christi, quae est in ipsa 
+      forma<lb ed="#L" n="40" break="no"/>liter secundum se, siue sit naturalis, siue supernaturalis. 
+      </p>
+            <p xml:id="jsnvu6-e168823-d1e389">
+               <lb ed="#L" n="41"/>
+               <!--9--> Si autem loquamur de potentia animae Christi non perficiente 
+      <lb ed="#L" n="42"/>ipsam formaliter, sed solum assistente, secundum quam dicimu 
+      <lb ed="#L" n="43"/>posse ea, quae per amicos possumus. Sic dicendum quod anima Chri 
+      <lb ed="#L" n="44"/>sti habuit potentiam ad omnes mutationes miraculosas 
+      ordinabi<lb ed="#L" n="45" break="no"/>les ad finem &amp; fidem incarnationis. Cuius ratio est, quia sicut 
+      <lb ed="#L" n="46"/>dictum fuit in praecedentibus, ei cui competit primo docere ea quae 
+      <lb ed="#L" n="47"/>sunt supra rationem humanam competit habere potentiam 
+      facien<lb ed="#L" n="48" break="no"/>di opera supernaturalia talem doctrinam confirmantia. Sed 
+      Chri<lb ed="#L" n="49" break="no"/>sto competebat tanquam primo &amp; principali doctori docere ea 
+      <lb ed="#L" n="50"/>quae sunt supra naturalem rationem, maxime quae pertinent ad 
+      <lb ed="#L" n="51"/>salutem hominum, quae est finis incarnationis: ergo ipsi 
+      compete<lb ed="#L" n="52" break="no"/>bat habere potentiam faciendi opera supernaturalia talem 
+      do<lb ed="#L" n="53" break="no"/>ctrinam confirmantia. Hanc autem potentiam non habuit sibi 
+      <lb ed="#L" n="54"/>formaliter inhaerentem: vt probatum est, sed habuit sibi 
+      assisten<lb ed="#L" n="55" break="no"/>tem, quatenus diuina virtus operatur talia, quae confirmabani 
+      <lb ed="#L" n="56"/>doctrinam humanam. Inter autem huiusmodi opera non 
+      con<lb ed="#L" n="57" break="no"/>tinentur transmutationes omnium creaturarum ex nihilo in 
+      ali<lb ed="#L" n="58" break="no"/>quid, vel ex aliquo in nihil, quamuis virtus diuina humanitati 
+      <lb ed="#L" n="59"/>Christi assistens posset tales trasmutationes facere. Tum quia 
+      <lb ed="#L" n="60"/>istae transmutationes latuissent. Non enim potest sciri per certi 
+      <lb ed="#L" n="61"/>tudinem de aliquo de nouo producto, an esset productum de 
+      ni<lb ed="#L" n="62" break="no"/>hilo, an ex praeiacente materia. Et similiter de eo quod desinit. 
+      <lb ed="#L" n="63"/>an sit corruptum, an adnihilatum. Tum quia per alias 
+      transmu<lb ed="#L" n="64" break="no"/>tationes miraculosas satis fuit Christi deitas declarata. 
+      </p>
+            <p xml:id="jsnvu6-e168823-d1e446">
+               <lb ed="#L" n="65"/>
+               <!--10--> AD PRIMVM argumentum dicendum quod omnis 
+      <lb ed="#L" n="66"/>potestas dicitur fuisse data Christo homini ratione vnionis, 
+      <lb ed="#L" n="67"/>quia ille homo omnia poterat, non tamen inquantum homo 
+      <lb ed="#L" n="68"/>sed inquantum deus. Et licet hanc potestatem Christus 
+      habue<lb ed="#L" n="69" break="no"/>rit hoc modo ab instanti suae conceptionis, quia extunc fui 
+      <lb ed="#L" n="70"/>homo &amp; deus: tamen post resurrectionem magis innotuit 
+      ho<lb ed="#L" n="71" break="no"/>minibus. Ideo tunc dicitur fuisse data, modo quo res omne 
+      <lb ed="#L" n="72"/>dicuntur fieri quod innotescunt. 
+      </p>
+            <p xml:id="jsnvu6-e168823-d1e468">
+               <lb ed="#L" n="73"/>
+               <!--11--> Ad secundum dicendum quod gratia virtutum &amp; miraculorum 
+      <lb ed="#L" n="74"/>fuit data Christo secundum quod homo, &amp; cuicunque alij sancto 
+      <lb ed="#L" n="75"/>non vt propria virture sibi inhaerente facerent miracula, sed per 
+      <lb ed="#L" n="76"/>diuinam virtutem sibi assistentem, &amp; doctrinam eorum 
+      con<lb ed="#L" n="77" break="no"/>firmantem, vel orationi &amp; precibus eorum condecentem. 
+      </p>
+            <p xml:id="jsnvu6-e168823-d1e484">
+               <lb ed="#L" n="78"/>
+               <!--12--> Ad tertium dicendum est que Christo non est communicata 
+      <lb ed="#L" n="79"/>omnis scientia simpliciter, sicut nec omnis potentia. Non enim 
+      <lb ed="#L" n="80"/>anima Christi sciuit quae deus scit simplici notitia, saltem quoad 
+      <lb ed="#L" n="81"/>infinita indiuidua, quae deus potest facere. Et si sciuisset, non 
+      ta<lb ed="#L" n="82" break="no"/>men propter hoc scieutia eius fuisset infinita intensiue, sicut no 
+      <!--00485.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>est infinita ex eo quod cognoscit essentiam infinitam, scilicet 
+      diui<lb ed="#L" n="84" break="no"/>nam. Si autem haberet omnipotentiam, illa necessario esset aeque 
+      <lb ed="#L" n="85"/>infinita, sicut potentia diuina. Cuius ratio est, quia potentia 
+      ha<lb ed="#L" n="86" break="no"/>bet rationem principij, respectu possibilium. Et quia omnis 
+      perfe<lb ed="#L" n="87" break="no"/>ctio quae est in principiato, est eminentiori modo in principio: 
+      <lb ed="#L" n="88"/>ideo potentia quae est respectu omnium possibilium, necessario 
+      <lb ed="#L" n="89"/>habet omnem perfectionem possibilem eminentiori modo quo 
+      <lb ed="#L" n="90"/>potest haberi: propter quod nulla potentia potest esse maior ea, vel 
+      <lb ed="#L" n="91"/>perfectior. Scientia autem de natura sua non habet rationem 
+      princi<lb ed="#L" n="92" break="no"/>pij respectu possibilium. Et ideo non oportet quod habens scientiam 
+      <lb ed="#L" n="93"/>omnium habeat perfectionem omnium, nec perfectionem omnis 
+      <lb ed="#L" n="94"/>scientiae, nisi quoad numerum scibilium, sed non quoad 
+      intensio<lb ed="#L" n="95" break="no"/>nem quae magis se tenet ex parte scientis, quam ex parte scibilis, 
+      <lb ed="#L" n="96"/>quia qui habet perfectiorem potentiam cognitiuam, perfectius 
+      <lb ed="#L" n="97"/>cognoscit aliquam rem, propter quod magis repugnat creaturae 
+      <lb ed="#L" n="98"/>omnipotentia, per quam aequaretur deo non solum quoad 
+      nume<lb ed="#L" n="99" break="no"/>rum possibilium, sed etiam quo ad perfectionem potentiae, quam 
+      <lb ed="#L" n="100"/>omnis scientia, per quam si creatura aequaretur deo quoad nu 
+      <lb ed="#L" n="101"/>merum scibilium, non tamen quoad perfectionem scientiae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

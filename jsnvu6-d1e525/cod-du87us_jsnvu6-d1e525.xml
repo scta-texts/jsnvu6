@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="29-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e525"><!-- l1d7q3 -->
+            <head xml:id="jsnvu6-d1e525-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e525-Hd1e103" type="question-title">Utrum potentia generandi sit in filio</head>
+            <p xml:id="jsnvu6-d1e525-d1e106">
+               <lb ed="#L" n="7"/>MEEVSCHILITT: QVABCTIOTTERTIA.A 
+      <lb ed="#L" n="8"/>vtrum potentia generandi sit in filio. 
+      <lb ed="#L" n="9"/>Thom. 1. p. q. 41. ar. 6. ad Pr. 21. 
+    </p>
+            <p xml:id="jsnvu6-d1e525-d1e115">
+               <lb ed="#L" n="10"/>D terrium sic proceditur. Et videtur quod 
+      po<lb ed="#L" n="11" break="no"/>tentia generandi sit in filio, quia perfecta imago 
+      <lb ed="#L" n="12"/>perfecte imitatur illud cuius est imago, sed 
+      filiu<lb ed="#L" n="13" break="no"/>est imago perfectisuma patris, ergo 
+      perfectissi<lb ed="#L" n="14" break="no"/>me imitatur ipsum potentia generandi, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e128">
+               <lb ed="#L" n="15"/>
+               <!--2.--> Item nulla scientia est in patre quae non sit in filio, ergo 
+      <lb ed="#L" n="16"/>nulla potentia est in patre quae non sit in filio, ergo in filio est 
+      <lb ed="#L" n="17"/>potentia generandi sicut in patre. 
+</p>
+            <p xml:id="jsnvu6-d1e525-d1e140">
+               <lb ed="#L" n="18"/>Ad idem est quod dicit Augustinus contra maximum, &amp; 
+      <lb ed="#L" n="19"/>habetur in litera, filius non genuit non quia non potuit, sed 
+      <lb ed="#L" n="20"/>quia non oportuit, si ergo non quia non potuit, ergo potuit. 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e149">
+               <lb ed="#L" n="21"/>
+               <!--4--> CONTRA si potentia generandi est in filio posito? 
+      <lb ed="#L" n="22"/>generet, nullum sequitur impossibile, sequitur aut scilicet 
+      <lb ed="#L" n="23"/>esset immoderata generatio &amp; infinitas filiorum, ergo haec po 
+      <lb ed="#L" n="24"/>tentia non est in filio. Quod autem hoc sequatur patet, quia 
+      <lb ed="#L" n="25"/>potentia generandi diuina aut est terminata ad vnum filium 
+      <lb ed="#L" n="26"/>aut non, si sic, non erit in potentia generandi nisi in patre 
+      re<lb ed="#L" n="27" break="no"/>spectu illius filij. Si non, qua ratione potest in duos &amp; in 
+      tre<lb ed="#L" n="28" break="no"/>&amp; infinitos? vel dicatur quare non. 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e171">
+               <lb ed="#L" n="29"/>
+               <!--5--> RESPONSIO. duo sunt modi dicendi ad 
+      quaestio<lb ed="#L" n="30" break="no"/>nem istam. Prius est eorum qui dicunt quod potentia generan 
+      <lb ed="#L" n="31"/>di dicit relationem paternitatis, quae cum non sit in filio nec 
+      <lb ed="#L" n="32"/>potentia generandi est in ipso, &amp; hic modus vt mihi videtur 
+      <lb ed="#L" n="33"/>verior est &amp; planior. 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e187">
+               <lb ed="#L" n="34"/>
+               <!--6.--> Alius modus est correspondens primae opinioni. Et est talis 
+      <lb ed="#L" n="35"/>quod istud gerundium generandi potest accipi tripliciter, scilice 
+      <lb ed="#L" n="36"/>actiue, passiue vel impersonaliter. Et primo modo potentia 7e. 
+      <lb ed="#L" n="37"/>nerandi est vt aliquis generet, &amp; sic non est in filio quia filius 
+      <lb ed="#L" n="38"/>non potest generare. Licet enim sola essentia sit secundum isto: 
+      <lb ed="#L" n="39"/>id virtute cuius fit generatio, tamen quia ipsa hoc non habe 
+      <lb ed="#L" n="40"/>nisi inquantum est, secundum istos foecunda, quod ad primum 
+      <lb ed="#L" n="41"/>actum qui est generare, ratio cuius foecunditatis sortitur 
+      no<lb ed="#L" n="42" break="no"/>men &amp; rationem potentiae generatiuae. Ipsa autem vt sic non 
+      <lb ed="#L" n="43"/>est in filio sed solum tali foecunditate expieta, ideo essentia vi 
+      <lb ed="#L" n="44"/>habens rationem potentiae generatiuae actiue non est in filio. 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e216">
+               <lb ed="#L" n="45"/>
+               <!--7.--> Sed diceret aliquis contra hoc sic, omne absolutum 
+      com<lb ed="#L" n="46" break="no"/>mune est tribus personis, sed potentia generandi actiue est 
+      <lb ed="#L" n="47"/>quid absolutum vt ponit prima opinio, ergo est in filio &amp; in 
+      <lb ed="#L" n="48"/>omnibus personis. 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e229">
+               <lb ed="#L" n="49"/>
+               <!--8--> Et ad hoc dicunt qui illud quod est sic absolutum quod nullo 
+      mo<lb ed="#L" n="50" break="no"/>do connotat respectum, est commune tribus personis: sed absi 
+      <lb ed="#L" n="51"/>lutum, quod connotat respectum non est commune tribus, vt est 
+      <lb ed="#L" n="52"/>sapientia genita quae tantum competit filio, potentia autem 
+      ge<lb ed="#L" n="53" break="no"/>nerandi actiue licet intrinsece non oportet nisi solum 
+      absolu<lb ed="#L" n="54" break="no"/>tum quod est essentia, secundum istos tamen vt est ad 
+      genera<lb ed="#L" n="55" break="no"/>re ex quo sortitur nomen &amp; rationem potentiae generatiue, act 
+      <lb ed="#L" n="56"/>ue connotat respectum primitatis sibi coexistentem in persona in 
+      <lb ed="#L" n="57"/>qua ex sub ratione talis potentiae, &amp; hoc propter primitatem 
+      <lb ed="#L" n="58"/>actus generandi respectu aliorum actuum, propter quod nor 
+      <lb ed="#L" n="59"/>est nisi tantum in prima persona &amp; non in secunda vel tert:a 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e259">
+               <lb ed="#L" n="60"/>
+               <!--9--> Si autem gerundium sumatur passiue, sic potentia 
+      gene<lb ed="#L" n="61" break="no"/>randi est in filio 1. vt generetur &amp; in solo filio. Sicut enim ess 
+      <lb ed="#L" n="62"/>Deum genitum competit soli filio, licet Deus sit nomen 
+      com<lb ed="#L" n="63" break="no"/>mune, sic potentia generandi passiue competit soli filio 
+      pro<lb ed="#L" n="64" break="no"/>pter respectum connotandum proportionaliter vt in 
+      poten<lb ed="#L" n="65" break="no"/>tia generandi actiue. 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e277">
+               <lb ed="#L" n="66"/>
+               <!--10--> Si autem signandi sumatur impersonaliter, sic dicunt qui 
+      <lb ed="#L" n="67"/>potentia generandi est communi, tribus personis. Nam po 
+      <lb ed="#L" n="68"/>tentia qua exercetur actus generandi est in qualibet persona 
+      <lb ed="#L" n="69"/>licet generare vel generari non sit in qualibet. 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e290">
+               <lb ed="#L" n="70"/>
+               <!--11.--> Sed ista non placent primum non, quia supra ostensum 
+      <lb ed="#L" n="71"/>fuit quod potentia generandi est relatio &amp; non essentia vt sic. 
+      <lb ed="#L" n="72"/>Nec secundum videtur valere, quia valde extraneus modus 
+      le<lb ed="#L" n="73" break="no"/>quendi est dicere quod aliquis habeat potentiam generandi 
+      <lb ed="#L" n="74"/>quia haberet potentiam vt generetur, quemadinodum esse 
+      <lb ed="#L" n="75"/>extraneum dicere quod paries habeat potentiam dealbandi 
+      <lb ed="#L" n="76"/>quia habet potentiam vt dealbetur aut quod ignorans habeat 
+      <lb ed="#L" n="77"/>potentiam docendi, quia habet potentiam vt doccatur. 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e312">
+               <lb ed="#L" n="78"/>
+               <!--12.--> Secundo, quia talis responsio in nullo vadit ad intentio 
+      <lb ed="#L" n="79"/>nem quaestionis, nullus enim quaerendo vtrum in filio sit po 
+      <lb ed="#L" n="80"/>tentia generandi intendit quaerere vtrum filius habeat poten 
+      <lb ed="#L" n="81"/>riam vt generetur, sed tantum vt generet, quia de hoc est diffi¬ 
+      <!--00123.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>cultas si ponatur quod potentia generandi dicat tantum quid¬„ 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e332">
+               <lb ed="#L" n="83"/>
+               <!--13--> Tertium etiam non videtur bene dictum, scilicet quod 
+      po<lb ed="#L" n="84" break="no"/>tentia generandi (cum gerundium impersonaliter sumitur) fit 
+      <lb ed="#L" n="85"/>in qualibet persona, quia verbum impersonale &amp; si 
+      determi<lb ed="#L" n="86" break="no"/>nate non importat habitudinem ad personam agentem vel pa 
+      <lb ed="#L" n="87"/>tientem, quia ex hoc impersonale dicitur, tamen importat eam 
+      <lb ed="#L" n="88"/>in vniuersali &amp; indeterminate: verbi gratiâ: Cum dicitur 
+      do<lb ed="#L" n="89" break="no"/>cetur impersonaliter, vel habet potentiam docendi prout es 
+      <lb ed="#L" n="90"/>gerundium verbi impersonalis, non includitur determinati 
+      <lb ed="#L" n="91"/>habitudo ad personam quae docet actiue vel determinate ad 
+      <lb ed="#L" n="92"/>personam quae docetur passiue, tamen nunquam verificatur, 
+      <lb ed="#L" n="93"/>nisi pro persona cui competit aut competere potest actus 
+      do<lb ed="#L" n="94" break="no"/>cendi actiue vel passiue, igitur licet ly generandi 
+      impersonali<lb ed="#L" n="95" break="no"/>ter sumptum non includat determinate actionem vel 
+      passio<lb ed="#L" n="96" break="no"/>nem aut respectum ad generans vel genitum, includit tamen 
+      <lb ed="#L" n="97"/>indeterminate, nec vnquam verificari potest qu in aliquo sit 
+      <lb ed="#L" n="98"/>potentia generandi accipiendo impersonaliter, nisi cui 
+      com<lb ed="#L" n="99" break="no"/>petit aut competere potest generatio actiuo vel passiue, sed 
+      <lb ed="#L" n="100"/>generatio nullo istorum modorum potest competere esse, 
+      er<lb ed="#L" n="101" break="no"/>go nec potentia generandi etiam impersonaliter loquendo, 
+      <lb ed="#L" n="102"/>quod est contra dictum tertium. Ii 
+</p>
+            <p xml:id="jsnvu6-d1e525-d1e380">
+               <lb ed="#L" n="103"/>I4 AD PRIMVM argumentum dicendum quod flius 
+      <lb ed="#L" n="104"/>cum sit perfecta imago patris perfectissime imitatur patrem 
+      <lb ed="#L" n="105"/>in his in quibus imitatio attendi solet, haec autem sunt 
+      pro<lb ed="#L" n="106" break="no"/>prie quantitas vel qualitas, vel aliqua per modum quantitatis 
+      <lb ed="#L" n="107"/>vel qualitatis accepta: vnde de filio perfecte imitante patrem 
+      <lb ed="#L" n="108"/>dicitur quod est tantus &amp; talis sicut pater, secundum 
+      relatio<lb ed="#L" n="109" break="no"/>nes autem non est proprie imitatio, quia nullus secundum eas 
+      <lb ed="#L" n="110"/>dicitur similis aut dissimilis quod ad imitationem pertinet 
+      <lb ed="#L" n="111"/>Cum ergo potentia generandi dicat relationem intrinsece 
+      se<lb ed="#L" n="112" break="no"/>cundum eam non debet attendi imitatio; sed solum 
+      secun<lb ed="#L" n="113" break="no"/>dum essentiam &amp; materiae essentialia in quae transeunt 
+      quan<lb ed="#L" n="114" break="no"/>titas &amp; qualitas in diuinis, in his autem filius perfecte 
+      imita<lb ed="#L" n="115" break="no"/>tur patrem, licet non in potentia generandi propter 
+      relatio<lb ed="#L" n="116" break="no"/>nem quam includit. 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e414">
+               <lb ed="#L" n="117"/>
+               <!--15--> Ad secundum dicendum quod non est simile de scientia &amp; 
+      <lb ed="#L" n="118"/>potentia generandi, quia scientia mere est absolutum, &amp; ideo 
+      <lb ed="#L" n="119"/>est omnibus communis, potentia autem generandi includi 
+      <lb ed="#L" n="120"/>intrinsece relationem ratione cuius non potest omnibus 
+      con<lb ed="#L" n="121" break="no"/>uenire. 
+      </p>
+            <p xml:id="jsnvu6-d1e525-d1e430">
+               <lb ed="#L" n="122"/>
+               <!--16--> Ad tertium dicitur quod August. dicere intendit quod non 
+      <lb ed="#L" n="123"/>est impotentia in filio non posse generare, sed ex proprietate 
+      <lb ed="#L" n="124"/>relatiua sibi conuenit, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

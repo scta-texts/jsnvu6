@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="143-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3293"><!-- l2d22prae -->
+            <head xml:id="jsnvu6-d1e3293-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3293-d1e103">
+               <lb ed="#L" n="61"/>Sententia huius distinctionis XXII. 
+      <lb ed="#L" n="62"/>in generali &amp; spec iali.
+    </p>
+            <p xml:id="jsnvu6-d1e3293-d1e110">
+               <lb ed="#L" n="63"/>HIC VIDETVR inuestigandum esse diligenter 
+      <lb ed="#L" n="64"/>Superius ostendit magister tentationis 
+      princi<lb ed="#L" n="65" break="no"/>pium extrinsecum. Hic determinat de principio 
+      <lb ed="#L" n="66"/>intrinseco. Et diuiditur in duas. Primo 
+      determi<lb ed="#L" n="67" break="no"/>Enat genus primi peccati. Secundo inquirit eius 
+      <lb ed="#L" n="68"/>radicem. Secunda ibi, solet autem quaeri. Prima in duas. Primo 
+      <lb ed="#L" n="69"/>determinat intentum. Secundo opponit contra determinata, 
+      <lb ed="#L" n="70"/>&amp; soluit. Secunda ibi, his autem opponi solet. Prima diuiditu 
+      <lb ed="#L" n="71"/>ij tres. Primo ostendit genus peccati primo opponendo in con 
+      <lb ed="#L" n="72"/>arium &amp; determinando. Secundo ostendit quomodo 
+      diuer<lb ed="#L" n="73" break="no"/>simodae fuit elatio in viro &amp; muliere. Tertio ex hoc 
+      conclu<lb ed="#L" n="74" break="no"/>dit vter eorum plus peccauit. Secunda ibi, &amp; talis elatio. Tertia 
+      <lb ed="#L" n="75"/>ibi, ex quo manifeste aduerti potest. Et ista diuiditur in duas. 
+      <lb ed="#L" n="76"/>primo ostendit vter prior peccauit, scilicet vir an mulien. 
+      Se<lb ed="#L" n="77" break="no"/>cundo opponit in contrarium &amp; determinat. Secunda ibi, sed 
+      <lb ed="#L" n="78"/>huic videtur contrarium. Vltima pars in qua inquirit radicem pecca 
+      <lb ed="#L" n="79"/>ti, diuiditur in duas secundum duas quaestiones quas mouet. 
+      Se<lb ed="#L" n="80" break="no"/>cunda ibi, si vero quaeritur. Haec est sententia lectionis in generali
+    </p>
+            <p xml:id="jsnvu6-d1e3293-d1e152">
+      <!--00353.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>2 IN SPECIALI sic procedit, &amp; proponit primo quod 
+      <lb ed="#L" n="82"/>haec fuit radix &amp; origo illius peccati primorum parentum? 
+      <lb ed="#L" n="83"/>scilicet in hominis animo processit secundum quosdam elatio ex 
+      <lb ed="#L" n="84"/>qua diaboli suggestioni consensit hoc ordine, quia prius in mu 
+      <lb ed="#L" n="85"/>liere quam in viro, obiicit autem contra, quia tunc sequeretur 
+      <lb ed="#L" n="86"/>quod homo non alterius suggestione peccauerit, sed per propriam 
+      <lb ed="#L" n="87"/>superbia ceciderit ficut angelus quod est contra superius dicta 
+      <lb ed="#L" n="88"/>Et respondet quod intelligendum est elationem praecessisse, non 
+      <lb ed="#L" n="89"/>quidem tentationem sed opus peccati. Et ideo homo 
+      suggestio<lb ed="#L" n="90" break="no"/>ne peccauit, fuit autem hic ordo &amp; processus quod praecessit dia 
+      <lb ed="#L" n="91"/>boli tentatio ex qua post sequuta est in mente elatio, quam 
+      se<lb ed="#L" n="92" break="no"/>quutum est peccatum operis. Vitimo poena peccati. Postea 
+      di<lb ed="#L" n="93" break="no"/>cit quod talis elatio fuit in muliere quia credidit &amp; voluit habere 
+      <lb ed="#L" n="94"/>similitudinem cum aequalitate quadam putans esse verum quod 
+      <lb ed="#L" n="95"/>diabolus suadebat. Sed vir non fuit eodem modo seductus quo 
+      <lb ed="#L" n="96"/>mulier quia non putauit verum esse quod diabolus suggerebat. 
+      Ali<lb ed="#L" n="97" break="no"/>qua tamen elatio post tentationem in mente viri fuit, quod per 
+      <lb ed="#L" n="98"/>auctoritates confirmat. Postea dicit concludendo quod mulie 
+      <lb ed="#L" n="99"/>plus peccauit quam vir, quia verum esse quod dixerat 
+      diabo<lb ed="#L" n="100" break="no"/>lus credidit, cum nimia praesumptione. Adam vero illud non cre 
+      <lb ed="#L" n="101"/>didit, &amp; de poenitentia &amp; Dei misericordia cogitauit, magis au 
+      <lb ed="#L" n="102"/>tem fuit deceptus vir quam mulier quantum ad hoc solum, quia 
+      <lb ed="#L" n="103"/>putauit peccatum commissum esse veniale quod fuit mortale. 
+      <lb ed="#L" n="104"/>Item in hoc minus peccauit vir quam mulier quia mulier in se, 
+      <lb ed="#L" n="105"/>in proximum &amp; in Deum, vir autem in se &amp; in Deum tantum. 
+      <lb ed="#L" n="106"/>Postea obiicit per auctoritatem Aug. qui ait parem esse vtriusque 
+      <lb ed="#L" n="107"/>falsum sicut patet in excusatione, ergo &amp; pariter peccauerunt. 
+      <lb ed="#L" n="108"/>Et respondet quod par fuit vtriusque falsus in excusatione peccati, 
+      <lb ed="#L" n="109"/>&amp; in esu ligni vetiti. Sed dicendum est in muliere esse maiorem 
+      <lb ed="#L" n="110"/>in eo quod credidit &amp; voluit esse sicut Deus quod non vir, 
+      obii<lb ed="#L" n="111" break="no"/>cit autem per auctoritatem Augu. vlterius quia etiam homo vo 
+      <lb ed="#L" n="112"/>luit esse sicut Deus. Et respondet quoe quibusdam videtur quod Adam 
+      <lb ed="#L" n="113"/>aliquo modo ambierit esse sicut Deus: non credidit tamen istud 
+      <lb ed="#L" n="114"/>posse fieri cognoscens falsum esse quod diabolus promittebat, nec 
+      <lb ed="#L" n="115"/>tanta ambitione exarsit sicut mulier exarsit. Aliis vero videtur 
+      <lb ed="#L" n="116"/>quod sic, dicitur illud Adam voluisse quia illud voluit mulier quae 
+      <lb ed="#L" n="117"/>de ipso sumpta fuit, ex quibus omnibus concludit quod minus 
+      pec<lb ed="#L" n="118" break="no"/>cauerat vir quam mulier. Postea objicit contra dicta quia 
+      se<lb ed="#L" n="119" break="no"/>cundum Isid peccatum quandoque fit ex ignorantia, quandoque 
+      <lb ed="#L" n="120"/>ex industria, etiam Eua videbatur ex ignorantia peccasse, Adan 
+      <lb ed="#L" n="121"/>autem ex industria, ergo vir magis peccauit quam mulier. E 
+      <lb ed="#L" n="122"/>respondet quod mulier in hoc peccauit per ignorantiam quia verum 
+      <lb ed="#L" n="123"/>esse putauit quod diabolus suadebat, non tamen in hoc quod non no 
+      <lb ed="#L" n="124"/>uit illud esse mandatum Dei, &amp; ideo excusari a peccato per igne 
+      <lb ed="#L" n="125"/>rantiam non potuit, quia omnis excusatio tollitur vbi 
+      manda<lb ed="#L" n="126" break="no"/>tum non ignoratur, &amp; peccatum est secus agere vbi etiam 
+      distin<lb ed="#L" n="127" break="no"/>guit de ignorantia quoniam est quaedam quae excusat, &amp; est 
+      quae<lb ed="#L" n="128" break="no"/>dam ignorantia vincibilis, quaedam non vincibilis. Est enim 
+      tri<lb ed="#L" n="129" break="no"/>plex ignorantia. Vna eorum qui scire nolunt &amp; tamen possunt. 
+      <lb ed="#L" n="130"/>haec autem non excusat a peccato, sed ipsa est peccatum. Alia 
+      <lb ed="#L" n="131"/>eorum qui volunt scire sed non possunt &amp; haec excusat, quia 
+      <lb ed="#L" n="132"/>non est peccatum sed poena peccati. Tertia est illorum qui 
+      sim<lb ed="#L" n="133" break="no"/>pliciter nesciunt neque renuentes neque proponentes scire, &amp; 
+      <lb ed="#L" n="134"/>haec aliquo modo (sed non plene) excusat, quod auctoritare 
+      <lb ed="#L" n="135"/>Augu. confirmat. Postea quaerit cum natura hominis esset sine 
+      <lb ed="#L" n="136"/>vitio, vnde processit consensus mali. Et respondet quod ex lib. ar. 
+      <lb ed="#L" n="137"/>voluntatis quod homo fieret deterior fuit in diabolo qui suasit, &amp; 
+      <lb ed="#L" n="138"/>in homine qui consensit, &amp; quamuis lib. arb. sit bonum ex eo 
+      <lb ed="#L" n="139"/>tamen malus consensus emanauit. Vitimo quaeritur, vtrum vo 
+      <lb ed="#L" n="140"/>luntas illud peccatum praecessit. Respondet quod cum peccatum in 
+      <lb ed="#L" n="141"/>voluntate, &amp; in actu consistat, voluntas actum praecessit, sed 
+      <lb ed="#L" n="142"/>ipsam malam voluntatem alia mala voluntas hominis non 
+      prae<lb ed="#L" n="143" break="no"/>cessit, &amp; quod illa mala voluntas ex diaboli persuasione, &amp; 
+      li<lb ed="#L" n="144" break="no"/>bero hominis arbitrio prodiit, &amp; in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

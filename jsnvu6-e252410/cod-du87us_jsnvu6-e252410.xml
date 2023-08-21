@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="306-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e252410"><!-- l4d21q1 -->
+            <head xml:id="jsnvu6-e252410-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e252410-Hd1e103" type="question-title">Utrum post hanc vitam peccata 
+        aliqua remittantur quo ad 
+        culpam</head>
+            <p xml:id="jsnvu6-e252410-d1e106">
+               <lb ed="#L" n="125"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="126"/>Vtrum post hanc vitam peccata 
+      ali<lb ed="#L" n="127" break="no"/>qua remittantur quo ad 
+      <lb ed="#L" n="128"/>culpam. 
+    </p>
+            <p xml:id="jsnvu6-e252410-d1e117">
+               <lb ed="#L" n="129"/>CIRCA distinctionem istam primo quaeritur vtrum 
+      <lb ed="#L" n="130"/>post hanc vitam peccata aliqua remittantur quo 
+      <lb ed="#L" n="131"/>ad culpam. Et videtur quod non, quia facilius est 
+      <lb ed="#L" n="132"/>speccare quam resurgere a peccato: sed 
+      existen<lb ed="#L" n="133" break="no"/>tes in purgatorio decaetero non possunt 
+      pecca<lb ed="#L" n="134" break="no"/>re, ergo non possunt a peccato resurgere, &amp; fortiori ratione 
+      <lb ed="#L" n="135"/>nec illi qui sunt in inferno. 
+      </p>
+            <p xml:id="jsnvu6-e252410-d1e135">
+               <lb ed="#L" n="136"/>
+               <!--2--> Item Greg. dicit, quod talis in iudicio quisque futurus est, 
+      qua<lb ed="#L" n="137" break="no"/>lis de corpore exibit. Si ergo aliquis de hac vita exit cum veniali, 
+      <lb ed="#L" n="138"/>in iudicio apparebit cum veniali, &amp; ita non purgabitur. Ad idem 
+      <lb ed="#L" n="139"/>est illud quod dicit glossa super illud primae Canonicae Io. 
+      quin<lb ed="#L" n="140" break="no"/>to. Est peccatum ad mortem. quod in hac vita non corrigitur, 
+      <lb ed="#L" n="141"/>frustra post hanc vitam venia postulatur. 
+      </p>
+            <p xml:id="jsnvu6-e252410-d1e154">
+               <lb ed="#L" n="142"/>
+               <!--3--> IN contrarium est Grego. quarto Daniel. Et August. in 
+      li<lb ed="#L" n="143" break="no"/>tera pertractans illud Apostoli 1. Corinthiorum 3. Si quis aedi 
+      <lb ed="#L" n="144"/>ficat lignum, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e252410-d1e165">
+               <lb ed="#L" n="145"/>
+               <!--4--> RESPONSIO. Quibusdam visum fuit quod nullum 
+      <lb ed="#L" n="146"/>peccatum etiam veniale remittitur post hâc vitam, quorum 
+      ra<lb ed="#L" n="147" break="no"/>tio fuit: quia in fine vitae aut poenitet hominem de peccato 
+      venia<lb ed="#L" n="148" break="no"/>li, aut non, si poenitet, culpa remittitur ei &amp; poena in purgatorio 
+      <lb ed="#L" n="149"/>soluitur. Si vero non poenitet peccat mortaliter (vt dicunt) quia 
+      <lb ed="#L" n="150"/>cum culpa venialis retardet a consecutione gloriae &amp; post mortem 
+      <lb ed="#L" n="151"/>tempus sit perueniendi ad gloriam, qui de culpa veniali tunc non 
+      poe<lb ed="#L" n="152" break="no"/>nitet, videtur diligere retardationem suae gloriae: hoc autem 
+      vi<lb ed="#L" n="153" break="no"/>detur esse contra charitatem qua summe debemus velle frui Deo 
+      <lb ed="#L" n="154"/>ergo tunc peccat mortaliter. Sed istud non valet, quia contingi? 
+      ali<lb ed="#L" n="155" break="no"/>quem in charitate existentem cum multi venialibus obdormire, 
+      <lb ed="#L" n="156"/>&amp; dormiendo mori: in tali autem non poenitere de peccato 
+      venia<lb ed="#L" n="157" break="no"/>li nullum nouum peccatum est, cum pro tunc non fit in potestate 
+      <lb ed="#L" n="158"/>eius paenitere, ergo aut talis damnabitur, aut saluabitur: non 
+      dam<lb ed="#L" n="159" break="no"/>nabitur cum sit in charitate, nec saluabitur nisi dimissa culpa 
+      ve<lb ed="#L" n="160" break="no"/>niali quam secum portauit, ergo necesse est qod culpa venialis post 
+      <!--00686.xml-->
+      <pb ed="#L" n="306-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>hanc vitam remittit possit: nec ratio aliorum cogit, quia in 
+      fi<lb ed="#L" n="2" break="no"/>ne non poenitet a peccato veniali, aut quia de eo non recolit, au 
+      <lb ed="#L" n="3"/>si de eo recolit, non oportet quod peccet mortaliter. Et quod 
+      <lb ed="#L" n="4"/>probatur quod talis videtur velle dilationem suae gloriae, non 
+      <lb ed="#L" n="5"/>est verum: quia etsi dilatio gloriae sequatur ad commissionem 
+      <lb ed="#L" n="6"/>culpae venialis, non tamen oportet quod sit volita, vel etiam 
+      co<lb ed="#L" n="7" break="no"/>gitata. Item nec propter hoc differtur gloria, quia in 
+      purgato<lb ed="#L" n="8" break="no"/>rio simul cum solutione poenae potest culpa dimitti: &amp; ita 
+      tan<lb ed="#L" n="9" break="no"/>tum retardat sola poena, quantum simul poena &amp; culpa. 
+      Dicen<lb ed="#L" n="10" break="no"/>dum est ergo aliter, videndo primo quid sit peccatum dimitti 
+      <lb ed="#L" n="11"/>quo ad culpam. Et secundo videbitur quae culpa possit dimitti 
+      <lb ed="#L" n="12"/>post hanc vitam. 
+      </p>
+            <p xml:id="jsnvu6-e252410-d1e237">
+               <lb ed="#L" n="13"/>
+               <!--5.--> Quantum ad primum sciendum est quod in peccato saltem 
+      <lb ed="#L" n="14"/>mortali sunt tria (vt patuit supra distinct. 16.) scilicet de 
+      ordi<lb ed="#L" n="15" break="no"/>natio actus, in qua consistit macula (sicut in deordinatione 
+      <lb ed="#L" n="16"/>membri corporalis consistit turpitudo corporis) priuatio gratiae 
+      <lb ed="#L" n="17"/>quae dicitur offensa, &amp; reatus poenae, haec autem sunt in 
+      pecca<lb ed="#L" n="18" break="no"/>to veniali praeter priuationem gratiae: dicitur ergo peccatum 
+      <lb ed="#L" n="19"/>remitti quo ad culpam vel maculam quando reordinatur actus 
+      <lb ed="#L" n="20"/>voluntatis per debitam displicentiam quoad offensam quando 
+      <lb ed="#L" n="21"/>restituitur gratia: sed quo ad reatum poenae quando poena vel 
+      <lb ed="#L" n="22"/>condonatur vel soluitur. 
+      </p>
+            <p xml:id="jsnvu6-e252410-d1e263">
+               <lb ed="#L" n="23"/>
+               <!--6--> Dicendum igitur quo ad secundum, quod culpa mortalis 
+      <lb ed="#L" n="24"/>nullo modo potest dimitti post hanc vitam, nec venialis si sit 
+      <lb ed="#L" n="25"/>cum mortali: venialis tamen si sit sine mortali potest post hanc 
+      <lb ed="#L" n="26"/>vitam dimitti. Primum patet sic: voluntas in malo obstinata non 
+      <lb ed="#L" n="27"/>potest in actu suo reordinari, ita vt velit bonum &amp; bene, sed ve 
+      <lb ed="#L" n="28"/>luntas decedentis cum peccato mortali est in malo obstinata, 
+      <lb ed="#L" n="29"/>tam in hominibus quam in angelis, vt communiter ponunt 
+      Do<lb ed="#L" n="30" break="no"/>ctores, ergo non potest reordinari, ita vt velit bonu &amp; bene: sed 
+      <lb ed="#L" n="31"/>aliter non dimittitur peccatum quo ad culpam, nisi quia volun 
+      <lb ed="#L" n="32"/>tas reordinatur, ergo &amp;c. Et quia aliqui dicunt quod voluntas 
+      <lb ed="#L" n="33"/>damnatorum hominum &amp; angelorum potest velle bonum 
+      mo<lb ed="#L" n="34" break="no"/>ris ex genere, &amp; ex circunstantiis, licet tale velle non possit esse 
+      <lb ed="#L" n="35"/>meritorium propter statum in quo sunt, vt tactum fuit libro 3 
+      <lb ed="#L" n="36"/>ideo adducenda est alia ratio talis: ille qui est in suo fine &amp; 
+      ter<lb ed="#L" n="37" break="no"/>mino non potest facere aliquid quod ordinetur ad consecutio 
+      <lb ed="#L" n="38"/>nem finis vel termini contrarij, sed decedentes in mortali 
+      sta<lb ed="#L" n="39" break="no"/>tim sunt in suo fine &amp; termino, scilicet in inferno, qui est 
+      extre<lb ed="#L" n="40" break="no"/>mus terminus damnatorum, sicut paradisus extremus 
+      termi<lb ed="#L" n="41" break="no"/>nus bonorum, ergo non possunt facere aliquid quod ordinetur 
+      <lb ed="#L" n="42"/>ad consecutionem finis, sed dimissio culpae ad hoc ordinatur, 
+      <lb ed="#L" n="43"/>ergo &amp;c. Ratio secundi est: quia ad dimissionem culpae 
+      venia<lb ed="#L" n="44" break="no"/>lis sufficit reordinatio voluntatis per debitam displicentiam 
+      <lb ed="#L" n="45"/>&amp; hanc possent habere existentes in purgatorio, quum non sint 
+      <lb ed="#L" n="46"/>obstinati in malo, sed sunt in charitate, nec sunt totaliter in 
+      <lb ed="#L" n="47"/>termino, sed citra, ergo in eis potest remitti peccatum veniale 
+      <lb ed="#L" n="48"/>quo ad culpam. 
+</p>
+            <p xml:id="jsnvu6-e252410-d1e324">
+               <lb ed="#L" n="49"/>Ad primum argumentum dicendum quod facilius est 
+      pec<lb ed="#L" n="50" break="no"/>care quam resurgere a peccato, quandiu liberum arbitrium fle 
+      <lb ed="#L" n="51"/>xibile habemus ad vtrunque: sed quando iam confirmatum est 
+      <lb ed="#L" n="52"/>in bono, vt est in illis qui sunt iam in purgatorio, impossibile est 
+      <lb ed="#L" n="53"/>peccare: sed facile est peccatum detestari, quum hoc sit 
+      bo<lb ed="#L" n="54" break="no"/>num, in qua detestatione consistit reordinatio voluntatis, &amp; 
+      <lb ed="#L" n="55"/>dimissio peccati venialis quo ad culpam. 
+      </p>
+            <p xml:id="jsnvu6-e252410-d1e342">
+               <lb ed="#L" n="56"/>
+               <!--8--> Ad secundum dicendum, quod dictum Gregorij 
+      intelligen<lb ed="#L" n="57" break="no"/>dum est de qualitate in qua consistit status, quae non mutatur 
+      ni<lb ed="#L" n="58" break="no"/>si mutetur status, &amp; talis est gratia vel culpa mortalis: qualis 
+      <lb ed="#L" n="59"/>enim quis exit de corpore, talis in iudicio apparebit secundum 
+      <lb ed="#L" n="60"/>has qualitates. Non autem est intelligendum de ea quae non 
+      mu<lb ed="#L" n="61" break="no"/>tat statum, vt est culpa venialis. Peridem patet ad glossam illam 
+      <lb ed="#L" n="62"/>quae intelligenda est de peccato mortali, sicut &amp; textus quem 
+      ex<lb ed="#L" n="63" break="no"/>ponit, qui expresse loquitur de peccato ad mortem quod non 
+      <lb ed="#L" n="64"/>potest esse veniale. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

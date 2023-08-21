@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="33-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e618"><!-- l1d8p2q4 -->
+            <head xml:id="jsnvu6-d1e618-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e618-Hd1e103" type="question-title">Utrum sola materia sit ratio recipiendi quantitatem, vel sola forma vel compositum</head>
+            <p xml:id="jsnvu6-d1e618-d1e106">
+               <lb ed="#L" n="48"/>QUAESTIO QVARTA. 
+      <lb ed="#L" n="49"/>Quid est ratio recipiendi quantitatem an 
+      <lb ed="#L" n="50"/>materia an forma.
+    </p>
+            <p xml:id="jsnvu6-d1e618-d1e115">
+               <lb ed="#L" n="51"/>DEINDE quaeritur de hoc quod suppositum es 
+      <lb ed="#L" n="52"/>(videlicet) vtrum sola materia sit ratio 
+      recipien<lb ed="#L" n="53" break="no"/>di quantitatem, vel sola forma, vel totum composi 
+      <lb ed="#L" n="54"/>tum. Et arguitur quod sola materia, quia si forma 
+      <lb ed="#L" n="55"/>vel totum compositum ratione vtriusque partis 
+      <lb ed="#L" n="56"/>esset immediatum receptiuum quantitatis, sequeretur quod 
+      <lb ed="#L" n="57"/>anima rationalis esset quanta saltem per accidens, sed hoc es 
+      <lb ed="#L" n="58"/>falsum (vt patet ex praecedente quaestione) ergo &amp; illud ex quo 
+      <lb ed="#L" n="59"/>sequitur. probatio consequentiae, quia immediatum 
+      recepti<lb ed="#L" n="60" break="no"/>uum quantitatis oportet esse quantum, saltem per accidens 
+      <lb ed="#L" n="61"/>sed supposita vnitate forme in homine anima est immediatun 
+      <lb ed="#L" n="62"/>receptiuum quantitatis, vel totale si sola forma sit immediata 
+      <lb ed="#L" n="63"/>ratio receptiua quantitatis, vt partiale si totum compositum sit 
+      <lb ed="#L" n="64"/>immediate receptiuum ratione vtriusque partis, ergo oporteret 
+      <lb ed="#L" n="65"/>psam esse quantam saltem per accidens. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e150">
+               <lb ed="#L" n="66"/>
+               <!--2--> Item quaedam accidentia sunt quae conueniunt supposito 
+      <lb ed="#L" n="67"/>ratione solius formae; sicut homini conuenit intelligere 
+      ra<lb ed="#L" n="68" break="no"/>tione solius animae: ergo pari ratione aliqua accidentia 
+      con<lb ed="#L" n="69" break="no"/>ueniunt composito ratione solius materiae, sed tale accidens 
+      <lb ed="#L" n="70"/>maxime videtur esse quantitas quae est primum accidens inter 
+      <lb ed="#L" n="71"/>accidentia corporalia: ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e618-d1e169">
+               <lb ed="#L" n="72"/>IN CONTRARIVM est quod dicit Aristoteles 
+      <lb ed="#L" n="73"/>in fine primi Physicorum, quod materia cum forma est causa 
+      <lb ed="#L" n="74"/>omnium accidentium quae sunt in ea sicut mater (hoc est 
+      sub<lb ed="#L" n="75" break="no"/>iectiue &amp; receptiue) ergo sola materia nullius accidentis est 
+      <lb ed="#L" n="76"/>subiectum, sed cum forma. 
+    </p>
+            <p xml:id="jsnvu6-d1e618-d1e182">
+               <lb ed="#L" n="77"/>RESPONSIO, ad quaestionem istam: dicunt quidam 
+      <lb ed="#L" n="78"/>quod sicut ex parte agentis est considerare id quod agit &amp; 
+      ra<lb ed="#L" n="79" break="no"/>tionem agendi, sic ex parte patientis seu recipientis est 
+      con<lb ed="#L" n="80" break="no"/>siderare illud quod recipit &amp; rationem recipiendi: dicunt 
+      er<lb ed="#L" n="81" break="no"/>goquod illud quod recipit quantitatem est ens actu, videli¬ 
+      <!--00131.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>cet compositum ex materia &amp; forma: sed ratio recipiendi est 
+      <lb ed="#L" n="83"/>sola materia, tamen ordine naturae praeexigitur forma 
+      sub<lb ed="#L" n="84" break="no"/>stantialis in materia ante quantitatem, non quidem vt ratio 
+      <lb ed="#L" n="85"/>recipiendi quantitatem, sed vt terminans dependentiam 
+      ma<lb ed="#L" n="86" break="no"/>teriae quae non potest actu esse, nisi per formam substantialem, 
+      <lb ed="#L" n="87"/>&amp; per hoc nituntur saluare quod anima rationalis non sit 
+      quan<lb ed="#L" n="88" break="no"/>ta, dato quod in homine non sit alia forma praeter eam, 
+      dicen<lb ed="#L" n="89" break="no"/>do quod subiectum quantitatis tam illud quod recipit, scilice 
+      <lb ed="#L" n="90"/>compositum quam illud quod est ratio recipiendi, scilicet 
+      ma<lb ed="#L" n="91" break="no"/>teria est quantum: sed anima &amp; vniuersaliter quaecunque 
+      for<lb ed="#L" n="92" break="no"/>ma substantialis, nec est subiectum quod recipit (quia illud es 
+      <lb ed="#L" n="93"/>compositum) nec ratio recipiendi, quia illud est sola materia 
+      <lb ed="#L" n="94"/>quamuis forma sit pars compositi &amp; praeexistat in materia 
+      an<lb ed="#L" n="95" break="no"/>te quantitatem ordine naturae vt terminans eius 
+      dependen<lb ed="#L" n="96" break="no"/>tiam, &amp; non vt ratio receptiua quantitatis, propter quod non 
+      <lb ed="#L" n="97"/>oportet eam extendi extensione quantitatis. Ad autoritatem 
+      <lb ed="#L" n="98"/>Aristotelis quae videtur in oppositum, dicunt quod 
+      intelligi<lb ed="#L" n="99" break="no"/>tur sic, videlicet quod materia cum forma, id est, compositum 
+      <lb ed="#L" n="100"/>quod includit vtrunque, est subiectum quod recipit 
+      quanti<lb ed="#L" n="101" break="no"/>tatem &amp; quodcunque accidens Et iterum prius ordine 
+      natu<lb ed="#L" n="102" break="no"/>rae est materia cum forma substantiali quam recipiat 
+      quod<lb ed="#L" n="103" break="no"/>cunque accidens propter dependentiam quam habet ad 
+      for<lb ed="#L" n="104" break="no"/>mam substantialem: &amp; tamen forma non est ratio receptionis 
+      <lb ed="#L" n="105"/>quantitatis, sed sola materia: propter quod non oportet eam 
+      <lb ed="#L" n="106"/>esse quantam sicut materiam. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e254">
+               <lb ed="#L" n="107"/>
+               <!--5--> Istud autem non placet aliis, &amp; merito propter multa. 
+      Pri<lb ed="#L" n="108" break="no"/>mo quia haec adinuentio nulla ratione fulcitur ab istis, sed ess 
+      <lb ed="#L" n="109"/>mere conficta ad euadendum difficultatem prius positam, quia 
+      <lb ed="#L" n="110"/>non apparet eis quomodo possint saluare animam non esse 
+      <lb ed="#L" n="111"/>quantam nisi praedicto modo. Secundo, quia sic euadendo 
+      <lb ed="#L" n="112"/>praedictum inconueniens incidunt in majus, quia quod dicunt 
+      <lb ed="#L" n="113"/>de anima quod non sit quanta per accidens, necessario habent 
+      <lb ed="#L" n="114"/>dicere de omni forma substantiali per eandem rationem, quod 
+      <lb ed="#L" n="115"/>patet sic: illud quod non est ratio recipiendi quantitatem nec 
+      <lb ed="#L" n="116"/>quantitas est ratio recipiendi ipsum, nullo modo est quantum 
+      <lb ed="#L" n="117"/>(haec enim est ratio propter quam dicunt animani non esse 
+      <lb ed="#L" n="118"/>quantam) sed omnis forma substantialis est huiusmodi, quia 
+      <lb ed="#L" n="119"/>non est ratio recipiendi quantitatem, sed sola materia (vt isti 
+      <lb ed="#L" n="120"/>dicunt) nec quantitas est ratio recipiendi aliquam formam 
+      <lb ed="#L" n="121"/>substantialem, quia secundum eosdem forma substantialis 
+      <lb ed="#L" n="122"/>praecedit quantitatem in materia, ergo nulla forma substantialis 
+      <lb ed="#L" n="123"/>erit quanta per accidens, sicut nec anima humana: hoc autem 
+      <lb ed="#L" n="124"/>est manifeste falsum, quia quod diuiditur diuisione quantitatis 
+      <lb ed="#L" n="125"/>(hoc est in partes eiusdem rationis) extenditur extensione 
+      <lb ed="#L" n="126"/>quantitatiua, quia diuidi in partes eiusdem rationis est de 
+      ra<lb ed="#L" n="127" break="no"/>tione diffinitiua quanti, vt patet quinto Metaphysicae, sed 
+      for<lb ed="#L" n="128" break="no"/>mae corporum inanimatorum, necnon &amp; plantarum &amp; 
+      quo<lb ed="#L" n="129" break="no"/>rundam animalium diuiduntur tali diuisione, vt sensus docet,, 
+      <lb ed="#L" n="130"/>&amp; Aristoteles 2. de Anima dicit, quod plantae &amp; quaedam 
+      ani<lb ed="#L" n="131" break="no"/>malia decisa viuunt tanquam anima in his existente in actu 
+      qui<lb ed="#L" n="132" break="no"/>dem vna, potentia vero plures: ergo extenduntur extensione 
+      <lb ed="#L" n="133"/>quantitatiua. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e317">
+               <lb ed="#L" n="134"/>
+               <!--6--> Ad hoc respondent praedicti dicentes quod formas alias ab 
+      <lb ed="#L" n="135"/>anima humana esse quantas, potest contingere, non ex hoc 
+      <lb ed="#L" n="136"/>quod sint ratio receptiua quantitatis vel econuerso, sed quia 
+      <lb ed="#L" n="137"/>sunt formae necessario dependentes a materia &amp; eductae de po 
+      <lb ed="#L" n="138"/>tentia materiae. Et ideo sequuntur conditionem materiae in 
+      <lb ed="#L" n="139"/>hoc quod est extendi. Non sic autem anima humana quae est 
+      <lb ed="#L" n="140"/>separabilis am materia: nec est educta de potentia materiae. Istud 
+      <lb ed="#L" n="141"/>autem non videtur sufficienter dictum: quia quantumcunque 
+      <lb ed="#L" n="142"/>forma dependeat a materia, nunquam tamen propter hoc 
+      affi<lb ed="#L" n="143" break="no"/>citur conditionibus vel dispositionibus materiae quae non sunt 
+      <lb ed="#L" n="144"/>ratio receptiua formae, nec econuerso, verbi gratia, Sapor 
+      de<lb ed="#L" n="145" break="no"/>pendet a materia vel a subiecto actu ente tanquam a ratione 
+      <lb ed="#L" n="146"/>receptiua sine qua nullo modo potest esse sapor, &amp; idem est 
+      <lb ed="#L" n="147"/>de colore, sed quia vnum non est ratio recipiendi aliud, vel 
+      <lb ed="#L" n="148"/>econuerso vnum non afficitur alio, vt sit verum dicere quod 
+      <lb ed="#L" n="149"/>sapor sit albus in lacte vel albedo sapida, quamuis in concreto 
+      <lb ed="#L" n="150"/>accipiendo vtrumque sit verum dicere quod album sit 
+      sapi<lb ed="#L" n="151" break="no"/>dum, &amp; quod sapidum sit album propter identitatem subiecti 
+      <lb ed="#L" n="152"/>quod importatur per concretum vtrumque. Et similiter 
+      vide<lb ed="#L" n="153" break="no"/>tur si forma substantialis non sit ratio receptiua quantitatis 
+      <lb ed="#L" n="154"/>nec econuerso, vt isti dicunt, quantumcunque ipsa dependeat 
+      <lb ed="#L" n="155"/>a materia, nunquam tamen propter hoc afficietur quantitate, 
+      <lb ed="#L" n="156"/>ita quod ipsa sit realiter quanta, sicut nec sapor est realiter alo 
+      <lb ed="#L" n="157"/>bus. Talia enim non afficiunt se mutuo, quamuis afficiant idem 
+      <lb ed="#L" n="158"/>commune subiectum vt prius dictum fuit. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e376">
+               <lb ed="#L" n="159"/>
+               <!--7--> Tertio, quia illa adinuentio, scilicet quod materia sola sit 
+      <lb ed="#L" n="160"/>ratio recipiendi quantitatem est secundum se falsa; quod 
+      pa<lb ed="#L" n="161" break="no"/>tet primo, quia diuersitas actuum genere remoto differentium 
+      <lb ed="#L" n="162"/>requirit diuersitatem propriorum receptorum, sed forma 
+      sub<lb ed="#L" n="163" break="no"/>stantialis &amp; accidentalis sunt actus genere remoto differentes, 
+      <!--00132.xml-->
+      <pb ed="#L" n="33-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ergo requirunt diuersa propria receptiua, sed proprium &amp; im 
+      <lb ed="#L" n="2"/>mediatum receptiuum formae substantialis est sola materia, ei 
+      <lb ed="#L" n="3"/>go ipsa sola non est proprium &amp; immediatum receptiuum 
+      quan<lb ed="#L" n="4" break="no"/>titatis, Ad hoc respondetur dupliciter. Primo quia 
+      diuersita<lb ed="#L" n="5" break="no"/>actuum requirit diuersitatem recipientium accipiendo 
+      reci<lb ed="#L" n="6" break="no"/>piens pro eo quod recipit, sed non pro eo quod est ratio reci 
+      <lb ed="#L" n="7"/>piendi, &amp; sic est in proposito, quia, illud quod recipit 
+      substan<lb ed="#L" n="8" break="no"/>tiale in formam est sola materia, quod autem recipit forman 
+      <lb ed="#L" n="9"/>accidentalem est compositum, &amp; haec sunt diuersa, sed illud quod 
+      <lb ed="#L" n="10"/>est tota recipiendi vtrunque est vnum &amp; idem scilicet materi: 
+      <lb ed="#L" n="11"/>prima. Secundo respondetur sic, quia illud quod est receptiuum 
+      <lb ed="#L" n="12"/>talium diuersorum actuum non oportet quod sit aliud, &amp; aliud 
+      <lb ed="#L" n="13"/>sed potest esse idem aliter se habens, &amp; sic est in proposito, quia 
+      <lb ed="#L" n="14"/>materia secundum se recipit substantialem formam, sed 
+      acci<lb ed="#L" n="15" break="no"/>dentalem non recipit nisi terminata prius sua dependentia per 
+      <lb ed="#L" n="16"/>formam substantialem quamuis forma substantialis non sit 
+      ra<lb ed="#L" n="17" break="no"/>tio recipiendi accidentalem. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e435">
+               <lb ed="#L" n="18"/>
+               <!--8--> CONTRA primam responsionem arguitur, sic, ex 
+      di<lb ed="#L" n="19" break="no"/>cto eorum sicut ex parte agentis respectu actus procedentis al 
+      <lb ed="#L" n="20"/>agente est dare illud quod agit &amp; rationem agendi ita ex 
+      par<lb ed="#L" n="21" break="no"/>te recipientis respectu actus recepti est dare illud quod recipis 
+      <lb ed="#L" n="22"/>&amp; rationem recipiendi, sed diuersitas actuum procedentium al 
+      <lb ed="#L" n="23"/>agente magis arguit diuersitatem principiorum quae sunt 
+      ra<lb ed="#L" n="24" break="no"/>tiones agendi quam diuersitatem agentium, ergo diuersitas 
+      <lb ed="#L" n="25"/>actuum receptorum magis arguit diuersitatem rationum 
+      reci<lb ed="#L" n="26" break="no"/>piendi quam ipsorum recipientium. Cuius oppositum ipsi 
+      di<lb ed="#L" n="27" break="no"/>cunt. Minor patet, quia idem agens per diuersa principia qua 
+      <lb ed="#L" n="28"/>sunt rationes agendi producit diuersos actus. Et si in diuersis 
+      <lb ed="#L" n="29"/>agentibus esset vna &amp; eadem completa ratio agendi, vt in 
+      pa<lb ed="#L" n="30" break="no"/>tre &amp; in filio eadem vis spiratiua, idem esset actus non 
+      obstan<lb ed="#L" n="31" break="no"/>te agentium diuersitate. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e471">
+               <lb ed="#L" n="32"/>
+               <!--9--> Contra secundam responsionem arguitur sic. Illud per quod 
+      <lb ed="#L" n="33"/>materia se habet aliter &amp; aliter, aut facit aliquid ad rationem 
+      <lb ed="#L" n="34"/>receptiuam aut nihil. Si aliquid, ergo sola materia non est 
+      ra<lb ed="#L" n="35" break="no"/>tio recipiendi quantitatem, sed forma concurrit. Cuius 
+      oppo<lb ed="#L" n="36" break="no"/>fitum ipsi dicunt. Si nihil, ergo nihil variat in ratione receptiua 
+      <lb ed="#L" n="37"/>vt receptiua est, &amp; sic per illud ratio receptiua vt ratio 
+      rece<lb ed="#L" n="38" break="no"/>ptiua non se habet aliter &amp; aliter, quod tamen ipsi innuunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e491">
+               <lb ed="#L" n="39"/>
+               <!--10--> Quarto principaliter probatur quod sola materia non sit 
+      <lb ed="#L" n="40"/>ratio receptiua quantitatis, sed totius formae vel totum 
+      com<lb ed="#L" n="41" break="no"/>positum ratione formae aeque vel plus sicut ratione materiae, 
+      <lb ed="#L" n="42"/>quia sicut se habet ens in potentia simpliciter ad recipiendum 
+      <lb ed="#L" n="43"/>formam substantialem quae est actus simpliciter, sic se habet in 
+      <lb ed="#L" n="44"/>potentia secundum quid ad recipiendum formam accidentale 
+      <lb ed="#L" n="45"/>quae est actus secundum quid, quicquid enim recipit actum 
+      ali<lb ed="#L" n="46" break="no"/>oquem, recipit ipsum, quia est in potentia passiua ad ipsum 
+      rec<lb ed="#L" n="47" break="no"/>pit ipsum &amp; secundum conditionem potentiae est conditio actus 
+      <lb ed="#L" n="48"/>quia ratio potentiae sumitur ex actu, sed ens in potentia 
+      sim<lb ed="#L" n="49" break="no"/>pliciter per id quod est in potentia simpliciter habet rationem 
+      <lb ed="#L" n="50"/>recipiendi formam substantialem quae est actus simpliciter, 
+      er<lb ed="#L" n="51" break="no"/>go ens in potentia secundum quid per id quod est in potentia 
+      <lb ed="#L" n="52"/>secundum quid &amp; non simpliciter habet rationem recipiendi 
+      <lb ed="#L" n="53"/>formam accidentalem quae est actus secundum quid, sed illud 
+      <lb ed="#L" n="54"/>per quod compositum est in potentia secundum quid non est 
+      <lb ed="#L" n="55"/>materia sola, quia ipsa est pura potentia simpliciter, ergo ipsa 
+      <lb ed="#L" n="56"/>sola non est ratio recipiendi quantitatem vel quancunque 
+      for<lb ed="#L" n="57" break="no"/>mam accidentalem, sed forma vel vtrunque simul. 
+</p>
+            <p xml:id="jsnvu6-d1e618-d1e537">
+               <lb ed="#L" n="58"/>
+               <!--11--> QVINTO probatur idem sic, effectus communis 
+      requi<lb ed="#L" n="59" break="no"/>rit causam communem, sed quantitas communiter reperitur 
+      <lb ed="#L" n="60"/>in homine &amp; in omnibus generabilibus, necnon &amp; in caelo, 
+      er<lb ed="#L" n="61" break="no"/>go habet in eis causam receptiuam communem, sed illa non 
+      <lb ed="#L" n="62"/>potest esse materia secundum commentatorem &amp; multos alios 
+      <lb ed="#L" n="63"/>cum nulla materia sit in caelo, ergo sola materia non est ratic 
+      <lb ed="#L" n="64"/>receptiua quantitatis. Ad hoc respondetur, primo 
+      negande<lb ed="#L" n="65" break="no"/>quod assumitur, videlicet quod materia non sit in caelo. Secun 
+      <lb ed="#L" n="66"/>do concesso quod in caelo non sit materia, adhuc non sequitur 
+      <lb ed="#L" n="67"/>quod in homine sola materia non sit ratio receptiua quantita 
+      <lb ed="#L" n="68"/>tis. Et cum probatur quod imo, quia communis effectus 
+      requi<lb ed="#L" n="69" break="no"/>rit causam communem, dicunt quod verum est, sed ista 
+      com<lb ed="#L" n="70" break="no"/>munitas non semper est secundum eandem rationem, &amp; hoc 
+      <lb ed="#L" n="71"/>necessarium est in proposito si ratio receptiua quantitatis in 
+      <lb ed="#L" n="72"/>caelo sit sola forma: &amp; in homine compositum ex materia &amp; 
+      <lb ed="#L" n="73"/>forma, quia ista non sunt eiusdem rationis in speciali, &amp; 
+      suffi<lb ed="#L" n="74" break="no"/>cit quod conueniant in aliquo communi analogo in habendo 
+      <lb ed="#L" n="75"/>similem proportionem ad habendum partes quantitatiuas. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e581">
+               <lb ed="#L" n="76"/>
+               <!--12--> Contra primam responsionem nihil arguo, quia vana est 
+      <lb ed="#L" n="77"/>nisi probetur quod in caelo non sit materia, quod probare esset 
+      <lb ed="#L" n="78"/>disgredi a proposito. Sed secunda responsio si bene videatur, 
+      <lb ed="#L" n="79"/>concludit oppositum eius quod isti intendunt: quia quamui: 
+      <lb ed="#L" n="80"/>non oporteat rationem receptiuam communis effectus vel 
+      pas<lb ed="#L" n="81" break="no"/>sionis esse vnius rationis, in speciali, oportet tamen quod in 
+      o<lb ed="#L" n="82" break="no"/>inibus receptiuis inueniatur conditio per quam sunt receptiua, 
+      <!--00132.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>illa autem conditio respectu formae accidentalis (quae est actus 
+      <lb ed="#L" n="84"/>secundum quid) est quid receptiuum secundum rationem 
+      reci<lb ed="#L" n="85" break="no"/>piendi in potentia secundum quid &amp; non solum in potentia 
+      sim<lb ed="#L" n="86" break="no"/>pliciter sicut est materia prima, propter quod si caelum est 
+      ma<lb ed="#L" n="87" break="no"/>teria simplex absque materia, nihilominus habet quantitatem 
+      <lb ed="#L" n="88"/>quia substantia eius ens actu est in potentia secundum quid ad 
+      <lb ed="#L" n="89"/>talem actum. Non potest ergo dici quod sola materia quae non 
+      <lb ed="#L" n="90"/>habet hanc conditionem sit in quocunque ratio receptiua 
+      <lb ed="#L" n="91"/>quantitatis. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e625">
+               <lb ed="#L" n="92"/>
+               <!--13--> Sexto, quia secundum istos &amp; secundum veritatem necesse 
+      <lb ed="#L" n="93"/>est quod forma substantialis ordine naturae praecedat 
+      quanti<lb ed="#L" n="94" break="no"/>tatem in materia: haec autem necessitas non est totaliter ex par 
+      <lb ed="#L" n="95"/>te materiae vt terminetur eius dependentia (vt isti dicunt) sed 
+      <lb ed="#L" n="96"/>est aliqualiter ex parte quantitatis quae requirit suum 
+      susce<lb ed="#L" n="97" break="no"/>ptiuum sic informatum, &amp; sic dispositum, &amp; sic illa dispositio 
+      <lb ed="#L" n="98"/>per se pertinet ad rationem receptiuam quantitatis: quod 
+      pa<lb ed="#L" n="99" break="no"/>tet sic. Illud cuius actualis entitas dependet ex actuali entitate 
+      <lb ed="#L" n="100"/>alterius subiectiue (&amp; non econuerso) requirit per se in 
+      subie<lb ed="#L" n="101" break="no"/>cto receptiuo, vt receptiuum est, perfectiorem entitatem actua 
+      <lb ed="#L" n="102"/>lem quam sit sua actualis entitas: sed quantitas &amp; omne 
+      acci<lb ed="#L" n="103" break="no"/>dens est huiusmodi: quia vt habetur 4. Metaphysicae &amp; de si 
+      <lb ed="#L" n="104"/>notum est ex ratione accidentis, accidentia non sunt entia nisi 
+      <lb ed="#L" n="105"/>quia entis subiectiue: vt ibidem exemplificatur: ergo quantitas 
+      <lb ed="#L" n="106"/>&amp; omne accidens requirit per se in suo subiecto receptiuo vt 
+      <lb ed="#L" n="107"/>receptiuum perfectiorem entitatem actualem quam sit 
+      pro<lb ed="#L" n="108" break="no"/>pria actualis entitas. Pura autem entitas potentialis non est 
+      per<lb ed="#L" n="109" break="no"/>fectior actuali: ergo aliquid actuale est de ratione receptiua 
+      <lb ed="#L" n="110"/>cuiuslibet accidentis, &amp; non sola materia quae est pura potentia 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e671">
+               <lb ed="#L" n="111"/>
+               <!--14--> Septimo quia essentialis dependet actus omnis secundum 
+      <lb ed="#L" n="112"/>quid ab actu simpliciter quam vnus actus secundum quid ab 
+      <lb ed="#L" n="113"/>alio actu secundum quid. Sed vnus actus secundum quid puta 
+      <lb ed="#L" n="114"/>quantitas per se est ratio receptiua quorundam aliorum 
+      acciden<lb ed="#L" n="115" break="no"/>tium (puta coloris &amp; figurae) ergo actus simpliciter qui est 
+      for<lb ed="#L" n="116" break="no"/>ma substantialis est per se ratio receptiua omnium actuum 
+      se<lb ed="#L" n="117" break="no"/>cundum quid siue omnium accidentium quamuis ordine 
+      quo<lb ed="#L" n="118" break="no"/>dam propter ordinem quem habent inter se accidentia: quia 
+      <lb ed="#L" n="119"/>forte omnia accidentia corporalia praesupponunt quantitatem, 
+      <lb ed="#L" n="120"/>&amp; ea mediante recipiuntur in toto composito ratione totius &amp; 
+      <lb ed="#L" n="121"/>non alterius partis solum vt infra magis explicabitur. Ex his &amp; 
+      <lb ed="#L" n="122"/>quibusdam aliis quae possunt adduci puto quod falsum sit 
+      dice<lb ed="#L" n="123" break="no"/>re quod sola materia sit in homine vel quibuscunque 
+      genera<lb ed="#L" n="124" break="no"/>bilibus &amp; corruptibilibus ratio receptiua quantitatis: nec puto 
+      <lb ed="#L" n="125"/>quod ille modus fuerit inuentus, nisi propter fugam illius 
+      in<lb ed="#L" n="126" break="no"/>conuenientis, ne scilicet sequeretur animam hominis esse 
+      quan<lb ed="#L" n="127" break="no"/>tam vel extensam. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e714">
+               <lb ed="#L" n="128"/>
+               <!--15.--> Dicendum est ergo, quod ratio recipiendi quantitatem in 
+      <lb ed="#L" n="129"/>quocunque composito ex materia &amp; forma non est sola 
+      mate<lb ed="#L" n="130" break="no"/>ria, sed totum compositum ratione vtriusque partis: nec 
+      opor<lb ed="#L" n="131" break="no"/>tet propter hoc animam humanam esse quantam seu extensam 
+      <lb ed="#L" n="132"/>per accidens. Ad quod sciendum, distinguendum est de 
+      ratio<lb ed="#L" n="133" break="no"/>ne receptiua hoc modo, videlicet quod quaedam est totalis, 
+      quae<lb ed="#L" n="134" break="no"/>dam vero partialis. Totalis est quae in suo gradu non requirit 
+      <lb ed="#L" n="135"/>concausam, verbi gratia, in gradu immediatae receptionis 
+      co<lb ed="#L" n="136" break="no"/>lorum quantitas est totalis causa, quia non requirit aliquid 
+      <lb ed="#L" n="137"/>aliud quod sit cum ipsa immediata ratio recipiendi colorem, 
+      <lb ed="#L" n="138"/>quamuis quantitas supponit aliud quod receptiuum est tam 
+      <lb ed="#L" n="139"/>quantitatis quam coloris scilicet subiectum, sed illud respectu 
+      <lb ed="#L" n="140"/>receptionis coloris non est in eodem gradu recipiendi colorem, 
+      <lb ed="#L" n="141"/>sicut quantitas, quia illud est remotum receptiuum, quantitas 
+      <lb ed="#L" n="142"/>vero propinquum. Partialis autem causa est quae in suo gradu 
+      <lb ed="#L" n="143"/>coexigit aliud, vt concausam: sicut anima est partialis causa 
+      re<lb ed="#L" n="144" break="no"/>cipiendi suas potentias organicas, quia cooxigit animam, nec est 
+      <lb ed="#L" n="145"/>imaginandum quod potentiae organicae habeant pro 
+      imme<lb ed="#L" n="146" break="no"/>diato &amp; totali receptiuo animam &amp; materiam pro remoto, 
+      si<lb ed="#L" n="147" break="no"/>cut dictum est de colore respectu quantitatis &amp; subiecti: imo 
+      <lb ed="#L" n="148"/>habent pro immediato subiecto &amp; pro immediata ratione 
+      re<lb ed="#L" n="149" break="no"/>ceptiua compositum ex materia &amp; forma, seu ex corpore &amp; 
+      ani<lb ed="#L" n="150" break="no"/>ma, ita quod haec duo sunt immediate causae partiales 
+      supplen<lb ed="#L" n="151" break="no"/>tes vicem vnius totalis causae recipientis immediate praedictas 
+      <lb ed="#L" n="152"/>potentias. Et quod ita sit patet. Nam si separaretur quantitas a 
+      <lb ed="#L" n="153"/>substantia (sicut fit in sacramento altaris) in quantitate 
+      separa<lb ed="#L" n="154" break="no"/>ta remanebit color, quia quantitas est totale receptiuum eiu 
+      <lb ed="#L" n="155"/>immediatum. Si autem separetur anima a corpore, in animi 
+      <lb ed="#L" n="156"/>separata non remanebunt potentiae sensitiuae, nec in corpore, 
+      <lb ed="#L" n="157"/>quia neutrum fuit totalis causa receptiua talium potentiarum. 
+      <lb ed="#L" n="158"/>sed quaelibet fuit partialis, &amp; sui coniunctione supplebant 
+      vi<lb ed="#L" n="159" break="no"/>cem vnius totali causae. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e788">
+               <lb ed="#L" n="160"/>
+               <!--16--> Ex hoc ad propositum dicendum est, quod sola materia ni 
+      <lb ed="#L" n="161"/>est causa totalis seu ratio receptiua quantitatis, nec mediata nec 
+      <lb ed="#L" n="162"/>immediata. Non iminediata (non solum propter rationes prius 
+      <lb ed="#L" n="163"/>positas) sed quia materia est pura potentia in gonere 
+      substan<lb ed="#L" n="164" break="no"/>tiae. Et ideo non est per sae &amp; primo seu immediate receptiua 
+      <!--00133.xml-->
+      <pb ed="#L" n="34-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>rium actus substantialis qui est sui generis &amp; cum quo facit vnum 
+      <lb ed="#L" n="2"/>per se, cum omni autem alio actu facit vnum per accidens, 
+      <lb ed="#L" n="3"/>propter quod sicut ens per accidens supponit ens per se, sic 
+      <lb ed="#L" n="4"/>vnio materiae cum quantitate quae est aliquid vnum per 
+      acci<lb ed="#L" n="5" break="no"/>dens supponit per se vnionem materiae cum forma substantiali 
+      <lb ed="#L" n="6"/>quae est aliquid vnum per se: &amp; sic materia prima non est 
+      im<lb ed="#L" n="7" break="no"/>mediata causa. Item nec sola materia est totalis causa vel ratio 
+      <lb ed="#L" n="8"/>remota recipiendi quantitatem, quia tunc oporteret quod forma 
+      <lb ed="#L" n="9"/>substantialis esset totalis causa &amp; immediata recipiendi eam 
+      <lb ed="#L" n="10"/>cum inter materiam &amp; quantitatem non sit dare aliud medium 
+      <lb ed="#L" n="11"/>quam formam substantialem. Illud autem est falsum, quia tunc 
+      <lb ed="#L" n="12"/>si contingeret formam separari a materia vel naturaliter sicui 
+      <lb ed="#L" n="13"/>separatur anima, vel virtute diuina, tunc quantitas remanerei 
+      <lb ed="#L" n="14"/>in anima vel quaelibet forma substantialis separata, 
+      quemadmo<lb ed="#L" n="15" break="no"/>dum color remanet in quantitate separata in sacramento 
+      alta<lb ed="#L" n="16" break="no"/>ris. Illud autem est absurdum, quia tunc anima separaretur a co 
+      <lb ed="#L" n="17"/>pore cum quantitate corporis colore &amp; figura quenmadmodun 
+      <lb ed="#L" n="18"/>pingitur, quod nullus sapiens diceret. Relinquitur ergo quo 
+      <lb ed="#L" n="19"/>cum materia non sit totalis ratio recipiendi quantitatem ve 
+      <lb ed="#L" n="20"/>propinqua nec remota, nec forma similiter de qua statim 
+      pro<lb ed="#L" n="21" break="no"/>batum est quod non est totalis ratio propinqua seu 
+      immedia<lb ed="#L" n="22" break="no"/>ra: &amp; de se notum est quod non est totalis ratio prima &amp; reme 
+      <lb ed="#L" n="23"/>ta, quod quaelibet harum est partialis causa quae sui vnione ac 
+      <lb ed="#L" n="24"/>constitutione suppositi supplent vicem vnius totalis causae im 
+      <lb ed="#L" n="25"/>mediate receptiuae quantitatis. Ex hoc autem solo quod 
+      ali<lb ed="#L" n="26" break="no"/>quid est causa receptiua partialis quantitatis modo 
+      praedict<lb ed="#L" n="27" break="no"/>non est necesse ipsum esse quantum, sed solum aggregatum ex 
+      <lb ed="#L" n="28"/>partialibus causis: sicut ex hoc quod anima &amp; corpus sunt par 
+      <lb ed="#L" n="29"/>tiales causae receptiuae potentiae visiuae &amp; actus videndi, non es 
+      <lb ed="#L" n="30"/>necesse quod anima secundum se videat, vel quod corpus 
+      secun<lb ed="#L" n="31" break="no"/>dum se videat, sed solum aggregatum est quod recipit, &amp; est 
+      to<lb ed="#L" n="32" break="no"/>talis causa vel ratio receptiua. Et ideo ipsum solum necesse es 
+      <lb ed="#L" n="33"/>esse tale, puta quantum, vel videns &amp; non aliquam partialium 
+      <lb ed="#L" n="34"/>causarum secundum se, propter quod licet anima sit partialis 
+      <lb ed="#L" n="35"/>causa vel ratio recipiendi quantitatem, non est necesse ipsam 
+      <lb ed="#L" n="36"/>esse quantam, sed solum compositum. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e888">
+               <lb ed="#L" n="37"/>
+               <!--17--> Sed statim occurrit dubitatio, quia sicut anima est solum 
+      <lb ed="#L" n="38"/>partialis causa recipiendi quantitatem, ita quaelibet forma 
+      sub<lb ed="#L" n="39" break="no"/>stantialis nec non &amp; materia. Si ergo propter hoc non est 
+      ne<lb ed="#L" n="40" break="no"/>cesse animam esse quantam, non erit necesse quamcunque aliam 
+      <lb ed="#L" n="41"/>formam esse quantam nec etiam materiam. Cuius oppositum 
+      <lb ed="#L" n="42"/>est superius concessum, &amp; est secundum se notum. ad hoc 
+      di<lb ed="#L" n="43" break="no"/>cendum est quod ex hoc solo quod materia &amp; forma 
+      substan<lb ed="#L" n="44" break="no"/>tialis quaecunque sint causae partiales receptiuae quantitatis, nor 
+      <lb ed="#L" n="45"/>sequitur aliquam earum esse quantam, sed solum compositum, 
+      <lb ed="#L" n="46"/>nihiloninus tamen nil prohibet materiam &amp; aliquas forma 
+      <lb ed="#L" n="47"/>substantiales ex alia causa esse quantas in composito, &amp; non 
+      se<lb ed="#L" n="48" break="no"/>cundum se ex illa, scilicet causa quae dicta fuit in praecedenti 
+      <lb ed="#L" n="49"/>quaestione, quod omnis forma &amp; omnis res quae est pure &amp; 
+      sim<lb ed="#L" n="50" break="no"/>pliciter corporalis qualis est materia, &amp; omnis forma 
+      substan<lb ed="#L" n="51" break="no"/>tialis sub anima est capax passionis &amp; proprietatis quae est pe 
+      <lb ed="#L" n="52"/>se &amp; simpliciter &amp; inseparabiliter conditio corporeitatis quae 
+      <lb ed="#L" n="53"/>est quantitas, vt deductum fuit ibi. Ad hoc ergo quod aliquid si 
+      <lb ed="#L" n="54"/>quantum requiritur quod sit ratio receptiua quantitatis vel 
+      <lb ed="#L" n="55"/>econuerso. Et si sit ratio receptiua partialis solum adhuc 
+      exi<lb ed="#L" n="56" break="no"/>gitur quod sit res pure &amp; simpliciter corporalis modo prius expo 
+      <lb ed="#L" n="57"/>sito, quod conuenit materiae &amp; omnibus formis 
+      substantiali<lb ed="#L" n="58" break="no"/>bus praeter animam intellectiuam. 
+      </p>
+            <p xml:id="jsnvu6-d1e618-d1e940">
+               <lb ed="#L" n="59"/>
+               <!--18--> Ad rationes in oppositum dicendum est. ad primam, quod 
+      <lb ed="#L" n="60"/>ad hoc quod aliqua forma sit quanta per accidens non sufficit? 
+      <lb ed="#L" n="61"/>sit ratio receptiua quantitatis nisi esset totalis ratio quod 
+      nul<lb ed="#L" n="62" break="no"/>li formae competit: sed requiritur quod sit forma pure &amp; 
+      sim<lb ed="#L" n="63" break="no"/>pliciter corporalis quod non conuenit animae rationali quae es 
+      <lb ed="#L" n="64"/>a corpore separabilis. Ad secundum dicendum quod aliqua form: 
+      <lb ed="#L" n="65"/>substantialis potest esse totalis &amp; immediata ratio receptius 
+      <lb ed="#L" n="66"/>alicuius accidentis sicut anima rationalis est immediata ratio 
+      <lb ed="#L" n="67"/>receptiue intellectus &amp; voluntatis, quia cum forma sit 
+      secun<lb ed="#L" n="68" break="no"/>dum se actus quidam respectu materiae, potest tamen esse 
+      po<lb ed="#L" n="69" break="no"/>tentia, secundum quid respectu accidentis: sed materia cum si 
+      <lb ed="#L" n="70"/>potentia simpliciter, non potest secundum se esse totalis &amp; im 
+      <lb ed="#L" n="71"/>mediata ratio recipiendi quantitatem vel quodcunque 
+      acci<lb ed="#L" n="72" break="no"/>dentis quod est actus secundum quid. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="208-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e171436"><!-- l3d17q1 -->
+            <head xml:id="jsnvu6-e171436-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e171436-Hd1e103" type="question-title">
+      Utrum voluntas humana in Christo 
+      semper fuerit conformis 
+      voluntati diuinae
+    </head>
+            <p xml:id="jsnvu6-e171436-d1e106">
+               <lb ed="#L" n="140"/>CYAISTIO. PIINA. 
+      <lb ed="#L" n="141"/>Vtrum voluntas humana in Christo 
+      sem<lb ed="#L" n="142" break="no"/>per fuerit conformis 
+      volun<lb ed="#L" n="143" break="no"/>tati diuinae. 
+      <lb ed="#L" n="144"/>Thom. 3. g. 18. ar. 5. &amp;c
+    </p>
+            <p xml:id="jsnvu6-e171436-d1e119">
+               <lb ed="#L" n="145"/>CIRCA distinctionem istam primo quaeritur, vtrum 
+      <lb ed="#L" n="146"/>voluntas humana in Christo semper fuit 
+      confor<lb ed="#L" n="147" break="no"/>mis voluntati diuinae. Et videtur quod sic, quia 
+      <lb ed="#L" n="148"/>voluntas beatorum in omnibus conformatur 
+      vo<lb ed="#L" n="149" break="no"/>luntati diuinae, sed Christus secundum animam 
+      <lb ed="#L" n="150"/>semper fuit beatus, ergo voluntas eius humana semper fuit 
+      con<lb ed="#L" n="151" break="no"/>formis diuinae voluntati. 
+      </p>
+            <p xml:id="jsnvu6-e171436-d1e137">
+               <lb ed="#L" n="152"/>
+               <!--2.--> Item bonitas voluntatis consistit in conformitate ad volun 
+      <lb ed="#L" n="153"/>tatem diuinam sicut ad suam regulam vt dicit glossa super illud 
+      <lb ed="#L" n="154"/>Psalm. rectos decet collaudatio, sed omnis voluntas Christi fuit 
+      <lb ed="#L" n="155"/>bona, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e171436-d1e151">
+               <lb ed="#L" n="156"/>
+               <!--3.--> Item ex persona Christi dicitur in Psalmist. vt facerem 
+      vo<lb ed="#L" n="157" break="no"/>luntatem tuam deus meus volui, &amp; sic idem quod prius. 
+</p>
+            <p xml:id="jsnvu6-e171436-d1e160">
+               <lb ed="#L" n="158"/>IN CONTRARIVM est quod dicit August. contra 
+      <!--00491.xml-->
+      <pb ed="#L" n="209-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Maxi. in hoc quod Christus ait non quod ego volo, sed quod 
+      <lb ed="#L" n="2"/>tu, aliud ostendit se voluisse quam patrem quod nisi humano 
+      <lb ed="#L" n="3"/>corde non posset. Ex quo patet, quod humana voluntas in 
+      <lb ed="#L" n="4"/>Christo aliud voluit quam diuina. 
+</p>
+            <p xml:id="jsnvu6-e171436-d1e180">
+               <lb ed="#L" n="5"/>RESPONSIO. Quaestio ista vnum supponit &amp; aliud 
+      <lb ed="#L" n="6"/>quaerit, supponit enim quod in Christo praeter voluntatem 
+      di<lb ed="#L" n="7" break="no"/>uinam fuerit aliqua voluntas humana. Quo supposito quaerit 
+      <lb ed="#L" n="8"/>de conformitate voluntatis humanae ad diuinam. Primo igitur 
+      <lb ed="#L" n="9"/>videndum est de supposito, deinde de quaesito. 
+      </p>
+            <p xml:id="jsnvu6-e171436-d1e193">
+               <lb ed="#L" n="10"/>
+               <!--6--> QUANTVM ad primum sciendum est quod praeter 
+      vo<lb ed="#L" n="11" break="no"/>luntatem diuinam fuit in Christo duplex voluntas humana, vna 
+      <lb ed="#L" n="12"/>quae dicitur voluntas per essentiam quae per se &amp; directe est in ra 
+      <lb ed="#L" n="13"/>tione, alia quae est voluntas solum per participationem quae non es 
+      <lb ed="#L" n="14"/>in ratione, sed nata est obedire rationi. De voluntate per essen 
+      <lb ed="#L" n="15"/>tiam quod fuerit in Christo patet tripliciter. Primo sic voluntas, 
+      <lb ed="#L" n="16"/>correspondet intellectui, sed in Christo praeter intellectum diuinum 
+      <lb ed="#L" n="17"/>est aliquis intellectus humanus, ergo in Christo praeter volunta 
+      <lb ed="#L" n="18"/>tem diuinam est aliqua voluntas humana. Maior patet, quia in 
+      om<lb ed="#L" n="19" break="no"/>ni natura, concomittatur se inseparabiliter intellectus &amp; 
+      volum<lb ed="#L" n="20" break="no"/>tas proprie dicta. Minor similiter patet, quia scientia est 
+      perfe<lb ed="#L" n="21" break="no"/>ctio intellectus, sed in Christo praeter scientiam diuinam fuit 
+      ali<lb ed="#L" n="22" break="no"/>qua scientia humana vt patuit supra, ergo in Christo praeter 
+      in<lb ed="#L" n="23" break="no"/>tellectum diuinum fuit intellectus humanus &amp; haec fuit minor. 
+      Se<lb ed="#L" n="24" break="no"/>cundo sic, voluntas Dei non potest mereri, nec demereri, nec sibi, 
+      <lb ed="#L" n="25"/>nec alij, alioquin Deus secundum diuinitatem acceptus posset 
+      me<lb ed="#L" n="26" break="no"/>reri, sed Christus meruit nobis &amp; sibi vt postea patebit, ergo in 
+      <lb ed="#L" n="27"/>ipso praeter voluntatem diuinam fuit alia voluntas per quam 
+      po<lb ed="#L" n="28" break="no"/>tuit mereri, sed sine voluntate proprie dicta non est meritum, 
+      qua<lb ed="#L" n="29" break="no"/>re &amp;c. Tertio sic, quae sequuntur naturam plurificantur in Christe 
+      <lb ed="#L" n="30"/>vt vult Dama. lib. 3. sed appetitus sequitur naturam, ergo sicut in 
+      <lb ed="#L" n="31"/>Christo sunt plures naturae, ita plures appetitus, sed appetitus 
+      <lb ed="#L" n="32"/>humanae naturae quatenus rationalis dicitur voluntas, ergi 
+      <lb ed="#L" n="33"/>praeter appetitum vel voluntatem diuinam in Christo est 
+      appeti<lb ed="#L" n="34" break="no"/>tus rationalis vel voluntas, haec autem secundum nomen 
+      diuidi<lb ed="#L" n="35" break="no"/>tur in voluntatem vt est natura &amp; vt est ratio non tanquam in dua 
+      <lb ed="#L" n="36"/>potentias, sed sortitur haec duo nomina vel duos modos 
+      qui<lb ed="#L" n="37" break="no"/>bus potest sem in suum obiectum, quando enim voluntas fertur in 
+      <lb ed="#L" n="38"/>aliquid secundum quod est conueniens vel nociuum naturae 
+      secun<lb ed="#L" n="39" break="no"/>dum se, sic vocatur voluntas vt natura, quando autem fertur in 
+      <lb ed="#L" n="40"/>aliquid secundum bonitatem vel malitiam, quam habet in 
+      or<lb ed="#L" n="41" break="no"/>dine ad finem, sic vocatur voluntas vt ratio, quia sequitur 
+      de<lb ed="#L" n="42" break="no"/>liberationem rationis, quia cum eiusdem potentiae sit ferri in 
+      ali<lb ed="#L" n="43" break="no"/>quid secundum se &amp; in ordine ad finem, ideo eadem est 
+      poten<lb ed="#L" n="44" break="no"/>tia voluntatis quae fertur his duobus modis in suum obiectum 
+</p>
+            <p xml:id="jsnvu6-e171436-d1e274">
+               <lb ed="#L" n="45"/>De voluntate autem quae non est voluntas per essentiam, sed 
+      <lb ed="#L" n="46"/>solum per participationem, quod fuerit in Christo patet similiter 
+      <lb ed="#L" n="47"/>tribus viis, accipiendo primo id quod dictum fuit prius scilicet quod 
+      pas<lb ed="#L" n="48" break="no"/>siones appetitus sensitiui in Christo regebantur per rationem, 
+      <lb ed="#L" n="49"/>&amp; ei subiiciebantur &amp; obediebant. appetitus autem sensitiuus vi 
+      <lb ed="#L" n="50"/>obediens rationi dicitur voluntas per participationem. Que 
+      <lb ed="#L" n="51"/>supposito arguitur primo sic. Sicut intellectum sequitur volun 
+      <lb ed="#L" n="52"/>tas proprie dicta, sic sensum sequitur appetitus sensitiuus, qui 
+      <lb ed="#L" n="53"/>vt obediens rationi dicitur voluntas per participationem, sed 
+      <lb ed="#L" n="54"/>sicut in Chiisto fuit verus intellectus, ita in Christo fuerunt 
+      <lb ed="#L" n="55"/>verae &amp; perfectae vires sensitiuae, ergo sicut in Christo fuit 
+      vo<lb ed="#L" n="56" break="no"/>luntas proprie dicta, ita &amp; voluntas per participationem. 
+      Secun<lb ed="#L" n="57" break="no"/>do sic, in Christo fuit verus dolor sensibilis vt patuit prius, sec 
+      <lb ed="#L" n="58"/>dolor sensibilis est passio appetitus sensitiui, ergo in Christo 
+      <lb ed="#L" n="59"/>fuit appetitus sensitiuus. Constat autem quod in Christo non minus 
+      <lb ed="#L" n="60"/>obediebat appetitus sensitiuus rationi quam in nobis, in nobis 
+      <lb ed="#L" n="61"/>autem propter hoc dicitur voluntas per participationem, ergo 
+      <lb ed="#L" n="62"/>&amp; in Christo. Tertio sic, Christus assumpsit naturam perfectam 
+      <lb ed="#L" n="63"/>omni perfectione debita naturae, sed sicut de perfectione 
+      ho<lb ed="#L" n="64" break="no"/>minis inquantum homo sunt intellectus &amp; voluntas proprie 
+      <lb ed="#L" n="65"/>dicta, ita de perfectione eius inquantum est animal, est sensus 
+      <lb ed="#L" n="66"/>&amp; appetitus sensitiuus qui est voluntas per participationem, 
+      <lb ed="#L" n="67"/>ergo haec omnia fuerunt in Christo, &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e171436-d1e326">
+               <lb ed="#L" n="68"/>
+               <!--8--> DE SECVNDO principali scilicet de conformitate 
+      volun<lb ed="#L" n="69" break="no"/>tatis humanae ad diuinam. Sciendum est quod voluntas nostra con 
+      <lb ed="#L" n="70"/>formari potest dupliciter diuinae quo ad praesens. Vno modo 
+      <lb ed="#L" n="71"/>quando vult illud quod vult Deus eam velle quae vocatur a 
+      qui<lb ed="#L" n="72" break="no"/>busdam conformitas secundum genus causae efficientis. Alio modo 
+      <lb ed="#L" n="73"/>quando vult illud idem quod Deus vult ita quod sit idem obiectum 
+      <lb ed="#L" n="74"/>voluntatis humanae &amp; diuinae quae vocatur conformitas secun 
+      <lb ed="#L" n="75"/>dum genus causae materialis accipiendo materiam pro obiecto. 
+      <lb ed="#L" n="76"/>Loquendo de prima conformitate sic omnis voluntas in 
+      Christ<lb ed="#L" n="77" break="no"/>fuit conformis voluntati diuinae. Quod patet primo de 
+      volunta<lb ed="#L" n="78" break="no"/>te naturali, &amp; voluntate per participationem. Qvia naturalis in 
+      <lb ed="#L" n="79"/>clinatio cuiuslibet rei est a voluntate diuina dante rem &amp; 
+      incli<lb ed="#L" n="80" break="no"/>nationem rei (Dico autem naturalis, quia libera inclinatio non 
+      <lb ed="#L" n="81"/>semper est a dante rem, eo quod res indifferens est ex natura sua 
+      <lb ed="#L" n="82"/>ad talem inclinationem vel oppositam) sed naturalis iuclinatio 
+      <!--00491.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>ad quam res est de natura sua determinata est a dante naturam, 
+      <lb ed="#L" n="84"/>Inclinatio autem voluntatis vt est natura &amp; inclinatio 
+      volunta<lb ed="#L" n="85" break="no"/>tis dictae per participationem, hoc est appetitus sensitiui est na 
+      <lb ed="#L" n="86"/>turalis, ergo est a voluntate diuina dante naturam, &amp; ita 
+      quaeli<lb ed="#L" n="87" break="no"/>bet harum voluntatum vult idem quod Deus vult eam velle. 
+      </p>
+            <p xml:id="jsnvu6-e171436-d1e379">
+               <lb ed="#L" n="88"/>
+               <!--9--> De voluntate autem sequente deliberationem patet, quod 
+      <lb ed="#L" n="89"/>fuerit eodem modo conformis voluntati diuinae. Quia 
+      volun<lb ed="#L" n="90" break="no"/>tas diuina consequens quae est voluntas simpliciter semper 
+      im<lb ed="#L" n="91" break="no"/>pletur vt dictum fuit in primo libro, ergo quicquid Deus voluit 
+      <lb ed="#L" n="92"/>tali voluntate Christum velle Christus voluit, &amp; non solum ( 
+      <lb ed="#L" n="93"/>Christus, sed quicunque alius, voluntas autem antecedens 
+      in<lb ed="#L" n="94" break="no"/>notescit nobis per praecepta, prohibitiones &amp; consilia, &amp; huic 
+      <lb ed="#L" n="95"/>voluntati quanto magis voluntas humana conformatur tanto 
+      <lb ed="#L" n="96"/>melior efficitur, sed voluntas deliberatiua Christi fuit optima, 
+      <lb ed="#L" n="97"/>ergo fuit voluntati antecedenti maxime conformis. 
+      </p>
+            <p xml:id="jsnvu6-e171436-d1e405">
+               <lb ed="#L" n="98"/>
+               <!--10.--> Si autem loquamur de conformitate quae attenditur 
+      secun<lb ed="#L" n="99" break="no"/>dum obiectum volitum, sic voluntas naturalis &amp; voluntas per 
+      <lb ed="#L" n="100"/>participationem non conformabantur in Christo voluntati 
+      diui<lb ed="#L" n="101" break="no"/>nae, quia sicut dictum fuit prius, in Christo permittebatur 
+      cui<lb ed="#L" n="102" break="no"/>libet parti agere &amp; pati quod erat sibi proprium, sed proprium est 
+      <lb ed="#L" n="103"/>voluntatis naturalis refugere ea quae sunt nociua naturae, 
+      pro<lb ed="#L" n="104" break="no"/>prium autem appetitus sensitiui est fugere ea quae sunt nociua 
+      <lb ed="#L" n="105"/>sensui, &amp; ideo vtraque voluntas in Christo fugiebat mortem, 
+      <lb ed="#L" n="106"/>&amp; dolorem passionis quae tamen a Deo erant volita propte 
+      <lb ed="#L" n="107"/>salutem generis humani. Voluntas deliberatiua conformis 
+      era<lb ed="#L" n="108" break="no"/>voluntati diuinae, alioquin passio Christi non fuisset sibi, nec 
+      <lb ed="#L" n="109"/>nobis meritoria nisi accepta fuisset a voluntate deliberatiua, 
+      <lb ed="#L" n="110"/>cuius mereri &amp; demereri, &amp; sic patet secundum. 
+      </p>
+            <p xml:id="jsnvu6-e171436-d1e438">
+               <lb ed="#L" n="111"/>
+               <!--11--> AD PRIMVM argumentum dicendum quod beatis 
+      <lb ed="#L" n="112"/>qui sunt comprehensores nihil occurrit quod sit contrarium 
+      na<lb ed="#L" n="113" break="no"/>turae vel laesiuum sensus, &amp; ideo in eis sensualitas vel voluntas 
+      <lb ed="#L" n="114"/>non discordat a voluntate diuina, sed Christus simul fuit 
+      bea<lb ed="#L" n="115" break="no"/>tus &amp; passibilis secundum aliam &amp; aliam sui partem, vnde mul 
+      <lb ed="#L" n="116"/>ta occurrerunt Christo contraria naturae &amp; parti sensitiuae vt 
+      <lb ed="#L" n="117"/>mors, flagella, &amp; huiusmodi quae refugiebat sensualitas &amp; 
+      vo<lb ed="#L" n="118" break="no"/>luntas vt natura quamuis acceptarentur a voluntate 
+      delibe<lb ed="#L" n="119" break="no"/>ratiua quae semper fuit conformis voluntati diuinae. 
+      </p>
+            <p xml:id="jsnvu6-e171436-d1e462">
+               <lb ed="#L" n="120"/>
+               <!--12--> Ad secundum dicendum quod omnis voluntas Christi fuit 
+      con<lb ed="#L" n="121" break="no"/>formis diuinae voluntati in hoc quod volebat id quod voleba 
+      <lb ed="#L" n="122"/>Deus eam velle. Et in hac conformitate consistit principaliter 
+      <lb ed="#L" n="123"/>bonitas voluntatis humanae vt dictum fuit prius in fine primi 
+      li<lb ed="#L" n="124" break="no"/>bri. Et vltra hanc conformitatem voluntas deliberatiua habuit 
+      <lb ed="#L" n="125"/>aliam quae est secundum volitum. Ex quo potest concludi quod 
+      <lb ed="#L" n="126"/>voluntas deliberatiua in Christo fuit melior quam naturalis 
+      <lb ed="#L" n="127"/>vel sensualis. Et ex hoc non sequitur quod aliae fuerunt malae. 
+      </p>
+            <p xml:id="jsnvu6-e171436-d1e484">
+               <lb ed="#L" n="128"/>
+               <!--13--> De hac voluntate deliberatiua intelligendum est illud 
+      <lb ed="#L" n="129"/>Psal. vt facerem voluntatem tuam domine &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

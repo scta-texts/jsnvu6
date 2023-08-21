@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="102-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2228"><!-- l1d47prae -->
+            <head xml:id="jsnvu6-d1e2228-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2228-d1e103">
+               <lb ed="#L" n="109"/>BISTIRCIIO TLVII. 
+      <lb ed="#L" n="110"/>Sententia literae huius distinctionis in 
+      ge<lb ed="#L" n="111" break="no"/>nerali &amp; spec iali.
+    </p>
+            <p xml:id="jsnvu6-d1e2228-d1e112">
+               <lb ed="#L" n="112"/>VOLVNTAS quippe dei. Superius magister 
+      re<lb ed="#L" n="113" break="no"/>mouit ea quae videntur effectum voluntatis 
+      diui<lb ed="#L" n="114" break="no"/>nae impedire, hic vero determinat quomodo ipsa 
+      <lb ed="#L" n="115"/>llvoluntas efficaciter impleatur. Et diuiditur in 
+      <lb ed="#L" n="116"/>duas partes. Primo determinat suum intentum. 
+      <lb ed="#L" n="117"/>Secundo excludit dubitationem incidentem circa determinata 
+      <lb ed="#L" n="118"/>Secunda ibi, Sed attendendum. Haec secunda diuiditur in tres. 
+      <lb ed="#L" n="119"/>Primo mouet dubitationem. Secundo soluit. Tertio ex 
+      solutio<lb ed="#L" n="120" break="no"/>ne concludit suum principale intentum. Secunda ibi, Vnum vi 
+      <lb ed="#L" n="121"/>supra diximus. Tertia ibi, Ex praedictis liquet. Et haec est senten 
+      <lb ed="#L" n="122"/>tia lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2228-d1e138">
+               <lb ed="#L" n="123"/>
+               <!--2--> IN SPECIALI vero sic procedit, &amp; proponit prime 
+      <lb ed="#L" n="124"/>quod voluntas dei est efficax, &amp; nihil fit contra eam, multa 
+      ta<lb ed="#L" n="125" break="no"/>men fiunt praeter eam, &amp; dicit quod voluntas dei semper imple 
+      <lb ed="#L" n="126"/>tur quando bene facit creatura, aut quando de mala faciente 
+      <lb ed="#L" n="127"/>ordinat deus vt vult. Postea mouet dubitationem, quomodo po 
+      <lb ed="#L" n="128"/>set aliquid fieri contra voluntatem dei, quum dictum sit quod 
+      <lb ed="#L" n="129"/>voluntati eius nihil resistat. Item quomodo quod est contra 
+      vo<lb ed="#L" n="130" break="no"/>luntatem, non est praeter eam. Postea respondet, dicens quod 
+      <lb ed="#L" n="131"/>solutio apparet distinguendo voluntatem, voluntas enim 
+      ali<lb ed="#L" n="132" break="no"/>quando nominat ipsam diuinam essentiam, aliquando praecepta 
+      <lb ed="#L" n="133"/>vel prohibitiones, aliquando autem eius permissionem. 
+      con<lb ed="#L" n="134" break="no"/>tra ipsam voluntatem nihil fit, contra praecepta vel 
+      prohibitio<lb ed="#L" n="135" break="no"/>nes quae sunt signa voluntatis, bene potest aliquid fieri, praete 
+      <lb ed="#L" n="136"/>voluntatem tamen quae deus est, aliquid fit vt mala, sed non 
+      <lb ed="#L" n="137"/>praeter eius permissionem. Ostendit enim per auctoritates. 
+      <lb ed="#L" n="138"/>quod mala voluntati diuinae resistentia ei obsequantur. Vitimo 
+      <lb ed="#L" n="139"/>recapitulat determinata. Et ostendit quod non omnia quae deus 
+      <lb ed="#L" n="140"/>praecepit, voluit, vel quae prohibuit, noluit ita fieri, sed ex alia ra 
+      <lb ed="#L" n="141"/>tione, quia ad illa se habuit ad modum volenti. Et in 
+      h<lb ed="#L" n="142" break="no"/>natur sententia in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

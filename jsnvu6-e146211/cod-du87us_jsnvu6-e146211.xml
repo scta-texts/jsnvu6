@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="177-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e146211"><!-- l2d44q1 -->
+            <head xml:id="jsnvu6-e146211-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e146211-Hd1e103" type="question-title">Utrum potentia peccandi sit a Deo</head>
+            <p xml:id="jsnvu6-e146211-d1e106">
+               <lb ed="#L" n="120"/>QVAISTIO PIIMA 
+      <lb ed="#L" n="121"/>Vtrum potentia peccandi sit a Deo. 
+    </p>
+            <p xml:id="jsnvu6-e146211-d1e113">
+               <lb ed="#L" n="122"/>CIRCA distinctionem istam primo quaeritur, vtrum 
+      <lb ed="#L" n="123"/>potentia peccandi sit a Deo. Et videtur quod non, 
+      <lb ed="#L" n="124"/>quia perfectior est poetentia coniuncta actui, quam 
+      <lb ed="#L" n="125"/>II separata, sed Deus non est causa potentiae peccandi, 
+      <lb ed="#L" n="126"/>vt est coniuncta actui, vt dictum fuit supra distinct. 37. ergo nec 
+      <lb ed="#L" n="127"/>est causa eius, vt est separata ab actu, &amp; ita nullo modo. 
+      </p>
+            <p xml:id="jsnvu6-e146211-d1e129">
+               <lb ed="#L" n="128"/>
+               <!--2.--> Item si potentia peccandi inesset nobis a Deo, aut esset 
+      po<lb ed="#L" n="129" break="no"/>tentia naturalis, aut liberi arbitrij, aut gratiae, sed non potest 
+      <lb ed="#L" n="130"/>esse potentia pure naturalis, quia talibus nec meremur, nec 
+      de<lb ed="#L" n="131" break="no"/>meremur, nec libe. arbit. quia sicut dicit Anselmus de libe. arbi. 
+      <lb ed="#L" n="132"/>posse peccare, nec est libertas, nec pars libertatis, nec gratiae, 
+      <lb ed="#L" n="133"/>quia gratia inclinat ad oppositum peccati, ergo nulla 
+      poten<lb ed="#L" n="134" break="no"/>tia peccandi inest nobis a Deo. 
+      </p>
+            <p xml:id="jsnvu6-e146211-d1e150">
+               <lb ed="#L" n="135"/>
+               <!--3--> IN CONTRARIVM est quod dicit Augustinus, 
+      <lb ed="#L" n="136"/>quod voluntas est qua peccatur, &amp; recte viuitur, sed 
+      volun<lb ed="#L" n="137" break="no"/>tas inest nobis a Deo, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e146211-d1e161">
+               <lb ed="#L" n="138"/>
+               <!--4--> Item Philosophus dicit in libro Tropicorum quod 
+      poten<lb ed="#L" n="139" break="no"/>tiae malorum bonae sunt, sed omne bonum est a Deo, ergo 
+      po<lb ed="#L" n="140" break="no"/>tentia peccandi vel malefaciendi est a Deo. 
+</p>
+            <p xml:id="jsnvu6-e146211-d1e172">
+               <lb ed="#L" n="141"/>RESPONSIO. Quum actus iudicet potentiam, 
+      si<lb ed="#L" n="142" break="no"/>cut actus peccati duo includit, scilicet actum &amp; defectum 
+      debi<lb ed="#L" n="143" break="no"/>tae rectitudinis, sic potentia peccandi, vt sic accepta duo dicit, 
+      <lb ed="#L" n="144"/>scilicet principium actus, eo quod est potentia, &amp; quod possit 
+      <lb ed="#L" n="145"/>deficere, quod est peccare. Et hoc supposito dicunt quidam 
+      <lb ed="#L" n="146"/>quod potentia peccandi quoad primum (scilicet quod est 
+      quae<lb ed="#L" n="147" break="no"/>dam natura principians actum) est a Deo, quia omno quod 
+      <lb ed="#L" n="148"/>quoquo modo participat naturam entis positiue, oportet quod 
+      <lb ed="#L" n="149"/>reducatur in Deum tanquam in causam primam, ipsa etiam 
+      <lb ed="#L" n="150"/>sic accepta eadem est principium actus ordinati &amp; inordinati: 
+      <lb ed="#L" n="151"/>propter quod sicut potentia recte agendi est a Deo. sic &amp; 
+      po<lb ed="#L" n="152" break="no"/>tentia peccandi. Quantum ad secundum, scilicet quantum ad 
+      <lb ed="#L" n="153"/>defectibilitatem non est a Deo, nec directe, nec indirecte, quod 
+      <lb ed="#L" n="154"/>probant supponendo secundum dictum Damasceni, quod 
+      ta<lb ed="#L" n="155" break="no"/>lis defectibilitas inest rei ex eo quod est ex nihilo, tunc sic illud 
+      <lb ed="#L" n="156"/>quod conuenit rei secundum se non causatur in ea ex alio 
+      fal<lb ed="#L" n="157" break="no"/>tem directe &amp; per se. Sed rei creatae inest per se quod ex nihilo, 
+      <lb ed="#L" n="158"/>quia si sibi relinquatur, nihilum est, ergo esse ex nihilo non inest 
+      <lb ed="#L" n="159"/>creaturae a Deo saltem per se &amp; directe. Item nec indirecte, 
+      <!--00424.xml-->
+      <pb ed="#L" n="177-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>vt eo modo quo deus dicitur causa priuationis gratiae (quia gra 
+      <lb ed="#L" n="2"/>tiam non confert) dicatur similiter causa quod creatura sit ex 
+      <lb ed="#L" n="3"/>nihilo, quia non est, contulit creaturae quod non sit ex mihile 
+      <lb ed="#L" n="4"/>quia nihil est causa alicuius defectus, etiam indirecte, nisi res si 
+      <lb ed="#L" n="5"/>capax oppositae perfectionis, sed res creata non est capax 
+      huius<lb ed="#L" n="6" break="no"/>modi perfectionis, scilicet quod non sit ex nihilo quum oppo 
+      <lb ed="#L" n="7"/>situm insit ei ex se vt dictum est, ergo deus non est causa quod 
+      <lb ed="#L" n="8"/>creatura sit ex nihilo, &amp; iam indirecte, sed per hoc inest rei 
+      de<lb ed="#L" n="9" break="no"/>fectibilitas vt supponunt, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e146211-d1e242">
+               <lb ed="#L" n="10"/>
+               <!--6--> Sed hic videtur esse multiplex defectus. Primus est, quia 
+      ac<lb ed="#L" n="11" break="no"/>cipitur quod creatura ex se habet quod sit ex nihilo, hoc enim 
+      <lb ed="#L" n="12"/>non est verum, quod patet resumendo breuiter ea quae dicti 
+      <lb ed="#L" n="13"/>sunt supra, distinctione prima, scilicet quod creatura non 
+      dici<lb ed="#L" n="14" break="no"/>tur fieri vel esse ex nihilo materialiter vel in ratione subiecti, 
+      <lb ed="#L" n="15"/>nec ordinabiliter, seu ratione termini, sed negatiue solum, quia 
+      <lb ed="#L" n="16"/>fit, vel est non de aliquo supposito ex parte facti. Hoc autem 
+      ha<lb ed="#L" n="17" break="no"/>bet creatura a deo &amp; non ex se, quod probatur, primo quia illud 
+      <lb ed="#L" n="18"/>quod est causa alicuius affirmationis est causa negationis per se 
+      <lb ed="#L" n="19"/>&amp; immediate consequentis ad affirmationem, verbi gratia, illud 
+      <lb ed="#L" n="20"/>quod est causa quod aliquid sit album est causa quod non sit 
+      ni<lb ed="#L" n="21" break="no"/>grum, sed deus est causa creaturae, &amp; secundum omne quod est 
+      <lb ed="#L" n="22"/>in creatura, ad quam affirmationem sequitur per se &amp; 
+      imme<lb ed="#L" n="23" break="no"/>diate ista negatio, scilicet quod creatura non fiat, nec sit de sup 
+      <lb ed="#L" n="24"/>posito ex parte facti, quia si aliquid supponeretur, non totum 
+      <lb ed="#L" n="25"/>produceretur, ergo deus est causa quod creatura fiat, vel sit non 
+      <lb ed="#L" n="26"/>de aliquo, sed solum sub hoc sensu dicitur fieri, vel esse de nihilo 
+      <lb ed="#L" n="27"/>vt dictum est, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e146211-d1e286">
+               <lb ed="#L" n="28"/>
+               <!--7--> Secundo, quia tota ratio quae mouet ad ponendum quod crea 
+      <lb ed="#L" n="29"/>tura habeat ex se, &amp; non ex alio quod sit ex nihilo, est, quia crea 
+      <lb ed="#L" n="30"/>tura si sibi relinquatur cedit in nihilum, &amp; nihil est, sed illud 
+      ma<lb ed="#L" n="31" break="no"/>gis concludit oppositum quam propositum, quia illud quod es 
+      <lb ed="#L" n="32"/>causa effectiua, &amp; conseruatiua entitatis rei per suam influentiam, 
+      <lb ed="#L" n="33"/>est sufficiens causa non entitatis eiusdem rei per subtractionem 
+      <lb ed="#L" n="34"/>suae influentiae, vt patet in ducendo in omnibus, sed deus per suam 
+      <lb ed="#L" n="35"/>influentiam est causa effectiua, &amp; conserua totius entitatis 
+      cu<lb ed="#L" n="36" break="no"/>iuslibet creaturae, ergo ipse solus per substractionem suae 
+      influen<lb ed="#L" n="37" break="no"/>tiae est sufficiens causa totalis non entitatis creaturae, nec 
+      opor<lb ed="#L" n="38" break="no"/>tet dare causam positiuam, sed negatiuam, scilicet deum non 
+      influe<lb ed="#L" n="39" break="no"/>re, quia effectus non est positiuus, sed pure negatiuus, scilicet 
+      <lb ed="#L" n="40"/>creatura quae prius fuit modo non esse omnino. Sed &amp; illud 
+      mi<lb ed="#L" n="41" break="no"/>rabilius est quod dicitur quod creatura de se non est ens, vel nihil 
+      <lb ed="#L" n="42"/>quum enim haec praepositio de dicat causam aliquam, hic non 
+      <lb ed="#L" n="43"/>potest dicere causam formalem, scilicet quod creatura formaliter sit 
+      <lb ed="#L" n="44"/>nihil, imo certe formaliter ens, &amp; aliquid, nec materialem scilicet 
+      <lb ed="#L" n="45"/>quod creatura sit subiectum nihili, quia nihil est totalis negatio, 
+      <lb ed="#L" n="46"/>quae non potest habere subiectum, nec finalem, quia tam finem 
+      <lb ed="#L" n="47"/>quam illud quod est ad finem oportet habere rationem entis &amp; 
+      <lb ed="#L" n="48"/>boni quod de nilhilo haberi vel dici non potest, nec efficientem, 
+      <lb ed="#L" n="49"/>quia nihil non habet causam efficientem, sed deficientem, quae est 
+      <lb ed="#L" n="50"/>eadem respectu entis efficiendo, &amp; respectu nihili efficientiam 
+      <lb ed="#L" n="51"/>subtrahendo vt declaratum est, quare nullo modo competit crea 
+      <lb ed="#L" n="52"/>turae de se quod sit non ens vel nihil, sed siue sit ens, siue desina 
+      <lb ed="#L" n="53"/>esse &amp; cedat in nihil, totum est a deo influente, vel influentiam 
+      <lb ed="#L" n="54"/>subtrahente. Et ita patet quod ratio prima nihil concludit. 
+      Se<lb ed="#L" n="55" break="no"/>cunda etiam falsum assumit, scilicet quod nihil est causa alicuiu: 
+      <lb ed="#L" n="56"/>defectus etiam indirecte nisi res sit capax oppositae perfectionis 
+      <lb ed="#L" n="57"/>Vnde videmus quod deus causando asinum in tali gradu causa 
+      <lb ed="#L" n="58"/>est quod asinus deficit ab hoc quod est esse rationalem, &amp; tamer 
+      <lb ed="#L" n="59"/>asinus non est capax rationalitatis, &amp; idem est in proposito. 
+      </p>
+            <p xml:id="jsnvu6-e146211-d1e360">
+               <lb ed="#L" n="60"/>
+               <!--8--> Secundus defectus est, quia supponitur quod defectibilitas 
+      <lb ed="#L" n="61"/>electionis inest rei ex eo quod est ex nihilo, dicunt enim iuxta 
+      <lb ed="#L" n="62"/>sententiam Damasceni, quod creaturae ex nihilo competit 
+      du<lb ed="#L" n="63" break="no"/>plex vertibilitas in nihil, scilicet in esse naturae, &amp; secundum 
+      ele<lb ed="#L" n="64" break="no"/>ctionem. Primum fieret, si res totaliter annihilaretur secundum 
+      <lb ed="#L" n="65"/>fit quum peccatur, quia secundum Augustinum, peccatum nihil 
+      <lb ed="#L" n="66"/>est, &amp; ideo quum peccatur, electio peccantis vertitur in nihil. Sec 
+      <lb ed="#L" n="67"/>istud non videtur sufficere, quod enim creatura ex hoc quod est 
+      <lb ed="#L" n="68"/>ex nihilo modo quo expositum est sit vertibilis in nihil, quod 
+      ne<lb ed="#L" n="69" break="no"/>gat totalem entitatem satis est clarum ex his quae dicta sunt, 
+      qui<lb ed="#L" n="70" break="no"/>ex eo quod deus totum quod est in creatura producit nullo sup 
+      <lb ed="#L" n="71"/>posito, &amp; productum conseruat, relinquitur quod subti acta in 
+      <lb ed="#L" n="72"/>fluentia eius nihil remanet, quod vocatur creaturam verti in 
+      ni<lb ed="#L" n="73" break="no"/>hil, sed quod ex eodem habeat quod sit vertibilis in nihil secun 
+      <lb ed="#L" n="74"/>dum electionem peccando non video, quia non solum istae ver 
+      <lb ed="#L" n="75"/>tibilitates sunt in creatura, sed quaedam aliae sicut homo vertibili. 
+      <lb ed="#L" n="76"/>est de visu in caecitatem, &amp; omnes res corporales de entitate in 
+      <lb ed="#L" n="77"/>non entitatem per corruptionem, quae tamen non annihilatur 
+      <lb ed="#L" n="78"/>totaliter, &amp; omnes huiusmodi versiones sunt in nihil, sicut 
+      ver<lb ed="#L" n="79" break="no"/>sio electionis in peccatu. Peccatum enim dicitur nihil, quia est 
+      <lb ed="#L" n="80"/>quaedam priuatio, omnes autem praedictae versiones sunt ab 
+      ha<lb ed="#L" n="81" break="no"/>bitu in priuationem, ergo similis ratio videtur esse de omni muta 
+      <lb ed="#L" n="82"/>bilitate creaturae ab habitu in priuationem quod insit creaturae 
+      <!--00424.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>ex eo qi od est de nihilo, quod tamen communiter non dicitur. 
+      </p>
+            <p xml:id="jsnvu6-e146211-d1e422">
+               <lb ed="#L" n="84"/>
+               <!--9--> Item esse ex nihilo si sit causa omnium vertibilium siue 
+      verti<lb ed="#L" n="85" break="no"/>bilitatum ab habitu in priuationem, aut est causa immediata &amp; 
+      <lb ed="#L" n="86"/>proxima, aut remota, non potest dici quod sit causa immediata 
+      <lb ed="#L" n="87"/>&amp; proxima, quia posita causa immediata &amp; sufficiente ponitur 
+      <lb ed="#L" n="88"/>effectus, sed esse ex nihilo conuenit aequaliter omni creaturae, 
+      er<lb ed="#L" n="89" break="no"/>go si esse ex nihilo esset immediata causa omnium 
+      vertibilita<lb ed="#L" n="90" break="no"/>tum, omnes vertibilitates cuilibet creaturae competerent 1. Hoc 
+      <lb ed="#L" n="91"/>autem est falsum, quaedam enim sunt creaturae quibus non 
+      com<lb ed="#L" n="92" break="no"/>petit vertibilitas corruptionis, vt coelum &amp; substantiae 
+      separa<lb ed="#L" n="93" break="no"/>tae, quaedam quibus non competit vertibilitas electionis, vt 
+      crea<lb ed="#L" n="94" break="no"/>turis irrationalibus, &amp; sic de aliis, ergo esse ex nihilo non est 
+      <lb ed="#L" n="95"/>causa immediata omnium vertibilium. Si autem sit causa 
+      remo<lb ed="#L" n="96" break="no"/>ta &amp; mediata, per eam non poterit sufficienter assignari ratio 
+      <lb ed="#L" n="97"/>dictarum vertibilitatum. Dicere ergo quod defectibilitas 
+      ele<lb ed="#L" n="98" break="no"/>ctionis insit creaturae, ex eo quod est de nihilo multum 
+      insuffi<lb ed="#L" n="99" break="no"/>cienter est dictum. 
+      </p>
+            <p xml:id="jsnvu6-e146211-d1e461">
+               <lb ed="#L" n="100"/>
+               <!--10--> Tertius defectus est quantum ad principalem conclusionem, 
+      <lb ed="#L" n="101"/>quia ponunt quod potentia percandi quantum ad 
+      defectibilita<lb ed="#L" n="102" break="no"/>tem non est a deo, hoc enim non est verum, quod patet sic, 
+      defe<lb ed="#L" n="103" break="no"/>ctus qui non habet rationem mali plus potest causari a deo, quam 
+      <lb ed="#L" n="104"/>ille qui habet rationem mali, sed defectus qui habet rationem 
+      <lb ed="#L" n="105"/>mali causantur a deo, malum enim poenae a deo est, vt probatum 
+      <lb ed="#L" n="106"/>fuit supra dist. 37. ergo fortiori ratione defectus qui non habet q 
+      <lb ed="#L" n="107"/>rationem mali, talis autem defectus est possibilitas deficiendi in 
+      <lb ed="#L" n="108"/>eligendo, non enim est culpa, alioquin homo semper peccaret. 
+      <lb ed="#L" n="109"/>nec poena, quia fuit in statu innocentiae, in quo nihil fuit poenale, 
+      <lb ed="#L" n="110"/>sed est purus defectus naturae creatae intellectualis, quae non 
+      con<lb ed="#L" n="111" break="no"/>tingit perfectionem naturae increatae, in qua nullus potest esse 
+      <lb ed="#L" n="112"/>defectus, nec in cognoscendo, nec in eligendo, nec tamen iste 
+      de<lb ed="#L" n="113" break="no"/>fectus est malus, quia non tollit aliquam perfectionem creatur. 
+      <lb ed="#L" n="114"/>debitam, ergo possibilitas deficiendi in eligendo est a deo. Item 
+      <lb ed="#L" n="115"/>sicut prius arguebatur, idem est iudicium de omni possibilitate 
+      <lb ed="#L" n="116"/>deficiendi quod sit a deo, vel non, sed constat quod possibilitas 
+      <lb ed="#L" n="117"/>deficiendi per corruptionem est in creaturis corporalibus a deo, 
+      <lb ed="#L" n="118"/>ergo pari ratione possibilitas deficiendi in eligendo erit a deo. 
+      <lb ed="#L" n="119"/>Maior patet. Sed minor probatur, quia ordo vniuersalis est per 
+      <lb ed="#L" n="120"/>se intentus a deo, requirit autem ordo vniuersi, quod quaedam 
+      <lb ed="#L" n="121"/>deficere possunt, &amp; quandoque deficiant, alioquin non 
+      saluaren<lb ed="#L" n="122" break="no"/>tur, plantae enim vtuntur terra ad sui nutrimentum, animalia 
+      <lb ed="#L" n="123"/>vero plantis, homines vero plantis &amp; animalibus. Et in his 
+      cor<lb ed="#L" n="124" break="no"/>ruptio vnius ordinatur ad conseruationem alterius ex ordine 
+      <lb ed="#L" n="125"/>naturae &amp; diuina institutione quae habetur Gen. primo &amp; nono 
+      <lb ed="#L" n="126"/>cap. quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e146211-d1e524">
+               <lb ed="#L" n="127"/>
+               <!--11--> AD PRIMVM argumentum dicendum quod in bonis 
+      <lb ed="#L" n="128"/>potentia coniuncta actui perfectior est quam separata ab actu, sed 
+      <lb ed="#L" n="129"/>in malis est imperfectior, quia &amp; malum imperfectio quaedam est. 
+      <lb ed="#L" n="130"/>Et si dicatur perfectior, hoc erit per similitudinem sicut 
+      perfe<lb ed="#L" n="131" break="no"/>ctum transferimus ad mala (vt dicitur quinto metaphysicae) &amp; 
+      <lb ed="#L" n="132"/>ita maior est falsa, minor etiam falsa est, non enim dictum fuit 
+      <lb ed="#L" n="133"/>supra, dist. 37. quod deus non sit causa potentiae peccandi vt est 
+      <lb ed="#L" n="134"/>coniuncta actui, sed quod non est causa immediata ipsius actus, 
+      <lb ed="#L" n="135"/>&amp; ideo ipse actus malus non potest ei imputari ad culpam. 
+      </p>
+            <p xml:id="jsnvu6-e146211-d1e548">
+               <lb ed="#L" n="136"/>
+               <!--12--> Ad secundum dicendum quod potentia peccandi est 
+      poten<lb ed="#L" n="137" break="no"/>tia liberi arbitrij, &amp; quod dicit Anselmus quod posse peccare non 
+      <lb ed="#L" n="138"/>est libertas, nec pars libertatis. Dicendum quod Anselmus 
+      inten<lb ed="#L" n="139" break="no"/>dit quod non est essentiale libertati posse peccare, alioquin deus 
+      <lb ed="#L" n="140"/>qui peccare non potest, non esset lib. arb. non negat tamen quod 
+      <lb ed="#L" n="141"/>potentia lib. arbi. in creaturis non sit potens peccare aut quod 
+      <lb ed="#L" n="142"/>posse peccare non stet cum libertate.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

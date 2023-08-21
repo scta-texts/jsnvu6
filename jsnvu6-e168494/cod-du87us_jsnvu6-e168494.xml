@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="205-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e168494"><!-- l3d14q4 -->
+            <head xml:id="jsnvu6-e168494-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e168494-Hd1e103" type="question-title">
+      Utrum in Christo fuerit scientia modo 
+      humano acquisita
+    </head>
+            <p xml:id="jsnvu6-e168494-d1e106">
+               <lb ed="#L" n="128"/>QUAISTIO QVARTA. 
+      <lb ed="#L" n="129"/>Vtrum in Christo fuerit scientia modo 
+      <lb ed="#L" n="130"/>humano acquisita. 
+      <lb ed="#L" n="131"/>Thom. 3. 4. 9. ar. 4. ad primum.
+  </p>
+            <p xml:id="jsnvu6-e168494-d1e117">
+               <lb ed="#L" n="132"/>POSTEA quaeritur vtrum in Christo fuerit aliqua 
+      <lb ed="#L" n="133"/>scientia modo humano acquisita. Et videtur quod 
+      <lb ed="#L" n="134"/>sic, quia Christus in scientia profecit secundum 
+      il<lb ed="#L" n="135" break="no"/>lud Luc. 2. Iesus proficiebat sapientia, aetate, &amp; 
+      gra<lb ed="#L" n="136" break="no"/>tia apud Deum &amp; homines. Et Ambr. dicit quod 
+      <lb ed="#L" n="137"/>proficiebat secundum sensum humanum. Sed constat quod 
+      <lb ed="#L" n="138"/>non proficiebat quantum ad scientiam diuinam &amp; beatam, nec 
+      <lb ed="#L" n="139"/>quantum ad infusam, quia vtramque istarum habuit plenissim: 
+      <lb ed="#L" n="140"/>ab instanti suae conceptionis, ergo proficiebat secundum aliam 
+      <lb ed="#L" n="141"/>scientiam modo humano acquisitam. 
+      </p>
+            <p xml:id="jsnvu6-e168494-d1e141">
+               <lb ed="#L" n="142"/>
+               <!--2--> Item perfectio gratiae non excludit perfectionem naturae, 
+      <lb ed="#L" n="143"/>sed ad perfectionem naturalem animae pertinet acquirere 
+      scien<lb ed="#L" n="144" break="no"/>tiam per experimentum &amp; doctrinam, ergo scientia beata &amp; 
+      <lb ed="#L" n="145"/>infusa quae fuerunt in Christo per gratiam, non excludunt ab 
+      <lb ed="#L" n="146"/>eo scientiam modo naturali acquisitam. 
+</p>
+            <p xml:id="jsnvu6-e168494-d1e158">
+               <lb ed="#L" n="147"/>Ad idem est quod dicitur Hebr. 5. quod cum esset filius Dei 
+      <lb ed="#L" n="148"/>dicit ex iis, quae passus est obedientiam. 
+      </p>
+            <p xml:id="jsnvu6-e168494-d1e165">
+               <lb ed="#L" n="149"/>
+               <!--4--> IN CONTRARIVM arguitur, quia si in Christ. 
+      <lb ed="#L" n="150"/>esset aliqua scientia modo humano acquisita, ille modus esset 
+      <lb ed="#L" n="151"/>per doctrinam vel experientiam, non per doctrinam, quia sicut 
+      di<lb ed="#L" n="152" break="no"/>citur Ioan. 7. Mirabantur Iudaei dicentes. Quomodo hic litera 
+      <lb ed="#L" n="153"/>scit, cum non didicerit eas? nec per solam experientiam, quia illa 
+      <lb ed="#L" n="154"/>scientia quae est per solam experientiam hominis acquisita est 
+      <lb ed="#L" n="155"/>valde imperfecta, quod non est ponendum in Christo: ergo nullo 
+      <lb ed="#L" n="156"/>modo fuit in Christo scientia modo humano acquisita. 
+</p>
+            <p xml:id="jsnvu6-e168494-d1e187">
+               <lb ed="#L" n="157"/>RESPONSIO. De hac quaestione sunt duo modi 
+      dicen<lb ed="#L" n="158" break="no"/>di, non solum a diuersis doctoribus, sed ab eodem in diuersis locis. 
+      <!--00484.xml-->
+      <pb ed="#L" n="205-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Vnus est quod in Christo fuit scientia humano modo acquisita 
+      <lb ed="#L" n="2"/>Alius est, quod in Christo non fuit aliqua talis scientia. Et 
+      vter<lb ed="#L" n="3" break="no"/>que modus potest aliqualiter sustineri, facta tamen alia &amp; alia 
+      <lb ed="#L" n="4"/>suppositione. 
+      </p>
+            <p xml:id="jsnvu6-e168494-d1e209">
+               <lb ed="#L" n="5"/>
+               <!--6.--> Si enim ponatur quod omnis scientia infusa sit alterius rationi 
+      <lb ed="#L" n="6"/>a scientia acquisita tunc potest probabiliter sustineri quod 
+      prae<lb ed="#L" n="7" break="no"/>ter scientiam infusam fuit in Christo alia scientia naturali 
+      mo<lb ed="#L" n="8" break="no"/>do acquisita. Quia ex quo sunt diuersarum rationum vna non 
+      im<lb ed="#L" n="9" break="no"/>pedit quin alia possit simul esse in eodem subiecto, nec aliquid 
+      <lb ed="#L" n="10"/>perfectionis est auferendum a Christo quod inueniatur in aliis 
+      <lb ed="#L" n="11"/>hominibus, sicut est acquisitio scientiae modo naturali. 
+      </p>
+            <p xml:id="jsnvu6-e168494-d1e229">
+               <lb ed="#L" n="12"/>
+               <!--7--> Si autem scientia infusa &amp; ac quisita sint eiusdem rationis 
+      maxi<lb ed="#L" n="13" break="no"/>me eiusdem obiecti tunc tenendus est secundus modus, scilicet quod 
+      <lb ed="#L" n="14"/>in Christo non fuit aliqua scientia modo naturali acquisita. Sup. 
+      <lb ed="#L" n="15"/>positio autem videtur probabilis, quia sicut visus naturaliter habi 
+      <lb ed="#L" n="16"/>tus, &amp; per miraculum restitutus est vnius rationis sic scientia 
+      uatu<lb ed="#L" n="17" break="no"/>raliter acquisita, &amp; diuinitus infusa videtur esse vnius rationis 
+      </p>
+            <p xml:id="jsnvu6-e168494-d1e247">
+               <lb ed="#L" n="18"/>
+               <!--8--> Quo supposito probatur tripliciter quod in Christo non fuit 
+      <lb ed="#L" n="19"/>aliqua scientia humano modo acquisita. Primo sic, in eo qui 
+      ha<lb ed="#L" n="20" break="no"/>bet iam habitum scientiae per ea, quae a sensu accipit non 
+      acquiri<lb ed="#L" n="21" break="no"/>tur nouus habitus eorum quae prius sciuit. Alioquin duae 
+      form<lb ed="#L" n="22" break="no"/>eiusdem rationis essent simul in eodem subiecto quod est 
+      impos<lb ed="#L" n="23" break="no"/>sibile: vel saltem vna superflueret, sed Christus habuit habitum 
+      <lb ed="#L" n="24"/>scientiae infusae per quam cognouit quicquid naturaliter est 
+      co<lb ed="#L" n="25" break="no"/>gnoscibile vt dictum fuit prius, ergo per ea, quae a sensibus 
+      ac<lb ed="#L" n="26" break="no"/>cepit non fuit in eo acquisitus habitus nouus scientiae. 
+      </p>
+            <p xml:id="jsnvu6-e168494-d1e272">
+               <lb ed="#L" n="27"/>
+               <!--9--> Secundo probatur idem sic, Sicut inconueniens est quod 
+      Chri<lb ed="#L" n="28" break="no"/>stus acceperit scientiam ab hominibus per auditum ita 
+      incon<lb ed="#L" n="29" break="no"/>ueniens est quod acceperit scientiam per experientiam ex rebus 
+      <lb ed="#L" n="30"/>sensibilibus, sed omnes concedunt communiter quod 
+      inconue<lb ed="#L" n="31" break="no"/>niens fuit Christum accipere scientiam ab hominibus per 
+      audi<lb ed="#L" n="32" break="no"/>tum, vel doctrinam eo quod ipse fuit datus nobis doctor, ergi 
+      <lb ed="#L" n="33"/>inconueniens fuit quod Christus acciperet scientiam ex 
+      sensibili<lb ed="#L" n="34" break="no"/>bus per experientiam, minor conceditur ab omnibus. Sed maic 
+      <lb ed="#L" n="35"/>probatur, quia homo non accipit scientiam ab alio homine, nisi 
+      <lb ed="#L" n="36"/>quia proponuntur ei voces significatiuae rerum scibilium, ita c 
+      <lb ed="#L" n="37"/>homo docens non videtur esse nisi obiectum proponens. Et eodem 
+      <lb ed="#L" n="38"/>modo res sensibiles se habent ad hominem, quia ex his tanquam 
+      <lb ed="#L" n="39"/>obiectis sumit cognitionem per experimentum. Si ergo 
+      incon<lb ed="#L" n="40" break="no"/>ueniens est Christum accipere scientiam ab hominibus, quia in 
+      <lb ed="#L" n="41"/>hoc videtur sua perfectio dependere ab hominibus eadem 
+      ra<lb ed="#L" n="42" break="no"/>tione videtur inconueniens Christum accepisse scientiam, a 
+      re<lb ed="#L" n="43" break="no"/>bus per experientiam, sic enim perfectio sua dependeret a rebus 
+      </p>
+            <p xml:id="jsnvu6-e168494-d1e314">
+               <lb ed="#L" n="44"/>
+               <!--10.--> Tertio, quia scientia, quae acquiritur per experientiam ex 
+      <lb ed="#L" n="45"/>hoc quod sensibilia sunt praesentia sensibus, sed sensibus Christi 
+      <lb ed="#L" n="46"/>pauca valde sensibilia fuerunt praesentia comparatione eorum 
+      <lb ed="#L" n="47"/>quae nunquam sensu praecepit, ergo scientia hoc modo acquisit: 
+      <lb ed="#L" n="48"/>fuisset in Christo valde imperfecta, quod non est dicendum. Et si 
+      <lb ed="#L" n="49"/>dicatur quod licet corporalibus sensibus Christi non fuerunt 
+      om<lb ed="#L" n="50" break="no"/>nia corporalia subiecta. Ex his tamen quae subiecta fuerunt 
+      po<lb ed="#L" n="51" break="no"/>tuit in aliorum notitiam deuenire. Cum ex lumine naturali 
+      intel<lb ed="#L" n="52" break="no"/>lectus possit homo procedere ad intelligendum effectus per 
+      cau<lb ed="#L" n="53" break="no"/>sas &amp; econuerso. Eo modo potuit Christus videndo corpora 
+      coe<lb ed="#L" n="54" break="no"/>lestia compraehendere eorum virtutes &amp; effectus quos habent in 
+      <lb ed="#L" n="55"/>istis inferioribus licet eius sensibus non lubiacerent. Non videtur, 
+      <lb ed="#L" n="56"/>quia ex sola visione corporum coelestium nullus potest 
+      compraehen<lb ed="#L" n="57" break="no"/>dere virtutem eorum, sed potius experientia effectuum loquendo 
+      <lb ed="#L" n="58"/>de naturali cognitione hominis, de qua nunc agimus. Et ideo per 
+      <lb ed="#L" n="59"/>experientiam nabitam in quacunque re non potest haberi 
+      scien<lb ed="#L" n="60" break="no"/>tia de illis rebus, de quibus est experientia, vel de consimilibus 
+      <lb ed="#L" n="61"/>secundum speciem. Sic enim ex multis sensibus fit memoria, ex 
+      <lb ed="#L" n="62"/>multis memoriis experimentum. Ex multis experimentis 
+      vni<lb ed="#L" n="63" break="no"/>uersale quod est principium artis &amp; scientiae, vt dicitur in 
+      pro<lb ed="#L" n="64" break="no"/>hoemio metaphysicae, sic igitur videtur probabiliter quod in 
+      Chri<lb ed="#L" n="65" break="no"/>sto non fuerit aliqua scientia modo humano acquisita. 
+      </p>
+            <p xml:id="jsnvu6-e168494-d1e366">
+               <lb ed="#L" n="66"/>
+               <!--11--> Ad rationes in contrarium. Ad primam dicendum quod 
+      profe<lb ed="#L" n="67" break="no"/>ctus siue incrementum in scientia potest esse dupliciter. Vno 
+      mo<lb ed="#L" n="68" break="no"/>do quantum ad essentiam habitus, quia efficitur habitus 
+      inten<lb ed="#L" n="69" break="no"/>sior, vel quia ad plura se extendit. Et isto modo Christus in 
+      sci<lb ed="#L" n="70" break="no"/>entia non profecit, quia omnia sciuit secundum habitum ab instanti 
+      <lb ed="#L" n="71"/>suae conceptionis aeque perfecte sicut postea, &amp; sic loquitur 
+      Da<lb ed="#L" n="72" break="no"/>mascenus qui dicit quod qui proficere dicunt Christum sapientia 
+      <lb ed="#L" n="73"/>&amp; gratia, vt additamentum sensus suscipientem non eam, qua 
+      <lb ed="#L" n="74"/>est secundum hypostasin, vnionem venerantur. Alio modo est 
+      pro<lb ed="#L" n="75" break="no"/>fectus in scientia quantum ad aliquem modum certitudinis. Sicu 
+      <lb ed="#L" n="76"/>cum aliquis certus de aliqua conclusione per demonstrationem 
+      <lb ed="#L" n="77"/>(puta de eclipsi) eam postea sensibiliter intuetur. Per hoc enim 
+      <lb ed="#L" n="78"/>noua certitudo additur &amp; praecedens confirmatur. Et haec 
+      vo<lb ed="#L" n="79" break="no"/>catur certitudo experimentalis, &amp; quantum ad hoc creuit scien 
+      <lb ed="#L" n="80"/>tia, inquantum quotidie aliqua videbat, quae prius non viderat, 
+      <lb ed="#L" n="81"/>licet ea sciret per scientiam sibi infusam. Et de hoc incremento 
+      <lb ed="#L" n="82"/>loquitur Euangelista &amp; Ambrosius, vel potest dici profecisse in 
+      <!--00484.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>scientia, sicut magister exponit in littera non secundum se. Sed 
+      <lb ed="#L" n="84"/>quia maior de die in diem ostendebat hominibus, ex quibus 
+      ma<lb ed="#L" n="85" break="no"/>nifestabatur sua scientia &amp; gratia. 
+      </p>
+            <p xml:id="jsnvu6-e168494-d1e418">
+               <lb ed="#L" n="86"/>
+               <!--12--> Ad secundum dicendum quod perfectio gratiae quae est alterius 
+      <lb ed="#L" n="87"/>rationis a perfectione naturae non excludit eam. Sed si per 
+      gra<lb ed="#L" n="88" break="no"/>tiam detur alicui perfectio quam posset acquirere per naturam, 
+      <lb ed="#L" n="89"/>tunc ea data similis non posset acquiri, ne duae formae eiusdem 
+      ra<lb ed="#L" n="90" break="no"/>tionis sint simul in eodem subiecto: per id quod dictum est prius 
+      <lb ed="#L" n="91"/>patet responsio ad illud quod dicitur ad Heb. 5. didicit, &amp;c. quia 
+      <lb ed="#L" n="92"/>hoc intelligitur solum quoad certitudinem experimentalem. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

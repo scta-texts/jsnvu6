@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="157-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3710"><!-- l2d30q4 -->
+            <head xml:id="jsnvu6-d1e3710-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e3710-Hd1e103" type="question-title">Utrum alimentum convertatur in veritatem humanae naturae</head>
+            <p xml:id="jsnvu6-d1e3710-d1e106">
+               <lb ed="#L" n="94"/>QVAESTIO QVAETA. 
+      <lb ed="#L" n="95"/>Vtrum alimentum conuertatur in 
+      ve<lb ed="#L" n="96" break="no"/>ritatem naturae humanae. 
+      <lb ed="#L" n="97"/>Thom. 1. q. 119. ar. 1. 
+    </p>
+            <p xml:id="jsnvu6-d1e3710-d1e117">
+               <lb ed="#L" n="98"/>POST haec quaeritur, vtrum alimentum 
+      conuerta<lb ed="#L" n="99" break="no"/>tur in veritatem humanae naturae. Et videtur quod 
+      <lb ed="#L" n="100"/>non: quia quod transit in veritatem alicuius 
+      natu<lb ed="#L" n="101" break="no"/>rae, transit in eius speciem: sed alimentum non 
+      tran<lb ed="#L" n="102" break="no"/>sit in carnem humanam secundum speciem, sed in carnem 
+      se<lb ed="#L" n="103" break="no"/>cundum materiam, vt patet ex primo de generatione, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3710-d1e133">
+               <lb ed="#L" n="104"/>
+               <!--2--> Item si alimentum transiret in veritatem humanae naturae, 
+      <lb ed="#L" n="105"/>quicquid in homine deperditur restaurari posset: sed mors 
+      na<lb ed="#L" n="106" break="no"/>turalis non accidit nisi propter deperditionem alicuius quod 
+      <lb ed="#L" n="107"/>non restauratur, ergo per sumptionem alimenti homo posset. 
+      <lb ed="#L" n="108"/>mortalitatem naturalem euitare, quod est falsum. 
+</p>
+            <p xml:id="jsnvu6-d1e3710-d1e150">
+               <lb ed="#L" n="109"/>
+               <!--3.--> IN CONTRARIVM arguitur, quia quod est in 
+      <lb ed="#L" n="110"/>naturali potentia vt sit tale, per agens naturale efficitur actu 
+      <lb ed="#L" n="111"/>tale, sed alimentum est potentia caro, vt dicitur 2. de Anima 
+      <lb ed="#L" n="112"/>ergo efficitur actu caro per aliquod agens naturale, illud 
+      au<lb ed="#L" n="113" break="no"/>tem est virtus nutritiua in homine, per se habet ad 
+      nutrimen<lb ed="#L" n="114" break="no"/>tum, vt agens ad proprium passiuum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3710-d1e168">
+               <lb ed="#L" n="115"/>
+               <!--4--> RESPONSIO. Quicunque ponunt alimentum noi 
+      <lb ed="#L" n="116"/>conuerti in veritatem humanae naturae, sed ipsum esse quodd 
+      <lb ed="#L" n="117"/>fomentum prohibens consumptionem humidi radicalis ad mo 
+      <lb ed="#L" n="118"/>dum quo plumbum positum in fornace prohibet 
+      consumptio<lb ed="#L" n="119" break="no"/>nem argenti vel auri, vt magister videtur sentire in litera: auf 
+      <lb ed="#L" n="120"/>quicunque dicunt alimentum aliter conuerti in veritatem huma 
+      <lb ed="#L" n="121"/>nae naturae, sed non aeque pure, vt illud quod praeexistit, sicut 
+      po<lb ed="#L" n="122" break="no"/>suit Alexan. quae opiniones in scriptis communibus sunt satis 
+      lu<lb ed="#L" n="123" break="no"/>cidae, mouentur ex vno motiuo, quia videtur eis quod si per 
+      con<lb ed="#L" n="124" break="no"/>uersionem alimenti in naturam nutriti restauretur deperditum 
+      <lb ed="#L" n="125"/>cum continue fiat deperditio, tandem posset contingere quod 
+      ho<lb ed="#L" n="126" break="no"/>mo tamdiu viuere, quod nihil de materia quae fuit in eo in prin 
+      <lb ed="#L" n="127"/>cipio vitae suae maneret in fine: quia quicquid esset a principio 
+      <lb ed="#L" n="128"/>foret per continuam consumptionem successiue deperditum, 8 
+      <lb ed="#L" n="129"/>maneret solum illud quod ad restaurationem deperditi esset er 
+      <lb ed="#L" n="130"/>alimento conuersum. Ad hoc autem sequitur quod non esset idem 
+      <lb ed="#L" n="131"/>homo numero in fine &amp; in principio, cum ad identitatem nume 
+      <lb ed="#L" n="132"/>ralem requiratur identitas materiae &amp; formae. Hoc autem est 
+      <lb ed="#L" n="133"/>manifestum inconueniens: ideo ponunt quod aliquid vnum 8 
+      <lb ed="#L" n="134"/>idem numero quod pertinet ad veritatem humanae naturae, sem 
+      <lb ed="#L" n="135"/>per permanet in homine, cuius vnitate permanet idem homo 
+      </p>
+            <p xml:id="jsnvu6-d1e3710-d1e218">
+               <lb ed="#L" n="136"/>
+               <!--5--> Istud autem non oportet timere: si enim fieret deperditio 
+      <lb ed="#L" n="137"/>secundum determinatam partem solum, puta secundum 
+      ma<lb ed="#L" n="138" break="no"/>num vel pedem, &amp; in illam vel ad restaurationem eius 
+      deter<lb ed="#L" n="139" break="no"/>minate conuerteretur alimentum, &amp; postmodum fieret 
+      alte<lb ed="#L" n="140" break="no"/>rius partis signate deperditio, &amp; eius per alimentum restaura 
+      <lb ed="#L" n="141"/>tio, &amp; sic ita semper, vt distingueretur situ &amp; loco illud quod e 
+      <lb ed="#L" n="142"/>alimento conuertitur, ab eo cui additur: forte verum esset illuc 
+      <lb ed="#L" n="143"/>quod dicunt, scilicet quod non esset simpliciter idem animal in 
+      <lb ed="#L" n="144"/>principio &amp; fine, quia materia alimenti non acciperet formam 
+      <lb ed="#L" n="145"/>praeexistentem in materia nutriti, sed esset eius forma distincta, 
+      <lb ed="#L" n="146"/>sicut ponitur materia alimenti adueniens, distincta a materia 
+      <lb ed="#L" n="147"/>nutriti praeexistente. vnde post aduentum alimenti, &amp; 
+      receptio<lb ed="#L" n="148" break="no"/>nem formae in ea seorsum a materia nutriti, animal esset aliud 
+      <lb ed="#L" n="149"/>secundum partem quam prius, &amp; post consumptionem 
+      secun<lb ed="#L" n="150" break="no"/>dae partis, &amp; eius per alimentum restaurationem, esset aliud 
+      <lb ed="#L" n="151"/>secundum duas partes per eandem rationem. Et finaliter esse 
+      <lb ed="#L" n="152"/>aliud secundum omnes partes, &amp; ita totaliter esset aliud: non 
+      <lb ed="#L" n="153"/>sic autem est, imo alimentum sic conuertitur, vt non sit seor 
+      <lb ed="#L" n="154"/>sum signare illud quod conuersum est ex alimento, &amp; illud quod 
+      <lb ed="#L" n="155"/>praeexistebat in nutrito: sed efficiuntur idem simpliciter in 
+      to<lb ed="#L" n="156" break="no"/>to &amp; in parte, ac per hoc manet animal idem simpliciter in 
+      to<lb ed="#L" n="157" break="no"/>to &amp; in parte. 
+      </p>
+            <p xml:id="jsnvu6-d1e3710-d1e270">
+               <lb ed="#L" n="158"/>
+               <!--6--> Et potest ex hoc formari talis ratio. Illud non variat 
+      indiui<lb ed="#L" n="159" break="no"/>duum in toto vel in parte, quod manet in indiuiduo idem in toto 
+      <lb ed="#L" n="160"/>vel in parte, sed non obstante conuersione alimenti in veritate 
+      <lb ed="#L" n="161"/>humanae, naturae, nutriti materia manet eadem simpliciter in 
+      to<lb ed="#L" n="162" break="no"/>to &amp; in parte, ergo, &amp;c. Maior patet, minor probatur. quod enim 
+      <!--00383.xml-->
+      <pb ed="#L" n="158-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>aduenmente alimento materia non sit alia in toto quam prius, 
+      <lb ed="#L" n="2"/>clarum est, quia materia animalis non tota simul deperditur 
+      <lb ed="#L" n="3"/>ita vt forma fiat praecise &amp; totaliter in alia materia, quia iam 
+      <lb ed="#L" n="4"/>vera esset corruptio vnius animalis, &amp; vera generatio alterius, 
+      <lb ed="#L" n="5"/>&amp; non nutritio. Item neque est alia in parte, quia illa partialitas 
+      <lb ed="#L" n="6"/>esset vel secundum essentiam materiae, quia materia secundum 
+      <lb ed="#L" n="7"/>se partem non habent, sed est indiuisibilis, nec secundum 
+      quan<lb ed="#L" n="8" break="no"/>titatem: quia illud quod ex alimento conuersum est, non differt 
+      <lb ed="#L" n="9"/>secunduni situm quantitatis ab eo cui aduenit, sed est eadem nu 
+      <lb ed="#L" n="10"/>mero quantitas, &amp; est eadem pars quantitatis vtrunque 
+      perfi<lb ed="#L" n="11" break="no"/>ciens: est igitur eadem materia quae prius in toto &amp; in parte. 
+      </p>
+            <p xml:id="jsnvu6-d1e3710-d1e316">
+               <lb ed="#L" n="12"/>
+               <!--7--> Causa enim hinc accipienda est, materia enim sit pure 
+      po<lb ed="#L" n="13" break="no"/>tentia sicut secundum se non est actu, sic secundum se non est 
+      <lb ed="#L" n="14"/>vna vel plures actu, sed per formam quae est sua actualis entitas, 
+      <lb ed="#L" n="15"/>est &amp; sua actualis vnitas vel pluralitas, propter quod tota mate 
+      <lb ed="#L" n="16"/>ria quae est sub aliqua vna forma substantiali, est vna &amp; eadem 
+      <lb ed="#L" n="17"/>substantialiter &amp; essentialiter, nec est ibi dare diuersitatem 
+      ali<lb ed="#L" n="18" break="no"/>quam, nisi forte secundum quod extenditur per quantitatem ex qua 
+      <lb ed="#L" n="19"/>sortitur quandam partialitate vel diuersitatem, quam tamen 
+      di<lb ed="#L" n="20" break="no"/>uersitatem non est assignare inter illud quod conuersum est ex 
+      <lb ed="#L" n="21"/>alimento, &amp; illud quod praeexistebat in nutrito, vt dictum est, 
+      <lb ed="#L" n="22"/>ideo vtrumque est simpliciter vnum essentialiter &amp; quantitatiue, 
+      <lb ed="#L" n="23"/>ac per consequens idem simpliciter quod prius in toto &amp; in parte 
+      </p>
+            <p xml:id="jsnvu6-d1e3710-d1e347">
+               <lb ed="#L" n="24"/>
+               <!--8--> Haec autem sufficienter probata sunt, si concedatur quod 
+      <lb ed="#L" n="25"/>post deperditionem &amp; consumptionem factam in corpore, ani 
+      <lb ed="#L" n="26"/>malis forma manet eadem simpliciter in parte &amp; in toto, &amp;c 
+      <lb ed="#L" n="27"/>sub ipsa manente sic eadem, fiat illud quod conuertitur ex ali 
+      <lb ed="#L" n="28"/>mento. Si vero per consumptionem vel resolutionem factam a 
+      <lb ed="#L" n="29"/>corpore forma varietur in toto vel in parte, vel per aduentum 
+      <lb ed="#L" n="30"/>nutrimenti varietur aliquo modo forma nutriti iam non 
+      vide<lb ed="#L" n="31" break="no"/>tur quod maneat simpliciter idem animal quod prius, cum ex 
+      <lb ed="#L" n="32"/>forma iudicetur tota identitas vel varietas rei¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e3710-d1e372">
+               <lb ed="#L" n="33"/>
+               <!--9--> Posset autem alicui videri quod per resolutionem factam a 
+      cor<lb ed="#L" n="34" break="no"/>pore vel nutrimento adueniente forma nutriti in aliquo varie. 
+      <lb ed="#L" n="35"/>tur saltem in aliis ab homine, quia forma quae non est separabili, 
+      <lb ed="#L" n="36"/>a materia cum desinit esse in materia, desinit simpliciter esse: &amp; 
+      <lb ed="#L" n="37"/>cum incipit esse in materia, incipit simpliciter esse, sed omnes for 
+      <lb ed="#L" n="38"/>mae viuentium praeter formam rationalem sunt inseparabiles a ma 
+      <lb ed="#L" n="39"/>teria: ergo cum desinunt esse in materia, desinunt simpliciter esse 
+      <lb ed="#L" n="40"/>&amp; cum incipiunt esse in materia, incipiunt simpliciter esse: sed 
+      <lb ed="#L" n="41"/>in deperditione quae fit in corpore animali, forma secundum 
+      ali<lb ed="#L" n="42" break="no"/>quid sui desinit esse in materia: qa materia quae fuit sub forma 
+      <lb ed="#L" n="43"/>animalis, secundum aliquid sui desinit esse sub ea. Alioquin nulla 
+      <lb ed="#L" n="44"/>fieret resolutio a varietate naturae, similiter in nutritione 
+      for<lb ed="#L" n="45" break="no"/>ma nutriti secundum aliquid sui incipit esse in materia, sicut &amp; 
+      ali<lb ed="#L" n="46" break="no"/>quid materiae quae prius non fuit sub forma nutriti incipit esse 
+      <lb ed="#L" n="47"/>sub ea, ergo vt videtur per resolutionem factam a corpore, vel 
+      nu<lb ed="#L" n="48" break="no"/>trimentum adueniens variatur forma nutriti secundum aliquid sui 
+      </p>
+            <p xml:id="jsnvu6-d1e3710-d1e411">
+               <lb ed="#L" n="49"/>
+               <!--10--> Et dicendum quod si fieret resolutio alicuius partis deter 
+      <lb ed="#L" n="50"/>minatae &amp; distinctae secundum situm ab aliis vel in nutritione, 
+      <lb ed="#L" n="51"/>fieret talis partis additio proculdubio per resolutionem factan 
+      <lb ed="#L" n="52"/>a corpore &amp; nutritionem, similiter forma nutriti secundum ali 
+      <lb ed="#L" n="53"/>quid variaretur: quia forma quae extenditur extensione 
+      mate<lb ed="#L" n="54" break="no"/>riae diuisione partis, a toto diuiditur, &amp; corruptione talis parti: 
+      <lb ed="#L" n="55"/>corrumpitur secundum partem. Et proportionabiliter est 
+      dicen<lb ed="#L" n="56" break="no"/>dum in additione talis partis: sed cum fit resolutio alicuius 
+      in<lb ed="#L" n="57" break="no"/>distincti, id quod resoluitur priuatur quidem forma sub qua 
+      <lb ed="#L" n="58"/>erat, sed forma totius in nullo variatur essentialiter, quia nihil 
+      <lb ed="#L" n="59"/>distinctum ipsius formae perficiebat illud quod resolutum est. Et 
+      <lb ed="#L" n="60"/>proportionabiliter intelligendum est in additione quae fit per 
+      <lb ed="#L" n="61"/>nutritionem, propter quod sicut in nutritione fit vera 
+      corru<lb ed="#L" n="62" break="no"/>ptio alimenti absque vera &amp; propria generatione nutriti, sic 
+      <lb ed="#L" n="63"/>in resolutione absque vera &amp; propria corruptione animalis 
+      <lb ed="#L" n="64"/>secundum totum vel partem fit vera generatio vermis, vel 
+      al<lb ed="#L" n="65" break="no"/>terius rei in materia a corpore resoluta. 
+</p>
+            <p xml:id="jsnvu6-d1e3710-d1e453">
+               <lb ed="#L" n="66"/>
+               <!--11--> Ad primum argumentum dicendum quod Philosophus non 
+      <lb ed="#L" n="67"/>vocat carnem secundum materiam, eo quod careat forma car 
+      <lb ed="#L" n="68"/>nis per quam pertinet ad entitatem &amp; vnitatem naturae 
+      car<lb ed="#L" n="69" break="no"/>nis: quia quod adgeneratur ex alimento, adiungitur corpor 
+      <lb ed="#L" n="70"/>nutrito per modum cuiusdam mixtionis, sicut aqua miscetur 
+      <lb ed="#L" n="71"/>vino, vt ibidem ponit exemplum Philosophus, talium autem 
+      <lb ed="#L" n="72"/>efficitur vna natura, sed vocat carnem secundum materiam, 
+      <lb ed="#L" n="73"/>carnem consideratam secundum naturam materiae quae vt 
+      si<lb ed="#L" n="74" break="no"/>aduenit, &amp; recedit: carnem vero secundum speciem eandem 
+      <lb ed="#L" n="75"/>consideratam secundum matenam formae, quae vt sic manei 
+      <lb ed="#L" n="76"/>semper éadem in toto &amp; in parte, vt declaratum est. A 
+      </p>
+            <p xml:id="jsnvu6-d1e3710-d1e482">
+               <lb ed="#L" n="77"/>
+               <!--12--> Ad secundum dicendum quod sicut virtus vini conuerten 
+      <lb ed="#L" n="78"/>tis aquam paulatim per admixtionem aquae debilitatur vt tan 
+      <lb ed="#L" n="79"/>dem fiat aquosum, Sic virtus conuersiua alimenti, primo 
+      qui<lb ed="#L" n="80" break="no"/>dem fortis existens, postea debilitatur, deinde deficit ita vt 
+      ne<lb ed="#L" n="81" break="no"/>que possit aliquid conuertere, &amp; tunc fit consumptio sine 
+      re<lb ed="#L" n="82" break="no"/>stautatione, &amp; necesse est anina naturaliter mori
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="14-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e240"><!-- l1d2q1 -->
+            <head xml:id="jsnvu6-d1e240-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e240-Hd1e103" type="question-title">Utrum sit tantum unus Deus</head>
+            <p xml:id="jsnvu6-d1e240-d1e106">
+               <lb ed="#L" n="102"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="103"/>Vtrum sit vnus Deus. 
+      <lb ed="#L" n="104"/>Thom. 1. 9. 11. 4r. 3. 
+    </p>
+            <p xml:id="jsnvu6-d1e240-d1e115">
+               <lb ed="#L" n="105"/>CIRCA distinctionem istam quaeruntur tra i 
+      pri<lb ed="#L" n="106" break="no"/>mum est, de vnitate essentiae diuinae: secundum est 
+      <lb ed="#L" n="107"/>de pluralitate attributorum: tertium est, de 
+      pluralita<lb ed="#L" n="108" break="no"/>te personarum. Quantum ad primum, quaeritur, 1 
+      <lb ed="#L" n="109"/>vtrum sit tantum vnus Deus: &amp; arguitur quod non, quia magis &amp; 
+      <lb ed="#L" n="110"/>minus tale, dicuntur per reductionem ad aliquid quod est 
+      <lb ed="#L" n="111"/>summe tale: sed in rebus est dare aliquid magis malum, &amp; 
+      mi<lb ed="#L" n="112" break="no"/>nus malum: ergo est dare summe malum: sed summe malum 
+      <lb ed="#L" n="113"/>non potest causari a summo bono, vt probabitur: ergo sicut ess 
+      <lb ed="#L" n="114"/>dare summe bonum, &amp; a nullo causatum, &amp; causam omnium 
+      <lb ed="#L" n="115"/>bonorum: ita, vt videtur, est dare summum malum, a nullo cau 
+      <lb ed="#L" n="116"/>satum, &amp; causam omnium malorum: &amp; sic erunt duo Dij, vnus 
+      <lb ed="#L" n="117"/>bonus, &amp; alter malus. Probatio assumpti, scilicet quod summe 
+      <lb ed="#L" n="118"/>malum non possit causari a summe bono, quia causa habet in 
+      <lb ed="#L" n="119"/>se effectum virtualiter: sed summe bonum nihil habet de 
+      sum<lb ed="#L" n="120" break="no"/>me malo, nec formaliter nec virtualiter: ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e240-d1e152">
+               <lb ed="#L" n="121"/>
+               <!--2--> Item quicquid perfectionis est in creaturis, totum est Dec 
+      <lb ed="#L" n="122"/>attribuendum: sed facere sibi simile, est perfectionis in 
+      creatu<lb ed="#L" n="123" break="no"/>ris, vt patet per Philosophum 4. Meteor. qui dicit, quod 
+      perfe<lb ed="#L" n="124" break="no"/>ctum est, quod potest facere sibi simile: ergo Deus potest face 
+      <lb ed="#L" n="125"/>re alium Deum: ergo plures Dij sunt, vel saltem esse possunt.
+</p>
+            <p xml:id="jsnvu6-d1e240-d1e169">
+               <lb ed="#L" n="126"/>IN CONTRARIVM est, quod dicitur Exod. 20. &amp; 
+      <lb ed="#L" n="127"/>Deut. 6. Dominus Deus tuus, vnus est Deus. &amp; Philosophus 12. 
+      <lb ed="#L" n="128"/>Metaphysi. in fine, concludit, quod entia nolunt male disponi: 
+      <lb ed="#L" n="129"/>nec bona multitudo est principium: vnus ergo princeps. 
+</p>
+            <p xml:id="jsnvu6-d1e240-d1e180">
+               <lb ed="#L" n="130"/>RESPONSIO. Ista quaestio supponit vnum, videlicet quod 
+      <lb ed="#L" n="131"/>Deus sit: &amp; quaerit aliud, scilicet vtrum sit tantum vnus Deus 
+      <lb ed="#L" n="132"/>an plures. De hoc quod supponitur, patebit veritas in sequenti 2 
+      <lb ed="#L" n="133"/>dis. &amp; nunc supponimus Deum esse, intelligendo nomine Dei 
+      <lb ed="#L" n="134"/>illud, quod est primum &amp; perfectissimum in entibus: quo 
+      sup<lb ed="#L" n="135" break="no"/>posito, dicenda sunt duo de quaestione proposita. Primum est, 
+      <lb ed="#L" n="136"/>quod impossibile est esse plures Deos specie differentes. 
+      Se<lb ed="#L" n="137" break="no"/>cundum est, quod impossibile est, quod sint plures Dij, qui sub 
+      <lb ed="#L" n="138"/>eadem specie differant solo numero. 
+    </p>
+            <p xml:id="jsnvu6-d1e240-d1e202">
+               <lb ed="#L" n="139"/>Primum patet dupliciter, primo ex creaturarum ordin 
+      <lb ed="#L" n="140"/>sic: quicunque ordinem habent essentialem secundum gradum 
+      <lb ed="#L" n="141"/>specificum naturae, ordinantur sub vno secundum speciem, quod 
+      <lb ed="#L" n="142"/>est supremum, &amp; perfectissimum in illo ordine: sed quaecunque 
+      <lb ed="#L" n="143"/>species substantiarum sunt, vel esse possunt, habent inter se 
+      <lb ed="#L" n="144"/>ordinem essentialem secundum gradus specificos naturae: 
+      er<lb ed="#L" n="145" break="no"/>go omnes species substantiae quae sunt, &amp; esse possunt, 
+      ordi<lb ed="#L" n="146" break="no"/>nantur sub vno secundum speciem, quod est supremum, &amp; 
+      <lb ed="#L" n="147"/>perfectissimum inter omnes substantias, &amp; per consequens 
+      <lb ed="#L" n="148"/>est perfectissimum simpliciter. Et hoc vocamus Deum: ergi 
+      <lb ed="#L" n="149"/>non est nisi vnus Deus, saltem secundum speciem. Maior patet, 
+      <lb ed="#L" n="150"/>quia supposito, quod in gradibus specificis entium sit dare 
+      perfe<lb ed="#L" n="151" break="no"/>ctissimum &amp; supremum, vt nunc supponitur, &amp; postea proba 
+      <lb ed="#L" n="152"/>bitur, &amp; inter omnes species est ordo secundum gradum 
+      per<lb ed="#L" n="153" break="no"/>fectionis: necesse est quod in ordine isto deueniatur ad vnam 
+      <lb ed="#L" n="154"/>speciem perfectissimam, in qua sit status. Si enim stareturex 
+      <lb ed="#L" n="155"/>aequo in pluribus, &amp; non in vna, illae plures non haberent inter 
+      <lb ed="#L" n="156"/>se ordinem secundum gradum perfectionis naturalis: cuius 
+      op<lb ed="#L" n="157" break="no"/>positum assumitur in maiori propositione. Minor probatur, 
+      <lb ed="#L" n="158"/>scilicet quod quaecunque sunt, aut esse possunt, habent inter se 
+      <lb ed="#L" n="159"/>ordinem essentialem secundum gradum naturae (loquendo 
+      de<lb ed="#L" n="160" break="no"/>speciebus, quia indiuidua sub specie non habent ordinem 
+      in<lb ed="#L" n="161" break="no"/>ter se, nisi tantum per accidens) hoc autem patet assumendo 
+      <!--00094.xml-->
+      <pb ed="#L" n="14-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dictum Philoso. 8. Metaph. vbi dicit, quod species rerum sunt sicut 
+      <lb ed="#L" n="2"/>numeri. Videmus autem in speciebus numerorum, quod plures species 
+      <lb ed="#L" n="3"/>numerorum nec sunt nec esse possunt quacunque virtute quae 
+      <lb ed="#L" n="4"/>aeque distent ab vnitate: sed necessario vna distat mediante 
+      al<lb ed="#L" n="5" break="no"/>tera, tanquam habentia necessarium ordinem inter se, &amp; ad vni 
+      <lb ed="#L" n="6"/>tatem vt patet inducendo in omnibus speciebus numerorum. 
+      <lb ed="#L" n="7"/>Denarius &amp; quaternarius non aequaliter distant ab vnitate: sed 
+      <lb ed="#L" n="8"/>quaternarius mediante ternario: nec potest virtute diuina fieri 
+      <lb ed="#L" n="9"/>species numeri, quae aequaliter cum ternario distet ab vnitate, 
+      <lb ed="#L" n="10"/>sed necessario plus vel minus, incidendo in ordinem specierum 
+      nu<lb ed="#L" n="11" break="no"/>meri: ergo similiter est in speciebus rerum, quod non sunt plures spe 
+      <lb ed="#L" n="12"/>cies: nec esse possunt quacunque virtute, aeque distantes a primo, 
+      <lb ed="#L" n="13"/>&amp; non habentes inter se ordinem: sed necessario ordinantur inter 
+      <lb ed="#L" n="14"/>se, secundum gradum naturae. Istud autem magis patebit infra 
+      <lb ed="#L" n="15"/>n. dist. 44. Sic ergo patet minor: sequitur conclusio. 
+      </p>
+            <p xml:id="jsnvu6-d1e240-d1e293">
+               <lb ed="#L" n="16"/>
+               <!--6--> Secundo patet idem, ex operatione specierum secundum perfectionem 
+      <lb ed="#L" n="17"/>maiorem &amp; minorem sic: Illud non est Deus, quo est dare aliquid perfe 
+      <lb ed="#L" n="18"/>ctius, qua nomine Dei intelligimus illud, quod est perfectissimum: 
+      <lb ed="#L" n="19"/>sed vbicumque sunt duo, quae species differunt vnum est altero perfe 
+      <lb ed="#L" n="20"/>ctius (quia impossibile est duas species esse in eodem gradu 
+      per<lb ed="#L" n="21" break="no"/>fectionis, vt iam dictum est.) ergo illud alterum non potest esse Deus
+</p>
+            <p xml:id="jsnvu6-d1e240-d1e311">
+               <lb ed="#L" n="22"/>SECVNDVM patet scilicet quod non possunt esse plures dij 
+      <lb ed="#L" n="23"/>solo numero differentes. Et hoc sic: Omnis natura, quae est non 
+      <lb ed="#L" n="24"/>solum ab alio plurificabilis, sed etiam de se plurificata, non est vna 
+      <lb ed="#L" n="25"/>secundum speciem sed natura diuina non est ab alio plurificabilis 
+      <lb ed="#L" n="26"/>effectiue, cum non habeat causam agentem priorem se. Et ideo si fit in 
+      <lb ed="#L" n="27"/>pluribus, est in eis de se &amp; ex se plurificata: ergo talis natura non 
+      <lb ed="#L" n="28"/>est vna secundum speciem in illis pluribus. Et ita non differunt solo 
+      <lb ed="#L" n="29"/>numero. Minor est manifesta: sed maior probatur. In hoc enim 
+      <lb ed="#L" n="30"/>distinguuntur natura speciei, &amp; natura generis, quia natura 
+      spe<lb ed="#L" n="31" break="no"/>ciei potest tota saluari in vnico indiuiduo, genus autem non. Et 
+      <lb ed="#L" n="32"/>hoc est, quia genus importat pluralitatem naturarum, quae in vno 
+      <lb ed="#L" n="33"/>indiuiduo esse non potest. Natura enim generis est de se plures 
+      <lb ed="#L" n="34"/>propter quod dicitur 7. Physic. qui aequiuocatione latent in 
+      gene<lb ed="#L" n="35" break="no"/>ribus, sed natura speciei de se non est plures, cum possit saluari 
+      <lb ed="#L" n="36"/>in vnico supposito. Est tamen in aliquibus plurificabilis per 
+      actio<lb ed="#L" n="37" break="no"/>nem agentis iterabilem, vt patebit in 2. lib. dist. 3. 
+      </p>
+            <p xml:id="jsnvu6-d1e240-d1e348">
+               <lb ed="#L" n="38"/>
+               <!--8--> Item omnis natura, quae est plurificabilis in multa solo 
+      nu<lb ed="#L" n="39" break="no"/>mero differentia, quantum est de se, potest multiplicari in plura, 
+      <lb ed="#L" n="40"/>sicut in duo vel tria, imo in infinita, saltem successiue, sicut 
+      expe<lb ed="#L" n="41" break="no"/>rientia docet de omnibus multiplicabilibus in numeris 
+      secun<lb ed="#L" n="42" break="no"/>dum eandem speciem.) Si ergo natura diuina esset multiplicabilis 
+      <lb ed="#L" n="43"/>secundum numerum, ita vt essent plures Dij sub eadem specie solo 
+      <lb ed="#L" n="44"/>numero differentes: sequeretur, quod possent esse non solum duo Dij, 
+      <lb ed="#L" n="45"/>sed quotcunque. Et quia quicquid est possibile in natura diuina 
+      <lb ed="#L" n="46"/>totum est in ea necessario, quia ipsa est necesse esse: ideo sequere 
+      <lb ed="#L" n="47"/>tur, quod essent Dij infiniti, non solum potentia, sed in actu: quia in ea 
+      <lb ed="#L" n="48"/>nihil est possibile, quod non sit in actu. Hoc autem est impossibile 
+      <lb ed="#L" n="49"/>ergo. &amp; illud. ex quo sequitur scz, quod natura diuina sit plurificabi. 
+      <lb ed="#L" n="50"/>lis in multa solo numero differentia. Sic ergo patet, quod non possunt 
+      <lb ed="#L" n="51"/>esse plures dij specie differentes, aut solo num. nullo ergo modo 
+      </p>
+            <p xml:id="jsnvu6-d1e240-d1e384">
+               <lb ed="#L" n="52"/>
+               <!--9--> Ad primum argumentum, cum dicitur, quod magis &amp; 
+      mi<lb ed="#L" n="53" break="no"/>nus tale dicuntur, &amp;c. dicendum est, quod haec habent solum 
+      ve<lb ed="#L" n="54" break="no"/>ritatem in effectibus positiuis, non autem in priuatiuis. Cuius 
+      ra<lb ed="#L" n="55" break="no"/>tio est, quia vnunquodque reducitur in causam suam, sicut ab ea 
+      <lb ed="#L" n="56"/>procedit. Effectus autem positiui habent causam positiuam, &amp; po 
+      <lb ed="#L" n="57"/>sitiue influentem: &amp; ideo positiue reducuntur in eam. Et 
+      propte<lb ed="#L" n="58" break="no"/>hoc, vbi est magis &amp; minus positiue dictum, oportet dare 
+      ali<lb ed="#L" n="59" break="no"/>quid summe tale. Priuatiua autem non habent causam positiuam 
+      <lb ed="#L" n="60"/>„ &amp; positiue influentem, sed magis deficientem, &amp; ideo non reducum 
+      <lb ed="#L" n="61"/>tur in causam positiue influentem, ita vt sit aliquid summe pri 
+      <lb ed="#L" n="62"/>uatiuum, quod sua influentia causet alia priuatiua. Sed 
+      redu<lb ed="#L" n="63" break="no"/>cuntur in causam positiuam, non a qua fiant per se, sed quae po 
+      <lb ed="#L" n="64"/>tuit deficere, &amp; deficit. Et ideo malum cum dicat priuationem, 
+      <lb ed="#L" n="65"/>non arguit, esse aliquod summe malum, a quo causetur, sed 
+      tan<lb ed="#L" n="66" break="no"/>tum arguit, esset bonum, quod possit plus vel minus deficere. 
+      </p>
+            <p xml:id="jsnvu6-d1e240-d1e421">
+               <lb ed="#L" n="67"/>
+               <!--10.--> Ad secundum, cum dicitur, quod illud quod est perfectionis in 
+      <lb ed="#L" n="68"/>creaturis, debet Deo attribui, dicendum quod verum est, sed 
+      intel<lb ed="#L" n="69" break="no"/>ligendum est, quod naturam non reperiri in pluribus suppositis, est 
+      <lb ed="#L" n="70"/>perfectionis: plurificari autem in eis, est imperfectionis. Primum 
+      <lb ed="#L" n="71"/>enim arguit illimitationem: secundum autem arguit limitationem. 
+      <lb ed="#L" n="72"/>Et similiter arguit imperfectionem &amp; limitationem, habere ex 
+      <lb ed="#L" n="73"/>alio entitatem; vt argutum fuit in positione: tollamus ergo, quod 
+      <lb ed="#L" n="74"/>est imperfectionis, scilicet naturam plurificari, &amp; remanet id, 
+      <lb ed="#L" n="75"/>quo dest perfectionis, scilicet naturam inueniri in pluribus 
+      sup<lb ed="#L" n="76" break="no"/>positis, &amp; hoc attribuendum est diuinis, &amp; vere attribuitur. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

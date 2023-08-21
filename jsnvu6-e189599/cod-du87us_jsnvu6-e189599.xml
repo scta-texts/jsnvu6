@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="230-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e189599"><!-- l3d31prae -->
+            <head xml:id="jsnvu6-e189599-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e189599-d1e103">
+               <lb ed="#L" n="114"/>Sententia huius distinctionis XXXI. in 
+      <lb ed="#L" n="115"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e189599-d1e110">
+               <lb ed="#L" n="116"/>LI VD quoque non est praetereundum. Superius 
+      <lb ed="#L" n="117"/>determinauit magister de charitate in se, &amp; de 
+      nu<lb ed="#L" n="118" break="no"/>mero diligendorum, &amp; de ordine diligendi. Hic 
+      de<lb ed="#L" n="119" break="no"/>terminat de permanentia charitatis siue de 
+      dura<lb ed="#L" n="120" break="no"/>Itione eius. Et diuiditur in duas. Primo determinat 
+      <lb ed="#L" n="121"/>de permanentia charitatis in statu etiam viatorum. Et in secun 
+      <lb ed="#L" n="122"/>do de statu compraehensorum ibi, aduertendum etiam est. 
+      Pri<lb ed="#L" n="123" break="no"/>ma in duas, quia primo tangit quendam errorem, &amp; eum destruit. 
+      <lb ed="#L" n="124"/>Secundo auctoritates quibus praedictus error innititur, 
+      deter<lb ed="#L" n="125" break="no"/>minat &amp; exponit ibi, quod vero apostolus. Secunda pars 
+      princi<lb ed="#L" n="126" break="no"/>palis quae incipit ibi, aduertendum etiam est, diuiditur in duas 
+      <lb ed="#L" n="127"/>Quia primo inquirit an charitas maneat in compraehensoribus. 
+      <lb ed="#L" n="128"/>Secundo an origo charitatis fuerit in Christo ibi, hic iam 
+      supe<lb ed="#L" n="129" break="no"/>rest in charitate inuestigare. Haec est diuisio &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e189599-d1e143">
+               <lb ed="#L" n="130"/>
+               <!--2--> In speciali sic procedit. Primo dicit quod quidam asseruerunt 
+      <lb ed="#L" n="131"/>charitatem semel habitam non posse amitti propter hoc quod ait 
+      <lb ed="#L" n="132"/>apostolus 1. ad Corin. 13. Charitas nunquam excidit. &amp; Aug. dicit 
+      <lb ed="#L" n="133"/>quod charitas quae deseri potest nunquam fuit vera, &amp; multae ali 
+      <lb ed="#L" n="134"/>auctoritates ponuntur in litera quae videntur idem sonare, sed in 
+      <lb ed="#L" n="135"/>contrarium est ratio &amp; auctoritas, ratio quia quidam primo sunt 
+      <lb ed="#L" n="136"/>boni qui postea efficiuntur mali. Et sic primo habent charitatem 
+      <lb ed="#L" n="137"/>&amp; postea amittunt eam, Christus etiam in euangelio dicit quo 
+      <lb ed="#L" n="138"/>rundam nomina scripta esse in libro vitae quibus postea 
+      dicturu<lb ed="#L" n="139" break="no"/>erat nescio vos, multi enim scripti sunt in libro vitae secundum 
+      <lb ed="#L" n="140"/>praesentem iustitiam qui non sunt ibi scripti secundum praescientiam 
+      <lb ed="#L" n="141"/>quia ad tempus habent charitatem quam postea finaliter deserunmt 
+      <lb ed="#L" n="142"/>Tunc respondet ad auctoritates in contrarium dicens quod illud 
+      <lb ed="#L" n="143"/>apostoli charitas nunquam excidit non intelligitur quin chari 
+      <lb ed="#L" n="144"/>tas habita possit amitti. Sed fit ibi comparatio de charitate ad fi 
+      <lb ed="#L" n="145"/>dem, &amp; spem quae non manebunt in patria sicut charitas. Id eti. 
+      <lb ed="#L" n="146"/>quod dicit Aug. quod charitas quae deseri potest non fuit vera, 
+      in<lb ed="#L" n="147" break="no"/>telligendum est quod non fuit vera quantum ad vltimum effectum 
+      <lb ed="#L" n="148"/>qui est perducere ad regnum caelorum quamuis fuerat vera 
+      quan<lb ed="#L" n="149" break="no"/>tum ad essentiam charitatis. Allo modo respondet quod charita 
+      <lb ed="#L" n="150"/>perfecta amitti non potest. Et sic respondet ad omnes auctorita 
+      <lb ed="#L" n="151"/>tes in contrarium. Postea quaerit cum charitas viatoris sit ex 
+      par<lb ed="#L" n="152" break="no"/>te, quia ex parte diligimus sicut fides, spes, &amp; scientia sunt es 
+      <lb ed="#L" n="153"/>parte quare charitas non euacuatur sicut fides, spes, &amp; scienti 
+      <lb ed="#L" n="154"/>dicuntur euacuari. Et respondet quod fides &amp; spes totalite 
+      <lb ed="#L" n="155"/>euacuabuntur in patria. Scientia vero euacuabitur quantum ad 
+      <lb ed="#L" n="156"/>actum &amp; modum qui nunc est, &amp; non quantum ad essentiam 
+      sci<lb ed="#L" n="157" break="no"/>entiae. Charitas vero manebit in patria quantum ad essentiam 
+      <lb ed="#L" n="158"/>&amp; actum &amp; modum exclusa tamen imperfectione. Vitimo qua 
+      <lb ed="#L" n="159"/>rit vtrum in Christo fuerit ordo diligendi. Et arguit quod non 
+      <lb ed="#L" n="160"/>quia si dilexit proximum sicut seipsum sicut voluit se saluare 
+      <lb ed="#L" n="161"/>ita voluisset de aliis, sed non omnes alij sunt saluati, ergo &amp;c. E 
+      <lb ed="#L" n="162"/>respondet que charita: &amp; ordo charitatis tuerunt in Christo a¬ 
+      <!--00535.xml-->
+      <pb ed="#L" n="231-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>modum bonorum qui nihil volunt nisi illud quod sciunt deum 
+      <lb ed="#L" n="2"/>velle, &amp; sic Christus voluit saluari solum illos quos sciebat de 
+      <lb ed="#L" n="3"/>Velle saluari, Et in hoc terminatur sententia &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

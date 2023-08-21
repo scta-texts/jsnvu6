@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="132-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2942"><!-- l2d13q2 -->
+            <head xml:id="jsnvu6-d1e2942-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e2942-Hd1e103" type="question-title">Utrum lumen habeat esse reale in medio vel intentionale</head>
+            <p xml:id="jsnvu6-d1e2942-d1e106">
+               <lb ed="#L" n="118"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="119"/>Vtrum lumen habeat esse reale an 
+      inten<lb ed="#L" n="120" break="no"/>tionale in medio. 
+      <lb ed="#L" n="121"/>Thom. ibidem. 
+    </p>
+            <p xml:id="jsnvu6-d1e2942-d1e117">
+               <lb ed="#L" n="122"/>DEINDE quaeritur vtrum lumen habeat esse 
+      re<lb ed="#L" n="123" break="no"/>le an intentionale in medio. Et videtur quod 
+      ha<lb ed="#L" n="124" break="no"/>beat solum esse intentionale quia nulla realis qua 
+      <lb ed="#L" n="125"/>litas supposita sensui percipitur, sed lumen 
+      im<lb ed="#L" n="126" break="no"/>mediate attingens pupilllam, a visu percipitur, 
+      <lb ed="#L" n="127"/>ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e133">
+               <lb ed="#L" n="128"/>
+               <!--2.--> Item quod dat alij esse intellectuale videtur de se &amp; in se illud 
+      <lb ed="#L" n="129"/>habere, sed lumen dat colori esse intentionale in medio, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e143">
+               <lb ed="#L" n="130"/>
+               <!--3--> Item qualitas realis remanet in subiecto in absentia 
+      produ<lb ed="#L" n="131" break="no"/>centis, sed lumen non remanet in absentia luminaris, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e152">
+               <lb ed="#L" n="132"/>
+               <!--4--> IN CONTRARIVM arguitur, quia nulla forma 
+      in<lb ed="#L" n="133" break="no"/>tentionalis denominat subiectum in quo est (sicut aer non 
+      dici<lb ed="#L" n="134" break="no"/>tur coloratus propter intentionem coloris qui est in medio) 
+      lu<lb ed="#L" n="135" break="no"/>men autem denominat medium, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e165">
+               <lb ed="#L" n="136"/>
+               <!--5--> Item forma intentionalis non est principium mutationum 
+      <lb ed="#L" n="137"/>naturalium, sed solum animalium, sed lumen est principium 
+      im<lb ed="#L" n="138" break="no"/>mutationis naturalis puta calefactionis, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e176">
+               <lb ed="#L" n="139"/>
+               <!--6--> RESPONSIO. Esse intentionale potest dupliciter 
+      ac<lb ed="#L" n="140" break="no"/>cipi, Vno modo prout distinguitur contra esse reale, &amp; sic 
+      dicun<lb ed="#L" n="141" break="no"/>tur habere esse intentionale illa quae non sunt nisi per 
+      operatio<lb ed="#L" n="142" break="no"/>nem intellectus sicut genus &amp; species, &amp; logicae intentiones, &amp; 
+      <lb ed="#L" n="143"/>iste est proprius modus accipiendi intentionem &amp; esse 
+      intentio<lb ed="#L" n="144" break="no"/>nale. Et isto modo lumen in medio vel species coloris non habent 
+      <lb ed="#L" n="145"/>esse intentionale, quia quae sunt a principiis realibus 
+      circunscri<lb ed="#L" n="146" break="no"/>pta operatione intellectus habent esse reale &amp; non intentionale 
+      <lb ed="#L" n="147"/>sed lumen &amp; species coloris in medio sunt huiusmodi, ergo &amp;c 
+      <lb ed="#L" n="148"/>Alio modo dicitur aliquid habere esse intentionale large, quia 
+      <lb ed="#L" n="149"/>habet esse debile, sed habere esse debile adhuc tripliciter. Aliqua 
+      <lb ed="#L" n="150"/>enim dicuntur habere esse debile quia non habent suum esse 
+      si<lb ed="#L" n="151" break="no"/>mul siue permanens sed in successione vt motus &amp; tempus, &amp; haec 
+      <lb ed="#L" n="152"/>non dicuntur habere esse intentionale, aut si dicantur non 
+      com<lb ed="#L" n="153" break="no"/>petit lumini vel speciei in medio habere tale esse intentionale 
+      <lb ed="#L" n="154"/>quia esse eorum totum est simul &amp; non in successione. 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e215">
+               <lb ed="#L" n="155"/>
+               <!--7--> Secundo modo dicuntur aliqua habere esse debile, quia ad 
+      <lb ed="#L" n="156"/>sui existentiam requirunt praesentiam suae causae proximae 
+      natu<lb ed="#L" n="157" break="no"/>ralis, quod pro tanto dico quia angeli, &amp; ea quae immediate a 
+      <lb ed="#L" n="158"/>deo producuntur requirunt ad sui existentiam potentiam suae cau 
+      <lb ed="#L" n="159"/>sae immediate (scilicet dei) &amp; tamen non dicuntur habere esse 
+      <lb ed="#L" n="160"/>debile, sed lumen &amp; species coloris in medio) licet habeant suum 
+      <lb ed="#L" n="161"/>esse simul) tamen quia requirunt praesentiam suae causae proxi¬ 
+      <!--00333.xml-->
+      <pb ed="#L" n="133-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>mae &amp; naturalis dicuntur habe re esse debile. Et istud debile es 
+      <lb ed="#L" n="2"/>se nondum dicitur intentionale. Cuius ratio est quia non 
+      so<lb ed="#L" n="3" break="no"/>lum lumen in medio, sed etiam lumen lunae &amp; stellarum 
+      requi<lb ed="#L" n="4" break="no"/>runt praesentiam solis illuminantis, &amp; tamen nullus vnquam 
+      <lb ed="#L" n="5"/>dicit quod lumen lunae &amp; stellarum haberet esse intentionale 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e252">
+               <lb ed="#L" n="6"/>
+               <!--8.--> Tertio modo dicitur aliquid habere esse debile non solun 
+      <lb ed="#L" n="7"/>per comparationem ad causam proximam naturalem, sed 
+      qui<lb ed="#L" n="8" break="no"/>deficit a perfectione propriae speciei. Et sic lumen &amp; species ir 
+      <lb ed="#L" n="9"/>medio habent esse debile quod etiam potest dici aliquo modo 
+      <lb ed="#L" n="10"/>intentionale. Quod patet, quia ad suscipiendum magis &amp; 
+      mi<lb ed="#L" n="11" break="no"/>nus cooperatur dispositio subiecti, vt patuit lib. I. dist. 17. Cum 
+      <lb ed="#L" n="12"/>igitur propria, &amp; perfecta dispositio subiecti coloris si esse 
+      ter<lb ed="#L" n="13" break="no"/>minatum (vt patet ex his quae dicit Philosophus libro de sensu 
+      <lb ed="#L" n="14"/>&amp; sensato, quod color est extremitas perspicui in corpore 
+      ter<lb ed="#L" n="15" break="no"/>minato) propria ac perfecta dispositio subiecti lucis sit esse der 
+      <lb ed="#L" n="16"/>sum non dico opacum esse. (nihil enim lucet nisi densum 
+      <lb ed="#L" n="17"/>ideo impossibile est colorem vel lucem recipi secundum suum 
+      <lb ed="#L" n="18"/>esse perfectum in medio non terminato per opacum quo ad 
+      <lb ed="#L" n="19"/>colorem, vel in medio non denso quo ad lucem, sed 
+      recipiun<lb ed="#L" n="20" break="no"/>tur secundum esse debile siue imperfectum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e290">
+               <lb ed="#L" n="21"/>
+               <!--9--> Istud autem potest dici aliqualiter intentionale, sicut enim 
+      <lb ed="#L" n="22"/>dictum est prius intentio propriissime ad actum animae 
+      perti<lb ed="#L" n="23" break="no"/>net illud igitur potest aliqualiter dicit intentionale quo anima 
+      <lb ed="#L" n="24"/>tendit in alterum. Hoc etiam alludit nomini. Intentionale enim 
+      <lb ed="#L" n="25"/>dicitur quo in alterum tenditur, sed lumen in medio, &amp; 
+      specie<lb ed="#L" n="26" break="no"/>coloris sunt huiusmodi, ratione enim perfecti non terminani 
+      <lb ed="#L" n="27"/>actum animae, sed sunt illud quo anima tendit in obiectum. non 
+      <lb ed="#L" n="28"/>enim species coloris videtur, sed color corporis obiecti 
+      me<lb ed="#L" n="29" break="no"/>diante specie (vt quidam dicunt) nec lumen in medio proprie 
+      <lb ed="#L" n="30"/>terminat visum, sed mediante ipso fertur visus in obiectum, 
+      er<lb ed="#L" n="31" break="no"/>go tam lumen quam species possunt dici intentiones vel 
+      habe<lb ed="#L" n="32" break="no"/>re esse intentionale, magis tamen species quam lumen, quia 
+      ha<lb ed="#L" n="33" break="no"/>bet esse minus perfectum &amp; minus potest terminare actum 
+      <lb ed="#L" n="34"/>simpliciter tamen tam lumen quam species habent esse reale¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e325">
+               <lb ed="#L" n="35"/>
+               <!--10--> AD PRIMVM argumentum dicendum quod omne sensibile 
+      <lb ed="#L" n="36"/>applicatum immediate organo sensus dummodo immutet ipsum 
+      <lb ed="#L" n="37"/>potest sentiri quia nihil plus requiritur ad sentiendum nisi immu 
+      <lb ed="#L" n="38"/>tatio organi a sensibili, quod ergo corpus coloratum suppositum 
+      <lb ed="#L" n="39"/>oculis non videatur, Causa est, qa non potest immutare organum 
+      <lb ed="#L" n="40"/>visus, nihil enim potest immutari a colore nisi actu illuminatum, 
+      <lb ed="#L" n="41"/>Et quia corpus suppositum oculis prohibet illuminationem 
+      pu<lb ed="#L" n="42" break="no"/>pillae &amp; organi visus, ideo non videtur. lumen autem contingen 
+      <lb ed="#L" n="43"/>pupillam ipsam immutat ideo videri potest. Et eadem ratio est de 
+      <lb ed="#L" n="44"/>qualibet reali qualitate sensibili immediate supposita sensui¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e351">
+               <lb ed="#L" n="45"/>
+               <!--11.--> Ad secundum dicendum quod lumen non dat colori esse 
+      in<lb ed="#L" n="46" break="no"/>tentionale, sed dispositio medij non terminati vt dictum est, &amp; 
+      <lb ed="#L" n="47"/>si daret non tamen oporteret quod haberet talem in se, quia 
+      <lb ed="#L" n="48"/>effectus multis modis potest deficere a perfectione suae causa 
+      <lb ed="#L" n="49"/>esse autem intentionale est esse imperfectum. Item concessum 
+      <lb ed="#L" n="50"/>est quod lumen habet esse intentionale, sicut species coloris, 
+      <lb ed="#L" n="51"/>nec per hoc excluditur quin habeat esse reale. 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e371">
+               <lb ed="#L" n="52"/>
+               <!--12--> Ad tertium dicendum quod remanere in subiecto ad 
+      ab<lb ed="#L" n="53" break="no"/>sentiam causae producentis non est de ratione qualitatis 
+      rea<lb ed="#L" n="54" break="no"/>lis, nec existere praesentiam causae facit aliquid esse 
+      intentiona<lb ed="#L" n="55" break="no"/>le (vt dictum fuit in corpore quaestionis) quae autem qualitate 
+      <lb ed="#L" n="56"/>hoc requirant, quae vero non aliâs inquirendum erit. 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e387">
+               <lb ed="#L" n="57"/>
+               <!--13--> AD ARGVMENTVM alterius partis. Ad primum 
+      <lb ed="#L" n="58"/>dicendum quod omnis forma denominat subiectum suum, cum 
+      <lb ed="#L" n="59"/>enim omnis forma det suo subiecto aliquid esse secundum illud 
+      <lb ed="#L" n="60"/>denominat ipsum ex necessitate. Et quod dicitur quod aer non 
+      <lb ed="#L" n="61"/>dicitur coloratus propter speciem coloris quae est in ipso, 
+      di<lb ed="#L" n="62" break="no"/>cendum quod verum est, quia color dat talem qualitatem sub 
+      <lb ed="#L" n="63"/>esse perfecto. Et quia illud esse non habet in aere ideo non 
+      di<lb ed="#L" n="64" break="no"/>citur coloratus, similiter lux dicit talem qualitatem sub esse 
+      <lb ed="#L" n="65"/>perfecto, &amp; quia illud esse non habet in aere ideo aer non dici 
+      <lb ed="#L" n="66"/>tur lucens, dicitur autem illuminatus sicut &amp; qualitas eius 
+      di<lb ed="#L" n="67" break="no"/>citur lumen, &amp; idem esset de colore si proprium nomen esset 
+      <lb ed="#L" n="68"/>impositum secundum illud esse quo perficit medium, quia sul 
+      <lb ed="#L" n="69"/>illo nomine denominaret ipsum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2942-d1e420">
+               <lb ed="#L" n="70"/>
+               <!--14--> Ad secundum argumentum cum dicitur quod forma 
+      inten<lb ed="#L" n="71" break="no"/>tionalis non est principium naturalium actionum, dicendum 
+      <lb ed="#L" n="72"/>quod verum est de forma intentionali primo modo dicta, qui: 
+      <lb ed="#L" n="73"/>illa non est res sed ratio, &amp; ideo nullius realis operationis es 
+      <lb ed="#L" n="74"/>principium, sed est solum ratio per intellectum circa rem intel 
+      <lb ed="#L" n="75"/>lectam formata, nullus autem ponit lumen vel speciem esse 
+      ta<lb ed="#L" n="76" break="no"/>lem formam intentionalem. Sed dicuntur formae intentionales 
+      <lb ed="#L" n="77"/>propter esse imperfectum quod habent in medio ratione 
+      cu<lb ed="#L" n="78" break="no"/>ius habent quod non terminent actum animae, sed 
+      medianti<lb ed="#L" n="79" break="no"/>bus eis tendit anima in obiectum. Tales autem formae 
+      inten<lb ed="#L" n="80" break="no"/>tionales cum sint vere res naturales possunt esse principium 
+      <lb ed="#L" n="81"/>realium actionum, non solum animalium, sed etiam 
+      natura<lb ed="#L" n="82" break="no"/>lium. Nam &amp; animales actiones sunt. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

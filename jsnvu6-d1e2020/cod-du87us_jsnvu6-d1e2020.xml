@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="95-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2020"><!-- l1d42prae -->
+            <head xml:id="jsnvu6-d1e2020-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2020-d1e103">
+               <lb ed="#L" n="79"/>DISTINCTIO XIII. 
+      <lb ed="#L" n="80"/>Sententia huius distinctionis in generali &amp; speciali
+    </p>
+            <p xml:id="jsnvu6-d1e2020-d1e110">
+      <!--00255.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>VN e de omnipotentia Dei. Superius magister 
+      <lb ed="#L" n="82"/>determinauit de scientia Dei. Hic vero 
+      deter<lb ed="#L" n="83" break="no"/>minat de potentia eius. Et diuiditur in partes 
+      <lb ed="#L" n="84"/>duas. Primo enim determinat veritatem. (s. 
+      vni<lb ed="#L" n="85" break="no"/>Quersalitatem diuinae potentiae.) Secundo ponit 
+      <lb ed="#L" n="86"/>oputionem quorundam limitantium eam. Secunda incipit in 
+      <lb ed="#L" n="87"/>princ. 43. dist. ibi, quaedam vero de suo sensu. Prima est 
+      praesen<lb ed="#L" n="88" break="no"/>tis lectionis. Et diuiditur in tres partes. Primo mouet suam 
+      quae<lb ed="#L" n="89" break="no"/>stionem. Secundo eam determinat. Tertio obiicit per 
+      auctori<lb ed="#L" n="90" break="no"/>tatem &amp; determinat. Secunda ibi: quod enim Deus omnia. 
+      Ter<lb ed="#L" n="91" break="no"/>tia ibi: ex quibusdam tamen auctoritatibus. Et haec est 
+      senten<lb ed="#L" n="92" break="no"/>tia lectionis &amp; diuisionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2020-d1e143">
+               <lb ed="#L" n="93"/>
+               <!--2--> IN SPECIALI vero sic procedit. Et quaeritur 
+      pri<lb ed="#L" n="94" break="no"/>mo quare Deus dicitur omnipotens, aut quia omnia potest 
+      <lb ed="#L" n="95"/>aut quia potest quicquid vult: postea respondet dicens quod 
+      <lb ed="#L" n="96"/>Deus dicitur omnipotens, quia omnia potest, oppositum 
+      ta<lb ed="#L" n="97" break="no"/>men ostendit quod non omnia possit, quia non potest 
+      ambu<lb ed="#L" n="98" break="no"/>lare, loqui, &amp; huiusmodi: &amp; respondet quod huiusinodi suam 
+      <lb ed="#L" n="99"/>potentiam non euacuant, ista enim Deus operatur in nobis, 
+      <lb ed="#L" n="100"/>posse vero peccare vel corrumpi non sunt potentiae, sed 
+      infir<lb ed="#L" n="101" break="no"/>mitatis: &amp; concludit quod Deus dicatur omnipotens, quia 
+      po<lb ed="#L" n="102" break="no"/>test omnia facere &amp; nihil pati. Postea addit auctoritates pe 
+      <lb ed="#L" n="103"/>quas videtur probari quod Deus dicatur omnipotens, quia potes 
+      <lb ed="#L" n="104"/>quicquid vult. Et respondet quod auctoritates inducuntur, ad 
+      <lb ed="#L" n="105"/>ostendendum quod voluntas Dei non impediatur, non quod i 
+      <lb ed="#L" n="106"/>hoc solo sistat ratio omnipotentiae. Et subdit quod omnipo 
+      <lb ed="#L" n="107"/>tens dicitur, quia potest facere quicquid factibile est, non 
+      au<lb ed="#L" n="108" break="no"/>tem quicquid facere vult, quia sic est omnipotentia vera: non 
+      <lb ed="#L" n="109"/>ergo beatus Petrus &amp; alij sancti habent omnipotentiam sicut 
+      <lb ed="#L" n="110"/>Deus, quia licet possint qcquid volunt se posse &amp; se facere, 
+      ta<lb ed="#L" n="111" break="no"/>men non possunt facere quicquid volunt fieri, sed Deus potes 
+      <lb ed="#L" n="112"/>facere quicquid vult fieri, &amp; quicquid vult se posse. Quicquid 
+      <lb ed="#L" n="113"/>enim vult per se facit, vel per creaturam subiectam. Hac etiam 
+      <lb ed="#L" n="114"/>potentiam qua potest habet per suam naturam, non sic autem 
+      <lb ed="#L" n="115"/>habet potentiam creatura: filius autem Dei potentiam habet tam 
+      <lb ed="#L" n="116"/>per se quam per sui naturam, quamuis habeat eam a patre &amp;c
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

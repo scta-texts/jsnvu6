@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="105-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2278"><!-- l1d48prae -->
+            <head xml:id="jsnvu6-d1e2278-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2278-d1e103">
+               <lb ed="#L" n="90"/>DISTINCTIO XLVIII. 
+      <lb ed="#L" n="91"/>Sententia literae magistri in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e2278-d1e110">
+               <lb ed="#L" n="92"/>SCIENDVM quoque est. Superius determinauit 
+      <lb ed="#L" n="93"/>magister de causalitate diuinae voluntatis, hic 
+      ve<lb ed="#L" n="94" break="no"/>ro determinat quomodo se habeat voluntas 
+      no<lb ed="#L" n="95" break="no"/>stra in conformitate ad diuinam. Et diuiditur 
+      pri<lb ed="#L" n="96" break="no"/>ma pars in duas. Primo determinat intentum. 
+      Se<lb ed="#L" n="97" break="no"/>cundo excludit quasdam obiectiones. Secunda ibi, Ex quo 
+      sol<lb ed="#L" n="98" break="no"/>uitur. Prima diuiditur in tres. Primo ostendit quod volunta 
+      <lb ed="#L" n="99"/>nostra bona non semper conformatur voluntati diuinae in 
+      vo<lb ed="#L" n="100" break="no"/>lito. Secundo quod voluntas diuina per voluntatem nostram 
+      <lb ed="#L" n="101"/>malam adimpletur. Tertio mouet contra hoc obiectionem, &amp; 
+      <lb ed="#L" n="102"/>soluit. Secunda ibi, Illud quoque. Tertia ibi, Sed adhuc 
+      oppo<lb ed="#L" n="103" break="no"/>nitur. Haec est diuisio &amp; sententia in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2278-d1e139">
+               <lb ed="#L" n="104"/>
+               <!--2--> IN SPECIALI sic procedit, &amp; proponit primo 
+      <lb ed="#L" n="105"/>quod aliquando est mala voluntas hominis idem volentis quod 
+      <lb ed="#L" n="106"/>Deus vult, sicut mali filij volunt mortem patris quam Deus vult. 
+      <lb ed="#L" n="107"/>Postea dicit quod bona voluntas Dei per malas hominum 
+      volun<lb ed="#L" n="108" break="no"/>tates adimpletur, sicut fuit in morte Christi: volebat enim Deus 
+      <lb ed="#L" n="109"/>Christum mortem sustinere, sed non Iudaeos inferre. Postea 
+      <lb ed="#L" n="110"/>mouet circa hoc obiectionem, &amp; soluit, vt patet in litera. Postea 
+      <lb ed="#L" n="111"/>excludit quasdam obiectiones, &amp; dicit quod passio Christi 
+      pla<lb ed="#L" n="112" break="no"/>cebat sanctis, non inquantum fuit poenalis, sed inquantum fuit 
+      <lb ed="#L" n="113"/>salutifera, &amp; quod passiones sanctorum diuersis causis possut 
+      <lb ed="#L" n="114"/>sanctis placere. In fine vero epilogat imponens finem primo. 
+      <lb ed="#L" n="115"/>Et in hoc terminatur sententia lectionis, &amp; per consequens 
+      <lb ed="#L" n="116"/>conclusionis primi libri sententiarum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

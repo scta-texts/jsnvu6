@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="32-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e607"><!-- l1d8p2q3 -->
+            <head xml:id="jsnvu6-d1e607-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e607-Hd1e103" type="question-title">Utrum tota anima sit in qualibet parte corporis vel extendatur quantitative extensione corporis</head>
+            <p xml:id="jsnvu6-d1e607-d1e106">
+               <lb ed="#L" n="51"/>QVAESTIO TERTIA. 
+      <lb ed="#L" n="52"/>Vtrum anima tota sit in qualibet parte 
+      <lb ed="#L" n="53"/>corporis, vel in toto sit extensa. 
+      <lb ed="#L" n="54"/>Thom. 1. p. 9. 76. ar. 8
+    </p>
+            <p xml:id="jsnvu6-d1e607-d1e117">
+               <lb ed="#L" n="55"/>AD secundum sic proceditur. Et videtur quod non 
+      <lb ed="#L" n="56"/>tota anima sit in qualibet parte corporis, quia 
+      <lb ed="#L" n="57"/>totum est extra quod nihil est, tertio Physico. 
+      <lb ed="#L" n="58"/>rum. Si ergo tota anima esset in qualibet parte 
+      <lb ed="#L" n="59"/>corporis, nihil de anima esset in aliis partibus, 
+      <lb ed="#L" n="60"/>inconueniens. 
+      <lb ed="#L" n="61"/>quod 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e135">
+               <lb ed="#L" n="62"/>
+               <!--2--> Item ponamus quod aliquis natus fuerit sine manu, postea 
+      <lb ed="#L" n="63"/>per miraculum addatur ei manus, talis manus non 
+      viuificare<lb ed="#L" n="64" break="no"/>tur per animam de nouo creatam (quia tunc duae animae 
+      es<lb ed="#L" n="65" break="no"/>sent in eodem supposito, quod est inconueniens) ergo per 
+      ani<lb ed="#L" n="66" break="no"/>mam prius existentem, sed hoc non potest esse nisi per motum, 
+      <lb ed="#L" n="67"/>localem, vel extensionem, non per motum localem, quia 
+      tali<lb ed="#L" n="68" break="no"/>motus non competit animae in corpore suo, quod etiam 
+      mo<lb ed="#L" n="69" break="no"/>uetur localiter accedendo ad vnum locum dinittit alium: &amp; 
+      <lb ed="#L" n="70"/>sic oporteret quod anima tendens ad viuificandum illam 
+      par<lb ed="#L" n="71" break="no"/>tem dimitteret alias partes quas viuificabat quod est 
+      incon<lb ed="#L" n="72" break="no"/>ueniens: relinquitur ergo quod per extensionem. 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e165">
+               <lb ed="#L" n="73"/>
+               <!--3--> IN CONTRARIVM est quod dicit Augustinus 6 
+      <lb ed="#L" n="74"/>de Trinitate capitulo sexto, quod in vnoquoque corpore in 
+      <lb ed="#L" n="75"/>toto est tota anima, &amp; in qualibet parte tota. 
+</p>
+            <p xml:id="jsnvu6-d1e607-d1e176">
+               <lb ed="#L" n="76"/>Et arguitur per rationem. Si anima esset quanta per se vel 
+      <lb ed="#L" n="77"/>per accidens, nullo modo intelligeret vniuersale, quia quod 
+      re<lb ed="#L" n="78" break="no"/>cipitur in quanto recipitur situaliter &amp; non ducit in cognitio 
+      <lb ed="#L" n="79"/>nem, nisi alicuius situaliter existentis hic, &amp; nunc, &amp; tale est se 
+      <lb ed="#L" n="80"/>lum singulare. Si ergo anima effet quanta id quod reciperetu 
+      <lb ed="#L" n="81"/>in ea reciperetur situaliter, nec duceret, nisi in cognitionem 
+      <lb ed="#L" n="82"/>singularis existentis hic &amp; nunc, quod est inconueniens. 
+      <!--00129.xml-->
+      <cb ed="#L" n="b"/>
+            </p>
+            <p xml:id="jsnvu6-d1e607-d1e198">
+               <lb ed="#L" n="83"/>
+               <!--5--> RESPONSIO,. cum toti sit quod habet partes, sicu 
+      <lb ed="#L" n="84"/>contingit accipere triplex genus partium, sic &amp; triplicem totalita 
+      <lb ed="#L" n="85"/>tem. Est enim quaedam totalitas quae est ex diuersis partibus 
+      es<lb ed="#L" n="86" break="no"/>sentialibus, quae sunt materia &amp; forma. Est &amp; alia totalitas qui 
+      <lb ed="#L" n="87"/>est ex partibus quantitatiuis vt in toto continuo. Est etiam alia 
+      <lb ed="#L" n="88"/>quae est secundum partes virtuales siuae potentiales. Prima to 
+      <lb ed="#L" n="89"/>talitas non conuenit animae, vt patet ex praecedenti quaestione 
+      <lb ed="#L" n="90"/>Tertia totalitas conuenit ei praecipue secundum opinionem quae 
+      <lb ed="#L" n="91"/>ponit potentias animae differre ab essentia secundum quam tota 
+      <lb ed="#L" n="92"/>litatem anima non est tota in qualibet parte corporis, sed secun 
+      <lb ed="#L" n="93"/>dum aliam &amp; aliam partem potentialem est in alia &amp; alia parte 
+      <lb ed="#L" n="94"/>corporis, vt secundum visum in oculo, secundum auditum in aure 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e229">
+               <lb ed="#L" n="95"/>
+               <!--6--> De secunda autem totalitate est dubium vtrum insit animae. Et 
+      <lb ed="#L" n="96"/>sunt circa hoc tres opiniones. Prima est, quod nulla forma 
+      substan<lb ed="#L" n="97" break="no"/>tialis est quantas vel habens totalitatem partium quantitatiuarum 
+      <lb ed="#L" n="98"/>Quod probatur sic, si forma substantialis esset aliquo modo 
+      <lb ed="#L" n="99"/>quanta, scilicet extensa, vel hoc esset ratione sui, vel ratione sub. 
+      <lb ed="#L" n="100"/>iecti in quo recipitur. Non ratione sui cum hoc sit proprium quanti 
+      <lb ed="#L" n="101"/>tatis, nec ratine subiecti in quo recipitur, qua immediatum 
+      subie<lb ed="#L" n="102" break="no"/>ctum formae substantialis est prima materia quae de se non est quanta 
+      <lb ed="#L" n="103"/>aut diuisibilis, ergo forma substantialis nullo modo est quanta 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e253">
+               <lb ed="#L" n="104"/>
+               <!--7--> Quicquid autem sit de conclusione illa ratio non valet, quia 
+      <lb ed="#L" n="105"/>ad hoc quod forma substantialis sit quanta per accidens, non requi 
+      <lb ed="#L" n="106"/>ritur quod recipiatur in subiecto quanto, sed sufficit quod sit sub. 
+      <lb ed="#L" n="107"/>iectum vel pars subiecti recipientis quantitatem: vnde secundum 
+      om<lb ed="#L" n="108" break="no"/>nes materia extenditur, &amp; est quanta non per se, nec quia sit in 
+      <lb ed="#L" n="109"/>subiecto quanto, sed quia est subiectum vel pars subiecti quanti 
+      <lb ed="#L" n="110"/>clarius enim est quod subiectum vel pars subiecti quantitati 
+      af<lb ed="#L" n="111" break="no"/>ficiatur &amp; denominetur a forma sibi inhaerente quam econuerso 
+      <lb ed="#L" n="112"/>Et idemo licet forma substantialis non recipiatur in materia 
+      quan<lb ed="#L" n="113" break="no"/>ta, quia tamen est subiectum vel pars subiecti quantitatis sicut 
+      <lb ed="#L" n="114"/>&amp; materia videtur posse esse quanta per accidens. 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e282">
+               <lb ed="#L" n="115"/>
+               <!--8--> SECVNDA opinio est, quod inter formas substantiales on 
+      <lb ed="#L" n="116"/>nes formae inanimatorum sunt quantae per accidens. Nulla aut? 
+      <lb ed="#L" n="117"/>anima est per accidens quanta. Quod probatur tripliciter. Primo 
+      <lb ed="#L" n="118"/>sic, illa forma quae non respicit aequaliter totum &amp; partem, 
+      ne<lb ed="#L" n="119" break="no"/>aequaliter denominat totum &amp; partem, non est quanta per 
+      ac<lb ed="#L" n="120" break="no"/>cidens, quod forma quanta per accidens aequaliter denominat to 
+      <lb ed="#L" n="121"/>tum &amp; partem, vt patet de albedine &amp; consimilibus, sed anima 
+      <lb ed="#L" n="122"/>non aequaliter denominat totum &amp; partem. Non enim 
+      quaeli<lb ed="#L" n="123" break="no"/>bet pars animalis est animal, sicut quaelibet pars ignis est ignis, 
+      <lb ed="#L" n="124"/>quare &amp;c. Secundo sic: forma quae est quanta per accidens non 
+      <lb ed="#L" n="125"/>requirit diuersitatem in partibus, quia conditio quanti est 
+      ha<lb ed="#L" n="126" break="no"/>bere partes vnius rationis, sed anima requirit in suo 
+      perfecti<lb ed="#L" n="127" break="no"/>bili diuersitatem partium, ergo &amp;c. Tertio sic, forma quae non 
+      <lb ed="#L" n="128"/>habet easdem operationes in toto &amp; in omnibus partibus non 
+      <lb ed="#L" n="129"/>est quanta per accidens, sed talis est omnis anima, quia habe 
+      <lb ed="#L" n="130"/>diuersas operationes in diuersis partibus sui perfectibilis, erge 
+      <lb ed="#L" n="131"/>nulla anima est quanta per accidens. Et per easdem rationes 
+      <lb ed="#L" n="132"/>apparet quod formae inanimatorum sunt quantae per accidens, 
+      <lb ed="#L" n="133"/>quia aequaliter denominant totum &amp; partem, nec requirunt 
+      <lb ed="#L" n="134"/>diuersitatem sui perfectibilis, habent etiam similes 
+      operatio<lb ed="#L" n="135" break="no"/>nes in omnibus partibus. Exemplum de igne &amp; consimilibus. 
+</p>
+            <p xml:id="jsnvu6-d1e607-d1e333">
+               <lb ed="#L" n="136"/>Ista autem opinio non habet veritatem: quia secundum 
+      Phi<lb ed="#L" n="137" break="no"/>losophum 2. de Anima, plantae &amp; quaedam animalia decisa viuunt 
+      <lb ed="#L" n="138"/>tanquam anima in his existente actu quidem vna, potentia vero 
+      <lb ed="#L" n="139"/>plures. Ex hoc sic arguitur: in partibus plantarum, animalium 
+      <lb ed="#L" n="140"/>decisorum est anima, ergo per solam diuisionem, vel per nouam 
+      <lb ed="#L" n="141"/>generationem. non per nouam generationem, quia nullum gene 
+      <lb ed="#L" n="142"/>rans apparet, nec talis alteratio qualis consueuit secundum 
+      na<lb ed="#L" n="143" break="no"/>turam praecedere generationem, ergo ibi per solam 
+      diuisio<lb ed="#L" n="144" break="no"/>nem, sed illud quod diuiditur diuisione alterius: extenditur 
+      ex<lb ed="#L" n="145" break="no"/>tensione illius, ergo animae plantarum &amp; animalium aliquorum 
+      <lb ed="#L" n="146"/>extenduntur, &amp; sunt quantae per accidens. Nec ratione 
+      conclu<lb ed="#L" n="147" break="no"/>dunt in aliquo. Primam non, quia in nullo repugnat formae 
+      quan<lb ed="#L" n="148" break="no"/>tae requirere diuersitatem in partibus, &amp; habere diuersas 
+      opera<lb ed="#L" n="149" break="no"/>tiones in eis, &amp; per consequens diuersimode denominare totum 
+      <lb ed="#L" n="150"/>&amp; partem. Ex quibus procedunt illae tres rationes. Haec enim 
+      <lb ed="#L" n="151"/>licet non conueniant animae, quia quanta est (partes enim 
+      quanti<lb ed="#L" n="152" break="no"/>tatis inquantum quantae sunt vnius rationis sunt) tamen 
+      compe<lb ed="#L" n="153" break="no"/>tunt ei inquantum est perfectior formis inanimatorum, propter 
+      <lb ed="#L" n="154"/>hoc enim est principium plurium operationum, &amp; per 
+      conse<lb ed="#L" n="155" break="no"/>quens requirit diuersas dispositiones secundum quantitatem in 
+      <lb ed="#L" n="156"/>partibus sui perfectibilis mediantibus, quibus exercet illas 
+      di<lb ed="#L" n="157" break="no"/>uersas operationes, &amp; sic diuersimode denominat totum &amp; 
+      pa<lb ed="#L" n="158" break="no"/>tem, &amp; ipsas partes adinuicem, nec rationes declarant oppositu 
+      <lb ed="#L" n="159"/>nisi per exemplum in rebus inanimatis, quod non sufficit, 
+      qui<lb ed="#L" n="160" break="no"/>illa non competunt formis inanimatorum, non quia quantae, 
+      <lb ed="#L" n="161"/>sed quia imperfectae in quibus exceduntur a formis animatorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e392">
+               <lb ed="#L" n="162"/>
+               <!--10--> Tertia opinio est, quod omnes formae quae educuntur de 
+      po<lb ed="#L" n="163" break="no"/>tentia materiae extenduntur &amp; sunt quantae per accidens, &amp; tale: 
+      <lb ed="#L" n="164"/>sunt omnes formae naturales excepta anima rationali, &amp; istius 
+      <!--00130.xml-->
+      <pb ed="#L" n="32-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>assignatur duplex causa. Quidam assignant hoc pro causa, quis 
+      <lb ed="#L" n="2"/>forma quae educitur de potentia materiae sic educitur quod 
+      par<lb ed="#L" n="3" break="no"/>educitur de parte, &amp; totum de toto. Et ideo tota forma 
+      reci<lb ed="#L" n="4" break="no"/>pitur in tota materia, &amp; pars in parte, &amp; non cota in parte, &amp; 
+      <lb ed="#L" n="5"/>hoc est extendi &amp; esse quantum per accidens. 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e421">
+               <lb ed="#L" n="6"/>
+               <!--11--> Ista autem ratio in nullo dat causam extensionis: sed 
+      peti<lb ed="#L" n="7" break="no"/>quod debet probare, quod patet sic: sicut forma praeexistit in 
+      <lb ed="#L" n="8"/>potentia passiua materiae ante generationem, ita praeexistit in po 
+      <lb ed="#L" n="9"/>tentia actiua agentis: sed forma non sic dicitur esse in potenti: 
+      <lb ed="#L" n="10"/>agenus quod ipsa tota vel aliquid eius praeexistat in agente: sed 
+      <lb ed="#L" n="11"/>solum quia in virtute agentis est eam producere: ergo eodem 
+      <lb ed="#L" n="12"/>modo forma non dicitur praeexistere in potentia passiua 
+      mate<lb ed="#L" n="13" break="no"/>riae, nec de ea educi: quia forma vel aliquid eius materiae prae 
+      <lb ed="#L" n="14"/>existat in materia: sed solum quia per agens naturale potest ad 
+      <lb ed="#L" n="15"/>ipsam transinutari &amp; ipsam recipere. Ex hoc sic arguitur, sicu 
+      <lb ed="#L" n="16"/>forma educitur de potentia passiua materiae, sic (&amp; forte veris 
+      <lb ed="#L" n="17"/>educitur de potentia actiua formae agentis. Sed nos non dicimu 
+      <lb ed="#L" n="18"/>quod tota forma geniti educatur de tota forma generantis, &amp; 
+      <lb ed="#L" n="19"/>pars de parte; ergo non debemus dicere quod tota forma geniti 
+      <lb ed="#L" n="20"/>educitur de tota materia &amp; pars de parte. Secundo, qa materia 
+      <lb ed="#L" n="21"/>non habet partem nisi per quantitatem. Et similiter est de forma 
+      <lb ed="#L" n="22"/>ita quod totalitas &amp; partialitas est formaliter ipsa quantitas, vel 
+      <lb ed="#L" n="23"/>per quantitatem, vt magis patebit inferius: igitur si forma sub 
+      <lb ed="#L" n="24"/>stantalis educatur de materia tota de tota &amp; pars de parte, ia 
+      <lb ed="#L" n="25"/>materia &amp; forma supponitur quanta: hoc autem est quod nunc de 
+      <lb ed="#L" n="26"/>forma quaeritur: ergo supponitur quod petitur. Item quod 
+      dici<lb ed="#L" n="27" break="no"/>tur quod forma quae educitur de potentia materiae: pars in parte 
+      <lb ed="#L" n="28"/>recipitur, veritatem non habet: forma enim substantialis recipitu 
+      <lb ed="#L" n="29"/>in imateria ante omnem quantitatem saltem secundum ordinem natu 
+      <lb ed="#L" n="30"/>rae: sed praeter quantitatem non est in materia, neque in forma to 
+      <lb ed="#L" n="31"/>tum &amp; pars, vt dictum est: ergo in receptione formae in materia 
+      <lb ed="#L" n="32"/>non est assignare quod pars recipiatur in parte, nec totum in toto 
+      <lb ed="#L" n="33"/>accipiendo proprie totum pro eo quod habet partes, sed solun 
+      <lb ed="#L" n="34"/>accipiendo totu pro perfecto: quia totum &amp; perfectum idem sunt 
+      <lb ed="#L" n="35"/>vt habetur 3. Physic. Cuius enim nihil est extra, ipsum est totum 
+      <lb ed="#L" n="36"/>&amp; perfectum, vt ibidem dicitur: ista ergo non est sufficiens causa 
+      <lb ed="#L" n="37"/>que forma educta de potentia materiae extendatur ita quod pari 
+      <lb ed="#L" n="38"/>educatur de parte materiae &amp; recipiatur in parte. 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e497">
+               <lb ed="#L" n="39"/>
+               <!--12--> Secunda causa quae assignatur est talis, vbicunque forma sic 
+      <lb ed="#L" n="40"/>dependet a materia quod ipsa secundum naturam nullo modo esse 
+      <lb ed="#L" n="41"/>nisi esset in materia, omnis talis forma sequitur conditiones 
+      m<lb ed="#L" n="42" break="no"/>teriae in omnibus, scilicet in extendi&amp; operari &amp; omnibus aliis 
+      <lb ed="#L" n="43"/>&amp; causa est, quia esse est fundamentum praesuppositum a posterio 
+      <lb ed="#L" n="44"/>ribus perfectionibus, propter quod illud quod dependet a mati 
+      <lb ed="#L" n="45"/>ria quoad esse dependet quoad perfectiones posteriores, nun 
+      <lb ed="#L" n="46"/>o est ita qe omnes formae quae educuntur de potentia materia 
+      <lb ed="#L" n="47"/>sic dependet a materia quod secundum naturam nullo modo essent 
+      <lb ed="#L" n="48"/>nisi essent in materia: ergo sequuntur conditiones materiae in 
+      <lb ed="#L" n="49"/>omnibus aliis, scilicet in extendi&amp; operari: &amp; rales sunt omne 
+      <lb ed="#L" n="50"/>formae non solum inanimatorum, sed etiam animalium 
+      quantum<lb ed="#L" n="51" break="no"/>cunque perfectorum praeter hominem. Et ideo omnes extenduntu 
+      <lb ed="#L" n="52"/>quantucunque sint perfectae praeter animam humanam, &amp; 
+      diuidun<lb ed="#L" n="53" break="no"/>tur diuiso toto: verumtamen aliquae earum manent diu post 
+      diui<lb ed="#L" n="54" break="no"/>sionem, sicut in plantis &amp; in animalibus annulosis, licet minus 
+      <lb ed="#L" n="55"/>quam in plantis, aliquae autem vel cum sua diuisione 
+      corrumpun<lb ed="#L" n="56" break="no"/>tur, vel si maneant hoc est per minimam morulam temporis, sicut 
+      <lb ed="#L" n="57"/>conuenit animalibus perfectis, &amp; causa huius permanentiae 
+      ma<lb ed="#L" n="58" break="no"/>ioris vel minoris, est perfectio formae maior vel minor, qa 
+      for<lb ed="#L" n="59" break="no"/>ma magis perfecta requirit in suo perfectibili maiorem 
+      diuer<lb ed="#L" n="60" break="no"/>sitatem in organis, propter hoc quod est principium plurium ope 
+      <lb ed="#L" n="61"/>rationum. Et ideo post diuisionem sui perfectibilis aut non ma 
+      <lb ed="#L" n="62"/>net, aut minus manet: &amp; hoc dicit philosophus in fine primi 
+      <lb ed="#L" n="63"/>de anima post verba prius allegata dicens sic: si autem non 
+      per<lb ed="#L" n="64" break="no"/>maneant nullum est inconueniens. Instrumenta enim non 
+      ha<lb ed="#L" n="65" break="no"/>bent quibus saluent naturam, vnde perfectioni formae educta 
+      <lb ed="#L" n="66"/>de potentia materiae, non repugnat extendi vel diuidi sicut 
+      <lb ed="#L" n="67"/>quidam putant, sed tantum ei repugnat diu manere post diui 
+      <lb ed="#L" n="68"/>sionem: anima autem intellectiua non dependet sic a materia 
+      <lb ed="#L" n="69"/>quantum ad esse, sicut probat eius separatio, &amp; ideo non 
+      sequi<lb ed="#L" n="70" break="no"/>tur conditiones materiae, nec in operari nec in extendi, nec in 
+      <lb ed="#L" n="71"/>aliis quae perficiunt materiam: vnde anima intellectiua in 
+      cor<lb ed="#L" n="72" break="no"/>pore, nec extenditur quantitate, nec afficitur aliqua qualitat, 
+      <lb ed="#L" n="73"/>materiae, quod tamen patiuntur omnes aliae formae. 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e578">
+               <lb ed="#L" n="74"/>
+               <!--13--> Haec autem causa licet accedat ad veritatem, tamen non suffi 
+      <lb ed="#L" n="75"/>cit nisi plus addatur, quia quantumcunque forma dependeat a ma 
+      <lb ed="#L" n="76"/>toria, ita vt sine ea esse non possit, non oportet tamen propte 
+      <lb ed="#L" n="77"/>hoc quod afficiatur omnibus dispositionibus quibus materia affi 
+      <lb ed="#L" n="78"/>ciatur, nisi illa forma sit ratio receptiua talium dispositionum 
+      <lb ed="#L" n="79"/>vel conuerso: verbi gratia sapor dependet a materia vel a 
+      subie<lb ed="#L" n="80" break="no"/>cto actu ente tanquam ab illo sine quo non potest esse. Et idem ess 
+      <lb ed="#L" n="81"/>de colore, sed quia color non est ratio recipiendi saporem nec ecc 
+      <lb ed="#L" n="82"/>uerso, inleo sapor non afficitur colore nec color sapore: vude non 
+      <!--00130.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>est verum dicere quod sapor lactis sit albus, nec albedo sapida, 
+      <lb ed="#L" n="84"/>quamuis idem subiectu afficiatur vtroque, &amp; similiter (vt videtur 
+      <lb ed="#L" n="85"/>si forma substantialis non est ratio receptiua quantitatis nec 
+      <lb ed="#L" n="86"/>econuerso, quantumcunque ipsa dependeat necessario a materia, 
+      <lb ed="#L" n="87"/>nunquam tamen propter hoc afficietur quantitate ita vt ipsa sit 
+      <lb ed="#L" n="88"/>realiter quanta, sicut nec sapor est realiter albus, Talia enim non 
+      <lb ed="#L" n="89"/>afficiunt se mutuo, quamuis afficiant idem commune subiectum. Si 
+      <lb ed="#L" n="90"/>autem forma substantialis sit ratio receptiua quantitatis, tunc 
+      <lb ed="#L" n="91"/>videtur quod debeat affici quantitate &amp; extendi. Et si in homine non 
+      <lb ed="#L" n="92"/>est alia substantialis forma ab anima rationali, tunc anima 
+      ra<lb ed="#L" n="93" break="no"/>tionalis erit in homine ratio receptiua quantitatis, sicut alia 
+      <lb ed="#L" n="94"/>formae substantiales in caeteris rebus, &amp; sic augmentabitur 
+      dif<lb ed="#L" n="95" break="no"/>ficultas, quare anima rationalis non est quanta: &amp; aliae forma 
+      <lb ed="#L" n="96"/>substantiales sunt quantae, cum omnes formae substantiales 
+      con<lb ed="#L" n="97" break="no"/>ueniant cum anima rationali in hoc qo sunt ratio receptius 
+      <lb ed="#L" n="98"/>quantitatis: videtur enim quod implicetur contradictio, si 
+      dica<lb ed="#L" n="99" break="no"/>tur quod subiectum quantitatis vel ratio eius receptiua non sit 
+      quan<lb ed="#L" n="100" break="no"/>ta, sicut si diceretur quod subiectum albedinis &amp; ratio eius 
+      rece<lb ed="#L" n="101" break="no"/>ptiua non sint alba: propter hoc dimittendo ad praesens difficul 
+      <lb ed="#L" n="102"/>tatem praedictam, quia in sequenti quaestione inquiretur de ea 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e650">
+               <lb ed="#L" n="103"/>
+               <!--14--> Reddenda est alia causa quare aia rationalis non est quanta 
+      <lb ed="#L" n="104"/>sicut caeterae formae substantiales. Et est talis, quia ois res quae 
+      <lb ed="#L" n="105"/>est pure &amp; simpliciter corporalis, est capax passionis seu 
+      pro<lb ed="#L" n="106" break="no"/>prietatis quae est per se &amp; simpliciter &amp; inseparabiliter conditic 
+      <lb ed="#L" n="107"/>corporeitatis: sed materia &amp; omnis forma generabilium &amp; 
+      cor<lb ed="#L" n="108" break="no"/>ruptibilium sub anima rationali est pure &amp; simpliciter 
+      corpora<lb ed="#L" n="109" break="no"/>lis quia non sunt nec esse possunt per naturam nisi in corpore 
+      cu<lb ed="#L" n="110" break="no"/>ius sunt per se partes: anima autem ronalis quamuis sit per se pari 
+      <lb ed="#L" n="111"/>compositi corporalis, tamen non est inseparabiliter, propter quod 
+      <lb ed="#L" n="112"/>cum tam materia quam caeterae formae sub anima rationali sint 
+      <lb ed="#L" n="113"/>res corporales pure &amp; simpliciter capaces, sunt non secundum se 
+      <lb ed="#L" n="114"/>sed in toto quantitatis, quae est passio vel proprietas per se &amp; 
+      in<lb ed="#L" n="115" break="no"/>separabiliter rerum corporalium, quia nec substantia dicitur corpus, 
+      <lb ed="#L" n="116"/>nisi quia est talis natura quae est capax quantitatis, quae etiam in 
+      <lb ed="#L" n="117"/>suo genere vocatur corpus: anima autem propter sui 
+      separabilita<lb ed="#L" n="118" break="no"/>tem a corpore non est capax quantitatis, quia non est pura res corpo 
+      <lb ed="#L" n="119"/>ralis, quamuis sit pars compositi corporalis, &amp; causa partialis rec 
+      <lb ed="#L" n="120"/>piendi quantitatem, supposito quod in homine non sit alia forma 
+      sub<lb ed="#L" n="121" break="no"/>stantialis praeter animam. qualiter autem anima possit esse causa 
+      re<lb ed="#L" n="122" break="no"/>ceptiua quantitatis &amp; non sit quanta, in quaestione sequenti dicetur 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e699">
+               <lb ed="#L" n="123"/>
+               <!--15--> AD RATIONES. Ad primam dicendum quod totum est 
+      ex<lb ed="#L" n="124" break="no"/>tra quod nihil est: verum est secundum omnimodam &amp; veram 
+      ratio<lb ed="#L" n="125" break="no"/>nem totius, &amp; sic anima &amp; quaelibet forma non est tota nisi vbi es 
+      <lb ed="#L" n="126"/>in aliquo, sicut in proprio subiecto proportionato perfectibili, 
+      <lb ed="#L" n="127"/>hoc autem modo anima non est in aliqua parte tota, sed solum in 
+      <lb ed="#L" n="128"/>toto corpore perfecto non carente aliqua parte debita speciei 
+      se<lb ed="#L" n="129" break="no"/>cundum naturam. Et ideo anima non est extra proprium 
+      proportio<lb ed="#L" n="130" break="no"/>natum perfectibile: est tamen extra singulam partem illius perfectibilis. 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e721">
+               <lb ed="#L" n="131"/>
+               <!--16--> Ad secundum dicendum quod in membro de nouo addito 
+      <lb ed="#L" n="132"/>per miraculum est anima non per creationem nouae animae aut 
+      <lb ed="#L" n="133"/>partis: sed eadem quae prius perficiebat totum sine parte, nunc 
+      <lb ed="#L" n="134"/>perficit totum cum parte: nec istud est per motum localem animae, 
+      <lb ed="#L" n="135"/>sed per vnionem &amp; concomitantiam partis ad totum, licet enim 
+      <lb ed="#L" n="136"/>illud quod est alicubi sicut in loco non incipiat esse alibi sicut 
+      <lb ed="#L" n="137"/>in loco nisi per motum localem, tamen id quod est in aliquo sicu 
+      <lb ed="#L" n="138"/>forma in materia potest de nouo esse in aliqua materia sibi 
+      ad<lb ed="#L" n="139" break="no"/>iuncta non per motum localem, sicut anima de nouo vnitur 
+      ma<lb ed="#L" n="140" break="no"/>teriae nutrimenti vniti corpori animalis &amp; conuersi in ipsum, &amp; 
+      <lb ed="#L" n="141"/>hoc fit non per motum animae, sed per vnionem alimenti ad corpu 
+      <lb ed="#L" n="142"/>prius animatum, &amp; sic fieret in proposito concurrente miraculo 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e752">
+               <lb ed="#L" n="143"/>
+               <!--17--> Ad rationes autem alterius partis, quamuis sint ad 
+      conclu<lb ed="#L" n="144" break="no"/>sionem veram, tamen quia aliquae non bene procedunt, ideo ac 
+      <lb ed="#L" n="145"/>eas respondendum est. Et primo ad auctoritatem beati 
+      Augu<lb ed="#L" n="146" break="no"/>stini, quia beatus Augustinus aeque loquitur ibi de anima 
+      sen<lb ed="#L" n="147" break="no"/>sitiua etiam in quocunque bruto, sicut de anima intellectiua. 
+      Di<lb ed="#L" n="148" break="no"/>cit enim sic, 6. de trinitate, cap. 6. anima non mole diffunditur 
+      <lb ed="#L" n="149"/>per spacium loci, sed in vnoquoque corpore &amp; in toto tota est, &amp; 
+      <lb ed="#L" n="150"/>in qualibet parte eius est: &amp; idoo cum sit aliquid in quauis 
+      exi<lb ed="#L" n="151" break="no"/>gua particula corporis quod sentiat anima, quamuis non fiat in 
+      <lb ed="#L" n="152"/>corpore toto, illa tamen tota sentit, quia totam non later: ecci 
+      <lb ed="#L" n="153"/>quod beatus Augustinus dictum suum probat de anima 
+      sensi<lb ed="#L" n="154" break="no"/>tiua &amp; per actum sentiendi communem nobis &amp; omnibus 
+      bru<lb ed="#L" n="155" break="no"/>tis: &amp; tamen multi tenet &amp; veritas habet, quod anima 
+      sensi<lb ed="#L" n="156" break="no"/>tiua in quibusdam brutis, (&amp; forte in omnibus) extenditur 
+      ex<lb ed="#L" n="157" break="no"/>tensione corporis. Oportet ergo, vel quod dictum Augustini 
+      <lb ed="#L" n="158"/>intelligatur de omni &amp; in omni animato, &amp; tunc reputabitus 
+      <lb ed="#L" n="159"/>falsum ab omnibus tenentibus dictum Aristotelis prius allega 
+      <lb ed="#L" n="160"/>tum, quod plantae &amp; quaedam animalia decisa viuunt, vel quod 
+      <lb ed="#L" n="161"/>aliter exponitur quam de exclusione extensionis quantitatius 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e798">
+               <lb ed="#L" n="162"/>
+               <!--18--> Ad aliud cum dicitur quod si anima esset quanta non cognoscere 
+      <lb ed="#L" n="163"/>vniuersale, dicendum est quod falsum est. Et ad probationem respondem. 
+      <lb ed="#L" n="164"/>dum est quod dato quod anima esset quanta per accidens, non oportere 
+      <!--00131.xml-->
+      <pb ed="#L" n="33-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod talia reciperentur in ea quantitatiuo &amp; situaliter. 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e818">
+               <lb ed="#L" n="2"/>
+               <!--19--> Sed dato quod sic reciperentur in anima, non sequeretur 
+      <lb ed="#L" n="3"/>quod ducerent solum in cognitionem singularis situaliter 
+      exi<lb ed="#L" n="4" break="no"/>stentis, quia si solum ducerent, hoc esset vel ratione 
+      singulari<lb ed="#L" n="5" break="no"/>tatis, vel ratione quantitatis, non ratione singularitatis, quia 
+      se<lb ed="#L" n="6" break="no"/>cundum istos aliquid existens in intellectu ducit in cognitio. 
+      <lb ed="#L" n="7"/>nem vniuersalis. Et tamen omne quod est subiectiue in 
+      intel<lb ed="#L" n="8" break="no"/>lectu est quoddam singularo: ergo non obstante singularitat, 
+      <lb ed="#L" n="9"/>eius quod recipitur in anima adhuc posset ducere in 
+      cogni<lb ed="#L" n="10" break="no"/>tionem vniuersalis. Nec iterum talis representatio posset 
+      im<lb ed="#L" n="11" break="no"/>pedire, quia illud representatiuum esset quantum, quia magis 
+      <lb ed="#L" n="12"/>opponitur rationi vniuersalis singularitas quam quantitas, sed 
+      <lb ed="#L" n="13"/>singularitas non impedit talem representationem (vt dictum 
+      <lb ed="#L" n="14"/>est) ergo nec quantitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e851">
+               <lb ed="#L" n="15"/>
+               <!--20--> Et iterum dato quod essentia animae esset quanta, non 
+      opor<lb ed="#L" n="16" break="no"/>teret tamen potentiam intellectiuam esse quantam sicut nec 
+      <lb ed="#L" n="17"/>oporteret intellectum esse actum corporis: quamuis anima 
+      in<lb ed="#L" n="18" break="no"/>tellectiua sit actus corporis, quia potentia intellectiua inest ani 
+      <lb ed="#L" n="19"/>mae secundum se &amp; non quatenus perficit corpus. Cum ergi 
+      <lb ed="#L" n="20"/>quae repraesentant vniuersale recipiantur in potentia 
+      intelle<lb ed="#L" n="21" break="no"/>ctiua &amp; non in essentia animae (nullus autem ponit potentiam 
+      <lb ed="#L" n="22"/>intellectiuam extendi extensione corporis) nihil praedictorum 
+      <lb ed="#L" n="23"/>sequeretur, dato quod poneretur essentia animae extendi. 
+      </p>
+            <p xml:id="jsnvu6-d1e607-d1e876">
+               <lb ed="#L" n="24"/>
+               <!--21--> Efficacior autem via quam ista sit ad ponendum animam 
+      <lb ed="#L" n="25"/>non esse quantam, est illa quae suniitur ex diuisione quanti 
+      <lb ed="#L" n="26"/>quia quod extenditur extensione corporis, diuiditur 
+      diuisio<lb ed="#L" n="27" break="no"/>ne corporis, sed anima humana non diuiditur diuisione 
+      cor<lb ed="#L" n="28" break="no"/>poris, ergo non extenditur extensione eius. Maior patet es 
+      <lb ed="#L" n="29"/>ratione quanti, quia esse quantum est diuisibile, vt habetur 
+      <lb ed="#L" n="30"/>quinto Metaphysicae. Minor probatur, quia si facta diuisioni 
+      <lb ed="#L" n="31"/>alicuius partis corporis a toto, anima diuideretur, aut in 
+      par<lb ed="#L" n="32" break="no"/>te diuisa remaneret anima aut non, si remaneret, tunc anim; 
+      <lb ed="#L" n="33"/>vna per diuisionem fieret duae, quod prima facie est non 
+      so<lb ed="#L" n="34" break="no"/>Ium inconueniens in Philosophia, sed erroneum in fide. E 
+      <lb ed="#L" n="35"/>iterum anima illa parte cessante viueret aut corrumperetur 
+      <lb ed="#L" n="36"/>&amp; sic anima rationalis esset corruptibilis, quod adhuc est 
+      er<lb ed="#L" n="37" break="no"/>roneum, aut separaretur, &amp; sic quot partes corporis 
+      diuide<lb ed="#L" n="38" break="no"/>rentur a corpore tot animae separarentur partibus illis cessan 
+      <lb ed="#L" n="39"/>tibus viuere: quod iterum est aeque erroneum. Si vero in 
+      par<lb ed="#L" n="40" break="no"/>te diuisa non remaneret anima quae tamen erat ibi prius pe 
+      <lb ed="#L" n="41"/>extensionem secundum positionem quae dicit eam esse 
+      quan<lb ed="#L" n="42" break="no"/>tam, adhuc non videtur quod hoc possit esse nisi per sui 
+      cor<lb ed="#L" n="43" break="no"/>ruptionem vel separationem, vt prius, nec legi ad hoc claram 
+      <lb ed="#L" n="44"/>ac sufficientem responsionem, quamuis dentur aliquae 
+      euasio<lb ed="#L" n="45" break="no"/>nes: vnde eadem ratione seu fide qua tenetur quod anima sit 
+      <lb ed="#L" n="46"/>incorruptibilis tenendum est quod ipsa non est quanta 
+      ne<lb ed="#L" n="47" break="no"/>extensibilis. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

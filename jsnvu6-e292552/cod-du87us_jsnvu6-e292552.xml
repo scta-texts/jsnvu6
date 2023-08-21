@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="355-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e292552"><!-- l4d49q2 -->
+            <head xml:id="jsnvu6-e292552-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e292552-Hd1e103" type="question-title">Utrum aliquis intellectus creatus possit 
+      videre deum clare et manifeste visione 
+      intellectuali</head>
+            <p xml:id="jsnvu6-e292552-d1e106">
+               <lb ed="#L" n="3"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="4"/>Vtrum aliquis intellectus creatus possit 
+      vi<lb ed="#L" n="5" break="no"/>dere deum clare &amp; manifeste visione 
+      <lb ed="#L" n="6"/>intellectuali. 
+    </p>
+            <p xml:id="jsnvu6-e292552-d1e117">
+               <lb ed="#L" n="7"/>SECVNDO quaeritur vtrum aliquis 
+      intelle<lb ed="#L" n="8" break="no"/>ctus creatus possit videre deum clare &amp; 
+      manife<lb ed="#L" n="9" break="no"/>ste visione intellectuali, sicut vnus homo videt 
+      <lb ed="#L" n="10"/>alium in visione corporali. Et arguitur quod non 
+      <lb ed="#L" n="11"/>quia si hoc posset intellectus creatus, aut hoc po 
+      <lb ed="#L" n="12"/>set ex naturalibus nullo sibi superaddito, 
+      au<lb ed="#L" n="13" break="no"/>hoc posset ad intus per aliquid supernaturale sibi additum, sed 
+      <lb ed="#L" n="14"/>neutro istorum modorum potest intellectus creatus videre deu 
+      <lb ed="#L" n="15"/>sicut probabitur, ergo &amp;c. Minor patet, quia sicut vult 
+      Philoso<lb ed="#L" n="16" break="no"/>phus 3. de anima, sicut se habent sensibilia ad sensum, sic 
+      fantas<lb ed="#L" n="17" break="no"/>mata ad intellectum, sed sensus nec virtute propria, nec aliqua 
+      <lb ed="#L" n="18"/>virtute sibi collata potest cognoscere nisi sensibilia, ergo 
+      intelle<lb ed="#L" n="19" break="no"/>ctus noster, nec virtute propria, nec aliqua virtute sibi 
+      superad<lb ed="#L" n="20" break="no"/>dita potest cognoscere nisi fantasmata, vel ea quae ex 
+      fantasma<lb ed="#L" n="21" break="no"/>tibus deducuntur, quia est virtus collatiua, &amp; in hoc excedit 
+      sen<lb ed="#L" n="22" break="no"/>sum, sed ex nullo fantasmate potest deduci clara &amp; manifesta 
+      co<lb ed="#L" n="23" break="no"/>gnitio dei, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e156">
+               <lb ed="#L" n="24"/>
+               <!--2--> Item plus distat essentia diuina a quocunque intellectu 
+      cre<lb ed="#L" n="25" break="no"/>to, quam distet substantia separata a sensu nostro, sed nulla 
+      vir<lb ed="#L" n="26" break="no"/>ture potest fieri quod sensus noster cognoscat substantias sepa 
+      <lb ed="#L" n="27"/>ratas, ergo nulla virtute potest fieri quod intellectus noster 
+      vi<lb ed="#L" n="28" break="no"/>deat diuinam essentiam. 
+</p>
+            <p xml:id="jsnvu6-e292552-d1e173">
+               <lb ed="#L" n="29"/>Item infinitum secundum quod est infinitum est nobis igno 
+      <lb ed="#L" n="30"/>tum, vt dicitur 3. physicorum, sed deus secundum omnem modi 
+      <lb ed="#L" n="31"/>est infinitus, ergo secundum omnem modum est nobis ignotus 
+      <lb ed="#L" n="32"/>Item super illud Io. 3. Deum nemo vidit vnquam, dicit Chry 
+      <lb ed="#L" n="33"/>sostomus quod coelestes essentiae ipsa dico cherubin &amp; seraphin 
+      <lb ed="#L" n="34"/>deum vt est vnquam videre potuerunt, cherubin tamen &amp; seraphin 
+      <lb ed="#L" n="35"/>sunt ordines beatorum &amp; supremorum spirituum, ergo multomi 
+      <lb ed="#L" n="36"/>nus potest in visionem dei quicunque alius intellectus creatus.
+    </p>
+            <p xml:id="jsnvu6-e292552-d1e193">
+               <lb ed="#L" n="37"/>IN CONTRARIVM est quod dicitur Marth. 18. de 
+      <lb ed="#L" n="38"/>beatis angelis qui semper vident faciem patris qui in coelis est: &amp; 
+      <lb ed="#L" n="39"/>Apostolus 1. Cor. 12. de nobis loquens dicit, videmus nunc per spi 
+      <lb ed="#L" n="40"/>culum in aenigmate, tunc autem videbimus facie ad faciem, &amp; 
+      <lb ed="#L" n="41"/>I. Ioan. 3. dicitur quod cum apparuerit, similes ei erimus quando 
+      <lb ed="#L" n="42"/>videbimus eum sicuti est. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e209">
+               <lb ed="#L" n="43"/>
+               <!--6--> Et arguitur per rationem, quia omnis potentia per actum 
+      <lb ed="#L" n="44"/>suum potest tendere in omne illud in quo inuenitur per se ratio 
+      <lb ed="#L" n="45"/>sui obiecti, sed ratio formalis obiecti intellectus est ens secundum 
+      <lb ed="#L" n="46"/>quodens (secundum Auicen.) quae ratio potissime inuenitur in 
+      <lb ed="#L" n="47"/>deo, ergo videtur quod intellectus creatus propria virtute posse 
+      <lb ed="#L" n="48"/>attingere ad intelligendum deum secundum se. 
+</p>
+            <p xml:id="jsnvu6-e292552-d1e227">
+               <lb ed="#L" n="49"/>RESPONSIO. Circa quaestionem istam procedetur 
+      <lb ed="#L" n="50"/>sic, quia primo ostendetur quid est illud vnde causatur in nobis 
+      <lb ed="#L" n="51"/>cognitio confusa, &amp; secundo declarabitur propositum. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e236">
+               <lb ed="#L" n="52"/>
+               <!--8--> QUANTVM ad primum distinguendum est de 
+      cogni<lb ed="#L" n="53" break="no"/>tione confusa, quia vno modo dicitur cognitio confusa quando 
+      <lb ed="#L" n="54"/>non peruenitur ad cognitionem rei quidditatiuam vel specificam 
+      <lb ed="#L" n="55"/>Alio modo dicitur confusa cognitio illa quae est quidditatiua &amp; 
+      <lb ed="#L" n="56"/>specifica per comparationem ad cognitionem intuitiuam, sicut 
+      <lb ed="#L" n="57"/>ille qui habet cognitionem quidditatiuam de rosa quam non vi 
+      <lb ed="#L" n="58"/>det dicitur habere confusam cognitionem per comparationem 
+      <lb ed="#L" n="59"/>ad illam quam habet de rosa quam praesentialiter videt. 
+</p>
+            <p xml:id="jsnvu6-e292552-d1e258">
+               <lb ed="#L" n="60"/>Primo ergo reddetur causa cognitionis confusae primo 
+      mo<lb ed="#L" n="61" break="no"/>do dictae, &amp; secundo reddetur causa cognitionis confusae secun 
+      <lb ed="#L" n="62"/>do modo dictae. Causa cognitionis confusae dictae primo mode 
+      <lb ed="#L" n="63"/>videtur esse ex hoc quod res cognoscitur per medium prius 
+      cogni<lb ed="#L" n="64" break="no"/>tum quod insufficienter repraesentat ipsam, quod fit maxime 
+      <lb ed="#L" n="65"/>quando medium cognitum est inferioris gradus quam res reprae 
+      <lb ed="#L" n="66"/>sentata per ipsum. Et hoc patet sic, quum enim sit triplex medium 
+      <lb ed="#L" n="67"/>in visione, scilicet medium quo sicut specles in oculo, vel in intel 
+      <lb ed="#L" n="68"/>lectu species intelligibilis secundum ponentes ipsas, &amp; medium 
+      <lb ed="#L" n="69"/>sub quo vt lumen corporale in visione corporali, intellectuale ve 
+      <lb ed="#L" n="70"/>ro lumen intellectus agentis secundum Aristotelem &amp; sequaces 
+      <lb ed="#L" n="71"/>eius, neutrum istorum modorum impedit claram &amp; manifestam 
+      <lb ed="#L" n="72"/>cognitionem rei, nec quidditatiuam, nec intuitiuam: alioquin 
+      co<lb ed="#L" n="73" break="no"/>dor qui videtur mediante lumine &amp; specie (vt dicitur communiter 
+      <lb ed="#L" n="74"/>non videretur clare &amp; manifeste, quod falsum est. Est autem 
+      ter<lb ed="#L" n="75" break="no"/>tium medium in quo dicitur res videri, sicut in visione corporali 
+      <lb ed="#L" n="76"/>ponitur exemplum de speculo in quo vel mediante quo videt ali 
+      <lb ed="#L" n="77"/>quis fac Ssuam, in visione vero intellectuali est tale medium quan 
+      <lb ed="#L" n="78"/>do cognoscitur causa per effectum, vel aliquid huic simile, tale 
+      au<lb ed="#L" n="79" break="no"/>tem medium non est solum ratio cognoscendi alterum, sicut de spe 
+      <lb ed="#L" n="80"/>cie dicitur, sed est medium cognitum. Et hoc si sit inferioris gradus 
+      <!--00784.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>causat cognitionem confusam, vel si ex aliqua alia causa non 
+      suf<lb ed="#L" n="82" break="no"/>ficienter repraesentet alterum. Dico autem si fit inferioris gradus, 
+      <lb ed="#L" n="83"/>quia medium superioris gradus non impedit claram cognitionem, 
+      <lb ed="#L" n="84"/>alioquin deus qui per essentiam suam cognoscit alia a se, de illis 
+      <lb ed="#L" n="85"/>non haberet claram cognitionem, quod falsum est. Causa autem 
+      <lb ed="#L" n="86"/>huius est, quia inferiora perfecte continentur in superioribus 
+      sal<lb ed="#L" n="87" break="no"/>tem in causa prima, sed superiora continentur in inferioribus 
+      de<lb ed="#L" n="88" break="no"/>ficienter, &amp; ideo per aliqua superiora (vt per essentiam diuinam) 
+      <lb ed="#L" n="89"/>perfecte repraesentantur inferiora, &amp; per consequens per eam 
+      per<lb ed="#L" n="90" break="no"/>fecte cognoscuntur, sed ea quae sunt inferioris gradus deficienter 
+      <lb ed="#L" n="91"/>repraesentant ea quae sunt superioris gradus, &amp; ideo superiora 
+      co<lb ed="#L" n="92" break="no"/>gnoscuntur imperfecte &amp; confuse per inferiora, quum igitur 
+      se<lb ed="#L" n="93" break="no"/>cundum cursum naturae inditum cognoscamus nunc solum deum, 
+      <lb ed="#L" n="94"/>secundum quod repraesentatur nobis per creaturas quae sunt 
+      infe<lb ed="#L" n="95" break="no"/>rioris gradus, ideo cognoscimus ipsum confuse &amp; in aenigmate, 
+      <lb ed="#L" n="96"/>vnde causa eius quod dicit Apostolus I. Cor. 13. videmus nunc per 
+      <lb ed="#L" n="97"/>speculum &amp; in aenigmate, assignatur ROI. quum dicitur quod 
+      <lb ed="#L" n="98"/>inuisibilia ipsius (scilicet dei) per ea ea quae facta sunt, id est, per 
+      <lb ed="#L" n="99"/>res creatas quae sunt inferioris gradus intellecta conspiciuntur. 
+      <lb ed="#L" n="100"/>patet ergo causa confusae cognitionis primo modo dictae. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e355">
+               <lb ed="#L" n="101"/>
+               <!--10--> Causa autem cognitionis confusae secundo modo dictae est 
+      <lb ed="#L" n="102"/>quod res cognoscatur per aliam rem praecognitam, vel si non 
+      prae<lb ed="#L" n="103" break="no"/>cognitam, tamen illam cognitionem praecessit alia eiusdem rei 
+      <lb ed="#L" n="104"/>verbi gratia, quod cognitio intellectiua quam habemus de rosa non 
+      <lb ed="#L" n="105"/>sit intuitiua, hoc est pro tanto, quia rosam cognoscimus per 
+      ali<lb ed="#L" n="106" break="no"/>quid aliud praecognitum, vel quia cognitio intellectu alis quam hab 
+      <lb ed="#L" n="107"/>mus de rosa non est prima cognitio simpliciter quam habemus de 
+      <lb ed="#L" n="108"/>ipsa, sed eam praecessit cognitio sensitiua. His enim duobus 
+      ex<lb ed="#L" n="109" break="no"/>clusis scilicet quod aliqua res non cognoscatur per aliam, nec cogni 
+      <lb ed="#L" n="110"/>tionem talem praecedat alia eiusdem rei, talis cognitio 
+      necessa<lb ed="#L" n="111" break="no"/>rio est intuitiua, nec oppositum videtur possibile secundum 
+      cur<lb ed="#L" n="112" break="no"/>sum naturae, quicquid sit de potentia diuina, &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e386">
+               <lb ed="#L" n="113"/>
+               <!--11--> QUANTVM ad secundum, scilicet qualiter deus 
+      possi<lb ed="#L" n="114" break="no"/>cognosci a nobis clare &amp; manifeste, non solum cognitione quid 
+      <lb ed="#L" n="115"/>ditatiua, sed etiam intuitiua est triplex modus dicendi. Vnus est 
+      <lb ed="#L" n="116"/>eorum qui dicunt quod deus tunc cognoscetur non per medium 
+      <lb ed="#L" n="117"/>cognitum, sed per duplex medium, scilicet per speciem, diuinam 
+      <lb ed="#L" n="118"/>essentiam repraesentantem, quae est medium quo, &amp; per lumen 
+      <lb ed="#L" n="119"/>gloriae quod eleuat intellectum. Secundus modus est eorum qui 
+      <lb ed="#L" n="120"/>dicunt quod diuina essentia videtur a beatis clare &amp; nude, quia 
+      <lb ed="#L" n="121"/>non repraesentatur intellectui per aliquod medium cognitum 
+      <lb ed="#L" n="122"/>nec per aliquam speciem, sed immediate per seipsam, requiritur 
+      <lb ed="#L" n="123"/>tamen medium eleuans intellectum, &amp; confortans ipsum quod 
+      <lb ed="#L" n="124"/>est lumen gloriae propter imperfectionem intellectus nostri, &amp; 
+      <lb ed="#L" n="125"/>eius distantiam ab essentia diuina. Tertius modus est aliquorum 
+      <lb ed="#L" n="126"/>qui dicunt quod ad videndum diuinam essentiam clare &amp; nude 
+      <lb ed="#L" n="127"/>a beatis non requiritur species repraesentans, nec aliquod lumen 
+      <lb ed="#L" n="128"/>eleuans, sed solum mutatio naturalis ordinis cognoscendi. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e425">
+               <lb ed="#L" n="129"/>
+               <!--12--> Prima opinio probatur talibus rationibus. Primo quia nul 
+      <lb ed="#L" n="130"/>li rei competit aliqua operatio, vt ipsa est in potentia, sed solum 
+      <lb ed="#L" n="131"/>vt est in actu per aliquam formam. (Secundus enim actus qui est 
+      <lb ed="#L" n="132"/>operatio praesupponit primum qui est forma) sed intellectus de se 
+      <lb ed="#L" n="133"/>est in potentia ad intelligere, vt patet ex tertio de anima, ergo 
+      <lb ed="#L" n="134"/>nullo modo potest in operationem intelligendi, nisi prius fiat in 
+      <lb ed="#L" n="135"/>actu per aliquam formam, hoc autem non potest esse nisi species, quia 
+      <lb ed="#L" n="136"/>essentia diuina non potest esse actus formaliter intellectum 
+      per<lb ed="#L" n="137" break="no"/>ficiens, quare, &amp;c. Secundo quia nulla virtute potest fieri quod 
+      sen<lb ed="#L" n="138" break="no"/>sus cognoscat sensibile aliquod, nisi informatus aliqua specie rei 
+      <lb ed="#L" n="139"/>sensibilis, ergo similiter nulla virtute fieri potest quod 
+      intelle<lb ed="#L" n="140" break="no"/>ctus intelligat aliquod intelligibile nisi informatus specie rei in 
+      <lb ed="#L" n="141"/>telligibilis. Tertio quia omnis cognitio fit per aliquam assimila 
+      <lb ed="#L" n="142"/>tionem cognoscentis ad cognitum, sed talis assimilatio est per spe 
+      <lb ed="#L" n="143"/>ciem quae est in cognoscente, &amp; est similitudo rei cognoscibilis, 
+      <lb ed="#L" n="144"/>ergo &amp;c. Et confirmatur per illud quod habetur I. Ioan. 3. Quum 
+      <lb ed="#L" n="145"/>apparuerit similes ei erimus, quoniam videbimus eum sicuti est, 
+      <lb ed="#L" n="146"/>&amp; hoc modo dicunt isti quod intellectus creatus potest 
+      pertinge<lb ed="#L" n="147" break="no"/>re ad claram &amp; intuitiuam cognitionem dei ratione speciei ip 
+      <lb ed="#L" n="148"/>sum immediate repraesentantis, vt statim probatum est, &amp; 
+      ratio<lb ed="#L" n="149" break="no"/>ne luminis gloriae intellectum eleuantis &amp; confortantis, vt 
+      dedu<lb ed="#L" n="150" break="no"/>cetur in secunda opinione, quae habet illud commune cum ista. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e477">
+               <lb ed="#L" n="151"/>
+               <!--13--> Quantum ad illud quod est huic opinioni proprium, scilicet 
+      <lb ed="#L" n="152"/>quod requiratur species repraesentans diuinam essentiam, non 
+      <lb ed="#L" n="153"/>videtur quod hoc sit verum. Primo quia vt multi opinantur, 
+      nul<lb ed="#L" n="154" break="no"/>la cognitio fit per talem speciem. Secundo quia dato quod aliqua 
+      co<lb ed="#L" n="155" break="no"/>gnoscerentur per speciem ea repraesentantem, nullo tamem modo 
+      <lb ed="#L" n="156"/>potest hoc dici de deo in visione beata, quod patet ex natura spe 
+      <lb ed="#L" n="157"/>ciei repraesentantis sic, Species repraesentans, &amp; essentia per ipsam 
+      <lb ed="#L" n="158"/>immediate repraesentata sunt eiusdem rationis secundum 
+      spe<lb ed="#L" n="159" break="no"/>ciem, licet differant in modo essendi, sed nihil potest esse eiusdem 
+      <lb ed="#L" n="160"/>rationis secundum speciem cum essentia diuina, ergo nulla 
+      spe<lb ed="#L" n="161" break="no"/>cies potest repraesentare essentiam diuinam. Minor de se patet, 
+      sci<lb ed="#L" n="162" break="no"/>licetque nulla res potest esse eiusdem speciei vel generis cum diuina 
+      <!--00785.xml-->
+      <pb ed="#L" n="356-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>essentia, quia ipsa est extra omne genus, sed maior probatur in 
+      <lb ed="#L" n="2"/>his quae sunt nobis notiora sicut sunt sensibilia, &amp; maxime per 
+      <lb ed="#L" n="3"/>tinentia ad visum ex quibus videtur emanasse prima origo po 
+      <lb ed="#L" n="4"/>nendi species repraesentantes, propter hoc quod color videtur fa 
+      <lb ed="#L" n="5"/>cere speciem suam in medio &amp; in organo sicut sensibiliter nobi 
+      <lb ed="#L" n="6"/>apparet in refractione quae est a speculo, nisi enim illud fuisse 
+      <lb ed="#L" n="7"/>forsitan nunquam fuisset facta mentio de speciebus requisitis ac 
+      <lb ed="#L" n="8"/>cognitionem. In his ergo sensibilibus probatur maior assumpta 
+      <lb ed="#L" n="9"/>scilicet quod species est eiusdem rationis specificae cum natur. 
+      <lb ed="#L" n="10"/>quam repraesentat. Primo sic, sicut se habet lux in corpore lumi 
+      <lb ed="#L" n="11"/>noso ad lumen causatum in medio, sic videtur se habere colo 
+      <lb ed="#L" n="12"/>in corpore terminato ad speciem causatam in medio, quia sicu 
+      <lb ed="#L" n="13"/>proprium subiectum lucis secundum perfectum suum esse es 
+      <lb ed="#L" n="14"/>corpus densum (vnde &amp; stella lucens dicitur esse densior pars sua 
+      <lb ed="#L" n="15"/>sphaerae secundo coeli &amp; mundi) sic proprium subiectum colori 
+      <lb ed="#L" n="16"/>qui in se continet aliquid de natura lucis secundum perfectum 
+      <lb ed="#L" n="17"/>suum esse est perspicuum terminatum per opacum, subiectum 
+      <lb ed="#L" n="18"/>autem vtriusque secundum esse imperfectum est perspicuum nor 
+      <lb ed="#L" n="19"/>densum, nec terminatum, propter quod sicut se habet lux ad 
+      lu<lb ed="#L" n="20" break="no"/>men, sic color ad speciem, sed lux in corpore denso &amp; lumer 
+      <lb ed="#L" n="21"/>in medio sunt eiusdem rationis specificae, licet differant in mo 
+      <lb ed="#L" n="22"/>do essendi secundum rationem perfecti &amp; imperfecti propte 
+      <lb ed="#L" n="23"/>diuersitatem subiectorum recipientium, ergo similiter color in 
+      <lb ed="#L" n="24"/>corpore terminato &amp; species eius in medio sunt eiusdem ratio 
+      <lb ed="#L" n="25"/>nis specificae, licet differant secundum perfectum &amp; imperfecti 
+      <lb ed="#L" n="26"/>propter diuersitatem subiectorum recipientium. Secundo pro 
+      <lb ed="#L" n="27"/>batur eadem maior sic, actio omnium sensibilium in medio 8 
+      <lb ed="#L" n="28"/>organo est vnica, calor enim distans ad hoc vt sentiatur oporte 
+      <lb ed="#L" n="29"/>quod calefaciat medium vsque ad organum, &amp; ipsummet organi 
+      <lb ed="#L" n="30"/>vt experimur. Et idem est de sapore &amp; de quocunque alio sensi 
+      <lb ed="#L" n="31"/>bili, ergo a simili videtur quod actio coloris in medium &amp; orga 
+      <lb ed="#L" n="32"/>num sit vniuoca, quod non esset nisi color &amp; sua species essent v 
+      <lb ed="#L" n="33"/>nius rationis specificae. Tertio patet idem sic, alio modo reprae 
+      <lb ed="#L" n="34"/>sentatur res per medium cognitum &amp; alio modo per medium quo 
+      <lb ed="#L" n="35"/>est ratio cognoscendi, quia medium cognitum potest ducere in 
+      <lb ed="#L" n="36"/>cognitionem alterius ratione cuiuscunque habitudinis, siue vt si 
+      <lb ed="#L" n="37"/>mile, siue vt contrarium, siue vt causa, siue vt effectus, vel qualiter 
+      <lb ed="#L" n="38"/>cunque aliter. Sed medium quod est solum ratio cognoscendi non du 
+      <lb ed="#L" n="39"/>cit in cognitionem alterius (vt videtur) nisi ratione similitudinis, 
+      <lb ed="#L" n="40"/>vnde vt similitudo dicitur per quandam expressionem, similitude 
+      <lb ed="#L" n="41"/>autem non est differentium secundum speciem, ergo species qua 
+      <lb ed="#L" n="42"/>est medium quo res cognoscitur, vt dicitur similitudo rei non dif 
+      <lb ed="#L" n="43"/>fert secundum speciem a re quam immediate repraesentat &amp; sic 
+      <lb ed="#L" n="44"/>probata est sufficienter maior, sequitur ergo conclusio principa 
+      <lb ed="#L" n="45"/>lis scilicet quod deus non potest cognosci immediate per speciem 
+      <lb ed="#L" n="46"/>ipsum immediate repraesentantem, &amp; idem oporteret dicere de 
+      <lb ed="#L" n="47"/>quacunque re quae non potest habere speciem repraesentantem 
+      <lb ed="#L" n="48"/>ipsam quae sit eiusdem rationis cum ea¬ 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e618">
+               <lb ed="#L" n="49"/>
+               <!--14--> Veruntamen contra hanc opinionem obiicitur. Rrimo, 
+      qui<lb ed="#L" n="50" break="no"/>formae contrariae non compatiuntur se simul in eodem subiecto, sed 
+      <lb ed="#L" n="51"/>si species repraesentans, &amp; essentia repraesentata essent eiusdem ra 
+      <lb ed="#L" n="52"/>tionis specificae contraria essent simul in eodem subiecto, ergo &amp;c 
+      <lb ed="#L" n="53"/>Minor probatur quia si species repraesentans &amp; natura repraesen 
+      <lb ed="#L" n="54"/>tata essent eiusdem rationis specificae, cum album &amp; nigrum causant 
+      <lb ed="#L" n="55"/>species suas per totum medium tunc in eadem parte medij esset 
+      <lb ed="#L" n="56"/>species nigri quae sunt contrariae sicut album &amp; nigrum si sint eius 
+      <lb ed="#L" n="57"/>dem rationis specificae cum albo &amp; nigro vt ponitur. Secundo, quia 
+      <lb ed="#L" n="58"/>omne accidens denominat suum subiectum, si ergo species colori: 
+      <lb ed="#L" n="59"/>esset verus color quantum ad naturam coloris specificam sequer 
+      <lb ed="#L" n="60"/>tur quod aer, &amp; quodcunque medium in quo recipitur species con 
+      <lb ed="#L" n="61"/>loris diceretur coloratum, hoc autem non dicimus, ergo &amp;c. 
+      Terti<lb ed="#L" n="62" break="no"/>quia illud quod dicitur quod ex quo species repraesentat naturi 
+      <lb ed="#L" n="63"/>rei specificae vt sola ratio cognoscendi, ideo videtur esse eiusdem 
+      <lb ed="#L" n="64"/>speciei eum ipsa re, non valet, quia non oportet quod species reprae 
+      <lb ed="#L" n="65"/>sentans habeat conuenientiam specificam cum re repraesentata quan 
+      <lb ed="#L" n="66"/>tum ad esse naturae, sed solum in ratione repraesentandi, quia scili 
+      <lb ed="#L" n="67"/>cet repraesentat naturam rei non solum secundum conditiones 
+      vni<lb ed="#L" n="68" break="no"/>uersales sed etiam secundum rationem propriam, &amp; specificam 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e666">
+               <lb ed="#L" n="69"/>
+               <!--15--> Sed illa non valent. Primum enim argumentum est contra 
+      <lb ed="#L" n="70"/>eos qui ponunt speciem albedinis differre specifice ab albedine 
+      <lb ed="#L" n="71"/>sicut contra nos qui ponimus vnum conuenire cum altero in specie 
+      <lb ed="#L" n="72"/>Culus ratio est, quia contrarium causarum immediatum &amp; 
+      suffi<lb ed="#L" n="73" break="no"/>cientium sunt contrarij effectus, sed albedo &amp; nigredo sunt 
+      con<lb ed="#L" n="74" break="no"/>trariae formae, quarum immediati effectus sunt species eorum in 
+      <lb ed="#L" n="75"/>medio, ergo species albedinis &amp; nigredinis sunt contrariae, siue 
+      <lb ed="#L" n="76"/>sint eiusdem rationis cum suis causis, siue non, ergo eadem diffi 
+      <lb ed="#L" n="77"/>cultas qualiter possint esse simul in medio siue differant specifi 
+      <lb ed="#L" n="78"/>ce a suis causis (vt illi dicunt) siue non differant, vt nos ponimus 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e693">
+               <lb ed="#L" n="79"/>
+               <!--16--> Argumentum ergo non est pro eis, nec contra nos, nisi 
+      qua<lb ed="#L" n="80" break="no"/>tenus petit quandam difficultatem hic solui (scilicet) qualite 
+      <lb ed="#L" n="81"/>duae species (scilicet albi &amp; nigri) cum sint contrariae possint si 
+      <lb ed="#L" n="82"/>mul esse in eadem parte medij. Et ad hoc dicendum quod non 
+      <!--00785.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>sunt ibi distinctae naturae contrariae, nam sicut calidum &amp; frigi 
+      <lb ed="#L" n="84"/>dum in eodem subiecto non causant calorem, &amp; frigus quae sunt 
+      <lb ed="#L" n="85"/>contraria, sed causant tepidum quod est qualitas medio vno 
+      im<lb ed="#L" n="86" break="no"/>pediente puram actionem alterius, &amp; econuerso, sic album &amp; 
+      ni<lb ed="#L" n="87" break="no"/>grum causant in eadem parte medij speciem mediam continentem 
+      <lb ed="#L" n="88"/>virtualiter vtrumque, sicut tepidum continet calidum &amp; frigidum 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e724">
+               <lb ed="#L" n="89"/>
+               <!--17--> Ad secundum dicendum quod albedo &amp; nigredo non 
+      no<lb ed="#L" n="90" break="no"/>minant naturam speciei absolute, sed secundum potissimum eius 
+      <lb ed="#L" n="91"/>gradum, quae solum reperitur in perspicuo terminato per 
+      opa<lb ed="#L" n="92" break="no"/>cum, sicut lux nominat formam dyaphani, secunduno potissimum 
+      <lb ed="#L" n="93"/>gradum quae solum reperitur in dyaphano denso, &amp; quia 
+      secun<lb ed="#L" n="94" break="no"/>dum illum gradum nullus color est in medio, ideo medium non 
+      <lb ed="#L" n="95"/>proprie potest dici coloratum, quia nec illa species proprie potest 
+      <lb ed="#L" n="96"/>dici color, licet sit eiusdem naturae specificae cum colore a quo cau 
+      <lb ed="#L" n="97"/>satur, sicut medium non proprie dicitur lucens, quia non habet 
+      <lb ed="#L" n="98"/>lucem secundum perfectum gradum, secundum quem 
+      nomina<lb ed="#L" n="99" break="no"/>tur lux, quamuis habeat lumen quod est eiusdem speciei cum luce, 
+      <lb ed="#L" n="100"/>licet in gradu remisso, dicitur tamen illuminatum, quia illi de 
+      <lb ed="#L" n="101"/>nominationi quam facit lumen est nomen impositum, sed 
+      deno<lb ed="#L" n="102" break="no"/>minationi quam facit species in medio non est nomen impositum. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e759">
+               <lb ed="#L" n="103"/>
+               <!--18--> Quod autem tertio additur quod sufficit quod species 
+      re<lb ed="#L" n="104" break="no"/>praesentans sit eiusdem naturae specificae cum re repraesentata in 
+      <lb ed="#L" n="105"/>repraesentando, &amp; non in essendo, friuolum est &amp; sola fuga 
+      diffi<lb ed="#L" n="106" break="no"/>cultatis quoad hominem, si enim species repraesentans dicitur 
+      <lb ed="#L" n="107"/>eiusdem speciei cum re repraesentata in repraesentando, aut 
+      intelli<lb ed="#L" n="108" break="no"/>gitur quod illa identitas attendatur quantum ad 
+      repraesentatio<lb ed="#L" n="109" break="no"/>nem, ita scilicet quod sicut vnum repraesentat aliquam rem, ita aliud 
+      <lb ed="#L" n="110"/>repraesentat eandem rem secundum speciem, &amp; ista identitas non 
+      po<lb ed="#L" n="111" break="no"/>test poni inter speciem representantem, &amp; rem repraesentatam per 
+      <lb ed="#L" n="112"/>ipsam, aut intelligitur quod vnum repraesentat, &amp; aliud 
+      repraesen<lb ed="#L" n="113" break="no"/>tatur, sed dicere propter hoc esse identitatem secundum speciem 
+      <lb ed="#L" n="114"/>inter repraesentans &amp; repraesentatum est absurdum, quia causa 
+      re<lb ed="#L" n="115" break="no"/>praesentat effectum, &amp; econuerso etiam in aequiuocis, &amp; in multis aliis 
+      <lb ed="#L" n="116"/>quantumcunque genere vel specie differentibus, quae tamen pro 
+      <lb ed="#L" n="117"/>pter repraesentationem non dicuntur vnius speciei cum eo quod 
+      <lb ed="#L" n="118"/>repraesentant. Item repraesentatio cum sit habitudo rei repraesen 
+      <lb ed="#L" n="119"/>tantis ad illud quod repraesentatur habet aliquod fundamentum 
+      <lb ed="#L" n="120"/>ratione cuius conuenit ei repraesentare, &amp; illud non potest esse nisi 
+      <lb ed="#L" n="121"/>natura speciei, non quatenus est effectus rei absolutae, quia multis 
+      <lb ed="#L" n="122"/>effectibus non conuenit sic repraesentare, deducendo etiam in o 
+      <lb ed="#L" n="123"/>mnibus aliis nunquam inuenitur ratio &amp; fundamentum talis 
+      reprae<lb ed="#L" n="124" break="no"/>sentationis, non enim inuenitur in omni re, sed in illa tantum quae 
+      <lb ed="#L" n="125"/>est effectus vniuocus deficiens tamen in tantum a perfectione 
+      spe<lb ed="#L" n="126" break="no"/>ciei quod non terminat actum potentiae, &amp; ita non est obiectum co 
+      <lb ed="#L" n="127"/>gnitum, vt simile, sed est solum ratio &amp; medium cognoscendi alterum, v 
+      <lb ed="#L" n="128"/>similitudo, si enim talis species non esset eiusdem rationis cum re 
+      <lb ed="#L" n="129"/>quam representat nullo modo posset esse ratio repraesentandi per 
+      <lb ed="#L" n="130"/>fecte alterum cum ipsa sit quid imperfectissimum, quin potius res quae 
+      <lb ed="#L" n="131"/>sunt naturae perfectioris essent perfectioris repraesentationis. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e827">
+               <lb ed="#L" n="132"/>
+               <!--19--> Et istam rationem assignat frater Thomas 4. lib. dist. 49 
+      <lb ed="#L" n="133"/>vbi expresse dicit quod similitudo secundum speciem requiritur 
+      <lb ed="#L" n="134"/>inter repraesentans &amp; repraesentatum, quamuis non sit idem 
+      mo<lb ed="#L" n="135" break="no"/>dus essendi vtrobique &amp; per totam deductionem illius rationis 
+      <lb ed="#L" n="136"/>in qua fundat positionem suam. apparet quod ipse intendit de 
+      <lb ed="#L" n="137"/>identitate specifica in essendo, &amp; non in repraesentando, alioquir 
+      <lb ed="#L" n="138"/>ratio eius non valeret vnam festucam. Dicit enim quod propter 
+      <lb ed="#L" n="139"/>hoc diuina essentia non potest repraesentari per speciem, quia o 
+      <lb ed="#L" n="140"/>mnis similitudo creata differt abessentia diuina secundum 
+      ge<lb ed="#L" n="141" break="no"/>nus, &amp; non conuenit ei nisi secundum analogiam, si enim 
+      intel<lb ed="#L" n="142" break="no"/>ligat de differentia rei habetur propositum, si vero de differentia 
+      <lb ed="#L" n="143"/>rationis in repraesentando petit principium, quia potest dici quod 
+      <lb ed="#L" n="144"/>quantumcunque species differt secundum genus in essendo, 
+      con<lb ed="#L" n="145" break="no"/>uenit tamen secundum speciem in repraesentando, quia 
+      repraesen<lb ed="#L" n="146" break="no"/>tat perfecte diuinam essentiam inquantum perfecte videtur ab 
+      <lb ed="#L" n="147"/>intellectu creato: &amp; sic patet primus modus quantum ad primam 
+      <lb ed="#L" n="148"/>partem sui, quia secundam partem habet communem cum 
+      secen<lb ed="#L" n="149" break="no"/>da opinione de qua statim dicetur. Haec autem quae dicta sunt de 
+      <lb ed="#L" n="150"/>specie, quod non potest esse medium repraesentans diuinam 
+      essen<lb ed="#L" n="151" break="no"/>tiam in visione beata dicta sunt secundum opinionem illorum qui 
+      <lb ed="#L" n="152"/>credunt aliquam cognitionem fieri per speciem quae non est 
+      me<lb ed="#L" n="153" break="no"/>dium cognitum, sed sola est ratio cognoscendi, quam opinionem 
+      <lb ed="#L" n="154"/>non credimus esse veram, sicut ostensum fuit lib. 2. dist. 3. Sed 
+      qua<lb ed="#L" n="155" break="no"/>cunque opinione data nos habemus intentum, quia si nulla 
+      co<lb ed="#L" n="156" break="no"/>gnitio fit per talem speciem, ergo nec cognitio beata de qua nunc 
+      <lb ed="#L" n="157"/>agitur, nec aliqua cognitio angelica, de qua actum est in 2. libi 
+      <lb ed="#L" n="158"/>nec vniuersaliter aliqua alia. Si vero aliqua cognitio fiat per 
+      ta<lb ed="#L" n="159" break="no"/>lem speciem hoc est possibile solum quando species repraesent Ins 
+      <lb ed="#L" n="160"/>&amp; res per ipsam repraesentata possunt esse eiusdem speciei inesse 
+      <lb ed="#L" n="161"/>naturae, quod non est possibile in cognitione beata, nec in 
+      cogni<lb ed="#L" n="162" break="no"/>tione angelica, nec in aliqua cognitione intellectiua. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e899">
+               <lb ed="#L" n="163"/>
+               <!--20--> Secundus modus est eorum qui dicunt quod ad videndum 
+      <lb ed="#L" n="164"/>deum clare &amp; manifeste non requiritur meolum cognitum, nec 
+      <!--00786.xml-->
+      <pb ed="#L" n="356-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>medium quod est solum ratio cognoscendi vt species, sed reprae 
+      <lb ed="#L" n="2"/>sentatur intellectui creato ipsa essentia diuina secundum se. Re 
+      <lb ed="#L" n="3"/>quiritur tamen medium eleuant &amp; confortans quod est lumen 
+      <lb ed="#L" n="4"/>gloriae, &amp; isti variantur. Quia quidam vocant illam eleuationem 
+      <lb ed="#L" n="5"/>confortationem potentiae ad eliciendum actum intelligendi 
+      re<lb ed="#L" n="6" break="no"/>spectu talis obiecti. Alij autem vocant istam eleuatione vel 
+      con<lb ed="#L" n="7" break="no"/>fortationem dispositionem potentiae intellectiuae ad suscipien 
+      <lb ed="#L" n="8"/>dum actum intelligendi, secundum duas opiniones quae currun 
+      <lb ed="#L" n="9"/>de modo intelligendi. Quia quidam dicunt quod intelligere est 
+      <lb ed="#L" n="10"/>exercere actiue operationem. Alij autem dicunt quod intellige 
+      <lb ed="#L" n="11"/>re est esse perfectum quadam forma quae dicitur operatio vt re 
+      <lb ed="#L" n="12"/>spicit obiectum. Vtriusque autem opinionis potest duplex 
+      rati<lb ed="#L" n="13" break="no"/>assignari. Prima talis est, nulla virtus naturalis potest secundun 
+      <lb ed="#L" n="14"/>se in operationem supernaturalem nisi confortata per aliquod 
+      <lb ed="#L" n="15"/>supernaturale sibi collatum, nec aliquod subiectum est suscepti 
+      <lb ed="#L" n="16"/>uum formae supernaturalis nisi disponatur dispositione superna 
+      <lb ed="#L" n="17"/>turali per quam eleuetur. Vitima enim dispositio ad formam &amp; 
+      <lb ed="#L" n="18"/>forma recipiuntur in subiecto secundum eandem rationem, 
+      it<lb ed="#L" n="19" break="no"/>quod si vnum sit naturale &amp; reliquum, sed visio diuinae essentiae 
+      <lb ed="#L" n="20"/>vel est operatio elicita ab intellectu nostro, vel est perfectio rece 
+      <lb ed="#L" n="21"/>pta in ipso non quaecunque sed supernaturalis, ergo non potes 
+      <lb ed="#L" n="22"/>elici ab ipso, nec recipi in ipso absque dispositione supernaturali 
+      <lb ed="#L" n="23"/>eleuante &amp; confortante intellectum ad eliciendum ipsam actiue 
+      <lb ed="#L" n="24"/>vel ad suscipiendum ipsam passiue, illa autem dispositio vocatu 
+      <lb ed="#L" n="25"/>lumen gloriae, quare &amp; caetera. Secunda ratio talis est, maior es 
+      <lb ed="#L" n="26"/>improportio cuiuslibet intellectus creati ad diuinam essentiam 
+      <lb ed="#L" n="27"/>quam cuiuscunque potentiae sensitiuae ad suum obiectum, sed quae 
+      <lb ed="#L" n="28"/>dam potentia sensitiua (scilicet visiua) non est apta elicere, vel 
+      <lb ed="#L" n="29"/>suscipere actu videndi nisi recepta quadam forma extrinseca per 
+      <lb ed="#L" n="30"/>quam ad talem actionem vel receptionem disponitur, visus enim 
+      <lb ed="#L" n="31"/>non potest cognoscere visibile nisi prius recipiat lumen 
+      corporal<lb ed="#L" n="32" break="no"/>ab extrinseco, ergo multominus intellectus creatus potest elice 
+      <lb ed="#L" n="33"/>re vel suscipere actum intelligendi diuinam essentiam nisi dispo 
+      <lb ed="#L" n="34"/>natur per formam supernaturalem quam vocamus lumen gloriae 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e988">
+               <lb ed="#L" n="35"/>
+               <!--21--> Sed ista non videntur sufficere. Primo, quia neutra opinio 
+      <lb ed="#L" n="36"/>dat possibilitatem cognoscendi deum clare &amp; nude, sed solum 
+      <lb ed="#L" n="37"/>ostendit quod talis cognitio non est possibilis per naturam, non 
+      <lb ed="#L" n="38"/>sequitur autem, non est possibilis per naturam, ergo est possibi 
+      <lb ed="#L" n="39"/>lis per aliud additum naturae, alioquin posset dici de omni im 
+      <lb ed="#L" n="40"/>possibili etiam si contradictionem includeret quod licet non est 
+      <lb ed="#L" n="41"/>possibile per naturam, esset tamen possibile per aliquod super 
+      <lb ed="#L" n="42"/>additum supernaturale. Neutra autem opinio, nec illa quae dicit 
+      <lb ed="#L" n="43"/>quod lumen requiritur ad eliciendum actum nec illa quae dici 
+      <lb ed="#L" n="44"/>quod requiritur ad recipiendum, ipsum declarat quod illud lu 
+      <lb ed="#L" n="45"/>men supernaturale det possibilitatem videndi deum, sed solun 
+      <lb ed="#L" n="46"/>dicit quod sine aliquo supernaturali superaddito non esset poss 
+      <lb ed="#L" n="47"/>bile deum videre Secundo, quod nec illud quod vtraque opinio 
+      <lb ed="#L" n="48"/>dicit sufficienter probatur: Quod patet de opinione quae ponii 
+      <lb ed="#L" n="49"/>lumen gloriae requiri ad eliciendum actum intelligendi, quia 
+      <lb ed="#L" n="50"/>quod intellectus noster confortetur per lumen gloriae, &amp; 
+      confor<lb ed="#L" n="51" break="no"/>tatus eleuatur ad eliciendum actum intelli gendi visionis beata 
+      <lb ed="#L" n="52"/>non potest intelligi nisi dupliciter. Vno modo quod per informa 
+      <lb ed="#L" n="53"/>tionem intellectus nostri a lumine gloriae virtus eius intendatur 
+      <lb ed="#L" n="54"/>&amp; intensa eleuetur ad visionem essentiae diuinae, ad quam prius 
+      <lb ed="#L" n="55"/>attingere non poterat. Alio modo quod intellectus noster &amp; 
+      lu<lb ed="#L" n="56" break="no"/>men gloriae tanquam duo imperfecta agentia suppleant vicem 
+      <lb ed="#L" n="57"/>vnius perfecti agentis respectu talis visionis quemadmodum 
+      quan<lb ed="#L" n="58" break="no"/>do duo trahunt nauem quorum duorum neuter posset per se tra 
+      <lb ed="#L" n="59"/>here, &amp; duae candelae causant intensum lumen quod neutra pe 
+      <lb ed="#L" n="60"/>se sufficeret causare. Primum non potest dici propter duo. Primum 
+      <lb ed="#L" n="61"/>est quia intellectus noster non est forma suscipiens magis &amp; 
+      mi<lb ed="#L" n="62" break="no"/>nus. Secundum est quod omne intendens aliud per se est tale 
+      for<lb ed="#L" n="63" break="no"/>maliter vel virtualiter sicut illud quod intenditur, verbi gratia, 
+      il<lb ed="#L" n="64" break="no"/>lud quod intendit calorem est calidum formaliter vt ignis. Vel vir 
+      <lb ed="#L" n="65"/>tualiter, sicut sol intendit calorem aeris. Dico autem per se, quia 
+      <lb ed="#L" n="66"/>contrarium per accidens confortat &amp; intendit sicut calidum cir 
+      <lb ed="#L" n="67"/>cunstans non comburit de quo nihil ad praesens, lumen autem 
+      <lb ed="#L" n="68"/>gloriae non est tale formaliter qualis est intellectus noster, nec 
+      vir<lb ed="#L" n="69" break="no"/>tualiter, quia lumen gloriae non est causatiuum virtutis intellecti 
+      <lb ed="#L" n="70"/>uae, ergo lumen gloriae non potest confortare intellectum nostru 
+      <lb ed="#L" n="71"/>ipsum intendendo. Secundum etiam non potest dici, quia si 
+      inte<lb ed="#L" n="72" break="no"/>lectus creatus &amp; lumen gloriae suppleretur vicem vnius perfecti 
+      <lb ed="#L" n="73"/>agentis, tunc quodlibet eorum haberet similem virtutem respe 
+      <lb ed="#L" n="74"/>ctu actus intelligendi sicut duo trahentes nauem respectu 
+      tra<lb ed="#L" n="75" break="no"/>ctus nauis, &amp; sic lumen gloriae esset quaedam potentia 
+      intellecti<lb ed="#L" n="76" break="no"/>ua sicut intellectus noster, quod est inconueniens. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1085">
+               <lb ed="#L" n="77"/>
+               <!--22--> Et si dicatur qoe lumen corporale confortat visum, &amp; tamen 
+      <lb ed="#L" n="78"/>visus non intenditur nec remittitur per ipsum, nec etiam visus &amp; 
+      <lb ed="#L" n="79"/>lumen corporale sunt duo imperfecta agentia supplentia vicem 
+      <lb ed="#L" n="80"/>vnius agentis perfecti propter quod eodem modo vt videtur po 
+      <lb ed="#L" n="81"/>test esse circa intellectum nostrum &amp; lumen gloriae. Dicendum 
+      <lb ed="#L" n="82"/>quod non valet, quia lumen corporale non requiritur tanquam con¬ 
+      <!--00786.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>fortans visum qui secundum se potest in obiectum sibi repraesen 
+      <lb ed="#L" n="84"/>tatum, sed requiritur vt dispositio medij &amp; organi ad suscipien 
+      <lb ed="#L" n="85"/>dum speciem coloris secundum ponentes visionem fieri per spe 
+      <lb ed="#L" n="86"/>ciem, quia medium vel organum non reciperet speciem coloris 
+      <lb ed="#L" n="87"/>nisi esset actu illuminatum, quia color non est aptus natus facere 
+      <lb ed="#L" n="88"/>speciem suam in medio &amp; in organo, nisi in illuminatis, igitur 
+      <lb ed="#L" n="89"/>in visione beata non requiritur lumen gloriae, vt confortans in 
+      <lb ed="#L" n="90"/>tellectum, nec ex parte obiecti, quasi dans ei virtutem mouendi 
+      <lb ed="#L" n="91"/>intellectum, cum essentia diuina posset hoc de se sine quacunque 
+      <lb ed="#L" n="92"/>virtute creata, si ergo aliquo modo requiritur hoc erit ad dispo 
+      <lb ed="#L" n="93"/>nendum intellectum ad suscipiendum actionem obiecti, quem 
+      <lb ed="#L" n="94"/>admodum dictum est de lumine corporali respectu medij &amp; 
+      or<lb ed="#L" n="95" break="no"/>gani, quod perenet ad sequentem articulum de quo statim pare 
+      <lb ed="#L" n="96"/>bit. Secunda etiam opinio quae dicit quod lumen gloriae requiri 
+      <lb ed="#L" n="97"/>tur ad suscipiendum actum visionis beatae, quae est forma super 
+      <lb ed="#L" n="98"/>naturalis &amp; Improportionata naturae, non valet. Quum enim di 
+      <lb ed="#L" n="99"/>citur quod dullum subiectum est susceptiuum formae supernatu 
+      <lb ed="#L" n="100"/>ralis, nisi disponatur per aliquam dispositionem supernaturalem 
+      <lb ed="#L" n="101"/>non est verum, quia dispositio supernaturalis est quaedam forma 
+      <lb ed="#L" n="102"/>supernaturalis, illa ergo aut recipitur immediate in natura, aut 
+      <lb ed="#L" n="103"/>mediante alia dispositione, si immediate eadem ratione, &amp; quaeli 
+      <lb ed="#L" n="104"/>bet alia forma supernaturalis, si mediate, aut dispositio medi 
+      <lb ed="#L" n="105"/>erit naturalis aut supernaturalis, si naturalis habetur quod natur: 
+      <lb ed="#L" n="106"/>ex naturalibus est capax formae supernaturalis, si supernatura 
+      <lb ed="#L" n="107"/>lis, quaeram quomodo recipitur in subiecto aut mediante 
+      dispositio<lb ed="#L" n="108" break="no"/>ne naturali aut supernaturali, &amp; sic procedetur in infinitum, nisi sti 
+      <lb ed="#L" n="109"/>tur in hoc quod forma supernaturalis recipiatur in intellectu absq 
+      <lb ed="#L" n="110"/>dispositione supernaturali. Item contra vtramque opinionem com 
+      <lb ed="#L" n="111"/>muniter potest sic argui, quia si requiritur dispositio supernatu 
+      <lb ed="#L" n="112"/>ralis ad eligendum actum intelligendi, aut suscipiendum ipsum, 
+      ho<lb ed="#L" n="113" break="no"/>non est nisi propter excessum obiecti super potentiam, vt per ip 
+      <lb ed="#L" n="114"/>sam potentia sit proportionata obiecto, quae secundum se distat il 
+      <lb ed="#L" n="115"/>infinitum ab ipso, sed propter hoc non oportet quod requiratur di 
+      <lb ed="#L" n="116"/>spositio supernaturalis, quia ea addita adhuc tantum distat po 
+      <lb ed="#L" n="117"/>tentia ab obiecto prius sicut scilicet in infinitum, ergo propte 
+      <lb ed="#L" n="118"/>hoc non requiritur aliqua dispositio supernatur alis, per hoc pa 
+      <lb ed="#L" n="119"/>tet responsio ad duas rationes probantes vtramque opinionem 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1187">
+               <lb ed="#L" n="120"/>
+               <!--23--> Ad primam dicendum quod nulla forma seu dispositio super 
+      <lb ed="#L" n="121"/>naturalis potest eleuare intellectum ad illud ad quod non potest 
+      <lb ed="#L" n="122"/>secundum seipsum, nec ad recipiendum formam supernaturalem, 
+      <lb ed="#L" n="123"/>vel actum, oportet semper ponere dispositionem supernaturalem, 
+      <lb ed="#L" n="124"/>alioquin esset processus in infinitum. Ad secundum patet respor 
+      <lb ed="#L" n="125"/>sio ex dictis in reprobatione opinionum vbi dictum est propte 
+      <lb ed="#L" n="126"/>quid requiritur lumen in visione corporali. Et quicquid fit de 
+      f<lb ed="#L" n="127" break="no"/>cto an tale lumen gloriae sit in intellectu beato, tamen de 
+      possi<lb ed="#L" n="128" break="no"/>bili tenet frater Thomas libro quarto, distinctione quadragesi 
+      <lb ed="#L" n="129"/>manona, quod beata visio potest communicari homini existenti 
+      <lb ed="#L" n="130"/>in puris dispositionibus viae, &amp; ita non habenti lumen gloriae. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1216">
+               <lb ed="#L" n="131"/>
+               <!--24--> Tertius modus est quod ad videndum deum clare &amp; manifeste 
+      <lb ed="#L" n="132"/>non requiritur species repraesentans diuinam essentiam, vt dicit 
+      pri<lb ed="#L" n="133" break="no"/>ma opinio, nec aliquod lumen creatum eleuans intellectum, vt dicit 
+      <lb ed="#L" n="134"/>tam secunda opinio quam prima, sed sufficit quod diuina essentia 
+      <lb ed="#L" n="135"/>immediate repraesentetur intellectui creato, quod vtique non 
+      po<lb ed="#L" n="136" break="no"/>test fieri secundum ordinem naturae quam experimur, secundum 
+      <lb ed="#L" n="137"/>quem nihil intelligimus nisi ex sensatis &amp; imaginatis. Sed potes 
+      <lb ed="#L" n="138"/>hoc fieri secundum ordinem diuinae gratiae, &amp; illud potest patere 
+      <lb ed="#L" n="139"/>sic, vbicunque natura &amp; virtus potentiae se extendunt ad obiectum, 
+      <lb ed="#L" n="140"/>praesentato obiecto per se &amp; immediate, &amp; excluso impedimente 
+      <lb ed="#L" n="141"/>omni causante aenigma necessario sequitur cognitio clara &amp; ma 
+      <lb ed="#L" n="142"/>mfesta, qualis est possibilis inter talem potentiam &amp; obiectum se 
+      <lb ed="#L" n="143"/>cundum quemcunque modum, sed noster intellectus de se potest in 
+      <lb ed="#L" n="144"/>essentiam diuinam tanquam in obiectum, &amp; totum impedimentum 
+      <lb ed="#L" n="145"/>clare &amp; manifeste cognitionis diuinae essentiae est, quia cognosc 
+      <lb ed="#L" n="146"/>tur per medium inferioris gradus quod est essentia creata, quod 
+      <lb ed="#L" n="147"/>medium potest excludi vt probabitur, ergo hoc excluso, &amp; 
+      prae<lb ed="#L" n="148" break="no"/>sentata diuina essentia intellectui secundum se &amp; immediate se 
+      <lb ed="#L" n="149"/>quitur cognitio clara &amp; manifecta qualis possibilis est intelle 
+      <lb ed="#L" n="150"/>ctui nostro respectu diuinae essentiae. Maior patet, quia ex quo po 
+      <lb ed="#L" n="151"/>tentia potest in obiectum de natura sua potest ipsum cognoscere, &amp; 
+      <lb ed="#L" n="152"/>si impedimentum causans obscuram cognitionem excludatur 
+      <lb ed="#L" n="153"/>consequens est, quod potentia cognoscat obiectum clare quantum est 
+      <lb ed="#L" n="154"/>possibile. Minor probatur, quia intellectus noster de se potest co 
+      <lb ed="#L" n="155"/>gnoscere essentiam diuinam. Nam &amp; philosophi probauerunt 
+      <lb ed="#L" n="156"/>deum esse quandam naturam subsistentem intellectualem, &amp; habentem 
+      o<lb ed="#L" n="157" break="no"/>mnem perfectionem, quod autem huiusmodi cognitio esset nobis obscu 
+      <lb ed="#L" n="158"/>ra &amp; eis causa est, quia naturali ordine non cognouerunt, nec nos 
+      <lb ed="#L" n="159"/>cognoscimus deum nisi ex creaturis, quae quum sunt inferiori 
+      <lb ed="#L" n="160"/>gradus, non repraesentant ipsum clare &amp; manifeste, hoc autem im 
+      <lb ed="#L" n="161"/>pedimentum potest amoueri virtute diuina, quae potest omne quod 
+      <lb ed="#L" n="162"/>non implicat contradictionem, quod autem intellectus noster qui 
+      <lb ed="#L" n="163"/>secundum ordinem naturae non consurgit in cognitionem dei 
+      ni<lb ed="#L" n="164" break="no"/>si ex creaturis posset ipsum habere praesentem secundum se, &amp; sic 
+      <!--00787.xml-->
+      <pb ed="#L" n="357-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tradictionem implicat, quia in actionibus naturalibus videmus 
+      <lb ed="#L" n="2"/>quod Deus potest modum agendi immutare. Hoc etiam 
+      attesta<lb ed="#L" n="3" break="no"/>tur omnis opinio circa materiam istam, quia omnes ponunt? 
+      <lb ed="#L" n="4"/>Deus in visione beata immutabit illum ordinem quo nunc cogno 
+      <lb ed="#L" n="5"/>scimus ipsum ex creaturis, &amp; repraesentabitur intellectui nostro 
+      <lb ed="#L" n="6"/>nullo alio praecognito: &amp; haec fuit minor, sequitur ergo conclu 
+      <lb ed="#L" n="7"/>lio. Et hanc viam necessario habent tenere illi qui dicunt quod 
+      <lb ed="#L" n="8"/>Deus potest visionem immediatam suae essentiae communicare 
+      <lb ed="#L" n="9"/>homini existenti in puris dispositionibus viae, quia isti excludumi 
+      <lb ed="#L" n="10"/>speciem repraesentantem, &amp; lumen gloriae a tali visione. Ex quo 
+      <lb ed="#L" n="11"/>potest sic argui: quod essentia diuina sit praesens intellectui 
+      no<lb ed="#L" n="12" break="no"/>stro in ratione obiecti quae prius non erat ei sic praesens, 
+      opor<lb ed="#L" n="13" break="no"/>tet quod hoc sit vel ex mutatione sui, vel ex mutatione intellectus, 
+      <lb ed="#L" n="14"/>non ex mutatione sui, quia ipsa est omnino immutabilis, nec e 
+      <lb ed="#L" n="15"/>mutatione intellectus per aliquod receptum quod est species, vel 
+      <lb ed="#L" n="16"/>lumen, quia speciem negant, lumen autem ponitur vt dispositio 
+      <lb ed="#L" n="17"/>patriae, ipsi autem dicunt quod talis potest communicari 
+      intell<lb ed="#L" n="18" break="no"/>ctui habenti solas dispositiones viae, oportet ergo quod per hoc solum 
+      <lb ed="#L" n="19"/>mutetur intellectus, quia mutatur ordo naturalis quem habet in 
+      <lb ed="#L" n="20"/>Intelligendo, secundum quem non cognoscit Deum ex creaturis 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1344">
+               <lb ed="#L" n="21"/>
+               <!--25--> Insurgit autem hic duplex dubitatio. Vna de conclusione 
+      <lb ed="#L" n="22"/>alia de ratione probante conclusionem. Contra conclusionem 
+      <lb ed="#L" n="23"/>enim potest sic argui, quia vnus intellectus humanus est beatios 
+      <lb ed="#L" n="24"/>alio: etiam intellectus humanus potest esse aeque beatus sicut 
+      in<lb ed="#L" n="25" break="no"/>tellectus angelicus, sed illud non potest esse nili ponatur in 
+      intel<lb ed="#L" n="26" break="no"/>lectu humano lumen gloriae, ergo &amp;c. Maior patet per illud quod 
+      <lb ed="#L" n="27"/>dicitur Ioannis decimoquarto: In domo patris mei mansiones 
+      <lb ed="#L" n="28"/>multae sunt, per quod innuitur quod diuersi homines habebuni 
+      <lb ed="#L" n="29"/>diuersos gradus beatitudinis. &amp; Matthaei vigesimosecundo 
+      dici<lb ed="#L" n="30" break="no"/>tur quod erunt sicut angeli Dei in caelo. in quo promittitur 
+      ho<lb ed="#L" n="31" break="no"/>minibus aequalitas beatitudinis cum angelis: igitur secundum d 
+      <lb ed="#L" n="32"/>ctum scripturae, vnus homo potest esse beatior altero, &amp; etiam 
+      <lb ed="#L" n="33"/>aeque beatus cum angelo, &amp; beatior quibusdam angelis: quia se 
+      <lb ed="#L" n="34"/>cundum beatum Gregorium, ad singulos ordines angelorum sunt 
+      <lb ed="#L" n="35"/>aliqui de hominibus assumendi, &amp; sic patet maior. Minor proba 
+      <lb ed="#L" n="36"/>tur: quia si non exigitur lumen gloriae ad videndum Deum, tune 
+      <lb ed="#L" n="37"/>inter homines non poterit esse diuersus gradus visionis, nec ex 
+      <lb ed="#L" n="38"/>parte intellectus, quia inter intellectus humanos non potest esse 
+      <lb ed="#L" n="39"/>gradus maioris &amp; minoris perfectionis, nec ex parte essentiae di 
+      <lb ed="#L" n="40"/>uinae, quia ipsa eodem modo &amp; aeque immediate repraesentatu 
+      <lb ed="#L" n="41"/>cuilibet intellectui beato, nec ex parte medij, quia nullum medii 
+      <lb ed="#L" n="42"/>ponitur secundum hanc opinionem, ergo non poterut esse 
+      diue<lb ed="#L" n="43" break="no"/>si gradus in beatitudine hominum. Item nec homo poterit 
+      per<lb ed="#L" n="44" break="no"/>tingere ad beatitudinem angelorum: quia intellectus angeli exce 
+      <lb ed="#L" n="45"/>dit secundum naturam intellectum hominis. Ex quo ergo non 
+      <lb ed="#L" n="46"/>ponitur aliquod medium eleuans intellectum nostrum, 
+      conse<lb ed="#L" n="47" break="no"/>quens est quod beatitudo intellectus nostri non poterit aequari 
+      <lb ed="#L" n="48"/>beatitudini angelorum, cuius contrarium scriptura dicit. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1409">
+               <lb ed="#L" n="49"/>
+               <!--26--> Item contra rationem probantem conclusionem sic potess 
+      <lb ed="#L" n="50"/>obiici: ad hoc quod potentia cognoscat obiectum clare &amp; 
+      nudi<lb ed="#L" n="51" break="no"/>non solum requiritur praesentia obiecti, &amp; exclusio impedimen 
+      <lb ed="#L" n="52"/>ti (scilicet medij causantis confusam cognitionem) sed cum hoc 
+      <lb ed="#L" n="53"/>requiritur proportio obiecti ad potentia, sed potentia intellecti 
+      <lb ed="#L" n="54"/>ua creata nullam proportionem habet cum essentia diuina a qua 
+      <lb ed="#L" n="55"/>distat in infinitum, ergo alijs exclusis, &amp; hoc solo remanente num 
+      <lb ed="#L" n="56"/>quam poterit obiectum cognosci clare &amp; manifeste. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1431">
+               <lb ed="#L" n="57"/>
+               <!--27--> Ad primum istorum potest responderi dupliciter. Primo 
+      <lb ed="#L" n="58"/>quod sicut aliquibus quandoque visum est quantum ad visionem 
+      <lb ed="#L" n="59"/>diuinae essentiae, &amp; eorum quae in ipsa naturaliter videntur, nor 
+      <lb ed="#L" n="60"/>erit differentia inter homines beatos, imo sic omnes accipieni 
+      <lb ed="#L" n="61"/>vnum denarium, &amp; erunt aequales in hoc primi nouissimis 
+      <lb ed="#L" n="62"/>&amp; nouissimi primis, quantumcunque portauerint pondus diei 
+      <lb ed="#L" n="63"/>&amp; aestus: sed differentia solum est quantum ad illa quae reuelat 
+      <lb ed="#L" n="64"/>Deus voluntarie, quorum cognitio non pertinet ad beatitudi 
+      <lb ed="#L" n="65"/>nem essentialem, &amp; etiam quantum ad dotes corporis, &amp; 
+      quos<lb ed="#L" n="66" break="no"/>dam gradus dignitatis, in quibus quidam excedunt alios, &amp; bea 
+      <lb ed="#L" n="67"/>ta virgo &amp; Christus homo omnes angelos, &amp; per idem patet? 
+      <lb ed="#L" n="68"/>homo potest venire ad gradus angelorum, vel excedere aliquos 
+      <lb ed="#L" n="69"/>quia ordines angelorum non distinguuntur penes visionem 
+      diui<lb ed="#L" n="70" break="no"/>nae essentiae, sed penes modum recipiendi diuersas 
+      illuminatio<lb ed="#L" n="71" break="no"/>nes, in quibus homines possunt aequari angelis, vel eos exceder 
+      <lb ed="#L" n="72"/>pro voluntate Dei reuelantis. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1471">
+               <lb ed="#L" n="73"/>
+               <!--28.--> Vel potest dici aliter &amp; melius ac securius secundum 
+      opi<lb ed="#L" n="74" break="no"/>nionem illorum qui dicunt, quod intelligere est quaedam forina 
+      <lb ed="#L" n="75"/>recepta in intellectu, quae nata est recipere magis &amp; minus: posi 
+      <lb ed="#L" n="76"/>to enim quod non sit differentia ex parte intellectus recipientis 
+      <lb ed="#L" n="77"/>nec ex parte obiecti praesentati, nihilominus tamen Deus potesi 
+      <lb ed="#L" n="78"/>perfectiorem actum intelligendi influere vni quam alteri, &amp; he 
+      <lb ed="#L" n="79"/>mini quam angelo, &amp; sic poterit bonus homo esse beatior altero 
+      <lb ed="#L" n="80"/>&amp; aeque beatus cum angelo, vel beatior ipso, secundum 
+      diuersi<lb ed="#L" n="81" break="no"/>tatem perfectionis actus intelligendi impressi huic vel illi. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1495">
+               <lb ed="#L" n="82"/>
+               <!--29--> Ad secundum dicendum quod nihil cadens sub formali ra¬ 
+      <!--00787.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>tione obiecti excedit proportionem potentiae per se, licet 
+      pos<lb ed="#L" n="84" break="no"/>sit excedere per accidens: sicut claritas solis in se excedit 
+      vi<lb ed="#L" n="85" break="no"/>sum noctuae, propter hoc quod organum visus in noctua 
+      laedi<lb ed="#L" n="86" break="no"/>tur, &amp; dissoluitur a claritate solis in rota sua, &amp; si hoc non esset, 
+      <lb ed="#L" n="87"/>visus noctuae posset clare &amp; manifeste videre solem, quod satis 
+      <lb ed="#L" n="88"/>innuit Philosophus in quodam simili, quum dicit, quod si senex 
+      <lb ed="#L" n="89"/>haberet oculum iuuenis, videret vtique sicut &amp; iuuenis: igitur 
+      <lb ed="#L" n="90"/>excessus obiecti supra potentiam non potest esse causa 
+      cognitio<lb ed="#L" n="91" break="no"/>nis confusae &amp; obscurae, nisi per accidens, vel ratione organi, vt 
+      <lb ed="#L" n="92"/>in potentijs sensitiuis, vel ratione modi cognoscendi, vt in poten 
+      <lb ed="#L" n="93"/>tia intellectiua, quae non cognoscit naturaliter Deum, vel 
+      sub<lb ed="#L" n="94" break="no"/>stantias separatas, nisi per creaturas corporales, quae sunt 
+      infe<lb ed="#L" n="95" break="no"/>rioris gradus, nec perfecte possunt repraesentare eum: omnis enim 
+      <lb ed="#L" n="96"/>potentia habet proportionem cum omni eo quod cadit sub 
+      ra<lb ed="#L" n="97" break="no"/>tione sui subiecti, Deus autem cadit sub ratione entis, quae est 
+      for<lb ed="#L" n="98" break="no"/>malis ratio obiecti intellectus. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1541">
+               <lb ed="#L" n="99"/>
+               <!--30--> AD RATIONES principales dicendum. Ad primam 
+      <lb ed="#L" n="100"/>concedo maiorem, &amp; nego minorem. Et ad probationem quum 
+      <lb ed="#L" n="101"/>dicitur, sicut se habent sensibilia ad sensum, &amp;c. adhuc 
+      proces<lb ed="#L" n="102" break="no"/>sus totus concedatur, quia non concluditur nisi quod intellectu: 
+      <lb ed="#L" n="103"/>noster non potest intelligere nisi quod repraesentatur in 
+      phantas<lb ed="#L" n="104" break="no"/>matibus, vel deducitur ex praesentatis. Constat autem quod 
+      <lb ed="#L" n="105"/>Deum cognoscimus ex repraesentatis a phantasmatibus, quia ex re 
+      <lb ed="#L" n="106"/>bus creatis consurgimus in cognitionem Del. Si vero aliquis ve 
+      <lb ed="#L" n="107"/>lit ex hoc concludere quod non possit alio modo cognosci quam 
+      <lb ed="#L" n="108"/>illo modo quo cognoscitur ex creaturis, in arguendo esset fallaci: 
+      <lb ed="#L" n="109"/>figurae dictionis, mutando quid in qualiter, &amp; in eodem sensu al 
+      <lb ed="#L" n="110"/>sumeretur falsum contra conclusionem, quia sensus potest 
+      co<lb ed="#L" n="111" break="no"/>gnoscere sensibile absque specie recepta a sensibili, si talis species 
+      <lb ed="#L" n="112"/>fieret in ipso virtute diuina: &amp; eodem modo potest intellectus 
+      no<lb ed="#L" n="113" break="no"/>ster diuina virtute cognoscere Deum sibi repraesentatum 
+      alie<lb ed="#L" n="114" break="no"/>modo quam per creaturas corporales, quamuis Deus non possit 
+      <lb ed="#L" n="115"/>facere quod potentia feratur in aliquid quod non cadit sub 
+      ra<lb ed="#L" n="116" break="no"/>tione sui obiecti, sicut quod visus cognoscat sonum, quia hoc 
+      <lb ed="#L" n="117"/>implicat contradictionem, potest tamen inter potentiam &amp; 
+      obi<lb ed="#L" n="118" break="no"/>ctum mutare modum reprae sentandi &amp; cognoscendi. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1589">
+               <lb ed="#L" n="119"/>
+               <!--31--> Ad secundum dicendum quod essentia diuina non distat tan 
+      <lb ed="#L" n="120"/>tum ab intellectu creato quantum ad proportionem 
+      cognoscen<lb ed="#L" n="121" break="no"/>tis &amp; cognoscibilis, quantum distat subllantia separata a sensu, 
+      <lb ed="#L" n="122"/>quia essentia diuina cadit sub ratione formali obiecti intellectu: 
+      <lb ed="#L" n="123"/>quae est ens secundum communem rationem entis, substanta 
+      <lb ed="#L" n="124"/>vero separata non-cadit sub ratione formali¬obiecti intelle 
+      <lb ed="#L" n="125"/>ctus, quae est ens secundum communem ationem entis, 
+      sub<lb ed="#L" n="126" break="no"/>stantia vero separata non cadit sub ratione formali obiecti 
+      <lb ed="#L" n="127"/>sensus, quae est qualitas sensibilis, quae non potest esse nisi in 
+      <lb ed="#L" n="128"/>corpore. Per illud etiam argumentum, si valeret, posset ae 
+      qua<lb ed="#L" n="129" break="no"/>liter probari quod Deus non potest cognosci ab intellectu 
+      no<lb ed="#L" n="130" break="no"/>stro cognitione confusa, sicut probatur quod non potest 
+      co<lb ed="#L" n="131" break="no"/>gnosci cognitione clara &amp; manifesta, quia cognitio sensus non 
+      <lb ed="#L" n="132"/>se extendit ad cognitionem substantiarum separatarum 
+      quo<lb ed="#L" n="133" break="no"/>quomodo: &amp; causa est, quia illae non cadunt sub formali 
+      ratio<lb ed="#L" n="134" break="no"/>ne obiecti sensus. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1628">
+               <lb ed="#L" n="135"/>
+               <!--32--> Ad tertium dicendum est quod infinitum priuatiue 
+      secun<lb ed="#L" n="136" break="no"/>dum quod huiusmodi est ignotum, si cognoscatur eo modo 
+      qui<lb ed="#L" n="137" break="no"/>est infinitum, quia infinitum priuatiue secundum appositionem 
+      <lb ed="#L" n="138"/>&amp; diuisionem (vt determinatur libro tertio Physicorum) 
+      nun<lb ed="#L" n="139" break="no"/>quam est totum acceptum, sed semper restat aliquid 
+      accipien<lb ed="#L" n="140" break="no"/>dum: &amp; si eo modo cognoscatur, semper restat aliquid cogno 
+      <lb ed="#L" n="141"/>scendum, et quantum ad illud nondum est cognitum: &amp; 
+      si<lb ed="#L" n="142" break="no"/>cut quod acceptum est semper est finitum, ratione vero eius 
+      <lb ed="#L" n="143"/>quod accipiendum est dicitur infinitum, sic quod cognitum est, 
+      <lb ed="#L" n="144"/>est infinitum, quod autem restat cognoscendum est infinitum 
+      <lb ed="#L" n="145"/>sed infinitum negatiue, cuiusmodi est Deus, qui non est 
+      infini<lb ed="#L" n="146" break="no"/>tus, quia ei desit aliquid quod in posterum sit ab eo 
+      accipien<lb ed="#L" n="147" break="no"/>dum, sed quia continet omnem perfectionem, vltra quam nihil 
+      <lb ed="#L" n="148"/>est possibile accipere, tale secundum se est maxime cognoscibile 
+      <lb ed="#L" n="149"/>&amp; si non sit maxime cognitum, hoc est ex defectu potentiae qvel 
+      <lb ed="#L" n="150"/>modi cognoscendi. 
+      </p>
+            <p xml:id="jsnvu6-e292552-d1e1667">
+               <lb ed="#L" n="151"/>
+               <!--33--> Ad quartum dicendum est quod illa auctoritas triplicite 
+      <lb ed="#L" n="152"/>potest intelligi, sicut per beatum Augustinum patet in 
+      libr<lb ed="#L" n="153" break="no"/>de videndo Deum. Primo vt excludatus visio corporalis 
+      <lb ed="#L" n="154"/>quia oculo corporali Deum nemo vidit vnquam, nec visurus 
+      <lb ed="#L" n="155"/>est. Secundo vt excludatur visio intellectualis naturalis a 
+      no<lb ed="#L" n="156" break="no"/>bis dum viuimus in isto mortali corpore: quia nullus vnquam 
+      <lb ed="#L" n="157"/>ex naturalibus potuit attingere ad claram &amp; manifestam 
+      visio<lb ed="#L" n="158" break="no"/>nem Dei per essentiam. Tertio modo vt excludatur visio 
+      com<lb ed="#L" n="159" break="no"/>prehensionis ab omni intellectu creato: &amp; sic exponit Ioannes 
+      <lb ed="#L" n="160"/>Chrysostomus dicens: notitiam huius (dicit eu angelista) 
+      certissi<lb ed="#L" n="161" break="no"/>mam considerationem &amp; comprehensionem tantam quantam 
+      <lb ed="#L" n="162"/>habet pater de filio: per hoc tamen non excluditun quin beat 
+      <lb ed="#L" n="163"/>tam homines quam angeli videant Deum clare, quamuis non 
+      <lb ed="#L" n="164"/>comprehensiue.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

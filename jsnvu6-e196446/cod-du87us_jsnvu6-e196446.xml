@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="239-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e196446"><!-- l3d35q1 -->
+            <head xml:id="jsnvu6-e196446-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e196446-Hd1e103" type="question-title">
+      Utrum diuisio vitae per actiuam et 
+      contemplatiuam sit sufficiens
+    </head>
+            <p xml:id="jsnvu6-e196446-d1e106">
+               <lb ed="#L" n="34"/>QVAISTIO FRINA. 
+      <lb ed="#L" n="35"/>Vtrum diuisio vitae per actiuam &amp; 
+      contem<lb ed="#L" n="36" break="no"/>platiuam sit sufficiens. 
+      <lb ed="#L" n="37"/>Thom. 2. 2. q. 179. 
+    </p>
+            <p xml:id="jsnvu6-e196446-d1e117">
+               <lb ed="#L" n="38"/>QVIA donorum de quibus in hac distin. agitur 
+      <lb ed="#L" n="39"/>quaedam perficiunt hominem in vita actiua, 
+      quae<lb ed="#L" n="40" break="no"/>dam vero in vita contemplatiua, ideo consueui 
+      <lb ed="#L" n="41"/>hic quaeri de vtraque vita. Primo quaeritur de 
+      di<lb ed="#L" n="42" break="no"/>Quisione vitae in actiuam &amp; contemplatiuam, vtri 
+      <lb ed="#L" n="43"/>sit bona. Et secundo quaeritur de comparatione vnius ad alteram 
+      <lb ed="#L" n="44"/>Ad primum sic proceditur. Et primo videtur quod illa diuisio non 
+      <lb ed="#L" n="45"/>sit bona, quia prius non conuenienter diuiditur per differentias 
+      <lb ed="#L" n="46"/>posterioris, nec magis commune per differentias minus 
+      com<lb ed="#L" n="47" break="no"/>munis, sed actiuum &amp; contemplatiuum seu speculatiuum &amp; 
+      pra<lb ed="#L" n="48" break="no"/>cticum sunt differentiae pertinentes ad intellectum &amp; 
+      intelli<lb ed="#L" n="49" break="no"/>gere, vt patet ex tertio de anima: viuere autem est prius &amp; 
+      com<lb ed="#L" n="50" break="no"/>munius quam intelligere, ergo vita seu viuere non conueniente 
+      <lb ed="#L" n="51"/>diuiditur in actiuam &amp; contemplatiuam 
+      </p>
+            <p xml:id="jsnvu6-e196446-d1e150">
+               <lb ed="#L" n="52"/>
+               <!--2--> Item Philosoph. I. Ethic. dicit quod tres sunt vitae maxime 
+      ex<lb ed="#L" n="53" break="no"/>cellentes, scilicet voluptuosa, ciuilis, quae videtur esse eadem 
+      <lb ed="#L" n="54"/>cum actiua &amp; contemplatiua: inconueniens est ergo diuisio illa, 
+      <lb ed="#L" n="55"/>quae omittit primum membrum. 
+</p>
+            <p xml:id="jsnvu6-e196446-d1e164">
+               <lb ed="#L" n="56"/>Item August. de cuit dei 19. ponit tertium membrum quaedam est 
+      <lb ed="#L" n="57"/>compositum ex ambobus, &amp; sic est idem quod prius. 
+    </p>
+            <p xml:id="jsnvu6-e196446-d1e171">
+               <lb ed="#L" n="58"/>IN CONTRARIVM arguitur, per illud quod dici 
+      <lb ed="#L" n="59"/>Greg. super Ezech. qui dicit, duae sunt vitae in quibus nos 
+      omni<lb ed="#L" n="60" break="no"/>potens Deus per sanctum eloquium erudit, actiua, scilicet &amp; co 
+      <lb ed="#L" n="61"/>templatiua, &amp; Beda dicit in Homel. de assumptione beatae 
+      vir<lb ed="#L" n="62" break="no"/>ginis, quod duae sorores, scilicet Martha &amp; Maria significant duas 
+      <lb ed="#L" n="63"/>vitas quibus in praesenti exercetur sancta ecclesia, Marcha 
+      qui<lb ed="#L" n="64" break="no"/>dem actiuam, Maria vero contemplatiuam significat. 
+    </p>
+            <p xml:id="jsnvu6-e196446-d1e189">
+               <lb ed="#L" n="65"/>RESPONSIO. Circa quaest. istam videnda sunt duo 
+      <lb ed="#L" n="66"/>Primum est qualiter &amp; qua ratione vita diuiditur in actiuam &amp; con 
+      <lb ed="#L" n="67"/>templatiuam. Secundum est an illa diuisio sit sufficiens. 
+      </p>
+            <p xml:id="jsnvu6-e196446-d1e198">
+               <lb ed="#L" n="68"/>
+               <!--6.--> Quantum ad primum sciendum est quod vita absolute sumpta 
+      <lb ed="#L" n="69"/>non diuiditur per actiuam &amp; contemplatiuam, sed solum vita 
+      hu<lb ed="#L" n="70" break="no"/>mana, nec omnis illa, sed solum virtuosa. Ad cuius euidentiam 
+      <lb ed="#L" n="71"/>sciendum est quod licet non viuentia distinguantur a viuentibus 
+      <lb ed="#L" n="72"/>motu &amp; cognitione: perfectius tamen &amp; magis proprie 
+      distin<lb ed="#L" n="73" break="no"/>guuntur ab eis per cognitionem quam per motum. Cognitio au 
+      <lb ed="#L" n="74"/>tem est duplex in genere, scilicet sensitiua &amp; intellectiua, &amp; 
+      se<lb ed="#L" n="75" break="no"/>cundum vtramque dicuntur aliqua viuere, vnumquodque tamen 
+      <lb ed="#L" n="76"/>magis proprie secundum cognitionem quae est in eo suprema. Bruta 
+      <lb ed="#L" n="77"/>quidem secundum cognitionem sensitiuam: homines vero secundum 
+      <lb ed="#L" n="78"/>intellectiuam: vita enim voluptuosa, quae est secundum parten 
+      <lb ed="#L" n="79"/>sensitiuam, quae non est propiia homini, sed communis pecoribus, 
+      <lb ed="#L" n="80"/>non est proprie vita humana, sed bestialis, vnde dicitur vita pe¬ 
+      <!--00551.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>cudum I. Ethic. Sola ergo vita, quae est secundum partem 
+      intelle<lb ed="#L" n="82" break="no"/>ctiuam, quae est suprema in homine dicitur vita humana. Et 
+      qui<lb ed="#L" n="83" break="no"/>intellectus diuiditur in speculatiuum &amp; practicum non sicut in 
+      di<lb ed="#L" n="84" break="no"/>stinctas potentias, sed sicut in distincta officia per distinctos 
+      a<lb ed="#L" n="85" break="no"/>ctus &amp; distincta obiecta: ideo vita humana distinguitur in spe 
+      <lb ed="#L" n="86"/>culatiuam &amp; practicam seu actiuam per hunc modum. Vita enim 
+      <lb ed="#L" n="87"/>vniuscuiusque hominis dicitur consistere in eo, in quo maxime die 
+      <lb ed="#L" n="88"/>lectatur, &amp; cui maxime intendit, &amp; in illo maxime vult conuiue 
+      <lb ed="#L" n="89"/>re quisque amico, vt dicitur 9. Ethic. Et quia quidam maximi 
+      <lb ed="#L" n="90"/>intendunt contemplationi veritatis, quae proprie pertinet ad in 
+      <lb ed="#L" n="91"/>tellectum speculatiuum, &amp; in hoc maxime delectantur. Alij 
+      ver<lb ed="#L" n="92" break="no"/>maxime intendunt passionibus moderandis, &amp; actionibus regu 
+      <lb ed="#L" n="93"/>landis: ideo primi dicuntur viuere secundum vitam contemplati 
+      <lb ed="#L" n="94"/>uam, alij vero secundum actiuam: vita ergo contemplatiua consi 
+      <lb ed="#L" n="95"/>stit essentialiter in contemplatione veritatis, quae pertinet ad in 
+      <lb ed="#L" n="96"/>tellectum, sed accidentaliter, &amp; consequenter includit actum 
+      vo<lb ed="#L" n="97" break="no"/>luntatis. Intentio enim voluntatis mouet ad exercendam talem 
+      <lb ed="#L" n="98"/>operationem, scilicet contemplationem, &amp; hoc multipliciter: quan 
+      <lb ed="#L" n="99"/>doque quidem propter amorem solius cognitionis: haec fuit vita 
+      <lb ed="#L" n="100"/>contemplatiua Philosophorum, quandoque vero propter amorem no 
+      <lb ed="#L" n="101"/>solum cognitionis, sed magis rei cognitae: &amp; haec est vel esse de 
+      <lb ed="#L" n="102"/>ber vita contemplatiua theologorum, ad quam mouet charita 
+      <lb ed="#L" n="103"/>Dei, inquantum aliquis ex dilectione Dei inardescit in eius pul 
+      <lb ed="#L" n="104"/>chritudinem contemplandam. Et quia vnusquisque delectatur, quar 
+      <lb ed="#L" n="105"/>do adeptus est illud quod amat: ideo talis contemplatio 
+      termi<lb ed="#L" n="106" break="no"/>natur ad delectationem, &amp; sic contemplatio ex amore incipit &amp; 
+      <lb ed="#L" n="107"/>ad delectationem terminatur: &amp; sic patet primum.
+</p>
+            <p xml:id="jsnvu6-e196446-d1e294">
+               <lb ed="#L" n="108"/>Quantum ad secundum sciendum est quod viuere siue accipiatu 
+      <lb ed="#L" n="109"/>pro esse viuentium, siue pro operatione vitae semper est in viuem. 
+      <lb ed="#L" n="110"/>te: propter quod vita tam contemplatiua quam actiua attenditur 
+      <lb ed="#L" n="111"/>secundum ea quae bene disponunt hominem in seipso, &amp; hoc sati 
+      <lb ed="#L" n="112"/>notum est de vita contemplatiua. De actiua etiam quatenus inten 
+      <lb ed="#L" n="113"/>dit passionibus moderandis idem est: quatenus autem intendi 
+      <lb ed="#L" n="114"/>actionibus regulandis non est ita manifestum, quia quaedam actione 
+      <lb ed="#L" n="115"/>sunt ad alterum, vt actiones iustitiae, quae est ad alterum. Sed istud 
+      <lb ed="#L" n="116"/>non obstat, quia licet iustitia particulariter bene disponat 
+      ho<lb ed="#L" n="117" break="no"/>minem de his quae sunt ad alteru, non tamen bene disponit alte 
+      <lb ed="#L" n="118"/>rum, nec ad hoc ordinatur, sed solum ordinatur ad bene 
+      dispo<lb ed="#L" n="119" break="no"/>nendum illum in quo est: iustus enim bene viuit, &amp; iuste in 
+      op<lb ed="#L" n="120" break="no"/>rationibus quae sunt ad alterum, etiam male &amp; iniuste viuentem. 
+      Pa<lb ed="#L" n="121" break="no"/>tet ergo quod vita tam actiua quam contemplatiua attenditur secun 
+      <lb ed="#L" n="122"/>dum ea quae bene disponunt hominem in seipso, nec ordinantur 
+      <lb ed="#L" n="123"/>ad bene disponendum alterum: &amp; haec fuit contemplatiua Maria 
+      <lb ed="#L" n="124"/>&amp; actiua Marthae. Si ergo aliquis intendat bene disponere 
+      alte<lb ed="#L" n="125" break="no"/>rum, seu alios in passionibus moderandis, &amp; operationibus 
+      re<lb ed="#L" n="126" break="no"/>gulandis, vel contemplatione in animo alterius aedificandi, 
+      ho<lb ed="#L" n="127" break="no"/>non pertinet ad vitam contemplatiuam, vel actiuam, prout sunt 
+      <lb ed="#L" n="128"/>superius distinctae, quia per hoc non viuit in seipso, sed 
+      inten<lb ed="#L" n="129" break="no"/>dit alios viuificare seu facere viuentes secundum vitam virtuosam 
+      <lb ed="#L" n="130"/>actiuam vel contemplariuam, Si tamen vocetur vita, vel status, 
+      <lb ed="#L" n="131"/>vel modus viuendi, sicut &amp; vere vocatur pro eo quod ordinantu 
+      <lb ed="#L" n="132"/>ad regendum vel docendum alios virtuosos viuere, sic facit ter 
+      <lb ed="#L" n="133"/>tium membrum cum supradictis. Et si vocetur aliquo 
+      praedi<lb ed="#L" n="134" break="no"/>ctorum nominum magis debet dici actiua quam 
+      contemplati<lb ed="#L" n="135" break="no"/>ua, sed hoc est aequinoce cum vita actiua prius exposita, quia illi 
+      <lb ed="#L" n="136"/>ordinatur, vt homo in seipso bonus fiat, haec autem ordinatur ad 
+      <lb ed="#L" n="137"/>hoc vt homo in seipse factus bonus bonitatem in alios 
+      diffun<lb ed="#L" n="138" break="no"/>dat verbo pariter &amp; exemplo. 
+    </p>
+            <p xml:id="jsnvu6-e196446-d1e364">
+               <lb ed="#L" n="139"/>Ad primum argu. patet responsio quod peractiuum &amp; contem 
+      <lb ed="#L" n="140"/>platiuum non diuiditur vita absolute, sed solum vita humana 
+      <lb ed="#L" n="141"/>virtuosa, per quam aliquis in seipso bene disponitur. 
+      </p>
+            <p xml:id="jsnvu6-e196446-d1e374">
+               <lb ed="#L" n="142"/>
+               <!--9--> Per idem patet ad secundum, quia vita voluptuosa non es 
+      <lb ed="#L" n="143"/>etiam virtuosa, &amp; ideo non cadit sub praedicta diuisione. 
+      </p>
+            <p xml:id="jsnvu6-e196446-d1e383">
+               <lb ed="#L" n="144"/>
+               <!--10.--> Ad tertium dicendum quod beatus August. forte intendit 
+      po<lb ed="#L" n="145" break="no"/>nere tertium modum viuendi, prout exposuimus, qui 
+      perti<lb ed="#L" n="146" break="no"/>net ad rectores &amp; pastores aliorum qui debent non solum in ) 
+      <lb ed="#L" n="147"/>seipsis esse perfecti in vita actiua &amp; contemplatiua, sed debent 
+      <lb ed="#L" n="148"/>etiam alios perficere. 
+</p>
+            <p xml:id="jsnvu6-e196446-d1e399">
+               <lb ed="#L" n="149"/>
+               <!--11--> Auctoritates autem Bedae &amp; Greg. loquuntur de vita actiua 
+      <lb ed="#L" n="150"/>&amp; contemplatiua, per quas homo perficitur in seipso solum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

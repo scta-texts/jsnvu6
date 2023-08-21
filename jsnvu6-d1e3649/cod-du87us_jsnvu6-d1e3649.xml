@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="155-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3649"><!-- l2d29q2 -->
+            <head xml:id="jsnvu6-d1e3649-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e3649-Hd1e103" type="question-title">Utrum habuisset omnes virtutes</head>
+            <p xml:id="jsnvu6-d1e3649-d1e106">
+               <lb ed="#L" n="34"/>QVALSTIO TICVVRA. 
+      <lb ed="#L" n="35"/>Vtrum in statu innocentiae homo 
+      ha<lb ed="#L" n="36" break="no"/>buisset omnes virtutes. 
+      <lb ed="#L" n="37"/>Thom. 1. 2. 4. 109. ar. 3.
+    </p>
+            <p xml:id="jsnvu6-d1e3649-d1e117">
+               <lb ed="#L" n="38"/>POSTEA quaeritur, vtrum in statu innocentiae 
+      ho<lb ed="#L" n="39" break="no"/>mo habuisset omnes virtutes. Et videtur quod sic, 
+      <lb ed="#L" n="40"/>quia virtus est dispositio perfecti ad optimum vt 
+      <lb ed="#L" n="41"/>dicitur 7. physicorum, sed in statu innocentiae 
+      ho<lb ed="#L" n="42" break="no"/>mo fuisset maxime perfectus, ergo habui sset 
+      om<lb ed="#L" n="43" break="no"/>nes virtutes. 
+      </p>
+            <p xml:id="jsnvu6-d1e3649-d1e133">
+               <lb ed="#L" n="44"/>
+               <!--2--> Item nullus ex culpa sua debet reportare commodum; si 
+      er<lb ed="#L" n="45" break="no"/>go in statu innocentiae caruisset virtutibus cum post peccatum 
+      <lb ed="#L" n="46"/>perficiatur per eas, tunc homo ex peccato commodum 
+      repor<lb ed="#L" n="47" break="no"/>tasset, quod est inconueniens. 
+      </p>
+            <p xml:id="jsnvu6-d1e3649-d1e147">
+               <lb ed="#L" n="48"/>
+               <!--3--> IN CONTRARIVM est quia quaedam virtutes 
+      <lb ed="#L" n="49"/>habent pro materia passiones respicientes malum; vt 
+      forti<lb ed="#L" n="50" break="no"/>tudo quae est circa timores, sed huiusmodi passiones non fuissent 
+      <lb ed="#L" n="51"/>in statu innocentiae ergo nec tales virtutes. 
+      </p>
+            <p xml:id="jsnvu6-d1e3649-d1e160">
+               <lb ed="#L" n="52"/>
+               <!--4.--> RESPONSIO. virtutum quaedam sunt theologicae 
+      <lb ed="#L" n="53"/>quaedam intellectuales, quaedam vero morales. De theologicis 
+      <lb ed="#L" n="54"/>dicendum quod fuissent in statu innocentiae, cuius probatio ess 
+      <lb ed="#L" n="55"/>quia respectu actus in quem potentia non potest per se, vel nor 
+      <lb ed="#L" n="56"/>prompte &amp; faciliter, oportet in potentia ponere habitum 
+      ele<lb ed="#L" n="57" break="no"/>uantem, vel tollentem difficultatem, sed intellectus humanus &amp; 
+      <lb ed="#L" n="58"/>voluntas non possunt per se in cognitionem articulorum, &amp; in 
+      <lb ed="#L" n="59"/>spem futurorum bonorum vel non prompte &amp; faciliter, vt 
+      pa<lb ed="#L" n="60" break="no"/>tuit in praecedente distinct. ergo respectu talium actuum 
+      opor<lb ed="#L" n="61" break="no"/>Ie tet ponere in nobis aliquem habitum eleuantem potentias vel 
+      <lb ed="#L" n="62"/>tollentem difficultatem. Si vero loquamur de virtutibus 
+      intel<lb ed="#L" n="63" break="no"/>lectualibus, sic dicendum est quod fuissent in statu innocentiae 
+      <lb ed="#L" n="64"/>quia illud quod ex puris naturalibus potest acquiri, &amp; quod es 
+      <lb ed="#L" n="65"/>simpliciter, melius est esse quam non esse, illud fuisset in statu 
+      <lb ed="#L" n="66"/>innocentiae in quo nullum bonum deerat quod bona voluntas 
+      <lb ed="#L" n="67"/>posset adipisci (ve dicit August. 14. de ciuitate dei) sed virtutes 
+      <lb ed="#L" n="68"/>intellectuales sunt huiusmodi; ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3649-d1e202">
+               <lb ed="#L" n="69"/>
+               <!--5--> De virtutibus autem moralibus, sciendum quod quaedam 
+      <lb ed="#L" n="70"/>sunt circa operationes, vt iustitia &amp; liberalitas &amp; huiusmodi, 
+      <lb ed="#L" n="71"/>quaedam autem circa passiones moderandas. De primis 
+      dicen<lb ed="#L" n="72" break="no"/>dum quod fuissent in statu innocentiae per eandem rationem quae 
+      <lb ed="#L" n="73"/>dicta est de virtutibus intellectualibus, quia simpliciter 
+      meliu<lb ed="#L" n="74" break="no"/>est tales habere quam eis carere, nec excedunt facultatem natura 
+      <lb ed="#L" n="75"/>quin ex principiis naturalibus possint acquiri, virtutes autem mo 
+      <lb ed="#L" n="76"/>rales quo sunt circa passiones ponetes in eis medium &amp; 
+      mode<lb ed="#L" n="77" break="no"/>rantes eas inter excessum &amp; defectum non suissent in statu in¬ 
+      <!--00378.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="78"/>nocentiae nec fuissent necessariae, nisi inquantum pertinuissent 
+      <lb ed="#L" n="79"/>ad rationem originalis iustitiae, vel formaliter vel virtualiter. 
+      <lb ed="#L" n="80"/>Cuius ratio est, quia respectu illius actus non oportet ponere 
+      <lb ed="#L" n="81"/>aliquem habitum, respectu cuius potentia nullam habet 
+      indeter<lb ed="#L" n="82" break="no"/>minationem, &amp; nullam patitur difficultatem, sed in statu 
+      inno<lb ed="#L" n="83" break="no"/>centiae appetitus sensitiuus nullam habuisset indeterminationem, 
+      <lb ed="#L" n="84"/>&amp; nullam difficultatem in appetendo secundum rectam 
+      ratio<lb ed="#L" n="85" break="no"/>nem, imo plene &amp; prompte obediuisset rationi: hoc enim habuit 
+      <lb ed="#L" n="86"/>conditio illius status: ergo in illo statu non fuissent necessaria 
+      <lb ed="#L" n="87"/>virtutes, quae ordinantur ad moderantiam passionum, nisi forte 
+      <lb ed="#L" n="88"/>dicatur quod huiusmodi virtutes intrinsecae pertinebant ad 
+      ra<lb ed="#L" n="89" break="no"/>tionem originalis iustitiae, vel formaliter vt aliqui putant, vel 
+      <lb ed="#L" n="90"/>virtualiter, &amp; ita non fuissent acquisitae, sed innatae vel infusae, 
+      <lb ed="#L" n="91"/>nec essent virtutes morales, sed quasi naturales, nisi propter 
+      si<lb ed="#L" n="92" break="no"/>militudinem actuum, ad quos inclinarent. 
+      </p>
+            <p xml:id="jsnvu6-d1e3649-d1e263">
+               <lb ed="#L" n="93"/>
+               <!--6.--> Et si diceret aliquis quod simpliciter in primo statu non 
+      pa<lb ed="#L" n="94" break="no"/>riebatur quis difficultatem in operibus quae sunt ad alterum, vt 
+      <lb ed="#L" n="95"/>sunt iustitiae. Dicendum quod verum est: inerat tamen possibilis 
+      <lb ed="#L" n="96"/>indeterminatio, quia licet haberet homo rectitudinem voluntatis 
+      <lb ed="#L" n="97"/>ad deum &amp; proximum, poterat tamen ab ea deficere, non 
+      au<lb ed="#L" n="98" break="no"/>tem a rectitudine appetitus sensitiui, nisi praecedente defectu 
+      re<lb ed="#L" n="99" break="no"/>ctitudinis voluntatis. Vnde possumus formare talem rationem 
+      <lb ed="#L" n="100"/>vbi est solum vnus modus ex natura determinatus, nec est possi 
+      <lb ed="#L" n="101"/>bilis alius: ibi non est necessarius aliquis habitus, sed respectu 
+      <lb ed="#L" n="102"/>passionum appetitus sensitiui fuit vnus solus modus in statu 
+      in<lb ed="#L" n="103" break="no"/>nocentiae ex natura determinatus, natura dico vt instituta fuit, 
+      <lb ed="#L" n="104"/>nec fuit alius possibilis durante primo statu. Non enim potuit 
+      <lb ed="#L" n="105"/>ferri appetitus sensitiuus in suum obiectum, nisi secundum 
+      di<lb ed="#L" n="106" break="no"/>ctamen rationis, ergo respectu passionum non fuit tunc 
+      necessa<lb ed="#L" n="107" break="no"/>rius aliquis habitus. Maior patet ex his quae dicta fuerunt 
+      supr<lb ed="#L" n="108" break="no"/>de habitu, distinctione vigesimasexta. Minor similiter declarat: 
+      <lb ed="#L" n="109"/>fuit supra, distinctione vigesimaprima, quum quaereretur, Vtri 
+      <lb ed="#L" n="110"/>in statu innocentiae potuerit homo peccare venialiter, sequitur 
+      <lb ed="#L" n="111"/>ergo quod nulla virtus moralis circa passiones existens, fuisset 
+      <lb ed="#L" n="112"/>in statu innocentiae. Praeter hoc autem est specialis ratio de his 
+      <lb ed="#L" n="113"/>quorum obiecta omnino non fuissent, vt de fortitudine 
+      tange<lb ed="#L" n="114" break="no"/>batur in arguendo. 
+      </p>
+            <p xml:id="jsnvu6-d1e3649-d1e315">
+               <lb ed="#L" n="115"/>
+               <!--7--> AD PRIMVM argumentum dicendum quod in statu 
+      <lb ed="#L" n="116"/>innocentiae homo fuisset maxime perfectus etiam secundum ap 
+      <lb ed="#L" n="117"/>petitum sensitiuum magis quam nunc, sed illa perfectio fuisse 
+      <lb ed="#L" n="118"/>innata seu infusa, &amp; non acquisita. Vnde non fuisset habitus, v 
+      <lb ed="#L" n="119"/>nunc loquimur de habitu. 
+      </p>
+            <p xml:id="jsnvu6-d1e3649-d1e331">
+               <lb ed="#L" n="120"/>
+               <!--8--> Ad secundum dicendum quod homo ex peccato nullum in 
+      <lb ed="#L" n="121"/>hoc reportat commodum, quia perfectionem quam nunc habe 
+      <lb ed="#L" n="122"/>tractu temporis, &amp; difficultate acquirendo tunc habuisset a prin 
+      <lb ed="#L" n="123"/>cipio plenius &amp; altiori modo quoad illa quae respiciunt 
+      passio<lb ed="#L" n="124" break="no"/>nes appetitus sensitiui. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

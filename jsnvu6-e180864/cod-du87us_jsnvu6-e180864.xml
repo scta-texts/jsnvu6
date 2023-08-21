@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="220-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e180864"><!-- l3d23q7 -->
+            <head xml:id="jsnvu6-e180864-Hd1e101">Quaestio 7</head>
+            <head xml:id="jsnvu6-e180864-Hd1e103" type="question-title">
+      Utrum actus fidei sit certior quam actus 
+      scientiae, an e conuerso
+    </head>
+            <p xml:id="jsnvu6-e180864-d1e106">
+               <lb ed="#L" n="113"/>VAISTIO 11TIuA. 
+      <lb ed="#L" n="114"/>Vtrum actus fidei sit certior quam actus 
+      <lb ed="#L" n="115"/>scientiae, an e conuerso. 
+      <lb ed="#L" n="116"/>Tuom. 2. 4. 4. r. .. 
+    </p>
+            <p xml:id="jsnvu6-e180864-d1e117">
+               <lb ed="#L" n="117"/>EITIO quaeritur, vtrum actus fidei sit certior 
+      <lb ed="#L" n="118"/>quam actus scientiae, an econuerso. Et videtur 
+      <lb ed="#L" n="119"/>quod actus fidei fit certior, quia sicut se habet 
+      <lb ed="#L" n="120"/>habitus ad habitum, sic actus ad actum, sed 
+      ha<lb ed="#L" n="121" break="no"/>bitus fidei est certior scientia, secundum illud 
+      <lb ed="#L" n="122"/>Auguitunm 13. de Trinita, cap. 1. Nihil est homini certius sua 
+      fi<lb ed="#L" n="123" break="no"/>de, ergo actus fidei est certior actu scientiae. 
+      </p>
+            <p xml:id="jsnvu6-e180864-d1e135">
+               <lb ed="#L" n="124"/>
+               <!--2--> Item quanto medium causans cognitionem est certius, 
+      <lb ed="#L" n="125"/>tanto cognitio est certior: sed diuina auctoritas, quae est 
+      me<lb ed="#L" n="126" break="no"/>dium per quod credimus, est certior quacunque ratione 
+      hu<lb ed="#L" n="127" break="no"/>mana, per quam aliquid scimus, ergo cognitio fidei est certior 
+      <lb ed="#L" n="128"/>quam cognitio scientiae. 
+      </p>
+            <p xml:id="jsnvu6-e180864-d1e152">
+               <lb ed="#L" n="129"/>
+               <!--3.--> IN. CONTRARIVM arguitur, quia visus est 
+      cer<lb ed="#L" n="130" break="no"/>tior quam auditus, sed fides est ex auditu (vt dicitur 
+      Romano<lb ed="#L" n="131" break="no"/>rum decimo) scientia autem est intellectualis visio: principia 
+      <lb ed="#L" n="132"/>etiam quarundam scientiarum resolui possunt vsque ad aliqua 
+      <lb ed="#L" n="133"/>corporaliter visa, vt in mathematicis: ergo videtur quod tale 
+      <lb ed="#L" n="134"/>scientiae sint certiores fide¬ 
+      </p>
+            <p xml:id="jsnvu6-e180864-d1e170">
+               <lb ed="#L" n="135"/>
+               <!--4.--> Item Hugo de sacramentis libro primo dicit qud fides est vo 
+      <lb ed="#L" n="136"/>luntaria certitudo supra opinionem, &amp; infra scientiam 
+      consti<lb ed="#L" n="137" break="no"/>tuta: ergo certitudo fidei est inferior certitudine scientiae. 
+</p>
+            <p xml:id="jsnvu6-e180864-d1e181">
+               <lb ed="#L" n="138"/>RESPONSIO. Videnda sunt duo circa istam 
+      quae<lb ed="#L" n="139" break="no"/>stionem. Primum est, cum ponantur plures actus fidei, salten 
+      <lb ed="#L" n="140"/>secundum nomen scilicet credere Deum, credere Deo, &amp; credere in 
+      <lb ed="#L" n="141"/>Deum. Quis istorum sit magis proprius actus fidei. Secundum 
+      <lb ed="#L" n="142"/>est de comparatione actus fidei ad actum scientiae. 
+      </p>
+            <p xml:id="jsnvu6-e180864-d1e194">
+               <lb ed="#L" n="143"/>
+               <!--6--> QVANTVM ad primum sciendum est quod credere 
+      <lb ed="#L" n="144"/>Deum, &amp; credere Deo sunt praecise actus fidei, &amp; vnus actus no 
+      <lb ed="#L" n="145"/>plures. Credere autem in Deum non est praecise actus fidei, sed 
+      <lb ed="#L" n="146"/>fidei &amp; charitatis simul, &amp; sunt etiam plures, &amp; non vnus actus 
+      <lb ed="#L" n="147"/>tantum. Ad cuius euidentiam sciendum est quod Deus, siue 
+      supre<lb ed="#L" n="148" break="no"/>ma veritas se habet ad actum credendi tripliciter. Vno modo vt 
+      <lb ed="#L" n="149"/>obiectum quod creditur siue aliquid circa ipsum, sicut credimus 
+      <lb ed="#L" n="150"/>Deum esse trinum &amp; vnum, esse incarnatum, vel aliquid 
+      huius<lb ed="#L" n="151" break="no"/>modi. Alio modo vt ratio credendi, quicquid enim credimus, 
+      cre<lb ed="#L" n="152" break="no"/>dimus inuitentes veritati diuinae quae talia reuelauit. Tertio 
+      mo<lb ed="#L" n="153" break="no"/>do se habet vt finis, secundum illud Ioan. 20. Haec autem scripta 
+      <lb ed="#L" n="154"/>sunt vt credatis, &amp; vt credentes vitam habeatis. Credere ergo 
+      <lb ed="#L" n="155"/>Deum dicit comparationem actus credendi ad Deum, vt ad 
+      obie<lb ed="#L" n="156" break="no"/>ctum creditum. Credere autem Deo dicit comparationem actu 
+      <lb ed="#L" n="157"/>credendi ad Deum, sicut ad rationem, siue causam mouentem ad 
+      <lb ed="#L" n="158"/>credendum, seu medium credendi. Et quia idem actus est quo 
+      <lb ed="#L" n="159"/>tenditur in obiectum, vt obiectum, &amp; quo tenditur in obiectum 
+      <lb ed="#L" n="160"/>per medium ideo vnus &amp; idee actus est credere Deo, &amp; credere 
+      <!--00514.xml-->
+      <pb ed="#L" n="220-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>deum. Credere aurem in Deum dicit habitudinem actus 
+      cre<lb ed="#L" n="2" break="no"/>dendi ad Deum, tanquam ad finem, quem fides ostendit, &amp; ad 
+      <lb ed="#L" n="3"/>quem charitas inclinat: vnde credere in deum idem est quod 
+      <lb ed="#L" n="4"/>credendo amare, &amp; credendo &amp; amando in eum ire, seu 
+      ten<lb ed="#L" n="5" break="no"/>dere. Et hi sunt duo actus duorum habituum, fidei scilicet &amp; 
+      <lb ed="#L" n="6"/>charitatis, vt de se patet. 
+      </p>
+            <p xml:id="jsnvu6-e180864-d1e257">
+               <lb ed="#L" n="7"/>
+               <!--8--> Quantum ad secundum, scilicet vter actus sit certior, 
+      scili<lb ed="#L" n="8" break="no"/>cet fidei, an scientiae, dicitur multipliciter. Vno modo quod duples 
+      <lb ed="#L" n="9"/>est certitudo, quaedam euidentiae, &amp; sic scire certius est quam 
+      <lb ed="#L" n="10"/>credere. Quia quod scitur euidens est, non autem quod 
+      credi<lb ed="#L" n="11" break="no"/>tur. Alia est certitudo adhaesiouis, &amp; sic credere certius est quan 
+      <lb ed="#L" n="12"/>scire. Quia scilicet credens firmius adhaeret creditis, quam sciem: 
+      <lb ed="#L" n="13"/>scitis. Sed istud non videtur propter duo. Primum est, quia firmi 
+      <lb ed="#L" n="14"/>tas adhaesionis improprie dicitur certitudo. Certitudo enim 
+      <lb ed="#L" n="15"/>non stat cum falsitate: firmitas autem adhaesionis quandoque 
+      <lb ed="#L" n="16"/>est in falsis, vt patet in haereticis, &amp; in aliis qui pertinaciter 
+      ad<lb ed="#L" n="17" break="no"/>haerent suis opinionibus falsis: ergo firmitas adhaesionis non 
+      <lb ed="#L" n="18"/>habet proprie rationem certitudinis. Secundum est, quia firmi 
+      <lb ed="#L" n="19"/>tas adhaesionis adhuc videtur esse major in actu scientiae, quam 
+      <lb ed="#L" n="20"/>in actu fidei: illi enim firmius adhaeremus a quo difficilius 
+      re<lb ed="#L" n="21" break="no"/>cedimus, sed homo difficilius recedit a scienua si vere sit sciens, 
+      <lb ed="#L" n="22"/>&amp; sciat se scientem esse, quam a fide. Ab illa enim videmus fre 
+      <lb ed="#L" n="23"/>quenter recedere hominem: ergo firmitas adhaesionis videtu 
+      <lb ed="#L" n="24"/>esse maior in actu scientiae quam in actu fidei. 
+      </p>
+            <p xml:id="jsnvu6-e180864-d1e301">
+               <lb ed="#L" n="25"/>
+               <!--8--> Alio modo dicitur quod aliquid potest esse certius dupliciter 
+      <lb ed="#L" n="26"/>Vno modo secundum se. Alio modo quoad nos. Primo 
+      mod<lb ed="#L" n="27" break="no"/>credere est certius quam scire, quia credita, puta deum esse tri 
+      <lb ed="#L" n="28"/>num &amp; vnum, &amp; similia sunt certiora secundum se, quam scit: 
+      <lb ed="#L" n="29"/>a nobis. Secundo modo est econuerso, quia scire certius est 
+      quo<lb ed="#L" n="30" break="no"/>ad nos quam credere. Sed nec istud videtur valere, quia licet ista 
+      <lb ed="#L" n="31"/>distinctio possit aliquo modo habere locum in creditis &amp; scitis 
+      <lb ed="#L" n="32"/>ficut dicit Philosoph. 2. Metaphysi. de substantiis separatis, quia 
+      <lb ed="#L" n="33"/>notiores sunt secundum se substantiis sensibilibus, quamuis non 
+      <lb ed="#L" n="34"/>nobis, sed potius minus notae. Tamen in habitibus &amp; actibus non 
+      <lb ed="#L" n="35"/>potest habere locum ista distinctio. Cuius ratio est, quia habitus 
+      <lb ed="#L" n="36"/>est dispositio habentis, &amp; actus est eius perfectio in 
+      comparatio<lb ed="#L" n="37" break="no"/>"ne ad obiectum: &amp; ideo non est certior actus vel habitus, nisi 
+      <lb ed="#L" n="38"/>per * quem obiectum fit nobis certius, quamuis possit dici no 
+      <lb ed="#L" n="39"/>bilius ex sola nobilitate obiecti. Et hoc patet ex textu 
+      Philoso<lb ed="#L" n="40" break="no"/>phi in principio libri de anima, vbi distinguit nobilitatem scier 
+      <lb ed="#L" n="41"/>tiae in nobilitatem quae est secundum certitudinem, &amp; in illam 
+      <lb ed="#L" n="42"/>quae est ex nobilitate obiecti, quod non esset si certitudo scien 
+      <lb ed="#L" n="43"/>tiae esset secundum certitudinem obiecti. Tunc enim omnis scien 
+      <lb ed="#L" n="44"/>tia quae esset nobilior quoad obiecta, esset nobilior quoad 
+      cer<lb ed="#L" n="45" break="no"/>titudinem, quia obiecta quae sunt nobiliora vt diuina sunt 
+      cer<lb ed="#L" n="46" break="no"/>tiora secundum se. Certitudo ergo actus vel habitus non est 
+      e<lb ed="#L" n="47" break="no"/>certitudine obiecti secundum se, sed ex modo quem ponit 
+      ha<lb ed="#L" n="48" break="no"/>bitus circa habentem &amp; actum eius: nullo ergo modo actus ve 
+      <lb ed="#L" n="49"/>habitus dicitur certior, nisi sit tertior quoad nos. 
+      </p>
+            <p xml:id="jsnvu6-e180864-d1e361">
+               <lb ed="#L" n="50"/>
+               <!--9.--> Item distinctio quae ponitur 2. Metaphysi. de obiectis, quod 
+      <lb ed="#L" n="51"/>quaedam sunt notiora simpliciter &amp; secundum se quaedam 
+      ve<lb ed="#L" n="52" break="no"/>ro sunt notiora nobis, non videtur esse vera, nisi sane intelliga 
+      <lb ed="#L" n="53"/>tur. Potest enim contra eam opponi sic, sicut nihil dicitur 
+      sci<lb ed="#L" n="54" break="no"/>bile, vel scitum, nisi a scientia, sic nihil dicitur noscibile, vel 
+      no<lb ed="#L" n="55" break="no"/>tum, nisi a notitia. Scientia autem &amp; notitia conditiones sun 
+      <lb ed="#L" n="56"/>scientis &amp; noscentis, &amp; non rei scitae vel notae, ergo nulla res es 
+      <lb ed="#L" n="57"/>secundum se scita vel nota, sed solum quoad nos, qui sumu 
+      <lb ed="#L" n="58"/>scientes &amp; noscentes: ergo illa distinctio qua aliquid dicitur ess 
+      <lb ed="#L" n="59"/>notum secundum se, vel notum nobis non videtur bona. Et 
+      di<lb ed="#L" n="60" break="no"/>cendum ad hoc, quod nihil dicitur scibile vel scitum, noscibile, ve 
+      <lb ed="#L" n="61"/>notum, nisi ratione scientis &amp; noscentis. Sed solus homo nor 
+      <lb ed="#L" n="62"/>est sciens &amp; noscens, imo tenet infimum gradum inter creati 
+      <lb ed="#L" n="63"/>ras intellectuales. Et ideo non omne illud quod est homini no 
+      <lb ed="#L" n="64"/>tius est simpliciter notius, imo est infime notum, sed quod est 
+      <lb ed="#L" n="65"/>Deo notius est simpliciter notius, quia est notius secundum 
+      su<lb ed="#L" n="66" break="no"/>premam nontitiam. Et quod notius angelo, est notius in 
+      secun<lb ed="#L" n="67" break="no"/>do gradu, sicut notiua angeli est media inter notitiam Dei &amp; 
+      <lb ed="#L" n="68"/>hominis. Et tunc dictum Aristotelis verificatur hoc modo, 
+      qui<lb ed="#L" n="69" break="no"/>quae sunt sublimioris naturae in entitate sunt prius nota Dec 
+      <lb ed="#L" n="70"/>&amp; angelon, qui sunt sublimioris virtutis in cognoscendo. Deu 
+      <lb ed="#L" n="71"/>enim primo cognoscit essentiam suam, &amp; per eam cognosci 
+      <lb ed="#L" n="72"/>alia. Et idem dicit Aristoteles de qualibet intelligentia, duode. 
+      <lb ed="#L" n="73"/>cimo Metaphy. propter quod illa quae sunt sublimioris 
+      entita<lb ed="#L" n="74" break="no"/>tis dicuntur notiora secundum se, quam sensibilia, quae sunt no 
+      <lb ed="#L" n="75"/>bis notiora, quia sunt primo cognita, &amp; maxime a supremis co 
+      <lb ed="#L" n="76"/>gnoscentibus, qui sunt Deus &amp; angelus, sed simpliciter 
+      loque<lb ed="#L" n="77" break="no"/>do nihil dicitur scitum vel notum secundum se &amp; absolute, sed 
+      <lb ed="#L" n="78"/>solum ex habitudine alicuius scientiae vel notitiae ad ipsum. 
+</p>
+            <p xml:id="jsnvu6-e180864-d1e429">
+               <lb ed="#L" n="79"/>
+               <!--10--> Redeundo ergo ad propositum aliter dicendum est, quod quam 
+      <lb ed="#L" n="80"/>uis aliquod creditum, puta Deum esse trinum &amp; vnum, sit 
+      se<lb ed="#L" n="81" break="no"/>cundum se certius &amp; notius, quam multa scita de creaturis, 
+      mo<lb ed="#L" n="82" break="no"/>do quo dictum est, tamen multi habitus scientiae &amp; actus sunt 
+      <!--00514.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>in nobis certiores &amp; notiores fide &amp; actu eius extensiue, &amp; 
+      in<lb ed="#L" n="84" break="no"/>tensiue, quia illud quod habet plures modos certitudinis 
+      cer<lb ed="#L" n="85" break="no"/>tius est extensiue, sed sic est de scientia respectu fidei, quia 
+      scien<lb ed="#L" n="86" break="no"/>tia &amp; actus eius habent certitudinem euidentiae, &amp; certitudini 
+      <lb ed="#L" n="87"/>adhaesionis: si tamen debeat dici certitudo. Fides autem habet 
+      <lb ed="#L" n="88"/>solum certitudinem adhaesionis, quare &amp;c. Item intensiue, 
+      <lb ed="#L" n="89"/>quia cerrius est quod dubitationi est impermixtius, sed 
+      scien<lb ed="#L" n="90" break="no"/>tia nullo modo potest habere permixtam dubitationem: fides 
+      <lb ed="#L" n="91"/>autem potest habere aliquem modum dubitationis 
+      permix<lb ed="#L" n="92" break="no"/>tum, etiam salua fide, ergo videtur quod scientia sit certior 
+      intensi<lb ed="#L" n="93" break="no"/>ue fide. Item constat quod certior est scientia beatorum, quam 
+      fi<lb ed="#L" n="94" break="no"/>des credentium, sed istud non est ex ratione obiecti, quod idem 
+      <lb ed="#L" n="95"/>est vtrobique (scilicet diuina essentia, &amp; Dei veritas) sed solum 
+      <lb ed="#L" n="96"/>ratione modi diuersi quo tendit intellectus in Deum visum &amp; 
+      <lb ed="#L" n="97"/>creditum: ergo in proposito, certior est scientia quam habemus 
+      <lb ed="#L" n="98"/>de Deo (puta quod fit vnus) quam fides quam habemus de 
+      ip<lb ed="#L" n="99" break="no"/>so, puta quod sit trinus propter certiorem modum quo tendit 
+      <lb ed="#L" n="100"/>intellectus ad ipsum per scientiam magis quam per fidem. 
+      </p>
+            <p xml:id="jsnvu6-e180864-d1e486">
+               <lb ed="#L" n="101"/>
+               <!--1I--> AD PRIMVM argumentum dicendum quod beatus 
+      <lb ed="#L" n="102"/>Augustinus non intendit dicere quod fides sit certior aliis 
+      ha<lb ed="#L" n="103" break="no"/>bitibus, ita quod per idem certificetur homo de creditis, sicut 
+      <lb ed="#L" n="104"/>per scientiam de scitis, sed vult dicere quod habens fidem, ita 
+      <lb ed="#L" n="105"/>certus est se habere fidem, sicut certus est de quocunque alio, 
+      <lb ed="#L" n="106"/>credens enim experitur se credere, &amp; per consequens habere 
+      <lb ed="#L" n="107"/>fidem: nihil autem est certius experientia, ad quam fit 
+      resolu<lb ed="#L" n="108" break="no"/>tio aliorum, vt habeatur plenior certitudo. 
+      </p>
+            <p xml:id="jsnvu6-e180864-d1e508">
+               <lb ed="#L" n="109"/>
+               <!--12--> Ad secundum dicendum quod quando medium causans 
+      <lb ed="#L" n="110"/>cognitionem est certius non solum in se, sed quoad nos, tunc 
+      <lb ed="#L" n="111"/>cognitio est certior, alias non, vt declaratum est prius. Diuina 
+      <lb ed="#L" n="112"/>autem auctoritas, propter quam credimus, licet sit certissima 
+      <lb ed="#L" n="113"/>in se, non tamen nobis. Qualiter enim certi simus quod Deus 
+      di<lb ed="#L" n="114" break="no"/>cat ea quae credimus, non nisi quia sic tenet ecclena? Vnde 
+      si<lb ed="#L" n="115" break="no"/>cut alia credita tenemus sub fide, sic sola fide tenemus quod 
+      di<lb ed="#L" n="116" break="no"/>ctum scripturae sit fulcitum diuina auctoritate: &amp; ideo diuina 
+      <lb ed="#L" n="117"/>auctoritas non est nobis notior, quam humana ratio 
+      demon<lb ed="#L" n="118" break="no"/>stratiua, per quam scimus. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

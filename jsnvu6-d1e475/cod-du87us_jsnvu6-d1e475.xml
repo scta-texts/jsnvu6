@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="26-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e475"><!-- l1d6q1 -->
+            <head xml:id="jsnvu6-d1e475-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e475-Hd1e103" type="question-title">Utrum pater genuerit filium necessitate</head>
+            <p xml:id="jsnvu6-d1e475-d1e106">
+               <lb ed="#L" n="21"/>XIOOq. QUAESTIO PRIMA. 
+      <lb ed="#L" n="22"/>Vtrum pater genuerit filium necessitate. 
+      <lb ed="#L" n="23"/>eiler 2 
+      <lb ed="#L" n="24"/>Thom. 1. p. q. 41. artic. 2. ad quintum.
+    </p>
+            <p xml:id="jsnvu6-d1e475-d1e117">
+               <lb ed="#L" n="25"/>CIrca distinctionem istam quaeruntur duo. 
+      Pri<lb ed="#L" n="26" break="no"/>(mum est vtrum pater genuerit Filium 
+      necessi<lb ed="#L" n="27" break="no"/>tate an voluntate. Secundum est vtrum 
+      genue<lb ed="#L" n="28" break="no"/>rit Filium natura. Ad primum sic proceditur. Et 
+      <lb ed="#L" n="29"/>Aarguitur quod pater non genuit filium 
+      necessi<lb ed="#L" n="30" break="no"/>tate, quia quod gratis datur non datur ex necessitate, sed 
+      se<lb ed="#L" n="31" break="no"/>cundum Rich. de Trinit. Pater quicquid dat Filio, vel Spirit. 
+      <lb ed="#L" n="32"/>fanct. dat secundum amorem gratuitum: ergo non 
+      necessario<lb ed="#L" n="33" break="no"/>sed per generationem Pater dat Filio quicquid Filius habet 
+      <lb ed="#L" n="34"/>ergo pater non necessario generat. 
+      </p>
+            <p xml:id="jsnvu6-d1e475-d1e141">
+               <lb ed="#L" n="35"/>
+               <!--2.--> Item August. ad Orosium nec necessitate, nec voluntate 
+      <lb ed="#L" n="36"/>pater genuit Filium. Et Hilar. lib. de Syno. dicit quod non 
+      natura<lb ed="#L" n="37" break="no"/>u necessitate ductus Pater genuit Filium. 
+      </p>
+            <p xml:id="jsnvu6-d1e475-d1e153">
+               <lb ed="#L" n="38"/>
+               <!--3--> IN: CONTRARIVM arguitur quia si Pater non 
+      <lb ed="#L" n="39"/>necessario genuit, potuit non generare &amp; per consequens 
+      Fi<lb ed="#L" n="40" break="no"/>lius potuit non esse. Hoc aut est impossibile, ergo &amp; primum. 
+      con<lb ed="#L" n="41" break="no"/>sequentia patet quia non necesse &amp; possibile non aequipollent. 
+      <lb ed="#L" n="42"/>J. RESPONSIO, necessarium dicitur multipliciter. Est 
+      <lb ed="#L" n="43"/>enim necessitas violentiae &amp; coactionis, vt cum lapis proiicitur 
+      <lb ed="#L" n="44"/>sursum necessitatur ad ascensum. Alia est necessitas expedien 
+      <lb ed="#L" n="45"/>tiae ex suppositione finis sicut volenti ire vltra mare necesse est 
+      <lb ed="#L" n="46"/>habere nauem. Et his duobus modis sumitur necessarium ex 
+      <lb ed="#L" n="47"/>causis extrinsecis quae sunt agens &amp; finis. Est tertia necessitas 
+      <lb ed="#L" n="48"/>scilicet immutabilitatis quae sumitur ex causis intrinsecis, vel 
+      <lb ed="#L" n="49"/>ex aliquo quod est de essentia rei, sicut necesse est hominem 
+      <lb ed="#L" n="50"/>esse rationalem ratione formae, vel corruptibilem ratione 
+      ma<lb ed="#L" n="51" break="no"/>teriae. Principia autem intrinscca ad quae sequitur talis 
+      neces<lb ed="#L" n="52" break="no"/>sitas quandoque sunt causata actiue ab alio sicut est in 
+      omni<lb ed="#L" n="53" break="no"/>bus circa Deum. Et ideo sicut in eis principia rei dependent 
+      <lb ed="#L" n="54"/>ab alio, ita &amp; necessitas consequens principia, propter quod 
+      <lb ed="#L" n="55"/>in his non est necessitas secundum potissimum gradum 
+      ne<lb ed="#L" n="56" break="no"/>cessitatis. In Deo autem nihil est quod ab alio dependeat. E 
+      <lb ed="#L" n="57"/>ideo necessitas immutabilitatis quae in Deo est, summa est &amp; 
+      <lb ed="#L" n="58"/>prima necessitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e475-d1e203">
+               <lb ed="#L" n="59"/>
+               <!--5--> Dicendum ergo cum quaeritur vtrum Pater genuit Filiun 
+      <lb ed="#L" n="60"/>ex necessitate, quod si loquamur de prima necessitate quae es 
+      <lb ed="#L" n="61"/>coactionis, quod talis nullo modo cadit in Deo. Quod patet 
+      <lb ed="#L" n="62"/>dupliciter? Primo quia necessitas coactionis est a potentiore, 
+      <lb ed="#L" n="63"/>sed Deo nihil est potentius, ergo, &amp;c. Secundo quia necessitas 
+      <lb ed="#L" n="64"/>talis non est in cognoscentibus sine tristitia. v. meta. sed 
+      tristi<lb ed="#L" n="65" break="no"/>ia non cadit in Deo, ergo nec talis necessitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e475-d1e223">
+               <lb ed="#L" n="66"/>6:. Si antem loquamur de necessitate secundo modo dicta qu 
+      <lb ed="#L" n="67"/>est nocessitas expedientiae ex suppositione finis, sic dicendum 
+      <lb ed="#L" n="68"/>quod¬ talis necessitas non est in Deo quoad actus interiore 
+      <lb ed="#L" n="69"/>qui non transeunt in creaturam, potest tamen in Deo esse 
+      <lb ed="#L" n="70"/>quoad actus qui in creaturam transeunt. Primum patet sic 
+      <lb ed="#L" n="71"/>Sractus manentes in Deo siue essentiales, siue notionales 
+      fie<lb ed="#L" n="72" break="no"/>rem ex suppositione alicuius finis aut ille finis esset in diuinis, 
+      <lb ed="#L" n="73"/>aut in greaturis. Sed neutrum horum potest esse: ergo, &amp;c. 
+      pro<lb ed="#L" n="74" break="no"/>batur minor quia finis potior est his quae sunt ad finem, sed 
+      <lb ed="#L" n="75"/>nihil quod fit in creaturis potest esse potius his quae sunt in 
+      di<lb ed="#L" n="76" break="no"/>uinis simo nec aeque bonum, in diuinis etiam non est gradus 
+      <lb ed="#L" n="77"/>bonitatis ve vnum sit potius altero, ergo nihil est in diuinis, nec 
+      <lb ed="#L" n="78"/>in creaturis ad quod tanquam ad finem ordinentur actus 
+      diui<lb ed="#L" n="79" break="no"/>ni intra manentes. Cum ergo generatio filij sit actus 
+      manen<lb ed="#L" n="80" break="no"/>indiuinis, patet quod Pater non genuit necessitate quae est ex 
+      <lb ed="#L" n="81"/>supposiione finis. 
+      <lb ed="#L" n="82"/>. Secundum sie patet, quis licet Deus &amp; ea quae in Deo suni 
+      <lb ed="#L" n="83"/>QV 
+      <!--00117.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="84"/>non ordinentur ad aliud tanquam finem, tamen actus diuin 
+      <lb ed="#L" n="85"/>transeuntes in materiam exteriorem &amp; res per eos producta 
+      <lb ed="#L" n="86"/>habent inter se ordinem finis &amp; eorum quae sunt ad finem, 
+      <lb ed="#L" n="87"/>propter quod inter haec inuenitur dicta necessitas; vt si 
+      dica<lb ed="#L" n="88" break="no"/>mus quod si Deus velit producere creaturam capacem 
+      beati<lb ed="#L" n="89" break="no"/>tudinis necesse est quod producat eam intellectualem. Talli 
+      <lb ed="#L" n="90"/>enim finis nullo modo potest haberi nisi a creatura habente 
+      ta<lb ed="#L" n="91" break="no"/>lem formam. Et ideo in istis inuenitur necessitas suppositionis. 
+      </p>
+            <p xml:id="jsnvu6-d1e475-d1e286">
+               <lb ed="#L" n="92"/>
+               <!--8--> Loquendo autem de necessitate tertio modo dicta quae 
+      <lb ed="#L" n="93"/>est necessitas immutabilitatis, dicendum quod pater summa 
+      ne<lb ed="#L" n="94" break="no"/>cessitate genuit filium, quod pacet, quia productio quae est per 
+      <lb ed="#L" n="95"/>modum naturae, nec impediri potest nec a contrario 
+      praedomi<lb ed="#L" n="96" break="no"/>nante, nec a superiore principio influentiam subtrahente, est 
+      <lb ed="#L" n="97"/>summe necessaria, sed generatio Filij in diuinis fit per modum 
+      <lb ed="#L" n="98"/>naturae &amp; a principio naturaliter agente, quia generatio est 
+      <lb ed="#L" n="99"/>opus naturae nec impediri potest a contrario praedominante, 
+      <lb ed="#L" n="100"/>nec a superiore principio influentiam subtrahente, quia patei 
+      <lb ed="#L" n="101"/>generans est primum principium simpliciter &amp; virtus eius 
+      in<lb ed="#L" n="102" break="no"/>finita, ergo generatio filij est summe immutabilis &amp; necessa. 
+      <lb ed="#L" n="103"/>ria. mi. patet, sed ma. declaratur, quia principium naturale ageni 
+      <lb ed="#L" n="104"/>modo naturae, agit quantum est de necessitate naturae. Et ideo 
+      <lb ed="#L" n="105"/>si impediri non potest in agendo, nec a contrario 
+      praedominan<lb ed="#L" n="106" break="no"/>te, nec a superiore subtrahente influentiam, actio eius erit sim 
+      <lb ed="#L" n="107"/>pliciter necessaria maxime quando principium quod sic agi 
+      <lb ed="#L" n="108"/>nabet in se totum quod ad actionem requiritur, quia si non 
+      ha<lb ed="#L" n="109" break="no"/>bet sed requireret aliquid extrinsecum tanquam materiam 
+      <lb ed="#L" n="110"/>vel aliquid tale, ex defectu illius posset actio impediri non 
+      ob<lb ed="#L" n="111" break="no"/>stante concursu omnium aliarum conditionum, sed nihil tale 
+      <lb ed="#L" n="112"/>extrinsecum requirit pater in generatione filij, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e475-d1e336">
+               <lb ed="#L" n="113"/>
+               <!--9--> Aliter declarat quidam hanc eandem conclusionem; sic, 
+      <lb ed="#L" n="114"/>actus diuini sunt in duplici differentia. Quidam enim transeuiit 
+      <lb ed="#L" n="115"/>in materiam exteriorem realiter sicut creare vel gubernare, &amp; 
+      <lb ed="#L" n="116"/>contingentia vel libertas in his, puta quod Deus producat 
+      crea<lb ed="#L" n="117" break="no"/>turam vel non producat, nullam mutabilitatem arguit in Deo, 
+      <lb ed="#L" n="118"/>sed solum in re creata. Alij sunt actus intrinseci de quorum nu 
+      <lb ed="#L" n="119"/>mero est generatio, &amp; contingentia in istis arguit possibilem 
+      <lb ed="#L" n="120"/>mutationem in Deo. Cum ergo mutatio in Deo sit penitu: 
+      <lb ed="#L" n="121"/>impossibilis &amp; contingentia in istis est omnino impossibiliter, 
+      <lb ed="#L" n="122"/>sed est in eis mera necessitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e475-d1e362">
+               <lb ed="#L" n="123"/>
+               <!--10.--> Sed contra hunc modum dicendi est instantia quorundam, 
+      <lb ed="#L" n="124"/>quia velle in Deo est actus intra manens &amp; non transiens 
+      ex<lb ed="#L" n="125" break="no"/>tra, &amp; tamen non quicquid Deus vult de necessitate vult; sed 
+      <lb ed="#L" n="126"/>multa vult libere, ergo non omnes actus intra manentes sunt 
+      <lb ed="#L" n="127"/>simpliciter necessarij nisi facta suppositione quod sint, tunc 
+      <lb ed="#L" n="128"/>enim impossibile est eos non inesse, sicut supposito quod Deus 
+      <lb ed="#L" n="129"/>velit aliquid, impossibile est quod prius noluerit, aut quod in 
+      <lb ed="#L" n="130"/>posterum possit non velle, quia sequeretur mutatio in Deo, 
+      <lb ed="#L" n="131"/>simpliciter autem &amp; absolute potest illud non velle, quia nor 
+      <lb ed="#L" n="132"/>est necessaria habitudo voluntatis diuinae ad tale volitum; &amp; 
+      <lb ed="#L" n="133"/>eodem modo diceretur quod supposito quod pater genuerit 
+      <lb ed="#L" n="134"/>Filium, necessarium est eum genuisse, simpliciter autem &amp; 
+      ab<lb ed="#L" n="135" break="no"/>solute non. De hac autem necessitate nunc quaerimus. 
+      </p>
+            <p xml:id="jsnvu6-d1e475-d1e396">
+               <lb ed="#L" n="136"/>
+               <!--11--> Haec autem instantia non bene procedit, quia quamuis 
+      vel<lb ed="#L" n="137" break="no"/>le diuinum non sit necessario de quolibet volito, tamen omne 
+      <lb ed="#L" n="138"/>velle diuinum est necessario in Deo, nec in Deo est libertas 
+      <lb ed="#L" n="139"/>seu contingentia respectu actus volendi, quauis in eo sit 
+      liber<lb ed="#L" n="140" break="no"/>tas, seu contingentia actus volendi respectu aliquorum 
+      obie<lb ed="#L" n="141" break="no"/>ctorum, sicur magis declarabitur infra distinct. xliij. 
+      </p>
+            <p xml:id="jsnvu6-d1e475-d1e414">
+               <lb ed="#L" n="142"/>
+               <!--12--> AD PRIMVM argumentum de amore gratuito di 
+      <lb ed="#L" n="143"/>cendum quod in amore gratuito sunt duo. Primum est 
+      mer<lb ed="#L" n="144" break="no"/>liberalitas &amp; quantum ad hoc non est amor gratuitus in 
+      ge<lb ed="#L" n="145" break="no"/>neratione filij, sed est ibi absoluta necessitatis immutabilitatis, 
+      <lb ed="#L" n="146"/>Socundum est quod dat sine retributione, &amp; quantum ad 
+      ho<lb ed="#L" n="147" break="no"/>est ibi amor gratuitus, quia pater per generationem dat filio 
+      <lb ed="#L" n="148"/>&amp; nihil aecipit ab ipso. 
+      </p>
+            <p xml:id="jsnvu6-d1e475-d1e434">
+               <lb ed="#L" n="149"/>
+               <!--13--> August. autem &amp; Hilarius in dictis suis excludunt a 
+      gene<lb ed="#L" n="150" break="no"/>ratione diuina necessitatem coactionis, non autem 
+      necessita<lb ed="#L" n="151" break="no"/>tem immurabilitatis, de qua procedit argumentum ad alteram 
+      <lb ed="#L" n="152"/>parem. Et ideo in hoae sensu concedatur. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

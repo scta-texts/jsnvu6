@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="221-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e181935"><!-- l3d24prae -->
+            <head xml:id="jsnvu6-e181935-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e181935-d1e103">
+               <lb ed="#L" n="47"/>Sententia huius distinctionis 
+      vige<lb ed="#L" n="48" break="no"/>simae quartae in generali 
+      <lb ed="#L" n="49"/>&amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e181935-d1e112">
+               <lb ed="#L" n="50"/>HIc quaeritur si fides. Superius determinauit 
+      ma<lb ed="#L" n="51" break="no"/>gister de fide secundum se, siue secundum suum 
+      <lb ed="#L" n="52"/>subiectum: hic determinat de ipsa per 
+      compa<lb ed="#L" n="53" break="no"/>rationem ad ea quae creduntur, id est, ad 
+      obie<lb ed="#L" n="54" break="no"/>ctum. Et introducitur ista pars occasione 
+      diffi<lb ed="#L" n="55" break="no"/>nicionis fidei superius positae, scilicet quod fides est 
+      argumen<lb ed="#L" n="56" break="no"/>tum non apparentium. Et diuiditur in duas. Primo ostendii 
+      <lb ed="#L" n="57"/>fidem esse de non visis. Secundo mouet circa hoc quandam 
+      du<lb ed="#L" n="58" break="no"/>bitationem, &amp; soluit. Si vero quaeritur. Et illa diuiditur in duas, 
+      <lb ed="#L" n="59"/>secundum duas quaestiones, quas mouet &amp; soluit. Secunda ibi. 
+      <lb ed="#L" n="60"/>Post hoc quaeri solet. Haec est sententia &amp; diuisio lectionis, in 
+      <lb ed="#L" n="61"/>generali. 
+      </p>
+            <p xml:id="jsnvu6-e181935-d1e141">
+               <lb ed="#L" n="62"/>
+               <!--2.--> SENTENTIA est ista. Quaerit magister si fides est 
+      tan<lb ed="#L" n="63" break="no"/>tum de non visis, quid est quod Christus dicit Ioan. 14. Nunc 
+      <lb ed="#L" n="64"/>dico vobis priusquam fiat, vt cum factum fuerit credatis. Ex quo 
+      <lb ed="#L" n="65"/>videtur quod fides sit de visis &amp; de factis, &amp; respondet secundum 
+      <lb ed="#L" n="66"/>Ambros. quod laus fidei est, vt credatur quod non videtur, vnde 
+      <lb ed="#L" n="67"/>&amp; Thomas cui dictum est, quia vidisti me, credidisti, aliud vidit 
+      <lb ed="#L" n="68"/>&amp; aliud credidit, quia vidit hominem &amp; credidit esse deum, vnde 
+      <lb ed="#L" n="69"/>si aliquando dicamur credere quod vidimus, illa non est fides, 
+      <lb ed="#L" n="70"/>quam Christus aedificat in animo nostro. Postea quaerit vtrum 
+      <lb ed="#L" n="71"/>Petrus habuerit fidem de passione Christi quam vidit. Et 
+      respon<lb ed="#L" n="72" break="no"/>det quod non, sed habuit fidem quod ille qui patiebatur erat 
+      <lb ed="#L" n="73"/>deus. Postea quaerit vtrum fides sit de incogniris, sicut est de non 
+      <lb ed="#L" n="74"/>visis: &amp; respondet quod in nobis est duplex cognitio seu visio, 
+      <lb ed="#L" n="75"/>vna exterior, quae non pertinet ad fidem, alia interior, &amp; haec est 
+      <lb ed="#L" n="76"/>adhuc duplex, quaedam clara, quae adhuc non pertinet ad fidem, 
+      <lb ed="#L" n="77"/>quaedam obscura, &amp; de sic cognitis per speculum videlicet &amp; in 
+      <lb ed="#L" n="78"/>aenigmate est fides. Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

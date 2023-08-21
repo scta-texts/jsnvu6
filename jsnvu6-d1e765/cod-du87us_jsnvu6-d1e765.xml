@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="39-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e765"><!-- l1d12q2 -->
+            <head xml:id="jsnvu6-d1e765-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e765-Hd1e103" type="question-title">Utrum Spiritus Sanctus plenius seu perfectius procedat a Patre</head>
+            <p xml:id="jsnvu6-d1e765-d1e106">
+               <lb ed="#L" n="150"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="151"/>Vtrum Spiritus sanctus perfectius 
+      pro<lb ed="#L" n="152" break="no"/>cedat a patre quam a filio. 
+      <lb ed="#L" n="153"/>Tho. l. q. 39. ar. 3. ad 2. 
+    </p>
+            <p xml:id="jsnvu6-d1e765-d1e117">
+               <lb ed="#L" n="154"/>AD secundum sic proceditur. Et videtur quod 
+      <lb ed="#L" n="155"/>Spiritus san. plenius vel perfectius procedat a 
+      <lb ed="#L" n="156"/>patre quam a filio, quia propter quod 
+      vnum<lb ed="#L" n="157" break="no"/>quodque tale &amp; illud magis, sed filius habet a 
+      <lb ed="#L" n="158"/>patre quod ab ipso procedat Spiritus sanctus, 
+      <lb ed="#L" n="159"/>ergo magis procedit a patre. 
+      </p>
+            <p xml:id="jsnvu6-d1e765-d1e133">
+               <lb ed="#L" n="160"/>
+               <!--2--> IN CONTRARIVM est, quia vbi est summa ae. 
+      <lb ed="#L" n="161"/>qualitas ibi non potest esse magis vel minus, perfectius vel 
+      im<lb ed="#L" n="162" break="no"/>perfectius, quia summa aequalitas priuat diunem gradum, sed 
+      <lb ed="#L" n="163"/>in diuinis est summa aequalitas, ergo &amp; c. 8.
+</p>
+            <p xml:id="jsnvu6-d1e765-d1e147">
+      <!--00145.xml-->
+               <pb ed="#L" n="40-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>RESPONSIO. Dicenda sunt duo. Primum est quod 
+      <lb ed="#L" n="2"/>Spiritus sanctus non procedit plenius vel perfectius a patre 
+      <lb ed="#L" n="3"/>quam a filio. Secundum est quod procedit ex ipso principalius 
+      <lb ed="#L" n="4"/>Primum patet sic, vbi non est intensio &amp; remissio in principic 
+      <lb ed="#L" n="5"/>virtute cuius plura producunt vnum, ibi productum non ess 
+      <lb ed="#L" n="6"/>perfectius aut plenius ab vno quam ab altero, sed principium 
+      <lb ed="#L" n="7"/>producendi Spiritum sanctum quod est vis spiratiua, non est 
+      <lb ed="#L" n="8"/>perfectius aut plenius in patre quam in filio, cum sit in eis vna 
+      <lb ed="#L" n="9"/>numero non recipiens intensionem &amp; remissionem, nec rationi 
+      <lb ed="#L" n="10"/>essentiae: nec propter naturam respectus si respectum 
+      inclu<lb ed="#L" n="11" break="no"/>dat, ergo Spiritus sanctus non procedit magis vel plenius a 
+      pa<lb ed="#L" n="12" break="no"/>tre quam a filio. 
+</p>
+            <p xml:id="jsnvu6-d1e765-d1e182">
+               <lb ed="#L" n="13"/>Secundum patet sic, principalius est spirare a se quam al 
+      <lb ed="#L" n="14"/>alio, sed pater spirat a se, filius autem ab alio, quia vir tutem 
+      <lb ed="#L" n="15"/>spirandi habet ab alio, scilicet a patre, ergo pater spirat 
+      prin<lb ed="#L" n="16" break="no"/>cipalius quam filius. vnde Augustinus I1. de Trinitate cap. 18 
+      <lb ed="#L" n="17"/>dicit sic. Non frustra inquit in hac Trinit. non dicitur verbun 
+      <lb ed="#L" n="18"/>nisi filius, nec donum nisi Spiritus san. nec de quo est genitun 
+      <lb ed="#L" n="19"/>verbum &amp; de quo principaliter procedit spiritus nisi Deus pa 
+      <lb ed="#L" n="20"/>ter, nec sequitur ex hoc quod filius habeat aliquod minus 
+      pa<lb ed="#L" n="21" break="no"/>tre: quia spirare vel non spirare principaliter non attenditur 
+      <lb ed="#L" n="22"/>secundum aliquid absolutum &amp; essentiale, sed solum secundum 
+      <lb ed="#L" n="23"/>modum habendi vim spiratiuam qui modus est secundum 
+      re<lb ed="#L" n="24" break="no"/>lationem dantis &amp; accipientis. 
+    </p>
+            <p xml:id="jsnvu6-d1e765-d1e211">
+               <lb ed="#L" n="25"/>AD ARGVMENTVM in oppositum dicendum 
+      <lb ed="#L" n="26"/>quod propter quod vnumquodque &amp;c. Non tenet in agentibus 
+      <lb ed="#L" n="27"/>participantibus eandem formam numero aeque perfecte, sed 
+      so<lb ed="#L" n="28" break="no"/>lum in agentibus aequiuocis: vel vniuocis habentibus eandem 
+      <lb ed="#L" n="29"/>formam specie secundum diuersos gradus quorum vnus est 
+      per<lb ed="#L" n="30" break="no"/>fectior altero, vt est de calore in igne &amp; in caeteris. In diuinis 
+      <lb ed="#L" n="31"/>autem pater &amp; filius habent eandem vim numero spiratiuam 
+      <lb ed="#L" n="32"/>a patre, &amp; est eiusdem gradus perfectionis, licet filius habea 
+      <lb ed="#L" n="33"/>eam a patre. Et ideo principalius habet eam pater quam filius. Sed 
+      <lb ed="#L" n="34"/>non habet perfectius, propter quod potest dici quod pater 
+      prin<lb ed="#L" n="35" break="no"/>cipalius spirat quam filius quia a se spirat, sed non perfectius. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

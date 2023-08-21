@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="123-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2694"><!-- l2d7q1 -->
+            <head xml:id="jsnvu6-d1e2694-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e2694-Hd1e103" type="question-title">Utrum angeli boni possint peccare</head>
+            <p xml:id="jsnvu6-d1e2694-d1e106">
+               <lb ed="#L" n="90"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="91"/>Vtrum angeli beati possunt peccare.
+      <lb ed="#L" n="92"/>Thom. 1. 9. 62.4r. 8. b. 
+    </p>
+            <p xml:id="jsnvu6-d1e2694-d1e115">
+               <lb ed="#L" n="93"/>CIRCA distinctionem istam quaeruntur tria. 
+      Pri<lb ed="#L" n="94" break="no"/>mum est de libertate arbitrij bonorum &amp; 
+      malo<lb ed="#L" n="95" break="no"/>rum angelorum. Secundum est de cognitioni 
+      <lb ed="#L" n="96"/>daeimonum. Tertium est de potestate eorum. 
+      Cir<lb ed="#L" n="97" break="no"/>ae ca primum quaeruntur duo. Primum est, Vtrum 
+      <lb ed="#L" n="98"/>angeli beati possint peccare. Secundum est, vtrum angeli mal 
+      <lb ed="#L" n="99"/>possint benefacere. Ad primum sic proceditur. Et arg. quod angel 
+      <lb ed="#L" n="100"/>beati possint peccare, quia gratia &amp; gloria non tollunt naturam 
+      <lb ed="#L" n="101"/>Sed de ratione creaturae est quod possint deficere, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2694-d1e137">
+               <lb ed="#L" n="102"/>
+               <!--2.--> Item quanto aliquid est liberius, tanto minus est 
+      determi<lb ed="#L" n="103" break="no"/>natum. In naturalibus enim quae sunt ad vnum determinata, nihi 
+      <lb ed="#L" n="104"/>est libertatis: Sed lib. arb. in angelis bonis non est minus 
+      libe<lb ed="#L" n="105" break="no"/>rum quam prius (alioquin beatitudo auferret eis aliquid 
+      perfe<lb ed="#L" n="106" break="no"/>ctionis suae:) ergo est aeque indeterminatum vt prius, sed prius 
+      <lb ed="#L" n="107"/>flecti potuerunt ad malum, ergo &amp; nunc. 
+      </p>
+            <p xml:id="jsnvu6-d1e2694-d1e156">
+               <lb ed="#L" n="108"/>
+               <!--3.--> CONTRA. per beatitudinem transformamur in dei 
+      si<lb ed="#L" n="109" break="no"/>militudinem (vt dicitur I. Ioam. 3. Cum apparuerit, similes ei 
+      eri<lb ed="#L" n="110" break="no"/>mus) Sed deus est impeccabilis, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2694-d1e167">
+               <lb ed="#L" n="111"/>
+               <!--4--> RESPONSIO. Videnda sunt duo. Primum est, vnde 
+      <lb ed="#L" n="112"/>conueniat alicui quod peccare non possit. Secundum est, vtrum 
+      <lb ed="#L" n="113"/>illa causa reperiatur in beatis. 
+</p>
+            <p xml:id="jsnvu6-d1e2694-d1e178">
+               <lb ed="#L" n="114"/>QUANTVM ad primum dicendum quod ex hoc 
+      pro<lb ed="#L" n="115" break="no"/>uenit peccatum in electione, quod praecedit aliquis defectus in 
+      <lb ed="#L" n="116"/>ratione defectus inquam erroris, vel nescientiae, vel 
+      inconside<lb ed="#L" n="117" break="no"/>rationis, &amp; vbi non potest esse aliquis defectus in ratione, nullo 
+      <lb ed="#L" n="118"/>modo potest esse peccatum in electione: quod patet dupliciter. 
+      <lb ed="#L" n="119"/>Primo quia sicut se habet habitus ad habitum, sic actus ad actum: 
+      <lb ed="#L" n="120"/>Sed impossibile est aliquem habitum esse vitiosum in voluntate 
+      <lb ed="#L" n="121"/>cum perfecto habitu rationis practicae, ergo non potest esse in 
+      <lb ed="#L" n="122"/>ea aliquis actus vitiosus, nisi actus rationis sit in aliquo 
+      defe<lb ed="#L" n="123" break="no"/>ctuosus. Maior patet. Minor probatur, quia prudentia, quae est 
+      <lb ed="#L" n="124"/>habitus rationis practicae, si est perfecta coexigit omnes 
+      virtu<lb ed="#L" n="125" break="no"/>tes morales, &amp; in ipsam omnes connectuntur, &amp; ideo cum ipsa 
+      <lb ed="#L" n="126"/>non potest stare habitus vitiosus, nisi habitus contrarij simul 
+      <lb ed="#L" n="127"/>essent, quod est impossibile. 
+      </p>
+            <p xml:id="jsnvu6-d1e2694-d1e211">
+               <lb ed="#L" n="128"/>
+               <!--6--> Secundo patet idem sic, cum voluntas sequatur rationem 
+      <lb ed="#L" n="129"/>practicam actus voluntatis, correspondent actibus practice 
+      ra<lb ed="#L" n="130" break="no"/>tionis: Actus autem practicae rationis est duplex, vnus est 
+      re<lb ed="#L" n="131" break="no"/>spectu primorum &amp; vniuersalium principiorum operabilium 
+      <lb ed="#L" n="132"/>(vtpote quod bonum est eligendum, &amp; quod malum est 
+      fugien<lb ed="#L" n="133" break="no"/>dum) Alius est respectu particularium eorum, s. quae 
+      deducun<lb ed="#L" n="134" break="no"/>tur ex primis &amp; vniuersalibus principiis per deliberationem &amp; 
+      <lb ed="#L" n="135"/>consilium. Sic in voluntate sunt duo actus praedictis 
+      duobu<lb ed="#L" n="136" break="no"/>correspondentes. Vnus sequens vniuersale iudicium de agen 
+      <lb ed="#L" n="137"/>dis. Alius sequens consilium &amp; deliberationem de aliquo 
+      parti<lb ed="#L" n="138" break="no"/>culari agibili. Ex hoc sic arguitur, sicut se habet primus actu 
+      <lb ed="#L" n="139"/>voluntatis ad primum actum rationis, sic secundus ad secundum 
+      <lb ed="#L" n="140"/>Sed primus actus voluntatis non potest esse vitiosus, quia 
+      pri<lb ed="#L" n="141" break="no"/>mus actus rationis non potest esse defectuosus, ergo similiter 
+      <lb ed="#L" n="142"/>secundus actus voluntatis eligentis aliquid post consilium &amp; 
+      deli<lb ed="#L" n="143" break="no"/>berationem non potest esse vitiosus, nisi secundus actus rationis, 
+      <lb ed="#L" n="144"/>qui est deliberare vel consiliari sit defectuosus, secundum aliquem 
+      <lb ed="#L" n="145"/>praedictorum defectiuum. Ex quo patet quod posse peccare 
+      con<lb ed="#L" n="146" break="no"/>uenit ereaturae intellectuali, ex hoc quod potest in 
+      consideratio<lb ed="#L" n="147" break="no"/>ne deficere. Et per oppositum paret quod intellectus, qui 
+      sem<lb ed="#L" n="148" break="no"/>per actu considerat absque vllo errore omnia quae sunt circa 
+      ali<lb ed="#L" n="149" break="no"/>quod agibile agendum non potest circa illud peccare, propter 
+      <lb ed="#L" n="150"/>quod deuspeccare non potest, quia actu considerat quaecunque 
+      <lb ed="#L" n="151"/>circa facienda possibilia sunt considerari. Et sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2694-d1e268">
+               <lb ed="#L" n="152"/>
+               <!--7--> Ex hoc patet secundum, s. quod beati non possunt peccare 
+      <lb ed="#L" n="153"/>quia vbi nullus est defectus in ratione, ibi nullum potest essi 
+      <lb ed="#L" n="154"/>peccatum in electione: Sed in beatis nullus est defectus in 
+      co<lb ed="#L" n="155" break="no"/>gnitione. Vident enim in verbo aut alio quocunque modo actu 
+      <lb ed="#L" n="156"/>quicquid ad eos pertinet in vniuersali &amp; in particulari, aliter nam 
+      <lb ed="#L" n="157"/>essent vere beati, neque eorum appetitus quietatus, ergo nullum 
+      <lb ed="#L" n="158"/>peccatum potest accidere in electione eorum. Hoc autem 
+      manife<lb ed="#L" n="159" break="no"/>stius fiet, si videatur quomodo voluntas se habet ad finem &amp; ad 
+      il<lb ed="#L" n="160" break="no"/>lud quod est ad finem. Hoc autem assumendum est ex similitudine 
+      <!--00315.xml-->
+      <pb ed="#L" n="124-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>eorum quae sunt in intellectu. Assentit enim intellectus alicu 
+      <lb ed="#L" n="2"/>tanquam per se noto, scilicet primis principiis, quorum notiri: 
+      <lb ed="#L" n="3"/>vocatur intellectus. Assentit etiam conclusionibus &amp; tanquam 
+      <lb ed="#L" n="4"/>propter aliud notis, &amp; haec notitia vocatur scientia, vel aliquo 
+      <lb ed="#L" n="5"/>alio nomine: &amp; omnes assensus rationis ad alterum istorum re 
+      <lb ed="#L" n="6"/>ducuntur tam in speculatiuis quam in practicis. Sic &amp; 
+      volunta<lb ed="#L" n="7" break="no"/>aliquid vult propter se &amp; illud est finis. Aliud autem propter aliud 
+      <lb ed="#L" n="8"/>(scilicet ea quae sunt ad finem) &amp; primus quidem actus vocatur 
+      <lb ed="#L" n="9"/>velle. Secundus autem eligere, &amp; ad alterum illorum duorum 
+      <lb ed="#L" n="10"/>omnes actus voluntatis reducuntur. His autem sic se habentibus 
+      <lb ed="#L" n="11"/>impossibile est quod voluntas alicuius beati possit appetere aliquid 
+      <lb ed="#L" n="12"/>discordans a bono diuino, quod acceptauit tanquam finem 
+      stan<lb ed="#L" n="13" break="no"/>te voluntate finis, &amp; actuali iudicio in vniuersali &amp; particulari, 
+      <lb ed="#L" n="14"/>de his quae ex fine deducuntur, quia si posset illud discordan 
+      <lb ed="#L" n="15"/>appetere, vel appeteret ipsum vt finem, quod esse non potes 
+      <lb ed="#L" n="16"/>stante voluntate finis oppositi sic accepti, quia opposita non 
+      <lb ed="#L" n="17"/>possunt simul esse volita, vel appeteret ipsum propter finem, 
+      <lb ed="#L" n="18"/>etiam esse non potest, quia deductum esset per actum consilij 
+      <lb ed="#L" n="19"/>quem sequitur electio, quod illud esset appetendum, propter finem 
+      <lb ed="#L" n="20"/>praeacceptatum, &amp; tunc non esset discordans. Cum ergo volur 
+      <lb ed="#L" n="21"/>tas beata semper bonum diuinum velit propter se &amp; tanquam 
+      <lb ed="#L" n="22"/>finem, nec possit ipsum non velle, cum in eo sit ratio boni 
+      per<lb ed="#L" n="23" break="no"/>fecti, &amp; nulla ratio mali, stet etiam semper actualis consideratio 
+      <lb ed="#L" n="24"/>in vniuersali &amp; particulari eorum quae ex fine isto deducuntur 
+      <lb ed="#L" n="25"/>beati pro eo quod semper vident quicquid ad eos pertinet, im 
+      <lb ed="#L" n="26"/>possibile est quod voluntas beatas velit aliquid discordans a 
+      <lb ed="#L" n="27"/>bono diuino, &amp; sic peccare non potest. 
+      </p>
+            <p xml:id="jsnvu6-d1e2694-d1e357">
+               <lb ed="#L" n="28"/>
+               <!--8--> Ex quo patet quod si beati visione beatâ solum videreni 
+      <lb ed="#L" n="29"/>essentiam diuinam, &amp; in ea vel in aliqua alia visione non 
+      vide<lb ed="#L" n="30" break="no"/>rent quae ad eos pertinent voluntas quidem eorum ab ipsa di 
+      <lb ed="#L" n="31"/>uina essentia diuerti non posset, quin ipsam diligeret propter si 
+      <lb ed="#L" n="32"/>&amp; tanquam finem: quia est bonum perfectum in quo nulla ess 
+      <lb ed="#L" n="33"/>ratio mali, tamen posset ea diuerti volendo aliquid discordani 
+      <lb ed="#L" n="34"/>ab ea, propter defectum deductionis eorum quae propter ipsam 
+      <lb ed="#L" n="35"/>sunt eligenda vel refutanda, sicut aliquis volens saluari vult 
+      ni<lb ed="#L" n="36" break="no"/>hilominus fornicari, quia non deducit an fornicari sit 
+      discor<lb ed="#L" n="37" break="no"/>dans ab eo quod est saluari, habita actuali deductione quod 
+      forni<lb ed="#L" n="38" break="no"/>cari non stat cum saluari, impossibile esset quod fornicaretur, sed 
+      <lb ed="#L" n="39"/>quia non deducit ideo fornicatur. 
+</p>
+            <p xml:id="jsnvu6-d1e2694-d1e389">
+               <lb ed="#L" n="40"/>AD PRIMVM argumentum dicendum, quod gratia &amp; 
+      <lb ed="#L" n="41"/>gloria non tollunt naturam sed defectus naturae, peccare autem 
+      <lb ed="#L" n="42"/>non dicit naturam sed naturae defectum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2694-d1e398">
+               <lb ed="#L" n="43"/>
+               <!--10.--> Ad secundum dicendum, quod cum posse peccare non sit 
+      <lb ed="#L" n="44"/>libertas, nec pars libertatis secundum Anselmum, 
+      indetermi<lb ed="#L" n="45" break="no"/>natio per quam potest aliquis flecti ad malum nullam 
+      liberta<lb ed="#L" n="46" break="no"/>tem ponit, nec ablata aufert. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="255-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e210416"><!-- l4d3q2 -->
+            <head xml:id="jsnvu6-e210416-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e210416-Hd1e103" type="question-title">Utrum circa formam baptismi possit aliquid 
+      immutari saluo sacramento</head>
+            <p xml:id="jsnvu6-e210416-d1e106">
+               <lb ed="#L" n="105"/>QVAESTIO SECVNDA 
+      <lb ed="#L" n="106"/>Vtrum circa formam baptismi possit aliquid 
+      <lb ed="#L" n="107"/>immutari saluo sacramento. 
+      <lb ed="#L" n="108"/>Tοm, §. g. 66. . 8. &amp; 6. ar.
+    </p>
+            <p xml:id="jsnvu6-e210416-d1e117">
+               <lb ed="#L" n="109"/>SECVNDO quaeritur vtrum circa formam 
+      baptis<lb ed="#L" n="110" break="no"/>mi possit aliquid immutari saluo sacramento. Et 
+      <lb ed="#L" n="111"/>videtur quod non, quia sicut est in formis rerum 
+      <lb ed="#L" n="112"/>naturalium sic videtur esse in formis 
+      sacramento<lb ed="#L" n="113" break="no"/>galrum, sed facta transmutatione in formis rerum 
+      na<lb ed="#L" n="114" break="no"/>turalium mutatur natura rei formae enim rerum sunt sicut 
+      nu<lb ed="#L" n="115" break="no"/>meri in quibus facta quacunque mutatione mutatur species, vt 
+      <lb ed="#L" n="116"/>dicitur octauo metaphysicae, ergo similiter in formis 
+      sacramen<lb ed="#L" n="117" break="no"/>torum facta quacunque mutatione circa formam sacramenti 
+      <lb ed="#L" n="118"/>mutatur natura sacramenti. 
+      </p>
+            <p xml:id="jsnvu6-e210416-d1e141">
+               <lb ed="#L" n="119"/>
+               <!--2--> Item forma se habet principalius ad naturam rei, quam 
+      ma<lb ed="#L" n="120" break="no"/>teria. Sed cir ea materiam baptismi nihil potest mutari quin 
+      fru<lb ed="#L" n="121" break="no"/>stretur baptismus. Non enim potest fieri nisi in aqua, ergo 
+      for<lb ed="#L" n="122" break="no"/>tiori ratione circa formam nihil potest mutari absque 
+      frustra<lb ed="#L" n="123" break="no"/>tione sacramenti. 
+      </p>
+            <p xml:id="jsnvu6-e210416-d1e158">
+               <lb ed="#L" n="124"/>
+               <!--3--> IN CONTRARIVM est, quia aliam forma vtuntur 
+      La<lb ed="#L" n="125" break="no"/>tini, alia Graeci &amp; tamen vtrique vere baptizant. 
+      </p>
+            <p xml:id="jsnvu6-e210416-d1e167">
+               <lb ed="#L" n="126"/>
+               <!--4--> RESPONSIO. Circa mutationem formae baptismi due 
+      <lb ed="#L" n="127"/>sunt consideranda. Vnum ex parte mutantis, aliud ex parte 
+      for<lb ed="#L" n="128" break="no"/>mae quae mutatur. Ex parte mutantis considerandum est an per 
+      <lb ed="#L" n="129"/>mutationem quam facit interdat inducere errorem, quia si hoc 
+      <lb ed="#L" n="130"/>intendat sacramentum frustratur. Cuius ratio est, quia sacramen. 
+      <lb ed="#L" n="131"/>ta habent virtutem in fide ccclesiae, non personae, sed intendens 
+      <lb ed="#L" n="132"/>inducere errorem, id quod facit, non facit in fide ecclesiae, sed 
+      <lb ed="#L" n="133"/>potius contra fidem ex quo intendit inducere errorem. ergo 
+      tali<lb ed="#L" n="134" break="no"/>non confert verum sacramentum. Hoc autem est verum de illo 
+      <lb ed="#L" n="135"/>qui intendit inducere errorem contra institutionem Christi, &amp; 
+      <lb ed="#L" n="136"/>vsum ecclesiae apostolicae, quia talis non intenderet facere illu 
+      <lb ed="#L" n="137"/>quod facit ecclesia, &amp; illud quod Christus instituit fieri. Sed si 
+      <lb ed="#L" n="138"/>aliquis intenderet in generali facere illud quod Christus 
+      insti<lb ed="#L" n="139" break="no"/>tuit, &amp; quod ecclesia catholica &amp; apostolica obseruat, licet in 
+      <lb ed="#L" n="140"/>speciali erraret, &amp; errorem illum inducere vellet, uon 
+      propter<lb ed="#L" n="141" break="no"/>hoc tolleretur sacramentum. Verbi gratia. Graecus qui conficit 
+      <lb ed="#L" n="142"/>in fermento, quia Christum credit sic confecisse. Si vlterius 
+      cre<lb ed="#L" n="143" break="no"/>deret quod non posset confici in azimo. &amp; hunc errorem 
+      inten<lb ed="#L" n="144" break="no"/>deret introducere, non propter hoc euacuaretur 
+      sacramen<lb ed="#L" n="145" break="no"/>tum, quin vere conficeretur in fermento. Et sicut est de tali 
+      mu<lb ed="#L" n="146" break="no"/>tatione circa materiam eucharistiae, vel alterius sacramenti, sic 
+      <lb ed="#L" n="147"/>est de mutatione circa formam baptismi, quia si habeatur 
+      gene<lb ed="#L" n="148" break="no"/>ralis intentio faciendi quod Christus instituit, &amp; in speciali 
+      er<lb ed="#L" n="149" break="no"/>retur, &amp; errans intendit illum errorem in alios diffundere, ex 
+      <lb ed="#L" n="150"/>hac sola intentione inducendi errorem tunc solum 
+      consideran<lb ed="#L" n="151" break="no"/>dum est qualis mutatio fiat in forma verborum potest autem 
+      <lb ed="#L" n="152"/>fieri mutatio in verbis sex modis, scilicet vocum variatione, 
+      <lb ed="#L" n="153"/>additione, substractione, corruptione, transpositione, &amp; 
+      inter<lb ed="#L" n="154" break="no"/>ruptione. 
+      </p>
+            <p xml:id="jsnvu6-e210416-d1e235">
+               <lb ed="#L" n="155"/>
+               <!--5--> QUANTVM ad primum sciendum, quod variatio vo 
+      <lb ed="#L" n="156"/>cum potest fieri dupliciter: vno modo quo ad voces solum, e 
+      <lb ed="#L" n="157"/>non quoad principalia significata, vel quoad voces &amp; significa 
+      <lb ed="#L" n="158"/>ta simul. Prima mutatio non obest sacramento. Cuius ratio est, 
+      <lb ed="#L" n="159"/>quia verba sacramentorum habent efficaciam ex eo quo 
+      figni<lb ed="#L" n="160" break="no"/>ficant, manente ergo eadem significatione vocum, manet 
+      ea<lb ed="#L" n="161" break="no"/>dem virtus sacramentorum. Qualiscunque variatio fiat circa 
+      <!--00585.xml-->
+      <pb ed="#L" n="256-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>voces, si maneant eadem significata semper est verum 
+      sacramen<lb ed="#L" n="2" break="no"/>tum. Alioquin non possent sacramenta conferri nisi in sermone 
+      <lb ed="#L" n="3"/>Hebraico in quo formae sacramentorum fuerunt a Christo 
+      in<lb ed="#L" n="4" break="no"/>stitutae, vel potius promulgatae, nunc autem potest conferri 
+      quod<lb ed="#L" n="5" break="no"/>cunque sacramentum in quacunque lingua Latina, Hebraica, 
+      Grae<lb ed="#L" n="6" break="no"/>ca, &amp; etiam in omni alia materna. Si vero fiat variatio vocum 
+      <lb ed="#L" n="7"/>&amp; significatorum simul, siue fiat totaliter, vel principaliter 
+      nul<lb ed="#L" n="8" break="no"/>lum est sacramentum. Et primum quidem de se planum est. Si 
+      <lb ed="#L" n="9"/>enim nutrix immergendo puerum diceret, ego balneo te vt melius 
+      <lb ed="#L" n="10"/>possis dormire, nullus esset baptismus propter totalem 
+      muta<lb ed="#L" n="11" break="no"/>tionem significatorum. Similiter est si fiat mutatio 
+      significato<lb ed="#L" n="12" break="no"/>rum quantum ad principalia significata. Si enim dicatur, ego ba 
+      <lb ed="#L" n="13"/>ptizo te in nomine trinitatis, vel in nomine genitoris, geniti, &amp; 
+      <lb ed="#L" n="14"/>procedentis, non est verus baptismus, quia nomen trinitatis non 
+      <lb ed="#L" n="15"/>significat personas diuinas, sed numerum personarum, genitor, 
+      <lb ed="#L" n="16"/>genitus, &amp; procedens licet dent intelligere personas diuinas, ta 
+      <lb ed="#L" n="17"/>men non significat eas principaliter, sed actus notionales 
+      ea<lb ed="#L" n="18" break="no"/>rum. Causa autem horum est, quia licet numerus personarum 
+      <lb ed="#L" n="19"/>non sit aliud quam personae numeratae, &amp; notionales actus sint 
+      <lb ed="#L" n="20"/>idem quod personae, tamen virtus sacramentalis data est illis 
+      <lb ed="#L" n="21"/>verbis quae principaliter significant ea quae sunt de integritate 
+      <lb ed="#L" n="22"/>sacramenti. Et quantum ad baptismum expressio personarum 
+      <lb ed="#L" n="23"/>diuinarum secundum institutionem Christi traditam in 
+      euan<lb ed="#L" n="24" break="no"/>gelio fit per haec verba, pater, &amp; filius, &amp; spiritus sanctus, &amp; non 
+      <lb ed="#L" n="25"/>per alia nisi eis correspondentia secundum diuersitatem 
+      idio<lb ed="#L" n="26" break="no"/>matum, vt dictum est. 
+</p>
+            <p xml:id="jsnvu6-e210416-d1e318">
+               <lb ed="#L" n="27"/>De additione vero notandum est, quod aut est corrumpens ser 
+      <lb ed="#L" n="28"/>sum verum verborum, aut non, si sit corrumpens tunc nullum est 
+      <lb ed="#L" n="29"/>sacramentum: vt si dicatur baptizo te in nomine patris maioris, 
+      <lb ed="#L" n="30"/>&amp; filij minoris, &amp; caetera: quia ista determinatio corrumpit 
+      fi<lb ed="#L" n="31" break="no"/>dem ecclesiae in qua dantur sacramenta. Si vero sit talis 
+      addi<lb ed="#L" n="32" break="no"/>tio quae non corrumpit debitum sensum verborum sacramenti 
+      <lb ed="#L" n="33"/>non tollitur sacramentum, vt si aliquis dicat, ego baptizo te, in 
+      <lb ed="#L" n="34"/>nomine patris omnipotentis, &amp; filij eius vnigeniti, &amp; spiritu 
+      <lb ed="#L" n="35"/>sancti paracleti. Et fortiori ratione est hoc verum quando talis 
+      <lb ed="#L" n="36"/>additio fit in principio, vel in fine, vt fi dicatur. beata virgo te 
+      <lb ed="#L" n="37"/>adiuuet, &amp; baptizo te, &amp;c. vel ego baptizo te, &amp;c. &amp; in fine 
+      di<lb ed="#L" n="38" break="no"/>catur, beata virgo te adiuuet, verus esset baptismus. Si vero 
+      di<lb ed="#L" n="39" break="no"/>ceretur, ego te baptizo in nomine patris, &amp; filij, &amp; spiritus san 
+      <lb ed="#L" n="40"/>cti, &amp; beatae virginis, non esset baptismus si intelligatur in 
+      no<lb ed="#L" n="41" break="no"/>mine beatae virginis sic baptizari, sicut in nomine patris &amp; 
+      fi<lb ed="#L" n="42" break="no"/>lij, &amp;c. quo baptismus consecratur, quia talis sensus esset 
+      con<lb ed="#L" n="43" break="no"/>trarius verae fidei, &amp; per consequens tolleret veritatem 
+      sacra<lb ed="#L" n="44" break="no"/>menti. Si vero intelligitur quod additur in nomine beatae 
+      vir<lb ed="#L" n="45" break="no"/>ginis, non quod nomen beatae virginis aliquid operetur in 
+      for<lb ed="#L" n="46" break="no"/>ma baptismi, sed vt eius intercessio prosit baptizato non 
+      tolli<lb ed="#L" n="47" break="no"/>tur perfectio sacramenti, quia tamen iste sensus est im proprius 
+      <lb ed="#L" n="48"/>nullo modo est istud vel aliud simile faciendum. 
+    </p>
+            <p xml:id="jsnvu6-e210416-d1e368">
+               <lb ed="#L" n="49"/>De substractione vero breuiter sciendum est, quiod si sub. 
+      <lb ed="#L" n="50"/>strahatur aliquid de essentia formae tollitur sacramentum, si 
+      <lb ed="#L" n="51"/>vero tollitur aliquid quod non est de essentia formae, nihilomi 
+      <lb ed="#L" n="52"/>nus remanet perfectum sacramentum: vnde si a forma baptism 
+      <lb ed="#L" n="53"/>tollatur ergo, &amp; a forma sacramenti Eucharistiae tollatur enim 
+      <lb ed="#L" n="54"/>(cum haec sint de forma solum ex institutione ecclesiae) non 
+      <lb ed="#L" n="55"/>propter hoc tollitur sacramentum, quicquid autem tolleretur 
+      <lb ed="#L" n="56"/>aliud, sacramentum esset nullum. 
+      </p>
+            <p xml:id="jsnvu6-e210416-d1e388">
+               <lb ed="#L" n="57"/>
+               <!--8--> Idem dicendum est de corruptione verborum, quia si sit tali: 
+      <lb ed="#L" n="58"/>quae tollat perfectum sensum verborum, quod fit maxime quandc 
+      <lb ed="#L" n="59"/>fit corruptio in principio dictionis, (vt si mutetur prima 
+      sylla<lb ed="#L" n="60" break="no"/>ba de hoc quod est patris, &amp; loco eius dicatur matris, rotaliter 
+      <lb ed="#L" n="61"/>tollitur sensus dictionis) tunc ex tali corruptione verborum 
+      cor<lb ed="#L" n="62" break="no"/>rumpitur sacramentum: si vero sit talis corruptio, quae non 
+      mu<lb ed="#L" n="63" break="no"/>tet perfectum sensum verborum quae fit maxime in fine 
+      dictio<lb ed="#L" n="64" break="no"/>nis (vt si vetula, vel aliquis ignarus linguae Latinae infringendo 
+      <lb ed="#L" n="65"/>linguam diceret, ego te baptizo in nomine patria &amp; filia &amp; 
+      spi<lb ed="#L" n="66" break="no"/>ritui sancta,) nihilominus esset verum sacramentum, sicut 
+      dici<lb ed="#L" n="67" break="no"/>tur de consecratione distin. 4. can. retulerunt. 
+      </p>
+            <p xml:id="jsnvu6-e210416-d1e418">
+               <lb ed="#L" n="68"/>
+               <!--9--> Consimiliter dicendum est de alia mutatione quae fit 
+      pe<lb ed="#L" n="69" break="no"/>transpositionem verborum, non video tamen quod in forma 
+      <lb ed="#L" n="70"/>baptismi possit fieri aliqua ttanspositio verborum quae sit 
+      con<lb ed="#L" n="71" break="no"/>traria sensui siue dicatur in nomine patris, &amp; filij, &amp; spiritus 
+      <lb ed="#L" n="72"/>sancti ego te baptizo, siue in nominatione personarum fiai 
+      <lb ed="#L" n="73"/>transpositio earum, vt si dicatur, in nomine spiritus sancti, &amp; 
+      <lb ed="#L" n="74"/>filij, &amp; patris, quia licet de fide non solum sit numerus 
+      perso<lb ed="#L" n="75" break="no"/>narum, sed etiam ordo earum, ille tamen ordo non est 
+      dura<lb ed="#L" n="76" break="no"/>tionis, vel vocalis expressionis, sed solum originis, qui sufficien 
+      <lb ed="#L" n="77"/>ter in nominibus personarum intelligitur qualicunque ordine 
+      <lb ed="#L" n="78"/>personae exprimantur. 
+      </p>
+            <p xml:id="jsnvu6-e210416-d1e447">
+               <lb ed="#L" n="79"/>
+               <!--10.--> Quantum autem ad interruptionem dicendum est quod si 
+      <lb ed="#L" n="80"/>interruptio sit tanta quod discontinuet intentionem ministri 
+      <lb ed="#L" n="81"/>totaliter tollitur sacramentum, alias non, id est in omnibus 
+      au<lb ed="#L" n="82" break="no"/>tem istis mutationibus sciendum est quod quicunque scienter &amp; 
+      <!--00585.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>sponte mutat aliquid circa formam sacramentorum peccat gra 
+      <lb ed="#L" n="84"/>uiter, etiam si talis mutatio sacramentum non tollat. 
+      </p>
+            <p xml:id="jsnvu6-e210416-d1e469">
+               <lb ed="#L" n="85"/>
+               <!--11--> Ad argumenta. Ad primum dicendum quod sicut variatio fol 
+      <lb ed="#L" n="86"/>marum substantialium quo ad essentialia variat naturam rei: non 
+      <lb ed="#L" n="87"/>autem variatio earum quantum ad accidentalia, sic variatio 
+      cir<lb ed="#L" n="88" break="no"/>ca formas sacramentorum quantum ad essentialia tollit 
+      sacra<lb ed="#L" n="89" break="no"/>mentum &amp; non quantum ad accidentalia. 
+      </p>
+            <p xml:id="jsnvu6-e210416-d1e485">
+               <lb ed="#L" n="90"/>
+               <!--12--> Ad secundum dicendum quod circa materiam baptismi potest 
+      <lb ed="#L" n="91"/>fieri mutatio in accidentibus, vtpote quod aqua sit calida vel 
+      fri<lb ed="#L" n="92" break="no"/>gida, non autem in essentialibus, oportet autem quod semper fiat 
+      <lb ed="#L" n="93"/>in aqua retinente naturam &amp; speciem aquae, &amp; eodem modo 
+      <lb ed="#L" n="94"/>dicendum est de mutatione circa formam. 
+      </p>
+            <p xml:id="jsnvu6-e210416-d1e501">
+               <lb ed="#L" n="95"/>
+               <!--13--> Per idem patet ad argumentum alterius partis: quia 
+      muta<lb ed="#L" n="96" break="no"/>tio formae baptismi inter Latinos &amp; Graecos non est quantum 
+      <lb ed="#L" n="97"/>ad aliquid quod sit de essentia formae. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

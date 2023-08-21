@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="165-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3957"><!-- l2d36q2 -->
+            <head xml:id="jsnvu6-d1e3957-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e3957-Hd1e103" type="question-title">Utrum peccatum sit poena peccati</head>
+            <p xml:id="jsnvu6-d1e3957-d1e106">
+               <lb ed="#L" n="126"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="127"/>Vtrum peccatum sit poena peccati. 
+      <lb ed="#L" n="128"/>Thom. 1. 2. q. 87. ar. 2. 
+    </p>
+            <p xml:id="jsnvu6-d1e3957-d1e115">
+               <lb ed="#L" n="129"/>SECVNDO quaeritur, vtrum peccatum sit 
+      poe<lb ed="#L" n="130" break="no"/>na peccati. Et videtur quod non, quia poenae sunt 
+      <lb ed="#L" n="131"/>medicinae, vt dicitur 2. Ethicorum. Et in 10. 
+      eius<lb ed="#L" n="132" break="no"/>dem dicitur quod poenae sunt inductae vt per ea 
+      <lb ed="#L" n="133"/>zi homines reducantur in bonum virtutis, sed pe 
+      <lb ed="#L" n="134"/>peccatum non reducitur homo in bonum virtutis, sed in 
+      op<lb ed="#L" n="135" break="no"/>positum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3957-d1e133">
+               <lb ed="#L" n="136"/>
+               <!--2--> IN CONTRARIVM est quod dicit Aug. lib. confel 
+      <lb ed="#L" n="137"/>sionum, iussisti domine, &amp; vere sic est, vt sibi poena sit omnis ino 
+      <lb ed="#L" n="138"/>dinatus animus, sed inordinatio animi est malum culpae, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3957-d1e145">
+               <lb ed="#L" n="139"/>
+               <!--3--> RESPONSIO. Dicenda sunt duo. Primum est, quod 
+      pe<lb ed="#L" n="140" break="no"/>catum non est poena peccati per se loquendo. Secundum est q 
+      <lb ed="#L" n="141"/>peccatum potest esse paena peccati concomitatiue. Primum pa 
+      <lb ed="#L" n="142"/>tet, quia sicut se habet habitus ad habitum, sic priuatio ad pri 
+      <lb ed="#L" n="143"/>uationem, sed bonum oppositum malo culpae, &amp; bonum 
+      oppi<lb ed="#L" n="144" break="no"/>situm malo poenae non sunt idem bonum: ergo malum culpae 
+      <lb ed="#L" n="145"/>&amp; malum poenae non sunt idem malum. Culpa igitur per si 
+      <lb ed="#L" n="146"/>nunquam est poena. Maior patet. Minor probatur, quia bonum 
+      <lb ed="#L" n="147"/>quod priuatur per poenam pertinet ad primam perfectionem 
+      <lb ed="#L" n="148"/>seu integi itatem rei, bonum autem quod priuatur per malum 
+      <lb ed="#L" n="149"/>culpae est pertinens ad perfectionem secundam, quae est 
+      ope<lb ed="#L" n="150" break="no"/>ratio. Haec autem non possunt esse vnum, ideo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3957-d1e176">
+               <lb ed="#L" n="151"/>
+               <!--4--> Secundum sic patet vbicumque in malis contingit in idem 
+      coin<lb ed="#L" n="152" break="no"/>cidere actionem cum passione vere aliquid a substantia abjicien 
+      <lb ed="#L" n="153"/>te, ibi concomitantur se culpa &amp; poena (culpa enim, vt dictum 
+      <lb ed="#L" n="154"/>est frequenter, est malum in actione, poena vero in passiont 
+      <!--00398.xml-->
+      <pb ed="#L" n="165-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>abiiciente, quod pertinet ad primam rei integritatem) sed in 
+      <lb ed="#L" n="2"/>pluribus actibus malis actio &amp; passio concomitantur se, sicui 
+      <lb ed="#L" n="3"/>iram, inuidiam, tristitiam, quae sunt quaedam animae 
+      opera<lb ed="#L" n="4" break="no"/>tiones, sequitur immutatio corporis a debita &amp; conuenienti 
+      di<lb ed="#L" n="5" break="no"/>spositione in indebitam. Similiter actus corporales simul 
+      ha<lb ed="#L" n="6" break="no"/>bent in se aliquid actionis &amp; aliquid passionis, inquantum 
+      ho<lb ed="#L" n="7" break="no"/>mo mouet seipsum ratione alterius &amp; alterius partis, &amp; inquam 
+      <lb ed="#L" n="8"/>tum passiones sunt, lassationem &amp; poenam habent, 
+      inquan<lb ed="#L" n="9" break="no"/>tum vero actiones sunt, si sint malae, habent rationem culpae: 
+      <lb ed="#L" n="10"/>&amp; ideo dicturi sunt mali illud Sapien. 5. Lassati sumus in via ini 
+      <lb ed="#L" n="11"/>quitatis, &amp;c. propter quod sicut concomitatur se actio mala &amp; 
+      <lb ed="#L" n="12"/>passio, sic poena &amp; culpa: ideo &amp;c. Isto etiam modo contingi 
+      <lb ed="#L" n="13"/>idem esse meritum &amp; poenam, scilicet concomitatiue, non 
+      au<lb ed="#L" n="14" break="no"/>tem per se &amp; essentialiter: contingit enim bene &amp; meritoris 
+      <lb ed="#L" n="15"/>irasci &amp; tristari, ad quae sequitur vera passio &amp; poena in 
+      cor<lb ed="#L" n="16" break="no"/>pore. Actus etiam corporales boni poenales sunt, sicut &amp; 
+      ma<lb ed="#L" n="17" break="no"/>li: ideo identitas poenae cum culpa vel cum merito est 
+      conco<lb ed="#L" n="18" break="no"/>mitatiua, &amp; non essentialis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3957-d1e235">
+               <lb ed="#L" n="19"/>
+               <!--5--> AD ARGVMENTVM in oppositum dicendum 
+      <lb ed="#L" n="20"/>quod hoc ipsum quod homo laborem &amp; detrimentum patitur 
+      <lb ed="#L" n="21"/>in peccando natum est retrahere hominem a peccato. Et idec 
+      <lb ed="#L" n="22"/>poena adiuncta culpae rationem habet medicinae, adiuncta 
+      au<lb ed="#L" n="23" break="no"/>tem merito auget ipsum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

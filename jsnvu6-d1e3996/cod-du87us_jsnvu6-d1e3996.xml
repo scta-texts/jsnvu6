@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="166-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3996"><!-- l2d37q2 -->
+            <head xml:id="jsnvu6-d1e3996-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e3996-Hd1e103" type="question-title">Utrum Deus sit actor mali poenae vel econverso</head>
+            <p xml:id="jsnvu6-d1e3996-d1e106">
+               <lb ed="#L" n="74"/>QVARITIO SICTNDA. 
+      <lb ed="#L" n="75"/>vtrum Deus sit actor 
+      ma<lb ed="#L" n="76" break="no"/>li poenae. 
+      <lb ed="#L" n="77"/>Thom. 14. 49. ar. 2. 
+    </p>
+            <p xml:id="jsnvu6-d1e3996-d1e117">
+      <!--00399.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="78"/>DEINDE quaeritur, vtrum Deus sit actor mali 
+      <lb ed="#L" n="79"/>poenae. Et videtur quod non, quia omne malum 
+      <lb ed="#L" n="80"/>est praeter intentionem agentis nullus enim 
+      <lb ed="#L" n="81"/>Caspiciens ad malum operatur, sed in actione 
+      di<lb ed="#L" n="82" break="no"/>uina nihil potest contingere praeter eius 
+      inten<lb ed="#L" n="83" break="no"/>tionem, quia quod non est intentum, non videtur esse 
+      praeui<lb ed="#L" n="84" break="no"/>sum: omnia autem sunt a Deo praeuisa, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3996-d1e139">
+               <lb ed="#L" n="85"/>
+               <!--2--> SED CONTRA. Ad eundem pertinet 
+      remunera<lb ed="#L" n="86" break="no"/>tio bonorum, &amp; punitio malorum, sed Dei est remunerare 
+      bo<lb ed="#L" n="87" break="no"/>nos, ergo &amp; punire malos: hoc autem fit per inflictionem 
+      poe<lb ed="#L" n="88" break="no"/>nae, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3996-d1e153">
+               <lb ed="#L" n="89"/>
+               <!--3--> RESPONSIO. Dicendum quod Deus est actor mali 
+      <lb ed="#L" n="90"/>poenae, non tamen potest esse cuiuslibet poenae actor 
+      immedia<lb ed="#L" n="91" break="no"/>te. Primum patet, quia a Deo nihil est negandum, nisi quod 
+      so<lb ed="#L" n="92" break="no"/>nat in aliquam imperfectionem, sed esse actorem mali poenae, 
+      <lb ed="#L" n="93"/>non sonat in aliquam imperfectionem, ergo &amp;c. Minor 
+      proba<lb ed="#L" n="94" break="no"/>tur, quia malum poenae siue sit poena damni, siue poena sensus 
+      <lb ed="#L" n="95"/>consistit in passione: passio autem non est in agente, sed in 
+      pas<lb ed="#L" n="96" break="no"/>so propter quod malum poenae defectum ponit in 
+      patien<lb ed="#L" n="97" break="no"/>te, &amp; non in agente: defectus enim vel est naturae, vel moris 
+      <lb ed="#L" n="98"/>causare autem poenam in alio non arguit imperfectionem 
+      na<lb ed="#L" n="99" break="no"/>turae agentis, sed magis perfectionem naturae, &amp; praedominium 
+      <lb ed="#L" n="100"/>virtutis. Item nec arguit defectum morum, qui contingit 
+      poe<lb ed="#L" n="101" break="no"/>nam iuste infligi, &amp; tunc infligitur absque culpa, ideo &amp;c. 
+      <lb ed="#L" n="102"/>Secundum patet, quia Deus non est immediatus actor 
+      il<lb ed="#L" n="103" break="no"/>lius poenae quae infligitur actione culpae, sed quaedam poenae 
+      <lb ed="#L" n="104"/>sunt huiusmodi, sicut omnes quae ab hominibus iniuste 
+      infe<lb ed="#L" n="105" break="no"/>runtur, ergo &amp;c.
+    </p>
+            <p xml:id="jsnvu6-d1e3996-d1e195">
+               <lb ed="#L" n="106"/>AD ARGVMENTVM in oppositum dicendum 
+      <lb ed="#L" n="107"/>quod malum inquantum malum nunquam est intentum, nec 
+      <lb ed="#L" n="108"/>a natura, neque a Deo, sed nihil prohibet illud quod est malun 
+      <lb ed="#L" n="109"/>naturae, esse bonum in genere moris: sic est de poena iusta, &amp; 
+      <lb ed="#L" n="110"/>hoc modo potest esse intenta. Similiter malum naturae 
+      respe<lb ed="#L" n="111" break="no"/>ctu vnius (puta corruptio respectu bouis) mala est: quae tamen 
+      <lb ed="#L" n="112"/>respectu hominis, qui ex morte eius consequenter iuuatur, 
+      <lb ed="#L" n="113"/>bona est &amp; intenta, &amp; similiter est in omnibus, ideo &amp;c. 
+      Argu<lb ed="#L" n="114" break="no"/>mentum etiam assumit falsum, scilicet quod omne praeuisum sit 
+      <lb ed="#L" n="115"/>intentum, quod non est verum, quia praeuisio, quum pertineat 
+      <lb ed="#L" n="116"/>ad intellectum, est omnium tam bonorum, quam malorum: 
+      in<lb ed="#L" n="117" break="no"/>tentio autem quum sit actus voluntatis, est solum bonorum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

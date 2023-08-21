@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="88-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1854"><!-- l1d38q1 -->
+            <head xml:id="jsnvu6-d1e1854-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e1854-Hd1e103" type="question-title">Utrum scientia Dei sit causa rerum</head>
+            <p xml:id="jsnvu6-d1e1854-d1e106">
+               <lb ed="#L" n="8"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="9"/>Vtrum scientia Dei sit causa rerum. 
+      <lb ed="#L" n="10"/>Thom. l.q. 14. artic. 8. 
+    </p>
+            <p xml:id="jsnvu6-d1e1854-d1e115">
+               <lb ed="#L" n="11"/>CIRCA distinctionem istam primo quaeritur 
+      <lb ed="#L" n="12"/>vtrum scientia Dei sit causa rerum. Et videtu 
+      <lb ed="#L" n="13"/>quod non, quia omnis causa habet aliquem actum 
+      <lb ed="#L" n="14"/>per quem potest producere effectum si sit 
+      perfe<lb ed="#L" n="15" break="no"/>cta causa, vel cooperatur ad productionem 
+      effe<lb ed="#L" n="16" break="no"/>ctus si sit imperfecta, sed scientia dei nullum actum habet quo 
+      <lb ed="#L" n="17"/>possit producere vel cooperari ad productionem rerum, 
+      er<lb ed="#L" n="18" break="no"/>go &amp;c. Maior patet, sed minor probatur, quia actus scientia 
+      <lb ed="#L" n="19"/>non est nisi scire, sed scire diuinum principalius sed extendit ad 
+      <lb ed="#L" n="20"/>ea quae non sunt factibilia vt ad essentiam diuinam, &amp; ea qua 
+      <lb ed="#L" n="21"/>sunt in essentia diuina, quam ad creaturas, ergo scire non est 
+      <lb ed="#L" n="22"/>actus operans, nec cooperans ad productionem rerum scitarum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1854-d1e144">
+               <lb ed="#L" n="23"/>
+               <!--2--> IN CONTRARIVM est quod dicit Augu. 15. de 
+      <lb ed="#L" n="24"/>trinit. quod vniuersas creaturas corporales &amp; spirituales, non quia 
+      <lb ed="#L" n="25"/>sunt ideo nouit eas deus, sed ideo sunt, quia nouit. 
+      </p>
+            <p xml:id="jsnvu6-d1e1854-d1e156">
+               <lb ed="#L" n="26"/>
+               <!--3--> RESPONSIO. Scientiam dei esse causam rerum ne 
+      <lb ed="#L" n="27"/>mo ambigit, qui ponit deum esse causam rerum, quum scientia 
+      <lb ed="#L" n="28"/>dei sit essentialiter ipse deus, sed hoc non intendit quaerere 
+      <lb ed="#L" n="29"/>quaestio, sed intendit quod quum in omni causa sit dare ratio 
+      <lb ed="#L" n="30"/>nem secundum quam causat, sicut ignis secundum quod est ca 
+      <lb ed="#L" n="31"/>lidus calefacit, sic licet in deo omnia essentialia sint vnum 
+      se<lb ed="#L" n="32" break="no"/>cundum rem, differunt tamen secundum rationem, propter 
+      <lb ed="#L" n="33"/>quod aliquid attribuitur deo ratione vnius, quod non 
+      attribui<lb ed="#L" n="34" break="no"/>tur ei ratione alterius, dicimus enim quod deus intelligit 
+      intel<lb ed="#L" n="35" break="no"/>lectu, &amp; voluntare vult, non autem intelligit voluntate, nec vult 
+      <lb ed="#L" n="36"/>intellectu, quamuis intellectus &amp; voluntas sint vnum secundum 
+      <lb ed="#L" n="37"/>rem in deo, &amp; ideo quaerit haec quaestio, vtrum scientia dei sit 
+      <lb ed="#L" n="38"/>ei ratio causandi res scitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e1854-d1e189">
+               <lb ed="#L" n="39"/>
+               <!--4.--> Et dicendum quod scientia dei est causa creaturarum per 
+<lb ed="#L" n="40"/>modum dirigentis, Voluntas autem est causa per modum 
+      in<lb ed="#L" n="41" break="no"/>clinantis &amp; inducentis. Neutra autem est immediata causa, Pe 
+      <lb ed="#L" n="42"/>† tentia vero est causa rerum, sicut exequens &amp; immediate 
+      mo<lb ed="#L" n="43" break="no"/>uens, haec autem patent. Primo propriis rationibus, deinde 
+      qua<lb ed="#L" n="44" break="no"/>dam ratione communi. 
+      </p>
+            <p xml:id="jsnvu6-d1e1854-d1e207">
+               <lb ed="#L" n="45"/>
+               <!--5--> Prima conclusio patet sic, quia omnis habitus vel 
+      cogniti<lb ed="#L" n="46" break="no"/>quae habet rationem artis respectu aliquorum habet rationem 
+      <lb ed="#L" n="47"/>dirigentis respectu factionis eorum, hoc patet ex ratione 
+      arti<lb ed="#L" n="48" break="no"/>quae ponitur 6. Ethic. quod ars est recta ratio factibilium, sed scien 
+      <lb ed="#L" n="49"/>tia dei habet rationem artis respectu creaturarum cum sint? 
+      <lb ed="#L" n="50"/>deo factibiles, propter quod dicitur Sa. 7. omnium est artifex, 
+      <lb ed="#L" n="51"/>&amp;c. ergo scientia dei habet rationem causae dirigentis respectu 
+      <lb ed="#L" n="52"/>creationis rerum. Nisi quod notandum est quod aliter dirigit in 
+      <lb ed="#L" n="53"/>factione rerum scientia, &amp; aliter idea. Idea enim dirigit solum 
+      <lb ed="#L" n="54"/>per modum exemplaris, quod vt sic nihil est ipsius agentis, sed 
+      <lb ed="#L" n="55"/>solum obiectiue sese habet ad ipsum, scientia vero vel ars 
+      di<lb ed="#L" n="56" break="no"/>rigit, vt habitus quo habetur vera &amp; certa cognitio de 
+      exem<lb ed="#L" n="57" break="no"/>plari &amp; exemplato, est aliquid ipsius operantis, &amp; se habet ac 
+      <lb ed="#L" n="58"/>ipsum subiectiue secundum nostrum modum intelligendi. 
+      </p>
+            <p xml:id="jsnvu6-d1e1854-d1e242">
+               <lb ed="#L" n="59"/>
+               <!--6--> Secunda conclusio sic patet, omne agens libere mouet ad 
+      <lb ed="#L" n="60"/>agendum per id quod est in eo summe libertatis, sed Deus agit 
+      <lb ed="#L" n="61"/>res liberrime, &amp; non ex aliqua necessitate, ergo ad earum 
+      pro<lb ed="#L" n="62" break="no"/>ductionem mouet voluntas quae est summae libertatis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1854-d1e255">
+               <lb ed="#L" n="63"/>
+               <!--1.--> Tertia conclusio patet, scilicet, quod nec scientia nec 
+      vo<lb ed="#L" n="64" break="no"/>luntas sint immediata causa rerum, quia illi actus qui secundum 
+      <lb ed="#L" n="65"/>suam propriam rationem aequaliter se habent ad credibilia &amp; 
+      <lb ed="#L" n="66"/>non creabilia non sunt secundum suam propriam rationem 
+      <lb ed="#L" n="67"/>principium seu causa producendi aliquid, quia qua ratione essent 
+      <lb ed="#L" n="68"/>ratio producendi creabilia, eadem ratione essent causa seu 
+      prin<lb ed="#L" n="69" break="no"/>cipium producendi non creabilia, cum ab vtraque habeant 
+      si<lb ed="#L" n="70" break="no"/>milem habitudinem, sed actus intelligendi diuinus &amp; volendi 
+      <lb ed="#L" n="71"/>considerati secundum suam propriam rationem aequaliter se 
+      <lb ed="#L" n="72"/>habent ad creabilia, &amp; non creabilia, quia praecise considerat 
+      <lb ed="#L" n="73"/>secundum suas proprias rationes transeunt solum secundum 
+      <lb ed="#L" n="74"/>rationem in haec &amp; in illa, &amp; non secundum rem. Non enim 
+      <lb ed="#L" n="75"/>transeunt in haec &amp; in illa nisi tanquam in cognita &amp; volita, &amp; 
+      <lb ed="#L" n="76"/>quantum praecise pertinent ad rationem cognoscendi &amp; 
+      vo<lb ed="#L" n="77" break="no"/>lendi non transeunt aliter in ea, ergo praedicti actus 
+      conside<lb ed="#L" n="78" break="no"/>rati in Deo secundum suas proprias rationes, non sunt ei 
+      ra<lb ed="#L" n="79" break="no"/>tio producendi immediate aliquid. 
+      </p>
+            <p xml:id="jsnvu6-d1e1854-d1e297">
+               <lb ed="#L" n="80"/>
+               <!--8--> Quarta conclusio patet sic, conuertendo rationem prius f¬ 
+      <!--00242.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>ctam, illud cuius actus transit in alterum, potest esse 
+      immedia<lb ed="#L" n="82" break="no"/>ta ratio producendi alterum, sed inter illa de quibus nunc agitur, 
+      <lb ed="#L" n="83"/>&amp; quae concurrunt ad productionem creaturae quae sunt scien 
+      <lb ed="#L" n="84"/>tia, voluntas, &amp; potentia, sola potentia est illud cuius actus tran 
+      <lb ed="#L" n="85"/>sit in alterum, ergo &amp;c. Minor patet per diffinitionem potentiae! 
+      <lb ed="#L" n="86"/>actiuae, quam ponit Philo. 5. Meta. quod potentia actiua est 
+      princi<lb ed="#L" n="87" break="no"/>pium transmutandi alterum secundu quod alterum, sicut enim 
+      <lb ed="#L" n="88"/>haec diffinitio est propria potentiae actiuae creatae, quae 
+      suppo<lb ed="#L" n="89" break="no"/>nit subiectum quod transmutat, sic ratio potentiae actiuae 
+      in<lb ed="#L" n="90" break="no"/>creatae quae nihil supponit est ratio producendi alterum 
+      secun<lb ed="#L" n="91" break="no"/>dum quod alterum. Haec autem patent vnica ratione quae talis est, 
+      <lb ed="#L" n="92"/>quem ordinem realem habent inter se &amp; respectu actionis scientia, 
+      <lb ed="#L" n="93"/>voluntas, &amp; potentia, in illis in quibus differunt realiter, talem 
+      <lb ed="#L" n="94"/>ordinem rationis habent inter se, &amp; respectu actionis in Deo 
+      <lb ed="#L" n="95"/>in quo solum differunt secundum rationem, sed in nobis in 
+      qui<lb ed="#L" n="96" break="no"/>bus tria praedicta differunt realiter, est talis ordo realis eorum 
+      <lb ed="#L" n="97"/>respectu actionis, quod scientia est solum dirigens respectu 
+      actio<lb ed="#L" n="98" break="no"/>nis, voluntas vero inclinat ad agendum. Sed neutrum horum 
+      <lb ed="#L" n="99"/>immediate elicit actionem per quam res producitur, sed hoc 
+      <lb ed="#L" n="100"/>tantum facit potentia motiua &amp; executiua, ergo similis ordo 
+      <lb ed="#L" n="101"/>secundum rationem est inter ista tria vt sunt in Deo, scilicet, q 
+      <lb ed="#L" n="102"/>scientia est dirigens, voluntas vero inclinans, &amp; neutrum horum 
+      <lb ed="#L" n="103"/>est immediata ratio producendi, sed solum potentia exequens. 
+      </p>
+            <p xml:id="jsnvu6-d1e1854-d1e359">
+               <lb ed="#L" n="104"/>
+               <!--9--> AD ARGVMENTVM dicendum quod eo 
+      mod<lb ed="#L" n="105" break="no"/>quo aliquid est causa, habet actum quo operatur vel 
+      coopera<lb ed="#L" n="106" break="no"/>tur ad producendum effectum, scientia autem non est causa 
+      <lb ed="#L" n="107"/>alicuius immediata, sed remota, &amp; solum per modum 
+      dirigen<lb ed="#L" n="108" break="no"/>tis, &amp; ideo actus eius qui est scire non operatur, nec coopera 
+      <lb ed="#L" n="109"/>tur immediate ad productionem alicuius rei, sed solum media 
+      <lb ed="#L" n="110"/>te &amp; directiue, nec tamen oportet quod respectu omnium sci 
+      <lb ed="#L" n="111"/>torum sit directiuum practice (hoc est ad operandum) sed eo 
+      <lb ed="#L" n="112"/>rum solum quae subsunt voluntati inclinanti &amp; potentiae exe 
+      <lb ed="#L" n="113"/>quenti. Haec enim tria concurrunt ad productionem cuiuslibe 
+      <lb ed="#L" n="114"/>rei ab agente per intellectum, &amp; libere, essentia autem diuina 
+      <lb ed="#L" n="115"/>&amp; illa quae sunt in ipsa non subsunt potentiae diuinae vt sint vel 
+      <lb ed="#L" n="116"/>non sint, sed solum creaturae, ideo &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

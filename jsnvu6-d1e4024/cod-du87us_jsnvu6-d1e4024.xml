@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="166-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e4024"><!-- l2d38q1 -->
+            <head xml:id="jsnvu6-d1e4024-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e4024-Hd1e103" type="question-title">Utrum bonitas actus voluntatis sit ex fine</head>
+            <p xml:id="jsnvu6-d1e4024-d1e106">
+               <lb ed="#L" n="71"/>QVAISTIO PRIMA. 
+      <lb ed="#L" n="72"/>Vtrum bonitas actus voluntatis sit 
+      <lb ed="#L" n="73"/>ex fine. 
+      <lb ed="#L" n="74"/>Thum. 1 a. 4. 1.ar. 3. &amp; q. 3. aric. ..&amp; 4.
+    </p>
+            <p xml:id="jsnvu6-d1e4024-d1e117">
+      <!--00400.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="75"/>CIRCA distinctionem istam primo quaeritur, 
+      <lb ed="#L" n="76"/>vtrum bonitas actus voluntatis sit ex fine. Et 
+      <lb ed="#L" n="77"/>videtur quod sic, quia motus recipit speciem a 
+      </p>
+            <p xml:id="jsnvu6-d1e4024-d1e130">
+               <lb ed="#L" n="78"/>
+               <!--1--> termino, sed terminus actus voluntatis est finis, 
+      <lb ed="#L" n="79"/>Iergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e4024-d1e140">
+               <lb ed="#L" n="80"/>Item Boetius in Topicis suis dicit quod cuius finis bonus 
+      <lb ed="#L" n="81"/>est, ipsum quoque bonum est: ergo bonitas finis causat 
+      boni<lb ed="#L" n="82" break="no"/>tatem operis. 
+      </p>
+            <p xml:id="jsnvu6-d1e4024-d1e149">
+               <lb ed="#L" n="83"/>
+               <!--3--> IN CONTRARIVM atguitur, quia euangelizare 
+      <lb ed="#L" n="84"/>bonum est, manducare bonum est, tamen euangelizare 
+      pro<lb ed="#L" n="85" break="no"/>pter manducare non bonum est, ergo bonitas operis non est 
+      <lb ed="#L" n="86"/>ex bonitate finis. 
+      </p>
+            <p xml:id="jsnvu6-d1e4024-d1e162">
+               <lb ed="#L" n="87"/>
+               <!--4--> RESPONSIO. Quum quaestio sit de bonitate morali 
+      <lb ed="#L" n="88"/>actus voluntatis videnda sunt duo. Primum est, quis actus 
+      dica<lb ed="#L" n="89" break="no"/>tur moralis, &amp; quare. Secundum est, in quo consistat bonitas actus 
+      <lb ed="#L" n="90"/>moralis ipsius voluntatis. &amp; ex his apparebit illud quod quaeritur.
+</p>
+            <p xml:id="jsnvu6-d1e4024-d1e175">
+               <lb ed="#L" n="91"/>QUANTVM Ad primum sciendum est quod actus 
+      mo<lb ed="#L" n="92" break="no"/>ralis dicitur actus qui est in potestate voluntatis, siue sit ab ea 
+      <lb ed="#L" n="93"/>elicitus siue imperatus. Et dicitur moralis a more seu 
+      consuetu<lb ed="#L" n="94" break="no"/>dine, quia per morem seu consuetudinem possumus nos habere 
+      <lb ed="#L" n="95"/>diuersimode circa tales actus, inquantum assuescimus sic vel 
+      ali<lb ed="#L" n="96" break="no"/>ter operari, &amp; omnes tales actus sunt liberi. Circa actus enim 
+      <lb ed="#L" n="97"/>pure naturales consuetudo vel mos non habet locum. Si 
+      qui<lb ed="#L" n="98" break="no"/>enim proiiciat lapidem sursum centies millesies, nunquam assue. 
+      <lb ed="#L" n="99"/>scet ascendere, quia motus eius sursum vel deorsum non est liber, 
+      <lb ed="#L" n="100"/>sed vnus est violentus, &amp; alter naturalis. Et propter hoc quod actui 
+      <lb ed="#L" n="101"/>morales liberi sunt, &amp; in potestate nostra: idcirco secundum 
+      <lb ed="#L" n="102"/>eos laudamur, vel vituperamur, inquantum sunt boni vel mali¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e4024-d1e204">
+               <lb ed="#L" n="103"/>
+               <!--6--> ET EST adnertendum quod praedicti actus morales sunt 
+      <lb ed="#L" n="104"/>quaedam res in esse naturae, sed dicuntur morales, propter 
+      ratio<lb ed="#L" n="105" break="no"/>nem iam dictam, &amp; quamuis esse morale nihil reale addat super 
+      <lb ed="#L" n="106"/>naturalem talium actuum entitatem: tamen aliud iudicium est 
+      <lb ed="#L" n="107"/>de eis secundum esse suae naturae, &amp; secundum mores, seu 
+      se<lb ed="#L" n="108" break="no"/>cundum genus moris. Actus enim temperatus &amp; intemperatus 
+      <lb ed="#L" n="109"/>sunt eiusdem speciei in esse naturae, sed in esse morali dicuntur 
+      <lb ed="#L" n="110"/>contrarij. Quod in esse naturae sint eiusdem speciei patet, quia 
+      <lb ed="#L" n="111"/>illi actus sunt eiusdem speciei in esse naturae, quorum sunt 
+      ea<lb ed="#L" n="112" break="no"/>dem principia secundum speciem, sed actuum praecedentium 
+      <lb ed="#L" n="113"/>huiusmodi habitus sunt eadem principia secundum speciem in 
+      <lb ed="#L" n="114"/>esse naturae, &amp; ex parte appetitus &amp; appetentis, &amp; ex parte 
+      ob<lb ed="#L" n="115" break="no"/>iecti. Si enim duo concupiscunt iacere cum eadem muliere, quae 
+      <lb ed="#L" n="116"/>est vxor vnius, &amp; non alterius, quicquid pertinet ad esse 
+      natu<lb ed="#L" n="117" break="no"/>rae, totum est vnius speciei ex vtraque, &amp; tamen vnus actus est 
+      <lb ed="#L" n="118"/>intemperatus, &amp; alius temperatus, quare &amp;c. Patet secundo, 
+      <lb ed="#L" n="119"/>quia de actibus appetitus sensitiui in nobis &amp; in brutis, quantum 
+      <lb ed="#L" n="120"/>ad esse naturae est idem iudicium (quod enim appetitus 
+      sensiti<lb ed="#L" n="121" break="no"/>uus in nobis obediat rationi: non autem in brutis potest 
+      qui<lb ed="#L" n="122" break="no"/>dem facere differentiam in moribus, sed non in esse naturae) sed 
+      <lb ed="#L" n="123"/>in brutis appetitus sensitiui sunt eiusdem speciei quantum ad esse 
+      <lb ed="#L" n="124"/>naturae, respectu omnium obiectorum quae non differunt 
+      spe<lb ed="#L" n="125" break="no"/>cie in esse naturae, ergo &amp; in nobis. In esse tamen morali non 
+      di<lb ed="#L" n="126" break="no"/>cuntur esse vnius speciei, imo sunt oppositi, &amp; vnus est bonus, &amp; 
+      <lb ed="#L" n="127"/>alius est malus. 
+      </p>
+            <p xml:id="jsnvu6-d1e4024-d1e263">
+               <lb ed="#L" n="128"/>
+               <!--7--> QUANTVM ad secundum, scilicet quid sit bonitas 
+      mo<lb ed="#L" n="129" break="no"/>ralis, &amp; in quo consistit. Sciendum est quod quum ratio boni fit 
+      <lb ed="#L" n="130"/>ratio conuenientis, sicut bonum naturae consistit in esse 
+      conue<lb ed="#L" n="131" break="no"/>niens naturae, sic bonitas moralis actus voluntatis consistit in 
+      <lb ed="#L" n="132"/>conuenientia eius ad rationem rectam. Quod patet dupliciter. 
+      <lb ed="#L" n="133"/>Primo ex ratione boni sic, bonitas moralis, actus voluntatis est 
+      <lb ed="#L" n="134"/>conuenientia eius ad hominem secundum esse morale, sed 
+      ho<lb ed="#L" n="135" break="no"/>mo habet primo esse morale per rationem practicam, per quam 
+      <lb ed="#L" n="136"/>habet primo liberum iudicium de eligibilibus, haec autem non 
+      <lb ed="#L" n="137"/>est conueniens nisi sit recta: ergo bonitas moralis actus 
+      volun<lb ed="#L" n="138" break="no"/>tatis, &amp; cuiuscunque alterius est conuenientia eius ad rectam 
+      <lb ed="#L" n="139"/>rationem. Secundo patet idem ex comparatione actus rationis 
+      <lb ed="#L" n="140"/>ad actum voluntatis sic, Sicut se habet veritas rationis ad 
+      enti<lb ed="#L" n="141" break="no"/>tatem rerum, sic bonitas voluntatis ad veritatem rationis, causa 
+      <lb ed="#L" n="142"/>huius est, quia sicut obiectum intellectus sunt res exteriores, sic 
+      <lb ed="#L" n="143"/>bonuin a ratione propositum est obiectum voluntatis, sed 
+      veri<lb ed="#L" n="144" break="no"/>tas rationis est conformitas eius ad entitatem rerum: vnde 
+      diffi<lb ed="#L" n="145" break="no"/>nitur veritas, quod est adaequatio intellectus ad rem: ergo 
+      simi<lb ed="#L" n="146" break="no"/>liter bonitas actus voluntatis est conformitas eius ad 
+      rectitu<lb ed="#L" n="147" break="no"/>dinem rationis. Huic etiam concordat dictum commune, scilicet 
+      <lb ed="#L" n="148"/>quod bonitas cuiuslibet rei consistit in conformitate ad suam 
+      re<lb ed="#L" n="149" break="no"/>gulam: ratio autem est regula voluntatis: semper enim non 
+      co<lb ed="#L" n="150" break="no"/>gnoscentia nata sunt regularia cognoscentibus, ideo &amp;c. Haec 
+      <lb ed="#L" n="151"/>autem conuenientia vel conformitas actus voluntatis cum ipsa 
+      <lb ed="#L" n="152"/>ratione non attenditur secundum esse naturae vt talis sit actu: 
+      <lb ed="#L" n="153"/>voluntatis quo ad esse naturae, qualis est actus rationis, sed seci 
+      <lb ed="#L" n="154"/>dum tendentiam in obiectum, vt in illud tendat actus 
+      volunta<lb ed="#L" n="155" break="no"/>tis eligendo quod recta ratio prius dictauit eligendum. 
+      </p>
+            <p xml:id="jsnvu6-d1e4024-d1e329">
+               <lb ed="#L" n="156"/>
+               <!--8--> Ex his patet tertium videlicet a quo actus voluntatis ha¬ 
+      <!--00401.xml-->
+      <pb ed="#L" n="167-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>bet bonitatem moralem, quia tota bonitas moralis actus 
+      vo<lb ed="#L" n="2" break="no"/>luntatis est ex suo obiecto accepto secundum totalem ambitum 
+      <lb ed="#L" n="3"/>obiecti, quod patet, secundum hoc enim attenditur conformita 
+      <lb ed="#L" n="4"/>inter voluntatem &amp; rationem, quia voluntas vult quod ratio 
+      di<lb ed="#L" n="5" break="no"/>ctat sed omne quod est a ratione dictatum vel a voluntate voli 
+      <lb ed="#L" n="6"/>tum est obiectum, vel cadit sub ratione obiecti rationis &amp; volur 
+      <lb ed="#L" n="7"/>tatis, ergo &amp;c. Minor patet, quia sicut omne quod est visum ca 
+      <lb ed="#L" n="8"/>dit sub ratione obiecti visus, &amp; omne quod est auditum cadit sul 
+      <lb ed="#L" n="9"/>ratione obiecti auditus. Sic omne cognitum dictatum vel 
+      ratio<lb ed="#L" n="10" break="no"/>ne est obiectum rationis vel cadit sub ratione obiecti, &amp; omne 
+      <lb ed="#L" n="11"/>volitum sub obiecto voluntatis, omne enim in quo fertur quae 
+      <lb ed="#L" n="12"/>cunque potentia est obiectum eius, vnde licet plurium volitorum 
+      <lb ed="#L" n="13"/>vnum possit esse circunstantia vel sinis alterius, omnia tamet 
+      <lb ed="#L" n="14"/>respectu voluntatis habent rationem obiecti, patet ergo 
+      quo<lb ed="#L" n="15" break="no"/>bonitas &amp; conformitas voluntatis ad rationem est totalite 
+      <lb ed="#L" n="16"/>ex obiecto sicut ex fundamento, nec oportet aliam causam quae 
+      <lb ed="#L" n="17"/>rere nisi forte velles inquirere a quo mouetur voluntas in ob 
+      <lb ed="#L" n="18"/>iectum sibi a ratione propositum, de quo alibi dictum est: nec istud 
+      <lb ed="#L" n="19"/>discrepat a communi dicto quod bonitas actus voluntatis est ex ob 
+      <lb ed="#L" n="20"/>jecto, &amp; ex fine &amp; ex circunstantiis, nec alterum istorum 
+      suffi<lb ed="#L" n="21" break="no"/>cit, sed oportet omnia concurrere, quia bonum est ex tota 
+      cau<lb ed="#L" n="22" break="no"/>sa secundum Dionysium, quia haec omnia comparata ad volun 
+      <lb ed="#L" n="23"/>tatem cadunt sub iatione obiecti, vt probatum est, sed 
+      compa<lb ed="#L" n="24" break="no"/>rata inter se vnum est finis vel circunstantia alterius, verbi 
+      grati<lb ed="#L" n="25" break="no"/>in volente dare eleemosinam indigenti propter Deum, 
+      dari<lb ed="#L" n="26" break="no"/>eleemosinam est principale obiectum, sed quod hoc fiat propte 
+      <lb ed="#L" n="27"/>Deum habet rationem finis, &amp; indigentia eius cui datur 
+      ratio<lb ed="#L" n="28" break="no"/>nem circunstantiae, ex quibus omnibus actus voluntatis sorti 
+      <lb ed="#L" n="29"/>tur bonitatem moralem, &amp; tamen haec omnia cadunt sub ratio 
+      <lb ed="#L" n="30"/>ne obiecti voluntatis sumpti secundum suum totum ambitum 
+      </p>
+            <p xml:id="jsnvu6-d1e4024-d1e407">
+               <lb ed="#L" n="31"/>
+               <!--9--> Sed praemissis obuiare videtur, quia contingit actum volun 
+      <lb ed="#L" n="32"/>tatis esse bonum qui tamen non conformatur rationi recte sec 
+      <lb ed="#L" n="33"/>erroneae, vt cum aliquis vult reddere debitum mulieri, petenti 
+      <lb ed="#L" n="34"/>quae non est sua quam tamen credit esse suam sicut fuit de 
+      Ia<lb ed="#L" n="35" break="no"/>cob, &amp; Ly2. Et dicendum ad hoc quod etiam in tali casu actus 
+      <lb ed="#L" n="36"/>voluntatis conformatur rationi rectae seu verae quia actus 
+      ra<lb ed="#L" n="37" break="no"/>tionis cui debet conformari actus voluntatis est conclusio syl 
+      <lb ed="#L" n="38"/>logismi practici quae est vera dato quod aliqua praemissarum si 
+      <lb ed="#L" n="39"/>falsa, &amp; si arguatur sic, debitum est ieddendum vxori. Sed es 
+      <lb ed="#L" n="40"/>vxor, ergo est ei reddendum debirum. In hoc syllogismo lice 
+      <lb ed="#L" n="41"/>minor sit falsa quia ista non est vxor. Conclusio tamen est 
+      ver<lb ed="#L" n="42" break="no"/>quia ei quae non est ixor: creditur tamen esse vxor adhibit: 
+      <lb ed="#L" n="43"/>debita diligentia quae in talibus adhiberi consueuit licitum est 
+      <lb ed="#L" n="44"/>reddere debitum, quia talis ignorantia excusat, &amp; huic 
+      conclu<lb ed="#L" n="45" break="no"/>sioni verae conformatur actus voluntatis sequentis. 
+      </p>
+            <p xml:id="jsnvu6-d1e4024-d1e444">
+               <lb ed="#L" n="46"/>
+               <!--10--> AD PRIMVM argumentum dicendum quod termini 
+      <lb ed="#L" n="47"/>actus voluntatis est suum obiectum, in ipsum enim tendit volunta 
+      <lb ed="#L" n="48"/>nec in finem tendit nisi vt cadit sub ratione obiecti vt dictum est 
+      </p>
+            <p xml:id="jsnvu6-d1e4024-d1e455">
+               <lb ed="#L" n="49"/>
+               <!--11--> Ad secundum dicendum quod plurium volitorum vnum pr 
+      <lb ed="#L" n="50"/>test esse finis alterius. Et si illud quod est finis sit bonum &amp; il 
+      <lb ed="#L" n="51"/>lud quod ordinatur ad ipsum erit bonum dummodo sit 
+      ord<lb ed="#L" n="52" break="no"/>rerum per se, sicut ordinatur domus ad habitationem. Si 
+      au<lb ed="#L" n="53" break="no"/>tem talis ordo fit ex sola intentione ordinantis &amp; non ex 
+      na<lb ed="#L" n="54" break="no"/>tura rerum, non etiam oportet, potest enim quis ordinare 
+      fur<lb ed="#L" n="55" break="no"/>tum ad subueniendum pauperi, nec tamen pi opter hoc furtum 
+      <lb ed="#L" n="56"/>est bonum, respectu tamen voluntatis nullum volitum inquar 
+      <lb ed="#L" n="57"/>tum huiusmodi habet rationem finis, sed solum obiecta, sec 
+      <lb ed="#L" n="58"/>finis voluntatis est finis actus sicut in caeteris rebus, qui si sit 
+      <lb ed="#L" n="59"/>bonus voluntas dicitur bona, si malus mala¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e4024-d1e484">
+               <lb ed="#L" n="60"/>
+               <!--12--> AD ARGVMENTVM alterius partis dicendum 
+      <lb ed="#L" n="61"/>quod voluntas quae vult euangelizare propter manducare ma 
+      <lb ed="#L" n="62"/>la est, quia sequitur rationem errantem, finis enim non solum 
+      <lb ed="#L" n="63"/>debet esse bonus, sed debet esse melior his quae sunt ad finem 
+      <lb ed="#L" n="64"/>&amp; ideo licet manducare sit bonum, tamen non est bonus fini 
+      <lb ed="#L" n="65"/>euangelizandi, propter hoc ratio quae hoc dictat, erronea est, 
+      <lb ed="#L" n="66"/>&amp; voluntas quae hoc vult, est mala
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

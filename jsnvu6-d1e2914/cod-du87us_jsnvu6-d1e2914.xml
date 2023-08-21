@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="131-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2914"><!-- l2d12q2 -->
+            <head xml:id="jsnvu6-d1e2914-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e2914-Hd1e103" type="question-title">Utrum Deus potuerit producere materiam primam absque omni forma</head>
+            <p xml:id="jsnvu6-d1e2914-d1e106">
+               <lb ed="#L" n="95"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="96"/>Vtrum deus potuerit producere materiam primam 
+      <lb ed="#L" n="97"/>absque omni forma vel productam conseruare. 
+      <lb ed="#L" n="98"/>Thom. 1. q. 66. ar. 1. Hem. quodl. 1. 4. 10.
+    </p>
+            <p xml:id="jsnvu6-d1e2914-d1e117">
+               <lb ed="#L" n="99"/>SECVNDO quaeritur, vtrum deus potuerit 
+      pro<lb ed="#L" n="100" break="no"/>ducere materiam primam absque omni forma, 
+      <lb ed="#L" n="101"/>vel productam conseruare. Et videtur quod sic. 
+      <lb ed="#L" n="102"/>Minus dependet (vt videtur) materia a forma 
+      <lb ed="#L" n="103"/>qui quam accidens a subiecto, sed deus potest facere 
+      <lb ed="#L" n="104"/>accidens sine subiecto, vt in sacramento altaris, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2914-d1e133">
+               <lb ed="#L" n="105"/>
+               <!--2--> Secundo, quicquid deus facit mediantibus causis secundis 
+      <lb ed="#L" n="106"/>totum potest facere sine eis, sed deus conseruat materiam in esse 
+      <lb ed="#L" n="107"/>mediante forma tanquam causa secunda, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2914-d1e145">
+               <lb ed="#L" n="108"/>
+               <!--3--> IN CONTRARIVM est, quia sicut se habet esse 
+      <lb ed="#L" n="109"/>accidentale ad formam accidentalem, ita esse substantiale ad 
+      for<lb ed="#L" n="110" break="no"/>mam substantialem, sed nullo modo potest fieri quod aliquid 
+      ha<lb ed="#L" n="111" break="no"/>beat esse accidentale sine forma accidentali, sicut quod aliquid 
+      <lb ed="#L" n="112"/>sit album sine albedine, ergo fieri non potest quod aliquid 
+      ha<lb ed="#L" n="113" break="no"/>beat esse substantiale sine forma substantiali, fieret autem sic 
+      <lb ed="#L" n="114"/>illud si materia existeret sine forma, igitur &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2914-d1e165">
+               <lb ed="#L" n="115"/>
+               <!--4--> RESPONSIO. Hic sunt duae opiniones. Prima, quia 
+      <lb ed="#L" n="116"/>deus potest facere &amp; conseruare materiam sine forma. Cuius 
+      du<lb ed="#L" n="117" break="no"/>plex assignatur ratio. Prima talis est, omne prius virtute diuina 
+      <lb ed="#L" n="118"/>potest absolui a suo posteriori. Materia autem secundum se est 
+      <lb ed="#L" n="119"/>aliquid prius ordine naturae quam forma, cum omnis forma quae 
+      <lb ed="#L" n="120"/>est in materia non tam creata sit quam genita, quia non de 
+      nihi<lb ed="#L" n="121" break="no"/>lo sed de concreata materia facta est (vt videtur dicere Aug. 13 
+      <lb ed="#L" n="122"/>lib. confessionum ca. 33.) quare virtute diuina materia potest 
+      pro<lb ed="#L" n="123" break="no"/>duci &amp; producta conseruari sine forma. Secunda ratio talis est, 
+      <lb ed="#L" n="124"/>sicut se habet causa ad causam secundum operari, sic effectus ad 
+      <lb ed="#L" n="125"/>effectum secundum esse eo quod esse effectus terminat 
+      opera<lb ed="#L" n="126" break="no"/>tionem causae, sed materia prima est effectus causae primae, forma 
+      <lb ed="#L" n="127"/>autem actualis quaecunque inferior excepta anima rationali est 
+      <lb ed="#L" n="128"/>effectus causae secundae, ergo sicut se habet causa prima ad 
+      cau<lb ed="#L" n="129" break="no"/>sas secundas secundum operari, sic se habet materia prima 
+      se<lb ed="#L" n="130" break="no"/>cundum esse ad quamlibet formam actualem, sed causa prima 
+      <lb ed="#L" n="131"/>operando non dependet necessario a causis secundis, ergo nec 
+      <lb ed="#L" n="132"/>materia quantum ad existere dependet necessario a formis, 
+      po<lb ed="#L" n="133" break="no"/>test ergo fieri &amp; esse sine quacunque forma. 
+</p>
+            <p xml:id="jsnvu6-d1e2914-d1e211">
+               <lb ed="#L" n="134"/>His autem non obstantibus dicendum est aliter quod 
+      im<lb ed="#L" n="135" break="no"/>possibile est materiam existere sine omni forma substantiali &amp; 
+      <lb ed="#L" n="136"/>accidentali. Item nec videtur possibile ipsam existere sub forma 
+      <lb ed="#L" n="137"/>–accidentali absque omni forma substantiali. Primum apparet 
+      <lb ed="#L" n="138"/>dupliciter. Primo accipiendo naturam materiae quae est pars 
+      <lb ed="#L" n="139"/>compositi, de qua nunc loquimur. Est autem eius natura vt 
+      bre<lb ed="#L" n="140" break="no"/>uiter dicatur quod sit puta potentia ad esse: vnde comentator 
+      <lb ed="#L" n="141"/>dicit quod ipsa sustentatur per posse, &amp; hoc est necessarium: nam 
+      <lb ed="#L" n="142"/>aliter ex ipsa &amp; forma non fieret per se vnum, vt deductum est 
+      <lb ed="#L" n="143"/>in praecedente quaestione. Ex hoc sic, materia secundum se est, 
+      <lb ed="#L" n="144"/>pura potentia, actus autem materiae est forma, ergo si materia 
+      <lb ed="#L" n="145"/>esse actu sine omni forma, sequeretur quod esset actu sine omni 
+      <lb ed="#L" n="146"/>actu, quod implicat contradictionem. Si autem materia esset 
+      <lb ed="#L" n="147"/>per se, actu esset, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2914-d1e244">
+               <lb ed="#L" n="148"/>
+               <!--6--> Secundo apparet idem sic, esse existentiae, vel est idem quod 
+      <lb ed="#L" n="149"/>essentia, rei, vel aliud, si sit idem sic debemus vnum alteri applicare 
+      <lb ed="#L" n="150"/>quod actualis existentia sit idem quod essentia quae est actus &amp; 
+      for<lb ed="#L" n="151" break="no"/>ma, potentialis vero existentia sit idem cum essentia quae est 
+      poten<lb ed="#L" n="152" break="no"/>tia, siue materia, completa vero existentia sit idem cum completa 
+      es<lb ed="#L" n="153" break="no"/>sentia quae est compositum. Tunc arguitur sic. Materia non potest 
+      <lb ed="#L" n="154"/>actu existere sine actuali existentia, quia oppositum implicat 
+      con<lb ed="#L" n="155" break="no"/>tradictionem, sed forma est essentialiter actualis existentia 
+      secun<lb ed="#L" n="156" break="no"/>dum quod dictum est, quare &amp;c. Si vero esse existentiae sit aliud 
+      <lb ed="#L" n="157"/>ab essentia, sequitur idem. Quia esse existentiae, vel est substantia 
+      <lb ed="#L" n="158"/>vel accidens, si sit substantia cum non sit materia neque 
+      com<lb ed="#L" n="159" break="no"/>positum, erit forma. Et sic idem quod prius: si vero sit accidens 
+      <lb ed="#L" n="160"/>adhuc idem sequitur, quia omne accidens absolurum forma 
+      <lb ed="#L" n="161"/>quaedam est, &amp; sic semper implicat contradictionem dicere quod 
+      <!--00331.xml-->
+      <pb ed="#L" n="132-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>materia possit esse sine omni forma substantiali &amp; accidentali 
+      <lb ed="#L" n="2"/>cum saltem materia non possit esse sine esse quod est forma 
+      <lb ed="#L" n="3"/>substantialis aliqua vel accidentalis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2914-d1e292">
+               <lb ed="#L" n="4"/>
+               <!--7.--> Quod autem non possit esse sub forma accidentali absque omni 
+      <lb ed="#L" n="5"/>forma substantiali patet dupliciter. Primo quia non videtur pos 
+      <lb ed="#L" n="6"/>sibile quod aliquid possit actu existere &amp; carere actu sui gencris 
+      <lb ed="#L" n="7"/>quia existere in actu non est nisi essentiae in actu, vnumquodq 
+      <lb ed="#L" n="8"/>autem est illud quod est essentialiter actu per actum sui 
+      gene<lb ed="#L" n="9" break="no"/>ris. Et ideo non videtur possibile quod aliquid actu sit sine actu su 
+      <lb ed="#L" n="10"/>generis, sed actus materiae secundum genus suum est 
+      substan<lb ed="#L" n="11" break="no"/>tialis forma, cum materia spectet ad suum genus substantiae vt 
+      <lb ed="#L" n="12"/>principium, sicut &amp; forma substantialis, ergo materia nullo 
+      mo<lb ed="#L" n="13" break="no"/>do potest existere sine forma substantiali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2914-d1e318">
+               <lb ed="#L" n="14"/>
+               <!--8--> Secundo patet idem sic, ex materia &amp; forma quae primo ei 
+      <lb ed="#L" n="15"/>aduenit semper fit vnum per se, sed ex materia &amp; forma 
+      acciden<lb ed="#L" n="16" break="no"/>tali non potest fieri vnum per se, ergo forma accidentalis non 
+      po<lb ed="#L" n="17" break="no"/>test primo materiae aduenire, sed necessario supponit aduenissi 
+      <lb ed="#L" n="18"/>formam substantialem. Maior patet, quia vbi non est nisi vnus actus 
+      <lb ed="#L" n="19"/>ibi non est nisi simpliciter vnum, propter hoc enim substantia &amp; 
+      <lb ed="#L" n="20"/>accidens non sunt vnum per se &amp; simpliciter, quia sunt ibi plures 
+      <lb ed="#L" n="21"/>acts, sed in composito ex materia &amp; forma prima quae ei aduenit 
+      <lb ed="#L" n="22"/>non est nisi vnus actus, quia materia secundum se est pura poten 
+      <lb ed="#L" n="23"/>tia, ergo &amp;c. Minor probatur, scilicet quod ex materia &amp; forma 
+      <lb ed="#L" n="24"/>accidentali non possit fieri vnum per se, tum quia sunt diuersorum 
+      <lb ed="#L" n="25"/>generum, &amp; talia non constituunt vnum per se. Tum quia si ex 
+      ma<lb ed="#L" n="26" break="no"/>teria &amp; forma accidentali possit fieri vnum per essentiam, quod 
+      <lb ed="#L" n="27"/>est vnum simpliciter &amp; per se, iam illa forma non esset 
+      acciden<lb ed="#L" n="28" break="no"/>talis, quia accidens nunquam dat primam entitatem rei. Ex hoc 
+      <lb ed="#L" n="29"/>enim dicitur accidens, quod accidit ad rem iam in esse constitutam 
+</p>
+            <p xml:id="jsnvu6-d1e2914-d1e358">
+               <lb ed="#L" n="30"/>Et iterum nullum compositum ens per accidens est vnum nisi per acci 
+      <lb ed="#L" n="31"/>dens, quia ab eodem res habet esse &amp; vnum esse, sed compositum 
+      <lb ed="#L" n="32"/>ex materia &amp; sola forma accidentali non haberet esse nisi per 
+      <lb ed="#L" n="33"/>accidens (scilicet per ipsam formam accidentalem) ergo non esse 
+      <lb ed="#L" n="34"/>vnum nisi per accidens, &amp; non per se siue per essentiam &amp; haec fuit 
+      <lb ed="#L" n="35"/>minor. sequitur ergo conclusio principalis, scilicet quod forma ac 
+      <lb ed="#L" n="36"/>cidentalis non potest primo aduenire materiae, sed necessario 
+      <lb ed="#L" n="37"/>supponit materia formam substantialem. Nullo igitur modo 
+      po<lb ed="#L" n="38" break="no"/>test materia actu existere sine aliqua forma substantiali. 
+      <lb ed="#L" n="39"/>Rationes contrariae opinionis non cogunt, quod enim dicitur 
+      <lb ed="#L" n="40"/>quod virtute diuina omne prius potest esse sine posteriori, verum 
+      <lb ed="#L" n="41"/>est in his quorum vtrumque est actus vel habens actum, esse aut? 
+      <lb ed="#L" n="42"/>per se semper includit actum, si vero vnum sit potentia &amp; reliquum 
+      <lb ed="#L" n="43"/>actus non est verum, quia ex hoc quod ponitur potentia sine actu 
+      <lb ed="#L" n="44"/>ponitur aliquid esse actu sine actu quod implicat 
+      contradictio<lb ed="#L" n="45" break="no"/>nem, sic autem est composita materia sine forma, ideo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2914-d1e395">
+               <lb ed="#L" n="46"/>
+               <!--10.--> Quod autem secundo dicitur quod causa prima in operando non 
+      <lb ed="#L" n="47"/>dependet a causis secundis, verum est, sed nihil prohibet vnam ope 
+      <lb ed="#L" n="48"/>rationem diuinam ab alia eius operatione dependere, &amp; vnum 
+      ope<lb ed="#L" n="49" break="no"/>ratum ab alio. Et ideo non est necessarium quod in productione 
+      mate<lb ed="#L" n="50" break="no"/>riae, vel in conseruatione eius quod causae secundae operentur producende 
+      <lb ed="#L" n="51"/>formas sub quibus materia sit, quia deus potest eas producere, sed 
+      <lb ed="#L" n="52"/>necessarium est quod vel deus eas producat, sicut produxit formas pri 
+      <lb ed="#L" n="53"/>ma sub quibus &amp; cum quibus materiam produxit, vel quod ex eius 
+      <lb ed="#L" n="54"/>ordinatione causae secundae eas producant, &amp; hoc totum est propte 
+      <lb ed="#L" n="55"/>necessariam dependentiam materiae a forma actuali existentia 
+      </p>
+            <p xml:id="jsnvu6-d1e2914-d1e421">
+               <lb ed="#L" n="56"/>
+               <!--11--> Ad arg. principalia dicendum. Ad primum quod plus 
+      depende<lb ed="#L" n="57" break="no"/>materia a forma secundum actualem existentiam quam accidens a 
+      <lb ed="#L" n="58"/>subiecto, quia materia est pura potentia, accidens vero actus. 
+      <lb ed="#L" n="59"/>Et ideo plus repugnat materiae per se existere quam accidenti. 
+      </p>
+            <p xml:id="jsnvu6-d1e2914-d1e434">
+               <lb ed="#L" n="60"/>
+               <!--12--> Ad secundum dicendum qud deus quicquid fecit 
+      medianti<lb ed="#L" n="61" break="no"/>bus causis secundis efficientibus potest facere sine eis, sed non 
+      <lb ed="#L" n="62"/>est verum de mediis causis formalibus, non enim potest facere 
+      <lb ed="#L" n="63"/>album sine albedine, &amp; idem est intelligendum de materialibus. 
+      <lb ed="#L" n="64"/>quia non potest facere animal sine corpore. Et causa est, quia ma 
+      <lb ed="#L" n="65"/>teria &amp; forma sunt intrinseca rebus, &amp; ideo ab ipsis excludi non 
+      <lb ed="#L" n="66"/>possunt. Agens autem semper est mtrinsecum, propter quod virtute 
+      <lb ed="#L" n="67"/>diuina potest a causalitate rei absque implicatione 
+      contradictio<lb ed="#L" n="68" break="no"/>nis excludi: forma autem se habet ad actualem existentiam 
+      ma<lb ed="#L" n="69" break="no"/>teriae, sicut causa formalis, &amp; non sicut efficiens, ideo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2914-d1e460">
+               <lb ed="#L" n="70"/>
+               <!--13--> Et si dicatur quod forma non est causa formalis materiae, sed 
+      <lb ed="#L" n="71"/>eius forma tantum, compositi autem est causa formalis (vt dici 
+      <lb ed="#L" n="72"/>Auicen. 7. Metaph. suae,) tunc argumentum de causis mediis nor 
+      <lb ed="#L" n="73"/>est ad propositum seu contra nos, vel dicendum quod forma non est 
+      <lb ed="#L" n="74"/>causa formalis materiae absolute, est tamen causa formalis 
+      ma<lb ed="#L" n="75" break="no"/>teriae actu existentis quae includit illud quod existit, &amp; quo existit. 
+      <lb ed="#L" n="76"/>&amp; hoc est necessario compositum, cuius causa formalis est ips. 
+      <lb ed="#L" n="77"/>forma, sicut albedo non est causa formalis corporis, sed est 
+      for<lb ed="#L" n="78" break="no"/>ma tantum corporis albi, quod includit totum aggregatum ex 
+      co<lb ed="#L" n="79" break="no"/>pore &amp; albedine, cuius est causa formalis. 
+      <lb ed="#L" n="80"/>„ Sententia huius distinctionis 
+      decimaeter<lb ed="#L" n="81" break="no"/>tiae in generali &amp; speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

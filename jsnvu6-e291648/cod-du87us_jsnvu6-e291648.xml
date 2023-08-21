@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="354-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e291648"><!-- l4d48q3 -->
+            <head xml:id="jsnvu6-e291648-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-e291648-Hd1e103" type="question-title">Utrum motus coeli cessabit</head>
+            <p xml:id="jsnvu6-e291648-d1e106">
+               <lb ed="#L" n="139"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="140"/>Vtrum motus coeli cessabit. 
+    </p>
+            <p xml:id="jsnvu6-e291648-d1e113">
+               <lb ed="#L" n="141"/>TERTIO quaeritur vtrum motus coeli cessabit 
+      <lb ed="#L" n="142"/>Et videtur quod non, quia gloria non tollit 
+      per<lb ed="#L" n="143" break="no"/>fectionem naturae, sed motus videtur dicere 
+      ali<lb ed="#L" n="144" break="no"/>(quam perfectionem mobilis cum sit actus 
+      eiuger<lb ed="#L" n="145" break="no"/>go non tolletur quando alia glorificabuntur. 
+    </p>
+            <p xml:id="jsnvu6-e291648-d1e126">
+               <lb ed="#L" n="146"/>
+               <!--2--> Item cessante fine debent cessare ea qua 
+      <lb ed="#L" n="147"/>sunt ad finem, sed omnia luminaria coeli facta sunt finaliter, vt 
+      <lb ed="#L" n="148"/>diuidant diem &amp; noctem (vt habetur Gen. 1.) ergo cessante illo 
+      <lb ed="#L" n="149"/>sine luminaria coeli desinerent, sed illa nunquam desinent, erge 
+      <lb ed="#L" n="150"/>nec ille finis propter quem sunt esse, sed ille finis non potest esse 
+      <lb ed="#L" n="151"/>nisi per motum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e291648-d1e145">
+               <lb ed="#L" n="152"/>
+               <!--3--> INCONTRARIVM est quod dicitur Esaiae. 66. Non 
+      <lb ed="#L" n="153"/>occidet sol tuus &amp; luna non minuetur, sed si motus coeli durares 
+      <lb ed="#L" n="154"/>sol tenderet ad occasum, &amp; luna minueretur quoad nos secundum 
+      <lb ed="#L" n="155"/>maiorem &amp; minorem approximationem ad solem, ergo motui 
+      <lb ed="#L" n="156"/>coeli cessabit. 
+      </p>
+            <p xml:id="jsnvu6-e291648-d1e161">
+               <lb ed="#L" n="157"/>
+               <!--4--> Item Apoc. dicitur quod angelus iurauit per viuentem in 
+      se<lb ed="#L" n="158" break="no"/>cula seculorum quod tempus non erit amplius, sed si motus coeli 
+      <lb ed="#L" n="159"/>non cessaret, tempus semper duraret, ergo oportet dicere quod 
+      <lb ed="#L" n="160"/>motus coeli quandoque cesset.
+</p>
+            <p xml:id="jsnvu6-e291648-d1e174">
+      <!--00782.xml-->
+               <pb ed="#L" n="354-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>RESPONSIO. Tenendum est absolute quod motus coeli 
+      <lb ed="#L" n="2"/>cessabit post resurrectionem, quamuis illud non posset clare pro 
+      <lb ed="#L" n="3"/>bari, nec per auctoritatem scripturae, nec aliqua necessaria ratione, 
+      <lb ed="#L" n="4"/>auctoritates enim inductae in arguendo, quae videntur expressius 
+      <lb ed="#L" n="5"/>loqui de illa materia, possunt aliter intelligi quam de cessatione 
+      <lb ed="#L" n="6"/>motus coeli Prima enim auctoritas quae est Esaiae forte intelligi 
+      <lb ed="#L" n="7"/>tur secundum literam de prosperitate quam habituri erant filij 
+      <lb ed="#L" n="8"/>Israel redeuntes de captiuitate Babilonis, vt per solem intelliga 
+      <lb ed="#L" n="9"/>tur maior prosperitas, per lunam vero minor, vt sit sensus, non oc 
+      <lb ed="#L" n="10"/>cidet, id est, non amittetis prosperitatem maiorem &amp; minorem 
+      <lb ed="#L" n="11"/>vel si intelligatur de statu post resurrectionem non est sensus quod 
+      <lb ed="#L" n="12"/>sol materialis non tendat ad occasum, vel quod luna non 
+      minua<lb ed="#L" n="13" break="no"/>tur in lumine, sed est sensus quod sol &amp; luna non lucebunt beatis 
+      <lb ed="#L" n="14"/>ad aliquam necessitatem, quia Christus secundum diuinitatem 
+      <lb ed="#L" n="15"/>erit eis spiritualis lux. Secundum vero claritatem humanitati 
+      <lb ed="#L" n="16"/>illuminabit corporaliter locum bonorum perfectius quam sol 
+      <lb ed="#L" n="17"/>Quod patet per id quod praemittitur ante verba praedicta, no 
+      <lb ed="#L" n="18"/>erit tibi amplius sol ad lucendum per diem, nec splendor lunae il 
+      <lb ed="#L" n="19"/>luminabit te, sed erit tibi dominus in lucem sempiternam, &amp; id 
+      <lb ed="#L" n="20"/>habetur Apoc. 21. Quod ciuitas illa non eget sole neque luna, 
+      qui<lb ed="#L" n="21" break="no"/>claritas dei illuminabit eam, &amp; lucerna eius est agnus, sequens ve 
+      <lb ed="#L" n="22"/>ro auctoritas quae est Apoc. 10. est intelligenda quod non erit tem 
+      <lb ed="#L" n="23"/>pus amplius ad implendum prophetias &amp; mysteria praenunciat. 
+      <lb ed="#L" n="24"/>per prophetas. Vnde subditur in diebus vocis septimi angeli cum 
+      <lb ed="#L" n="25"/>coeperit tuba canere consummabitur ministerium dei sicut euar 
+      <lb ed="#L" n="26"/>gelizauit per seruos suos prophetas. Ex illo autem non sequitu 
+      <lb ed="#L" n="27"/>quod tempus absolute non sit amplius, sed solum quod tempus 
+      <lb ed="#L" n="28"/>implendi prophetias erit tunc totaliter transactum. Et nihilo 
+      <lb ed="#L" n="29"/>minus quamuis praedictae auctoritates possent sic exponi, com 
+      <lb ed="#L" n="30"/>munis tamen doctrina ecclesiae tenet quod motus coeli cessabit. 
+      </p>
+            <p xml:id="jsnvu6-e291648-d1e248">
+               <lb ed="#L" n="31"/>
+               <!--6.--> Et ad declarandam hanc opinionem procedetur sic, quia primo pr 
+      <lb ed="#L" n="32"/>nentur quaedam rationes propter quas Aristoteles videtur 
+      negass<lb ed="#L" n="33" break="no"/>cessationem motus coeli &amp; soluentur, &amp; secundo ponentur quaedi 
+      <lb ed="#L" n="34"/>persuasiones ad probandum directe cessationem motus coeli. Ei 
+      <lb ed="#L" n="35"/>respondebitur ad quasdam instantias quae fiunt contra eas.
+</p>
+            <p xml:id="jsnvu6-e291648-d1e264">
+               <lb ed="#L" n="36"/>QUANTVM ad primum sciendum quod Aristoteles 
+      ni<lb ed="#L" n="37" break="no"/>gans cessationem motus coeli videtur fundasse se super duas ra 
+      <lb ed="#L" n="38"/>tiones, quarum prima sumitur ex 12. metaphysicae, &amp; est talis, In 
+      <lb ed="#L" n="39"/>conueniens est ponere nobilissimam substantiam non sortitam 
+      <lb ed="#L" n="40"/>optimum finem, sed intelligentiae sunt optimae substantiae &amp; no 
+      <lb ed="#L" n="41"/>bilissimae. Optimus vero finis est communicare esse rebus, 
+      erg<lb ed="#L" n="42" break="no"/>substantiae separatae semper esse rebus communicant, sed hoc non 
+      <lb ed="#L" n="43"/>possunt nisi per motum, ergo semper causant motum. Secunda 
+      <lb ed="#L" n="44"/>talis est, Inter perpetua &amp; semper permanentia non potest esse 
+      <lb ed="#L" n="45"/>difformis habitudo, quia difformitas non est sine mutatione, sal 
+      <lb ed="#L" n="46"/>tem ex parte alterius, vbi autem est mutatio non potest esse per 
+      <lb ed="#L" n="47"/>petuitas, saltem quoad illa inter quae mutatio attenditur. Sed 
+      <lb ed="#L" n="48"/>tam angelus quam coelum sunt perpetua secundum ipsum, erge 
+      <lb ed="#L" n="49"/>inter ea est semper similis habitudo, ergo si semel causant 
+      mo<lb ed="#L" n="50" break="no"/>tum in coelo oportet quod semper causent motum in eo. 
+      </p>
+            <p xml:id="jsnvu6-e291648-d1e299">
+               <lb ed="#L" n="51"/>
+               <!--8.--> Sed illae rationes non cogunt, prima non, eo quod falsum 
+      as<lb ed="#L" n="52" break="no"/>sumit, scilicet quod optimus finis substantiae separatae sit dare es 
+      <lb ed="#L" n="53"/>se rebus. Hoc enim non est verum, quum enim sit duplex finis, sci 
+      <lb ed="#L" n="54"/>licet finis cuius gratia &amp; finis quo, finis cuius gratia est intelligem 
+      <lb ed="#L" n="55"/>tia non est nisi ipse deus. Finis vero quo est operatio per quam si 
+      <lb ed="#L" n="56"/>nis cuius gratia potissime acquiritur. Constat autem quod potiu 
+      <lb ed="#L" n="57"/>attingitur deus ab intelligentia per intelligere &amp; velle quae ten 
+      <lb ed="#L" n="58"/>dunt in deum, sicut in obiectum, &amp; sunt nobilissimae perfectione 
+      <lb ed="#L" n="59"/>ipsius intelligentiae quam attingatur per actionem, quae dat esse 
+      <lb ed="#L" n="60"/>rebus per quam non attingit ipsum deum secundum se, sed se 
+      <lb ed="#L" n="61"/>cundum quandam assimilationem extrinsecam. Et si dicatur quod 
+      <lb ed="#L" n="62"/>velle &amp; intelligere sint optimae perfectiones intelligentiae, ex istis 
+      <lb ed="#L" n="63"/>tamen sequitur secundum, scilicet dare esse rebus, nam per hoc 
+      <lb ed="#L" n="64"/>quod intelligentia intelligit &amp; amat deum, per hoc desiderat ei 
+      <lb ed="#L" n="65"/>assimilari in hoc quod est esse causam rerum, &amp; ideo mouet 
+      coe<lb ed="#L" n="66" break="no"/>lum mota a deo in ratione amati &amp; desiderati, sicut dicitur duo 
+      <lb ed="#L" n="67"/>decimo metaphysicae, sed illud non valet, quia ille finis secundus 
+      <lb ed="#L" n="68"/>non necessario sequitur ad primum, nec ponit aliquam 
+      perfe<lb ed="#L" n="69" break="no"/>ctionem in intelligentia, quum transeat in materiam exterio 
+      <lb ed="#L" n="70"/>rem, ex nulla enim tali actione accrescit agenti aliqua perfectio, 
+      <lb ed="#L" n="71"/>quamuis per eam declararetur perfectio praeexistens. 
+</p>
+            <p xml:id="jsnvu6-e291648-d1e350">
+               <lb ed="#L" n="72"/>Secunda vero ratio non cogit, quia duorum perpetuorum 
+      <lb ed="#L" n="73"/>approximatorum adinuicem non potest esse difformis 
+      habitu<lb ed="#L" n="74" break="no"/>do quum vnum agit in aliud ex necessitate naturae, sed si vnum 
+      <lb ed="#L" n="75"/>igat in aliud voluntarie potest quandoque agere, &amp; quandoque 
+      <lb ed="#L" n="76"/>non absque sui mutatione, quia voluntate aeterna potest velle 
+      <lb ed="#L" n="77"/>aliu? nouum, &amp; sic in passo potest esse noua habitudo ex noua 
+      <lb ed="#L" n="78"/>actione agentis, quae non est in ipso, sed in passo, non per nouam 
+      <lb ed="#L" n="79"/>voluntatem, sed per antiquam. 
+      </p>
+            <p xml:id="jsnvu6-e291648-d1e370">
+               <lb ed="#L" n="80"/>
+               <!--10--> NVNC restat probare conclusionem principalem 
+      dire<lb ed="#L" n="81" break="no"/>cte, &amp; primo probabitur quod possibile est motum coeli cessare, 
+      <lb ed="#L" n="82"/>&amp; secundo quod de fecto cessabit. Primum patet sic, omne mo 
+      <!--00782.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>uens voluntarie &amp; libere potest quum voluerit a mouendo 
+      cessa<lb ed="#L" n="84" break="no"/>re, sed intelligentia mouens coelum mouet voluntarie &amp; libere, cum 
+      <lb ed="#L" n="85"/>ergo voluerit potest a mouendo cessare. Maior patet, quia 
+      liber<lb ed="#L" n="86" break="no"/>tas arbitrij est ad opposita. Minor patet similiter quantum ad alte 
+      <lb ed="#L" n="87"/>ram partem, scilicet quod intelligentia mouet voluntarie, quia mouet 
+      <lb ed="#L" n="88"/>vti amans &amp; desiderans, sicut causa prima mouet vt amarum &amp; 
+      de<lb ed="#L" n="89" break="no"/>sideratum, sed quod moueat libere probatur, quia voluntas non 
+      <lb ed="#L" n="90"/>necessitatur ad volendum nisi respectu finis, vel eorum quae 
+      ha<lb ed="#L" n="91" break="no"/>bent necessariam connexionem adinuicem, &amp; cum fine, quatenus 
+      <lb ed="#L" n="92"/>finis non potest sine his haberi vel conseruari, sed motus coeli non 
+      <lb ed="#L" n="93"/>est finis intelligentiae mouentis, sed sola causa prima cum qua 
+      mo<lb ed="#L" n="94" break="no"/>tus coeli non habet necessariam connexionem, quin sine eo 
+      intel<lb ed="#L" n="95" break="no"/>ligentia possit hunc finem consequi per cognitionem &amp; amori 
+      <lb ed="#L" n="96"/>&amp; in eo permanere, ergo nullo modo necessarium est intelligen 
+      <lb ed="#L" n="97"/>tiam velle mouere. Secundum sic patet, habito fine cessant ea quae 
+      <lb ed="#L" n="98"/>sunt ad finem ordinata quantum ad acquisitionem finistantum 
+      <lb ed="#L" n="99"/>sed motus coeli tam primus quam secundus qui est solis &amp; 
+      plane<lb ed="#L" n="100" break="no"/>tarum, in aliquo circulo est propter continuationem &amp; 
+      alterna<lb ed="#L" n="101" break="no"/>tionem generationis &amp; corruptionis, vt probatur in fine secundi 
+      <lb ed="#L" n="102"/>de generatione, ergo completa generatione (quod fiet quando 
+      <lb ed="#L" n="103"/>erit completus numerus electorum) cessabit omnis motus coeli 
+      </p>
+            <p xml:id="jsnvu6-e291648-d1e431">
+               <lb ed="#L" n="104"/>
+               <!--11--> Sed contra hanc rationem instant aliqui dicentes quod 
+      mo<lb ed="#L" n="105" break="no"/>tus coeli non est propter generationem &amp; corruptionem istorum 
+      <lb ed="#L" n="106"/>inferiorum tanquam propter finem, quia finis est nobilior his 
+      <lb ed="#L" n="107"/>quae sunt ad finem, sed nihil inferiorum est nobilius coelo, ergo mo 
+      <lb ed="#L" n="108"/>tus coeli non est propter ista inferiora tanquam propter finem. 
+      Di<lb ed="#L" n="109" break="no"/>cendum quod haec instantia non valet propter duo. Primum est 
+      <lb ed="#L" n="110"/>quia dato quod coelum secundum suum substantiam esset nobilius 
+      <lb ed="#L" n="111"/>omnibus istis inferioribus, &amp; ob hoc posset dici quod non esset 
+      pro<lb ed="#L" n="112" break="no"/>pter haec inferiora tanquam propter finem, tamen motus coeli non 
+      <lb ed="#L" n="113"/>est perfectior istis inferioribus, imo est quid minus perfectum, &amp; 
+      <lb ed="#L" n="114"/>ideo potest esse propter ea tanquam propter finem, sicut 
+      appro<lb ed="#L" n="115" break="no"/>ximatio agentis ad passum, quae est per motum localem est finali 
+      <lb ed="#L" n="116"/>ter propter actionem vel propter ea quae per actionem 
+      producun<lb ed="#L" n="117" break="no"/>tur. Et ob hoc in arguendo est variatio medij per comparationem 
+      <lb ed="#L" n="118"/>ad conclusionem, quia in minori assumitur quod coelum non est 
+      <lb ed="#L" n="119"/>minus nobil. imo magis quam haec inferiora, &amp; ideo deberet 
+      con<lb ed="#L" n="120" break="no"/>cludi quod coelum quantum ad suam substantiam non est propter 
+      <lb ed="#L" n="121"/>haec inferiora, &amp; non de motu coeli, de quo nihil assumptum fuit 
+      <lb ed="#L" n="122"/>in minori, &amp; si assumptum fuisset, falsum fuisset assumptum, 
+      qui<lb ed="#L" n="123" break="no"/>motus coeli ignobilior est istis inferioribus. 
+      </p>
+            <p xml:id="jsnvu6-e291648-d1e479">
+               <lb ed="#L" n="124"/>
+               <!--12--> Secundus defectus est etiam de assumpto, scilicet quod sub 
+      <lb ed="#L" n="125"/>stantia coeli sit nobilior istis inferioribus, &amp; ob hoc non sit 
+      pro<lb ed="#L" n="126" break="no"/>pter ea tanquam propter finem, conclusio enim falsa est, vt patet 
+      <lb ed="#L" n="127"/>Deuteron. 4. vbi dicitur sic, custodite igitur solicite animas 
+      ve<lb ed="#L" n="128" break="no"/>stras. Et subditur, ne forte oculis eleuatis ad coelum videas solem 
+      <lb ed="#L" n="129"/>&amp; lunam &amp; omnia astra coeli, &amp; errore deceptus adores ea &amp; co 
+      <lb ed="#L" n="130"/>las, quae creauit dominus deus in ministerium cunctis gentibus 
+      <lb ed="#L" n="131"/>Medium etiam quod assumitur est falsum, quia omne animatum 
+      <lb ed="#L" n="132"/>&amp; cognoscens maxime cognitione intellectiua, est nobilius omni 
+      <lb ed="#L" n="133"/>non cognoscente, coelum autem non ponitur animatum, &amp; pe 
+      <lb ed="#L" n="134"/>consequens non est cognoscens, homo autem est animatus &amp; co 
+      <lb ed="#L" n="135"/>gnoscens cognitione intellectiua, ergo est nobilior coelo. Nec ob 
+      <lb ed="#L" n="136"/>stat quod coelum est incorruptibile, quia diuturnitas, vel etiam 
+      <lb ed="#L" n="137"/>perpetuitas non arguit maiorem perfectionem in gradu 
+      natu<lb ed="#L" n="138" break="no"/>rae, &amp; de diuturnitate patet, quia plus durat quercus vel elephas 
+      <lb ed="#L" n="139"/>quam homo, &amp; tamen sunt minus nobilia. De perpetuitate patet 
+      <lb ed="#L" n="140"/>idem, quia secundum Philosophum materia est ingenerabilis &amp; 
+      <lb ed="#L" n="141"/>incorruptibilis, totum autem compositum est generabile &amp; 
+      cor<lb ed="#L" n="142" break="no"/>ruptibile, &amp; quaelibet forma in composito praeter animam ratio 
+      <lb ed="#L" n="143"/>nalem, &amp; tamen tam forma quam compositum sunt secundum 
+      <lb ed="#L" n="144"/>gradum naturae perfectiora quam materia, quare patet quod ex 
+      <lb ed="#L" n="145"/>hoc quod coelum est diuturnius vel incorruptibile, non potest ai 
+      <lb ed="#L" n="146"/>gui quod sit perfectius secundum gradum naturae quocunque 
+      <lb ed="#L" n="147"/>corruptibili, &amp; hoc ipsum dicit Philosophus primo Ethicorum 
+      <lb ed="#L" n="148"/>contra Platonem, quod nihil est melius propter hoc quod est diu 
+      <lb ed="#L" n="149"/>turnius, quod est verum de bonitate essentiali. 
+      </p>
+            <p xml:id="jsnvu6-e291648-d1e540">
+               <lb ed="#L" n="150"/>
+               <!--13--> AD PRIMVM argumentum dicendum est quod 
+      mo<lb ed="#L" n="151" break="no"/>tus localis non ponit aliquam perfectionem in mobili, imo 
+      for<lb ed="#L" n="152" break="no"/>te quies est maior perfectio quam motus, non quidem prout quies 
+      <lb ed="#L" n="153"/>importat priuationem motus, sed prout dicit vniformitatem esser 
+      <lb ed="#L" n="154"/>di. Et quum dicitur quod motus est actus mobilis, verum est, sec 
+      <lb ed="#L" n="155"/>addendum est illud quod addit Philosophus, scilicet quod est actus 
+      <lb ed="#L" n="156"/>entis in potentia, secundum quod huiusmodi non est actus 
+      abso<lb ed="#L" n="157" break="no"/>lutus, sed modus se habendi, &amp; ideo tam ex parte sui quam ex par 
+      <lb ed="#L" n="158"/>te mobilis magis sonat in imperfectionem quam in perfectione. 
+      </p>
+            <p xml:id="jsnvu6-e291648-d1e564">
+               <lb ed="#L" n="159"/>
+               <!--14--> Ad secundum argumentum dicendum quod corpora 
+      coele<lb ed="#L" n="160" break="no"/>stia quantum ad substantiam suam non sunt facta, vt diuidant 
+      <lb ed="#L" n="161"/>diem &amp; noctem nisi mediante motu, &amp; ideo cessante alternatione 
+      <lb ed="#L" n="162"/>dierum &amp; noctium cessabit motus, sed non propter hoc cessabunt 
+      <lb ed="#L" n="163"/>luminaria coeli quoad substantiam, &amp; entitatem suam, quia ex eis 
+      <lb ed="#L" n="164"/>sine motu proueniet aliud ministerium seu alia vtilitas homi¬ 
+      <!--00783.xml-->
+      <pb ed="#L" n="355-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>consideratione eorum consurgent in 
+      lau<lb ed="#L" n="2" break="no"/>priam dei, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

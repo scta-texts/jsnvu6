@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="58-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1226"><!-- l1d20q2 -->
+            <head xml:id="jsnvu6-d1e1226-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e1226-Hd1e103" type="question-title">Utrum in divinis sit ordo naturae</head>
+            <p xml:id="jsnvu6-d1e1226-d1e106">
+               <lb ed="#L" n="12"/>QVARSTIO SECVNDA. 
+      <lb ed="#L" n="13"/>Vtrum in diuinis sit ordo naturae. 
+      <lb ed="#L" n="14"/>Thom. l. q. 42. artic. 3. 
+    </p>
+            <p xml:id="jsnvu6-d1e1226-d1e115">
+               <lb ed="#L" n="15"/>SECUNDO quaeritur vtrum in diuinis sit or 
+      <lb ed="#L" n="16"/>do naturae. Et videtur quod non, quia ordo in 
+      <lb ed="#L" n="17"/>cludit prius &amp; posterius, sed in diuinis non es 
+      <lb ed="#L" n="18"/>prius &amp; posterius, ergo nullus ordo. Item 
+      cu<lb ed="#L" n="19" break="no"/>Aiuscunque est ordo ipsum ordinatur, sed in 
+      di<lb ed="#L" n="20" break="no"/>uinis natura non ordinatur, ergo in diuinis non est ordo 
+      sal<lb ed="#L" n="21" break="no"/>tem naturae. 
+      </p>
+            <p xml:id="jsnvu6-d1e1226-d1e133">
+               <lb ed="#L" n="22"/>
+               <!--2--> IN CONTRARIVM est quod dicit Augustinus. 
+      <lb ed="#L" n="23"/>contra Maximum, quum dicitur filium esse a patre, non signi 
+      <lb ed="#L" n="24"/>ficatur inaequalitas substantiae, sed ordo naturae.
+</p>
+            <p xml:id="jsnvu6-d1e1226-d1e145">
+               <lb ed="#L" n="25"/>RESPONSIO. Dicenda sunt duo. Primum 
+      <lb ed="#L" n="26"/>est, quod in diuinis est ordo. Secundum est, quod ibi est ord. 
+      <lb ed="#L" n="27"/>naturae. Primum patet sic, vbicunque est pluralitas sine 
+      or<lb ed="#L" n="28" break="no"/>dine, ibi est confusio, sed in diuinis est pluralitas sine 
+      confu<lb ed="#L" n="29" break="no"/>sione, ergo illa pluralitas non est sine ordine. Iuxta quod 
+      in<lb ed="#L" n="30" break="no"/>telligendum, quod ordo vnum supponit, &amp; in alio eius ratio 
+      <lb ed="#L" n="31"/>formalis consistit, illud quod praesupponit ordo est distinctio 
+      <lb ed="#L" n="32"/>ordinabilium, vbi enim est aliquid tantum vnum &amp; 
+      indistin<lb ed="#L" n="33" break="no"/>ctum ibi impossibile est esse ordinem realem. Illud autem in 
+      <lb ed="#L" n="34"/>quo formaliter ratio ordinis consistit est habitudo eorum 
+      in<lb ed="#L" n="35" break="no"/>ter se &amp; ad aliquid primum. Quod autem haec habitudo sit se 
+      <lb ed="#L" n="36"/>cundum prius &amp; posterius duratione vt in tempore, siue 
+      se<lb ed="#L" n="37" break="no"/>cundum superius &amp; inferius positione, vt in loco vel 
+      dignita<lb ed="#L" n="38" break="no"/>te, siue secundum propinquius &amp; remotius, mediatius &amp; 
+      im<lb ed="#L" n="39" break="no"/>mediatius, vel aliter qualitercunque totum est extra rationem 
+      <lb ed="#L" n="40"/>ordinis absolute accepti. Ex quibus potest formari talis ratio, 
+      <lb ed="#L" n="41"/>vbicunque sunt plura realiter distincta habentia certam &amp; de 
+      <lb ed="#L" n="42"/>terminatam habitudinem ad se inuicem &amp; ad aliquid primum 
+      <lb ed="#L" n="43"/>ibi est realis ordo, sed in diuinis sunt plura supposita distincta 
+      <lb ed="#L" n="44"/>realiter habentia inter se determinatam habitudinem, &amp; ad 
+      <lb ed="#L" n="45"/>aliquid primum, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e1226-d1e193">
+               <lb ed="#L" n="46"/>
+               <!--4--> Secundum patet, scilicet quod in diuinis est ordo 
+      natu<lb ed="#L" n="47" break="no"/>rae, nisi quod distinguendum est de natura. Vno enim modo 
+      <lb ed="#L" n="48"/>accipitur natura pro essentia rei completa, vel pro parte essen 
+      <lb ed="#L" n="49"/>tiae. Alio modo pro generatione vel productione viuentium, 
+      <lb ed="#L" n="50"/>quae proprie dicuntur nasci, vt apparet ex 5. Metaphys. 
+      Pri<lb ed="#L" n="51" break="no"/>mo modo non est ordo naturae in diuinis, sed secundo. Primum 
+      <lb ed="#L" n="52"/>patet sic: realis ordo requirit distinctionem realem, sed in diui 
+      <lb ed="#L" n="53"/>nis non est realis distinctio naturae, accipiendo naturam pro 
+      <lb ed="#L" n="54"/>essentia vel pro parte essentiae, ergo &amp;c. Secundum patet, &amp; 
+      <lb ed="#L" n="55"/>quia vbicunque in viuentibus inuenitur principium, ex quo 
+      <lb ed="#L" n="56"/>aliud &amp; quod est ex principio naturaliter, ibi est ordo naturae 
+      <lb ed="#L" n="57"/>hoc est, naturalis originis, sed in diuinis est principium ex quo 
+      <lb ed="#L" n="58"/>aliud est naturaliter, ex patre enim est filius naturaliter 
+      tan<lb ed="#L" n="59" break="no"/>quam principiatum ex principio, &amp; ab vtroque est spiritur 
+      <lb ed="#L" n="60"/>sanctus eodem modo, ergo in diuinis est ordo naturae, hoc est, 
+      <lb ed="#L" n="61"/>naturalis originis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1226-d1e232">
+               <lb ed="#L" n="62"/>
+               <!--5--> Ad primum argumentum patet solutio ex iam dictis. De 
+      <lb ed="#L" n="63"/>ratione enim ordinis absolute accepti non sunt prius &amp; poste 
+      <lb ed="#L" n="64"/>rius, sed habitudo distinctorum ad se inuicem, &amp; ad primum, &amp; 
+      <lb ed="#L" n="65"/>hoc bene est in diuinis. Est enim prima persona, secunda &amp; 
+      ter<lb ed="#L" n="66" break="no"/>tia licet ibi non sit prior persona &amp; posterior. Primum enim, si 
+      <lb ed="#L" n="67"/>cundum, &amp; tertium, dicunt solum ordinem, sed prius &amp; posterius 
+      <lb ed="#L" n="68"/>excessum &amp; defectum qui non est in diuinis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1226-d1e252">
+               <lb ed="#L" n="69"/>
+               <!--6--> Ad secundum dicendum quod ordo dicitur alicuius 
+      dupli<lb ed="#L" n="70" break="no"/>citer, vel vt subiecti quod ordinatur, vel vt rationis secundum 
+      <lb ed="#L" n="71"/>quam ordo attenditur, primo modo est in diuinis ordo 
+      perso<lb ed="#L" n="72" break="no"/>narum, tanquam eorum quae ordinantur, sed secundo modo 
+      <lb ed="#L" n="73"/>est ibi ordo naturae accipiendo naturam non pro essentia, sed 
+      <lb ed="#L" n="74"/>pro naturali origine.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

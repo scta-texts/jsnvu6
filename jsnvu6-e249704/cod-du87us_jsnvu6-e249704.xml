@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="303-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e249704"><!-- l4d19q4 -->
+            <head xml:id="jsnvu6-e249704-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e249704-Hd1e103" type="question-title">Utrum in correctione fraterna debeat 
+      secreta monitio praecedere 
+      denunciationem</head>
+            <p xml:id="jsnvu6-e249704-d1e106">
+               <lb ed="#L" n="14"/>QUAESTIO QVARTA. 
+      <lb ed="#L" n="15"/>Vtrum in correctione fraterna debeat 
+      se<lb ed="#L" n="16" break="no"/>creta monitio praecedere 
+      de<lb ed="#L" n="17" break="no"/>nunciationem. 
+      <lb ed="#L" n="18"/>Thom. 2. 2. q. 33. ar. 7.
+    </p>
+            <p xml:id="jsnvu6-e249704-d1e119">
+               <lb ed="#L" n="19"/>SECVNDO quaeritur vtrum in correctione fraterni 
+      <lb ed="#L" n="20"/>Idebeat secreta monitio praecedere denunciationem 
+      <lb ed="#L" n="21"/>Et videtur quod non: quia accusatio est grauior quam 
+      <lb ed="#L" n="22"/>denunciatio, sed ad publicam accusationem potest ali 
+      <lb ed="#L" n="23"/>quis procedere nulla secreta admonitione praecedente, sed sola 
+      <lb ed="#L" n="24"/>inscriptione, vt dicit Innoc. extra de accusationi. qualiter &amp; 
+      <lb ed="#L" n="25"/>quando. ergo videtur quod nec denunciationem debeat 
+      prae<lb ed="#L" n="26" break="no"/>cedere secreta admonitio. 
+    </p>
+            <p xml:id="jsnvu6-e249704-d1e139">
+               <lb ed="#L" n="27"/>Item secundum Aug. in libro contra mendacium. Ex facti: 
+      <lb ed="#L" n="28"/>sanctorum colligimus quid in scripturis sentire debeamus. Sed 
+      <lb ed="#L" n="29"/>Christus denunciauit apostolis Iudam ante admonitionem 
+      fa<lb ed="#L" n="30" break="no"/>ctam, vt patet Io. 13. Similiter Petrus damnauit Ananiam &amp; 
+      Sa<lb ed="#L" n="31" break="no"/>phiram ante aliquam admonitionem factam, vt patet Act. 5. Simi 
+      <lb ed="#L" n="32"/>liter Paulus reprehendit Petrum coram omnibus nulla 
+      moni<lb ed="#L" n="33" break="no"/>tione facta secrete, &amp; eodem modo Ioseph accusauit fratres suos 
+      <lb ed="#L" n="34"/>apud patrem crimine pessimo, Gen. 37. ergo videtur quod non 
+      sem<lb ed="#L" n="35" break="no"/>per secreta monitio debet praecedere denunciationem. 
+    </p>
+            <p xml:id="jsnvu6-e249704-d1e162">
+               <lb ed="#L" n="36"/>IN CONTRARIVM est quod dicit Dns Matth. 18. si 
+      <lb ed="#L" n="37"/>peccauit in te frater tuus corripe eum inter te, &amp; ipsum solum, &amp;c 
+      <lb ed="#L" n="38"/>ybi manifeste innuit, quod secreta monitio debet praecedere denum 
+      <lb ed="#L" n="39"/>ciationem. Et ibi dicit glos. hoc ordine vitare scandala debemus. 
+      </p>
+            <p xml:id="jsnvu6-e249704-d1e173">
+               <lb ed="#L" n="40"/>
+               <!--4--> RESPONSIO. Aduertendum est quod peccatum fratris 
+      <lb ed="#L" n="41"/>potest esse vel omnino publicum &amp; notorium, vel sic occultum qu 
+      <lb ed="#L" n="42"/>probari non potest, nec de eo infamatus est, vel partim occultum 
+      <lb ed="#L" n="43"/>&amp; partim notum, quod est quando innotescit pluribus per quo 
+      <lb ed="#L" n="44"/>conuinci potest, vel apud graues personas diffamatus est quamuis 
+      <lb ed="#L" n="45"/>publica fama non sit. In primo casu dicendum quod secreta admoni 
+      <lb ed="#L" n="46"/>tio non habet locum. Cuius ratio est, quia cum admonitio secre 
+      <lb ed="#L" n="47"/>ta fiat propter emendationem fratris quae est eius sanatio spiri 
+      <lb ed="#L" n="48"/>tualis, sicut est in sanando aliquem corporaliter, sic faciendum es 
+      <lb ed="#L" n="49"/>in corripiendo aliquem spiritualiter, sed in sanatione corporali 
+      <lb ed="#L" n="50"/>sic est quod medicus si potest hominem totaliter sanat ab 
+      infir<lb ed="#L" n="51" break="no"/>mitate, si autem non potest negligit minus malum vt occurrat 
+      ma<lb ed="#L" n="52" break="no"/>iori malo, sicut amputat vnum membrum ne totum corpus 
+      infi<lb ed="#L" n="53" break="no"/>ciatur, ergo similiter debet esse in correctione quae est sanatio 
+      <lb ed="#L" n="54"/>spiritualis: ex peccato autem homo duplex damnum incurrit, 
+      scili<lb ed="#L" n="55" break="no"/>cet damnum innocentiae quod est maximum, &amp; dispendium 
+      fa<lb ed="#L" n="56" break="no"/>mae si sciatur eius peccatum, &amp; istud est minus quam primum. 
+      <lb ed="#L" n="57"/>Est tamen magnum quia per amissionem famae homo patitur 
+      de<lb ed="#L" n="58" break="no"/>trimentum non solum in temporibus, sed etiam in spiritualibus 
+      <lb ed="#L" n="59"/>quia prae timore infamiae multi a peccato retrahuntur. Et idec 
+      <lb ed="#L" n="60"/>sic sanandus est peccator per correctionem si fieri potest quod 
+      <lb ed="#L" n="61"/>totaliter ei innocentia restituatur nec fama perdatur, sin aliter 
+      <lb ed="#L" n="62"/>debet negligi fama vt conscientia reparetur. Ex quo potest 
+      si<lb ed="#L" n="63" break="no"/>argui: vbi iam est perdita fama non habet locum admonitio 
+      se<lb ed="#L" n="64" break="no"/>creta, licet admonitio possit locum habete, sed quando peccatum 
+      <lb ed="#L" n="65"/>alicuius est notorium iam est perdita fama, ergo hic non habet 
+      <lb ed="#L" n="66"/>locum admonitio secreta. Si autem peccatum sit omnino occu 
+      <lb ed="#L" n="67"/>tum modo quo dictum est prius, aut illud non solum est nociuum 
+      <lb ed="#L" n="68"/>peccanti, sed in detrimentum aliorum temporale vel 
+      spiritua<lb ed="#L" n="69" break="no"/>le, vtpote cum aliquis tractat de prodenda ciuitate hostibus, vel 
+      <lb ed="#L" n="70"/>quando latet haereticus innitens ad corruptionem fidei &amp; 
+      mo<lb ed="#L" n="71" break="no"/>rum in aliis, aut est solum nociuum peccanti. In primo casu si fir 
+      <lb ed="#L" n="72"/>miter credatur o peccator propter admonitionem secretam 
+      <lb ed="#L" n="73"/>sibi factam desistat a malitia, omnino prius est admonendus 
+      an<lb ed="#L" n="74" break="no"/>tequam alij reueletur propter rationem prius dictam, scilicet 
+      <lb ed="#L" n="75"/>vt parcatur famae cum emendatione conscientiae. Si autem 
+      pro<lb ed="#L" n="76" break="no"/>babiliter timeatur de emendatione eius, denunciandum est illi 
+      <lb ed="#L" n="77"/>qui potest periculo occurrere, salua tamen fama eius quantum 
+      <lb ed="#L" n="78"/>est possibile. Cuius ratio est, quia charitas plus diligit bonum con 
+      <lb ed="#L" n="79"/>mune quam bonum singularis personae. Si ergo in hoc casu 
+      bo<lb ed="#L" n="80" break="no"/>num commune non posset seruari nisi cum dispendio famae sin 
+      <!--00679.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>gularis personae, illud ex charitate est negligendum, vt bonum 
+      <lb ed="#L" n="82"/>commune ex charitate possit seruari. Et sic est intelligenda 
+      au<lb ed="#L" n="83" break="no"/>ctoritas Hieronymi dicentis, quod misericordia est parcere vni, e 
+      <lb ed="#L" n="84"/>multos in discrimen adducere. Polluitur enim populus ex vno 
+      <lb ed="#L" n="85"/>peccatore, sicut ex vna oue morbida vniuersus grex. Si autem 
+      <lb ed="#L" n="86"/>peccatum sit solum nociuum peccati, nec fit ita notum quod 
+      pos<lb ed="#L" n="87" break="no"/>sit probari, nec de eo fit peccator infamatus: tunc secreta moni 
+      <lb ed="#L" n="88"/>tio locum habet, quae siue valeat, siue non sistendum est in ea, nec 
+      <lb ed="#L" n="89"/>procedendum est aliquam denunciationem faciendam superio. 
+      <lb ed="#L" n="90"/>ri vt superior est &amp; persona publica. Cuius ratio est, quia denum 
+      <lb ed="#L" n="91"/>ciatio ad hoc fit superiori vt ipse de peccato inquirat &amp; 
+      pecca<lb ed="#L" n="92" break="no"/>torem corrigat, sed ad hoc non potest praelatus procedere nisi 
+      <lb ed="#L" n="93"/>peccatum illud posset probari, vel peccator sit de eo infamatus 
+      <lb ed="#L" n="94"/>ergo vbi neutrum istorum est, locum non habet denunciatio: si 
+      <lb ed="#L" n="95"/>autem dicatur quod denunciatio non habet hic locum vt fiat 
+      im<lb ed="#L" n="96" break="no"/>mediate post admonitionem secretam, potest tamen habere loci 
+      <lb ed="#L" n="97"/>vt fiat mediante inductione testium, vt Dominus videtur dicere 
+      <lb ed="#L" n="98"/>Matt. 18. Si te non audierit adhibe tecum vnum vel duos testes, 
+      <lb ed="#L" n="99"/>vt in ore duorum vel trium testium, &amp;c. non valet, quia inductio 
+      <lb ed="#L" n="100"/>testium vel fit ad probandum factum, vel ad probandam 
+      admoni<lb ed="#L" n="101" break="no"/>tionem: non ad probandum factum, quia aut ad probandum prae 
+      <lb ed="#L" n="102"/>teritum, aut ad obseruandum futurum: vt probetur factum 
+      praete<lb ed="#L" n="103" break="no"/>ritum probari non potest per eos, quia nihil sciunt, futurum vero 
+      <lb ed="#L" n="104"/>obseruari non debet vel saltem nullus ad hoc tenetur, sicut allega 
+      <lb ed="#L" n="105"/>tum est de Augu. supra, quod non tenemur esse exploratores vitae 
+      <lb ed="#L" n="106"/>alienae. Et si probabiliter crederetur quod peccatum esset 
+      iteran<lb ed="#L" n="107" break="no"/>dum, magis esset secundum charitatem statim indicandum illi qu 
+      <lb ed="#L" n="108"/>qui posset impedire quam inducere testes ad conuincendum eum 
+      <lb ed="#L" n="109"/>post factum nec potest dici quod testes debeant induci ad proban 
+      <lb ed="#L" n="110"/>dum admonitionem vt eis inductis postea sequatur denunciatio 
+      <lb ed="#L" n="111"/>quia talis inductio sine fructu esset, cum per eam non posset sequi 
+      <lb ed="#L" n="112"/>correctio peccatoris, magis etiam esset proditio criminis quam 
+      <lb ed="#L" n="113"/>correctio peccantis. Quod autem non possit sequi correctio patet 
+      <lb ed="#L" n="114"/>quia in nullo probatur crimine, quia vox omnium non est nisi 
+      <lb ed="#L" n="115"/>vox vnius. Item denuncians exponit se periculo, quia si peccato 
+      <lb ed="#L" n="116"/>neget crimen potest conqueri superiori de eo quod denuncians 
+      <lb ed="#L" n="117"/>cum infamauit imponendo coram pluribus crimen quod non 
+      com<lb ed="#L" n="118" break="no"/>misit, &amp; sic alter merito puniretur. Videtur ergo quod in hoc casu 
+      <lb ed="#L" n="119"/>sistendum sit in monitione secreta, sic qued nunquam sit vlterius: 
+      <lb ed="#L" n="120"/>procedendum ad denunciationem faciendam praelato vt est 
+      per<lb ed="#L" n="121" break="no"/>sona publica: quod dico pro tanto, quia si probabiliter credatur 
+      <lb ed="#L" n="122"/>quod praelatus vt bonus vir &amp; non vt iudex posset prodesse pecca 
+      <lb ed="#L" n="123"/>tori &amp; non obesse vel per secretam admonitionem, vel praecli 
+      <lb ed="#L" n="124"/>dendo occasionem peccandi siue reuelatione peccatoris potes 
+      <lb ed="#L" n="125"/>ei in secreto dici peccatum fratris vt adhibeat remedium quod 
+      <lb ed="#L" n="126"/>poterit adhibere, &amp; eodem modo posset dici alij non praelato si 
+      <lb ed="#L" n="127"/>crederetur quod vellet &amp; posset alteri prodesse. Et hoc est quod dicit 
+      <lb ed="#L" n="128"/>beatus Augu. super Leuit. 5. cap. super illo verbo: Qui audieri 
+      <lb ed="#L" n="129"/>aliquem falsum iurare &amp; tacet, &amp;c. Et recitatur 22. q. 6. ca. Hoc 
+      <lb ed="#L" n="130"/>videtur. vbi dicit sic: Videtur mihi quod se ob hoc soluat peccati 
+      <lb ed="#L" n="131"/>vinculo ille supple qui scit periurium alterius, si indicet talibus 
+      <lb ed="#L" n="132"/>qui magis possent prodesse quam obesse periurio siue eum cor 
+      <lb ed="#L" n="133"/>rigendo, siue Deum pro eo placando. 
+      </p>
+            <p xml:id="jsnvu6-e249704-d1e386">
+               <lb ed="#L" n="134"/>
+               <!--5--> Si autem peccatum non sit omnino occultum, nec omnino 
+      <lb ed="#L" n="135"/>notum, hoc est quod innotescit pluribus per quos conuinci po 
+      <lb ed="#L" n="136"/>test, vel apud graues personas diffamatus est quamuis publici 
+      <lb ed="#L" n="137"/>fama non sit contra eum, sic videtur habere locum processus que 
+      <lb ed="#L" n="138"/>Dijs ponit in Euangelio, vt scilicet primo secrete admoneatur 
+      <lb ed="#L" n="139"/>de correctione, quo si non prosit admoneatur de correctione 
+      <lb ed="#L" n="140"/>coram illis qui factum sciunt, quod si nec istud prosit tunc deindi 
+      <lb ed="#L" n="141"/>denunciandum est ecclesiae. Et ratio huius est, quia ex charitate 
+      <lb ed="#L" n="142"/>subueniendum est conscientiae quantum possibile est absque 
+      de<lb ed="#L" n="143" break="no"/>trimento famae: sicut ergo ex praecepto charitatis tenetur 
+      qui<lb ed="#L" n="144" break="no"/>sanare fratris conscientiam non laedendo in aliquo eius faman 
+      <lb ed="#L" n="145"/>si hoc potest fieri per aliquam secretam admonitionem quand 
+      <lb ed="#L" n="146"/>peccatum est penitus occultum, sic quando non potest 
+      emen<lb ed="#L" n="147" break="no"/>dari conscientia seruando totaliter famam quae iam apud aliquo 
+      <lb ed="#L" n="148"/>laesa est, subueniendum est ex charitate emendationi conscientia 
+      <lb ed="#L" n="149"/>absque vlteriori laesione famae, quod fit per admonitionem qu 
+      <lb ed="#L" n="150"/>fit coram testibus qui alias sciunt factum. Et hi inducuntur non 
+      <lb ed="#L" n="151"/>ad sciendum factum cum prius scirent, sed vt coram ipsis 
+      effica<lb ed="#L" n="152" break="no"/>cior sit correctio, &amp; vt probetur correctio si contingat ad 
+      pu<lb ed="#L" n="153" break="no"/>blicam denunciationem procedere, ne denuncians repellatur: 
+      <lb ed="#L" n="154"/>denunciatione tanquam inimicus vel suspectus. 
+      </p>
+            <p xml:id="jsnvu6-e249704-d1e436">
+               <lb ed="#L" n="155"/>
+               <!--6--> His tamen quae prius dicta sunt videtur obuiare quod dicit 
+      <lb ed="#L" n="156"/>beatus Augustinus in regula, vbi innuit, quod qui non corr gitur 
+      <lb ed="#L" n="157"/>pet secretam admonitionem fratris, denunciandus est praelato 
+      <lb ed="#L" n="158"/>non tanquam publicae personae, sed tanquam ei quivult 
+      pro<lb ed="#L" n="159" break="no"/>desse &amp; non obesse. Et in hoc bene concordat cum secundo 
+      mem<lb ed="#L" n="160" break="no"/>bro praecedentis determinationis: sed vlterius dicit, quod 
+      ne<lb ed="#L" n="161" break="no"/>ganti adhibendi sunt alij etiam coram omnibus vt possit non 
+      <lb ed="#L" n="162"/>ab vno teste argui, sed a duobus, vel tribus conuinci. In quo vide¬ 
+      <!--00680.xml-->
+      <pb ed="#L" n="303-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tur innuere quod testes inducendi sunt ad explorandum pecca 
+      <lb ed="#L" n="2"/>tum futurum, vt per eos conuincatur coram praelato, quod est 
+      <lb ed="#L" n="3"/>contra prius dicta. Sed aduertendum est quod August. non 
+      vi<lb ed="#L" n="4" break="no"/>detur loqui de eo quod est crimen secundum se, sed de eo quod 
+      <lb ed="#L" n="5"/>potest esse occasio criminis, vt est aspectus fixus in mulierem de 
+      <lb ed="#L" n="6"/>quo ibi loquitur, nec ad hoc explorandum dicit testes induci, sed 
+      <lb ed="#L" n="7"/>si contingat iterari &amp; praesentes sint aliqui qui forte non 
+      aduer<lb ed="#L" n="8" break="no"/>tunt, inducendi sunt vt aduertant &amp; sic testimonium ferant, v 
+      <lb ed="#L" n="9"/>talis possit a praelato debita seueritate coerceri, ne labatur in er 
+      <lb ed="#L" n="10"/>men cuius iam habet occasionem, &amp; ad quod habet pronitatem 
+      <lb ed="#L" n="11"/>non loqustur autem de crimine iam commisso, quod si sit 
+      occul<lb ed="#L" n="12" break="no"/>tum debeat aliis reuelari, vel conuincendum debeat explorari, &amp; 
+      <lb ed="#L" n="13"/>ita non est contra praedeterminata. 
+      </p>
+            <p xml:id="jsnvu6-e249704-d1e493">
+               <lb ed="#L" n="14"/>
+               <!--7--> Ad primum argumentum in oppositum dicendum, quod sicui 
+      <lb ed="#L" n="15"/>aliqui dicunt, in accusatione non agitur ad emendationem 
+      de<lb ed="#L" n="16" break="no"/>linquentis, sed ab bonum commune, scilicet ad conseruandum 
+      <lb ed="#L" n="17"/>iustitiam per punitionem delinquentis. Et ideo accusatio in 
+      iu<lb ed="#L" n="18" break="no"/>dicio potest fieri etiam si admonitio non praecedit: nec est 
+      con<lb ed="#L" n="19" break="no"/>tra praeceptum domini quod intelligitur quando agitur ad 
+      emen<lb ed="#L" n="20" break="no"/>dationem delinquentis. Aliis videtur quod quamuis secundum 
+      <lb ed="#L" n="21"/>forum causarum non requiratur quod praecedat admonitio, sed 
+      <lb ed="#L" n="22"/>solum inscriptio, tamen secundum forum conscientiae non est ad 
+      <lb ed="#L" n="23"/>eam procedendum nisi admonitione praemissa, &amp; emendationi 
+      <lb ed="#L" n="24"/>expectata, si speretur propter rationem prius positam: nec cogit 
+      <lb ed="#L" n="25"/>ratio alterius partis, quia bonum commune non est laesum per 
+      <lb ed="#L" n="26"/>peccatum alicuius quousque deductum est in publicum. Et ideo 
+      <lb ed="#L" n="27"/>si admoneatur de correctione antequam crime eius publicetur 
+      <lb ed="#L" n="28"/>per accusationem, fit secundum charitatem. Si autem non 
+      prae<lb ed="#L" n="29" break="no"/>mittitur admonitio ad eius correctionem, peruertitur ordo 
+      cha<lb ed="#L" n="30" break="no"/>ritatis, quia iniuste dimittitur charitatiua emendatio fratris. 
+      </p>
+            <p xml:id="jsnvu6-e249704-d1e535">
+               <lb ed="#L" n="31"/>
+               <!--8--> Ad secundum dicendum quod Christus vt Deus nouerat Iu 
+      <lb ed="#L" n="32"/>dam incorrigibilem, &amp; ideo non oportuit quod admoneret eum 
+      <lb ed="#L" n="33"/>secreto, quod fit propter correctionem. Petrus autem publicauii 
+      <lb ed="#L" n="34"/>peccatum Ananiae &amp; Sapphirae eadem ratione cum sciret hoc pe 
+      <lb ed="#L" n="35"/>sancti spiritus reuelationem, &amp; affixit eis tanquam incorrigibi 
+      <lb ed="#L" n="36"/>libus poenam ad terrorem aliorum. De Paulo autem patet respor 
+      <lb ed="#L" n="37"/>sio: quia Petrus coram omnibus peccauit, &amp; ideo oportuit ipsum 
+      <lb ed="#L" n="38"/>coram omnibus redargui iuxta illud. 1. Timothe. 5. Peccantem 
+      co<lb ed="#L" n="39" break="no"/>ram omnibus argue. Ioseph atem praemonuit fratres, licet non 
+      <lb ed="#L" n="40"/>legatur, vel si praetermisit erraui: licet posset propter defectum 
+      <lb ed="#L" n="41"/>aetatis aliqualiter excusari saltem a tanto. Alij excusant eum 
+      di<lb ed="#L" n="42" break="no"/>centes, quod ipse non denunciauit, sed accusauit sicut textus di 
+      <lb ed="#L" n="43"/>xit quod accusauit fratres suos apud patrem crimine pessimo 
+      <lb ed="#L" n="44"/>non est autem necesse quod accusationem praecedat fraterna 
+      <lb ed="#L" n="45"/>admonitio. Sed istud minus valet, quia accusans si deficiat in 
+      <lb ed="#L" n="46"/>probatione debet puniri poena talionis. Si vero probet, 
+      accusa<lb ed="#L" n="47" break="no"/>tus debet puniri secundum quantitatem &amp; qualitatem criminis 
+      <lb ed="#L" n="48"/>quorum neutrum legitur ibi factum. Nec oportet quod nomen 
+      <lb ed="#L" n="49"/>accusationis sumatur ita stricte, sicut sumunt iuristae: sed pro 
+      <lb ed="#L" n="50"/>quacunque reuelatione seu declaratione criminis: nec est 
+      co<lb ed="#L" n="51" break="no"/>nandum ad excusandum omnia facta antiquorum qui in multis 
+      <lb ed="#L" n="52"/>errauerunt. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

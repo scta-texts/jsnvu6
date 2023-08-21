@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="230-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e189219"><!-- l3d30q2 -->
+            <head xml:id="jsnvu6-e189219-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e189219-Hd1e103" type="question-title">Utrum diligere amicum sit magis meritorium 
+      quam diligere inimicum, an econuerso</head>
+            <p xml:id="jsnvu6-e189219-d1e106">
+               <lb ed="#L" n="122"/>QUAESTIO SECVNDA
+      <lb ed="#L" n="123"/>Utrum diligere amicum sit magis meritorium 
+      <lb ed="#L" n="124"/>quam diligere inimicum, an econuerso. 
+      <lb ed="#L" n="125"/>Tho. 2. 2. q. 27. ar. 7.
+  </p>
+            <p xml:id="jsnvu6-e189219-d1e117">
+               <lb ed="#L" n="126"/>SECVNDO quaeritur vtrum diligere amicu sit 
+      <lb ed="#L" n="127"/>magis meritorium quam diligere inimicum, an 
+      econ<lb ed="#L" n="128" break="no"/>uerso. Et arguitur quod diligere amicum, quia illud quod 
+      <lb ed="#L" n="129"/>I est melius est magis meritorium, sed diligere 
+      ami<lb ed="#L" n="130" break="no"/>F 
+      <lb ed="#L" n="131"/>cum est melius quam diligere inimicum, ergo &amp;c. Maior de se pa 
+      <lb ed="#L" n="132"/>tet, sed minor probatur, quia minus bonu dimittendum est pro 
+      <lb ed="#L" n="133"/>magis bono si incumbat necessitas alterum dimittendi. Sed di 
+      <lb ed="#L" n="134"/>lectio inimicorum quo ad exteriorem effectum qui affectui pro 
+      <lb ed="#L" n="135"/>portionatur, dimittenda est pro dilectione amicorum, quia quan 
+      <lb ed="#L" n="136"/>do non possumus vtrisque subuenite tenemur subucuire 
+      ami<lb ed="#L" n="137" break="no"/>cis, dimissis inimicis, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e189219-d1e146">
+               <lb ed="#L" n="138"/>
+               <!--2--> Item si oppositum in opposito, &amp; propositum in proposito, 
+      <lb ed="#L" n="139"/>sed odire amicum est peius quam odire inimicum, ergo 
+      dilige<lb ed="#L" n="140" break="no"/>re amicum est melius, ergo est magis meritorium. 
+</p>
+            <p xml:id="jsnvu6-e189219-d1e158">
+               <lb ed="#L" n="141"/>IN CONTRARIVM arguitur, quia secundum Greg 
+      <lb ed="#L" n="142"/>Seruitia tanto sunt magis accepta, quanto minus debita, sed mi 
+      <lb ed="#L" n="143"/>nus est debitum diligere inimicum quam amicum, ergo est deo 
+      <lb ed="#L" n="144"/>magis acceptum, quare &amp; magis meritorium. 
+</p>
+            <p xml:id="jsnvu6-e189219-d1e169">
+               <lb ed="#L" n="145"/>RESPONSIO. Dilectio amici &amp; inimici possunt 
+      du<lb ed="#L" n="146" break="no"/>pliciter accipi. Vno modo sic quod vna excludit alteram, vt cum 
+      ali<lb ed="#L" n="147" break="no"/>quis sic diligit amicos quod nullo modo diligit inimicos, nec actu 
+      <lb ed="#L" n="148"/>nec habitu, sed forte odit. Econtrario autem forte non est possi 
+      <lb ed="#L" n="149"/>bile quod aliquis diligat inimicos &amp; non diligat amicos. Alio 
+      mo<lb ed="#L" n="150" break="no"/>do possunt accipi sic quod neutra excludat alteram. Primo 
+      mo<lb ed="#L" n="151" break="no"/>do quaestio est nulla, quia comparatio secundum magis &amp; minus 
+      <lb ed="#L" n="152"/>tale supponit vtrunque esse tale, ergo comparatio secundum ma 
+      <lb ed="#L" n="153"/>gis &amp; minus meritorium inter aliqua supponit vttunque esse 
+      <lb ed="#L" n="154"/>meritorium. Sed dilectio amici excludens dilectionem inimici 
+      <lb ed="#L" n="155"/>non est meritoria cum ex charitate teneamur inimicos diligere 
+      <lb ed="#L" n="156"/>vt prius patuit, ergo nulla potest esse comparatio inter ipsam 
+      <lb ed="#L" n="157"/>&amp; dilectionem inimici quae sit magis meritoria, quia altera nullo 
+      <lb ed="#L" n="158"/>mondo est metitoria, scilicet dilectio amici excludens dilectionem 
+      <!--00534.xml-->
+      <pb ed="#L" n="230-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>inimici, dicente domino Matth. 5. Si diligitis illos tantum qui vos 
+      <lb ed="#L" n="2"/>diligunt quam mercedem habebitis? qu.d. nullam. 
+      </p>
+            <p xml:id="jsnvu6-e189219-d1e213">
+               <lb ed="#L" n="3"/>
+               <!--6--> Si vero vtraque dilectio sic accipiatur quod neutra excludat a 
+      <lb ed="#L" n="4"/>teram, adhuc hoc posset esse dupliciter, vno modo quia vna no 
+      <lb ed="#L" n="5"/>solum non excludit alteram, sed includit &amp; non econuerso, sicu 
+      <lb ed="#L" n="6"/>cum aliquis actuali dilectione fertur in amicum, &amp; inimicum, 
+      aliu<lb ed="#L" n="7" break="no"/>vero fertur in amicum tantum non includendo inimicum non 
+      ta<lb ed="#L" n="8" break="no"/>men excludendo, quia de inimico non cogitat. Alio modo quia 
+      <lb ed="#L" n="9"/>vna non excludit alteram nec includit. Primo modo quaestio nor 
+      <lb ed="#L" n="10"/>est dubitabilis, quia constat quod diligere amicum &amp; inimicun 
+      <lb ed="#L" n="11"/>propter deum perfectius est quam diligere amicum, quia omni 
+      <lb ed="#L" n="12"/>bonum secum includens aliud, melius est &amp; perfectius quam 
+      bo<lb ed="#L" n="13" break="no"/>num inclusum &amp; non includens, sic est in proposito, quare &amp;c. Ei 
+      <lb ed="#L" n="14"/>iterum perfectior actus est qui se extendit ad remotiora, sed di 
+      <lb ed="#L" n="15"/>lectio qua diligitur amicus &amp; inimicus se extendit ad remotiora 
+      <lb ed="#L" n="16"/>quam dilectio amici, ergo est perfectior, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e189219-d1e248">
+               <lb ed="#L" n="17"/>
+               <!--7.--> Si vero vna non excludat alteram, nec includat sicut cum aliquis 
+      <lb ed="#L" n="18"/>fertur per actum dilectionis in amicum nihil cogitans de 
+      inimi<lb ed="#L" n="19" break="no"/>co, alius vero fertur per actum dilectionis in inimicum nihil cogi 
+      <lb ed="#L" n="20"/>tans de amico, sic videtur quod caeteris paribus scilicet habitu cha 
+      <lb ed="#L" n="21"/>ritatis in vtroque, &amp; intensione actus hincinde dilectio inimici es 
+      <lb ed="#L" n="22"/>magis meritoria quam dilectio amici. Quod patet dupliciter 
+      <lb ed="#L" n="23"/>Primo sic, quando duo actus boni sic se habent quod procedunt es 
+      <lb ed="#L" n="24"/>pari habitu &amp; sunt aeque intensi ad vnum tame requiretur 
+      ma<lb ed="#L" n="25" break="no"/>ior conatus ex natura operis quam ad alium, ille ad quem requiri 
+      <lb ed="#L" n="26"/>tur maior conatus est magis meritorius. Sed ad dilectionem inimi 
+      <lb ed="#L" n="27"/>ci si sit aeque intensa sicut dilectio amici requiritur maior cona 
+      <lb ed="#L" n="28"/>tus ex natura operis, ergo est magis meritoria. Maior patet. Co 
+      <lb ed="#L" n="29"/>natus enim major quando requiritur solum ex parte operantis 
+      <lb ed="#L" n="30"/>qui est male dispositus non auget meritum. Alioquin plus 
+      merere<lb ed="#L" n="31" break="no"/>tur incontinens quam temperatus faciendo simile opus de genere 
+      <lb ed="#L" n="32"/>virtutis, quia oportet incontinentem plus conari propter malam 
+      <lb ed="#L" n="33"/>dispositionem quam temperatum. Hoc autem non est verum, 
+      qui<lb ed="#L" n="34" break="no"/>tunc virtutes magis obessent quam prodessent. Sed quando 
+      ma<lb ed="#L" n="35" break="no"/>ior conatus requiritur non propter indispositionem operantis, sed 
+      <lb ed="#L" n="36"/>propter difficultatem operis, tunc maior conatus faciens quod actu: 
+      <lb ed="#L" n="37"/>difficilior sit aeque intensus sicut actus facilior auget meritum 
+      <lb ed="#L" n="38"/>Minor de se patet scilicet quod ad diligendum inimicum aequi 
+      <lb ed="#L" n="39"/>intense sicut aliquis diligit amicum requiritur maior conatus cum 
+      <lb ed="#L" n="40"/>sint hic plura repugnantia, &amp; pauciora attrahentia, quare &amp;c 
+      <lb ed="#L" n="41"/>Secundo sic, ille actus cuius tota intentio reducitur in charitati 
+      <lb ed="#L" n="42"/>est magis meritorius quam ille cuius similis intentio non 
+      totali<lb ed="#L" n="43" break="no"/>ter reducitur in charitatem. Et causa huius est quia meritum, 
+      <lb ed="#L" n="44"/>innititur principaliter charitati. Sed dilectio inimici est talis 
+      <lb ed="#L" n="45"/>actus, quia tota ratio diligendi inimicum est charitas ad deum. 
+      <lb ed="#L" n="46"/>Tota autem ratio diligendi amicum non semper est charitas, sed 
+      <lb ed="#L" n="47"/>concurrit aliqua alia ratio, scilicet communicatio in aliquo 
+      bo<lb ed="#L" n="48" break="no"/>no consanguinitatis, vel ciuilitatis, vel huiusmodi, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e189219-d1e322">
+               <lb ed="#L" n="49"/>
+               <!--8--> Sed contra hoc arguitur sic, sicut charitas necessario exigit 
+      <lb ed="#L" n="50"/>vt diligatur inimicus, sic ordo charitatis necessario exigit quod 
+      <lb ed="#L" n="51"/>amicus plus diligatur quam inimicus, sed propter primum 
+      dile<lb ed="#L" n="52" break="no"/>ctio amici quae dilectionem inimici excludit, non est meritoria v 
+      <lb ed="#L" n="53"/>dictum fuit, &amp; ideo inter ipsam &amp; dilectionem inimici non es 
+      <lb ed="#L" n="54"/>comparatio quae earum sit magis meritoria, ergo propter 
+      secun<lb ed="#L" n="55" break="no"/>dum, dilectio inimici cum aequatur dilectio amici non est 
+      meri<lb ed="#L" n="56" break="no"/>toria, quare vt videtur inter ipsam &amp; dilectionem amici non est 
+      <lb ed="#L" n="57"/>recta comparatio quae earum sit magis meritoria, ergo 
+      quaesti<lb ed="#L" n="58" break="no"/>in hoc sensu est nulla. Et dicendum ad hoc quod diligere amicum 
+      <lb ed="#L" n="59"/>plusquam inimicum est de ordine charitatis respectu eiusdem 
+      di<lb ed="#L" n="60" break="no"/>ligentis in casu necessitatis quando affectus cum effectu non 
+      po<lb ed="#L" n="61" break="no"/>test vtrique exhiberi. Tunc enim idem homo inimicum aeque 
+      di<lb ed="#L" n="62" break="no"/>ligens, vt amicum peccat faciendo contra ordinem charitatis. Sec 
+      <lb ed="#L" n="63"/>respectu diuersorum diligentium, maxime extra casum necessi 
+      <lb ed="#L" n="64"/>tatis non est contra ordinem charitatis quod vnus propter deum 
+      ve<lb ed="#L" n="65" break="no"/>lit inimico tantum bonum &amp; tanto affectu sicut alius vult 
+      ami<lb ed="#L" n="66" break="no"/>co, imo pertinet ad perfectione charitatis. In eodem etiam 
+      ho<lb ed="#L" n="67" break="no"/>mine pro alio tempore &amp; extra casum praedictum non est 
+      con<lb ed="#L" n="68" break="no"/>tra ordinem charitatis quod velit par bonum, &amp; pari affectu 
+      <lb ed="#L" n="69"/>amico &amp; inimico. Et in hoc sensu procedit ratio &amp; non in primo
+</p>
+            <p xml:id="jsnvu6-e189219-d1e372">
+               <lb ed="#L" n="70"/>Si autem caetera non essent hincinde paria, vel saltem intenfic 
+      <lb ed="#L" n="71"/>actus non esset aequalis non posset vno sermone determinari quae 
+      <lb ed="#L" n="72"/>dilectio fit magis meritoria, quia intantum potest dilectio inimic 
+      <lb ed="#L" n="73"/>esse imperfecta in vno quod erit secundum infimum gradum cha 
+      <lb ed="#L" n="74"/>ritatis, in alio dilectio amici poterit esse valde perfecta. Et tunc 
+      di<lb ed="#L" n="75" break="no"/>„lectio amici erit magis meritoria quam dilectio inimici, &amp; 
+      econ<lb ed="#L" n="76" break="no"/>uerso in vno poterit dilectio inimici esse valde perfecta, in 
+      ali<lb ed="#L" n="77" break="no"/>autem dilectio amici valde imperfecta, &amp; tunc oportet econuersi 
+      <lb ed="#L" n="78"/>dicere quod dilectio inimici sit magis meritoria, &amp; multae aliae va 
+      <lb ed="#L" n="79"/>rietates poterunt incidere, propter quas oportebitvariare iudicii 
+      <lb ed="#L" n="80"/>nisi caetera supponantur hinc inde paria modo quo dictum est 
+      </p>
+            <p xml:id="jsnvu6-e189219-d1e399">
+               <lb ed="#L" n="81"/>
+               <!--10--> Ad primum argumentum dicendum quod magis bonum est 
+      ma<lb ed="#L" n="82" break="no"/>gis meritorium supposita aequali ratione debiti. Sed si est magis 
+      <!--00534.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>debitum non est verum, sicut reddere mutuum melius est cum sit 
+      <lb ed="#L" n="84"/>actus iustitiae quam dare suum qui est actus liberalitatis, &amp; tamen 
+      <lb ed="#L" n="85"/>non est ita meritorium. Plus enim obligatur beneficiatus benefico, 
+      <lb ed="#L" n="86"/>qui liberaliter dedit quam recipiens mutuum quod tradidit 
+      obli<lb ed="#L" n="87" break="no"/>getur illi qui mutuum reddit quod non esset nisi dare suum esset 
+      ma<lb ed="#L" n="88" break="no"/>gis meritorium quam reddere alienum, diligere autem amicum est 
+      ma<lb ed="#L" n="89" break="no"/>gis debitum quam diligere inimicum, &amp; ideo dato quod esset 
+      meliu<lb ed="#L" n="90" break="no"/>non sequitur quod sit magis meritorium. Potest dici ad minorem per 
+      <lb ed="#L" n="91"/>interemptionem, quia dilectio amici non est melior quam dilectio 
+      <lb ed="#L" n="92"/>inimici. Quia dilectio inimici includit dilectionem amici, vel actu, 
+      <lb ed="#L" n="93"/>vt cum aliquis diligit propter deum amicum &amp; inimicum, vel habitu 
+      <lb ed="#L" n="94"/>&amp; ex natura rei &amp; non solum ex suppositione, quicunque enim 
+      di<lb ed="#L" n="95" break="no"/>ligit inimicum sequitur ex natura actus &amp; obiecti quod diligas 
+      <lb ed="#L" n="96"/>amicum habitu, &amp; diligeret actu, affectu, &amp; effectu, si occurreret &amp; 
+      <lb ed="#L" n="97"/>opus esset. Non sic autem sequitur econuerso. Bonum autem 
+      inclu<lb ed="#L" n="98" break="no"/>dens aliud, melius est, quare vt videtur dilectio inimici melio 
+      <lb ed="#L" n="99"/>est quam dilectio amici. Et cum probatur quod non quia illud 
+      <lb ed="#L" n="100"/>quod est dimittendum propter alterum est minus bonum. Dicendum 
+      <lb ed="#L" n="101"/>quod non oportet, sed est bonum minoris necessitatis, verbi 
+      grati<lb ed="#L" n="102" break="no"/>philosophari melius est quam ditari, &amp; tamen indigenti 
+      dimitten<lb ed="#L" n="103" break="no"/>dum est philosophari propter ditari, quia est minoris necessitatis 
+      <lb ed="#L" n="104"/>Similiter dilectio inimici dimittenda est quod ad effectum propte 
+      <lb ed="#L" n="105"/>dilectionem amici, quando non potest vtrisque subueniri non 
+      qui<lb ed="#L" n="106" break="no"/>sit minus bona, sed quia est minus necessaria &amp; minus debita. 
+      </p>
+            <p xml:id="jsnvu6-e189219-d1e464">
+               <lb ed="#L" n="107"/>
+               <!--11--> Ad secundum dicendum quod in illis in quibus vnum se 
+      ha<lb ed="#L" n="108" break="no"/>bet per additionem ad alterum tenet consequentia econtrario, 
+      <lb ed="#L" n="109"/>&amp; non consequentia in ipso, vt patet in viuere &amp; esse, sicut 
+      om<lb ed="#L" n="110" break="no"/>ne quod viuit est, sic omne quod non est non viuit. Et quia 
+      dile<lb ed="#L" n="111" break="no"/>ctio inimicorum se habet per additionem ad dilectionem 
+      ami<lb ed="#L" n="112" break="no"/>corum quam aliquo modo includit, ideo sicut melius est 
+      dilige<lb ed="#L" n="113" break="no"/>re inimicum, sic peius est odire amicum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

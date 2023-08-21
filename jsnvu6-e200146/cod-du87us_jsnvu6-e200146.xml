@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="243-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e200146"><!-- l3d37q4 -->
+            <head xml:id="jsnvu6-e200146-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e200146-Hd1e103" type="question-title">Utrum liceat accipere pecuniam mutuo sub vsuris</head>
+            <p xml:id="jsnvu6-e200146-d1e106">
+               <lb ed="#L" n="16"/>QUAESTIO QVARTA. 
+      <lb ed="#L" n="17"/>Vtrum liceat accipere pecuniam mutuo sub vsuris, 
+      <lb ed="#L" n="18"/>Thom. 2. 2. q. 78. ar. 4.
+    </p>
+            <p xml:id="jsnvu6-e200146-d1e115">
+               <lb ed="#L" n="19"/>TERTIO quaeritur, vtrum liceat accipere 
+      pe<lb ed="#L" n="20" break="no"/>cuniam mutuo sub vsuris. Et videtur quod non, 
+      qui<lb ed="#L" n="21" break="no"/>nullus potest licite petere quod alius non potest 
+      li<lb ed="#L" n="22" break="no"/>cite dare, sed vsurarius non potest dare mutuum, 
+      <lb ed="#L" n="23"/>i ad vsuram, ergo nulli licet ab eo pecuniam 
+      ac<lb ed="#L" n="24" break="no"/>cipere sub vsura. 
+      </p>
+            <p xml:id="jsnvu6-e200146-d1e131">
+               <lb ed="#L" n="25"/>
+               <!--2.--> Et confirmatur per illud quod dicitur Ro. I. Digni sunt mort. 
+      <lb ed="#L" n="26"/>non solum qui faciunt ea, sed qui consentiunt facientibus. Sed 
+      <lb ed="#L" n="27"/>accipiens mutuum sub vsuris consentit vsurario tradenti 
+      mu<lb ed="#L" n="28" break="no"/>tuum ad vsuram, ergo sicut tradens peccat, ita &amp; recipiens. 
+      </p>
+            <p xml:id="jsnvu6-e200146-d1e145">
+               <lb ed="#L" n="29"/>
+               <!--3--> IN CONTRARIVM est, quia dicere quod recipere 
+      <lb ed="#L" n="30"/>mutuum sub vsura sit peccatum mortale est damnare totum 
+      <lb ed="#L" n="31"/>mundum vel maiorem partem, quod est inconueniens. 
+      </p>
+            <p xml:id="jsnvu6-e200146-d1e156">
+               <lb ed="#L" n="32"/>
+               <!--4--> RESPONSIO. Intelligendum est quod in accipiente mutui 
+      <lb ed="#L" n="33"/>sub vsura est duo considerare, scilicet, causam &amp; modum. Causam 
+      <lb ed="#L" n="34"/>si hoc faciat motus iusta necessitate, vel motus sola cupiditate au 
+      <lb ed="#L" n="35"/>gendi pecunias sicut faciunt aliqui mercatores sperantes majus 
+      lu<lb ed="#L" n="36" break="no"/>crum ex pecunia sub vsuris accepta quam sequatur damnum de vsura, 
+      <lb ed="#L" n="37"/>&amp; loquor de mercatoribus qui absque mercatione habent vnde 
+      <lb ed="#L" n="38"/>decenter viuant, sed mercantur solum ex cupidirate lucri. Secus eii 
+      <lb ed="#L" n="39"/>esset de mercatoribus illis qui non habent vnde decenter viuant nis 
+      <lb ed="#L" n="40"/>ex mercatione, quia tunc quod fit propter mercationem fit per 
+      iu<lb ed="#L" n="41" break="no"/>stam necessitatem. Ex parte vero modi accipiendi similiter est distin 
+      <lb ed="#L" n="42"/>guendum, quia aut talis petit mutuum absolute, puta centum tradi 
+      si<lb ed="#L" n="43" break="no"/>bi mutuo, aut petit cum determinatione vsurae superexcrescenti 
+      <lb ed="#L" n="44"/>puta, scilicet, sibi tradi, p. 100. 20. Hoc supposito dicendum est quod ac 
+      <lb ed="#L" n="45"/>cipiens mutuum sub vsura absque iusta necessitate peccat, qui non solum 
+      <lb ed="#L" n="46"/>peccat qui dat alij directe occasionem peccandi, sed etiam qui sciente 
+      <lb ed="#L" n="47"/>&amp; absque iusta necessitate proponit alicui materiam vnde sumito 
+      <lb ed="#L" n="48"/>casionem peccandi maxime quando credit eum esse disposirum ad 
+      tal<lb ed="#L" n="49" break="no"/>peccatum. Verbi gra a si mulier credat aliquem virum dispositum ad 
+      con<lb ed="#L" n="50" break="no"/>cupiscendum eam si scienter &amp; absque necessitate iusta vel debita vtili 
+      <lb ed="#L" n="51"/>tate praesentet se ei peccat, vnicuique enim mandauit des de prximo 
+      <lb ed="#L" n="52"/>suo: non satis autem displicet alicui damnatio proximi qui scienter 
+      propo<lb ed="#L" n="53" break="no"/>nit ei materiam vnde pximus sumit occasionem peccandi, talis eiim 
+      <lb ed="#L" n="54"/>est qui absque iusta necessitate petit mutuum sub vsuris, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e200146-d1e211">
+               <lb ed="#L" n="55"/>
+               <!--5--> Si autem hoc faciat motus iusta necessitate, aut petit 
+      mu<lb ed="#L" n="56" break="no"/>tuum cum determinatione vsurae excrescentis, puta centum pro 
+      <lb ed="#L" n="57"/>centum &amp; viginti. Et sic credo quod peccat, quia nullus potest 
+      <lb ed="#L" n="58"/>absque peccato aliquid ab alio petere, quem scit absque peccato 
+      <lb ed="#L" n="59"/>non posse illud dare. Et dico non posse, ad remouendum multas 
+      <lb ed="#L" n="60"/>instantias quae possent fieri, sed vsurarius non potest dare 
+      mu<lb ed="#L" n="61" break="no"/>tuum cum pacto superexcrescentiae absque peccato, ergo nec alius 
+      <lb ed="#L" n="62"/>potest absque peccato aliquid petere sic, forte tamen excusantur 
+      <lb ed="#L" n="63"/>illi qui sic petunt ex ignorantia, vel inaduertentia, vel quia 
+      fir<lb ed="#L" n="64" break="no"/>miter tenent quod alij absque pacto superexcrescentiae mutuum non 
+      <lb ed="#L" n="65"/>traderent. Si aurem petat mutuum absolute, sed vsurarius non 
+      <lb ed="#L" n="66"/>vult tradere nisi sub pacto superexcrescentiae, puto quod tunc non 
+      <lb ed="#L" n="67"/>peccat accipiens mutuum sub vsura. Cuius ratio est, quia qui 
+      <lb ed="#L" n="68"/>patitur iniustum non peccat vt dicitur 5. Ethic. quod est verum 
+      <lb ed="#L" n="69"/>nisi consentiat iniustum facienti. Tunc enim non solum patitur, 
+      <lb ed="#L" n="70"/>sed coagit. Sed accipiens mutuum sub vsuris praedicto modo pa 
+      <lb ed="#L" n="71"/>titur iniustum, nec consentit facienti, ergo non peccat. Maior 
+      <lb ed="#L" n="72"/>iam patet. Minor etiam manifesta est quantum ad alteram 
+      par<lb ed="#L" n="73" break="no"/>tem scilicet quod talis patiatur iniustum. Obligatur enim ad plus quam 
+      <lb ed="#L" n="74"/>receperit, quod est contra iustitiam. Sed quantum ad alteram, 
+      <lb ed="#L" n="75"/>scilicet, quod non consentiat iniustum facienti non est manifesta, 
+      <lb ed="#L" n="76"/>sed valde dubia, quia vsurarius non obligat recipientem 
+      mu<lb ed="#L" n="77" break="no"/>tuum aliquid vltra sortem nisi de consensu eius, non enim 
+      vsu<lb ed="#L" n="78" break="no"/>rarius accipit vltra sortem ab eo cui mutuum dedit per furtum 
+      <lb ed="#L" n="79"/>vel rapinam in quibus ille cuius res accipitur nullo modo con 
+      <lb ed="#L" n="80"/>sentit, Sed quicquid accipit, accipit de voluntate mutuum reci 
+      <lb ed="#L" n="81"/>pientis, &amp; ideo videtur talis consentire vsurario iniustum facienti 
+</p>
+            <p xml:id="jsnvu6-e200146-d1e274">
+      <!--00560.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>6 Et si dicatur qg talis non contentic simpiciter, sed coatui. 
+      <lb ed="#L" n="83"/>ad euitandum majus dannum, hoc non videtur valere, quia in tal 
+      <lb ed="#L" n="84"/>consensu est voluntarium mixtum, sicut cum aliquis proiicit mer 
+      <lb ed="#L" n="85"/>ces in mare ne submergatur tempore tempestatis, voluntarium 
+      au<lb ed="#L" n="86" break="no"/>tem mixtum &amp; si excuset a tanto, non tamen a toto, consentien 
+      <lb ed="#L" n="87"/>enim timore mortis in fornicationem sui vel alterius, quae non po 
+      <lb ed="#L" n="88"/>test fieri sine eius consensu peccat mortaliter, nec excusatur, qui 
+      <lb ed="#L" n="89"/>consentit coactus metu mortis. Et multo minus videtur 
+      excu<lb ed="#L" n="90" break="no"/>sari in proposito qui metu maioris damni consentit vsurario 
+      <lb ed="#L" n="91"/>peccanti. Et dicendum quod dannis &amp; poenis incurrendis sufficit ad ex 
+      <lb ed="#L" n="92"/>cusandum culpam metus maioris danni, vel poenae, quia secundum 
+      <lb ed="#L" n="93"/>rectam rationem minus damnum, vel minor poena sunt eligenda ne 
+      <lb ed="#L" n="94"/>incurrantur maiora quando necesse est, vel probabiliter timetui 
+      <lb ed="#L" n="95"/>quod necesse sit alteram incurrere. Si igitur aliquis indigens mutuo 
+      <lb ed="#L" n="96"/>ex iusta causa recipit mutuum sciens vel probabiliter timens qui 
+      <lb ed="#L" n="97"/>incurreret majus damnum quam sit quantitas vsurarum, nisi sub vsu 
+      <lb ed="#L" n="98"/>ris recipiat mutuum quod alias inuenire non potest. Certe ta 
+      <lb ed="#L" n="99"/>lis patitur iniustum non volens tali voluntate quae in praedictis ex 
+      <lb ed="#L" n="100"/>cusat eum quod non est consentiens vsurario iniustum facienti. Quoc 
+      <lb ed="#L" n="101"/>patet in simili. Si enim aliquis inuentus a latronibus, qui velin 
+      <lb ed="#L" n="102"/>eum spoliare certa quantitate bonorum suorum. Et nisi consentia 
+      <lb ed="#L" n="103"/>spoliaretur maiori parte nunquid licitum est isti consentire q 
+      <lb ed="#L" n="104"/>spolietur paucioribus vt plura conseruett vtique, nec dicetur conser 
+      <lb ed="#L" n="105"/>tire rapinae aliorum, sed consulere sibiipsi ne majus damnum incurrat 
+      <lb ed="#L" n="106"/>Et multa alia similia possent inueniti, &amp; simile est in proposito 
+      </p>
+            <p xml:id="jsnvu6-e200146-d1e335">
+               <lb ed="#L" n="107"/>
+               <!--7--> Nec obstat illud quod additur qued consentiens in 
+      fornica<lb ed="#L" n="108" break="no"/>tionem sui vel alterius timore mortis peccat mortaliter, nec 
+      ex<lb ed="#L" n="109" break="no"/>cusatur, quia consentit metu mortis qui est maximus metus 
+      <lb ed="#L" n="110"/>quia quaedam sunt mala de se ex suo genere sicut adulterari ve 
+      <lb ed="#L" n="111"/>fornicari. Et in talibus nullus potest consentire quocunque 
+      me<lb ed="#L" n="112" break="no"/>tu sine peccato. Alia vero sunt mala ex causa propter quam fiunt, 
+      <lb ed="#L" n="113"/>&amp; in talibus non est peccatum nisi consensus sit non solum in fa 
+      <lb ed="#L" n="114"/>ctum, sed in causam faciendi propter quam in facto est 
+      pecca<lb ed="#L" n="115" break="no"/>tum, &amp; sic est in proposito, quod enim tradens alicui mutuo pe 
+      <lb ed="#L" n="116"/>cuniam, bladum, vel vinum plus recipiat ad eodem quam 
+      tradi<lb ed="#L" n="117" break="no"/>derit, non est de se malum, imo potest bone fieri, quia recipiens 
+      <lb ed="#L" n="118"/>mutuum potest plus reddere sicut ante mutuum poterat gratis 
+      <lb ed="#L" n="119"/>dare. Sed peccatum est quando plus exigitur &amp; accipitur 
+      tan<lb ed="#L" n="120" break="no"/>quam precium rei mutuatae, tunc enim est vsura. Si ergo 
+      acci<lb ed="#L" n="121" break="no"/>piens mutuum consentiat quod tradens ipsum plus habeat quam 
+      <lb ed="#L" n="122"/>tradidit non quidem vt precium mutui traditi, sed vt euitet 
+      dam<lb ed="#L" n="123" break="no"/>num quod credit se non posse euitare nisi accipiendo mutuun 
+      <lb ed="#L" n="124"/>quod habere non potest sine pluri, talis consentit in factum, sec 
+      <lb ed="#L" n="125"/>non in causam, propter quam est ibi peccatum, &amp; sic non consen 
+      <lb ed="#L" n="126"/>tit in peccatum, formaliter nec peccat per consequens, sed pecca 
+      <lb ed="#L" n="127"/>to alterius vtitur ad id quod credit sibi vtile &amp; sic in vnum factum 
+      <lb ed="#L" n="128"/>quod de se non est malum consentiunt duo, scilicet visurarius, &amp; 
+      <lb ed="#L" n="129"/>ille qui accipit mutuum sub vsura. Sed ex causa consensus qua 
+      <lb ed="#L" n="130"/>in vsurario est illicita &amp; in alio licita vsurarius peccat &amp; alius ni 
+      <lb ed="#L" n="131"/>peccat, propter quod posset dici quod vsurarius peccat mutuans 
+      <lb ed="#L" n="132"/>ad vsuram propter causam vsurae quae est in vno &amp; non in alio 
+      </p>
+            <p xml:id="jsnvu6-e200146-d1e396">
+               <lb ed="#L" n="133"/>
+               <!--8--> Ad primum argumentum dicendum quod bene probat quod 
+      <lb ed="#L" n="134"/>nullus potest licite petere mutuum sub vsuris intentione dandi 
+      ali<lb ed="#L" n="135" break="no"/>quid vltra sortem tanquam recompensationem mutui, quam 
+      inten<lb ed="#L" n="136" break="no"/>tionem habet vsurarius in accipiendo vsuras. Sed accipiens 
+      mu<lb ed="#L" n="137" break="no"/>tuum potest licirte consentire quod aliquid de suo vltra sortem 
+      <lb ed="#L" n="138"/>transeat in potestatem seu in possessionem vsurarij propter 
+      euita<lb ed="#L" n="139" break="no"/>tionem maioris mali, &amp; cum iure repetendi ab eo cum opus fuerit. 
+      </p>
+            <p xml:id="jsnvu6-e200146-d1e417">
+               <lb ed="#L" n="140"/>
+               <!--9--> Ad secundum patet responsio per idem quia accipiens 
+      mu<lb ed="#L" n="141" break="no"/>tuum non consentit vsurario in eo propter quod est in mutuo 
+      ra<lb ed="#L" n="142" break="no"/>tio peccati, sed consentit in genus facti propter vitationem 
+      ma<lb ed="#L" n="143" break="no"/>ioris mali &amp; cum intentione repetendi, &amp; ideo non peccat. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

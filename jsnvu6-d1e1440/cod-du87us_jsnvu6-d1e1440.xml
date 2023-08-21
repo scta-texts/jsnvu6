@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="68-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1440"><!-- l1d28q1 -->
+            <head xml:id="jsnvu6-d1e1440-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e1440-Hd1e103" type="question-title">Utrum ingenitum vel innascibilitas sit notio patris</head>
+            <p xml:id="jsnvu6-d1e1440-d1e106">
+               <lb ed="#L" n="158"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="159"/>Vtrum ingenitus vel innascibile sit 
+      <lb ed="#L" n="160"/>notio patris. 
+      <lb ed="#L" n="161"/>Thom. 1. 4. 33. art. 4.
+    </p>
+            <p xml:id="jsnvu6-d1e1440-d1e117">
+      <!--00202.xml-->
+               <pb ed="#L" n="68-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>CIRCA distinctionem istam primo quaeritur de 
+      <lb ed="#L" n="2"/>proprietate ingeniti &amp; innascibilitatis. Secundo de 
+      <lb ed="#L" n="3"/>imagine. Circa primum quaeruntur duo. Primum 
+      <lb ed="#L" n="4"/>est vtrum ingenitum vel innascibile sit notio 
+      pa<lb ed="#L" n="5" break="no"/>tris. Secundum est vtrum innascibilitas sit proprie 
+      <lb ed="#L" n="6"/>tas constitutiua personae patris. Ad primum sic proceditur. E 
+      <lb ed="#L" n="7"/>videtur quod ingenitum vel innascibue non sit notio patris, quia 
+      <lb ed="#L" n="8"/>sicut pater est principium personae genitae, ita est principium 
+      <lb ed="#L" n="9"/>personae procedentis, ergo si propter oppositionem quam 
+      ha<lb ed="#L" n="10" break="no"/>bet pater ad personam genitam, notio patris dicitur esse 
+      inge<lb ed="#L" n="11" break="no"/>nitum, eodem modo propter oppositionem quam habet ad 
+      <lb ed="#L" n="12"/>personam procedentem proprietas eius deberet esse quod 
+      di<lb ed="#L" n="13" break="no"/>ceretur improcessibilis, sed hoc non ponitur: ergo nec alia 
+      de<lb ed="#L" n="14" break="no"/>bet poni. 
+      </p>
+            <p xml:id="jsnvu6-d1e1440-d1e156">
+               <lb ed="#L" n="15"/>
+               <!--2--> Item notio patris non debet alij conuenire, sed ingenitum 
+      <lb ed="#L" n="16"/>vel innascibile conuenit alij quam patri (scilicet essentiae &amp; 
+      spi<lb ed="#L" n="17" break="no"/>ritui sancto.) ergo non est notio patris. 
+      </p>
+            <p xml:id="jsnvu6-d1e1440-d1e168">
+               <lb ed="#L" n="18"/>
+               <!--3--> SED IN contrarium est quod dicit Hilarius 4. de 
+      trini<lb ed="#L" n="19" break="no"/>quod est vnus ab vno, scilicet ab ingenito genitus proprietate 
+      <lb ed="#L" n="20"/>videlicet in vnoquoque innascibilitatis &amp; originis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1440-d1e179">
+               <lb ed="#L" n="21"/>
+               <!--4--> RESPONSIO. Videnda sunt tria. Primum est quid 
+      <lb ed="#L" n="22"/>importatur per innascibile vel ingenitum. Secundum est 
+      sup<lb ed="#L" n="23" break="no"/>posito quod illud sit priuatio super quid fundatur. Tertium erit 
+      <lb ed="#L" n="24"/>id quod quaeritur, scilicet vtrum ingenitum vel innascibile sit 
+      <lb ed="#L" n="25"/>notio patris. 
+</p>
+            <p xml:id="jsnvu6-d1e1440-d1e195">
+               <lb ed="#L" n="26"/>QUANTVM ad primum sciendum est quod 
+      innascibil<lb ed="#L" n="27" break="no"/>seu ingenitum non important formaliter aliquid positiuum 
+      <lb ed="#L" n="28"/>quod patet, quia illud esset absolutum vel relatum non 
+      absolu<lb ed="#L" n="29" break="no"/>tum, quia absoluta conueniunt omnibus personis, ingenitum 
+      <lb ed="#L" n="30"/>autem non conuenit filio, ergo non dicit aliquid positiuum 
+      ab<lb ed="#L" n="31" break="no"/>solutum. Item nec relatiuum, quia omnis relatio diuina realis 
+      <lb ed="#L" n="32"/>est relatio principij vel principiati: sed ingenitum non est 
+      rela<lb ed="#L" n="33" break="no"/>tio principij, tum quia secundum vnam acceptionem conueni 
+      <lb ed="#L" n="34"/>spirit. san. qui non est alicuius personae principium, tum quia si 
+      <lb ed="#L" n="35"/>non esset nec esse posset nisi vnum tantum suppositum 
+      absolu<lb ed="#L" n="36" break="no"/>tum illud esset ingenitum &amp; non esset principium, nec est 
+      rela<lb ed="#L" n="37" break="no"/>tio principiati, quia conuenit patri cui non conuenit esse 
+      prin<lb ed="#L" n="38" break="no"/>cipiatum, ergo ingenitum non dicit formaliter aliquid 
+      positi<lb ed="#L" n="39" break="no"/>uum absolutum vei relatiuum. Item nec dicit puram 
+      negatio<lb ed="#L" n="40" break="no"/>nem, quia pura negatio potest competere enti &amp; non enti (
+      si<lb ed="#L" n="41" break="no"/>cut non lapis vel non homo potest dici de asino &amp; chimera.) Sed 
+      <lb ed="#L" n="42"/>esse ingenitum non potest competere ijjsi enti, ergo non dicit 
+      <lb ed="#L" n="43"/>puram negationem. Relinquitur ergo quod formaliter 
+      impor<lb ed="#L" n="44" break="no"/>tat solam priuationem eius quod formaliter importatur per 
+      ge<lb ed="#L" n="45" break="no"/>nitum, si cut incorruptibile importat formaliter solam 
+      priua<lb ed="#L" n="46" break="no"/>tionem eius quod formaliter importatur per corruptibile. 
+      Di<lb ed="#L" n="47" break="no"/>co autem formaliter, quia ratione denominationis importa 
+      <lb ed="#L" n="48"/>quasi materialiter subiectum vel suppositum cui conuenit talis 
+      <lb ed="#L" n="49"/>priuatio. Qualiter autem nomen priuatiuum possit esse in 
+      di<lb ed="#L" n="50" break="no"/>uinis, dictum est supra dist. 13. &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1440-d1e252">
+               <lb ed="#L" n="51"/>
+               <!--6--> DE SECVNDO scilicet super quid fundatur talis pri 
+      <lb ed="#L" n="52"/>uatio. Sciendum quod non quaeritur de subiecto vel supposito 
+      <lb ed="#L" n="53"/>cui conuenit talis priuatio, hoc enim est suppositum patris 
+      se<lb ed="#L" n="54" break="no"/>cundum omne illud quod est positiuum in ipso vt postea 
+      dice<lb ed="#L" n="55" break="no"/>tur. Omne enim quod est in patre vt in patre est, ingenitum est. 
+      <lb ed="#L" n="56"/>Sed quaeritur de ratione vel proprietate per quam conuenit 
+      pa<lb ed="#L" n="57" break="no"/>tri &amp; his quae in patre sunt esse ingenitum. Et hanc oportet 
+      da<lb ed="#L" n="58" break="no"/>re in omni priuatione vt videtur, quia omnis negatio 
+      reduci<lb ed="#L" n="59" break="no"/>tur ad affirmationem, &amp; omnis priuatio ad habitum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1440-d1e276">
+               <lb ed="#L" n="60"/>
+               <!--7--> Et de hoc dicunt quidam quod ingenitum fundatur super 
+      <lb ed="#L" n="61"/>essentiam vt non ab alio, vnde dato quod in diuinis non esset 
+      <lb ed="#L" n="62"/>distinctio personarum, sed tantum vnum suppositum illud esset 
+      <lb ed="#L" n="63"/>ingenitum, quia haberet essentiam non ab alio. Sed istud 
+      im<lb ed="#L" n="64" break="no"/>probatur ab aliis &amp; rationabiliter, quia idem non est 
+      fundamen<lb ed="#L" n="65" break="no"/>tum suiipsius. Nunc autem ingenitum (vt nunc de ipso 
+      loqui<lb ed="#L" n="66" break="no"/>mur) nihil aliud est formaliter quam esse non ab alio, ergo esse 
+      <lb ed="#L" n="67"/>non ab alio non est fundamentum vel ratio quare aliquid 
+      dica<lb ed="#L" n="68" break="no"/>tur ingenitum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1440-d1e300">
+               <lb ed="#L" n="69"/>
+               <!--8--> Propter quod dicendum est aliter quod ratio per quam 
+      ali<lb ed="#L" n="70" break="no"/>qua priuatio conuenit alicui est illa per quam repugnat ei 
+      oppo<lb ed="#L" n="71" break="no"/>situs habitus. vnde ratio per quam ingenitum conuenit cuiui: 
+      <lb ed="#L" n="72"/>est illa per quam repugnat ei esse genitum. Ratio autem per 
+      <lb ed="#L" n="73"/>quam repugnat alicui esse genitum siue esse ab alio (sic enim 
+      <lb ed="#L" n="74"/>nunc accepimus genitum) forte non potest dari communis &amp; 
+      <lb ed="#L" n="75"/>vniuoce pro absolutis &amp; relatiuis, quia esse ab alio sicut a causa 
+      <lb ed="#L" n="76"/>preut competit absolutis &amp; esse ab alio sicut a principio quod 
+      <lb ed="#L" n="77"/>non est a causa prout est in diuinis sola relatione distinctis non 
+      <lb ed="#L" n="78"/>dicitur vniuoce, proportionabiliter tamen potest reddi ratio 
+      <lb ed="#L" n="79"/>hinc &amp; inde. In absolutis enim ratio quare competit alicui esse 
+      <lb ed="#L" n="80"/>ingenitum vel innascibile est esse omnimode perfectum. Per 
+      <lb ed="#L" n="81"/>hoc enim repugnat cuilibet absoluto esse ab alio. Cuius ratio 
+      <lb ed="#L" n="82"/>est, quia in absolutis distinctis per essentiam quicquid est vel esse 
+      <!--00202.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>potest ab alio habet essentiam dependentem ab alio in fieri vel 
+      <lb ed="#L" n="84"/>in esse vel in vtroque simul quod est imperfectionis &amp; per 
+      oppo<lb ed="#L" n="85" break="no"/>situm quod est omniquaque perfectum non est ab alio dependens, 
+      <lb ed="#L" n="86"/>nec in fieri nec in esse, propter quod non est ab alio tanquam 
+      ab<lb ed="#L" n="87" break="no"/>solutum ab absoluto. Proportionabiliter autem potest dici in 
+      <lb ed="#L" n="88"/>relatiuis sola relatione originis distinctis vt sunt personae 
+      diui<lb ed="#L" n="89" break="no"/>nae, quia in aliis relatiuis quaestio haec non habet locum pro eo 
+      <lb ed="#L" n="90"/>quod in creaturis relatiuum non est a relatiuo, nisi quia 
+      absolu<lb ed="#L" n="91" break="no"/>tum est ab absoluto, supposita enim creata quorum est 
+      genera<lb ed="#L" n="92" break="no"/>re &amp; generari sunt distincta per naturas absolutas. Et dictum 
+      <lb ed="#L" n="93"/>est qualiter talibus potest competere ingenitum, &amp; propter 
+      <lb ed="#L" n="94"/>quam rationem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1440-d1e366">
+               <lb ed="#L" n="95"/>
+               <!--9--> Sed in diuinis habet specialem difficultatem, videtur tamen 
+      <lb ed="#L" n="96"/>quod ratio per quam conuenit personae diuinae quod sit 
+      ingeni<lb ed="#L" n="97" break="no"/>ta vel innascibilis est auctoritas vniuersalis principij vel primi 
+      <lb ed="#L" n="98"/>principij, nec ideo idem est fundamentum suiipsius, quia non 
+      <lb ed="#L" n="99"/>esse ab alio non est de intrinseca ratione primi, vt postea 
+      pate<lb ed="#L" n="100" break="no"/>bit. Per hoc enim repugnat tali personae esse ab alio, quia si 
+      es<lb ed="#L" n="101" break="no"/>set ab alio, non esset principium illius sed econuerso, nec a se 
+      es<lb ed="#L" n="102" break="no"/>se potest, quia nulla natura rei hoc patitur vt aliquid seipsum 
+      <lb ed="#L" n="103"/>producat, ergo per hoc quod inter personas diuinas aliqua 
+      ha<lb ed="#L" n="104" break="no"/>bet auctoritatem primi principij conuenit ei quod non ab alio 
+      <lb ed="#L" n="105"/>sit. Et ita conuenit ei quod sit ingenita &amp; innascibilis, &amp; haec au 
+      <lb ed="#L" n="106"/>ctoritas videtur importare quasi omnimodam perfectionem, 
+      <lb ed="#L" n="107"/>licet secundum veritatem auctoritas originis non importet 
+      ma<lb ed="#L" n="108" break="no"/>ioritatem perfectionis, vt dictum est distin. 16. 
+      </p>
+            <p xml:id="jsnvu6-d1e1440-d1e401">
+               <lb ed="#L" n="109"/>
+               <!--10--> Contra hoc tamen videtur esse dictum Augustini in sexto 
+      <lb ed="#L" n="110"/>de trinitate qui dicit quod si pater filium non genuisset nihil 
+      <lb ed="#L" n="111"/>prohibere eum qui dicit quod si pater filium non genuisset non 
+      <lb ed="#L" n="112"/>habuisset auctoritatem vniuersalis principij, ergo talis 
+      auctori<lb ed="#L" n="113" break="no"/>tas non est ratio qualiter pater dicatur ingenitus. 
+      </p>
+            <p xml:id="jsnvu6-d1e1440-d1e417">
+               <lb ed="#L" n="114"/>
+               <!--11--> Et dicendum ad hoc quod intentio Aug. solum est ibi quod 
+      <lb ed="#L" n="115"/>paternitas &amp; ingenitum non sunt vna notio formaliter, nec esse 
+      <lb ed="#L" n="116"/>patrem est formaliter, esse ingenitum, quod verum est, licet 
+      pater<lb ed="#L" n="117" break="no"/>nitas si nominet vniuersale principium, sit ratio quare patri conue 
+      <lb ed="#L" n="118"/>niat esse ingenitum. Sed quia quicquid ipse intendat ex dictis sui 
+      <lb ed="#L" n="119"/>potest concludi contrarium, vt argutum est, ideo dicendum est quod 
+      <lb ed="#L" n="120"/>paternitas vel auctoritas principij non est in omnibus, est quod 
+      <lb ed="#L" n="121"/>aliquid sit ingenitum, quia non est ratio in absolutis, illis enim 
+      <lb ed="#L" n="122"/>aliquid potest dici ingenitum, etiam si nullius sit principium, 
+      si<lb ed="#L" n="123" break="no"/>cut si poneretur vnum suppositum diuinum tantum absolutum 
+      <lb ed="#L" n="124"/>&amp; nullo modo aliud esset aut posset esse praeter illud, certe illud 
+      <lb ed="#L" n="125"/>esset ingenitum, &amp; tamen nullius esset principium, &amp; sic 
+      proce<lb ed="#L" n="126" break="no"/>dit dictum Augustini, scilicet quod si pater non genuisset filium 
+      <lb ed="#L" n="127"/>vel non produxisset spiritum sanctum nihilominus esset 
+      inge<lb ed="#L" n="128" break="no"/>nitum, sed certe tunc non esset pater, quia non genuisset nec esset 
+      <lb ed="#L" n="129"/>persona distincta relatione originis ab alia, sed tantum esset vnum 
+      <lb ed="#L" n="130"/>suppositum absolutum quod esset ingenitum ex eo quod 
+      habe<lb ed="#L" n="131" break="no"/>ret omnimodam perfectionem quae esset possibilis stante 
+      hy<lb ed="#L" n="132" break="no"/>pothesi. Sed supposito quod sint plures personae diuinae 
+      distin<lb ed="#L" n="133" break="no"/>ctae relatione originis ita quod necesse est quod quaelibet earum 
+      <lb ed="#L" n="134"/>sit producens vel producta vel vtrunque simul, ratio quare vni 
+      <lb ed="#L" n="135"/>earum conueniat esse ingenitam respectu aliarum est ratio 
+      vni<lb ed="#L" n="136" break="no"/>uersalis principij, nec hac ratione exclusa pater esset ingenitus, 
+      <lb ed="#L" n="137"/>quia omnino non esset pater, cum constituatur in esse per 
+      rela<lb ed="#L" n="138" break="no"/>tionem principij primi, sic ergo patet secundum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1440-d1e476">
+               <lb ed="#L" n="139"/>
+               <!--12--> DE TERTIO sciendum quod sicut dictum fuit supra 
+      <lb ed="#L" n="140"/>distin. 13. Ingenitum potest aliquid dici dupliciter. Vno modo 
+      <lb ed="#L" n="141"/>quia est ab alio, sed non per generationem &amp; sic ingenitum non 
+      <lb ed="#L" n="142"/>potest esse notio patris, nec ei conuenit quia a nullo est, sed conue 
+      <lb ed="#L" n="143"/>nit spiritui sancto, licet non sit proprie eius notio, quia talis nega 
+      <lb ed="#L" n="144"/>tio non importat dignitatem. Alio modo dicitur aliquid 
+      ingeni<lb ed="#L" n="145" break="no"/>tum quia omnino non est ab alio, &amp; sic est notio patris, quia 
+      in<lb ed="#L" n="146" break="no"/>ter omnes personas diuinas, soli patri conuenit non esse ab alio 
+      <lb ed="#L" n="147"/>Et ita secundum doctores sunt duae propriae notiones patris qui 
+      <lb ed="#L" n="148"/>est principium non ex principio, vna qua dicitur principium &amp; 
+      hae<lb ed="#L" n="149" break="no"/>est paternitas. Alia secundum quod non est ab alio principio, &amp; 
+      <lb ed="#L" n="150"/>hoc est ingenitum vel innascibilitas. Et confirmatur tali 
+      persua<lb ed="#L" n="151" break="no"/>sione, illud non proprie potest dici ingenitum quod per 
+      gene<lb ed="#L" n="152" break="no"/>rationem procedit, aut generationem supponit, vel quod per 
+      ge<lb ed="#L" n="153" break="no"/>nerationem communicatur, filius autem per generationem 
+      pro<lb ed="#L" n="154" break="no"/>cedit, processio autem spiritus sancti generationem supponit, 
+      <lb ed="#L" n="155"/>essentia vero per generationem communicatur filio. Et ideo 
+      ni<lb ed="#L" n="156" break="no"/>hil horum proprie potest dici ingenitum, pater autem non 
+      gi<lb ed="#L" n="157" break="no"/>gnitur vt filius, nec generationem supponit vt spiritus sanctus, 
+      <lb ed="#L" n="158"/>nec per generationem communicatur vt essentia in filio, 
+      pro<lb ed="#L" n="159" break="no"/>pter quod pater proprie potest dici ingenitus. 
+      </p>
+            <p xml:id="jsnvu6-d1e1440-d1e526">
+               <lb ed="#L" n="160"/>
+               <!--13--> AD PRIMVM argumentum potest dici quod 
+      ingeni<lb ed="#L" n="161" break="no"/>tum prout conuenit patri tanquam notio includit in se 
+      impro<lb ed="#L" n="162" break="no"/>cessibile, dicitur enim ingenitus quia est non alio per 
+      quencun<lb ed="#L" n="163" break="no"/>que modum, scilicet nec genitus, nec procedens, propter quod 
+      <lb ed="#L" n="164"/>in ingenito includitur improcessibile.
+</p>
+            <p xml:id="jsnvu6-d1e1440-d1e542">
+      <!--00203.xml-->
+               <pb ed="#L" n="69-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>12 AD SECVNDVM dicendum quod nec essentiae 
+      <lb ed="#L" n="2"/>nec spiritui sancto conuenit esse ingenitum, vt ponitur 
+      noti<lb ed="#L" n="3" break="no"/>patris. Spiritus enim sanctus est ab alio. Essentia autem diuina li 
+      <lb ed="#L" n="4"/>ret absolute non est ab alio, tamen vt in filio est, est in ipso per 
+      <lb ed="#L" n="5"/>generationem, non quidem producta sed communicata &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

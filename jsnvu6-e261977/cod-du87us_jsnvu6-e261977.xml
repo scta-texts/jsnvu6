@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="317-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e261977"><!-- l4d27q1 -->
+            <head xml:id="jsnvu6-e261977-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e261977-Hd1e103" type="question-title">Utrum consensus expressus per verba de 
+      praesenti causet matrimonium</head>
+            <p xml:id="jsnvu6-e261977-d1e106">
+               <lb ed="#L" n="140"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="141"/>utrum consensus expressus per verba de 
+      <lb ed="#L" n="142"/>praesenti causet matrimonium. 
+    </p>
+            <p xml:id="jsnvu6-e261977-d1e115">
+               <lb ed="#L" n="143"/>CIRCA distinctionem istam quaeruntur quatuor. 
+      <lb ed="#L" n="144"/>Primum est vtrum consensus expressus per verba 
+      <lb ed="#L" n="145"/>de praesenti causet matrimonium. Et videtur quod 
+      <lb ed="#L" n="146"/>non: quia propositum est causa proposici, &amp; 
+      oppo<lb ed="#L" n="147" break="no"/>situm est causa oppositi, sed dissensus qui 
+      opponi<lb ed="#L" n="148" break="no"/>tur conseniui non soluit matrimonium, ergo consensus non causat. 
+      </p>
+            <p xml:id="jsnvu6-e261977-d1e131">
+               <lb ed="#L" n="149"/>
+               <!--2--> Item sicut per matrimonium obligatur homo homini, ita 
+      <lb ed="#L" n="150"/>per votum obligatur homo Deo, sed ad obligationem voti 
+      suf<lb ed="#L" n="151" break="no"/>ficit promissio interior sine expressione verborum, ergo ad 
+      obli<lb ed="#L" n="152" break="no"/>gationem matrimonij sufficit consensus interior sine 
+      expressio<lb ed="#L" n="153" break="no"/>ne verborum. 
+      </p>
+            <p xml:id="jsnvu6-e261977-d1e148">
+               <lb ed="#L" n="154"/>
+               <!--3--> Item in professione religionis contrahitur quoddam 
+      matri<lb ed="#L" n="155" break="no"/>monium spirituale, sed professio fit per verba de futuro dicendo 
+      <lb ed="#L" n="156"/>ero obediens, ergo matrimonium carnale debet contrahi per 
+      <lb ed="#L" n="157"/>verba de futuro. 
+      </p>
+            <p xml:id="jsnvu6-e261977-d1e161">
+               <lb ed="#L" n="158"/>
+               <!--4--> IN CONTRARIVM est quod dicit magister in litera. 
+      </p>
+            <p xml:id="jsnvu6-e261977-d1e168">
+               <lb ed="#L" n="159"/>
+               <!--5--> RESPONSIO. Dicendum quod ad matrimonium 
+      requi<lb ed="#L" n="160" break="no"/>ritur consensus per verba de praesenti, vel per aliquid quod te¬ 
+      <!--00709.xml-->
+      <pb ed="#L" n="318-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>neat vicem verborum. Quod requiratur consensus patet, quia res 
+      <lb ed="#L" n="2"/>quae est liberi vnius non tranfit in ius alterius nisi de consensu 
+      do<lb ed="#L" n="3" break="no"/>mini, aut superioris, sed quilibet tam vir quam mulier habet 
+      libe<lb ed="#L" n="4" break="no"/>rum dominium super corpus suum quantum ad actum carnalem qui 
+      <lb ed="#L" n="5"/>ordinatur ad conseruationem speciei, hic enim actus non cadit sub 
+      <lb ed="#L" n="6"/>seruitute, sed solum opera manualia &amp; exteriora, ergo cum per ma 
+      <lb ed="#L" n="7"/>trimonium transeat ius &amp; potestas corporis vnius coniugis in 
+      al<lb ed="#L" n="8" break="no"/>terum, oportet quod hoc sit per liberum consensum cuiuslibet eorum 
+      <lb ed="#L" n="9"/>non enim inuenitur auctoritas Dei (qui in hoc est superior dius 
+      <lb ed="#L" n="10"/>expressa in contrarium. Quod autem requiratur consensus 
+      expres<lb ed="#L" n="11" break="no"/>sus per verba patet sic: quia matrimonium vel est sacramentum ve 
+      <lb ed="#L" n="12"/>contractus solum, si fit sacramentum requirit aliquod sensibile 
+      si<lb ed="#L" n="13" break="no"/>gnum, cum hoc sit de ratione sacramenti, vt dictum fuit in prir 
+      <lb ed="#L" n="14"/>cipio huius libri: tale autem non est nisi expressio verborum. Si 
+      <lb ed="#L" n="15"/>vero sit contractus, idem sequitur, quia contractus ciuilis quo obl 
+      <lb ed="#L" n="16"/>gantur mutuo contrahentes oportet quod cuilibet contrahentium 
+      <lb ed="#L" n="17"/>innotescat, alioquin non obligaret, sed consensus interior sine 
+      <lb ed="#L" n="18"/>expressione verborum vel aliquorum vicem verborum gerentium 
+      <lb ed="#L" n="19"/>non potest innotescere, ergo non causat contractum obligatorium, 
+      <lb ed="#L" n="20"/>vt est matrimonium, sed requiritur expressio verborum, vel per 
+      <lb ed="#L" n="21"/>nutum &amp; signa quae inter mutos tenent vicem verborum, vel per 
+      <lb ed="#L" n="22"/>literas inter absentes vel aliquid huiusmodi. Quod autem illa 
+      ver<lb ed="#L" n="23" break="no"/>ba debeant esse de praesenti &amp; non de futuro patet: quia qui 
+      <lb ed="#L" n="24"/>promittit se aliquid facturum nondum facit illud, sed per verba 
+      <lb ed="#L" n="25"/>de futuro non est nisi promissio de contrahendo matrimonium, 
+      <lb ed="#L" n="26"/>ergo per talia verba nondum contrahit. 
+      </p>
+            <p xml:id="jsnvu6-e261977-d1e240">
+               <lb ed="#L" n="27"/>
+               <!--6--> Ad primum argumentum dicendum quod illa propositio, si 
+      op<lb ed="#L" n="28" break="no"/>positum in opposito, &amp;c. veritatem habet quando aliquid est 
+      cau<lb ed="#L" n="29" break="no"/>sa sufficiens, non solum efficiens, sed conseruans: consensus 
+      au<lb ed="#L" n="30" break="no"/>tem qualitercunque expressus non est causa sufficiens 
+      matrimo<lb ed="#L" n="31" break="no"/>nij nisi supposita institutione diuina quae non concurrit cun 
+      <lb ed="#L" n="32"/>dissensu ad dissoluendum matrimonium, sicut cum consensu ad 
+      <lb ed="#L" n="33"/>construendum, ideo non valet. Item licet sit causa aliquo 
+      mo<lb ed="#L" n="34" break="no"/>do efficiens, non tamen conseruans. 
+      </p>
+            <p xml:id="jsnvu6-e261977-d1e262">
+               <lb ed="#L" n="35"/>
+               <!--7--> Ad secundum dicendum quod non est simile de obligatione 
+      <lb ed="#L" n="36"/>voti quod fit Deo qui intuetur cor (&amp; ideo apud eum sufficit actus 
+      <lb ed="#L" n="37"/>interior) &amp; de obligatione matrimonij quae fir homini qui non 
+      <lb ed="#L" n="38"/>potest videre nisi quae exterius patent: &amp; ideo praeter 
+      consen<lb ed="#L" n="39" break="no"/>sum interiorem requiritur expressio eius per verba exteriora 
+      <lb ed="#L" n="40"/>vel signa vicem verborum gerentia. 
+      </p>
+            <p xml:id="jsnvu6-e261977-d1e280">
+               <lb ed="#L" n="41"/>
+               <!--8--> Ad tertium dic, quod obligatio professionis fit per verba de 
+      prae<lb ed="#L" n="42" break="no"/>senti, vt cum dicitur facio professionem: sed obligatio ad actus fu 
+      <lb ed="#L" n="43"/>turos fit per verba de futuro, vt pmitto quod ero tibi obediens, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="128-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2862"><!-- l2d11prae -->
+            <head xml:id="jsnvu6-d1e2862-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2862-d1e103">
+               <lb ed="#L" n="69"/>Sententia distinctionis vndecimae in 
+      <lb ed="#L" n="70"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-d1e2862-d1e110">
+               <lb ed="#L" n="71"/>ILLVD quoque sciendum. Superius determina 
+      <lb ed="#L" n="72"/>Quit magister de officiis angelorum dignioribus, 
+      <lb ed="#L" n="73"/>hic determinat de officio inferiori quod est 
+      cu<lb ed="#L" n="74" break="no"/>IIstodire. Et diuiditur in duas partes. Primo deter 
+      <lb ed="#L" n="75"/>minat de ipso officio. Secundo de effectu officium 
+      <lb ed="#L" n="76"/>consequente. Secunda ibi, praeter ea illud considerari oportet. 
+      <lb ed="#L" n="77"/>Prima diuiditur in duas. Primo proponit suum intentum. 
+      Se<lb ed="#L" n="78" break="no"/>cundo mouet quandam quaestionem &amp; ipsam pertractando de¬ 
+      <!--00324.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>terminat. Secunda ibi, solet etiam quaeri. Secunda principalis 
+      <lb ed="#L" n="80"/>in qua determinat effectum consequentem diuiditur in tres 
+      <lb ed="#L" n="81"/>Primo mouet quaestionem &amp; tangit circa eam opi. Secund. 
+      <lb ed="#L" n="82"/>tangit aliam opinionem. Tertio eligit alteram istarum, &amp; 
+      au<lb ed="#L" n="83" break="no"/>ctoritates quae obuiare videntur, exponit. Secunda ibi, alij 
+      au<lb ed="#L" n="84" break="no"/>tem ducunt. Tertia ibi, illud vero quod alij. Prima istarum 
+      di<lb ed="#L" n="85" break="no"/>uiditur in tres. Primo tangit opinionem. Secundo opi. 
+      confir<lb ed="#L" n="86" break="no"/>mationem. Tertio circa illam mouet quaestionem &amp; soluit. 
+      Se<lb ed="#L" n="87" break="no"/>cunda ibi, &amp; quod angeli proficiant. Tertia, his autem 
+      contra<lb ed="#L" n="88" break="no"/>dicere. Haec est sententia &amp; diuisio literae in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2862-d1e156">
+               <lb ed="#L" n="89"/>
+               <!--2--> IN SPECIALI sic procedit magister. Primo ponit 
+      <lb ed="#L" n="90"/>quod vnaquaeque anima habet vnum angelum bonum ad 
+      custo<lb ed="#L" n="91" break="no"/>diam sui deputatum, &amp; malum ad sui exercitium. Quod 
+      auctori<lb ed="#L" n="92" break="no"/>tatibus confirmat. Postea quaerit, vtrum quilibet homo habeat 
+      <lb ed="#L" n="93"/>vnum angelum custodem suum, aut an vnus angelus plures cu 
+      <lb ed="#L" n="94"/>stodiat. Et opponit ad hoc, dicens quod non videtur vnus bonus 
+      <lb ed="#L" n="95"/>angelus vnius tantum esse custos. Quia cum boni homines &amp; 
+      <lb ed="#L" n="96"/>electi sint tot quot angeli boni, non potest esse quod boni 
+      homi<lb ed="#L" n="97" break="no"/>nes &amp; mali singuli habeant singulos angelos bonos ad sui 
+      cu<lb ed="#L" n="98" break="no"/>stodiam. Item cum tot sint electi quot angeli boni, &amp; angeli boni 
+      <lb ed="#L" n="99"/>plures sint quam mali, pluresque sint homines mali quam boni, 
+      <lb ed="#L" n="100"/>consequens est plures esse homines quam mali sint angeli, &amp; plu 
+      <lb ed="#L" n="101"/>res esse homines quam sint boni vel mali angeli. Ex quo 
+      conclu<lb ed="#L" n="102" break="no"/>dit vnum bonum angelum plures custodire sicut vni homini 
+      <lb ed="#L" n="103"/>committitur custodia multorum, &amp; vnum malum angelum 
+      pluri<lb ed="#L" n="104" break="no"/>bus deputatum ad exercitium siue eodem tempore, siue in 
+      di<lb ed="#L" n="105" break="no"/>uersis, quod dicit propter hoc, quia forte verum est vt quidam 
+      <lb ed="#L" n="106"/>dicunt, quod omnes homines existentes in hac vita eodem 
+      tempo<lb ed="#L" n="107" break="no"/>re habeant singulos angelos ad custodiam, vel ad exercitium 
+      de<lb ed="#L" n="108" break="no"/>putatos. Postea quaerit, vtrum boni angeli in merito, vel in 
+      prae<lb ed="#L" n="109" break="no"/>mio proficiant. Tangit etiam circa hoc opinionem quorundam 
+      <lb ed="#L" n="110"/>ponentium quod mereantur propter obsequium quod nobis 
+      im<lb ed="#L" n="111" break="no"/>pendunt, &amp; sic proficiunt in merito &amp; proficiunt in praemio, 
+      sci<lb ed="#L" n="112" break="no"/>licet in cognitione &amp; dilectione dei, quia magis ac magis ipsum 
+      <lb ed="#L" n="113"/>cognoscunt, &amp; diligunt. Postea probat quod in cognitione 
+      profi<lb ed="#L" n="114" break="no"/>ciant ipsi angeli, per hoc enim plene cognouerunt ministerium 
+      <lb ed="#L" n="115"/>incarnationis vsque post passionem, &amp; apostolorum praedicatio. 
+      <lb ed="#L" n="116"/>nem. Postea obiicit in contrarium per auctoritatem Augu. Sed 
+      <lb ed="#L" n="117"/>Ma. exponit sic &amp; determinat quod angeli maiores praesciuerunt 
+      <lb ed="#L" n="118"/>incarnationem antequam fieret, non tamen perfecte. Minores 
+      <lb ed="#L" n="119"/>vero non cognouerunt nisi postquam facta est. Ex quo 
+      conclu<lb ed="#L" n="120" break="no"/>dit quod in vtroque profecerunt, &amp; proficiunt vsque ad diem 
+      <lb ed="#L" n="121"/>iudicij. Postea ponit aliorum opinionem dicens quod quidam 
+      <lb ed="#L" n="122"/>dicunt quod in cognitione diuinitatis non proficiut, sed solam 
+      <lb ed="#L" n="123"/>in cognitione rerum exteriorum. Viterius approbat praedictam 
+      <lb ed="#L" n="124"/>opinionem, &amp; quia quaedam auctoritates videntur contra quae 
+      di<lb ed="#L" n="125" break="no"/>cut angelos omnia scire, exponit eas, &amp; patet expositio in litera 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

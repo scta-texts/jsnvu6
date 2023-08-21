@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="130-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2900"><!-- l2d12prae -->
+            <head xml:id="jsnvu6-d1e2900-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2900-d1e103">
+               <lb ed="#L" n="125"/>Sententia distinctionis duodecimae in 
+      ge<lb ed="#L" n="126" break="no"/>nerali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-d1e2900-d1e110">
+               <lb ed="#L" n="127"/>HAEC de angelicae conditione naturae. Superius 
+      <lb ed="#L" n="128"/>agit magister de creatura pure spirituali, hic 
+      ve<lb ed="#L" n="129" break="no"/>ro determinat de productione creaturae pure cor 
+      <lb ed="#L" n="130"/>poralis. Et diuiditur in duas. Primo tangit in 
+      ge<lb ed="#L" n="131" break="no"/>nerali rerum productionem quantum ad 
+      mate<lb ed="#L" n="132" break="no"/>riale principium. Secundo prosequitur in speciali quantum ad 
+      <lb ed="#L" n="133"/>ordinem creatorum. Secunda ibi, in princ. 13. dist. prima autem 
+      <lb ed="#L" n="134"/>dist. operatio. Prima est principalis literae. Et diuiditur in duas 
+      <lb ed="#L" n="135"/>Primo determinat rerum creationem. Secundo creationem 
+      in<lb ed="#L" n="136" break="no"/>sinuans opus dierum ad diuina opera comparat. Secunda ibi, nunc 
+      <lb ed="#L" n="137"/>superest vt dispositioni. Prima diuiditur in partes quinque 
+      <lb ed="#L" n="138"/>Primo continuat dicta dicendis &amp; suum intentum proponendo 
+      <lb ed="#L" n="139"/>ostendit materiam informem primo creatam fuisse. Secundo 
+      <lb ed="#L" n="140"/>circa eorum productionem concludit diuersas opiniones. 
+      Ter<lb ed="#L" n="141" break="no"/>tio exequitur suum intentum secundum alteram opinionem 
+      <lb ed="#L" n="142"/>Quarto determinat quoddam dubium. Quinto tangit 
+      mate<lb ed="#L" n="143" break="no"/>riae primae conditionem. Secunda ibi, quidam tamen sanctorum. 
+      <lb ed="#L" n="144"/>Tertia, secundum hanc itaque traditionem. Quarta ibi, 
+      atten<lb ed="#L" n="145" break="no"/>dere quia angelus. Quinta ibi, de qua priusquam tractemus. 
+      <lb ed="#L" n="146"/>Haec est diuisio &amp; sententia literae in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2900-d1e156">
+               <lb ed="#L" n="147"/>
+               <!--2--> In speciali sic procedit, &amp; proponit primo quod de diuina 
+      sa<lb ed="#L" n="148" break="no"/>pientia simul cum creatura angelica materiam quatuor 
+      elemento<lb ed="#L" n="149" break="no"/>rum confusam &amp; informem produxit. Deinde eandem materiam 
+      <lb ed="#L" n="150"/>in sex diebus imperfecte species formauit. Postea dicit quod antiqui 
+      <lb ed="#L" n="151"/>sancti dixerunt (sicut August.) omnia simul producta esse in 
+      <lb ed="#L" n="152"/>materia &amp; forma. Alij vero dixerunt quod primo fuit materia 
+      ru<lb ed="#L" n="153" break="no"/>dis &amp; informis creata, postmodum per se dixerunt tempora &amp; 
+      <lb ed="#L" n="154"/>interualla, ex ista materia rerum corporalium genera secundum 
+      <lb ed="#L" n="155"/>proprias species sunt formata, quam opinionem magister approba 
+      <lb ed="#L" n="156"/>per plurima dicta sanctorum &amp; scripturae auctoritatem. Postea 
+      <lb ed="#L" n="157"/>dicit quod ista materia informis nomine terrae vocata est propter 
+      <lb ed="#L" n="158"/>defectum speciositatis, &amp; nomine abyssi propter defectum 
+      di<lb ed="#L" n="159" break="no"/>stinctionis, &amp; nominae aquae, propter abundantiam 
+      fluxibilita<lb ed="#L" n="160" break="no"/>tis, &amp; in signum formationis eo quod ab humore omnia terrae nasci 
+      <lb ed="#L" n="161"/>tia formari &amp; nutriri habeant, &amp; compluribus appellata est 
+      no<lb ed="#L" n="162" break="no"/>minibus ne videretur vnam formam habere, si vno nomine ve 
+      <lb ed="#L" n="163"/>caretur, vsitatis autem nominibus est vocata, vt res ignota notis 
+      <!--00328.xml-->
+      <pb ed="#L" n="130-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>vocabulis insinuaretur. Addit autem quod super faciem abyssi &amp; 
+      <lb ed="#L" n="2"/>huius materiae erant tenebrae, id est lucis absentia secundum 
+      Au<lb ed="#L" n="3" break="no"/>gustinum. Tenebrae enim nulla res est, sed lucis absentia. 
+      Poste<lb ed="#L" n="4" break="no"/>dicit quod in Daniele tenebrae inter creaturas quae deum 
+      bene<lb ed="#L" n="5" break="no"/>dicunt, ponuntur. Vnde dicit benedicite lux &amp; tenebrae domino 
+      <lb ed="#L" n="6"/>Et sic videtur contradicere dictis, ideo dicit aliquando tenebra 
+      <lb ed="#L" n="7"/>dicuntur lucis absentia &amp; sic nihil sunt, aliquando significant 
+      <lb ed="#L" n="8"/>ipsum aerem obscurum, &amp; sic sunt creatura. Postea quaerit quare 
+      <lb ed="#L" n="9"/>prima materia dicta sit informis, &amp; respondet o non propter ca 
+      <lb ed="#L" n="10"/>rentiam omnis formae, sed quia formam confusionis habebat &amp; 
+      <lb ed="#L" n="11"/>non distinctionis, quaerit vbi ista materia fuerit creata, &amp; 
+      respon<lb ed="#L" n="12" break="no"/>det quod in illo vbi est mundus quaerit etiam quantum spacium 
+      oc<lb ed="#L" n="13" break="no"/>cupabat, &amp; respondet quod quantum totum vniuersum in quo 
+      spa<lb ed="#L" n="14" break="no"/>cio terra cum aliis elementis tenebatur in medio sistens, alia 
+      <lb ed="#L" n="15"/>vero elementa quasi secundum quandam confusionem permixta 
+      <lb ed="#L" n="16"/>erant. Vitimo dicit quod perfecta rerum productio &amp; formatio 
+      <lb ed="#L" n="17"/>fuit sic secundum eum expedita quod nihil est postea productum 
+      <lb ed="#L" n="18"/>quod aliquo modo in primis creaturis non contineretur. Et qui 
+      <lb ed="#L" n="19"/>deus vsque modo operatur vt dicitur in Ioh. Dicit quod 
+      deu<lb ed="#L" n="20" break="no"/>quadrupliciter operatur. Primo ab aeterno in verbo omnia 
+      dis<lb ed="#L" n="21" break="no"/>ponendo. Secundo temporaliter materiam informem creando. 
+      <lb ed="#L" n="22"/>Tertio sex diebus creata distinguendo. Quarto operatur 
+      quo<lb ed="#L" n="23" break="no"/>tidie ex seminibus nec incognitae oriuntur naturae sed notae 
+      sae<lb ed="#L" n="24" break="no"/>pius ne pereant reformantur, &amp; in hoc ter. &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="328-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e270934"><!-- l4d36q1 -->
+            <head xml:id="jsnvu6-e270934-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e270934-Hd1e103" type="question-title">
+      Utrum seruitus impediat matrimonium
+    </head>
+            <p xml:id="jsnvu6-e270934-d1e106">
+               <lb ed="#L" n="48"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="49"/>Vtrum seruitus impediat matrimonium.
+    </p>
+            <p xml:id="jsnvu6-e270934-d1e113">
+               <lb ed="#L" n="50"/>CIrca distinctionem istam primo quaeritur vtrum 
+      <lb ed="#L" n="51"/>seruitus impediat matrimonium. Videtur, quod 
+      <lb ed="#L" n="52"/>non, quia grauior conditio est in consuge lepra 
+      <lb ed="#L" n="53"/>quam seruitus, sed lepra non impedit 
+      matrimo<lb ed="#L" n="54" break="no"/>nium, ergo nec seruitus 
+      </p>
+            <p xml:id="jsnvu6-e270934-d1e126">
+               <lb ed="#L" n="55"/>
+               <!--2--> Item ius positiuum non potest praeiudicare iuri naturali 
+      <lb ed="#L" n="56"/>sed matrimonium est de iure naturali, seruitus de iure 
+      posi<lb ed="#L" n="57" break="no"/>tiuo, ergo seruitus non potest praeiudicare matrimonio. 
+      </p>
+            <p xml:id="jsnvu6-e270934-d1e138">
+               <lb ed="#L" n="58"/>
+               <!--3--> IN contrarium est quod dicitur extua de coniugio 
+      seruo<lb ed="#L" n="59" break="no"/>rum, quod error conditionis impedit matrimonium 
+      contrahen<lb ed="#L" n="60" break="no"/>dum, &amp; dirimit iam contractum. 
+</p>
+            <p xml:id="jsnvu6-e270934-d1e149">
+               <lb ed="#L" n="61"/>
+               <!--4.--> RESPONSIO. Seruitus autem potest superuenire 
+      <lb ed="#L" n="62"/>matrimonio iam contracto, aut ipsum praecedere: superuenire 
+      <lb ed="#L" n="63"/>quidem potest ex parte viri ignorante &amp; contradicente 
+      vxore<lb ed="#L" n="64" break="no"/>sed non ex parte vxoris ignorante vel contradicente viro. 
+      Cu<lb ed="#L" n="65" break="no"/>ius ratio est, quia vir obligatur vxori de pari solum in his quae 
+      <lb ed="#L" n="66"/>pertinent ad redditionem debiti, in aliis autem est sui iuris 
+      <lb ed="#L" n="67"/>idcirco saluo iure vxoris potest in caeteris se dare alteri in 
+      ser<lb ed="#L" n="68" break="no"/>uum, vxor autem obligatur viro ad redditionem debiti, &amp; 
+      sub<lb ed="#L" n="69" break="no"/>ditur ei in caeteris quae pertinent ad regimen domus &amp; 
+      fami<lb ed="#L" n="70" break="no"/>liae: vir enim est caput mulieris, &amp; ideo mulier non potest 
+      al<lb ed="#L" n="71" break="no"/>teri se in seruitutem concedere sine consensu viri, seruitus 
+      au<lb ed="#L" n="72" break="no"/>tem ic superueniens matrimonium non dirimit, nec quo ad 
+      <lb ed="#L" n="73"/>vinculum, nec quo ad thorum: non quo ad vinculum, quia 
+      il<lb ed="#L" n="74" break="no"/>lud posteqeam est rite contractum est indissolubile nisi per 
+      mor<lb ed="#L" n="75" break="no"/>tem spiritualem vel carnalem. Nec quo ad thorum, quia seruitus 
+      <lb ed="#L" n="76"/>aequisita est saluo iure vxoris, vnde &amp; dno aliquid petente a 
+      ser<lb ed="#L" n="77" break="no"/>uo &amp; vxore debitum exigente, tenetur vir magis obedire 
+      vxo<lb ed="#L" n="78" break="no"/>ri quam domino. de hoc habetur 29. q. 2. prolatum est. 
+    </p>
+            <p xml:id="jsnvu6-e270934-d1e193">
+               <lb ed="#L" n="79"/>De seruitute autem quae antecessit matrimonium dicendum 
+      <!--00730.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>est quod de se non impedit matrimonium, sed bene ignorantis 
+      <lb ed="#L" n="81"/>eius respectu personae conditionis melloris. Quod non 
+      impe<lb ed="#L" n="82" break="no"/>diat de se paret, quia illud quod impedit de se impedit 
+      matri<lb ed="#L" n="83" break="no"/>monium aequaliter siue sciatur siue ignoretur, vt patet de 
+      con<lb ed="#L" n="84" break="no"/>sanguinitate, sed seruitus cognitavnius ab altero non impedit 
+      <lb ed="#L" n="85"/>matrimonium, vt habetur 29. 9. 2. in pluribus cap. &amp; extra de 
+      <lb ed="#L" n="86"/>coniugio seruorum, cap. 2. &amp; vlt. ergo seruitus de se non 
+      impe<lb ed="#L" n="87" break="no"/>dit matrimonium. Item nec ignorantia in persona paris 
+      condi<lb ed="#L" n="88" break="no"/>tionis impedit ipsum, quia nullus potest petere maiorem 
+      obli<lb ed="#L" n="89" break="no"/>gationem quam ipse possit facere, sed seruus non potest 
+      maio<lb ed="#L" n="90" break="no"/>rem obligationem facere quam ancilla nec econuerso, ergo si 
+      <lb ed="#L" n="91"/>seruus contrahit cum ancilla quam credit liberam, vel ancilla 
+      <lb ed="#L" n="92"/>cum seruo quem credit liberum non propter hoc est matrimo 
+      <lb ed="#L" n="93"/>nium dirimendum. Ignorantia autem seruitutis respectu 
+      libe<lb ed="#L" n="94" break="no"/>rae conditionis impedit matrimonium rationabiliter: quia alter 
+      <lb ed="#L" n="95"/>sine culpa sua laeditur non qualicunque laesione, sed graui. Et 
+      <lb ed="#L" n="96"/>in prole quae efficitur deterioris conditionis, nec est in plena 
+      <lb ed="#L" n="97"/>potestate parentis ad religiose educandum, &amp; in bono fidei, 
+      <lb ed="#L" n="98"/>quia seruus vel ancilla non possunt libere reddere debitum 
+      do<lb ed="#L" n="99" break="no"/>mino petente seruitium, &amp; in bono sacramenti hoc est in 
+      insepa<lb ed="#L" n="100" break="no"/>rabilitate cohabitationis: quia dominus potest seruum ad 
+      lon<lb ed="#L" n="101" break="no"/>ginquas partes mittere vel alteri vendere: &amp; ideo ex naturali 
+      <lb ed="#L" n="102"/>aequitate prouisum est, vt error deterioris conditionis 
+      impe<lb ed="#L" n="103" break="no"/>diat matrimonsum contrahendum &amp; dirimat contractum, nisi 
+      <lb ed="#L" n="104"/>ratificetur per sequentem consensum tacitum vel expressum, 
+      <lb ed="#L" n="105"/>sicut habetur expresse 29. q. 2. si quis ingenuus. 
+      </p>
+            <p xml:id="jsnvu6-e270934-d1e258">
+               <lb ed="#L" n="106"/>
+               <!--6--> AD PRIMVM argumentum dicendum quod lepra non 
+      <lb ed="#L" n="107"/>impedit matrimonium quantum ad primum actum suum, quin 
+      <lb ed="#L" n="108"/>leprosi possint sibi inuicem reddere debitum &amp; libere, 
+      quam<lb ed="#L" n="109" break="no"/>uis aliqua grauamina inferat matrimonium quantum ad 
+      se<lb ed="#L" n="110" break="no"/>cundos effectus: non sic autem est de seruitute, vt dictum est, 
+      <lb ed="#L" n="111"/>&amp; ideo minus impedit lepra quam seruitus. 
+      </p>
+            <p xml:id="jsnvu6-e270934-d1e276">
+               <lb ed="#L" n="112"/>
+               <!--7--> Ad secundum dicendum quod in hoc ius positiuum non 
+      contra<lb ed="#L" n="113" break="no"/>riatur iuri naturali, sed determinat ipsum: quia de iure 
+      natu<lb ed="#L" n="114" break="no"/>rali solum est quod quodlibet contrahere possit non habens 
+      <lb ed="#L" n="115"/>naturale impedimentum, sed quis cum qua debeat 
+      contrahe<lb ed="#L" n="116" break="no"/>Ire determinaturi per ius positiuum, per quod rationabiliter 
+      <lb ed="#L" n="117"/>determinatur vt non teneat contractus liberi cum ancilla, 
+      quan<lb ed="#L" n="118" break="no"/>do ignoratur conditio seruitutis propter causas dictas. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

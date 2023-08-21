@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praefatio</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praefatio</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="181-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e148287"><!-- l3praefatio -->
+            <head xml:id="jsnvu6-e148287-Hd1e101">Praefatio</head>
+            <p xml:id="jsnvu6-e148287-d1e103">
+      <!--00435.xml-->
+               <pb ed="#L" n="181-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>SOLVTISSI 
+      <lb ed="#L" n="2"/>IIPATRIS, ET VERITA 
+      <lb ed="#L" n="3"/>TVM THEOLOGICARVM 
+      <lb ed="#L" n="4"/>BOLIDIS ECTATORIS 
+      MA<lb ed="#L" n="5" break="no"/>gistri Durandi de sancto Por 
+      <lb ed="#L" n="6"/>ciano, Liber 111. 
+      sen<lb ed="#L" n="7" break="no"/>tentiarum 
+      in<lb ed="#L" n="8" break="no"/>cipit. 
+      <lb ed="#L" n="9"/>LIIVATIS. 
+    </p>
+            <p xml:id="jsnvu6-e148287-d1e132">
+               <lb ed="#L" n="10"/>STB1V incelo reuedans mysteria 
+      <lb ed="#L" n="11"/>Dan. 2. Haec verba assumpta fuerunt a 
+      prin<lb ed="#L" n="12" break="no"/>cipio, &amp; vt dictum fuit tunc, sacra 
+      scriptu<lb ed="#L" n="13" break="no"/>ra excellit alias in certitudine, quod 
+      no<lb ed="#L" n="14" break="no"/>tatur ibi reuelans. Quaecunque enim in 
+      sa<lb ed="#L" n="15" break="no"/>cra scriptura traduntur, aut solum, aut 
+      <lb ed="#L" n="16"/>principaliter, diuina auctoritate tenentur 
+      <lb ed="#L" n="17"/>talia autem sunt certissima, vt alias 
+      de<lb ed="#L" n="18" break="no"/>claratum fuit. In eodem etiam verbo tangitur materia terti 
+      <lb ed="#L" n="19"/>libri Sententiarum. Postquam enim Deus multipharie 
+      mul<lb ed="#L" n="20" break="no"/>tisque modis olim loquens patribus reuelauit eis secreta sua. Et 
+      <lb ed="#L" n="21"/>per eos nobis (Quia non facit Dominus verbum nisi 
+      reuela<lb ed="#L" n="22" break="no"/>uerit secretum suum ad seruos suos Prophetas, Amos 3.) 
+      no<lb ed="#L" n="23" break="no"/>uissime locutus est nobis in filio suo incarnato, per quem 
+      ex<lb ed="#L" n="24" break="no"/>cellentiora sacramenta deitatis nobis manifestauit, nec mirum, 
+      <lb ed="#L" n="25"/>quia nemo nouit patrem, nisi filius: &amp; cui voluerit filius 
+      reue<lb ed="#L" n="26" break="no"/>lare, Matth. II. De filio autem incarnato, &amp; de his quae 
+      assum<lb ed="#L" n="27" break="no"/>pta carne gessit, &amp; sustinuit pro nobis, necnon de donis, &amp; 
+      vir<lb ed="#L" n="28" break="no"/>tutibus ipsum, quo ad humanitatem perficientibus agitur in 
+      <lb ed="#L" n="29"/>tertio libro. Decebat autem, vt per filium incarnatum 
+      reuela<lb ed="#L" n="30" break="no"/>rentur nobis diuina secreta, &amp; nostrae fidei sacramenta propter 
+      <lb ed="#L" n="31"/>tria. Primo vt caperentur familiarius ex reuelantis 
+      conformi<lb ed="#L" n="32" break="no"/>tate humili. Secundo, vt tenerentur certius ex reuelantis 
+      veri<lb ed="#L" n="33" break="no"/>tate stabili. Tertio, vt implerentur efficacius quoad agenda ex 
+      <lb ed="#L" n="34"/>reuelantis exemplaritate vtili. 
+    </p>
+            <p xml:id="jsnvu6-e148287-d1e189">
+               <lb ed="#L" n="35"/>Quantum ad primum sciendum est quod auditiones 
+      contin<lb ed="#L" n="36" break="no"/>gunt secundum consuetudinem. Nam vt consueuimus ita 
+      di<lb ed="#L" n="37" break="no"/>gnamur dici (vt habetur 2. Metaphy.) Et quia consuetum est 
+      <lb ed="#L" n="38"/>homines doceri ab hominibus propriissimus doctor, &amp; 
+      reuela<lb ed="#L" n="39" break="no"/>tor fuit Dei filius, factus homo, &amp; quia factus homo factus esse 
+      <lb ed="#L" n="40"/>paruulus, secundum illud Esa. 9. Paruulus natus est nobis, &amp; 
+      fi<lb ed="#L" n="41" break="no"/>lius datus est nobis, &amp; ideo factus est doctor paruulorum, 
+      vi<lb ed="#L" n="42" break="no"/>adimpleretur illud Esa. 33. vbi est doctor paruulorum? cui 
+      po<lb ed="#L" n="43" break="no"/>test responderi quod filius Dei qui factus est homo factus est 
+      <lb ed="#L" n="44"/>paruulus. vnde potest dici illud Matth. 11. Abscondisti haec a 
+      sa<lb ed="#L" n="45" break="no"/>pientibus &amp; prudentibus, &amp; reuelasti ea paruulis. Et merito, 
+      fi<lb ed="#L" n="46" break="no"/>lius enim honorat patrem. (Malach. I.) Et quia opera Dei 
+      re<lb ed="#L" n="47" break="no"/>uelare &amp; confiteri honorificum est (Thobiae 12.) ideo decuit 
+      <lb ed="#L" n="48"/>"filium esse reuelationem paternorum secretorum. 
+      </p>
+            <p xml:id="jsnvu6-e148287-d1e222">
+               <lb ed="#L" n="49"/>
+               <!--3--> Quantum ad secundum notandum est quod licet patet sit 
+      ve<lb ed="#L" n="50" break="no"/>ritas, &amp; filius veritas, &amp; spiritus sanctus veritas, &amp; simul omnes 
+      <lb ed="#L" n="51"/>tres vna veritas, tamen filius per appropriationem dicitur 
+      ve<lb ed="#L" n="52" break="no"/>ritas, non solum ea ratione qua est secunda in trinitate persona, 
+      <lb ed="#L" n="53"/>qua ratione dicitur sapientia, &amp; verbum, sed ratione 
+      humani<lb ed="#L" n="54" break="no"/>tatis assumptae, quatenus veritas a tota trinitate de redemptioni 
+      <lb ed="#L" n="55"/>humani generis promissa in sola persona filij, &amp; per sola 
+      perso<lb ed="#L" n="56" break="no"/>nam filij meritorie est impleta. Sic enim gratia &amp; veritas 
+      pe<lb ed="#L" n="57" break="no"/>Iesum Christum facta. (Ioan. I.) propter quod decuit, vt 
+      veri<lb ed="#L" n="58" break="no"/>tas fidei quae rationem naturalem excedit ad hoc vt firmius 
+      te<lb ed="#L" n="59" break="no"/>neretur, reuelaretur nobis per illum, qui cum patre &amp; spiritu sancto 
+      <lb ed="#L" n="60"/>est vna veritas promittens, &amp; in seipso est vna veritas promiss. 
+      <lb ed="#L" n="61"/>persoluens. Et ideo dicit Symeon in suo cantico Luc. 2. loquens 
+      <lb ed="#L" n="62"/>ad Deum patrem de Filio. Parasti ante faciem omnium 
+      popu<lb ed="#L" n="63" break="no"/>lorum: lumen ad reuelationem Gentium. 
+</p>
+            <p xml:id="jsnvu6-e148287-d1e260">
+               <lb ed="#L" n="64"/>Quantum ad tertium notandum quod sicut dicit Sen 
+      lon<lb ed="#L" n="65" break="no"/>gum iter est per verbum, breue autem &amp; efficax per exemplum, 
+      <lb ed="#L" n="66"/>ex facto enim factum concluditur per locum a simili, Luc. 10. quis 
+      <lb ed="#L" n="67"/>tibi videtur proximus fuisse ei qui incidit in latrones? &amp; ille 
+      di<lb ed="#L" n="68" break="no"/>vade &amp; tu fac similiter. Sed ex dicto non concluditur factum, 
+      <lb ed="#L" n="69"/>Multi enim dicunt &amp; non faciunt, Matth. 23. &amp; ideo ad hoc, vt 
+      <lb ed="#L" n="70"/>cit, qui fecit misericordiam in illum: tunc ex illo facto conclusit, 
+      <lb ed="#L" n="71"/>illa quae sunt agenda pro salute nostra efficacius implerentur, 
+      <lb ed="#L" n="72"/>profuit valde vt reuelarentur ab illo qui coepit facere, &amp; docere, 
+      <lb ed="#L" n="73"/>Act. LEt faciendum nobis ex facto suo conclusit dicens apostolis 
+      <lb ed="#L" n="74"/>Ioan. 13. Exemplum dedi vobis, vt quemadmodum ego feci, ita 
+      <lb ed="#L" n="75"/>&amp; vos faciatis. Ideo dicit Apost. Ephes. 3. Quod aliis 
+      generatio<lb ed="#L" n="76" break="no"/>nibus non est agnitum filiis hominum, sicuti nunc reuelatum est 
+      <!--00435.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="77"/>sanctis Apostolis. Concludendo ergo cum Apostolo dicamus 
+      <lb ed="#L" n="78"/>illud Ephes. 1. Deus pater domini nostri Iesu Christi pater 
+      glo<lb ed="#L" n="79" break="no"/>riae det vobis spiritum sapientiae &amp; reuelationis in agnitionem 
+      <lb ed="#L" n="80"/>eius. Nunc quidem per fidem, vt tandem in reuelatione 
+      glo<lb ed="#L" n="81" break="no"/>tiae eius gaudeatis, 1. Pet. 4. Quod vobis concedat, &amp;c.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

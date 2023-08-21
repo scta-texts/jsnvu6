@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="172-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e142013"><!-- l2d41prae -->
+            <head xml:id="jsnvu6-e142013-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e142013-d1e103">
+               <lb ed="#L" n="88"/>Sententia huius distinctionis xlj. in 
+      <lb ed="#L" n="89"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-e142013-d1e110">
+               <lb ed="#L" n="90"/>VVMQVE intentio, vt supra dictum est. 
+      Su<lb ed="#L" n="91" break="no"/>perius determinauit Magister in quibus &amp; 
+      qua<lb ed="#L" n="92" break="no"/>libus actibus consistat peccatum. Hic autem mo 
+      <lb ed="#L" n="93"/>uet quaestiones incidentes circa determinata. Et 
+      <lb ed="#L" n="94"/>diuiditur in duas partes, secundum duas 
+      quaestio<lb ed="#L" n="95" break="no"/>nes quas mouet principaliter. Prima est de actu peccati per 
+      <lb ed="#L" n="96"/>comparationem ad intentionem. Secunda est de actu peccati 
+      <lb ed="#L" n="97"/>per comparationem ad voluntatem. Secunda ibi, post haec 
+      in<lb ed="#L" n="98" break="no"/>uestigari oportet. Prima diuiditur in quatuor. Primo moue 
+      <lb ed="#L" n="99"/>incidentem quaestionem, &amp; tangit circa eam vnam opinionem. 
+      <lb ed="#L" n="100"/>Secundo determinat eam. Tertio obiicit contra 
+      determinatio<lb ed="#L" n="101" break="no"/>nem, &amp; soluit. Quarto ponit aliam opinionem. Secunda ibi, 
+      <lb ed="#L" n="102"/>quod a quibusdam non irrationabiliter. Tertia ibi, his autem 
+      <lb ed="#L" n="103"/>obiicitur. Quarta ibi, alij vero qui per triphariam. Secunda 
+      <lb ed="#L" n="104"/>pars principalis in qua mouet aliam quaestionem diuiditur in 
+      <lb ed="#L" n="105"/>duas. Primo mouet in generali quaestionem, dando intelligen 
+      <lb ed="#L" n="106"/>tiam quandam necessariam. Secundo specialiter de actu 
+      exte<lb ed="#L" n="107" break="no"/>riori voluntatis. Secunda ibi, si autem omne peccatum. Haec 
+      <lb ed="#L" n="108"/>est sententia &amp; diuisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-e142013-d1e154">
+               <lb ed="#L" n="109"/>
+               <!--2--> In speciali autem sic procedit. Et quaerit primo, quum fides 
+      <lb ed="#L" n="110"/>intentionem dirigat, &amp; ab intentione habeat actus bonitatem 
+      <lb ed="#L" n="111"/>&amp; malitiam, vtrum omnes actus infidelium qui fide non 
+      dirigun<lb ed="#L" n="112" break="no"/>tur, nec bona intentione, sint peccatum. Postea dicit quod 
+      qui<lb ed="#L" n="113" break="no"/>busdam videtur quod sic: quod probat per auctoritatem 
+      Apo<lb ed="#L" n="114" break="no"/>stoli dicentis, omne quod non est ex fide peccatum est. Causa 
+      <lb ed="#L" n="115"/>huius est, quia actus infidelium ad bonum quod est charitas Dei 
+      <lb ed="#L" n="116"/>&amp; proximi non refertur. Postea opponit contra istam 
+      opinio<lb ed="#L" n="117" break="no"/>nem per quasdam auctoritates, quae dicunt ab infidelibus 
+      bo<lb ed="#L" n="118" break="no"/>na opera fieri. Et respondet Magister quod opera eorum 
+      di<lb ed="#L" n="119" break="no"/>cuntur bona, non quia bona sint, sed quia bona essent, si in fide 
+      <lb ed="#L" n="120"/>fierent. Postea tangit aliam opinionem, quae dicit quod 
+      ope<lb ed="#L" n="121" break="no"/>ra infidelium de se bona sunt &amp; esse possunt. Sed dicuntur 
+      ma<lb ed="#L" n="122" break="no"/>la esse, inquantum ex peruersa intentione fiunt, &amp; quod non 
+      <lb ed="#L" n="123"/>dicuntur bona, hoc est, quia non sunt meritoria. Bonum enim 
+      <lb ed="#L" n="124"/>multis modis dicitur. Aliquando quod licitum. Aliquando quod 
+      <lb ed="#L" n="125"/>est vtile. Aliquando quod est remunerabile, siue 
+      remunera<lb ed="#L" n="126" break="no"/>tione dignum. Aliquando quod est signum boni. Postea 
+      quae<lb ed="#L" n="127" break="no"/>rit vtrum omne peccatum sit voluntarium, &amp; dicit quod sic, quia 
+      <lb ed="#L" n="128"/>in peccato originali, &amp; in peccato ex ignorantia quo scilicet 
+      <lb ed="#L" n="129"/>quis committit etiam ignoranter &amp; breuiter in omni peccato 
+      <lb ed="#L" n="130"/>mortali aliquo modo voluntas concurrit. Dicitur autem sola 
+      <lb ed="#L" n="131"/>voluntas peccare quoad peccatum primi hominis, quod fuit 
+      <lb ed="#L" n="132"/>origo aliorum. Vbi etiam videtur Magister ostendere ex dictis 
+      <lb ed="#L" n="133"/>August. quod aliquando non videtur voluntas concurrere ad 
+      <lb ed="#L" n="134"/>actum peccati, &amp; tamen concurrit, quia ignorans se peccasse 
+      <lb ed="#L" n="135"/>non vult peccare, vult tamen actum peccati facere. Vitimo 
+      di<lb ed="#L" n="136" break="no"/>cit quod etiam peccatum intantum est voluntarium, quod etiam 
+      <lb ed="#L" n="137"/>ipsa voluntas, id est, actus voluntatis, peccatum est, quia in 
+      po<lb ed="#L" n="138" break="no"/>testate voluntatis est. Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="54-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1122"><!-- l1d18q3 -->
+            <head xml:id="jsnvu6-d1e1122-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e1122-Hd1e103" type="question-title">Utrum convenienter dicatur Spiritus Sanctus noster</head>
+            <p xml:id="jsnvu6-d1e1122-d1e106">
+               <lb ed="#L" n="28"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="29"/>Vtrum conuenienter dicatur spiritus 
+      <lb ed="#L" n="30"/>sanctus noster.
+    </p>
+            <p xml:id="jsnvu6-d1e1122-d1e115">
+               <lb ed="#L" n="31"/>TERTIO quaeritur, vtrum conuenienter 
+      dica<lb ed="#L" n="32" break="no"/>tur spiritus sanctus noster. Et videtur quod non 
+      <lb ed="#L" n="33"/>quia noster, est pronomen possessiuum: sed 
+      spi<lb ed="#L" n="34" break="no"/>Intus sanctus non possidetur a nobis, sed 
+      econ<lb ed="#L" n="35" break="no"/>Querso: ergo non potest dici noster. 
+      </p>
+            <p xml:id="jsnvu6-d1e1122-d1e128">
+               <lb ed="#L" n="36"/>
+               <!--2--> Item non bene dicitur filius noster: ergo a simili non bene 
+      <lb ed="#L" n="37"/>dicitur spiritus sanctus noster. 
+      </p>
+            <p xml:id="jsnvu6-d1e1122-d1e138">
+               <lb ed="#L" n="38"/>
+               <!--3--> IN CONTRARIVM est quod dicitur 4. Regum 2. 
+      <lb ed="#L" n="39"/>quia dicit Helisaeus Heliae: Oro vt spiritus tuus duplex fiat in 
+      <lb ed="#L" n="40"/>me, sed sicut dicitur tuus, ita potest dici noster: ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1122-d1e149">
+               <lb ed="#L" n="41"/>
+               <!--4--> RESPONSIO. Illud quod potest dici nostrum habet 
+      <lb ed="#L" n="42"/>aliquam habitudinem ad nos nec semper requiritur habitudo 
+      <lb ed="#L" n="43"/>possessionis, licet illa sit principalis. Aliae enim sufficiunt sicut 
+      <lb ed="#L" n="44"/>aliquis dicitur pater noster, vel rex noster. Nominum ergo 
+      di<lb ed="#L" n="45" break="no"/>uinorum quaecunque non important aliquam habitudinem ad 
+      <lb ed="#L" n="46"/>nos, illis non potest addi proprie nostrum, meum, vel tuum, 
+      si<lb ed="#L" n="47" break="no"/>cut est potissime de nominibus abstractis. Non enim bene 
+      di<lb ed="#L" n="48" break="no"/>citur deitas nostra, vel aeternitas nostra: &amp; sic de similibus, vi 
+      <lb ed="#L" n="49"/>essentia, substantia, &amp; huiusmodi: illis autem nominibus 
+      diui<lb ed="#L" n="50" break="no"/>nis quae important aliquam habitudinem ad nos possunt 
+      prae<lb ed="#L" n="51" break="no"/>dicta pronomina addi. Et quia principalis habitudo Dei ad nos 
+      <lb ed="#L" n="52"/>est secundum rationem principij actiui, ideo talibus 
+      nomini<lb ed="#L" n="53" break="no"/>bus proprie fit talis additio: vt cum dicitur, Deus est creator 
+      <lb ed="#L" n="54"/>noster saluator noster, redemptor, &amp; huiusmodi quaecunque 
+      <lb ed="#L" n="55"/>effectiue ad actionem nostram spectant. 
+      </p>
+            <p xml:id="jsnvu6-d1e1122-d1e186">
+               <lb ed="#L" n="56"/>
+               <!--5--> Deinde fit consimilis additio nominibus importantibus 
+      qua<lb ed="#L" n="57" break="no"/>lescunque habitudines ad nos siue per modum finis: sicut bene 
+      <lb ed="#L" n="58"/>dicitur, Deus est finis noster: siue per quemcunque alium 
+      mo<lb ed="#L" n="59" break="no"/>dum. Nominibus autem quae non important talem 
+      habitudi<lb ed="#L" n="60" break="no"/>nem non possunt praedicta pronomina addi, sicut sunt nomina 
+      <lb ed="#L" n="61"/>personarum, pater, &amp; filius, &amp; spiritus sanctus. Haec enim 
+      im<lb ed="#L" n="62" break="no"/>portant habitudinem inter se qua referuntur adinuicem: sed 
+      <lb ed="#L" n="63"/>non ad nos vnde sicut non bene dicitur filius noster: quia pe 
+      <lb ed="#L" n="64"/>hoc habitudinem habet ad patrem cuius est filius; &amp; non ad 
+      <lb ed="#L" n="65"/>nos: sic non bene dicitur pater noster sumendo patrem 
+      perso<lb ed="#L" n="66" break="no"/>naliter: sic enim est solum pater filij per generationem diuinam. 
+      <lb ed="#L" n="67"/>Sumendo autem patrem essentialiter, scilicet per creationem: 
+      <lb ed="#L" n="68"/>sic conuenienter dicitur pater noster, propter habitudinem 
+      <lb ed="#L" n="69"/>principij effectiui ad nos: eodem modo non bene dicitur 
+      spiri<lb ed="#L" n="70" break="no"/>I tus sanctus noster, cum non dicat habitudinem ad nos: nisi 
+      for<lb ed="#L" n="71" break="no"/>"te quis dicat quod imo quatenus nobis inspiratur. Non enim 
+      <lb ed="#L" n="72"/>solum spiratur a patre &amp; filio, sed ab eisdem nobis inspiratur: 
+      <lb ed="#L" n="73"/>&amp; vtrumque habitudinem dicit nomen spiritus. 
+      </p>
+            <p xml:id="jsnvu6-d1e1122-d1e230">
+               <lb ed="#L" n="74"/>
+               <!--6--> Sed hoc non credo verum esse, quia spiritus de nomine suo 
+      <lb ed="#L" n="75"/>vel sonat in subtilitatem naturae, vt dictum fuit suprâ, distin. 10. 
+      <lb ed="#L" n="76"/>vel trahit hoc nomen a modo suae originis: vt ibidem dictum 
+      <lb ed="#L" n="77"/>fuit. Ex neutro autem horum importat habitudinem, vt alteri 
+      <lb ed="#L" n="78"/>inspiratur: quia spiratio a qua dicitur spiritus, &amp; inspiratio per 
+      <lb ed="#L" n="79"/>quam alij inspiratur, sunt alterius rationis: ergo non bene di¬ 
+      <!--00173.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>citur spiritus noster accipiendo spiritum personaliter, nec 
+      e<lb ed="#L" n="81" break="no"/>tiam essentialiter. Et idem dicendum est de nominibus 
+      im<lb ed="#L" n="82" break="no"/>portantibus alias personas. 
+      </p>
+            <p xml:id="jsnvu6-d1e1122-d1e259">
+               <lb ed="#L" n="83"/>
+               <!--7--> De nominibus autem essentialibus concretis idem 
+      dicen<lb ed="#L" n="84" break="no"/>dum est: quia praedicta nomina si sint absoluta non recipiunt 
+      ad<lb ed="#L" n="85" break="no"/>ditionem talium pronominum nisi expressa aliqua 
+      determina<lb ed="#L" n="86" break="no"/>tione respectiua, vel saltem subintellecta, vt cum dicitur Deus 
+      <lb ed="#L" n="87"/>noster, subintelligitur creator vel aliquid tale, quo etiam 
+      mo<lb ed="#L" n="88" break="no"/>do dicitur spiritus Heliae, &amp; dictum est ei ab Helisaeo spiritus 
+      <lb ed="#L" n="89"/>tuus &amp;c. tuus inquam ductor vel doctor vel huiusmodii Per 
+      <lb ed="#L" n="90"/>hoc patet responsio ad argumenta vtriusque partis. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

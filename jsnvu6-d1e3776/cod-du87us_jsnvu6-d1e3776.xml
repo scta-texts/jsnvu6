@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="159-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3776"><!-- l2d32prae -->
+            <head xml:id="jsnvu6-d1e3776-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3776-d1e103">
+               <lb ed="#L" n="29"/>Sententia huius distinctionis xxxij. in 
+      <lb ed="#L" n="30"/>generali &amp; speciali.
+</p>
+            <p xml:id="jsnvu6-d1e3776-d1e110">
+               <lb ed="#L" n="31"/>VONTAM supra dictum est. Superius determ 
+      <lb ed="#L" n="32"/>nauit Magister de peccati quidditate &amp; 
+      tradu<lb ed="#L" n="33" break="no"/>ctione. Hic vero determinat de eius remissione 
+      <lb ed="#L" n="34"/>Et diuiditur in duas. Primo determinat suum 
+      in<lb ed="#L" n="35" break="no"/>tentum. Secundo mouet quandam incidenten 
+      <lb ed="#L" n="36"/>quaestionem. Secunda ibi, illud quoque non incongrue quaeri 
+      <lb ed="#L" n="37"/>solet. Prima diuiditur in duas. Primo determinat suum inten 
+      <lb ed="#L" n="38"/>tum. Secundo quaerit quaestiones circa causas &amp; modum commu 
+      <lb ed="#L" n="39"/>nis peccati originalis. Secunda ibi, praeterea quaeri solet vtrum 
+      <lb ed="#L" n="40"/>concupiscentia. Prima diuiditur in duas. Primo determinat 
+      re<lb ed="#L" n="41" break="no"/>missionem peccati originalis, quantum ad animam. Secundo 
+      <lb ed="#L" n="42"/>quantum ad carnem. Secunda ibi, solet autem quaeri. Sequitur 
+      <lb ed="#L" n="43"/>illa pars circa quam mouet quaestiones circa causalitates 
+      pec<lb ed="#L" n="44" break="no"/>cati originalis. Et diuiditur in quinque partes secundum quinque 
+      <lb ed="#L" n="45"/>quaestiones quas mouet &amp; soluit, primo quaerit vnde causetur 
+      <lb ed="#L" n="46"/>concupiscentia peccati originalis. Secundo vnde peccatum 
+      ta<lb ed="#L" n="47" break="no"/>le animae imputetur. Tertio vtrum tale peccatum sit 
+      volun<lb ed="#L" n="48" break="no"/>tarium. Quarto de aequalitate diuinae iustitiae animam 
+      infun<lb ed="#L" n="49" break="no"/>dentis. Quinto de qualitate animae infusae. Secunda ibi, sole 
+      <lb ed="#L" n="50"/>etiam quaeri. Tertia ibi, illud etiam non immerito. Quarta ibi, 
+      <lb ed="#L" n="51"/>si vero quaeritur. Quinta ibi, aliquis quaeri solet: &amp; haec est 
+      sen<lb ed="#L" n="52" break="no"/>tentia &amp; diuisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3776-d1e160">
+               <lb ed="#L" n="53"/>
+               <!--2.--> IN SPECLALI sic procedit, &amp; prponit primo 
+      quali<lb ed="#L" n="54" break="no"/>ter per baptismum peccatum originale dimittitur, cum pos 
+      <lb ed="#L" n="55"/>baptismum concupiscentia maneat. Hoc ideo dicitur quod per 
+      <lb ed="#L" n="56"/>baptismum concupiscentia minuitur, &amp; regnare prohibetur, &amp; 
+      <lb ed="#L" n="57"/>reatus tollitur. sicut enim actualia transeunt actu, &amp; remaneni 
+      <lb ed="#L" n="58"/>reatu, ita econtrario concupiscentia in baptismo manet actu, &amp; 
+      <lb ed="#L" n="59"/>transit reatu. Postea quaerit, vtrum caro in baptismo a 
+      foedita<lb ed="#L" n="60" break="no"/>te purgetur. Et respondet secundum quosdam quod sic, cum ad ani 
+      <lb ed="#L" n="61"/>mae &amp; carnis purgationem ordinetur aqua baptismi secundum 
+      <lb ed="#L" n="62"/>alios vero foeditas carnis non purgatur, sed solum animae, im 
+      <lb ed="#L" n="63"/>secundum multitudinem generationis multiplicatur foeditas, ita 
+      <lb ed="#L" n="64"/>quod ex maiore carnis foeditate magis originale contrahitur. 
+      <lb ed="#L" n="65"/>Primi tamen hoc non concedunt. Postea quaerit vtrum 
+      origi<lb ed="#L" n="66" break="no"/>nalis concupiscentiae Deus sit causa. Et respondet quod sic, 
+      inquan<lb ed="#L" n="67" break="no"/>tum est poena: inquantum tamen est culpa, non. Postea quaerit, 
+      <lb ed="#L" n="68"/>quare peccatum imputatur animae, cuius contradictionem 
+      vita<lb ed="#L" n="69" break="no"/>re non potest. Respondet quod hoc non est, quia delectatur ipsi 
+      <lb ed="#L" n="70"/>carni vt quidam dixerunt: sed ex peccato primi parentis cuius ani 
+      <lb ed="#L" n="71"/>ma peccatrix carnem corruptibilem fecit. Postea quaerit, vtrum 
+      <lb ed="#L" n="72"/>peccatum originale sit voluntarium, an necessarium: &amp; respor 
+      <lb ed="#L" n="73"/>det quod est necessarium, quia vitari non potest, &amp; etiam volun 
+      <lb ed="#L" n="74"/>tarium, quia a voluntate primi hominis processit, &amp; contractum 
+      <lb ed="#L" n="75"/>est. Postea quaerit quare Deus animam carni infudit. Et 
+      respon<lb ed="#L" n="76" break="no"/>det quod hoc est vt saluetur institutio humanae propagationis 
+      <lb ed="#L" n="77"/>Postea quaerit, vtrum cum anima infunditur sit talis qualis a 
+      <lb ed="#L" n="78"/>Deo creatur. Et respondet quod non est omnino talis, quia a 
+      <lb ed="#L" n="79"/>Deo creatur munda, sed coniuncta carni maculam habet. VI¬ 
+      <!--00386.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>timo quaerit, vtrum animae sint a Deo creatae 
+      aequal<lb ed="#L" n="81" break="no"/>spondet quod inaequalia naturalia recipiunt in creatione sicut 
+      <lb ed="#L" n="82"/>&amp; angeli. Et in hoc terminatur sententia lectionis, &amp;c. . 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

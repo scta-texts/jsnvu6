@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="201-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e165219"><!-- l3d12prae -->
+            <head xml:id="jsnvu6-e165219-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e165219-d1e103">
+               <lb ed="#L" n="137"/>Sententia huius distinctionis XII. 
+      <lb ed="#L" n="138"/>in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e165219-d1e110">
+               <lb ed="#L" n="139"/>POST praedicta. Superius magister 
+      determina<lb ed="#L" n="140" break="no"/>uit vtrum Christus possit dici creatura. Hic 
+      de<lb ed="#L" n="141" break="no"/>terminat de defectibus qui consequuntur 
+      natu<lb ed="#L" n="142" break="no"/>ram humanam secundum quod creata est. Et 
+      di<lb ed="#L" n="143" break="no"/>uiditur in duas. Primo determinat de illo defectu 
+      <lb ed="#L" n="144"/>qui est incipere esse qui communiter concomitatur omnem 
+      <lb ed="#L" n="145"/>creaturam. Secundo de his quae videntur specialiter humanam 
+      <lb ed="#L" n="146"/>naturam consequi ibi solet quaeri. Prima in duas. Primo 
+      mo<lb ed="#L" n="147" break="no"/>uet quaestionem &amp; obiicit ad vtramque partem. Secundo 
+      de<lb ed="#L" n="148" break="no"/>terminat eam ibi, his igitur auctoritatibus. Secunda pars solet 
+      <lb ed="#L" n="149"/>quaeri, diuiditur in tres. Primo inquirit defectum culpae, 
+      quan<lb ed="#L" n="150" break="no"/>tum ad originem, vtrum scilicet decuit ipsum de peccatoribus 
+      <lb ed="#L" n="151"/>carnem assumere. Secundo inquirit de effectu culpae quantum 
+      <lb ed="#L" n="152"/>ad Christum, vtrum scilicet peccare potuisset, ibi, ideo non 
+      in<lb ed="#L" n="153" break="no"/>uento. Tertio de defectu carnis, qui est sexus foemineus, ibi, 
+      so<lb ed="#L" n="154" break="no"/>let quaeri. Haec est sententia &amp; diuisio lectionis, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e165219-d1e147">
+               <lb ed="#L" n="155"/>
+               <!--2--> IN SPECIALI sic procedit. Et quaerit primo vtrum 
+      <lb ed="#L" n="156"/>Christus secundum quod homo initium habuerit, an semper fuit 
+      <lb ed="#L" n="157"/>sicut dicimus filium Dei semper fuisse, &amp; ostendit quod incepit 
+      <lb ed="#L" n="158"/>esse per auctoritatem, quia filius Dei acquisiuit quod aliquando 
+      <lb ed="#L" n="159"/>non habuit, quia nondum erat homo. Ad oppositum arguitur 
+      <lb ed="#L" n="160"/>quia dicitur quod puer ille creauit stellas: &amp; Christus dicit de se 
+      <!--00476.xml-->
+      <pb ed="#L" n="201-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in Ioanne, Ego principium, qui &amp; loquor vobis, &amp; sic 
+      vide<lb ed="#L" n="2" break="no"/>tur quod non incepit esse, &amp; respondet Magister per 
+      distin<lb ed="#L" n="3" break="no"/>ctionem, quia Christus quantum ad personam semper fuit 
+      <lb ed="#L" n="4"/>sed quo ad naturam humanam incepit esse. Postea quaerit 
+      <lb ed="#L" n="5"/>vtrum Christus ab alio quam ab Adam carnem assumere 
+      po<lb ed="#L" n="6" break="no"/>tuit, &amp; dicit quod sic, quia illa assumptio non fuit secundum 
+      <lb ed="#L" n="7"/>naturam, sed secundum gratiam: &amp; ideo aliam animam, &amp; 
+      <lb ed="#L" n="8"/>aliam carnem potuisset assumpsisse si voluisset, magis tamen 
+      <lb ed="#L" n="9"/>decuit quod assumpserit de Adam, vt ex illo vinceretur 
+      dia<lb ed="#L" n="10" break="no"/>bolus, per quem homo victus fuit. Postea quaerit vtrum 
+      Chri<lb ed="#L" n="11" break="no"/>stus potuerit peccare, &amp; arguit quod non, quia si potuisse 
+      <lb ed="#L" n="12"/>peccare, potuisset damnari, &amp; per consequens non esset Deus 
+      <lb ed="#L" n="13"/>quod est inconueniens: &amp; respondet quod persona non 
+      po<lb ed="#L" n="14" break="no"/>tuit peccare, nec natura assumpta, vt vnita personae, sed si 
+      <lb ed="#L" n="15"/>separata fuisset, peccare potuisset: tunc arguit ex dicto 
+      quo<lb ed="#L" n="16" break="no"/>rundam sic, Christus habuit liberum arbitrium, ergo potuit 
+      <lb ed="#L" n="17"/>peccare, &amp; respondet quod hoc est friuolum, quia in angelis 
+      <lb ed="#L" n="18"/>beatis est liberum arbitrium, &amp; tamen peccare non possunt. 
+      <lb ed="#L" n="19"/>Quod autem in libro Sapientiae dicitur, quod potuit 
+      transgre<lb ed="#L" n="20" break="no"/>di, &amp; non est transgressus, &amp; facere mala, &amp; non fecit: dicit 
+      Ma<lb ed="#L" n="21" break="no"/>gister quod affirmatiua intelligitur de membris, &amp; negatius 
+      <lb ed="#L" n="22"/>de capite. Vitimo quaerit, vtrum Christus potuit assumere 
+      <lb ed="#L" n="23"/>naturam humanam in sexu muliebri, &amp; respondet quod sic, 
+      <lb ed="#L" n="24"/>sed magis decuit quod assumeret eam in sexu virili, &amp; de 
+      mu<lb ed="#L" n="25" break="no"/>liere, vt vterque sexus concurreret ad nostram liberationem 
+      <lb ed="#L" n="26"/>Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

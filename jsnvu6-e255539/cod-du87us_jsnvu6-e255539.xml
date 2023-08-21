@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="310-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e255539"><!-- l4d23q4 -->
+            <head xml:id="jsnvu6-e255539-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e255539-Hd1e103" type="question-title">Utrum hoc sacramentum debeat 
+      dari sanis</head>
+            <p xml:id="jsnvu6-e255539-d1e106">
+               <lb ed="#L" n="52"/>QVARSTIO IIII. 
+      <lb ed="#L" n="53"/>Vtrum hoc sacramentum debeat 
+      <lb ed="#L" n="54"/>dari sanis. 
+    </p>
+            <p xml:id="jsnvu6-e255539-d1e115">
+               <lb ed="#L" n="55"/>Varto quaeritur vtrum hoc sacramentum de 
+      <lb ed="#L" n="56"/>(beat dari sanis. Et videtur quod sic, nam sicut 
+      ba<lb ed="#L" n="57" break="no"/>ptismus est sacramentum intrantium ecclesiam, 
+      <lb ed="#L" n="58"/>sic extrema vnctio est sacramentum exeuntium, 
+      <lb ed="#L" n="59"/>sed baptismus datur omnibus intrantibus eccle 
+      <lb ed="#L" n="60"/>fiam sanis &amp; infirmis, ergo extrema vnctio debet dari omni 
+      <lb ed="#L" n="61"/>bus exituris: sed aliqui sani cito sunt exituri, sicut illi qui sunt 
+      <lb ed="#L" n="62"/>decapitandi, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e255539-d1e135">
+               <lb ed="#L" n="63"/>
+               <!--2--> Item si hoc saeramentum non debet dari nisi infirmis, 
+      sal<lb ed="#L" n="64" break="no"/>tem videtur quod debeat dari omnibus infirmis: sed pueri, amer 
+      <lb ed="#L" n="65"/>tes, &amp; phrenetici quandoque infirmantur ad mortem, ergo est 
+      <lb ed="#L" n="66"/>eis conferendum hoc sacramentum. 
+      </p>
+            <p xml:id="jsnvu6-e255539-d1e149">
+               <lb ed="#L" n="67"/>
+               <!--3--> IN CONTRARIVM est quod dicit beatus lacobus: 
+      <lb ed="#L" n="68"/>Infirmatur quis in vobis, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e255539-d1e158">
+               <lb ed="#L" n="69"/>
+               <!--4--> RESPONSIO. Videnda sunt tria. Primum est, an ho 
+      <lb ed="#L" n="70"/>sacramentum sit conferendum omnibus infirmis. Secundum 
+      <lb ed="#L" n="71"/>est, vtrum sit eis conferendum in determinatis partibus 
+      corpi<lb ed="#L" n="72" break="no"/>ris. Tertium est, an debeat aliquando reiterari. 
+      </p>
+            <p xml:id="jsnvu6-e255539-d1e171">
+               <lb ed="#L" n="73"/>
+               <!--5--> QUANTVM AD PRIMVM tenetur commun 
+      <lb ed="#L" n="74"/>ter quod hoc sacramentum non est dandum nisi infirmis. Cuiu 
+      <lb ed="#L" n="75"/>rationem aliqui assignant dicentes: ea quae in sacramentis ge 
+      <lb ed="#L" n="76"/>runtur interius debent repraesentari per ea quae geruntur 
+      exte<lb ed="#L" n="77" break="no"/>rius, sed effectus interior huius sacramenti est sanatio spiritua 
+      <lb ed="#L" n="78"/>lis, ergo debet repraesentari exterius per sanationem corpora 
+      <lb ed="#L" n="79"/>lem, sed nullus est illius sanationis susceptiuus, nisi actu 
+      infir<lb ed="#L" n="80" break="no"/>mus, quare de necessitate huius sacramenti est quod suscipiens 
+      <!--00693.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>ipsum sit infirmus: quia in sacramentis quiequid est essentiali 
+      <lb ed="#L" n="82"/>ter de necelsitate significationis, est essentialiter de necessirate 
+      <lb ed="#L" n="83"/>Iacramenti, cum sacramenta inquantum sacramenta sint essen 
+      <lb ed="#L" n="84"/>tialiter quaedam signa. 
+      </p>
+            <p xml:id="jsnvu6-e255539-d1e206">
+               <lb ed="#L" n="85"/>
+               <!--6--> Sed contra hoc posset sic obiici: sicut extrema vnctio est 
+      Ips<lb ed="#L" n="86" break="no"/>ritualis sanatio, sic poenitentia est spiritualis resuscitatio, &amp; ba 
+      <lb ed="#L" n="87"/>ptismus spiritualis ablutio, igitur si spiritualem sanationem ne 
+      <lb ed="#L" n="88"/>cesse est significari per corporalem, ita vt necesse sit quod 
+      susci<lb ed="#L" n="89" break="no"/>piens sit infirmus corporaliter, similiter (vt videtur) necesse 
+      es<lb ed="#L" n="90" break="no"/>set spiritualem resuscitationem quae fit in poenitenti 
+      significa<lb ed="#L" n="91" break="no"/>ri per corporalem, ita vt suscipiens eam esset corporaliter 
+      mor<lb ed="#L" n="92" break="no"/>tuus, &amp; ablutionem spiritualem quae fit in baptismo necesse esset 
+      <lb ed="#L" n="93"/>significari per corporalem, ita vt baptizandus esset 
+      corporali<lb ed="#L" n="94" break="no"/>ter immundus, hoc autem non est necessarium, ergo nec primum
+</p>
+            <p xml:id="jsnvu6-e255539-d1e232">
+               <lb ed="#L" n="95"/>Ad hoc potest dici quod non est simile de poenitentia &amp; 
+      ba<lb ed="#L" n="96" break="no"/>ptismo, &amp; de extrema vnctione: quia licet poenitentia fit 
+      spiri<lb ed="#L" n="97" break="no"/>tualis resuscitatio, non tamen datur per modum resuscitationis, 
+      <lb ed="#L" n="98"/>ficut extrema vnctio per modum medicaminis. Et ideo non 
+      <lb ed="#L" n="99"/>oportet poenitentem esse mortuum sicut oportet illum qui 
+      inun<lb ed="#L" n="100" break="no"/>gitur esse infirmum. Item corporalis abluitionis susce priuus est 
+      <lb ed="#L" n="101"/>non solum immundus sed &amp; mundus, sed curationis non est 
+      <lb ed="#L" n="102"/>susceptiuus nisi infirmus. Potest etiam alia ratio assignari, quia 
+      <lb ed="#L" n="103"/>extrema vnctio est quasi ad supplementum poenitentiae, vt qui 
+      <lb ed="#L" n="104"/>non possunt congrue vti poenitentiae medicina tanquam 
+      medi<lb ed="#L" n="105" break="no"/>cina grauiori, vtantur hoc sacramento tanquam medicina 
+      leuio<lb ed="#L" n="106" break="no"/>ri, sed sani vti possunt poenitentia, ergo pro eis non est 
+      institu<lb ed="#L" n="107" break="no"/>tum hoc sacramentum sed solum pro infirmis grauiter, de quo 
+      <lb ed="#L" n="108"/>rum exitu probabiliter timetur propter aggrauationem 
+      infir<lb ed="#L" n="109" break="no"/>mitatis: nec tamen omnibus infirmis quantumcumque grauiter 
+      <lb ed="#L" n="110"/>infirmentur competit hoc remedium, quia non pueris. Primo 
+      <lb ed="#L" n="111"/>quia non indigenteo, cum hoc sacramentum ordinetur ad 
+      dimi<lb ed="#L" n="112" break="no"/>sionem peccatorum venialium, quod pueri antequam sint 
+      ea<lb ed="#L" n="113" break="no"/>paces rationis committere non possunt. Secundo quia hoc 
+      sa<lb ed="#L" n="114" break="no"/>cramentum plurimum valet ex deuotione suscipientis, &amp; illi 
+      pur<lb ed="#L" n="115" break="no"/>ri hoc sacramentum non possunt cognoscere, &amp; cum deuotione 
+      <lb ed="#L" n="116"/>suscipere, ideo illis dari non debet. Similiter nec furiosis, nec 
+      <lb ed="#L" n="117"/>amentibus nisi habuerint lucida interualla in quibus hoc sacra 
+      <lb ed="#L" n="118"/>mentum petierunt, &amp; nisi credatur od non faciant 
+      irreueren<lb ed="#L" n="119" break="no"/>tiam sacramento. 
+      </p>
+            <p xml:id="jsnvu6-e255539-d1e289">
+               <lb ed="#L" n="120"/>
+               <!--8--> QUANTVM AD SECVNDVM dicendum quod
+      <lb ed="#L" n="121"/>totum corpus non debet inungi, sed solûm determinatae 
+      par<lb ed="#L" n="122" break="no"/>tes eius, scilicet organa sensuum, pedes &amp; renes. Cuius ratio est, 
+      <lb ed="#L" n="123"/>quia hoc sacramentu exhibetur per modum curationis. Ex quo 
+      <lb ed="#L" n="124"/>psst sic argui, sicut est in curatione corporali, sic suo mon debet 
+      <lb ed="#L" n="125"/>esse in spirituali, sed in curatione corporali non oportet quod 
+      me<lb ed="#L" n="126" break="no"/>dicina curans totum morbum adhibeatur toti corpori, sed suf 
+      <lb ed="#L" n="127"/>ficit quod adhibeatur illis partibus in quibus est radix morbi, 
+      er<lb ed="#L" n="128" break="no"/>go similiter debet esse in extrema vnctione quae est sanatio 
+      <lb ed="#L" n="129"/>spiritualis, quae non debet adhiberi toti corpori, sed illis partib 
+      <lb ed="#L" n="130"/>in quibus sunt principia &amp; radices peccati venialis, tales auti 
+      <lb ed="#L" n="131"/>sunt partes prius nominatae: quia radix &amp; principium peccandi 
+      <lb ed="#L" n="132"/>in nobis est primo vis cogitatiua. Secundo appctitiua. Tertiovis 
+      <lb ed="#L" n="133"/>motiua vel executiua. Vis autem cogitatiua in nobis ortum 
+      ha<lb ed="#L" n="134" break="no"/>bet a sensu, &amp; ideo in nobis debent inungi loca quinque sensuum: 
+      <lb ed="#L" n="135"/>oculi propter visum, aures propter auditum, manus propter 
+      ta<lb ed="#L" n="136" break="no"/>ctum qui in pulpis digitorum maxime viget, &amp; nares propter 
+      <lb ed="#L" n="137"/>odoratum, os propter gustum. Sed propter vim appetitiuam ini 
+      <lb ed="#L" n="138"/>guntur renes a quibusdam, propter motiuam pedes. Sed quia 
+      pri<lb ed="#L" n="139" break="no"/>mum principium nostrorum actuum est vis cogitatiua, ideo il 
+      <lb ed="#L" n="140"/>la vnctio quae fit in organis sensuum est de necessitate sacramen 
+      <lb ed="#L" n="141"/>ti, &amp; seruatur ab omnibus, Quod si aliqui sint mutilati in alis 
+      <lb ed="#L" n="142"/>bus organis sensuum, debent inungi quanto propinquius possumm 
+      <lb ed="#L" n="143"/>ad partes illas in quibus vnctio fieri debuit. Aliae vero 
+      vnctio<lb ed="#L" n="144" break="no"/>nes non videntur sic esse de necessitate sacramenti, quia vis ax 
+      <lb ed="#L" n="145"/>petitiua &amp; motiua sunt secundaria principia actuum nostroru, 
+      <lb ed="#L" n="146"/>&amp; ideo aliqui illas non obseruant, &amp; aliqui obseruans illam quae 
+      <lb ed="#L" n="147"/>est ad pedes, &amp; non illam quae est ad renes.
+</p>
+            <p xml:id="jsnvu6-e255539-d1e355">
+               <lb ed="#L" n="148"/>QUANTVM AD TERTIVM dicendum quod 
+      <lb ed="#L" n="149"/>hoc sacramentum potest iterari: quia omne sacramentum quod 
+      <lb ed="#L" n="150"/>non imprimit effectum indelebilem est iterabile, sed extremi 
+      <lb ed="#L" n="151"/>vnctio cum non imprimat characterem vt baptismus, confirmi 
+      <lb ed="#L" n="152"/>tio, vel ordo, non imprimit effectum indelebilem, ergo potess 
+      <lb ed="#L" n="153"/>iterari non solum in diuersis infirmitatibus quando in singulis, 
+      <lb ed="#L" n="154"/>timetur de periculo mortis, sed etiam in eadem infirmitate qui 
+      <lb ed="#L" n="155"/>do est diuturna, vt ethica vel hydropisis quotiens ex tali infismi 
+      <lb ed="#L" n="156"/>tate deducitur homo ad periculum mortis. Extrema enim vn 
+      <lb ed="#L" n="157"/>ctio non respicit infirmitatem absolute, sed statum infirmiatis, qui 
+      <lb ed="#L" n="158"/>quotiens iteratur siue in eadem infirmitate siue in diuersis 
+      po<lb ed="#L" n="159" break="no"/>test &amp; vnctio iterari. 
+      </p>
+            <p xml:id="jsnvu6-e255539-d1e384">
+               <lb ed="#L" n="160"/>
+               <!--10--> AD PRIMVM argumentum dicendum quod intran 
+      <lb ed="#L" n="161"/>tes statum ecclesiae non habent aliud remedium nisi baptismum, 
+      <lb ed="#L" n="162"/>&amp; ideo debet esse communis omnibus tam sanis quam infir¬ 
+      <!--00694.xml-->
+      <pb ed="#L" n="310-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>mis tam adultis quam paruulis. Sed exituri de hoc mundo si 
+      <lb ed="#L" n="2"/>sint sani habent aliud remedium, scilicet poenitentiae, &amp; idec 
+      <lb ed="#L" n="3"/>non indigent extrema voctione, quae est quasi in 
+      supplemen<lb ed="#L" n="4" break="no"/>tam poenitentiae: infirmi vero indigent tali remedio, Ideo eis 
+      <lb ed="#L" n="5"/>solam est conferendum. 
+      </p>
+            <p xml:id="jsnvu6-e255539-d1e413">
+               <lb ed="#L" n="6"/>
+               <!--11--> Ad secundum pacet responsio ex dictis in corpore quae 
+      <lb ed="#L" n="7"/>stionis. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

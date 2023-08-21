@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="311-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e256260"><!-- l4d24q1 -->
+            <head xml:id="jsnvu6-e256260-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e256260-Hd1e103" type="question-title">Utrum ordo sit sacramentum</head>
+            <p xml:id="jsnvu6-e256260-d1e106">
+               <lb ed="#L" n="22"/>SVAPSTIO II. 
+      <lb ed="#L" n="23"/>Vtrum ordo sit sacramentum. 
+    </p>
+            <p xml:id="jsnvu6-e256260-d1e113">
+               <lb ed="#L" n="24"/>CIrca distinctionem istam quaeritur. de duobus 
+      <lb ed="#L" n="25"/>in generali. Primum est de ordine. Secundum 
+      <lb ed="#L" n="26"/>de his quae ordini sunt annexa. Quantum ad 
+      <lb ed="#L" n="27"/>primum primo quaeritur vtrum ordo sit sacra 
+      <lb ed="#L" n="28"/>Imentum &amp; arguitur, quod non: quia sacramen 
+      <lb ed="#L" n="29"/>tum est spirituale medicamentum, vt dictum fuit supra distis 
+      <lb ed="#L" n="30"/>ctione prima, sed ordo non est medicamentum, quum debea 
+      <lb ed="#L" n="31"/>conferri sanis &amp; non infirmis, ergo non est sacramentum. 
+      </p>
+            <p xml:id="jsnvu6-e256260-d1e133">
+               <lb ed="#L" n="32"/>
+               <!--2--> Item quod non est vnum sacramentum non est sacramet 
+      <lb ed="#L" n="33"/>tum, sicut quod non est vnus homo non est homo, sed 
+      ord<lb ed="#L" n="34" break="no"/>non est vnum sacramentum, ergo &amp;c. Minos probatur, quia si 
+      <lb ed="#L" n="35"/>ordo est lacramentum plures ordines sunt plura sacramenta, 
+      <lb ed="#L" n="36"/>sunt autem plures ordines, &amp; non vnus tantum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e256260-d1e150">
+               <lb ed="#L" n="37"/>
+               <!--3,--> IN. CONTRARIVM est, quia illud per quod ho 
+      <lb ed="#L" n="38"/>mo efficitur dispensator sacramentorum est sacramentum (quia 
+      <lb ed="#L" n="39"/>causa non est deterior effectu) sed per ordinem homo effici 
+      <lb ed="#L" n="40"/>tur dispensator sacramentorum, ergo ordo est sacramentum 
+      </p>
+            <p xml:id="jsnvu6-e256260-d1e163">
+               <lb ed="#L" n="41"/>
+               <!--4--> RESPONSIO Circa quaestionem istam videnda sun 
+      <lb ed="#L" n="42"/>tria. Primum est, quid sit ordo, prout nunc loquimur de ordi 
+      <lb ed="#L" n="43"/>ne. Secundum est, an debeat esse in ecclesia. Tertium est, v. 
+      <lb ed="#L" n="44"/>trum sit sacramentum. 
+</p>
+            <p xml:id="jsnvu6-e256260-d1e176">
+               <lb ed="#L" n="45"/>QUANTVM ad primum sciendum est quod ordo tri 
+      <lb ed="#L" n="46"/>pliciter accipitur, vno modo pro relatione vel habitudine o 
+      <lb ed="#L" n="47"/>dinatorum, &amp; sic loquitur de ipso beatus Augustinus libro dec 
+      <lb ed="#L" n="48"/>uitate Dei, quod ordo est parium dispariumque rerum sua loca 
+      <lb ed="#L" n="49"/>cuique tribuens dispositio, &amp; hoc modo non loquimur hic de o 
+      <lb ed="#L" n="50"/>dine. Alio modo accipitur ordo pro gradu qui ordinem primo 
+      <lb ed="#L" n="51"/>modo acceptum facit, quum enim ratio ordinis prout est relatio 
+      <lb ed="#L" n="52"/>plura requirat (vnius enim solius non est ordo) ideo vbi prine 
+      <lb ed="#L" n="53"/>occurrit aliquid additum alteri, ibi incipit esse ordo, ita quod se 
+      <lb ed="#L" n="54"/>cundum additum primo complet rationem ordinis, &amp; Ideo 
+      gra<lb ed="#L" n="55" break="no"/>dus iste secundus ordo dicitur, quia consticutum in tali gradi 
+      <lb ed="#L" n="56"/>primo dicitur ordinatum. Et si sit ibi gradus inferioritatis &amp; 
+      <lb ed="#L" n="57"/>superioritatis additus communi statui dicitur ordo, &amp; 
+      consti<lb ed="#L" n="58" break="no"/>tutus in eo dicitur ordinatus siue in statu seculari, siue 
+      ecclesia<lb ed="#L" n="59" break="no"/>stico. Tertio modo accipitur ordo pro eo quod exterius 
+      sensi<lb ed="#L" n="60" break="no"/>biliter geritur circa aliquem, vt in aliquo gradu super alios 
+      con<lb ed="#L" n="61" break="no"/>stituatur: sicut alicul traditur calix cum pane &amp; vino sub 
+      prae<lb ed="#L" n="62" break="no"/>scripta forma verborum, vt constituatur in gradu sacerdotij su 
+      <lb ed="#L" n="63"/>per populum, &amp; hoc magis proprie deberet vocari ordinatio 
+      <lb ed="#L" n="64"/>quam ordo, sic tamen accipit magister ordinem in litera, &amp; dis 
+      <lb ed="#L" n="65"/>finit dicens: quod ordo est signaculum quoddam ecclesiae (
+      acci<lb ed="#L" n="66" break="no"/>piens signaculum pro eo quod sensibiliter exterius geritur) 
+      pe<lb ed="#L" n="67" break="no"/>quod spiritualis potestas ordinato traditur &amp; officium, hi 
+      <lb ed="#L" n="68"/>duobus vltimis modis pertinet ad propositum nostrum ordo
+    </p>
+            <p xml:id="jsnvu6-e256260-d1e231">
+               <lb ed="#L" n="69"/>QUANTVM ad secundum dicendum est quod ordo vtro 
+      <lb ed="#L" n="70"/>que dictorum modorum acceptus debet esse, et est in ecelesia 
+      <lb ed="#L" n="71"/>quod patet primo de ordine prout dicit gradum superioritatis 
+      <lb ed="#L" n="72"/>in potestate, vel officio, quia aeque vel magis regulatus deber 
+      <lb ed="#L" n="73"/>esse processus ecclesiae ordinatus ad esse gratiae, sicut processus 
+      <lb ed="#L" n="74"/>naturae ordinarus ad esse naturale. Sed in processu naturae est 
+      <lb ed="#L" n="75"/>ordo quo quaedam sunt aliis superiora, &amp; eis habent influere, erg 
+      <lb ed="#L" n="76"/>similiter in ecclesia debet esse ordo, quo quidam sint aliis supe 
+      <lb ed="#L" n="77"/>xiores potestate &amp; officio, vt habeant aliis influere dispensan 
+      <lb ed="#L" n="78"/>do sacramenta gratiae. Item ecclesia militans exemplata est i 
+      <lb ed="#L" n="79"/>atiumphante secundum illud Exod. 25. Inspice &amp; fac secun 
+      <!--00695.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>dum exemplar quod tibi in monte monstratum est, sed in 
+      es<lb ed="#L" n="81" break="no"/>clesia triumphante est ordo quo quidam angeli sunt aliis supe 
+      <lb ed="#L" n="82"/>riores, &amp; habent eis influere diuinas illuminationes, ergo si 
+      <lb ed="#L" n="83"/>militer in ecelesia militante debet esse gradus superioritais is 
+      <lb ed="#L" n="84"/>quibusdam, qui habeant allis diuina ministrare Item patet di 
+      <lb ed="#L" n="85"/>ordine tertio modo sumpto, quia potestas ecelesiae per quam 
+      <lb ed="#L" n="86"/>quidam habent aliis ministrare diuina debet esse nora eccle 
+      <lb ed="#L" n="87"/>siae, sed non esset nota nisi traderetur sub aliquo sensibili, 
+      ver<lb ed="#L" n="88" break="no"/>bo, vel signos vel vtroque simult tum omnis nostra cognitio 
+      <lb ed="#L" n="89"/>ortum habeata sensu, &amp; ex sensibilibus, ergo poternsis 
+      dispen<lb ed="#L" n="90" break="no"/>sandi diuina debet in ecclesia tradi sub aliquibus figuis 
+      sensi<lb ed="#L" n="91" break="no"/>bilibus. &amp; talis traditio vocatur proprie ordinatio. 
+      </p>
+            <p xml:id="jsnvu6-e256260-d1e288">
+               <lb ed="#L" n="92"/>
+               <!--7--> EX HIS. PATET FACILITER tertium prir 
+      <lb ed="#L" n="93"/>cipale, scilicet an ordo sit sacramentum, quia ordo primo modo, 
+      <lb ed="#L" n="94"/>acceptus est sola relatio. Secundo autem modo acceptus est spiri 
+      <lb ed="#L" n="95"/>tus lis potestas, vel deputatio ad dispensationem sacramentorum 
+      <lb ed="#L" n="96"/>&amp; neutro istorum modorum est sacramentum, vt de se patetc, 
+      <lb ed="#L" n="97"/>Sed tertio modo est sacramentum, quod patet sic: vbicunque sub 
+      <lb ed="#L" n="98"/>velamento rerum sensibilium confertur sanctitas, vel 
+      mancipa<lb ed="#L" n="99" break="no"/>tio ad aliquod sacramentum, ibi est verum sacramentum, sed in 
+      <lb ed="#L" n="100"/>ordinatione confertur sanctitas &amp; mancipatio ad sacros actus, 
+      <lb ed="#L" n="101"/>ergo &amp;c. Maior patet ex dictis supra, distinctione prima. 
+      Mi<lb ed="#L" n="102" break="no"/>nor similiter patet quantum ad alterum membrum, scilicet quod per 
+      <lb ed="#L" n="103"/>ordinationem traditur potestas &amp; mancipatio ad actus sacros 
+      <lb ed="#L" n="104"/>sub velamento quorundam signorum sensibilium, hoc enim 
+      pa<lb ed="#L" n="105" break="no"/>tet ex secundo membro: sed quod conferatur sanctitas per 
+      gra<lb ed="#L" n="106" break="no"/>tiam nisi suscipiens ponat obicem patet, quia cuicunque datur 
+      <lb ed="#L" n="107"/>potestas aliqua seu officium diuinitus, donantur &amp; illa sine 
+      qui<lb ed="#L" n="108" break="no"/>bus exequutio illius potestatis vel officij non potest congrui 
+      <lb ed="#L" n="109"/>fieri, Deus enim non deficit in necessariis, sed per 
+      ordinatio<lb ed="#L" n="110" break="no"/>nem confertur potestas siue officium ministrandi diuina qua 
+      <lb ed="#L" n="111"/>sine gratia congrue ministrari non possunt, vt probatum fuit 
+      <lb ed="#L" n="112"/>supra ergo in ordine confertur gratia, vel potius augetur, quis 
+      <lb ed="#L" n="113"/>ad sacros ordines nullus debet accedere cum conscientia 
+      pec<lb ed="#L" n="114" break="no"/>cati mortalis, alioquin peccat montaliter. Et sic patet minor. 
+</p>
+            <p xml:id="jsnvu6-e256260-d1e343">
+               <lb ed="#L" n="115"/>
+               <!--8--> AD PRIMVM ARGVMENTVM dicendum 
+      <lb ed="#L" n="116"/>quod sacramentum ordinis est spitituale medicamentum, non 
+      il<lb ed="#L" n="117" break="no"/>lius qui ordinem suscipit, quia iam debet esse sanus, sed com 
+      <lb ed="#L" n="118"/>munitatis: quia per ordinem efficitur homo dispensator sacra 
+      <lb ed="#L" n="119"/>mentorum, per quae confertur spiritualis gratia &amp; sanitas, vi 
+      <lb ed="#L" n="120"/>sunt baprismus &amp; poenitentia, vel conformatur vel augetur, vi 
+      <lb ed="#L" n="121"/>eucharistia, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e256260-d1e364">
+               <lb ed="#L" n="122"/>
+               <!--9--> Ad secundum argumentum respondetur dupliciter. Vno 
+      m<lb ed="#L" n="123" break="no"/>do quod ordo proprie &amp; simpliciter dictus, &amp; qui est sacramenti 
+      <lb ed="#L" n="124"/>est solum sacerdotium comprehendendo sub sacerdotio epis 
+      <lb ed="#L" n="125"/>copatum, qui est sacerdotium completum &amp; perfectum, caeteri 
+      <lb ed="#L" n="126"/>autem dicuntur ordines secundum quid, nec sunt sacramenta, sec 
+      <lb ed="#L" n="127"/>potius quaedam saeramentalia antecedentia ad sacerdotium de 
+      con<lb ed="#L" n="128" break="no"/>grustate &amp; non de necessitate, vt omnes inferiores ordines, quem 
+      <lb ed="#L" n="129"/>admodum sacramento baptismi adiuncta sunt exorcismus &amp; 
+      <lb ed="#L" n="130"/>catechismus: &amp; si hoc esset verum, tunc non esset nisi vnum sa 
+      <lb ed="#L" n="131"/>eramentum ordinis: de hoc tamen magis dicetur inferius. Alio 
+      <lb ed="#L" n="132"/>modo potest dici quod ordo est sacramentum non vnitate 
+      indi<lb ed="#L" n="133" break="no"/>uisibilitatis, vt punctus, aut continuitatis, vt linea, sed vnitat. 
+      <lb ed="#L" n="134"/>perfectionis, quando concurrunt omnia quae requiruntur ad 
+      <lb ed="#L" n="135"/>perfectam consequutionem finis ad quam res ordinatur, 
+      sa<lb ed="#L" n="136" break="no"/>cramentum autem ordinis ordinatur ad sacramentum eucha 
+      <lb ed="#L" n="137"/>ristiae ministrandum, &amp; quod requiritur eius confectioquae per 
+      <lb ed="#L" n="138"/>tinet ad sacerdotem, &amp; praeparatio materiae, &amp; elus oblatio 
+      <lb ed="#L" n="139"/>quae pertinet ad diaconum &amp; subdiaconum, &amp; dispositio popu 
+      <lb ed="#L" n="140"/>li, quae pertinet ad minores ordines, vt possea dicetur, 8 
+      <lb ed="#L" n="141"/>ordinatio ministrorum quae pertinet ad episcopum, 
+      pro<lb ed="#L" n="142" break="no"/>pter quod omnes ordines sunt vnum sacramentum vnitate 
+      <lb ed="#L" n="143"/>perfectionis, &amp; vnus ordo vnitate attributionis, &amp; hoc sufficit. 
+      <lb ed="#L" n="144"/>vt.ri. 1. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="277-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e228369"><!-- l4d11q7 -->
+            <head xml:id="jsnvu6-e228369-Hd1e101">Quaestio 7</head>
+            <head xml:id="jsnvu6-e228369-Hd1e103" type="question-title">Utrum sacerdos intendens consecrare tantum 
+      decem hostias, si inueniat vndecim an 
+      vndecima sit consecrata</head>
+            <p xml:id="jsnvu6-e228369-d1e106">
+               <lb ed="#L" n="146"/>QVAESTIO SEPTIMA. 
+      <lb ed="#L" n="147"/>Vtrum sacerdos intendens consecrare tantum 
+      de<lb ed="#L" n="148" break="no"/>cem hostias, si inueniat vndecim an 
+      vndeci<lb ed="#L" n="149" break="no"/>ma sit consecrata. 
+      <lb ed="#L" n="150"/>Thom. 3. 9. 64. 4r. 8. &amp; 10.
+    </p>
+            <p xml:id="jsnvu6-e228369-d1e119">
+               <lb ed="#L" n="151"/>VXTA hoc quaeritur vtrum sacerdos 
+      intenden<lb ed="#L" n="152" break="no"/>consecrare tantum decem hostias, si inueniat 
+      vn<lb ed="#L" n="153" break="no"/>decim, an vndecima sit consecrata. Et arguitur q 
+      <lb ed="#L" n="154"/>non, quia cum intentio ministri requiratur ad 
+      sa<lb ed="#L" n="155" break="no"/>ei cramentum tot &amp; non plures consecrat sacerdos, 
+      <lb ed="#L" n="156"/>quot consecrare intendit, sed non intendit, consecrare nisi decem 
+      <lb ed="#L" n="157"/>hostias, vt in quaest. supponitur, ergo non consecrat vndecimam. 
+      </p>
+            <p xml:id="jsnvu6-e228369-d1e137">
+               <lb ed="#L" n="158"/>
+               <!--2--> CONTRA, quia in sacramentis non debet laqueus 
+      para<lb ed="#L" n="159" break="no"/>ri, sed si illa vndecima non esset consecrata, pararetur laquenus con¬ 
+      <!--00628.xml-->
+      <pb ed="#L" n="277-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>secranti, quia eadem ratione qua dubitat de vna an sit 
+      conse<lb ed="#L" n="2" break="no"/>crata potest dubitare de qualibet, ergo videtur quod omnes 
+      <lb ed="#L" n="3"/>sint consecratae. 
+      </p>
+            <p xml:id="jsnvu6-e228369-d1e160">
+               <lb ed="#L" n="4"/>
+               <!--3--> RESPONSIO. Quaestio ista respicit particulare factum 
+      <lb ed="#L" n="5"/>quod variari potest ex variatione diuersarum circumstantiarum, 
+      <lb ed="#L" n="6"/>&amp; secundum hoc debet variari iudicium. Dicendum ergo quod 
+      sa<lb ed="#L" n="7" break="no"/>cerdos celebrans qui habet ante se vndecim hostias &amp; non credit 
+      <lb ed="#L" n="8"/>ibi esse nisi decem. Aut intendit consecrare totum quod habe 
+      <lb ed="#L" n="9"/>ante se, quamuis erret in opinione qua credit ibi esse tantum decem 
+      <lb ed="#L" n="10"/>cum in veritate sint vndecim. Aut scit per certitudinem ibi esse 
+      vn<lb ed="#L" n="11" break="no"/>decim hostias, sed non intendit consecrare nisi decem ex eis, aut 
+      <lb ed="#L" n="12"/>ignorat numerum, praecise tamen intendit consecrare decem tantum 
+      <lb ed="#L" n="13"/>In primo casu quando intendit consecrare quicquid est ante se, 
+      <lb ed="#L" n="14"/>quamuis erret in opinione, quia credit quod non sint ibi nisi 
+      de<lb ed="#L" n="15" break="no"/>cem cum in veritate sunt vudecim, dicendum est quod omnes 
+      <lb ed="#L" n="16"/>sunt consecratae, quia concurrentibus omnibus quae sunt de 
+      es<lb ed="#L" n="17" break="no"/>sentia sacramenti scilicet materia, forma, &amp; minister cum 
+      inten<lb ed="#L" n="18" break="no"/>tione applicandi formam materiae vere perficitur sacramentum. 
+      <lb ed="#L" n="19"/>Sed in casu posito omnia praedicta concurrunt, quia talis 
+      sacer<lb ed="#L" n="20" break="no"/>dos intendit consecrare quicquid est ante sed, et illud est debita 
+      <lb ed="#L" n="21"/>materia. Supponimus etiam quod iste sit vere sacerdos, &amp; quod profera 
+      <lb ed="#L" n="22"/>debita verba consecrationis cum intentione consecrandi totum 
+      <lb ed="#L" n="23"/>pane qui est ante se, ergo totum est consecratum, nec error ipsius 
+      <lb ed="#L" n="24"/>de numero hostiarum impedit consecrationem alicuius hostiae dum 
+      <lb ed="#L" n="25"/>modo intendat consecrare totum quod est ante se, quia talis 
+      igno<lb ed="#L" n="26" break="no"/>rantia, vel scientia numeri hostiarum se habet omnino per acci 
+      <lb ed="#L" n="27"/>dens ad sacramentum, ex quo nihil variat de intentione ministri 
+      </p>
+            <p xml:id="jsnvu6-e228369-d1e217">
+               <lb ed="#L" n="28"/>
+               <!--4--> In secundo autem casu quando sacerdos per certitudinem sci 
+      <lb ed="#L" n="29"/>ibi esse vndecim hostias, &amp; tamen non intendit consecrare nis 
+      <lb ed="#L" n="30"/>decem tantum ex eis: aut ipse in speciali mente signat illas 
+      dec<lb ed="#L" n="31" break="no"/>quas consecrare intendit, &amp; illam vndecimam quam consecrari 
+      <lb ed="#L" n="32"/>non intendit. Verbi gratia, sacerdos habens aute se vndecim 
+      ho<lb ed="#L" n="33" break="no"/>stias sibi inuicem suppositas potest mente signare quod ipse 
+      in<lb ed="#L" n="34" break="no"/>tendit consecrare omnes nisi supremam, vel nisi infimam, &amp; si 
+      <lb ed="#L" n="35"/>de qualibet alia prout placet. Et tunc illa vndecima quam menti 
+      <lb ed="#L" n="36"/>signat &amp; a consecratione excludit non est consecrata. Omnes au 
+      <lb ed="#L" n="37"/>tem aliae sunt consecratae, &amp; hoc de se patet. Quia illud quod in 
+      <lb ed="#L" n="38"/>speciali cadit sub intentione sacerdotis consecrantis consecratur. 
+      <lb ed="#L" n="39"/>sic autem est in proposito, quare &amp;c. Si autem sacerdos sciens ib 
+      <lb ed="#L" n="40"/>esse vndecim hostias &amp; non intendens consecrare nisi tantum de 
+      <lb ed="#L" n="41"/>cem non signet mente illas decem quas consecrare intendit, nec 
+      <lb ed="#L" n="42"/>illam vndecima quam consecrare non intendit sed stat intentio 
+      <lb ed="#L" n="43"/>sua in tali generalitate, scilicet quod non intendit consecrare omnes 
+      <lb ed="#L" n="44"/>vndecim, sed solum decem ex eis: dicendum est quod talis sacer 
+      <lb ed="#L" n="45"/>dos nullam illarum hostiarum consecrat quantumcunque 
+      profe<lb ed="#L" n="46" break="no"/>rat verba cum praedicta intentione generali. Cuius ratio est, 
+      qui<lb ed="#L" n="47" break="no"/>constat quod iste non consecrat omnes vndecim, quia oppositum 
+      <lb ed="#L" n="48"/>est in eius mente, scilicet nullo modo consecrare omnes vndecim 
+      <lb ed="#L" n="49"/>nec consecrat decem tantum. Probatio: quia illa intentio non suffi 
+      <lb ed="#L" n="50"/>cit ad consecrationem alicuius hostiae sub qua aequaliter 
+      quaeli<lb ed="#L" n="51" break="no"/>bet hostia includitur &amp; excluditur. Quia si dicatur consecrat: 
+      <lb ed="#L" n="52"/>quia sub illa intentione includitur, eadem ratione dicetur non 
+      <lb ed="#L" n="53"/>consecrata quia ab illa intentione excluditur. Sed sic est in 
+      pro<lb ed="#L" n="54" break="no"/>posito, quia si intentio sacerdotis stat in hac generalitate quod 
+      in<lb ed="#L" n="55" break="no"/>tendit consecrare tantum decem hostias eas mente non 
+      signan<lb ed="#L" n="56" break="no"/>do, tunc quaelibet vndecim hostiarum potest esse vna de dece, &amp; 
+      <lb ed="#L" n="57"/>potest excludi de decem, quia qualibet exclusa adhuc sunt decem 
+      <lb ed="#L" n="58"/>aliae, ita quod exclusio cuiuslibet ponit exclusionem omnium 
+      <lb ed="#L" n="59"/>aliarum sub numero denario. Et inclusio cuiuslibet sub numero 
+      <lb ed="#L" n="60"/>denario excludit aliquam aliam ab eodem numero. Cum ergo 
+      <lb ed="#L" n="61"/>nulla fit signata per intentionem sacerdotis, sequitur quod 
+      aequa<lb ed="#L" n="62" break="no"/>liter quaelibet sit inclusa, &amp; non inclusa quod est contradictio, 8 
+      <lb ed="#L" n="63"/>per consequens aequaliter consecrata &amp; non consecrata, quod 
+      <lb ed="#L" n="64"/>" est impossibile, nulla ergo consecratur. 
+      </p>
+            <p xml:id="jsnvu6-e228369-d1e302">
+               <lb ed="#L" n="65"/>
+               <!--5--> In tertio autem casu scilicet quando sacerdos ignorat nu 
+      <lb ed="#L" n="66"/>merum hostiarum intendit tamen consecrare decem de total 
+      <lb ed="#L" n="67"/>numero: dicendum est sicut dictum est in secundo casu, nisi quod 
+      <lb ed="#L" n="68"/>si talis sacerdos signet mente decem hostias quas consecrare 
+      in<lb ed="#L" n="69" break="no"/>tendit tunc cessat in eo ignorantia numeri &amp; incidit casus iste 
+      <lb ed="#L" n="70"/>totaliter cum secundo, &amp; ideo eadem est responsio. 
+      </p>
+            <p xml:id="jsnvu6-e228369-d1e320">
+               <lb ed="#L" n="71"/>
+               <!--6--> Ad primum arg. dicendum quod bene concludit partem 
+      ne<lb ed="#L" n="72" break="no"/>gatiuam, scilicet quod non omnes vndecim consecrantur propter 
+      <lb ed="#L" n="73"/>intentionem contrariam, quando scilicet sacerdos non 
+      intendi<lb ed="#L" n="74" break="no"/>consecrare totum quod est ante se, sed praecise decem hostias 
+      <lb ed="#L" n="75"/>quia si intenderet consecrare totum quod est ante se minor 
+      es<lb ed="#L" n="76" break="no"/>set falsa. Sed partem affirmatiuam non concludit nisi 
+      intenti<lb ed="#L" n="77" break="no"/>eius sit in speciali de decem signatis. Si enim intentio stet in 
+      ge<lb ed="#L" n="78" break="no"/>nerali tantum, cum per illam applicationem non fiat 
+      applicatio<lb ed="#L" n="79" break="no"/>formae ad consecrationem alicuius determinatae hostiae. Quia sul 
+      <lb ed="#L" n="80"/>illa generali intentione quaelibet hostia aequaliter includitur, vt 
+      <lb ed="#L" n="81"/>declaratum est, tunc nulla hostia consecratur. 
+      </p>
+            <p xml:id="jsnvu6-e228369-d1e349">
+               <lb ed="#L" n="82"/>
+               <!--7--> Ad rationem alterius partis dicendum est quod ex parte sa¬ 
+      <!--00628.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>cramenti nullus paratur laqueus. Sed quilibet indiscretus mini 
+      <lb ed="#L" n="84"/>ster potest sibiipsi parare laqueum, quod facit talis sacerdos 
+      quan<lb ed="#L" n="85" break="no"/>do non determinat intentionem suam ad aliquem numerum 
+      <lb ed="#L" n="86"/>determinatum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

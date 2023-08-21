@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="277-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e228775"><!-- l4d12q1 -->
+            <head xml:id="jsnvu6-e228775-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e228775-Hd1e103" type="question-title">Utrum Deus possit facere quodlibet. 
+      accidens sine subiecto</head>
+            <p xml:id="jsnvu6-e228775-d1e106">
+               <lb ed="#L" n="146"/>QVAESTIO PRIMA 
+      <lb ed="#L" n="147"/>Vtrum Deus possit facere quodlibet. 
+      <lb ed="#L" n="148"/>accidens sine subiecto. 
+      <lb ed="#L" n="149"/>Thom. 3. 4. 77. art. L. &amp; 2. 
+    </p>
+            <p xml:id="jsnvu6-e228775-d1e117">
+               <lb ed="#L" n="150"/>CIRCA distinctionem istam quaeruntur quatuor. 
+      <lb ed="#L" n="151"/>Primum est de modo existendi accidentium in hoc 
+      <lb ed="#L" n="152"/>sacramento. Secundum est de mistione quae potes 
+      <lb ed="#L" n="153"/>fieri cum speciebus vini consecrati. Tertium est de 
+      <lb ed="#L" n="154"/>x effectu huius sacramenti. Et quartum de eius fre 
+      <lb ed="#L" n="155"/>quentatione. Quantum ad primum quaeritur vtrum Deus 
+      pos<lb ed="#L" n="156" break="no"/>sit facere quodlbet accidens sine subiecto. Et arguitur quod 
+      <lb ed="#L" n="157"/>non, quia sicut relatiui esse, est ad aliud esse, scilicet ad correla 
+      <lb ed="#L" n="158"/>tiuum, sic accidentis esse, est in alio esse, scilicet in subiecto: sec 
+      <lb ed="#L" n="159"/>nulla virtute potest fieri quod relatiuum sit, &amp; non dicatur 
+      a<lb ed="#L" n="160" break="no"/>aliud correlat iuum, ergo nullo modo potest fieri quod accidens 
+      <lb ed="#L" n="161"/>sit &amp; non sit in alio.
+    </p>
+            <p xml:id="jsnvu6-e228775-d1e146">
+      <!--00629.xml-->
+               <pb ed="#L" n="278-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>2. Item sicut se habet quantitas ad substantiam, sic qualitas ad 
+      <lb ed="#L" n="2"/>quantitatem, sed qualitas nulla virtute potest esse sine quantita 
+      <lb ed="#L" n="3"/>te, vt probabitur, ergo quantitas non potesi esse sine substantia. 
+      <lb ed="#L" n="4"/>Probatio minoris, quia impossibile est quod aliquid participet na 
+      <lb ed="#L" n="5"/>turam speciei &amp; non generis, eo quod genus includitur in specie 
+      <lb ed="#L" n="6"/>Sed istud sequeretur si qualitas posset esse sine quantitate. S 
+      <lb ed="#L" n="7"/>enim albedo hostiae separaretur a quantitate, ipsa maneret ir 
+      <lb ed="#L" n="8"/>specie albedinis, &amp; tamen ipsa non esset in genere qualitatis sen 
+      <lb ed="#L" n="9"/>sibilis, non enim posset immutare visum, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e228775-d1e176">
+               <lb ed="#L" n="10"/>
+               <!--3--> IN CONTRARIVM arguitur, quia sicut accidei 
+      <lb ed="#L" n="11"/>tis esse, est in esse, ita esse substantiae completae est, per se esse. Sec 
+      <lb ed="#L" n="12"/>Deus potest facere quod substantia completa non sit per se, sed 
+      <lb ed="#L" n="13"/>in alio; vt est de humana natura in Christo, ergo potest facere 
+      <lb ed="#L" n="14"/>de accidente, quod non sit in alio, sed per se¬ 
+      </p>
+            <p xml:id="jsnvu6-e228775-d1e192">
+               <lb ed="#L" n="15"/>
+               <!--4.--> RESPONSIO. Intelligendum ost quod accidentium quae 
+      <lb ed="#L" n="16"/>dam sunt absoluta, quaedam respectiua. Vocatur autem ad 
+      prae<lb ed="#L" n="17" break="no"/>sens accidens respectiuum non ex respectu ad subiectum, vel fur 
+      <lb ed="#L" n="18"/>damentum in quo est, quia sic omne accidens est respectiuum &amp; 
+      <lb ed="#L" n="19"/>nullum absolutum. Sed vocatur respectiuum illud cuius essentis 
+      <lb ed="#L" n="20"/>est ad aliud habitudo, &amp; esse ad aliud se habere, vt est relatio &amp; 
+      <lb ed="#L" n="21"/>quaecunque includunt respectum essentialiter. Absolutum autem 
+      <lb ed="#L" n="22"/>est cuius essentia non est habitudo ad aliud nec esse eius est ad 
+      <lb ed="#L" n="23"/>aliud se habere, sed est in se quaedam natura &amp; non solum 
+      mo<lb ed="#L" n="24" break="no"/>dus naturae vt quantitas &amp; qualitas. 
+      </p>
+            <p xml:id="jsnvu6-e228775-d1e218">
+               <lb ed="#L" n="25"/>
+               <!--5.--> Est autem inter haec accidentia duplex differentia. Prima 
+      ef<lb ed="#L" n="26" break="no"/>quod accidens absolutum est quaedam natura in se cui 
+      competi<lb ed="#L" n="27" break="no"/>aliquis modus essendi. Accidens autem respectiuum solum es 
+      <lb ed="#L" n="28"/>modus essendi alterius partis. Secunda differentia est, quia acci 
+      <lb ed="#L" n="29"/>dentia absoluta proprie dicuntur esse in subiecto, sed 
+      respecti<lb ed="#L" n="30" break="no"/>ua in illa natura in qua immediate sunt magis dicuntur esse 
+      fi<lb ed="#L" n="31" break="no"/>cut in fundamento, quam sicut in subiecto. 
+      </p>
+            <p xml:id="jsnvu6-e228775-d1e238">
+               <lb ed="#L" n="32"/>
+               <!--6.--> His suppositis dicendum est quod accidens respectiuum nullo 
+      <lb ed="#L" n="33"/>modo potest esse fine suo fundamento: accidens autem absolutum po 
+      <lb ed="#L" n="34"/>test esse sine quocunque subiecto. Primum patet dupliciter. 
+      Pri<lb ed="#L" n="35" break="no"/>mo sic: omne illud quod potest per se &amp; in se existere est res 
+      ha<lb ed="#L" n="36" break="no"/>bens modum &amp; non solus modus rei. Ex quo enim est, res est, ex quo 
+      <lb ed="#L" n="37"/>per se est, habet modum essendi, scilicet quod est per se. Sed 
+      acciden<lb ed="#L" n="38" break="no"/>respectiuum prout de ipso loquimur est solum modus rei, &amp; nio 
+      <lb ed="#L" n="39"/>res habens modum (vt dictum est) ergo non potest per se &amp; in 
+      <lb ed="#L" n="40"/>se existere. Item omne illud quod potest per se &amp; in se existere 
+      <lb ed="#L" n="41"/>si alij vniatur facit cum eo compositionem. Sed respectus, vel 
+      ac<lb ed="#L" n="42" break="no"/>cidens respectiuum non facit cum suo fundamento 
+      compositio<lb ed="#L" n="43" break="no"/>ne (vt probatum fuit in primo libro cum de relationibus agere 
+      <lb ed="#L" n="44"/>tur) ergo accidens relatiuum non potest per se &amp; in se existere 
+      <lb ed="#L" n="45"/>Maior probatur: quia res per se &amp; in se subsistens non est solu 
+      <lb ed="#L" n="46"/>modus rei (vt dictum est) sed res habens modum. Talis autem est 
+      <lb ed="#L" n="47"/>res simpliciter quae addita alij facit compositionem (vt dictum 
+      <lb ed="#L" n="48"/>est similiter in primo lib.) ergo &amp;c. Et sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e228775-d1e280">
+               <lb ed="#L" n="49"/>
+               <!--7.--> Per idem patet quod numerus qui est quantitas discreta, &amp; 
+      <lb ed="#L" n="50"/>multitudo quae est de transcendentibus non possunt esse fine suo 
+      <lb ed="#L" n="51"/>fundamento, quia non dicunt res sed modos rerum. Vnum enim 
+      <lb ed="#L" n="52"/>quod est principium numeri, &amp; vnum quod est principium 
+      mul<lb ed="#L" n="53" break="no"/>titudinis transcendentis circa materiam in qua fundantur non 
+      <lb ed="#L" n="54"/>dicunt nisi indiuisionem, quae cum sit priuatio non est accidem 
+      <lb ed="#L" n="55"/>separabile. Numerus autem &amp; multitudo transcendens non 
+      di<lb ed="#L" n="56" break="no"/>cunt nisi diuisionem circa res quibus conueniunt: diuisio auten 
+      <lb ed="#L" n="57"/>non est res habens modum, sed solum modus rei, propter quod 
+      <lb ed="#L" n="58"/>nec numerus potest esse sinerebus numeratis, nec multitudo 
+      <lb ed="#L" n="59"/>sine his quae multa dicuntur. Simili modo dicendum est de motu 
+      <lb ed="#L" n="60"/>quod nullo modo potest esse sine eo in quoimmediate fundatur. 
+      <lb ed="#L" n="61"/>Fundatur autem motus localis in mobili mediante quantitate 
+      se<lb ed="#L" n="62" break="no"/>cundum quam habet prius &amp; posterius, quae sunt partes 
+      intrin<lb ed="#L" n="63" break="no"/>secae motus. Motus vero alterationis fundatur in mobili mediam 
+      <lb ed="#L" n="64"/>te qualitate habente gradus intentionis &amp; remissionis, sed 
+      mo<lb ed="#L" n="65" break="no"/>tus localis super quantitatem non diciz nisi modum se habendi con 
+      <lb ed="#L" n="66"/>rinualiter &amp; aliter respectu loci, &amp; motus ad formam non dicit 
+      <lb ed="#L" n="67"/>nisi modum quo mobile habens formam aliquam se habet continue 
+      <lb ed="#L" n="68"/>aliter respectu formae quo ad gradus eius, propter quod lice 
+      <lb ed="#L" n="69"/>motus localis possit esse sine substantia mobili, non potest 
+      ta<lb ed="#L" n="70" break="no"/>men esse sine quantitate, &amp; similiter motus alterationis potes 
+      <lb ed="#L" n="71"/>esse sine substantia sed non sine qualitate in qua immediate 
+      fun<lb ed="#L" n="72" break="no"/>datur. Patet ergo primum, scilicet quod accidens respectiuum &amp; 
+      <lb ed="#L" n="73"/>quodcunque aliud quod non est res nisi quia est modus rei, no 
+      <lb ed="#L" n="74"/>potest quacunque virtute a suo fundamento separari. 
+      </p>
+            <p xml:id="jsnvu6-e228775-d1e341">
+               <lb ed="#L" n="75"/>
+               <!--8.--> Secundum est, scilicet quod Deus possit facere omne accides 
+      <lb ed="#L" n="76"/>absolutum sine subiecto: quod probatur a quibusdam nouis docto 
+      <lb ed="#L" n="77"/>ribus hoc modo. Deus potest facere quamlibet rem sine 
+      causi<lb ed="#L" n="78" break="no"/>eius extrinsecis, licet non possit eam facere sine causis intrinse 
+      <lb ed="#L" n="79"/>cis, sicut potest facere hominem, qui non generetur ab alio 
+      ho<lb ed="#L" n="80" break="no"/>mine: tamen non potest facere hominem, sine anima &amp; 
+      corpo<lb ed="#L" n="81" break="no"/>re, quae sunt causae eius intrinsecae. Hoc enim implicat 
+      contra<lb ed="#L" n="82" break="no"/>dictionem, sed non primum: subiectum autem non est causa in 
+      <!--00629.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>trinseca accidentis absoluti, ergo Deus potest facere quodcunque 
+      <lb ed="#L" n="84"/>accidens absolutum sine subiecto. Maior declarata est. Mino 
+      <lb ed="#L" n="85"/>probatur, quia materia in qua nunquam est causa intrinseca, sed 
+      <lb ed="#L" n="86"/>solum materia ex qua: subiectum autem respectu accidentis 
+      so<lb ed="#L" n="87" break="no"/>lum est materia in qua, &amp; non ex qua, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e228775-d1e379">
+               <lb ed="#L" n="88"/>
+               <!--9--> Quicquid sit de conclusione, ratio tamen ista non valet: 
+      aequa<lb ed="#L" n="89" break="no"/>liter enim concludit quoe accidens respectiuum possic esse sine suo 
+      <lb ed="#L" n="90"/>fundamento, sicut accidens absolutum sine suo subiecto: quia 
+      <lb ed="#L" n="91"/>sicut subiectum non est causa intrinseca accidentis absoluti, 
+      qui<lb ed="#L" n="92" break="no"/>non est materia ex qua, sed in qua: sic fundamentum non est 
+      cau<lb ed="#L" n="93" break="no"/>sa intrinseca accidentis respectiui, quia non est eius materia ex 
+      <lb ed="#L" n="94"/>qua, sed in qua, ergo si propter primum accidens absolutum 
+      po<lb ed="#L" n="95" break="no"/>test esse sine subiecto, eadem ratione accidens respectiuum 
+      po<lb ed="#L" n="96" break="no"/>terit esse sine suo fundamento, hoc autem est falsum; vt statim 
+      <lb ed="#L" n="97"/>probatum fuit supra, quare &amp;c. Quod ergo dicitur quod Deus po 
+      <lb ed="#L" n="98"/>test facere omnem effectum sine causis extrinsecis: dicendum est 
+      <lb ed="#L" n="99"/>quod quamuis Deus possit supplere vicem euiuslibet causae 
+      effi<lb ed="#L" n="100" break="no"/>cientis, vt sine ea ita possit facere quicquid facit ea mediante 
+      <lb ed="#L" n="101"/>non potest tamen alias habitudines extrinsecas causarum vel 
+      <lb ed="#L" n="102"/>non causarum supplere. Non enim posset facere velle sine 
+      cogno<lb ed="#L" n="103" break="no"/>scere, nec videre sine obiecto terminante visionem, &amp; tamen 
+      <lb ed="#L" n="104"/>istorum vnum non est intrinsecum alteri. 2 
+      </p>
+            <p xml:id="jsnvu6-e228775-d1e421">
+               <lb ed="#L" n="105"/>
+               <!--10--> Ideo dicendum est aliter tenendo eandem conclusionem, 
+      <lb ed="#L" n="106"/>sed probando per aliam rationem quae talis est. Illud de cuius 
+      <lb ed="#L" n="107"/>intrinseca ratione non est habitudo ad alterum potest diuina 
+      <lb ed="#L" n="108"/>virtute absque quocunque altero. Sed omne accidens absolutum 
+      <lb ed="#L" n="109"/>eo modo quo expositum est, est tale quod de eius intrinseca 
+      ratio<lb ed="#L" n="110" break="no"/>ne non est habitudo ad alterum, vt in quo sit tanquam in 
+      subie<lb ed="#L" n="111" break="no"/>cto, ergo omne accidens absolutum potest esse diuina virtute 
+      <lb ed="#L" n="112"/>sine quocunque subiecto. Maior patet, quia Deus potest 
+      facer<lb ed="#L" n="113" break="no"/>quicquid non implicat contradictionem, vel repugnantiam 
+      in<lb ed="#L" n="114" break="no"/>tellectuum, quo idem est. Sed o illud non includit in ratione sua 
+      <lb ed="#L" n="115"/>intrinseca habitudinem ad alterum possit esse sine illo altero no 
+      <lb ed="#L" n="116"/>implicat contradictionem (vt de se patet) quia non est 
+      repu<lb ed="#L" n="117" break="no"/>gnantia intellectuum, vbi aliquid intelligitur absque eo quod non 
+      <lb ed="#L" n="118"/>est de sua ratione, ergo Deus potest facere quodcunque ens di 
+      <lb ed="#L" n="119"/>cuius ratione non est habitudo ad alterum sine illo altero. Minor 
+      <lb ed="#L" n="120"/>similiter patet ex his quae dicta sunt prius, quia vocamus 
+      acci<lb ed="#L" n="121" break="no"/>dens absolutum illud cuius essentia non est respectus, nec esse 
+      <lb ed="#L" n="122"/>est ad aliud se habere. Et ideo de fatione intrinseca ralis 
+      acci<lb ed="#L" n="123" break="no"/>dentis non est habitudo ad aliud, licet consequatur. Et sic pate 
+      <lb ed="#L" n="124"/>minor, sequitur ergo conclusio.l 
+      </p>
+            <p xml:id="jsnvu6-e228775-d1e469">
+               <lb ed="#L" n="125"/>
+               <!--11--> Ad primum argumentum dicendum quod relatiuum potest ac 
+      <lb ed="#L" n="126"/>cipi dupliciter. Vno modo pro extremo relato. Alio modo pro 
+      <lb ed="#L" n="127"/>ipso relatiuo. Si primo modo, sic maiore est vera. Quia sicut se 
+      <lb ed="#L" n="128"/>habet album vt sit alteri simile, vel quodcunque extremum 
+      rela<lb ed="#L" n="129" break="no"/>tionis, vt actualiter referatur ad aliud, sic se habet quodcunque 
+      <lb ed="#L" n="130"/>accidens, vt fit in subiecto actualiter. Et tunc minor est falsa, quia 
+      <lb ed="#L" n="131"/>Deus potest facere qo extremum relationis non referatur actua 
+      <lb ed="#L" n="132"/>liter ad aliud, sicut quod album sit, &amp; ad nihil referatur 
+      relatio<lb ed="#L" n="133" break="no"/>ne similitudinis, quod fieret si vnicum album esset. Et eodem 
+      <lb ed="#L" n="134"/>modo potest Deus facere quod accidens absolutum non sit 
+      a<lb ed="#L" n="135" break="no"/>ctualiter in subiecto, puta sacramento: si vero relatiuum 
+      acci<lb ed="#L" n="136" break="no"/>piatur pro respectu relato, sic maior est falsa, quia talis relatius 
+      <lb ed="#L" n="137"/>esse, est ad aliud esse: &amp; haec est praedicatio per essentiam 
+      diffi<lb ed="#L" n="138" break="no"/>nitionis de diffinito, sed cum dicitur quod accidentis esse, est 
+      <lb ed="#L" n="139"/>inesse: intelligendum est non per essentiam, sed per 
+      concomi<lb ed="#L" n="140" break="no"/>tantiam, quia naturaliter loquendo accidens non esset nisi 
+      in<lb ed="#L" n="141" break="no"/>esset, quae autem sunt vnum per concomitantiam nihil 
+      prohi<lb ed="#L" n="142" break="no"/>bet ea separari, quae autem sunt vnum per essentiam semper 
+      <lb ed="#L" n="143"/>sunt inseparabilia, nu 
+      </p>
+            <p xml:id="jsnvu6-e228775-d1e515">
+               <lb ed="#L" n="144"/>
+               <!--12.--> Ad secundum dicendum quod qualitas separabilis est a 
+      quan<lb ed="#L" n="145" break="no"/>titate, sicut quantitas a substantia. Et quum dicitur quod tunt 
+      <lb ed="#L" n="146"/>aliquid esset in specie quod non esset in genere, quia albedo 
+      sepa<lb ed="#L" n="147" break="no"/>rata non esset qualitas sensibilis, quae est genus ad albedinem. 
+      <lb ed="#L" n="148"/>Dicendum quod qualitas sensibilis non est nomen generis ad 
+      <lb ed="#L" n="149"/>colorem &amp; caeteras qualitates, sed est circumlocutio proprij 
+      <lb ed="#L" n="150"/>nominis quod est nobis ignotum: quia nomen generis solam 
+      <lb ed="#L" n="151"/>importat ea quae sunt intrinseca rei, esse autem sensibile dicit 
+      <lb ed="#L" n="152"/>habitudinem non vei, sed rationis ad alterum, scilicet ad 
+      sen<lb ed="#L" n="153" break="no"/>sum, sicuo scibile dicit habitadinem rationis ad scientiam, ve 
+      <lb ed="#L" n="154"/>dato quod qualitas sensibilis esset nomen generis ad colorem 
+      <lb ed="#L" n="155"/>&amp; caeteras qualitates motiuas sensuum, posset vere dici quod 
+      <lb ed="#L" n="156"/>albedo separata esset qualitas sensibilis: nec obstat quod sic 
+      <lb ed="#L" n="157"/>existens non posset sentiri, quia multa impediunt actum, qua 
+      <lb ed="#L" n="158"/>non collunt potentiam, &amp; requiruntur ad actum praecer poten 
+      <lb ed="#L" n="159"/>tiam. Quia secundum ordinem naturae sicut non quodlibet agit 
+      <lb ed="#L" n="160"/>in quodlibet, ita nec quolibet modo sed determinato: propter 
+      <lb ed="#L" n="161"/>quod licet albedo separata quantum est de se sit motius sensus, 
+      <lb ed="#L" n="162"/>non tamen habet modum tahs existentiae, vt actu possit 
+      moue<lb ed="#L" n="163" break="no"/>ri ipsum, quia sicut organum sensus est quantum, ita oportet 
+      <lb ed="#L" n="164"/>mortuum esse quantum 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

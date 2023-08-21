@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="36-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e712"><!-- l1d11prae -->
+            <head xml:id="jsnvu6-d1e712-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e712-d1e103">
+               <lb ed="#L" n="55"/>DISTINCTIONIS XI. 
+      <lb ed="#L" n="56"/>Sententia magistri in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e712-d1e110">
+               <lb ed="#L" n="57"/>Ic dicendum est. Superius magister 
+      determi<lb ed="#L" n="58" break="no"/>nauit de modo processionis Spiritus sancti. Hic 
+      <lb ed="#L" n="59"/>vero determinat de processionis principio. Et di 
+      <lb ed="#L" n="60"/>uiditur in duas partes. Primo enim ostendit 
+      spi<lb ed="#L" n="61" break="no"/>ritum sanctum procedere a patre &amp; filio. 
+      Secun<lb ed="#L" n="62" break="no"/>do quaeritur vtrum ab vtroque procedat aliquo ordine. 
+      Secun<lb ed="#L" n="63" break="no"/>da incipit ibi. in principio 12. distinct. ibi. Item quaeritur. Prima 
+      <lb ed="#L" n="64"/>est praesentis lectionis. Et diuiditur in tres. Primo enim 
+      deter<lb ed="#L" n="65" break="no"/>minat veritatem. Secundo excludit errorem Graecorum. Tertic 
+      <lb ed="#L" n="66"/>ostendit quod Graeci in hac veritate nobiscum concordant 
+      reali<lb ed="#L" n="67" break="no"/>ter: &amp; plures eorum nobiscum concordant vocaliter. Secunda 
+      <lb ed="#L" n="68"/>ibi. Graeci tamen dicunt. Tertia ibi. Sciendum tamen est. Haec 
+      <lb ed="#L" n="69"/>est diuisio &amp; sententia magistri in generali. 
+    </p>
+            <p xml:id="jsnvu6-d1e712-d1e141">
+               <lb ed="#L" n="70"/>In speciali vero sic procedit. Et primo proponit quod 
+      spi<lb ed="#L" n="71" break="no"/>ritus sanctus non solum a patre procedit, sed etiam a filio, quia 
+      <lb ed="#L" n="72"/>a filio mittitur &amp; spiritus filij nominatur. Postea excludit 
+      erro<lb ed="#L" n="73" break="no"/>rem Graecorum. Et primo tangit errorem dicens quod Graec 
+      <lb ed="#L" n="74"/>quia in Euangelio, &amp; pluribus conciliis apud eos celebratis, &amp; 
+      <lb ed="#L" n="75"/>in Symbolo Leonis papae 111. Spiritus sanctus dicitur a patre 
+      <lb ed="#L" n="76"/>procedere, &amp; nulla fit mentio de filio, ideo nolunt concedere 
+      <lb ed="#L" n="77"/>quod a filio procedat, imo dicunt nos excommunicatos, quia 
+      <lb ed="#L" n="78"/>Leo papa aliter docentes excommunicauit. Et respondet 
+      ma<lb ed="#L" n="79" break="no"/>gister quod illi aliud docent qui docent oppositum: nos autem 
+      <lb ed="#L" n="80"/>non docemus oppositum, sed doctrinam datam explanamus 
+      <!--00137.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>in Euangelio enim solum fit mentio de patre, quia filius solet 
+      <lb ed="#L" n="82"/>omnia ad eum referre. Vitimo dicit quod Graeci hoc ipse 
+      <lb ed="#L" n="83"/>quod dicunt spiritum sanctum esse filij nobiscum concordant. 
+      <lb ed="#L" n="84"/>Aliter enim non est filij nisi quia procedit ab eo. Ponit etiam 
+      <lb ed="#L" n="85"/>expressas autoritates Graecorum quod spiritus sanctus &amp; 
+      pro<lb ed="#L" n="86" break="no"/>cedit &amp; enianat &amp; profluit a patre &amp; filio. Et in hoc 
+      termina<lb ed="#L" n="87" break="no"/>tur sententia in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

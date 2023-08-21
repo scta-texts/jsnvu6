@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="217-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e178597"><!-- l3d23q1 -->
+            <head xml:id="jsnvu6-e178597-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e178597-Hd1e103" type="question-title">Utrum indigeamus habitibus</head>
+            <p xml:id="jsnvu6-e178597-d1e106">
+               <lb ed="#L" n="36"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="37"/>Vtrum indigeamus habitibus. 
+      <lb ed="#L" n="38"/>Thom. 12. q. 49. ar. 4. 
+    </p>
+            <p xml:id="jsnvu6-e178597-d1e115">
+               <lb ed="#L" n="39"/>CIRCA distinctionem istam quaeritur de 
+      habi<lb ed="#L" n="40" break="no"/>tibus in generali. Secundo de fide in 
+      speciali<lb ed="#L" n="41" break="no"/>Tertio de formatione &amp; informitate fiden 
+      Cir<lb ed="#L" n="42" break="no"/>ca primum quaeruntur duo. Primum est, vtrum 
+      <lb ed="#L" n="43"/>indigeamus habitibus. Et videtur quod non, quia 
+      <lb ed="#L" n="44"/>homo secundum naturam medius est inter angelos &amp; animalia 
+      <lb ed="#L" n="45"/>bruta, sed nec in brutis ponuntur habitus, ergo nec in nobis 
+      </p>
+            <p xml:id="jsnvu6-e178597-d1e133">
+               <lb ed="#L" n="46"/>
+               <!--2--> Item actus praecedentes habitum sunt in omnibus similes 
+      <lb ed="#L" n="47"/>actibus sequentibus ipsum, nisi quoad facilitatem. Sed 
+      propte<lb ed="#L" n="48" break="no"/>hanc non indigemus habitibus, ergo nullo modo. Maior patet 
+      <lb ed="#L" n="49"/>ex 2. Ethic. vbi expresse dicitur quod actus praecedentes 
+      habi<lb ed="#L" n="50" break="no"/>tum &amp; generantes ipsum, sunt similes actibus qui post habitum, 
+      <lb ed="#L" n="51"/>generatum eliciuntur, nisi quod signum generati habitus est 
+      fa<lb ed="#L" n="52" break="no"/>cere in opere delectationem, quae fit propter facilitatem &amp; con 
+      <lb ed="#L" n="53"/>naturalitatem actus. Minor declaratur, quia difficultas actus fa 
+      <lb ed="#L" n="54"/>cit ad meritum, facilitas autem minuit, ergo si habitus solum 
+      <lb ed="#L" n="55"/>facit facilitatem in actu plus nocet quam prosit. Si autem 
+      dica<lb ed="#L" n="56" break="no"/>tur sicut &amp; consuetum est dici, quod difficultas ex parte 
+      ope<lb ed="#L" n="57" break="no"/>ris auget meritum, &amp; hanc non tollit habitus, difficultas vero 
+      <lb ed="#L" n="58"/>ex parte operantis non auget, sed minuit, &amp; hanc habitus tollit
+</p>
+            <p xml:id="jsnvu6-e178597-d1e167">
+               <lb ed="#L" n="59"/>Contra, secundum sententiam domini Marci 12. &amp; Luc. 21. 
+      Vi<lb ed="#L" n="60" break="no"/>dua quae posuit duo minuta in gazophilacio plus meruit quam 
+      <lb ed="#L" n="61"/>diuites qui magis dederunt, quia ipsi fuit difficilius illud 
+      modi<lb ed="#L" n="62" break="no"/>cum ponere, quam diuitibus multum. Constat autem quod 
+      diffi<lb ed="#L" n="63" break="no"/>cultas haec non fuit ex genere operis, sed ex conditione 
+      ope<lb ed="#L" n="64" break="no"/>rantis, quia pauper erat, ergo talis difficultas auget meritum. 
+      <lb ed="#L" n="65"/>Item potentiae rationales sunt perfectiores naturalibus. Et 
+      <lb ed="#L" n="66"/>potentiae naturales non indigent habitibus, neque propter actum 
+      <lb ed="#L" n="67"/>neque propter facilitatem seu modum, ergo nec rationales. 
+      </p>
+            <p xml:id="jsnvu6-e178597-d1e189">
+               <lb ed="#L" n="68"/>
+               <!--4--> IN CONTRARIVM est Philosophus in secunde 
+      <lb ed="#L" n="69"/>Ethicorum, vbi dicit quod in anima sunt tria, potentia, 
+      habi<lb ed="#L" n="70" break="no"/>tus, &amp; actus, sed nos indigemus extremis, scilicet potentiis, &amp; 
+      <lb ed="#L" n="71"/>actibus, igitur &amp; mediis, scilicet habitibus. 
+      </p>
+            <p xml:id="jsnvu6-e178597-d1e202">
+               <lb ed="#L" n="72"/>
+               <!--5--> Item habitus est quo quis bene vel male disponitur ad se, 
+      <lb ed="#L" n="73"/>vel ad alterum, vt dicitur 5. Metaphy. Sed eo quo bene 
+      dispo<lb ed="#L" n="74" break="no"/>nimur indigemus, ergo saltem bonis habitibus indigemus. 
+      </p>
+            <p xml:id="jsnvu6-e178597-d1e213">
+               <lb ed="#L" n="75"/>
+               <!--5--> RESPONSIO. Circa quaestionem istam sunt duo 
+      <lb ed="#L" n="76"/>videnda. Primum est, quot modis dicitur habitus, &amp; ex hoc aj 
+      <lb ed="#L" n="77"/>parebit responsio, an indigeamus habitibus.
+</p>
+            <p xml:id="jsnvu6-e178597-d1e224">
+               <lb ed="#L" n="78"/>I. QUANTVM ad primum sciendum est quod habitus 
+      <lb ed="#L" n="79"/>capitur tripliciter. Vno modo est post praedicamentum. Alio mo 
+      <!--00508.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>do praedicamentum. Tertio modo est determinata species 
+      qua<lb ed="#L" n="81" break="no"/>litatis. Quod patet sic, habitus enim ab habendo dicitur, ab eo 
+      <lb ed="#L" n="82"/>autem quod est habere, nomen habitus dupliciter deriuatur. 
+</p>
+            <p xml:id="jsnvu6-e178597-d1e242">
+               <lb ed="#L" n="83"/>Vno modo secundum quod homo, vel quaecunque alia creatura 
+      di<lb ed="#L" n="84" break="no"/>citur rem aliam habere. Alio modo, secundum quod aliqua res 
+      ali<lb ed="#L" n="85" break="no"/>qualiter se habet, puta bene vel male secundum seipsam, vel in 
+      <lb ed="#L" n="86"/>respectu ad aliam. Habitus ergo primo modo dictus est post prae 
+      <lb ed="#L" n="87"/>dicamentum, quia se extendit ad res diuersorum praedicamen 
+      <lb ed="#L" n="88"/>torum, dicitur enim homo habere manum, quod pertinet ad 
+      <lb ed="#L" n="89"/>praedicamentum substantiae, quantitatem, vel albedinem, quod 
+      <lb ed="#L" n="90"/>pertinet ad alia duo praedicamenta, &amp; dominus dicitur habere 
+      <lb ed="#L" n="91"/>seruum, quod pertinet ad praedicamentum relationis, &amp; homo 
+      <lb ed="#L" n="92"/>vestem, vel anulum, quod pertinet ad habitum, qui est speciale 
+      <lb ed="#L" n="93"/>praedicamentum, vt statim infra dicetur. Omnes autem modi 
+      <lb ed="#L" n="94"/>quibus vna res dicitur habere aliam, reducuntur ad tres. Quia 
+      <lb ed="#L" n="95"/>quod habetur, vel habetur per modum accidentis inhaerentis 
+      <lb ed="#L" n="96"/>&amp; illud se extendit ad res plurium praedicamentorum, &amp; est 
+      <lb ed="#L" n="97"/>post praedicamentum, vel per modum correlatiui. Et istud 
+      po<lb ed="#L" n="98" break="no"/>test reduci ad praedicamentum relationis, vel per modum 
+      or<lb ed="#L" n="99" break="no"/>natus. Et istum quum non reducatur ad aliud praedicamentum, 
+      <lb ed="#L" n="100"/>facit vnum speciale praedicamentum per se, &amp; vocatur 
+      habi<lb ed="#L" n="101" break="no"/>tus, vt quum dicitur vestitus, armatus. 
+      </p>
+            <p xml:id="jsnvu6-e178597-d1e287">
+               <lb ed="#L" n="102"/>
+               <!--8--> Et huiusmodi habitus secundo modo acceptus, scilice 
+      <lb ed="#L" n="103"/>prout aliqua res dicitur habere se bene vel male ad se, vel ad 
+      <lb ed="#L" n="104"/>alterum est species qualitatis, quae dicitur habitus, vel 
+      disposi<lb ed="#L" n="105" break="no"/>tio, differt autem habitus sic dictus ab aliis primis modis: quia 
+      <lb ed="#L" n="106"/>habitus in aliis modis non dicitur ipsa res quae habetur, sed 
+      so<lb ed="#L" n="107" break="no"/>lum habitudo habentis ad id quod habetur, sed in isto modo 
+      <lb ed="#L" n="108"/>habitus primo &amp; principaliter dicitur illa res quae habetur 
+      se<lb ed="#L" n="109" break="no"/>cundum quam habens dicitur aliqualiter se habere, puta bene 
+      <lb ed="#L" n="110"/>vel male. Et sic diffinit Philosophus habitum 5. Metaphy. quod 
+      <lb ed="#L" n="111"/>habitus est dispositio secundum quam disponitur aliquid bene 
+      <lb ed="#L" n="112"/>vel male secundum se, vel secundum aliud. Et secundo 
+      Ethico<lb ed="#L" n="113" break="no"/>rum dicitur quod potentia est qua possumus, habitus quo bene 
+      <lb ed="#L" n="114"/>vel male possumus. Et in hoc sensu loquimur nunc de habitu, 
+      <lb ed="#L" n="115"/>quaerendo vtrum indigeamus habitibus. Et diffinitur, seu de 
+      <lb ed="#L" n="116"/>scribitur. Vno modo a Philosopho 5. Metaphy. vbi dicit quod 
+      <lb ed="#L" n="117"/>habitus est dispositio secundum quam disponitur ad bene vel 
+      <lb ed="#L" n="118"/>male ad se vel ad alterum, &amp; in idem redit quod dicitur 
+      secun<lb ed="#L" n="119" break="no"/>do Ethic. quod potentia est qua possumus. Alio modo diffinitur, 
+      <lb ed="#L" n="120"/>seu describitur a commentatore, tertio de anima, quod habitus 
+      <lb ed="#L" n="121"/>est, quo quis potest vti quum voluerit. Et idem vult beatus 
+      Au<lb ed="#L" n="122" break="no"/>gustinus libro de bono coniugali, dicens quod habitus est quo 
+      <lb ed="#L" n="123"/>aliquid agitur cum opus est. 
+      </p>
+            <p xml:id="jsnvu6-e178597-d1e339">
+               <lb ed="#L" n="124"/>
+               <!--9--> His suppositis dicendum est ad quaestionem, quod in nobis 
+      <lb ed="#L" n="125"/>sunt aliqui habitus, &amp; indigemus aliquibus eorum, scilicet bonis, 
+      <lb ed="#L" n="126"/>&amp; oppositi sunt possibiles. Quod patet dupliciter secundum duas 
+      <lb ed="#L" n="127"/>descriptiones datas de habitibus. Ex prima sic, potentia quae est 
+      <lb ed="#L" n="128"/>indifferens ad actum bonum &amp; malum, indiget aliquo determinante 
+      <lb ed="#L" n="129"/>ipsam ad actum bonum, sed in nobis sunt plures potentiae quae 
+      <lb ed="#L" n="130"/>de se sunt indifferentes ad actum bonum vel malum, sicut 
+      intel<lb ed="#L" n="131" break="no"/>lectus de se est indifferens ad intelligere verum vel falsum, 
+      quo<lb ed="#L" n="132" break="no"/>rum vnum est bonum intellectus, scilicet verum, aliud malum, 
+      <lb ed="#L" n="133"/>scilicet falsum, voluntas etiam necnon appetitus sensitiuus 
+      in<lb ed="#L" n="134" break="no"/>differenter se habent ad appetere bonum vel malum, ergo tales 
+      <lb ed="#L" n="135"/>potentiae indigent aliquo determinante ipsas ad actum bonum 
+      <lb ed="#L" n="136"/>Hoc autem facit habitus bonus, ergo bonis habitibus 
+      indige<lb ed="#L" n="137" break="no"/>mus. Et per consequens probatur quod habitus mali sunt 
+      possi<lb ed="#L" n="138" break="no"/>biles, quia opposita nata sunt fieri circa idem, nisi alterum insit 
+      <lb ed="#L" n="139"/>a natura, sed habitus boni non insunt nobis a natura, ergo mali 
+      <lb ed="#L" n="140"/>possunt inesse. Et secunda patet idem sic, omnis potentia quae in 
+      <lb ed="#L" n="141"/>actu suo potest pati difficultatem indiget aliquo facilitante ipsam 
+      <lb ed="#L" n="142"/>ad actum, sed plures potentiae sunt in nobis, quae in actibus suis 
+      <lb ed="#L" n="143"/>possunt pati difficultatem, vt dicit Philosophus septimo 
+      Ethi<lb ed="#L" n="144" break="no"/>corum de continente, qui cum difficultate prosequitur bonum 
+      <lb ed="#L" n="145"/>rationis imminente passione, ergo tales potentiae indigent 
+      ali<lb ed="#L" n="146" break="no"/>quo facilitante ipsas ad actum, hoc autem facit habitus, vt patet 
+      <lb ed="#L" n="147"/>ex secunda eius descriptione, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e178597-d1e396">
+               <lb ed="#L" n="148"/>
+               <!--10--> Ad primum argumentum dicendum qued medium conuenit 
+      <lb ed="#L" n="149"/>cum vtroque extremorum, sed non in omnibus. Alioquin nor 
+      <lb ed="#L" n="150"/>esset medium, sed esset vtrumque extremorum: homo igitur 
+      con<lb ed="#L" n="151" break="no"/>uenit cum brutis quantum ad animam sensitiuam. Cum angelis 
+      ve<lb ed="#L" n="152" break="no"/>ro quantum ad animam intellectiuam, &amp; quantum ad actus earum 
+      <lb ed="#L" n="153"/>sed non oportet quod conueniat in propriis proprium autem est 
+      <lb ed="#L" n="154"/>naturae intellectualis non habere nec requirere habitum, nisi sit 
+      <lb ed="#L" n="155"/>cum natura sensitiua, vt infra patebit, &amp; ideo in angelis non est 
+      <lb ed="#L" n="156"/>habitus acquisitus, in brutis autem oportet, quod sit aliquis 
+      habi<lb ed="#L" n="157" break="no"/>tus acquisitus, quamuis non subiaceat alicui libertati, quum in 
+      <lb ed="#L" n="158"/>perfectis animalibus sit memoria, dicit enim Philosophus libro 
+      <lb ed="#L" n="159"/>de memoria, quod in memorando vnum post aliud operatu 
+      <lb ed="#L" n="160"/>consuetudo, quae est quasi quaedam natura, nihil autem est aliuc 
+      <lb ed="#L" n="161"/>habitus consuetudinalis, quam habitudo acquisita per consuetu¬ 
+      <!--00509.xml-->
+      <pb ed="#L" n="218-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dinem, quae est in modum naturae. Et Aug. in lib. 83. quaestionum, 
+      <lb ed="#L" n="2"/>dicit o videmus immanissimas bestias a maximis voluptatibus 
+      <lb ed="#L" n="3"/>deterreri doloris metu, quod quum in earum consuetudinem 
+      ver<lb ed="#L" n="4" break="no"/>titur domitae &amp; mansuetae vocantur; deficit tamen in eis ratio 
+      <lb ed="#L" n="5"/>habitus, quantum ad vsum voluntatis, quia non habent dominium 
+      <lb ed="#L" n="6"/>vtendi, vel non vtendi, quod videtur ad rationem habitus 
+      perti<lb ed="#L" n="7" break="no"/>nere secundum secundam eius descriptionem. Et quia hoc in 
+      <lb ed="#L" n="8"/>homine non deficit, ideo in eo potest esse plena ratio habitus 
+      </p>
+            <p xml:id="jsnvu6-e178597-d1e455">
+               <lb ed="#L" n="9"/>
+               <!--11.--> Ad secundum dicendum quod propter facilitatem &amp; determi 
+      <lb ed="#L" n="10"/>nationem potentiae ad certum modum indigemus habitibus 
+      <lb ed="#L" n="11"/>Et quum dicitur quod facilitas minuit meritum, dicendum quod nor 
+      <lb ed="#L" n="12"/>est verum de facilitate, quae est ex parte operantis, &amp; quam pro 
+      <lb ed="#L" n="13"/>nit habitus, imo auget supposita aequalitate operis, quia 
+      auge<lb ed="#L" n="14" break="no"/>voluntarium. Sed facilitas operis minuit, &amp; difficultas auget ca 
+      <lb ed="#L" n="15"/>teris paribus. Et quod opponitur de vidua quae plus meruis 
+      <lb ed="#L" n="16"/>dando duo minuta, quam diuites, qui magna dederant, 
+      dicen<lb ed="#L" n="17" break="no"/>dum que verum est, quia ipsi fuit difficilius dare illud modicum 
+      <lb ed="#L" n="18"/>quam diuitibus multum. Nec ista difficultas fuit ex conditione 
+      <lb ed="#L" n="19"/>operantis, sicut arguebatur, sed potius ex conditione operis 
+      <lb ed="#L" n="20"/>Paupertas enim non dicit conditionem personae, sed dicit 
+      te<lb ed="#L" n="21" break="no"/>nuitatem fortunae: comparando ergo illud quod vidua dedit ad 
+      <lb ed="#L" n="22"/>id quod ipsi remansit, plus dedit quam diuites, quibus propor 
+      <lb ed="#L" n="23"/>tionabiliter plus remansit, non accipiendo solum 
+      proportio<lb ed="#L" n="24" break="no"/>nem personae ad personam, sed rei datae ad rem manentem 
+      </p>
+            <p xml:id="jsnvu6-e178597-d1e494">
+               <lb ed="#L" n="25"/>
+               <!--12.--> Ad tertium dicendum quod potentiae naturales non indi 
+      <lb ed="#L" n="26"/>gent habitibus, nec quoad substantiam actus, nec quoad 
+      mo<lb ed="#L" n="27" break="no"/>dum. Quia ex natura sua feruntur in actus suos solum 
+      secun<lb ed="#L" n="28" break="no"/>dum vnum modum, sed potentiae rationales cum sint indeter. 
+      <lb ed="#L" n="29"/>minatae ad diuersos modos indigent habitibus 
+      determinanti<lb ed="#L" n="30" break="no"/>bus ipsas, nec propter hoc sunt minus perfectae quam 
+      natura<lb ed="#L" n="31" break="no"/>les, imo perfectiores. Quia haec indifferentia est radicaliter es 
+      <lb ed="#L" n="32"/>earum libertate &amp; vniuersalitate. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

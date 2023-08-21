@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="349-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e287392"><!-- l4d45q1 -->
+            <head xml:id="jsnvu6-e287392-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e287392-Hd1e103" type="question-title">
+      Utrum suffragia vivorum prosint 
+      defunctis
+    </head>
+            <p xml:id="jsnvu6-e287392-d1e106">
+               <lb ed="#L" n="107"/>QUAESTIO PRIMA 
+      <lb ed="#L" n="108"/>Vtrum suffragia viuorum prosint 
+      <lb ed="#L" n="109"/>defunctis.
+    </p>
+            <p xml:id="jsnvu6-e287392-d1e115">
+               <lb ed="#L" n="110"/>CIRCA distinctionem istam primo quaeritur. 
+      <lb ed="#L" n="111"/>svtrum suffragia viuorum prosint defunctis. Et 
+      <lb ed="#L" n="112"/>Larguitur quod non, quia mala facta per viuo 
+      <lb ed="#L" n="113"/>non nocent defunctis, ergo bona facta per eos no 
+      <lb ed="#L" n="114"/>prosunt defunctis, consequentia de se videtur 
+      ma<lb ed="#L" n="115" break="no"/>nifesta, sed antecedens probatur per illud Ezech 
+      <lb ed="#L" n="116"/>16. Filius non portabit iniquitatem patris. 
+    </p>
+            <p xml:id="jsnvu6-e287392-d1e133">
+               <lb ed="#L" n="117"/>
+               <!--2.--> Item valor vnius suffragij debet esse vnus, si ergo suffragium 
+      <lb ed="#L" n="118"/>alicuius viuentis prodesset defuncto sequeretur quod non ipsi 
+      <lb ed="#L" n="119"/>facienti quod est contra illud Psalmistae. Oratio mea in sinu meo 
+      <lb ed="#L" n="120"/>conuertetur. 
+      </p>
+            <p xml:id="jsnvu6-e287392-d1e147">
+               <lb ed="#L" n="121"/>
+               <!--3--> Item secundum Gregor. in pastora, cum is qui displicet ad 
+      <lb ed="#L" n="122"/>intercedendum mittitur saepe irati animus ad deteriora 
+      prouo<lb ed="#L" n="123" break="no"/>catur, sed peccator deo displicet, ergo intercessio peccatoris 
+      ad<lb ed="#L" n="124" break="no"/>deum pro aliquo defuncto magis prouocat ipsum ad iram quam 
+      <lb ed="#L" n="125"/>prouocet ad misericordiam, &amp; sic suffragia viuorum saltem pec 
+      <lb ed="#L" n="126"/>catorum non videntur prodesse defunctis. 
+      </p>
+            <p xml:id="jsnvu6-e287392-d1e165">
+               <lb ed="#L" n="127"/>
+               <!--4--> IN CONTRARIVM est quod dicit secundi 
+      Ma<lb ed="#L" n="128" break="no"/>chabaeor. 12. Sancta &amp; salubris est cogitatio pro defunctis exo 
+      <lb ed="#L" n="129"/>rare, sed non est salubris nisi eis prodesset aliquid, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e287392-d1e176">
+               <lb ed="#L" n="130"/>
+               <!--5--> RESPONSIO. Sciendum est quod suffragia viuorum 
+      <lb ed="#L" n="131"/>valere defunctis potest intelligi dupliciter. Vno modo quantum 
+      <lb ed="#L" n="132"/>ad remissionem culpae. Alio modo quantum ad diminutionem vel 
+      <lb ed="#L" n="133"/>tot alem solutionem poenae. Primo modo suffragia viuorum non 
+      <lb ed="#L" n="134"/>possunt prodesse defunctis, qui a culpa in qua aliquis deceditvel est 
+      <lb ed="#L" n="135"/>mortalis vel venialis, si sit mortalis decedens in ea non est capax 
+      <lb ed="#L" n="136"/>remissionis, talis enim cum sit simpliciter damnatus obstinatus 
+      <lb ed="#L" n="137"/>est in malo, ita vt non sit capax reuersionis ad deum. Si vero culpa 
+      <lb ed="#L" n="138"/>sit venialis decedens in ea non indiget iuuari, quia talis dimissio 
+      <lb ed="#L" n="139"/>culpae consistit in reordinatione voluntatis, per quam bene displicet 
+      <lb ed="#L" n="140"/>quod male placuit, talis autem reordinatio voluntatis est in 
+      dece<lb ed="#L" n="141" break="no"/>dentibus in gratia cum peccato veniali statim vt de corpore re 
+      <lb ed="#L" n="142"/>cesserunt, quia sicut dictum fuit prius, sicut grauitas &amp; leuitas ixli 
+      <lb ed="#L" n="143"/>nant ad determinatum locum sic finalis charitas inclinat ad 
+      bea<lb ed="#L" n="144" break="no"/>titudinem, sed decedentes in solo veniali habent finalem charitatem 
+      <lb ed="#L" n="145"/>ergo statim vt decesserunt inclinantur per eam ad finalem 
+      beati<lb ed="#L" n="146" break="no"/>tudinem, propter quod &amp; eius dilatio est eis tristabilis &amp; poenosa, 
+      <lb ed="#L" n="147"/>ergo &amp; causa dilationis, sed causa dilationis est non solum 
+      poen<lb ed="#L" n="148" break="no"/>debita pro mortalibus prius commissis, sed etiam culpa venialis s 
+      <lb ed="#L" n="149"/>quam tunc habeat, ergo omnis talis culpa displicet, in qua displicem 
+      <lb ed="#L" n="150"/>tia reordinatur voluntas quae in complacentia fuit deordinata. 
+      </p>
+            <p xml:id="jsnvu6-e287392-d1e226">
+               <lb ed="#L" n="151"/>
+               <!--6--> Restat ergo quod suffragia solum prosint defunctis, quant 
+      <lb ed="#L" n="152"/>ad diminutionem poene vel totalem solutionem, &amp; quantum ad 
+      <lb ed="#L" n="153"/>hoc probabuntur duae conclusiones. Prima est quod suffragil 
+      vi<lb ed="#L" n="154" break="no"/>uorum prosint defunctis. Secunda quae &amp; quot sunt illa suffragia. 
+      <lb ed="#L" n="155"/>Primum paret, quia plus valet apud deum amor charssatis inter 
+      <lb ed="#L" n="156"/>fideles quam valeat apud homines amor ciuilis inter conciues 
+      <lb ed="#L" n="157"/>sed amor ciuilis valet tantum apud homines quod vnus ex amore 
+      <lb ed="#L" n="158"/>potest apud iudicem alium liberare a debito poenae vel rogando 
+      <!--00772.xml-->
+      <pb ed="#L" n="349-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>vel satisfaciendo, ergo amor charitatis inter fideles tantum 
+      va<lb ed="#L" n="2" break="no"/>let apud deum, quod vnus potest alium liberare vel in toto vel in 
+      <lb ed="#L" n="3"/>parte a debito poenae orando vel satisfaciendo. Et etiam differet 
+      <lb ed="#L" n="4"/>tia est inter illas duas vias, quia prima (scilicet via orationis) im 
+      <lb ed="#L" n="5"/>petrat remissionem poenae ex sola liberalitate dei qui oratur. Sec 
+      <lb ed="#L" n="6"/>secunda, scilicet, via satisfactionis impetrat idem per modum 
+      me<lb ed="#L" n="7" break="no"/>riti quale meritum potest esse hominis ad deum supposita diui 
+      <lb ed="#L" n="8"/>na acceptatione, &amp; vtroque istorum modorum possunt viui pro 
+      <lb ed="#L" n="9"/>desse defunctis, non autem defuncti viuis nisi sint beati nec vnu: 
+      <lb ed="#L" n="10"/>defunctus alberi, quia status merendi de congruo vel de condigne 
+      <lb ed="#L" n="11"/>solum est in hac vita, &amp; quod suffragia viuorum prosint hoc 
+      mo<lb ed="#L" n="12" break="no"/>do defunctis, &amp; confirmatur per auctoritatem Augustini in libro 
+      <lb ed="#L" n="13"/>decura pro mortuis agenda vbi allegat consuetudinem ecclesia 
+      <lb ed="#L" n="14"/>dicens, sic non parua est vniuersae ecclesiae quae in hac 
+      consuetu<lb ed="#L" n="15" break="no"/>dine claret authoritas vt in precibus sacerdotis quae domino ad 
+      <lb ed="#L" n="16"/>altare offeruntur locum suum habeat commendatio mortuorum, 
+      <lb ed="#L" n="17"/>&amp; haec consuetudo ab ipsis Apostolis sumpsit initium, vt dicit Da 
+      <lb ed="#L" n="18"/>mascenus in quodam sermone, &amp; Diony. in vltimo cap. coelestis 
+      <lb ed="#L" n="19"/>Hierarchiae, &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e287392-d1e296">
+               <lb ed="#L" n="20"/>
+               <!--7--> Quantum ad secundum sciendum est quod suffragia viuo 
+      <lb ed="#L" n="21"/>rum prosunt defunctis ex duobus. Vnum est inquantum chari 
+      <lb ed="#L" n="22"/>tate vniuntur adinuicem. Aliud est secundum quod intentio 
+      vi<lb ed="#L" n="23" break="no"/>uorum refertur ad mortuos. ratione primi, illa opera viuorum 
+      <lb ed="#L" n="24"/>nata sunt magis mortuis suffragari quae maxime ad communio 
+      <lb ed="#L" n="25"/>nem fidei &amp; charitatis pertinent, &amp; illud est eucharistiae 
+      sacra<lb ed="#L" n="26" break="no"/>mentum quod est sacramentum ecclesiasticae vnionis continen: 
+      <lb ed="#L" n="27"/>illud in quo omnes fideles vniuntur, sicut membra sub vno 
+      ca<lb ed="#L" n="28" break="no"/>pite. post hoc praecipuus effectus charitatis videtur esse eleemo 
+      <lb ed="#L" n="29"/>synarum largitio, &amp; ideo ponitur inter suffragia quae ratione 
+      <lb ed="#L" n="30"/>communionis charitatis prosunt defunctis, sed ex parte secundi 
+      <lb ed="#L" n="31"/>(scilicet intentionis) directe ad mortuos praeualet oratio pe 
+      <lb ed="#L" n="32"/>quam orans directe recommendat illum pro quo orat, propte 
+      <lb ed="#L" n="33"/>quod illa tria, scilicet oblatio sacrificij altaris, &amp; eleemosynae, &amp; 
+      <lb ed="#L" n="34"/>oratio tam publica quam priuata sunt principalia suffragia qui 
+      <lb ed="#L" n="35"/>bus defunctorum animae releuantur quamuis omnia alia 
+      bon<lb ed="#L" n="36" break="no"/>quae pro eis fierent eis valere credenda sint. 
+      </p>
+            <p xml:id="jsnvu6-e287392-d1e338">
+               <lb ed="#L" n="37"/>
+               <!--8--> AD PRIMVM argumentum dicendum quod non es 
+      <lb ed="#L" n="38"/>simile de malis viuorum &amp; de bonis, quia auferre alicui quod 
+      <lb ed="#L" n="39"/>debetur repugnat iustitiae, sed dare aliquid quod sibi non 
+      debe<lb ed="#L" n="40" break="no"/>tur non est iustitiae contrarium sed est liberalitatis, &amp; virtus non 
+      <lb ed="#L" n="41"/>contrariatur virtuti. &amp; ideo si quis nolens puniretur pro peccato 
+      <lb ed="#L" n="42"/>alterius auferretur ipsi aliquod debitum, cum punitio sit 
+      abla<lb ed="#L" n="43" break="no"/>tio alicuius conuenientis, &amp; sic esset iniustum, sed quando confer 
+      <lb ed="#L" n="44"/>tur ei aliquid ex facto alterius fit ei gratia propter quod primum 
+      <lb ed="#L" n="45"/>non est apud deum qui nihil iniuste agit, sed secundum inquan 
+      <lb ed="#L" n="46"/>tum ex gratia acceptat orationem viui pro defuncto vel 
+      satisfa<lb ed="#L" n="47" break="no"/>ctionem. 
+      </p>
+            <p xml:id="jsnvu6-e287392-d1e368">
+               <lb ed="#L" n="48"/>
+               <!--9--> Ad secundum dicendum quod valor vnius suffragij est vnius 
+      <lb ed="#L" n="49"/>in vno genere, sed non simpliciter, valet enim vno modo quate 
+      <lb ed="#L" n="50"/>nus est bonus &amp; voluntarius, &amp; sic valet soli operanti qui ex illo 
+      <lb ed="#L" n="51"/>dicitur bonus &amp; laudabilis &amp; ob hoc acceptatur vt dignus vita 
+      <lb ed="#L" n="52"/>aeterna, &amp; per hunc modum actus vnius non potest valere alteri, 
+      <lb ed="#L" n="53"/>qui a ex actu vnius alius non redditur bonus nec commendabilis 
+      <lb ed="#L" n="54"/>Alio modo valet quatenus est poenalis, &amp; sic valet per modum sa 
+      <lb ed="#L" n="55"/>tisfactionis, &amp; sic potest valere vel operanti vel alij si fiat pro eo 
+      <lb ed="#L" n="56"/>Si tamen tale opus est aequatum reatui alterius pro quo fit tune 
+      <lb ed="#L" n="57"/>satisfacit tantum pro eo &amp; non pro satisfaciente, quia poena quae 
+      <lb ed="#L" n="58"/>aequatur reatui vnius non aequatur reatui duorum. Satisfactio 
+      <lb ed="#L" n="59"/>autem cum sit actus iustitiae consistit in quadam aequalitate. 
+      </p>
+            <p xml:id="jsnvu6-e287392-d1e399">
+               <lb ed="#L" n="60"/>
+               <!--10--> Ad tertium dicendum est quod inter suffragia quae fiunt pe 
+      <lb ed="#L" n="61"/>peccatores est distinguendum, quia si illud suffragium sit sacrificium 
+      <lb ed="#L" n="62"/>altaris tantum valet si offeratur per bonum sacerdotem, sicut pe 
+      <lb ed="#L" n="63"/>malum, illud enim quod habet efficaciam ex opere operato non vi 
+      <lb ed="#L" n="64"/>tiatur per demeritum operantis, sed tale est sacrificiu altaris, 
+      qua<lb ed="#L" n="65" break="no"/>re, &amp;c. Si vero sit oratio, aut est publica aut priuata, si publica 
+      va<lb ed="#L" n="66" break="no"/>ledicet fiat per malum ministrum, quia oratio non innititur meri 
+      <lb ed="#L" n="67"/>tis personae, sed meritis ecclesiae quae vna &amp; eadem est qualiscunue 
+      <lb ed="#L" n="68"/>sit minister, puto tamen quod plus valet quando fit a bono ministro, 
+      <lb ed="#L" n="69"/>quia cum generalibus meritis ecclesiae concurrit deuotio 
+      spe<lb ed="#L" n="70" break="no"/>cialis ministri, propter quod missa quae non solum includit 
+      sacri<lb ed="#L" n="71" break="no"/>ficium, sed orationes praecedentes &amp; sequentes plus valet cum di 
+      <lb ed="#L" n="72"/>citur a iusto sacerdote quam a peccatore. Si autem sit oratio pri 
+      <lb ed="#L" n="73"/>uata, sic non videtur valere quando fit a malo ministro, nec facien 
+      <lb ed="#L" n="74"/>ti ad meritum de condigno, nec ei pro quo fit ad suffragium, &amp; sic est 
+      <lb ed="#L" n="75"/>entelligendum dictum Gregor. Si autem illud suffragium sit elee 
+      <lb ed="#L" n="76"/>mosyna, sic potest valere per accidens, sed non per se, per se non 
+      <lb ed="#L" n="77"/>propter statum dantis, per accidens tamen valet tam danti quam 
+      <lb ed="#L" n="78"/>illi pro quo datur, inquantum bonus cui datur, orat pro vtroque.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

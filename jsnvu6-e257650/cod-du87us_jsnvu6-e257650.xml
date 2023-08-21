@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="312-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e257650"><!-- l4d24q4 -->
+            <head xml:id="jsnvu6-e257650-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e257650-Hd1e103" type="question-title">Utrum corona sit ordo</head>
+            <p xml:id="jsnvu6-e257650-d1e106">
+      <!--00698.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>QVABSTIO QVARTA. 
+      <lb ed="#L" n="84"/>Vtrum corona sit ordo.
+    </p>
+            <p xml:id="jsnvu6-e257650-d1e117">
+               <lb ed="#L" n="85"/>DEINDE quaeritur de his quae sunt ordinibus 
+      <lb ed="#L" n="86"/>annexa, quae sunt corona &amp; episcopatus. Et 
+      pri<lb ed="#L" n="87" break="no"/>mo quaeritur de corona, vtrum sit ordo. Arguitur 
+      <lb ed="#L" n="88"/>quod sic: quia illud per quod aliquis ponitur in 
+      <lb ed="#L" n="89"/>I gradu super communem populum est ordo, sed 
+      <lb ed="#L" n="90"/>per coronam ponitur homo in gradu super laicos, ergo est ordo 
+      </p>
+            <p xml:id="jsnvu6-e257650-d1e133">
+               <lb ed="#L" n="91"/>
+               <!--2--> INCONTRARIVM est, quia secundum ritum 
+      ec<lb ed="#L" n="92" break="no"/>clesiae nullus ordo datur sine celebratione missae, sed corona da 
+      <lb ed="#L" n="93"/>tur praeter missam, &amp; omni die, ergo non est ordo. 
+      </p>
+            <p xml:id="jsnvu6-e257650-d1e145">
+               <lb ed="#L" n="94"/>
+               <!--3--> RESPONSIO. Dicenda sunt tria. Primum est quod 
+      <lb ed="#L" n="95"/>corona non est ordo. Secundum est, quod est dispositio congrua 
+      <lb ed="#L" n="96"/>ad ordines. Tertium est, quod non est dispositio necessaria 
+      prae<lb ed="#L" n="97" break="no"/>supposita ab ordinibus. 
+      </p>
+            <p xml:id="jsnvu6-e257650-d1e158">
+               <lb ed="#L" n="98"/>
+               <!--4--> Primum patet sic: Per omnem ordinem confertur ordinata 
+      <lb ed="#L" n="99"/>potestas vel deputatio ad aliquem actum sacrum, vt patet ex 
+      <lb ed="#L" n="100"/>praecedentibus, sed per coronam nihil horum confertur: ex hoc 
+      <lb ed="#L" n="101"/>enim solo quod aliquis tonsuratur, nulli actui vel officio 
+      depu<lb ed="#L" n="102" break="no"/>tatur, ergo non est ordo. 
+</p>
+            <p xml:id="jsnvu6-e257650-d1e174">
+               <lb ed="#L" n="103"/>Secundum sic patet: in omni transitu de statu ad statum 
+      <lb ed="#L" n="104"/>conuenienter interponitur aliqua media dispositio, sicut 
+      noui<lb ed="#L" n="105" break="no"/>ciatus est dispositio media inter statum secularem &amp; 
+      religio<lb ed="#L" n="106" break="no"/>sum, igitur inter statum laicorum &amp; ministrorum ecclesiae 
+      con<lb ed="#L" n="107" break="no"/>uenienter ponitur media dispositio: haec autem est tonsura 
+      cle<lb ed="#L" n="108" break="no"/>ricalis per quam illi qui tonsurantur separantur a statu 
+      laico<lb ed="#L" n="109" break="no"/>rum, &amp; praeparantur ad statum ministrorum, quare &amp;c. Et quia 
+      <lb ed="#L" n="110"/>separantur a statu laicorum, ideo deponunt capillos &amp; 
+      tonde<lb ed="#L" n="111" break="no"/>tur in signum depositionis superfluae curae, quia vero 
+      praeparan<lb ed="#L" n="112" break="no"/>tur ad ministerium Dei, cui seruire regnare est, ideo raduntur 
+      <lb ed="#L" n="113"/>in modum coronae, quae est signum regale: religiosi vero non 
+      <lb ed="#L" n="114"/>clerici tondentur quidem, quia a statu secularium separantur, 
+      <lb ed="#L" n="115"/>sed non in modum coronae, quia non applicantur ad ministerium 
+      <lb ed="#L" n="116"/>diuinum 
+      </p>
+            <p xml:id="jsnvu6-e257650-d1e207">
+               <lb ed="#L" n="117"/>
+               <!--6--> Tertium patet sic: essentialius se habet ordo prior ad 
+      sequen<lb ed="#L" n="118" break="no"/>tem, quam tonsura ad aliquem ordinem, sed ad sequentem 
+      or<lb ed="#L" n="119" break="no"/>dinem non praeexigitur ex necessitate prior ordo, vt patuit 
+      <lb ed="#L" n="120"/>prius, ergo nec ad recipiendum quemcunque ordinem praeexi¬ 7 
+      <lb ed="#L" n="121"/>gitur ex necessitate tonsura, sed tantum de congruitate. 
+      </p>
+            <p xml:id="jsnvu6-e257650-d1e223">
+               <lb ed="#L" n="122"/>
+               <!--7--> Ad argumentum in oppositum dicendum quod illud per 
+      <lb ed="#L" n="123"/>quod aliquis ponitur in gradu super communem statum absque 
+      <lb ed="#L" n="124"/>potestate seu deputatione ad diuinum officium potest esse 
+      or<lb ed="#L" n="125" break="no"/>do viuendi, sicut est ordo monachorum vel quoruncunque 
+      reli<lb ed="#L" n="126" break="no"/>giosorum: &amp; sic tonsura posset dici ordo clericalis, quia aliter 
+      <lb ed="#L" n="127"/>debent viuere clerici quam laici, &amp; statum priuilegiatum habent 
+      <lb ed="#L" n="128"/>Sed non est ordo ministri ecclesiastici, ex quo non est ibi 
+      depu<lb ed="#L" n="129" break="no"/>tatio aliqua ad aliquod sacrum ministerium, de quo ordine 
+      in<lb ed="#L" n="130" break="no"/>tendimus ad praesens tractare.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

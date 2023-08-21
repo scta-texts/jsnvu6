@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="164-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3918"><!-- l2d35q2 -->
+            <head xml:id="jsnvu6-d1e3918-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e3918-Hd1e103" type="question-title">Utrum omne peccatum consistat in aliquo actu</head>
+            <p xml:id="jsnvu6-d1e3918-d1e106">
+               <lb ed="#L" n="4"/>QUAESTIO SECVNDAT 
+      <lb ed="#L" n="5"/>Vtrum omne peccatum consistat 
+      <lb ed="#L" n="6"/>in aliquo actu. 
+      <lb ed="#L" n="7"/>Thom. L.2. q4. 71. ar. s. Infia 3. d 33. 4.2. dum. 6. 
+      <lb ed="#L" n="8"/>Gand. quodl. 12. 4. 14. 
+    </p>
+            <p xml:id="jsnvu6-d1e3918-d1e119">
+               <lb ed="#L" n="9"/>DEINDE quaeritur, vtrum omne peccatum 
+      con<lb ed="#L" n="10" break="no"/>sistat in aliquo actu. Et videtur quod sic, quia ille 
+      <lb ed="#L" n="11"/>qui eodem modo se habet nunc vt prius, si prius 
+      <lb ed="#L" n="12"/>non peccabat, nec modo peccat, sed qui solum 
+      <lb ed="#L" n="13"/>omittit quod praeceptum est, puta qui non 
+      sur<lb ed="#L" n="14" break="no"/>git, ad matutinas &amp; tenetur surgere, similiter se habet hora 
+      ma<lb ed="#L" n="15" break="no"/>tutinarum vt prius, quantum ad non surgere. Cum ergo non 
+      <lb ed="#L" n="16"/>peccet non surgendo ante matutinas, nec peccabit hora 
+      ma<lb ed="#L" n="17" break="no"/>tutinarum, (vt videtur) non surgendo, nisi ponatur in eo aliquis 
+      <lb ed="#L" n="18"/>actus per quem se habeat aliter nunc quam prius. 
+      </p>
+            <p xml:id="jsnvu6-d1e3918-d1e143">
+               <lb ed="#L" n="19"/>
+               <!--2--> Item peccatum &amp; meritum opponuntur sed omne meritum 
+      <lb ed="#L" n="20"/>consistit in actu interiore vel exteriore, ergo &amp; omne peccatu.
+</p>
+            <p xml:id="jsnvu6-d1e3918-d1e153">
+               <lb ed="#L" n="21"/>CONTRA. Omnis transgressio praecepti est peccatum, 
+      <lb ed="#L" n="22"/>sed in pura omissione est transgressio praecepti affirmatiui, 
+      er<lb ed="#L" n="23" break="no"/>go ipsa est peccatum, circumscripto quocunque actu. 
+      </p>
+            <p xml:id="jsnvu6-d1e3918-d1e162">
+               <lb ed="#L" n="24"/>
+               <!--4--> RESPONSIO. Hic non est aliqua dubitatio nisi di 
+      <lb ed="#L" n="25"/>peccato omissionis: quia constat quod omne peccatum 
+      commis<lb ed="#L" n="26" break="no"/>sionis consistit in aliquo actu exteriori vel interiori. Et idem 
+      di<lb ed="#L" n="27" break="no"/>cunt aliqui de peccato omissionis, scilicet quod consistit in actu 
+      <lb ed="#L" n="28"/>vel interiori, vt cum aliquis vult non facere quod praeceptum est, 
+      <lb ed="#L" n="29"/>vel exteriori, vt cum aliquis occupat se actibus incompossibilibus 
+      <lb ed="#L" n="30"/>ei quod praeceptum est fieri, sicut nimis vigilans non potest sur 
+      <lb ed="#L" n="31"/>gere ad matutinas. Ratio autem huius opinionis forte haec est 
+      <lb ed="#L" n="32"/>quia videtur quibusdam quod negatio, vel omissio actus non sit in 
+      <lb ed="#L" n="33"/>potestate nostra, nec per consequens culpabilis, nisi mediante 
+      <lb ed="#L" n="34"/>aliquo actu per quem habemus dominium super negationem 
+      <lb ed="#L" n="35"/>actus, quia aliud est non exire in actum, &amp; aliud habere 
+      causali<lb ed="#L" n="36" break="no"/>tatem super non exire in actum: quia non exire in actum dici 
+      <lb ed="#L" n="37"/>solam negationem actus: sed habere causalitatem super non 
+      exir<lb ed="#L" n="38" break="no"/>in actum, dicit aliquid positiuum &amp; actuale. Nulla autem res 
+      ha<lb ed="#L" n="39" break="no"/>bet causalitatem positiuam &amp; actualem super aliquid affirmati 
+      <lb ed="#L" n="40"/>vel negatum, nisi aliquid agendo: ergo voluntas non habet do 
+      <lb ed="#L" n="41"/>minium vel causalitatem super non exire in actum, nisi 
+      aliqui<lb ed="#L" n="42" break="no"/>agendo, &amp; sic secundum istos pura omissio non esset peccatum, 
+      <lb ed="#L" n="43"/>nisi ratione alicuius actus per quem habemus dominium super 
+      <lb ed="#L" n="44"/>omissionem. 
+      </p>
+            <p xml:id="jsnvu6-d1e3918-d1e212">
+               <lb ed="#L" n="45"/>
+               <!--5--> Sed istud non videtur. Primo quantum ad illud quod dici 
+      <lb ed="#L" n="46"/>tur de actu interiore: quia velle facere &amp; velle non facere quod 
+      <lb ed="#L" n="47"/>praeceptum est non sic opponuntur vt necesse sit alterum inesse, 
+      <lb ed="#L" n="48"/>sicut dicimus de deo quod non est necesse quod velit mala fieri 
+      <lb ed="#L" n="49"/>vel velit mala non fieri, imo neutrum vult. Similiter non est 
+      ne<lb ed="#L" n="50" break="no"/>cesse aliquem velle obedire praecepto, aut velle non obedire, 
+      for<lb ed="#L" n="51" break="no"/>san enim de praecepto non cogitat, &amp; tamen non faciens quod 
+      <lb ed="#L" n="52"/>praeceptum est, peccat: ergo nihil prohibet peccatum 
+      omissio<lb ed="#L" n="53" break="no"/>nis esse sine quosunque actu interiore voluntatis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3918-d1e236">
+               <lb ed="#L" n="54"/>
+               <!--6--> Idem apparet de exteriore actu dupliciter. Primo, quia om 
+      <lb ed="#L" n="55"/>ne peccatum quod est contra determinatum praeceptum si 
+      con<lb ed="#L" n="56" break="no"/>sistit in actu, consistit in determinato actu. Alioquin non esset 
+      de<lb ed="#L" n="57" break="no"/>terminatum peccatum. Sed actus incompossibiles ei quod 
+      praece<lb ed="#L" n="58" break="no"/>ptum est fieri, sunt in determinati, sicut nimis vigilans, loquendo 
+      <lb ed="#L" n="59"/>orando vel studendo non potest hora debita surgere ad 
+      matuti<lb ed="#L" n="60" break="no"/>nas, ergo in nullo talium actuum potest per se consistere peccati 
+      <lb ed="#L" n="61"/>omissionis, quod est contra determinatum praeceptum. Secund 
+      <lb ed="#L" n="62"/>quia nullus peccat faciendo quod non est malum de se, nec ef 
+      <lb ed="#L" n="63"/>prohibitum, sed multi actus incompossibiles ei quod praeceptum es 
+      <lb ed="#L" n="64"/>fieri sunt huiusmodi, vt vigilare in studio, vel oratione, ergo, &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e3918-d1e265">
+               <lb ed="#L" n="65"/>
+               <!--7--> Ad rationem eorum dicendum quod ad hoc quod omissi. 
+      <lb ed="#L" n="66"/>imputetur voluntati, non oportet quod sit in possibilitate eius 
+      <lb ed="#L" n="67"/>mediante aliquo actu, sicut ad hoc quod actus eius imputetur, 
+      <lb ed="#L" n="68"/>non oportet quod ille actus sit in potestate eius mediante aliquo 
+      <lb ed="#L" n="69"/>actu, sed ex hoc solo imputatur ei actus, vel omissio eius: 
+      qui<lb ed="#L" n="70" break="no"/>in libertate voluntatis est exire in actum vel non: quia actus vel 
+      <lb ed="#L" n="71"/>eius oppositum non est de necessario volibilibus, nec habet cun 
+      <lb ed="#L" n="72"/>eis necessariam colligantiam: &amp; quicquid sit de actu, respecti 
+      <lb ed="#L" n="73"/>tamen omissionis imputabilis non oportet id voluntate ponere 
+      <lb ed="#L" n="74"/>causalitatem actualem &amp; positiuam (quia nulla causalitas 
+      po<lb ed="#L" n="75" break="no"/>sitiua directe requiritur ad effectum priuatiuum) sed suffici 
+      <lb ed="#L" n="76"/>non exire in actum, cuius habetur dominium, &amp; sic causatur a 
+      <lb ed="#L" n="77"/>voluntate omissio culpabilis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3918-d1e298">
+               <lb ed="#L" n="78"/>
+               <!--8--> Dicendum ergo quod peccatum omissionis non consistit per 
+      <lb ed="#L" n="79"/>se in aliquo actu, sed in sola omissione, sicut &amp; nomen sonat. 
+      <!--00396.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>Quod patet, quia omnis defectus voluntarius est culpabilis: sed 
+      <lb ed="#L" n="81"/>omissio actus debiti est huiusmodi. Est enim defectus (vt de se 
+      <lb ed="#L" n="82"/>patet) sed voluntarius non ad actu voluntatis cadente super 
+      <lb ed="#L" n="83"/>defectum, vt primi dicunt, sed quia in potestate voluntatis fuit 
+      <lb ed="#L" n="84"/>vitare ipsum, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3918-d1e323">
+               <lb ed="#L" n="85"/>
+               <!--9--> AD PRIMVM argumentum dicendum quod licet 
+      omit<lb ed="#L" n="86" break="no"/>tens eodem modo se habeat nunc &amp; prius quantum ad 
+      opera<lb ed="#L" n="87" break="no"/>tionem &amp; omissionem, non tamen quod ad obligationem, quia 
+      <lb ed="#L" n="88"/>praeceptum affirmatiuum cui opponitur omissio obligat pro 
+      deter<lb ed="#L" n="89" break="no"/>minato tempore pro quo solum omissio habet rationem culpae. 
+      </p>
+            <p xml:id="jsnvu6-d1e3918-d1e339">
+               <lb ed="#L" n="90"/>
+               <!--10.--> Ad secundum dicendum quod non est simile de merito &amp; 
+      <lb ed="#L" n="91"/>de peccato: quia bonum consistit ex tota causa, malum autem 
+      <lb ed="#L" n="92"/>ex particularibus defectibus. Et ideo ad meritum requiritur 
+      <lb ed="#L" n="93"/>actus bonus. Ad peccatum autem sufficit defectus actus vel 
+      bo<lb ed="#L" n="94" break="no"/>nitatis in actu. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

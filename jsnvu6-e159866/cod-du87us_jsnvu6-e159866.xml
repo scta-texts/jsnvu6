@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="195-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e159866"><!-- l3d7prae -->
+            <head xml:id="jsnvu6-e159866-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e159866-d1e103">
+               <lb ed="#L" n="20"/>SECVNDVM vero primam opinionem. 
+      Supe<lb ed="#L" n="21" break="no"/>rius magister posuit opiniones de modo vnionis 
+      <lb ed="#L" n="22"/>Hic vero determinat qualiter propositiones 
+      in<lb ed="#L" n="23" break="no"/>telligi debeant in quibus vnio significatur. Et di 
+      <lb ed="#L" n="24"/>&amp; uiditur in quatuor. Primo exponit eas secundum 
+      <lb ed="#L" n="25"/>primam opinionem. Secundo secundum secundam ibi, In 
+      se<lb ed="#L" n="26" break="no"/>cunda vero sententia. Tertio secundam tertiam ibi, In hac 
+      <lb ed="#L" n="27"/>etiam sententia. Quarto relinquitur auditori iudicium de pra 
+      <lb ed="#L" n="28"/>dictis ibi, Satis diligenter. Secunda diuiditur in duas, quia 
+      pri<lb ed="#L" n="29" break="no"/>mo ponit secundae opinionis responsionem ibi, In secunda 
+      ve<lb ed="#L" n="30" break="no"/>ro. Secundo ponit contra eam &amp; soluit ibi, Sed his videntur 
+      <lb ed="#L" n="31"/>aduersariae. Tertia pars principalis qui incipit ibi, In hac 
+      ve<lb ed="#L" n="32" break="no"/>ro sententia, diuiditur in duas, quia primo ponit 
+      responsio<lb ed="#L" n="33" break="no"/>nem ad quaestionem principalem. Secundo mouet 
+      inciden<lb ed="#L" n="34" break="no"/>tem dubitationem, &amp; soluit secundum illam opinionem ibi, 
+      <lb ed="#L" n="35"/>secundum istos. Haec est diuisio lectionis. 
+      </p>
+            <p xml:id="jsnvu6-e159866-d1e140">
+               <lb ed="#L" n="36"/>
+               <!--2--> SENTENTIA est ista, dicit magister quod secundum opi 
+      <lb ed="#L" n="37"/>nionem primam quae ponit pluralitatem suppositorum, ista 
+      <lb ed="#L" n="38"/>sunt verae Deus factus est homo &amp; homo factus est Deus, quia 
+      <lb ed="#L" n="39"/>non per naturam, sed per gratiam adoptionis vnum dicitur esse 
+      <lb ed="#L" n="40"/>alterum, &amp; sic Deus factus est de nouo quaedam substantia: &amp; 
+      <lb ed="#L" n="41"/>quaedam substantia facta est Deus, quod tamen non erat prius 
+      <lb ed="#L" n="42"/>Quod confirmatur per dictum Origenis qui dicit factus est 
+      <lb ed="#L" n="43"/>Deus qui prius non erat secundum carnem. Secundum vero 
+      <lb ed="#L" n="44"/>secundam opinionem quae ponit tantum vnum suppositum 
+      <lb ed="#L" n="45"/>sensus est, Deus factus est homo, quia factus est subsistens in 
+      <lb ed="#L" n="46"/>duabus naturis diuina scilicet &amp; humana, &amp; homo factus est 
+      <lb ed="#L" n="47"/>Deus, quia subsistens in natura humana est Deus. Et sic 
+      perso<lb ed="#L" n="48" break="no"/>na filij post incarnationem est composita quae prius erat 
+      sim<lb ed="#L" n="49" break="no"/>plex secundum eandem opinionem, filius Dei inquantum 
+      ho<lb ed="#L" n="50" break="no"/>mo est praedestinatus, non inquantum Deus. Et respondent isti 
+      <lb ed="#L" n="51"/>ad aliquas auctoritates quae videntur esse pro prima opinione 
+      <lb ed="#L" n="52"/>va cum legitur assumptus a verbo, ibi enim accipitur homo 
+      <lb ed="#L" n="53"/>pro humana natura, non pro supposito, dicit etiam secunda 
+      <lb ed="#L" n="54"/>opinio quod sicut est vna persona Dei &amp; hominis &amp; non alia 
+      <lb ed="#L" n="55"/>&amp; alia, sic Deus &amp; homo non sunt aliud &amp; aliud. Postea obiicit 
+      <lb ed="#L" n="56"/>contra hoc, &amp; adducit quasdam auctoritates Augustini quae di 
+      <lb ed="#L" n="57"/>cunt quod aliud est verbum Dei, aliud est homo, aliud est filiu. 
+      <lb ed="#L" n="58"/>Dei, aliud filius hominis, &amp; non alius. Ad hoc respondet quod 
+      <lb ed="#L" n="59"/>per illa verba non significatur pluralitas personarum sed 
+      na<lb ed="#L" n="60" break="no"/>turarum, quia alterius naturae est Christus inquantum Deus 
+      <lb ed="#L" n="61"/>&amp; inquantum homo quod confirmat per Ioan. Damascenun 
+      <lb ed="#L" n="62"/>qui etiam dicit personam verbi post incarnationem esse 
+      com<lb ed="#L" n="63" break="no"/>positam. Et idem confirmat per Hylarium. Simili modo 
+      deter<lb ed="#L" n="64" break="no"/>minat quasdam auctoritates August. Postea obiicit per Augu. 
+      <lb ed="#L" n="65"/>contra illud quod dictum est personam verbi esse compositam 
+      <lb ed="#L" n="66"/>Dicit enim Augustin. quod Deus, vel homo non est pars illius 
+      <lb ed="#L" n="67"/>personae &amp; sic persona non videtur ex eis composita. Et respon 
+      <lb ed="#L" n="68"/>det quod non est tanquam ex partibus constituentibus 
+      perso<lb ed="#L" n="69" break="no"/>nam. Sed est quaedam alia inexplicabilis compositio. Postea 
+      <lb ed="#L" n="70"/>dicit quod secundum opinionem tertiam cum dicitur Deus 
+      fa<lb ed="#L" n="71" break="no"/>ctus est homo, vel humanatus intelligendum est secundum 
+      <lb ed="#L" n="72"/>habitum sicut dicitur homo indutus. Suniliter cum dicitur 
+      fi<lb ed="#L" n="73" break="no"/>lius Dei praedestinatus est esse homo vel homo est 
+      praedesti<lb ed="#L" n="74" break="no"/>natus esse filius Dei, sub hoc sensu est intelligendum, quia 
+      <lb ed="#L" n="75"/>praedestinatum est a Deo ab aeterno quod Deus sit homo &amp; 
+      <lb ed="#L" n="76"/>quod homo sit Deus. Subdit etiam quod licet bene dicatur 
+      <lb ed="#L" n="77"/>quod homo sit Deus, non tamen dicitur quod ille homo 
+      scili<lb ed="#L" n="78" break="no"/>cet Christus sit homo diuinitus. Vitimo excusat se a 
+      determi<lb ed="#L" n="79" break="no"/>natione istarum opinionum &amp; committit iudicium auditori. 
+      <lb ed="#L" n="80"/>Haec est sententia lectionis &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

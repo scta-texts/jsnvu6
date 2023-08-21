@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="141-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3216"><!-- l2d20q4 -->
+            <head xml:id="jsnvu6-d1e3216-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e3216-Hd1e103" type="question-title">Utrum pueri fuissent nati perfecti secundum corpus</head>
+            <p xml:id="jsnvu6-d1e3216-d1e106">
+               <lb ed="#L" n="8"/>QUAESTIO QVARTA. 
+      <lb ed="#L" n="9"/>Vtrum in statu innocentiae pueri fuissent. 
+      <lb ed="#L" n="10"/>nati perfecti secundum 
+      <lb ed="#L" n="11"/>corpus. 
+      <lb ed="#L" n="12"/>Thom. l. 4. 99. 4r.1. 
+    </p>
+            <p xml:id="jsnvu6-d1e3216-d1e119">
+               <lb ed="#L" n="13"/>QVARTO quaeritur, vtrum pueri fuissent nati 
+      <lb ed="#L" n="14"/>perfecti secudum corpus. Videtur quod sic, quia 
+      <lb ed="#L" n="15"/>August. dicit de baptismo paruulorum lib. 1. 9 
+      <lb ed="#L" n="16"/>infirmitas corporis attestatur infirmitati 
+      men<lb ed="#L" n="17" break="no"/>tis, sed tunc non fuisset aliqua infirmitas mentis, 
+      <lb ed="#L" n="18"/>ergo nec corporis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3216-d1e135">
+               <lb ed="#L" n="19"/>
+               <!--2--> Item principium &amp; finis correspondent sed tunc non fuisset 
+      <lb ed="#L" n="20"/>aliquis corporalis defectus pertinens ad finem vitae, puta 
+      sene<lb ed="#L" n="21" break="no"/>ctus vel aliquid tale, ergo nec aliquis defectus pertinens ad 
+      pue<lb ed="#L" n="22" break="no"/>ritiam: fuissent igitur mox nati perfecti secundum corpus.
+</p>
+            <p xml:id="jsnvu6-d1e3216-d1e149">
+               <lb ed="#L" n="23"/>IN CONTRARIVM est, quia quaedam 
+      perfe<lb ed="#L" n="24" break="no"/>ctio corporalis est perfecta quantitas, sed illam non 
+      habuis<lb ed="#L" n="25" break="no"/>sent pueri in sua natiuitate, quia vterus matris non suffecisset, 
+      <lb ed="#L" n="26"/>ergo neque alias. 
+</p>
+            <p xml:id="jsnvu6-d1e3216-d1e160">
+               <lb ed="#L" n="27"/>RESPONSIO. Perfectio corporalis est duplex: vna 
+      <lb ed="#L" n="28"/>secundum quantitatem, secundum quam dicimus adultum 
+      <lb ed="#L" n="29"/>perfectum esse, sed non paruulum. Alia est secundum 
+      qualita<lb ed="#L" n="30" break="no"/>tem, secundum quam dicimus illum esse perfectum, cuius 
+      <lb ed="#L" n="31"/>membra possunt sufficienter in operationes sibi deputatas, 
+      <lb ed="#L" n="32"/>secundum vtramque harum perfectionum potest aliquid dici 
+      <lb ed="#L" n="33"/>perfectum, vel simpliciter quantum congruit speciei, vel 
+      sup<lb ed="#L" n="34" break="no"/>posito in tali specie, vel quo ad tempus quantum congruit non 
+      <lb ed="#L" n="35"/>simpliciter, sed pro tali tempore. Hoc supposito, dicendum c 
+      <lb ed="#L" n="36"/>pueri nati non suissent simpliciter perfecti secundum corpus 
+      <lb ed="#L" n="37"/>quantum congruebat speciei, vel supposito, fuissent tamen 
+      <lb ed="#L" n="38"/>perfecti quantum congruebat pro illo tempore. Primum patet 
+      <lb ed="#L" n="39"/>dupliciter. Primo, quia vbi est eadem natura; idemque 
+      mo<lb ed="#L" n="40" break="no"/>dus acquirendi naturam, ibi est idem modus naturalis 
+      perue<lb ed="#L" n="41" break="no"/>niendi ad perfectionem naturae; sed in statu innocentiae &amp; in 
+      <lb ed="#L" n="42"/>hoc nostro fuisset, &amp; fuit eadem natura &amp; idem modus 
+      acqui<lb ed="#L" n="43" break="no"/>rendi eam (quia per generationem, quae est per 
+      commixtio<lb ed="#L" n="44" break="no"/>nem seminum &amp; sexuum, vt visum fuit supra) ergo fuisset idem 
+      <lb ed="#L" n="45"/>modus perueniendi ad perfectionem naturae, modo autem 
+      <lb ed="#L" n="46"/>pueri non statim atque nati sunt habent perfectionem 
+      cor<lb ed="#L" n="47" break="no"/>poris, sed eam processu temporis acquirunt: ergo, &amp;c. 
+      Se<lb ed="#L" n="48" break="no"/>cundo quia iudicandum est de conditione natorum secundum 
+      <lb ed="#L" n="49"/>conditionem status, sed in illo statu licet non habuissent 
+      termi<lb ed="#L" n="50" break="no"/>num vitae, habuissent tamen vitae initium: ergo similiter licet 
+      <lb ed="#L" n="51"/>non habuissent defectus inducentes vitae terminum, vt sunt 
+      <lb ed="#L" n="52"/>senectus &amp; aegritudines, habuissent tamen defectus 
+      concomi<lb ed="#L" n="53" break="no"/>tantes vitae initium, vt sunt imperfecta quantitas, &amp; ineptitudo 
+      <lb ed="#L" n="54"/>membrorum ad perfectas operationes. 
+    </p>
+            <p xml:id="jsnvu6-d1e3216-d1e223">
+               <lb ed="#L" n="55"/>Secundum principale patet, quia defectus perfectionis con 
+      <lb ed="#L" n="56"/>gruentis pro tempore, iam habet rationem mali, vel prouenir 
+      <lb ed="#L" n="57"/>ex errore naturae: sed in statu innocentiae nihil fuisset habens 
+      <lb ed="#L" n="58"/>rationem mali, neque fuisset aliquis error naturae: ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3216-d1e234">
+               <lb ed="#L" n="59"/>
+               <!--6--> AD PRIMVM argumentum dicendum est quod 
+      in<lb ed="#L" n="60" break="no"/>firmitas corporis in pueris duo complectitur, defectum vsus 
+      <lb ed="#L" n="61"/>membrorum, &amp; hoc congruit infirmitati mentis, quae est 
+      ca<lb ed="#L" n="62" break="no"/>rentia scientiae, virtutis perfectae, quae infirmitas in primo 
+      <lb ed="#L" n="63"/>statu fuisset in pueris: complectitur etiam quandam poenam 
+      <lb ed="#L" n="64"/>in fletu &amp; esurie, &amp;t haec secuta est ex culpa: nec fuisset in statu 
+      <lb ed="#L" n="65"/>innocentiae, &amp; de hac loquitur August. vt per ea patet qua 
+      <lb ed="#L" n="66"/>praemittuntur, quod pueri iacentibus iuxta se mammis, magi 
+      <lb ed="#L" n="67"/>possunt esurientes flere quam fugere. 
+      </p>
+            <p xml:id="jsnvu6-d1e3216-d1e258">
+               <lb ed="#L" n="68"/>
+               <!--7--> Ad secundum patet solutio ex dictis. In statu enim 
+      inno<lb ed="#L" n="69" break="no"/>centiae fuisset homo generatus, sed non corruptus. Et ideo po 
+      <lb ed="#L" n="70"/>tuit habere defectus pueriles qui sequuntur generationem 
+      <lb ed="#L" n="71"/>sed non seniles qui ordinantur ad corruptionem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

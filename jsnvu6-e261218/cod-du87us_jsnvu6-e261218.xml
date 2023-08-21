@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="317-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e261218"><!-- l4d26q3 -->
+            <head xml:id="jsnvu6-e261218-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-e261218-Hd1e103" type="question-title">An matrimonium sit sacramentum</head>
+            <p xml:id="jsnvu6-e261218-d1e106">
+      <!--00707.xml-->
+               <pb ed="#L" n="317-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QVARSTIO TEATIA. 
+      <lb ed="#L" n="2"/>An matrimonium sit sacramentum.
+    </p>
+            <p xml:id="jsnvu6-e261218-d1e119">
+               <lb ed="#L" n="3"/>AD tertium sic proceditur, scilicet an matrimonium 
+      <lb ed="#L" n="4"/>sit sacramentum. Et videtur quod non: quia sacramentum 
+      <lb ed="#L" n="5"/>quod non est necessitatis habet per ministros ecclesia 
+      <lb ed="#L" n="6"/>dispensari (vnde solus baptismus, quia est 
+      sacramen<lb ed="#L" n="7" break="no"/>tum necessitatis potest per quemlibet laicum dispensari) sed 
+      ma<lb ed="#L" n="8" break="no"/>trimonium non est necessitatis quantum ad quamlibet 
+      perso<lb ed="#L" n="9" break="no"/>nam, &amp; tamen dispensatur per ministros ecclesiae: benedictio enim 
+      <lb ed="#L" n="10"/>nubentium non est de necessitate matrimonij, ergo 
+      matrimo<lb ed="#L" n="11" break="no"/>nium non est sacramentum. 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e141">
+               <lb ed="#L" n="12"/>
+               <!--2--> Item omne sacramentum habet formam distinctam a 
+      mate<lb ed="#L" n="13" break="no"/>ria, sed hoc non est in matrimonio (non enim verba viri 
+      expri<lb ed="#L" n="14" break="no"/>mentia suum consensum sunt magis forma vel materia quam 
+      ver<lb ed="#L" n="15" break="no"/>ba mulierum nec econuerso) ergo matrimonium non est sacramentum 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e155">
+               <lb ed="#L" n="16"/>
+               <!--3--> IN CONTRARIVM arguitur: omne remedium 
+      com<lb ed="#L" n="17" break="no"/>tra peccatum est sacramentum, sed matrimonium est remedium 
+      insti<lb ed="#L" n="18" break="no"/>tutum contra peccatum dicente Apost. 1. Cor. 7. propter fornica 
+      <lb ed="#L" n="19"/>tionem vnusquisque suam vxorem habeat, ergo est sacramentum 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e168">
+               <lb ed="#L" n="20"/>
+               <!--4--> Item si matrimonium non esset sacramentum, causa 
+      matri<lb ed="#L" n="21" break="no"/>monij esset pure temporalis &amp; pertineret ad iudicem secularem 
+      <lb ed="#L" n="22"/>&amp; non ad ecclesiasticum, istud autem non tenetur, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e179">
+               <lb ed="#L" n="23"/>
+               <!--5--> RESPONSIO. Tenendum est absolute quod matrimo. 
+      <lb ed="#L" n="24"/>nium est sacramentum cum hoc determinet ecclesia extra de 
+      hae<lb ed="#L" n="25" break="no"/>reticis, ad abolendam. vbi numerat matrimonium inter alia sacrame 
+      <lb ed="#L" n="26"/>ta, vbi dicitur sic: Vniuersos qui de sacramento corporis &amp; 
+      san<lb ed="#L" n="27" break="no"/>guinis dni nostri Iesu Christi, vel de baptismate seu peccatorum 
+      <lb ed="#L" n="28"/>confessione, matrimonio, seu caeteris sacramentis ecclesiasticis ali 
+      <lb ed="#L" n="29"/>ter sentire, aut docere non metunt quam sacrosancta 
+      Roma<lb ed="#L" n="30" break="no"/>na ecclesia praedicat &amp; obseruat, vinculo perpetui anathemati 
+      <lb ed="#L" n="31"/>innodamus. Matrimonio etiam competit generalis ratio sacramenti 
+      <lb ed="#L" n="32"/>quae est, quod sacramentum est sacrae rei signum: matrimonium enim 
+      si<lb ed="#L" n="33" break="no"/>gnificat coniunctionem Christi &amp; ecclesiae. vnde Apost. loquens 
+      <lb ed="#L" n="34"/>de matrimonio Ephes. 5. dicit sacramentum hoc magnum est, eg. 
+      <lb ed="#L" n="35"/>autem dico in Christo &amp; in ecclesia. Duo ergo sunt tenenda in ma 
+      <lb ed="#L" n="36"/>trimonio, nec opposita eorum possunt teneri vel asseri sine 
+      pe<lb ed="#L" n="37" break="no"/>riculo haeresis. Primum est quod matrimonium est licitum, &amp; ideo 
+      Ta<lb ed="#L" n="38" break="no"/>ceani &amp; Maceani, &amp; caeteri qui nuptiis detrahunt censentur ha 
+      <lb ed="#L" n="39"/>retici. Secundum est quod matrimonium est sacramentum eo modo quo 
+      <lb ed="#L" n="40"/>sacrae rei signum dicitur sacramentum, &amp; dicere oppositum 
+      simili<lb ed="#L" n="41" break="no"/>ter est haereticum, cum sit contrarium dicto Apostoli iam 
+      alle<lb ed="#L" n="42" break="no"/>gato: matrimonium enim initiatum inter coniuges per consensum 
+      <lb ed="#L" n="43"/>animorum signat coniunctionem Christi &amp; ecclesiae per fidem 8 
+      <lb ed="#L" n="44"/>charitatem, matrimonium vero consummatum significat coniunctionem 
+      <lb ed="#L" n="45"/>Christi &amp; ecclesiae per conformitatem naturae assumptae, &amp; fic 
+      <lb ed="#L" n="46"/>est sacramentum. Praeter autem duo praedicta sunt alia duo cir 
+      <lb ed="#L" n="47"/>ca matrimonium circa quae sine periculo haeresis licitum est 
+      con<lb ed="#L" n="48" break="no"/>traria opinari: quorum vnum est theologicum (videlicet) vrrum 
+      <lb ed="#L" n="49"/>in matrimonio conferatur gratia ex opere operato, sicut in aliis 
+      <lb ed="#L" n="50"/>sacramentis nouae legis. Secundum est logicum videlicet, vtrum 
+      <lb ed="#L" n="51"/>matrimonium habeat plenam vniuocationem cum aliis sacramentis. 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e247">
+               <lb ed="#L" n="52"/>
+               <!--6.--> Quantum ad primum aliter opinantur iuristae, &amp; aliter 
+      theo<lb ed="#L" n="53" break="no"/>logi: iuristae enim qui nouerunt textum decretorum &amp; decretalium 
+      <lb ed="#L" n="54"/>quibus mens Romanae ecclesiae exprimitur, &amp; fuerunt 
+      exposi<lb ed="#L" n="55" break="no"/>tores &amp; glossatores canonum &amp; decretalium, &amp; aliqui eorum 
+      fue<lb ed="#L" n="56" break="no"/>runt de collegio cardinalium sanctae Romanae ecclesiae teneni 
+      <lb ed="#L" n="57"/>quod in sacramento matrimonij non confertur gratia. Gaufridus enim 
+      <lb ed="#L" n="58"/>in summa sua titulo, de sacramentis non iteran. dicit sic: Fit &amp; alia 
+      <lb ed="#L" n="59"/>diuisio sacramentorum, quaedam enim sunt in quibus confertu 
+      <lb ed="#L" n="60"/>gratia: vt infra q. j. quicquid. vt sunt sacramenta necessitatis &amp; 
+      <lb ed="#L" n="61"/>ordinis. Quaedam sunt in quibus gratia non confertur, vt 
+      matri<lb ed="#L" n="62" break="no"/>monia cum contrahuntur, &amp; ob hoc in eorum contractu pretia 
+      <lb ed="#L" n="63"/>interueniunt: vt 32: q. 2. honorantur. &amp; conditiones pecuniaria 
+      <lb ed="#L" n="64"/>apponuntur: vt patet extra de conditionibus appositis in 
+      matri<lb ed="#L" n="65" break="no"/>monio, cap. de illis. haec <name xml:id="jsnvu6-e261218-Nd1e281">Gaufrid</name>. Item <ref xml:id="jsnvu6-e261218-Rd1e283">
+                  <name xml:id="jsnvu6-e261218-Nd1e285">Hostiem.</name> in summa sua I. lib. 
+      <lb ed="#L" n="66"/>titulo de sacramen. non iterand.</ref> dicit. Tertia diuisio 
+      sacramen<lb ed="#L" n="67" break="no"/>torum haec est, quia quaedam sunt in quibus confertur gratia: vt 
+  <lb ed="#L" n="68"/>1. q. 1. quicquid. vt sunt sacramenta necessitatis ordinis siue 
+      di<lb ed="#L" n="69" break="no"/>gnitatis, quaedam vero sunt in quibus non confertur, vt 
+      matri<lb ed="#L" n="70" break="no"/>monia siue cum contrahuntur, quoniam pretia interueniunt 32. q. 2 
+      <lb ed="#L" n="71"/>honorantur. 3. q. 5. aliter. &amp; conditiones pecuniariae apponuntur 
+      <lb ed="#L" n="72"/>extra de conditio. ap. de illis. siue cum consumantur 32. q. 2. connubia. 
+      <lb ed="#L" n="73"/>quod non esse si per ipsum gratia conferretur, &amp;c. Nam illis in quibus 
+      <lb ed="#L" n="74"/>gratia confertur talia simoniam inducunt, &amp;c. Item extra de simonia. 
+      <lb ed="#L" n="75"/>cum in ecclesiae corpore. Dicit Ber. in apparatu. Pro 
+      benedictio<lb ed="#L" n="76" break="no"/>nibus nubentium aliquid accipi prohibetur, quia per eas gratia con 
+      <lb ed="#L" n="77"/>fertur, sed pro matrimonio aliquid dare vel recipete non est pecca 
+      <lb ed="#L" n="78"/>tum 1. q. 1. quicquid. 32. q. 2. honorantur. quia licet sit sacramentu, per 
+      <lb ed="#L" n="79"/>ipsum tamen gratia confertur ar. 25. q. I. nuptiarum. 32. q. 2. connubia. 
+      <lb ed="#L" n="80"/>Item superius praemisso cap. honorantur. Notatur sic in apparatu.
+</p>
+            <p xml:id="jsnvu6-e261218-d1e322">
+      <!--00707.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>7. Si quaeras quare in hoc sacramento potius interueniat pecu 
+      <lb ed="#L" n="82"/>nia quam in aliis? Dicunt quidam quod propter onera 
+      matrimo<lb ed="#L" n="83" break="no"/>nij: sed certe eadem ratione pro ingressu monasterij potest 
+      re<lb ed="#L" n="84" break="no"/>cipi pecunia ppter onera quae sustinet monasterium. Sed haec est 
+      <lb ed="#L" n="85"/>ratio, quia in hoc sacramento non confertur gratia spiritus sancti 
+      <lb ed="#L" n="86"/>sicut fit in aliis, vt 1. q. mulier. &amp; cap. sicut inuisibilis. haec 
+      appa<lb ed="#L" n="87" break="no"/>ratus. quod autem sub pacto pretij possit quis licite aliquam sibi 
+      des<lb ed="#L" n="88" break="no"/>ponsare expresse dicitur extra de conditionibus appositis, de 
+      <lb ed="#L" n="89"/>illis. Ibi enim dicitur quod si aliquis sub huiusmodi verbigiuramen 
+      <lb ed="#L" n="90"/>tum alicui mulieri praestiterit, ego te in vxorem accipiam, si 
+      tan<lb ed="#L" n="91" break="no"/>tum mihi donaueris, reus periurij non habebitur, si eam 
+      nolen<lb ed="#L" n="92" break="no"/>tem sibi soluere quod sibi dare petiit non acceperit in vxorem: super 
+      <lb ed="#L" n="93"/>quo dicit Ber. in apparatu: talis conditio licita est in sponsalibus, 
+      <lb ed="#L" n="94"/>vt hic patet, sed constat quod pro sacramentis conferentibus 
+      gra<lb ed="#L" n="95" break="no"/>tiam non licet dare, aut recipere pecuniam ex pacto seu 
+      con<lb ed="#L" n="96" break="no"/>tractu alicuius pretij, igitur secundum praedictos doctores in 
+      <lb ed="#L" n="97"/>sacramento matrimonij non confertur gratia. 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e366">
+               <lb ed="#L" n="98"/>
+               <!--8--> Quorum opinio an sit vera an falsa, &amp; allegationes quas de 
+      <lb ed="#L" n="99"/>iure Canonico pro se inducunt an bene adducantur per eos 
+      <lb ed="#L" n="100"/>vel male, non determino quo ad praesens, sed solum hoc accipio 
+      <lb ed="#L" n="101"/>tanquam verum, quod cum praedicti doctores nouerint iura 
+      Cano<lb ed="#L" n="102" break="no"/>nica, &amp; eorum scripta, &amp; dicta habeantur a Papa &amp; cardinalibus 
+      <lb ed="#L" n="103"/>&amp; a praelatis &amp; caeteris ecclesiarum rectoribus quorum est 
+      speciali<lb ed="#L" n="104" break="no"/>ter scire quid ecclesia Romana praedicat &amp; obseruat, nec scripta 
+      <lb ed="#L" n="105"/>eorum quo ad praedictum articulum de matrimonio reprobentur 
+      <lb ed="#L" n="106"/>tanquam erronea, vel contraria determinationi ecclesiae, quod sen 
+      <lb ed="#L" n="107"/>tire quod per sacramentum matrimonij non conferatur gratia, non est 
+      <lb ed="#L" n="108"/>contra determinationem ecclesiae, nec contra id quod Romana 
+      ec<lb ed="#L" n="109" break="no"/>clesia praedicat &amp; obseruat. Huic etiam opinioni consentit 
+      Ma<lb ed="#L" n="110" break="no"/>gister sententiarum lib. 4. dist. 2. circa principium dicens sic quod sacra 
+      <lb ed="#L" n="111"/>mentorum nouae legis alia remedia contra peccatum praebent &amp; 
+      <lb ed="#L" n="112"/>gratiam adiutricem conferunt, vt baptismus. Alia in remedium 
+      tan<lb ed="#L" n="113" break="no"/>tum sunt, vt coniugium. Alia gratia &amp; virtute nos fulciunt, vt 
+      Eu<lb ed="#L" n="114" break="no"/>charistia &amp; ordo: igitur tam ex diuisione quam ex dictione 
+      ex<lb ed="#L" n="115" break="no"/>clusiua cum dicit in remedium tantum sunt vt coniugium, videtur 
+      <lb ed="#L" n="116"/>Magister sententiarum sacramentum coniugij segregasse a 
+      colla<lb ed="#L" n="117" break="no"/>tione gratiae. Moderni autem theologi quasi communiter tenenm 
+      <lb ed="#L" n="118"/>quod per sacramentum matrimonij confertur gratia nisi 
+      contrahente<lb ed="#L" n="119" break="no"/>ponant obicem, sicut fit in aliis sacramentis quibus aequiparatur 
+      sa<lb ed="#L" n="120" break="no"/>cramentum matrimonij in hoc casu, quia alias non videretur ab eis 
+      <lb ed="#L" n="121"/>posse teneri quod matrimonium sit sacramentum nouae legis. 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e424">
+               <lb ed="#L" n="122"/>
+               <!--9--> Quantum ad secundum o est logicum, videlicet vtrum ma 
+      <lb ed="#L" n="123"/>trimonium habeat perfectam vniuocationem cum aliis sacramentis 
+      <lb ed="#L" n="124"/>sciendum est, quod cum vniuoca sint quorum nomem est commune 
+      <lb ed="#L" n="125"/>ratio, id est diffinitio secundum illud nomem est eadem, 
+      discurren<lb ed="#L" n="126" break="no"/>dum est per rationes seu diffinitiones sacramenti in principio 
+      <lb ed="#L" n="127"/>huius quarti positas, inter quas prior &amp; communior diffinitio 
+      sa<lb ed="#L" n="128" break="no"/>cramenti est, quod sacramentum est sacrae rei signum, &amp; secundum 
+      <lb ed="#L" n="129"/>hanc diffinitionem non est dubium quin sacramentum coniugi 
+      <lb ed="#L" n="130"/>sit vniuoce sacramentum cum aliis: est enim signum sacrae rei, id 
+      <lb ed="#L" n="131"/>est coniunctionis Christi &amp; ecclesiae vt prius dictum fuit quanuis 
+      <lb ed="#L" n="132"/>aliter sit in hoc sacramento &amp; in aliis sacramentis, nam in aliis res 
+      <lb ed="#L" n="133"/>sacra cuius sunt signum non solum est significata, sed &amp; contenta, 
+      <lb ed="#L" n="134"/>in matrimonio autem res sacra cuius est signum est solum signi 
+      <lb ed="#L" n="135"/>ficata &amp; non contenta. Aliae autem sunt diffinitiones seu descri 
+      <lb ed="#L" n="136"/>ptiones sacramenti assignatae per beatum Aug. &amp; Hugo. de S. Vict. 
+      <lb ed="#L" n="137"/>&amp; Magistrum sentent. qui omnes conueniunt in hoc quod 
+      facra<lb ed="#L" n="138" break="no"/>mentum no. le. est aliquod signum corporale vel sensibile 
+      extrin<lb ed="#L" n="139" break="no"/>secus homini appositum ad effectum fanctificationis spiritualis, 
+      <lb ed="#L" n="140"/>&amp; quantum ad hoc matrimonium non videtur habere perfectam 
+      <lb ed="#L" n="141"/>vniuocationem cum sacramentis no legis. 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e472">
+               <lb ed="#L" n="142"/>
+               <!--10--> Primo quantum ad hoc quod sacramentum est signum: quia illa 
+      <lb ed="#L" n="143"/>quae exterius aguntur in sacramentis no. le. excedunt dictamen 
+      <lb ed="#L" n="144"/>rationis naturalis. Cum enim sacramenta sint quaedam facta proo 
+      <lb ed="#L" n="145"/>testantia fidem, sicut fides est de his quae rationem namralem 
+      <lb ed="#L" n="146"/>excedunt, sic ea quae exterius aguntur in sacramentis sunt signa 
+      <lb ed="#L" n="147"/>ex diuina institutione, &amp; excedunt dictame rationis naturalis, 
+      <lb ed="#L" n="148"/>vt patet in caeteris sacramentis a matrimonio scilicet in baptismo, con 
+      <lb ed="#L" n="149"/>firmatione, ordine &amp; huiusmodi. De illis enim quae in praedictis 
+      <lb ed="#L" n="150"/>sacramentis exterius aguntur, nulla potest reddi ratio naturalis. 
+      <lb ed="#L" n="151"/>De illis autem quae exterius aguntur, in matrimonio potest 
+      red<lb ed="#L" n="152" break="no"/>di ratio naturalis: puta quod contrahentes matrimonium 
+      consen<lb ed="#L" n="153" break="no"/>tiant, &amp; consensum suum exprimant. Hoc enim dictat recta 
+      ratio<lb ed="#L" n="154" break="no"/>naturalis de quolibet contractu voluntario, ergo illud signu 
+      <lb ed="#L" n="155"/>corporale, vel sensibile, quod est in matrimonio, &amp; in caeteris Ia 
+      <lb ed="#L" n="156"/>cramentis non sumitur vniformiter, vel vniuoce hinc &amp; inde: quia 
+      <lb ed="#L" n="157"/>in aliis sacramentis illa quae exterius aguntur sunt signa 
+      spiritua<lb ed="#L" n="158" break="no"/>lis effectus ex diuina institutione, cuius non potest reddi ratio 
+      na<lb ed="#L" n="159" break="no"/>turalis: illud autem quod exterius agitur in matrimonio dum con 
+      <lb ed="#L" n="160"/>trahitur est pure de dictamine rationis naturalis excepta 
+      signi<lb ed="#L" n="161" break="no"/>ficatione coniunctionis Christi &amp; ecclesiae, secundum quam dictum 
+      <lb ed="#L" n="162"/>est quod matrimonium habet cum aliis aliquam vniuocationem.
+</p>
+            <p xml:id="jsnvu6-e261218-d1e522">
+      <!--00708.xml-->
+               <pb ed="#L" n="317-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>11 Secundo patet idem ex hoc quod sacramentum est aliquid 
+      ex<lb ed="#L" n="2" break="no"/>trinsecus appositum. Ex quo potest sic argui: sacramenta consistum 
+      <lb ed="#L" n="3"/>in opere operato applicato illis qui suscipiunt sacramentum, sed 
+      <lb ed="#L" n="4"/>istud non conuenit vniuoce matrimonio &amp; caeteris sacramentis, 
+      <lb ed="#L" n="5"/>ergo &amp;c. Maior patet ex his quae dicta sunt in praecedentibus de 
+      <lb ed="#L" n="6"/>sacramentis no. le. Minor probatur, quia in caeteris sacramentis 
+      <lb ed="#L" n="7"/>puta in baptismo, confirmatione, ordine, extrema vnctione, &amp; 
+      <lb ed="#L" n="8"/>poenitentia praeter omnem actum suscipientium sacramentum est 
+      ali<lb ed="#L" n="9" break="no"/>quod exuinsecum quod eis applicatur, sicut aqua in baptismo cum 
+      <lb ed="#L" n="10"/>determinata forma verboru, &amp; in caeteris similiter, &amp; etiam in poe 
+      <lb ed="#L" n="11"/>nitentia de qua minus videtur, quia praeter omnem actum 
+      poeni<lb ed="#L" n="12" break="no"/>tentis applicatur. ei verba sacerdotis absoluentis, in matrimonio 
+      <lb ed="#L" n="13"/>autem nihil est de praedictis: quia ad matrimonium sufficiunt verba 
+      <lb ed="#L" n="14"/>contrahentium exprimentia consensum suum sine quocunque 
+      extrinse<lb ed="#L" n="15" break="no"/>cus apposito, vel eis applicato, ergo quantum ad hoc quod 
+      sacramen<lb ed="#L" n="16" break="no"/>tum est opus operatum homini extrinsecus appositum, non es 
+      <lb ed="#L" n="17"/>vniuocatio inter matrimonium &amp; caetera sacramenta no. le. Et si 
+      di<lb ed="#L" n="18" break="no"/>catur quod verba vnius coniugum applicantur alteri extrinsecus, &amp; 
+      <lb ed="#L" n="19"/>econuerso, quando vir dicit, accipio te in vxorem, &amp; mulier dicit, 
+      <lb ed="#L" n="20"/>accipio te in maritum, adhuc non est hic plena vniuocatio cum his 
+      <lb ed="#L" n="21"/>quae extrinsecus aguntur in caeteris sacramentis, quia in aliis 
+      sa<lb ed="#L" n="22" break="no"/>cramentis applicatio non fit per suscipientes sacramentum, sed 
+      pe<lb ed="#L" n="23" break="no"/>alium. Et ideo sacramentum dicitur signum sensibile extrinsecus 
+      <lb ed="#L" n="24"/>appositum, in matrimonio autem praedicta applicatio fit per 
+      su<lb ed="#L" n="25" break="no"/>scipientes &amp; non per exteriorem, quare non est consimiliter hic &amp; 
+      <lb ed="#L" n="26"/>ibi. Item matrimonium non solum contrahitur inter praesentes 
+      <lb ed="#L" n="27"/>exprimentes sibi inuicem consensum suum, sed inter absentes 
+      <lb ed="#L" n="28"/>per literas vel per nuncium, &amp; tunc non est applicatio, vel non 
+      <lb ed="#L" n="29"/>est eiusdem rationis cum applicatione quae fit in caeteris 
+      sacra<lb ed="#L" n="30" break="no"/>mentis in quibus oportet suscipientem sacramentum esse 
+      reali<lb ed="#L" n="31" break="no"/>ter praesentem conferenti: non enim episcopus potest conferre 
+      <lb ed="#L" n="32"/>ordines vel sacramentum confirmationis, vel baptismi, vel 
+      ex<lb ed="#L" n="33" break="no"/>tremae vnctionis, vel sacramentalis absolutionis peccatorum his 
+      <lb ed="#L" n="34"/>qui sunt ab eo per longa spacia terrarum semoti, sed solum prae 
+      <lb ed="#L" n="35"/>sentibus, nec sacerdos existens in Hispania potest consecrare 
+      <lb ed="#L" n="36"/>panem existentem in India, mulier autem existens in Fracia 
+      con<lb ed="#L" n="37" break="no"/>trahere potest cum viro existente in Hispania, &amp; est verum ma 
+      <lb ed="#L" n="38"/>cimonium &amp; ratum, quare non est vniuoca applicatio hic &amp; ibi. 
+      <lb ed="#L" n="39"/>Tertio patet idem ex eo quod sacramentum adhibetur ad 
+      <lb ed="#L" n="40"/>effectum sanctificationis spiritualis. Ex quo arguitur sic: 
+      sacra<lb ed="#L" n="41" break="no"/>mentum aut confert gratiam non habenti nisi ponat obicem, 
+      <lb ed="#L" n="42"/>aut si habet, auget eam, sed matrimonium nullum istorum facit, 
+      <lb ed="#L" n="43"/>ergo non est sic et vniuoce sacramentum sicut &amp; alia 
+      sacramen<lb ed="#L" n="44" break="no"/>ta no. le. Maior supponitur. Minor probatur: quod enim 
+      matri<lb ed="#L" n="45" break="no"/>monium non conferat gratiam non habenti satis patet, quia hoc 
+      <lb ed="#L" n="46"/>pertinet solum ad sacramenta quae ordinantur ad remissionem 
+      <lb ed="#L" n="47"/>culpae mortalis, vt sunt baptismus &amp; poenitentia, nec auget eam 
+      <lb ed="#L" n="48"/>prius habenti, quia continentibus in gratia &amp; postea 
+      contrahen<lb ed="#L" n="49" break="no"/>tibus non augeretur gratia sed potius minueretur, sed gratia &amp; 
+      <lb ed="#L" n="50"/>charitas reciperent diminutionem, quia melius est continere 
+      <lb ed="#L" n="51"/>quam nubere secundum illud apostoli pri. Cor. 7. qui nubit 
+      be<lb ed="#L" n="52" break="no"/>ne facit, qui non nubit melius facit, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e644">
+               <lb ed="#L" n="53"/>
+               <!--13--> Quarto patet idem per duas generales rationes, quia circa 
+      <lb ed="#L" n="54"/>sacramenta no. leg. alia a baptismo licet ordinatio ecclesiae potest 
+      <lb ed="#L" n="55"/>habere vim praecepti, nihilominus tale praeceptum nunquam est 
+      <lb ed="#L" n="56"/>de necessitate sacramenti, vt patet ex praecedentibus, sed 
+      ordi<lb ed="#L" n="57" break="no"/>natio ecclesiae circa matrimonium est de necessitate matrimonij 
+      <lb ed="#L" n="58"/>facit enim ecclesia personas illegitimas ad contrahendum, &amp; de 
+      <lb ed="#L" n="59"/>illegitimis facit legitimas, vt patet, ergo matrimonium non 
+      vi<lb ed="#L" n="60" break="no"/>detur esse vniuoce sacramentum cum praedictis. 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e666">
+               <lb ed="#L" n="61"/>
+               <!--14--> Quinto, quia absque baptismo nullus est susceptiuus 
+      sacra<lb ed="#L" n="62" break="no"/>menti proprie dicti, cum baptismus sit ianua sacramentorum, sed 
+      <lb ed="#L" n="63"/>si ante baptismum contrahunt infideles verum est matrimonium 
+      <lb ed="#L" n="64"/>ister eos sicut inter fideles post baptismum, ergo &amp;c. Nec obstat 
+      <lb ed="#L" n="65"/>que matrimonium eorum non dicitur ratum: quia si ambo bapti 
+      <lb ed="#L" n="66"/>zarentur iam eorum matrimonium est ratum, sed non est sacra 
+      <lb ed="#L" n="67"/>mentum magis quam prius vt probatur, ergo &amp;c. Probatio 
+      as<lb ed="#L" n="68" break="no"/>sumptae, quia opus est facto in omni sacramento, cum quod libe 
+      <lb ed="#L" n="69"/>consistat in opere operato, sed in tali matrimonio nihil est 
+      d<lb ed="#L" n="70" break="no"/>nouo factum (solum enim sunt baptizati) baptismus autem est 
+      <lb ed="#L" n="71"/>distinctum sacramentum a matrimonio: sicut ergo tale 
+      matrimo<lb ed="#L" n="72" break="no"/>nium ante baptismum non fuit sacramentum vniuoce cum 
+      praedi<lb ed="#L" n="73" break="no"/>pctis, ita nec post, cum verum sit &amp; ratum: &amp; mirum est quod aliqui 
+      <lb ed="#L" n="74"/>volunt quaerere plenam vniuocationem inter sacramenta quae 
+      <lb ed="#L" n="75"/>sunt praecise no legis, &amp; tenentur sola fide, &amp; matrimonium quod 
+      <lb ed="#L" n="76"/>non est solum in noua leg. sed fuit in veteri lege &amp; ante omnem 
+      <lb ed="#L" n="77"/>legem scriptam tam pro statu innocentiae quam naturae 
+      corru<lb ed="#L" n="78" break="no"/>ptae, &amp; est praecise de dictamine rationis naturalis absque fide 
+      ex<lb ed="#L" n="79" break="no"/>cepta significatione coniunctionis Christi &amp; ecclesiae. 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e712">
+               <lb ed="#L" n="80"/>
+               <!--15--> Per hoc patet responsio ad argumenta vtriusque partis. 
+      ete<lb ed="#L" n="81" break="no"/>nim prima probant quod matrimonium non est sacramentum 
+      stri<lb ed="#L" n="82" break="no"/>cte &amp; proprie dictum sicut alia sacramenta no. le. sed non probani 
+      <!--00708.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>quin sit sacrae rei signum, &amp; sic largo modo sacramentum. 
+      </p>
+            <p xml:id="jsnvu6-e261218-d1e731">
+               <lb ed="#L" n="84"/>
+               <!--16--> Ad primum argumentum alterius partis dicendum quod non 
+      <lb ed="#L" n="85"/>omne remedium contra peccatum est sacramentum, quia si 
+      ali<lb ed="#L" n="86" break="no"/>cui indigenti detur pecunia, pecunia est ipsi remedium ne egestate 
+      <lb ed="#L" n="87"/>compulsus furetur, &amp; tamen datio pecuniae non est sacramentum: 
+      <lb ed="#L" n="88"/>sic cum per actum matrimonij homo satisfaciat concupiscentiae 
+      <lb ed="#L" n="89"/>matrimonij, est ipsi remedium ne ipse incitetur ad alias 
+      corru<lb ed="#L" n="90" break="no"/>ptelas puta fornicationem vel adulterium, &amp; sic est in omnibus 
+      <lb ed="#L" n="91"/>quae ex natura actus impediunt peccatum ne fiat, talia autem non 
+      <lb ed="#L" n="92"/>sunt sacramenta, sed solum illa remedia que ex natura actus non ha 
+      <lb ed="#L" n="93"/>bent hoc facere, sed ex diuina institutione per virtutem 
+      supernatu<lb ed="#L" n="94" break="no"/>ralem eis collatam vel assistentem adhibitis quibusdam sensibilibus 
+      <lb ed="#L" n="95"/>quorum non possit reddi ratio naturalis, quod non est in matrimonio. 
+      <lb ed="#L" n="96"/>(17 Ad secundum dicendum est quod matrimonium est 
+      sacra<lb ed="#L" n="97" break="no"/>mentum saltem large, esto etiam quod nullo modo esset 
+      sacra<lb ed="#L" n="98" break="no"/>mentum, adhuc cognitio eius pertinet ad iudicem ecclesiasticum; 
+      <lb ed="#L" n="99"/>quia cognitio de hoc quod est pure peccatum &amp; pertinet ad 
+      so<lb ed="#L" n="100" break="no"/>lam conscientiam, nec laedit rempublicam temporaliter in rebus ve 
+      <lb ed="#L" n="101"/>personis pertinet ad iudicem ecclesiasticum, talis autem est 
+      er<lb ed="#L" n="102" break="no"/>ror circa matrimonium, &amp; ideo quoad hoc causa matrimonij est 
+      <lb ed="#L" n="103"/>pure spiritualis, &amp; pertinet ad iudicem ecclesiasticum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

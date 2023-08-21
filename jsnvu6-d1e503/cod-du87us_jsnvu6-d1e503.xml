@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="27-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e503"><!-- l1d7q1 -->
+            <head xml:id="jsnvu6-d1e503-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e503-Hd1e103" type="question-title">Utrum in diuinis sit potentia generandi</head>
+            <p xml:id="jsnvu6-d1e503-d1e106">
+               <lb ed="#L" n="94"/>QVAESTIO PRINA. 
+      <lb ed="#L" n="95"/>Vtrum in diuinis sit potentia generandi. 
+      <lb ed="#L" n="96"/>Thom. 1. p. q. 41. artic. 4. 
+    </p>
+            <p xml:id="jsnvu6-d1e503-d1e115">
+               <lb ed="#L" n="97"/>CIrca distinctionem istam tria quaeruntur. Primum 
+      <lb ed="#L" n="98"/>est vtrum in diuinis sit potentia generandi. 
+      Se<lb ed="#L" n="99" break="no"/>cundum est quid sit, vtrum substantia, an relatio. 
+      <lb ed="#L" n="100"/>Tertio vtrum sit in filio. Ad primum sic 
+      proce<lb ed="#L" n="101" break="no"/>ditur. Et arguitur quod in Deo non sit potentia 
+      <lb ed="#L" n="102"/>generandi, quia omnis potentia est actiua, vel passiua, sed 
+      po<lb ed="#L" n="103" break="no"/>tentia passiua cum sit imperfecta de se non est in Deo, actiua 
+      <lb ed="#L" n="104"/>vero licet sit inDeo respectu creaturarum non videtur tamen 
+      <lb ed="#L" n="105"/>quod possit esse in Deo respectu diuinorum, quia potentia 
+      acti<lb ed="#L" n="106" break="no"/>ua est principium transmutandi vel producendi aliud vt aliud, 
+      <lb ed="#L" n="107"/>sed in diuinis non est aliud vt aliud, pater enim non est aliud a 
+      <lb ed="#L" n="108"/>filio secundum Augustinum in homilia super illud Ioan. Qui 
+      <lb ed="#L" n="109"/>non intrat per ostium. Et in quodam sermone de Trinit. Erge 
+      <lb ed="#L" n="110"/>in Deo respectu diuinorum non est aliqua potentia actiua, nec 
+      <lb ed="#L" n="111"/>potentia generandi, nec alia¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e503-d1e150">
+               <lb ed="#L" n="112"/>
+               <!--2--> Item omnis potentia est respectu alicuius possibiliter, sed in 
+      <lb ed="#L" n="113"/>Deo nihil est possibile, sed est totum necessarium, ergo in Deo 
+      re<lb ed="#L" n="114" break="no"/>spectu diuinorum nulla est potentia nec generandi nec alia.
+</p>
+            <p xml:id="jsnvu6-d1e503-d1e162">
+               <lb ed="#L" n="115"/>IN CONTRARIVM arguitur quia omnes 
+      ge<lb ed="#L" n="116" break="no"/>nerans generat per aliquam potentiam, sed in diuinis patei 
+      <lb ed="#L" n="117"/>generat filium, ergo in patre est aliqua potentia generandi. 
+      </p>
+            <p xml:id="jsnvu6-d1e503-d1e171">
+               <lb ed="#L" n="118"/>
+               <!--4--> RESPONSIO, dicenda sunt duo, primum est quod in 
+      <lb ed="#L" n="119"/>diuinis est potentia generandi, secundum est quod illa 
+      poten<lb ed="#L" n="120" break="no"/>tia non dicitur vniuoce cum potentia generandi quae est in 
+      crea<lb ed="#L" n="121" break="no"/>turis. Primum patet sic, vbicunque sunt plura realiter 
+      differen<lb ed="#L" n="122" break="no"/>tia quorum vnum est productiuum alterius, ibi est vere &amp; 
+      rea<lb ed="#L" n="123" break="no"/>liter potentia productiua, sed in diuinis pater &amp; filius differunt 
+      <lb ed="#L" n="124"/>realiter &amp; filius est a patre productus per generationem, ergo 
+      <lb ed="#L" n="125"/>in patre est vere &amp; realiter potentia* productiua filij per 
+      ge<lb ed="#L" n="126" break="no"/>nerationem, sed hoc est potentia generandi, ergo &amp;c. ma. patet 
+      a<lb ed="#L" n="127" break="no"/>ex ratione potentiae actiuae vel quasi actiuae quae sola ponitur 
+      <lb ed="#L" n="128"/>in diuinis. Est enim potentia actiua principium quo aliquid 
+      pro<lb ed="#L" n="129" break="no"/>ducitur, vt patet ex V. Meta. Et ideo omne quod producit aliud, ( 
+      <lb ed="#L" n="130"/>producit ipsum per aliquam potentiam productiuam. mi. 
+      sup<lb ed="#L" n="131" break="no"/>ponitur ex traditione fidei, &amp; ex his quae dicta sunt supra di. 4.
+</p>
+            <p xml:id="jsnvu6-d1e503-d1e206">
+               <lb ed="#L" n="132"/>Iuxta quod intelligenda sunt duo, primum est quod cum 
+      <lb ed="#L" n="133"/>potentia dicatur in habitudine ad actum potentia, aut passiua 
+      <lb ed="#L" n="134"/>in habitudine ad actum quem recipit potentia, aut actiua in 
+      <lb ed="#L" n="135"/>habitudine ad actum quem producit, vbi non est actus realiter 
+      <lb ed="#L" n="136"/>receptus vel productus, ibi non est realiter potentia actiua vel 
+      <lb ed="#L" n="137"/>passiua. Cum ergo intelligere &amp; velle in Deo non sint actus 
+      <lb ed="#L" n="138"/>realiter recepti, vel producti ab intellectu &amp; voluntate, sed sint 
+      <lb ed="#L" n="139"/>penitus idem cum ipsis, idcirco licet in Deo sint intellectus &amp; 
+      <lb ed="#L" n="140"/>voluntas prout dicunt naturam actu cognoscentem &amp; 
+      volen<lb ed="#L" n="141" break="no"/>tem, tamen nullum eorum est realiter potentia actiua vel 
+      pas<lb ed="#L" n="142" break="no"/>siua respectu praedictorum actuum, sed cum filius sit realiter a 
+      <lb ed="#L" n="143"/>patre productus &amp; per consequens realiter distinctus, &amp; 
+      Spiri<lb ed="#L" n="144" break="no"/>tussanctus, ab vtroque, ideo necesse est in diuinis ponere poten 
+      <lb ed="#L" n="145"/>tia realiter productiuam respectu vtriusque, &amp; respectu 
+      qui<lb ed="#L" n="146" break="no"/>dem filij dicitur potentia generandi quia productio filij est ge 
+      <lb ed="#L" n="147"/>neratio, sed respectu Spiritussancti dicitur potentia spirandi, 
+      <lb ed="#L" n="148"/>quia productio eius est spiratio. 
+      </p>
+            <p xml:id="jsnvu6-d1e503-d1e245">
+               <lb ed="#L" n="149"/>
+               <!--6--> Secundo intelligendum est quod sicut in creaturis aliquid 
+      <lb ed="#L" n="150"/>producitur per potentiam naturalem &amp; in similitudinem 
+      na<lb ed="#L" n="151" break="no"/>turae producentis, sicut (exempli gratia) homo genera 
+      homi<lb ed="#L" n="152" break="no"/>nem, aliquid aut producitur per potentiam rationalem &amp; non 
+      <lb ed="#L" n="153"/>in similitudinem naturae producentis, sed speciei in mente 
+      exi<lb ed="#L" n="154" break="no"/>stentis (sicut producitur domus ab artifice,) sic aliqua 
+      produ<lb ed="#L" n="155" break="no"/>cuntur a Deo patre per voluntatem non in similitudinem 
+      pa<lb ed="#L" n="156" break="no"/>turae sed ideae existentis in mente diuina tanquam artificiata. 
+      <lb ed="#L" n="157"/>Et tales sunt omnes creaturae quantum productio quo ad 
+      to<lb ed="#L" n="158" break="no"/>tum dicitur creatio, &amp; principium huius actus dicitur 
+      poten<lb ed="#L" n="159" break="no"/>tia creandi. Aliquid autem producitur per naturam in 
+      simili<lb ed="#L" n="160" break="no"/>tudinem naturae &amp; modo naturae, sicut producitur filius a 
+      pa<lb ed="#L" n="161" break="no"/>tre, &amp; actus quo producitur dicitur generatio, &amp; potentia 
+      cor<lb ed="#L" n="162" break="no"/>respondens actui quae dicitur potentia generandi. Sic ergo pa¬ 
+      <!--00120.xml-->
+      <pb ed="#L" n="27-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tet quod potentia generandi realiter est in Deo. 
+      </p>
+            <p xml:id="jsnvu6-d1e503-d1e289">
+               <lb ed="#L" n="2"/>
+               <!--7.--> SECVNDVM patet, scilicet quod potentia 
+      gene<lb ed="#L" n="3" break="no"/>randi in diuinis non dicitur vniuoca cum potentia generandi 
+      <lb ed="#L" n="4"/>in creaturis, quia cum potentia productiua sit illa per quam 
+      <lb ed="#L" n="5"/>aliud a producente producitur, vbi esse aliud a producente 
+      <lb ed="#L" n="6"/>non conuenit vniuoce ipsis productis, ibi nec est vniuoca 
+      pro<lb ed="#L" n="7" break="no"/>ductio, nec potentia productiua, sed esse aliud a producente 
+      <lb ed="#L" n="8"/>non conuenit vniuoce filio in diuinis &amp; in humanis, ergo &amp; 
+      cae<lb ed="#L" n="9" break="no"/>tera. Minor probatur. quia in humanis filius est vere &amp; 
+      propri<lb ed="#L" n="10" break="no"/>&amp; simpliciter aliud a patre secundum essentiam &amp; substantiam 
+      <lb ed="#L" n="11"/>secundum quam aliquid dicitur simpliciter aliud, sed in diuini: 
+      <lb ed="#L" n="12"/>filius non est aliud a patre secundum essentiam &amp; substantiam, 
+      <lb ed="#L" n="13"/>sed solum secundum rationem dantis &amp; accipientis. quae 
+      alie<lb ed="#L" n="14" break="no"/>tas non cadit sub vno communi &amp; formali conceptu cum 
+      <lb ed="#L" n="15"/>forma. 
+</p>
+            <p xml:id="jsnvu6-d1e503-d1e324">
+               <lb ed="#L" n="16"/>
+               <!--8--> PER HOC patet responsio ad primum argumentum 
+      <lb ed="#L" n="17"/>quod potentia generandi in diuinis non dicitur vniuoce cum 
+      <lb ed="#L" n="18"/>illa quae est in creaturis, &amp; ob hoc non est aliud simpliciter ibi 
+      <lb ed="#L" n="19"/>sicut in humanis. 
+      </p>
+            <p xml:id="jsnvu6-d1e503-d1e338">
+               <lb ed="#L" n="20"/>
+               <!--9--> Ad secundum dicunt quidam quod possibile diuisum 
+      con<lb ed="#L" n="21" break="no"/>tra necessarium non est in diuinis, sed possibile quod 
+      contine<lb ed="#L" n="22" break="no"/>tur sub necessario. Vnde sicut dicitur quod Deum esse est 
+      pos<lb ed="#L" n="23" break="no"/>sibile ita potest dicitur quod filium generari est possibile. 
+      </p>
+            <p xml:id="jsnvu6-d1e503-d1e351">
+               <lb ed="#L" n="24"/>
+               <!--10--> Sed ista responsio non videtur valere, qua dicitur Deum 
+      <lb ed="#L" n="25"/>esse est possibile: istud possibile non arguit in Deo aliquam 
+      po<lb ed="#L" n="26" break="no"/>tentiam sed solum non repugnantiam terminorum, sed filium 
+      <lb ed="#L" n="27"/>generari arguit in patre potentiam generandi non solum non 
+      <lb ed="#L" n="28"/>repugantiam terminorum, alioquin sequitur oppositum 
+      prin<lb ed="#L" n="29" break="no"/>cipalis conclusionis. 
+      </p>
+            <p xml:id="jsnvu6-d1e503-d1e369">
+               <lb ed="#L" n="30"/>
+               <!--11--> Et ideo dicendum aliter quod possibile in diuinis non 
+      ex<lb ed="#L" n="31" break="no"/>cludit necessarium nec ponit aliquam dependentiam, nec 
+      di<lb ed="#L" n="32" break="no"/>cit solum impossibile filium generari propter non 
+      repugnan<lb ed="#L" n="33" break="no"/>tiam terminorum, imo tali possibili respondet potentia 
+      ge<lb ed="#L" n="34" break="no"/>nerandi. Sed quia per talem potentiam non producitur 
+      diuer<lb ed="#L" n="35" break="no"/>sum per essentiam sed solum per relationem &amp; in 
+      relationi<lb ed="#L" n="36" break="no"/>bus oppositis est par necessitas, quia aequaliter se cocxigunt, 
+      <lb ed="#L" n="37"/>ideo par necessitas essendi in patre habente potentiam 
+      gene<lb ed="#L" n="38" break="no"/>randi &amp; in filio &amp; eadem independentia propter identitatem 
+      <lb ed="#L" n="39"/>essentiae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

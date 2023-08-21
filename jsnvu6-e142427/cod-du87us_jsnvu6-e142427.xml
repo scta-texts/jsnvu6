@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="172-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e142427"><!-- l2d41q2 -->
+            <head xml:id="jsnvu6-e142427-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e142427-Hd1e103" type="question-title">Utrum omne peccatum sit voluntarium</head>
+            <p xml:id="jsnvu6-e142427-d1e106">
+               <lb ed="#L" n="85"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="86"/>Vtrum omne peccatum sit voluntarium. 
+    </p>
+            <p xml:id="jsnvu6-e142427-d1e113">
+               <lb ed="#L" n="87"/>DEINDE quaeritur, vtrum omne peccatum sit 
+      <lb ed="#L" n="88"/>voluntarium. Et videtur quod non, quia illud quod 
+      <lb ed="#L" n="89"/>per ignorantiam vel necessitatem geritur, non ess 
+      <lb ed="#L" n="90"/>voluntarium, quia voluntas sequitur cognitionem, 
+      <lb ed="#L" n="91"/>&amp; excludit necessitatem, sed quaedam peccata fiuni 
+      <lb ed="#L" n="92"/>per ignorantiam, vt dictum fuit supra, distinctione 
+      vigesimase<lb ed="#L" n="93" break="no"/>cunda, quaedam per necessitatem, vt dicit Augustinus libro re 
+      <lb ed="#L" n="94"/>tractionum. Sunt, inquit, quaedam necessitate facta 
+      improban<lb ed="#L" n="95" break="no"/>da, ergo talia (licet peccata) sunt necessaria. 
+      </p>
+            <p xml:id="jsnvu6-e142427-d1e135">
+               <lb ed="#L" n="96"/>
+               <!--2--> IN CONTRARIVM est quod dicit Augustinus, &amp; 
+      <lb ed="#L" n="97"/>est in litera, quod peccatum adeo est voluntarium, quod si non 
+      <lb ed="#L" n="98"/>fuerit voluntarium, non erit peccatum. 
+      </p>
+            <p xml:id="jsnvu6-e142427-d1e147">
+               <lb ed="#L" n="99"/>
+               <!--3--> RESPONSIO. Aliquid potest dici voluntarium 
+      dupli<lb ed="#L" n="100" break="no"/>citer, vno modo, quia est in potestate voluntatis, &amp; hoc modo 
+      <lb ed="#L" n="101"/>oportet omne peccatum esse voluntarium, quia de his quae non 
+      <lb ed="#L" n="102"/>sunt in potestate nostra nec laudamur, nec vituperamur. Pro 
+      <lb ed="#L" n="103"/>peccato autem vituperamur, sicut pro actu virtutis laudamur. 
+      <lb ed="#L" n="104"/>loquimur enim de peccato in moribus, ergo omne peccatum 
+      <lb ed="#L" n="105"/>est in potestate nostra, nihil autem est in potestate nostra, vi 
+      <lb ed="#L" n="106"/>loquimur nunc, nisi ratione voluntatis, quae est libera, ergo &amp;c 
+      <lb ed="#L" n="107"/>Alio modo potest dici aliquid voluntarium, non solum quia est 
+      <lb ed="#L" n="108"/>in potestate voluntatis, sed quia est in voluntate subiectiue. Ei 
+      <lb ed="#L" n="109"/>sic dicendum est quod actus ille qui primo &amp; denominationi 
+      <lb ed="#L" n="110"/>intrinseca competit ratio peccati, est in voluntate subiectiue, 
+      <lb ed="#L" n="111"/>quia talis actus est ipsamet electio voluntatis. Aliis autem 
+      acti<lb ed="#L" n="112" break="no"/>bus a voluntate imperantis non competit ratio peccati, nisi 
+      se<lb ed="#L" n="113" break="no"/>cundario &amp; denominatione extrinseca, sicut declarabitur in 
+      se<lb ed="#L" n="114" break="no"/>quente distinctione. 
+      </p>
+            <p xml:id="jsnvu6-e142427-d1e186">
+               <lb ed="#L" n="115"/>
+               <!--4--> AD ARGVMENTVM in oppositum dicendum quod 
+      <lb ed="#L" n="116"/>nullum peccatum fit per ignorantiam, nisi sit talis ignorantia 
+      <lb ed="#L" n="117"/>quae non excludat penitus voluntarium, qualis est illa quae est 
+      <lb ed="#L" n="118"/>eorum quae homo potest &amp; tenetur scire. Quod autem 
+      Augu<lb ed="#L" n="119" break="no"/>stinus quaedam improbanda fieri per necessitatem, vocat 
+      neces<lb ed="#L" n="120" break="no"/>sitatem ineuitabilitatem peccatorum venialium, quoad omnia 
+      <lb ed="#L" n="121"/>simul, quodlibet enim eorum est voluntarium &amp; euitabile, sed 
+      <lb ed="#L" n="122"/>omnia simul non sunt euitabilia, quia dum ratio inuigilat ad 
+      <lb ed="#L" n="123"/>reprimendum vnum motum elicitum, alius motus subito 
+      insur<lb ed="#L" n="124" break="no"/>git. Haec autem necessitas non tollit voluntarium respectu 
+      cu<lb ed="#L" n="125" break="no"/>iuscunque peccati venialis in speciali, quo modo iudicandum est 
+      <lb ed="#L" n="126"/>de actionibus bonis &amp; malis, ideo peccatum nullum potest esse, 
+      <lb ed="#L" n="127"/>nisi sit voluntarium. Instant autem quidam de peccato 
+      origi<lb ed="#L" n="128" break="no"/>nali, quod videtur necessarium, sed de illo dictum fuit supra, 
+      <lb ed="#L" n="129"/>distinctione trigefima. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

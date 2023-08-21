@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="308-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e254425"><!-- l4d23prae -->
+            <head xml:id="jsnvu6-e254425-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e254425-d1e103">
+               <lb ed="#L" n="102"/>DISTINCTIO XXIII. 
+      <lb ed="#L" n="103"/>Sententia huius distinctionis in 
+      <lb ed="#L" n="104"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e254425-d1e112">
+               <lb ed="#L" n="105"/>PRAETER praemissa est etiam aliud 
+      sacramen<lb ed="#L" n="106" break="no"/>tum. Superius determinauit Magister de 
+      baptis<lb ed="#L" n="107" break="no"/>mo, qui est sacramentum intrantium, &amp; de 
+      confir<lb ed="#L" n="108" break="no"/>matione, &amp; de eucharistia, &amp; de poenitentia, quae 
+      <lb ed="#L" n="109"/>sunt sacramenta progredientium: hic 
+      verodeter<lb ed="#L" n="110" break="no"/>minat de extrema vnctione, quod est sacramentum exeuntium. 
+      <lb ed="#L" n="111"/>Et diuiditur in quinque. Primo determinat de huiusmodi 
+      sacra<lb ed="#L" n="112" break="no"/>mento quantum ad quidditatem. Secundo quantum ad eius 
+      in<lb ed="#L" n="113" break="no"/>stitutionem. Tertio quantum ad eius effectum. Quarto quantum 
+      <lb ed="#L" n="114"/>ad eius conformitatem. Quinto quantum ad eius vsum. 
+      Secun<lb ed="#L" n="115" break="no"/>da ibi, Hoc sacramentum vnctionia Tertia ibi, In quo 
+      ostendi<lb ed="#L" n="116" break="no"/>tur duplici ex causa. Quarta ibi, Et sicut in aliis sacramentis, 
+      <lb ed="#L" n="117"/>Quinta ibi, Quaerunt aliqui si hoc sacramentum, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e254425-d1e143">
+               <lb ed="#L" n="118"/>
+               <!--2--> IN: SPECIALI sic procedit. Et dicit primo, quod 
+      <lb ed="#L" n="119"/>praeter praemissa sacramenta est quoddam sacramentum 
+      vn<lb ed="#L" n="120" break="no"/>ctionis extremae quae fit in oleo per episcopum consecrato, &amp; 
+      <lb ed="#L" n="121"/>tangit triplex genus vnctionis. Est enim quaedam vnctio 
+      princi<lb ed="#L" n="122" break="no"/>palis quae fit ex chrismate (oleo scilicet misto cum balsamo) &amp; 
+      <lb ed="#L" n="123"/>tali vnctione vnguntur Reges; &amp; Pontifices in capite, 
+      confir<lb ed="#L" n="124" break="no"/>mandi in fronte, baptizandi in vertice. Alia vnctio qua vtuntur 
+      <lb ed="#L" n="125"/>catechumeni in pectore &amp; inter scapulas. Tertia vnctio est, qua 
+      <lb ed="#L" n="126"/>vnguntur infirmi, &amp; de hac ad praesens agitur: &amp; hae duae fiunt 
+      <lb ed="#L" n="127"/>oleo simplici benedicto. Postea dicit hoc sacramentum 
+      institu<lb ed="#L" n="128" break="no"/>tum fuisse ad Apostolis, vt habetur in canonica Iacobi. Postea 
+      <lb ed="#L" n="129"/>dicit quod hoc sacramentum institutum est ad duplicem 
+      effe<lb ed="#L" n="130" break="no"/>ctum, scilicet ad sanitatem animae &amp; corporis: quia tamen non 
+      <lb ed="#L" n="131"/>expedit homini semper quod corporaliter alleuetur, ideo non 
+      <lb ed="#L" n="132"/>semper in hoc sacramento sanitatem acquirit, qui hoc 
+      sacra<lb ed="#L" n="133" break="no"/>mentum deuote &amp; fideliter recipit spiritualiter, scilicet quoad 
+      <lb ed="#L" n="134"/>animam. Postea ponit conformitatem huius sacramenti ad alia, 
+      <lb ed="#L" n="135"/>quia in hoc sacramento est aliquid quod est sacramentum 
+      tan<lb ed="#L" n="136" break="no"/>tum, vt exterior vnctio, aliquid vero quod est res sacramenti, 
+      <lb ed="#L" n="137"/>vt vnctio interior, peccatorum remissio, &amp; virtutum 
+      apposi<lb ed="#L" n="138" break="no"/>tio, &amp; ideo hoc sacramentum contemnere vel negligere 
+      peri<lb ed="#L" n="139" break="no"/>culosum est. Vitimo quaerit vtrum hoc sacramentum possit ite. 
+      <lb ed="#L" n="140"/>rari. Et ostendit per Augustinum quod non, quia iniuriam faci 
+      <lb ed="#L" n="141"/>sacramento, qui iterat sacramentum. Et respondet ad hoc, quod 
+      <lb ed="#L" n="142"/>August. solum loquitur de quibusdam sacramentis, scilicet 
+      ba<lb ed="#L" n="143" break="no"/>ptismo, confirmatione, &amp; ordine, quae nullo modo iteranda 
+      <lb ed="#L" n="144"/>sunt. Alia vero saepius iterari possunt, vt eucharistia, 
+      poeniten<lb ed="#L" n="145" break="no"/>tia, &amp; matrimonium, quare &amp; vnctio iterari potest. Si enim 
+      mor<lb ed="#L" n="146" break="no"/>bus iteratur &amp; vnctio quae est medicina morbi iterari potest. 
+      <lb ed="#L" n="147"/>Secunda causa est haec, quia quum vnctio cum oratione 
+      opere<lb ed="#L" n="148" break="no"/>tur (vtrunque enim simul beatus Iacobus commemorat in 
+      ca<lb ed="#L" n="149" break="no"/>nonica sua) si oratio iterari potest, quare &amp; vnctio. Alij tamen 
+      di<lb ed="#L" n="150" break="no"/>cunt quod nullum sacramentum est totaliter iterandum, id est 
+      <lb ed="#L" n="151"/>quantum ad totum quod pertinet ad sacramentum. Idem enim 
+      <lb ed="#L" n="152"/>panis &amp; vinum solum semel consecratur, &amp; similiter idem oleum: 
+      <lb ed="#L" n="153"/>in coniugio etiam semel quis benedicitur, scilicet cum prima 
+      <lb ed="#L" n="154"/>vxore, sic etiam secundum istos, quod dicit Augustinus sacra 
+      <lb ed="#L" n="155"/>mentum iterandum non esse, si referatur ad sanctificationem 
+      <lb ed="#L" n="156"/>rei, sicut de omni sacramento est generaliter verum. Si autem 
+      <lb ed="#L" n="157"/>referatur ad vsum &amp; ad sumptionem sacramenti quaedam non 
+      <lb ed="#L" n="158"/>Titerantur, vt baptismus, &amp; confirmatio, &amp; ordo: quaedam vero 
+      <lb ed="#L" n="159"/>iterantur vt omnia alia, &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="167-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e4035"><!-- l2d38q2 -->
+            <head xml:id="jsnvu6-d1e4035-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e4035-Hd1e103" type="question-title">Utrum intentio sit actus voluntatis</head>
+            <p xml:id="jsnvu6-d1e4035-d1e106">
+               <lb ed="#L" n="67"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="68"/>Vtrum intentio sit actus voluntatis. 
+      <lb ed="#L" n="69"/>Thom. 1. 2. q. 12. ar. 1. 
+    </p>
+            <p xml:id="jsnvu6-d1e4035-d1e115">
+               <lb ed="#L" n="70"/>SECVNDO quaeritur vtrum intentio sit actui 
+      <lb ed="#L" n="71"/>voluntatis. Et videtur quod non, quia omnis 
+      <lb ed="#L" n="72"/>actus voluntatis, vel est finis, vel eorum quae sunt 
+      <lb ed="#L" n="73"/>ad finem, sed intentio non est finis nec eorum 
+      <lb ed="#L" n="74"/>aj quae sunt ad finem, ergo &amp;c. Minor patet, 
+      qui<lb ed="#L" n="75" break="no"/>actus voluntatis respectu finis dicitur velle, respectu autem 
+      <lb ed="#L" n="76"/>eorum quae sunt ad finem dicitur eligere, quorum neutrum 
+      <lb ed="#L" n="77"/>est intentio, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e4035-d1e135">
+               <lb ed="#L" n="78"/>
+               <!--2--> Item naturalia intendunt sinem vt dicitur a. Physicorum, 
+      <lb ed="#L" n="79"/>sed in eis non est voluntas, ergo &amp;c. 
+      <!--00401.xml-->
+      <cb ed="#L" n="b"/>
+            </p>
+            <p xml:id="jsnvu6-d1e4035-d1e149">
+               <lb ed="#L" n="80"/>
+               <!--3--> IN CONTRARIVM est, quia meritum &amp; 
+      deme<lb ed="#L" n="81" break="no"/>ritum pertinent ad voluntatem, sed tam meritum quam 
+      de<lb ed="#L" n="82" break="no"/>meritum attenduntur maxime secundum intentionem 
+      secun<lb ed="#L" n="83" break="no"/>dum Ambrosium, ergo &amp;c. Responsio, si sequeremur interpre 
+      <lb ed="#L" n="84"/>tationem nominis intentionis, quum intendere sit ex vno in 
+      <lb ed="#L" n="85"/>aliud tendere possemus dicere quod intentio esset actus 
+      ratio<lb ed="#L" n="86" break="no"/>nis, cuius est ex vno cognito ratiocinando in aliud tendere, &amp; 
+      <lb ed="#L" n="87"/>pedis cuius est vno loco in alium tendere, &amp; similiter plurium 
+      <lb ed="#L" n="88"/>aliorum: sed quia interpretatio nominum est quandoque 
+      ni<lb ed="#L" n="89" break="no"/>mis lata (non enim omne laedens pedem est lapis, nec omne tr 
+      <lb ed="#L" n="90"/>tum a pede est petra) ideo in significatis nominum magis sequer 
+      <lb ed="#L" n="91"/>dus est vsus loquentium, quam interpretatio eorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e4035-d1e180">
+               <lb ed="#L" n="92"/>
+               <!--4--> DICENDA sunt ergo tria. Primum est, quod inten 
+      <lb ed="#L" n="93"/>tio est actus voluntatis. Secundum est, quod est respectu finis 
+      <lb ed="#L" n="94"/>Tertium est, quod est respectu finis non absolute, sed vt per ali 
+      <lb ed="#L" n="95"/>quid aliud peruenitur ad finem. 
+</p>
+            <p xml:id="jsnvu6-d1e4035-d1e193">
+               <lb ed="#L" n="96"/>PRIMVM patet dupliciter. Primo sic, intendere impor 
+      <lb ed="#L" n="97"/>tat in aliquid tendere: tendit autem in aliquid &amp; actio 
+      mouen<lb ed="#L" n="98" break="no"/>tis &amp; mobilis, sed quod mobile tendat in aliquid, hoc procedit ex 
+      <lb ed="#L" n="99"/>actione mouentis. Ex hoc sic arguitur, illi potentiae praecipue 
+      <lb ed="#L" n="100"/>conuenit intendere cui competit motus actiue &amp; passiue, sed so 
+      <lb ed="#L" n="101"/>la voluntas est huiusmodi, ergo &amp;c. Maior patet: sed minor 
+      pro<lb ed="#L" n="102" break="no"/>batur. Aliis enim potentiis a voluntate competit tendere ex vno 
+      <lb ed="#L" n="103"/>in aliud solum passiue, sicut rationi competit discurrere ex vno 
+      <lb ed="#L" n="104"/>cognito in aliud, sed hoc habet actiue a voluntate imperante 
+      <lb ed="#L" n="105"/>discursum, &amp; similiter est in aliis. Voluntas autem tendit quidem 
+      <lb ed="#L" n="106"/>ex vno volito in aliud, sed hoc aliquo modo habet a se actiue, 
+      <lb ed="#L" n="107"/>&amp; non solum passiue, sicut aliae potentiae, sicut alias declaratum 
+      <lb ed="#L" n="108"/>fuit, ideo &amp;c. Item nullus intendens ad malum operatur, vt vulit 
+      <lb ed="#L" n="109"/>Diony. de di.no. Illius ergo potentiae intentio est actus, cuius 
+      ob<lb ed="#L" n="110" break="no"/>iectum est bonum &amp; malum, haec autem est voluntas, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e4035-d1e228">
+               <lb ed="#L" n="111"/>
+               <!--6--> SECVNDVM sic patet inter volita illud habet ratio 
+      <lb ed="#L" n="112"/>nem intenti, quod habet rationem termini, intentio enim 
+      im<lb ed="#L" n="113" break="no"/>portat motum: motus autem per se respicit terminum, &amp; non 
+      <lb ed="#L" n="114"/>medium nisi ratione termini, sed finis habet rationem 
+      termi<lb ed="#L" n="115" break="no"/>ni, ea autem quae sunt ad finem rationem medij, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e4035-d1e244">
+               <lb ed="#L" n="116"/>
+               <!--7--> TERTIVM apparet ex eodem, omnis enim motus est 
+      <lb ed="#L" n="117"/>ex quodam in quoddam: intentio autem non importat 
+      simpli<lb ed="#L" n="118" break="no"/>cem actum voluntatis, sed motum, ergo intentio est actus 
+      volun<lb ed="#L" n="119" break="no"/>tatis ex quodam volito tendens in aliud. Illud autem in quod ten 
+      <lb ed="#L" n="120"/>dit est finis, vt iam dictum est: illud autem ex quo vel per quod ten 
+      <lb ed="#L" n="121"/>dit, est res ordinata ad finem, ergo &amp;c. Aduertendum tamenae 
+      <lb ed="#L" n="122"/>licet sic proprie vtamur nomine intentionis, tamen in commi 
+      <lb ed="#L" n="123"/>ni vsu loquendi, quandoque nomine intentionis sumitur large 
+      <lb ed="#L" n="124"/>pro actu voluntatis, quo immediate volumus aliquid, praecipue 
+      <lb ed="#L" n="125"/>in operalibus, sicut dicimus quandoque quod intendimus ire 
+      <lb ed="#L" n="126"/>ad talem locum, vel incedere, vel aliquid huiusmodi. 
+      </p>
+            <p xml:id="jsnvu6-d1e4035-d1e273">
+               <lb ed="#L" n="127"/>
+               <!--8--> AD PRIMVM argumentum dicendum qu intentio 
+      <lb ed="#L" n="128"/>proprie est actus voluntatis respectu finis. Sed voluntas potest re 
+      <lb ed="#L" n="129"/>spicere finem dupliciter, vno modo prout in eo quiescitur, &amp; hoc 
+      <lb ed="#L" n="130"/>modo actus voluntatis dicitur fruitio, alio modo secundum q 
+      <lb ed="#L" n="131"/>est terminus alicuius quod in ipsum ordinatur, &amp; sic intentio re 
+      <lb ed="#L" n="132"/>spicit finem quae differt ab electione. Electio enim est directe de 
+      <lb ed="#L" n="133"/>his quae sunt ad finem, licet in habitudine ad finem. Sed 
+      inten<lb ed="#L" n="134" break="no"/>tio est directe de fine, licet in habitudine ad ea quae sunt ad 
+      fi<lb ed="#L" n="135" break="no"/>nem modo quo dictum est, forte differentia electionis ab 
+      inten<lb ed="#L" n="136" break="no"/>tione &amp; econuerso est solum secundum rationem. Cum enim 
+      <lb ed="#L" n="137"/>simul &amp; eodem actu voluntas feratur in finem, &amp; in ea quae sunt 
+      <lb ed="#L" n="138"/>ad finem simul &amp; eodem actu finem intendit, &amp; ea quae sunt ad 
+      <lb ed="#L" n="139"/>finem. Dicitur ergo actus intentio quoad finem, sed electio 
+      quan<lb ed="#L" n="140" break="no"/>tum ad ea quae sunt volita propter finem: velle autem proprie 
+      <lb ed="#L" n="141"/>dicit actum voluntatis absolutae respectu boni, non inclusa 
+      ra<lb ed="#L" n="142" break="no"/>tione finis, vel eorum quae sunt ad finem. Cum enim rationes 
+      eo<lb ed="#L" n="143" break="no"/>rum sint relatiuae, impossibile est quod voluntas seratur absoluti 
+      <lb ed="#L" n="144"/>in aliquid eorum sub propriis eorum rationibus. Sed si feratur 
+      <lb ed="#L" n="145"/>in vnum, fertur &amp; in alterum, cum referantur mutuo secundum 
+      <lb ed="#L" n="146"/>rationem bonitatis in eis existentis. Quod autem dicit Philo. 
+      <lb ed="#L" n="147"/>3. Ethicorum, quod voluntas est finis, non est intelligendum cum 
+      <lb ed="#L" n="148"/>reduplicatione, scilicet quod sit finis inquantum finis, sed quia 
+      ni<lb ed="#L" n="149" break="no"/>hil potest habere rationem finis, nisi habeat aliquam bonitatem 
+      <lb ed="#L" n="150"/>in se, ratione cuius voluntas potest ferri in ipsum absolute, 
+      mul<lb ed="#L" n="151" break="no"/>ta autem ordinantur in finem, quae nullam habent bonitatem 
+      <lb ed="#L" n="152"/>in se &amp; absolute, sed solum ex ordine in aliud (puta medicina 
+      <lb ed="#L" n="153"/>amara) ideo voluntas magis dicitur esse finis quam eorum qua 
+      <lb ed="#L" n="154"/>sunt ad finem, licet neutrorum sit cum reduplicatione, quia 
+      <lb ed="#L" n="155"/>velle dicit actum voluntatis respectu boni absolute. 
+      </p>
+            <p xml:id="jsnvu6-d1e4035-d1e342">
+               <lb ed="#L" n="156"/>
+               <!--9--> Ad secundum dicendum quo naturalia dicuntur intendere fi 
+      <lb ed="#L" n="157"/>nem metaphorice &amp; non proprie, quia appetitus eorum noi 
+      <lb ed="#L" n="158"/>dirigitur in finem a se vel ab aliquo sibi coniuncto, sed ab inte 
+      <lb ed="#L" n="159"/>lectu separato instigante naturam, &amp; ideo magis aguntur quam 
+      <lb ed="#L" n="160"/>agant. Voluntas vero mouet se saltem indirecte, quatenus moue 
+      <lb ed="#L" n="161"/>rationem ad deliberandum, quae congruunt fini, vel non: &amp; idec 
+      <!--00402.xml-->
+      <pb ed="#L" n="167-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>magis competit ei intendere, quam naturae, cui non competit. 
+      <lb ed="#L" n="2"/>nisi secundum quid, &amp; improprie. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

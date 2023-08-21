@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="140-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3166"><!-- l2d19q2 -->
+            <head xml:id="jsnvu6-d1e3166-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e3166-Hd1e103" type="question-title">Utrum corpus Adae fuerit passibile</head>
+            <p xml:id="jsnvu6-d1e3166-d1e106">
+               <lb ed="#L" n="59"/>YATITIO EECYNDA. 
+      <lb ed="#L" n="60"/>Vtrum corpus Adae fuerit passibile. 
+      <lb ed="#L" n="61"/>Thom. 1. 4. 97. ar. 2. &amp; 3. ad. 2.
+    </p>
+            <p xml:id="jsnvu6-d1e3166-d1e115">
+               <lb ed="#L" n="62"/>SECVNDO quaeritur, vtrum corpus Adae 
+      fue<lb ed="#L" n="63" break="no"/>rit passibile. Et videtur quod sic, quia quaecunque 
+      <lb ed="#L" n="64"/>communicant in materia agunt &amp; patiuntur 
+      mu<lb ed="#L" n="65" break="no"/>tuo, vt dicitur Genes. I. Sed corpus Adae 
+      communi<lb ed="#L" n="66" break="no"/>&amp; cabat in materia cum aliis, ergo potuit ab eis pati 
+      </p>
+            <p xml:id="jsnvu6-d1e3166-d1e128">
+               <lb ed="#L" n="67"/>
+               <!--2--> IN CONTRARIVM arguitur, quia passio 
+      ma<lb ed="#L" n="68" break="no"/>gis ac magis facta, semper plus abiicit a substantia, &amp; tandem 
+      <lb ed="#L" n="69"/>inducit corruptionem, sed corpus Adae fuit incorruptibile, 
+      er<lb ed="#L" n="70" break="no"/>go &amp; impassibile. 
+</p>
+            <p xml:id="jsnvu6-d1e3166-d1e142">
+               <lb ed="#L" n="71"/>RESPONSIO. Passio proprie dicta, quae est abiectio 
+      <lb ed="#L" n="72"/>alicuius conuenientis secundum naturam potest accipi 
+      dupli<lb ed="#L" n="73" break="no"/>citer. Vno modo, vt inducit corruptionem cum effectu. Alio 
+      <lb ed="#L" n="74"/>modo vt stat in limitibus passionis. Primo modo corpus Adae 
+      <lb ed="#L" n="75"/>non fuit passibile, sicut nec corruptibile durante statu 
+      inno<lb ed="#L" n="76" break="no"/>centiae. Secundo modo accepta passio duplex est. Naturalis, 
+      <lb ed="#L" n="77"/>quae consistit in sola abiectione alicuius conuenientis, &amp; 
+      ani<lb ed="#L" n="78" break="no"/>malis quae est dolor ex praeceptione laesiui. Si naturalis, sic fuit 
+      <lb ed="#L" n="79"/>Adam vere passibilis secundum corpus, quia fuit in eo vera de 
+      <lb ed="#L" n="80"/>perditio alicuius conuenientis secundum naturam, quia pate 
+      <!--00347.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>quia pro statu innocentiae necessarium fuit alimentum, cum 
+      ho<lb ed="#L" n="82" break="no"/>mo haberet corpus animale indigens cibis, propter quod 
+      prae<lb ed="#L" n="83" break="no"/>ceptum fuit primo homini Genes. II. Ex omni ligno paradisi 
+      co<lb ed="#L" n="84" break="no"/>mede. vsus autem alimenti solum est triplex, scilicet ad 
+      nutri<lb ed="#L" n="85" break="no"/>tionem, augmentum, &amp; generationem. In primis autem 
+      paren<lb ed="#L" n="86" break="no"/>tibus non fuit vsus alimenti ad augmentum, quia formati 
+      fue<lb ed="#L" n="87" break="no"/>runt in perfecta quantitate, nec fuisset solum ad generationem, 
+      <lb ed="#L" n="88"/>tum quia tunc non comedissent nisi quotiens genuissent, quod 
+      <lb ed="#L" n="89"/>falsum est, tum quia semen est aliquid decisum a toto corpore, 
+      <lb ed="#L" n="90"/>non decideretur autem, nisi aliqua pars in totum corpus 
+      con<lb ed="#L" n="91" break="no"/>uerteretur &amp; alia decideretur. Restat ergo vt aliquis vsus 
+      ali<lb ed="#L" n="92" break="no"/>menti fuisset ad nutritionem, sed nutritio est restauratio 
+      alicu<lb ed="#L" n="93" break="no"/>ius deperditi: ergo in corpore Adae fiebat aliqua deperditio, &amp; 
+      <lb ed="#L" n="94"/>ita fuit in eo vera passio naturalis quae est abiectio alicuius 
+      con<lb ed="#L" n="95" break="no"/>uenientis secundum naturam. Nec potest dici quod alimentum 
+      <lb ed="#L" n="96"/>sumeretur non ad restaurationem deperditi, sed vt prohiberet 
+      <lb ed="#L" n="97"/>deperditionem fieri, quia alimentum sumptum vere conuersum 9 
+      <lb ed="#L" n="98"/>fuisset in naturam nutriti, alioquin non fuisset principium 
+      au<lb ed="#L" n="99" break="no"/>gmenti in pueris. Augmentum autem non fit per naturam nisi 
+      <lb ed="#L" n="100"/>vel per rarefactionem quae non fuisset in augmento puerorum, vel 
+      <lb ed="#L" n="101"/>per additionem materiae, vt visum fuit supra dist. praecedente. 
+      <lb ed="#L" n="102"/>Si igitur de substantia corporis nihil deperderetur ante 
+      sum<lb ed="#L" n="103" break="no"/>ptionem cibi, nec post &amp; semper aliquid conuerteretur de 
+      ali<lb ed="#L" n="104" break="no"/>mento, oporteret necessario quod semper sequeretur augmen 
+      <lb ed="#L" n="105"/>tum quod non est verum, fuisset ergo in statui innocentiae 
+      ve<lb ed="#L" n="106" break="no"/>ra passio naturalis quae est abiectio alicuius conuenientis 
+      secun<lb ed="#L" n="107" break="no"/>dum naturam, nec tamen fuisset sequuta corruptio secundum 
+      <lb ed="#L" n="108"/>totum, quia quod abiectum fuisset, restauratum fuisset in 
+      ea<lb ed="#L" n="109" break="no"/>dem puritate per virtutem ligni vitae confortantis ad modum 
+      <lb ed="#L" n="110"/>optimae medicinae, vt dicit Aug. lib. de quaestionibus no. &amp; veter. 
+      <lb ed="#L" n="111"/>test. &amp; sic restauratum fuisset quod suffecisset ad vitae 
+      continua<lb ed="#L" n="112" break="no"/>tionem quousque transferrentur in statum gloriae. 
+      </p>
+            <p xml:id="jsnvu6-d1e3166-d1e240">
+               <lb ed="#L" n="113"/>
+               <!--4--> Si vero loquamur de passione animali, quae est dolor 
+      sensi<lb ed="#L" n="114" break="no"/>tiuus proueniens ex perceptione laesiui. Sic in statu innocentia 
+      <lb ed="#L" n="115"/>non fuit talis passio. Quod probatur primo ex dicto scripturae 
+      <lb ed="#L" n="116"/>Genes. 3. vbi Dominus dicit mulieri post peccatum, &amp; in poenam 
+      <lb ed="#L" n="117"/>peccati, in dolore paries. Et idem sentiendum est de aliis 
+      dolo<lb ed="#L" n="118" break="no"/>ribus. Persuadetur etiam hoc tali ratione poena non debet 
+      prae<lb ed="#L" n="119" break="no"/>cedere culpam, sed passio animalis quae est dolor ex sensu 
+      lae<lb ed="#L" n="120" break="no"/>sionis poena est, ergo non fuit ante culpam. Et de hac passione, 
+      <lb ed="#L" n="121"/>scilicet animali intelligendum est illud quod communiter Doctores 
+      <lb ed="#L" n="122"/>dicunt hic (scilicet quod passio non fuit in tempore innocentiae, 
+      <lb ed="#L" n="123"/>non autem de passione pure naturali non inducente 
+      corruptio<lb ed="#L" n="124" break="no"/>nem quamuis autem corpus Adae in statu innocentiae 
+      passibi<lb ed="#L" n="125" break="no"/>le esset praedicta passione, tamen praeseruabatur ne actu 
+      pate<lb ed="#L" n="126" break="no"/>retur partim per rationem propriam, per quam poterat nociua 
+      <lb ed="#L" n="127"/>vitare, partim per diuinam prouidentiam quae sic eum 
+      tue<lb ed="#L" n="128" break="no"/>batur, vt nihil occurreret ei ex improuiso a quo laederetur. 
+      </p>
+            <p xml:id="jsnvu6-d1e3166-d1e279">
+               <lb ed="#L" n="129"/>
+               <!--5--> Per hoc patet solutio ad obiecta. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="161-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3828"><!-- l2d33q2 -->
+            <head xml:id="jsnvu6-d1e3828-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e3828-Hd1e103" type="question-title">Utrum peccatum originale in unoquoque sit unum, an plura</head>
+            <p xml:id="jsnvu6-d1e3828-d1e106">
+               <lb ed="#L" n="120"/>VAISTIO ALCYNDA. 
+      <lb ed="#L" n="121"/>Vtrum peccatum originale in vnoquoque 
+      <lb ed="#L" n="122"/>sit vnum, an plura. 
+      <lb ed="#L" n="123"/>Thom. 1. 2. q. 82. ar. 2. 
+    </p>
+            <p xml:id="jsnvu6-d1e3828-d1e117">
+               <lb ed="#L" n="124"/>DEINDE quaeritur, vtrum peccatum originale in 
+      <lb ed="#L" n="125"/>vnoquoque sit vnum, an plura. Et videtur quod sinm 
+      <lb ed="#L" n="126"/>plura, quia vnum non inclinat nisi ad vnum, sed 
+      <lb ed="#L" n="127"/>per peccatum originale inclinamur ad multa, quia 
+      <lb ed="#L" n="128"/>per ipsum vnaquaeque potentia inordinate 
+      fer<lb ed="#L" n="129" break="no"/>tur ad suum obiectum, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3828-d1e133">
+               <lb ed="#L" n="130"/>
+               <!--2--> Item poena correspondet culpae, sed peccati originalis sunt plu 
+      <lb ed="#L" n="131"/>res poenae, scilicet mortalitas, passibilitas, &amp; huiusmodi, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e3828-d1e143">
+               <lb ed="#L" n="132"/>
+               <!--3--> IN CONTRARIVM est, quia plura eiusdem 
+      spe<lb ed="#L" n="133" break="no"/>ciei non possent esse in eodem subiecto (vt patet ex 5. Meta 
+      <lb ed="#L" n="134"/>Sed omnia peccata originalia sunt eiusdem speciei, ergo non pero 
+      <lb ed="#L" n="135"/>test esse nisi vnum in vno. 
+      </p>
+            <p xml:id="jsnvu6-d1e3828-d1e156">
+               <lb ed="#L" n="136"/>
+               <!--4--> RESPONSIO. Sicut apparet ex praecedentibus 
+      pe<lb ed="#L" n="137" break="no"/>carum originale includit reatum, seu debitum habendi iustitiam 
+      <lb ed="#L" n="138"/>origi nalem qua quis iuste caret, esse autem iuste reum alicuius 
+      <lb ed="#L" n="139"/>poenae seu carentiae alicuius boni prouenit ex aliqua culpa secun 
+      <lb ed="#L" n="140"/>dum cuius vnitatem vel pluralitatem reatus debet dici plures 
+      <lb ed="#L" n="141"/>vel vnus. Cum igitur culpa ex qua sumus rei carere iustitia 
+      ori<lb ed="#L" n="142" break="no"/>gin ali fuerit vna, videlicet peccatum primum primi parentis 
+      <lb ed="#L" n="143"/>patet quod iste reatus seu debitum carendi iustitia originali sit 
+      <lb ed="#L" n="144"/>in vnoquoque tantum vnus, quantum est ex parte culpae ex qua 
+      <lb ed="#L" n="145"/>sumus rei. Quantum autem est ex parte subiecti, hoc est ex 
+      par<lb ed="#L" n="146" break="no"/>te hominis qui dicitur reus, oportet reatum esse vnum, ex quo ess 
+      <lb ed="#L" n="147"/>ex vno, &amp; in vno, quia sicut arguebatur, in vno subiecto non suni 
+      <lb ed="#L" n="148"/>plura accidentia eiusdem speciei differentia solum numero, v 
+      <lb ed="#L" n="149"/>parte autem poenae, cuius aliquis reus est non oportet multipli 
+      <lb ed="#L" n="150"/>cari reatum, quia iuste aliquis reus est plurium poenarum ex vnc 
+      <lb ed="#L" n="151"/>delicto maxime quantum ad poenas damni, sicut scriptum est, 
+      <lb ed="#L" n="152"/>qui in vno peccauerit, multa bona perdet.
+</p>
+            <p xml:id="jsnvu6-d1e3828-d1e198">
+               <lb ed="#L" n="153"/>Ad primum argu. dicendum quod vnum non inclinat nisi ad 
+      <lb ed="#L" n="154"/>vnum per se &amp; directe: sed vnum potest inclinare ad multa, tar 
+      <lb ed="#L" n="155"/>quam remouens prohibens, sicut cum eadem columna impedi 
+      <lb ed="#L" n="156"/>graue superpositum ne descendat, &amp; leue suppositum ne ascendat, 
+      <lb ed="#L" n="157"/>remouens columnam facit leue ascendere, &amp; graue descendere 
+      <lb ed="#L" n="158"/>eodem modo peccatum originale tollens gratiam a voluntate, 
+      <!--00390.xml-->
+      <pb ed="#L" n="161-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>&amp; per consequens rectitudine virium inseriorum ad rationem 
+      <lb ed="#L" n="2"/>inclinat ad multa per modum remouentis prohibens. 
+      </p>
+            <p xml:id="jsnvu6-d1e3828-d1e224">
+               <lb ed="#L" n="3"/>
+               <!--6--> Ad secundum dicendum quod poena &amp; si correspondeat 
+      cul<lb ed="#L" n="4" break="no"/>pae secundum iustam aestimationem dei infligentis poenam, 
+      ta<lb ed="#L" n="5" break="no"/>men non oportet quod respondeat secundum durationem, 
+      ne<lb ed="#L" n="6" break="no"/>que secundum vnitatem vel pluralitatem, imo plures poenae 
+      in<lb ed="#L" n="7" break="no"/>fliguntur pro vna culpa quarum nulla secundum se esset 
+      com<lb ed="#L" n="8" break="no"/>mensurata, &amp; sic est in proposito. Auferuntur enim a nobis 
+      pro<lb ed="#L" n="9" break="no"/>pter primi parentis ingratitudinem omnia quae sibi pro se &amp; 
+      pr<lb ed="#L" n="10" break="no"/>nobis gratuito collata fuerant.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

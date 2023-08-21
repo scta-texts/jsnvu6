@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="189-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e155269"><!-- l3d3q4 -->
+            <head xml:id="jsnvu6-e155269-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e155269-Hd1e103" type="question-title">Utrum beata virgo post sanctificationem 
+      peccare potuit</head>
+            <p xml:id="jsnvu6-e155269-d1e106">
+               <lb ed="#L" n="24"/>QVAESTIO QVARTA. 
+      <lb ed="#L" n="25"/>Vtrum beata virgo post sanctificationem 
+      <lb ed="#L" n="26"/>peccare potuit. 
+      <lb ed="#L" n="27"/>Thom. 3. q. 27. art. 4.
+    </p>
+            <p xml:id="jsnvu6-e155269-d1e117">
+               <lb ed="#L" n="28"/>DEINDE quaeritur de alio effectu 
+      sanctificatio<lb ed="#L" n="29" break="no"/>nis, vtrum beata virgo post sanctificationem 
+      pec<lb ed="#L" n="30" break="no"/>care potuit. Et videtur quod sic, quia Augustinus 
+      <lb ed="#L" n="31"/>al dicit in quaestionibus veteris &amp; noui testamenti, 
+      <lb ed="#L" n="32"/>a quod Maria per quam gestum est mysserium 
+      in<lb ed="#L" n="33" break="no"/>carnationis in morte domini dubitauit, non tamen in 
+      dubitatio<lb ed="#L" n="34" break="no"/>ne permansit, sed dubitatio de fide peccatum est: ergo ipsa pos 
+      <lb ed="#L" n="35"/>primam, &amp; etiam secundam sanctificationem, non tantum 
+      pec<lb ed="#L" n="36" break="no"/>care potuit, sed peccauit. 
+      </p>
+            <p xml:id="jsnvu6-e155269-d1e139">
+               <lb ed="#L" n="37"/>
+               <!--2--> Praeterea Chrysostomus super Matthaeum exponens illud 
+      <lb ed="#L" n="38"/>Ecce mater tua &amp; fratres tui foris stant quaerentes te: dicit 
+      ma<lb ed="#L" n="39" break="no"/>nifestum est, quod faciebant ex vana gloria. Et super illud 
+      Ioan<lb ed="#L" n="40" break="no"/>nis secundo, vinum non habent, dicit idem Chrysostomus, quod 
+      <lb ed="#L" n="41"/>volebat seipsam clariorem facere per filium, &amp; fortassis quid 
+      hu<lb ed="#L" n="42" break="no"/>manum patiebatur, quemadmodum &amp; fratres dicentes, 
+      manife<lb ed="#L" n="43" break="no"/>sta teipsum mundo Constat autem quod talia sunt peccata 
+      sal<lb ed="#L" n="44" break="no"/>tem venialia: ergo beata virgo post secundam sanctificationem 
+      <lb ed="#L" n="45"/>non fuit immunis ab omni peccato. 
+      </p>
+            <p xml:id="jsnvu6-e155269-d1e164">
+               <lb ed="#L" n="46"/>
+               <!--3--> IN CONTRARIVM est quod Ber. subdit in 
+      episto<lb ed="#L" n="47" break="no"/>la ad Lugdunens. loquens de prima eius sanctificatione, &amp; 
+      di<lb ed="#L" n="48" break="no"/>cens, ergo puto quod copiosior gratia sanctificationis, quam in 
+      <lb ed="#L" n="49"/>aliis sanctis ab vtero sanctificatis, in ipsam descenderit, quae non 
+      <lb ed="#L" n="50"/>solum ortum eius sanctificauit, sed eam ab omni peccato 
+      dein<lb ed="#L" n="51" break="no"/>ceps custodiuit immunem: ergo non solum per secundam 
+      san<lb ed="#L" n="52" break="no"/>ctificationem, sed etiam per primum adepta est beata virgo 
+      im<lb ed="#L" n="53" break="no"/>munitatem ab omni peccato. Et idem dicit Augustinus in lib. 
+      <lb ed="#L" n="54"/>de natura &amp; gratia. 
+      </p>
+            <p xml:id="jsnvu6-e155269-d1e188">
+               <lb ed="#L" n="55"/>
+               <!--4--> RESPONSIO. Quaestio ista alia est a praecedente, quia 
+      <lb ed="#L" n="56"/>quamuis per primam vel secundam sanctificationem beata virge 
+      <lb ed="#L" n="57"/>fuisset totaliter liberata a fomite, non propter hoc tamen fuisse 
+      <lb ed="#L" n="58"/>confirmata in bono, ita vt non posset peccare, quia peccare ex 
+      in<lb ed="#L" n="59" break="no"/>clinatione fomitis est peccare ex infirmitate, siue ex passione. 
+      <lb ed="#L" n="60"/>Contingit autem aliter peccare, quam ex infirmitate, scilicet ex 
+      <lb ed="#L" n="61"/>ignorantia, vel ex electione, siue ex malitia, ergo ablatio, vel 
+      al<lb ed="#L" n="62" break="no"/>ligatio fomitis non potest esse causa totius impeccabilitatis. 
+      </p>
+            <p xml:id="jsnvu6-e155269-d1e210">
+               <lb ed="#L" n="63"/>
+               <!--5.--> Item in angelis non est fomes, nec fuit in primis parentibus 
+      <lb ed="#L" n="64"/>pro statu innocentiae, vel saltem fuit in eis ligatus. Et tamen tam 
+      <lb ed="#L" n="65"/>angeli quam primi parentes peccauerunt: ergo carere fomite non 
+      <lb ed="#L" n="66"/>potest esse sufficiens ratio, quare aliquis non possit peccare. 
+      Re<lb ed="#L" n="67" break="no"/>stat ergo inquirendum an beata virgo fuerit per aliquam 
+      sanctifi<lb ed="#L" n="68" break="no"/>cationem a deo confirmata in bono, quod peccare non posset. 
+      </p>
+            <p xml:id="jsnvu6-e155269-d1e228">
+               <lb ed="#L" n="69"/>
+               <!--6.--> Et dicendum ad hoc quod confirmari in bono contingit 
+      duplici<lb ed="#L" n="70" break="no"/>ter. Vno modo ex dono inhaerente. Alio modo ex adiutorio sibi 
+      <lb ed="#L" n="71"/>coassistente. Primo modo nullus purus viator confirmatur in 
+      bo<lb ed="#L" n="72" break="no"/>no adeo quod peccare non possit, sed soli beati. Cuius ratio est, quia 
+      <lb ed="#L" n="73"/>existente possibili defectu in ratione possibile est voluntatem 
+      pec<lb ed="#L" n="74" break="no"/>care in electione, quia electio voluntatis sequitur iudicium rationis 
+      <lb ed="#L" n="75"/>Et hoc satis bene probatum fuit in 2. lib. d. 7. Sed in omni viatori 
+      <lb ed="#L" n="76"/>est possibilis aliquis defectus in ratione, vel defectus erroris vel 
+      <lb ed="#L" n="77"/>ignorantiae, vel nescientiae, vel saltem inconsiderationis: soli enim 
+      com<lb ed="#L" n="78" break="no"/>prehensores haec habent ex hoc quod semper actu vident quicquid 
+      <lb ed="#L" n="79"/>ad eos pertinet: &amp; ideo non videtur que aliquis purus viator pos¬ 
+      <!--00452.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>sit per aliquod donum sibi inhaerens sic confirmari in bono quond 
+      <lb ed="#L" n="81"/>non possit quandoque peccare peccato commissionis vel 
+      omis<lb ed="#L" n="82" break="no"/>sionis, non enim apparet per quale donim possit viator 
+      habe<lb ed="#L" n="83" break="no"/>re quod semper consideret ea quae ad ipsum pertinere possunt. 
+      </p>
+            <p xml:id="jsnvu6-e155269-d1e270">
+               <lb ed="#L" n="84"/>
+               <!--7--> Item ille cuius liberum arbitrium est per donum inhaerens sic 
+      <lb ed="#L" n="85"/>confirmatus quod peccare non potest, talis non potest mereri 
+      ab<lb ed="#L" n="86" break="no"/>stinendo a peccatis, quia meritum est a lib. arb. flexibili ad vtrunque, 
+      <lb ed="#L" n="87"/>&amp; ideo vbi lib. arb. est in vno confirmatum, sic quod non est flexibile 
+      <lb ed="#L" n="88"/>ad alterum ibi non est meritum quo ad illud, sicut etiam dicimus 
+      <lb ed="#L" n="89"/>de beatis que non merentur quantum ad illa, in quibus liberum 
+      <lb ed="#L" n="90"/>arbitrium est in vno confirmatum. Et quia liberum arbitrium bonorum 
+      <lb ed="#L" n="91"/>est in bono confirmatum, ideo non merentur abstinendo a malis, si 
+      <lb ed="#L" n="92"/>ergo purus viator posset confirmari in bono per aliquod donum 
+      <lb ed="#L" n="93"/>inhaerens taliter quod peccare non posset, sequeretur quod purus 
+      via<lb ed="#L" n="94" break="no"/>tor non posset mereri abstinendo a peccatis quod est contra 
+      ra<lb ed="#L" n="95" break="no"/>tionem viatoris, cuius est procedere in via per meritum. 
+      Pro<lb ed="#L" n="96" break="no"/>pter quod cum beata virgo fuerit pura creatura viatrix non 
+      vi<lb ed="#L" n="97" break="no"/>detur quod hoc modo, scilicet per donum inhaerens, fuerit per 
+      <lb ed="#L" n="98"/>aliquam sanctificationem confirmata sic vt peccare non posset 
+      </p>
+            <p xml:id="jsnvu6-e155269-d1e307">
+               <lb ed="#L" n="99"/>
+               <!--8--> Secundo autem modo credibile est beatam virginem fuisse 
+      <lb ed="#L" n="100"/>confirmatam in bono ex diuina prouidentia sibi coexistente &amp; 
+      <lb ed="#L" n="101"/>praeseruante eius liberum arbitrium ne inclinaretur ad malum, non 
+      <lb ed="#L" n="102"/>cogendo ipsum, sed iuuando &amp; inclinando ipsum ad bonum, quo 
+      <lb ed="#L" n="103"/>existente ipsa non potuit peccare, sicut homo currens non potest 
+      <lb ed="#L" n="104"/>non currere dum currit. Hoc autem adiutorium habuit beata 
+      <lb ed="#L" n="105"/>virgo per vtramque sanctificationem, sed plenius &amp; perfectiu 
+      <lb ed="#L" n="106"/>per secundam, &amp; hoc persuadetur dupliciter. Primo sic, quia ge 
+      <lb ed="#L" n="107"/>ria filiorum sunt patres eorum, vt dicitur Prouer. 17. Et 
+      econtra<lb ed="#L" n="108" break="no"/>rio ignominia parentum redundat in filios propter quod si ma 
+      <lb ed="#L" n="109"/>ter vnquam actualiter peccasset ignominia eius aliquo modo in 
+      <lb ed="#L" n="110"/>filium redundasset quod non decuit. Secundo quia sicut ipsa fuit 
+      <lb ed="#L" n="111"/>media inter filium qui est sanctus sanctorum &amp; alios sanctos, ita 
+      <lb ed="#L" n="112"/>decuit vt medium gradum sanctitatis teneret: sed filius eius nullum 
+      <lb ed="#L" n="113"/>peccatum contraxit originale, nec actuale commisit, alij autem 
+      <lb ed="#L" n="114"/>sancti &amp; originale contraxerunt, &amp; actuale commiserunt, erge 
+      <lb ed="#L" n="115"/>conueniens fuit vt mater originale haberet sub Christo, sed 
+      prae<lb ed="#L" n="116" break="no"/>seruari debuit ab omni actuali super omnes alios sanctos iuxta 
+      <lb ed="#L" n="117"/>dictum Anselmi in praecedentibus allegatum, quod decuit vt il 
+      <lb ed="#L" n="118"/>lius hominis, id est, Christi conceptio ex purissima matre fieret 
+      <lb ed="#L" n="119"/>quae ea puritate niteret qua sub deo nequit maior inrelligi. 
+      </p>
+            <p xml:id="jsnvu6-e155269-d1e358">
+               <lb ed="#L" n="120"/>
+               <!--9--> AD PRIMVM argumentum dicendum quod dubitatio 
+      <lb ed="#L" n="121"/>quae sonat in infirmitatem fidei peccatum est, nec talis 
+      dubita<lb ed="#L" n="122" break="no"/>tio fuit in beata virgine tempore passionis; sed remansit in ea 
+      <lb ed="#L" n="123"/>fides firmissima. Fuit tamen in ea quaedam dubitatio 
+      admira<lb ed="#L" n="124" break="no"/>tionis dum considerabat eum quem tam digne genuerat sic 
+      igno<lb ed="#L" n="125" break="no"/>miniose pati. 
+      </p>
+            <p xml:id="jsnvu6-e155269-d1e376">
+               <lb ed="#L" n="126"/>
+               <!--10--> Ad secundum dicendum quod Chrysosto excessit in verbis 
+      <lb ed="#L" n="127"/>illis quamuis possit exponi vt intelligatur dominum cohibuisse 
+      <lb ed="#L" n="128"/>motum inanis gloriae, non qui fuerit in matre quo ad ipsam, sed 
+      <lb ed="#L" n="129"/>qui in ipsa esse ab aliis poterat existimari.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="235-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e193692"><!-- l3d33q4 -->
+            <head xml:id="jsnvu6-e193692-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e193692-Hd1e103" type="question-title">Utrum virtutes morales remaneant in patria</head>
+            <p xml:id="jsnvu6-e193692-d1e106">
+               <lb ed="#L" n="101"/>QVARSTIO TQVARTA. 
+      <lb ed="#L" n="102"/>Vtrum virtutes morales remaneant in patria. 
+      <lb ed="#L" n="103"/>Thom. 12. 4. 67. ar.1. &amp; 2. 
+    </p>
+            <p xml:id="jsnvu6-e193692-d1e115">
+               <lb ed="#L" n="104"/>QVARTO quaeritur vtrum virtutes morales re 
+      <lb ed="#L" n="105"/>maneant in patria. Et videtur quod sic, quia Sap. 1 
+      <lb ed="#L" n="106"/>dicitur quod iustitia perpetua est &amp; immortalis 
+      <lb ed="#L" n="107"/>sed iustitia est virtus moralis: ergo ipsa manet, &amp; 
+      <lb ed="#L" n="108"/>per eandem rationem caeterae virtutes.
+    </p>
+            <p xml:id="jsnvu6-e193692-d1e128">
+               <lb ed="#L" n="109"/>Item christus fuit beatus, &amp; tamen in ipso fuerunt virtutes 
+      <lb ed="#L" n="110"/>morales, ergo erunt similiter in beatis. 
+      </p>
+            <p xml:id="jsnvu6-e193692-d1e136">
+               <lb ed="#L" n="111"/>
+               <!--3--> INCONTRARIVM est, quia in patria homine 
+      <lb ed="#L" n="112"/>erunt similes angelis Matthaei vigesimosecundo. Sed ridiculun 
+      <lb ed="#L" n="113"/>est ponere virtutes morales in angelis, vt habetur decimo Ethi 
+      <lb ed="#L" n="114"/>corum, ergo non sunt in beatis. 
+      </p>
+            <p xml:id="jsnvu6-e193692-d1e149">
+               <lb ed="#L" n="115"/>
+               <!--4--> Item virtutes morales perficiunt in vita actiua, sed illa 
+      ces<lb ed="#L" n="116" break="no"/>sabit in patria, nam beati vacabunt soli contemplationi, etg 
+      <lb ed="#L" n="117"/>non erunt ibi virtutes morales. 
+      </p>
+            <p xml:id="jsnvu6-e193692-d1e160">
+               <lb ed="#L" n="118"/>
+               <!--5--> RESPONSIO De virtutibus moralibus possumus lo 
+      <lb ed="#L" n="119"/>qui dupliciter, scilicet quantum ad actum, &amp; quantum ad habi 
+      <lb ed="#L" n="120"/>tum. Si quantum ad actum sic non remanebunt in patria. Cuius 
+      <lb ed="#L" n="121"/>ratio est, quia nulla potentia quantumcunque perfecta per ha 
+      <lb ed="#L" n="122"/>bitum potest exire in actum, nisi habeat praesens obiectum, sec 
+      <lb ed="#L" n="123"/>obiecta virtutum moralium non erunt in patria, ergo non erunm 
+      <lb ed="#L" n="124"/>ibi actus virtutum moralium. Maior patet, quia siue obiectum 
+      <lb ed="#L" n="125"/>sit causa per se ipsius actus, siue causa sine qua non tamen sem 
+      <lb ed="#L" n="126"/>per requiritur obiectum. Minor patet, quia obiecta virtutum mo 
+      <lb ed="#L" n="127"/>ralium sunt concupiscibilia &amp; delectabilia ciborum &amp; venereo 
+      <lb ed="#L" n="128"/>rum, quantum ad temperantiam, terribilia &amp; tristitia periculo 
+      <lb ed="#L" n="129"/>rum quantum ad fortitudinem, res commutabiles &amp; distribui 
+      <lb ed="#L" n="130"/>biles quantum ad iustitiam quae veniunt in vsum praesentis vitae 
+      <lb ed="#L" n="131"/>Haec autem non erunt in patria, quare, &amp;c. Si autem loquamu 
+      <lb ed="#L" n="132"/>de huiusmodi virtutibus quantum, adhuc hoc potest esse dupl 
+      <lb ed="#L" n="133"/>citer. Quia virtutum moralium large accipiendo morales vir 
+      <lb ed="#L" n="134"/>tutes prout inter eas numeratur prudentia, quaedam prout con 
+      <lb ed="#L" n="135"/>muniter dicitur, perficiunt appetitum sensitiuum, vt fortitud 
+      <lb ed="#L" n="136"/>&amp; temperantia, quaedam vero perficiunt intellectum &amp; 
+      volun<lb ed="#L" n="137" break="no"/>tatem, vt prudentia &amp; iustitia. 
+      </p>
+            <p xml:id="jsnvu6-e193692-d1e208">
+               <lb ed="#L" n="138"/>
+               <!--6--> De illis autem quae perficiunt appetitum sensitiuum si quae tale 
+      <lb ed="#L" n="139"/>sint, Dicendum est quod non remanebunt in patria etiam quoad habi 
+      <lb ed="#L" n="140"/>tum. Cuius ratio est, quia destructo subiecto destruitur accidens 
+      <lb ed="#L" n="141"/>sed subiectum talium virtutum, scilicet appetitus sensitiuus de 
+      <lb ed="#L" n="142"/>struitur in morte, cum sit corporalis virtus, ergo &amp; ipsi habitus 
+      <lb ed="#L" n="143"/>Quod si in resurrectione reparatur appetitus sensitiuus, aut n 
+      <lb ed="#L" n="144"/>erit idem numero: &amp; per consequens nec tales habitus si miracu 
+      <lb ed="#L" n="145"/>lose reparentur, essentiidem numero, aut si essent iidem numer 
+      <lb ed="#L" n="146"/>tam appetitus quam tales habitus, hoc non esset actione 
+      nostr<lb ed="#L" n="147" break="no"/>nec propter haec posset dici quod praecedentes habitus remaneremi 
+      </p>
+            <p xml:id="jsnvu6-e193692-d1e234">
+               <lb ed="#L" n="148"/>
+               <!--7--> De habitibus autem perficientibus intellectum &amp; volunta 
+      <lb ed="#L" n="149"/>tem, vt sunt prudentia &amp; iustitia, Dicendum quod remanebum 
+      <lb ed="#L" n="150"/>quantum ad habitum: quia si corrumperentur, aut hoc esset cor 
+      <lb ed="#L" n="151"/>ruptione subiecti, aut actione contrarij, non corruptione 
+      sub<lb ed="#L" n="152" break="no"/>iecti, quia intellectus &amp; voluntas sunt potentiae incorruptibiles 
+      <lb ed="#L" n="153"/>sicut essentia animae, nec actione contrarij, quia gloria non 
+      con<lb ed="#L" n="154" break="no"/>trariatur perfectioni naturae: huiusmodi autem virtutes ad per 
+      <lb ed="#L" n="155"/>fectionem naturae pertinent, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e193692-d1e256">
+               <lb ed="#L" n="156"/>
+               <!--8--> Per hoc patet solutio ad primum argumentum, quia non es 
+      <lb ed="#L" n="157"/>simile de iustitia, quae perficit voluntatem incorruptibilem &amp; de 
+      <lb ed="#L" n="158"/>alis virtutibus moralibus, quae perficiunt appetitum senfitiuum 
+      <lb ed="#L" n="159"/>qui corrumpitur. 
+      </p>
+            <p xml:id="jsnvu6-e193692-d1e270">
+               <lb ed="#L" n="160"/>
+               <!--9--> Ad secundum dicendum quod non est simile de Christo &amp; de 
+      <!--00545.xml-->
+      <pb ed="#L" n="236-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>beatis, quia Christus secundum corpus (cuius perfectio est 
+      ap<lb ed="#L" n="2" break="no"/>petitus sensitiuus) fuit viator, &amp; ideo non decuit quod carere: 
+      <lb ed="#L" n="3"/>perfectionibus quod habent caeteri viatores propter quod de 
+      <lb ed="#L" n="4"/>buit habere virtutes morales perficientes appetitum sensitiuum 
+      <lb ed="#L" n="5"/>vel aliquid majus talibus virtutibus mediante quo posset in 
+      <lb ed="#L" n="6"/>actus talium virtutum. Beati autem ante resurrectionem sicu 
+      <lb ed="#L" n="7"/>carent corpore, ita carent huiusmodi virtutibus, post 
+      resurre<lb ed="#L" n="8" break="no"/>ctionem autem aut non habebunt, quia tunc erunt beati 
+      se<lb ed="#L" n="9" break="no"/>cundum corpus, aut si habeant, hoc non erit, quia 
+      praeceden<lb ed="#L" n="10" break="no"/>tes habitus de se remanserunt. 
+      </p>
+            <p xml:id="jsnvu6-e193692-d1e305">
+               <lb ed="#L" n="11"/>
+               <!--10--> AD. PRIMVM argumentum alterius partis 
+      dicen<lb ed="#L" n="12" break="no"/>dum est quod homines erunt similes angelis quoad gloriam &amp; 
+      <lb ed="#L" n="13"/>non quoad naturam, &amp; ideo illud quod habent angeli per 
+      na<lb ed="#L" n="14" break="no"/>turam &amp; modo eminentiori, homines non habent nisi per 
+      ali<lb ed="#L" n="15" break="no"/>quid sibi additum scilicet per habitum &amp; modo minus eminenti 
+      <lb ed="#L" n="16"/>&amp; maxime quantum ad potentias immutabiles quae sunt 
+      intel<lb ed="#L" n="17" break="no"/>lectus &amp; voluntas. 
+      </p>
+            <p xml:id="jsnvu6-e193692-d1e325">
+               <lb ed="#L" n="18"/>
+               <!--11--> Alia ratio probat quod huiusmodi virtutes non 
+      remane<lb ed="#L" n="19" break="no"/>bunt in patria quo ad actus, quod concessum est. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

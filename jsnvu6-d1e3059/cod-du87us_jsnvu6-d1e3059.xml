@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="136-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3059"><!-- l2d16q2 -->
+            <head xml:id="jsnvu6-d1e3059-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e3059-Hd1e103" type="question-title">Utrum imago Dei sit aequaliter in homine et in angelo</head>
+            <p xml:id="jsnvu6-d1e3059-d1e106">
+               <lb ed="#L" n="143"/>QUALSTIO: SECVNDA 
+      <lb ed="#L" n="144"/>Vtrum imago aequaliter sit in homine 
+      <lb ed="#L" n="145"/>&amp; in angelo. 
+      <lb ed="#L" n="146"/>Thom. 1. 9. 49. 4r. 3.
+    </p>
+            <p xml:id="jsnvu6-d1e3059-d1e117">
+               <lb ed="#L" n="147"/>SECVNDO quaeritur vtrum imago aequaliter 
+      <lb ed="#L" n="148"/>sit in homine &amp; in angelo, vel sit in vno perfe 
+      <lb ed="#L" n="149"/>ctius quam in altero. Et videtur quod sit aequaliter in 
+      <lb ed="#L" n="150"/>vtroque, quia secundum Aug. 14. de trini. mens ad 
+      <lb ed="#L" n="151"/>Timaginem Dei est, quia capax eius est particepsqu 
+      <lb ed="#L" n="152"/>eius esse pot. Sed capacitas mentis humanae &amp; angelicae 
+      aequa<lb ed="#L" n="153" break="no"/>lis est. Erimus enim aequales angelis Dei in coelis, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3059-d1e135">
+               <lb ed="#L" n="154"/>
+               <!--2.--> INI CONTRARIVM: est quod dicit Greg. quanto 
+      <!--00340.xml-->
+      <pb ed="#L" n="136-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in angelo simplicior est a natura, tanto in illo imago Dei 
+      ma<lb ed="#L" n="2" break="no"/>gis insinuatur impressa. 
+      </p>
+            <p xml:id="jsnvu6-d1e3059-d1e154">
+               <lb ed="#L" n="3"/>
+               <!--3--> RESPONSIO. Dicendum quod si loquamur de 
+      ima<lb ed="#L" n="4" break="no"/>gine, quantum ad essentialia, sic non reperitur aequaliter in 
+      <lb ed="#L" n="5"/>homine &amp; in angelo, sed perfectius in angelo, quam in 
+      homi<lb ed="#L" n="6" break="no"/>ne: quod patet, quia in illo est verior &amp; expressior ratio 
+      ima<lb ed="#L" n="7" break="no"/>ginis, quod est productum in maiori participatione diuinae 
+      per<lb ed="#L" n="8" break="no"/>fectionis, hoc autem est magis angelus quam homo, ergo &amp;c. 
+      <lb ed="#L" n="9"/>Si vero loquamur de imagine quoad personalia, quae est 
+      ima<lb ed="#L" n="10" break="no"/>go Trinitatis, sic aequaliter est in vtroque imago, quia vbicunque 
+      <lb ed="#L" n="11"/>inuenitur eadem proportio, inuenitur secundum gradum 
+      in<lb ed="#L" n="12" break="no"/>diuisibilem, non obstante diuersa perfectione 
+      proportionabi<lb ed="#L" n="13" break="no"/>lium. Sicut eadem est proportio duorum ad quatuor. Et octe 
+      <lb ed="#L" n="14"/>ad sexdecim, quia dupla. Sed imago Trinitatis inuenitur in crea 
+      <lb ed="#L" n="15"/>turis, quantum ad proportionem quam habent partes imagi 
+      <lb ed="#L" n="16"/>nis creatae ad similitudinem partium imaginis increatae, &amp; no 
+      <lb ed="#L" n="17"/>quantum ad repraesentationem partium per partes quantum 
+      <lb ed="#L" n="18"/>ad naturas earum (vt dictum est in quaestione praecedente 
+      <lb ed="#L" n="19"/>ergo vbicunque inuenitur haec proportio, inuenitur secundum 
+      <lb ed="#L" n="20"/>eundem gradum, non obstante diuersa perfectione 
+      proportio<lb ed="#L" n="21" break="no"/>nabilium. Quanquam ergo partes imaginis perfectiores sint in 
+      <lb ed="#L" n="22"/>angelo quam in homine, scilicet memoria, intelligentia, &amp; 
+      vo<lb ed="#L" n="23" break="no"/>luntas, sicut natura intellectualis, in qua fundantur, tamen 
+      ea<lb ed="#L" n="24" break="no"/>dem est hic &amp; ibi partium habitudo, &amp; proportio, &amp; per 
+      con<lb ed="#L" n="25" break="no"/>sequens eadem, quia aequalis ratio imaginis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3059-d1e209">
+               <lb ed="#L" n="26"/>
+               <!--4--> Ad argumentum in oppositum dicendum quod mentis 
+      hu<lb ed="#L" n="27" break="no"/>manae &amp; angelicae non est eadem capacitas per naturam, sed 
+      <lb ed="#L" n="28"/>per gratiam, secundum naturam enim perfectius capitur deus 
+      <lb ed="#L" n="29"/>ab angelo, quam a nobis. Et ideo in angelo quoad essentialia 
+      <lb ed="#L" n="30"/>est perfectior ratio imaginis, sicut &amp; perfectior natura 
+      intelle<lb ed="#L" n="31" break="no"/>ctualis. Non autem quoad personalia, quia illa attenditur quo 
+      <lb ed="#L" n="32"/>ad similitudinem proportionis, quae est in homine &amp; angelo 
+      <lb ed="#L" n="33"/>eadem &amp; aequalis, vt dictum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e3059-d1e231">
+               <lb ed="#L" n="34"/>
+               <!--5--> ARGVMENTVM autem in oppositum 
+      proce<lb ed="#L" n="35" break="no"/>dit de imagine, quoad essentialia quae perfectius est in angele 
+      <lb ed="#L" n="36"/>quam in homine. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

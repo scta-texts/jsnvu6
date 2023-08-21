@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="13-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e223"><!-- l1d1q4 -->
+            <head xml:id="jsnvu6-d1e223-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e223-Hd1e103" type="question-title">Utrum omnibus citra Deum sit utendum</head>
+            <p xml:id="jsnvu6-d1e223-d1e106">
+               <lb ed="#L" n="27"/>QUAESTIO QVARTA. 
+      <lb ed="#L" n="28"/>Vtrum omnibus citra Deum, sit vtendum. 
+      <lb ed="#L" n="29"/>Thom. 12. 9. 16. artic 3.
+    </p>
+            <p xml:id="jsnvu6-d1e223-d1e115">
+               <lb ed="#L" n="30"/>SECVNDO quaeritur, cuius sit vti, tanquam 
+      ob<lb ed="#L" n="31" break="no"/>iecti: vtrum scilicet omnibus, citra Deum, sit 
+      vten<lb ed="#L" n="32" break="no"/>dum. Et videtur, quod non: quia vti est assumere 
+      ali<lb ed="#L" n="33" break="no"/>quid in facultatem voluntatis: omne autem tale 
+      <lb ed="#L" n="34"/>subiacet nostrae operationi, sed non omnia 
+      subia<lb ed="#L" n="35" break="no"/>cent nostrae operationi: ergo non omnibus est vtendum. 
+      </p>
+            <p xml:id="jsnvu6-d1e223-d1e131">
+               <lb ed="#L" n="36"/>
+               <!--2.--> Item, vsus est ab habitu charitatis: sed charitas non se 
+      ex<lb ed="#L" n="37" break="no"/>tendit ad omnia creata, sed tantum ad quatuor, secundum Au 
+      <lb ed="#L" n="38"/>gustinum: ergo non omnibus vtendum est. 
+</p>
+            <p xml:id="jsnvu6-d1e223-d1e143">
+               <lb ed="#L" n="39"/>CONTRA primae ad Cor. 10. dicitur, Omnia in gloriam 
+      <lb ed="#L" n="40"/>Dei facite. Et Beatus Aug. dicit I. de Doct. Christi. quod illis vten 
+      <lb ed="#L" n="41"/>dum est, quibus tendentes ad beatitudinem adiuuamur: sed 
+      <lb ed="#L" n="42"/>omnes creaturae iuuant nos ad cognoscendum Deum, in quo 
+      <lb ed="#L" n="43"/>sistit nostra beatitudo: ergo omnibus creaturis est vtendum. 
+      </p>
+            <p xml:id="jsnvu6-d1e223-d1e156">
+               <lb ed="#L" n="44"/>
+               <!--4--> RESPONSIO. Circa quaestionem istam primo scien 
+      <lb ed="#L" n="45"/>dum est, quod vti dupliciter sumitur a beato Aug a quo haec 
+      ma<lb ed="#L" n="46" break="no"/>teria videtur deriuata. Quandoque enim vti sumitur large, prout 
+      <lb ed="#L" n="47"/>dicit tantum applicationem cuiuscunque potentiae per suam 
+      ope<lb ed="#L" n="48" break="no"/>rationem ad quodcunque obiectum: &amp; sic vti est commune ad vti 
+      <lb ed="#L" n="49"/>proprie dictum, &amp; ad frui. Nam in fruitione, saltem viae, fit 
+      liber<lb ed="#L" n="50" break="no"/>applicatio voluntatis per suum, vel operationem, ad suum 
+      ob<lb ed="#L" n="51" break="no"/>iectum. Et sic loquitur August. 10. de Trinit. dicens, Frui est vti 
+      <lb ed="#L" n="52"/>cum gaudio, non iam spei, sed rei. Et subiungit, ideóque omnis 
+      <lb ed="#L" n="53"/>qui fruitur, vtitur. Et in hoc sensu non procedit quaestio. Alic 
+      <lb ed="#L" n="54"/>modo sumitur vti, proprie &amp; distincte, prout distinguitur 
+      con<lb ed="#L" n="55" break="no"/>tra frui: &amp; sic vti, est applicare re vsui, vel operationi propter 
+      <lb ed="#L" n="56"/>aliquid aliud vlterius obtinendum. Et sic loquitur August. 1. de 
+      <lb ed="#L" n="57"/>doct. Christi. dicens sic: Frui est amore inhaerere alicui rei 
+      pro<lb ed="#L" n="58" break="no"/>pter seipsam: vti vero, est id, quod in vsum venit, referre ad 
+      ob<lb ed="#L" n="59" break="no"/>tinendum illud, quo fruendum est. Et idem dicit 10. de 
+      Trinita<lb ed="#L" n="60" break="no"/>te. Et acceptio haec videtur magis propria. Nam vtilia 
+      dicun<lb ed="#L" n="61" break="no"/>tur, quae sunt magis expedientia ad finem consequendum. 
+      <lb ed="#L" n="62"/>Sic ergo accipiendo vti, dicenda sunt duo: primum est, quod 
+      <lb ed="#L" n="63"/>vti non est vltimi finis, tanquam obiecti. Secundum est, quod 
+      <lb ed="#L" n="64"/>vti potest esse omnium aliorum, quae sunt citra vltimum finem. 
+      <lb ed="#L" n="65"/>Primum patet breuiter ex ratione ipsius vti statim posita: quia 
+      <lb ed="#L" n="66"/>illud non est vltimum, quod ordinatur ad aliud obtinendum 
+      <lb ed="#L" n="67"/>sed omne illud, quo vtimur vt obiecto, ordinatur &amp; refertur ad 
+      <lb ed="#L" n="68"/>aliquid obtinendum: ergo obiectum ipsius vti, non est vltimus finis, 
+      </p>
+            <p xml:id="jsnvu6-d1e223-d1e215">
+               <lb ed="#L" n="69"/>
+               <!--6--> Secundum patet, scilicet quod omnibus, quae sunt citra 
+      fi<lb ed="#L" n="70" break="no"/>nem vltimum, sit vtendum: ad quod probandum, sciendum est, 
+      <lb ed="#L" n="71"/>quod cum vti sit assumere aliquid in facultatem voluntatis, 
+      referen<lb ed="#L" n="72" break="no"/>tis illud ad vltimum finem: nihil autem sit in facultate 
+      volun<lb ed="#L" n="73" break="no"/>tatis, nisi actus nostri, &amp; illi tantum, qui subsunt libero arbitrio, 
+      <lb ed="#L" n="74"/>alia autem non, nisi vt cadunt sub actibus nostris: propter hoc 
+      <lb ed="#L" n="75"/>dico quod omnibus est vtendum, primo, vel secundo modo. 
+      <lb ed="#L" n="76"/>Primo quidem modo vtimur actibus nostris, vel potius 
+      poten<lb ed="#L" n="77" break="no"/>tiis actuum. Secundo autem modo vtimur obiectis 
+      potentia<lb ed="#L" n="78" break="no"/>rum, &amp; actuum. Hoc autem patet sic: Omnibus illis est vtendum, 
+      <lb ed="#L" n="79"/>quae cadere possunt sub facultate voluntatis referentis ea ad 
+      <lb ed="#L" n="80"/>aliquid vlterius obtinendum: sed omnia quae sunt citra finem 
+      <lb ed="#L" n="81"/>vltimum, cadere possunt sub facultate voluntatis referentis ea 
+      <!--00092.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>ad aliquid vlterius obtinendum: ergo, &amp;c. Maior patet ex 
+      pro<lb ed="#L" n="83" break="no"/>pria ratione ipsius vti. Sed minor probatur: Quia omne, quod 
+      <lb ed="#L" n="84"/>est citra finem vltimum, est cognoscibile a nobis secundum vires 
+      <lb ed="#L" n="85"/>appraehensiuas, vel prosequibile vel fugibile secundum vires 
+      <lb ed="#L" n="86"/>appetitiuas, vel operabile secundum vires executiuas: sed sub 
+      <lb ed="#L" n="87"/>voluntatis facultate cadunt omnes vires animae 
+      appraehensi<lb ed="#L" n="88" break="no"/>uae, appetitiuae, &amp; motiuae, &amp; executiuae, vt applicentur suis 
+      <lb ed="#L" n="89"/>actibus, &amp; obiectis, &amp; vt referantur ad aliquid aliud obtinendum, 
+      <lb ed="#L" n="90"/>si sint talia, quae sint citra finem vltimum: ergo omnia, quae sunt 
+      <lb ed="#L" n="91"/>citra finem vltimum, cadere possunt sub facultate voluntatis, 
+      <lb ed="#L" n="92"/>referentis ea ad aliquid vlterius obtinendum. Et ita omnibus, 
+      <lb ed="#L" n="93"/>quae sunt citra finem vltimum, est vtendum, nisi quod 
+      volun<lb ed="#L" n="94" break="no"/>tas per se &amp; immediate vtitur potentiis, quas ad actus 
+      appli<lb ed="#L" n="95" break="no"/>cat: aliis autem, quatenus cadunt sub actibus potentiarum.
+</p>
+            <p xml:id="jsnvu6-d1e223-d1e283">
+               <lb ed="#L" n="96"/>Ad maiorem autem declarationem eorum, quae dicta sunt 
+      <lb ed="#L" n="97"/>notandum, quod omnia, quae sunt citra finem vltimum, sunt 
+      bo<lb ed="#L" n="98" break="no"/>na, vel mala: &amp; rursus malorum quaedam mala poenae, quaedam 
+      <lb ed="#L" n="99"/>mala culpae. De bonis, siue sint bona naturae tantum, vt res 
+      <lb ed="#L" n="100"/>create, siue sint bona moris, vt actus virtuosi, quod omnia sint 
+      re<lb ed="#L" n="101" break="no"/>feribilia in finem, patet: quia sicut diuina potentia nominat 
+      <lb ed="#L" n="102"/>principium actuum, sic bonitas finem: sed omne bonum 
+      crea<lb ed="#L" n="103" break="no"/>tum est a diuina potentia, sicut a principio effectiuo: ergo 
+      <lb ed="#L" n="104"/>omne bonum creatum ordinatur ad bonitatem diuinam, 
+      tan<lb ed="#L" n="105" break="no"/>quam ad finem: &amp; sic ad eam referibile est. 
+      </p>
+            <p xml:id="jsnvu6-d1e223-d1e307">
+               <lb ed="#L" n="106"/>
+               <!--8--> De malis vero poenae, idem patet, quia illo vtendum est, quo 
+      <lb ed="#L" n="107"/>tendentes ad beatitudinem adiuuamur: sed mala poenae iuuant 
+      <lb ed="#L" n="108"/>nos ad tendendum in beatitudinem, dicente Gregorio, quod 
+      <lb ed="#L" n="109"/>mala, quae nos hic praemunt, ad dominum nos ire compellunt 
+      <lb ed="#L" n="110"/>Et Philoso. 2. Ethic. dicit, quod poenae sunt medicinae. Sanant 
+      <lb ed="#L" n="111"/>enim mentem a morbo peccati, &amp; per consequens, disponunt 
+      ho<lb ed="#L" n="112" break="no"/>minem ad virtutem, per quam ordinamur in Deum: &amp; propter 
+      <lb ed="#L" n="113"/>hoc infliguntur a Deo, qui est summus Medicus, Vnde in Psal. 
+      <lb ed="#L" n="114"/>dicitur, Multiplicatae sunt infirmitates eorum, postea 
+      accele<lb ed="#L" n="115" break="no"/>rauerunt. Ergo malis poenae est vtendum. 
+      </p>
+            <p xml:id="jsnvu6-d1e223-d1e333">
+               <lb ed="#L" n="116"/>
+               <!--9--> De malis autem culpae alia ratio est. Deordinant enim a Deo: 
+      <lb ed="#L" n="117"/>propter quod non videntur referri in Deum. Sed quia scriptum est 
+      <lb ed="#L" n="118"/>Rom. 8. Diligentibus Deum omnia cooperantur in bonum: &amp; 
+      <lb ed="#L" n="119"/>glossa hoc verbum extendit ad mala, dicens. Vt si aliqui deuiant, 
+      <lb ed="#L" n="120"/>&amp; exorbitant, hoc ipsum faciat eis proficere in bonum, quia 
+      re<lb ed="#L" n="121" break="no"/>deunt humiliores, &amp; doctiores. Ideo aliter dicendum est, scilicet, 
+      <lb ed="#L" n="122"/>quod illud, quo vtimur, dicitur multipliciter: quo, vt potentia 
+      <lb ed="#L" n="123"/>vtente &amp; haec est voluntas, vt patet ex praecedenti quaestione: 
+      <lb ed="#L" n="124"/>quo, vt habitu, &amp; haec est charitas, qua omne quod diligitur, in 
+      <lb ed="#L" n="125"/>Deum refertur: quo, vt actu formali, &amp; hoc est ipsum vti. Et 
+      neu<lb ed="#L" n="126" break="no"/>tro istorum modorum vtimur peccato: quia peccatum non est 
+      <lb ed="#L" n="127"/>potentia, nec habitus. Est autem actus, sed deordinatus a fine: 
+      <lb ed="#L" n="128"/>propter quod non est vsus, proprie loquendo, sed abusus. Et hoc 
+      <lb ed="#L" n="129"/>modo procedit instantia facta. Alio modo vtimur aliquo, vt 
+      ob<lb ed="#L" n="130" break="no"/>iecto tantum: &amp; sic quaerimus nunc: &amp; hoc modo possumus vti 
+      <lb ed="#L" n="131"/>peccato, non quidem peccando, quia peccatu non solum esset 
+      <lb ed="#L" n="132"/>obiectum, sed actus: sed referendo peccatu, ab alio, vel a nobis 
+      <lb ed="#L" n="133"/>commissum, ad vtilitatem nostram: non quidem per causam, sed 
+      <lb ed="#L" n="134"/>per occasionem. Et hoc sufficit ad vsum. Nam &amp; Deus hoc 
+      mo<lb ed="#L" n="135" break="no"/>do vtitur malo, vt dicit Augustinus in Ench. quod cum sit 
+      <lb ed="#L" n="136"/>Deus summe bonus, nullo modo sineret mala fieri, nisi sciret ex 
+      <lb ed="#L" n="137"/>malis bona elicere. Sic ergo homo potest malo culpae vti 
+      obie<lb ed="#L" n="138" break="no"/>ctiue, inquantum ex peccato, a se, vel ab alio comnmisso, cognita 
+      <lb ed="#L" n="139"/>propria fragilitate, efficitur cautior, &amp; humilior. 
+      </p>
+            <p xml:id="jsnvu6-d1e223-d1e391">
+               <lb ed="#L" n="140"/>
+               <!--10--> Circa autem ea, quae dicta sunt, restat vnum dubium. Dictum 
+      <lb ed="#L" n="141"/>est enim, quod omnibus illis est vtendum, quae possunt cadere sub 
+      <lb ed="#L" n="142"/>facultate voluntatis referentis ea ad vlteriore finem: sed Deus, 
+      <lb ed="#L" n="143"/>vt cognitus cognitione viae, &amp; dilectus dilectione viae, cadit sub 
+      <lb ed="#L" n="144"/>facultate voluntatis imperantis hos actus, &amp; ordinantis ad 
+      con<lb ed="#L" n="145" break="no"/>secutionem vlterioris finis, scilicet beatitudinis: ergo, vt videtur, 
+      <lb ed="#L" n="146"/>Deo vtendum est, saltem, vt cadit sub actu cognitionis &amp; 
+      dilectio<lb ed="#L" n="147" break="no"/>nis viae. Quod est contra praedicta. Dictum est enim, quod vltimo 
+      <lb ed="#L" n="148"/>fine non est vtendum. Et dicendum, quod licet cognitio Dei in via, 
+      <lb ed="#L" n="149"/>&amp; dilectio eius, possint ordinari ad obtinendum aliud ab istis 
+      <lb ed="#L" n="150"/>operationibus, non tamen referuntur ad obtinendum aliud ab 
+      <lb ed="#L" n="151"/>obiecto cognito, &amp; dilecto, sed ad obtinendum idem, per aliam 
+      <lb ed="#L" n="152"/>tamen operationem. In aliis autem a Deo, secus est. Sic enim 
+      ca<lb ed="#L" n="153" break="no"/>dunt per aliquam operationem sub facultate voluntatis, vt 
+      referan<lb ed="#L" n="154" break="no"/>tur &amp; ordinentur ad obtinendum, aliud, non solum ab 
+      operatio<lb ed="#L" n="155" break="no"/>ne, sed ab obiecto, propter quod vtimur aliis a Deo, &amp; non 
+      so<lb ed="#L" n="156" break="no"/>lum operationibus, sub quibus cadunt. Deo autem non vtimur, 
+      <lb ed="#L" n="157"/>quanquam vtamur operationibus nostris, sub quibus cadit. 
+      </p>
+            <p xml:id="jsnvu6-d1e223-d1e435">
+               <lb ed="#L" n="158"/>
+               <!--11.--> Est etiam aduertendum, propter ea quae dicta sunt in ista, &amp; 
+      <lb ed="#L" n="159"/>in praecedenti quaestione, quod differt habere actum absolute, 
+      <lb ed="#L" n="160"/>&amp; actum modificatum secundum regulam rationis. Vnde 
+      dif<lb ed="#L" n="161" break="no"/>fert dicere, quod voluntas vtatur, aut fruatur absolute; &amp; 
+      <lb ed="#L" n="162"/>quod vtatur, aut fruatur eodem modo, quo debet secundum re 
+      <lb ed="#L" n="163"/>gulam rationis. Secundum enim primum modum, frui potest 
+      <!--00093.xml-->
+      <pb ed="#L" n="14-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>esse respectu finis praestituti, non tamen debet esse finis 
+      secun<lb ed="#L" n="2" break="no"/>dum veritate: &amp; vti, respectu aliquorum, quae non debite 
+      ordi<lb ed="#L" n="3" break="no"/>nantur ad finem. Et secundum hunc intellectum non est dandum. 
+      <lb ed="#L" n="4"/>quod frui sit tantum vltimi finis: &amp; vti sit tantum eorum, quae 
+      <lb ed="#L" n="5"/>pertinent ad finem: quia multi fruuntur vtendis, &amp; vtuntur 
+      fru<lb ed="#L" n="6" break="no"/>endis, quae est summa peruersitas, vt dicit August. Sed si 
+      acci<lb ed="#L" n="7" break="no"/>piantur frui, et vti, secundum regulam rationis, quando scilicet 
+      <lb ed="#L" n="8"/>voluntas fruitur &amp; vtitur eo modo quo debet: sic frui est semper 
+      <lb ed="#L" n="9"/>vltimi finis, &amp; vti est eorum quae debito feruntur in finem. 
+      </p>
+            <p xml:id="jsnvu6-d1e223-d1e479">
+               <lb ed="#L" n="10"/>
+               <!--12--> Ad primum argumentum dicendum, quod omnia subsunt no 
+      <lb ed="#L" n="11"/>strae operationi secundum aliquam vim animae, vt dictum fuit 
+      <lb ed="#L" n="12"/>in corpore quaestionis, secundum quam operationem referri 
+      <lb ed="#L" n="13"/>possunt ad vlteriorem finem: &amp; sic vtendum est eis. 
+      </p>
+            <p xml:id="jsnvu6-d1e223-d1e492">
+               <lb ed="#L" n="14"/>
+               <!--13.--> Ad secundum dicendum, quod licet charitas extendat se 
+      <lb ed="#L" n="15"/>tantum ad quatuor, tanquam ad ea quae possunt participare 
+      <lb ed="#L" n="16"/>beatitudinem, tamen extendit se ad omnia alia, inquantum 
+      <lb ed="#L" n="17"/>possunt nos iuuare ad consequendum beatitudinem. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

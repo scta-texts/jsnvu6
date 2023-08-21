@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="79-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1664"><!-- l1d34q2 -->
+            <head xml:id="jsnvu6-d1e1664-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e1664-Hd1e103" type="question-title">Utrum persona in divinis sit idem quod essentia</head>
+            <p xml:id="jsnvu6-d1e1664-d1e106">
+               <lb ed="#L" n="123"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="124"/>Vtrum persona in diuinis sit idem quod essentia. 
+      <lb ed="#L" n="125"/>Thom. 1. q. 39. art. 1. 
+    </p>
+            <p xml:id="jsnvu6-d1e1664-d1e115">
+               <lb ed="#L" n="126"/>OSTEA quaeritur vtrum persona in diuinis sit 
+      <lb ed="#L" n="127"/>idem quod essentia. Et videtur quod sic, quia se 
+      <lb ed="#L" n="128"/>cundum Boetium, in diuinis idem est quod est 
+      <lb ed="#L" n="129"/>&amp; quo est, sed quod est, est suppositum vel 
+      per<lb ed="#L" n="130" break="no"/>gi sona, quo est, est essentia, ergo &amp;c. 
+      <lb ed="#L" n="131"/>Ad idem est quod dicit magister in litera. 
+      </p>
+            <p xml:id="jsnvu6-d1e1664-d1e131">
+               <lb ed="#L" n="132"/>
+               <!--3--> IN CONTRARIVM arguitur, quia impossibile est 
+      <lb ed="#L" n="133"/>quod per idem re differat aliquid ab alio realiter &amp; conueniat 
+      <lb ed="#L" n="134"/>cum eodem, quia eiusdem non sunt oppositi effectus: sed 
+      per<lb ed="#L" n="135" break="no"/>sona conuenit cum persona, vt pater cum filio in essentia: 
+      dif<lb ed="#L" n="136" break="no"/>fert autem in persona: ergo impossibile est quod persona &amp; es 
+      <lb ed="#L" n="137"/>sentia sint omnino idem re¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e1664-d1e150">
+               <lb ed="#L" n="138"/>
+               <!--4--> RESPONSIO. cum persona diuina sit aliquid 
+      consti<lb ed="#L" n="139" break="no"/>tutum ex essentia diuina &amp; relatione tota differentia personae al 
+      <lb ed="#L" n="140"/>essentia quam includit est ratione relationis, &amp; ideo sicut relatio 
+      <lb ed="#L" n="141"/>diuina differt ab essentia, sic persona diuina differt ab 
+      essenti<lb ed="#L" n="142" break="no"/>ratione relationis: qualiter autem differant essentia, &amp; relatio in d 
+      <lb ed="#L" n="143"/>uinis dictum fuit in praecedente distinctione, videlicet quod 
+      dif<lb ed="#L" n="144" break="no"/>ferunt ex natura rei, quia non sunt idem adaequate &amp; conuertibi 
+      <lb ed="#L" n="145"/>liter, vel quia differunt sicut res &amp; modus habendi rem, vel quie 
+      <lb ed="#L" n="146"/>licet sint idem identice, non sunt tamen idem formaliter qui mo 
+      <lb ed="#L" n="147"/>dus includit duos primos modos sicut tunc declaratum fuit, &amp; 
+      <lb ed="#L" n="148"/>talis differentia cum sit ex natura rei circunscripto omni actu 
+      <lb ed="#L" n="149"/>rationis est aliquo modo realiter, licet non simpliciter &amp; abso 
+      <lb ed="#L" n="150"/>lute, sed cum determinatione alicuius praedictorum, modorum, 
+      <lb ed="#L" n="151"/>&amp; idem dicendum est de persona &amp; respectu essentiae. 
+      </p>
+            <p xml:id="jsnvu6-d1e1664-d1e185">
+               <lb ed="#L" n="152"/>
+               <!--5--> ARGVMENTA procedunt viis suis, quia primum pro 
+      <lb ed="#L" n="153"/>bat quod persona &amp; essentia sunt idem &amp; hoc verum est, 
+      qui<lb ed="#L" n="154" break="no"/>verum est dicere quod persona est essentia, &amp; essentia est persi 
+      <lb ed="#L" n="155"/>na, sed non probat quod sint idem adaequate &amp; conuertibiliter, 
+      <lb ed="#L" n="156"/>vel quod sint idem formaliter, imo oppositum est verum sicut 
+      <lb ed="#L" n="157"/>probat argumentum in oppositum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

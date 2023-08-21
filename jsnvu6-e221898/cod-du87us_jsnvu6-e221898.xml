@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="269-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e221898"><!-- l4d9q2 -->
+            <head xml:id="jsnvu6-e221898-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e221898-Hd1e103" type="question-title">
+      Utrum manducatio Eucharistiae sit de 
+      necessitate salutis
+    </head>
+            <p xml:id="jsnvu6-e221898-d1e106">
+               <lb ed="#L" n="33"/>QUABSTIO SECVNDA. 
+      <lb ed="#L" n="34"/>Vtrum manducatio Eucharistiae sit de 
+      <lb ed="#L" n="35"/>necessitate salutis. 
+      <lb ed="#L" n="36"/>Thom. 3. 4. 65. art. 4. &amp; 473. art 3. 
+    </p>
+            <p xml:id="jsnvu6-e221898-d1e117">
+               <lb ed="#L" n="37"/>AD secundum sic proceditur. Et arguitur quod 
+      man<lb ed="#L" n="38" break="no"/>ducatio huius sacramenti sit de necessitate salutis, 
+      <lb ed="#L" n="39"/>quia manducatio cibi corporalis est de necessitat. 
+      <lb ed="#L" n="40"/>salutis corporalis, ergo manducatio cibi spiritualis 
+      <lb ed="#L" n="41"/>est de necessitate vitae spiritualis, ergo &amp;c. 
+      <lb ed="#L" n="42"/>Item Ioan. 6. Nisi manducaueritis carnem filij hominis &amp; 
+      <lb ed="#L" n="43"/>biberitis eius sanguinem non habebitis vitam in vobis: sed in hoc 
+      <lb ed="#L" n="44"/>sacramento manducatur caro Christi, &amp; bibitur eius sanguis, 
+      <lb ed="#L" n="45"/>ergo sumptio huius sacramenti est de necessitate vitae 
+      spiritua<lb ed="#L" n="46" break="no"/>lis &amp; per consequens de necessitate salutis. 
+    </p>
+            <p xml:id="jsnvu6-e221898-d1e141">
+               <lb ed="#L" n="47"/>IN CONTRARIVM arguitur, quia illud sine quo 
+      <lb ed="#L" n="48"/>potest haberi gratia non est de necessitate salutis, sed absque 
+      sum<lb ed="#L" n="49" break="no"/>ptione huius sacramenti potest haberi gratia, imo debita 
+      sum<lb ed="#L" n="50" break="no"/>ptio huius sacramenti supponit gratiam in suscipiente, ergo eius 
+      <lb ed="#L" n="51"/>susceptio non est de necessitate salutis. 
+      </p>
+            <p xml:id="jsnvu6-e221898-d1e155">
+               <lb ed="#L" n="52"/>
+               <!--4--> Item pueri baptizati si moriantur ante susceptionem huius 
+      <lb ed="#L" n="53"/>sacramenti non damnantur. Damnarentur autem si eius 
+      perce<lb ed="#L" n="54" break="no"/>ptio esset de necessitate salutis, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e221898-d1e166">
+               <lb ed="#L" n="55"/>
+               <!--5--> RESPONSIO. Aliquod sacramentum potest esse 
+      neces<lb ed="#L" n="56" break="no"/>sarium ad salutem dupliciter. Vno modo ratione sui. Alio 
+      modi<lb ed="#L" n="57" break="no"/>ratione praecepti. Ratione sui quando effectus eius est necessarius 
+      <lb ed="#L" n="58"/>ad salutem. Et sic dicendum est, quod sacramentorum quaedam sunt 
+      de<lb ed="#L" n="59" break="no"/>necessitate salutis quantum ad communitatem, ita. s. vt ab aliquo 
+      <lb ed="#L" n="60"/>vel aliquibus de communitate suscipiantur, non autem a qualibe 
+      <lb ed="#L" n="61"/>persona: &amp; talia sunt ordo, &amp; matrimonium. Quod patet, 
+      qui<lb ed="#L" n="62" break="no"/>effectus cuiuslibet istorum necessarius est communitati, nam sine 
+      <lb ed="#L" n="63"/>ordine non essent in communitate qui ministrarent sacramenta ali 
+      <lb ed="#L" n="64"/>qua quae sunt de necessitate salutis, saltem sacramentum poenitentiae 
+      <lb ed="#L" n="65"/>quod est de necessitate salutis his quilapsi sunt in peccatum 
+      mor<lb ed="#L" n="66" break="no"/>tale, sine matrimonio autem non maneret cultus diuinus 
+      deficien<lb ed="#L" n="67" break="no"/>tibus fidelibus. nisi enim per matrimonium aliqui generarentur 
+      <lb ed="#L" n="68"/>educandi ad cultum diuinum statim periret totus cultus diuinus 
+      <lb ed="#L" n="69"/>quia tamen pro communitate ad hos actus sufficiunt aliqui, ideo 
+      <lb ed="#L" n="70"/>non quaelibet persona ad haec sacramenta obligatur nisi in casu 
+      <lb ed="#L" n="71"/>vbi tota communitas deficeret, vbi etiam Papa suppleret. 
+      </p>
+            <p xml:id="jsnvu6-e221898-d1e208">
+               <lb ed="#L" n="72"/>
+               <!--6--> Alia sunt sacramenta quae respiciunt personam quanlibet 
+      sin<lb ed="#L" n="73" break="no"/>gularem. Et de numero horum sunt baptismus &amp; poenitentia qua 
+      <lb ed="#L" n="74"/>sunt necessaria simpliciter ad salutem: baptismus quidem quoad 
+      <lb ed="#L" n="75"/>emnes, poenitentia autem solum quoad lapsos in peccatum 
+      mor<lb ed="#L" n="76" break="no"/>tale. &amp; huius ratio est, quia illa sacramenta sunt de necessitate 
+      sa<lb ed="#L" n="77" break="no"/>lutis quoad quamlibet personam quae ordinatur ad tollendum 
+      <lb ed="#L" n="78"/>defectum incompossibilem saluti, sed baptismus &amp; poenitenti: 
+      <lb ed="#L" n="79"/>sunt huiusmodi, baptismus quidem quoad omnes propter 
+      pec<lb ed="#L" n="80" break="no"/>catum originale, quia omnes nascuntur filij irae Ephesio. 2. Ad quo 
+      <lb ed="#L" n="81"/>tollendum ordinatur baptismus: poenitentia vero est necessaria 
+      <!--00612.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>ad salutem his qui lapsi sunt in peccatum mortale quod est 
+      in<lb ed="#L" n="83" break="no"/>compossibile saluti. Ad quod tollendum ordinatur principalire 
+      <lb ed="#L" n="84"/>poenitentia, ergo sacramentum poenitentiae &amp; baptismi sunt di 
+      <lb ed="#L" n="85"/>necessitate salutis, ita. s. vt actu suscipiantur vel saltem in voto 
+      <lb ed="#L" n="86"/>cum susceptionem eorum impediat articulus necessitatis. 
+      </p>
+            <p xml:id="jsnvu6-e221898-d1e249">
+               <lb ed="#L" n="87"/>
+               <!--7--> Alia vero sacrameta sunt de necessitate salutis ratione 
+      prae<lb ed="#L" n="88" break="no"/>cepti s. eucharistia, &amp; extrema vnctio. Primo quidem ratione prae 
+      <lb ed="#L" n="89"/>cepti diuini, quia cum omnia sacramenta instituta sint propter 
+      <lb ed="#L" n="90"/>salutem viatorum, non videtur quod absque contemptu homo viator 
+      <lb ed="#L" n="91"/>possit talia totaliter dimittere habita copia ministri ea conferre 
+      <lb ed="#L" n="92"/>valentis &amp; volentis: vnde quia talia non recipit, puta eucharistiam 
+      <lb ed="#L" n="93"/>&amp; extremam vnctionem quando probabiliter imminet ei exitus de 
+      <lb ed="#L" n="94"/>statu viatorum &amp; ecclesiae militantis, videtur contennere praeceptum 
+      <lb ed="#L" n="95"/>diuinum. Et propter hanc causam dictum fuit prius dist. 7. quod confir 
+      <lb ed="#L" n="96"/>matio est de necessitate salutis quando imminet casus confitendi 
+      <lb ed="#L" n="97"/>fidem coram persecutore, quia qui tunc non recipit sacramentum 
+      <lb ed="#L" n="98"/>confirmationis habita copia conferentis (cum pro tunc indigea 
+      <lb ed="#L" n="99"/>eius effectu) videtur esse contemptor sacramenti quod est contra 
+      <lb ed="#L" n="100"/>rium saluti. Patet ergo quod eucharistia non est de necessitate salutis 
+      <lb ed="#L" n="101"/>ratione sui quasi effectus eius sit necessarius ad salutem, cum 
+      effe<lb ed="#L" n="102" break="no"/>ctus eius fit confirmatio in bono, &amp; in gratia quod pertinet ad 
+      <lb ed="#L" n="103"/>perfectionem magis quam ad necessitatem. Est tamen de necessitate 
+      sa<lb ed="#L" n="104" break="no"/>lutis ratione praecepti diuini. Et iterum ratione praecepti ecclesia 
+      <lb ed="#L" n="105"/>quae statuit quod saltem semel in anno sumatur scilicet in paschate: vt 
+      <lb ed="#L" n="106"/>habetur extra de poe. &amp; re, cap. omnis vtriusque sexus. Ad argu 
+      </p>
+            <p xml:id="jsnvu6-e221898-d1e297">
+               <lb ed="#L" n="107"/>
+               <!--8--> Ad primum dicendum quod non est simile de vita corporali 
+      <lb ed="#L" n="108"/>quae de necessitate tendit ad desitionem, nisi ei subueniatur pe 
+      <lb ed="#L" n="109"/>alimentum corporale, &amp; de vira spirituali quam nullus potess 
+      <lb ed="#L" n="110"/>amittere nisi volens, &amp; ideo alimentum spirituale potest quidem 
+      <lb ed="#L" n="111"/>proficere ad perfectionem &amp; augmentum vitae spiritualis, sed non 
+      <lb ed="#L" n="112"/>est necessarium ad eius continuationem ratione sui effectus, licet 
+      <lb ed="#L" n="113"/>sit de necessitate eius in casu propter praeceptum diuinum que 
+      <lb ed="#L" n="114"/>quilibet adultus tenetur hoc sacramentum recipere in hac vita, 
+      <lb ed="#L" n="115"/>licet per praeceptum diuinum non determinetur tempus nec 
+      <lb ed="#L" n="116"/>hora quae determinantur per praeceptum ecclesiae. 
+      </p>
+            <p xml:id="jsnvu6-e221898-d1e323">
+               <lb ed="#L" n="117"/>
+               <!--9--> Ad secundum dicendum quod illud Ioan. nisi 
+      manducaueri<lb ed="#L" n="118" break="no"/>tis, &amp;c. intelligitur de carne Christi mystica quae est vnitas 
+      men<lb ed="#L" n="119" break="no"/>brorum ecclesiae sine qua non est salus: aut si intelligitur de 
+      man<lb ed="#L" n="120" break="no"/>ducatione huius sacramenti referendum est ad praeceptum diuinum 
+      <lb ed="#L" n="121"/>cuius ratione est necessarium ad salutem modo quo dictum est, 
+      <lb ed="#L" n="122"/>non autem propter suum effectum. 
+      </p>
+            <p xml:id="jsnvu6-e221898-d1e342">
+               <lb ed="#L" n="123"/>
+               <!--10--> Alia duo arg. probant quod illud sacramentum non est 
+      ne<lb ed="#L" n="124" break="no"/>cessarium ad salutem ratione sui effectus quod concessum est. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

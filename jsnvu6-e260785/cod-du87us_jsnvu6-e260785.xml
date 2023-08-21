@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="316-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e260785"><!-- l4d26q1 -->
+            <head xml:id="jsnvu6-e260785-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e260785-Hd1e103" type="question-title">Utrum matrimonium sit licitum</head>
+            <p xml:id="jsnvu6-e260785-d1e106">
+               <lb ed="#L" n="3"/>QUAESTIO I. 
+      <lb ed="#L" n="4"/>Vtrum matrimonium sit licitum
+    </p>
+            <p xml:id="jsnvu6-e260785-d1e113">
+               <lb ed="#L" n="5"/>Irca distinctionem istam quaeruntur tria. 
+      Pri<lb ed="#L" n="6" break="no"/>mum est, vtrum matrimonium sit licitum: 
+      Secun<lb ed="#L" n="7" break="no"/>dum est, virum sit necessarium: ita quod cadat 
+      <lb ed="#L" n="8"/>sub praecepto. Tertium est, vtrum sit 
+      sacramen<lb ed="#L" n="9" break="no"/>tum. Ad primum sic proceditur, &amp; arguitur q 
+      <lb ed="#L" n="10"/>matrimonium non sit licitum quia nihil separat a Deo nisi 
+      pec<lb ed="#L" n="11" break="no"/>catum, sed actus matrimonij separat a Deo, igitur est 
+      pecca<lb ed="#L" n="12" break="no"/>tum: &amp; si sic, ergo &amp; matrimonium, Minor probatur, quia 
+      E<lb ed="#L" n="13" break="no"/>xodi 19. praecipitur his qui debebant Deum videre vt non 
+      ac<lb ed="#L" n="14" break="no"/>cederent ad vxorem. 
+      </p>
+            <p xml:id="jsnvu6-e260785-d1e137">
+               <lb ed="#L" n="15"/>
+               <!--2.--> Item nihil indiget excusari niam quod est malum, sed actus 
+      <lb ed="#L" n="16"/>matrimonialis indiget excusari per bona matrimonij, ergo 
+      <lb ed="#L" n="17"/>est malus, &amp; sic idem quod prius. 
+      </p>
+            <p xml:id="jsnvu6-e260785-d1e149">
+               <lb ed="#L" n="18"/>
+               <!--3--> IN CONTRARIVM arguitur sie: quia nullum 
+      ma<lb ed="#L" n="19" break="no"/>lum potest esse a Deo institutum, sed matrimonium est 
+      insti<lb ed="#L" n="20" break="no"/>tutum a Deo, dicente Christo Matth. 19. Quos Deus coniunxi 
+      <lb ed="#L" n="21"/>homo non separet. ergo non est malum. Ad idem est quod di 
+      <lb ed="#L" n="22"/>citur 1. Corinth. 7. Virgo non peccat si nubat. 
+      </p>
+            <p xml:id="jsnvu6-e260785-d1e165">
+               <lb ed="#L" n="23"/>
+               <!--4--> RESPONSIO. Dicendum quod matrimonium est bonum 
+      <lb ed="#L" n="24"/>&amp; licitum. Quod patet dupliciter. Primo, quia actus quo 
+      hu<lb ed="#L" n="25" break="no"/>mana natura producitur &amp; in specie conseruatur 
+      impossibili<lb ed="#L" n="26" break="no"/>est quod sit de se malus, quin in eo possit inueniri medium 
+      vir<lb ed="#L" n="27" break="no"/>tutis adhibitis debitis circunstantiis: sed actus generationis 
+      car<lb ed="#L" n="28" break="no"/>nalis necessarius est ad humanae naturae conseruationem pe 
+      <lb ed="#L" n="29"/>productionem indiuiduorum sub specie, ergo impossibile es 
+      <lb ed="#L" n="30"/>quod fit de se malus quin in eo possit medium virtutis 
+      inue<lb ed="#L" n="31" break="no"/>niri adhibitis circunstantiis debitis: adhibentur autem per 
+      ma<lb ed="#L" n="32" break="no"/>trimonium, in matrimonium bonum est &amp; licitum. Maior pa 
+      <lb ed="#L" n="33"/>tet: quia actus naturae a Deo institutae qui secundum ordinatis 
+      <lb ed="#L" n="34"/>nem diuinam inditus est ei ad conseruationem speciei non po 
+      <lb ed="#L" n="35"/>test esse de se malus, nisi ipsa esset mala &amp; a malo deo institu 
+      <lb ed="#L" n="36"/>ta, vt censuerunt haeretici. Minor de se patet. Quod autem in 
+      <lb ed="#L" n="37"/>tali actu adhibeantur debitae circunstantiae per matrimonium pa 
+      <lb ed="#L" n="38"/>tet sic: quia actus qui fit propter debitum finem cum his quae fini 
+      <lb ed="#L" n="39"/>congruunt est debitae circunstantionatus, sed talis est actus 
+      ma<lb ed="#L" n="40" break="no"/>trimonij, ergo &amp;c. Maior patet: quia prima bonitas in actu est 
+      <lb ed="#L" n="41"/>circunstantia finis secundum quam debet de aliis iudicari. Mino 
+      <lb ed="#L" n="42"/>declaratur: quia finis generationis vt pertinet ad matrimoniu 
+      <lb ed="#L" n="43"/>est genaeratio prolis, &amp; educatio ad cultum Del, &amp; hoc est de 
+      s<lb ed="#L" n="44" break="no"/>bonum, ad hunc aurem finem debite consequendum requiritur 
+      de<lb ed="#L" n="45" break="no"/>terminatio patris &amp; matris: non enim debite &amp; solicite 
+      prole<lb ed="#L" n="46" break="no"/>educarentur, si parentes essent incerti. Haec autem educatio attem 
+      <lb ed="#L" n="47"/>ditur non solum quo ad corpus (vt in caeteris animalibus) sed quo 
+      <lb ed="#L" n="48"/>ad animam: vnde secundum Philosophum a parentibus habemus 
+      <lb ed="#L" n="49"/>tria, esse, nutrimentum, &amp; disciplinam. Ad hoc autem requiritur 
+      <lb ed="#L" n="50"/>multum temporis, propter quod parentes non solum debent es 
+      <lb ed="#L" n="51"/>se determinati, sed mutuo obligati, non solum ad modicum 
+      tem<lb ed="#L" n="52" break="no"/>pus, sed ad totum, praecipue cum parentes debeant thesaurizare 
+      <lb ed="#L" n="53"/>filiis qui nihil habent, nec est cuilibet facile de nouo acquirere 
+      <lb ed="#L" n="54"/>ad sufficientiam: cum ergo omnes istae conditiones sint in 
+      matri<lb ed="#L" n="55" break="no"/>monio quod est legitima coniunctio maris &amp; foeminae 
+      indiui<lb ed="#L" n="56" break="no"/>duam vitae consuetudinem retinens, patet quod actus carnalis vi 
+      <lb ed="#L" n="57"/>pertinet ad matrimonium est vestitus debitis circuustantiis. 
+      </p>
+            <p xml:id="jsnvu6-e260785-d1e246">
+               <lb ed="#L" n="58"/>
+               <!--5--> Secundo patet idem sic, omne peccatum est deuiatio ab aliqua legi 
+      <lb ed="#L" n="59"/>naturali diuina vel humana recte posita, sed matrimonium &amp; 
+      <lb ed="#L" n="60"/>actus ei non deuiant a lege naturali, diuina, vel humana recte po 
+      <lb ed="#L" n="61"/>sita, ergo matrimonium &amp; act? matrimonij non sunt peccatum. M. 
+      <lb ed="#L" n="62"/>ior de se patet. Minor probat, quod enim matrimonium &amp; actus 
+      e<lb ed="#L" n="63" break="no"/>ren deuient a lege naturali claru est. Nam secundum phisosophum seci 
+      <lb ed="#L" n="64"/>do de anima, naturalissimum est omnibus viuentibus quaecunque no 
+      <lb ed="#L" n="65"/>sunt orbata, aut spontaneam generationem habent facere alterum qui 
+      <lb ed="#L" n="66"/>le ipsum est, animali quidem animal, &amp;c. Et in iure ciuili dicit 
+      <lb ed="#L" n="67"/>lus naturale est quod natura omnia animalia docuit, vt est eoniun 
+      <lb ed="#L" n="68"/>ctio maris &amp; foeminae: non deuiat ergo matrimonium &amp; actu 
+      <lb ed="#L" n="69"/>eius a lege naturali imo potissime concordat. Item nec deuia 
+      <lb ed="#L" n="70"/>a lege diuina, quia tam in veteri testamento quam in nouo 
+      matri<lb ed="#L" n="71" break="no"/>monium approbatur, &amp; vtrumque tetigit Christus Mat. 19. quande 
+      <lb ed="#L" n="72"/>&amp; dixit: quos Deus coniunxit homo non separet: loquens de mati 
+      <lb ed="#L" n="73"/>monio &amp; allegans dictum domini Gen. 2. Item omnis lex 
+      hu<lb ed="#L" n="74" break="no"/>mana recte posita approbat matrimonium &amp; soli nati ex 
+      ma<lb ed="#L" n="75" break="no"/>trimonso dicuntur filij legitimi: nati autem ex alio concubitu in 
+      <lb ed="#L" n="76"/>aliquo sunt vituperabiles, quamuis non exculpa sua, sed ex 
+      <lb ed="#L" n="77"/>culpa parentum, quare patet quod matrimonium est licitum. 
+      </p>
+            <p xml:id="jsnvu6-e260785-d1e294">
+               <lb ed="#L" n="78"/>
+               <!--6--> AD argumenta in oppositum. Ad primum dicendum quod nos 
+      <lb ed="#L" n="79"/>dicimur Deo coniungi dupliciter: vno modo secundum habitum 
+      <lb ed="#L" n="80"/>gratiae &amp; charitatis, &amp; illud quod separat hanc coniunctionem es 
+      <lb ed="#L" n="81"/>peccatum, etiam mortale alio modo secundum actum contempla 
+      <!--00706.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>tionis &amp; dilectionis, &amp; haec coniunctio potest separari per 
+      ali<lb ed="#L" n="83" break="no"/>quid quod non est peccatum, seu per solam occupationem 
+      ani<lb ed="#L" n="84" break="no"/>mi circa res exteriores quantumcunque licitas. Prima coniun 
+      <lb ed="#L" n="85"/>ctio non separatur per actum matrimonij, sed secunda tantum 
+      <lb ed="#L" n="86"/>quatenus in eo deprimitur mens &amp; quasi absorbetur. Et ideo 
+      <lb ed="#L" n="87"/>propter hoc, his qui debebant Deum videre praeceptum fuit 
+      <lb ed="#L" n="88"/>non accedere ad vxorem. 
+      </p>
+            <p xml:id="jsnvu6-e260785-d1e327">
+               <lb ed="#L" n="89"/>
+               <!--7--> Ad secundum dicendum est quod illud quod excusatur a tanto 
+      <lb ed="#L" n="90"/>&amp; non a toto est malum in aliquo, quod autem excusatur a toto 
+      <lb ed="#L" n="91"/>nullo modo est malum, sed habet aliquam mali similitudinem 
+      <lb ed="#L" n="92"/>propter quam indiget excusatione: &amp; quia actus matrimonsalis 
+      <lb ed="#L" n="93"/>in nullo est malus, habet tamen similitudinem cum actu 
+      for<lb ed="#L" n="94" break="no"/>nicationis cum idem sunt in specie naturae, ideo dicitur excusari 
+      <lb ed="#L" n="95"/>per bona matrimonij quae sunt quaedam debitae circunstantia 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

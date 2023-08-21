@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="186-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e152422"><!-- l3d2q2 -->
+            <head xml:id="jsnvu6-e152422-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e152422-Hd1e103" type="question-title">Utrum filius Dei assumpserit naturam huma- 
+      nam quoad partes omnes simul, 
+      an ordine 
+      quodam</head>
+            <p xml:id="jsnvu6-e152422-d1e106">
+               <lb ed="#L" n="18"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="19"/>Vtrum filius Dei assumpserit naturam 
+      huma<lb ed="#L" n="20" break="no"/>nam quoad partes omnes simul, 
+      <lb ed="#L" n="21"/>an ordine 
+      quo<lb ed="#L" n="22" break="no"/>dam. 
+      <lb ed="#L" n="23"/>Tham . 4. 6. r. 5. 
+    </p>
+            <p xml:id="jsnvu6-e152422-d1e122">
+               <lb ed="#L" n="24"/>SECVNDO quaeritur, vtrum filius Dei 
+      assum<lb ed="#L" n="25" break="no"/>pserit naturam humanam quoad totum &amp; parte 
+      <lb ed="#L" n="26"/>simul, an ordine quodam. Et videtur quod simul 
+      <lb ed="#L" n="27"/>&amp; non vnum mediante altero, quia si esset ibi 
+      ali<lb ed="#L" n="28" break="no"/>quis ordo, hoc esset, aut quia totum assumeretur 
+      <lb ed="#L" n="29"/>mediantibus partibus, vel partes mediante toto, aut vna pars 
+      <lb ed="#L" n="30"/>mediante alia, non totum mediantibus partibus, quia aut hoc 
+      <lb ed="#L" n="31"/>esset mediantibus partibus diuisis, aut coniunctis, non 
+      me<lb ed="#L" n="32" break="no"/>diantibus diuisis, quia partes humanae naturae non fuerunt: 
+      <lb ed="#L" n="33"/>principio diuisim assumptae, nec mediantibus coniunctis, 
+      qui<lb ed="#L" n="34" break="no"/>partes coniunctae sunt idem quod totum, eiusdem autem ad 
+      <lb ed="#L" n="35"/>seipsum non est medium: ergo totum non fuit assumptum 
+      <lb ed="#L" n="36"/>mediantibus partibus. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e153">
+               <lb ed="#L" n="37"/>
+               <!--2--> Item nec partes mediante toto, quia secundum 
+      Damasce<lb ed="#L" n="38" break="no"/>num, naturam quam primo verbum assumpsit, nunquam 
+      dimi<lb ed="#L" n="39" break="no"/>sit, sed constat quod naturam humanam, quoad totalitatem 
+      <lb ed="#L" n="40"/>suam, dimisit in morte (alioquin non fuisset vere mortuus) erg 
+      <lb ed="#L" n="41"/>non primo assumpsit totam naturam, &amp; per eam partes, sed 
+      po<lb ed="#L" n="42" break="no"/>tius econuerso. Et iterum sublato medio, per quod aliqua 
+      vniun<lb ed="#L" n="43" break="no"/>tur, aufertur vnio eorum, sed in morte Christi, vt dictum est, 
+      <lb ed="#L" n="44"/>ablata fuit natura humana quoad totalitatem suam, &amp; tamen 
+      <lb ed="#L" n="45"/>non fuit sublata vnio personae diuinae cum partibus humana 
+      <lb ed="#L" n="46"/>naturae: ergo totum non fuit medium vnionis respectu partium. 
+      <lb ed="#L" n="47"/>Per idem probatur quod caro non fuit assumpta mediante 
+      <lb ed="#L" n="48"/>anima, quia sublata vnione animae ad carnem, non fuit sublata 
+      <lb ed="#L" n="49"/>vnio personae diuinae ad eandem: ergo illa anima non fuit 
+      me<lb ed="#L" n="50" break="no"/>dium quo caro vniretur verbo: &amp; per eandem rationem 
+      ne<lb ed="#L" n="51" break="no"/>caro fuit medium quo anima verbo vniretur. 
+</p>
+            <p xml:id="jsnvu6-e152422-d1e191">
+               <lb ed="#L" n="52"/>IN CONTRARIVM arguitur, quod partes 
+      assum<lb ed="#L" n="53" break="no"/>ptae sint mediante toto, quia Damascenus dicit tertio libro, In 
+      <lb ed="#L" n="54"/>domino Iesu Christo non partes partium intuemur, sed qua 
+      <lb ed="#L" n="55"/>proximae opponuntur (scilicet humanitatem &amp; diuinitatem 
+      <lb ed="#L" n="56"/>humanitas autem est quoddam totum quod componitur ex ani 
+      <lb ed="#L" n="57"/>ma &amp; corpore: ergo filius Dei assumpsit parte si mediante toto
+    </p>
+            <p xml:id="jsnvu6-e152422-d1e207">
+               <lb ed="#L" n="58"/>Sed quod assumpserit totum mediantibus partibus, Arguitur 
+      <lb ed="#L" n="59"/>sic prioribus prius facta est vnio, sed partes sunt priores toto 
+      <lb ed="#L" n="60"/>ergo prius facta est vnio cum partibus, quam cum toto. Et hoc 
+      <lb ed="#L" n="61"/>videtur dicere Augustinus in libro de Agone Christiano dicem: 
+      <lb ed="#L" n="62"/>quod inuisibilis &amp; incommutabilis veritas per spiritum 
+      ani<lb ed="#L" n="63" break="no"/>mam, &amp; per animam corpus, &amp; sic totum hominem assumpsit. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e223">
+               <lb ed="#L" n="64"/>
+               <!--6--> Quod autem assumpserit corpus mediante anima videtu 
+      <lb ed="#L" n="65"/>per Augustinum, qui dicit ad Volusianum quod ipsa 
+      magnitu<lb ed="#L" n="66" break="no"/>do diuinae virtutis animam sibi rationalem, &amp; per eandem 
+      cor<lb ed="#L" n="67" break="no"/>pus humanum totum hominem in melius mutando coaptauit.
+</p>
+            <p xml:id="jsnvu6-e152422-d1e236">
+               <lb ed="#L" n="68"/>RESPONSIO. simultas &amp; ordo aliquorum potest at 
+      <lb ed="#L" n="69"/>tendi dupliciter. Vel secundum rem, vel secundum rationem. Si 
+      <lb ed="#L" n="70"/>secundum rem adhuc dupliciter, quia vel secundum tempus, ve 
+      <lb ed="#L" n="71"/>secundum naturam tantum. Et in his omnibus deducetur 
+      con<lb ed="#L" n="72" break="no"/>clusio. Si ergo quaeratur de simultate vel ordine temporis in 
+      <lb ed="#L" n="73"/>assumptione humanitatis &amp; partium eius: sic dicendum est 
+      <lb ed="#L" n="74"/>quod nullus fuit ordo temporis, sed simul in eodem instanti 
+      tem<lb ed="#L" n="75" break="no"/>poris, fuit caro Christi concepta &amp; animata anima rationali &amp; 
+      <lb ed="#L" n="76"/>natura humana ex his perfecta vnita verbo. Quod patet sic 
+      <lb ed="#L" n="77"/>Caro non prius tempore fuit concepta quam verbo vnita, nec 
+      <!--00445.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="78"/>econuerso, nec prius verbo vnita quam animata, ergo simul 
+      <lb ed="#L" n="79"/>fuit caro concepta animata &amp; natura perfecta verbo vnita, con 
+      <lb ed="#L" n="80"/>sequentia patet, quia quando aliqua sunt simul in eodem 
+      in<lb ed="#L" n="81" break="no"/>stanti quicquid est simul cum vno est simul cum alio, si ergo 
+      <lb ed="#L" n="82"/>conceptio carnis &amp; eius vnio cum vno fuerunt simul &amp; non 
+      <lb ed="#L" n="83"/>vnum prius altero, si animatio carnis fuit simul cum 
+      conce<lb ed="#L" n="84" break="no"/>ptione sequitur necessario quod fuit simul cum vnione, ita vt 
+      <lb ed="#L" n="85"/>haec tria essent simul conceptio animatio &amp; vnio. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e282">
+               <lb ed="#L" n="86"/>
+               <!--8--> Antecedens probatur quantum ad duos articulos quos 
+      con<lb ed="#L" n="87" break="no"/>tinet. Primus est quod caro Christi non prius fuit concepta quam 
+      <lb ed="#L" n="88"/>verbo vnita. Et hoc patet sic, quia filius Dei dicitur fuisse 
+      con<lb ed="#L" n="89" break="no"/>ceptus ex virgine (Luc. I. Ecce concipies in vtero &amp;c. Et in sym 
+      <lb ed="#L" n="90"/>bolo Apostolorum de filio dicitur qui conceptus est de spiritu 
+      <lb ed="#L" n="91"/>sancto, natus ex Maria virgine.) Hoc autem non potest dici 
+      ra<lb ed="#L" n="92" break="no"/>tione diuinae naturae, quia secundum illam non fuit ex matre 
+      <lb ed="#L" n="93"/>conceptus, sed a patre aeternaliter genitus, ergo secundum 
+      na<lb ed="#L" n="94" break="no"/>turam assumptam, non ratione animae, quia illa est per 
+      creatio<lb ed="#L" n="95" break="no"/>nem, ergo ratione carnis, sed ratione carnis non potest dici 
+      con<lb ed="#L" n="96" break="no"/>ceptus nisi in eodem instanti caro esset verbo vnita, quia vnio 
+      <lb ed="#L" n="97"/>facit communicationem idiomatum, ergo &amp;c. Similiter caro 
+      <lb ed="#L" n="98"/>non potuit prius esse vnita quam concepta, quia nihil potest 
+      <lb ed="#L" n="99"/>vniri alteri antequam sit, sed caro Christi incepit esse per 
+      con<lb ed="#L" n="100" break="no"/>ceptionem, ergo non potuit prius esse vnita quam concepta 
+      <lb ed="#L" n="101"/>&amp; sic patet primus articulus antecedentis. vnde Augustinus de 
+      <lb ed="#L" n="102"/>fide ad Petrum. Firmissime tene &amp; nullatenus dubites non 
+      <lb ed="#L" n="103"/>carnem Christi sine deitate conceptam in vtero virginis. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e326">
+               <lb ed="#L" n="104"/>
+               <!--9--> Secundus articulus est quod caro Christi non prius fuit 
+      con<lb ed="#L" n="105" break="no"/>cepta quam animata, &amp; hoc patet sic, agens infinitae virtutis 
+      si<lb ed="#L" n="106" break="no"/>mul &amp; in instanti materiam disponit &amp; vltimam formam 
+      indu<lb ed="#L" n="107" break="no"/>cit, nisi sit successio congrua fini, quem intendit, quia non 
+      po<lb ed="#L" n="108" break="no"/>test ibi esse successio ex resistentia passi ad agens infinitae 
+      virtu<lb ed="#L" n="109" break="no"/>tis nisi sit ibi successio ex libera voluntate agentis 
+      consideran<lb ed="#L" n="110" break="no"/>tis successionem congruere fini actionis, sed in conceptione 
+      <lb ed="#L" n="111"/>carnis Christi spiritus sanctus qui est infinitae virtutis fuit agem: 
+      <lb ed="#L" n="112"/>secundum illud Luc. I. Spiritus sanctus superueniet in te, &amp;c 
+      <lb ed="#L" n="113"/>Nec congruebat fini huius actionis successio, ergo simul &amp; in 
+      <lb ed="#L" n="114"/>instanti in conceptione carnis Christi materia fuit disposita &amp; 
+      <lb ed="#L" n="115"/>anima rationalis introducta. Quod autem fini huius actionis 
+      <lb ed="#L" n="116"/>non congrueret successio, nec etiam actioni, Patet, quia si fuisset 
+      <lb ed="#L" n="117"/>prius caro concepta quam animata cum non prius fuerit 
+      con<lb ed="#L" n="118" break="no"/>cepta quam verbo vnita vt statim probatum est, sequeretur 
+      <lb ed="#L" n="119"/>quod filius assumpsisset carnem habentem esse carnis per aliam 
+      <lb ed="#L" n="120"/>formam quam sit anima rationalis, sed constat quod 
+      aduenien<lb ed="#L" n="121" break="no"/>te anima illa forma cessisset, ergo frustra fuisset assumpta 
+      pri<lb ed="#L" n="122" break="no"/>ma, quia ad finem assumptionis nihil fecisset scilicet ad 
+      re<lb ed="#L" n="123" break="no"/>demptionem hominis. Patet ergo quod simul fuerunt haec tria 
+      <lb ed="#L" n="124"/>carnis conceptio, eius animatio &amp; vnio vtriusque cum 
+      perso<lb ed="#L" n="125" break="no"/>na verbi. Et hoc est quod dicit Damasc. lib. 3. simul Dei verbum 
+      <lb ed="#L" n="126"/>caro, simul animata caro rationalis &amp; intellectualis, nullus erge 
+      <lb ed="#L" n="127"/>fuit ordo temporis. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e384">
+               <lb ed="#L" n="128"/>
+               <!--10.--> Sed dicet aliquis quod insufficienter inductum est, quia 
+      pos<lb ed="#L" n="129" break="no"/>set dici quod anima prius tempore fuisset creata, &amp; verbo vnita 
+      <lb ed="#L" n="130"/>quam caro concepta &amp; animata, &amp; verbo vnita. Et sic 
+      creatio<lb ed="#L" n="131" break="no"/>animae &amp; eius vnio cum verbo praecessisset tempore illa tria 
+      <lb ed="#L" n="132"/>quae supra dicta sunt. Sed istud non valet, quia forma nunquam 
+      <lb ed="#L" n="133"/>tempore praecedit compositum cui dat esse &amp; speciem (vt 
+      pa<lb ed="#L" n="134" break="no"/>tet ex 12. Metaph.) Cum igitur anima sit forma dans esse &amp; 
+      <lb ed="#L" n="135"/>speciem nomini quod facit per vnionem sui cum materia, 
+      in<lb ed="#L" n="136" break="no"/>conueniens est dicere quod fuit anima Christi prius tempore 
+      <lb ed="#L" n="137"/>creata &amp; a verbo assumpta, quam carni vnita. Et ideo dicit 
+      <lb ed="#L" n="138"/>Dama. lib. tertio non vt quidam mentiuntur ante eam quae est 
+      <lb ed="#L" n="139"/>in virgine incarnationem intellectus est iunctus Dei verbo. 
+      <lb ed="#L" n="140"/>Nullus ergo fuit ordo temporis in praedictis. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e417">
+               <lb ed="#L" n="141"/>
+               <!--11.--> Si autem loquamur de ordine naturae, sic dicendum est q 
+      <lb ed="#L" n="142"/>conceptio praecessit animationem &amp; animatio vnionem naturae 
+      <lb ed="#L" n="143"/>cum verbo. Sed in ipsa assumptione nullus fuit ordo, nec totius ad 
+      <lb ed="#L" n="144"/>partes, nec partium ad totum, nec partium adinuicem. Quod autem 
+      <lb ed="#L" n="145"/>concessio praecesserit ordine naturae animationem, Patet sic, dispe 
+      <lb ed="#L" n="146"/>sitio materiae qualiscunque sit illa praecedit secundum naturam 
+      <lb ed="#L" n="147"/>introductionem formae. Sed primum vocatur conceptio in 
+      pro<lb ed="#L" n="148" break="no"/>posito nostro, non enim conceptio fuit aliud nisi praeparatio ma 
+      <lb ed="#L" n="149"/>teriae. Secundum vocatur animatio, ergo conceptio secundum 
+      na<lb ed="#L" n="150" break="no"/>turam fuit prior animatione. Quod autem animatio similiter 
+      <lb ed="#L" n="151"/>praecesserit vnionem naturae cum verbo, Patet sic, prius secundum 
+      <lb ed="#L" n="152"/>naturam aliquid est actu ens in se quam vnitum alteri a quo non 
+      <lb ed="#L" n="153"/>habet formaliter suam actualitatem, quod dico propter 
+      mate<lb ed="#L" n="154" break="no"/>riam quae nullam actualitatem habet nisi per formam, &amp; ideo noi 
+      <lb ed="#L" n="155"/>est prius actu ens, quam formae vnita. Sed in caeteris infallibiliter ve 
+      <lb ed="#L" n="156"/>rum est, oportet enim omne illud quod vnitur alteri, esse aliquic 
+      <lb ed="#L" n="157"/>in se vel in potentia, quando vnitur suae formae substantiali, vel 
+      <lb ed="#L" n="158"/>in actu quando vnitur alteri, a quo non habet formaliter esse 
+      <lb ed="#L" n="159"/>in actu, sed natura assumpta a verbo non habet ab ipso esse 
+      <!--00446.xml-->
+      <pb ed="#L" n="186-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>formaliter, sed effectiue solum sicut caeterae res, ergo natura as 
+      <lb ed="#L" n="2"/>sumpta prius fuit ens actu, quam verbo vnita. Sed actualitas 
+      eiu<lb ed="#L" n="3" break="no"/>est per vnionem formae cum materia quam vocamus animatio 
+      <lb ed="#L" n="4"/>nem, ergo animatio praecessit secundum naturam vnionem ad 
+      <lb ed="#L" n="5"/>verbum. Et sic patet quod ordine naturae conceptio praecessit ani 
+      <lb ed="#L" n="6"/>mationem, &amp; animatio assumptionem naturae a verbo. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e482">
+               <lb ed="#L" n="7"/>
+               <!--12--> Quod autem in ipsa assumptione non fuerit aliquis 
+      ord<lb ed="#L" n="8" break="no"/>naturae, patet, quia ille ordo vel esset ex parte assumptionis, vel 
+      <lb ed="#L" n="9"/>ex parte assumptorum, non ex parte assumptionis, quia non 
+      po<lb ed="#L" n="10" break="no"/>nitur fuisse nisi vna assumptio: vnius autem ad seipsum non pro 
+      <lb ed="#L" n="11"/>test esse realis ordo, ergo ex parte assumptionis non potest po 
+      <lb ed="#L" n="12"/>ni aliquis ordo realis. Item nec ex parte assumptorum compa 
+      <lb ed="#L" n="13"/>rando totum ad partes, &amp; econuerso, quia inter illa non est 
+      rea<lb ed="#L" n="14" break="no"/>lis ordo naturae, quae sunt penitus idem re, &amp; vnum clauditur 
+      <lb ed="#L" n="15"/>intrinsece in intellectu alterius, sed totum compositum &amp; par 
+      <lb ed="#L" n="16"/>tes eius vt vnitae, sic enim assumptae sunt, vt statim probatum est, 
+      <lb ed="#L" n="17"/>sunt penitus idem, totum enim non est aliud quam partes vnitae 
+      <lb ed="#L" n="18"/>&amp; partes vnitae quam totum coniunctum: vnum etiam clauditur 
+      <lb ed="#L" n="19"/>intrinsece in alterius intellectu, quia impossibile est intelliger 
+      <lb ed="#L" n="20"/>coniunctum nisi ex partibus vnitis, &amp; econuerso: impossibile est 
+      <lb ed="#L" n="21"/>intelligere coniunctionem partium, nisi intelligendo 
+      coniun<lb ed="#L" n="22" break="no"/>ctum ex eis, imo vtrobique formaliter, videtur esse idem 
+      con<lb ed="#L" n="23" break="no"/>ceptus, ergo inter ista non potest esse realis ordo. Item vna 
+      <lb ed="#L" n="24"/>assumptio est vnius ad vnum, sed assumptio humanae natura 
+      <lb ed="#L" n="25"/>fuit vna &amp; ad vnum, quia ad personalitatem filij, ergo fuit vnius 
+      <lb ed="#L" n="26"/>assumpti, sed constat quod natura humana integra ex partibu 
+      <lb ed="#L" n="27"/>suis fuit assumpta, ergo tam ipsa quam partes eius fuerunt 
+      as<lb ed="#L" n="28" break="no"/>sumptae vt vnum, &amp; ita non fuit ibi aliquis ordo realis. Per 
+      <lb ed="#L" n="29"/>idem patet quod vna pars, puta caro, non fuit assumpta 
+      me<lb ed="#L" n="30" break="no"/>diante alia (scilicet anima) quia quando aliquid vnitur duobus 
+      <lb ed="#L" n="31"/>non vt duo sunt, sed vnum, neutrum eorum est medium: vbi 
+      <lb ed="#L" n="32"/>enim est medium, ibi est necessaria distinctio medij ad ea quo 
+      <lb ed="#L" n="33"/>rum est medium, sed persona diuina fuit vnita per se carni &amp; an 
+      <lb ed="#L" n="34"/>mae non vt plura sunt, sed vt vnum, scilicet inquantum sunt par 
+      <lb ed="#L" n="35"/>tes vnius naturae humanae ergo vnum non fuit assumptum me 
+      <lb ed="#L" n="36"/>diante altero. Et sic patet quod in assumptione non fuit aliquis 
+      <lb ed="#L" n="37"/>ordo temporis, nec aliquis realis ordo naturae. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e554">
+               <lb ed="#L" n="38"/>
+               <!--13--> Si autem loquamur de ordine rationis, sic dicendum est, c 
+      <lb ed="#L" n="39"/>in assumptione fuit talis ordo, scilicet, quod totum prius fuit assum 
+      <lb ed="#L" n="40"/>ptum quam partes, &amp; inter partes prius anima quam caro: &amp; 
+      <lb ed="#L" n="41"/>inter partes animae prius mens, quae spiritus vocatur, quam pars 
+      <lb ed="#L" n="42"/>sensitiua. Hic autem ordo potest attendi quantum ad duo, 
+      sci<lb ed="#L" n="43" break="no"/>licet quantum ad dignitatem naturae assumptibilis, &amp; sic quod 
+      di<lb ed="#L" n="44" break="no"/>gnius est prius est. Constat autem quod totum est dignius sua 
+      par<lb ed="#L" n="45" break="no"/>te, &amp; inter partes anima dignior carne, &amp; inter partes anima 
+      <lb ed="#L" n="46"/>pars intellectualis, quae vocatur mens seu spiritus, dignior est par 
+      <lb ed="#L" n="47"/>te sensitiua, quae absoluto nomine vocatur anima a doctoribus, 
+      <lb ed="#L" n="48"/>ergo prius est assumptum totum quam aliqua pars eius secundum 
+      <lb ed="#L" n="49"/>ordinem dignitatis, &amp;t inter partes similiter est talis ordo qualis 
+      <lb ed="#L" n="50"/>dictus est. Alio modo potest sumi hic ordo secundum fructum 
+      <lb ed="#L" n="51"/>assumptionis qui est curatio naturae humanae, &amp; sic quod 
+      perfi<lb ed="#L" n="52" break="no"/>ctius recipit huc fructum prius est assumptum. Constat autem 
+      <lb ed="#L" n="53"/>quod perfectius recipit fructum totum, quam aliqua pars, &amp; 
+      perfe<lb ed="#L" n="54" break="no"/>ctius anima quam corpus: &amp; superior pars animae, quam inferior, &amp; 
+      <lb ed="#L" n="55"/>ita secundum rationem est inter ea talis ordo. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e598">
+               <lb ed="#L" n="56"/>
+               <!--14--> AD PRIMVM argumentum dicendum quod nullus 
+      <lb ed="#L" n="57"/>fuit ibi ordo realis temporis vel naturae: fuit tamen ibi ordo 
+      se<lb ed="#L" n="58" break="no"/>cundum rationem, qualis dictus est, quo ordine totum fuit prius 
+      <lb ed="#L" n="59"/>assumptum quam partes: &amp; ideo concedenda est prima 
+      dedu<lb ed="#L" n="60" break="no"/>ctio, quae hoc probat. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e614">
+               <lb ed="#L" n="61"/>
+               <!--15--> Ad secundam deductionem, quae videtur probare 
+      contra<lb ed="#L" n="62" break="no"/>rium, dicendum quod Damascenus intendit quod naturam, quam 
+      <lb ed="#L" n="63"/>primo verbum assumpsit, nunquam dimisit totaliter quin vnita 
+      <lb ed="#L" n="64"/>fuerit vel ei, vel partibus eius, nec propter hoc intendit quod 
+      pri<lb ed="#L" n="65" break="no"/>mo partes fuerint vnitae quam totum, nisi quis velit dicerec 
+      <lb ed="#L" n="66"/>imo pro tanto, quia illud quod est vltimum in resolutione est 
+      <lb ed="#L" n="67"/>primum in compositione. Sed illud solum habet locum in his 
+      <lb ed="#L" n="68"/>quae vniuntur adinuicem per naturam, &amp; non solum secundum 
+      <lb ed="#L" n="69"/>beneplacitum vnientis, sicut facta est vnio naturae humanae, &amp; 
+      <lb ed="#L" n="70"/>partium eius cum persona verbi. Tunc enim fit vnio, &amp; 
+      solui<lb ed="#L" n="71" break="no"/>tur cum quocunque, prout placet vnienti, &amp; congruit fini 
+      <lb ed="#L" n="72"/>vnionis, &amp; quia persona verbi voluntarie assumpsit humanam 
+      <lb ed="#L" n="73"/>naturam, vt nos per mortem redimeret, &amp; repararet per resui 
+      <lb ed="#L" n="74"/>rectionem, ideo prius soluta est vnio cum toto per mortem 
+      <lb ed="#L" n="75"/>manente ea cum partibus, propter futuram resurrectionem 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e652">
+               <lb ed="#L" n="76"/>
+               <!--16--> Ad aliud dicendum quod sublato medio vnionis si sit reale &amp; 
+      <lb ed="#L" n="77"/>medium necessitatis non solum quoad fieri, sed quoad esse 
+      sol<lb ed="#L" n="78" break="no"/>uitur vnio: totum autem non ponitur medium respectu vnioni: 
+      <lb ed="#L" n="79"/>partium secundum rem, nec medium necessarium in fieri &amp; in 
+      <lb ed="#L" n="80"/>esse, sed solum ponitur medium secundum rationem, propte 
+      <lb ed="#L" n="81"/>congruitates prius allegatas. Et ideo non oportet quod soluta 
+      <lb ed="#L" n="82"/>vnione cum toto soluta fuerit vnio cum partibus. Et per idem 
+      <!--00446.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>patet responsio ad aliud de anima respectu carnis, &amp; econuerso. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e678">
+               <lb ed="#L" n="84"/>
+               <!--17--> AD ARGVMENTVM alterius partis dicendum 
+      <lb ed="#L" n="85"/>quod ex auctoritate Damasceni, non plus habetur, nisi quod ver 
+      <lb ed="#L" n="86"/>bum prius per se assumpsit &amp; directe naturam integra. Partes 
+      <lb ed="#L" n="87"/>autem non assumpsit secundum se, sed inquantum sunt de 
+      in<lb ed="#L" n="88" break="no"/>traneitate naturae, &amp; in hoc non est aliquis ordo secundum rem. 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e694">
+               <lb ed="#L" n="89"/>
+               <!--18--> Ad aliud quum dicitur quod prioribus prius facta est vnio, 
+      di<lb ed="#L" n="90" break="no"/>cendum quod non est verum, imo potius dicendum est 
+      econuer<lb ed="#L" n="91" break="no"/>so, quia quando duae actiones sic se habent, quod vna sequitur 
+      <lb ed="#L" n="92"/>alteram, vbi finitur prima, ibi incipit secunda, sed formatio 
+      na<lb ed="#L" n="93" break="no"/>turae humanae in suis partibus praecessit ordine naturae 
+      vnio<lb ed="#L" n="94" break="no"/>nem cum verbo: &amp; ideo illud est per se primo vnitum verbo, 
+      <lb ed="#L" n="95"/>ad quod terminata est prima actio, &amp; illud est natura integra 
+      </p>
+            <p xml:id="jsnvu6-e152422-d1e714">
+               <lb ed="#L" n="96"/>
+               <!--19--> Et ad auctoritates Augustini dicendum quod August. 
+      in<lb ed="#L" n="97" break="no"/>tendit ponere ordinem inter partes assumptas. Non ordinem 
+      <lb ed="#L" n="98"/>rei, sed rationis, qui attenditur secundum dignitatem naturae 
+      <lb ed="#L" n="99"/>assumptibilis &amp; fructum assumptionis. Quod autem videtur 
+      <lb ed="#L" n="100"/>innuere in fine cuiuslibet auctoritati, quod totum sit assumptum 
+      <lb ed="#L" n="101"/>mediantibus partibus, non sic est accipiendum quod partes ali 
+      <lb ed="#L" n="102"/>quo modo sunt praeassumptae toti, sed intendit quod natura 
+      inte<lb ed="#L" n="103" break="no"/>gra ex omnibus partibus assumpta est, &amp; non altera pars tantum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

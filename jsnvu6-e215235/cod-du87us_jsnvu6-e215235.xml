@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="261-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e215235"><!-- l4d5q1 -->
+            <head xml:id="jsnvu6-e215235-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e215235-Hd1e103" type="question-title">Utrum a malis ministris possit conferri 
+      verus baptismus</head>
+            <p xml:id="jsnvu6-e215235-d1e106">
+               <lb ed="#L" n="47"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="48"/>Vtrum a malis ministris possit conferri 
+      <lb ed="#L" n="49"/>verus baptismus. 
+      <lb ed="#L" n="50"/>Thom.3. 4. 64. ar. 5. &amp;ql. art. 9.
+    </p>
+            <p xml:id="jsnvu6-e215235-d1e117">
+               <lb ed="#L" n="51"/>IACA distinctionem istam primo quaeritur 
+      d<lb ed="#L" n="52" break="no"/>ministro baptismi. Et secundo de potestate 
+      Chri<lb ed="#L" n="53" break="no"/>sti baptismum instituentis. Quantum ad primum 
+      <lb ed="#L" n="54"/>primo quaeritur vtrum a malis ministris possit 
+      con<lb ed="#L" n="55" break="no"/>&amp; ferri verus baptismus, &amp; secundo vtrum peccent 
+      <lb ed="#L" n="56"/>baptizando. Ad primum sic proceditur. Et arguitur quod a ma 
+      <lb ed="#L" n="57"/>lis ministris non possit conferri verus baptismus, quia sicut ad 
+      <lb ed="#L" n="58"/>baptismum requiritur forma &amp; materia, ita &amp; minister. Sed 
+      ma<lb ed="#L" n="59" break="no"/>teria indebita vel forma euacuat sacramentum, ergo similiter 
+      mi<lb ed="#L" n="60" break="no"/>nister indebitus, sed minister malus est minister indebitus, dicente 
+      <lb ed="#L" n="61"/>Augustino. Iustos oportet esse tanti iudicis ministros, igitur &amp;c. 
+      <lb ed="#L" n="62"/>a Item membrum aridum non participat actionem corporis 
+      <lb ed="#L" n="63"/>sed baptizare est quaedam actio corporis mystici, ergo malus 
+      <lb ed="#L" n="64"/>minister quum sit membrum aridum istam actionem exercere 
+      <lb ed="#L" n="65"/>non potest. 
+      </p>
+            <p xml:id="jsnvu6-e215235-d1e152">
+               <lb ed="#L" n="66"/>
+               <!--3--> CONTRA est quod dicit Augustinus in litera, non timeo 
+      <lb ed="#L" n="67"/>adulterum, non ebriosum, non homicidam, quia columbam 
+      at<lb ed="#L" n="68" break="no"/>Cendo, per quam mihi dicitur: hic est qui baptizat. 
+      </p>
+            <p xml:id="jsnvu6-e215235-d1e164">
+               <lb ed="#L" n="69"/>
+               <!--4--> RESPONSIO. Sciendum est quod differt hominem 
+      <lb ed="#L" n="70"/>esse bonum hominem bonitate moris, quae est bonitas 
+      simpli<lb ed="#L" n="71" break="no"/>citer, de qua communiter loquuntur homines, &amp; esse bonum 
+      <lb ed="#L" n="72"/>artificem, quae est bonitas secundum quid, &amp; cum additione. 
+      Ali<lb ed="#L" n="73" break="no"/>quis enim est bonus artifex, puta faber, qui non est bonus sim 
+      <lb ed="#L" n="74"/>pliciter, &amp; econuerso aliquis est bonus homo simpliciter, qui 
+      <lb ed="#L" n="75"/>non est bonus faber, sed malus. Hae enim duae bonitates se ha¬ 
+      <!--00596.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>bent per accidens adinuicem, ita quod non licet in his ex diuisis 
+      <lb ed="#L" n="77"/>inferre coniunctum, vel ex coniunctis diuisum: vt si dicatur, iste 
+      <lb ed="#L" n="78"/>est bonus &amp; faber, ergo est bonus faber, vel si dicatur iste est 
+      <lb ed="#L" n="79"/>bonus faber, ergo est bonus, &amp; est faber, non sequitur, sed est 
+      <lb ed="#L" n="80"/>fallacia accidentis omnino. Sic est de bonitate ministri inquantum 
+      <lb ed="#L" n="81"/>est minister, &amp; de bonitate hominis, quae est bonitas simpliciter. 
+      </p>
+            <p xml:id="jsnvu6-e215235-d1e201">
+               <lb ed="#L" n="82"/>
+               <!--5--> Dicendum ergo quod a malo ministro, qui est malus 
+      inquan<lb ed="#L" n="83" break="no"/>tum minister nullum verum sacramentum potest conferri, a 
+      ma<lb ed="#L" n="84" break="no"/>lis tamen hominibus simpliciter potest verum sacramentum 
+      con<lb ed="#L" n="85" break="no"/>ferri sicut a bonis. Primum patet sic: nullus est malus minister 
+      <lb ed="#L" n="86"/>nisi sit defectuosus in aliquo ad ministerium suum pertinente, sed 
+      <lb ed="#L" n="87"/>defectus eorum quae requiruntur ad ministerium euacuat 
+      sacra<lb ed="#L" n="88" break="no"/>mentum, ergo a malo ministro non potest conferri verum 
+      sacra<lb ed="#L" n="89" break="no"/>mentum. Maior patet, quia quum malum sit priuatio &amp; defectus 
+      <lb ed="#L" n="90"/>alicuius rei debitae, non potest esse malus minister, nisi cui 
+      defi<lb ed="#L" n="91" break="no"/>cit aliquid pertinens ad suum ministerium. Minor probatur, quia 
+      <lb ed="#L" n="92"/>ad ministerium cuiuscunque artificij non concurrunt in 
+      gene<lb ed="#L" n="93" break="no"/>rali nisi tria ex parte ministri, scilicet scire, velle, seu intendere, 
+      <lb ed="#L" n="94"/>&amp; posse, ergo non est malus minister, nisi qui est defectuosus in 
+      <lb ed="#L" n="95"/>aliquo istorum, sed quocunque istorum deficiente nullum est 
+      sa<lb ed="#L" n="96" break="no"/>cramentum, quia si omnino nescit baptizare, aut non intendit. 
+      <lb ed="#L" n="97"/>aut non potest proferre verba, quia mutus, aut immergere, quia 
+      <lb ed="#L" n="98"/>mancus, nihil fit, ergo a malo ministro qui est malus inquantum 
+      <lb ed="#L" n="99"/>minister, non potest conferri baptismus, nec aliquod 
+      sacramen<lb ed="#L" n="100" break="no"/>tum. hoc autem intelligendum est quando est malus &amp; 
+      defectuo<lb ed="#L" n="101" break="no"/>sus simpliciter in his quae requiruntur de necessitate ad 
+      ministe<lb ed="#L" n="102" break="no"/>rium, quia si sit in talibus defectuosus non simpliciter, sed 
+      secun<lb ed="#L" n="103" break="no"/>dum quid (vtpote quia nescit ita bene, sicut alius, qui est melior 
+      <lb ed="#L" n="104"/>clericus, vel magis expertus, vel non potest ita bene formare 
+      ver<lb ed="#L" n="105" break="no"/>ba, quia blesus, vel quia linguae latinae ignarus sicut ille de consec 
+      <lb ed="#L" n="106"/>distin. 4. retulerunt qui dicebant, baptizo te in nomine patria, 
+      <lb ed="#L" n="107"/>&amp;c. Nihilominus esset verum sacramentum, quia defectus 
+      se<lb ed="#L" n="108" break="no"/>cundum quid, non tollit effectum simpliciter. 
+      </p>
+            <p xml:id="jsnvu6-e215235-d1e264">
+               <lb ed="#L" n="109"/>
+               <!--6--> Secundum patet . s. quod a malis hominibus malitia moris 
+      po<lb ed="#L" n="110" break="no"/>test conferri verus baptismus, primo quia ea quae sunt de 
+      perti<lb ed="#L" n="111" break="no"/>nentibus ad sacramentum maximae necessitatis debent esse 
+      com<lb ed="#L" n="112" break="no"/>munissima &amp; notissima, sed baptismus est sacramentum maxima 
+      <lb ed="#L" n="113"/>necessitatis, potissime quantum ad paruulos, qui non habent aliud 
+      <lb ed="#L" n="114"/>remedium suae salutis. Bonitas autem moralis quae est per gratiam 
+      <lb ed="#L" n="115"/>non est communissima &amp; notissima, sed est valde rara &amp; 
+      ignora<lb ed="#L" n="116" break="no"/>ta, ergo non requiritur in ministro baptismi. Secundo quia illud 
+      <lb ed="#L" n="117"/>quod consistit in opere operato non vitiatur ex demerito 
+      ope<lb ed="#L" n="118" break="no"/>rantis, si tamen concurrant quae sunt de necessitate operis, sed 
+      <lb ed="#L" n="119"/>omne sacramentum consissit in opere operato, ergo non vitiatur 
+      <lb ed="#L" n="120"/>ex malitia vel demerito ministri operantis, dummodo concurrant 
+      <lb ed="#L" n="121"/>quae sunt de necessitate operis, &amp; hoc est quod dicit Aug. super 
+      <lb ed="#L" n="122"/>Ioan. par. I. Homel. 5. &amp; recitatur de consec. d. 4. can. ego dico, &amp; 
+      <lb ed="#L" n="123"/>nos dicimus omnes, quia iustos oportet esse tanti iudicis 
+      mini<lb ed="#L" n="124" break="no"/>stros, vt sint ministri justi si volunt, si autem nolunt esse iusti qui 
+      <lb ed="#L" n="125"/>in cathedra Moysi sedent, securum me fecit magister meus, de 
+      <lb ed="#L" n="126"/>quo s. dicit spirit. sanctus, hic est qui baptizat. Et idem habetur 
+      <lb ed="#L" n="127"/>eadem distinct. can. Romanus pontifex, cum pluribus aliis. 
+      </p>
+            <p xml:id="jsnvu6-e215235-d1e310">
+               <lb ed="#L" n="128"/>
+               <!--7--> AD PRIMVM argumentum dicendum quod malus 
+      <lb ed="#L" n="129"/>homo est debitus minister sacramenti si habeat ea quae pertinem 
+      <lb ed="#L" n="130"/>ad ministerium quantum ad hoc quod confert verum sacramen 
+      <lb ed="#L" n="131"/>tum. Est tamen indebitus quoad se, quia talis administratio non 
+      <lb ed="#L" n="132"/>est ei ad meritum sed potius ad peccatum. Istud tamen non 
+      eua<lb ed="#L" n="133" break="no"/>cuat sacramentum, sicut ex parte materiae non euacuatur 
+      sacra<lb ed="#L" n="134" break="no"/>mentum propter immunditiam aquae. 
+      </p>
+            <p xml:id="jsnvu6-e215235-d1e330">
+               <lb ed="#L" n="135"/>
+               <!--8--> Ad secundum dicendum quod malus homo est membrum 
+      <lb ed="#L" n="136"/>aridum in his quae pertinent ad meritum: &amp; ideo non meretu, 
+      <lb ed="#L" n="137"/>conferendo sacramentum: non est tamen membrum aridum in 
+      <lb ed="#L" n="138"/>his quae pertinent ad ministerium si concurrunt in ipso ea quae 
+      <lb ed="#L" n="139"/>sunt de necessitate ministri: &amp; hoc sufficit ad hoc quod cor 
+      <lb ed="#L" n="140"/>verum sacramentum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

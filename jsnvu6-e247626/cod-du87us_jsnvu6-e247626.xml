@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="300-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e247626"><!-- l4d18q5 -->
+            <head xml:id="jsnvu6-e247626-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e247626-Hd1e103" type="question-title">Utrum scienter participans cum 
+      excommunicato peccet mortaliter</head>
+            <p xml:id="jsnvu6-e247626-d1e106">
+               <lb ed="#L" n="9"/>Vtrum scienter participans cum 
+      excommu<lb ed="#L" n="10" break="no"/>nicato peccet mortaliter.
+      <lb ed="#L" n="11"/>Thom. in additionibus q. 23. por totum. 
+    </p>
+            <p xml:id="jsnvu6-e247626-d1e115">
+               <lb ed="#L" n="12"/>SECVNDO principaliter quaeritur vtrum scienter 
+      <lb ed="#L" n="13"/>participans cum excomunicato peccet 
+      mortali<lb ed="#L" n="14" break="no"/>ter. Et videtur quod sic, quia nullus debet 
+      excommu<lb ed="#L" n="15" break="no"/>nicari maiori excommunicatione nisi pro peccato 
+      <lb ed="#L" n="16"/>mortali: vt patet ex praecedente quaestione, sed 
+      <lb ed="#L" n="17"/>participans cum excommunicato nisi admonitus desistat deber 
+      <lb ed="#L" n="18"/>excommunicari, ergo peccat mortaliter. 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e133">
+               <lb ed="#L" n="19"/>
+               <!--2--> Item nihil impedit a perceptione Eucharistiae &amp; aliorum 
+      sa<lb ed="#L" n="20" break="no"/>cramentorum nisi peccatum mortale: veniale enim ab hoc nor 
+      <lb ed="#L" n="21"/>excludit, sed participans cum excommunicato excluditur a 
+      per<lb ed="#L" n="22" break="no"/>ceptione Eucharistiae &amp; aliorum sacramentorum. ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e147">
+               <lb ed="#L" n="23"/>
+               <!--3--> Ad idem est quod dicit Innocen. &amp; habetur extra de his quae vi 
+      <lb ed="#L" n="24"/>metúsve causa fiunt, cap. Sacris. vbi dicitur de quibusdam qui par 
+      <lb ed="#L" n="25"/>ticipauerunt cum excomunicatis, quod non debuerunt hoc facere 
+      <lb ed="#L" n="26"/>etiam pro vitanda morte, quia pro vitanda morte nullus debet 
+      <lb ed="#L" n="27"/>peccare mortaliter: ista autem ratio nulla esset, nisi partici 
+      pare<lb ed="#L" n="28" break="no"/>cum excommunicato esset peccatum mortale, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e165">
+               <lb ed="#L" n="29"/>
+               <!--4--> IN CONTRARIVM arguitur sic, quod nullum 
+      <lb ed="#L" n="30"/>omnino sit peccatum: quia magis sunt extra ecclesiam Iudaei &amp; 
+      <lb ed="#L" n="31"/>Pagani quam excommunicati, sed participare cum Iudaeis &amp; 
+      Pa<lb ed="#L" n="32" break="no"/>ganis nullum omnino peccatum est, ergo nec cum 
+      excommu<lb ed="#L" n="33" break="no"/>nicatis. Item, ex quantitate poenae innotescit quantitas culpae, 
+      <lb ed="#L" n="34"/>sed participantibus cum excommunicatis non imponitur 
+      poe<lb ed="#L" n="35" break="no"/>na tanquam pro mortali, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e185">
+               <lb ed="#L" n="36"/>
+               <!--5--> RESPONSIO. Aliquis potest cum excommunicato parti 
+      <lb ed="#L" n="37"/>cipare multipliciter. Vno modo sic, quod participet in crimine pro 
+      <lb ed="#L" n="38"/>quo excommunicatur, &amp; tunc non est dubium quod talis peccat 
+      mortali<lb ed="#L" n="39" break="no"/>ter, cum consensus in peccatum mortale sit peccatu mortale: 
+      in<lb ed="#L" n="40" break="no"/>currit etiam similem sententiam, scilicet maiorem 
+      excommunica<lb ed="#L" n="41" break="no"/>tionem, vt habetur extra de sent. exc. cap. Nuper. &amp; cap. Si 
+      con<lb ed="#L" n="42" break="no"/>cubinae. Alio modo potest aliquis participare cum excommunica 
+      <lb ed="#L" n="43"/>to non in crimine pro quo est excommunicatus, sed in aliis 
+      acti<lb ed="#L" n="44" break="no"/>bus communibus. Circa quod videnda sunt tria. Primum est qualiter 
+      <lb ed="#L" n="45"/>&amp; quot modis dicatur aliquis participare cum excommunicato. 
+      <lb ed="#L" n="46"/>Secundum est, an participans cum excommunicato in casu non 
+      <lb ed="#L" n="47"/>concesso peccet mortaliter. Talium est, quibus personis &amp; pro 
+      <lb ed="#L" n="48"/>qua causa licitum est participare cum excommunicatis. 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e218">
+               <lb ed="#L" n="49"/>
+               <!--6--> Quantum ad primum notandum est quod cum participare cum 
+      <lb ed="#L" n="50"/>excommunicatis fit prohibitum nisi in certis casibus, &amp; certis 
+      per<lb ed="#L" n="51" break="no"/>sonis, vt infra dicetur, per modos participandi prohibitos 
+      pos<lb ed="#L" n="52" break="no"/>sumus scire quot modis contingit cum excommunicatis non 
+      <lb ed="#L" n="53"/>participare, illi autem modi continentur in his versibus, Si pro 
+      <lb ed="#L" n="54"/>delictis anathema quis efficiatur: Os, orare, vale, communio, 
+      <lb ed="#L" n="55"/>mensa negatur. Os, id est, osculum: orare qua non solum in ec 
+      <lb ed="#L" n="56"/>clesia, sed extra ecclesiam non est cum excommunicato orandum: 
+      va<lb ed="#L" n="57" break="no"/>le, quia excommunicatus non est salutandus, vel resalutandus: 
+      con<lb ed="#L" n="58" break="no"/>munio, non solum in perceptione eucharistiae, sed in quocunqe 
+      <lb ed="#L" n="59"/>actu legitimo est ei deneganda mensa, quia non est cum eo 
+      come<lb ed="#L" n="60" break="no"/>dendum vel bibendum. Qualiter autem haec sint intelligenda 
+      <lb ed="#L" n="61"/>ratis clarum est in aliquibus videlicet in primo: dicitur enim 
+      ali<lb ed="#L" n="62" break="no"/>quis participare in osculo cum excommunicato qui osculatur 
+      <lb ed="#L" n="63"/>eum, vel recipit ab eo osculum. Si autem aliquis excommunicatur 
+      <lb ed="#L" n="64"/>osculetur Titium non excommunicatum, &amp; ego ante vel post osculom 
+      <lb ed="#L" n="65"/>eundem Titium, nunquid propter hoc participaui cum 
+      excommunica<lb ed="#L" n="66" break="no"/>to in osculo? Certe non, quamuis osculatus sim eundem Titium quem 
+      si<lb ed="#L" n="67" break="no"/>militer ille excommunicatus fuerat osculatus nisi ex conditione 
+      <lb ed="#L" n="68"/>conuenissemus ego &amp; excommunicatus ad osculandum Titium. 
+      Si<lb ed="#L" n="69" break="no"/>militer si saluto excommunicatum, vel resaluto participo cum eo in 
+      <lb ed="#L" n="70"/>salutatione, sed si excommunicatus salutat Titium non 
+      excommuni<lb ed="#L" n="71" break="no"/>carum, &amp; ego saluto, vel resaluto eundem Titium non participo cum 
+      ex<lb ed="#L" n="72" break="no"/>comunicato in salutatione, sed solum cum Titio nisi ex communi 
+      con<lb ed="#L" n="73" break="no"/>sensu cenuenissemus ego &amp; excommunicatus ad salutandum Titium 
+      <lb ed="#L" n="74"/>Eodem modo in actibus ciuilibus: si vendo excommunicato aliud 
+      <lb ed="#L" n="75"/>vel emo ab eo participo cum eo, sed si excommunicatus emit aliquod 
+      <lb ed="#L" n="76"/>a Titio, &amp; ego emo aliquid ab eodem non participo cum excommuni 
+      <lb ed="#L" n="77"/>cato, sed solum cum Titio a quo emo, nisi ego &amp; excommunicatur 
+      <lb ed="#L" n="78"/>essemus socij in communi mercatione. Per hoc descendo ad 
+      parti<lb ed="#L" n="79" break="no"/>cipationem quae est in mensa &amp; in missa, &amp; in aliis officiis diuinis, 
+      <!--00674.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>quia si inuito aliquem excommunicatum ad comedendum mecum vel 
+      <lb ed="#L" n="81"/>inuitor ab eo &amp; comedo, clarum est quod participo cum eo in 
+      men<lb ed="#L" n="82" break="no"/>sa, dato quod non comedamus in eadem mensa, &amp; etiam dato quod ipsi 
+      <lb ed="#L" n="83"/>nihil comederet, qa inuitatus ab eo comedo cibos mensae suae 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e303">
+               <lb ed="#L" n="84"/>
+               <!--7--> Sed si aliquis non excommunicatus inuitat me ad comedendum, 
+      <lb ed="#L" n="85"/>&amp; dum venio ad mensam video qo ipse inuitauit quendam 
+      ex<lb ed="#L" n="86" break="no"/>communicatum, &amp; comedo in eadem mensa cum illo 
+      excommuni<lb ed="#L" n="87" break="no"/>cato, ita tamen quod non seruitur mihi &amp; ipsi communiter, &amp; pro 
+      in<lb ed="#L" n="88" break="no"/>diuiso, nec vnus habet participare cum alio in his quae 
+      ministran<lb ed="#L" n="89" break="no"/>tur in mensa, nunquid debet dici quod ego participaui cum illo 
+      excon<lb ed="#L" n="90" break="no"/>municate? Certe non videtur, quia quamuis participem cum illo qui 
+      <lb ed="#L" n="91"/>inuitauit me, non tamen participo cum excommunicato quem ille 
+      in<lb ed="#L" n="92" break="no"/>uitauit sicut me, maxime si non fuerit inuitatus de consensu meo 
+      <lb ed="#L" n="93"/>Similiter est de participatione in missa &amp; in diuinis officiis: 
+      ce<lb ed="#L" n="94" break="no"/>lebrans enim diuina participat cum audiente si ad hoc venerit vel 
+      <lb ed="#L" n="95"/>postquam venit applicat se ad audiendum, &amp; econtrario audiens 
+      <lb ed="#L" n="96"/>participat cum celebrante propter quod quicunque eorum sit excommu 
+      <lb ed="#L" n="97"/>nicatus alter participat cum excommunicato in diuinis, sed si 
+      cele<lb ed="#L" n="98" break="no"/>brans non est excommunicatus &amp; veniunt parochiani ad audiendam 
+      <lb ed="#L" n="99"/>missam, vel alia diuina officia inter quos est aliquis 
+      excommuni<lb ed="#L" n="100" break="no"/>catus nunquid alij paroeciani qui audiunt diuina praesente illo 
+      ex<lb ed="#L" n="101" break="no"/>communicato (quibus etiam displicet quod est praesens) debent dici 
+      <lb ed="#L" n="102"/>participare cum illo excommunicato? Posset videri rationabilite 
+      <lb ed="#L" n="103"/>quod non, si participatio in diuinis correspondeat proportionabi 
+      <lb ed="#L" n="104"/>liter participationi in humanis: celebrans enim cum audiente 
+      partuin<lb ed="#L" n="105" break="no"/>cipat &amp; econuerso, sicut salutans cum salutato &amp; econuerso, sec 
+      <lb ed="#L" n="106"/>sicut duo quorum vnus est excommunicatus &amp; alius non, si salutentur 
+      <lb ed="#L" n="107"/>simul a Titio non excommunicato, non propter hoc dicerentur inte 
+      <lb ed="#L" n="108"/>se communicare, sed solum cum Titio sic, vt videt si excommunicatur 
+      <lb ed="#L" n="109"/>&amp; non excommunicatus simul audiant diuina ab eodem presbytero 
+      <lb ed="#L" n="110"/>non oportet propter hoc quod participent inter se, sed solum cum 
+      <lb ed="#L" n="111"/>presbytero. Et confirmatur, quia si in die paschae veniant ad perce 
+      <lb ed="#L" n="112"/>ptionem eucharistiae duo, vnus excommunicatus &amp; alius non 
+      excon<lb ed="#L" n="113" break="no"/>municatus, &amp; presbyter fatuus vtrique ministraret eucharistiam, 
+      <lb ed="#L" n="114"/>nunquid dicetur propter hoc quod paroecianus non excommunicatur 
+      <lb ed="#L" n="115"/>participauit in perceptione eucharistiae cum illo excommunicate 
+      <lb ed="#L" n="116"/>cuius praesentia forte displicet? Non videtur, nisi ecclesia alium 
+      <lb ed="#L" n="117"/>modum participandi cum excommunicatis determinauerit circa 
+      <lb ed="#L" n="118"/>diuina quam circa humana, quod non memini me legisse. 
+      Verunta<lb ed="#L" n="119" break="no"/>men quia in talibus non sunt relaxandae habenae in elusionem 
+      in<lb ed="#L" n="120" break="no"/>terdictionis ecclesiae, ideo nemini consulerem quod audiret diuina 
+      <lb ed="#L" n="121"/>praesente excommunicato ad audiendum. Dico autem ad 
+      audien<lb ed="#L" n="122" break="no"/>dum, quia si ex alia causa esset praesens sicut fugitiuus, vel quia 
+      <lb ed="#L" n="123"/>habet de aliis loqui cum sacerdote, &amp; expectat quod finierit horas 
+      <lb ed="#L" n="124"/>nec curat nec se applicat ad audiendum diuinum officium, 
+      pro<lb ed="#L" n="125" break="no"/>pter talem praesentiam excommunicati nec sacerdos debet horas 
+      in<lb ed="#L" n="126" break="no"/>termittere nec alius parcecianus audiens tenetur recedere. In his 
+      <lb ed="#L" n="127"/>tamen tutius est restringere quam effluere. &amp; sic patet primum 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e403">
+               <lb ed="#L" n="128"/>
+               <!--8--> Quantum ad secundum sciendum est quod ille qui participa 
+      <lb ed="#L" n="129"/>cum excommunicato in aliis quam in crimine, aut participat in 
+      di<lb ed="#L" n="130" break="no"/>uinis, aut in aliis. Si participat in diuinis peccat mortaliter. Cuius 
+      <lb ed="#L" n="131"/>ratio est, quia directe faciens contra mandatum ecclesiae pecca 
+      <lb ed="#L" n="132"/>mortaliter, sed participans cum excommunicato in diuinis directe 
+      <lb ed="#L" n="133"/>facit contra mandatum ecclesiae, ergo &amp;c. Probatio minoris: 
+      qui<lb ed="#L" n="134" break="no"/>mandatum ecclesiae est non participare cum excommunicato, cum 
+      <lb ed="#L" n="135"/>per sententiam sit exclusus a communione fidelium, &amp; similiter 
+      <lb ed="#L" n="136"/>alij a communione eius. Sed praecipua &amp; directa communicatio 
+      <lb ed="#L" n="137"/>fidelium ad inuicem est quoad diuina. In his enim communicant 
+      <lb ed="#L" n="138"/>fideles inquantum fideles sunt. In aliis autem actibus participant 
+      <lb ed="#L" n="139"/>magis vt conciues, ergo participans cum ex communicato in 
+      di<lb ed="#L" n="140" break="no"/>uinis facit directe contra mandatum ecclesiae, peccat ergo 
+      mor<lb ed="#L" n="141" break="no"/>taliter. Si autem participat in aliis quam in diuinis, aut participat 
+      <lb ed="#L" n="142"/>effrenate, aut non: voco autem participationem effienatam, quando 
+      <lb ed="#L" n="143"/>ita indifferenter &amp; aequa fronte participat cum eo ac si non esset. 
+      <lb ed="#L" n="144"/>excommunicatus, &amp; talis peccat mortaliter: quia contemptus 
+      iu<lb ed="#L" n="145" break="no"/>risdictionis ecclesiasticae non videtur esse sine peccato mortali, 
+      <lb ed="#L" n="146"/>sed talis participatio effrenata non videtur esse sine contemptu 
+      <lb ed="#L" n="147"/>iurisdictionis ecclesiasticae, cum in nullo retrahitur propter 
+      man<lb ed="#L" n="148" break="no"/>datum ecclesiae a tali participatione, ergo &amp;c. Si vero non 
+      parti<lb ed="#L" n="149" break="no"/>cipat effrenate, sed ex quadam verecundia salutantem resalutat, 
+      <lb ed="#L" n="150"/>vel ex quadam reuerentia ad modicum subsistit cum eo, lice 
+      <lb ed="#L" n="151"/>cum displicentia, non peccat mortaliter: non enim puto quod 
+      <lb ed="#L" n="152"/>ecclesia intendat tantum laqueum ponere pro leui 
+      participatio<lb ed="#L" n="153" break="no"/>ne quae non est in contemptum ecclesiae. Haec autem quae dicta 
+      <lb ed="#L" n="154"/>sunt debent intelligi quando aliquis partuicipat cum 
+      excommu<lb ed="#L" n="155" break="no"/>nicato in casu non concesso. &amp; sic patet secundum. 
+</p>
+            <p xml:id="jsnvu6-e247626-d1e469">
+               <lb ed="#L" n="156"/>Quantum ad tertium sciendum est quod aliqui sunt casu 
+      <lb ed="#L" n="157"/>in quibus licitum est participare cum excommunicato. Vnus est 
+      <lb ed="#L" n="158"/>cum quis loquitur de pertinentibus ad eorum salutem &amp; 
+      cor<lb ed="#L" n="159" break="no"/>rectionem, licet alia verba incidenter interponat vt magis apuc 
+      <lb ed="#L" n="160"/>eos proficiat; sicut habetur extra de sen. excommun. cum 
+      vo<lb ed="#L" n="161" break="no"/>luntate. Alius casus est necessitatis, vt cum peregrini transeunt 
+      <!--00675.xml-->
+      <pb ed="#L" n="301-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>per terram excommunicatorum, &amp; necesse habent ab eis emere 
+      <lb ed="#L" n="2"/>victualia, tunc enim licet ab eis non solum emere, sed si sint 
+      pan<lb ed="#L" n="3" break="no"/>peres gratis accipere. Tertius casus est quando ignoratur excon 
+      <lb ed="#L" n="4"/>municatio: Sunt etiam aliquae personae quibus licitum est cum 
+      ex<lb ed="#L" n="5" break="no"/>communicatis loqui, &amp; participare: scilicet vxor &amp; filij non 
+      eman<lb ed="#L" n="6" break="no"/>cipati, serui, rustici, &amp; caeteri seruientes dummodo non partici 
+      <lb ed="#L" n="7"/>pent cum eis in crimine, nec in diuinis. Et haec omnia nominantur 
+      <lb ed="#L" n="8"/>11. q. 3. cap. quoniam multos. &amp; extra, de sententia 
+      excommunica<lb ed="#L" n="9" break="no"/>tionis, Inter alia. Per idem intelligo quod domini &amp; superiores 
+      pos<lb ed="#L" n="10" break="no"/>sunt participare cum inferioribus excommunicatis sicut e conuerso 
+      <lb ed="#L" n="11"/>in his in quibus mutuo sunt adstricti, sicut enim inferior adstrin 
+      <lb ed="#L" n="12"/>gitur superiori, sic superior inferiori: &amp; hoc tangitur in illo versu: 
+      <lb ed="#L" n="13"/>Vtile, lex, humile, res ignorata, necesse. vt vtilitas referatur ad 
+      <lb ed="#L" n="14"/>locutionem quae sit causa salutis: lex ad vinculum matrimonij: humile 
+      <lb ed="#L" n="15"/>ad subiectionem seruorum filiorum &amp; huiusmodi, caetera de se patent. 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e524">
+               <lb ed="#L" n="16"/>
+               <!--10.--> Ad primum argumentum dicendum quod participans cum ex 
+      <lb ed="#L" n="17"/>communicato excommunicatione malori potest excommunicari, si 
+      <lb ed="#L" n="18"/>nominatim monitus non desistat: non propter hoc quod ipsa 
+      par<lb ed="#L" n="19" break="no"/>ticipatio fit semper peccatum mortale, sed propter 
+      inobedien<lb ed="#L" n="20" break="no"/>tiam quam incurrit quando monitus non desistit. 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e540">
+               <lb ed="#L" n="21"/>
+               <!--11.--> Ad secundum dicendum qued non solum peccatum mortale 
+      <lb ed="#L" n="22"/>impedit a perceptione Eucharistiae &amp; caeterorum 
+      sacramento<lb ed="#L" n="23" break="no"/>rum, imo id quod nullo modo est peccatum nec mortale nec 
+      <lb ed="#L" n="24"/>veniale, sicut sententia ecclesiae, puta vel excommunicatio, vel 
+      <lb ed="#L" n="25"/>interdictum, quae sunt poenae &amp; non culpae: &amp; per hunc modum 
+      <lb ed="#L" n="26"/>impedit minor excommunicatio quam quis incurrit 
+      participan<lb ed="#L" n="27" break="no"/>do cum excommunicato in casu non concesso, licet ipsa 
+      parti<lb ed="#L" n="28" break="no"/>cipatio non sit peccatum mortale. 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e562">
+               <lb ed="#L" n="29"/>
+               <!--12--> Ad tertium dicendum quod dictum Innoc. in cap. Sacris 
+      <lb ed="#L" n="30"/>est intelligendum de participantibus in crimine vel in diuinis in 
+      <lb ed="#L" n="31"/>quibus participatio semper est peccatum mortale, non autem 
+      <lb ed="#L" n="32"/>in aliis, sed est quandoque veniale: &amp; tamen in istis ratio sua 
+      lo<lb ed="#L" n="33" break="no"/>cum habet sicut in aliis. Sicut enim non est peccandum 
+      mor<lb ed="#L" n="34" break="no"/>taliter metu mortis, ita nec venialiter. 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e580">
+               <lb ed="#L" n="35"/>
+               <!--13--> Ad primum argumentum alterius partis dicendum est, quod 
+      <lb ed="#L" n="36"/>sententia ecclesiae non fertur super Iudaeos &amp; Paganos qui 
+      fo<lb ed="#L" n="37" break="no"/>ris sunt, sed fertur super fideles: &amp; ideo participare cum 
+      fideli<lb ed="#L" n="38" break="no"/>bus excommunicatis qui per sententiam ecclesiae excluduntur a 
+      <lb ed="#L" n="39"/>consortio fidelium, est facere contra eius mandatum, &amp; ideo 
+      <lb ed="#L" n="40"/>semper est peccatum nisi in casibus a iure concessis. 
+      </p>
+            <p xml:id="jsnvu6-e247626-d1e598">
+               <lb ed="#L" n="41"/>
+               <!--14--> Ad secundum dicendum quod pro participatione in diuinis 
+      <lb ed="#L" n="42"/>cum excommunicato, vel pro participatione effrenata in 
+      huma<lb ed="#L" n="43" break="no"/>nis est iniungenda poenitentia sicut pro peccato mortali, pro 
+      <lb ed="#L" n="44"/>participatione autem in humanis quae fit subito &amp; cum 
+      verecun<lb ed="#L" n="45" break="no"/>dia seu timorosa displicentia non est iniungenda poenitentia sicut 
+      <lb ed="#L" n="46"/>pro mortali, quia non est ibi contemptus iurisdictionis 
+      ecclesiasti<lb ed="#L" n="47" break="no"/>cae. Et est notandum quod excommunicatus publicus debet vitari in 
+      <lb ed="#L" n="48"/>publico &amp; in priuato, sed excommunicatus occultus non deber 
+      <lb ed="#L" n="49"/>vitari in publico, sed in occulto, &amp; moneri ne ingerat se aliori 
+      <lb ed="#L" n="50"/>communioni. Est etiam sciendum quod excommunicatus publice in 
+      <lb ed="#L" n="51"/>vno loco, scilicet Parisius non debet per hoc reputari publice 
+      ex<lb ed="#L" n="52" break="no"/>communicatus vbique, puta Tolosae, vel in Montepessalano.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

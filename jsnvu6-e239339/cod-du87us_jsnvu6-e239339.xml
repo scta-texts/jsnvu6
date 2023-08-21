@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="290-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e239339"><!-- l4d16q2 -->
+            <head xml:id="jsnvu6-e239339-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e239339-Hd1e103" type="question-title">Utrum peccatum veniale possit remitti 
+      sine mortali</head>
+            <p xml:id="jsnvu6-e239339-d1e106">
+               <lb ed="#L" n="51"/>QUAESTIO SECVNDA 
+      <lb ed="#L" n="52"/>Vtrum peccatum veniale possit remitti 
+      <lb ed="#L" n="53"/>sine mortali. 
+      <lb ed="#L" n="54"/>Thom 3. q. 87. ar. 4. &amp; infra d. 21. 4.2.
+    </p>
+            <p xml:id="jsnvu6-e239339-d1e117">
+               <lb ed="#L" n="55"/>SECVNDO quaeritur vtrum peccatum 
+      venial<lb ed="#L" n="56" break="no"/>possit remitti sine mortali. Et videtur quod sic, 
+      <lb ed="#L" n="57"/>quia peccatum mortale potest dimitti sine veniali, 
+      <lb ed="#L" n="58"/>ergo veniale potest dimitti sine mortali: 
+      conse<lb ed="#L" n="59" break="no"/>quentia patet per simile. Antecedens vero de si 
+      <lb ed="#L" n="60"/>patet, quia poenitentia quae est de mortali non necessario 
+      dele<lb ed="#L" n="61" break="no"/>omnem culpam venialem. 
+      </p>
+            <p xml:id="jsnvu6-e239339-d1e135">
+               <lb ed="#L" n="62"/>
+               <!--2--> Item veniali peccato debetur poena finita, sed illam potest 
+      <lb ed="#L" n="63"/>homo soluere existens in peccato mortali, ergo potest de 
+      ve<lb ed="#L" n="64" break="no"/>niali peccato satisfacere. 
+</p>
+            <p xml:id="jsnvu6-e239339-d1e147">
+               <lb ed="#L" n="65"/>IN CONTRARIVM est quod dicit Grego. quod 
+      <lb ed="#L" n="66"/>peccatum veniale obscurat mentem, sed mortale obtenebrat 
+      <lb ed="#L" n="67"/>mentem. Sed obscuritas non remouetur nisi per lucem, lux 
+      au<lb ed="#L" n="68" break="no"/>tem spiritualis est gratia quae etiam peccatum mortale delet 
+      <lb ed="#L" n="69"/>g ergo veniale non potest dimitti sine mortali. 
+      </p>
+            <p xml:id="jsnvu6-e239339-d1e160">
+               <lb ed="#L" n="70"/>
+               <!--4--> RESPONSIO. Peccata quae non habent 
+      connexio<lb ed="#L" n="71" break="no"/>nem ex aliqua parte possunt remitti vnum sine altero, quae 
+      au<lb ed="#L" n="72" break="no"/>tem habent connexionem non possunt remitti sine inuicem, 
+      er<lb ed="#L" n="73" break="no"/>go cum venialia nullam inter se connexionem habeant ex 
+      par<lb ed="#L" n="74" break="no"/>te conuersionis propter diuersitatem materiae circa quam sunt, 
+      <lb ed="#L" n="75"/>nec ex parte aduersionis, quia gratiam non tollunt, ideo 
+      quod<lb ed="#L" n="76" break="no"/>libet veniale potest tolli sine altero. Mortalia vero ex parte con 
+      <lb ed="#L" n="77"/>uersionis connexionem non habent, sed ex parte auersionis 
+      <lb ed="#L" n="78"/>eam habent, quia quodlibet eorum priuat gratiam si eam 
+      in<lb ed="#L" n="79" break="no"/>neniat, nec remittitur sine collatione nouae gratiae: propter 
+      <lb ed="#L" n="80"/>quod vnum peccatum mortale non potest remitti sine altero. 
+      <!--00654.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>Qualis autem sit connexio inter veniale &amp; mortale dub 
+      <lb ed="#L" n="82"/>ad praesens, &amp; de hoc est duplex modus loquendi. 
+      </p>
+            <p xml:id="jsnvu6-e239339-d1e197">
+               <lb ed="#L" n="83"/>
+               <!--5--> Primus est, quod peccatum mortale potest dimitti sine veniali 
+      <lb ed="#L" n="84"/>licet non posset fieri econuerso. Cuius ratio est duplex. Prim 
+      <lb ed="#L" n="85"/>quia in per seordinatis remoto priori remouetur posterius, 
+      ne<lb ed="#L" n="86" break="no"/>posterius restituitur nisi priore restituto: feruor autem charita 
+      <lb ed="#L" n="87"/>tis cui opponitur veniale est posterior charitate cui opponitu 
+      <lb ed="#L" n="88"/>mortale, ergo quandiu charitas non restituitur, nec feruor cha 
+      <lb ed="#L" n="89"/>ritatis restitui potest, sed manente peccato mortali charitas 
+      ni<lb ed="#L" n="90" break="no"/>restituitur: ergo nec feruor charitatis: sed in hoc consistit 
+      dimis<lb ed="#L" n="91" break="no"/>sio peccati venialis, sicut in reparatione charitatis consistit dimi 
+      <lb ed="#L" n="92"/>sio peccati mortalis, eigo veniale non posest dimitti sine mortal 
+      <lb ed="#L" n="93"/>Secunda ratio est: quia poena non est apud Deum satisfactoria, ni 
+      <lb ed="#L" n="94"/>quatenus acceptatur, sed ab homine qui est in peccato morta 
+      <lb ed="#L" n="95"/>quicquod fiat, non acceptatur a Deo, quum fit inimicus eius, ergo n 
+      <lb ed="#L" n="96"/>est satisfactorium pro aliquo peccato quantuncunque leui vel venial 
+      </p>
+            <p xml:id="jsnvu6-e239339-d1e232">
+               <lb ed="#L" n="97"/>
+               <!--6--> Alius modus dicendi est, quod peccatum veniale potest dimitti si 
+      <lb ed="#L" n="98"/>ne mortali. Cuius ratio est duplex. Prima est, quia differt pecca 
+      <lb ed="#L" n="99"/>tum mortale a veniali, eo quod in mortali sunt tria scilicet culpa quae con 
+      <lb ed="#L" n="100"/>sistit in deordinatione actus, offensa quae consistit in priuation 
+      <lb ed="#L" n="101"/>gratiae (non enim Deus dicitur offendi a peccatore secundum 
+      <lb ed="#L" n="102"/>affectum, sed secundum effectum inquantum priuat peccatorem gra 
+      <lb ed="#L" n="103"/>tia quae habetur ad amicum). Tertium est poena aeterna quae pecca 
+      <lb ed="#L" n="104"/>to mortali debetur. Propter quod ad remissionem peccati mor 
+      <lb ed="#L" n="105"/>talis requiritur reordinatio voluntatis per contritionem 
+      contr<lb ed="#L" n="106" break="no"/>culpam, restitutio gratiae contra offensam, &amp; commutatio poena 
+      <lb ed="#L" n="107"/>aeternae in temporalem. Sed in peccato veniali est quaedam culp 
+      <lb ed="#L" n="108"/>propter deordinationem actus, sed non est ibi offensa praedicte 
+      <lb ed="#L" n="109"/>modo accepta, quia peccatum veniale de se non tollit gratiam 
+      <lb ed="#L" n="110"/>&amp; est ibi poena debita, sed finita: igitur ad dimissionem eius soli 
+      <lb ed="#L" n="111"/>requiritur reordinatio voluntatis per debitam displicentiam 
+      eiu<lb ed="#L" n="112" break="no"/>quod indebite placuit, &amp; solutio poenae finitae, non autem restitu 
+      <lb ed="#L" n="113"/>tio gratiae, quae non amissa ratione peccati venialis, sed haec 
+      pos<lb ed="#L" n="114" break="no"/>sunt fieri ab homine existente in peccato mortali, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-e239339-d1e276">
+               <lb ed="#L" n="115"/>
+               <!--7--> Secunda ratio est, quia ponamus quod puer non baptizatus 
+      <lb ed="#L" n="116"/>existens in originali quando venit ad aetatem in qua primo 
+      po<lb ed="#L" n="117" break="no"/>test peccare peccet venialiter, &amp; statim moriatur, aut punietu 
+      <lb ed="#L" n="118"/>in inferno pro peccato veniali: poena finita vel infinita. si finita 
+      <lb ed="#L" n="119"/>fortiori ratione potuit eam in praesenti vita soluere si vixisset 
+      <lb ed="#L" n="120"/>non obstante peccato originali, cum quo non stat gratia. Si 
+      infi<lb ed="#L" n="121" break="no"/>nita, videtur inconueniens, cum secundum taxationem diuinam 
+      <lb ed="#L" n="122"/>peccato veniali non debeatur nisi poena finita. Forte dicetur q 
+      <lb ed="#L" n="123"/>puer veniens ad aetatem in qua peccare potest, nunquam pecca 
+      <lb ed="#L" n="124"/>prius venialiter, sed mortaliter. Sed hoc est manifeste falsum in 
+      <lb ed="#L" n="125"/>pueris tam baptizatis quam non baptizatis. Nulla enim sunt de 
+      <lb ed="#L" n="126"/>licta puerorum quae ab omnibus reputantur venialia antequam 
+      <lb ed="#L" n="127"/>aliquis iudicet eos peccasse mortaliter. 
+      </p>
+            <p xml:id="jsnvu6-e239339-d1e309">
+               <lb ed="#L" n="128"/>
+               <!--8--> Potest etiam addi tertia ratio, quae talis est: secundum omnes 
+      <lb ed="#L" n="129"/>per opera bona facta extra charitatem meretur aliquis saltem 
+      <lb ed="#L" n="130"/>de congruo aliquod bonum temporale, vt patuit in praecedente 
+      <lb ed="#L" n="131"/>distinctione, sed expiatio poenae temporalis debitae peccato 
+      ve<lb ed="#L" n="132" break="no"/>niali est quoddam bonum temporale, vt patuit in praecedente di 
+      <lb ed="#L" n="133"/>stinctione, ergo per opera bona facta extra charitatem potest 
+      <lb ed="#L" n="134"/>aliquis mereri apud Deum exprationem talis poenae, &amp; sic 
+      exi<lb ed="#L" n="135" break="no"/>stens in peccato mortali poterit per aliqua bona facta poenalia 
+      <lb ed="#L" n="136"/>satis facere de poena peccato veniali debita. 
+      </p>
+            <p xml:id="jsnvu6-e239339-d1e334">
+               <lb ed="#L" n="137"/>
+               <!--9--> Primus istorum modorum est communior, sed secundus est 
+      <lb ed="#L" n="138"/>probabilior, quod patet per rationes primi modi discurrendo. 
+      <lb ed="#L" n="139"/>Ad primam quum dicitur quod peccatum mortale opponitur 
+      cha<lb ed="#L" n="140" break="no"/>ritati, veniale autem feruori charitatis: dicendum o ex neutra 
+      <lb ed="#L" n="141"/>parte est oppositio formalis, quum enim vtrunque peccatum tam 
+      <lb ed="#L" n="142"/>veniale quam mortale consistat in deordinatione actus, vtrique 
+      <lb ed="#L" n="143"/>tantum opponitur reordinatio actus formaliter: charitas autem 
+      <lb ed="#L" n="144"/>vel feruor charitatis nulli eorum opponitur formaliter, sed cha 
+      <lb ed="#L" n="145"/>ritas consecutiue opponitur peccato mortali, quia non stat cum de 
+      <lb ed="#L" n="146"/>ordinatione actus peccati mortalis: feruor autem charitatis non 
+      <lb ed="#L" n="147"/>opponitur peccato veniali nec formaliter, vt dictum est, nec 
+      con<lb ed="#L" n="148" break="no"/>secutiue: quia cum peccato veniali stat charitas, &amp; feruor, 
+      charita<lb ed="#L" n="149" break="no"/>tis, feruor enim charitatis, aut intelligitur intensio charitatis qui 
+      <lb ed="#L" n="150"/>tum ad habitum, &amp; iste nunquam minuitur per quodcunque pec 
+      <lb ed="#L" n="151"/>catum, vt in praecedentibus dictam est: aut intelligitur de 
+      inten<lb ed="#L" n="152" break="no"/>sione charitatis quantum ad actum, &amp; talis feruor non opponitur 
+      <lb ed="#L" n="153"/>veniali, quin cum tali feruore possit peccatum veniale manere, 
+      <lb ed="#L" n="154"/>nec talis feruor sufficit ad deletionem peccati venialis sine 
+      ali<lb ed="#L" n="155" break="no"/>qua displicentia vel contritione, sola autem displicentia vel 
+      con<lb ed="#L" n="156" break="no"/>tritio sufficit ad deletionem peccati venialis sine tali feruore. Et 
+      <lb ed="#L" n="157"/>ideo minor propositio praedictae rationis falsa est. 
+      </p>
+            <p xml:id="jsnvu6-e239339-d1e384">
+               <lb ed="#L" n="158"/>
+               <!--10--> Ad secundam rationem dicendum quod aliquid potest esse 
+      <lb ed="#L" n="159"/>acceptum Deo dupliciter. Vno modo tanquam remunerandun 
+      <lb ed="#L" n="160"/>vita aeterna, &amp; talis acceptatio non est nisi per gratiam. Alio 
+      <lb ed="#L" n="161"/>modo potest aliquid esse acceptum Deo tanquam remunerabile 
+      <lb ed="#L" n="162"/>aliquo bono temporali: &amp; sic bona facta extra charitatem sunt 
+      <!--00655.xml-->
+      <pb ed="#L" n="291-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Deo accepta. Et quia carere malo habet rationem boni, ideo 
+      <lb ed="#L" n="2"/>bona facta extra charitatem sunt a Deo accepta non solum ad 
+      <lb ed="#L" n="3"/>adipiscendum aliquod bonum temporale, sed etiam ad expiationem 
+      <lb ed="#L" n="4"/>poenae temporalis peccato veniali debitae. Et in hoc est euacuatum 
+      <lb ed="#L" n="5"/>totum fundamentum alterius opinionis, &amp; solutio quam dant 
+      <lb ed="#L" n="6"/>ad primam rationem pro secunda opinione positam. Ex hoc 
+      <lb ed="#L" n="7"/>enim solo dicunt veniale non posse dimitti sine mortali, quia 
+      <lb ed="#L" n="8"/>nihil potest esse Deo acceptum sine gratia, quod non est verum 
+      <lb ed="#L" n="9"/>(vt dictum est) nisi de sola acceptatione ad meritum vitae aeter 
+      <lb ed="#L" n="10"/>nae. Fingunt etiam isti quod puer veniens ad aetatem in qua potest 
+      <lb ed="#L" n="11"/>peccare, nunquam peccat primo venialiter, sed mortaliter, quod 
+      <lb ed="#L" n="12"/>est manifeste talsum in pueris tam baptizatis quam non bapti 
+      <lb ed="#L" n="13"/>zatis: multa enim sunt delicta puerorum quae omnia 
+      reputan<lb ed="#L" n="14" break="no"/>tur venialia, antequam aliquis iudicet eos peccasse mortaliter 
+      </p>
+            <p xml:id="jsnvu6-e239339-d1e436">
+               <lb ed="#L" n="15"/>
+               <!--11--> AD RATIONEM principalem quae videtur esse 
+      <lb ed="#L" n="16"/>contra secundum modum, dicendum est quod peccatum 
+      venial<lb ed="#L" n="17" break="no"/>non obscurat per diminutionem luminis gratiae, vel charitatis, 
+      <lb ed="#L" n="18"/>quia secundum omnes licet gratia &amp; charitas possint augeri, 
+      <lb ed="#L" n="19"/>non tamen possunt diminui: &amp; ideo non oportet quod venialia 
+      <lb ed="#L" n="20"/>dimittantur per intentionem luminis gratiae &amp; charitatis, dicum 
+      <lb ed="#L" n="21"/>tamen obscurare, &amp; non totaliter obtenebrare. Quia quum 
+      <lb ed="#L" n="22"/>omne peccatum mortale fiat ex defectu luminis rationis, 
+      mi<lb ed="#L" n="23" break="no"/>nor defectus est in commissione peccati venialis, propter quod 
+      <lb ed="#L" n="24"/>dicitur obscurare, quam in commissione peccati mortalis, quod 
+      <lb ed="#L" n="25"/>dicitur obtenebrare. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

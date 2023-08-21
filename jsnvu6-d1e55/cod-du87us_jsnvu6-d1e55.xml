@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praefatio</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praefatio</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="1-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e55"><!-- l1praefatio -->
+            <head xml:id="jsnvu6-d1e55-Hd1e101">Praefatio</head>
+            <p xml:id="jsnvu6-d1e55-d1e103"><!--00065.xml-->
+               <pb ed="#L" n="1-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>DIVINARVM 
+      VERI<lb ed="#L" n="2" break="no"/>TATVM EXIMII AC 
+      PROFVN<lb ed="#L" n="3" break="no"/>di perscrutatoris, &amp; difficultatum tam 
+      Philosophi<lb ed="#L" n="4" break="no"/>carum, quam Theologicarum, solidi resolutoris, 
+      Ma<lb ed="#L" n="5" break="no"/>gistri nostri, M. Durandi de Sancto Porciano, ordinis 
+      <lb ed="#L" n="6"/>PRaedicatorum, &amp; Meldensis Episcopi, in quatuor 
+      li<lb ed="#L" n="7" break="no"/>brorum Magistri sententiarum elucidationum 
+      edi<lb ed="#L" n="8" break="no"/>tionis nouissimae incipit Praefatio. 
+      <lb ed="#L" n="9"/>ST DEVS in coelo reuelans mysteria. 
+      <lb ed="#L" n="10"/>Danie. 2. Luc. cap. 12. dicitur, quod nihil  
+      <lb ed="#L" n="11"/>opertum est, quod non reueletur. neque 
+      ab<lb ed="#L" n="12" break="no"/>sconditum, quod non sciatur. Cuius 
+      ra<lb ed="#L" n="13" break="no"/>tio est, quia Deus, cuius perfecta sunt 
+      o<lb ed="#L" n="14" break="no"/>pera, qui homini inseruit naturale 
+      scien<lb ed="#L" n="15" break="no"/>di desiderium, non relinquint ipsum (
+      quan<lb ed="#L" n="16" break="no"/>tum in ipso est) imperfectum: quin potius 
+      <lb ed="#L" n="17"/>animam rationalem, quam creauit ad imaginem &amp; 
+      similitudi<lb ed="#L" n="18" break="no"/>nem suam: &amp; ob hoc sui capacem (vt dicitur in 14 dist. de Trinit.) 
+      <lb ed="#L" n="19"/>deducit de imperfecto ad perfectum. per modum 
+      congruentis<lb ed="#L" n="20" break="no"/>simum reuelando alia, &amp; se ipsum: vt scilicet nihil sit opertum 
+      <lb ed="#L" n="21"/>quod non reueletur. 
+      </p>
+            <p xml:id="jsnvu6-d1e55-d1e156">
+               <lb ed="#L" n="22"/>
+               <!--2--> Est siquidem triplex modus, quo Deus reuelat seipsum, &amp; 
+      <lb ed="#L" n="23"/>alia, secundum quod sapientia sua scripta est in triplici libro, 
+      <lb ed="#L" n="24"/>scilicet creaturae, scripturae, &amp; vitae. Prouerb. 22. Ecce descripsi 
+      <lb ed="#L" n="25"/>eam tripliciter, id est, in triplici libro. 
+      </p>
+            <p xml:id="jsnvu6-d1e55-d1e169">
+               <lb ed="#L" n="26"/>
+               <!--3--> Primus &amp; infimus modus est, quo Deus nobis reuelat 
+      se<lb ed="#L" n="27" break="no"/>ipsum, in libro creaturae, inquantum naturali lumine intellectus 
+      <lb ed="#L" n="28"/>ab inferioribus &amp; sensibisibus potest homo, licet debiliter, ad 
+      <lb ed="#L" n="29"/>aliquam diuinorum notitiam peruenire: secundum illud Rom. I. 
+      <lb ed="#L" n="30"/>Inuisibilia ipsius a creatura mundi, id est, ab homine, per ea quae 
+      <lb ed="#L" n="31"/>facta sunt, intellectum conspiciuntur. Et haec est reuelatio, de qua 
+      <lb ed="#L" n="32"/>ibidem praemittitur. Quod notum est Dei, manifestum est illis: 
+      <lb ed="#L" n="33"/>Deus enim illis manifestauit. Vbi dicit glo. Ambr. Vt Deus qui 
+      <lb ed="#L" n="34"/>natura innuisibilis est, etiam a visibilibus posset sciri, opus fecit, quod 
+      <lb ed="#L" n="35"/>visibilitate sui opificem manifestauit. 
+      </p>
+            <p xml:id="jsnvu6-d1e55-d1e195">
+               <lb ed="#L" n="36"/>
+               <!--4--> Supremus vero &amp; perfectissimus modus est, quod Deus 
+      reue<lb ed="#L" n="37" break="no"/>lat nobis seipsum, &amp; alia, in libro vitae, id est, in seipso per 
+      manife<lb ed="#L" n="38" break="no"/>stam visionem. De quo dicitur Esa. 40. Reuelabitur gloria Domini, &amp; 
+      <lb ed="#L" n="39"/>videbit omnis caro pariter, quod os Domini locutum est. Et hic est finis, &amp; 
+      <lb ed="#L" n="40"/>expectatio creaturae humanae: secundum illud Ro. 8. Expectatio 
+      <lb ed="#L" n="41"/>creaturae reuelationem filiorum Dei expectat. Tunc enim 
+      comple<lb ed="#L" n="42" break="no"/>bitur desiderium humanum, quando omnia erunt nuda &amp; aperta 
+      <lb ed="#L" n="43"/>oculis cordis, creator scilicet, &amp; creatura. Sed quia hanc visioncem 
+      <lb ed="#L" n="44"/>non patitur status mortalitatis praesentis, secunclum illud Io. 16. 
+      <lb ed="#L" n="45"/>Multa habeo vobis dicere, sed non potestis portare modo: ideo 
+      <lb ed="#L" n="46"/>ex primo modo infimo, &amp; imperfectissimo, non deducimur ad  
+      <lb ed="#L" n="47"/>supremum &amp; perfectissimum, nisi per medium modum, quo Deum 
+      no<lb ed="#L" n="48" break="no"/>bis reuelat seipsum, in libro sacrae scripturae: in quo reuelauit 
+      no<lb ed="#L" n="49" break="no"/>bis quaedam de seipso, quae naturalem cognitionem excedunt. In quo 
+      <lb ed="#L" n="50"/>praeeminet primo modo. Sed quia non manifeste videntur, sed 
+      <lb ed="#L" n="51"/>quasi audita creduntur, deficit a supremo: vt rationabiliter sic 
+      <lb ed="#L" n="52"/>inter vtrumque quasi medius. De hoc dicit Apost. I. ad Cor. 2. Quod 
+      <lb ed="#L" n="53"/>oculus non vidit, nec auris audiuit, nec in cor hominis ascendit, 
+      <lb ed="#L" n="54"/>quae praeparauit Deus his, qui diligunt illum. Nobis autem Deus 
+      re<lb ed="#L" n="55" break="no"/>uelauit per Spiritum suum. Et quia haec a solo Deo primo &amp; 
+      ori<lb ed="#L" n="56" break="no"/>ginaliter sunt tradita, &amp; nullo mod per rationem naturalem 
+      inuesti<lb ed="#L" n="57" break="no"/>gata, ideo dicuntur reuelata. Quia vero non manifeste videntur, 
+      <lb ed="#L" n="58"/>sed quasi velantur, dicuntur mysteria, secundum illud I. ad Cor. 2. 
+      Lo<lb ed="#L" n="59" break="no"/>quimur sapientiam Dei in mysterio, quae abscondita est. Et Dan. 2. 
+      <lb ed="#L" n="60"/>dicitur: quod Danieli mysterium per visionem nocte reuelatum 
+      <lb ed="#L" n="61"/>est. De hoc ergo modo, quo Deus nobis reuelat in libro 
+      scriptu<lb ed="#L" n="62" break="no"/>rae seipsum, &amp; alia, ad salutem not promouentina. intelliguntur 
+      <lb ed="#L" n="63"/>verba proposita, Est Deus in coelo reuelans mysteria. 
+      </p>
+            <p xml:id="jsnvu6-d1e55-d1e261">
+               <lb ed="#L" n="64"/>
+               <!--5--> In quibus verbis ad commendationem sacrae scripturae 
+      tan<lb ed="#L" n="65" break="no"/>guntur quatuor, in quibus scientias caeteras antecellit. Excellit 
+      <lb ed="#L" n="66"/>enim caeteras scientias in celsitudine dignitatis, in plenitudine 
+      <lb ed="#L" n="67"/>bonitatis, in certitudine veritatis, &amp; in voragino profunditatis. 
+      <lb ed="#L" n="68"/>Primum habet sacra scriptura ex principio originali, ibi, Deus: 
+      <lb ed="#L" n="69"/>secundum habet ex intento finali. In caelo: tertium ex 
+      ornamen<lb ed="#L" n="70" break="no"/>to formali, Reuelans: quartum ex contento materiali. Mysteria. 
+      </p>
+            <p xml:id="jsnvu6-d1e55-d1e281">
+               <lb ed="#L" n="71"/>
+               <!--6--> Dico primo, quod sacra scriptura excellit omnem alias scientias 
+      cel<lb ed="#L" n="72" break="no"/>situdine dignitatis &amp; autoritatis: quam habet a principio 
+      origi<lb ed="#L" n="73" break="no"/>nali: quia est immediatem inspirata a Deo. Sicut enim est in 
+      corpora<lb ed="#L" n="74" break="no"/>libus, sic suo modo in spiritualibus. In corporalibus autem illa quae 
+      im<lb ed="#L" n="75" break="no"/>mediatem fuerunt a Deo facta, quandam praerogatiuam habuerunt, sicut 
+      <lb ed="#L" n="76"/>dicit Chrysostomus de vino, in quod Csristus conuertit aquam in 
+      <lb ed="#L" n="77"/>nuptiis. Ergo inter scientias &amp; scripturas, quae ad spiritualem 
+      per<lb ed="#L" n="78" break="no"/>fectionem animae pertinent, sacra scriptura, quae immediate a Deo  
+      <lb ed="#L" n="79"/>est inspirata, quandam praerogatiuam dignitatis obtinet: quia 
+      <lb ed="#L" n="80"/>est emanatio quaedam claritatis Dei omnipotentis syncera. Sa. 7. 
+      <!--00065.xml-->
+      <cb ed="#L" n="b"/>
+            </p>
+            <p xml:id="jsnvu6-d1e55-d1e312">
+               <lb ed="#L" n="81"/>
+               <!--7--> Haec praerogatiua dignitatis figurata suit Dan. 2. in statua 
+      Na<lb ed="#L" n="82" break="no"/>buchodonosor, cuius caput erat de auro optimo: pectus autem &amp; 
+      <lb ed="#L" n="83"/>brachia de argento: porro venter &amp; femora ex aere: tibiae autem 
+      fet<lb ed="#L" n="84" break="no"/>reae: pedum autem quaedam pars feri ea, quaedam autem fictilis. Haec 
+      sta<lb ed="#L" n="85" break="no"/>tua figuram humanam habens, ex metallis diuersis composita: 
+      signifi<lb ed="#L" n="86" break="no"/>cat hominem omni genere scientiarum artiumque perfectum. Pars 
+      <lb ed="#L" n="87"/>enim inferior hominis, est quasi ex ferro &amp; luto, quo ad artes 
+      <lb ed="#L" n="88"/>mechanicas. Media pars, quasi ex aere &amp; argento, quo ad scientias  
+      <lb ed="#L" n="89"/>morales &amp; speculatiuas naturasiter acquisitas: sed suprema pars 
+      <lb ed="#L" n="90"/>est ex auro purissimo, propter sacram scripturam, &amp; veritates 
+      salu<lb ed="#L" n="91" break="no"/>berrimas, in ea reuelatas. Et ideo sapientia ostensa est Boethio 
+      <lb ed="#L" n="92"/>lib. I. de Consol. Philos. Prosa prima, in specie mulieris, quae 
+      pul<lb ed="#L" n="93" break="no"/>sare coelum summo verticis cacumine vindebatur, quae cum altius 
+      <lb ed="#L" n="94"/>caput extulisset, etiam ipsum coelum penetrabat. Quod innuit 
+      <lb ed="#L" n="95"/>Aug. II. de Civi. Dei, ca. 1. in princ. Ciuitatem Dei dicimus, cuius 
+      <lb ed="#L" n="96"/>ea scriptura testis est. quae non fortuitis motibus animorum, sed 
+      <lb ed="#L" n="97"/>plane summae providentiae dispositione super omnes omnium gentium 
+      <lb ed="#L" n="98"/>literas, omnia sibi genera ingeniorum humanorum, diuina 
+      excel<lb ed="#L" n="99" break="no"/>lens autoritate, subiecit. Et hoc habet ex eo, quod immediate a 
+      <lb ed="#L" n="100"/>Deo inspirata est. De hoc Eccl. I Sapientiam Dei, praecedentem omnia, 
+      <lb ed="#L" n="101"/>quia inuestigabit? In hoc tangitur materia I. lib. Sentent. in quo 
+      <lb ed="#L" n="102"/>agitur de Deo quantum ad vnitatem essentiae &amp; trinitatem 
+      perso<lb ed="#L" n="103" break="no"/>narum de propriis &amp; appropriatis, vt patebit in proceslum. Haec 
+      <lb ed="#L" n="104"/>sunt secreta diuina, quae optabat Iob nobis aperiri Iob II. Vtinam 
+      <lb ed="#L" n="105"/>loqueretur tecum, &amp; aperiret labia sua tibi, vt ostenderet tibi 
+      <lb ed="#L" n="106"/>secreta sapientiae suae. 
+      </p>
+            <p xml:id="jsnvu6-d1e55-d1e373">
+               <lb ed="#L" n="107"/>
+               <!--8--> Secundo excellit scriptura sacra alias in plenitudine 
+      bonita<lb ed="#L" n="108" break="no"/>tis, quam habet ex finali intento. Et istud secundum sequitur ex 
+      pri<lb ed="#L" n="109" break="no"/>mo. Quae enim ex altiori principio deriuantur, ad altiorem finem 
+      ordi<lb ed="#L" n="110" break="no"/>nantur: aqua enim tantum in altum ascendit, quantum de alto descendit. 
+      Cae<lb ed="#L" n="111" break="no"/>terae enim scientiae humanitus inuentae, sicut habent creatum et quasi 
+      <lb ed="#L" n="112"/>terrenum principium, sic &amp; ad finem creatum. &amp; quasi terrenum perducunt. 
+      <lb ed="#L" n="113"/>De terrasunt, &amp; in terram pariter reuertentur. Ec. 3. sed sacrae scripturae 
+      <lb ed="#L" n="114"/>sicut a summo coelo egressio eius, sic occursus eius vsque ad summum eius 
+      </p>
+            <p xml:id="jsnvu6-d1e55-d1e395">
+               <lb ed="#L" n="115"/>
+               <!--9--> Ex nomine sacrae scripturae comparantis sict aliis scientiis, potest 
+      <lb ed="#L" n="116"/>dici illud Esa. 55. Sicut exaltantur coeli a terra, sic exaltatae sunt 
+      <lb ed="#L" n="117"/>viae meae a viis vestris Sicut ergo terra est insensibilis 
+      quantita<lb ed="#L" n="118" break="no"/>tis respectu coeli, sic bonitas &amp; veritas ex aliis scientiis acquisita 
+      <lb ed="#L" n="119"/>est, quasi nullius momenti respectu bonitatis, ad quam sacra 
+      scri<lb ed="#L" n="120" break="no"/>ptura dirigit &amp; conducit. Non simus igitur, sicut filii Agar, ex 
+      qui<lb ed="#L" n="121" break="no"/>rentes sapientiam, quae de terra est, vt habetur Baruch 3. Sed, vt dicit 
+      <lb ed="#L" n="122"/>Hieron, ad Paulinum, Discamus in terris, quorum scientia 
+      perse<lb ed="#L" n="123" break="no"/>ueret nobiscum in coelis. Hoc autem solum est in sacra scriptura, ex 
+      <lb ed="#L" n="124"/>cuius nomine dicintur Eccl. 24. Gyrum coeli circuiui sola. Propter 
+      <lb ed="#L" n="125"/>quod inquirentibus eam dicitur Matt. 5. Gaudete &amp; exultate: ecce 
+      <lb ed="#L" n="126"/>enim merces vestra copiosa est in coelis. Sic igitur habemus 
+      pleni<lb ed="#L" n="127" break="no"/>tudinem bonitatis in intento finali in nomine coeli, in quo tangitur 
+      <lb ed="#L" n="128"/>materia 2. li. Sent. Agitur enim in 2. li. Sententiarum de creaturarum 
+      pro<lb ed="#L" n="129" break="no"/>ductione, &amp; de creaturae intellectualis, tam angelicae, quam 
+      huma<lb ed="#L" n="130" break="no"/>nae deuiatione per culpam. Primum, scilicet creaturarum productio, 
+      conuenien<lb ed="#L" n="131" break="no"/>ter intelligitur nomine coeli: intelligendo pro parte totum. Coelum enim 
+      <lb ed="#L" n="132"/>inter creaturas corporales, quae sunt nobis notiores, est pars 
+      no<lb ed="#L" n="133" break="no"/>bilior: &amp; ideo per coelum intelligitur vniuersitas creaturae 
+      secund<lb ed="#L" n="134" break="no"/>dum illud Psal. Verbo domini coeli firmati sunt. Potest etiam nomine 
+      coe<lb ed="#L" n="135" break="no"/>li spiritualis creatura intelligi, secundum Aug. super Gen. ad 
+      lite<lb ed="#L" n="136" break="no"/>ram. De cuius creatione, &amp; deuiatione agitur in 2. lib. Sent. Et de 
+      <lb ed="#L" n="137"/>hoc potest intelligi illud, quod dicitur Esa. 50. Induam coelum 
+      <lb ed="#L" n="138"/>tenebris. Et ob hoc Iob 15. Coeli non sunt mundi in conspectu eius. 
+      </p>
+            <p xml:id="jsnvu6-d1e55-d1e452">
+               <lb ed="#L" n="139"/>
+               <!--10--> Tertio sacra scriptura excellit omnes alias in certitudine 
+      <lb ed="#L" n="140"/>veritatis, quam habet ex formali ornamento, quod notatur ibi, 
+      re<lb ed="#L" n="141" break="no"/>uelans. Quaecunque in sacra scriptura traduntur, aut solum, aut 
+      <lb ed="#L" n="142"/>principaliter diuina ruelatione tenentur: talia autem certissima 
+      <lb ed="#L" n="143"/>sunt. Ratio huius est, quia supremum inferioris deficit ab 
+      infi<lb ed="#L" n="144" break="no"/>mo superioris. In omni enim genere visa sunt certiora auditis  
+      <lb ed="#L" n="145"/>sed audita a Deo quamuis sint infima in gradu certitudinis in illo 
+      <lb ed="#L" n="146"/>genere cognitionis, tamen certiora sunt &amp; veriora his, quae sciuntur &amp; 
+      <lb ed="#L" n="147"/>videntur a nobis, in lumine creaturae rationalis. Vnde clarae &amp; 
+      cer<lb ed="#L" n="148" break="no"/>tae autoritati diuinae cedit ratio, vt dicit Hiero. ad Marcellam, Si 
+      <lb ed="#L" n="149"/>contra scripturarum autoritatem reditur ratio, quantumcumque acuta 
+      <lb ed="#L" n="150"/>sit. vera esse non potest. ldeo petebat Sapiens. Eccl. 1. Radix 
+      sapien<lb ed="#L" n="151" break="no"/>tiae: cui reuelata est? certe Prophetis  &amp; Apostolis, qui poterant 
+      di<lb ed="#L" n="152" break="no"/>cere cum Apost. 2. ad Cor. 3. Nos reuelata facie gloriam dei 
+      specu<lb ed="#L" n="153" break="no"/>lantes in eandem imaginem transformamur, a claritate in claritatem,  
+      <lb ed="#L" n="154"/>tamquam a Domini spiritu. De hoc, simul &amp; de praecedenti membro 
+      Hu<lb ed="#L" n="155" break="no"/>go dicit li. 3. de anima, In sacra doctrina quicquid docetur, 
+      ve<lb ed="#L" n="156" break="no"/>ritas: quicquid praecipitur, bonitas: quicquid promittitur 
+      elici<lb ed="#L" n="157" break="no"/>tas est. Nam Deus veritas est sine fallacia, bonitas sine malitia,  
+      <lb ed="#L" n="158"/>felicitas sine miseria. Et ideo prae caeteris scientiis, in quibus est  
+      <lb ed="#L" n="159"/>plurimuum falsitatis &amp; modicum vtilitatis, transeundum est ad  
+      <lb ed="#L" n="160"/>istam, vt dicamus cum Apost. 2. ad cor. 12 Veniam ad visiones 
+      <lb ed="#L" n="161"/>&amp; reuelationum Domini. In hoc etiam tangitur materia tertii 
+      <lb ed="#L" n="162"/>libri Sententiarum. Quamuis enim tota Trinitas principaliter 
+      <!--00066.xml-->
+      <pb ed="#L" n="1-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>reuelauerit ea, quae in sacra scriptura continentur: tamen Dei 
+      <lb ed="#L" n="2"/>filius incarnatus Iesus Christus ore proprio maiora &amp; 
+      excel<lb ed="#L" n="3" break="no"/>lentiora diuinitatis sacramenta reuelauit &amp; docuit. Ipsum enim 
+      <lb ed="#L" n="4"/>misit pater, tanquam lumen ad reuelationem gentium: vt 
+      di<lb ed="#L" n="5" break="no"/>citur Luc. 2. Vnde Apo. Gala. I. Notum vobis facio Euangelium, 
+      <lb ed="#L" n="6"/>quod Euangelizatum est a me: quod non est secundum 
+      homi<lb ed="#L" n="7" break="no"/>nem: neque enim ab homine accepi illud nec didici: sed per 
+      re<lb ed="#L" n="8" break="no"/>uelationem Iesu Christi. De Iesu Christo autem, hoc est de Dei 
+      <lb ed="#L" n="9"/>filio incarnato: &amp; de Dei gratia, &amp; de scientia, ac caeteris 
+      virtu<lb ed="#L" n="10" break="no"/>tibus ipsum perficientibus, agitur in tertio libro. 
+      </p>
+            <p xml:id="jsnvu6-d1e55-d1e538">
+               <lb ed="#L" n="11"/>
+               <!--11--> Quarto sacra scriptura excellit omnes alias in voragine 
+      pro<lb ed="#L" n="12" break="no"/>funditatis, quam habet ex contento materiali. Quod innuitur, cum 
+      <lb ed="#L" n="13"/>dicitur, mysteria. Mysterium enim est sacrum secretum: &amp; quod 
+      occul<lb ed="#L" n="14" break="no"/>tam habet intelligentiam, vt dicit Hugo. Talia autem sunt de 
+      qui<lb ed="#L" n="15" break="no"/>bus agitur in sacra scriptura. Excedunt enim limites naturalis 
+      <lb ed="#L" n="16"/>rationis. Nam sicut dicitur libro de spiritu &amp; anima, Scibilium 
+      <lb ed="#L" n="17"/>tria sunt genera: quaedam infra rationem, quaedam iuxta, quaedam supra 
+      <lb ed="#L" n="18"/>Infra rationem sunt, quae sensu percipimus: iuxta rationem, quae 
+      <lb ed="#L" n="19"/>per viam rationis: supra rationem autem quae nec sensus docet, nec 
+      <lb ed="#L" n="20"/>ratio persuadet, sed aut diuina reuelatione comprehenduntur, aut 
+      <lb ed="#L" n="21"/>scripturarum autoritate creduntur. Et haec sunt profundissima 
+      <lb ed="#L" n="22"/>mysteria, de quibus agitur in scriptura sacra. Vnde Augustinus 
+      <lb ed="#L" n="23"/>super Gene. ad literam. 30. cap. sic loquitur: Sacra scriptura, vt 
+      <lb ed="#L" n="24"/>altitudine superbos irrideat, profunditate attentos terreat, 
+      ve<lb ed="#L" n="25" break="no"/>ritate magnos pascat, affabilitate paruos nutriat. Quia sicut 
+      di<lb ed="#L" n="26" break="no"/>cit Grego. in Prologo Moralium, In vno &amp; eodem sermone, dum 
+      <lb ed="#L" n="27"/>narrat gestum, prodit mysterium. Ideo dictum fuit discipulis Mat. 12. 
+      <lb ed="#L" n="28"/>Vobis datum est nosse mysterium regni coelorum. Quia sicut 
+      dici<lb ed="#L" n="29" break="no"/>tur 1. ad Corinth. 14. Spiritu loquitur mysteria. Iste autem est, 
+      <lb ed="#L" n="30"/>qui sacram scripturam &amp; doctrinam reuelauit. In hoc tangitur 
+      <lb ed="#L" n="31"/>materia quarti libri Sententiarum, in quo agitur de sacramentis, 
+      <lb ed="#L" n="32"/>&amp; de gloria resurrectionis. Sacramentum autem merito dicitur 
+      <lb ed="#L" n="33"/>mysterium, quasi sacrum secretum. De quo dicitur I. Corint. 4. 
+      <lb ed="#L" n="34"/>Sic nos existimet homo, vt ministros Christi, &amp; dispensatores 
+      <lb ed="#L" n="35"/>mysteriorum Dei. Item gloria resurrectionis futurae dicitur 
+      my<lb ed="#L" n="36" break="no"/>sterium, propter suam occultationem. De quo I. ad Corint. 15. 
+      <lb ed="#L" n="37"/>Ecce mysterium vobis dico, omnes quidem resurgemus. His 
+      igi<lb ed="#L" n="38" break="no"/>tur, &amp; aliis consideratis, patet quod sacra scriptura plena est 
+      coele<lb ed="#L" n="39" break="no"/>stibus mysteriis, quae Deus suis fidelibus reuelauit, vt vere 
+      pos<lb ed="#L" n="40" break="no"/>fit dici illud nobis: quod fuit dictum Daniel. 2. Vere Deus vester 
+      <lb ed="#L" n="41"/>Deus Deorum est, dominusque regum, reuelans mysteria. 
+      </p>
+            <p xml:id="jsnvu6-d1e55-d1e610">
+               <lb ed="#L" n="42"/>
+               <!--12--> Concludo igitur cum Apo. Colos. 4. Orantes simul, vt 
+      Domi<lb ed="#L" n="43" break="no"/>nus aperiat ostium sermonis, ad loquendum mysterium Christi, vt 
+      <lb ed="#L" n="44"/>manifestetur illud, ita vt me loqui oportet. Oportet autem 
+      lo<lb ed="#L" n="45" break="no"/>qui de mysterio Christi, &amp; vniuersaliter de his, quae mere 
+      tan<lb ed="#L" n="46" break="no"/>gunt fidem, conformiter ad ea, quae tradidit sacra scriptura. Vnde 
+      <lb ed="#L" n="47"/>Io. 5. Christus: Scrutamini scripturas: illae sunt quae testimonium 
+      <lb ed="#L" n="48"/>perhibent de me. Si quis autem hoc non seruat, non loquitur 
+      <lb ed="#L" n="49"/>de mysterio Christi, ac de caeteris directe fidem tangentibus. 
+      <lb ed="#L" n="50"/>sicut oportet: sed incidit in illud, quod dicit Apostolus I. Cor. 8. Si 
+      <lb ed="#L" n="51"/>quis autem existimat se aliquid scire, nondum cognouit quicquam 
+      <lb ed="#L" n="52"/>quomodo oporteat eum scire. Modus enim est non excedere 
+      men<lb ed="#L" n="53" break="no"/>suram fidei: de qua dicit Apostolus Ro. 12. Non plus sapere, quam 
+      <lb ed="#L" n="54"/>oportet sapere, sed sapere ad sobrietatem, &amp; vnicuique, sicut Deus 
+      <lb ed="#L" n="55"/>diuisit mensuram fidei. Quae quidem mensura in duobus consistit, 
+      <lb ed="#L" n="56"/>videlicet vt non subtrahatur fidei, quod sub fide est: nec 
+      attri<lb ed="#L" n="57" break="no"/>buatur fidei illud, quod sub fide non est. Vtroque enim modo 
+      men<lb ed="#L" n="58" break="no"/>sura fidei exceditur, &amp; a continentia sacrae scripturae, quae fidei 
+      <lb ed="#L" n="59"/>mensuram exprimit, deuiatur &amp; hunc modum, Deo adiuuante, 
+      tene<lb ed="#L" n="60" break="no"/>re volumus, vt nihil scribamus, vel doceamus, sacrae scriptura 
+      <lb ed="#L" n="61"/>dissonum. Quod si per ignorantiam, vel inaduertentiam aliquid 
+      dis<lb ed="#L" n="62" break="no"/>sonum scriberemus, ipso facto pro non scripto habeatur. Et quia 
+      <lb ed="#L" n="63"/>interpretatio dubiorum sacrae scripturae ad sanctam Ecclesiam 
+      Ro<lb ed="#L" n="64" break="no"/>mana &amp; catholicam pertinet, omnia opera nostra huius libri, ac 
+      <lb ed="#L" n="65"/>sequentium, eius correctioni totaliter supponimus: vtpote qui a 
+      <lb ed="#L" n="66"/>pueritia in fide &amp; obedientia Romanae ecclesiae nutriti sumus. 
+      <lb ed="#L" n="67"/>&amp; in Romana curia in scholis sacri palatij veritatem sacrae 
+      scri<lb ed="#L" n="68" break="no"/>pturae docuimus, &amp; per sedem Apostolicam ad Episcopalem 
+      digni<lb ed="#L" n="69" break="no"/>tatem, quamuis immeriti, promoti sumus. Modus autem loquendi, 
+      <lb ed="#L" n="70"/>ac scribendi, in caeteris, quae fidem non tangunt, est, vt magis 
+      in<lb ed="#L" n="71" break="no"/>nitamur rationi, quam autoritati cuiuscuque doctoris, 
+      quantum<lb ed="#L" n="72" break="no"/>cunque celebris, vel solennis: &amp; paruipendatur omnis humana 
+      <lb ed="#L" n="73"/>autoritas, quando per rationem elucescit contraria veritas. 
+      Quam<lb ed="#L" n="74" break="no"/>uis enim captiuandus sit intellectus noster in obsequium 
+      Chri<lb ed="#L" n="75" break="no"/>sti, &amp; in his, quae fidem tangunt, plus acquiescere debeamus 
+      au<lb ed="#L" n="76" break="no"/>toritam sacrae scripturae, quam cuicunque rationi humanae, quia 
+      <lb ed="#L" n="77"/>diuina notitia, quam exprimit sacra scriptura, plus excedit 
+      hu<lb ed="#L" n="78" break="no"/>manam notitia, quam humana notitia bestiales: tamen omnis 
+      <lb ed="#L" n="79"/>homo dimittens rationem propter autoritatem humanam, 
+      in<lb ed="#L" n="80" break="no"/>cidit in insipientiam bestialem, vt comparatus sit iumentis 
+      in<lb ed="#L" n="81" break="no"/>sipientibus &amp; similis factus sit illis. Quis enim, nisi temerarius 
+      <lb ed="#L" n="82"/>existens, audeat dicere, quod magis sit acquiescendum autori¬ 
+      <!--00066.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>tati cuiuscunque Doctoris, quam autoritati sanctorum 
+      Docto<lb ed="#L" n="84" break="no"/>rum sacrae scripturae, Augustini, Gregorij. Ambrosij &amp; 
+      Hiero<lb ed="#L" n="85" break="no"/>nymi, quos celebritate condigna sancta Romana ecclesia 
+      sub<lb ed="#L" n="86" break="no"/>limauit? Et tamen Augustinus inter Doctores celeberrimus, 
+      <lb ed="#L" n="87"/>dicit de seipso, 3. de Trini. circa principium: Noli meis literis, 
+      <lb ed="#L" n="88"/>quasi scripturis canonicis, inseruire: sed in illis &amp; quod no 
+      cre<lb ed="#L" n="89" break="no"/>debas, cum inueneris, incunctanter crede: in istis autem, quod 
+      <lb ed="#L" n="90"/>certum non habebas, nisi certum intellexeris, noli firmum 
+      re<lb ed="#L" n="91" break="no"/>tinere. Et ad Vincentium Victorem libro secundo: Negare non 
+      <lb ed="#L" n="92"/>possum, nec debeo, sicut in ipsis maioribus, ita multa esse in 
+      <lb ed="#L" n="93"/>opusculis meis, quae possunt iusto iudicio, &amp; nulla temeritate 
+      <lb ed="#L" n="94"/>culpari. Et recitantur istae autoritates, cum pluribus aliis ad idem 
+      <lb ed="#L" n="95"/>pertinentibus, di. 9. in Decretis. Ex quibus patet quod compellere 
+      <lb ed="#L" n="96"/>seu inducere aliquem, ne doceat vel scribat dissona ab iis, quae 
+      de<lb ed="#L" n="97" break="no"/>terminatus Doctor scripsit, est talem Doctorem praeferre sacris 
+      <lb ed="#L" n="98"/>Doctoribus, praecludere viam inquisitioni veritatis, &amp; praestare 
+      <lb ed="#L" n="99"/>impedimentum sciendi, &amp; lumen rationis, non solum occultare sub 
+      mo<lb ed="#L" n="100" break="no"/>dio, sed comprimere violenter. Nos igitur plus rationi, quam cuicumque 
+      <lb ed="#L" n="101"/>autoritati humanae consentientes, nullius puri hominis 
+      autorita<lb ed="#L" n="102" break="no"/>tem rationi praeferimus, attendentes, quod omnibus existentibus 
+      ami<lb ed="#L" n="103" break="no"/>cis sanctum est praehonorare veritatem, quam omnis terra inuocat, 
+      <lb ed="#L" n="104"/>coelum etiam ipsum benedicit, benedictus Deus veritatis. Amen. 
+      <lb ed="#L" n="105"/>FINIS PRAEFATIO. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

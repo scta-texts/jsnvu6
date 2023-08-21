@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="142-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3278"><!-- l2d21q4 -->
+            <head xml:id="jsnvu6-d1e3278-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e3278-Hd1e103" type="question-title">Utrum homo in statu innocentiae potuerit primo peccare venialiter</head>
+            <p xml:id="jsnvu6-d1e3278-d1e106">
+               <lb ed="#L" n="143"/>QVAESTIO QVARTA. 
+      <lb ed="#L" n="144"/>Vtrum homo in statu innocentiae potuerit 
+      <lb ed="#L" n="145"/>peccare venialiter. 
+      <lb ed="#L" n="146"/>Thom. 1. q. 89. ar. 3.
+    </p>
+            <p xml:id="jsnvu6-d1e3278-d1e117">
+               <lb ed="#L" n="147"/>DEINDE quaeritur; vtrum homo in statu 
+      inno<lb ed="#L" n="148" break="no"/>centiae potuerit peccare venialiter. Et videtu 
+      <lb ed="#L" n="149"/>quod sic, quia peccatum mortale magis 
+      opponi<lb ed="#L" n="150" break="no"/>tur integritati primi status, quam peccatum 
+      ve<lb ed="#L" n="151" break="no"/>niale: sed tunc potuit peccare mortaliter, eri 
+      <lb ed="#L" n="152"/>multo fortius venialiter. 
+      </p>
+            <p xml:id="jsnvu6-d1e3278-d1e133">
+               <lb ed="#L" n="153"/>
+               <!--2.--> Item in Eua videtur fuisse aliquis motus infidelitatis in 
+      ho<lb ed="#L" n="154" break="no"/>qud de verbis domini dubitauit, vt patet per hoc quod dicit, ne 
+      <!--00353.xml-->
+      <pb ed="#L" n="143-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>forte moriamur, vt habetur Gen 3. Sed motus infidelitatis est 
+      <lb ed="#L" n="2"/>peccatum veniale, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3278-d1e154">
+               <lb ed="#L" n="3"/>
+               <!--3--> IN CONTRARIVM est, quia peccatum veniale est 
+      <lb ed="#L" n="4"/>velut quaedam aegritudo animae, quemadmodum peccatum 
+      mor<lb ed="#L" n="5" break="no"/>tale est eius mors, sed tunc non fuit in corpore possibilitas ad 
+      <lb ed="#L" n="6"/>aegritudinem, nisi praecedente possibilitate ad mortem, ergo 
+      simi<lb ed="#L" n="7" break="no"/>liter in anima non fuit possibilitas ad peccandum venialiter, nisi 
+      <lb ed="#L" n="8"/>praecedente possibilitate ad peccandum mortaliter, vt autem 
+      <lb ed="#L" n="9"/>se habet potentia ad potentiam, sic actus ad actum, igitur, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3278-d1e174">
+               <lb ed="#L" n="10"/>
+               <!--4--> RESPONSIO. Quaestio ista potest habere duplicem 
+      <lb ed="#L" n="11"/>intellectum. Vnum vtrum durante statu innocentiae potuerit 
+      <lb ed="#L" n="12"/>peccare venialiter. Et constat sub hoc sensu quod non, quia ille 
+      <lb ed="#L" n="13"/>non est innocens qui est reus poenae, praecipue quando est reu: 
+      <lb ed="#L" n="14"/>ex actu proprio, sed peccans venialiter reus est poenae, non 
+      so<lb ed="#L" n="15" break="no"/>lum damni, sed etiam sensus &amp; ex actu proprio: ergo non est 
+      <lb ed="#L" n="16"/>innocens. Alio modo potest intelligi, vtrum primum peccatum 
+      <lb ed="#L" n="17"/>hominis per quod caderet a statu innocentiae, potuerit esse ve 
+      <lb ed="#L" n="18"/>niale, vel necessario fuerit mortale, &amp; posset videri alicui quod ni 
+      <lb ed="#L" n="19"/>potuit esse veniale, quia veniale non mutat statum hominis 
+      <lb ed="#L" n="20"/>nec iterum potest esse cum statu innocentiae, vt statim visum 
+      <lb ed="#L" n="21"/>est, ergo nullo modo peccatum primi hominis potuit esse 
+      ve<lb ed="#L" n="22" break="no"/>niale. Sed istud non valet, quia licet veniale non mutet statum 
+      <lb ed="#L" n="23"/>gratiae, quia simul stat cum gratia, mutat tamen statum 
+      inno<lb ed="#L" n="24" break="no"/>centiae, cum quo stare non potest, imo videtur implicare 
+      con<lb ed="#L" n="25" break="no"/>tradictionem quod incompossibilium vnum non mutet alterum 
+      </p>
+            <p xml:id="jsnvu6-d1e3278-d1e213">
+               <lb ed="#L" n="26"/>
+               <!--5--> Et ideo dicendum est aliter, quod primum peccatum homini 
+      <lb ed="#L" n="27"/>non potuit esse veniale. Quod patet, quia peccatum veniale 
+      con<lb ed="#L" n="28" break="no"/>tingit in nobis dupliciter. Vno modo propter imperfectionem 
+      <lb ed="#L" n="29"/>actus, subiti motus in genere peccatorum mortalium, vel propte 
+      <lb ed="#L" n="30"/>inordinationem existentem circa ea quae sunt ad finem: vtrunque 
+      <lb ed="#L" n="31"/>autem horum contingit propter quendam defectum ordinis 
+      e<lb ed="#L" n="32" break="no"/>eo quo inferius non continetur firmiter sub suo superiori. Quo 
+      <lb ed="#L" n="33"/>autem in nobis insurgat subitus motus sensualitatis ex hoc con 
+      <lb ed="#L" n="34"/>tingit quod sensualitas non est omnino subdita rationi, quod etiam 
+      <lb ed="#L" n="35"/>insurgat subitus motus in ratione ipsa, sicut est motus 
+      infide<lb ed="#L" n="36" break="no"/>litatis, contingit ex hoc quod actus rationis non plene subditur 
+      de<lb ed="#L" n="37" break="no"/>liberationi quae ex altiori principio est, puta ex lege Dei, vi 
+      <lb ed="#L" n="38"/>cum aliquis subito apprehendit resurrectionem mortuorum vt 
+      <lb ed="#L" n="39"/>impossibile, non deliberans quod hoc est nobis traditum secundum 
+      <lb ed="#L" n="40"/>legem Dei. Quod vero animus humanus inordinetur circa ea 
+      <lb ed="#L" n="41"/>quae sunt ad finem seruato debito ordine ad finem 
+      proueni<lb ed="#L" n="42" break="no"/>ex hoc quod ea quae sunt ad finem, non ordinantur 
+      infallibili<lb ed="#L" n="43" break="no"/>ter sub fine. In statu autem innocentiae fuit infallibilis firmita 
+      <lb ed="#L" n="44"/>ordinis, vt semper inferius contineretur sub superiori, quandi 
+      <lb ed="#L" n="45"/>summum hominis contineretur sub Deo, vt etiam August. 
+      di<lb ed="#L" n="46" break="no"/>cit 14. ca. 26. de ci. Dei. Et ideo nulla inordinatio potuit esse in 
+      <lb ed="#L" n="47"/>homine, nisi inciperet ab hoc quod summum hominis non subde 
+      <lb ed="#L" n="48"/>retur Deo, quod fit per peccatum mortale. Ex quo patet qo 
+      <lb ed="#L" n="49"/>primum peccatum hominis nullo modo potuit esse veniale. 
+      </p>
+            <p xml:id="jsnvu6-d1e3278-d1e270">
+               <lb ed="#L" n="50"/>
+               <!--6.--> AD PRIMVM argumentum dicendum, quod peccatum 
+      <lb ed="#L" n="51"/>mortale plus opponitur integritati primi status, quam veniale 
+      <lb ed="#L" n="52"/>Opponitur enim illi subiectioni quam homo secundum suum 
+      <lb ed="#L" n="53"/>summum habebat ad Deum, ex qua tota ordinatio hominis depen 
+      <lb ed="#L" n="54"/>debat, &amp; qua existente nulla inordinario contingere poterat. Ei 
+      <lb ed="#L" n="55"/>„ideo impossibile fuit inordinationem peccati venialis 
+      contin<lb ed="#L" n="56" break="no"/>gere, nisi sublata subiectione praedicta per peccatum mortale
+</p>
+            <p xml:id="jsnvu6-d1e3278-d1e290">
+               <lb ed="#L" n="57"/>Ad secundum dicendum quod dubitatio illa quae fuit in 
+      mu<lb ed="#L" n="58" break="no"/>liere siue fuerit peccatum veniale, siue mortale, non fuit primum 
+      <lb ed="#L" n="59"/>eius peccatum, sed quaedam elatio quae praecessit in eius mente, 
+      <lb ed="#L" n="60"/>quae fuit peccatum mortale, vt patebit sequente distinctione
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

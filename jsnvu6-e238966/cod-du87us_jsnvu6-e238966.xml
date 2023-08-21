@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="290-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e238966"><!-- l4d16prae -->
+            <head xml:id="jsnvu6-e238966-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e238966-d1e103">
+               <lb ed="#L" n="63"/>Sententia huius distinctionis XVI. 
+      <lb ed="#L" n="64"/>in generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-e238966-d1e110">
+               <lb ed="#L" n="65"/>NPERFECTIONE autem poenitentiae. 
+      Su<lb ed="#L" n="66" break="no"/>perius determinauit magister de poenitentia 
+      ge<lb ed="#L" n="67" break="no"/>neraliter, hic determinat de poenitentiae 
+      parti<lb ed="#L" n="68" break="no"/>bus. Et diuiditur in duas, primo distinguit 
+      poeni<lb ed="#L" n="69" break="no"/>tentiae partes. Secundo mouet quasdam 
+      quaestio<lb ed="#L" n="70" break="no"/>nes circa comparationem ipsarum partium poenitentiae 
+      inui<lb ed="#L" n="71" break="no"/>cem. Secunda ibi, distinctione 17. Hic oritur quaestio triplex, 
+      pri<lb ed="#L" n="72" break="no"/>ma est principalis lectio. Et diuiditur in duas partes. Primo 
+      de<lb ed="#L" n="73" break="no"/>terminat de partibus eius integralibus. Secundo de partibus, 
+      <lb ed="#L" n="74"/>eius quasi subiectiuis. Secunda ibi, praedictis vero 
+      adiicien<lb ed="#L" n="75" break="no"/>dum. Prima in tres. Primo enumerat. Secundo enumeratas 
+      <lb ed="#L" n="76"/>declarat. Tertio poenitendi modum insinuat. Secunda ibi, 
+      Com<lb ed="#L" n="77" break="no"/>punctio nobis commendatur. Tertia ibi, Et ideo discretio 
+      <lb ed="#L" n="78"/>poenitendi. Et haec tertia diuiditur in duas. Primo insinuat 
+      no<lb ed="#L" n="79" break="no"/>men poenitentiae. Secundo falsae. Secunda ibi, Et sicut sunt 
+      di<lb ed="#L" n="80" break="no"/>gui fructus poenitentiae. Prima istarum in tres. Primo ostendit 
+      <!--00653.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>modum poe nitendi quantum ad contiitionem cordis. Secundo 
+      <lb ed="#L" n="82"/>quantum ad confessionem oris. Tertio quantum ad satisfactio 
+      <lb ed="#L" n="83"/>nem operis. Secunda ibi, Caueat ne ductus verecundia. Tertia 
+      <lb ed="#L" n="84"/>ibi, Caueat autem ne prius dominicum corpus. Secunda autem 
+      <lb ed="#L" n="85"/>pars principalis in qua deteraunat de partibus quasi 
+      subiecti<lb ed="#L" n="86" break="no"/>uis diuiditur in duas. Primo distinguit istas partes. Secundo 
+      <lb ed="#L" n="87"/>prosequitur alteram illarum, scilicet de poenitentia venialium 
+      <lb ed="#L" n="88"/>quae habet specialem dubitationem. Secunda ibi, Quae autem 
+      <lb ed="#L" n="89"/>prouenientibus. 
+      </p>
+            <p xml:id="jsnvu6-e238966-d1e171">
+               <lb ed="#L" n="90"/>
+               <!--2--> IN SPECIALI procedit sic. Et primo proponit quod ad 
+      <lb ed="#L" n="91"/>veram poenitentiam requiritur compunctio cordis, confessio oris, 
+      <lb ed="#L" n="92"/>&amp; satisfactio operis: sicut Deum offendimus corde, ore, &amp; 
+      ope<lb ed="#L" n="93" break="no"/>re. Et addit quod tres sunt mortes peccati. s.oris &amp; operis &amp; ma 
+      <lb ed="#L" n="94"/>lae consuetudinis, quae signantur per tres mortuos a Christo 
+      su<lb ed="#L" n="95" break="no"/>scitatos, vnum suscitauit in domo, per quam figuratur peccati 
+      <lb ed="#L" n="96"/>cordis, alium extra portam per quam figuratur peccatum oris vel 
+      <lb ed="#L" n="97"/>operis. Tertium iam quatriduanum foetentem, per quam 
+      figura<lb ed="#L" n="98" break="no"/>tur peccatum consuetudinis. Postea has tres enumeratas 
+      decla<lb ed="#L" n="99" break="no"/>rat sic in litera. Et primo quantum ad compunctionem cordis vt 
+      <lb ed="#L" n="100"/>considerantur peccati circunstantia &amp; damna quae per 
+      pecca<lb ed="#L" n="101" break="no"/>tum incurruntur, sicut patet ex dictis Aug. &amp; plenius habetur 
+      <lb ed="#L" n="102"/>in litera. Postea quantum ad confessionem oris dicit quod 
+      confes<lb ed="#L" n="103" break="no"/>sio non debet diuidi. Et de hoc plus dicetur in distinctione 
+      se<lb ed="#L" n="104" break="no"/>quenti. Deinde dat modum vere poenitendi quantum ad 
+      satis<lb ed="#L" n="105" break="no"/>factionem: quia vere poenitens qui vult facere fructus dignos 
+      <lb ed="#L" n="106"/>poenitentiae debet se restringere a ludis, &amp; spectaculis seculi quae 
+      <lb ed="#L" n="107"/>impediunt quandoque veram poenitentiam, &amp; debet satisfacer 
+      <lb ed="#L" n="108"/>secundum qualitatem &amp; quantitatem culpae. Et postea ostendis 
+      <lb ed="#L" n="109"/>quae sit falsa poenitentia. Et dicit quod existens in statu, vel off 
+      <lb ed="#L" n="110"/>cio vel negotio quae non possunt exerceri sine peccato non potes 
+      <lb ed="#L" n="111"/>vere poenitere nisi praedicta dimittat. Postea distinguit triplicen 
+      <lb ed="#L" n="112"/>poenitentiam illam . s. quae agitur ante baptismum, quia adultus 
+      <lb ed="#L" n="113"/>cum baptizatur non potest nouam vitam inchoare nisi 
+      poeni<lb ed="#L" n="114" break="no"/>tuerit eum veteris virae. Alia est poenitentia post baptismum. Et 
+      <lb ed="#L" n="115"/>haec est duplex vna est quae agitur pro peccatis mortalibus, alia 
+      <lb ed="#L" n="116"/>est quae agitur pro peccatis venialibus, quae non sunt omnino 
+      <lb ed="#L" n="117"/>negligenda, quia &amp; si leuia videantur, multiplicata tamen 
+      gra<lb ed="#L" n="118" break="no"/>uant &amp; opprimunt, sicut aqua paulatim intrans submergit 
+      na<lb ed="#L" n="119" break="no"/>uem. Vltimo dicit quod pro venialibus delendis sufficit oratio 
+      <lb ed="#L" n="120"/>dominicalis cum aliquali contritione: pro mortalibus autem 
+      <lb ed="#L" n="121"/>non sufficit, sed requiritur amplior contritio &amp; amplior 
+      satis<lb ed="#L" n="122" break="no"/>factio. Et in hoc terminatur sententia, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

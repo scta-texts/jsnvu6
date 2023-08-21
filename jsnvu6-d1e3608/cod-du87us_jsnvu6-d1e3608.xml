@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="154-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3608"><!-- l2d28q4 -->
+            <head xml:id="jsnvu6-d1e3608-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e3608-Hd1e103" type="question-title">Utrum sine gratia possit aliquis implere divina praecepta</head>
+            <p xml:id="jsnvu6-d1e3608-d1e106">
+               <lb ed="#L" n="102"/>QUAESTIO QVARTA. 
+      <lb ed="#L" n="103"/>Vtrum sine gratia possit quis 
+      <lb ed="#L" n="104"/>implere diuina 
+      prae<lb ed="#L" n="105" break="no"/>cepta. 
+      <lb ed="#L" n="106"/>Thom. 1. 2. q. 109. ar. 4. 
+    </p>
+            <p xml:id="jsnvu6-d1e3608-d1e119">
+               <lb ed="#L" n="107"/>QVARTO quaeritur, vtrum sine gratia possit quis 
+      <lb ed="#L" n="108"/>implere diuina praecepta, &amp; videtur quod non 
+      <lb ed="#L" n="109"/>quia nullus damnatur nisi pro peccato 
+      commis<lb ed="#L" n="110" break="no"/>sionis vel omissionis, sed qui praecepta legis 
+      im<lb ed="#L" n="111" break="no"/>plet, nihil omittit, qui autem omne malum vitat. 
+      <lb ed="#L" n="112"/>nihil committit: si igitur sine gratia praecepta legis homo possit 
+      <lb ed="#L" n="113"/>implere, quum sine gratia possit peccatum vitare (vt statim 
+      <lb ed="#L" n="114"/>ostensum est) tunc sine gratia posset homo vitare 
+      damnatio<lb ed="#L" n="115" break="no"/>nem; sed qui damnatur est in gloria: ergo homo non habens 
+      <lb ed="#L" n="116"/>gratiam posset in gloria esse. 
+      </p>
+            <p xml:id="jsnvu6-d1e3608-d1e143">
+               <lb ed="#L" n="117"/>
+               <!--2--> Item Augustinus libro de haeresibus dicit hoc pertinere ad 
+      <lb ed="#L" n="118"/>haeresim Pelagianorum, vt credant sine gratia hominem posse 
+      <lb ed="#L" n="119"/>facere omnia mandata diuina 
+      </p>
+            <p xml:id="jsnvu6-d1e3608-d1e155">
+               <lb ed="#L" n="120"/>
+               <!--3--> IN CONTRARIVM arguitur quia illud quod 
+      ho<lb ed="#L" n="121" break="no"/>mo naturaliter facit sine gratia, per seipsum facere potest: sed 
+      <lb ed="#L" n="122"/>gentes quae legem non habent, naturaliter quae legis sunt 
+      fa<lb ed="#L" n="123" break="no"/>ciunt, vt dicitur Romanorum 2. ergo praecepta legis sine gratia 
+      <lb ed="#L" n="124"/>impleri possunt 
+      </p>
+            <p xml:id="jsnvu6-d1e3608-d1e171">
+               <lb ed="#L" n="125"/>
+               <!--4--> RESPONSIO. In omni praecepto sunt duo 
+      conside<lb ed="#L" n="126" break="no"/>randa. Materia praecepti &amp; finis, materia praecepti cadit sub 
+      obli<lb ed="#L" n="127" break="no"/>gatione, est enim illud quod praecipitur: finis autem praecepti ca 
+      <lb ed="#L" n="128"/>dit sub intentione, non autem sub obligatione, non enim 
+      praeci<lb ed="#L" n="129" break="no"/>pitur: sed intendit praecipiens, vt mediante praecepto ad illud 
+      <lb ed="#L" n="130"/>perueniatur: verbi gratia, legissator praecipit non percutere 
+      ci<lb ed="#L" n="131" break="no"/>uem &amp; intendit per hoc inter ciues fouere amicitiam. Si quis 
+      igi<lb ed="#L" n="132" break="no"/>tur cum ciuem non percutit, nec tamen conciuem diligit, imple 
+      <lb ed="#L" n="133"/>praeceptum legis quoad praecepti obligationem: vnde poenan 
+      <lb ed="#L" n="134"/>legis non meretur, vt legis transgressor, nihilominus ad finem 
+      <lb ed="#L" n="135"/>intentum a legissatore non attingit. Similiter in praeceptis 
+      diui<lb ed="#L" n="136" break="no"/>nis aliud est quod praecipitur tanquam materia praecepti caden: 
+      <lb ed="#L" n="137"/>sub obligatione. Aliud vero quod finaliter intenditur, quod enim 
+      <lb ed="#L" n="138"/>praecipitur est actus virtutis, quoad substantiam actus solum, vi 
+      <lb ed="#L" n="139"/>honorare parentes, credere vnum deum, &amp; similia: quod autem 
+      <lb ed="#L" n="140"/>intenditur, sed non praecipitur, est, vt homines per talia 
+      oper<lb ed="#L" n="141" break="no"/>sic disponantur, quod opera eorum acceptentur, vt 
+      remunera<lb ed="#L" n="142" break="no"/>bilia vita aeterna, quod fit per gratiam. Et sic loquitur Saluato 
+      <lb ed="#L" n="143"/>Matthaei decimonono. Si vis ad vitam ingredi, serua mandata 
+      <lb ed="#L" n="144"/>Quod autem ita sit. patet, quia sicut per praecepta affirmatius 
+      <lb ed="#L" n="145"/>praecipitur actus virtuosus, sic per praecepta negatiua 
+      prohi<lb ed="#L" n="146" break="no"/>betur actus vitiosus, &amp; sicut seruantur praecepta affirmatiua, 
+      <lb ed="#L" n="147"/>faciendo quod praeceptum est fieri, sic seruantur praecepta 
+      ne<lb ed="#L" n="148" break="no"/>gatiua abstinendo ab eo quod prohibitum est fieri, sed sub 
+      pro<lb ed="#L" n="149" break="no"/>hibitione praecepti negatiui cadit actus quoad substantiam actus, 
+      <lb ed="#L" n="150"/>ne fiat, &amp; non quoad modum, videlicet vt abstinens ab actu 
+      pro<lb ed="#L" n="151" break="no"/>hibitio sit in gratia, qui enim non occidit vel non moechatur, 
+      <lb ed="#L" n="152"/>dato quod non sit in gratia, non propter hoc est 
+      transgresso<lb ed="#L" n="153" break="no"/>illorum praeceptorum, non moechaberis, non occides, nec 
+      com<lb ed="#L" n="154" break="no"/>mittit nouum peccatum, quia nullus facit contra praeceptum 
+      <lb ed="#L" n="155"/>negatiuum per omissionem, sed solum per commissionem, sed 
+      <lb ed="#L" n="156"/>non habere gratiam est sola omissio, non moechari, vel non 
+      oc<lb ed="#L" n="157" break="no"/>cidere est similiter sola omissio, ergo qui non est in gratia, nec 
+      <lb ed="#L" n="158"/>occidit, nec moechatur, &amp; sic de aliis praeceptis negatiuis non 
+      <lb ed="#L" n="159"/>est transgressor eorum, sed potius obseruator. 
+      </p>
+            <p xml:id="jsnvu6-d1e3608-d1e252">
+  <!--00377.xml-->
+               <pb ed="#L" n="155-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>5. Et eodem modo in praeceptis affirmatiuis nullus est 
+      trans<lb ed="#L" n="2" break="no"/>gressor si faciat quod praecipitur, puta quod honoret 
+      paren<lb ed="#L" n="3" break="no"/>tes, licet non sit in gratia, quamuis non peruenit ad finem 
+      <lb ed="#L" n="4"/>intentum a praecipiente, videlicet ad hoc vt facta sua sint 
+      re<lb ed="#L" n="5" break="no"/>munerabilia vita aeterna: hoc enim intenditur, sed non 
+      prae<lb ed="#L" n="6" break="no"/>cipitur. Ex hoc patet responsio ad quaestionem istam, sicut ad 
+      <lb ed="#L" n="7"/>praecedentem, quia sunt quasi vna quaestio. Non enim est pec 
+      <lb ed="#L" n="8"/>catum mortale, nisi sit contra aliquod praeceptum. Et 
+      ide<lb ed="#L" n="9" break="no"/>sicut homo sine gratia potest vitare peccata mortalia, sic 
+      po<lb ed="#L" n="10" break="no"/>test implere praecepta. 
+      </p>
+            <p xml:id="jsnvu6-d1e3608-d1e283">
+               <lb ed="#L" n="11"/>
+               <!--6--> Dicendum ergo quod sine gratia quae est specialis 
+      accepta<lb ed="#L" n="12" break="no"/>tio diuina, potest homo implere praecepta iuris naturalis, non 
+      <lb ed="#L" n="13"/>autem illa quae sunt iuris supernaturalis, vt de suscipiendi 
+      <lb ed="#L" n="14"/>sacramentis. Primum patet, quia quaelibet potentia potest in 
+      <lb ed="#L" n="15"/>actum sibi proportionatum quantum ad substantiam actus 
+      si<lb ed="#L" n="16" break="no"/>ne additione cuiuscunque alterius. Est enim potentia qua 
+      pos<lb ed="#L" n="17" break="no"/>sumus, vt dicitur 2. Ethicorum. Sed sub praecepto iuris 
+      na<lb ed="#L" n="18" break="no"/>turalis cadunt actus solum quantum ad substantiam actuum 
+      <lb ed="#L" n="19"/>actus dico quorum potentiae sunt in nobis, ergo sine 
+      grati<lb ed="#L" n="20" break="no"/>&amp; quocunque alio habitu possumus adimplere quae sub tali 
+      <lb ed="#L" n="21"/>praecepto cadunt. Secundum patet, quia vbi habere gratiam 
+      <lb ed="#L" n="22"/>cadit sub praecepto, vt materia praecepti, ibi praeceptum non 
+      <lb ed="#L" n="23"/>potest sine gratia impleri, sed sic est in susceptione 
+      sacramen<lb ed="#L" n="24" break="no"/>torum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3608-d1e318">
+               <lb ed="#L" n="25"/>
+               <!--7.--> Ad primum argumentum dicendum quod absque peccato 
+      <lb ed="#L" n="26"/>omissionis &amp; commissionis damnaretur homo pro solo 
+      pecca<lb ed="#L" n="27" break="no"/>to originali, nisi per gratiam liberaretur, quam adeptam nor 
+      <lb ed="#L" n="28"/>amittit, nisi per peccatum omissionis, vel commissionis, &amp; ita 
+      <lb ed="#L" n="29"/>nunquam potest homo damnari, nisi pro culpa: nec esse in 
+      glo<lb ed="#L" n="30" break="no"/>ria, nisi praeuia gratia qualitercunque data. 
+      </p>
+            <p xml:id="jsnvu6-d1e3608-d1e336">
+               <lb ed="#L" n="31"/>
+               <!--8--> Ad secundum argumentum dicendum, quod Augustinus 
+      <lb ed="#L" n="32"/>loquitur de impletione mandatorum cum peruentione ad 
+      fi<lb ed="#L" n="33" break="no"/>nem a legissatore intentum. Illo enim modo sine gratia 
+      im<lb ed="#L" n="34" break="no"/>pleri non possunt. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

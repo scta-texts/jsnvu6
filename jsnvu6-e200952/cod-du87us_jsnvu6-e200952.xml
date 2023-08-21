@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="244-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e200952"><!-- l3d38q2 -->
+            <head xml:id="jsnvu6-e200952-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e200952-Hd1e103" type="question-title">Utrum omne mendacium sit peccatum mortale</head>
+            <p xml:id="jsnvu6-e200952-d1e106">
+               <lb ed="#L" n="4"/>QVAESTIO SECVVDA. 
+      <lb ed="#L" n="5"/>Vtrum omne mendacium sit peccatum mortale. 
+      <lb ed="#L" n="6"/>Thom. 2. 2. 7. 110. ar. 4. 
+    </p>
+            <p xml:id="jsnvu6-e200952-d1e115">
+               <lb ed="#L" n="7"/>SECVNDO quaeritur, vtrum omne mendacium si 
+      <lb ed="#L" n="8"/>peccatum mortale. Et arguitur quod sic, quia illud 
+      <lb ed="#L" n="9"/>quod excludit a regno caelorum &amp; ducit in 
+      perd<lb ed="#L" n="10" break="no"/>tionem est peccatum mortale, sed omne menda 
+    </p>
+            <p xml:id="jsnvu6-e200952-d1e126">
+               <lb ed="#L" n="11"/>Tertium est huiusmodi, igitur &amp;c. Minor probatur 
+      <lb ed="#L" n="12"/>per illud quod habetur Apoc. vltimo. Foris canes &amp; venefici &amp; 
+      <lb ed="#L" n="13"/>omnis qui amat &amp; facit mendacium. Et Sap. 1. 0s quod mentitur 
+      <lb ed="#L" n="14"/>occidit animam. &amp; in Psal. Perdes omnes qui loquuntur 
+      menda<lb ed="#L" n="15" break="no"/>cium. Item Aug. dicit in libro contra mendacium, quod 
+      perfecti<lb ed="#L" n="16" break="no"/>praeceptum est omnino non mentiri &amp; non solum non 
+      mentiri<lb ed="#L" n="17" break="no"/>sed nec mentiri velle. Sed facere contra praeceptum est pecca 
+      <lb ed="#L" n="18"/>tum mortale, ergo omne mendacium in viris perfectis est 
+      pec<lb ed="#L" n="19" break="no"/>catum mortale. 
+    </p>
+            <p xml:id="jsnvu6-e200952-d1e149">
+               <lb ed="#L" n="20"/>Item facere contra fidem seu fidelitatem videtur esse 
+      pecca<lb ed="#L" n="21" break="no"/>tum mortale. Sed omnis mentiens est huiusmodi dicente Aug. de do 
+      <lb ed="#L" n="22"/>ctrina Christiana quod nemo mentiens in eo quod mentitur ser 
+      <lb ed="#L" n="23"/>uat fidem, ergo omnis mentiens videtur peccare mortaliter. 
+    </p>
+            <p xml:id="jsnvu6-e200952-d1e160">
+               <lb ed="#L" n="24"/>IN CONTRARIVM est quod dicit August. super 5 
+      <lb ed="#L" n="25"/>Psal. quod duo sunt genera mendaciorum in quibus non est magna 
+      <lb ed="#L" n="26"/>culpa, sed omnis culpa mortalis est magna, ergo non omne men 
+      <lb ed="#L" n="27"/>dacium est peccatum mortale. 
+    </p>
+            <p xml:id="jsnvu6-e200952-d1e171">
+               <lb ed="#L" n="28"/>RESPONSIO. Dicendum quo non omne mendacium 
+      <lb ed="#L" n="29"/>est peccatum mortale quantum est de suo genere, sed solum 
+      men<lb ed="#L" n="30" break="no"/>dacium perniciosum, quod probatur sit, communiter illud solum 
+      <lb ed="#L" n="31"/>est peccatum mortale quod contrariatur dilectioni dei, vel pro 
+      <lb ed="#L" n="32"/>ximi, sed solum mendacium perniciosum est suo genere est hu 
+      <lb ed="#L" n="33"/>iusmodi, non autem iocosum, vel officiosum, igitur &amp;c. Maior 
+      <lb ed="#L" n="34"/>patet, quia sicut vita spiritualis est per solam charitatem qua 
+      di<lb ed="#L" n="35" break="no"/>ligitur deus &amp; proximus, ita nihil est peccatum mortale nisi con 
+      <lb ed="#L" n="36"/>trarietur dilectioni dei vel proximi. Minor similiter patet. 
+      Men<lb ed="#L" n="37" break="no"/>dacium enim perniciosum quod fit in doctrina fidei directe con 
+      <lb ed="#L" n="38"/>trariatur dilectioni dei. Illud vero quod dicitur in nocumentum 
+      <lb ed="#L" n="39"/>alterius spirituale, corporale, vel temporale contrariatur 
+      dile<lb ed="#L" n="40" break="no"/>ctioni proximi. Mendacium autem quod ordinatur ad bonum 
+      <lb ed="#L" n="41"/>vtile sicut est officiosum, vel ad bonum delectabile, sicut est 
+      io<lb ed="#L" n="42" break="no"/>cosum non opponitur directe &amp; ex suo genere, neque dilectic 
+      <lb ed="#L" n="43"/>ni dei, neque proximi. Et ideo non sunt peccata mortalia, &amp; hoc 
+      <lb ed="#L" n="44"/>est quod dicit magister &amp; quod dicit August. super Psal. quod 
+      <lb ed="#L" n="45"/>sunt duo genera mendaciorum in quibus non est magna culpa 
+      <lb ed="#L" n="46"/>&amp; loquitur de mendacio officioso &amp; iocoso. Grego. etiam dici 
+      <lb ed="#L" n="47"/>quod mendacium officiosum facile credimus relaxari. Patet 
+      igi<lb ed="#L" n="48" break="no"/>tur quod quantum est ex genere facti non omne mendacium est 
+      <lb ed="#L" n="49"/>mortale peccatum, &amp; hoc communiter conceditur.
+    </p>
+            <p xml:id="jsnvu6-e200952-d1e221">
+               <lb ed="#L" n="50"/>Quidam tamen dicunt quod licet non omne mendacium 
+      e<lb ed="#L" n="51" break="no"/>suo genere sit mortale peccatum, tamen in viris perfectis 
+      siu<lb ed="#L" n="52" break="no"/>perfectione personali, siue perfectione status est mortale 
+      pec<lb ed="#L" n="53" break="no"/>catum. Quod probant ex perfectione personali sic, perfecti 
+      per<lb ed="#L" n="54" break="no"/>fectione personali perfecte Deo adhaerent, ergo non possunt al 
+      <lb ed="#L" n="55"/>eo recedere nisi per contemptum, sed contemptus est peccatum 
+      <lb ed="#L" n="56"/>mortale, ergo. &amp;c. Confirmatur hoc, quia Adam in statu 
+      innocen<lb ed="#L" n="57" break="no"/>tiae ratione perfectionis personalis quam habuit non potuit 
+      pri<lb ed="#L" n="58" break="no"/>mo peccare venialiter, ergo nec isti. De perfectione status 
+      pro<lb ed="#L" n="59" break="no"/>batur idem sic, perfectis perfectione status vt sunt religiosi 8 
+      <lb ed="#L" n="60"/>praelati creditur tanquam conseruatoribus veritatis, &amp; si 
+      men<lb ed="#L" n="61" break="no"/>tiendo a veritate deuient, de caetero eis non creditur, quod non 
+      <lb ed="#L" n="62"/>est sine magno praeiudicio ecclesiae &amp; sui status, ergo omne mi 
+      <lb ed="#L" n="63"/>dacium est eis graue seu mortale peccatum. Confirmatur hoc per 
+      <lb ed="#L" n="64"/>Augustinum in libro de mendacio, qui dicit quod perfectis 
+      praece<lb ed="#L" n="65" break="no"/>ptum est omnino, non solum non mentiri, sed nec velle 
+      menti<lb ed="#L" n="66" break="no"/>ri. Sed facere contra praeceptum est peccatum mortale, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-e200952-d1e260">
+               <lb ed="#L" n="67"/>
+               <!--6--> Sed istud non valet, quia facere illud quod non est contra 
+      <lb ed="#L" n="68"/>praeceptum, nec contra votum proprium non videtur esse 
+      mor<lb ed="#L" n="69" break="no"/>tale peccatum. Omnis enim obligatio ad peccatum mortale, ve 
+      <lb ed="#L" n="70"/>est ex praecepto superioris, vel ex obligatione proprij voti. Sed 
+      <lb ed="#L" n="71"/>mentiri officiose vel iocose non est contra praeceptum 
+      genera<lb ed="#L" n="72" break="no"/>liter factum omnibus, quia tunc sic omnes mentientes peccarent 
+      <lb ed="#L" n="73"/>mortaliter quod ipsimet non concedunt, nec est contra 
+      praece<lb ed="#L" n="74" break="no"/>ptum factum perfectis specialiter, quia illud praeceptum 
+      nun<lb ed="#L" n="75" break="no"/>quam legitur, nec est contra votum perfectorum, quia nullus 
+      per<lb ed="#L" n="76" break="no"/>fectus perfectione personali vel status vouet non mentiri. Et si 
+      <lb ed="#L" n="77"/>qui vouent caueant sibi, ergo mentiri officiose vel iocose non 
+      <lb ed="#L" n="78"/>est viris perfectis peccatum mortale nisi forte per accides 
+      ratio<lb ed="#L" n="79" break="no"/>ne scandali annexi. Ad hoc potest referri quod Augustinus 
+      di<lb ed="#L" n="80" break="no"/>cit perfectis praecepum esse non solum mentiri, sed nec vell¬ 
+      <!--00562.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>mentiri, quamuis August. illud non dicat sub assertione, 
+      <lb ed="#L" n="82"/>dubitatione, praemittit enim nisi forte, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e200952-d1e304">
+               <lb ed="#L" n="83"/>
+               <!--7--> Nec rationes aliorum cogunt. Prima enim ratio aeque con 
+      <lb ed="#L" n="84"/>cludit de quolibet veniali peccato quod non possit esse in 
+      perfe<lb ed="#L" n="85" break="no"/>ctis viris, Sicut de mendacio, &amp; constat quod illud est falsum, cun 
+      <lb ed="#L" n="86"/>beatus loannes de se &amp; aliis dicat, Ioan. 1. Si dixerimus 
+      qui<lb ed="#L" n="87" break="no"/>peccatum non habemus, &amp;c. Sancti enim viatores non sic addi 
+      <lb ed="#L" n="88"/>cti sunt veritati diuinae, nec eius bonitati sicut beati qui ab ea 
+      <lb ed="#L" n="89"/>non possunt recedere, nec sic quod semper de ea actu cogitent. 
+      <lb ed="#L" n="90"/>vel actualiter omnia dicta &amp; facta sua in eum ordinent, sed pos 
+      <lb ed="#L" n="91"/>sunt ex consideratione vel ex alia causa ab ea discedere dicendo 
+      <lb ed="#L" n="92"/>vel faciendo contra eam per peccatum mortale &amp; praeter eam 
+      <lb ed="#L" n="93"/>per peccatum veniale. Nec est simile de Adam in statu 
+      innocen<lb ed="#L" n="94" break="no"/>tiae qui non potuit primo peccare venialiter, quia illud fuit ex 
+      <lb ed="#L" n="95"/>dono originalis iustitiae per quam omnia inferiora subdebantur 
+      <lb ed="#L" n="96"/>suis superioribus vt non posset in eis aliqua deordinatio 
+      continge<lb ed="#L" n="97" break="no"/>re, nisi prius deordinata voluntate a Deo per peccatum mortale. 
+      </p>
+            <p xml:id="jsnvu6-e200952-d1e342">
+               <lb ed="#L" n="98"/>
+               <!--8--> Ad aliud dicendum quod perfectis perfectione status non 
+      cre<lb ed="#L" n="99" break="no"/>ditur tanquam conseruatoribus veritatis in omnibus dictis vel 
+      <lb ed="#L" n="100"/>factis eorum. Sed in illis tantum quae ad officium conseruandae 
+      <lb ed="#L" n="101"/>veritatis spectant sicut est doctrina &amp; iudicium in quibus si a 
+      <lb ed="#L" n="102"/>veritate deuiarent non est dubium quin peccarent mortaliter 
+      </p>
+            <p xml:id="jsnvu6-e200952-d1e358">
+               <lb ed="#L" n="103"/>
+               <!--9--> AD PRIMVM argumentum dicendum per 
+      interem<lb ed="#L" n="104" break="no"/>ptionem minoris. Ad auctoritates quae videntur eam probare 
+      dicen<lb ed="#L" n="105" break="no"/>dum est quod omnes intelliguntur de mendacio pernicioso, sicut glossa 
+      <lb ed="#L" n="106"/>exponit super illud, Perdes omnes qui loquuntur mendacium 
+      </p>
+            <p xml:id="jsnvu6-e200952-d1e371">
+               <lb ed="#L" n="107"/>
+               <!--10.--> Ad secundum argumentum patet responsio ex dictis in 
+      <lb ed="#L" n="108"/>corpore solutionis. 
+      </p>
+            <p xml:id="jsnvu6-e200952-d1e380">
+               <lb ed="#L" n="109"/>
+               <!--11--> Ad teruium dicendum quod fides seu fidelitas non consueuit 
+      adhi<lb ed="#L" n="110" break="no"/>beri nisi in his in quibus debet peccator procurare magnum emo 
+      <lb ed="#L" n="111"/>lumentum alterius, vel damnum notabile euitare. Et in his mentiri est 
+      <lb ed="#L" n="112"/>perniciosum, &amp; peccatum mortale, non autem in omnibus generaliter.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

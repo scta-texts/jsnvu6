@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="46-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e983"><!-- l1d17q1 -->
+            <head xml:id="jsnvu6-d1e983-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e983-Hd1e103" type="question-title">Utrum necessarium sit caritatem esse habitum creatum in homine ad hoc quod homo sit Deo carus</head>
+            <p xml:id="jsnvu6-d1e983-d1e106">
+               <lb ed="#L" n="29"/>QVAESTTO PRIMA. 
+      <lb ed="#L" n="30"/>Verum necessarium sit charitatem esse habitum 
+      <lb ed="#L" n="31"/>creatum vt homo sit Deo charus. 
+      <lb ed="#L" n="32"/>Thom. 21. q. 33. artic. 2.de Aliaco. 1. q. 9. artic. 2.
+    </p>
+            <p xml:id="jsnvu6-d1e983-d1e117">
+               <lb ed="#L" n="33"/>CIRCA distinctionem istam quaeruntur tria in 
+      ge<lb ed="#L" n="34" break="no"/>nerali de charitate. Primum est de eius 
+      necessi<lb ed="#L" n="35" break="no"/>tate. Secundum de eius augmento. Tertium est de 
+      <lb ed="#L" n="36"/>eius diminutione. Circa primum quaeruntur tria 
+      <lb ed="#L" n="37"/>aq Primum est quae sit necessitas ponendi 
+      charita<lb ed="#L" n="38" break="no"/>tem esse aliquem habitum creatum. Secundum est vtrum detu 
+      <lb ed="#L" n="39"/>secundum proportionem naturalium. Tertium est vtrum 
+      ha<lb ed="#L" n="40" break="no"/>bes charitatem possit cognoscere se habere eam. Adhuc circa 
+      <lb ed="#L" n="41"/>primum duo quaeruntur. Primum est vtrum necessarium si 
+      <lb ed="#L" n="42"/>charitatem esse habitum creatum ad hoc quod homo fit 
+      De<lb ed="#L" n="43" break="no"/>charus. Secundum est, vtrum necessarium sit ponere eam habi 
+      <lb ed="#L" n="44"/>tum creatum ad hoc vt per eam homo mereatur vitam aeternam. 
+      <lb ed="#L" n="45"/>Ad primum sic proceditur. Et arguitur quod necessarium si 
+      <lb ed="#L" n="46"/>charitatem esse habitum creatum in homine ad hoc quod 
+      ho<lb ed="#L" n="47" break="no"/>mo sit Deo charus, quia nullus potest effici de non grato 
+      gra<lb ed="#L" n="48" break="no"/>tus, vel de non charo charus nisi per aliquam mutationem 
+      fa<lb ed="#L" n="49" break="no"/>ctam in ipso vel in altero, sed homo efficitur de non grato gra 
+      <lb ed="#L" n="50"/>tus, &amp; non per aliquam mutationem factam in Deo, ergo per 
+      <lb ed="#L" n="51"/>aliquam mutationem factam in ipso, sed nulla mutatio fieret 
+      <lb ed="#L" n="52"/>in homine nisi gratia esset aliquid creatum in ipso: non actus qui 
+      <lb ed="#L" n="53"/>transit. &amp; homo remanet gratus, ergo habitus. 
+      </p>
+            <p xml:id="jsnvu6-d1e983-d1e165">
+               <lb ed="#L" n="54"/>
+               <!--2--> Item sicut a fide dicitur aliquis fidelis ita a charitate 
+      dici<lb ed="#L" n="55" break="no"/>tur charus: sed propter primum necessarium est fidem esse 
+      <lb ed="#L" n="56"/>aliquid creatum, ergo propter secundum necessarium est 
+      cha<lb ed="#L" n="57" break="no"/>ritatem esse aliquid creatum. 
+      </p>
+            <p xml:id="jsnvu6-d1e983-d1e179">
+               <lb ed="#L" n="58"/>
+               <!--3--> IN CONTRARLVM arguitur, quia esse Deo 
+      gra<lb ed="#L" n="59" break="no"/>tum est esse a Deo dilectum, sed dilectio Dei est in Deo 
+      dili<lb ed="#L" n="60" break="no"/>gente &amp; non in homine dilecto, ergo ad hoc quod homo si 
+      <lb ed="#L" n="61"/>Deo gratus non requiritur quod in eo sit aliquid de nouo 
+      <lb ed="#L" n="62"/>causatum nec actus nec habitus. 
+      </p>
+            <p xml:id="jsnvu6-d1e983-d1e195">
+               <lb ed="#L" n="63"/>
+               <!--4--> RESPONSIO. eadem est necessitas ponere gratiam 
+      <lb ed="#L" n="64"/>esse habitum creatum sicut charitatem &amp; econuerso. Et ideo 
+      di<lb ed="#L" n="65" break="no"/>vtroque deducitur quaestio: &amp; sic ad quaestionem istam dicenda 
+      <lb ed="#L" n="66"/>sunt tria. Primum est quod homo potest esse, &amp; est Deo gratus &amp; 
+      <lb ed="#L" n="67"/>charus antequam habeat gratiam &amp; charitatem sibi formalite 
+      <lb ed="#L" n="68"/>inhaerentem. Secundum est quod ad esse Deo gratum vel charum 
+      <lb ed="#L" n="69"/>non sequitur necessario necessitate absoluta quod homo sit 
+      ha<lb ed="#L" n="70" break="no"/>biturus quandoque gratiam vel charitatem sibi formaliter 
+      in<lb ed="#L" n="71" break="no"/>haerentem. Tertium est quod ad esse Deo gratum vel charum 
+      se<lb ed="#L" n="72" break="no"/>quitur necessario necessitate conditionata (scilicet ex 
+      supposi<lb ed="#L" n="73" break="no"/>tione ordinationis diuinae) quod homo sit habiturus quandoque 
+      <lb ed="#L" n="74"/>ratiam &amp; charitatem habitualem formaliter inhaerentem. 
+      </p>
+            <p xml:id="jsnvu6-d1e983-d1e226">
+               <lb ed="#L" n="75"/>
+               <!--5--> Primum patet sic, effectus sequitur suam causam efficienti 
+      <lb ed="#L" n="76"/>tempore vel natura, sed omne bonum habituale quod est vel esse 
+      <lb ed="#L" n="77"/>potest in homine est effectiue ab eo quod est esse Deo gratum 
+      <lb ed="#L" n="78"/>vel charum, ergo omne bonum habituale siue gratia siue 
+      chari<lb ed="#L" n="79" break="no"/>tas, siue quodcunque aliud sequitur natura vel tempore id quod 
+      <lb ed="#L" n="80"/>est hominem esse Deo gratum vel charum, ergo prius homo na 
+      <lb ed="#L" n="81"/>tura vel tempore est Deo gratus vel charus quam habeat gratiam 
+      <!--00158.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>vel charitatem sibi formaliter inhaerentem. maior de se patet, 
+      mi<lb ed="#L" n="83" break="no"/>nor probatur, quia principium cuiuflibet, liberalis 
+      communicatio<lb ed="#L" n="84" break="no"/>nis est amor. Quicquid enim datur homuni a Deo, datur libera 
+      <lb ed="#L" n="85"/>liter &amp; non aliqua necessitate vel obligatione, ergo datur ex 
+      a<lb ed="#L" n="86" break="no"/>more, sed esse Deo gratu vel charum est esse a Deo amatum vel di 
+      <lb ed="#L" n="87"/>lectum, ergo quicquid datur homini a Deo est effectiue ab eo 
+      <lb ed="#L" n="88"/>quod est hominem esse Deo gratum vel charum. &amp; haec fuit minor 
+      <lb ed="#L" n="89"/>sequitur ergo conclusio quod prius natura vel tempore est hom 
+      <lb ed="#L" n="90"/>Deo gratus &amp; charus quam habeat gratiam vel charitatem sibi for 
+      <lb ed="#L" n="91"/>maliter inhaerentem quod fuit primum proposirum: illa tamen 
+      <lb ed="#L" n="92"/>denominatio esset extrinseca sicut esse amatum vel dilectum.
+</p>
+            <p xml:id="jsnvu6-d1e983-d1e274">
+               <lb ed="#L" n="93"/>SECVNDVM: patet, scilicet quod ad esse Deo gratum 
+      <lb ed="#L" n="94"/>vel charum non sequitur necessario necessitate absoluta quod he 
+      <lb ed="#L" n="95"/>mo sit quandoque habiturus gratiam vel charitatem habitualem 
+      <lb ed="#L" n="96"/>sibi formaliter inhaerentem, quia amare vel diligere aliquem 
+      ni<lb ed="#L" n="97" break="no"/>hil aliud est quam velle ei bonum vt habetur primo rhe. sed Deus po 
+      <lb ed="#L" n="98"/>test velle homini bonum, &amp; summum bonum cuius ipse est ca 
+      <lb ed="#L" n="99"/>pax (scilicet beatitudinem) absque hoc quod velit ei dare gratiam 
+      <lb ed="#L" n="100"/>habitualem vel charitatem quantum est de potentia absoluta 
+      <lb ed="#L" n="101"/>secundum quam Deus potest dare &amp; homo recipero gloriam 
+      <lb ed="#L" n="102"/>vel beatitudinem sine gratia habituali praeuia, ergo ad esse Deo 
+      <lb ed="#L" n="103"/>dilectum vel ad esse Deo gratum vel charum non sequitur es 
+      <lb ed="#L" n="104"/>necessitate absoluta quod homo sit quandoque habiturus gra 
+      <lb ed="#L" n="105"/>tiam vel charitatem habitualem: &amp; sic patet secundum 
+</p>
+            <p xml:id="jsnvu6-d1e983-d1e305">
+               <lb ed="#L" n="106"/>TERTIVM patet, scilicet qo ad esse Deo gratum vel 
+      <lb ed="#L" n="107"/>charum denominatione extrinseca sequitur ex suppositione di 
+      <lb ed="#L" n="108"/>uinae ordinationis quod homo sit quandoque habiturus gratiam 
+      <lb ed="#L" n="109"/>vel charitatem habitualem secundum quam dicitur formaliter 
+      <lb ed="#L" n="110"/>gratus denominatione intrinseca, quia dilectio Dei est causa 
+      <lb ed="#L" n="111"/>alicuius boni in eo quem diligit, cum diligere sit velle bonum, velle 
+      <lb ed="#L" n="112"/>autem Dei est causa tantum boni &amp; non causatum ab eo, inte 
+      <lb ed="#L" n="113"/>bona autem quorum dilectio Dei est in nobis causa, est ordo ex 
+      <lb ed="#L" n="114"/>diuina dispositione, quia cum beatitudo sit finis &amp; terminus 
+      no<lb ed="#L" n="115" break="no"/>strae peregrinationis &amp; praemium nostrarum actionum sicut via 
+      <lb ed="#L" n="116"/>praecedit terminum, &amp; meritum praecedit praemium, sic dona quae 
+      <lb ed="#L" n="117"/>perficiunt nos pro statu viae ad merendum (vt gratia &amp; charitas 
+      <lb ed="#L" n="118"/>praecedunt dona quae perficiunt nos ad videndum &amp; fruendun 
+      <lb ed="#L" n="119"/>Deo: Et ideo ex dilectione qua Deus diligit nos vt capaces sui 
+      <lb ed="#L" n="120"/>per visionem &amp; fruitionem causantur in nobis primum dona 
+      <lb ed="#L" n="121"/>viae quae sunt ad merendum, &amp; vltimo dona patriae: inter autem 
+      <lb ed="#L" n="122"/>dona viae potissima sunt gratia &amp; charitas quibus sumus grati 
+      <lb ed="#L" n="123"/>&amp; chari denominatione formali &amp; intrinseca, propter quod ad 
+      <lb ed="#L" n="124"/>esse gratum vel charum denominatione extrinseca sequitur ex 
+      <lb ed="#L" n="125"/>diuina dispositione quod causatur in nobis gratia habitualis &amp; 
+      <lb ed="#L" n="126"/>charitas. Quare autem aliquod donum dicatur gratia vel 
+      cha<lb ed="#L" n="127" break="no"/>ritas &amp; non omnia, cum tamen omnia donentur in nobis a Deo 
+      <lb ed="#L" n="128"/>ex eius gratuita siue chara dilectione. 
+      </p>
+            <p xml:id="jsnvu6-d1e983-d1e357">
+               <lb ed="#L" n="129"/>
+               <!--8--> Ratio est, quia quaedam perficiunt nos ad hoc vt actus no 
+      <lb ed="#L" n="130"/>stri acceptentur a Deo, &amp; quidem vt remunerandi vita aeterna 
+      <lb ed="#L" n="131"/>quia hoc est summum bonum quod potest communicari crea 
+      <lb ed="#L" n="132"/>turae, ideo talia dona dicuntur per quandam excellentiam 
+      gra<lb ed="#L" n="133" break="no"/>tia vel charitas, quia sunt in nobis a Deo non solum ex 
+      com<lb ed="#L" n="134" break="no"/>muni dilectione qua diligit bonos &amp; malos, sed ex speciali &amp; 
+      <lb ed="#L" n="135"/>chara qua diligit vt filios adoptiuos ad participationem boni 
+      <lb ed="#L" n="136"/>quo ipsemet est bonus. Alia autem dona quae non ordinant im 
+      <lb ed="#L" n="137"/>mediate ad tale meritum nominantur caeteris nominibus 
+      se<lb ed="#L" n="138" break="no"/>cundum actus ad quos dantur. Est etiam hic notandum quod 
+      <lb ed="#L" n="139"/>cum omnis denominatio extrinseca habeat ortum ad illa quae 
+      <lb ed="#L" n="140"/>est intrinseca sicut sanum dictum de medicina, diaeta, &amp; vrina 
+      <lb ed="#L" n="141"/>ortum habet ex hoc quod animal dicitur sanum formaliter vi 
+      <lb ed="#L" n="142"/>subiectum sanitatis. Denominatio tamen extrinseca qua quis 
+      <lb ed="#L" n="143"/>dicitur Deo gratus, vel charus hoc est chare dilectus non 
+      ha<lb ed="#L" n="144" break="no"/>bet ortum ex denominatione qua homo dicitur gratus vel 
+      cha<lb ed="#L" n="145" break="no"/>rus per aliquem habitum inhaerentem, sed potius haec ab illa. 
+      <lb ed="#L" n="146"/>habet autem ortum ex hoc quod Deus dicitur chare nos 
+      dili<lb ed="#L" n="147" break="no"/>gens &amp; nos per consequens chare dilecti &amp; dona praedicta 
+      di<lb ed="#L" n="148" break="no"/>cuntur gratiâ vel charitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e983-d1e406">
+               <lb ed="#L" n="149"/>
+               <!--9.--> AD. ARGVMENTA vtriusque partis patet 
+      respon<lb ed="#L" n="150" break="no"/>sio ex praedictis. Cum enim primo dicitur quod nullus potest 
+      <lb ed="#L" n="151"/>effici de non grato gratus nisi per aliquam mutationem 
+      proce<lb ed="#L" n="152" break="no"/>datur. Et tunc ad minorem dicendum est quod quantum solam 
+      <lb ed="#L" n="153"/>denominationem extrinsecam nullus efficitur de non grato 
+      <lb ed="#L" n="154"/>gratus: quia esse sic gratum est esse a Deo dilectum, &amp; hoc est 
+      <lb ed="#L" n="155"/>aeternum, sed effectus huius dilectionis in via &amp; in patria quam 
+      <lb ed="#L" n="156"/>tum ad dona gratiae &amp; gloriae non est aeternus, imo secundum 
+      <lb ed="#L" n="157"/>ea efficitur homo de non grato gratus &amp; talia ponunt 
+      ali<lb ed="#L" n="158" break="no"/>quem habitum in nobis secundum quem fit in nobis mutatio 
+      <lb ed="#L" n="159"/>dexterae excelsi. 
+      </p>
+            <p xml:id="jsnvu6-d1e983-d1e435">
+               <lb ed="#L" n="160"/>
+               <!--10.--> Ad secundum dicendum quod non est simile de hoc quod est 
+      <lb ed="#L" n="161"/>esse fidelem &amp; de hoc quod est esse gratum vel charum, quia nul 
+      <lb ed="#L" n="162"/>lus dicitur fidelis ex sola denominatione extrinseca, sicut 
+      po<lb ed="#L" n="163" break="no"/>test dici gratus vel charus ex hoc solo quod est ab alio sic dilectus: 
+      <!--00159.xml-->
+      <pb ed="#L" n="47-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Et ideo prima denominatio qua quis dicitur esse fidelis argui 
+      <lb ed="#L" n="2"/>in ipso aliquid formaliter ipsum perficiens siue sit habitus siue 
+      <lb ed="#L" n="3"/>actus, sed denominatio qua qus dicitur Deo gratus vel charus 
+      <lb ed="#L" n="4"/>non requirit necessario aliquid formaliter inhaerens homini 
+      pe<lb ed="#L" n="5" break="no"/>quod dicatur charus vel gratus sed est denominatio extrinseca 
+      <lb ed="#L" n="6"/>ex diuina dilectione consurgens ad quam iuxta diuinum 
+      bene<lb ed="#L" n="7" break="no"/>placitum sequitur in nobis aliquid formaliter nos perficiens. 
+      </p>
+            <p xml:id="jsnvu6-d1e983-d1e470">
+               <lb ed="#L" n="8"/>
+               <!--11--> Ad argumentum in oppositum dicendum est quod quamuis dilectic 
+      <lb ed="#L" n="9"/>Dei non sit in nobis, sed in Deo: tamen ex ea fiunt in nobis 
+      don<lb ed="#L" n="10" break="no"/>gratiae secundum quae dicimur grati formaliter denominationi 
+      <lb ed="#L" n="11"/>intrinseca per modum inhaerentiae. Et ideo licet esse a Deo di 
+      <lb ed="#L" n="12"/>lectum non coexigat necessario gratiam habitualem, ipsa tamern 
+      <lb ed="#L" n="13"/>sequitur ad haec secundum diuinam ordinationem, vt dictum est 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

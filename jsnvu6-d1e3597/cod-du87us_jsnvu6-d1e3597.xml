@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="154-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3597"><!-- l2d28q3 -->
+            <head xml:id="jsnvu6-d1e3597-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e3597-Hd1e103" type="question-title">Utrum sine gratia possit homo vitare quadcunque peccatum mortale</head>
+            <p xml:id="jsnvu6-d1e3597-d1e106">
+               <lb ed="#L" n="39"/>QVARSTIO TERTIA. 
+      <lb ed="#L" n="40"/>Vtrum sine gratia possumus vitare 
+      quod<lb ed="#L" n="41" break="no"/>cunque peccatum mortale. 
+      <lb ed="#L" n="42"/>Thom. l. 2. 4. 109. ar. 8. &amp; 9. 
+    </p>
+            <p xml:id="jsnvu6-d1e3597-d1e117">
+               <lb ed="#L" n="43"/>TERTIO quaeritur, vtrum sine gratia possimu: 
+      <lb ed="#L" n="44"/>vitare quodcunque peccatum mortale. Et 
+      vi<lb ed="#L" n="45" break="no"/>detur quod non, quia a potentia defectuosa non 
+      <lb ed="#L" n="46"/>potest exire nisi defectuosus actus (habens enim 
+      <lb ed="#L" n="47"/>Apedem claudum non potest incedere nisi 
+      clau<lb ed="#L" n="48" break="no"/>dicando) sed voluntas sine gratia est defectuosa, ergo omnis 
+      <lb ed="#L" n="49"/>actus est defectuosus, sed actus defectuosus si sit voluntarius 
+      <lb ed="#L" n="50"/>est peccatum, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3597-d1e137">
+               <lb ed="#L" n="51"/>
+               <!--2--> Item mors a peccato consequuta est, vt dicitur Rom. 5. erge 
+      <lb ed="#L" n="52"/>vbi est necessitas moriendi, ibi est necessitas peccandi, sed in 
+      <lb ed="#L" n="53"/>statu post peccatum est necessitas moriendi, ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e3597-d1e149">
+               <lb ed="#L" n="54"/>CONTRA. Nullus peccat in eo quod vitare non potest 
+      <lb ed="#L" n="55"/>Si ergo existens in peccato non potest peccata vitare, ergo 
+      pe<lb ed="#L" n="56" break="no"/>cando non peccat, quod est impossibile. 
+      </p>
+            <p xml:id="jsnvu6-d1e3597-d1e158">
+               <lb ed="#L" n="57"/>
+               <!--4--> RESPONSIO. De homine possumus loqui 
+      duplici<lb ed="#L" n="58" break="no"/>ter. Vno modo secundum statum naturae integrae, in quo potuit 
+      <lb ed="#L" n="59"/>le carere gratia &amp; culpa. Alio modo secundum statum naturae 
+      corru<lb ed="#L" n="60" break="no"/>. ptae, pro quo necesse est hominem carentem gratia, esse in peccato 
+      <lb ed="#L" n="61"/>mortali. In primo statu potuit homo sine gratia vitare 
+      quod<lb ed="#L" n="62" break="no"/>cunque peccatum mortale. Quod patet, quia omnis natura in 
+      <lb ed="#L" n="63"/>sua integritate potest in actu suo, cuius habet plenum dominium 
+      <lb ed="#L" n="64"/>non exorbitare, sed actus deliberationis in quo solo potest 
+      pec<lb ed="#L" n="65" break="no"/>catum mortale consistere, est plene in dominio hominis: erge 
+      <lb ed="#L" n="66"/>in statu naturae integrae potuit homo circa hunc actum non 
+      ex<lb ed="#L" n="67" break="no"/>orbitare, &amp; ita non peccare mortaliter. 
+</p>
+            <p xml:id="jsnvu6-d1e3597-d1e187">
+               <lb ed="#L" n="68"/>In statu autem naturae corruptae, scilicet post peccatum 
+      <lb ed="#L" n="69"/>primorum parentum, in quo necesse est, vel esse hominem in 
+      <lb ed="#L" n="70"/>gratia vel in peccato mortali distinguendum est, quia 
+      homi<lb ed="#L" n="71" break="no"/>nem existentem sine gratia &amp; in peccato mortali posse vitare 
+      <lb ed="#L" n="72"/>quodcunque mortale potest dupliciter intelligi, vel de 
+      pecca<lb ed="#L" n="73" break="no"/>to commisso satisfaciendo, vel cauendo ab omni peccato 
+      com<lb ed="#L" n="74" break="no"/>mittendo. Primo modo non potest homo sine gratia vitare 
+      <lb ed="#L" n="75"/>peccatum, quia non potest satisfacere de peccato commisso 
+      <lb ed="#L" n="76"/>sine gratia, quia cum peccatum transeat actu, &amp; maneat reatu, 
+      <lb ed="#L" n="77"/>non est idem resurgere a peccato, &amp; cessare ab actu 
+      peccan<lb ed="#L" n="78" break="no"/>di; sed resurgere a peccato, est reparari ad ea quae homo per 
+      <!--00375.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>peccatum amisit, &amp; expediri ab eis quae ex peccato incurrit, 
+      <lb ed="#L" n="80"/>sed homo per peccatum mortale amittit acceptionem 
+      ope<lb ed="#L" n="81" break="no"/>rum suorum a Deo, quae ante peccatum acceptabantur, vt 
+      re<lb ed="#L" n="82" break="no"/>munerabilia vita aeterna ad quae reparari non potest, nisi per 
+      <lb ed="#L" n="83"/>gratiam per quam opera nostra acceptantur tanquam 
+      meri<lb ed="#L" n="84" break="no"/>toria, modo quo dictum fuit supra. Incurrit etiam homo per 
+      <lb ed="#L" n="85"/>peccatum mortale reatum poenae aeternae, a quo cum sit 
+      infi<lb ed="#L" n="86" break="no"/>nitus, nisi per gratiam (hoc est per Dei gratuitam 
+      condona<lb ed="#L" n="87" break="no"/>tionem) absolui non potest, secundum quod Psalm. dicit ex 
+      per<lb ed="#L" n="88" break="no"/>sona peccatoris, non dabit Deo placationem suam &amp; precium 
+      <lb ed="#L" n="89"/>redemptionis animae suae, &amp; laborabit in aeternum, &amp; viuet 
+      ad<lb ed="#L" n="90" break="no"/>huc in finem: propter quod peccatum iam commissum non 
+      <lb ed="#L" n="91"/>potest homo vitare sine gratia: &amp; in hoc concordant omnes 
+      <lb ed="#L" n="92"/>Doctores, licet circa hoc olim errauerit Pelagius aestimans 
+      ho<lb ed="#L" n="93" break="no"/>minem propriis operibus posse sine gratia se a peccatis 
+      commis<lb ed="#L" n="94" break="no"/>sis satisfaciendo absoluere. 
+      </p>
+            <p xml:id="jsnvu6-d1e3597-d1e252">
+               <lb ed="#L" n="95"/>
+               <!--6--> Si autem loquamur de peccato committendo, vtrum sine 
+      <lb ed="#L" n="96"/>gratia possit quodcunque vitari. Distinguendum est, quia homo 
+      <lb ed="#L" n="97"/>sine gratia aut est in peccato secundum actum, puta quia vuli 
+      <lb ed="#L" n="98"/>furari aut adulterari, aut solum secundum reatum, puta quia 
+      <lb ed="#L" n="99"/>peccauit, sed non manet actu in voluntate peccandi, vel forte 
+      <lb ed="#L" n="100"/>non cogitat, aut non recolit. Si primo modo sic dicendum est. 
+      <lb ed="#L" n="101"/>quod homo existens in peccato secundum actum non potest diu 
+      <lb ed="#L" n="102"/>manere, quin cadat in aliud peccatum mortale. Cuius ratio est, 
+      <lb ed="#L" n="103"/>quia sicut se habent principia in speculabilibus, sic fines in 
+      ope<lb ed="#L" n="104" break="no"/>rabilibus vel appetibilibus, vt patet ex 2. Physic. Sed intellectus 
+      <lb ed="#L" n="105"/>assentiens principiis speculabilibus necessario assentit 
+      conclu<lb ed="#L" n="106" break="no"/>sionibus habentibus cum eis claram &amp; necessariam colligantiam: 
+      <lb ed="#L" n="107"/>ergo similiter voluntas assentiens alicui fini, necessario 
+      assenti<lb ed="#L" n="108" break="no"/>his quae habent claram &amp; necessariam colligantiam cum illo 
+      fi<lb ed="#L" n="109" break="no"/>ne. Propter quod ille qui vult adulterari, &amp; in hoc perseuerat. si 
+      <lb ed="#L" n="110"/>non possit ad hoc attingere nisi furando, quod det adulterae 
+      ne<lb ed="#L" n="111" break="no"/>cessario ex velle adulterari incidit in velle furari. Et ita similiter 
+      <lb ed="#L" n="112"/>est in multis aliis peccatis. Et sic loquitur Augustinus libro di 
+      <lb ed="#L" n="113"/>vera religione, quod superbus necesse habet aliis inuidere, quod 
+      <lb ed="#L" n="114"/>non est intelligendum de necessitate absoluta, sed conditionata 
+      <lb ed="#L" n="115"/>quae est ex fine: dum enim superbus fini suo inhaerere vult, 
+      <lb ed="#L" n="116"/>qui est quaerere propriam excellentiam, necesse est vt inuidea 
+      <lb ed="#L" n="117"/>alterius excellentiae, quae proprie excellentiae derogat. Et ita 
+      <lb ed="#L" n="118"/>homo existens in peccato secundum actum, non potest diu 
+      vi<lb ed="#L" n="119" break="no"/>tare quin cadat in aliud peccatum. 
+</p>
+            <p xml:id="jsnvu6-d1e3597-d1e311">
+               <lb ed="#L" n="120"/>Si autem homo sit in peccato solum secundum reatum, sic 
+      <lb ed="#L" n="121"/>dicunt quidam quod antequam hominis ratio in qua est 
+      pecca<lb ed="#L" n="122" break="no"/>tum mortale reparetur per gratiam iustificantem potest singula 
+      <lb ed="#L" n="123"/>peccata mortalia vitare ad aliquod quidem tempus, sed non diu 
+      <lb ed="#L" n="124"/>Quod sic probant, sicut rationi debet subdi inferior appetitus 
+      <lb ed="#L" n="125"/>ita ratio debet subdi deo, &amp; in ipso finem constituere, &amp; sicut per 
+      <lb ed="#L" n="126"/>iudicium rationis debent regulari motus inferioris appetitus, 
+      <lb ed="#L" n="127"/>ita per finem constitutum in deo debent regulari omnes actus 
+      <lb ed="#L" n="128"/>humani, sed in appetitu inferiori non totaliter subiecto rationi 
+      <lb ed="#L" n="129"/>necesse est motus inordinatos contingere, ergo similiter in 
+      ra<lb ed="#L" n="130" break="no"/>tione hominis non existente subiecta deo de necessitate est, vi 
+      <lb ed="#L" n="131"/>contingant multae inordinationes: cum enim homo non habei 
+      <lb ed="#L" n="132"/>cor suum firmatum in deo, vt pro nullo bono consequendo vel 
+      <lb ed="#L" n="133"/>malo vitando, vellet ab eo separari, occurrunt multa propter 
+      <lb ed="#L" n="134"/>quae vitanda, vel consequenda homo recedit a deo, contennende 
+      <lb ed="#L" n="135"/>praecepta ipsius, &amp; peccando mortaliter. Et ideo sicut homo in 
+      <lb ed="#L" n="136"/>gratia constitutus (in quo tamen appetitus inferior non 
+      plen<lb ed="#L" n="137" break="no"/>subditur rationi) potest vitare singula peccata venialia, &amp; etiam 
+      <lb ed="#L" n="138"/>omnia simul per aliquod tempus, sed non diu, sic voluntas 
+      ho<lb ed="#L" n="139" break="no"/>minis sine gratia potest vitare singula peccata mortalia, &amp; 
+      om<lb ed="#L" n="140" break="no"/>nia simul ad tempus, sed non diu. 
+      </p>
+            <p xml:id="jsnvu6-d1e3597-d1e359">
+               <lb ed="#L" n="141"/>
+               <!--8--> Sed istud non videtur valere. Primo, quia secundum omne 
+      <lb ed="#L" n="142"/>in statu naturae integrae homo poterat omne peccatum mortale 
+      <lb ed="#L" n="143"/>vitare. Quae autem pertinent ad naturam, per peccatum non 
+      <lb ed="#L" n="144"/>amittuntur, licet forte habilitas minuatur: &amp; ideo libera 
+      ele<lb ed="#L" n="145" break="no"/>ctio boni, &amp; fuga mali, quae ad naturam liberi arbitrij 
+      perti<lb ed="#L" n="146" break="no"/>nent, nullo modo per peccatum subtrahuntur. Simile etiam 
+      <lb ed="#L" n="147"/>quod adducitur de peccato veniali non valet: est enim duplex 
+      <lb ed="#L" n="148"/>genus peccati venialis, est enim quoddam veniale ex genere, vi 
+      <lb ed="#L" n="149"/>est mendacium iocosum dictum ex deliberatione, vel verbum, 
+      <lb ed="#L" n="150"/>ociosum. Aliud est peccatum veniale propter imperfectionem 
+      <lb ed="#L" n="151"/>actus, sicut sunt subiti motus sensualitatis, respectu eorum qui 
+      <lb ed="#L" n="152"/>ex genere sunt peccata mortalia: licet autem non possimus 
+      vi<lb ed="#L" n="153" break="no"/>tare omnia peccata venialia secundo modo dicta, quia ratio non 
+      <lb ed="#L" n="154"/>potest semper esse peruigil ad reprimendum omnes tales 
+      mo<lb ed="#L" n="155" break="no"/>tus: imo dum vnus reprimitur, alter subito resurgit: 
+      nihilo<lb ed="#L" n="156" break="no"/>minus tamen omnia peccata venialia ex genere quae fiunt ex 
+      <lb ed="#L" n="157"/>deliberatione possumus vitare: &amp; per eandem rationem 
+      omni<lb ed="#L" n="158" break="no"/>mortalia quae non nisi ex deliberatione fiunt; eorum autem 
+      <lb ed="#L" n="159"/>quae sequuntur deliberationem, habemus semper plenum 
+      do<lb ed="#L" n="160" break="no"/>minium, ideo non est simile quod pro simili inducitur, nisi quo 
+      <!--00376.xml-->
+      <pb ed="#L" n="154-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ad hoc quod sicut circa appetitum sensitiuum contingunt multae 
+      <lb ed="#L" n="2"/>inordinationes ineuitabiles, quantum ad primos motus &amp; 
+      subi<lb ed="#L" n="3" break="no"/>tos propter hoc quod non perfecte subiiciuntur rationi, sic circa 
+      <lb ed="#L" n="4"/>rationem respectu eorum quae sunt ad finem contingunt multae 
+      <lb ed="#L" n="5"/>inordinationes subitae &amp; ineuitabiles propter hoc quod motus 
+      <lb ed="#L" n="6"/>voluntatis in ea quae sunt ad finem non plenae subditur delibera 
+      <lb ed="#L" n="7"/>tioni rationis quae est ex fine, sed in talibus deordinationibus no 
+      <lb ed="#L" n="8"/>potest esse peccatum mortale, &amp; ideo non est ad propositum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3597-d1e432">
+               <lb ed="#L" n="9"/>
+               <!--9--> Dicunt ergo alij quod sine gratia homo potest vitare omnia 
+      <lb ed="#L" n="10"/>peccata mortalia licet sit valde difficile, cuius ratio est quia si ho 
+      <lb ed="#L" n="11"/>mo sine gratia non posset vitare, omne peccatum mortale hoc 
+      <lb ed="#L" n="12"/>esset vel propter carentiam gratiae, vel propter inclinationem 
+      de<lb ed="#L" n="13" break="no"/>relictam ex peccato praecedente, non propter carentiam gratiae, 
+      <lb ed="#L" n="14"/>tum quia in statu naturae integrae hoc poterat sine gratia vt di 
+      <lb ed="#L" n="15"/>ctum est, tum quia non plus tollit priuatio quam ponit habitus, 
+      <lb ed="#L" n="16"/>sed per gratiam non ponitur in anima nisi efficacia ad 
+      meren<lb ed="#L" n="17" break="no"/>dum, supponit autem libertatem in voluntate ad bonum ve 
+      <lb ed="#L" n="18"/>malum eligendum vel fugiendum, ergo per carentiam gratia 
+      <lb ed="#L" n="19"/>haec libertas totaliter relinquitur sed efficacia merendi tollitur 
+      <lb ed="#L" n="20"/>nec etiam propter inclinationem derelictam ex peccato 
+      praece<lb ed="#L" n="21" break="no"/>dente, quia inclinatio derelicta ex bono actu non necessitat 
+      vo<lb ed="#L" n="22" break="no"/>luntatem quin libere possit a bono deuiare, ergo neque inclinatio 
+      <lb ed="#L" n="23"/>derelicta ex malo actu necessitat eam quin libere possit malun 
+      <lb ed="#L" n="24"/>vitare. Item dispositio derelicta ex aliquo actu solum inclina 
+      <lb ed="#L" n="25"/>per se ad similem actum, &amp; ita peccans semper necessitaretur 
+      <lb ed="#L" n="26"/>ad postea committendum simile peccatum, quod non videmus. 
+      </p>
+            <p xml:id="jsnvu6-d1e3597-d1e476">
+               <lb ed="#L" n="27"/>
+               <!--10.--> Nunc videndum est quid veritatis habeat vtraque 
+      praece<lb ed="#L" n="28" break="no"/>dentium opinionum. Et ad hoc videndum distinguendum est 
+      di<lb ed="#L" n="29" break="no"/>peccatis mortalibus, quia quaedam sunt contra praecepta iuris na 
+      <lb ed="#L" n="30"/>turalis, quaedam vero sunt contra praecepta iuris diuini &amp; 
+      super<lb ed="#L" n="31" break="no"/>naturalis. Dicendum ergo quod peccata quae sunt contra praece 
+      <lb ed="#L" n="32"/>pta iuris naturalis tantum possunt vitari ab homine existente in 
+      <lb ed="#L" n="33"/>peccato praedicto modo scilicet secundum solum reatum, sed noi 
+      <lb ed="#L" n="34"/>illa quae sunt contra praecepta iuris supernaturalis. Primum 
+      pa<lb ed="#L" n="35" break="no"/>tet vt prius, quia si talia peccata non possent vitari, sine gratia 
+      <lb ed="#L" n="36"/>hoc esset vel propter defectum gratiae, vel ratione peccati prae 
+      <lb ed="#L" n="37"/>cedentis. Non propter primum, quia talis defectus fuisset in 
+      sta<lb ed="#L" n="38" break="no"/>tu innocentiae si homo fuisset creatus sine gratia in quo omnia 
+      <lb ed="#L" n="39"/>peccata talia poterant vitari &amp; faciliter, nec ratione peccati prae 
+      <lb ed="#L" n="40"/>cedentis: quia voluntas ex vno non necessitatur ad volendum 
+      <lb ed="#L" n="41"/>aliud nisi ponat actum suum ad vtrumque aliqualiter eligendo 
+      <lb ed="#L" n="42"/>vel refutando, sicut intellectus non necessitatur ad assentiendunm 
+      <lb ed="#L" n="43"/>vni propter alterum nisi ponat actum suum circa vtrumque 
+      affir<lb ed="#L" n="44" break="no"/>mando vel negando, sed voluntas hominis existentis in peccate 
+      <lb ed="#L" n="45"/>solum secundum reatum nullum actum habet circa illud 
+      pecca<lb ed="#L" n="46" break="no"/>tum, quia si aliquem actum volendi haberet circa illud compla 
+      <lb ed="#L" n="47"/>cendo sibi in peccatum commissum iam esset in peccato 
+      se<lb ed="#L" n="48" break="no"/>cundum actum &amp; non solum secundum reatum; ergo ex solo 
+      <lb ed="#L" n="49"/>reatu vnius peccati nullus necessitatur ad aliud committendum, 
+      <lb ed="#L" n="50"/>quare &amp;c. Item bonitas moralis non slat cum peccato quod est 
+      <lb ed="#L" n="51"/>contra dictamen iuris naturalis, sed homo sine gratia potest in 
+      <lb ed="#L" n="52"/>omne opus bonum bonitate morali quae est ex obiecto, fine, 8 
+      <lb ed="#L" n="53"/>circunstantiis vt dictum fuit in praecedente quaestione ergo 
+      qui<lb ed="#L" n="54" break="no"/>libet potest sine gratia vitare quodcunque peccatum quod est 
+      <lb ed="#L" n="55"/>contra dictamen solius iuris naturalis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3597-d1e544">
+               <lb ed="#L" n="56"/>
+               <!--11--> Secundum patet quod scilicet sine gratia non potest homo 
+      <lb ed="#L" n="57"/>vitare omnia peccata quae sunt contra praecepta 
+      supernatura<lb ed="#L" n="58" break="no"/>lis, vt sunt praecepta de suscipiendis sacramentis ecclesiae, puta 
+      <lb ed="#L" n="59"/>eucharistiae, &amp;c. quia ad talia suscipienda tenetur homo in statu 
+      <lb ed="#L" n="60"/>viae nisi casus necessitatis excludat. Excluso ergo casu 
+      necessi<lb ed="#L" n="61" break="no"/>tatis &amp; habita copia conferentis aut suscipiuntur, aut non, si 
+      <lb ed="#L" n="62"/>non committitur peccatum nouum ex contemptu 
+      sacramen<lb ed="#L" n="63" break="no"/>torum, si suscipiuntur, iterum committitur peccatum si 
+      susci<lb ed="#L" n="64" break="no"/>piens non sit in gratia, quia ad susceptionem eorum requiritu 
+      <lb ed="#L" n="65"/>gratia, ergo talia peccata non possunt vitari ab eo qui manet in 
+      <lb ed="#L" n="66"/>peccato secundum reatum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3597-d1e573">
+               <lb ed="#L" n="67"/>
+               <!--12--> Et si dicatur quod imo, quia suscipiens talia sacramenta 
+      for<lb ed="#L" n="68" break="no"/>te non recolit de peccato, &amp; ita non debet sibi imputari ad 
+      cul<lb ed="#L" n="69" break="no"/>pam quia in tali peccato suscipit eucharistiam. Non valet quia 
+      <lb ed="#L" n="70"/>quod iste non recolat de peccato commisso, aut hoc est quia 
+      <lb ed="#L" n="71"/>conscientiam suam diligenter non discussit, aut dato quod 
+      di<lb ed="#L" n="72" break="no"/>scussit non tamen in notitiam eius deuenit, si primo modo sic 
+      <lb ed="#L" n="73"/>non excusatur a peccato quia voluntas omissio circunstantiae 
+      <lb ed="#L" n="74"/>quae requiritur ad actum non excusat. Sed discussio 
+      conscienti<lb ed="#L" n="75" break="no"/>in suscipiente sacramentum eucharistiae est circunstantia quae ad 
+      <lb ed="#L" n="76"/>hoc factum requiritur iuxta illud quod dicit Apostol. primo 
+      <lb ed="#L" n="77"/>Corinth. vndecimo, Probet autem seipsum homo &amp;c. ergo eius 
+      <lb ed="#L" n="78"/>omissio non excusat quin peccet sicut recipiens in mortali. Sed 
+      <lb ed="#L" n="79"/>secundo modo scilicet si conscientiam suam sufficienter discul 
+      <lb ed="#L" n="80"/>sit, &amp; nihilominus in notitiam peccati non deuenit, remittitu 
+      <lb ed="#L" n="81"/>ei ex generali contritione sine qua non est sufficiens discussio 
+      <lb ed="#L" n="82"/>conscientiae, &amp; sic iam non est in peccato, propter, quod non 
+      <!--00376.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>habet iam locum quaestio in hoc casu. Patet ergo quod 
+      existen<lb ed="#L" n="84" break="no"/>in peccato mortali quo ad solum reatum potest vitare (
+      quocun<lb ed="#L" n="85" break="no"/>que casu consequente) omne peccatum quod est contra 
+      prae<lb ed="#L" n="86" break="no"/>ceptum iuris diuini. 
+      </p>
+            <p xml:id="jsnvu6-d1e3597-d1e625">
+               <lb ed="#L" n="87"/>
+               <!--13--> Ad primum argumentum dicendum quod a potentia 
+      in<lb ed="#L" n="88" break="no"/>quantum defectuosa non egreditur nisi actus defectuosus, &amp; 
+      <lb ed="#L" n="89"/>ideo a voluntate adhaerente malo fini, &amp; ex illo aliquid aliud 
+      eli<lb ed="#L" n="90" break="no"/>ciente non potest egredi nisi actus malus. Et sic dicendum quod 
+      <lb ed="#L" n="91"/>voluntas perseuerans in peccato secundum actum non potes 
+      <lb ed="#L" n="92"/>diu viuere, quin cadat in aliud peccatum, tamen nihil prohibe 
+      <lb ed="#L" n="93"/>voluntatem quae est in peccato solum secundum reatum elige. 
+      <lb ed="#L" n="94"/>re opus bonum, &amp; vitare quodcunque malum committendum 
+      <lb ed="#L" n="95"/>quia hoc non procedit ab ipsa inquantum defectuosa, sed in 
+      <lb ed="#L" n="96"/>quantum innititur rauoni, cuius rectitudinem reatus peccati 
+      <lb ed="#L" n="97"/>non tollit. 
+</p>
+            <p xml:id="jsnvu6-d1e3597-d1e654">
+               <lb ed="#L" n="98"/>
+               <!--14--> Ad secundum dicendum quod aeque necessarium est 
+      exi<lb ed="#L" n="99" break="no"/>stentem in gratia mori, sicut existentem in peccato: vnde 
+      neces<lb ed="#L" n="100" break="no"/>sitas moriendi ex peccato originali consequuta est quod omnes 
+      <lb ed="#L" n="101"/>contrahunt, &amp; non ex peccato actuali quod committunt. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="34-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e647"><!-- l1d9q2 -->
+            <head xml:id="jsnvu6-d1e647-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e647-Hd1e103" type="question-title">Utrum Pater sit prior a Filio</head>
+            <p xml:id="jsnvu6-d1e647-d1e106">
+               <lb ed="#L" n="37"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="38"/>Vtrum pater sit prior filio. 
+      <lb ed="#L" n="39"/>Tho. i. p. 9. 40. art. 4. 
+    </p>
+            <p xml:id="jsnvu6-d1e647-d1e115">
+               <lb ed="#L" n="40"/>SECVNDO quaeritur vtrum pater sit prior filio 
+      <lb ed="#L" n="41"/>Et videtur quod sic: quia sicut se habet corruptio 
+      <lb ed="#L" n="42"/>ad non esse, ita generatio ad esse, sed omne 
+      corru<lb ed="#L" n="43" break="no"/>ptum desinit esse: ergo omne genitum incipit 
+      es<lb ed="#L" n="44" break="no"/>se, sed filius est genitus, ergo incipit esse &amp; ita 
+      <lb ed="#L" n="45"/>non est patri coaeternus. 
+      </p>
+            <p xml:id="jsnvu6-d1e647-d1e131">
+               <lb ed="#L" n="46"/>
+               <!--2--> Item in diuinis esse &amp; duratio sunt idem: sed filius habe 
+      <lb ed="#L" n="47"/>principium sui esse cum sit ab alio, ergo habet principium sua 
+      <lb ed="#L" n="48"/>durationis, sed nihil tale est aeternum: ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e647-d1e143">
+               <lb ed="#L" n="49"/>
+               <!--3--> Item prius est aliud a quo non conuertitur consequentia, sed 
+      <lb ed="#L" n="50"/>sequitur, filius est, ergo Deus est &amp; non econuerso: ergo Deus 
+      <lb ed="#L" n="51"/>est prior filio, sed non nisi pro supposito patris: ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e647-d1e154">
+               <lb ed="#L" n="52"/>
+               <!--4--> Contra in symbolo Athanasij dicitur quod in hac trinitate 
+<lb ed="#L" n="53"/>8. nihil est prius aut posterius. 
+      </p>
+            <p xml:id="jsnvu6-d1e647-d1e163">
+               <lb ed="#L" n="54"/>
+               <!--5--> RESPONSIO. Dicendum est quod impossibile est 
+      pa<lb ed="#L" n="55" break="no"/>trem esse priorem filio aliquo modo prioritatis: quod patet 
+      sic<lb ed="#L" n="56" break="no"/>In diuinis non sunt nisi duo concurrentia ad constitutionem 
+      sup<lb ed="#L" n="57" break="no"/>positorum, scilicet essentia &amp; relatio: ergo si pater esset filic 
+      <lb ed="#L" n="58"/>prior, hoc esset vel relatione essentiae vel ratione relationis, non 
+      <lb ed="#L" n="59"/>ratione essentiae, quia est penitus vna &amp; eadem in patre &amp; filio. 
+      <lb ed="#L" n="60"/>Prius autem &amp; posterius de necessitate respiciunt diuersa, secum 
+      <lb ed="#L" n="61"/>dum rem si sit ibi prius &amp; posterius secundum rem. 
+      Consideran<lb ed="#L" n="62" break="no"/>do ergo praecise diuinam essentiam secundum se cum sit vna re 
+      <lb ed="#L" n="63"/>&amp; ratione: vt probatum est supra in quaestione de attributis 
+      se<lb ed="#L" n="64" break="no"/>cundum illam nihil potest dici prius aut posterius in diuinis. 
+      <lb ed="#L" n="65"/>Item ratione relationis non potest esse pater prior filio, nec per 
+      <lb ed="#L" n="66"/>consequens ratione essentiae vt est sub tali relatione vel tali per 
+      <lb ed="#L" n="67"/>sona, quia quicquid sit de relationibus disparatis de quibus in 
+      <lb ed="#L" n="68"/>ferius inquiretur, tamen constat quod relationes oppositae 
+      si<lb ed="#L" n="69" break="no"/>mul sunt natura &amp; intellectu, paternitas autem &amp; filiatio 
+      qui<lb ed="#L" n="70" break="no"/>bus solum pater &amp; filius distinguntur sunt relationes oppositae 
+      <lb ed="#L" n="71"/>ergo secundum eas pater &amp; filius sunt simul: nec vnus prior est 
+      <lb ed="#L" n="72"/>alio, nec secundum rem, nec secundum intellectum. 
+      </p>
+            <p xml:id="jsnvu6-d1e647-d1e209">
+               <lb ed="#L" n="73"/>
+               <!--6.--> Quidam tamen distingunt de relatione quod potest 
+      consi<lb ed="#L" n="74" break="no"/>derari vel vt relatio, vel vt proprietas constitutiua. Si vt relatio 
+      <lb ed="#L" n="75"/>c est verum quod nunc dictum est. Si autem vt proprietas 
+      <lb ed="#L" n="76"/>comitutiua sic paternitas est prior filiatione, &amp; pater filio, nam 
+      <lb ed="#L" n="77"/>proprietas constitutiua personae producentis praeintelligitu 
+      <lb ed="#L" n="78"/>personae productae &amp; proprietati ipsam constituenti. Ratio 
+      au<lb ed="#L" n="79" break="no"/>tem huius est, quia qualem ordinem realem habent inter se 
+      a<lb ed="#L" n="80" break="no"/>liqua quando differunt re, similem ordinem habent rationis 
+      <lb ed="#L" n="81"/>quando differunt sola ratione: sicut enim intellectus &amp; volun¬ 
+      <!--00134.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>tas in nobis in quibus realiter differunt, habent realem 
+      ordi<lb ed="#L" n="83" break="no"/>nem, quia intellectus naturaliter praecedit voluntatem &amp; 
+      in<lb ed="#L" n="84" break="no"/>telligere ipsum velle, sic in Deo in quo non differunt nisi 
+      ra<lb ed="#L" n="85" break="no"/>tione intellectus &amp; actus eius secundum rationem praecedunt 
+      <lb ed="#L" n="86"/>voluntatem &amp; actum eius. Nunc est ita quod vbi est proprieta, 
+      <lb ed="#L" n="87"/>constitutiua suppositi differens realiter ab actione &amp; 
+      relatio<lb ed="#L" n="88" break="no"/>ne, talis est ordo inter ista quod proprietas constitutiua 
+      suppo<lb ed="#L" n="89" break="no"/>siti praecedit realiter saltem ordine naturae, actionem &amp; 
+      rela<lb ed="#L" n="90" break="no"/>tionem, ergo in Deo patre in quo illa non differunt nisi 
+      secun<lb ed="#L" n="91" break="no"/>dum rationem proprietas constitutiua praecedit secundum 
+      ra<lb ed="#L" n="92" break="no"/>tionem generationem &amp; relationem. Cum ergo pater simul sit 
+      <lb ed="#L" n="93"/>cum filio ratione paternitatis vt est relatio, &amp; rationem 
+      rela<lb ed="#L" n="94" break="no"/>tionis praecedit ratio paternitatis constituentis, sequitur vt 
+      vi<lb ed="#L" n="95" break="no"/>detur, quod si paternitas consideretur vt proprietas 
+      constituti<lb ed="#L" n="96" break="no"/>ua, quod paternitas prior est filiatione, &amp; pater filio secundum 
+      <lb ed="#L" n="97"/>rationem talis considerationis. 
+      </p>
+            <p xml:id="jsnvu6-d1e647-d1e272">
+               <lb ed="#L" n="98"/>
+               <!--7--> Haec autem distinctio non videtur habere locum in 
+      propo<lb ed="#L" n="99" break="no"/>sito, quia si illud quod constituit personam patris aut filij con 
+      <lb ed="#L" n="100"/>sideretur vt proprietas constitutiua &amp; non vt relatio non potes 
+      <lb ed="#L" n="101"/>esse nisi duobus modis. Vno modo sicut consideratur absolutum 
+      <lb ed="#L" n="102"/>sine relatione, quod in proposito esse non potest, quia tunc 
+      in<lb ed="#L" n="103" break="no"/>telligeretur suppositum diuinum constitutum per absolutum, 
+      <lb ed="#L" n="104"/>&amp; talis intellectus esset falsus. Alio modo sicut consideratur con 
+      <lb ed="#L" n="105"/>mune absque minus communi vt animal absque rationali vel 
+      <lb ed="#L" n="106"/>irrationali. Et hoc modo cum proprietas constitutiua sit in 
+      plu<lb ed="#L" n="107" break="no"/>res quam relatio constituens, quaedam enim supposita 
+      consti<lb ed="#L" n="108" break="no"/>tuuntur relationibus, vt in diuinis, quaedam per absoluta, vt in 
+      <lb ed="#L" n="109"/>creaturis, proprietas constitutiua potest intelligi absque 
+      intel<lb ed="#L" n="110" break="no"/>lectu relationis &amp; absque intellectu formae absolutae, sed istud 
+      <lb ed="#L" n="111"/>non habet locum in proposito. Primo, quia licet commune 
+      sum<lb ed="#L" n="112" break="no"/>ptum sub nomine &amp; ratione communi possit intelligi non 
+      in<lb ed="#L" n="113" break="no"/>tellecta ratione particulari sub ipso contenta, vt anima sine 
+      ho<lb ed="#L" n="114" break="no"/>mine vel asino particulari, tamen sub hoc proprio nomine &amp; 
+      <lb ed="#L" n="115"/>propria ratione acceptum &amp; retentum non potest intelligi sine 
+      <lb ed="#L" n="116"/>communi quod inest ei per se primo modo, sicut homo non 
+      po<lb ed="#L" n="117" break="no"/>test intelligi sine animali, &amp; secundum hoc possumus 
+      intellige<lb ed="#L" n="118" break="no"/>re quod sit aliqua proprietas constituens suppositum non 
+      in<lb ed="#L" n="119" break="no"/>tellecto quod illa proprietas sit absoluta vel relatiua, sed hoc 
+      <lb ed="#L" n="120"/>non quaerimus. Non enim quaerimus vtrum possimus 
+      intelli<lb ed="#L" n="121" break="no"/>gere in generali suppositum diuinum constitutiuum in esse 
+      sup<lb ed="#L" n="122" break="no"/>positi, non intelligendo quod sit constitutum per relationem. 
+      <lb ed="#L" n="123"/>Sed quaerimus in speciali, vtrum paternitas quae est 
+      constitu<lb ed="#L" n="124" break="no"/>tiua patris possit intelligi vt constitutiua patris absque hoc, vel 
+      <lb ed="#L" n="125"/>priusquam intelligatur vt relatio, qua refertur pater ad filium 
+      <lb ed="#L" n="126"/>vt sic pater possit intelligi prior filio &amp; constat quod non, imo 
+      <lb ed="#L" n="127"/>econuerso paternitas potest intelligi vt relatio non 
+      intelli<lb ed="#L" n="128" break="no"/>gendo quod sit constitutiua. Cuius ratio est, quia nihil potest 
+      <lb ed="#L" n="129"/>intelligi sine eo quod est de ratione sua iudicante quid est &amp; 
+      <lb ed="#L" n="130"/>quod conuenit ei in primo modo dicendi per se. Talia autem sunt 
+      <lb ed="#L" n="131"/>de intellectu rei: sed de ratione paternitatis est relatio &amp; inest 
+      <lb ed="#L" n="132"/>ei in primo modo dicendi per se. Esse autem constitutiuum sup. 
+      <lb ed="#L" n="133"/>positi non est de ratione paternitatis, nec aliquo modo 
+      conue<lb ed="#L" n="134" break="no"/>nit ei per se quia non conuenit omni, ergo impossibile est 
+      in<lb ed="#L" n="135" break="no"/>telligere paternitatem in aliquo nisi intelligendo rationem 
+      re<lb ed="#L" n="136" break="no"/>lationis, sed bene possumus intelligere paternitatem in aliquo 
+      <lb ed="#L" n="137"/>non intelligendo rationem constitutiuam, sicut bene possumus: 
+      <lb ed="#L" n="138"/>intelligere paternitatem in aliquo non intelligendo quod 
+      con<lb ed="#L" n="139" break="no"/>stituit suppositum totum, eroo contrarnum accidit ei quod isti 
+      <lb ed="#L" n="140"/>dicunt quod nunquam potest intelligi paternitas, in aliquo v 
+      <lb ed="#L" n="141"/>constituens &amp; non vt referens, vel prius constituens postea v 
+      <lb ed="#L" n="142"/>referens, cum relatio sit de primario intellectu paternitatis, sed 
+      <lb ed="#L" n="143"/>bene potest intelligi vt referens &amp; non vt constituens, &amp; sic 
+      nul<lb ed="#L" n="144" break="no"/>lo modo praeintelligitur pater filio vtroque accepto, sub 
+      pro<lb ed="#L" n="145" break="no"/>prio nomine &amp; propria ratione sicut quaestio intelligitur. 
+      </p>
+            <p xml:id="jsnvu6-d1e647-d1e381">
+               <lb ed="#L" n="146"/>
+               <!--8--> Item non solum in speciali considerando patrem &amp; pater. 
+      <lb ed="#L" n="147"/>nitatem, sed nec in generali, potest in diuinis producens 
+      intel<lb ed="#L" n="148" break="no"/>ligi esse prius producto quocunque modo non solum secundum 
+      <lb ed="#L" n="149"/>rem, sed nec secundum rationem: Quod patet sic, quia si in diui 
+      <lb ed="#L" n="150"/>nis possit producens praeintelligi producto, aut proprietas 
+      pro<lb ed="#L" n="151" break="no"/>ducentis proprietati producti, hoc esset inquantum hoc esset 
+      <lb ed="#L" n="152"/>producens &amp; illud productum, aut alio modo: non inquantum 
+      <lb ed="#L" n="153"/>hoc est producens &amp; illud productum, quia rationes producen 
+      <lb ed="#L" n="154"/>tis &amp; producti sunt correlatiuae quae simul sunt secundum 
+      in<lb ed="#L" n="155" break="no"/>tellectum. Nec alio modo vtpote inquantum constitutum 
+      in<lb ed="#L" n="156" break="no"/>esse suppositi, quia si suppositum producens non inquantum 
+      <lb ed="#L" n="157"/>producens, sed inquantum constitutum inesse suppositi 
+      praein<lb ed="#L" n="158" break="no"/>telligitur producto, sequitur quod intelligatur constitutum 
+      <lb ed="#L" n="159"/>antequam producens, quare &amp; per aliud quam per relationem 
+      <lb ed="#L" n="160"/>producentis: sed iste intellectus est falsus, quia sequeretur quod 
+      <lb ed="#L" n="161"/>intelligeretur constitutum per aliquid absolutum; quod patet, 
+      <lb ed="#L" n="162"/>quia licet aliquid possit intelligi sub ratione communi non 
+      in<lb ed="#L" n="163" break="no"/>tellecta ratione propria sub communi contenta (sicut aliquid 
+      <!--00135.xml-->
+      <pb ed="#L" n="35-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>potest intelligi sub rationem animalis non intellecto rationali ve 
+      <lb ed="#L" n="2"/>arrationali) tamen ex quo sub communi vnum diuidentium 
+      <lb ed="#L" n="3"/>excluditur, alterum ex necessitare concluditur. Verbi gratia si di 
+      <lb ed="#L" n="4"/>icatur sic. Istud est animal &amp; non irrationale, sequitur quod est 
+      ra<lb ed="#L" n="5" break="no"/>tionale. Cum ergo constitui sit in plus quam constitui per 
+      ab<lb ed="#L" n="6" break="no"/>solutum vel per relationem; ideo aliquid potest intelligi 
+      con<lb ed="#L" n="7" break="no"/>stitutum non intellecto quod sit constitutum determinate per 
+      ab<lb ed="#L" n="8" break="no"/>solutum, vel determinate per relationem: tamen ex quo 
+      intel<lb ed="#L" n="9" break="no"/>ligitur constitutum &amp; non per relationem necessarium est quod 
+      <lb ed="#L" n="10"/>intelligatur constitutum per absolutum, &amp; ita suppositum 
+      <lb ed="#L" n="11"/>diuinum si intelligatur constitutum non per relationem, sed 
+      <lb ed="#L" n="12"/>prius constitutum, &amp; postea relatum, sequitur exnecessitate( 
+      <lb ed="#L" n="13"/>intelligatur constitutum per absolutum, qui intellectus est 
+      fal<lb ed="#L" n="14" break="no"/>sus. Et probatur consequentia, quia ex quo intelligitur 
+      consti<lb ed="#L" n="15" break="no"/>tutum per aliquid, oportet quod intelligatur constitutum per 
+      re<lb ed="#L" n="16" break="no"/>lationem, vel per absolutum vel per indifferens, quia praete 
+      <lb ed="#L" n="17"/>ratione istas nulla alia est: Sed non intelligitur constitutum pe 
+      <lb ed="#L" n="18"/>rationem relationis, quia illa excluditur: nec per rationem 
+      in<lb ed="#L" n="19" break="no"/>differentem, quia ratio relatiua non excluderetur: ergo 
+      intel<lb ed="#L" n="20" break="no"/>ligitur constitutum per rationem absolutam. 
+</p>
+            <p xml:id="jsnvu6-d1e647-d1e476">
+               <lb ed="#L" n="21"/>Ad rationem adductam contra hoc dicendum qud qualem 
+      <lb ed="#L" n="22"/>ordinem realem habent aliqua inter se vbi differunt realiter, ta 
+      <lb ed="#L" n="23"/>lem ordinem rationis habent vbi differunt secundum rationem 
+      <lb ed="#L" n="24"/>quando hinc inde sibi inuicem correspondent 
+      proportionabi<lb ed="#L" n="25" break="no"/>liter secundum suas rationes specificas (sicut intellectus &amp; ve 
+      <lb ed="#L" n="26"/>luntas in Deo &amp; in nobis) &amp; sic si paternitas in creaturis esse 
+      <lb ed="#L" n="27"/>proprietas constituens suppositum &amp; esset prior realiter 
+      ge<lb ed="#L" n="28" break="no"/>neratione, &amp; relatione generantis ad gonitum, sequeretur. 
+      <lb ed="#L" n="29"/>in diuinis paternitas vt constituens esset prior secundum 
+      ratio<lb ed="#L" n="30" break="no"/>mem quam generare, &amp; quam relatio generantis ad genitum: sed 
+      <lb ed="#L" n="31"/>neutrum est verum, quia in creaturis, nec paternitas constitui 
+      <lb ed="#L" n="32"/>suppositum, nec praecedit realiter generationem, nec 
+      felatio<lb ed="#L" n="33" break="no"/>nem generantis ad genitum. verum est quod proprietas 
+      absolut<lb ed="#L" n="34" break="no"/>constituens suppositum um creaturis praecedit secundum rem 
+      <lb ed="#L" n="35"/>renerationem, &amp; relationem: sed tali proprietati nihil correspon 
+      <lb ed="#L" n="36"/>det proportionabiliter in diuinis; nec paternitas, nec aliquid 
+      <lb ed="#L" n="37"/>aliud. Et ideo nullum simile est hinc inde. 
+      <lb ed="#L" n="38"/>t0. Vel dicendum clarius, quamuis redeat in idem, quod 
+      or<lb ed="#L" n="39" break="no"/>do prioris &amp; posterioris tam secundum rem quam secundum ratio 
+      <lb ed="#L" n="40"/>nem solum est inter disparata, quorum vnum non est de 
+      ratio<lb ed="#L" n="41" break="no"/>ne alterius, &amp; in illis maior propositio habet veritatem: sed per 
+      <lb ed="#L" n="42"/>ternitas &amp; relatio noun sic se habent, nec in diuinis nec in crea 
+      <lb ed="#L" n="43"/>turis: quia in ratione paternitatis includitur relatio per se. E 
+      <lb ed="#L" n="44"/>ideo paternitas nullo modo potest esse prior relatione neque se 
+      <lb ed="#L" n="45"/>cundum rem neque secundum rationem: nec in Deo, nec in creaturis. 
+      </p>
+            <p xml:id="jsnvu6-d1e647-d1e533">
+               <lb ed="#L" n="46"/>
+               <!--11--> Ad primum argumentum in oppositum dicendum quod 
+      <lb ed="#L" n="47"/>sicut se habet corruptum ad desitionem essendi, sic genitum 
+      <lb ed="#L" n="48"/>ad acceptionem essendi: non autem ad inceptionem. 
+      Gene<lb ed="#L" n="49" break="no"/>ratio enim de re sua non includit nisi acceptionem esse &amp; 
+      na<lb ed="#L" n="50" break="no"/>turae ab alio modo naturae; vt dictum fuit suprâ dist. 4. quod 
+      <lb ed="#L" n="51"/>autem sit ibi inceptio essendi hoc conuenit generationi 
+      qua<lb ed="#L" n="52" break="no"/>tenus est mutatio cuius subiectum prius est sub priuatione quam 
+      <lb ed="#L" n="53"/>sub forma. Nihil autem tale est in generatione diuina, &amp; ideo 
+      <lb ed="#L" n="54"/>genitum accipit quidem esse: sed non incipit. 
+      </p>
+            <p xml:id="jsnvu6-d1e647-d1e557">
+               <lb ed="#L" n="55"/>
+               <!--12--> Ad secundum dicendum, quod sicut filius habet principium 
+      <lb ed="#L" n="56"/>sui esse, ita suae durationis: filius autem habet principium sui esse 
+      <lb ed="#L" n="57"/>quia habet principium a quo est, sed non habet principium quod sit 
+      <lb ed="#L" n="58"/>prius in essendo: similiter filius habet principium a quo habet 
+      <lb ed="#L" n="59"/>suam durationem, sed non habet principiumque sit prius duratione. 
+      <lb ed="#L" n="60"/>Ad tertium dicendum, quod per eandem rationem 
+      probare<lb ed="#L" n="61" break="no"/>tur quod filius vel spiritus sanctus esset prior patre: vt paret 
+      pe<lb ed="#L" n="62" break="no"/>similem deductionem, dicendum ergo quod ex his quae conueniun 
+      <lb ed="#L" n="63"/>superiori ratione communis conceptus non licet inferre aliquod 
+      <lb ed="#L" n="64"/>inferius. Sicut non sequitur, homo est species, ergo sortes vel 
+      <lb ed="#L" n="65"/>Plato est species. Prioritas autem secundum non 
+      conuerten<lb ed="#L" n="66" break="no"/>di consequentiam conuenit sirperiori, ratione communioris cor 
+      <lb ed="#L" n="67"/>ceptus. Et ideo non licet inferre aliquid inferiorum, sicut nor 
+      <lb ed="#L" n="68"/>sequitur, animal est prius homine, ergo asinus vel equus vel al 
+      <lb ed="#L" n="69"/>quid tale animal est prius homine. Et similiter non sequitur 
+      <lb ed="#L" n="70"/>Deus est prior filio secundum non conuertendi consequentiam: 
+      <lb ed="#L" n="71"/>ergo pater vel spiritus fanctus est prior filio. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

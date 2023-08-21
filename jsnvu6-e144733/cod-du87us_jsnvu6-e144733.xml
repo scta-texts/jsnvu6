@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="175-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e144733"><!-- l2d42q7 -->
+            <head xml:id="jsnvu6-e144733-Hd1e101">Quaestio 7</head>
+            <head xml:id="jsnvu6-e144733-Hd1e103" type="question-title">
+      Utrum peccatum veniale et mortale 
+      distinguantur per poenas eis debitas
+    </head>
+            <p xml:id="jsnvu6-e144733-d1e106">
+               <lb ed="#L" n="23"/>QUAESTIO SEPTIMA. 
+      <lb ed="#L" n="24"/>Vtrum peccatum veniale &amp; mortale 
+      distin<lb ed="#L" n="25" break="no"/>guantur per poenas eis debitas. 
+      <lb ed="#L" n="26"/>Thom. 12. q. 88. ar. 2. 
+    </p>
+            <p xml:id="jsnvu6-e144733-d1e117">
+               <lb ed="#L" n="27"/>QVINTO quaeritur, vtrum peccatum mortale 
+      <lb ed="#L" n="28"/>&amp; veniale differant per poenas eis debitas, 
+      vide<lb ed="#L" n="29" break="no"/>licet quod peccato mortali debeatur poena aeterna, 
+      <lb ed="#L" n="30"/>&amp; veniali poena temporalis. Et arguitur quod non, 
+      <lb ed="#L" n="31"/>Q quia inter omnia peccata peccatum originale 
+      <lb ed="#L" n="32"/>habet minimum de ratione peccati, sed originali debetur 
+      poe<lb ed="#L" n="33" break="no"/>na aeterna, ergo multo fortius omni peccato. 
+      </p>
+            <p xml:id="jsnvu6-e144733-d1e135">
+               <lb ed="#L" n="34"/>
+               <!--2--> Secundo poena mensuratur secundum quantitatem offensae, 
+      <lb ed="#L" n="35"/>sed omni peccato est offensa infinita, ergo omni peccato debe 
+      <lb ed="#L" n="36"/>tur poena infinita. Maior patet: minor probatur, quia offens: 
+      <lb ed="#L" n="37"/>mensuratur secundum dignitatem eius qui offenditur, sed per 
+      <lb ed="#L" n="38"/>omne peccatum Deus qui est infinitae dignitatis offenditur, quod pa 
+      <lb ed="#L" n="39"/>tetur ex eo quod ipse punit omne peccatum, punitio autem effectus 
+      <lb ed="#L" n="40"/>est offensam manifestans, ergo in omni peccato est offensa 
+      infi<lb ed="#L" n="41" break="no"/>nita, &amp; ei debetur poena infinita, &amp; ita peccatum mortale &amp; 
+      <lb ed="#L" n="42"/>veniale non distinguuntur ratione poenae. 
+      </p>
+            <p xml:id="jsnvu6-e144733-d1e160">
+               <lb ed="#L" n="43"/>
+               <!--3--> IN CONTRARIVM est Magister in litera, qui dicit 
+      <lb ed="#L" n="44"/>quod mortale obligat poenae aeternae, veniale vero poenae temporali. 
+      </p>
+            <p xml:id="jsnvu6-e144733-d1e169">
+               <lb ed="#L" n="45"/>
+               <!--4--> RESPONSIO. Quanta poena debeatur vtrique 
+      pec<lb ed="#L" n="46" break="no"/>cato mortali, scilicet, &amp; veniali, sciendum est quod licet ex culpi 
+      <lb ed="#L" n="47"/>oriatur reatus poenae, vt reparetur iustitia per poenam quae laesa 
+      <lb ed="#L" n="48"/>fuerat per culpam, tamen commensuratio poenae ad culpam non 
+      at<lb ed="#L" n="49" break="no"/>tenditur quantum ad durationem in aliquo iudicio diuino ve 
+      <lb ed="#L" n="50"/>humano, non enim quia homicidium vel adulterium in 
+      momen<lb ed="#L" n="51" break="no"/>to committuntur propter hoc momentanea poena puniuntur 
+      <lb ed="#L" n="52"/>sed quandoque quidem perpetuo carcere, vel exilio: quandoque 
+      <lb ed="#L" n="53"/>etiam morte in qua non consideratur occisionis mora, sed potius 
+      <lb ed="#L" n="54"/>quod in perpetuum auferatur a societate viuentium. Item nec 
+      pro<lb ed="#L" n="55" break="no"/>portionatur poena culpae quo ad acerbitatem sic, vt solum ita 
+      <lb ed="#L" n="56"/>intense affligatur quis in poena quam intense delectatus fuit in cul 
+      <lb ed="#L" n="57"/>pa, constat enim quod multo plus affligitur quis cum occiditur 
+      pro<lb ed="#L" n="58" break="no"/>pter crimen homicidij commissi quam possit delectari 
+      commit<lb ed="#L" n="59" break="no"/>tendo homicidium, nec illud est contra illud quod dicit Apoc. 18. 
+      quam<lb ed="#L" n="60" break="no"/>tum glorificauit se &amp; in delitiis fuit, tantum date ei tormentum 
+      <lb ed="#L" n="61"/>&amp; luctum, quia non est sensus quod debeat aequari tristitia vel do 
+      <lb ed="#L" n="62"/>lor poenae delectationi culpae, sed est sensus quod in generali sicut 
+      <lb ed="#L" n="63"/>excedit culpa culpam, sic poena poenam, delectationi tamen culps 
+      <lb ed="#L" n="64"/>non oportet aequari dolorem poenae maxime cum continga 
+      <lb ed="#L" n="65"/>hominem plus delectari in aliquo veniali quandoque cui debetur 
+      <lb ed="#L" n="66"/>leuior poena, quam in aliquo mortali cui debetur grauior 
+      poe<lb ed="#L" n="67" break="no"/>na. Quid ergo est in quo attenditur commensuratio poenae ad 
+      <lb ed="#L" n="68"/>culpam, ex quo non attenditur secundum durationem, neque 
+      <lb ed="#L" n="69"/>secundum aequalitatem delectationis culpae, &amp; acerbitatis poenae 
+      <lb ed="#L" n="70"/>Dicendum quod attenditur secundum grauitatem iniuriae 
+      of<lb ed="#L" n="71" break="no"/>fensae illius in quam committitur, siue fit persona priuata, siue res 
+      <lb ed="#L" n="72"/>publica, cuius ratio est, quia culpae debetur poena inquantum est 
+      <lb ed="#L" n="73"/>iniusta, vt patet ex praedictis, sed culpa est iniusta non ratione 
+      <lb ed="#L" n="74"/>delectationis vel morae, sed ratione iniuriae offensae, vel laesionis 
+      <lb ed="#L" n="75"/>redundantis in alterum, ergo secundum hoc debetur ei poena, &amp; 
+      <lb ed="#L" n="76"/>secundum illud est commensuranda. Ex hoc ad propositum 
+      di<lb ed="#L" n="77" break="no"/>cendum quod peccato mortali debetur poena aeterna. Non auten 
+      <lb ed="#L" n="78"/>veniali. Quod patet, quia sicut est in ciuitate mundana, sic suc 
+      <lb ed="#L" n="79"/>modo debet esse in ciuitate diuina, sed in ciuitate mundana sic 
+      <lb ed="#L" n="80"/>est que ille qui ex culpa sua totaliter subuertit quantum in se est 
+      <!--00418.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>pacem &amp; amicitiam ciuium adinuicem, vel obedientiam ad prin 
+      <lb ed="#L" n="82"/>cipem, meretur extirpari totaliter a ciuilitate per mortem, exi 
+      <lb ed="#L" n="83"/>lium, vel perpetuum carcerem, sic enim recompensatur (prout 
+      <lb ed="#L" n="84"/>possibile est) per poenam laesio communitatis facta per cuipam. 
+      <lb ed="#L" n="85"/>Et haec poena licet non sit simpliciter perpetua, est tamen perpe 
+      <lb ed="#L" n="86"/>tua secundum capacitatem subiecti, &amp; secundum intentionem 
+      <lb ed="#L" n="87"/>legis quo ad hoc vt in perpetuum simpliciter non reuocetur ad 
+      <lb ed="#L" n="88"/>societatem communitatis contra quam deliquit, ergo eodem 
+      <lb ed="#L" n="89"/>modo debet esse in ciuilitate diuina in qua congregantur homi 
+      <lb ed="#L" n="90"/>nes lege fidei &amp; charitatis, quo ille qui subuertit quantum in se 
+      <lb ed="#L" n="91"/>est, ordinem charitatis ad proximum, vel sublectionis ad Deum 
+      <lb ed="#L" n="92"/>meretur extirpari totaliter a ciuilitate per mortem, exilium vel 
+      <lb ed="#L" n="93"/>carcerem. Hae autem poenae simpliciter perpetuae sunt in 
+      ciui<lb ed="#L" n="94" break="no"/>litate diuina, scilicet mors secunda, exilium a patria, &amp; carcer 
+      <lb ed="#L" n="95"/>inferni, quia &amp; subiectum susceptiuum istarum poenarum 
+      per<lb ed="#L" n="96" break="no"/>petuo durabit. per solum autem peccatum mortale fit talis 
+      sub<lb ed="#L" n="97" break="no"/>uersio in ciuilitate diuina, vt apparet ex dictis in secundo 
+      mem<lb ed="#L" n="98" break="no"/>bro quaestionis praecedentis, quare soli peccato mortali 
+      debe<lb ed="#L" n="99" break="no"/>tur poena aeterna. hoc tamen misericordiae habet ciuilitas diui 
+      <lb ed="#L" n="100"/>na supra mundanam, &amp; quod peccanti quantumcunque grauite 
+      <lb ed="#L" n="101"/>contra ciuilitatem diuinam superest vsque ad mortem 
+      corpo<lb ed="#L" n="102" break="no"/>ris locus poenitentiae ad satisfaciendum pro culpa, &amp; vt 
+      reuoce<lb ed="#L" n="103" break="no"/>tur ad statum pristinum, quod non in ciuilitate mundana.
+</p>
+            <p xml:id="jsnvu6-e144733-d1e306">
+               <lb ed="#L" n="104"/>AD PRIMVM argumentum in oppositum dicendum 
+      <lb ed="#L" n="105"/>quod sicut originale minimum habet de ratione culpae, ita poena 
+      si<lb ed="#L" n="106" break="no"/>bi debita minimum habet de ratione po nae, quia si quis 
+      nascere<lb ed="#L" n="107" break="no"/>tur in puris naturalibus sine gratia &amp; originali culpa &amp; sic more 
+      <lb ed="#L" n="108"/>retur, talis careret visione diuina sicut ille qui moritur in oris 
+      <lb ed="#L" n="109"/>nali peccato, in ipso tamen non esset poena, sed defect?. In illo 
+      au<lb ed="#L" n="110" break="no"/>qui moritur in originali peccato dicitur poena propter relationem 
+      <lb ed="#L" n="111"/>ad primum parentem per quem debuit ad nos transire originalis 
+      <lb ed="#L" n="112"/>iustitia, &amp; per consequens visio diuina, &amp; de hac poena quae 
+      impro<lb ed="#L" n="113" break="no"/>prie dicitur poena non loquitur, sed de poena sensus in qua 
+      disre<lb ed="#L" n="114" break="no"/>runt mortale &amp; veniale secundum differentiam perpetui &amp; temporalis.
+    </p>
+            <p xml:id="jsnvu6-e144733-d1e332">
+               <lb ed="#L" n="115"/>Ad secundum dicendum, quod offensa dicitur dupliciter. 
+      <lb ed="#L" n="116"/>Vno modo proprie scilicet factum pro quo amittitur gratia eius 
+      <lb ed="#L" n="117"/>qui offenditur, &amp; talis offensa dei non est in peccato veniali, sed 
+      <lb ed="#L" n="118"/>tantum in mortali quod priuat gratiam, talis enim offensa 
+      me<lb ed="#L" n="119" break="no"/>retur poenam infinitam. Alio modo dicitur offensa 
+      communi<lb ed="#L" n="120" break="no"/>ter pro omni facto quo meretur qualemcumque poenam, &amp; talis 
+      <lb ed="#L" n="121"/>offensa est in peccato veniali quae non est offensa simpliciter pro 
+      <lb ed="#L" n="122"/>eo quod non tollit gratiam, nec peruertit totaliter ordinem 
+      sub<lb ed="#L" n="123" break="no"/>iectionis ad deum vel dilectionis ad proximum, &amp; ideo nonm 
+      <lb ed="#L" n="124"/>retur poenam aeternam. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

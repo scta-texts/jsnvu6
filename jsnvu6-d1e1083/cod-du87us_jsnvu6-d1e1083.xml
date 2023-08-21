@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="52-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1083"><!-- l1d17q10 -->
+            <head xml:id="jsnvu6-d1e1083-Hd1e101">Quaestio 10</head>
+            <head xml:id="jsnvu6-d1e1083-Hd1e103" type="question-title">Utrum caritas possit diminui</head>
+            <p xml:id="jsnvu6-d1e1083-d1e106">
+               <lb ed="#L" n="12"/>QUAESTIO DECIMA. 
+      <lb ed="#L" n="13"/>Vtrum charitas possit diminuit. 
+      <lb ed="#L" n="14"/>Tho. 12. q. 24. art. 10. de Palnde In. 3. d. 28. 4.3
+    </p>
+            <p xml:id="jsnvu6-d1e1083-d1e115">
+               <lb ed="#L" n="15"/>OS LQVAM quaesitum est de necessitate 
+      cha<lb ed="#L" n="16" break="no"/>ritatis &amp; de eius augmento, hic quaeritur de eiu 
+      <lb ed="#L" n="17"/>diminutione. Et arguitur quod possit diminu 
+      <lb ed="#L" n="18"/>quia formae naturales quae possunt intendi possum 
+      <lb ed="#L" n="19"/>remitti, ergo similiter est in habitibus infusis: sed 
+      <lb ed="#L" n="20"/>charitas quae est habitus infusus potest intendit, ergo potes 
+      <lb ed="#L" n="21"/>remitti. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e133">
+               <lb ed="#L" n="22"/>
+               <!--2--> Item illa quae sunt eiusdem rationis in essendo sunt eiusden 
+      <lb ed="#L" n="23"/>efficaciae in agendo licet proportionabiliter, ita quod illud quod 
+      <lb ed="#L" n="24"/>natum est corrumpi a maiori saltem natum est diminui a mino 
+      <lb ed="#L" n="25"/>ri, sed cupiditas maior &amp; ninor sunt eiusdem rationis cum ex 
+      <lb ed="#L" n="26"/>eodem procedant, cum ergo maior cupiditas quae in peccate 
+      <lb ed="#L" n="27"/>mortali charitatem omnino corrumpat, videtur quod mino 
+      <lb ed="#L" n="28"/>cupiditas quae est in veniali eam diminuat. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e154">
+               <lb ed="#L" n="29"/>
+               <!--3--> CONTRA. si charitas possit diminui hoc esset per 
+      pec<lb ed="#L" n="30" break="no"/>catum mortale vel veniale. Non per mortale quia illud non di 
+      <lb ed="#L" n="31"/>minuit charitatem, sed omnino corrumpit. Nec per veniale 
+      qui<lb ed="#L" n="32" break="no"/>tunc tantum possent multiplicari venialia quod totaliter tolle. 
+      <lb ed="#L" n="33"/>rent quia omne finitum tandem consumitur ablato aliquotiem: 
+      <lb ed="#L" n="34"/>ab eo aliquo finito, hoc autem est impossibile quia tunc per si 
+      <lb ed="#L" n="35"/>la venialia homo posset damnari, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e174">
+               <lb ed="#L" n="36"/>
+               <!--4--> RESPONSIO. circa essentiam habituum super 
+      natu<lb ed="#L" n="37" break="no"/>ralium quos infusos dicimus nihil omnino possunt actiones 
+      no<lb ed="#L" n="38" break="no"/>strae bonae vel malae nisi meritorie quo ad generationem vel co 
+      <lb ed="#L" n="39"/>ruptionem, augmentum vel diminutionem, sed omnia sunt effe 
+      <lb ed="#L" n="40"/>ctiue a deo. Et ideo quod actu diminuatur si contingat hoc eri 
+      <lb ed="#L" n="41"/>ex actibus nostris meritorie, &amp; a deo effectiue, quod autem hab 
+      <lb ed="#L" n="42"/>tus talis sit diminuibilis oportet quod sit ex natura habitus 
+      <lb ed="#L" n="43"/>Quibus suppositis videnda sunt duo. Primum est an charita 
+      <lb ed="#L" n="44"/>possit diminui. Secundum est vtrum aliquando diminuatur se 
+      <lb ed="#L" n="45"/>cundum actum, quod autem possit diminui quantum est de na 
+      <lb ed="#L" n="46"/>tura sua omnes concedunt, sicut quod possit augeri &amp; rationab 
+      <lb ed="#L" n="47"/>liter, quia omnis forma quae non consistit in indiuilibili, sed hi 
+      <lb ed="#L" n="48"/>bet latitudinem diuersorum graduum in quibus natura eius po 
+      <lb ed="#L" n="49"/>test saluari talis forma sicut potest per agens deduci de 
+      imper<lb ed="#L" n="50" break="no"/>fecto gradu ad perfectum sic quantum est de se potest reducid 
+      <lb ed="#L" n="51"/>perfecto ad imperfectionem, sed charitas est huiusmodi vt 
+      di<lb ed="#L" n="52" break="no"/>ctum est prius, ergo sicut charitas educitur de inperfecto gra 
+      <lb ed="#L" n="53"/>du ad perfectiorem per augmentam sic potest reduci de 
+      peife<lb ed="#L" n="54" break="no"/>cto ad imperfectiorem per diminutionem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e220">
+               <lb ed="#L" n="55"/>
+               <!--6--> Vtrum autem quandoque diminuatur actu, duplex est 
+      opi<lb ed="#L" n="56" break="no"/>nio: vna quorundam dicentium quod sic. Quorum ratio est isl 
+      <lb ed="#L" n="57"/>quia deus non est causa corruptionis charitatis, nisi per auersio 
+      <lb ed="#L" n="58"/>nem voluntatis a deo, quia sicut voluntas a deo omnino auertitu 
+      <lb ed="#L" n="59"/>per peccatum mortale, sic aliqualiter per peccatu veniale &amp; s 
+      <lb ed="#L" n="60"/>non omnino, dicente Aug. lib. confessionum. O magne minus te 
+      <lb ed="#L" n="61"/>amat, qui tecum aliquid amat, quod non propter te amat. In pec 
+      <lb ed="#L" n="62"/>cato autem veniali creatura amatur non propter deum, quia 
+      <lb ed="#L" n="63"/>propter deum nullum esset peccatum, ergo videtur quod sicu 
+      <lb ed="#L" n="64"/>propter totalem auersionem quae a deo est in peccato mortali cha 
+      <lb ed="#L" n="65"/>ritas corrumpitur, sic propter partialem quae est in peccaco ve 
+      <lb ed="#L" n="66"/>niali charitas diminuitur. Pro hac opinione videtur esse Augu 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e251">
+               <lb ed="#L" n="67"/>
+               <!--83.--> quaest. dicens, quod venenum charitatis est cupiditas. Vbi 
+      au<lb ed="#L" n="68" break="no"/>tem magna cupiditas parua charitas, &amp; vbi nulla cupiditas 
+      per<lb ed="#L" n="69" break="no"/>fecta charitas. Ex quo patet quod secundum augmetum 
+      cupi<lb ed="#L" n="70" break="no"/>ditatis est diminutio charitatis. Constat autem quod saepe aug 
+      <lb ed="#L" n="71"/>mentatur cupiditas, ergo saepe minuitur charitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e267">
+               <lb ed="#L" n="72"/>
+               <!--7.--> Item illud quod facit quod a priucipio minor charitas in 
+      <lb ed="#L" n="73"/>fundatur facit quod charitas habita minoretur. Sed peccatum 
+      <lb ed="#L" n="74"/>veniale vel multitudo eorum si esset in homine antequa 
+      chari<lb ed="#L" n="75" break="no"/>z3 infunderetur faceret quod minor charitas daretur, ergo ha 
+      <lb ed="#L" n="76"/>bita charitate faciunt quod minoretur. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e283">
+               <lb ed="#L" n="77"/>
+               <!--8--> Item demus duos qui sint in aequali charitate, quorum vnus 
+      <lb ed="#L" n="78"/>peccet venialiter, aliter non, non est probabile quod vterque 
+      <lb ed="#L" n="79"/>eorum sit aequaliter deo charus. Sed ille magis qui non peccat 
+      <lb ed="#L" n="80"/>&amp; ille minus qui peccat. Sed minus est charus qui minus habei 
+      <!--00170.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>charitatem: ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e304">
+               <lb ed="#L" n="82"/>
+               <!--9--> Ad rationem in oppositum respondent isti quod venialia 
+      dimi<lb ed="#L" n="83" break="no"/>nuunt charitatem, nunquam tamen per sola venialia 
+      corrumpi<lb ed="#L" n="84" break="no"/>tur, sed venialia totiens iterari possunt quod causabunt talem 
+      di<lb ed="#L" n="85" break="no"/>spositionem quod si homo procedat vltra secundum illam 
+      disposi<lb ed="#L" n="86" break="no"/>tionem non poterit exire in actum quin incidat in talem 
+      con<lb ed="#L" n="87" break="no"/>temptum &amp; libidinem sic improbam quod erit peccatum mortale, per 
+      <lb ed="#L" n="88"/>quod charitas corrumpetur &amp; nunquam per aliquod veniale 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e324">
+               <lb ed="#L" n="89"/>
+               <!--10--> Quicquid sit de conclusione illud tantum quod dictum est in 
+      <lb ed="#L" n="90"/>solutione argumenti non valet propter multa. Primo quia non 
+      <lb ed="#L" n="91"/>oportet dare talem habitum vel dispositionem in nobis. Cuius 
+      ra<lb ed="#L" n="92" break="no"/>tio est, quia omnis dispositio &amp; habitus causatur ex actibus qui 
+      <lb ed="#L" n="93"/>sunt vnius rationis. Ex actibus enim diuersarum rationum nullus 
+      <lb ed="#L" n="94"/>habitus causatur. Si enim quis semel intemperate concupiscat. 
+      <lb ed="#L" n="95"/>deinde timeat vbi non est timendum, &amp; postea iniuste agat. Ex 
+      <lb ed="#L" n="96"/>huiusmodi actibus nunquam causabitur aliquis habitus, sed ex 
+      <lb ed="#L" n="97"/>frequenter intemperate concupiscere causatur habitus 
+      intem<lb ed="#L" n="98" break="no"/>perantiae, &amp; consimiliter ex aliis actibus eiusdem rationis 
+      fre<lb ed="#L" n="99" break="no"/>quentatis causatur habitus correspondens, nunc est ita quod per 
+      <lb ed="#L" n="100"/>cata venialia, quibus homo potest peccare non sunt vnius 
+      ratio<lb ed="#L" n="101" break="no"/>nis, sed diuersarum: nec oportet quod peccans venialiter peccei 
+      <lb ed="#L" n="102"/>iteratione similium actuum. Sed potest peccare modo secundi 
+      <lb ed="#L" n="103"/>vnam speciem peccati venialis, modo secundum aliam: ergo ni 
+      <lb ed="#L" n="104"/>est necesse ex peccatis venialibus causari in nobis aliquam 
+      dis<lb ed="#L" n="105" break="no"/>positionem vel habituum qualem isti ponunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e366">
+               <lb ed="#L" n="106"/>
+               <!--11--> Secundo, quia dato quod causetur in nobis talis dispositio non 
+      <lb ed="#L" n="107"/>esset necesse hominibus ab ea recedere, vel secundum eam proce 
+      <lb ed="#L" n="108"/>dere, quod patet faciliter ex iam dictis, quia illa dispositio esset 
+      <lb ed="#L" n="109"/>causata est peccatis venialibus vnius speciei, sed secundum talem 
+      <lb ed="#L" n="110"/>dispositionem non est necesse hominem procedere vt peccet, 
+      <lb ed="#L" n="111"/>nec ab ea recedere, sed potest secundum alias species venialium 
+      pec<lb ed="#L" n="112" break="no"/>care, quod faciendo neque procedit secundum dispositionem talem, 
+      <lb ed="#L" n="113"/>nec ab ea recedit. Tertio, quia dato quod homo procederet 
+      secun<lb ed="#L" n="114" break="no"/>dum talem vel talem dispositionem non esset necesse Q 
+      pecca<lb ed="#L" n="115" break="no"/>ret mortaliter, quia habitus &amp; dispositio inclinant per se solum 
+      <lb ed="#L" n="116"/>ad actus similes illis ex quibus generati sunt, sed talis dispositio 
+      <lb ed="#L" n="117"/>generata est ex actibus peccatorum venialium vt tu dicis: erge 
+      <lb ed="#L" n="118"/>solum inclinat per se ad peccandum venialiter &amp; non mortaliter. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e399">
+               <lb ed="#L" n="119"/>
+               <!--12.--> Item in actum deliberatum qui plene est in potestate 
+      volun<lb ed="#L" n="120" break="no"/>tatis, nec habet aliquam colligantiam ad aliquid prae existens non 
+      <lb ed="#L" n="121"/>est necessarium voluntatem exire: sed actus peccati mortalis est 
+      <lb ed="#L" n="122"/>actus deliberatus. Est etiam plene in potestate voluntatis, nec 
+      ha<lb ed="#L" n="123" break="no"/>bet necessariam colligantiam ad dispositionem tantam ex 
+      pecca<lb ed="#L" n="124" break="no"/>tis venialibus, vel ad illam, quia de se nulla apparet: ergo non 
+      <lb ed="#L" n="125"/>est necessarium voluntatem exire in talem actum 
+      quantuncun<lb ed="#L" n="126" break="no"/>que a praecedente dispositione non recedat. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e421">
+               <lb ed="#L" n="127"/>
+               <!--13.--> Quarto, quia concessis omnibus quae illi ponunt, adhuc 
+      ta<lb ed="#L" n="128" break="no"/>men in nullo soluta est ratio. Arguam enim faciendo talem 
+      con<lb ed="#L" n="129" break="no"/>sequentiam: peccata venialia diminuunt charitatem: ergo si 
+      sem<lb ed="#L" n="130" break="no"/>per multiplicarentur finaliter tollerent cam: consequens est 
+      fal<lb ed="#L" n="131" break="no"/>sum, scilicet charitatem posse tolli per venialia: consequentia 
+      <lb ed="#L" n="132"/>autem de se patet, quia omne finitum per ablationem alicuius 
+      <lb ed="#L" n="133"/>finiti tandem consuinitur. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e441">
+               <lb ed="#L" n="134"/>
+               <!--14--> Sed adhuc posset dici aliter quam prius, videlicet quod si chari 
+      <lb ed="#L" n="135"/>tas posset in infinitum augeri ipsa posset similiter in infinitum 
+      mi<lb ed="#L" n="136" break="no"/>nui sicut continuum quod crescit in infinitum per appositionem potest 
+      <lb ed="#L" n="137"/>minui in infinitum per diminutionem, &amp; tunc si peccatum veniale 
+      <lb ed="#L" n="138"/>minueret charitatem ipsa tamen nunquam tolleretur 
+      quantun<lb ed="#L" n="139" break="no"/>cunque venialia multiplicarentur in infinitum, sed diminuere in 
+      <lb ed="#L" n="140"/>infinitum, vnde cum illi qui ponut charitatem posse in infinitum 
+      au<lb ed="#L" n="141" break="no"/>geri debeant ponere charitatem in infinitum posse minui, non 
+      pos<lb ed="#L" n="142" break="no"/>sunt dicere conuenienter quod si charicas per peccatum veniale 
+      <lb ed="#L" n="143"/>minuatur quod ipsa tollatur propter multiplicationem venialium 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e468">
+               <lb ed="#L" n="144"/>
+               <!--15--> Verius ergo dicitur quod charitas non potest in infinitum 
+      <lb ed="#L" n="145"/>augeri nec minui. Dicendum ergo aliter quod charitas nunquam 
+      <lb ed="#L" n="146"/>minuitur quantum ad essentiam habitus, quamuis quandoque 
+      mi<lb ed="#L" n="147" break="no"/>nuatur quantum ad feruorem actus: quod tripliciter patet. Primo 
+      <lb ed="#L" n="148"/>quia ex actibus nostiis charitas non potest diminui nisi 
+      merito<lb ed="#L" n="149" break="no"/>rie, nec deus effectiue minuit eam nisi propter culpam nostram, sed 
+      <lb ed="#L" n="150"/>nulla culpa nostra meretur diminutionem charitatis: ergo 
+      chari<lb ed="#L" n="151" break="no"/>tas nunquam diminuitur secundum actum, probatio minoris. Culpi 
+      <lb ed="#L" n="152"/>enim niortalis non meretur diminutionem eius, quia non stat cum 
+      <lb ed="#L" n="153"/>gratia. Sed magis meretur eius corruptionem. Simuliter culpam ve 
+      <lb ed="#L" n="154"/>nialis non meretur corruptionem cum stet cum gratia, nec 
+      diminu<lb ed="#L" n="155" break="no"/>tionem, quia omne quod natum est aliquid diminuere, ipsum ve 
+      <lb ed="#L" n="156"/>perfectum in illa specie, vel aliquoticus multiplicatum natum ess 
+      <lb ed="#L" n="157"/>corrumpere, sicut omne quod natum est aliquid augere illud 
+      id<lb ed="#L" n="158" break="no"/>vel perfectum in illa specie vel aliquotiens multiplicatum 
+      na<lb ed="#L" n="159" break="no"/>tum est simile generare, vt patet in omnibus formis 
+      naturali<lb ed="#L" n="160" break="no"/>bus. In habitibus etiam acquisitis videmus idem, quia ex eisdi 
+      <lb ed="#L" n="161"/>actibus generantur &amp; augmentantur, &amp; ex similibus corrum 
+      <lb ed="#L" n="162"/>puntur &amp; minuuntur, vt patet secundo Ethicorum: &amp; sicut est in 
+      <!--00171.xml-->
+      <pb ed="#L" n="53-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>augmentantibus &amp; minuentibus effectiue sic (vt videtur) 
+      de<lb ed="#L" n="2" break="no"/>bet esse in augmentantibus &amp; minuentibus meritorie, sicut sunt 
+      <lb ed="#L" n="3"/>actus nostri respectu charitatis, sed nullum veniale, nec omni: 
+      <lb ed="#L" n="4"/>simul merentur corruptionem charitatis, ergo nec diminutionem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e529">
+               <lb ed="#L" n="5"/>
+               <!--16--> Secunda ratio talis est, ponatur quod aliquis crectur in 
+      <lb ed="#L" n="6"/>minimo gradu charitatis, talis vt videtur potest peccare 
+      veni<lb ed="#L" n="7" break="no"/>liter, ergo illud peccatum veniale aut minuet aliquid de 
+      chari<lb ed="#L" n="8" break="no"/>tate aut nihil. Si nihil pari ratione nec quodcunque aliud. Si ali 
+      <lb ed="#L" n="9"/>quid corrumperet eam cum non sit dare minorem gradum, 
+      <lb ed="#L" n="10"/>hoc autem est impossibile, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e547">
+               <lb ed="#L" n="11"/>
+               <!--17--> Respondetur ad hoc quod si talis crearetur in statu inno 
+      <lb ed="#L" n="12"/>centiae non posset peccare venialiter primo peccato sicut nec 
+      <lb ed="#L" n="13"/>Adam potuit. Si autem in statu originalis peccati, idem 
+      seque<lb ed="#L" n="14" break="no"/>retur: quia habens originale solum, veniens ad aetatem qua po 
+      <lb ed="#L" n="15"/>test actualiter peccare non potest peccare primo peccato 
+      ve<lb ed="#L" n="16" break="no"/>nialiter sed mortaliter. Istorum autem alterum est absurdum, 
+      <lb ed="#L" n="17"/>scilicet quod aliquis creetur in statu originalis peccati &amp; in 
+      mini<lb ed="#L" n="18" break="no"/>mo gradu charitatis, quia charitas non potest stare cum 
+      origi<lb ed="#L" n="19" break="no"/>nali, alterum vero, scilicet quod crearetur in statu innocentia 
+      <lb ed="#L" n="20"/>non est necessarium: sed posset creari in puris naturalibus sin 
+      <lb ed="#L" n="21"/>iustitia originali tamen cum minimo gradu charitatis. Quod 
+      <lb ed="#L" n="22"/>autem talis non possit peccare venialiter primo peccato nulla 
+      <lb ed="#L" n="23"/>ratio est. Adam enim hoc non potuit propter certitudinem qua 
+      <lb ed="#L" n="24"/>erat in eo ratione iustitiae originalis, vt patebit. Tertia 
+      ra<lb ed="#L" n="25" break="no"/>tio talis est, si peccatum veniale minueret charitatem, 
+      minue<lb ed="#L" n="26" break="no"/>ret etiam praemium essentiale quod respondet charitati. De 
+      <lb ed="#L" n="27"/>cedens, ergo in tali statu puniretur poena aeterna &amp; perpetua 
+      <lb ed="#L" n="28"/>diminutione praemij essentialis sibi prius debiti quod est incon 
+      <lb ed="#L" n="29"/>ueniens, quare &amp;c. &amp; sic patet primum, scilicet quod charitas 
+      <lb ed="#L" n="30"/>nunquam minuitur quantum ad essentiam habitus. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e595">
+               <lb ed="#L" n="31"/>
+               <!--18--> Secundum patet scilicet quod minuatur quandoque 
+      quan<lb ed="#L" n="32" break="no"/>tum ad feruorem actus, quia actiones nostrae procedentes ex 
+      <lb ed="#L" n="33"/>habitibus infusis, sua frequentia causant in nobis quasdam 
+      ha<lb ed="#L" n="34" break="no"/>bilitates secundum quas prompte &amp; faciliter inclinamur ad 
+      ta<lb ed="#L" n="35" break="no"/>les actus: vnde experimur quod corrupta charitate in aliquo 
+      <lb ed="#L" n="36"/>prius assueto operibus charitatis adhuc in ipso remanet prom 
+      <lb ed="#L" n="37"/>ptitudo quaedam ad opera similia. Et iste habitus non est 
+      infu<lb ed="#L" n="38" break="no"/>sus nec superinfusus, sed ex actibus acquisitus. Ex hoc arguitur 
+      <lb ed="#L" n="39"/>quando aliqua duo concurrunt ad vnum effectum, 
+      impedimen<lb ed="#L" n="40" break="no"/>tum potest contingere in effectu ex parte vtriusque illorum, 
+      <lb ed="#L" n="41"/>sed ad feruorem actus charitatis duo concurrunt, scilicet 
+      in<lb ed="#L" n="42" break="no"/>tensio habitus charitatis &amp; intensio habitus acquisiti ex 
+      fre<lb ed="#L" n="43" break="no"/>quentia actuum nostrorum: ergo actus potest impediri a 
+      soli<lb ed="#L" n="44" break="no"/>to feruore ex impedimento alterius istorum. Venialia autem 
+      <lb ed="#L" n="45"/>minuunt habilitatem causatam ex actibus nostris &amp; eam tota 
+      <lb ed="#L" n="46"/>liter possunt tollere, etiam remanente charitate propter quod 
+      <lb ed="#L" n="47"/>charitate non remissa per venialia feruor actus remittitur ex 
+      <lb ed="#L" n="48"/>diminutione praedictae habilitatis &amp; tepescit continue 
+      intan<lb ed="#L" n="49" break="no"/>tum, vt quandoque videatur homo carere charitate ac per 
+      <lb ed="#L" n="50"/>hoc fiat promptus ad peccandum mortaliter. 
+      <lb ed="#L" n="51"/>SED CONTRA hoc aliqui obiiciunt dupliciter 
+      <lb ed="#L" n="52"/>Primo, quia feruor vt dicunt, est in viribus sensitiuis ex redun 
+      <lb ed="#L" n="53"/>dantia charitatis quae est in voluntate, ergo non potest feruo 
+      <lb ed="#L" n="54"/>diminui, nisi causa feruoris diminuatur, scilicet charitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e652">
+               <lb ed="#L" n="55"/>
+               <!--20--> Secundo quia actus procedentes ex virtute morali 
+      mora<lb ed="#L" n="56" break="no"/>liter acquisita non generant alium habitum, sed praecedentem 
+      <lb ed="#L" n="57"/>confirmant, ergo similiter actus procedentes a virtute infusa 
+      <lb ed="#L" n="58"/>scilicet charitate non generant in nobis alium habitum sicut 
+      <lb ed="#L" n="59"/>praecedens ratio assumit. Sed tantum praecedentem charitatem 
+      <lb ed="#L" n="60"/>confirmant. Et dicendum ad primum istorum quod feruor de 
+      <lb ed="#L" n="61"/>quo loquimur est intentio actus voluntatis, sed non actus 
+      vi<lb ed="#L" n="62" break="no"/>rium sensitiuarum, vel dato quod vtrumque sit nihilominus dupli 
+      <lb ed="#L" n="63"/>cem causam habet, scilicet charitatem &amp; illum habitum 
+      ac<lb ed="#L" n="64" break="no"/>quisitum ex frequentia actuum quo solo feruor diminuitur ex 
+      <lb ed="#L" n="65"/>diminutione suae causae, sine diminutione charitatis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e681">
+               <lb ed="#L" n="66"/>
+               <!--21--> Ad secundum dicendum que non est simile de actibus 
+      pro<lb ed="#L" n="67" break="no"/>cedentibus a virtute morali acquisita, &amp; de actibus 
+      procedenti<lb ed="#L" n="68" break="no"/>bus a virtute infusa cuiusmodi est charitas, quia actus procedens 
+      <lb ed="#L" n="69"/>a potentia perfecta per charitatem &amp; est moralis de se &amp; nihilo. 
+      <lb ed="#L" n="70"/>minus supernaturalis ratione charitatis. Supernaturale enim 
+      <lb ed="#L" n="71"/>&amp; meritorium non excludunt naturale, sed potius includunt. 
+      <lb ed="#L" n="72"/>Ex actibus ergo talibus vt sunt meritorij vel supernaturales 
+      <lb ed="#L" n="73"/>nullus alius habitus acquiritur, sed praecedens confirmatur, sed 
+      <lb ed="#L" n="74"/>ex eis quatenus sunt morales potest aliquis habitus inferior ge 
+      <lb ed="#L" n="75"/>nerari &amp; generatur. Et quia actus procedentes a virtute morali 
+      <lb ed="#L" n="76"/>acquisita non habent nisi alterum, scilicet quod sint morales 
+      tan<lb ed="#L" n="77" break="no"/>tum, ideo nullum alium habitum generant, non moralem, quia 
+      <lb ed="#L" n="78"/>generatus est sed solum confirmant, nec supernaturalem, quia 
+      <lb ed="#L" n="79"/>illae ad illum attingere non possunt, cum sit altioris gradus. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e717">
+               <lb ed="#L" n="80"/>
+               <!--22--> AD RATIONES principales. Ad primam 
+      dicen<lb ed="#L" n="81" break="no"/>dum quod non plus probat nisi quod charitas quantum est de 
+      <lb ed="#L" n="82"/>natura sua potest diminui sicut augeri quod concessum est, sed 
+      <!--00171.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>non probat quod aliquando secundum actum minuatur sicut 
+      <lb ed="#L" n="84"/>secundum actum augetur. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e737">
+               <lb ed="#L" n="85"/>
+               <!--23--> Ad secundum dicendum quod minor est falsa, qua 
+      cupidi<lb ed="#L" n="86" break="no"/>tas quae est in peccato mortali &amp; veniali non est vnius rationis 
+      <lb ed="#L" n="87"/>in genere moris, quia cupiditas quae est in peccato mortali est 
+      <lb ed="#L" n="88"/>contra praeceptum &amp; diuertit a fine propter quod tollit chari 
+      <lb ed="#L" n="89"/>tatem quae est finis praecepti, sed cupiditas quae est in veniali no 
+      <lb ed="#L" n="90"/>est contra praeceptum, nec diuertit a fine propter quod non est 
+      <lb ed="#L" n="91"/>proportionabilis earum actio ita vt sicut mortalis tanquam 
+      cu<lb ed="#L" n="92" break="no"/>piditas maior meretur corruptionem charitatis, ita venialis 
+      <lb ed="#L" n="93"/>tanquam minor meretur diminutionem eius 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e761">
+               <lb ed="#L" n="94"/>
+               <!--24--> Ad rationes alterius opinionis dicendum est. Ad primam quod 
+      <lb ed="#L" n="95"/>non est auersio eiusdem rationis in peccato mortali &amp; veniali, 
+      <lb ed="#L" n="96"/>cum veniale non sit contra praeceptum nec diuertat a fine, sed 
+      po<lb ed="#L" n="97" break="no"/>tius sit quies et status in via circa finem eo quod talis actus non refer 
+      <lb ed="#L" n="98"/>tur in finem, propter quod interrumpitur actualis motus in finem, 
+      <lb ed="#L" n="99"/>sed non est conuersio aliquo modo oppositum finis, quare nec auer 
+      <lb ed="#L" n="100"/>sio a fine, veruntamen ex consuetudine talis interruptionis &amp; 
+      <lb ed="#L" n="101"/>dissuetudine conuersionis ad Deum minuitur habilitas quae erat 
+      <lb ed="#L" n="102"/>in nobis causata ex frequenti conuersione ad Deum, sed non habitus 
+      <lb ed="#L" n="103"/>propter causam praedictam. In hoc sensu loquitur Augustinus qu 
+      <lb ed="#L" n="104"/>dicit minus te amat qui tecum aliquid amat quod non propter te 
+      <lb ed="#L" n="105"/>amat. In eodem sensu accipiendum est quod ibidem dicit Aug. quod 
+      <lb ed="#L" n="106"/>venenum charitatis est cupiditas. Constat enim quod non loquitur 
+      <lb ed="#L" n="107"/>de mortali cupiditate, sed loquitur de veniali quae sicut est ma 
+      <lb ed="#L" n="108"/>ior &amp; minor, sic plus &amp; minus minuit charitatem quo ad feruorem 
+      <lb ed="#L" n="109"/>actus, sed non quo ad essentiam habitus, quamuis aliqui dicam 
+      <lb ed="#L" n="110"/>quod talis cupiditas contrariatur charitati, &amp; eam minuit, quod 
+      <lb ed="#L" n="111"/>satis est mirabile: quia contraria nunquam possunt simul stare. 
+      <lb ed="#L" n="112"/>Isti autem ponunt talem cupiditatem manere cum charitate 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e807">
+               <lb ed="#L" n="113"/>
+               <!--25--> Ad aliud cum dicitur quod id quod a principio &amp;c. dicendum 
+      <lb ed="#L" n="114"/>est quod veniale peccatum vnum vel multa non facit qud a prin 
+      <lb ed="#L" n="115"/>cipio minor charitas detur, nisi quia facit quod conatus 
+      volunta<lb ed="#L" n="116" break="no"/>tis sit minus intensus, &amp; secundum eius proportionem datur cha 
+      <lb ed="#L" n="117"/>ritas de congruo vt dictum fuit supra. Similiter cum in 
+      pecca<lb ed="#L" n="118" break="no"/>tis venialibus non sit aeque intensus conatus, feruor &amp; intensio 
+      <lb ed="#L" n="119"/>actus charitatis minuitur per peccata venialia, sed non 
+      minui<lb ed="#L" n="120" break="no"/>tur charitas, quia charitas nuquam minuitur nisi per 
+      demern<lb ed="#L" n="121" break="no"/>tum nostrum de condigno, licet detur a principio propter 
+      so<lb ed="#L" n="122" break="no"/>lum meritum de congruo, quia congruum est quod conatu 
+      exi<lb ed="#L" n="123" break="no"/>stente intensiore intensior charitas detur, ideo quia per 
+      pecca<lb ed="#L" n="124" break="no"/>tum veniale talis intensio remittitur, congruum est vt minos 
+      <lb ed="#L" n="125"/>charitas detur, sed diminutio feruoris actus charitatis non 
+      me<lb ed="#L" n="126" break="no"/>retur de condigno diminutionem eius, alioquin per multa 
+      pe<lb ed="#L" n="127" break="no"/>cata venialia mereremur de condigno eius corruptionem quod 
+      <lb ed="#L" n="128"/>est impossibile, propter quod per talem diminutionem 
+      feruo<lb ed="#L" n="129" break="no"/>ris actus non minuitur charitas quo ad essentiam habitus. 
+      </p>
+            <p xml:id="jsnvu6-d1e1083-d1e849">
+               <lb ed="#L" n="130"/>
+               <!--26--> Ad aliud dicendum quod aliquis potest dici charus Deo 
+      <lb ed="#L" n="131"/>tripliciter. Vno modo denominatione intrinseca ab habiti 
+      <lb ed="#L" n="132"/>inhaerente, &amp; sic qui sunt in aequali charitate sunt aeque chari 
+      <lb ed="#L" n="133"/>Deo quantumcumque vnus peccet venialiter, &amp; alter non. Alio 
+      <lb ed="#L" n="134"/>modo dicitur aliquis charus Deo denominatione extrinseca, 
+      <lb ed="#L" n="135"/>scilicet a Deo diligente, &amp; sic omnes dilecti a Deo sunt aeque 
+      <lb ed="#L" n="136"/>ei chari, siue habitus charitatis sit in eis aequalis siue non, quia 
+      <lb ed="#L" n="137"/>dilectio Dei non recipit magis &amp; minus. Tertio modo dicitur 
+      <lb ed="#L" n="138"/>aliquis charus Deo denominatione extrinseca ab effectu 
+      pro<lb ed="#L" n="139" break="no"/>priato, Deus enim dicitur illos diligere quibus aliquod donum 
+      <lb ed="#L" n="140"/>propriat &amp; illos odire quibus propriat poenam, &amp; sic duo 
+      exi<lb ed="#L" n="141" break="no"/>stentes in aequali charitate quorum alter peccat venialiter 
+      al<lb ed="#L" n="142" break="no"/>ter non, sunt aequaliter a Deo dilecti quantum ad praemium 
+      <lb ed="#L" n="143"/>essentiale quod respondet charitati, sed inaequaliter quantum 
+      <lb ed="#L" n="144"/>ad praemium accidentale seu quantum ad dilationem praemi 
+      <lb ed="#L" n="145"/>essentialis, quia decedens in charitate sine aliquo peccato 
+      ve<lb ed="#L" n="146" break="no"/>niali statim praemiabitur, sed discedens cum veniali non statim 
+      <lb ed="#L" n="147"/>praemiabitur, sed punietur pro illo veniali ratione cuius 
+      puni<lb ed="#L" n="148" break="no"/>tionis potest sibi aliquo modo dici Deus iratus. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

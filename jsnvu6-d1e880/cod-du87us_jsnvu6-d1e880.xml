@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="43-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e880"><!-- l1d15prae -->
+            <head xml:id="jsnvu6-d1e880-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e880-d1e103">
+               <lb ed="#L" n="22"/>DISTINCTIO, DECIMAQVINTA. 
+      <lb ed="#L" n="23"/>Sententia literae magistri in generali &amp; speciali. 
+      <lb ed="#L" n="24"/>Ie considerandum est. Superius dixit magiste 
+      <lb ed="#L" n="25"/>quod Spiritus sanctus procedit a Patre &amp; Filio 
+      tem<lb ed="#L" n="26" break="no"/>poraliter. Hic autem inquirit vtrum Spiritus 
+      san<lb ed="#L" n="27" break="no"/>ctus detur a se. Et diuiditur in duas. Primo enim 
+      <lb ed="#L" n="28"/>Ainquirit de hoc. Et secundo quia fecerat 
+      mentio<lb ed="#L" n="29" break="no"/>nem de missione filij determinat incidentaliter de ea. Secunda 
+      <lb ed="#L" n="30"/>ibi. Hic quaeritur. Prima diuiditur in tres. Primo enim mouet 
+      <lb ed="#L" n="31"/>quaestionem suam. Secundo soluit. Tertio solutionem 
+      confir<lb ed="#L" n="32" break="no"/>mat per simile de missione filij. Secunda ibi, Ad quod dicimus. 
+      <lb ed="#L" n="33"/>Tertia ibi, ne admireris. Et haec tertia diuiditur in quatuor 
+      par<lb ed="#L" n="34" break="no"/>tes. Primo enim proponi in tantum de missione filij in 
+      genera<lb ed="#L" n="35" break="no"/>li. Secundo ostendit quod filius missus a patre. Tertio quod 
+      <lb ed="#L" n="36"/>missus est a Spiritu sancto. Quarto quod datus &amp; missus est a 
+      <lb ed="#L" n="37"/>se ipso. Secunda ibi, Quocirca. Tertia ibi. Et quod a Spiritu 
+      san<lb ed="#L" n="38" break="no"/>cto. Quarta ibi. Deinde autem hic quaeritur vtrum semel. 
+      Supe<lb ed="#L" n="39" break="no"/>rius determinauit magister de temporali missione Spiritus sanct. 
+      <lb ed="#L" n="40"/>Et quia in determinando de temporali missione Spiritus 
+      san<lb ed="#L" n="41" break="no"/>cti mentionem fecit de missione filij. Ideo in parte ista 
+      inci<lb ed="#L" n="42" break="no"/>dentaliter agit de missione filij: Et diuiditur in duas partes. Pri 
+      <lb ed="#L" n="43"/>mo enim proponit suum intentum. Secundo mouet 
+      incidenta<lb ed="#L" n="44" break="no"/>liter quandam quaestionem. Secunda ibi, Hic quaeritur cum 
+      pa<lb ed="#L" n="45" break="no"/>oter. Prima diuiditur in tres. Primo mouet quaestionem 
+      inten<lb ed="#L" n="46" break="no"/>tam. Secundo soluit assignando duos modos ipsius missionis 
+      <lb ed="#L" n="47"/>filij. Tertio ostendit differentiam inter modos missionis 
+      assi<lb ed="#L" n="48" break="no"/>gnatos. Secunda ibi, quod dicimus. Tertia, Ibi ideóque 
+      putaue<lb ed="#L" n="49" break="no"/>runt. Haec est diuisio magistri in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e880-d1e166">
+               <lb ed="#L" n="50"/>
+               <!--2--> In speciali vero sic procedit magister. Et quaerit primo, vtrum 
+      <lb ed="#L" n="51"/>Spiritus sanctus detur a se. postea soluit &amp; ostendit quod sic, quia 
+      <lb ed="#L" n="52"/>opera trinitatis sunt indiuisa, sed datio Spiritus sancti est 
+      quae<lb ed="#L" n="53" break="no"/>dam operatio communis tribus personis. Item quicquid potest 
+      <lb ed="#L" n="54"/>facere pater totum conuenit aliis: ergo si pater potest dare Spi 
+      <lb ed="#L" n="55"/>ritum sanctum, similiter Spiritus sanctus dabit &amp; potest dare 
+      sci<lb ed="#L" n="56" break="no"/>psum. Spiritus sanctus etiam mittitur a seipso. Postea confirma 
+      <lb ed="#L" n="57"/>per simile de missione filij dicens, quod non solum est 
+      admiran<lb ed="#L" n="58" break="no"/>dum quod etiam filius dicitur a se missus in mundum. 
+      Poste<lb ed="#L" n="59" break="no"/>ostendit quod missio filij in carnem &amp; ad praedicandum fuit? 
+      <lb ed="#L" n="60"/>patre. Deinde ostendit quod fuit a Spiritu sancto, &amp; hoc confir 
+      <lb ed="#L" n="61"/>mat autoritate Augustini. Vitimo ostendit quod filius a seipso 
+      <lb ed="#L" n="62"/>datus est, quia Propheta dicit eum datum nobis, non 
+      distinguen<lb ed="#L" n="63" break="no"/>do a quo. Ostendit etiam quod filius datur a se &amp; a patre sicui 
+      <lb ed="#L" n="64"/>traditus est a se &amp; a patre, nec obstat quod aliquando filius 
+      di<lb ed="#L" n="65" break="no"/>cit a me ipso non veni. Hoc enim intelligitur secundum forman 
+      <lb ed="#L" n="66"/>serui, missio haec est filij incarnatio. Tunc sequitur pars illa qu 
+      <lb ed="#L" n="67"/>incipit ibi. Hic quaeritur, vbi quaerit magister vtrum 
+      seme<lb ed="#L" n="68" break="no"/>tantum sit missus filius Dei an saepe. Et respondet magister quod 
+      <lb ed="#L" n="69"/>praeter generationem aeternam quam quoddam mysterium 
+      <lb ed="#L" n="70"/>appellat quod duobus modis missus est, scilicet visibiliter in 
+      <lb ed="#L" n="71"/>carnem &amp; inuisibiliter in mentem: &amp; hos modos missionis 
+      po<lb ed="#L" n="72" break="no"/>nit Augustinus. Et differt vna missio ab alia, nam missio in 
+      car<lb ed="#L" n="73" break="no"/>nem semel facta est, missio vero in mentem pluries. Item per 
+      <lb ed="#L" n="74"/>primam missus est in mundum, per secundam non proprie, 
+      im<lb ed="#L" n="75" break="no"/>peimam nobis tale donum datur per quod quodammodo 
+      su<lb ed="#L" n="76" break="no"/>pra mundum eleuamur. Et hoc confirmat per autoritatem Aug 
+      <lb ed="#L" n="77"/>Postea quaeritur cur pater non dicitur missus. Et respondet? 
+      <lb ed="#L" n="78"/>hoc ideo est quia non est ab alio, imo in eo est principium 
+      siu<lb ed="#L" n="79" break="no"/>autoritas, vnde autoritati non congruebat mitti. Et hoc 
+      con<lb ed="#L" n="80" break="no"/>firmat autoritate Aug. Vitimo excludit errorem quorundam 
+      <lb ed="#L" n="81"/>dicentium quod quia pater non mittitur, filius vero mittitur, &amp; 
+      <!--00152.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>Spiritus sanctus, Pater est maior, Filius vero &amp; Spiritus sanctus 
+      <lb ed="#L" n="83"/>sunt minores. Etiam respondet magister autoritate Augusti.c 
+      <lb ed="#L" n="84"/>propter talem misionem nulla ponitur minoritas in perfonis 
+      <lb ed="#L" n="85"/>missis, sed autoritas mittentis &amp; effectus visibilis in creatura 
+      <lb ed="#L" n="86"/>in qua pater non apparuit sicut illi, scilicet Filius &amp; Spiritus 
+      <lb ed="#L" n="87"/>sanctus. In fine autem dicit quod per ea quae dicta sunt patet quae 
+      <lb ed="#L" n="88"/>sit missio filij &amp; quibus modis mittatur. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

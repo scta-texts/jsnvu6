@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="9-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e144"><!-- l1prolq6 -->
+            <head xml:id="jsnvu6-d1e144-Hd1e101">Quaestio 6</head>
+            <head xml:id="jsnvu6-d1e144-Hd1e103" type="question-title">Utrum theologia sit practica an speculativa</head>
+            <p xml:id="jsnvu6-d1e144-d1e106">
+               <lb ed="#L" n="87"/>QUAESTIO SEXTA. 
+      <lb ed="#L" n="88"/>Thom. 1. q. 1. artic. 4. Scotus q. 4. 9. 5. Prologi. 
+    </p>
+            <p xml:id="jsnvu6-d1e144-d1e113">
+               <lb ed="#L" n="89"/>DEinde quaeritur, vtrum Theologia sit practica, an 
+      <lb ed="#L" n="90"/>speculatiua. Et videtur, quod sit speculatiua qua 
+      no<lb ed="#L" n="91" break="no"/>bilissima scientia est gra sui, vt dicitur i. Metaphy 
+      <lb ed="#L" n="92"/>sed Theologia est nobilissima scientia: ergo est gra 
+      <lb ed="#L" n="93"/>sui, contra scientia practica, non est gratiâ sui, sed 
+      <lb ed="#L" n="94"/>operis: ergo Theologia non est practica, sed speculatiua. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e129">
+               <lb ed="#L" n="95"/>
+               <!--2--> Item fides, &amp; Theologia accepta pro sacra scriptura, sunt 
+      <lb ed="#L" n="96"/>idem habitus, vt dictum fuit: sed fides est habitus speculatiuus: 
+      <lb ed="#L" n="97"/>ergo &amp; Theologia. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e141">
+               <lb ed="#L" n="98"/>
+               <!--3--> In contrarium est, quia scientia quae dirigit ad operationem 
+      <lb ed="#L" n="99"/>bonam, est practica: sed Theologia dirigit ad operationem 
+      bo<lb ed="#L" n="100" break="no"/>nam, vt patet Iacob. I. Estote factoros verbi, &amp; non auditores 
+      <lb ed="#L" n="101"/>tantum. &amp; simile habetur in compluribus locis: ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e154">
+               <lb ed="#L" n="102"/>
+               <!--4--> RESPONSIO. Circa quaestionem istam videnda sunt 
+      <lb ed="#L" n="103"/>tria. Primum est, a quo denominatur scientia speculatiua, vel pra 
+      <lb ed="#L" n="104"/>ctica. Secundum est, supposito quod a fine, vtrum a fine proximo, 
+      <lb ed="#L" n="105"/>an remoto. Tertium est: applicare ista ad propositum, inquiren 
+      <lb ed="#L" n="106"/>do scilicet, vtrum Theologia sit practica, an speculatiua. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e170">
+               <lb ed="#L" n="107"/>
+               <!--5--> Quantum ad primum, sciendum quod distinctio scientiarum 
+      <lb ed="#L" n="108"/>secundum speculatiuum &amp; practicum, est a fine formaliter, a subiecto 
+      <lb ed="#L" n="109"/>autem originaliter &amp; radicaliter. Prima patet, quia scientia 
+      dici<lb ed="#L" n="110" break="no"/>tur speculatiua ab actu speculandi, vel a speculatione, vt ipsum no 
+      <lb ed="#L" n="111"/>mem insinuat. Practica vero ab operatione extra intellectum per 
+      <lb ed="#L" n="112"/>eandem rationem. Praxis enim Graece est operatio Latine, non 
+      quae<lb ed="#L" n="113" break="no"/>cunque, sed extra intellectum. Speculatio autem, &amp; operatio, sunt 
+      fi<lb ed="#L" n="114" break="no"/>nes scientiarum: ergo distinctio earum secundum speculatiuum &amp; 
+      practi<lb ed="#L" n="115" break="no"/>cum, est formaliter ex parte finium. Maior patet ex vi nominis. 
+      Mi<lb ed="#L" n="116" break="no"/>nor declaratur, qa omnis habit? est finaliter ppter 
+      operatio<lb ed="#L" n="117" break="no"/>nem, quae est secundum habitum illum: vnde &amp; felicitas, quam habet rationem 
+      fi<lb ed="#L" n="118" break="no"/>nis, non est habitus, sed operatio secundum habitum perfectissimum, 
+      <lb ed="#L" n="119"/>vt vult Philosophus I. &amp; 10. Ethic. Operatio autem secundum 
+      ha<lb ed="#L" n="120" break="no"/>bitum scientiae, est speculatio vel praxis. Ergo speculatio, &amp; praxis, 
+      <lb ed="#L" n="121"/>sunt fines scientiarum. Quod autem operatio secundum habitum scientiae, 
+      <lb ed="#L" n="122"/>sit speculatio, vel praxis, patet: Cum enim scientia attingit suum ob 
+      <lb ed="#L" n="123"/>iectum per suam operationem, illa operatio vel est sola cognitio 
+      ve<lb ed="#L" n="124" break="no"/>ritatis circa obiectum, quae speculatio dicitur, vel est cognitio 
+      di<lb ed="#L" n="125" break="no"/>rigens in faciendo obiectum, sicut ars domificatiua praebet 
+      cogni<lb ed="#L" n="126" break="no"/>tionem dirigentem in faciendo domum, &amp; medicinalis in causando 
+      <lb ed="#L" n="127"/>sanitatem. Et talis operatio praxis dicitur ratione vlterioris 
+      ope<lb ed="#L" n="128" break="no"/>rationis, ad quam dirigit. Ergo speculatio quod praxis sunt 
+      operatio<lb ed="#L" n="129" break="no"/>nes scientiarum, &amp; fines earum, secundum quorum differenti am 
+      formali<lb ed="#L" n="130" break="no"/>ter distinguntur scientiae secundum speculatiuum &amp; practicum. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e227">
+               <lb ed="#L" n="131"/>
+               <!--6--> Secundum scz quod ista distinctio sit radicaliter a subiecto, patet 
+      <lb ed="#L" n="132"/>sic: Ex hoc habet radicaliter scientia, quod sit speculatiua vel practi 
+      <lb ed="#L" n="133"/>ca, quod operatio scientiae circa suum obiectum consistat in cognitione veri 
+      <lb ed="#L" n="134"/>tatis, vel sit directiua vlterioris opis. Et hoc patet ex 
+      praeceden<lb ed="#L" n="135" break="no"/>tibus. Sed hoc habet scientia ex natura sui obiecti. Ex hoc enim, quo 
+      <lb ed="#L" n="136"/>obiectum scientiae tale est, quod nullo modo est agibile vel factibile a 
+      <lb ed="#L" n="137"/>nobis, nec per opationem nostram, contingit ipsum sic vel aliter se haben 
+      <lb ed="#L" n="138"/>re, prouenit, quod opratio scientiae, consistit in sola circa ipsum cognitione 
+      <lb ed="#L" n="139"/>veritatis. Quando autem obiectum est agibile, vel factibile a 
+      no<lb ed="#L" n="140" break="no"/>bis, &amp; per opationem nostram contingit ipsu sic vel aliter se habere, 
+      <lb ed="#L" n="141"/>tunc opatio scientiae circa ipsum non consistit in cognitione 
+      verita<lb ed="#L" n="142" break="no"/>tis, sed dirigit in prosecutione operis. Ergo scientia habet 
+      radi<lb ed="#L" n="143" break="no"/>caliter ex obiecto, quod sit speculatiua vel practica, licet hoc 
+      ha<lb ed="#L" n="144" break="no"/>beat formaliter a fine. Et vtrunque istorum innuit Philosoph. 3. c. 
+      <lb ed="#L" n="145"/>de Anima, vbi primo dicit, quod intellectus practicus differt a 
+      spe<lb ed="#L" n="146" break="no"/>culatiuo fine, ouantum ad differentiam formalem: &amp; postea tangens ra 
+      <lb ed="#L" n="147"/>dicem &amp; originem huius difserentiae subdit quod obiectum intellectus 
+      <lb ed="#L" n="148"/>practici, est bonum non autem omne, sed actuale, quod est etiam contingens 
+      <lb ed="#L" n="149"/>aliter se habere. Et sic patet primum principale, scilicet vnde 
+      su<lb ed="#L" n="150" break="no"/>matur distinctio scientiarum secundum speculatiuum &amp; practicum. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e275">
+               <lb ed="#L" n="151"/>
+               <!--7--> Quantum ad secundum, dicunt quida, quod Theolog. dicitur 
+      spe<lb ed="#L" n="152" break="no"/>culat. vel practica, magis a fine remoto, quam a proximo: &amp; quia si 
+      <lb ed="#L" n="153"/>nis remotus Theolog. est speculatio patriae: ideo dicunt quod pro 
+      <lb ed="#L" n="154"/>pter istum finem Theolog. qualitercumque sit accepta, est 
+      speculati<lb ed="#L" n="155" break="no"/>ua simpliciter. Assumptum probant tripliciter. Primo, qua denomi 
+      <lb ed="#L" n="156"/>natio debet fieri a fine principal. &amp; magis intento: sed finis prin 
+      <lb ed="#L" n="157"/>cipalior, &amp; magis intentus, est beatitudo patriae: ergo ab 5 
+      de<lb ed="#L" n="158" break="no"/>bet denominagi Theolog. Secundo, quia viator quandiu est in 
+      <lb ed="#L" n="159"/>via, non potest attingere finem aut terminum: sed Theolog. est 
+      <lb ed="#L" n="160"/>scientia viatoris: ergon finis eius non est aliquid, quod possit in 
+      <lb ed="#L" n="161"/>via attingi: ergo finis eius non est cognitio viae quae attingitur 
+      <lb ed="#L" n="162"/>nunc, sed cognitio patriae: &amp; sic idem quod prius. Tertio, quia in 
+      <lb ed="#L" n="163"/>sinibus &amp; habitibus ordinatis finis supremus nominat habitum 
+      <lb ed="#L" n="164"/>supremum: sicut regere ciuitatem, &amp; regnum, cum sit supremus finis 
+      <!--00082.xml-->
+      <pb ed="#L" n="9-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in vita ciuili, denominat politicam, quae est suprema inter 
+      mo<lb ed="#L" n="2" break="no"/>rales scientias: sed beatitudo patiiae est supremus finis hominis 
+      <lb ed="#L" n="3"/>ergo debet denominare Theologiam, quae est suprema scientia 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e323">
+               <lb ed="#L" n="4"/>
+               <!--8.--> His tamen non obstantibus, dicendum est, od Theologia non 
+      <lb ed="#L" n="5"/>debet denominari speculatiua a fine remoto, scilicet a specula 
+      <lb ed="#L" n="6"/>tione patriae. Quod patet tripliciter: Primo sic: Omnis finis 
+      <lb ed="#L" n="7"/>qui denominat aliquam scientiam, est operatio, quam scientia elicit 
+      <lb ed="#L" n="8"/>vel operatio quam regulat, atque dirigit: sed beatitudo patriae, no 
+      <lb ed="#L" n="9"/>est operatio elicita ex nostra Theologia, nec est directe 
+      regu<lb ed="#L" n="10" break="no"/>lata per Theologiam nostram: ergo non denominat eam, vt ab ipsa 
+      <lb ed="#L" n="11"/>dicatur speculatiua vel practica. Minor est de se clara: sed 
+      ma<lb ed="#L" n="12" break="no"/>ior probatur: quia sicut dictum fuit prius, cum omnis scientia attingai 
+      <lb ed="#L" n="13"/>obiectum per suam operationem, illa operatio vel est sola cognitio 
+      <lb ed="#L" n="14"/>veritatis, quae speculatio dicitur, &amp; ab hac dicitur speculatiua 
+      <lb ed="#L" n="15"/>vel est cognitio dirigens ad faciendum obiectum, vel ad factionem 
+      <lb ed="#L" n="16"/>vel actionem obiecti, &amp; tunc dicitur practica. Nec practicum, seu 
+      <lb ed="#L" n="17"/>speculatium, aliter acceptum est vsque adhuc a quocunque Philosopho.
+      <lb ed="#L" n="18"/>Et sic patent tam maior, quam minor: sequitur ergo conclusio. 
+</p>
+            <p xml:id="jsnvu6-d1e144-d1e361">
+               <lb ed="#L" n="19"/>Secundo probatur idem sic: nulla scientia potest denominari 
+      <lb ed="#L" n="20"/>speculatiua, vel practica, a fine ad quem solum ordinatur per 
+      mo<lb ed="#L" n="21" break="no"/>dum disponentis a remotis, vel per modum meriti, aut mediante 
+      <lb ed="#L" n="22"/>merito: sed Theologia non ordinatur ad beatitudinem patriae, 
+      <lb ed="#L" n="23"/>nisi solum disponendo a remotis, vel mediante merito: ergo non 
+      <lb ed="#L" n="24"/>debet denominari speculatiua a speculatione patriae. Maior pa 
+      <lb ed="#L" n="25"/>tet: quia habitus immediate disponit habentem ad operationem 
+      <lb ed="#L" n="26"/>quae denominat ipsum. Si enim sufficeret remota dispositio 
+      <lb ed="#L" n="27"/>tunc virtutes morales essent habitus speculatiui, cum disponant 
+      <lb ed="#L" n="28"/>saltem a remotis ad beatitudinem naturalem, quae secundum 
+      <lb ed="#L" n="29"/>Philo. 10. Ethico, consistit in contemplatione veritatis. Si enim 
+      <lb ed="#L" n="30"/>sufficeret ordo meriti ad praemium, fortiori ratione ipsum 
+      meri<lb ed="#L" n="31" break="no"/>tum debet dici contemplatiuum magis, quam illud quod 
+      ordina<lb ed="#L" n="32" break="no"/>tur ad contemplationem mediante merito: quod est absurdum. Item 
+      <lb ed="#L" n="33"/>vbi habitus ordinatur ad aliquem finem mediante merito, 
+      con<lb ed="#L" n="34" break="no"/>secutio finis est secundum modum meriti, &amp; non secundum modum 
+      <lb ed="#L" n="35"/>habitus, vt in proposito. Beatior enim est vetula, vel idiota 
+      ma<lb ed="#L" n="36" break="no"/>gni meriti, quam Doctor in Theologia parui meriti: imo 
+      ve<lb ed="#L" n="37" break="no"/>tula bona, vel idiota, consequitur finem illum, scilicet 
+      beatitudi<lb ed="#L" n="38" break="no"/>nem patriae per meritum absque habitu Theologiae: doctor 
+      au<lb ed="#L" n="39" break="no"/>tem malus, habens habitum absque merito, non consequitur. In com 
+      <lb ed="#L" n="40"/>ueniens autem est, quod ille finis denominet habitum, qui non 
+      po<lb ed="#L" n="41" break="no"/>test attingi per habitum absque aliquo alio, &amp; potest attingi per 
+      <lb ed="#L" n="42"/>aliud absque tali habitu. Patet ergo maior, scilicet quod scientia non 
+      <lb ed="#L" n="43"/>denominatur speculatiuas, vel practica a fine ad quem solum 
+      or<lb ed="#L" n="44" break="no"/>dinatur per modum disponentis a remotis, vel mediante merito 
+      <lb ed="#L" n="45"/>Minor similiter patet: qa Theologia nostra immediate non 
+      dis<lb ed="#L" n="46" break="no"/>Ponit ad visionem patriae, sed habitus gloriae: sed si disponat, hoc 
+      <lb ed="#L" n="47"/>esset mediante merito, sine quo attingitur beatitudo: ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e426">
+               <lb ed="#L" n="48"/>
+               <!--10.--> Tertio patet illud sic. si Theologia diceretur habitus 
+      spe<lb ed="#L" n="49" break="no"/>culatiuus a speculatione patriae, cum illa sit visio Dei per 
+      essen<lb ed="#L" n="50" break="no"/>tiam, posset dici, quod Theologia est habitus visionis Dei per 
+      essen<lb ed="#L" n="51" break="no"/>tiam. Consequens est falsum: ergo &amp; antecedens. Probatur 
+      con<lb ed="#L" n="52" break="no"/>sequentiae: quandocunque sub aliquo termino communiter sum 
+      <lb ed="#L" n="53"/>pto non est dare nisi vnum contentum sub ipso, licitum est 
+      e<lb ed="#L" n="54" break="no"/>termino communi inferre terminum specialem sub ipso 
+      con<lb ed="#L" n="55" break="no"/>tentum: verbi gratia, si nullus esset homo, nisi Sortes, &amp; dicere 
+      <lb ed="#L" n="56"/>tur, quod homo currit: vere sequeretur, ergo Sortes currit. 
+      <lb ed="#L" n="57"/>Necessarium est enim, terminum communem verificari pro aliquo 
+      <lb ed="#L" n="58"/>contento sub ipso: sed sub beatitudine patriae non est dare 
+      ali<lb ed="#L" n="59" break="no"/>quid contentum, nisi visionem Dei per essentiam: ergo si 
+      Theo<lb ed="#L" n="60" break="no"/>logia diceretur speculatiua a speculations patriae, diceretur 
+      <lb ed="#L" n="61"/>etiam speculatiua a speculatione Dei per essentiam, quia 
+      nul<lb ed="#L" n="62" break="no"/>la est alia speculatio Dei in patria, in qua sit beatitudo nostra 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e463">
+               <lb ed="#L" n="63"/>
+               <!--11--> Ad rationes aliorum dicendum: ad primam, quod denominatio 
+      pro<lb ed="#L" n="64" break="no"/>pria habituum secundum speculatiuum &amp; practicum, debet attendi 
+      se<lb ed="#L" n="65" break="no"/>cundum fines proprios, &amp; non secundum fines communes, dato quod sint 
+      <lb ed="#L" n="66"/>principaliores: quia ad eundem finem remotum possunt ordi 
+      <lb ed="#L" n="67"/>nari habitus speculatiuus &amp; practicus, sicut ad beatitudinem viae 
+      <lb ed="#L" n="68"/>quae est contemplatio Dei possibilis in via, ordinantur virtute 
+      <lb ed="#L" n="69"/>morales, disponendo hominem, vt aptior sit in contemplando, ne 
+      <lb ed="#L" n="70"/>perturbetur passionibus. Ordinantur etiam ad idem scientiae 
+      na<lb ed="#L" n="71" break="no"/>turales, quia ex sensibilibus consurgimus in cognitionem 
+      De<lb ed="#L" n="72" break="no"/>Metaphysica etiam ordinatur ad idem, magis de propinquo. S 
+      <lb ed="#L" n="73"/>ergo a tali fine fieret denominatio, totum esset speculatiuum 8 
+      <lb ed="#L" n="74"/>nihil practicum, vel econuerso: quod est inconuenieus. Sic in 
+      pro<lb ed="#L" n="75" break="no"/>g, quia beatitudo patriae non est finis proprius, sed remotus 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e496">
+               <lb ed="#L" n="76"/>
+               <!--12--> Ad secundum dicendum, quod viatori repugnat attingere finem 
+      <lb ed="#L" n="77"/>vltimum simpliciter, sed non repugnat ei attingere finem 
+      con<lb ed="#L" n="78" break="no"/>gruentem suo statui, alioquin non hospitaretur alicubi vsque ac 
+      <lb ed="#L" n="79"/>finem viae, similiter nunc attingimus fine viae congruentem sta 
+      <lb ed="#L" n="80"/>tui viae, quae est cognitio licet aenigmatica articulorum de Dec 
+      <lb ed="#L" n="81"/>Saluatore, &amp; aliorum, quatum sufficit ad dirigendum ad salutem 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e514">
+               <lb ed="#L" n="82"/>
+               <!--13--> Ad tertium dicendum, quod supremus habitus est habitus 
+      <!--00082.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>gloriae speculatiuus, non autem Theologia nostra: imo magis 
+      <lb ed="#L" n="84"/>sequitur contrarium: quia idem finis non potest denominare 
+      <lb ed="#L" n="85"/>diuersos habitus propria denominatione. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e532">
+               <lb ed="#L" n="86"/>
+               <!--14--> Quantum ad tertium articulum, de quo est principale 
+      pro<lb ed="#L" n="87" break="no"/>positum, dicunt quidam, quod Theologia nec est speculatiua, nec 
+      <lb ed="#L" n="88"/>practica, sed affectiua: quod probant sic: quia illa scientia est affe 
+      <lb ed="#L" n="89"/>ctiua, cuius finis principalis est amor, vel affectio: sed 
+      Theolo<lb ed="#L" n="90" break="no"/>gia est huiusmodi: ergo ipsa est affectiua. Maior patet: sed 
+      mi<lb ed="#L" n="91" break="no"/>nor probatur: primo per illud, quod dicit Apo. primae ad Tim. 
+      <lb ed="#L" n="92"/>1. Finis praecepti est charitas. Secundo, per illud, quod dicit Au 
+      <lb ed="#L" n="93"/>gustinus, &amp; inductum fuit prius, Ille tenet &amp; quod latet, &amp; quod 
+      <lb ed="#L" n="94"/>patet, &amp;c. Tertio, per rationem: qa illud habet rationem finis, quod 
+      <lb ed="#L" n="95"/>habet rationem melioris: sed in via amor Dei melior est 
+      cogni<lb ed="#L" n="96" break="no"/>tione Dei, quam habemus per fidem, vt patet primae ad Cor. 13 
+      <lb ed="#L" n="97"/>Maior horum charitas: ergo &amp;c. Si autem est affectiua, non est 
+      spe<lb ed="#L" n="98" break="no"/>culatiua, nec practica: quia spoculatiuum &amp; practicum pertinent 
+      <lb ed="#L" n="99"/>ad intellectum, affectiuum autem pertinet ad voluntatem. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e568">
+               <lb ed="#L" n="100"/>
+               <!--15--> Haec autem opinio vnum affirmat, scilicet quod Theologia 
+      de<lb ed="#L" n="101" break="no"/>bet dici affectiua, de quo postea videbitur. Aliud autem negat. 
+      <lb ed="#L" n="102"/>scilicet quod nec est speculatiua, nec practica: quod non videtur verum: 
+      <lb ed="#L" n="103"/>quod patet primo, ostendendo generaliter de omni scientia, qui 
+      <lb ed="#L" n="104"/>oportet eam esse practicam, vel speculatiuam. Secundo, 
+      ostendem<lb ed="#L" n="105" break="no"/>da illud de Theologia, etiam si ponatur affectiua. Primum 
+      pa<lb ed="#L" n="106" break="no"/>tet sic: ex parte actuum, omnis scientia attingit suum obiectum 
+      <lb ed="#L" n="107"/>per actum qui consistit in sola cognitione veritatis, vel per actum 
+      <lb ed="#L" n="108"/>qui dirigit in exercitium vlterioris operis: sed scientia, quae 
+      at<lb ed="#L" n="109" break="no"/>tingit suum obiectum per operationem quae consistit in sola 
+      cognitio<lb ed="#L" n="110" break="no"/>ne veritatis, est speculatiua: illa autem, cuius actus dirigit in 
+      ex<lb ed="#L" n="111" break="no"/>ercitium vlterioris operis est practica: ergo omnis scientia est 
+      spe<lb ed="#L" n="112" break="no"/>culatiua, vel practica. Vtraque praemissarum patet ex praecedentibus. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e601">
+               <lb ed="#L" n="113"/>
+               <!--16--> Secundo patet idem ex parte obiectorum. Omnis scientia, quae 
+      <lb ed="#L" n="114"/>habet obiectum agibile, vel tactibile a nobis, quod per 
+      operatio<lb ed="#L" n="115" break="no"/>nem nostram conuenit sic vel aliter se habere, est vere practica. 
+      <lb ed="#L" n="116"/>Quae autem non habet obiectum factibile a nobis: nec per 
+      operatio<lb ed="#L" n="117" break="no"/>nem nostra contingit sic vel aliter se habere, est vere speculatiua. 
+      <lb ed="#L" n="118"/>Sed omnis scientia habet tale vel tale obiectum cum fiat diuisio per 
+      <lb ed="#L" n="119"/>affirmationem &amp; negationem. Ergo &amp;c. Maior patet ex praemissis. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e621">
+               <lb ed="#L" n="120"/>
+               <!--17--> Secundo patet idem de Theologia, etiam ponendo quod sit 
+      effe<lb ed="#L" n="121" break="no"/>ctiua: quia cum agamus nunc de denominatione scientiae, quae 
+      <lb ed="#L" n="122"/>est a fine formaliter, vt dictum fuit, finis Theologiae erit aut 
+      <lb ed="#L" n="123"/>sola cognitio veritatis circa charitatem &amp; affectionem, aut erii 
+      <lb ed="#L" n="124"/>cognitio qualiter charitas &amp; bona affectio habet in nobis. Sed 
+      <lb ed="#L" n="125"/>primo modo Theologia esset pure speculatiua, secundo esset 
+      <lb ed="#L" n="126"/>vere practica, vt patet ex propriis rationibus speculatiui &amp; 
+      <lb ed="#L" n="127"/>practici supra positis. Ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e643">
+               <lb ed="#L" n="128"/>
+               <!--18--> Ratio autem eorum non valet, nec colorem habet. Cum enim 
+      dici<lb ed="#L" n="129" break="no"/>tur, quod speculatiuum, &amp; practicum pertinent ad intellectu, affectiuum 
+      <lb ed="#L" n="130"/>autem ad voluntatem, ergo &amp; quod est affectiuum, non est speculatiuum 
+      <lb ed="#L" n="131"/>nec practicum: non valet, primo, quia directe est contra eos: quia 
+      <lb ed="#L" n="132"/>Theologia &amp; omnis scientia est habitus intellectiuus: sed 
+      affe<lb ed="#L" n="133" break="no"/>ctiuum non pertinet ad intellectum, sed ad voluntatem: ergo nec Theo 
+      <lb ed="#L" n="134"/>logia, nec aliqua scientia potest dici affectiua: cuius contrarium ipsi 
+      <lb ed="#L" n="135"/>dicunt. Secundo, quia omnis moralis scientia ordinatur finaliter ad 
+      <lb ed="#L" n="136"/>hoc vt boni fiamus, vt patet ex variis locis lib. Ethi. bonitas autem 
+      <lb ed="#L" n="137"/>moralis consistit in hoc, quod bene afficimur, tam secundum voluntatem, quam 
+      <lb ed="#L" n="138"/>secundum appetitum sensitiuum: ergo scientia moralis vere est 
+      affecti<lb ed="#L" n="139" break="no"/>ua, &amp; tamen ponitur practica: ergo affectiuum non excludit practicum. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e674">
+               <lb ed="#L" n="140"/>
+               <!--19--> Dicendum ergo, quod licet speculatio, a qua dicitur scientia 
+      spe<lb ed="#L" n="141" break="no"/>culatiua, sit in intellectu, tamen praxis, a qua scientia dicitur 
+      pra<lb ed="#L" n="142" break="no"/>ctica, non est in intellectu, sed in aliqua alia potentia. Scientia tamen 
+      <lb ed="#L" n="143"/>denominatur practica, quia est causa praxis per modum 
+      dirigen<lb ed="#L" n="144" break="no"/>tis: &amp; simili modo posset dici affectiua, licet affectio non sit in 
+      <lb ed="#L" n="145"/>intellectu, sed in voluntate: sicut dicimus, quod ars est habitus factius 
+      <lb ed="#L" n="146"/>&amp; tamen factio non est i intellectu, sed in rebus extra eum. Sed factionem 
+      <lb ed="#L" n="147"/>dirigit ars. Patet ergo, quod dato quod Theol. diceretur affectiua, istud 
+      <lb ed="#L" n="148"/>tien non excludit, quin oporteat ea esse speculatiua, aut practica 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e698">
+               <lb ed="#L" n="149"/>
+               <!--20--> Dicendum ergo iuxta distinctionem suprapositam, quod aut quaerii 
+      <lb ed="#L" n="150"/>de Theol. quae est habitus eorum, quae in sacra scriptura 
+      tradun<lb ed="#L" n="151" break="no"/>tur, aut de Theolog. quae est fidei defensiua &amp; declaratiua. 
+      Ter<lb ed="#L" n="152" break="no"/>tius enim modus coincidit cum primo, vt dictum fuit in 
+      praece<lb ed="#L" n="153" break="no"/>dente quaestione. Loquendo de Theologia primo modo, 
+      dicen<lb ed="#L" n="154" break="no"/>dum, quod ipsa est practica simpliciter, quod patet sic: Quia illa sci 
+      <lb ed="#L" n="155"/>entia, quae habet pro obiecto aliquid agibile, vel factibile a 
+      no<lb ed="#L" n="156" break="no"/>bis, quod per operationem nostra contingit sic vel aliter se 
+      habe<lb ed="#L" n="157" break="no"/>re, est vere &amp; simpliciter practica, sed Theolog. accepta primo 
+      <lb ed="#L" n="158"/>modo, pro habitu quo cognoscimus ea, quae in sacra scriptura 
+      <lb ed="#L" n="159"/>traduntur, habet pro subiecto opus meritorium, quod est agibile 
+      <lb ed="#L" n="160"/>a nobis. &amp; per operationem nostra contingit sic vel aliter se 
+      ha<lb ed="#L" n="161" break="no"/>bere: ergo Theologia vel sacra scriptura est vere &amp; simpliciter 
+      <lb ed="#L" n="162"/>practica. Vtraque praemissarum patet ex praecedentibus.. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e734">
+               <lb ed="#L" n="163"/>
+               <!--21--> Sed contra rationem potest obiici sic: Scientia practica habet 
+      <lb ed="#L" n="164"/>subiectum sic agibile vel factibile a nobis, quod nos possumus 
+      <!--00083.xml-->
+      <pb ed="#L" n="10-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>eius esse causa sufficiens, vt patet in Polit. &amp; Moral. Sed nos non 
+      <lb ed="#L" n="2"/>possumus esse causa sufficiens operis meritorij, cum requirat cha 
+      <lb ed="#L" n="3"/>ritatem, quam non est in potestate nostra. Ergo sacra scriptura non est 
+      <lb ed="#L" n="4"/>practica, quamuis sit de opere meritorio, vt de subiecto. Est dice 
+      <lb ed="#L" n="5"/>dum, quod maior propositio est falsa. Non enim requiritur ad scienti. 
+      <lb ed="#L" n="6"/>practicam, quod homo per eam sit sufficiens causa sui obiecti: sed 
+      suf<lb ed="#L" n="7" break="no"/>ficit, quod sit causa vel concausa, ita quod operatio hominis necessario 
+      <lb ed="#L" n="8"/>requiratur ad causandum obiectum, &amp; quod ad hoc ordinetur 
+      scien<lb ed="#L" n="9" break="no"/>tia. Sic autem est in proposito. Necesse est enim, opus nostrum con 
+      <lb ed="#L" n="10"/>currere ad meritum. Item licet non sit in potestate hominis, cau 
+      <lb ed="#L" n="11"/>sare in se charitatem, est tamen in potestate sua, disponere se in 
+      <lb ed="#L" n="12"/>tantum, quod Deus dabit illi charitatem, &amp; habita charitate, in 
+      po<lb ed="#L" n="13" break="no"/>testate eius est, meritorie agere, ideo instantia nulla est. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e778">
+               <lb ed="#L" n="14"/>
+               <!--22--> Secundo patet idem sic: Illa scientia est simpliciter practica, 
+      <lb ed="#L" n="15"/>cuius operatio circa obiectum suum non consistit in 
+      contemplatio<lb ed="#L" n="16" break="no"/>ne veritatis, sed dirigit in prosecutione operis: sed Theologia 
+      <lb ed="#L" n="17"/>vel sacra scriptura, est huiusmodi ergo ipsa est simpliciter 
+      pra<lb ed="#L" n="18" break="no"/>ctica. Maior patet ex praecedentibus. Et minor patet quasi ex 
+      in<lb ed="#L" n="19" break="no"/>finitis locis scripturae, in quibus commendantur facientes, &amp; 
+      repre<lb ed="#L" n="20" break="no"/>henduntur auditores, &amp; non facientes. Et sine dubio mirum esset, nisi 
+      <lb ed="#L" n="21"/>esset practica, cum euidenter appareat omni consideranti scriptur: 
+      <lb ed="#L" n="22"/>a principio vsque ad finem, quia semper pro vna scripturae coluna, 
+      <lb ed="#L" n="23"/>in qua agitur de his quae sunt pure speculabilia a nobis, sunt 
+      <lb ed="#L" n="24"/>plusquam quingenta folia, in quibus agitur de pure practicis. Et 
+      <lb ed="#L" n="25"/>quia opus meritorium non est sine charitate, qua principaliter di 
+      <lb ed="#L" n="26"/>ligimus Deum: ideo sacra scriptura, quae principaliter agit de 
+      <lb ed="#L" n="27"/>opere meritorio in compluribus locis hortatur ad charitatem, qu 
+      <lb ed="#L" n="28"/>bene afficimur ad Deu. Et si propter hoc sacra scriptura 
+      dica<lb ed="#L" n="29" break="no"/>tur affectiua, non negando tamen eam esse practicam, non est male 
+      di<lb ed="#L" n="30" break="no"/>ctum. Iuxta quem sensum sunt accipiendae autoritates ad hoc 
+      indu<lb ed="#L" n="31" break="no"/>ctae per alios, &amp; rationes similiter. Cum enim finis practicae sit 
+      <lb ed="#L" n="32"/>operatio, per quam sit suum subiectum, &amp; dilectio est opus quoddam 
+      <lb ed="#L" n="33"/>meritorium, nec sine dilectione sunt alia meritoria, ponendo 
+      di<lb ed="#L" n="34" break="no"/>lectionem finem magis, quam cognitionem, non discedimus a 
+      propo<lb ed="#L" n="35" break="no"/>sito nostro, quod dictum est, quod subiectum Theologiae est 
+      opu<lb ed="#L" n="36" break="no"/>meritorium, &amp; finis eiusdem est dilectio respectu operis 
+      meri<lb ed="#L" n="37" break="no"/>torij. Patet ergo primum, scilicet quod Theologia accepta pro 
+      ha<lb ed="#L" n="38" break="no"/>bitu eorum, quae trahit sacra scriptura, est simpliciter practica.
+</p>
+            <p xml:id="jsnvu6-d1e144-d1e837">
+               <lb ed="#L" n="39"/>Si accipiatur Theologia pro habitu quo articuli 
+      principa<lb ed="#L" n="40" break="no"/>les defonduntur &amp; declarantur, sic dicendum, quod Theologia est 
+      <lb ed="#L" n="41"/>simpliciter speculatiua. Quod patet dupliciter, primo ex parte 
+      <lb ed="#L" n="42"/>obiecti sic: Illa scientia est speculatiua, &amp; non practica, cuius 
+      obie<lb ed="#L" n="43" break="no"/>ctum non est agibile a nobis, nec factibile, nec per operationem 
+      <lb ed="#L" n="44"/>nostram contingit ipsum aliter se habere: sed Theologia, quae est 
+      <lb ed="#L" n="45"/>fidei defensiua &amp; declaratiua, est huiusmodi, cum obiectu eius, 
+      <lb ed="#L" n="46"/>vel subiectum, sit Deus sub ratione Saluatoris: ergo ipsa est 
+      sim<lb ed="#L" n="47" break="no"/>pliciter speculatiua. Vtraque praemissarum patet ex 
+      praecedon<lb ed="#L" n="48" break="no"/>tibus. Secundo patet idem ex parte finis sic: Illa scientia est 
+      sim<lb ed="#L" n="49" break="no"/>pliciter speculatiua, cuius operatio circa suum obiectum 
+      consisti<lb ed="#L" n="50" break="no"/>in cognitione veritatis: sed actus Theologiae, qui defendit &amp; de 
+      <lb ed="#L" n="51"/>clarat fidem, consistit in sola cognitione veritatis. Ad hoc enim 
+      <lb ed="#L" n="52"/>solum directe ordinatur, vt veritas articulorum, quae secundum 
+      <lb ed="#L" n="53"/>humanum intellectum multum dubia est &amp; obscura aliqualiter 
+      <lb ed="#L" n="54"/>declaretur &amp; defendatur: ergo ipsa est speculatiua. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e874">
+               <lb ed="#L" n="55"/>
+               <!--4--> Ad rationes principales respondendum est. Ad primam, 
+      <lb ed="#L" n="56"/>cum dicitur, quod nobilissima scientia est gratia sui, 
+      conceda<lb ed="#L" n="57" break="no"/>tur: &amp; cum subditur, quod Theologia est nobilissima scientia, 
+      <lb ed="#L" n="58"/>si fiat comparatio respectu omnis scientiae, generaliter falsum 
+      <lb ed="#L" n="59"/>est Scientia enim Beatorum, multo nobilior est, &amp; illa est 
+      gra<lb ed="#L" n="60" break="no"/>tia sui, &amp; pure speculatiua. Si autem fiat comparatio respectu 
+      <lb ed="#L" n="61"/>scientiarum, quae habentur in via, tunc dicendum, quod aut tunc 
+      <lb ed="#L" n="62"/>loqueris de Theologia quae est defensiua fidei &amp; declaratiua, 
+      <lb ed="#L" n="63"/>&amp; tunc es pro me, quia illam pono speculatiuam, aut de 
+      Theo<lb ed="#L" n="64" break="no"/>logia, quae est habitus eorum, quae ex principalibus articulis, 
+      con<lb ed="#L" n="65" break="no"/>cluditur, sic dico quod Theologia non est nobilissima, nec 
+      ra<lb ed="#L" n="66" break="no"/>tione subiecti, cum sit de opere meritorio, tanquam de 
+      subie<lb ed="#L" n="67" break="no"/>cto, nec ratione certitudinis euidentiae, cum aliae multo 
+      cer<lb ed="#L" n="68" break="no"/>tius, hoc est euidentius procedant. Et tamen nobilior 
+      inte<lb ed="#L" n="69" break="no"/>scientias practicas, &amp; ratione finis, &amp; subiecti. Potest etiam 
+      di<lb ed="#L" n="70" break="no"/>ci, quod est nobilior omnibus scientiis humanitus adinuenti; 
+      <lb ed="#L" n="71"/>ratione luminis, in quo reuelantur, &amp; cognoscuntur 
+      Theolo<lb ed="#L" n="72" break="no"/>gica: sed ista nobilitas non arguit eam esse speculatiuam, cum 
+      <lb ed="#L" n="73"/>in illo lumine aeque possent reuelari &amp; cognosci speculatiua 
+      <lb ed="#L" n="74"/>sicut practica, &amp; econuerso. 
+      </p>
+            <p xml:id="jsnvu6-d1e144-d1e922">
+               <lb ed="#L" n="75"/>
+               <!--25--> Ad secundum dicendum, quo fides accepta secundam suam 
+      <lb ed="#L" n="76"/>totam latitudinem, &amp; prout est idem cum Theologia primo modo 
+      <lb ed="#L" n="77"/>dicta, est habitus, quia non est principaliter vt cognoscamus, sed 
+      <lb ed="#L" n="78"/>vt boni fiamus, vnde tota vel principalis necessitas fidei est, vt 
+      <lb ed="#L" n="79"/>cognito sine nostro, dirigantur opera nostra ad consequendum finem. 
+      <lb ed="#L" n="80"/>Propter quod Beat. Iac. Can. sua. 2. c. dicit fidem sine operibus 
+      <lb ed="#L" n="81"/>otiosam. Otiosum enim est, quod, non attingit finem, ad quem 
+      <lb ed="#L" n="82"/>ordinatur. Ergo fides ordinatur ad hoc, vt per opera merito¬ 
+      <!--00083.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>ria ac salutaria ronsequamur nostram salutem. Et sic est habitus 
+      <lb ed="#L" n="84"/>practicus. Si autem arctaretur praecise ad fidem articulorum 
+      prin<lb ed="#L" n="85" break="no"/>cipalium, sic esset habitus speculatiuus, &amp; Theolog. declarans 
+      <lb ed="#L" n="86"/>ac defendens eam, est speculatiua: quia vt sic consistit in 
+      specu<lb ed="#L" n="87" break="no"/>latione, &amp; declaratione, seu defensione veritatis articulorum. 
+      <lb ed="#L" n="88"/>Sed quia in Theologia primo modo, &amp; tertio modo sumpta, 
+      <lb ed="#L" n="89"/>articuli applicantur practice ad conclusiones ibidem deductas: 
+      <lb ed="#L" n="90"/>ideo Theolog. sic assumpta est practica. Et est simile, quod regnante 
+      <lb ed="#L" n="91"/>tali astro, vel constellatione mare sit tempestuosum, pure est 
+      <lb ed="#L" n="92"/>speculabile a nobis. Et hoc pertinet ad habitum pure speculatiuum 
+      <lb ed="#L" n="93"/>vt puta ad Astronomiam: &amp; tamen nauigatiua hoc principium 
+      ap<lb ed="#L" n="94" break="no"/>plicat ad opus sic. Non expedit nauigare, mari existente 
+      tem<lb ed="#L" n="95" break="no"/>pestuoso, sed regnante tali astro, vel constellatione, maro est 
+      <lb ed="#L" n="96"/>tempestuosum: ergo tunc non expedit nauigare. Vnde 
+      nauigati<lb ed="#L" n="97" break="no"/>ua non est speculatiua. Similiter in proposito nostro licet fides 
+      <lb ed="#L" n="98"/>articulorum principalium sit de pure speculabilibus a nobis, 
+      <lb ed="#L" n="99"/>tamen practice applicantur ad opus meritorium, tanquam dire 
+      <lb ed="#L" n="100"/>ctiua operis meritorij, vt ostensum fuit prius: propter quod licet 
+      <lb ed="#L" n="101"/>fides articulorum sit habitus speculatiuus, tamen Theolog. quae 
+      arti<lb ed="#L" n="102" break="no"/>culos fidei applicat ad opus meritorium, est practica.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

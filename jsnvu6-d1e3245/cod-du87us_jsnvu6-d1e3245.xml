@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="142-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3245"><!-- l2d21q1 -->
+            <head xml:id="jsnvu6-d1e3245-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e3245-Hd1e103" type="question-title">Utrum tentatio sit peccatum</head>
+            <p xml:id="jsnvu6-d1e3245-d1e106">
+      <!--00351.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="82"/>Vtrum tentatio sit peccatum. 
+      <lb ed="#L" n="83"/>Tham. 1. g4. 114. ar. 3. &amp; 1. 2. 4. 80. ar. 4.
+    </p>
+            <p xml:id="jsnvu6-d1e3245-d1e119">
+               <lb ed="#L" n="84"/>CIRCA distinctionem 21. Primo quaeritur, vtrum 
+      <lb ed="#L" n="85"/>tentatio sit peccatum. Et videtur quod non: 
+      qui<lb ed="#L" n="86" break="no"/>nullus peccat in eo quod vitare non potest: sec 
+      <lb ed="#L" n="87"/>Inullus potest vitare quin quandoque tentetur, 
+      igi<lb ed="#L" n="88" break="no"/>tur, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3245-d1e132">
+               <lb ed="#L" n="89"/>
+               <!--2--> Item secundum Grego. tentatio cui non consentitur non 
+      <lb ed="#L" n="90"/>est vitium, sed materia exercendae virtutis: sed non est 
+      neces<lb ed="#L" n="91" break="no"/>se tentationi consentire, ergo, &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e3245-d1e144">
+               <lb ed="#L" n="92"/>IN CONTRARIVM est quod dicit August. 3. de ciui 
+      <lb ed="#L" n="93"/>Dei, quod nonnullum vitium est cum caro concupiscit aduersu. 
+      <lb ed="#L" n="94"/>spiritum: sed in hoc consistit tentatio carnis, ergo ipsa semper 
+      <lb ed="#L" n="95"/>est peccatum, &amp; idem iudicium videtur esse de omnibus aliis 
+      </p>
+            <p xml:id="jsnvu6-d1e3245-d1e155">
+               <lb ed="#L" n="96"/>
+               <!--4--> RESPONSIO. Videnda sunt tria. Primum est quid 
+      <lb ed="#L" n="97"/>sit tentatio, &amp; quae sunt de ratione tentationis. Secundum eri 
+      <lb ed="#L" n="98"/>cui conueniat tentare. Et ex his apparebit tertium, scilicet quae 
+      <lb ed="#L" n="99"/>tentatio sit peccatum, &amp; quae non. 
+      </p>
+            <p xml:id="jsnvu6-d1e3245-d1e168">
+               <lb ed="#L" n="100"/>
+               <!--5--> CIRCA primum est intelligendum quod tentatio, sicut 
+      <lb ed="#L" n="101"/>nunc loquimur, &amp; contra quam oramus dicentes, &amp; ne nos 
+      in<lb ed="#L" n="102" break="no"/>ducas in tentationem, non est aliud quam motus vel actus 
+      na<lb ed="#L" n="103" break="no"/>tus inclinare hominem ad aliquod illicitum. Quod patet: 
+      qui<lb ed="#L" n="104" break="no"/>sicut se habet tentatio in speculabilibus ad verum &amp; falsum, 
+      si<lb ed="#L" n="105" break="no"/>in operabilibus ad bonum &amp; malum, licitum &amp; illicitum: sed 
+      <lb ed="#L" n="106"/>in speculabilibus non est tentatio nisi cum per apparentem 
+      ra<lb ed="#L" n="107" break="no"/>tionem concluditur falsum natum inclinare intellectum ad 
+      er<lb ed="#L" n="108" break="no"/>randum: syllogismus enim tentatiuus est apparens, &amp; non 
+      exi<lb ed="#L" n="109" break="no"/>stens: &amp; fit ad sumendum experimentum de scientia, ergo in 
+      <lb ed="#L" n="110"/>operabilibus non est tentatio nisi per actum vel motum 
+      na<lb ed="#L" n="111" break="no"/>tum inclinare voluntatem ad aliquid illicitum, &amp; fit ad sumen 
+      <lb ed="#L" n="112"/>dum experimentum de bonitate vel malitia. Vtrobique 
+      au<lb ed="#L" n="113" break="no"/>tem tria sunt de ratione tentationis scilicet actus defectuosus 
+      <lb ed="#L" n="114"/>experientia dubij, &amp; quod vtrumque fit de intentione 
+      tentan<lb ed="#L" n="115" break="no"/>tis, vt patet cum vnus homo tentat alium. 
+      </p>
+            <p xml:id="jsnvu6-d1e3245-d1e207">
+               <lb ed="#L" n="116"/>
+               <!--6--> EX HOC apparet secundum, scilicet cuius sit tentare 
+      <lb ed="#L" n="117"/>clarum enim est quod proprie Deo non competit, tum 
+      qui<lb ed="#L" n="118" break="no"/>actus eius non potest esse defectuosus, tum quia nihil est sibi du 
+      <lb ed="#L" n="119"/>bium de quo per tentationem sumat experimentum. Et ideo 
+      <lb ed="#L" n="120"/>dicitur Iac. I. quod Deus intentator est malorum, ipse enim 
+      nemi<lb ed="#L" n="121" break="no"/>nem tentat. Quod autem dicitur Gen. 22. Tentauit Deus Abraham, 
+      <lb ed="#L" n="122"/>per quandam similitudinem accipiendum est, eo quod praeceptum 
+      <lb ed="#L" n="123"/>factum Abrahae de filij sui immolatione, manifestauit eius 
+      ob<lb ed="#L" n="124" break="no"/>dientiam non Deo cui praecognita erat, sed nobis quibus 
+      ali<lb ed="#L" n="125" break="no"/>ter fuisset ignota, &amp; ita secundum quid fuit ibi secunda 
+      condi<lb ed="#L" n="126" break="no"/>tio tentationis, non autem simpliciter. Similiter tertia, 
+      inten<lb ed="#L" n="127" break="no"/>debat enim Deus manifestare nobis eius obedientiam, qua 
+      <lb ed="#L" n="128"/>Abrahae fuit ad meritum, nobis autem ad exemplum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3245-d1e240">
+               <lb ed="#L" n="129"/>
+               <!--7--> Similiter nec mundo competit tentare proprie, quia mundu: 
+      <lb ed="#L" n="130"/>seu res mundi se habent solum obiectiue in tentatione: tentare 
+      <lb ed="#L" n="131"/>autem est proprie proponentis obiectum, actum vel motum, 
+      <lb ed="#L" n="132"/>illicitum, &amp; intendentis finem quo mundo non conuenit. 
+      </p>
+            <p xml:id="jsnvu6-d1e3245-d1e253">
+               <lb ed="#L" n="133"/>
+               <!--8--> Item nec caro proprie tentat, neque homo seipsum non 
+      <lb ed="#L" n="134"/>refrenando motum carnis: quia non intendit de seipso 
+      sumer<lb ed="#L" n="135" break="no"/>experimentum alicuius dubij, quod tamen est de ratione 
+      ten<lb ed="#L" n="136" break="no"/>tationis. Est tamen in tentatione carnis motus natus inclinare 
+      <lb ed="#L" n="137"/>voluntatem in aliquid illicitum. Solus ergo daemon proprie 
+      di<lb ed="#L" n="138" break="no"/>citur tentare hominem, vel vnus homo alium dum 
+      proponit<lb ed="#L" n="139" break="no"/>alij visibiliter dicto vel facto (vt homo homini) vel inuisibiliter 
+      <lb ed="#L" n="140"/>(vt in imaginatione hominis daemon) id quod natum est 
+      incli<lb ed="#L" n="141" break="no"/>nare voluntatem in aliquid malum. Et sic ad sumendum 
+      expe<lb ed="#L" n="142" break="no"/>rimentum de bonitate vel malitia eius cui proponitur: 
+      verun<lb ed="#L" n="143" break="no"/>tamen quia in aliis inuenitur aliquid de ratione tentationis, 
+      <lb ed="#L" n="144"/>ideo (licet large) mundus &amp; caro dicitur tentare. 
+      </p>
+            <p xml:id="jsnvu6-d1e3245-d1e285">
+               <lb ed="#L" n="145"/>
+               <!--9--> HOC SVPPOSITO dicendum quod tentatio carni 
+      <lb ed="#L" n="146"/>semper est peccatum, tentatio autem hostis vel mundi non, nisi 
+      <lb ed="#L" n="147"/>accedente consensu vel delectatione. Primum patet, quia omnis 
+      <lb ed="#L" n="148"/>motus illicitus qui est in potestate hominis semper est 
+      pecca<lb ed="#L" n="149" break="no"/>tum, sed tentatio carnis est huiusmodi, ergo &amp;c. Probatio mino 
+      <lb ed="#L" n="150"/>ris motus enim carnis natus est inclinare ad prosecutionem 
+      ve<lb ed="#L" n="151" break="no"/>nereorum. Hic autem motus potest quandoque esse a causa pure na 
+      <lb ed="#L" n="152"/>turali, vt cum insurgit ex sola calefactione corporis in somno, &amp; 
+      <lb ed="#L" n="153"/>tunc non est peccatu, nec dicitur tentatio carnis: quandoque a caus. 
+      <lb ed="#L" n="154"/>extrinseca, puta daemone adhibente aliqua calefactiua carnis, &amp; 
+      <lb ed="#L" n="155"/>idem est iudicium: quandoque autem ab imaginatione &amp; appetitu sen 
+      <lb ed="#L" n="156"/>sualitatis, &amp; tunc dicitur tentatio carnis, &amp; est peccatu, quia tali: 
+      <lb ed="#L" n="157"/>motus prohiberi potuit per rationem, cui appetitus sensitiuus 
+      <lb ed="#L" n="158"/>natus est subiici. Secundum patet, quia secundum Aug. 1. de li. ar. mi 
+      <lb ed="#L" n="159"/>lum quod patimur est poena, non culpa, sed in tentatione hostis vel 
+      <!--00352.xml-->
+      <pb ed="#L" n="142-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>mundi (nisi ex parte hominis accedat delectatio vel 
+      consen<lb ed="#L" n="2" break="no"/>sus) solum est malum quod patimur, cum autem delectamur, 
+      <lb ed="#L" n="3"/>iam consentimus, iam cooperamur, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3245-d1e335">
+               <lb ed="#L" n="4"/>
+               <!--10--> AD PRIMVM argumentum dicendum quod singuli 
+      <lb ed="#L" n="5"/>motus carnis vitari possunt, inquantum praeueniri possunt a 
+      <lb ed="#L" n="6"/>ratione, ne insurgant ex appetitu sensitiuo, &amp; ideo peccata sunt 
+      <lb ed="#L" n="7"/>Tentatio autem daemonis vel mundi vitari non potest, &amp; idec 
+      <lb ed="#L" n="8"/>non est peccatum, sed delectatio vel consensus in eis est 
+      pecca<lb ed="#L" n="9" break="no"/>tum, quia vitari potuit. 
+      </p>
+            <p xml:id="jsnvu6-d1e3245-d1e353">
+               <lb ed="#L" n="10"/>
+               <!--11--> Per idem patet solutio ad secundum. Semper enim in 
+      ten<lb ed="#L" n="11" break="no"/>tatione carnis est aliquis consensus, quia non prohibetur quod 
+      <lb ed="#L" n="12"/>prohiheri potuit. Non autem in aliis tentationibus &amp; ideo ips. 
+      <lb ed="#L" n="13"/>est peccatum, non autem aliae. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="231-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e189987"><!-- l3d31q2 -->
+            <head xml:id="jsnvu6-e189987-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e189987-Hd1e103" type="question-title">Utrum resurgens a peccato resurgat ad 
+      caritatem maiorem, an minorem, an 
+      aequalem illi a qua cecidit</head>
+            <p xml:id="jsnvu6-e189987-d1e106">
+               <lb ed="#L" n="100"/>QVAESTIO SECUNDA 
+      <lb ed="#L" n="101"/>Vtrum resurgens a peccato resurgat ad 
+      char<lb ed="#L" n="102" break="no"/>itatem maiorem, an minorem, an 
+      <lb ed="#L" n="103"/>aequalem illi a qua cecidit. 
+      <lb ed="#L" n="104"/>Tum 3 4 2. a12.
+    </p>
+            <p xml:id="jsnvu6-e189987-d1e119">
+               <lb ed="#L" n="105"/>SECVNDo quaeritur, vtrum cadens a graua 
+      <lb ed="#L" n="106"/>vel charitate per peccatu mortale &amp; resurgem 
+      <lb ed="#L" n="107"/>per poenitentiam resurgat ad charitatem aequalem, an 
+      <lb ed="#L" n="108"/>ii maiorem, an minorem. Et arguitur quod nunquam 
+      <lb ed="#L" n="109"/>resurgat ad aequalem, sed solum ad minorem, quia 
+      <lb ed="#L" n="110"/>charitas incipiens minor est quam proficiens vel perfecta, sed 
+      <lb ed="#L" n="111"/>cadens a charitate cadit a charitate proficiente, resurgens 
+      au<lb ed="#L" n="112" break="no"/>tem resurgit ad charitatem incipientem, ergo resurgit ad mino 
+      <lb ed="#L" n="113"/>rem charitatem. 
+    </p>
+            <p xml:id="jsnvu6-e189987-d1e141">
+               <lb ed="#L" n="114"/>Item videtur quod semper resurigat ad charitatem 
+      aequa<lb ed="#L" n="115" break="no"/>lem, quia secundum Ambrosium, Poenitentia omnia ablata re 
+      <lb ed="#L" n="116"/>stituit. Sed hoc non esset nisi poenitens ad aequalem charitatem 
+      <lb ed="#L" n="117"/>resurgeret, ergo &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-e189987-d1e153">
+               <lb ed="#L" n="118"/>Item poenitentia viuificat priora merita per peccatum 
+      mor<lb ed="#L" n="119" break="no"/>tificata, sed hoc non esset nisi resurgat ad eandem charitatem, cum 
+      <lb ed="#L" n="120"/>merita pensentur ex charitate, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e189987-d1e162">
+               <lb ed="#L" n="121"/>
+               <!--4--> Item videtur quod semper resurgat ad maiorem charitatem. 
+      <lb ed="#L" n="122"/>quia ad Rom. 6. dicit Apostolus, quod vbi abundauit delictum, su 
+      <lb ed="#L" n="123"/>perabundat &amp; gratia. Sed gratia non dicitur superabundams nisi 
+      <lb ed="#L" n="124"/>excedens poenitentiam, ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-e189987-d1e175">
+               <lb ed="#L" n="125"/>IN CONTRARIVM arguitur, quia per 
+      contritio<lb ed="#L" n="126" break="no"/>nem restituitur gratia, sed contrito peccatoris potest esse 
+      mi<lb ed="#L" n="127" break="no"/>nor, vel aequalis, vel maior, vel maxima, charitas ergo per eam, 
+      <lb ed="#L" n="128"/>vel gratia meritorie restituta potest esse minor, vel aequalis, 
+      <lb ed="#L" n="129"/>vel maior quam charitas amissa. 
+      </p>
+            <p xml:id="jsnvu6-e189987-d1e188">
+               <lb ed="#L" n="130"/>
+               <!--6--> RESPONSIO. Quaedam sunt quae de natura sua incl 
+      <lb ed="#L" n="131"/>dunt continuationem, sicut innocentia &amp; virginitas, innocenti: 
+      <lb ed="#L" n="132"/>enim est nunquam peccasse, &amp; virginitas est semper abstinuisse 
+      <lb ed="#L" n="133"/>a delectationibus venereis, &amp; talia cum amittuntur non possunt 
+      <lb ed="#L" n="134"/>recuperari, quia caderet in eis interruptio, quod est contra 
+      ro<lb ed="#L" n="135" break="no"/>nem suae continuationis. Et ideo innocentia perdita non recupera 
+      <lb ed="#L" n="136"/>tur, nec virginitas, &amp; in his non habet locum quaestio. Gratia aute 
+      <lb ed="#L" n="137"/>eu charitas de sua ratione non includunt continuationem, &amp; ideo 
+      <lb ed="#L" n="138"/>cum amittuntur per peccatum mortale, recuperari possunt per 
+      <lb ed="#L" n="139"/>poenitentiam in aequali gradu, vel maiori, vel minori. Cuius ratio 
+      <lb ed="#L" n="140"/>est, quia per bona opera ex genere praecedentia charitatem mere 
+      <lb ed="#L" n="141"/>mur de congruo charitatem nobis dati secundum modum conatus vo 
+      <lb ed="#L" n="142"/>luntatis. Nunc est ita quod non habens charitatem potest secundum liber 
+      <lb ed="#L" n="143"/>tatem arbitrij &amp; diuini adiutorij habere conatum de congruo 
+      re<lb ed="#L" n="144" break="no"/>spondentem charitati minori, vel aequali vel maiori ei quem 
+      <lb ed="#L" n="145"/>prius habuit, ergo potest resurgere ad charitate maiore, mino 
+      <lb ed="#L" n="146"/>rem, vel aequalem, secundum modum conatus sui: vel diuini adiutorij.
+</p>
+            <p xml:id="jsnvu6-e189987-d1e230">
+               <lb ed="#L" n="147"/>AD PRIMVM argumentum dicendum o charitas 
+      inci<lb ed="#L" n="148" break="no"/>piens semper minor est, quam sit ipsamet dum est perficiens vel 
+      <lb ed="#L" n="149"/>perfecta. Sed charitas incipiens in vno potest esse perfectior quam 
+      <lb ed="#L" n="150"/>charitas proficiens in altero, &amp; eodem modo in eodem homine 
+      <lb ed="#L" n="151"/>charitas proficiens in resurgente potest esse aeque perfecta ve 
+      <lb ed="#L" n="152"/>perfectior quam charitas a qua prius cecidit per peccatum. 
+      </p>
+            <p xml:id="jsnvu6-e189987-d1e246">
+               <lb ed="#L" n="153"/>
+               <!--8--> Ad secundum dicendum qo poenitentia restitut omnia quae 
+      <lb ed="#L" n="154"/>sunt de necessitate salutis, non tamen oportet quod aequalia. 
+</p>
+            <p xml:id="jsnvu6-e189987-d1e256">
+               <lb ed="#L" n="155"/>Ad aliud dicendum quod dato quod poenitentia viuificat priora 
+      <lb ed="#L" n="156"/>merita per peccatum moruficata, non oportet tamen quod 
+      resti<lb ed="#L" n="157" break="no"/>tuat aequalem charitatem, quia valor meritorum praecedentium 
+      <lb ed="#L" n="158"/>pensabitur secundum charitatem in qua facta fuerunt, &amp; non 
+      <!--00536.xml-->
+      <pb ed="#L" n="231-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>secundum charitatem in qua poenitens resurgit. 
+      </p>
+            <p xml:id="jsnvu6-e189987-d1e276">
+               <lb ed="#L" n="2"/>
+               <!--10.--> Ad aliud dicendum quod apostolus loquitur de gratia 
+      re<lb ed="#L" n="3" break="no"/>demptionis factae per Christum, quae superabundauit respectu 
+      <lb ed="#L" n="4"/>paeccati primi hominis, &amp; non loquitur vniuersaliter.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

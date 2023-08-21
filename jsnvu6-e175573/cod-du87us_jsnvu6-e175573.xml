@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="213-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e175573"><!-- l3d21q2 -->
+            <head xml:id="jsnvu6-e175573-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e175573-Hd1e103" type="question-title">
+      Utrum corpus Christi debuerit post 
+      mortem corrumpi siue incinerari
+    </head>
+            <p xml:id="jsnvu6-e175573-d1e106">
+               <lb ed="#L" n="148"/>QVAISTIO SECVNDA. 
+      <lb ed="#L" n="149"/>Vtrum corpus Christi debuerit post 
+      mor<lb ed="#L" n="150" break="no"/>tem corrumpi siue incinerari. 
+      <lb ed="#L" n="151"/>Thom. 3. 4. 51. art. 3. 
+    </p>
+            <p xml:id="jsnvu6-e175573-d1e117">
+               <lb ed="#L" n="152"/>SECUNDO quaeritur vtrum corpus Christi 
+      de<lb ed="#L" n="153" break="no"/>buit post mortem dissolui vel incinerari. Et 
+      argui<lb ed="#L" n="154" break="no"/>tur quod sic, quia sicut separatio animae a carne 
+      <lb ed="#L" n="155"/>fuit inflicta homini propter peccatum primi 
+      pa<lb ed="#L" n="156" break="no"/>rentis ita incineratio (sicut dicitur Genes. 3. terra 
+      <lb ed="#L" n="157"/>es &amp; in terram ibis) sed Christus pro nobis sustinuit mortem v 
+      <lb ed="#L" n="158"/>debitum naturae solueret, ergo similiter corpus Christi 
+      incine<lb ed="#L" n="159" break="no"/>rari debuit. 
+    </p>
+            <p xml:id="jsnvu6-e175573-d1e137">
+      <!--00501.xml-->
+               <pb ed="#L" n="214-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>3 Praeterea Heb. 2. dicitur quod Christus debuit per omnia 
+      fra<lb ed="#L" n="2" break="no"/>simi. Sed alij homines qui dicuntur fratres Christi secundun 
+      <lb ed="#L" n="3"/>corpus incinerantur, ergo corpus Christi incinerari debuit. 
+      <lb ed="#L" n="4"/>Sed contra Psal. Non dabis sanctum tuum videre corruptionem 
+      <lb ed="#L" n="5"/>Hoc autem non potest intelligi de corruptione mortis, quia ipsi 
+      <lb ed="#L" n="6"/>mortuus fuit, ergo intelligitur de corruptione incinerationis. 
+      </p>
+            <p xml:id="jsnvu6-e175573-d1e160">
+               <lb ed="#L" n="7"/>
+               <!--4--> RESPONSIO. Dicendum quod corpus Christi post 
+      mo<lb ed="#L" n="8" break="no"/>tem non debuit incinerari, nec pati aliquam corruptionem 
+      pu<lb ed="#L" n="9" break="no"/>trefactionis, qa tales defectus, aut fuissent a Christo contracti 
+      <lb ed="#L" n="10"/>aut voluntarie assumpti, non contracti, quia sicut non contraxi 
+      <lb ed="#L" n="11"/>peccatum originale, sic etiam non contraxit defectus consequen 
+      <lb ed="#L" n="12"/>res originale peccatum, de quorum numero sunt praedicti 
+      de<lb ed="#L" n="13" break="no"/>fectus. Item nec eos voluntarie assumpsit, nec assumere debuit 
+      <lb ed="#L" n="14"/>Tum propter dignitatem diuinitatis cui vniebatur, Tum quia 
+      <lb ed="#L" n="15"/>Christus non assumpsit defectus humanae naturae, nisi quantum 
+      <lb ed="#L" n="16"/>expediebat ad finem redemptionis nostrae. Et ideo cum opus 
+      <lb ed="#L" n="17"/>nostrae redemptionis fuerit in morte Christi completum secun 
+      <lb ed="#L" n="18"/>dum quod dixit Christus Io20. Consummatum est, propter hoc 
+      <lb ed="#L" n="19"/>putrefactio vel incineratio qui sunt defectus mortem 
+      conse<lb ed="#L" n="20" break="no"/>quentes non debuerunt esse in corpore Christi. 
+      </p>
+            <p xml:id="jsnvu6-e175573-d1e195">
+               <lb ed="#L" n="21"/>
+               <!--5.--> Ad primum arg. dicendum quod non est simile de morte &amp; 
+      in<lb ed="#L" n="22" break="no"/>cineratione, quia mors necessaria fuit, vel saltem expediens ad 
+      <lb ed="#L" n="23"/>opus nostrae redemptionis, incineratio autem non profuisset. 
+      <lb ed="#L" n="24"/>&amp; ideo mortem sustinuit, sed incineratus non fuit quo ad corpus 
+      </p>
+            <p xml:id="jsnvu6-e175573-d1e208">
+               <lb ed="#L" n="25"/>
+               <!--6--> Ad secundum dicendum qued illa assimilatio debet intellig 
+      <lb ed="#L" n="26"/>quantum ad ea quae pertinent ad opus nostrae redemptionis, de 
+      <lb ed="#L" n="27"/>quorum numero non est putrefactio, nec incineratio, ideo &amp;c
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

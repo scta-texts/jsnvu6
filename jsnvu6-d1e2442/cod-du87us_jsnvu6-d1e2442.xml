@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="114-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2442"><!-- l2d2q5 -->
+            <head xml:id="jsnvu6-d1e2442-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-d1e2442-Hd1e103" type="question-title">Utrum unam aevum sit mensura omnium aeviternorum</head>
+            <p xml:id="jsnvu6-d1e2442-d1e106">
+               <lb ed="#L" n="19"/>QUAESTIO QUINTA. 
+      <lb ed="#L" n="20"/>Vtrum vnum sit aeuum quod sit mensura 
+      <lb ed="#L" n="21"/>omnium aeuiternorum. 
+      <lb ed="#L" n="22"/>Thom. 1. 9. 10. art. 6. 
+    </p>
+            <p xml:id="jsnvu6-d1e2442-d1e117">
+               <lb ed="#L" n="23"/>AD tertium sic proceditur. Et arguitur quod nor 
+      <lb ed="#L" n="24"/>sit aeuum vnum quod sit mensura omnium aeuiter 
+      <lb ed="#L" n="25"/>norum, quia mensurabile realiter dependet a men 
+      <lb ed="#L" n="26"/>lura (vt habetur quinto metaphysicae) sed vnus 
+      <lb ed="#L" n="27"/>angelus non dependet ab alio quantum ad suum esse 
+      <lb ed="#L" n="28"/>sed dependent omnes a Deo immediate, ergo esse vnius non mer 
+      <lb ed="#L" n="29"/>suratur per aliquid quod fit in alio, hoc tamen esset si daretur 
+      <lb ed="#L" n="30"/>quod vnum aeuum esset mensura omnium aeuiternorum, 
+      qui<lb ed="#L" n="31" break="no"/>aeuum vnius angeli mensuraret esse omnium aliorum, quare &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e139">
+               <lb ed="#L" n="32"/>
+               <!--2--> Item sicut se habet tempus ad temporalia, si aeuum ad 
+      aeui<lb ed="#L" n="33" break="no"/>terna, sed tempus quod est mensura omnium temporalium non 
+      <lb ed="#L" n="34"/>est in aliquo temporali sicut in subiecto, sed in coelo quod est aeui 
+      <lb ed="#L" n="35"/>ternum &amp; super omne tempus, ergo illud quod est mensura 
+      om<lb ed="#L" n="36" break="no"/>nium aeuiternorum non est subiectiue in aliquo aeuiterno, sec 
+      <lb ed="#L" n="37"/>in aliquo quod est supra omne aeuiternum, &amp; hoc est deus. 
+</p>
+            <p xml:id="jsnvu6-d1e2442-d1e158">
+               <lb ed="#L" n="38"/>Item si esset vnum aeuum mensura omnium aeuiternorum illud 
+      <lb ed="#L" n="39"/>esset aeuum supremi aeuiterni, quia primum est mensura 
+      om<lb ed="#L" n="40" break="no"/>nium aliorum, quemadmodum primus motus est mensura 
+      om<lb ed="#L" n="41" break="no"/>nium motuum, illud ergo aut erit in primo secundum esse 
+      na<lb ed="#L" n="42" break="no"/>turae. Et tunc cum Lucifer fuerit primus &amp; summus secundum 
+      <lb ed="#L" n="43"/>opinionem Gregorij per ipsum mensurantur alij, quod videtu 
+      <lb ed="#L" n="44"/>aliquibus inconueniens, aut esset in supremo aeuiterno quantum 
+      <lb ed="#L" n="45"/>ad esse gratiae &amp; gloriae. Et tunc per animam Christi quae est 
+      su<lb ed="#L" n="46" break="no"/>prema secundum esse gloriae, alia mensurarentur quod non 
+      vi<lb ed="#L" n="47" break="no"/>detur verum, quia antequam anima Christi esset aeuiterna 
+      ha<lb ed="#L" n="48" break="no"/>bebant suam mensuram quae non est mutata, ergo nullum 
+      aeui<lb ed="#L" n="49" break="no"/>ternorum est mensura omnium aliorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e187">
+               <lb ed="#L" n="50"/>
+               <!--4--> IN CONTRARIVM est, quia sicut vnum tempus 
+      <lb ed="#L" n="51"/>est mensura omnium temporalium, ita vnum aeuum debet essi 
+      <lb ed="#L" n="52"/>(vt videtur) mensura omnium aeuiternorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e198">
+               <lb ed="#L" n="53"/>
+               <!--5--> RESPONSIO. Videndum est primo quid sit de 
+      ratio<lb ed="#L" n="54" break="no"/>ne mensurae, ac deinde videbitur quid sit de veritate quaestionis. 
+      <lb ed="#L" n="55"/>Circa primum sciendum quod de ratione mensurae est quod per 
+      <lb ed="#L" n="56"/>eam habeatur certitudo de re mensurata quantum ad 
+      quanti<lb ed="#L" n="57" break="no"/>tatem molis vel perfectionis, vel quantum ad permanentiam sui 
+      <lb ed="#L" n="58"/>esse si fit mensura durationis, vtrumque autem istorum 
+      contin<lb ed="#L" n="59" break="no"/>git dupliciter, quia certificari possumus de re aliqua quantum ad 
+      <lb ed="#L" n="60"/>id quod est, vel quantum ad durationem sui esse, vno modo pe 
+      <lb ed="#L" n="61"/>se, &amp; directe, &amp; sic solum certificamur de re per causam eius, 
+      si<lb ed="#L" n="62" break="no"/>cut de eclipsi lunae quod sit &amp; quandiu sit, certificamur per 
+      in<lb ed="#L" n="63" break="no"/>terpositionem terrae inter solem &amp; lunam, &amp; quantitate inter 
+      <lb ed="#L" n="64"/>positionis. Et ratio huius est, quia per illud per se &amp; simplicite 
+      <lb ed="#L" n="65"/>&amp; directe certificamur de re quod per rem cognoscimus 
+      sim<lb ed="#L" n="66" break="no"/>pliciter &amp; directe &amp; per se, sed illud est tantuminodo causa rei 
+      <lb ed="#L" n="67"/>quia ipsa sola est per se &amp; simpliciter principium cognoscend 
+      <lb ed="#L" n="68"/>sicut &amp; effendi. Alio modo certificamur de aliqua re indirecti 
+      <lb ed="#L" n="69"/>&amp; comparatue &amp; sic certificamur de omnibus quae sunt in 
+      ali<lb ed="#L" n="70" break="no"/>quo genere per illud quod est in genere illo perfectius, quasi 
+      ha<lb ed="#L" n="71" break="no"/>bens in se omnem illius generis actualitatem, vt albedo in 
+      gener<lb ed="#L" n="72" break="no"/>coloris. Nam per albedinem mensurantur colores indirecte 8 
+      <lb ed="#L" n="73"/>comparatiue, quanto enim perfectius participant naturam 
+      co<lb ed="#L" n="74" break="no"/>loris tanto propinquius accedunt ad naturam albedinis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e250">
+               <lb ed="#L" n="75"/>
+               <!--6.--> Et ratio huius mensurationis est duplex, quia per notius 
+      na<lb ed="#L" n="76" break="no"/>tum est certificari minus notum, quia magis &amp; minus notum habent 
+      <lb ed="#L" n="77"/>inter se habitudinem qualia sunt ea quae sunt eiusdem generis. 
+      <lb ed="#L" n="78"/>Sed quod est actu alius in aliquo genere illud de se est notius. 
+      <lb ed="#L" n="79"/>ergo per illud quod est actualius &amp; perfectius in aliquo genere 
+      <lb ed="#L" n="80"/>nata sunt mensurari omnia quae sunt eiusdem generi, &amp; haec 
+      men<lb ed="#L" n="81" break="no"/>sura pro tanto dicitur indirecta &amp; comparatiua respectu prim 
+      <!--00293.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>mensurae, quia non est adeo directa &amp; per se habitudo quantum ad 
+      <lb ed="#L" n="83"/>esse &amp; cognitionem eorum quae sunt in eodem genere adinuice 
+      <lb ed="#L" n="84"/>sicut est effectus ad suam causam. Patet igitur quid sit de rationi 
+      <lb ed="#L" n="85"/>mensurae quod fuit primum propositum. Ex quo patet quod non est de 
+      <lb ed="#L" n="86"/>ratione mensurae vniuersaliter qued sit causa mensurati, vnde si pri 
+      <lb ed="#L" n="87"/>mus motus non esset causa alioru motuum, nihilominus esset men 
+      <lb ed="#L" n="88"/>sura. Nam si lapis moueretur sursum ab angelo vere talis 
+      motu<lb ed="#L" n="89" break="no"/>mensuraretur per motum primum, &amp; tamen non causaretur ab ipso 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e292">
+               <lb ed="#L" n="90"/>
+               <!--7--> Hoc supposito dicendum ad quaestionem, quia aut quaeritu 
+      <lb ed="#L" n="91"/>mensura omnium aeuiternorum, quae sit mensura quidditatis &amp; 
+      <lb ed="#L" n="92"/>perfectionis naturae, aut quae sit mensura durationis &amp; 
+      perma<lb ed="#L" n="93" break="no"/>nentiae. Si primo modo, sic dicendum quod praeordinatio diuina &amp; 
+      <lb ed="#L" n="94"/>eius voluntas est per se &amp; directe mensura quidditatis &amp; 
+      perfe<lb ed="#L" n="95" break="no"/>ctionis naturae aeuiternorum. Essentia autem supremi aeuiterni est 
+      <lb ed="#L" n="96"/>mensura eorum indirecte &amp; comparatiue. Quod patet facilite 
+      <lb ed="#L" n="97"/>ex praecedentibus, quia sola causa habet rationem mensurae per se 
+      <lb ed="#L" n="98"/>simpliciter &amp; directe. Primum autem in genere habet rationem 
+      men<lb ed="#L" n="99" break="no"/>surae indirecte &amp; comparatiue, sed praeordinatio dei &amp; eius 
+      vo<lb ed="#L" n="100" break="no"/>luntas habet rationem causae super aeuiterna. Est etiam dare inter 
+      <lb ed="#L" n="101"/>ea supremum quod tamen non est eorum causa, ergo praeordinatio di 
+      <lb ed="#L" n="102"/>uina est simpliciter per se &amp; directe mensura quidditatis &amp; per 
+      <lb ed="#L" n="103"/>fectionis aeuiternorum, itaque vnunquodcunque tantum habet de 
+      ve<lb ed="#L" n="104" break="no"/>ritate &amp; perfectione naturae quantum praeordinatum fuit ipsum 
+      <lb ed="#L" n="105"/>imitari essentiam diuinam. Natura autem primi aeuiterni est eorum mi 
+      <lb ed="#L" n="106"/>sura &amp; comparatiue. Dicimus enim quod vnunquodcunque eorum tanti 
+      <lb ed="#L" n="107"/>est perfectioris naturae quanto magis accedit ad naturam primi 
+      <lb ed="#L" n="108"/>aeuiterni. Et haec mensura solum est comparatiua, quia non propter 
+      <lb ed="#L" n="109"/>hoc est aliquid perfectius, quia plus appropinquat perfectissime 
+      <lb ed="#L" n="110"/>in illo genere: Sed econuerso, quia perfectius est propter 
+      ho<lb ed="#L" n="111" break="no"/>magis appropinquat. Ex hoc autem nondum habemus mensu 
+      <lb ed="#L" n="112"/>rani quae est aeuum, quia aeuum nominat mensuram durationi 
+      <lb ed="#L" n="113"/>&amp; non perfectionis naturae inquantum huiusmodi. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e349">
+               <lb ed="#L" n="114"/>
+               <!--8--> Si autem quaeratur mensura durationis &amp; permanentiae eori 
+      <lb ed="#L" n="115"/>sic posset alicui videri id quod prius, qa sicut se habet essenti: 
+      <lb ed="#L" n="116"/>ad essentiam, sic esse ad esse, et simultas esse ad simultatem esse, sed 
+      <lb ed="#L" n="117"/>essentia primi angeli sicut perfectissima in illo genere est 
+      men<lb ed="#L" n="118" break="no"/>sura essentiarum aliorum aeuiternorum (saltem comparatiue vi 
+      <lb ed="#L" n="119"/>dictum est) ergo &amp; esse eius &amp; simultas eius sunt mesura esse &amp; 
+      <lb ed="#L" n="120"/>simultatis aliorum, sed aeuum non est aliud quam simultas esse 
+      <lb ed="#L" n="121"/>angeli, sicut tempus est prius &amp; posterius in successione motus, 
+      <lb ed="#L" n="122"/>ergo aeuum superioris angeli est mensura omnium aeuiternorum 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e374">
+               <lb ed="#L" n="123"/>
+               <!--9--> Et iterum si sint plura aeua, primum guum sicut perfectissimum 
+      <lb ed="#L" n="124"/>erit mensura omnium aeuorum inferiorum, sed quodlibet aeuum 
+      <lb ed="#L" n="125"/>inferius est mensura esse proprij angeli, ergo a primo ad 
+      vlti<lb ed="#L" n="126" break="no"/>mum aeuum supremi angeli mensurat esse cuiuslibet inferioris 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e387">
+               <lb ed="#L" n="127"/>
+               <!--10--> Quicquid sit de conclusione, rationes tamen istae non valent 
+      <lb ed="#L" n="128"/>quod enim primo dicitur quod sicut se habet essentia ad essentiam, 
+      <lb ed="#L" n="129"/>ita esse ad esse &amp; simultas ad simultatem, verum est quo ad quantita 
+      <lb ed="#L" n="130"/>tem perfectionis, sed non quo quantitatem durationis, sicut patei 
+      <lb ed="#L" n="131"/>in homine &amp; elephante, excedit enim homo elephantem 
+      perfectio<lb ed="#L" n="132" break="no"/>ne essentiae &amp; esse, sed non duratione, vnde &amp; per hominem habent 
+      <lb ed="#L" n="133"/>mensurari omnes species animalis, sicut per albedinem omne 
+      <lb ed="#L" n="134"/>species coloris quo ad quantitatem perfectionis naturalis, sed 
+      <lb ed="#L" n="135"/>quo ad durationem non mensurantur species animalis per 
+      du<lb ed="#L" n="136" break="no"/>rationem hominis, nec species coloris per durationem 
+      albedi<lb ed="#L" n="137" break="no"/>nis, &amp; idem dicendum est de aeuiternis, nos autem quaerimus 
+      <lb ed="#L" n="138"/>mensuram durationis quam importat aeuum, ideo non valet. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e418">
+               <lb ed="#L" n="139"/>
+               <!--11--> Ad secundum dicendum que si aeuum nominat solum 
+      dura<lb ed="#L" n="140" break="no"/>tionem aeuiterni, plura sunt aeua, sicut plura aeuiterna, sed nullum 
+      <lb ed="#L" n="141"/>habet rationem respectu durationis proprij aeuiterni cum sini 
+      <lb ed="#L" n="142"/>vnum &amp; idem, propter quod secunda propositio assumit falsum 
+      <lb ed="#L" n="143"/>cum dicit quod quodlibet aeuum est mensura esse vel durationis pro 
+      <lb ed="#L" n="144"/>prij aeuiterni, &amp; prima propositio petit principium cum assumit 
+      <lb ed="#L" n="145"/>quod supremum aeuum est mensura omnium aeuorum inferiorum, hoc 
+      <lb ed="#L" n="146"/>enim principaliter quaeritur. Si vero dicatur quod aeuum nominat 
+      <lb ed="#L" n="147"/>durationem aeuiterni quae habet rationem mensurae, sic non sunt 
+      <lb ed="#L" n="148"/>plura aeua, imo nullum comparando durationem vniuscuiusque 
+      <lb ed="#L" n="149"/>aeuiterni ad ipsum aeuiternu, propria enim duratio rei non 
+      men<lb ed="#L" n="150" break="no"/>surat ipsam rem, sed secundum eam res est mensurabilis per aliam, 
+      <lb ed="#L" n="151"/>sicut propria quantitas panni non mensurat pannum, sed 
+      secun<lb ed="#L" n="152" break="no"/>dum eam pannus est mesurabilis per quantitatem vlnae. Si autem 
+      <lb ed="#L" n="153"/>comparetur duratio vnius aeuiterni ad durationem alterius, sic 
+      <lb ed="#L" n="154"/>quaeritur vtrum aliqua earum habeat rationem mensurae 
+      re<lb ed="#L" n="155" break="no"/>spectu alterius, nec secunda ratio probat aliquid de hoc, nis 
+      <lb ed="#L" n="156"/>quia duratio primi aeuiterni est perfectior caeteris. Sed istud 
+      <lb ed="#L" n="157"/>non valet, quia plura requiruntur ad rationem mensurae quam 
+      <lb ed="#L" n="158"/>esse perfectius, vt postea patebit &amp; prius aliqualiter patuit. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e466">
+               <lb ed="#L" n="159"/>
+               <!--12--> Supposico ergo quod praeordinatio diuina &amp; eius beneplaciti 
+      <lb ed="#L" n="160"/>sit per se mensura durationis aeuiternorum tanquam per se causa, est 
+      <lb ed="#L" n="161"/>ne duratio: nius aeuiterni mensura durationis aliorum? absque 
+      <lb ed="#L" n="162"/>praeiudicio potest dici rationabiliter quod non. Quod paret primo 
+      <lb ed="#L" n="163"/>sic, illud cuius duratio &amp; quantitas durationis est notior ex sua 
+      <!--00294.xml-->
+      <pb ed="#L" n="114-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>propria ratione, quam sit ex comparatione ad alterum non 
+      mensura<lb ed="#L" n="2" break="no"/>tur quo ad suam durationem per alterum, sed quodlibet aeuiternum est 
+      <lb ed="#L" n="3"/>huiusmodi. ergo &amp;c. Maior patet quia per mensuram debemus 
+      <lb ed="#L" n="4"/>certificari de quantitate mensurati, quod non habet locum quando 
+      <lb ed="#L" n="5"/>quantitas mensurati ex natura proprij subiecti est notior quam 
+      <lb ed="#L" n="6"/>possit per alterum notificari. Minor probatur, quia ratio propria 
+      <lb ed="#L" n="7"/>aeuiterni est non posse deficere secundum naturam. Ex hoc notum est q 
+      <lb ed="#L" n="8"/>duratio eius est perpetua, nec ex comparatione ad quocunque aliud 
+      <lb ed="#L" n="9"/>potest hoc esse aeque certum, quare &amp;c. Secundo, quia infinitum du 
+      <lb ed="#L" n="10"/>ratione non habet mensurâ durationis, quia contra rationem 
+      in<lb ed="#L" n="11" break="no"/>finiti est esse mensuratum, sed duratio aeuiterni est infinita a par 
+      <lb ed="#L" n="12"/>te post, eo quod non potest deficere, ergo non habet mensuram. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e514">
+               <lb ed="#L" n="13"/>
+               <!--13--> Et si dicatur quod aeuiterna non sunt perpetuae seu infinitae 
+      <lb ed="#L" n="14"/>durationis a parte ante, sed solum a parte post. Et ideo a parte an 
+      <lb ed="#L" n="15"/>te possunt aeuiterna habere mensurâ &amp; vnum esse mensura 
+      om<lb ed="#L" n="16" break="no"/>nium aliorum. Dicendum ad hoc quod si aeuiterna haberent aliquam 
+      <lb ed="#L" n="17"/>mensurâ per quam innotesceret quatitas durationis eorum ex 
+      <lb ed="#L" n="18"/>nunc in ante, illa tamen mensura non posset esse aliquid ex 
+      aeui<lb ed="#L" n="19" break="no"/>ternis, quia omnia aeuiterna simul coeperunt esse, &amp; ex natura 
+      <lb ed="#L" n="20"/>cuiuslibet eorum est nunquam posse desinere esse, propter quod ex 
+      <lb ed="#L" n="21"/>natura cuiuslibet eorum magis notum est quod durat quantum aliud 
+      <lb ed="#L" n="22"/>quam sit notum per aliud, durauit enim &amp; durabit Raphael 
+      quan<lb ed="#L" n="23" break="no"/>tum Gabriel, Michael vel Lucifer. Et ista quantitas durationis est 
+      <lb ed="#L" n="24"/>notior ex natura proprij subiecti quam ex duratione alterius, &amp; 
+      <lb ed="#L" n="25"/>ideo duratio vnius nullo modo est mesura durationis alterius. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e547">
+               <lb ed="#L" n="26"/>
+               <!--14--> Per quid igitur mesurabitur quantitas durationis quam 
+      ha<lb ed="#L" n="27" break="no"/>buerunt aeuiterna ex quo creata sunt vsque ad nunc? Dicendum o 
+      <lb ed="#L" n="28"/>per nullam mensuram vnigeneam, sed per heterogeneam, 
+      vi<lb ed="#L" n="29" break="no"/>delicet per tempus. Cuius ratio est, quia nihil habet rationem 
+      <lb ed="#L" n="30"/>mensurabilis, nisi secundum quod induit rationem quanti, sed 
+      <lb ed="#L" n="31"/>duratio aeuiterni secundum se non est quanta, cum non habea 
+      <lb ed="#L" n="32"/>partem &amp; partem. Induit autem rationem quanti quatenus 
+      co<lb ed="#L" n="33" break="no"/>existit durationi quantae puta motui, ergo secundum se non habei 
+      <lb ed="#L" n="34"/>mensuram, sed secundum eius coexistentiam ad motum, &amp; tunc 
+      <lb ed="#L" n="35"/>habet eandem quam motus. vnde dicimus quod quilibet ange 
+      <lb ed="#L" n="36"/>lus durabit quantum durauit mundus seu motus &amp; tempus. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e577">
+               <lb ed="#L" n="37"/>
+               <!--15.--> Quod autem dictum est quod omnia aeuiterna coeperunt esse 
+      fi<lb ed="#L" n="38" break="no"/>mul, videtur obuiare ei quod dicitur quod animae rationales sunt 
+      <lb ed="#L" n="39"/>aeuiternae, nec tamen inceperunt esse simul omnes inter se, nec cum 
+      <lb ed="#L" n="40"/>angelis. Et dicendum ad hoc quod licet omnes animae intellectiuae 
+      <lb ed="#L" n="41"/>sint immortales, tamen naturalis existentia animae est non in 
+      se<lb ed="#L" n="42" break="no"/>ipsa, nec per se ipsam, sed in corpore, cum sit pars essentialis totius 
+      <lb ed="#L" n="43"/>compositi, duratio autem animae in corpore corruptibili, vel extra 
+      <lb ed="#L" n="44"/>corpus non est aeuiterna, duratio autem eius in corpore post 
+      re<lb ed="#L" n="45" break="no"/>surrectionem erit aeuiterna, de cuius durationis mensura in post 
+      es<lb ed="#L" n="46" break="no"/>sendo dicendum, sicut prius de aliis aeuiternis. De efficientia autem 
+      du<lb ed="#L" n="47" break="no"/>rationis eius &amp; duratione aliorum aeuiternorum super durationem re 
+      <lb ed="#L" n="48"/>surgentium, similiter dicendum est quod non habent mensuram vnigeneam, sed 
+      <lb ed="#L" n="49"/>heterogeneam, propter eandem rationem quae prius tacta fuit. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e610">
+               <lb ed="#L" n="50"/>
+               <!--16.--> Ad rationes vtriusque partis respondendum est, quod licet 
+      <lb ed="#L" n="51"/>aliquae carum sint ad veram conclusionem, non tamen eam 
+      ef<lb ed="#L" n="52" break="no"/>ficaciter probant. Prima enim ratio probat quod vnum aeuiter 
+      <lb ed="#L" n="53"/>num non sit mensura aliorum per se &amp; directe sicut causa. Ad 
+      <lb ed="#L" n="54"/>talem enim mensuram dependet mensurabile, sed non proba 
+      <lb ed="#L" n="55"/>quin sit mensura indirecte &amp; comparatiue sicut primum in 
+      ali<lb ed="#L" n="56" break="no"/>quo genere, vt patet ex dictis in corpore solutionis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e630">
+               <lb ed="#L" n="57"/>
+               <!--17--> Ad secundum dicendum, quod accidit tempori vt est 
+      men<lb ed="#L" n="58" break="no"/>sura temporalium quod sit in aliquo aeuiterno. Si enim coelum 
+      <lb ed="#L" n="59"/>esset corruptibile, &amp; vniformiter moueretur vt modo, motu 
+      <lb ed="#L" n="60"/>eius esset mensura aliorum motuum sicut nunc est: verum est q 
+      <lb ed="#L" n="61"/>ab hoc vt talis motus duret &amp; coexistat omnibus motibus me 
+      <lb ed="#L" n="62"/>surabilibus qui possunt sibi inuicem succedere in infinitum 
+      opor<lb ed="#L" n="63" break="no"/>tet subiectum eius non esse corruptibile, sed aeuiternu: primum 
+      <lb ed="#L" n="64"/>potest omnibus aeuiternis coexistere, propter quod non 
+      opor<lb ed="#L" n="65" break="no"/>tet ex ista causa quod aeuum mensurans omnia aeuiterna fit in 
+      <lb ed="#L" n="66"/>aliquo subiecto transcendente genus aeuiternorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e656">
+               <lb ed="#L" n="67"/>
+               <!--18--> Ad tertium dicendum, quod cum aeuum per se respiciat 
+      duratio<lb ed="#L" n="68" break="no"/>nem esse naturalis nihil prohibet malum angelum si sit supremus 
+      <lb ed="#L" n="69"/>in gradu naturae esse mensuram aliorum, nisi aliud obuiaret. 
+      </p>
+            <p xml:id="jsnvu6-d1e2442-d1e667">
+               <lb ed="#L" n="70"/>
+               <!--19--> Ad argumentum alterius partis dicendum, quod non est simi 
+      <lb ed="#L" n="71"/>le de tempore respectu motuum, &amp; aeuo respectu durationis 
+      aeui<lb ed="#L" n="72" break="no"/>ternoru. Primus enim motus cum quo tenpus est realiter idem, 
+      <lb ed="#L" n="73"/>est vniformior &amp; simplicior, &amp; notiot omnibus motibus sub ij 
+      <lb ed="#L" n="74"/>so, etiam omnes alij motus accipiunt terminum suae durationis in 
+      <lb ed="#L" n="75"/>ante &amp; post, vel secundum totum, vt motus qui sunt in rebus 
+      ge<lb ed="#L" n="76" break="no"/>nerabilibus &amp; corruptibilibus, vel secundum partem vt motus 
+      in<lb ed="#L" n="77" break="no"/>feriorum orbium qui secundum sui totalitate non mensurantur, 
+      <lb ed="#L" n="78"/>cum non habeant terminum motus, etiam primus natus est 
+      certifi<lb ed="#L" n="79" break="no"/>care quantitatem aliorum per modum adaequationis &amp; 
+      replicatio<lb ed="#L" n="80" break="no"/>nis inquantum aliqua pars eius adaequatur alicui parti alterius 
+      <lb ed="#L" n="81"/>motus, &amp; replicata reddit totum. Et ideo omnes conditione 
+      <lb ed="#L" n="82"/>mensurae &amp; mesurabilis reperiuntur in tempore &amp; in primo mo¬ 
+      <!--00294.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>tu respectu aliorum motuum, propter quod merito est vnum 
+      <lb ed="#L" n="84"/>tempus quod mensurat omnia temporalia. Non sic est de 
+      du<lb ed="#L" n="85" break="no"/>ratione primi aeuiterni respectu aliorum, imo fere omnes 
+      con<lb ed="#L" n="86" break="no"/>ditiones deficiunt, vt patuit in ratione positionis, ideo &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

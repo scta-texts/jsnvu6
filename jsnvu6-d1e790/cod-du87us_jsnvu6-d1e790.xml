@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="40-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e790"><!-- l1d13prae -->
+            <head xml:id="jsnvu6-d1e790-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e790-d1e103">
+               <lb ed="#L" n="112"/>Sententia literae magistri 
+      Distin<lb ed="#L" n="113" break="no"/>ctionis XIII. 
+</p>
+            <p xml:id="jsnvu6-d1e790-d1e110">
+               <lb ed="#L" n="114"/>OT haec considerandum. Superius magiste 
+      <lb ed="#L" n="115"/>determinauit de Spiritus sancti processione, me 
+      <lb ed="#L" n="116"/>do medio &amp; principio, hic determinat de proces 
+      <lb ed="#L" n="117"/>sione in comparatione ad generationem quae 
+      con<lb ed="#L" n="118" break="no"/>gi paratio vt magis pateat magister quatuor facit 
+      <lb ed="#L" n="119"/>principaliter in prima parte. Primo inquirit vtrum Spiritus 
+      san<lb ed="#L" n="120" break="no"/>ctus procedens posset dici natus. Et soluit. Secundo inquirit quo 
+      <lb ed="#L" n="121"/>modo filius natus possit dici procedens. &amp; soluit. Tertio 
+      quae<lb ed="#L" n="122" break="no"/>rit quae sit differentia generationis &amp; processionis. Quarto quae 
+      <lb ed="#L" n="123"/>rit vtrum propter hanc differentiam possit dici Spiritus 
+      san<lb ed="#L" n="124" break="no"/>ctus genitus. Secunda ibi. Cum igitur Spiritus sanctus. 
+      Terti<lb ed="#L" n="125" break="no"/>ibi, sunt item generationi filij. Quarta ibi. Nunc considerandum 
+      <lb ed="#L" n="126"/>est. Et haec est sententia &amp; diuisio magistri in generali. 
+    </p>
+            <p xml:id="jsnvu6-d1e790-d1e141">
+               <lb ed="#L" n="127"/>In speciali sic procedit magister. Et primo quaerit quare 
+      <lb ed="#L" n="128"/>Spiritus sanctus non dicitur natus aut non dicitur filius cum 
+      <lb ed="#L" n="129"/>procedat a patre &amp; sit de substantia patris. Et respondet quod 
+      <lb ed="#L" n="130"/>cum a duobus procedat si diceretur natus vel filius esset ambo 
+      <lb ed="#L" n="131"/>rum &amp; ita vnus se haberet vt pater, alius vt mater quod absur 
+      <lb ed="#L" n="132"/>dum est. Deinde quaerit cur filius dicatur procedere non solum 
+      <lb ed="#L" n="133"/>nasci, Spiritus autem sanctus procedere. Et respondet quod 
+      vter<lb ed="#L" n="134" break="no"/>que exit a patre, Sed Spiritus sanctus dicitur procedens &amp; non 
+      <lb ed="#L" n="135"/>natus, sicut filius quia exit a patre quomodo datus non 
+      quo<lb ed="#L" n="136" break="no"/>modo natus, id est, per modum liberalitatis, non per modum 
+      <lb ed="#L" n="137"/>naturae. Postea subdit quod generatio filij differt a 
+      processio<lb ed="#L" n="138" break="no"/>ne Spiritussancti, quia alius est modus procedendi a patre 
+      v<lb ed="#L" n="139" break="no"/>triusque, filius enim a solo patre procedit, Spirituslanctus ab 
+      <lb ed="#L" n="140"/>vtroque. probat per hoc quod Christus insuflando dedit 
+      Spiri<lb ed="#L" n="141" break="no"/>tum sanctum, tamen propter autoritatem originis solet patr 
+      <lb ed="#L" n="142"/>attribui, &amp; subdit quod omnis generatio est processio &amp; non 
+      <lb ed="#L" n="143"/>conuertitur, addit etiam quod creatura non sufficit ad 
+      signi<lb ed="#L" n="144" break="no"/>ficandum perfectam differentiam generationis &amp; 
+      processio<lb ed="#L" n="145" break="no"/>nis, quia vtraque inaestimabilis est. Vitimo quaerit vtrum 
+      Spi<lb ed="#L" n="146" break="no"/>ritullanctus dici possit ingenitus, &amp; probat per Augustinum 
+      <lb ed="#L" n="147"/>quod non, quia dicit Augustinus quod hoc nomen ingenitus 
+      <lb ed="#L" n="148"/>secundum disputantium consuetudinem Spirituisancto non 
+      <lb ed="#L" n="149"/>conuenit, ne duo patres in trinitate videantur esse. Per 
+      Hie<lb ed="#L" n="150" break="no"/>ronymum vero probat quod possit dici ingenitus, &amp; soluit 
+      <lb ed="#L" n="151"/>magister quod ingenitus potest dupliciter accipi, vno modo 
+      <lb ed="#L" n="152"/>idem est quod ens non ab alio &amp; sic non conuenit Spiritui 
+      san<lb ed="#L" n="153" break="no"/>cto. Alio modo ingenitus est id quod est ab alio, non tamen per 
+      <lb ed="#L" n="154"/>generationem, &amp; sic conuenit Spirituissancto, &amp; hoc 
+      confir<lb ed="#L" n="155" break="no"/>mat per Hieronymum qui non natum attribuit patri &amp; 
+      Spiri<lb ed="#L" n="156" break="no"/>tuisancto. Et in hoc terminatur sententia in speciali
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

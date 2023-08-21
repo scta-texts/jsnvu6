@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="73-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1555"><!-- l1d31prae -->
+            <head xml:id="jsnvu6-d1e1555-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1555-d1e103">
+               <lb ed="#L" n="104"/>DISTINCTIO XXXI. 
+      <lb ed="#L" n="105"/>Sententia in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e1555-d1e110">
+               <lb ed="#L" n="106"/>RAETEREA considerari oportet. Superius 
+      de<lb ed="#L" n="107" break="no"/>terminauit magister de proprietate personarum 
+      <lb ed="#L" n="108"/>nunc determinat de appropriatis. Et diuiditur in 
+      <lb ed="#L" n="109"/>duas partes. Primo enim determinat de 
+      appro<lb ed="#L" n="110" break="no"/>al priatis personarum. Secundo inquirit quomodo 
+      <lb ed="#L" n="111"/>secundum appropriata personae adinuicem comparantur. Secum 
+      <lb ed="#L" n="112"/>da pars incipit in principio trigesimaesecundae distinctionis. 
+      <lb ed="#L" n="113"/>Hic oritur quaestio. Prima diuiditur in tres. Primo determinat 
+      <lb ed="#L" n="114"/>quorundam nominum significationes, quae personis diuinis 
+      ap<lb ed="#L" n="115" break="no"/>propriantur. Secundo assignat appropriata secundum Hilarium. 
+      <lb ed="#L" n="116"/>Tertio secundum Augustinum. Secunda ibi, Hic non est prae 
+      <lb ed="#L" n="117"/>termittendum. Tertia ibi, Illud autem sciri oportet. prima 
+      par<lb ed="#L" n="118" break="no"/>diuiditur in tres. Primo inquirit de significatione huius 
+      nomi<lb ed="#L" n="119" break="no"/>nis aequalitas. Secundo de simili &amp; similitudine. Tertio ex 
+      di<lb ed="#L" n="120" break="no"/>ctis approbat quorundam sententiam. Secunda ibi, Haec etiam 
+      <lb ed="#L" n="121"/>dicimus de simili. Tertia ibi, vnde quibusdam. Secunda pars 
+      prin<lb ed="#L" n="122" break="no"/>cipalis in qua ponit appropriationem Hilarij diuiditur in duas. 
+      <lb ed="#L" n="123"/>Primo enim ponit appropriationem Hilarij cum 
+      expositio<lb ed="#L" n="124" break="no"/>ne Augustini. Secundo respondet ad praemissa. Tertia pars 
+      <lb ed="#L" n="125"/>principalis in qua ponit appropriationem Augustini diuiditur 
+      <lb ed="#L" n="126"/>in duas. Primo enim proponit eam. Secundo ponit 
+      appropria<lb ed="#L" n="127" break="no"/>tionis rationem. Secuda ibi, Sed plurimos mouet. Haec est 
+      sen<lb ed="#L" n="128" break="no"/>tentia in generali. In speciali sic procedit &amp; inquirit primo. Vtrum 
+      <lb ed="#L" n="129"/>hoc nomen aequale substantiam an relationem dicat in diuinis. 
+      <lb ed="#L" n="130"/>Secundo inquirit vtrum aequalitas secundum essentiam, an 
+      re<lb ed="#L" n="131" break="no"/>lationem attendatur. Tertio inquirit quae sit ipsa aequalitas. Ad 
+      <lb ed="#L" n="132"/>primum respondet quod aequale relatiue dicitur, nihil enim 
+      si<lb ed="#L" n="133" break="no"/>biipsi est aequale. Ad secundum respondet quod aequalitas es 
+      <lb ed="#L" n="134"/>quaedam relatio secundum nomen solum. Realis enim qualita 
+      <lb ed="#L" n="135"/>in diuinis est identitas vnitatis. Postea dicit quod idem est de 
+      <lb ed="#L" n="136"/>simili, quia relatiue dicitur secundum nomen, similitudo autem 
+      <lb ed="#L" n="137"/>secundum essentiae vnitatem attenditur. Postea autem 
+      appro<lb ed="#L" n="138" break="no"/>bat ex his opinionem quorundam dicentium quod simile 8 
+      <lb ed="#L" n="139"/>aequale, non positiue, sed negatiue dicuntur in diuinis, 
+      aequali<lb ed="#L" n="140" break="no"/>tas enim excludit magnitudinem differentem. Similitudo vero 
+      <lb ed="#L" n="141"/>diuersitatem. Postea ponit appropriationem Hilarij, dicens 
+      <lb ed="#L" n="142"/>quod Hilarius aeternitatem appropriat patri, speciem filio, vsum 
+      <lb ed="#L" n="143"/>spiritui sancto, quam Augustinus exponens dicit aeternitatem 
+      <lb ed="#L" n="144"/>appropriat patri, quia aeternitas priuat principium, &amp; ideo 
+      con<lb ed="#L" n="145" break="no"/>uenit patri, quia innascibilis est. Filium vero vocat imaginem 
+      <lb ed="#L" n="146"/>cui attribuit speciem &amp; pulchritudinem propter perfectam &amp; 
+      <lb ed="#L" n="147"/>proportionatam patris repraesentationem cum summa 
+      aequa<lb ed="#L" n="148" break="no"/>litate &amp; similitudine, spiritum sanctum vocat munus, quia 
+      do<lb ed="#L" n="149" break="no"/>num est patris &amp; filij, cui attribuit vsum, ab ipso enim ad 
+      no<lb ed="#L" n="150" break="no"/>stram vtilitatem omnia nobis infunduntur. Postea respondet 
+      <lb ed="#L" n="151"/>ad quoddam dubium posset enim aliquis credere quod 
+      Hila<lb ed="#L" n="152" break="no"/>rius in verbis praedictis proprietates personales expressit. 
+      Vn<lb ed="#L" n="153" break="no"/>de determinat quod non, videtur tamen quod nomine 
+      aeter<lb ed="#L" n="154" break="no"/>nitatis dedisset intellectum innascibilitatis. Subdit etiam quod 
+      <lb ed="#L" n="155"/>secundum Hilarium licet pater sit aequalis filio, &amp; econuerso, 
+      <lb ed="#L" n="156"/>tamen dicit quod filius aequatur patri, &amp; per originem tendii 
+      <lb ed="#L" n="157"/>in patris aequalitatem, &amp; non econuerso. Postea ponii 
+      <lb ed="#L" n="158"/>applicationes Augustini quod patri vnitas appropriatur 
+      <lb ed="#L" n="159"/>filio, aequalitas spiritui sancto, vtriusque concordia. 
+      Po<lb ed="#L" n="160" break="no"/>stea declarat, &amp; primo quo modo vnitas appropriatur 
+      pa<lb ed="#L" n="161" break="no"/>tri licet enim omnes personae propter naturae vnitatem, &amp; con¬ 
+      <!--00213.xml-->
+      <pb ed="#L" n="74-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>formitatem voluntatis possint dici vnum, quia tamen non 
+      ha<lb ed="#L" n="2" break="no"/>bet principium a quo sit, appropriatur patri qui est sine princi 
+      <lb ed="#L" n="3"/>pio, vbi etiam subdit quod pater &amp; filius &amp; spiritussan. dicuntur 
+      <lb ed="#L" n="4"/>esse vnum principium. vnde &amp; vnus dominus, aequalitas vero 
+      <lb ed="#L" n="5"/>appropriatur filio in quo primo inuenitur aequalitas i diuinis, 
+      <lb ed="#L" n="6"/>spiritussanctus autem appropriatur concordia, quia ipse 
+      pro<lb ed="#L" n="7" break="no"/>cedit in diuinis, vt amor &amp; dilectio. Haec est sententia &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

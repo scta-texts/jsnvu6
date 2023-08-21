@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="245-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e201985"><!-- l3d39q3 -->
+            <head xml:id="jsnvu6-e201985-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-e201985-Hd1e103" type="question-title">Utrum iuramentum incautum sit obligatorium</head>
+            <p xml:id="jsnvu6-e201985-d1e106">
+      <!--00564.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="84"/>Vtrum iuramentum incautum sit obligatorium 
+      <lb ed="#L" n="85"/>Thom. vbi supra ad. 2. 
+    </p>
+            <p xml:id="jsnvu6-e201985-d1e119">
+               <lb ed="#L" n="86"/>TERTIO quaeritur, vtrum iuramentum 
+      in<lb ed="#L" n="87" break="no"/>cautum sit obligatorium. Et videtur quod sic, 
+      <lb ed="#L" n="88"/>quia iuramentum quod potest seruarn sine 
+      de<lb ed="#L" n="89" break="no"/>trimento salutis est obligatorium, sed 
+      iura<lb ed="#L" n="90" break="no"/>mentum incautum quandoque est tale quod 
+      <lb ed="#L" n="91"/>potest seruari sine detrimento salutis, ergo &amp;c 
+      <lb ed="#L" n="92"/>Minor probatur, quia qui iurat se non 
+      intra<lb ed="#L" n="93" break="no"/>turum religionem, vel se non seruaturum virginitatem incaute 
+      <lb ed="#L" n="94"/>iurat, &amp; tamen tale iuramentum potest seruari sine detrimento 
+      <lb ed="#L" n="95"/>salutis, quia non est de necessitate salutis, nec virginitatem ser 
+      <lb ed="#L" n="96"/>uare, nec religionem intrare, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e201985-d1e145">
+               <lb ed="#L" n="97"/>
+               <!--2--> Item plus debet vnicuique obesse culpa propria quam 
+      alie<lb ed="#L" n="98" break="no"/>na, sed iuramentum incautum est ex culpa propria; iuramentum 
+      <lb ed="#L" n="99"/>vero coactum est ex culpa aliena, cum ergo iuramentum coactu 
+      <lb ed="#L" n="100"/>saltem per leuem metum sit obligatorium, videtur multo 
+      ma<lb ed="#L" n="101" break="no"/>gis quod iuramentum incautum sit obligatorium. 
+</p>
+            <p xml:id="jsnvu6-e201985-d1e162">
+               <lb ed="#L" n="102"/>IN CONTRARIVM arguitur, quia nulla res 
+      attin<lb ed="#L" n="103" break="no"/>git propriam virtutem nisi cum est perfecta, sed obligatio es 
+      <lb ed="#L" n="104"/>virtus iuramenti obligatorij, ergo nullum iuramentum obli 
+      <lb ed="#L" n="105"/>gat nisi sit perfectum. sed iuramentum incautum non est perfe 
+      <lb ed="#L" n="106"/>ctum cum non habeat tres comites saltem iudicium 
+      discretio<lb ed="#L" n="107" break="no"/>nis, ergo non est obligatorium. 
+      </p>
+            <p xml:id="jsnvu6-e201985-d1e178">
+               <lb ed="#L" n="108"/>
+               <!--4--> RESPONSIO. Dicendum quod aliquod iuramentum 
+      <lb ed="#L" n="109"/>potest esse incautum dupliciter. Vno modo ex parte obiecti vi 
+      <lb ed="#L" n="110"/>cum aliquis iurat id quod est de se illicitum vel quod est impe 
+      <lb ed="#L" n="111"/>dimentum maioris boni, vt si aliquis iuret non intrare religioni 
+      <lb ed="#L" n="112"/>Alio modo potest esse incautum ex parte motiui vt si aliquis iure 
+      <lb ed="#L" n="113"/>ire in aliquam peregrinationem sub conditione inhonesta 
+      put<lb ed="#L" n="114" break="no"/>si consequatur voluntatem de muliere non sua, de iuramento se 
+      <lb ed="#L" n="115"/>cundo modo incauto dicetur in sequenti quaestione, sed si iura 
+      <lb ed="#L" n="116"/>mentum sit primo modo incautum, quia iuratur aliquid illicitum 
+      <lb ed="#L" n="117"/>vel quod est maioris boni impeditiuum, sic dicendum est quod ta 
+      <lb ed="#L" n="118"/>le iuramentum non est obligatorium. Cuius ratio est, quia iura 
+      <lb ed="#L" n="119"/>mentum non est vinculum iniquitatis, sed si iuramentum pra 
+      <lb ed="#L" n="120"/>dicto modo incautum esset obligatorium, tunc esset vinculun 
+      <lb ed="#L" n="121"/>iniquitatis, ergo &amp;c. Minor probatur, si enim iuramentum fit d 
+      <lb ed="#L" n="122"/>illicito, &amp; obliget, ligat ad aliquid iniquum. Item idem est si si 
+      <lb ed="#L" n="123"/>de licito quod tamem est impeditiuum maioris boni, quia minu 
+      <lb ed="#L" n="124"/>bonum vt est impeditiuum maioris boni habet rationem mali 
+      <lb ed="#L" n="125"/>ergo vt sic ligari ad tale bonum vt est maioris boni impeditiui 
+      <lb ed="#L" n="126"/>est ligari ad malum. Est tamen aduertendum, quia vbi iuramen 
+      <lb ed="#L" n="127"/>tum promissorium est de illicito secundum se non tamen obli 
+      <lb ed="#L" n="128"/>gatur homo ad id faciendum, sed tenetur non facere, vbi autem iu 
+      <lb ed="#L" n="129"/>ramentum est de minori bono quod si fiat est impeditiuum ma 
+      <lb ed="#L" n="130"/>ioris boni non ligatur homo ad illud faciendum si vult 
+      tenden<lb ed="#L" n="131" break="no"/>in majus bonum, si tamen non vult tendere nec intendit potest! 
+      <lb ed="#L" n="132"/>cite minus bonum facere, &amp; ratione iuramenti tenetur, vt si ali 
+      <lb ed="#L" n="133"/>quis iuret se ducturum in vxorem aliquam, si vult intrare in rel 
+      <lb ed="#L" n="134"/>gionem, non tenetur eam ducere, si tamen ducit eam non pecca 
+      <lb ed="#L" n="135"/>&amp; si non intendit intrare religionem etiam tenetur eam ducere
+</p>
+            <p xml:id="jsnvu6-e201985-d1e243">
+               <lb ed="#L" n="136"/>AD PRIMVM argumentum dicendum quod iuramentum 
+      <lb ed="#L" n="137"/>incautum per quod vouetur illud quod de se est illicitum &amp; iura 
+      <lb ed="#L" n="138"/>mentum per quod impeditur majus bonum non potest seruari sine 
+      <lb ed="#L" n="139"/>detrimento salutis: non enim est solum in detrimentum salutis actus 
+      <lb ed="#L" n="140"/>quo promittitur illud quod directe est eontra salutem, sed omne 
+      <lb ed="#L" n="141"/>illud quod est contra promotionem salutis, &amp; sic est iuramentum 
+      <lb ed="#L" n="142"/>de non intrando religionem, vel de non seruando virginitatem 
+      </p>
+            <p xml:id="jsnvu6-e201985-d1e261">
+               <lb ed="#L" n="143"/>
+               <!--6--> AD SECVNDVM dicendum quod iuramentum qua 
+      <lb ed="#L" n="144"/>tenus est incautum solum ex culpa propria, quia factum est fin 
+      <lb ed="#L" n="145"/>deliberatione digna dummodo sit factum ex quacunque del 
+      <lb ed="#L" n="146"/>beratione obligat iurantem nisi natura rei promissae impediit 
+      <lb ed="#L" n="147"/>quatenus est illicita vel impeditiua maioris boni. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="289-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e238031"><!-- l4d15q10 -->
+            <head xml:id="jsnvu6-e238031-Hd1e101">Quaestio 10</head>
+            <head xml:id="jsnvu6-e238031-Hd1e103" type="question-title">Utrum omnes teneantur ad seruandum 
+      ieiunia ab ecclesia instituta</head>
+            <p xml:id="jsnvu6-e238031-d1e106">
+               <lb ed="#L" n="29"/>QUAESTIO DECIMA. 
+      <lb ed="#L" n="30"/>Vtrum omnes teneantur ad seruandum 
+      <lb ed="#L" n="31"/>ieiunia ab ecclesia instituta. 
+      <lb ed="#L" n="32"/>Thom. Sbi supra. 
+    </p>
+            <p xml:id="jsnvu6-e238031-d1e117">
+               <lb ed="#L" n="33"/>SECVNDO quaeritur vtrum omnes teneantur ac 
+      <lb ed="#L" n="34"/>setuandum ieiunia ab ecclesia instituta. Et 
+      argui<lb ed="#L" n="35" break="no"/>tur quod sic, quia minus videtur quod iusti 
+      te<lb ed="#L" n="36" break="no"/>neantur ad ieiunia quam peccatores: quia ieiunium 
+      <lb ed="#L" n="37"/>est pars satisfactionis qua iusti non indigent, sed 
+      <lb ed="#L" n="38"/>peccatores, sed iusti tenentur seruare ieiunia, vt probatur, ergo 
+      <lb ed="#L" n="39"/>multo magis omnes alij. Probatio minoris: quia ad praecepta 
+      <lb ed="#L" n="40"/>virtutum seruanda obligantur iusti, sed praeceptum de iciunio 
+      <lb ed="#L" n="41"/>pertinet ad virtutem temperantiae, ergo ad ipsum seruandum 
+      <lb ed="#L" n="42"/>obligantur etiam iusti. 
+      </p>
+            <p xml:id="jsnvu6-e238031-d1e141">
+               <lb ed="#L" n="43"/>
+               <!--2--> Item pueri magis possunt excusari a ieiunio quam adulti qui 
+      <lb ed="#L" n="44"/>sunt fortes, sed pueri videntur obligari ad seruandum ieiunium 
+      <lb ed="#L" n="45"/>indictum per ecclesiam in noua lege, quia in veteri lege qua 
+      <lb ed="#L" n="46"/>fuit minus perfecta indicebatur eis ieiunium, vt patet Ioe. 2 
+      <lb ed="#L" n="47"/>vbi dicitur sic: Sanctificate ieiunium, congregate paruulos &amp; 
+      <lb ed="#L" n="48"/>sugentes vbera. ergo in noua lege obligantur ad seruandum 
+      ie<lb ed="#L" n="49" break="no"/>iunium, ergo multo fortius &amp; pauperes. 
+      </p>
+            <p xml:id="jsnvu6-e238031-d1e162">
+               <lb ed="#L" n="50"/>
+               <!--3--> Item arguitur quod laborantes non debeant a ieiuniis ex 
+      <lb ed="#L" n="51"/>cusari: quia bonum spirituale debet praeponi bono corporali 
+      <lb ed="#L" n="52"/>sed ieiunium est bonum spirituale, labor autem corporalis est 
+      <lb ed="#L" n="53"/>bonum corporale, ergo ieiunium est praeponendum labori 
+      cor<lb ed="#L" n="54" break="no"/>porali, nec est dimittendum propter laborem corporalem. 
+      </p>
+            <p xml:id="jsnvu6-e238031-d1e178">
+               <lb ed="#L" n="55"/>
+               <!--4--> RESPONSIO. Dicendum est quod ad ieiunium institu 
+      <lb ed="#L" n="56"/>tum per ecclesiam non tenentur pueri, infirmi, pauperes, labo 
+      <lb ed="#L" n="57"/>rantes obseruare, vt inferius declarabitur: quod autem pueri nor 
+      <lb ed="#L" n="58"/>teneantur, quia praeceptum non obligat nisi secundum 
+      intentio<lb ed="#L" n="59" break="no"/>nem praecipientis, ecclesia autem statuendo ieiunium intendit 
+      in<lb ed="#L" n="60" break="no"/>centiua vitiorum resecare &amp; naturam conseruare. Cum igitur 
+      ie<lb ed="#L" n="61" break="no"/>iunium pueris sit nociuum &amp; notabiliter corruptiuum naturae 
+      <lb ed="#L" n="62"/>patet quod non est intentio ecclesiae eos obligare. Assumpta 
+      pro<lb ed="#L" n="63" break="no"/>batur: quia in pueris non solum exigitur cibus ad actum 
+      nutri<lb ed="#L" n="64" break="no"/>tiuae sed etiam ad augmentum. Et quia nondum virtus natura 
+      <lb ed="#L" n="65"/>tantum in eis conualuit vt possint simul de cibo sumere quod 
+      <lb ed="#L" n="66"/>sufficiat ad vtrunque, ideo indigent frequenti sumptione cibi 
+      <lb ed="#L" n="67"/>alias notabiliter laederentur. Et propter hoc non competit ei: 
+      <lb ed="#L" n="68"/>ieiunium dum sunt in augmento. Tempus autem augmenti es 
+      <lb ed="#L" n="69"/>vsque ad tertium septennium inclusiue, vt in pluribus, &amp; idec 
+      <lb ed="#L" n="70"/>ante hoc tempus non arctantur ad omnia ieiunia ecclesiae obser 
+      <lb ed="#L" n="71"/>uanda, nisi illi in quibus virtus naturae peruenit ad robur corpo 
+      <lb ed="#L" n="72"/>ris, quia res naturales non eodem modo se habent in omnibus 
+      </p>
+            <p xml:id="jsnvu6-e238031-d1e222">
+               <lb ed="#L" n="73"/>
+               <!--5--> Ex eodem patet quod infirmi non tenentur ad talia ieiunia. 
+      <lb ed="#L" n="74"/>Tum quia propter debilitatem virtutis quae infirmitate 
+      prae<lb ed="#L" n="75" break="no"/>mitur. Tum propter cibaria ieiunij quae plerunque essent 
+      peri<lb ed="#L" n="76" break="no"/>culosa infirmanti. Tum propter horam ieiunandi quae nor 
+      <lb ed="#L" n="77"/>posset ab infirmis obseruari cum non debeant comedere nis 
+      <lb ed="#L" n="78"/>paroxismo recedente, vel aliis horis de consilio medicorum 
+      <lb ed="#L" n="79"/>prout congruit releuationi infirmitatis suae. 
+      </p>
+            <p xml:id="jsnvu6-e238031-d1e242">
+               <lb ed="#L" n="80"/>
+               <!--6--> De pauperibus autem dicendum quod paupertas in eo casu 
+      <!--00651.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>eos excusat quando non possunt habere simul hora 
+      commestio<lb ed="#L" n="82" break="no"/>nis quod sufficiat ad victum vnius diei, sicut frequenter contin 
+      <lb ed="#L" n="83"/>git egenis qui frustratim eleemosynas quaerunt, vel etiam 
+      quan<lb ed="#L" n="84" break="no"/>do ex praecedenti inedia debilitati sunt, ita quod ieiunium sine 
+      <lb ed="#L" n="85"/>magno incommodo ferre non possunt. De laborantibus autem 
+      <lb ed="#L" n="86"/>distinguendum est, quia si sine labore sibi sufficere possent, non 
+      <lb ed="#L" n="87"/>excusantur a ieiunio, si autem non possent, nisi laborado, si etiam 
+      <lb ed="#L" n="88"/>ieiunando cum minori labore sibi possunt victum acquirere pro 
+      <lb ed="#L" n="89"/>persona sua &amp; familia sua, cuius curam gerunt, adhuc tenentur 
+      <lb ed="#L" n="90"/>ieiunare: si autem alias non possunt tantum laborare quod victum 
+      <lb ed="#L" n="91"/>sufficientem acquirant nisi ieiunium fragendo, possunt 
+      secun<lb ed="#L" n="92" break="no"/>dum dispensationem sui sacerdotis ieiunium soluere &amp; 
+      labora<lb ed="#L" n="93" break="no"/>re. Ex quo patet quod intentio maioris lucri non necessarij 
+      eo<lb ed="#L" n="94" break="no"/>a peccato non excusat si ieiunium frangant: nec iterum illi a pec 
+      <lb ed="#L" n="95"/>cato excusantur, qui nolunt operarios conducere, nisi tali pacte 
+      <lb ed="#L" n="96"/>vt ieiunium soluant. Et quia peregrinatio inter labores compu 
+      <lb ed="#L" n="97"/>tatur, sed non inter necessarios ad victum, ideo videtur dicendum 
+      <lb ed="#L" n="98"/>quod propter peregrinationem assumptam voluntarie, nullo modo 
+      <lb ed="#L" n="99"/>frangendum est ieiunium: quando autem imponitur a confessore 
+      <lb ed="#L" n="100"/>captandum est tempus, vt expleatur absque fractione ieiunij. Es 
+      <lb ed="#L" n="101"/>si ieiunium infra tempus peregrinationis occurrat, temperandus 
+      <lb ed="#L" n="102"/>est labor vitae, vt ieiunium obseruetur: quia non videtur sufficiens 
+      <lb ed="#L" n="103"/>ratio transgrediendi generale praeceptum ecclesiae per id quod 
+      <lb ed="#L" n="104"/>voluntarie assumitur, vel quod a simplici sacerdote imponitur 
+</p>
+            <p xml:id="jsnvu6-e238031-d1e305">
+               <lb ed="#L" n="105"/>AD PRIMVM argumentum dicendum est quod tam 
+      iu<lb ed="#L" n="106" break="no"/>sti quam peccatores tenentur ad ieiunia per ecclesiam iustituta, 
+      <lb ed="#L" n="107"/>nisi excuset eos aliqua de causis i corpore solutionis assignatis. 
+      </p>
+            <p xml:id="jsnvu6-e238031-d1e314">
+               <lb ed="#L" n="108"/>
+               <!--3--> Ad secundum dicendum qued illud quod allegatur de pueris 
+      <lb ed="#L" n="109"/>Ioelis 2. cap. fuit specialis casus ad placandum Deum Niniuitis 
+      <lb ed="#L" n="110"/>vehementer iratum, nec debet trahi ad communem legem. 
+      </p>
+            <p xml:id="jsnvu6-e238031-d1e326">
+               <lb ed="#L" n="111"/>
+               <!--9--> Ad tertium dicendum quod pauperes qui possunt habere 
+      ho<lb ed="#L" n="112" break="no"/>ra comestionis illud quod sufficit ad victum vnius diei, non ex 
+      <lb ed="#L" n="113"/>cusantur a ieiunio: pauperes tamen qui nihil habent nisi quod 
+      <lb ed="#L" n="114"/>frustratim quaerunt videntur a ieiunio excusari, ideo &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

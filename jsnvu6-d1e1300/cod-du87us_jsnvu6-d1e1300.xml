@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="60-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1300"><!-- l1d23q1 -->
+            <head xml:id="jsnvu6-d1e1300-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e1300-Hd1e103" type="question-title">Utrum nomen personae significet substantiam an relationem</head>
+            <p xml:id="jsnvu6-d1e1300-d1e106">
+               <lb ed="#L" n="125"/>QVALSTIO PEIN 
+      <lb ed="#L" n="126"/>Vtrum persona significet substantiam 
+      <lb ed="#L" n="127"/>an relationem. 
+      <lb ed="#L" n="128"/>Thom. . g. 19 artic. 4. 
+    </p>
+            <p xml:id="jsnvu6-d1e1300-d1e117">
+               <lb ed="#L" n="129"/>IHCA distinctionem istam duo quaeruntur. 
+      <lb ed="#L" n="130"/>(Primum est de hoc nomine persona, scilicet 
+      <lb ed="#L" n="131"/>lvtrum significet substantiam an relationem. 
+      Se<lb ed="#L" n="132" break="no"/>cundum erit de comparatione ad alia nomina. 
+      <lb ed="#L" n="133"/>a Ad primum arguitur sic, &amp; videtur quod 
+      signi<lb ed="#L" n="134" break="no"/>ficet relationem: Primo per Boetium libro de trinitate, qui 
+      <lb ed="#L" n="135"/>dicit quod omne nomen pertinens ad personas significat 
+      re<lb ed="#L" n="136" break="no"/>lationem, sed nullum nomen magis pertinet ad personas, 
+      <lb ed="#L" n="137"/>quam hoc nomen persona, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e139">
+               <lb ed="#L" n="138"/>
+               <!--2--> Praeterea quicquid plurificatur in diuinis pertinet ad 
+      rela<lb ed="#L" n="139" break="no"/>tiones, quia secundum Boetium essentia continet vnitatem 
+      re<lb ed="#L" n="140" break="no"/>latio vero multiplicat trinitatem, sed persona plurificatur in 
+      <lb ed="#L" n="141"/>diuinis, dicimus enim tres esse persona, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e153">
+               <lb ed="#L" n="142"/>
+               <!--3--> SED CONTRA Augusti. 7. de Trinitate, quum 
+      di<lb ed="#L" n="143" break="no"/>cimus persona patris, non aliud dicimus quam substantiam 
+      <lb ed="#L" n="144"/>patris, ad se quippe dicitur persona non ad filium siue 
+      spiri<lb ed="#L" n="145" break="no"/>tum sanctum sicut ad se dicitur Deus, igitur persona 
+      signifi<lb ed="#L" n="146" break="no"/>cat essentiam. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e169">
+               <lb ed="#L" n="147"/>
+               <!--4.--> RESPONSIO. Videnda sunt duo. Primum est, an 
+      <lb ed="#L" n="148"/>persona sit nomen rei, an intentionis. Secundum est, quid 
+      signi<lb ed="#L" n="149" break="no"/>ficet in diuinis, substantiam, an relationem. Quantum ad 
+      pri<lb ed="#L" n="150" break="no"/>mum est duplex modus dicendi. Primus est, quod nomen personae 
+      <lb ed="#L" n="151"/>significat intentionem, quod probatur dupliciter. Primo sic 
+      <lb ed="#L" n="152"/>Illud quod dicit indiuiduum in omni genere, &amp; suppositum in 
+      <lb ed="#L" n="153"/>genere substantiae dicit personam in genere intellectualis 
+      na<lb ed="#L" n="154" break="no"/>turae: sed indiuiduum &amp; suppositum sunt nomina intentionum, 
+      <lb ed="#L" n="155"/>&amp; non rerum, ergo &amp; persona. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e193">
+               <lb ed="#L" n="156"/>
+               <!--5--> Secundo sic, Omnia nomina significantia res aliquas, sunt 
+      <lb ed="#L" n="157"/>in praedicamento sub aliqua intentione, sicut substantia sub inten 
+      <lb ed="#L" n="158"/>tione generis, homo sub intentione speciei, sortes sub 
+      inten<lb ed="#L" n="159" break="no"/>tione indiuidui, vel suppositi, sed persona non ost res sub inten¬ 
+      <!--00186.xml-->
+      <pb ed="#L" n="60-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tione generis, vel speciei, quia de ratione rei cui conuenit esse 
+      <lb ed="#L" n="2"/>genus, vel species, est quod sit pluribus communicabilis, vt 
+      pa<lb ed="#L" n="3" break="no"/>tet in diffinitionibus generis &amp; speciei, quae sunt esse 
+      praedica<lb ed="#L" n="4" break="no"/>bile de pluribus differentibus specie &amp; numero, sed de ratione 
+      <lb ed="#L" n="5"/>personae est quod sit incommunicabilis, vt patet in diffinitione 
+      <lb ed="#L" n="6"/>eius quam ponit Boetius, ergo persona non est nomen rei cui 
+      <lb ed="#L" n="7"/>conueniat esse genus, vel speciem, nec dicit rem sub 
+      intentio<lb ed="#L" n="8" break="no"/>ne suppositi, quia illa vni soli conuenit vt sortes, persona au 
+      <lb ed="#L" n="9"/>tem pluribus, quare persona non est nomen rei sub aliqua 
+      in<lb ed="#L" n="10" break="no"/>tentione, sed est nomen intentionis eius cuius est suppositum 
+      <lb ed="#L" n="11"/>non tamen in omni natura, sed in intellectuali tantum: Est 
+      <lb ed="#L" n="12"/>enim persona rationalis naturae indiuidua substantia 
+      secun<lb ed="#L" n="13" break="no"/>dum Boetium. Accipitur autem hic intentio non pro ratione 
+      <lb ed="#L" n="14"/>quam format intellectus circa rem, vt sunt genus, species, &amp; 
+      <lb ed="#L" n="15"/>huiusmodi, quia indiuiduatio vel singularitas non fiunt in 
+      re<lb ed="#L" n="16" break="no"/>bus per intellectum, sed ex natura rei sed vocantur hic 
+      inten<lb ed="#L" n="17" break="no"/>tiones large conditiones rei ex opposito correspondentes 
+      in<lb ed="#L" n="18" break="no"/>tentionibus vniuersalibus proprie dictis vt singularitas, 
+      indiui<lb ed="#L" n="19" break="no"/>duatio, suppositatio, personalitas, quae contrahunt speciem sicut 
+      <lb ed="#L" n="20"/>species, ipsum genus. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e256">
+               <lb ed="#L" n="21"/>
+               <!--6.--> Alius modus dicendi est, quod persona significat non inten 
+      <lb ed="#L" n="22"/>tionem, sed rem subiectam intentioni dicunt enim isti, quod 
+      si<lb ed="#L" n="23" break="no"/>cut homo significat non intentionem speciei, sed rem subiectam 
+      <lb ed="#L" n="24"/>intentioni, &amp; aliquis homo significat rem subiectam 
+      intentio<lb ed="#L" n="25" break="no"/>ni, quae est indiuiduum vagum in natura humana specialiter, 
+      it<lb ed="#L" n="26" break="no"/>persona significat naturam subiectam intentioni quae est indiui 
+      <lb ed="#L" n="27"/>duum vagum in natura intellectuali generaliter, &amp; non ipsam 
+      <lb ed="#L" n="28"/>intentionem. Quod probatur dupliciter. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e278">
+               <lb ed="#L" n="29"/>
+               <!--7--> Primo sic, hoc nomen persona impositum est ad 
+      significan<lb ed="#L" n="30" break="no"/>dum suppositum naturae intellectualis secundum quod quand 
+      <lb ed="#L" n="31"/>importat dignitatem, intentiones autem non important 
+      ali<lb ed="#L" n="32" break="no"/>quam dignitatem, sed res subiectae intentionibus, vniuersalitas 
+      <lb ed="#L" n="33"/>enim non importat maiorem dignitatem in homine quam in 
+      <lb ed="#L" n="34"/>equo, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e296">
+               <lb ed="#L" n="35"/>
+               <!--8--> Secundo, nomen personae impositum est ad significandum 
+      <lb ed="#L" n="36"/>aliquid dignum laude vel vituperio, intentiones autem non 
+      di<lb ed="#L" n="37" break="no"/>cunt aliquid dignum laude vel vituperio, hoc enim conuenit sol 
+      <lb ed="#L" n="38"/>rei habenti dominium sui actus, ergo &amp;c. Et respondent ad 
+      ra<lb ed="#L" n="39" break="no"/>tionem alterius positionis, dicentes quod persona non dicit rem 
+      <lb ed="#L" n="40"/>sub intentione generis, vel speciei, vel indiuidui signati, sed 
+      di<lb ed="#L" n="41" break="no"/>cit rem sub intentione indiuidui vagi, nec significat idem quod 
+      <lb ed="#L" n="42"/>suppositum in genere substatiae, sed potius rem sub intentione 
+      <lb ed="#L" n="43"/>indiuidui vagi in natura intellectuali generaliter, sicut aliquis 
+      <lb ed="#L" n="44"/>homo dicit suppositum vagum in natura humana, 
+      quemadino<lb ed="#L" n="45" break="no"/>dum dictum fuit prius. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e326">
+               <lb ed="#L" n="46"/>
+               <!--9--> Quicquid sit de principali conclusione, ista tamen non 
+      va<lb ed="#L" n="47" break="no"/>lent, quia non est probabile quod persona dicat solum rem subie 
+      <lb ed="#L" n="48"/>ctam intentioni, quae est indiuiduum vagum. Cuius ratio est, 
+      <lb ed="#L" n="49"/>quia res subiecta intentioni quae est indiuiduum vagum 
+      impor<lb ed="#L" n="50" break="no"/>tatur per terminum significantem naturam generis vel speciei 
+      <lb ed="#L" n="51"/>addito signo particulari, vt aliquod animal, vel aliquis homo 
+      <lb ed="#L" n="52"/>Res ergo subiecta intentioni indiuidui vagi in natura 
+      intelle<lb ed="#L" n="53" break="no"/>ctuali bene potest designari per haec nomina quae sunt, scilice 
+      <lb ed="#L" n="54"/>quaedam natura intellectualis, quidam angelus, quidam homo 
+      <lb ed="#L" n="55"/>Quid autem significetur per hoc nomen persona, valde 
+      ex<lb ed="#L" n="56" break="no"/>traneum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e355">
+               <lb ed="#L" n="57"/>
+               <!--10.--> Item de ratione rei subiectae intentioni indiuidui vagi ni 
+      <lb ed="#L" n="58"/>potest esse quod sit incommunicabilis, sed de ratione persona 
+      <lb ed="#L" n="59"/>est quod sit incommunicabilis, vt patet per eius diffinitionem 
+      <lb ed="#L" n="60"/>siue descriptionem quae est secundum Boetium &amp; Richardum, 
+      <lb ed="#L" n="61"/>quod persona est rationalis naturae indiuidea siue 
+      incommuni<lb ed="#L" n="62" break="no"/>cabilis substantia, ergo persona non dicit rem subiectam 
+      inten<lb ed="#L" n="63" break="no"/>tioni indiuidui vagi, minor iam patet, sed maior probatur, quia 
+      <lb ed="#L" n="64"/>res subiecta intentioni indiuidui vagi semper est 
+      communica<lb ed="#L" n="65" break="no"/>bilis pluribus, &amp; tot sicut natura subiecta intentioni speciei. De 
+      <lb ed="#L" n="66"/>tot enim prae dicatur aliquis homo sicut homo. Et ideo de ratio 
+      <lb ed="#L" n="67"/>ne talis rei non potest esse incommunicabilitas cum repugnet 
+      <lb ed="#L" n="68"/>naturae rei. Ex hoc enim dicitur vagum, quia potest pluribus 
+      <lb ed="#L" n="69"/>conuenire &amp; non vni tantum 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e388">
+               <lb ed="#L" n="70"/>
+               <!--11--> Et ideo si hoc nomen persona, diceret rem subiectam inten 
+      <lb ed="#L" n="71"/>tioni indiuidui vagi, impossibile esset quod de ratione eius esset 
+      <lb ed="#L" n="72"/>incommunicabilitas. Si autem nomen personae designet non rem 
+      <lb ed="#L" n="73"/>sed rationem suppositi in natura intellectuali; nihil 
+      prohibe<lb ed="#L" n="74" break="no"/>quod nomen personae pluribus conueniat, &amp; tamen res cui 
+      con<lb ed="#L" n="75" break="no"/>uenit ratio personae non conueniat pluribus, quia quamuis res 
+      <lb ed="#L" n="76"/>aliqua sit incommunicabilis pluribus vt sortes, tamen ratio 
+      in<lb ed="#L" n="77" break="no"/>communicabilitatis, vt esse indiuiduum signatum, vel esse suppositum 
+      <lb ed="#L" n="78"/>vel personam potest conuenire pluribus: quamuis enim solus sor 
+      <lb ed="#L" n="79"/>tes sit sortes, qa sortes est nomem rei subiectae rationi indiuidul 
+      <lb ed="#L" n="80"/>signati, suppositi, vel personae, tamen non solus sortes est 
+      indiui<lb ed="#L" n="81" break="no"/>duum signatum suppositum vel persona, imo Plato &amp; caeteri 
+      homi<lb ed="#L" n="82" break="no"/>nes quia ista dicunt rationem quae potest pluribus conuenire, re 
+      <!--00186.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>tamen cui talis ratio conuenit non potest pluribus conuenire. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e427">
+               <lb ed="#L" n="84"/>
+               <!--12--> Quod autem isti arguunt pro se facile est soluerem. Dicendo 
+      <lb ed="#L" n="85"/>ad primum quod nomen personae impositum est ad signandum 
+      <lb ed="#L" n="86"/>intentionem suppositi non absolute, sed tantum in natura 
+      intelle<lb ed="#L" n="87" break="no"/>ctuali quae super alias dignitatem importat, &amp; ob hoc solum nomen 
+      <lb ed="#L" n="88"/>est ad dignitatem pertinens non ratione formalis significati sed 
+      <lb ed="#L" n="89"/>ratione naturae subiectae, ex qua sortitur speciale nomen, sicut 
+      <lb ed="#L" n="90"/>&amp; nomen suppositi importat quandam dignitatem supra indiuiduum 
+      <lb ed="#L" n="91"/>non ratione formalis significati quae vtrobique est vna, scilicet 
+      in<lb ed="#L" n="92" break="no"/>tentio singularitatis, sed ratione naturae subiectae. Suppositum enim 
+      <lb ed="#L" n="93"/>dicit indiuiduum non quodcunque sed subsistens &amp; complerum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e453">
+               <lb ed="#L" n="94"/>
+               <!--13--> Per idem patet ad secundum quod tamen includit quoddam 
+      <lb ed="#L" n="95"/>friuolum satis scilicet, quod persona importat aliquid dignum 
+      <lb ed="#L" n="96"/>laude. Constat enim quod laude nullus est dignus nisi virtuosus 
+      <lb ed="#L" n="97"/>Si ergo persona signat aliquid laude dignum, sequitur quod no 
+      <lb ed="#L" n="98"/>omne suppositum intellectualis naturae dicetur persona, sed solim 
+      <lb ed="#L" n="99"/>virtuosus quod est absurdum dicere. Licet enim origo nominis 
+      <lb ed="#L" n="100"/>personae fuerit a reputatione laudum cum fictione cuiusdam 
+      <lb ed="#L" n="101"/>laruae, tractum est tamen ad significandum suppositum 
+      intelle<lb ed="#L" n="102" break="no"/>ctualis naturae puto ergo quod nomen personae prout Boetius &amp;t 
+      <lb ed="#L" n="103"/>Richardus eo vtuntur &amp; describunt ipsum &amp; prout sumitur in 
+      <lb ed="#L" n="104"/>diuinis significat ratione suppositi, &amp; non rem subiectam rationi 
+      <lb ed="#L" n="105"/>licet de ea praedicetur, vulgus tamen aliter vtitur nomine 
+      perso<lb ed="#L" n="106" break="no"/>nae, scilicet pro re subiecta intentioni indiuidui vagi, vt cum 
+      di<lb ed="#L" n="107" break="no"/>cimus quod iste vel ille est bona persona, id est, bonus homo, sic de 
+      <lb ed="#L" n="108"/>ratione personae non est esse incommunicabile, &amp; sic patet primum 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e490">
+               <lb ed="#L" n="109"/>
+               <!--24--> QUANTVM ad secundum sciendum est quod si prima 
+      opi<lb ed="#L" n="110" break="no"/>nio de significato personae vera est, scilicet quod persona non 
+      si<lb ed="#L" n="111" break="no"/>gnificat rem sed intentionem, tunc patet quod persona nec ind 
+      <lb ed="#L" n="112"/>uinis, nec in creaturis significat substantiam, nec relationem. Si 
+      <lb ed="#L" n="113"/>vero significet rem intentioni subiectam, vt dicit secunda 
+      opi<lb ed="#L" n="114" break="no"/>nio, adhuc posset videri alicui quod nomen personae non 
+      signi<lb ed="#L" n="115" break="no"/>ficat substantiam, nec relationem sed abstrahit ab vtroque. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e511">
+               <lb ed="#L" n="116"/>
+               <!--15--> Quod patet sic, quid vnumquodque nomen significet acci 
+      <lb ed="#L" n="117"/>pere oportet ex eius diffinitione. Idem enim significant 
+      diffini<lb ed="#L" n="118" break="no"/>tio &amp; diffinitum, &amp; diffinitio est ratio quam significat nomen vt 
+      <lb ed="#L" n="119"/>habetur 4. metaph. Ex hoc sic arguitur, a quocunque intellectu 
+      <lb ed="#L" n="120"/>abstrahit significatum diffinitionis ab eodem abstrahit 
+      intelle<lb ed="#L" n="121" break="no"/>ctus &amp; significatum diffiniti. Sed formalis intellectus &amp; 
+      significa<lb ed="#L" n="122" break="no"/>tio diffinitionis personae abstrahit ab essentia &amp; relatione, licet 
+      <lb ed="#L" n="123"/>materialiter &amp; in obliquo includat essentiam vel substantiam, 
+      <lb ed="#L" n="124"/>ergo &amp;c. minor patet per diffinitionem personae quam ponit 
+      <lb ed="#L" n="125"/>Boetius, scilicet quod persona est rationalis naturae, indiuidua 
+      <lb ed="#L" n="126"/>substatia, quod idem est ac sic diceretur, persona est suppositum, 
+      <lb ed="#L" n="127"/>ibi enim ponitur substantia indiuidua pro supposico, vel 
+      hypo<lb ed="#L" n="128" break="no"/>stasi, vel est tanquam suppositum naturae intellectualis, extra 
+      au<lb ed="#L" n="129" break="no"/>tem significatum &amp; intellectum huius diffinicionis est essentia 
+      <lb ed="#L" n="130"/>&amp; relatio vt de se patet. Si enim in diuinis non esset nisi vnum 
+      <lb ed="#L" n="131"/>suppositum essentiale &amp; absolutum vt gentiles imaginantur, 
+      <lb ed="#L" n="132"/>illi naturae vere competeret ratio personae. Et si in creaturis 
+      con<lb ed="#L" n="133" break="no"/>stitueretur suppositum per relationem sicut nunc in diuinis 
+      il<lb ed="#L" n="134" break="no"/>lud vere rationem personae haberet quod non haberet si in 
+      for<lb ed="#L" n="135" break="no"/>mali significato rationis personae includeretur essentia vel rela 
+      <lb ed="#L" n="136"/>tio, vel vtrunque. Sunt ergo extra formale significatum 
+      perso<lb ed="#L" n="137" break="no"/>nae &amp; suae diffinitionis, materialiter tamen &amp; in obliquo 
+      inclu<lb ed="#L" n="138" break="no"/>ditur essentia, quia persona dicit suppositum in tali natura 
+      so<lb ed="#L" n="139" break="no"/>lum scilicet, intellectiua. sed quod illud sit absolutum vel 
+      rela<lb ed="#L" n="140" break="no"/>tum totum est extra significatum personae. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e570">
+               <lb ed="#L" n="141"/>
+               <!--16.--> Istud autem non potest esse verum, quia sicut infra patebit 
+      <lb ed="#L" n="142"/>nullus conceptus vnus realis &amp; essentialis potest abstrahere a 
+      <lb ed="#L" n="143"/>substantia &amp; relatione. Nomen enim impositum secundum illum 
+      <lb ed="#L" n="144"/>conceptum esset vniuocum substantiae &amp; relationi quod non es 
+      <lb ed="#L" n="145"/>possibile, propter quod si persona significet rem subiectam 
+      in<lb ed="#L" n="146" break="no"/>tentioni cum illa dicatur essentialiter de persona absoluta in 
+      <lb ed="#L" n="147"/>creaturis &amp; de relata in diuinis, impossibile est quod hoc sit 
+      se<lb ed="#L" n="148" break="no"/>cundum vnum conceptum abstrahentem ab vtroquem, quia sic 
+      <lb ed="#L" n="149"/>esset aliquid vniuocum ad vtrunque. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e594">
+               <lb ed="#L" n="150"/>
+               <!--17--> Ad rationem illorum dicendum quod diffinitio personae 
+      <lb ed="#L" n="151"/>prout dictum est, non abstrahit a substantia imo expresse 
+      inclu<lb ed="#L" n="152" break="no"/>dit cum dicitur quod persona est rationalis naturae indiuidu: 
+      <lb ed="#L" n="153"/>substantia &amp; si substantia non accipitur ibi pro essentia, seu pry 
+      <lb ed="#L" n="154"/>supposito tunc diffinitur persona prout dicit intentionem &amp; no 
+      <lb ed="#L" n="155"/>rem intentioni subiectam. Si autem quaeratur non de 
+      significa<lb ed="#L" n="156" break="no"/>to sed de eo de quo nomen personae dicitur. Nomem enim de mul 
+      <lb ed="#L" n="157"/>tis dicitur quae tamen per nomen non significantur, sicut homo 
+      <lb ed="#L" n="158"/>praedicatur de sorte &amp; de Platone &amp; tamen neutrum significat, vt 
+      <lb ed="#L" n="159"/>sit sensus quaestionis quid est illud in diuinis de quo persona 
+      <lb ed="#L" n="160"/>praedicatur, sic dicendum est quod illud non est relatio tantum, 
+      <lb ed="#L" n="161"/>nec essentia tantum, sed constitutum ex essentia &amp; relatione 
+      <lb ed="#L" n="162"/>Quod probatur sic. Illud de cuius ratione est quod sit subsistens, di 
+      <lb ed="#L" n="163"/>stinctum, &amp; incommutabile, includit in se illud per quod 
+      subsi<lb ed="#L" n="164" break="no"/>stie &amp; illud per quod est distinctum, &amp; incommunicabile, sed 
+      <!--00187.xml-->
+      <pb ed="#L" n="61-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>persona est huiusmodi, quare &amp;c. sed in diuinis quicquid 
+      subsi<lb ed="#L" n="2" break="no"/>sdit, subsistit per essentiam vel subsistit per essentiam vel sub. 
+      <lb ed="#L" n="3"/>stantiam: quicquid distinguitur &amp; est incommunicabile 
+      ho<lb ed="#L" n="4" break="no"/>habet per proprietatem relatiuam, ergo de quo persona dici 
+      <lb ed="#L" n="5"/>tur in diuinis includit essentiam &amp; proprietatem relatiuam, 
+      <lb ed="#L" n="6"/>vt pater &amp; filius &amp; huiusmodi, quae &amp; si imponantur ad 
+      signi<lb ed="#L" n="7" break="no"/>ficandum a sola relatione tamen vt accommodantur diuinis 
+      <lb ed="#L" n="8"/>important totum constitutum ex relatione &amp; essentia. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e655">
+               <lb ed="#L" n="9"/>
+               <!--18--> AD PRLMVM argumentum dicendum qued omne no 
+      <lb ed="#L" n="10"/>men pertinens ad personas importat relatione vel tanquam 
+      <lb ed="#L" n="11"/>id quod formaliter significatur vt pater vel filius, vel taquam 
+      <lb ed="#L" n="12"/>illud de quo dicitur &amp; sic nomen personae importat relationi 
+      <lb ed="#L" n="13"/>quia de relatiuo praedicatur, sed relationem non signat. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e671">
+               <lb ed="#L" n="14"/>
+               <!--19--> Ad secundum per idem quia illud quod plurificatur in 
+      di<lb ed="#L" n="15" break="no"/>uinis pertinet ad relationes quantum ad ea in quae 
+      plurifica<lb ed="#L" n="16" break="no"/>tur &amp; de quibus dicitur, sed non oportet quod hoc sit 
+      quan<lb ed="#L" n="17" break="no"/>tum ad formalem rationem significandi, quia sicut dictum est 
+      <lb ed="#L" n="18"/>significatum communis nominis non includit in se rationem 
+      il<lb ed="#L" n="19" break="no"/>lorum de quibus dicitur. 
+      </p>
+            <p xml:id="jsnvu6-d1e1300-d1e689">
+               <lb ed="#L" n="20"/>
+               <!--20--> Ad aliud in oppositum dicendum quod Augustinus 
+      acci<lb ed="#L" n="21" break="no"/>pit ibi substantiam pro hypostasi vel supposito, &amp; non pro 
+      es<lb ed="#L" n="22" break="no"/>sentia solum, &amp; bene concessum est quod nomen personae 
+      sup<lb ed="#L" n="23" break="no"/>positum significat: vel hoc dicitur pro tanto, quia illud de 
+      <lb ed="#L" n="24"/>quo dicitur persona non solum includit relationem, sed etiam 
+      <lb ed="#L" n="25"/>cum relatione essentiam. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

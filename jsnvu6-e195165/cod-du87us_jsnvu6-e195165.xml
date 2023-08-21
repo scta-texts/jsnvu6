@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="237-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e195165"><!-- l3d34q2 -->
+            <head xml:id="jsnvu6-e195165-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e195165-Hd1e103" type="question-title">Utrum sint praecise septem dona</head>
+            <p xml:id="jsnvu6-e195165-d1e106">
+               <lb ed="#L" n="29"/>QUAE STIO. SECVNDA. 
+      <lb ed="#L" n="30"/>Vtrum sint praecise septem dona. 
+      <lb ed="#L" n="31"/>Thom. 1. 2. q. 64. art. 4. 
+    </p>
+            <p xml:id="jsnvu6-e195165-d1e115">
+               <lb ed="#L" n="32"/>SECVNDO quaeritur, vtrum sint praecise septen 
+      <lb ed="#L" n="33"/>dona. Et videtur quod non, quia dona vel sunt 
+      vir<lb ed="#L" n="34" break="no"/>tutes, vel sunt in adiutorium virtutum, sed 
+      quic<lb ed="#L" n="35" break="no"/>quid istorum dicetur, semper sequetur quod sini 
+      <lb ed="#L" n="36"/>plura dona quam septem, quare &amp;c. Maior patet 
+      <lb ed="#L" n="37"/>ex praecedenti quaestione. Minor declaratur, quia si dona fint 
+      <lb ed="#L" n="38"/>idem quod virtutes, quot sunt virtutes tot erunt dona, sunt 
+      au<lb ed="#L" n="39" break="no"/>tem plures virtutes quam septem, quare &amp;c. Si vero sint 
+      adiuto<lb ed="#L" n="40" break="no"/>rium virtutum idem sequitur scilicet quod cuilibet virtuti 
+      de<lb ed="#L" n="41" break="no"/>bet correspondere aliquod donum datum in eius adiutorium. 
+      </p>
+            <p xml:id="jsnvu6-e195165-d1e139">
+               <lb ed="#L" n="42"/>
+               <!--2.--> Item videtur quod non sint septem, quia donum est aliquid 
+      <lb ed="#L" n="43"/>altius virtute, sed timor non est aliquid altius quam sit virtus, 
+      <lb ed="#L" n="44"/>ergo non est donum, &amp; sic de septem subtractum est vnum. 
+      </p>
+            <p xml:id="jsnvu6-e195165-d1e151">
+               <lb ed="#L" n="45"/>
+               <!--3--> IN CONTRARIVM est magister in litera. 
+      </p>
+            <p xml:id="jsnvu6-e195165-d1e158">
+               <lb ed="#L" n="46"/>
+               <!--4--> RESPONSIO. si dona &amp; virtutes sint idem, vel donum 
+      <lb ed="#L" n="47"/>sit in plus quam virtus, vt dicit tertius modus in praecedenti quae 
+      <lb ed="#L" n="48"/>stione tactus, sic non est dubium quin sint plura dona quam 
+      se<lb ed="#L" n="49" break="no"/>ptem cum virtutes intellectuales, theologicae, &amp; morales, hunc 
+      <lb ed="#L" n="50"/>numerum excedant, sed quia hic modus quanquam sit 
+      proba<lb ed="#L" n="51" break="no"/>bilis tamen non tenetur communiter, ideo loquendo vt plures 
+      <lb ed="#L" n="52"/>Dicendum est quod solum sunt septem dona &amp; non plura, vel 
+      <lb ed="#L" n="53"/>pauciora. Quorum numerus &amp; sufficientia potest haberi hoc 
+      <lb ed="#L" n="54"/>modo, sicut virtutes morales perficiunt vires appetitiuas ad obe 
+      <lb ed="#L" n="55"/>diendum rationi, sic dona perficiunt hominem ad hoc vt 
+      prom<lb ed="#L" n="56" break="no"/>pte sequatur instinctum spiritus sancti, &amp; ideo in omnibus 
+      viri<lb ed="#L" n="57" break="no"/>bus hominis quae possunt esse plura principia malorum actuum 
+      <lb ed="#L" n="58"/>ponuntur dona, scilicet in ratione &amp; in vi appetitiua, ratio 
+      au<lb ed="#L" n="59" break="no"/>tem diuiditur in speculatiuam &amp; practicam non sicut in duas 
+      <lb ed="#L" n="60"/>potentias sed in vnam distinctam solum per diuersa officia, &amp; in 
+      <lb ed="#L" n="61"/>vtraque est considerare apprehensionem veritatis &amp; iudicium de 
+      <lb ed="#L" n="62"/>veritate apprehensa, ad apprehensionem ergo veritatis mode 
+      <lb ed="#L" n="63"/>superhumano vel diuino perficitur speculatiua ratio per donum 
+      <lb ed="#L" n="64"/>intellectus. Practica vero per donum consilij, ad recte autem iu 
+      <lb ed="#L" n="65"/>dicandum perficitur speculatiua ratio per sapientiam, practica 
+      <lb ed="#L" n="66"/>vero per scientiam, virtus autem appetitiua in his quae sunt ad 
+      <lb ed="#L" n="67"/>alterum, perficitur per donum pietatis. In his autem quae sunt 
+      <lb ed="#L" n="68"/>hominis ad seipsum quantum ad passiones appetitus indigemu: 
+      <lb ed="#L" n="69"/>duplici perfectione, quia quaedam passiones appetitus retrahunt 
+      <lb ed="#L" n="70"/>a bono vt timor periculorum &amp; respectu harum perficimur 
+      mo<lb ed="#L" n="71" break="no"/>do superhumano per donum fortitudinis. Aliae vero passiones 
+      <lb ed="#L" n="72"/>inclinant ad malum vt delectationes &amp; concupiscentiae 
+      carna<lb ed="#L" n="73" break="no"/>les. Et contra istas perficimur per donum timoris, in timore enim 
+      <lb ed="#L" n="74"/>domini declinat omnis a malo Prouerbiorum 16. 
+      </p>
+            <p xml:id="jsnvu6-e195165-d1e226">
+               <lb ed="#L" n="75"/>
+               <!--5--> Aliter vero a quibusdam accipitur distinctio praedictorum 
+      <lb ed="#L" n="76"/>sic. Dona perficiunt hominem in vita tam speculatiua quam acti 
+      <lb ed="#L" n="77"/>ua. In speculatiua quidem per modum visus inspicientis perfieit 
+      <lb ed="#L" n="78"/>donum intellectus: per modum vero gustus experientis perficit 
+      <lb ed="#L" n="79"/>sapientia. In actiua vero vita quantum ad recessum a malo per¬ 
+      <!--00548.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>ficit donum timoris. Quantum aurem ad operationem Soni 
+      per<lb ed="#L" n="81" break="no"/>ficiunt quatuor alia dona, sed differenter, quia quoddam est 
+      Bo<lb ed="#L" n="82" break="no"/>num necessarium &amp; respectu istius perficit scientia vt dirigens, 
+      <lb ed="#L" n="83"/>pietas vero vt exequens. Aliud est bonum supererogationis, ad 
+      <lb ed="#L" n="84"/>quod non omnes tenentur, &amp; respectu talis boni perficit donum 
+      <lb ed="#L" n="85"/>consilij per modum dirigentis, donum vero fortitudinis per 
+      mo<lb ed="#L" n="86" break="no"/>dum exequentis. 
+      </p>
+            <p xml:id="jsnvu6-e195165-d1e261">
+               <lb ed="#L" n="87"/>
+               <!--6--> Ad primum argumentum dicendum quod si dona sint idem 
+      <lb ed="#L" n="88"/>quod virtutes, argumentum bene procederet, sed si dona sint 
+      <lb ed="#L" n="89"/>quidam habitus dati in adiutorium virtutum perficientia ad 
+      al<lb ed="#L" n="90" break="no"/>tiorem modum operandi, non oportet quod sint tot dona quot 
+      <lb ed="#L" n="91"/>virtutes, quia vnum donum sufficeret ad dirigendum, respectu 
+      <lb ed="#L" n="92"/>plurium virtutum habentium ordinem inter se, sicut fides, spes, 
+      <lb ed="#L" n="93"/>&amp; charitas adinuicem ordinantur, &amp; ad aliquid vnum tendunt 
+      <lb ed="#L" n="94"/>&amp; ideo charitati &amp; spei non oportet quod correspondet 
+      ali<lb ed="#L" n="95" break="no"/>quod aliud donum, quam illud quod correspondet fidei: &amp; sic 
+      <lb ed="#L" n="96"/>potest esse circa alias virtutes habentes inter se ordinem, 
+      pro<lb ed="#L" n="97" break="no"/>pter hoc non oportet hoc modo multiplicari dona iuxta 
+      nume<lb ed="#L" n="98" break="no"/>rum virtutum. 
+      </p>
+            <p xml:id="jsnvu6-e195165-d1e292">
+               <lb ed="#L" n="99"/>
+               <!--7--> Ad secundum dicendum quod timor est aliquid perfectius 
+      <lb ed="#L" n="100"/>virtute, accipiendo timorem pro dono: sic enim timor facit 
+      ho<lb ed="#L" n="101" break="no"/>minem subiectum deo per reuerentiam, vt resiliat ab omni eo 
+      <lb ed="#L" n="102"/>quod deo displicet, &amp; hoc fit perfectius per donum timoris, 
+      <lb ed="#L" n="103"/>quam per quamcunque virtutem acquisitam
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

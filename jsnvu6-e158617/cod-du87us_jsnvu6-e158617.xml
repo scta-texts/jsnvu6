@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="193-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e158617"><!-- l3d6q2 -->
+            <head xml:id="jsnvu6-e158617-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e158617-Hd1e103" type="question-title">
+      Utrum in Christo sit tantum vnum 
+      esse in, plura
+    </head>
+            <p xml:id="jsnvu6-e158617-d1e106">
+               <lb ed="#L" n="23"/>QVAISTIO SECVNDA. 
+      <lb ed="#L" n="24"/>Vtrum in Christo sit tantum vnum 
+      <lb ed="#L" n="25"/>esse in, plura. 
+      <lb ed="#L" n="26"/>Thom. 3. q. 17. ar. 3. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e117">
+               <lb ed="#L" n="27"/>CIRCA secundam opinionem quae est vera 8 
+      <lb ed="#L" n="28"/>catholica, quaeritur, supposito quod in Christo si 
+      <lb ed="#L" n="29"/>tantum vnum suppositum &amp; duplex natura, vtri 
+      <lb ed="#L" n="30"/>In ipso sit tantum vnum esse, an plura. Et 
+      argui<lb ed="#L" n="31" break="no"/>Atur quod sit tantum vnum esse, quia omnia quae sunt 
+      <lb ed="#L" n="32"/>in Christo possunt esse, &amp; existere per vnum esse diuinum, 
+      er<lb ed="#L" n="33" break="no"/>go frustra ponerentur plura: consequentia patet, probatio 
+      an<lb ed="#L" n="34" break="no"/>tecedentis, esse secundo adiacens praedicat esse existentiae, vi 
+      <lb ed="#L" n="35"/>cum dicitur Sortes est. Sed esse tertio adiacens praedicat esse 
+      <lb ed="#L" n="36"/>existentiae secundum naturam tertij adiacentis, vt cum dicitu 
+      <lb ed="#L" n="37"/>Sortes est homo, sed cum praedicatur esse tertio adiacens 
+      suffi<lb ed="#L" n="38" break="no"/>cit ad verificationem propositionis quod res importatae per 
+      <lb ed="#L" n="39"/>subiectum &amp; praedicatum conueniant in eodem supposito, nec 
+      <lb ed="#L" n="40"/>oportet quod sint idem per essentiam vel per inhaerentiam na 
+      <lb ed="#L" n="41"/>turarum, verificamus enim hanc, filius Dei est homo 
+      propte<lb ed="#L" n="42" break="no"/>conuenientiam solam in supposito, &amp; non propter identitatem 
+      <lb ed="#L" n="43"/>praedicati cum subiecto secundum essentiam velinhaerentiam 
+      <lb ed="#L" n="44"/>ergo similiter cum praedicatur esse secundo adiacens, &amp; 
+      accipi<lb ed="#L" n="45" break="no"/>tur pro esse existentiae, vt dicendo humanitas Christi est, po 
+      <lb ed="#L" n="46"/>test verificari haec propositio propter solam conuenientiam 
+      <lb ed="#L" n="47"/>esse diuini cum humanitate in supposito, neque oportet ad 
+      ve<lb ed="#L" n="48" break="no"/>rificationem eius dicere quod esse de humanitate verificatum 
+      <lb ed="#L" n="49"/>sit esse creatum idem cum ea vel ei inhaerens, &amp; idem potes 
+      <lb ed="#L" n="50"/>dici de omnibus quae sunt in Christo 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e172">
+               <lb ed="#L" n="51"/>
+               <!--2--> Item non minus repugnat supposito diuino supplere vicem 
+      caus<lb ed="#L" n="52" break="no"/>materialis quam vicem causae formalis, sed suppositum diuinum 
+      sup<lb ed="#L" n="53" break="no"/>plet vicem subiecti respectu naturae assumptae substantificando 
+      ip<lb ed="#L" n="54" break="no"/>sam in se, ergo similiter potest supplere vicem causae 
+      formali<lb ed="#L" n="55" break="no"/>respectu eiusdem, ita vt non habeat esse per alud nisi per esse 
+      di<lb ed="#L" n="56" break="no"/>uinum sibi communicatum, &amp; ita erit tantum vnum esse in Christo 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e191">
+               <lb ed="#L" n="57"/>
+               <!--3.--> Item quae non sunt vnum nec secundum essentiam, nec 
+      se<lb ed="#L" n="58" break="no"/>cundum esse, nullo modo de se inuicem praedicantur 
+      praedica<lb ed="#L" n="59" break="no"/>tione dicente hoc est hoc. Sed humana natura praedicatur de 
+      <lb ed="#L" n="60"/>diuina saltem concretiue dicendo Deus est homo, ergo cun 
+      <lb ed="#L" n="61"/>non sint vnum per essentiam oportet quod sint vnum in esse, sed si 
+      <lb ed="#L" n="62"/>in Christo esset aliud esse secudum naturam diuinam &amp; aliuc 
+      <lb ed="#L" n="63"/>secundum humanam, tunc non essent vnum in esse, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e211">
+               <lb ed="#L" n="64"/>
+               <!--4--> INCONTRARIVM est, qa illud habet proprium e 
+      <lb ed="#L" n="65"/>se de quo potest responderi ad interrogationem factam de eo an est 
+      <lb ed="#L" n="66"/>Sed ad interrogationem factam de humanitate Christi an est, pon 
+      <lb ed="#L" n="67"/>vere responderi quod est, ergo humanitas Christi habet in 
+      Chri<lb ed="#L" n="68" break="no"/>sto proprium esse. Sed constat quod ibi est esse diuimum, ergo plura esse 
+      <lb ed="#L" n="69"/>Item Dama. dicit lib. 3. quod ea quae consequuntur naturan 
+      <lb ed="#L" n="70"/>duplicantur in Christo, sed nihil immediatius vel intimius con 
+      <lb ed="#L" n="71"/>sequitur naturam quam esse, ergo esse multiplicantur in 
+      Chri<lb ed="#L" n="72" break="no"/>sto secundum multiplicationem naturae. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e235">
+               <lb ed="#L" n="73"/>
+               <!--6--> RESPONSIO. Haec quaestio partim dependet ab illa 
+      <lb ed="#L" n="74"/>qua quaeritur, vtrum esse &amp; essentia sint idem, &amp; partim non, si enim 
+      <lb ed="#L" n="75"/>detur pars affirmatiua, scilicet quod esse &amp; essentia sint idem, statin 
+      <lb ed="#L" n="76"/>sequitur quod in Christo sint plura esse sicut plures essentiae. S 
+      <lb ed="#L" n="77"/>vero detur pars negatiua, s. quod esse &amp; essentia non sint idem, tunc 
+      <lb ed="#L" n="78"/>remanet quaestio dubia, &amp; sunt circa eam tres modi dicendi. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e253">
+               <lb ed="#L" n="79"/>
+               <!--7--> PRIMVS est quod in Christo non sunt plura esse, sed 
+      <lb ed="#L" n="80"/>vnum tantum: quod probatur tribus rationibus. Primus est 
+      <!--00460.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>quia esse non est nisi rei subsistentis. Sed in Christo non est nisi 
+      <lb ed="#L" n="82"/>vnum subsistens, scilicet vnum suppositum cuius est subsistere, 
+      <lb ed="#L" n="83"/>ergo in Christo est tantum vnum esse. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e273">
+               <lb ed="#L" n="84"/>
+               <!--8--> Secunda ratio est, quia sicut se habet quantitas ad quanta, 
+      <lb ed="#L" n="85"/>ita se habet esse ad entia, sed quaecunque sunt in eodem 
+      suppo<lb ed="#L" n="86" break="no"/>sito sunt quanta, &amp; extensa per quantitatem vnam &amp; eandem 
+      <lb ed="#L" n="87"/>numero, ergo quaecunque sunt entia in eodem supposito 
+      ha<lb ed="#L" n="88" break="no"/>bent esse per vnum &amp; idem numero. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e289">
+               <lb ed="#L" n="89"/>
+               <!--9--> Tertia ratio est, quia accidentia non sunt entia nisi quia 
+      en<lb ed="#L" n="90" break="no"/>tis, vt dicitur 4. Meta. Si autem accidens haberet proprium esse 
+      prae<lb ed="#L" n="91" break="no"/>ter esse suppositi accidens esset secundum se ens, &amp; non solum entis 
+      <lb ed="#L" n="92"/>quod negat Philosophus: ergo accidens non habet aliquod esse 
+      <lb ed="#L" n="93"/>praeter esse subiecti. Sed natura humana in Christo 
+      substantifi<lb ed="#L" n="94" break="no"/>catur in supposito diuino aliquo modo, sicut accidens in 
+      subie<lb ed="#L" n="95" break="no"/>cto inquantum non constituit proprium suppositum, ergo secundum 
+      <lb ed="#L" n="96"/>se non habet proprium esse praeter esse suppositi diuini. Et in 
+      <lb ed="#L" n="97"/>tantum procedunt isti quod dicunt erroneum esse ponere plu 
+      <lb ed="#L" n="98"/>ra esse in Christo cum ad hoc sequatur pluralitas suppositorum 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e316">
+               <lb ed="#L" n="99"/>
+               <!--10--> SECVNDVS modus quod in Christo sunt necessario plu 
+      <lb ed="#L" n="100"/>ra esse. Quod probatur quatuor rationibus. Prima est, quia 
+      vni<lb ed="#L" n="101" break="no"/>tas vel pluralitas ipsius esse in Christo, aut attenditur secundum 
+      <lb ed="#L" n="102"/>suppositum, aut secundum naturas. Si secundum naturas cum 
+      plu<lb ed="#L" n="103" break="no"/>res naturae sint in Christo, ergo &amp; plura esse. Si secundum suppo 
+      <lb ed="#L" n="104"/>situm. Contra, quia si vnitas suppositi diuini argueret vnitatem 
+      ip<lb ed="#L" n="105" break="no"/>sius esse pluralitas suppositoru argueret pluralitatem ipsorum 
+      es<lb ed="#L" n="106" break="no"/>se, consequens est falsum, quia personae diuinae cum sint tria 
+      suppo<lb ed="#L" n="107" break="no"/>sita non habent nisi vnicum esse existentiae propter vnitatem 
+      <lb ed="#L" n="108"/>essentiae, ergo vnitas vel pluralitas ipsorum esse non attenditur 
+      <lb ed="#L" n="109"/>secundum vnitatem vel pluralitatem suppositi: sed naturarum 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e345">
+               <lb ed="#L" n="110"/>
+               <!--11--> Secunda ratio est, quia agere supponit esse, &amp; esse 
+      supposi<lb ed="#L" n="111" break="no"/>ti. &amp; esse. Sed in Christo non obstante vnitate suppositi, praete 
+      <lb ed="#L" n="112"/>agere diuinum est agere humanum, ergo in ipso praeter esse 
+      <lb ed="#L" n="113"/>diuinum est aliud, scilicet esse humanum &amp; sic plura esse. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e358">
+               <lb ed="#L" n="114"/>
+               <!--12--> Tertia est quod si humana natura quae est in Christo, sibi 
+      de<lb ed="#L" n="115" break="no"/>relinqueretur constat quod haberet proprium esse existentiae aliud 
+      <lb ed="#L" n="116"/>ab esse diuino, aut ergo illud idem est quod habebat in supposite 
+      <lb ed="#L" n="117"/>diuino, aut aliud: Si idem habetur propositum, scilicet quod in Christo 
+      <lb ed="#L" n="118"/>praeter esse diuinum est aliud esse. Si aliud, contra. illud quod 
+      amit<lb ed="#L" n="119" break="no"/>tit totum esse simpliciter quod prius habuit &amp; acquirit totaliter 
+      <lb ed="#L" n="120"/>nouum esse quod prius non habuit tale est vere corruptum &amp; 
+      gene<lb ed="#L" n="121" break="no"/>ratum. Sed si natura humana sibi derelinqueretur, amitteret totum 
+      <lb ed="#L" n="122"/>esse simpliciter quod habuit, si in Christo est solum vnum esse, &amp; 
+      <lb ed="#L" n="123"/>hoc sit diuinum, &amp; acquireret totaliter nouum esse quod prius non 
+      <lb ed="#L" n="124"/>habuit, ergo vere prius corrumperetur, &amp; postea generaretur: &amp; 
+      <lb ed="#L" n="125"/>sic non esset eadem numero quae prius quod est inconueniens 
+      <lb ed="#L" n="126"/>Minor patet, probatio maioris, quia sicut illud corrumpitur 
+      se<lb ed="#L" n="127" break="no"/>cundum quid, quod amittit aliquod esse &amp; non totum, sicut cum 
+      <lb ed="#L" n="128"/>aqua calida infrigidatur vel econuerso, sic illud corrumpitur 
+      <lb ed="#L" n="129"/>simpliciter quod amittit totum esse simpliciter quod habuit. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e397">
+               <lb ed="#L" n="130"/>
+               <!--13--> Et iterum essentia non potest manere, vel conseruari sine 
+      es<lb ed="#L" n="131" break="no"/>se quacunque virtute: natura ergo humana amittendo totum 
+      <lb ed="#L" n="132"/>esse quod habuit in Christo dato quod fiat sub alio esse quod 
+      <lb ed="#L" n="133"/>prius non habuit: aut est corrupta per amissionem primi esse, aut 
+      <lb ed="#L" n="134"/>non: sed requiritur quod sic amittat esse praecedens quod nullo 
+      <lb ed="#L" n="135"/>modo recuperet aliud. Si primum detur, habetur propositum: si 
+      <lb ed="#L" n="136"/>vero detur secundum. Contra, essentia amittens suum esse, &amp; 
+      <lb ed="#L" n="137"/>nullum recuperans vere adnihilatur: quia nunquam natura 
+      po<lb ed="#L" n="138" break="no"/>test manere sine aliquo esse, vt dictum est: Si ergo esse non 
+      cor<lb ed="#L" n="139" break="no"/>rumpitur nisi amittendo totum suum esse &amp; nullum 
+      recuperan<lb ed="#L" n="140" break="no"/>do nunquam poterit esse corruptio sine adnihilatione, imo non 
+      <lb ed="#L" n="141"/>differret vnum ab altero quod est conueniens. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e428">
+               <lb ed="#L" n="142"/>
+               <!--14--> Quarta ratio est talis. Omnis generatio terminatur ad esse 
+      <lb ed="#L" n="143"/>&amp; omnis corruptio ad non esse, sed Christus secundum naturam 
+      <lb ed="#L" n="144"/>humanam vere fuit genitus &amp; mortuus, ergo secundum eam 
+      ha<lb ed="#L" n="145" break="no"/>buit aliquod esse quod per generationem acquisiuit, &amp; quod 
+      pe<lb ed="#L" n="146" break="no"/>mortem amisit, illud autem non fuit esse diuinum, quia illud 
+      nun<lb ed="#L" n="147" break="no"/>quam amisit, ergo praeter esse diuinum fuit in Christo aliquod 
+      <lb ed="#L" n="148"/>esse creatum. Si vero dicatur quod per generationem 
+      tempora<lb ed="#L" n="149" break="no"/>lem Christi acquisitum fuit in Christo esse diuinum, non 
+      secum<lb ed="#L" n="150" break="no"/>dum se, quia illud prius habuit: Sed quia natura humana nouam 
+      <lb ed="#L" n="151"/>relationem habuit ad ipsum. Contra, illud per generationem 
+      <lb ed="#L" n="152"/>acquiritur quod per corruptionem amittitur. Sed esse diuinum, 
+      <lb ed="#L" n="153"/>vel relatio ad ipsum non est amissa per corruptionem, ergo 
+      ne<lb ed="#L" n="154" break="no"/>acquisita per generationem. Sicut ergo primi dicunt quod 
+      po<lb ed="#L" n="155" break="no"/>nere plura esse in Christo est erroneum, quia ad hoc sequitur 
+      <lb ed="#L" n="156"/>pluralitas suppositorum. Sic econtrario isti dicunt quod 
+      erro<lb ed="#L" n="157" break="no"/>neum est ponere tantum vnum esse in Christo, quia ad hoc 
+      se<lb ed="#L" n="158" break="no"/>quitur ipsum non fuisse vere natum, neque vere mortuum. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e470">
+               <lb ed="#L" n="159"/>
+               <!--15--> TERTIVS modus est medius inter istos quem credo 
+      ve<lb ed="#L" n="160" break="no"/>rum esse, scilicet quod in Christo est aliquo modo tantum vnum 
+      <lb ed="#L" n="161"/>esse, &amp; aliquo modo plura. Ad cuius intelligentiam sciendum est 
+      <lb ed="#L" n="162"/>quod sicut ens commune est, communitate analogiae ad substa¬ 
+      <!--00461.xml-->
+      <pb ed="#L" n="194-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tiam &amp; ad accidentis praedicamenta, &amp; in ipsa diuiditur, &amp; de 
+      <lb ed="#L" n="2"/>ipsis praedicatur. Sic nomen essentiae commune est ad 
+      substan<lb ed="#L" n="3" break="no"/>tiam, quantitate, qualitatem, &amp; sic de aliis: &amp; in ipsa diuiditur, &amp; 
+      <lb ed="#L" n="4"/>de ipsis praedicatur. Et similiter esse existentiae (quod est idem 
+      <lb ed="#L" n="5"/>quod essentia, vel si non est idem saltem immediatius consequitur 
+      es<lb ed="#L" n="6" break="no"/>sentiam quam quaecunque alia proprietas) diuiditur in esse quod con 
+      <lb ed="#L" n="7"/>uenit substantiae, quatitati, qualitati, &amp; aliis de ipsis praedicatur. 
+      <lb ed="#L" n="8"/>Et sicut substantia est ens, &amp; essentia per se subsistens, quantitas 
+      <lb ed="#L" n="9"/>autem &amp; quodlibet aliud accidens non est ens, nec essentia per 
+      <lb ed="#L" n="10"/>se subsistens, sed potius inexistens (hoc est in alio existens) vtruq 
+      <lb ed="#L" n="11"/>tamen tam substantia quam accidens dicuntur* entia &amp; ens, sic esse 
+      <lb ed="#L" n="12"/>existentiae substantiae completae dicitur esse subsistentiae. Esse 
+      <lb ed="#L" n="13"/>vero quantitatis &amp; omnium accidentium dicitur esse inexistem 
+      <lb ed="#L" n="14"/>tiae, vtrumque tamen dicitur existentiae. Hoc viso patet quod ess 
+      <lb ed="#L" n="15"/>existentiae, si solum accipiatur pro esse subsistentiae, de quo sim 
+      <lb ed="#L" n="16"/>pliciter, &amp; per prius dicitur, sic in Christo, &amp; in quolibet suppo 
+      <lb ed="#L" n="17"/>sito vno non est nisi vnicum esse. Si vero esse existentiae extensius 
+      <lb ed="#L" n="18"/>accipiatur pro omni eo de quo dicitur siue per prius, siue per po 
+      <lb ed="#L" n="19"/>stenus, sic in Christo &amp; in quolibet supposito creato, in qui 
+      <lb ed="#L" n="20"/>est aliqua natura creata materialis sunt plura esse, quorum vnum 
+      <lb ed="#L" n="21"/>est esse subsistentiae, reliqua vero omnia sunt esse inexistentiae 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e536">
+               <lb ed="#L" n="22"/>
+               <!--16--> Primum patet faciliter, quia esse subsistentiae sequitur 
+      na<lb ed="#L" n="23" break="no"/>turam per se subsistentem, vel secundum quam suppositum es 
+      <lb ed="#L" n="24"/>per se subsistens, sed tales naturae non possunt plurificari in 
+      <lb ed="#L" n="25"/>vno supposito, quia quae differunt secundum subsistentiam 
+      dif<lb ed="#L" n="26" break="no"/>ferunt secundum suppositum, ergo in vno supposito non 
+      pos<lb ed="#L" n="27" break="no"/>sunt esse plura esse subsistentiae. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e554">
+               <lb ed="#L" n="28"/>
+               <!--17.--> Secundum patet dupliciter. Primo, quia magis 
+      competi<lb ed="#L" n="29" break="no"/>naturae humanae in Christo habere proprium esse, praeter ess. 
+      <lb ed="#L" n="30"/>suppositi quam competat accidenti habere proprium esse in 
+      <lb ed="#L" n="31"/>subiecto praeter esse subiecti, sed accidens habet proprium ess. 
+      <lb ed="#L" n="32"/>in subiecto praeter esse subiecti, ergo natura humana in 
+      Chri<lb ed="#L" n="33" break="no"/>sto habet proprium esse praeter esse suppositi. Probatio 
+      mino<lb ed="#L" n="34" break="no"/>ris, quia si accidens non haberet in subiecto aliud esse praeter 
+      es<lb ed="#L" n="35" break="no"/>se subiecti tunc non posset a subiecto separari, nisi 
+      corrumpe<lb ed="#L" n="36" break="no"/>retur eo quod amitteret totum esse quod prius habuisset, 
+      si<lb ed="#L" n="37" break="no"/>cut fuit dictum prius de humana natura in Christo. Hoc autem 
+      <lb ed="#L" n="38"/>est falsum (vt patet in sacramento altaris) ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e583">
+               <lb ed="#L" n="39"/>
+               <!--18.--> Secundo, quia intimius sequitur esse ad essentiam quam 
+      <lb ed="#L" n="40"/>agere ad potentiam. Sed in Christo multiplicantur agere 
+      se<lb ed="#L" n="41" break="no"/>cundum multiplicationem potentiarum, ergo in Christo 
+      mul<lb ed="#L" n="42" break="no"/>riplicantur esse secundum multiplicationem essentiarum. 
+      <lb ed="#L" n="43"/>Tertio, quia plus dependet quantitas, &amp; alia accidentia 
+      con<lb ed="#L" n="44" break="no"/>munia ab esse quam dependeat colorla quantitate, sed color non 
+      <lb ed="#L" n="45"/>posset remanere in subiecto remota quantitate, ergo nec 
+      quan<lb ed="#L" n="46" break="no"/>titas, nec aliquod accidens posset esse in natura humana amoto 
+      <lb ed="#L" n="47"/>esse quod intimius sequitur ad ipsam quam quodcunque aliud.
+</p>
+            <p xml:id="jsnvu6-e158617-d1e607">
+               <lb ed="#L" n="48"/>Cum igitur in natura humana existente in Christo fuerit 
+      quan<lb ed="#L" n="49" break="no"/>titas, &amp; reliqua accidentia, necessarium est quod in ipsa fuerit 
+      pro<lb ed="#L" n="50" break="no"/>prium esse quod praeexigitur ad omnia illa. Prima ergo opinio 
+      <lb ed="#L" n="51"/>quae ponit tantum vnum esse in Christo loquitur de esse 
+      subsisten<lb ed="#L" n="52" break="no"/>tiae quod est simpliciter esse suppositi: sicut patet ex primo argu 
+      <lb ed="#L" n="53"/>mento quod concluditur esse vnum esse in Christo ex vnitate supposi 
+      <lb ed="#L" n="54"/>ti subsistentis &amp; illud veru est. Secunda vero opinio loquitur ge 
+      <lb ed="#L" n="55"/>neraliter de esse existentiae prout est commune ad esse 
+      subsisten<lb ed="#L" n="56" break="no"/>tiae &amp; ad esse inexistentiae, vt patet in omnibus argumentis. 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e629">
+               <lb ed="#L" n="57"/>
+               <!--20.--> Sed quia duae vltimae rationes primae opinionis nituntu 
+      <lb ed="#L" n="58"/>probare quod non sit aliquo modo nisi vnum esse in Christo: ideo, 
+      re<lb ed="#L" n="59" break="no"/>spondendum est ad eas. Cum enim dicitur secundo loco, quod in 
+      <lb ed="#L" n="60"/>eodem supposito omnia sunt quanta &amp; extensa per vnam 
+      quan<lb ed="#L" n="61" break="no"/>titatem, &amp;c. Dicendum est quod non est simile de quantitate &amp; de esse, 
+      <lb ed="#L" n="62"/>quia quantitas est vnius rationis in omnibus quae sunt in eodem 
+      <lb ed="#L" n="63"/>supposito, &amp; ideo non potest plurificari, sicut nec plures 
+      albe<lb ed="#L" n="64" break="no"/>dines in eodem subiecto, esse autem cum non sit vnius rationis in 
+      <lb ed="#L" n="65"/>mnibus, sed diuersarum (quia est de transcendentibus) potest 
+      <lb ed="#L" n="66"/>plurificari secundum pluralitatem naturarum quas sequitur: imo 
+      si<lb ed="#L" n="67" break="no"/>acutius consideretur illa ratio si aliquid valeret, aeque 
+      conclu<lb ed="#L" n="68" break="no"/>ret in vno supposito tantum esse vnam essentiam, sicut vnum 
+      <lb ed="#L" n="69"/>positum, quia sicut quantitate aliqua dicuntur quanta ita 
+      <lb ed="#L" n="70"/>entra aliqua dicuntur entia saltem quantum ad esse essentiae, 
+      <lb ed="#L" n="71"/>uemadmodum per esse dicuntur entia quantum ad esse 
+      exi<lb ed="#L" n="72" break="no"/>ntiae. Si ergo pet vnitatem quantitatis invno supposito suffi 
+      <lb ed="#L" n="73"/>inter concluditur ynitas esse existentiae, eadem ratione 
+      po<lb ed="#L" n="74" break="no"/>concludi vnitas esse essentiae quod est manifeste falsum. 
+      <lb ed="#L" n="75"/>d tertium dicendum quod illud dictum Arist. 4. Meta. sic 
+      <lb ed="#L" n="76"/>telligendum quod accidentia non sunt entia, nisi quia 
+      <lb ed="#L" n="77"/>quia accidens non habeat aliud esse ab esse subiecti, 
+      <lb ed="#L" n="78"/>uia esse quod dat subiecto, non posset secundum naturam 
+      <lb ed="#L" n="79"/>habere nisi esset in subiecto. 
+</p>
+            <p xml:id="jsnvu6-e158617-d1e684">
+               <lb ed="#L" n="80"/>Ad rationes principales. Ad primam dicendum quod 
+      hu<lb ed="#L" n="81" break="no"/>mana natura non porest existere per solum esse diuinum, Et 
+      <lb ed="#L" n="82"/>cum probatur quod imo, quia cum praedicatur esse tertio adia¬ 
+      <!--00461.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>cens sufficit ad verificationem propositionis quod res importatae 
+      <lb ed="#L" n="84"/>per subiectum &amp; praedicatum conueniant in eodem supposito. Di 
+      <lb ed="#L" n="85"/>cendum quod non est verum, imo ad verificandum omnem 
+      proposi<lb ed="#L" n="86" break="no"/>tionem, qua dicitur hoc est hoc, requiritur aliqua essentialis 
+      idem<lb ed="#L" n="87" break="no"/>titas praedicati cum subiecto. Nec sufficit identitas secundum 
+      sup<lb ed="#L" n="88" break="no"/>positu, nec secundum inhaerentiam. Quod patet vbi praedicatur 
+      <lb ed="#L" n="89"/>abstractum de abstracto, vt albedo est color, vel concretum de 
+      con<lb ed="#L" n="90" break="no"/>creto in substantialibus, vt homo est animal, &amp; idem est cum 
+      prae<lb ed="#L" n="91" break="no"/>dicatur denominatiuum de alio, vt cum dicitur homo est albus, &amp; 
+      <lb ed="#L" n="92"/>album est musicum, verificatur enim propositio pro supposiro quod 
+      <lb ed="#L" n="93"/>importatur idem ex parte subiecti &amp; praedicati vt fit sensus, 
+      ho<lb ed="#L" n="94" break="no"/>mo est albus, id est, homo est suppositum habens albedinem, &amp; album 
+      <lb ed="#L" n="95"/>est musicum, id est, subiectum habens albedinem est subiectum 
+      ha<lb ed="#L" n="96" break="no"/>bens musicam nunquam enim inhaerentia sufficit ad verificandum 
+      <lb ed="#L" n="97"/>propositionem dicentem hoc est hoc, alioquin posset dici homo est 
+      <lb ed="#L" n="98"/>albedo quod non est verum. Sed facit solum denominationem in 
+      <lb ed="#L" n="99"/>obliquo vt patet in dictis expositionibus, &amp; hoc modo 
+      verifica<lb ed="#L" n="100" break="no"/>tur ista, filius dei est homo ratione identitatis realis suppositi 
+      im<lb ed="#L" n="101" break="no"/>portati per subiectum &amp; praedicatum sub hoc sensu filius Dei est 
+      <lb ed="#L" n="102"/>homo, id est, filius Dei est suppositum habens humanitatem, &amp; non 
+      <lb ed="#L" n="103"/>ratione solius conuenientiae in supposito: quia tunc verificaremus 
+      <lb ed="#L" n="104"/>hanc, essentia diuina est humana natura, quia sunt in eodem sup 
+      <lb ed="#L" n="105"/>posito, quod non dicimus. Cum ergo dicendo natura humana 
+      <lb ed="#L" n="106"/>Christi est, si esse stet solum pro esse diuino nihil vnum &amp; idem sit 
+      <lb ed="#L" n="107"/>ex parte subiecti &amp; praedicati ratione cuius possit propositio 
+      <lb ed="#L" n="108"/>verificari. Oportet si verificetur quod esse stet pro esse creatos 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e755">
+               <lb ed="#L" n="109"/>
+               <!--23--> Ad secundum dicendum que ratio falsum supponit, scilicet 
+      <lb ed="#L" n="110"/>quod suppositum diuinum incarnatione suppleat vicem causae 
+      ma<lb ed="#L" n="111" break="no"/>terialis vel subiectiuae, quia nihil est subiectum nisi respectu 
+      eo<lb ed="#L" n="112" break="no"/>rum quae sibi inhaerent. Natura enim humana non inhaeret 
+      per<lb ed="#L" n="113" break="no"/>sonae assumenti, &amp; ideo persona assumeus non est subiectu seu 
+      <lb ed="#L" n="114"/>causa materialis naturae assumptae. Dato etiam quod persona 
+      di<lb ed="#L" n="115" break="no"/>uina posset vere esse subiectum alterius. Tamen per hoc nor 
+      <lb ed="#L" n="116"/>competeret assumere sibi naturam humanam quae non est 
+      na<lb ed="#L" n="117" break="no"/>ta esse in altero tanquam in subiecto. Ratio autem quare 
+      per<lb ed="#L" n="118" break="no"/>sona diuina potest alienam naturam assumere non est quia 
+      sup<lb ed="#L" n="119" break="no"/>pleat vicem subiecti vel materiae. Sed quia est perfectionis 
+      infini<lb ed="#L" n="120" break="no"/>tae ad terminandum alterius dependentiam aliquo modo, sicut 
+      ra<lb ed="#L" n="121" break="no"/>dix determinat in se inexistenuam rami insiti. propter quod dictum 
+      <lb ed="#L" n="122"/>fuit supra prima quaestione quod incarnatio assimilatur insitioni 
+      </p>
+            <p xml:id="jsnvu6-e158617-d1e790">
+               <lb ed="#L" n="123"/>
+               <!--24--> Ad tertium dicendum quod minor est falsa. Non enim 
+      <lb ed="#L" n="124"/>praedicatur humana natura diuina. Cum dicitur concretiue 
+      <lb ed="#L" n="125"/>Deus est homo. Sed praedicatur idem suppositum de se ipso 
+      <lb ed="#L" n="126"/>connotando oblique circa subiectum &amp; praedicatum 
+      diuersi<lb ed="#L" n="127" break="no"/>tatem naturarum sub hoc sensu filius Dei est homo, id est, 
+      sup<lb ed="#L" n="128" break="no"/>positum habens humanitatem. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

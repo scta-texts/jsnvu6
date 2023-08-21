@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="165-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3983"><!-- l2d37prae -->
+            <head xml:id="jsnvu6-d1e3983-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3983-d1e103">
+               <lb ed="#L" n="89"/>Sententia huius distinctionis XXXVII. 
+      <lb ed="#L" n="90"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e3983-d1e110">
+               <lb ed="#L" n="91"/>SVNT autem alij plurimi. Superius magister 
+      po<lb ed="#L" n="92" break="no"/>suit opinionem quorundam circa quidditatem 
+      <lb ed="#L" n="93"/>peccati. Hic vero ponit opinionem contrariam 
+      <lb ed="#L" n="94"/>Et diuiditur in duas partes. Primo determinat 
+      <lb ed="#L" n="95"/>lintentum. Secundo subiungit illud in quo ambae 
+      <lb ed="#L" n="96"/>conueniunt opiniones. Secunda ibi, quum igitur omnes in hoc 
+      <lb ed="#L" n="97"/>consentiant. Prima diuiditur in partes tres. Primo ponit 
+      opi<lb ed="#L" n="98" break="no"/>nionem. Secundo ad opinionem illam respondet. Et ad 
+      ratio<lb ed="#L" n="99" break="no"/>nes alterius partis. Tertio opponit dupliciter pro opinione 
+      se<lb ed="#L" n="100" break="no"/>cunda ibi, illa quoque eius verba. Tertia ibi, ex quo tollitur 
+      <lb ed="#L" n="101"/>res aliquas esse. Et in hoc terminatur sententia &amp; diuisio 
+      le<lb ed="#L" n="102" break="no"/>ctionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3983-d1e139">
+               <lb ed="#L" n="103"/>
+               <!--2--> IN SPECIALI sic procedit magister, &amp; 
+      proponi<lb ed="#L" n="104" break="no"/>primo quod quidam sunt opinati voluntatem malam, &amp; actum 
+      ma<lb ed="#L" n="105" break="no"/>lum, nec a Deo esse, nec bona esse: sunt enim peccata, peccatum 
+      <lb ed="#L" n="106"/>autem nihil est. Postea dicit quod illud quod Augustinus innuit, 
+      <lb ed="#L" n="107"/>scilicet, quod omne quod est, inquantum est, bonum est: 
+      intelli<lb ed="#L" n="108" break="no"/>gendum est secundum eos de his quae naturale &amp; substantiale 
+      <lb ed="#L" n="109"/>esse habent, peccatum autem non habet tale esse. Postea opponir 
+      <lb ed="#L" n="110"/>pro dicta opinione per duas rationes, quarum prima talis est, 
+      il<lb ed="#L" n="111" break="no"/>lud per quod homo fit deterior non est a deo: sed peccata sunt 
+      <lb ed="#L" n="112"/>res quibus homo fit deterior, ergo peccata non sunt a deo. Se 
+      <lb ed="#L" n="113"/>cunda ratio talis est, nihili Deus non est auctor, sed peccatum nihil 
+      <lb ed="#L" n="114"/>est ergo non habet deum auctorem. Concludit postea, quod illud 
+      <lb ed="#L" n="115"/>quod dicitur, quod omnium quae sunt deus est auctor non solum 
+      <lb ed="#L" n="116"/>intelligendum est de ipsis naturis, vt videtur, sicut supra 
+      diceba<lb ed="#L" n="117" break="no"/>tur, sed de omni eo quod naturam non viciat, &amp; ideo peccatum 
+      <lb ed="#L" n="118"/>sub ipsa generalitate non intelligitur. Vitimo dicit, quod 
+      quan<lb ed="#L" n="119" break="no"/>do dicitur deum non esse auctorem malorum intelligendum est 
+      <lb ed="#L" n="120"/>de malis culpae. In hoc enim consentiunt omnes, non de malis 
+      <lb ed="#L" n="121"/>poenae, quia tamen alibi legitur, quod deus mortem non fecit. 
+      <lb ed="#L" n="122"/>intelligendum est quod non fecit peccatum, quod est causa 
+      mor<lb ed="#L" n="123" break="no"/>tis: ipsa tamen mors, quae est poena, est a deo. Et in hoc ter 
+      <lb ed="#L" n="124"/>tur sententia lectionis, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

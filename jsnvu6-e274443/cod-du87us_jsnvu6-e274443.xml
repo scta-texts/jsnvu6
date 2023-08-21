@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="332-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e274443"><!-- l4d40prae -->
+            <head xml:id="jsnvu6-e274443-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e274443-d1e103">
+               <lb ed="#L" n="107"/>Sententia huius distinctionis XI. in 
+      <lb ed="#L" n="108"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-e274443-d1e110">
+               <lb ed="#L" n="109"/>VNC superest. Determinato in praecedentibus 
+      <lb ed="#L" n="110"/>de impedimentis disparis cultus: hic 
+      determi<lb ed="#L" n="111" break="no"/>nat magister de impedimento cognationis. E 
+      <lb ed="#L" n="112"/>primo determinat de cognatione carnali. 
+      Secun<lb ed="#L" n="113" break="no"/>qi do de affinitate ipsam consequente. Tertio de 
+      <lb ed="#L" n="114"/>cognatione spirituali. Secunda ibi, Nunc de affinitate distin 
+<lb ed="#L" n="115"/>41. Tertia distinct. 42. iam de spirituali. Prima est principalis 
+      <lb ed="#L" n="116"/>lectionis, &amp; habet duas partes. Primo proponit quomodo 
+      co<lb ed="#L" n="117" break="no"/>gnatio carnalis habet matrimonium impedire. Secundo 
+      op<lb ed="#L" n="118" break="no"/>ponit in contrarium ibi, His autem occurrit. Prima habet 
+      dua<lb ed="#L" n="119" break="no"/>Primo enim premittit prooemium, &amp; ostendit intentum. Secunde 
+      <lb ed="#L" n="120"/>declarat quoddam incidens ibi, Quomodo autem gradus. Et ista si 
+      <lb ed="#L" n="121"/>quatuor. Primo enim proponit computationem graduum secundum 
+      <lb ed="#L" n="122"/>Isidorum. Secundo secundum computationem aliorum. Tertio declarat 
+      <lb ed="#L" n="123"/>veram opinionem. Quarto reddit rationem positionis. Prima ibi 
+      <lb ed="#L" n="124"/>Quomodo autem gradus. Secunda ibi, Alij vero. Tertia ibi, Varia 
+      <lb ed="#L" n="125"/>namque Quarta ibi, Quare vero sex grad?. Proponit ergo magi 
+      <lb ed="#L" n="126"/>ster quod carnalis cognatio protenditur vsque ad septimum gradum 
+      <lb ed="#L" n="127"/>qui quandiu cognosci possunt; habent matrimonium impedire 
+      <lb ed="#L" n="128"/>Quidam autem dicunt quod vsque ad sex gradus. Ratio autem 
+      diuersita<lb ed="#L" n="129" break="no"/>tis est, quia quidam patiem &amp; eius filios immediatos ponunt pro 
+      <lb ed="#L" n="130"/>trunco, &amp; ex tunc computant gradus secundum numerum 
+      descende<lb ed="#L" n="131" break="no"/>tium ab eis, &amp; sic sunt sex gradus solum. Alij vero ponute patrem 
+      pr<lb ed="#L" n="132" break="no"/>trunco &amp; filios eius in primo gradu, &amp; nepotes in secundo &amp; 
+      si<lb ed="#L" n="133" break="no"/>deinceps. Et sic sunt leptem gradus, &amp; est solum diuersitas in mo 
+      <lb ed="#L" n="134"/>do computandi, &amp; non in personis, neque in numero personarum 
+      <lb ed="#L" n="135"/>impediebatur autem matrimonium inter consanguineos secnndum 
+      <lb ed="#L" n="136"/>iura autiqua vsque ad praedictos gradus, sed reuocatum est 
+      poste<lb ed="#L" n="137" break="no"/>per decretalem dicentem quod consanguinitas non impedit ma 
+      <lb ed="#L" n="138"/>trimonium, nisi vsque ad quarium gradum inclusiue, veruntam 
+      <lb ed="#L" n="139"/>Isidorus qui posuit consanguinitatem impedire matrimonii 
+      <lb ed="#L" n="140"/>vsque ad sex gradus assignauit quandam congruentiam, videlice 
+      <lb ed="#L" n="141"/>quod sicut sex aetatibus mundi generatio &amp; hominum status 
+      <lb ed="#L" n="142"/>finietur, ita propinquitas generis sex gradibus terminatur: 
+      se<lb ed="#L" n="143" break="no"/>cundum illos vero qui ponebant septem gradus consanguini 
+      <lb ed="#L" n="144"/>tatis fiebat alia adaptatio, quod sicut post hanc vitam quae 
+      se<lb ed="#L" n="145" break="no"/>ptem diebus agitur ecclesia Christo iungetur, sic post septen 
+      <lb ed="#L" n="146"/>gradus consanguinitatis vir &amp; mulier possunt per matrimo 
+      <lb ed="#L" n="147"/>nium copulari. Postea opponit per Grego. qui concessit 
+      An<lb ed="#L" n="148" break="no"/>glicis remanere in matrimonio contracto in quarto gradu, &amp; 
+      <lb ed="#L" n="149"/>respondet ad hoc quod illa concessio fuit specialis, quia 
+      An<lb ed="#L" n="150" break="no"/>glici tunc erant noui in fide, &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

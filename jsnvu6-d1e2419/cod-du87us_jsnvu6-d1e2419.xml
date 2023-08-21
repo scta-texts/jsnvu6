@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="113-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2419"><!-- l2d2q3 -->
+            <head xml:id="jsnvu6-d1e2419-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e2419-Hd1e103" type="question-title">Utrum in aevo sit successio</head>
+            <p xml:id="jsnvu6-d1e2419-d1e106">
+               <lb ed="#L" n="31"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="32"/>Vtrum in aeuo sit successio. 
+      <lb ed="#L" n="33"/>De ano Side Thom. I. 9. 10. art. 4. 5. &amp; 6.
+    </p>
+            <p xml:id="jsnvu6-d1e2419-d1e115">
+               <lb ed="#L" n="34"/>CIRCA aeuum quaeruntur tria. Primum est, vtrun 
+      <lb ed="#L" n="35"/>in aeuo sit successio. Secundum est, vtrum nunc aeu 
+      <lb ed="#L" n="36"/>sit idem quod aeuum. Tertium est, vtrum sit 
+      aliquo<lb ed="#L" n="37" break="no"/>vnum aeuum quod sit mensura omnium aeuiternorum 
+      <lb ed="#L" n="38"/>Ad primum sic proceditur. Et arguitur quod in aeuc 
+      <lb ed="#L" n="39"/>sit successio sic. Illud quod potest deficere ab esse non habe 
+      <lb ed="#L" n="40"/>simul suum totum esse (quod enim ab esse deficit non habet 
+      to<lb ed="#L" n="41" break="no"/>tum esse quod habere potuit) quia potuit plus esse, sed angelus 
+      <lb ed="#L" n="42"/>cuius mensura est aeuum, potest deficere ab esse per 
+      substractio<lb ed="#L" n="43" break="no"/>nem influentiae diuinae, ergo non habet simul suum totum esse 
+      <lb ed="#L" n="44"/>sed aeuum est mensura esse angeli, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2419-d1e141">
+               <lb ed="#L" n="45"/>
+               <!--2--> Item si in aeuo non est successio idem est angelo fore &amp; fuisse, 
+      <lb ed="#L" n="46"/>sed Deus non potest facere angelum non fuisse, ergo non posse 
+      <lb ed="#L" n="47"/>ipsum facere non fore, hoc autem est falsum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2419-d1e153">
+               <lb ed="#L" n="48"/>
+               <!--3--> Item in eodem instanti non possunt contradictoria 
+      verifi<lb ed="#L" n="49" break="no"/>cari de eodem, sed si totum esse angeli esset simul 
+      mensurare<lb ed="#L" n="50" break="no"/>tur vno instanti, ergo de angelo non possent contradictoria 
+      <lb ed="#L" n="51"/>verificari, hoc autem falsum est, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2419-d1e166">
+               <lb ed="#L" n="52"/>
+               <!--4--> IN CONTRARIVM. est, quia simplicius est esse 
+      <lb ed="#L" n="53"/>aeuiternorum quam rerum generabilium (puta hominis vel equi 
+      <lb ed="#L" n="54"/>sed esse talium non est successiuum, ergo nec esse aeuiternorum 
+      <lb ed="#L" n="55"/>&amp; per consequens nec aeuum quod est eius mensura. Assumptun 
+      <lb ed="#L" n="56"/>probatur, quia omnis successio est essentialiter aliquid fieri vel 
+      <lb ed="#L" n="57"/>secundum formam, vel secundum locum, si igitur esse rerum 
+      <lb ed="#L" n="58"/>generabilium consisteret in successione consisteret &amp; in fieri, 
+      <lb ed="#L" n="59"/>&amp; sic quicquid esset etiam causa in fieri esset causa conseruati 
+      <lb ed="#L" n="60"/>ua in esse, quod falsum est, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2419-d1e190">
+               <lb ed="#L" n="61"/>
+               <!--5--> RESPONSIO. Videnda sunt duo. Primo quid impor 
+      <lb ed="#L" n="62"/>tetur nomine aeui. Secundo quid sit de veritate quaestionis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2419-d1e199">
+               <lb ed="#L" n="63"/>
+               <!--6--> QUANTVM ad primum sciendum quod aeuum est mi 
+      <lb ed="#L" n="64"/>sura vel duratio esse creati vniformiter &amp; stabiliter se habentis 
+      <lb ed="#L" n="65"/>Aeuum dicitur mensura vel duratio. Ad hoc enim significandim 
+      <lb ed="#L" n="66"/>imponitur sicut tempus &amp; aeternitas, sed dicitur mensura esse &amp; 
+      <lb ed="#L" n="67"/>non essentiae, quia duratio attenditur secundum actualem 
+      exi<lb ed="#L" n="68" break="no"/>stentiam &amp; non secundum essentiam absolute, propter quod 
+      <lb ed="#L" n="69"/>omnis mensura ad durationem pertinens (qualis est aeuum, tempu 
+      <lb ed="#L" n="70"/>&amp; aeternitas) magis respicit esse rei quam essentiam. Creati dicitur ad 
+      <lb ed="#L" n="71"/>differentiam aeternitatis quae mensurat esse diuinum increatum, 
+      <lb ed="#L" n="72"/>vel est eius duratio ex quo habet quod nullo modo possit deficere 
+      <lb ed="#L" n="73"/>Vniformiter se habentis dicitur ad differentiam temporis, quod est men 
+      <lb ed="#L" n="74"/>sura motus per quam res semper se habent aliter &amp; aliter, &amp; nun 
+      <lb ed="#L" n="75"/>quam vniformiter. Stabiliter dicitur, quia esse rei generabilis 
+      <lb ed="#L" n="76"/>quanquam in se vniformiter se habeat, quandiu res est, tamen 
+      <lb ed="#L" n="77"/>per adiunctas transmutationes in accidentalibus continue 
+      ten<lb ed="#L" n="78" break="no"/>dit ad non esse, &amp; ideo tale esse, non est stabile sicut est 
+      aeuiter<lb ed="#L" n="79" break="no"/>norum esse quod non tendit ad non esse per aliquid sibi 
+      adiun<lb ed="#L" n="80" break="no"/>ctum, vel sibi intrinsecum quanquam possit deficere per 
+      sub<lb ed="#L" n="81" break="no"/>stractionem diuinae influentiae. Ex his apparet differentiam in¬ 
+      <!--00291.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>ter aeternitatem, tempus &amp; aeuum secundum differentiam 
+      men<lb ed="#L" n="83" break="no"/>surabilium vel durationis eorum quibus competunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e2419-d1e254">
+               <lb ed="#L" n="84"/>
+               <!--7--> Quantum ad secundum dicenda sunt duo. Primum est quod in aeuc 
+      <lb ed="#L" n="85"/>non est successio. Secundum est quod esse vnius aeuiterni potest ali 
+      <lb ed="#L" n="86"/>succedere. Primum patet dupliciter. Primo ex incorruptibilitat. 
+      <lb ed="#L" n="87"/>aeuiterni, cuius esse proportionator aeuo, quia in omni 
+      succes<lb ed="#L" n="88" break="no"/>sione aliquid amittitur &amp; aliquid vere acquiritur, quia cum prius 
+      <lb ed="#L" n="89"/>&amp; posterius sine quibus non est successio non sint, nec esse possint 
+      <lb ed="#L" n="90"/>simul (propter manifestam contradictionem quae in ipsis termini 
+      <lb ed="#L" n="91"/>implicatur) acquisitio posterioris est amissio prioris, &amp; hoc es 
+      <lb ed="#L" n="92"/>verum in omni successione siue secundum locum in qua locus 
+      <lb ed="#L" n="93"/>vnus acquiritur alio amisso, siue secundum formam in qua vna 
+      <lb ed="#L" n="94"/>acquisita alia amittitur. Sed in esse angeli &amp; cuiuscumque aeuitern 
+      <lb ed="#L" n="95"/>(quandiu est) nulla est noua acquisitio vel amissio cum ponatu 
+      <lb ed="#L" n="96"/>simpliciter incorruptibile (dicente August. de ciuit. dei) quod 
+      <lb ed="#L" n="97"/>immortalitas angelorum non transit in tempore, nec est 
+      prae<lb ed="#L" n="98" break="no"/>terita quasi iam non sit, nec futura quasi nondum sit, ergo in 
+      <lb ed="#L" n="99"/>esse angeli nulla potest esse successio. 
+      </p>
+            <p xml:id="jsnvu6-d1e2419-d1e293">
+               <lb ed="#L" n="100"/>
+               <!--8--> Item arguitur secundo sic, esse angeli vel est idem quod essentia, 
+      <lb ed="#L" n="101"/>vel proportionatur essentiae, sed in essentia angeli nulla est suc 
+      <lb ed="#L" n="102"/>cessio, sed est tota simul in indiuisibili consistens, ergo &amp; esse. Pro 
+      <lb ed="#L" n="103"/>batur minor, si enim ratio specierum substantiae consistit in indiuisi 
+      <lb ed="#L" n="104"/>bili sicut species numerorum maxime oportet hoc verificari in 
+      <lb ed="#L" n="105"/>separatis a materia vt innuit Philoso. 8. Meta. quare &amp;c.
+</p>
+            <p xml:id="jsnvu6-d1e2419-d1e312">
+               <lb ed="#L" n="106"/>Secundum patet sic, Sicunt permanentibus opponitur successio 
+      <lb ed="#L" n="107"/>sic successiuis simultas, sed duo motus quorum quilibet est succes 
+      <lb ed="#L" n="108"/>siuus secundum se non obstante successione cuiuslibet eorum 
+      secun<lb ed="#L" n="109" break="no"/>dum se possunt simul esse vnus cum alio, sicut idem homo simul 
+      <lb ed="#L" n="110"/>currit &amp; febricitat, ergo duo aeuiterna quorum quodlibet est 
+      se<lb ed="#L" n="111" break="no"/>cundum se manens (non obstante manentia &amp; simultate quam habe 
+      <lb ed="#L" n="112"/>vnumquodque eorum secundum se) possunt sibi succedere, quem 
+      <lb ed="#L" n="113"/>admodum vnus angelus potest creari alio non creato, &amp; hoc 
+      ad<lb ed="#L" n="114" break="no"/>nihilato alius creari, sed haec successio non est per se, sed per 
+      acci<lb ed="#L" n="115" break="no"/>dens solum, quae enim per se sibi inuicem succedut eorum naturae 
+      <lb ed="#L" n="116"/>sunt tales quod vni repugnat simul esse cum alio, vt patet in part 
+      <lb ed="#L" n="117"/>bus motus &amp; temporis. Aeuiternis autem non repugnat esse simul 
+      <lb ed="#L" n="118"/>ideo inter ea non est successio per se, sed per accidens, solum, ex 
+      be<lb ed="#L" n="119" break="no"/>neplacito producentis. Patet igitur quod in aeuo non est successio, ci 
+      <lb ed="#L" n="120"/>sit idem iudicium de aeuo &amp; de esse aeuiterni. Et quamuis in 
+      aeu<lb ed="#L" n="121" break="no"/>secundum se non sit successio, potest toti tamen successioni tem 
+      <lb ed="#L" n="122"/>poris coexistere, nec enim est aeuum, sicut nunc temporis quod no 
+      <lb ed="#L" n="123"/>potest bis sumi eo quod fluens est, sed quasi nunc stans quod 
+      multo<lb ed="#L" n="124" break="no"/>tiens potest significari. Et ob hoc pluribus coexistere, 
+      quemadmo<lb ed="#L" n="125" break="no"/>dum si quis figat palum in fluuio, durat palus &amp; fluuius, sed in 
+      <lb ed="#L" n="126"/>duratione fluuij est successio aquae postquam, in duratione vero 
+      <lb ed="#L" n="127"/>pali non, sic durat angelus, durat motus, durat aeuum, durat 
+      tem<lb ed="#L" n="128" break="no"/>pus: sed in duratione motus &amp; temporis est successio, non sic in 
+      <lb ed="#L" n="129"/>duratione angeli &amp; aeui, &amp; tamen sibi inuicem coexistunt 
+      ratio<lb ed="#L" n="130" break="no"/>ne cuius coexistentiae dicitur angelus fuisse, quia coexistit pra 
+      <lb ed="#L" n="131"/>terito, &amp; fore, quia coexistet futuro, quamuis de esse angeli nihi 
+      <lb ed="#L" n="132"/>amittatur in praeterito, non acquiratur in futuro. 
+      </p>
+            <p xml:id="jsnvu6-d1e2419-d1e373">
+               <lb ed="#L" n="133"/>
+               <!--10--> Ad primum argumentum cum dicitur illud quod potes 
+      <lb ed="#L" n="134"/>deficere ab esse non habet simul suum totum esse. Dicendunm 
+      <lb ed="#L" n="135"/>quod falsum est. Ex hoc enim potest aliquid deficere ab esse, 
+      qui<lb ed="#L" n="136" break="no"/>non habet esse ex se sed ab alio, cuius influentia substracta 
+      desi<lb ed="#L" n="137" break="no"/>neret esse. Et cum probatur, quia quod desinit esse non habet 
+      to<lb ed="#L" n="138" break="no"/>tum esse quod habere potuit. Potuit enim plus esse, dicendum 
+      <lb ed="#L" n="139"/>quod &amp; si potuit plus esse duratione, tamen plus essendo nor 
+      <lb ed="#L" n="140"/>habuisset aliud esse, nec in parte nec in toto, sed illud idem quod 
+      <lb ed="#L" n="141"/>prius, vnde in argumento videtur esse figura dictionis ex 
+      mu<lb ed="#L" n="142" break="no"/>tatione praedicamentorum, scilicet quod in plus. 
+      </p>
+            <p xml:id="jsnvu6-d1e2419-d1e399">
+               <lb ed="#L" n="143"/>
+               <!--11--> Ad secundum dicendum quod in angelo secundum se non est fuissi 
+      <lb ed="#L" n="144"/>&amp; fore, sed solum secundum coexistentiam ad tempus. Et quia 
+      no<lb ed="#L" n="145" break="no"/>potest fieri quin angelus coexisterit tempori praeterito, potes 
+      <lb ed="#L" n="146"/>tamen deus facere quod non coexistet alicui futuro vel adnihil 
+      <lb ed="#L" n="147"/>lando angelum, vel faciendo quod nihil erit futurum, ideo 
+      deu<lb ed="#L" n="148" break="no"/>potest facere angelum non fore, licet non possit facere quod 
+      <lb ed="#L" n="149"/>non fuerit, non propter successionem quam habeat in esse, sed 
+      <lb ed="#L" n="150"/>propter coexistentiam eius ad successionem temporis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2419-d1e421">
+               <lb ed="#L" n="151"/>
+               <!--12--> Ad tertium dicendum quod in eodem instanti fluenti non 
+      <lb ed="#L" n="152"/>possunt contradictoria verificari de eodem, nec eidem 
+      contradi<lb ed="#L" n="153" break="no"/>ctoria coexistere, quia non contingit ipsum bis sumere, sed eide 
+      <lb ed="#L" n="154"/>nunc stanti &amp; permanenti possunt contradictoria coexistere, quia 
+      <lb ed="#L" n="155"/>contingit ipsum pluries sumere, tale enim est aeuum, &amp; nunc 
+      aeui<lb ed="#L" n="156" break="no"/>ternitas. Et nunc aeuiternitatis. Et ideo de deo verificamus 
+      con<lb ed="#L" n="157" break="no"/>tradictoria sicut quod creat &amp; quod non creat. Et vtrique coexistit 
+      <lb ed="#L" n="158"/>nunc aeternitatis, neutrum tamen per se mensuratur aeternita 
+      <lb ed="#L" n="159"/>te. Similiter de angelo verificatur esse beatum &amp; non esse 
+      bea<lb ed="#L" n="160" break="no"/>tum. Et vtrumque coexistit eidem nunc aeui quod mensurat esse 
+      <lb ed="#L" n="161"/>angeli. Neutrum tamen istorum vel ad minus alterum eorum 
+      <lb ed="#L" n="162"/>(scilicet non esse beatum) non mensuratur aeuo. Est enim pura 
+      <lb ed="#L" n="163"/>negatio cui proprie nulla mensura respondet. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="260-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e214098"><!-- l4d4q7 -->
+            <head xml:id="jsnvu6-e214098-Hd1e101">Quaestio 7</head>
+            <head xml:id="jsnvu6-e214098-Hd1e103" type="question-title">Utrum paruuli infidelium baptizati inuitis 
+      parentibus suscipiant verum sacramentum</head>
+            <p xml:id="jsnvu6-e214098-d1e106">
+               <lb ed="#L" n="88"/>QUABSTIO SEPTIMA 
+      <lb ed="#L" n="89"/>Vtrum paruuli infidelium baptizati inuitis 
+      pa<lb ed="#L" n="90" break="no"/>rentibus suscipiant verum sacramentum. 
+      <lb ed="#L" n="91"/>Thom. Sbi supra. Side Caiet. 3. q. 68. ar. 7. 
+    </p>
+            <p xml:id="jsnvu6-e214098-d1e117">
+               <lb ed="#L" n="92"/>AD SECVNDVM sic proceditur. Et arguitur? 
+      <lb ed="#L" n="93"/>paruuli infidelium baptizati inuitis parentibus 
+      su<lb ed="#L" n="94" break="no"/>scipiant verum sacramentum, quia parentes 
+      infide<lb ed="#L" n="95" break="no"/>ai les non habent majus ius in filiis suis paruulis, quam 
+      <lb ed="#L" n="96"/>fideles parentes, sed paruuli parentum fidelium baptizati 
+      inui<lb ed="#L" n="97" break="no"/>tis parentibus suscipiunt verum sacramentum: ergo similiter 
+      <lb ed="#L" n="98"/>paruuli parentum infidelium si baptizentur inuitis 
+      parenti<lb ed="#L" n="99" break="no"/>bus, susciperent verum sacramentum. 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e137">
+               <lb ed="#L" n="100"/>
+               <!--2--> Item sicut est baptismus fluminis, sic est baptismus 
+      sangui<lb ed="#L" n="101" break="no"/>nis, sed pueri occisi pro Christo inuitis parentibus receperunt 
+      <lb ed="#L" n="102"/>&amp; modo reciperent remissionem originalis peccati, ergo 
+      simi<lb ed="#L" n="103" break="no"/>liter pueri baptizati inuitis parentibus reciperent verum 
+      sacra<lb ed="#L" n="104" break="no"/>mentum, &amp; effectum sacramenti. 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e154">
+               <lb ed="#L" n="105"/>
+               <!--3--> IN contrarium arguitur, quia ad receptionem cuiuslibet 
+      sa<lb ed="#L" n="106" break="no"/>cramenti requiritur intentio seu voluntas recipiendi ipsum 
+      pra<lb ed="#L" n="107" break="no"/>pria vel interpretatiua, sed in paruulo filio parentum infidelium 
+      <lb ed="#L" n="108"/>si baptizaretur inuitis parentibus non est voluntas vel intentio 
+      <lb ed="#L" n="109"/>propria suscipiendi baptismum, vt de se patet. Nec 
+      interpreta<lb ed="#L" n="110" break="no"/>tiua cum baptizetur inuitis parentibus, quorum voluntas est 
+      in<lb ed="#L" n="111" break="no"/>terpretatiua voluntatis filij paruuli, ergo si talis de facto 
+      bapti<lb ed="#L" n="112" break="no"/>zetur nullus est baptismus. Minor de se manifesta est, sed 
+      ma<lb ed="#L" n="113" break="no"/>ior probatur, quia si aliquis adultus sic nutritus esset, quod nihil 
+      <lb ed="#L" n="114"/>audiuisset de fide, &amp; esset solum in originali. Si talis dormiret, &amp; 
+      <lb ed="#L" n="115"/>dormiendo baptizaretur, constat que nullus esset talis 
+      baptis<lb ed="#L" n="116" break="no"/>mus, non quia in voluntate eius inueniret baptismus obicem 
+      <lb ed="#L" n="117"/>plusquam in paruulo, quia deficeret voluntas suscipiendi 
+      ba<lb ed="#L" n="118" break="no"/>ptismum, ergo ad susceptionem baptismi requiritur voluntas 
+      <lb ed="#L" n="119"/>suscipientis propria, si sit adultus, vel interpretatiua si sit 
+      par<lb ed="#L" n="120" break="no"/>uulus, &amp; haec fuit maior: sequitur ergo conclusio. 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e193">
+               <lb ed="#L" n="121"/>
+               <!--4--> RESPONSIO. De quaestione ista dicunt quidam? 
+      <lb ed="#L" n="122"/>paruuli infidelium quorumcunque si baptizarentur inuitis 
+      pa<lb ed="#L" n="123" break="no"/>rentibus recipiunt verum sacramentum &amp; rem sacramenti: 
+      quo<lb ed="#L" n="124" break="no"/>rum ratio est, quia ad susceptionem veri baptisini sufficit quod 
+      <lb ed="#L" n="125"/>non inueniatur in suscipiente obex contrariae voluntatis, vt 
+      pa<lb ed="#L" n="126" break="no"/>tet in paruulis Christianorum qui ante susceptionem baptismi 
+      <lb ed="#L" n="127"/>sunt pares paruulis infidelium, sed in paruulis Iudaeorum, vel 
+      <lb ed="#L" n="128"/>quorumcunque infidelium non est obex econtrariae voluntatis 
+      <lb ed="#L" n="129"/>respectu suscipientis baptismum, ergo tales si de facto baptizarem. 
+      <lb ed="#L" n="130"/>tur etiam inuitis parentibus suscipiunt verum sacramentum, &amp; 
+      <lb ed="#L" n="131"/>rem sacramenti. Pro hac opinione videtur esse illud quod 
+      scri<lb ed="#L" n="132" break="no"/>bitur de consecr. di. 4. cap. paruuli fideles vocantur. vbi videtur 
+      <lb ed="#L" n="133"/>insinuari quod paruulis sufficit fides offerentium nulla facta 
+      men<lb ed="#L" n="134" break="no"/>tione de fide parentum. &amp; respondent isti ad rationem in 
+      oppo<lb ed="#L" n="135" break="no"/>situm, negando maiorem propositionem, quia vt dicunt, ad 
+      ve<lb ed="#L" n="136" break="no"/>ram receptionem baptismi non requiritur voluntas 
+      recipien<lb ed="#L" n="137" break="no"/>tis propria, nec interpretatiua: &amp; ad probationem eius dicunt 
+      <lb ed="#L" n="138"/>quod postquam puer venit ad annos discretionis pie creditur 
+      <lb ed="#L" n="139"/>quod Deus mouet ipsum ad salutem per instinctum interiorem, 
+      <lb ed="#L" n="140"/>vel aliquam motionem exteriorem in generali, vel in speciali 
+      <lb ed="#L" n="141"/>reuelando ea quae sunt fidei, sine qua non est salus, vel saltem 
+      <lb ed="#L" n="142"/>quod cogitet de sua salute, &amp; de mediis perducentibus ad 
+      salu<lb ed="#L" n="143" break="no"/>tem: &amp; si tali motui generali vel speciali non acquiescat tunc po 
+      <lb ed="#L" n="144"/>nit obicem, vel contrariae voluntatis si renuat procurare 
+      me<lb ed="#L" n="145" break="no"/>dia suae salutis, vel cuiusdam indignitatis si post talem instinctum 
+      <lb ed="#L" n="146"/>negligeret, quia qui in nullo se iuuat quando potest, indignu 
+      <lb ed="#L" n="147"/>est quod ab alio juuetur, &amp; si talis dormiens baptizaretur de 
+      <lb ed="#L" n="148"/>facto nihil proficeret, quia non reciperet verum sacramentum, 
+      <lb ed="#L" n="149"/>nec aliquem effectum sacramenti, si vero tali instinctui 
+      acquie<lb ed="#L" n="150" break="no"/>scat, iam habet baptismum in voto generali vel speciali 
+      impli<lb ed="#L" n="151" break="no"/>cite vel explicite. Et si baptizaretur dormiens recipit verum 
+      <lb ed="#L" n="152"/>baptismum &amp; eius effectu. Non quia ad susceptionem 
+      baptis<lb ed="#L" n="153" break="no"/>mi requiratur voluntas propria vel interpretatiua per se, sed so 
+      <lb ed="#L" n="154"/>lum ad remouendum obicem voluntatis contrariae vel 
+      negli<lb ed="#L" n="155" break="no"/>gentis. Et istud habet locum in adulto, in parunlo autem 
+      nul<lb ed="#L" n="156" break="no"/>lus talis obex inueniri potest, quum non possit habere vsum 
+      vo<lb ed="#L" n="157" break="no"/>luntatis. Propter quod nec voluntas propria nec 
+      interpretati<lb ed="#L" n="158" break="no"/>ua requiritur ad hoc, vt suscipiat verum baptisma. 
+</p>
+            <p xml:id="jsnvu6-e214098-d1e280">
+               <lb ed="#L" n="159"/>Quicquid sit de conclusione. Responsio tamen ad 
+      ra<lb ed="#L" n="160" break="no"/>tionem non valet. Primo quia licet pium sit credere quod 
+      <lb ed="#L" n="161"/>venienti ad annos discretionis Deus inspiret per seipsum 
+      <lb ed="#L" n="162"/>vel alterum hominem, vel angelum incerius vel exterius 
+      <!--00594.xml-->
+      <pb ed="#L" n="260-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in generali vel in speciali, quod quaerat ea quae sunt suae 
+      salu<lb ed="#L" n="2" break="no"/>tis: nullus tamen dicit quod inspiratio fiat semper homini 
+      sta<lb ed="#L" n="3" break="no"/>tim quado venit ad annos discretionis, sed sufficit quod fiat ei post 
+      <lb ed="#L" n="4"/>moram temporis si viuat secundum dictamen rectae rationis 
+      na<lb ed="#L" n="5" break="no"/>turalis, &amp; istud est magis rationabile, quam primum: quia 
+      con<lb ed="#L" n="6" break="no"/>gruum est quod bene vtenti ratione naturali Deus inspiret ea qu 
+      <lb ed="#L" n="7"/>sunt fidei, &amp; super rationem, &amp; non prius. In illo ergo medic 
+      <lb ed="#L" n="8"/>tempore ante inspirationem factam, si talis dormiat &amp; 
+      bapti<lb ed="#L" n="9" break="no"/>zetur, non potest dici quod in eo fit obex contrariae voluntatis ad 
+      <lb ed="#L" n="10"/>baptismum, nec negligentiae, &amp; tamen non reciperet verum ba 
+      <lb ed="#L" n="11"/>ptismum, ergo non sufficit in adulto quod baptismus non inuenia 
+      <lb ed="#L" n="12"/>obicem, sed requiritur aliqua voluntas suscipiendi baptismum 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e324">
+               <lb ed="#L" n="13"/>
+               <!--6--> Secundo quia posito quod talis inspiratio fieret homini statim 
+      <lb ed="#L" n="14"/>quando venit ad annos discretionis, non oportet tamen quod 
+      sta<lb ed="#L" n="15" break="no"/>tim acquiescat vel contradicat, sed potest sine culpa quacunque 
+      <lb ed="#L" n="16"/>tenere consensum in suspenso, &amp; deliberare si talis inspiratio es 
+      <lb ed="#L" n="17"/>a Deo, an non, &amp; deliberando dormire, &amp; tunc in eo non es 
+      <lb ed="#L" n="18"/>ob ex voluntatis contrariae ad baptismum, nec negligentiae: &amp; ta 
+      <lb ed="#L" n="19"/>men si de facto baptizetur, non est verus baptismus: ergo vt 
+      <lb ed="#L" n="20"/>prius in adulto non sufficit non inuenire obicem, sed requiritur 
+      <lb ed="#L" n="21"/>aliqua voluntas recipiendi baptismum. 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e348">
+               <lb ed="#L" n="22"/>
+               <!--7--> Tertio quia isti videntur sibi contradicere: dicunt enim 8 
+      <lb ed="#L" n="23"/>est verum quod necessarium est ad salutem tali adulto post 
+      inspi<lb ed="#L" n="24" break="no"/>rationem sibi factam velle quaerere media per quae peruenitur, 
+      <lb ed="#L" n="25"/>ad salutem, sed medium maxime necessarium ad salutem est ba 
+      <lb ed="#L" n="26"/>prismus, ergo necessarium est ad salutem quod voluntas istius in ge 
+      <lb ed="#L" n="27"/>nerali vel in speciali explicite vel implicite sit de baptismo 
+      su<lb ed="#L" n="28" break="no"/>scipiendo secundum se tanquam de remedio necessario ad sali 
+      <lb ed="#L" n="29"/>tem, &amp; non ad remouendum obicem contrariae voluntatis vel 
+      <lb ed="#L" n="30"/>negligentiae, cuius contrarium ipsi dicunt, &amp; male: quia tamer 
+      <lb ed="#L" n="31"/>obex nunquam fuit in voluntate istius qui post inspirationem ve 
+      <lb ed="#L" n="32"/>admonitionem sibi factam, vult quaerere media suae saluti 
+      ne<lb ed="#L" n="33" break="no"/>cessaria. Ridiculum est autem dicere quod aliquid sit necessarium 
+      <lb ed="#L" n="34"/>ad remouendum impedimentum, quod nec est nec fuit. 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e381">
+               <lb ed="#L" n="35"/>
+               <!--8--> Quarto quia renuere vel negligere quaerere baptismum no 
+      <lb ed="#L" n="36"/>potest esse impedimentum suscipiendi ipsum, nisi quia velle 
+      su<lb ed="#L" n="37" break="no"/>scipere est ad hoc dispositio necessaria in adulto: quia 
+      renuer<lb ed="#L" n="38" break="no"/>vel negligere non impediunt potentiam voluntatis secundum 
+      <lb ed="#L" n="39"/>se, sed solum impediunt eam ab actu volendi. si ergo velle susci 
+      <lb ed="#L" n="40"/>pere baptismum non sit in adulto dispositio necessaria ad 
+      ba<lb ed="#L" n="41" break="no"/>ptismum secundum se, sequitur quod nolle seu renuere vel 
+      negli<lb ed="#L" n="42" break="no"/>gere suscipere ipsum non erunt impedimenta. Non enim impe 
+      <lb ed="#L" n="43"/>diunt nisi velle oppositum quod secundum se non est per se 
+      neces<lb ed="#L" n="44" break="no"/>sarium ad suscipiendum baptismum etiam in adulto, quae 
+      omni<lb ed="#L" n="45" break="no"/>sunt inconuenientia &amp; sibi inuicem repugnantia. &amp; sic patet ae 
+      <lb ed="#L" n="46"/>praecedens ratio non est in aliquo soluta. 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e413">
+               <lb ed="#L" n="47"/>
+               <!--9--> Dicendum est ergo aliter ad quaestionem praedictam, circa 
+      <lb ed="#L" n="48"/>quam declarabuntur tria. Primum est, quod in adultis 
+      requiri<lb ed="#L" n="49" break="no"/>tur voluntas propria suscipiendi baptismum, &amp; in paruulis 
+      re<lb ed="#L" n="50" break="no"/>quiritur voluntas interpretatiua. Secundum est, cuius vel 
+      quo<lb ed="#L" n="51" break="no"/>rum sit illa voluntas, quae dicitur esse voluntas interpretatiua 
+      <lb ed="#L" n="52"/>paruulorum. Et tertio apparebit illud quod principaliter 
+      quae<lb ed="#L" n="53" break="no"/>ritur, videlicet an paruuli infidelium baptizati de facto inuitis 
+      <lb ed="#L" n="54"/>parentibus recipiant verum baptismum. 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e435">
+               <lb ed="#L" n="55"/>
+               <!--10--> QVOD in adultis requiratur voluntas recipiendi bapti 
+      <lb ed="#L" n="56"/>mum, patet faciliter ex his quae dicta sunt in praeced. quaest. Nam 
+      <lb ed="#L" n="57"/>Christus mittens post resurrectionem discipulos ad praedican 
+      <lb ed="#L" n="58"/>dum &amp; ad baptizandum dixit: Docete omnes gentes 
+      baptizam<lb ed="#L" n="59" break="no"/>tes eos, &amp;c. Vbi dicit Hiero. quod non potest fieri quod corpus bapti 
+      <lb ed="#L" n="60"/>zati recipiat sacramentum, nisi ante anima fidei veritatem 
+      su<lb ed="#L" n="61" break="no"/>sceperit. Ex quo sic arguitur, infidelis adultus qui iam 
+      volun<lb ed="#L" n="62" break="no"/>tatis suae arbiter constitutus est simili modo se debet habere ad 
+      <lb ed="#L" n="63"/>fidem &amp; ad fidei sacramenta, &amp; maxime ad baptismum, qui es 
+      <lb ed="#L" n="64"/>primum fidei sacramentum, &amp; per quae fit transgressus in 
+      con<lb ed="#L" n="65" break="no"/>sortium fidelium, sed talis adultus non potest credere nisi volens, 
+      <lb ed="#L" n="66"/>ergo nec baptizari, &amp; si de facto immergatur vel aspergatur 
+      <lb ed="#L" n="67"/>aqua, &amp; dicantur verba, ego te baptizo &amp;c. nullum est 
+      sacramen<lb ed="#L" n="68" break="no"/>tum, requiritur ergo in adultis baptizandis voluntas propria. 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e470">
+               <lb ed="#L" n="69"/>
+               <!--11--> In paruulis autem sufficit voluntas aliena, quae sit 
+      interpre<lb ed="#L" n="70" break="no"/>tatiua voluntatis paruulorum, quia in ipsis est solum originale 
+      <lb ed="#L" n="71"/>peccatum, quod contractum est ex voluntate primi parentis, quae 
+      <lb ed="#L" n="72"/>fuit aliquo modo voluntas omnium qui descensuri erant ab eo 
+      <lb ed="#L" n="73"/>per viam naturalis generationis proximae vel remotae, &amp; idec 
+      <lb ed="#L" n="74"/>ad deletionem eius per baptismum sufficit in paruulis 
+      volunta<lb ed="#L" n="75" break="no"/>aliena, quae sit interpretatiua voluntatis eorum. Et 
+      confirma<lb ed="#L" n="76" break="no"/>tur, quia quicquid est necessitatis in vno est de necessitate 
+      sa<lb ed="#L" n="77" break="no"/>cramenti in omnibus: in similibus quidem similiter, &amp; in 
+      pro<lb ed="#L" n="78" break="no"/>portionabilibus proportionabiliter, sed voluntas recipiendi ba 
+      <lb ed="#L" n="79"/>ptismum est de necessitate sacramenti in adultis habentibu 
+      <lb ed="#L" n="80"/>vsum rationis &amp; discretionis, ergo voluntas suscipiendi 
+      baptis<lb ed="#L" n="81" break="no"/>mum est in paruulis de necessitate sacramenti, non quidem 
+      si<lb ed="#L" n="82" break="no"/>militer, quia non possunt consimiliter habere vsum propria 
+      <!--00594.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>rationis &amp; voluntatis sicut adulti, sed proportionabiliter, 
+      in<lb ed="#L" n="84" break="no"/>quantum concurrit pro eis voluntas aliena, quae tamen est 
+      vo<lb ed="#L" n="85" break="no"/>luntas eorum interpretatiua. Et sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e516">
+               <lb ed="#L" n="86"/>
+               <!--12--> QVANTVM ad secundum scilicet cuius vel quorum sit illa 
+      <lb ed="#L" n="87"/>voluntas, quae dicitur esse voluntas interpretatiua paruulorum, 
+      <lb ed="#L" n="88"/>dicendum est quod est voluntas habentium curam paruuli, &amp; isti in 
+      <lb ed="#L" n="89"/>primo gradu regulariter sunt parentes paruulorum quandiu 
+      vi<lb ed="#L" n="90" break="no"/>uunt: voluntas enim patris reputatur voluntas filij quandiu 
+      ca<lb ed="#L" n="91" break="no"/>ret vsu rationis. Vnde pater testatur pro filio, &amp; eligit ei 
+      sepul<lb ed="#L" n="92" break="no"/>turam. Decedentibus autem parentibus curam paruulorum habent 
+      <lb ed="#L" n="93"/>tutores eorum si sint, &amp; si non sint sicut esset de paruulo 
+      expo<lb ed="#L" n="94" break="no"/>sito coram hospitali, de quo nescitur quorum est filius cura eius 
+      <lb ed="#L" n="95"/>habebit, qui eum in cura sua recipiet: quia quod in nullius iure 
+      <lb ed="#L" n="96"/>est, occupanti conceditur. Et si talis non sit, qui eum in cura sua 
+      <lb ed="#L" n="97"/>recipiat, remanet saltem in cura ecclesiae, si sit filius alicuius 
+      fi<lb ed="#L" n="98" break="no"/>delis, vel si reperitur inter fideles, quia idem praesumitur. Quod 
+      <lb ed="#L" n="99"/>autem voluntas habentium curam paruulorum sit voluntas 
+      in<lb ed="#L" n="100" break="no"/>terpretatiua eorum patet ex dictis in praeced. quaest. videlicetq 
+      <lb ed="#L" n="101"/>homo ordinatur in Deum per rationem &amp; voluntatem, quibus 
+      <lb ed="#L" n="102"/>potest eum cognoscere &amp; amare. Et ideo puer antequam habeat 
+      <lb ed="#L" n="103"/>vsum rationis &amp; voluntatis ordinatur in Deum per rationem &amp; vo 
+      <lb ed="#L" n="104"/>luntatem illorum quorum curae subiacet, &amp; secundum eorum di 
+      <lb ed="#L" n="105"/>spositionem sunt circa cum agenda diuina, &amp; sic patet secundum 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e564">
+               <lb ed="#L" n="106"/>
+               <!--13--> QVANTVM ad tertium videlicet an paruuli 
+      infide<lb ed="#L" n="107" break="no"/>lium baptizati de facto inuitis parentibus recipiant verum 
+      baptis<lb ed="#L" n="108" break="no"/>mum distinguendum est vt prius: quia parentes infideles talium 
+      <lb ed="#L" n="109"/>paruulorum aut sunt serui Christianorum inter quos habitant, aut 
+      <lb ed="#L" n="110"/>liberi. Si sint serui, cum paruuli eorum possint eis licite auferri 8 
+      <lb ed="#L" n="111"/>donari vel vendi aliis qui extunc habebunt cura eorum, si illi of 
+      <lb ed="#L" n="112"/>ferunt eos baptismo, recipient verum sacramentum, quia 
+      concur<lb ed="#L" n="113" break="no"/>runt omnia quae sunt de necessitate sacramenti, videlicet forma, 
+      <lb ed="#L" n="114"/>materia, intentio ministri, &amp;t voluntas habentis curam paruuli, qua 
+      <lb ed="#L" n="115"/>est eius voluntas interpretatiua. Si autem parentes infideles talium 
+      <lb ed="#L" n="116"/>paruulorum sint liberi, cum paruuli eorum non possint eis licite 
+      <lb ed="#L" n="117"/>auferri, &amp; alterius curae subiici viuentibus parentibus &amp; inuitis 
+      <lb ed="#L" n="118"/>tunc non apparet quod si tales paruuli defacto baptizentur inuitis 
+      <lb ed="#L" n="119"/>parentibus quomodo suscipiant verum sacramentum, quia non 
+      <lb ed="#L" n="120"/>concurrit voluntas suscipiendi, nec directa nec interpretatiua 
+      <lb ed="#L" n="121"/>quarum tamen altera necessario requiritur, vt probatum est prius 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e603">
+               <lb ed="#L" n="122"/>
+               <!--14--> Ad argumenta in oppositum respondendum est ad primum 
+      <lb ed="#L" n="123"/>quod non est simile de paruulis parentum fidelium, &amp; parentem 
+      <lb ed="#L" n="124"/>infidelium: quia potestas patris fidelis super filium subiacet 
+      po<lb ed="#L" n="125" break="no"/>testati publicae, seculari, &amp; ecclesiasticae: &amp; ideo si pater 
+      abura<lb ed="#L" n="126" break="no"/>tur potestate sua quam habet circa curam pueri potest iuste 
+      pri<lb ed="#L" n="127" break="no"/>uari paterna potestate, &amp; cura pueri committi alij, quia no 
+      <lb ed="#L" n="128"/>exhiberet se tanquam patrem, sed tanquam hostem: &amp; sic est de 
+      <lb ed="#L" n="129"/>patre fideli, qui nollet filium suum baptizari, propter quod cura 
+      <lb ed="#L" n="130"/>pueri potest iuste sibi auferri, &amp; alteri commirti, de cuius 
+      volun<lb ed="#L" n="131" break="no"/>tate puer baptizetur, sicut de iure ciuili auferenda esset patri 
+      fi<lb ed="#L" n="132" break="no"/>lia quam vellet prostituere, &amp; filius quem vellet docere malo: 
+      <lb ed="#L" n="133"/>mores, puta quod esset adulterandum vel furandum. Pater 
+      au<lb ed="#L" n="134" break="no"/>tem infidelis &amp; liber non abutitur patria potestate si teneat 
+      fi<lb ed="#L" n="135" break="no"/>lium paruulum in ritu quem ipsemet seruat, de quo non potes 
+      <lb ed="#L" n="136"/>per rationem conuinci, quod sit ritus illicitus: &amp; ideo non 
+      po<lb ed="#L" n="137" break="no"/>test licite proper hoc sibi auferri cura filij, &amp; alij committi de 
+      <lb ed="#L" n="138"/>cuius voluntate baptizetur, propter quod filius parentis fidelis 
+      <lb ed="#L" n="139"/>potest licite inuito patre baptizari, &amp; suscipit verum 
+      sacramen<lb ed="#L" n="140" break="no"/>tum, non autem filius parentis infidelis. 
+      </p>
+            <p xml:id="jsnvu6-e214098-d1e650">
+               <lb ed="#L" n="141"/>
+               <!--15--> Ad secundum dicendum quod paruuli occisi pro Christo 
+      <lb ed="#L" n="142"/>etiam inuitis parentibus, sicut fuerunt innocentes fuerunt 
+      salua<lb ed="#L" n="143" break="no"/>ti, &amp; nunc etiam saluaretur paruulus, vt pie creditur, si 
+      occide<lb ed="#L" n="144" break="no"/>retur in odium Christi. Et istud non esset ex proprio merito, quia 
+      <lb ed="#L" n="145"/>nullum est in paruulo, nec ex natura facti, nec ex opero operato, 
+      <lb ed="#L" n="146"/>cum martyrium non sit sacramentum, sed ex abundanti 
+      pieta<lb ed="#L" n="147" break="no"/>te Dei, ideo ibi non requiritur voluntas propria, vel aliena, sicut 
+      <lb ed="#L" n="148"/>requiritur in baptismo fluminis, quod est sacramentum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

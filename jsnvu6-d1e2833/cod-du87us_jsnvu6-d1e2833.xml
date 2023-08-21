@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="128-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2833"><!-- l2d10prae -->
+            <head xml:id="jsnvu6-d1e2833-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2833-d1e103">
+               <lb ed="#L" n="23"/>Sententia huius distinctionis X. 
+      <lb ed="#L" n="24"/>in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e2833-d1e110">
+               <lb ed="#L" n="25"/>HOC ETIAM inuestigandum est. Superius de 
+      <lb ed="#L" n="26"/>terminauit magister distinctionem angelorum 
+      <lb ed="#L" n="27"/>quantum ad ordines. Hic vero determinat de 
+      <lb ed="#L" n="28"/>eis quantum ad officia digniora quae sunt 
+      assi<lb ed="#L" n="29" break="no"/>gui stere, &amp; ministrare. Secundo quantum ad officia 
+      <lb ed="#L" n="30"/>inferiora sicut est custodire. Secunda incipit in principio 2. dist. 
+      <lb ed="#L" n="31"/>illud quoque sciendum est. Prima diuiditur in tres. Primo mouet 
+      <lb ed="#L" n="32"/>quaestionem suam &amp; tangit circa eam vnam opinionem. 
+      Secun<lb ed="#L" n="33" break="no"/>do tangit aliam. Tertio tertiam. Secunda ibi, quibus obiicitur 
+      <lb ed="#L" n="34"/>Tertia ibi, alij vero dicunt. Secunda istarum diuiditur in tres, 
+      <lb ed="#L" n="35"/>Primo tangit opinionem. Secundo mouet contra eam 
+      obie<lb ed="#L" n="36" break="no"/>ctionem &amp; soluit. Tertio docet secundum eam respondere ad 
+      <lb ed="#L" n="37"/>contrariam. Secunda ibi, hic oritur quaestio. Tertia ibi, quae 
+      au<lb ed="#L" n="38" break="no"/>tem omnes angelos. Haec est sententia lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2833-d1e143">
+               <lb ed="#L" n="39"/>
+               <!--2--> IN SPECIALI vero sic procedit, &amp; proponit prime 
+      <lb ed="#L" n="40"/>inquirendo vtrum omnes angeli ad exteriora nuncianda 
+      mit<lb ed="#L" n="41" break="no"/>tantur. Et dicunt quidam quod non omnes mittuntur, quia 
+      su<lb ed="#L" n="42" break="no"/>periores semper Deo assistunt. Et hoc confirmat 
+      auctoritati<lb ed="#L" n="43" break="no"/>bus. Postea ponit secundam opinionem dicentium omnes 
+      an<lb ed="#L" n="44" break="no"/>gelos mitti, quia Seraphin missus legitur ad Esa. Et ipse filiu 
+      <lb ed="#L" n="45"/>Dei ad nos missus est. Et hanc opinionem confirmat 
+      auctori<lb ed="#L" n="46" break="no"/>tate apostoli. Postea obiici contra hoc. Si enim omnes 
+      mittun<lb ed="#L" n="47" break="no"/>tur, ergo debent dici angeli. Et respondet quod angeli proprie 
+      di<lb ed="#L" n="48" break="no"/>cuntur qui ex officio &amp; saepius mittuntur. Alij vero rarius mit 
+      <lb ed="#L" n="49"/>tuntur qui cum mittuntur angelorum nomen suscipiunt, 
+      secun<lb ed="#L" n="50" break="no"/>dum illud qui facis angelos tuos, &amp;c. Ad hoc incidenter ad 
+      hu<lb ed="#L" n="51" break="no"/>ius confirmationem determinat de nominibus quorundam 
+      <lb ed="#L" n="52"/>spirituum. Et dicit quod secundum istos Michael, Gabriel, 
+      Ra<lb ed="#L" n="53" break="no"/>phael, de superiori ordine sunt, vnde sunt nomina spirituum 
+      <lb ed="#L" n="54"/>quorum nominum interpretationem tangit. Alij tamen dicum 
+      <lb ed="#L" n="55"/>quod nomina sunt propria officiorum, vnde quia Raphael 
+      in<lb ed="#L" n="56" break="no"/>terpretatur medicina Dei quilibet qui ad medendum 
+      mitti<lb ed="#L" n="57" break="no"/>tur potest dici Raphael, &amp; similiter in aliis. Subdit etiam huius 
+      <lb ed="#L" n="58"/>simile in daemonibus in quibus quaedam nomina sunt non vn 
+      <lb ed="#L" n="59"/>tantum, sed pluribus conuenientia, vt nomen diabolus, nomen 
+      <lb ed="#L" n="60"/>Belial, quorum nominum interpretationem tangit in litera 
+      <lb ed="#L" n="61"/>Postea secundum istam opinionem soluit auctoritates contra 
+      <lb ed="#L" n="62"/>rias dicens quod superiores dicuntur assistere, quia raro 
+      mit<lb ed="#L" n="63" break="no"/>tuntur: &amp; tamen licet mittuntur non propter hoc recedundi 
+      <lb ed="#L" n="64"/>ab ipsa diuina essentia, sed eius contemplationi semper 
+      assi<lb ed="#L" n="65" break="no"/>stunt, quod etiam faciunt qui saepe mittuntur. Et postea 
+      tan<lb ed="#L" n="66" break="no"/>git aliam opinionem dicentium tres ordines supremos 
+      sem<lb ed="#L" n="67" break="no"/>per assistere &amp; nunquam mitti ad exteriora. Inseriores 
+      tan<lb ed="#L" n="68" break="no"/>tum mitti, medios vero ordines dicunt &amp; assistere, &amp; mitti, 
+      <lb ed="#L" n="69"/>prout tamen mitti accipitur inquantum superiores medios 
+      il<lb ed="#L" n="70" break="no"/>luminant, &amp; medij inferiores illuminant sic, quia superiore 
+      <lb ed="#L" n="71"/>mediis nunciant, &amp; medij infimis: ideo superiores dicuntur 
+      <lb ed="#L" n="72"/>angeli. De illo autem qui fuit missus ad Esa. dicit quod iste non 
+      <lb ed="#L" n="73"/>fuit proprie Seraphin, sed quia ad incendium peccati Esaia 
+      <lb ed="#L" n="74"/>veniebat, Seraphin nomen accepit. Et in hoc ter. &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

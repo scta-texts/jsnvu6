@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="128-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2846"><!-- l2d10q2 -->
+            <head xml:id="jsnvu6-d1e2846-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e2846-Hd1e103" type="question-title">Utrum angeli omnes assistant</head>
+            <p xml:id="jsnvu6-d1e2846-d1e106">
+               <lb ed="#L" n="27"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="28"/>Vtrum omnes Angeli assistant. 
+      <lb ed="#L" n="29"/>Thom. 19. 12. ar. 3. 
+    </p>
+            <p xml:id="jsnvu6-d1e2846-d1e115">
+               <lb ed="#L" n="30"/>AD secundum sic proceditur. Et videtur quod 
+      <lb ed="#L" n="31"/>omnes angeli assistant, quia ómnes sunt 
+      mini<lb ed="#L" n="32" break="no"/>strantes vel assistentes, sed omnes ministrante. 
+      <lb ed="#L" n="33"/>sunt assistentes, ergo omnes simpliciter assistunt 
+      <lb ed="#L" n="34"/>Probatio Mi. Raphael enim qui fuit missus in 
+      <lb ed="#L" n="35"/>ministerium Thobiae, dicit Thobiae 21. Ego sum vnus ex septe 
+      <lb ed="#L" n="36"/>qui astamus, &amp;c. Et eadem ratio est de aliis in ministerium 
+      mis<lb ed="#L" n="37" break="no"/>sis, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2846-d1e135">
+               <lb ed="#L" n="38"/>
+               <!--2--> IN CONTRARIVM est, quia scriptura videtu 
+      <lb ed="#L" n="39"/>distinguere inter astantes &amp; ministrantes, Daniel. 7. milia milium 
+      <lb ed="#L" n="40"/>ministrabant ei, &amp; decies milies centena milia assistebant ei 
+      </p>
+            <p xml:id="jsnvu6-d1e2846-d1e147">
+               <lb ed="#L" n="41"/>
+               <!--3--> RESPONSIO. Assistere deo aut est cernere Deum 
+      <lb ed="#L" n="42"/>praesentem, quomodo assistunt regi omnes in quorum praesenti: 
+      <lb ed="#L" n="43"/>rex est, aut est scire eius mentem quomodo assistunt regi soli 
+      <lb ed="#L" n="44"/>secretarij. Primo modo omnes angeli assistunt Deo, quia 
+      bea<lb ed="#L" n="45" break="no"/>titudo consistit essentialiter, vel saltem requirit necessario 
+      a<lb ed="#L" n="46" break="no"/>ctum intellectus sed actus intellectus non est sine praesentia 
+      <lb ed="#L" n="47"/>obiecti, ergo omnes beati cernunt Deum (qui est suae 
+      beatitu<lb ed="#L" n="48" break="no"/>dinis obiectum) essentialiter praesentem. 
+      </p>
+            <p xml:id="jsnvu6-d1e2846-d1e169">
+               <lb ed="#L" n="49"/>
+               <!--4--> Si secundo modo accipiatur assistere Deo, scilicet sciri 
+      <lb ed="#L" n="50"/>mentem eius, aut accipitur generaliter. Et sic adhuc omnes angeli 
+      <lb ed="#L" n="51"/>beati assistunt, quia de ministeriis quae a Deo reuelantur nihil 
+      <lb ed="#L" n="52"/>scit vnus quod nesciat alius. Sicut enim agentia corporalia 
+      bo<lb ed="#L" n="53" break="no"/>nitatem quam a Deo receperunt aliis communicant quantum 
+      <lb ed="#L" n="54"/>possibile est. Sic &amp; multo magis sancti angeli qui sunt in 
+      plenis<lb ed="#L" n="55" break="no"/>sima participatione bonitatis diuinae, quicquid a Deo perci 
+      <lb ed="#L" n="56"/>piunt subiectis impertiuntur: vnde Diony. 15. coelest. Hierar. d 
+      <lb ed="#L" n="57"/>cit quod vnaquaeque coelestis essentia intelligentiam sibi a 
+      superio<lb ed="#L" n="58" break="no"/>ri datam inferiori communicat. Si vero accipiatur assistere Dec 
+      <lb ed="#L" n="59"/>magis specialiter, scilicet pro eo quod ess scire eius mentem 
+      im<lb ed="#L" n="60" break="no"/>mediate sic non omnes angeli beati assistunt: sed illi soli qui 
+      im<lb ed="#L" n="61" break="no"/>mediate a Deo illuminantur. Et secundum hoc ordo 
+      dominatio<lb ed="#L" n="62" break="no"/>num non esset de assistentibus: cum pertineat ad secundam Hiera 
+      <lb ed="#L" n="63"/>chiam. Angeli autem secundae Hierarchiae illuminantur ab angelis 
+      <lb ed="#L" n="64"/>primae Hierarchiae secundum Diony. 8. cap. coelestis Hierarchiae 
+      <lb ed="#L" n="65"/>Et ideo forte melius est quod dicatur quod omnes assistunt 
+      <lb ed="#L" n="66"/>Sed horum quidam assistunt &amp; ministrant regulariter, alij vero 
+      <lb ed="#L" n="67"/>non, sed solum assistunt: &amp; sic intelligenda est distin. scripturae. 
+      </p>
+            <p xml:id="jsnvu6-d1e2846-d1e215">
+               <lb ed="#L" n="68"/>
+               <!--5--> AD ARGVMENTVM patet solutio ex dictis. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

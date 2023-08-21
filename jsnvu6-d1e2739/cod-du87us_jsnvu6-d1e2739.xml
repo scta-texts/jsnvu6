@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="125-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2739"><!-- l2d7q5 -->
+            <head xml:id="jsnvu6-d1e2739-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-d1e2739-Hd1e103" type="question-title">Utrum angelus per intellectum moveat coelum vel quodcunque 
+      corpus per intellectum et voluntatem</head>
+            <p xml:id="jsnvu6-d1e2739-d1e106">
+               <lb ed="#L" n="77"/>QUAESTIO QVINTA. 
+      <lb ed="#L" n="78"/>Vtrum angelus moueat coelum vel quodcunque 
+      <lb ed="#L" n="79"/>corpus per intellectum &amp; voluntatem: 
+      <lb ed="#L" n="80"/>an per aliam potentiam. 
+      <lb ed="#L" n="81"/>Thom. 1. 4. 110. ar. 3. 
+    </p>
+            <p xml:id="jsnvu6-d1e2739-d1e119">
+      <!--00317.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>SECVNDO quaeritur, vtrum angelus modeatrrm 
+      <lb ed="#L" n="83"/>lum, vel quodcunque corpus per intellectum &amp; 
+      ro<lb ed="#L" n="84" break="no"/>luntatem, vel per aliquam aliam potentiam &amp; 
+      vide<lb ed="#L" n="85" break="no"/>Atur quod per aliam potentiam, quia angelus in quacunud 
+      <lb ed="#L" n="86"/>dist antia potest velle &amp; intelligere rem quamcunque, sed non potes 
+      <lb ed="#L" n="87"/>mouere quancunque rem, neque in quacunque distantia, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2739-d1e139">
+               <lb ed="#L" n="88"/>
+               <!--2.--> Item mouere est actus transiens in alterum, sed actus 
+      in<lb ed="#L" n="89" break="no"/>tellectus &amp; voluntatis non transit in alterum. Intelligere enim 
+      <lb ed="#L" n="90"/>&amp; velle sunt actiones intra manentes, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e2739-d1e151">
+               <lb ed="#L" n="91"/>
+               <!--3--> CONTRA. Omnis virtus non organica est 
+      intelle<lb ed="#L" n="92" break="no"/>ctus, aut voluntas. Sed potentia motiua in angelo est virtus non 
+      <lb ed="#L" n="93"/>organica, ergo est intellectus aut voluntas 
+      </p>
+            <p xml:id="jsnvu6-d1e2739-d1e162">
+               <lb ed="#L" n="94"/>
+               <!--4--> RESPONSIO. Quidem dicunt &amp; satis probabilite 
+      <lb ed="#L" n="95"/>quod in angelo praeter intellectum &amp; voluntatem est virtus quae 
+      <lb ed="#L" n="96"/>dam motiua realiter ab eis distincta, quia sicut anima humana 
+      <lb ed="#L" n="97"/>mouet corpus sibi coniunctum sic angelus mouet corpus a se 
+      di<lb ed="#L" n="98" break="no"/>stinctum, secundum suppositionem. Sed in anima mouente cerpus 
+      <lb ed="#L" n="99"/>sibi coniunctum est alia virtus imperans motum (scilicet 
+      volun<lb ed="#L" n="100" break="no"/>tas vel appetitus sensitiuus) &amp; alia exequens motum (scilice 
+      <lb ed="#L" n="101"/>virtus quae est in neruis &amp; musculis) ergo in angelo mouente 
+      <lb ed="#L" n="102"/>corpus separatum ad quod mouendum videntur plura requir 
+      <lb ed="#L" n="103"/>quam ad mouendum corpus coniunctum multo fortius es 
+      <lb ed="#L" n="104"/>alia virtus exequens motum, a voluntate quae motum imperat 
+      <lb ed="#L" n="105"/>Pro hac opinione videtur esse articulus qui dicit quod ange 
+      <lb ed="#L" n="106"/>lus non mouet sola voluntate. Similiter etiam confirmatur 
+      hae<lb ed="#L" n="107" break="no"/>opinio per illas duas rationes ad hanc partem adductasI. 
+      </p>
+            <p xml:id="jsnvu6-d1e2739-d1e197">
+               <lb ed="#L" n="108"/>
+               <!--5--> Quicquid sit de conclusione, ratio tamen magis videtui 
+      <lb ed="#L" n="109"/>esse ad oppositum quam ad propositum. Aliter enio inoue 
+      <lb ed="#L" n="110"/>anima corpus &amp; aliter angelus. Anima enim (cum sit actus &amp; 
+      <lb ed="#L" n="111"/>forma corporis) non sic mouet corpus vt ipsa sit mouens secun 
+      <lb ed="#L" n="112"/>dum seipsam, &amp; corpus vt distinctum ab anima sit motum, 
+      for<lb ed="#L" n="113" break="no"/>ma enim non mouet materiam; sed informat, quia forma &amp; 
+      <lb ed="#L" n="114"/>agens non possunt coincidere in idem secundum numerum: Ita 
+      <lb ed="#L" n="115"/>quod idem respectu eiusdem sit forma &amp; agens, vt patet 
+      secun<lb ed="#L" n="116" break="no"/>do Physi. Et ideo anima cum sit forma vt quod quid erat essi 
+      <lb ed="#L" n="117"/>respectu corporis non potest esse causa vt vnde principium 
+      <lb ed="#L" n="118"/>motus, propter quod virtus exequens motum in rebus 
+      anima<lb ed="#L" n="119" break="no"/>tis non potest esse virtus solius animae, sed est virtus coniuncti 
+      <lb ed="#L" n="120"/>illa scilicet quae est in neruis &amp; musculis. Mouetur enim animal 
+      <lb ed="#L" n="121"/>per hoc quod pars mouet partem, non essentialis essentialem, 
+      <lb ed="#L" n="122"/>puta forma materiam, anima scilicet corpus, sed integralis 
+      in<lb ed="#L" n="123" break="no"/>tegralem sicut crus tibiam &amp; huiusmodi, quanquam virtus 
+      mo<lb ed="#L" n="124" break="no"/>uendi actiue magis teneat se ex parte animae. Et virtus 
+      moue<lb ed="#L" n="125" break="no"/>di passiue, magis ex parte corporis, quia secundum 
+      commen<lb ed="#L" n="126" break="no"/>tatorem, formae est agere. Alterius autem potentiae est pati. In 
+      <lb ed="#L" n="127"/>homine igitur potest virtus imperans motu esse solius animae, 
+      <lb ed="#L" n="128"/>puta voluntas, sed non virtus exequens pro eo quod anima forma 
+      <lb ed="#L" n="129"/>est corporis. Et ideo eius est informare corpus non mouere. Et 
+      <lb ed="#L" n="130"/>ideo alia est virtus motum imperans, alia exequens. Angelus 
+      <lb ed="#L" n="131"/>autem non est alicuius corporis actus, &amp; ideo nihil prohibet in 
+      <lb ed="#L" n="132"/>eo esse eandem virtutem imperantem motum et exequetem 
+      </p>
+            <p xml:id="jsnvu6-d1e2739-d1e256">
+               <lb ed="#L" n="133"/>
+               <!--6--> Propter quod econtrario conuenientius sic arguitur. Sicut se 
+      <lb ed="#L" n="134"/>habet omnis cognitio nostra ad intellectum angeli, Sic omnis 
+      <lb ed="#L" n="135"/>vis motiua nostra se habet ad voluntatem angeli. Sed omnia quae 
+      <lb ed="#L" n="136"/>nos sensu &amp; intellectu cognoscimus, angelus solo intellectu 
+      co<lb ed="#L" n="137" break="no"/>gnoscit, ergo a simili quicqud nos a voluntate facimus, &amp; omni 
+      <lb ed="#L" n="138"/>vi motiua angelus per voluntatem perficit. Nec hoc est contra 
+      <lb ed="#L" n="139"/>articulum qui dicit quod angelus non sola voluntate mouet, quia li 
+      <lb ed="#L" n="140"/>cet angelus non habeat aliam potentiam motiuam nisi 
+      volunta<lb ed="#L" n="141" break="no"/>tem, non subiicitur tamen voluntati suae quantum ad actum 
+      mouen<lb ed="#L" n="142" break="no"/>di quicquid ei subiicitur quantum ad actum volendi, vndem non pae 
+      <lb ed="#L" n="143"/>test mouere quascunque res, nec qualitercunque liberet vel 
+      pl<lb ed="#L" n="144" break="no"/>ceret, sed determinato modo prout natura sua exigit, vel Deu: 
+      <lb ed="#L" n="145"/>praecipit, seu permittit, sicut &amp; Deus non omnia vult quae scir 
+      <lb ed="#L" n="146"/>quanquam non sit in eo alia voluntas &amp; scientia, sed vnum &amp; idem, 
+      <lb ed="#L" n="147"/>quia ad plura se extendit obiectum scientiae quam voluntatis. 
+      <lb ed="#L" n="148"/>Sic in angelo, quamuis voluntas sit idem quod sua potentia mo 
+      <lb ed="#L" n="149"/>tiua ad plura tamen se extendit in volendo quam in mouendo 
+</p>
+            <p xml:id="jsnvu6-d1e2739-d1e298">
+               <lb ed="#L" n="150"/>PER HOC patet responsio ad articulum. Et ad primum 
+      ar<lb ed="#L" n="151" break="no"/>gumentum quantum ad aliquam eius partem, scilicet quomodo 
+      an<lb ed="#L" n="152" break="no"/>gelus potest velle aliquid quod non potest mouere. Sed quantum 
+      <lb ed="#L" n="153"/>ad aliam partem, scilicet de distantia procedit argumentum ex fal 
+      <lb ed="#L" n="154"/>sa imaginatione, qa angelus per essentiam suâ, nec est loco 
+      pro<lb ed="#L" n="155" break="no"/>pinquus nec reinotus, vnde si poneretur in angelo virtus moti 
+      <lb ed="#L" n="156"/>ua alia a voluntate, ita esset absoluta a loco &amp; a distantia locali 
+      <lb ed="#L" n="157"/>sicut voluntas. Adhuc dato quod requireretur in angelo 
+      approxi<lb ed="#L" n="158" break="no"/>matio localis ad re motam non potest concludi quin voluntas sit 
+      <lb ed="#L" n="159"/>virtus motiua, quia tunc diceretur quod licet voluntas angeli non 
+      <lb ed="#L" n="160"/>requirat approximationem quo ad actum volendi, requirit tamer 
+      <lb ed="#L" n="161"/>quo ad actum mouendi, quia secundum istam positionem 
+      habe<lb ed="#L" n="162" break="no"/>ret duplicem actum, velle &amp; mouere, sicut si calor ignis esset 
+      vo<lb ed="#L" n="163" break="no"/>litiuus &amp; calefactiuus ad volendum quod non requireretur approxi 
+      <!--00318.xml-->
+      <pb ed="#L" n="125-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>matio, sed solum ad calefaciendum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2739-d1e340">
+               <lb ed="#L" n="2"/>
+               <!--8.--> Ad secundum argumentum dicendum quod angelus non 
+      mo<lb ed="#L" n="3" break="no"/>uet per velle sed vult, &amp; non mouet per intelligere, sed intelligit 
+      <lb ed="#L" n="4"/>Mouet autem per mouere per quod non vult nec intelligit. Et 
+      <lb ed="#L" n="5"/>possunt hi omnes actus esse ab eadem virtute ordine quodam
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

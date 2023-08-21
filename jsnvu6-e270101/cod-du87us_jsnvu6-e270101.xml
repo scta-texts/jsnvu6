@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="327-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e270101"><!-- l4d35q1 -->
+            <head xml:id="jsnvu6-e270101-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e270101-Hd1e103" type="question-title">
+      Utrum liceat vxorem dimittere causa 
+      fornicationis
+    </head>
+            <p xml:id="jsnvu6-e270101-d1e106">
+               <lb ed="#L" n="47"/>QVAESTIO 1. 
+      <lb ed="#L" n="48"/>Vtrum liceat vxorem dimittere causa 
+      <lb ed="#L" n="49"/>fornicationis. 
+    </p>
+            <p xml:id="jsnvu6-e270101-d1e115">
+               <lb ed="#L" n="50"/>CIrca distinctionem istam primo quaeritur vtrum 
+      <lb ed="#L" n="51"/>liceat vxorem dimittere causa fornicationis. 
+      Vi<lb ed="#L" n="52" break="no"/>detur quod non, quia magis principale est in 
+      matri<lb ed="#L" n="53" break="no"/>monio bonum prolis quam bonum fidei, sed 
+      <lb ed="#L" n="54"/>&amp; propter defectum prolis, scilicet propter 
+      sterili<lb ed="#L" n="55" break="no"/>tatem, non potest vxor dimitti, ergo nec propter defectum 
+      fi<lb ed="#L" n="56" break="no"/>dei, scilicet propter fornicationem. 
+      </p>
+            <p xml:id="jsnvu6-e270101-d1e133">
+               <lb ed="#L" n="57"/>
+               <!--2--> Item majus peccatum est quando vterque fornicatur, quam 
+      <lb ed="#L" n="58"/>quando alter tantum, sed secundum iura in primo non debet 
+      <lb ed="#L" n="59"/>fieri separatio, ergo nec in secundo. 
+</p>
+            <p xml:id="jsnvu6-e270101-d1e145">
+               <lb ed="#L" n="60"/>IN contrarium est quod dicitur Mat. 19. quod non licet viro 
+      <lb ed="#L" n="61"/>dimittere vxorem excepta causa fornicationis, ergo 
+      propter<lb ed="#L" n="62" break="no"/>foreicationem licet. 
+      </p>
+            <p xml:id="jsnvu6-e270101-d1e154">
+               <lb ed="#L" n="63"/>
+               <!--4--> RESPONSIO. Videnda sunt tria. Primum est, an 
+      pro<lb ed="#L" n="64" break="no"/>pter fornicationem licitum sit vxorem dimittere. Secundum 
+      <lb ed="#L" n="65"/>est, vtrum possit dimitti absque iudicio ecclesiae. Tertium est 
+      <lb ed="#L" n="66"/>vtrum fit necessarium eam dimittere. 
+      </p>
+            <p xml:id="jsnvu6-e270101-d1e167">
+               <lb ed="#L" n="67"/>
+               <!--5--> QUANTVM ad primum dicendum est quod licitum est 
+      <lb ed="#L" n="68"/>viro innocenti vxorem fornicantem dimittere. Cuius ratio est, 
+      <lb ed="#L" n="69"/>quia peccans eontra foedus matrimonij suste debet priuari iure 
+      <lb ed="#L" n="70"/>quod habet ratione matrimonij sed coniunx fornicans peccat 
+      <lb ed="#L" n="71"/>duntra ius matrimonij quo coniuges sibi tenentur ad fidem 
+      <lb ed="#L" n="72"/>seruandam, ergo merito debet priuari jure quod habet in alio 
+      <lb ed="#L" n="73"/>ratione matrimonij: illud autem est exactio debiti ex parte eius, 
+      <lb ed="#L" n="74"/>&amp; redditio debiti ex parte alterius, &amp; cohabitatio eorum simul, 
+      <lb ed="#L" n="75"/>ergo propler fornicationem debet istis priuari, quod fit per 
+      di<lb ed="#L" n="76" break="no"/>uortium mier vxorem &amp; virum, &amp; ideo ex naturali aequitate in 
+      <lb ed="#L" n="77"/>odium adulteri fidem non seruantis, &amp; in fauorem innocentis 
+      fi<lb ed="#L" n="78" break="no"/>dem seruantis introductum est diuortium, propter quod in 
+      casi<lb ed="#L" n="79" break="no"/>bus vbi non est culpa vxoris adulterantis, vel ad iungitur culpa 
+      <!--00728.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>viri, non licet vxorem dimittere. 
+      </p>
+            <p xml:id="jsnvu6-e270101-d1e206">
+               <lb ed="#L" n="81"/>
+               <!--6--> Et hi casus sunt 7. Primus est quando vir de fornicatione 
+      <lb ed="#L" n="82"/>conuincitur sicut &amp; muller, vt 32. q. 3. per totum, &amp; extra de 
+      di<lb ed="#L" n="83" break="no"/>uortiis, cap. significasti. tunc enim mutua crimina pari 
+      compen<lb ed="#L" n="84" break="no"/>satione delentur. Secundus est quando vir vxorem prostituit, 
+      <lb ed="#L" n="85"/>extra de eo qui cognouit consanguineam vxoris suae, cap. 
+      dis<lb ed="#L" n="86" break="no"/>cretionem. Tertius est cum mulier credens probabiliter virum 
+      <lb ed="#L" n="87"/>mortuum nubit alteri, &amp; viro redeunte statim ab altero 
+      rece<lb ed="#L" n="88" break="no"/>dit, vt 34. q. 1. &amp; 2. quae simul terminatur cap. cum propter 
+      bel<lb ed="#L" n="89" break="no"/>licam. Quartus est cum mulier ab alio cognoscitur sub specie 
+      <lb ed="#L" n="90"/>viri sui, quia credit eum esse virum suum, 34. q. 2. in lectum. 
+      Quin<lb ed="#L" n="91" break="no"/>tus est quando ab aliquo violenter opprimitur, quod 
+      intelli<lb ed="#L" n="92" break="no"/>gendum est de vi absoluta non propter metum 32. q. 5. 
+      propo<lb ed="#L" n="93" break="no"/>sito. Sextus est quando vir reconciliat sibi vxorem post 
+      adul<lb ed="#L" n="94" break="no"/>terium vel publice adulterantem retinuit; vt 32. q. 1. cap. 2. &amp; 3 
+      <lb ed="#L" n="95"/>Septimus est quando aliqui contrahunt in infidelitate &amp; vi 
+      <lb ed="#L" n="96"/>dat vxori libellum repudij quae post repudium contrahit cum 
+      <lb ed="#L" n="97"/>altero, si post vterque conuertitur ad fidem cogitur vir 
+      recipe<lb ed="#L" n="98" break="no"/>re vxorem, nec potest ei obiicere crimen fornicationis, vt 
+      ha<lb ed="#L" n="99" break="no"/>betur extra de diuortiis, cap. gaudemus. In hoc autem vir &amp; 
+      <lb ed="#L" n="100"/>mulier ad paria iudicantur, licet non ex pari causa: quia sicut 
+      <lb ed="#L" n="101"/>licet viro vxorem dimitere ob fornicationem, ita licet vxor 
+      <lb ed="#L" n="102"/>dimittere virum, plus tamen peccat contra ius matrimonij 
+      <lb ed="#L" n="103"/>mulier fornicans quam vir, nam mulier peccat contra bonum 
+      <lb ed="#L" n="104"/>fidei &amp; contra bonum prolis propter incertitudinem foetus. 
+      <lb ed="#L" n="105"/>Vir autem solum peccat contra bonum fidei, vtraque tamen 
+      <lb ed="#L" n="106"/>causa sufficit ad celebrandum diuortium: nomine autem 
+      for<lb ed="#L" n="107" break="no"/>nicationis intelligitur hic non solum culpa secundum vsum 
+      <lb ed="#L" n="108"/>naturalem, sed etiam contra naturam vt sodomia, sed non 
+      no<lb ed="#L" n="109" break="no"/>minatur propter turpitudinem criminis: spiritualis etiam for 
+      <lb ed="#L" n="110"/>nicatio in qua quis perfistit &amp; non poenitet sufficit ad diuor 
+      <lb ed="#L" n="111"/>rium, vt habetur extra de conuersione coniugatorum, cap. vlt. 
+      <lb ed="#L" n="112"/>&amp; sic patet primum 
+      </p>
+            <p xml:id="jsnvu6-e270101-d1e280">
+               <lb ed="#L" n="113"/>
+               <!--7--> QUANTVM ad secundum vtrum vir possit dimittere 
+      <lb ed="#L" n="114"/>vxorem fornicantem absque ludicio ecclesiae: sciendum est? 
+      <lb ed="#L" n="115"/>vxor fornicans potest dimitti dupliciter, aut quo ad thorum 
+      so<lb ed="#L" n="116" break="no"/>lum, aut quo ad thorum &amp; cohabitationem: primo modo vis 
+      <lb ed="#L" n="117"/>vxorem de cuius fornicatione constat sibi potest auctoritate 
+      <lb ed="#L" n="118"/>sua dimittere &amp; ei debitum negare quousque compellatur 
+      au<lb ed="#L" n="119" break="no"/>ctoritate ecclesiae, &amp; si ante voluntarie reddat debitum, 
+      incur<lb ed="#L" n="120" break="no"/>rit notam irregularitatis, &amp; generat sibi praeiudicium accusa 
+      <lb ed="#L" n="121"/>tionis: si autem compulsus reddat, incurrit quidem notam 
+      ir<lb ed="#L" n="122" break="no"/>regularitatis ad quam sufficit factum, sed non generat sibi 
+      prae<lb ed="#L" n="123" break="no"/>iudicium accusationis. Secundo modo scilicet ad thorum 8 
+      <lb ed="#L" n="124"/>cohabitationem non debet dimitti vxor fornicans nisi iudicis 
+      <lb ed="#L" n="125"/>ecclesiae, quia nullus debet esse iudex in sua causa, &amp; publici 
+      <lb ed="#L" n="126"/>poena, ficut est talis separatio, ergo debet infligi per publicum 
+      <lb ed="#L" n="127"/>iudicium. Et si dimissa fuerit, debet vir cogi ad recipiendum 
+      <lb ed="#L" n="128"/>eam nisi incontinenti probet fornicationem: &amp; quia talis di 
+      <lb ed="#L" n="129"/>missio vocatur diuortium, idcirco diuortium non debet fier 
+      <lb ed="#L" n="130"/>absque iudicio ecclesiae, &amp; sic patet secundum. 
+      </p>
+            <p xml:id="jsnvu6-e270101-d1e324">
+               <lb ed="#L" n="131"/>
+               <!--8--> Quantum ad tertium sciendum est quod fornicatio consugi 
+      <lb ed="#L" n="132"/>aut est occulta quae probari non potest, &amp; propter talem non est 
+      <lb ed="#L" n="133"/>necessarium imo nec licitum dimittere conjugem quantum ad 
+      <lb ed="#L" n="134"/>cohabitationem, licet posset dimitti quo ad thorum, vel alia poe 
+      <lb ed="#L" n="135"/>na puniri ad correctionem: aut est manifesta quae probari 
+      po<lb ed="#L" n="136" break="no"/>test, &amp; tunc aut est secuta correctio in re aut in spe, aut perseue. 
+      <lb ed="#L" n="137"/>rat in malitia. In primo casu non est necessarium vxore 
+      dimi<lb ed="#L" n="138" break="no"/>tere, quia separatio ad correctionem introducta est, poena vero 
+      <lb ed="#L" n="139"/>corrigens non est de necessitate requisita vbi correctio 
+      praeces<lb ed="#L" n="140" break="no"/>sit vel in breui probabiliter speratur. In secundo casu 
+      necessa<lb ed="#L" n="141" break="no"/>rium est vxorem dimittere, ne vir qui in hoc casu tenetur vxo 
+      <lb ed="#L" n="142"/>rem corripere, dissimulando videatur fouere crimen vxoris. Ei 
+      <lb ed="#L" n="143"/>sic intelligendae sunt auctoritates quae ponuntur in litera, quae 
+      <lb ed="#L" n="144"/>habentur cum multis aliis trigesimasecunda que in pluribus 
+      ca<lb ed="#L" n="145" break="no"/>pitulis, quod intelligo nisi alio modo eum cohibere possit 
+      deti<lb ed="#L" n="146" break="no"/>nendo eam in carcere clausam, vel alio modo licito, tuc enim 
+      <lb ed="#L" n="147"/>non tenetur eam dimittere, quia per consequens teneretur 
+      con<lb ed="#L" n="148" break="no"/>tinere, ad quod tamen nullus tenetur nisi ex causa multum eui 
+      <lb ed="#L" n="149"/>denti compellatur. Quidam etiam dicuntqued quamuis non spe 
+      <lb ed="#L" n="150"/>retur de correctione vxoris vir potest eam secrete ad thorum 
+      <lb ed="#L" n="151"/>recipere, sed non publice cohabitare propter scandalum, quod 
+      <lb ed="#L" n="152"/>non videtur omnino irrationabiliter dictum. De muliere au 
+      <lb ed="#L" n="153"/>tem vtrum teneatur virum publice fornicantem &amp; non corri 
+      <lb ed="#L" n="154"/>gentem se dimittere, durum est dicere quod teneatur propter im 
+      <lb ed="#L" n="155"/>becillitatem sexus muliebris, &amp; quia non habet parem auctori 
+      <lb ed="#L" n="156"/>tatem ad correctionem viri maxime quo ad cohabitationem 
+      <lb ed="#L" n="157"/>in qua vir est caput mulleris, &amp; quia hoc esset quam leuite 
+      <lb ed="#L" n="158"/>condemnare multas mulieres. 
+      </p>
+            <p xml:id="jsnvu6-e270101-d1e390">
+               <lb ed="#L" n="159"/>
+               <!--9--> AD PRIMVM argumentum dicendum quod quam 
+      <lb ed="#L" n="160"/>uis matrimonium principaluer ordinetur ad bonum prolis, ta 
+      <lb ed="#L" n="161"/>mem foraicatio est magis ontra iura matrimonij quam lerilita 
+      <!--00729.xml-->
+      <pb ed="#L" n="328-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quia per fornicationem fit iniuria coniugi, non autem per ste 
+      <lb ed="#L" n="2"/>rilitatem. Item sterilitas non est culpabilis, quum insit a 
+      natu<lb ed="#L" n="3" break="no"/>ra, fornicatio autem non est culpabilis &amp; praeiudicialis alteri. 
+      </p>
+            <p xml:id="jsnvu6-e270101-d1e414">
+               <lb ed="#L" n="4"/>
+               <!--10--> Ad secundum argumentum dicendum est quod quamuis 
+      <lb ed="#L" n="5"/>malor culpa sit fornicatio duorum quam vnius, tamen vnus 
+      <lb ed="#L" n="6"/>non habet actionem contra alterum, quia paria crimina pari 
+      <lb ed="#L" n="7"/>compensatione delentur: vbi autem alter est innocens habet 
+      <lb ed="#L" n="8"/>actionem contra fornicantem, propter quod potest agere de 
+      <lb ed="#L" n="9"/>se ad separitionem, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

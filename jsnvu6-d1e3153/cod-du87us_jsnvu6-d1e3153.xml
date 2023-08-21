@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="139-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3153"><!-- l2d19prae -->
+            <head xml:id="jsnvu6-d1e3153-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3153-d1e103">
+               <lb ed="#L" n="33"/>Sententia huius distinctionis XIX. in 
+      gene<lb ed="#L" n="34" break="no"/>rali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e3153-d1e110">
+               <lb ed="#L" n="35"/>SOLET autem quaeri. Superius magister 
+      deter<lb ed="#L" n="36" break="no"/>minauit de creatione hominis generaliter. Hic 
+      <lb ed="#L" n="37"/>determinat creati hominis conditionem specia 
+      <lb ed="#L" n="38"/>liter determinando eius primum statum. Et 
+      diui<lb ed="#L" n="39" break="no"/>ditur in duas. Primo determinat statum primi 
+      <lb ed="#L" n="40"/>hominis quantum ad immortalitatem. Secundo quantum ad 
+      spe<lb ed="#L" n="41" break="no"/>ciei multiplicitatem. Secunda in principio 20. distin. ibi, Post hoc 
+      <lb ed="#L" n="42"/>videndum est. Prima est in prin. lect. Et diuiditur in duas. Prime 
+      <lb ed="#L" n="43"/>proponit quod intendit. Secundo prosequitur ostendendo 
+      ho<lb ed="#L" n="44" break="no"/>minis immortalitatem ibi, Solet hic. Et haec pars diuiditur in 
+      <lb ed="#L" n="45"/>quatuor. Primo mouet quaestionem. Secundo soluit. Tertio 
+      oc<lb ed="#L" n="46" break="no"/>casione sumpta ex solutione diuersas opiniones tangit. Quarte 
+      <lb ed="#L" n="47"/>addit quasdam auctoritates quaedam dictorum confirmantes 
+      <lb ed="#L" n="48"/>Secunda ibi, ad quod dicit potest. Tertia ibi, propter quod aliqu 
+      <lb ed="#L" n="49"/>dicunt. Quarta, de hac vero hominis immortalitate. Haec es 
+      <lb ed="#L" n="50"/>diuisio &amp; sententia lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3153-d1e147">
+               <lb ed="#L" n="51"/>
+               <!--2--> INSPECIALI sic procedit, &amp; proponit primo, quod 
+      <lb ed="#L" n="52"/>intendit determinare statum primi hominis, ante peccatum 
+      qua<lb ed="#L" n="53" break="no"/>lis fuerit, tam in anima, quam in corpore. Et de quibusdam aliis 
+      <lb ed="#L" n="54"/>quae non inutiliter sciuntur, Postea dicit quod prosequitur de 
+      <lb ed="#L" n="55"/>his quae pertinent ad corpus, &amp; dicit quod primus homo 
+      mor<lb ed="#L" n="56" break="no"/>talis erat, &amp; non mortalis. Poterat enim mori, &amp; non mori. Non 
+      <lb ed="#L" n="57"/>mori autem in primo statu, scilicet ante peccatum, quia habuit 
+      <lb ed="#L" n="58"/>posse non mori. In secundo vero, scilicet post peccatum, 
+      neces<lb ed="#L" n="59" break="no"/>sario habuit mori. In tertio vero, scilicet beatitudinis, habebi 
+      <lb ed="#L" n="60"/>non posse mori. Et subdit quod corpus eius erat animale, id est 
+      <lb ed="#L" n="61"/>alimentis egens, &amp; ante peccatum immortale, id est, (
+      poten<lb ed="#L" n="62" break="no"/>non mori (sed post peccatu erat corpus eius mortuum secundum 
+      <lb ed="#L" n="63"/>Apostolum: in resurrectione vero habebit corpus spirituale, id 
+      <lb ed="#L" n="64"/>est, non egens alimentis, &amp; tunc erit immortalis, id est, non 
+      po<lb ed="#L" n="65" break="no"/>tens mori. Et hoc confirmat per auctoritates Apostoli. Postea 
+      <lb ed="#L" n="66"/>quaerit causam immortalitatis eius, an hoc fuerit ex conditione 
+      <lb ed="#L" n="67"/>naturae, an ex dono gratiae: dicit quod hoc fuit ex dono gratiae 
+      <lb ed="#L" n="68"/>scilicet ex esuligni vitae. Vnde si illo non vteretur peccaret &amp; 
+      <lb ed="#L" n="69"/>moreretur. Sed vtendo ligno vitae non peccasset, &amp; sic non mo 
+      <lb ed="#L" n="70"/>reretur. Et hoc modo ex ligno haberet posse non mori: quaerit 
+      <lb ed="#L" n="71"/>autem circa hoc, an si non esset praeceptum quod comederet de 
+      <lb ed="#L" n="72"/>ligno virae, &amp; aliis: &amp; non illo vesceretur, nunquid posset non mori, 
+      <lb ed="#L" n="73"/>sed semper viuere: quia si sic ergo non ex ligno vitae esset 
+      im<lb ed="#L" n="74" break="no"/>mortalis, si vero, non tunc ex ligno vitae ineratur ei 
+      immortali<lb ed="#L" n="75" break="no"/>tas. Et propter hoc aliqui dicunt quod lignum vitae non era 
+      <lb ed="#L" n="76"/>tota causa immortalitatis, sed habuit immortalitatem etiam ex 
+      <lb ed="#L" n="77"/>natura. Aliis vero videtur quod homo erat omnino 
+      immortali<lb ed="#L" n="78" break="no"/>ex ligno vitae. Vltimo dicit &amp; ponit quasdam auctoritates, in 
+      <lb ed="#L" n="79"/>quibus dicitur quomodo differebat immortalicas Adae ab un¬ 
+      <!--00346.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>mortalitate beatorum, quia immortalitas Adae per esum ligni 
+      <lb ed="#L" n="81"/>conseruabatur vsque ad tempus, quo fumens de ligno vitae 
+      fie<lb ed="#L" n="82" break="no"/>ret perfecte immortalis, vnde quibusdam videtur quod 
+      habe<lb ed="#L" n="83" break="no"/>ret tantum aliquam immortalitatem ex natura, sed ad 
+      perfe<lb ed="#L" n="84" break="no"/>ctam venisset per esum ligni vitae. Magister vero sustinet quod 
+      <lb ed="#L" n="85"/>primam immortalitatem habebat ex ligno vitae. Et in hoc 
+      ter<lb ed="#L" n="86" break="no"/>minatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

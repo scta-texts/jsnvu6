@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="53-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1111"><!-- l1d18q2 -->
+            <head xml:id="jsnvu6-d1e1111-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e1111-Hd1e103" type="question-title">Utrum Spiritus Sanctus eo sit donum quo Deus</head>
+            <p xml:id="jsnvu6-d1e1111-d1e106">
+               <lb ed="#L" n="157"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="158"/>Vtrum Spiritus sanctus eo sit donum 
+      <lb ed="#L" n="159"/>quo deus. 
+    </p>
+            <p xml:id="jsnvu6-d1e1111-d1e115">
+      <!--00173.xml-->
+               <pb ed="#L" n="54-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>SECVNDO quaeritur, vtrum spiritus 
+      san<lb ed="#L" n="2" break="no"/>ctus eo sit donum quo Deus. Et videtur quod 
+      <lb ed="#L" n="3"/>non: quia reduplicatio dicit causam 
+      inhaeren<lb ed="#L" n="4" break="no"/>Itiae praedicati ad subiectum: sed spiritum sanctum 
+      <lb ed="#L" n="5"/>A esse Deum non est causa quare sit donum: 
+      qui<lb ed="#L" n="6" break="no"/>multa sunt dona quae non sunt Deus: ergo spiritus sanctu 
+      <lb ed="#L" n="7"/>non est eo donum quo Deus. 
+      </p>
+            <p xml:id="jsnvu6-d1e1111-d1e139">
+               <lb ed="#L" n="8"/>
+               <!--2--> CONTRA. Sicut quicquid habet filius, habet sua genera 
+      <lb ed="#L" n="9"/>tione: sic quicquid spiritus sanctus habet, habet sua processione 
+      <lb ed="#L" n="10"/>sed spiritus sanctus habet quod sit donum, &amp; quod sit Deus sua 
+      proces<lb ed="#L" n="11" break="no"/>sione, ergo vtrumque habet per idem, scilicet per suam processionem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1111-d1e153">
+               <lb ed="#L" n="12"/>
+               <!--3--> RESPONSIO. Dicendum quod sicut hoc huius dicitur 
+      <lb ed="#L" n="13"/>multipliciter secundum Philosophum 2. elenchorum, ita esse 
+      ali<lb ed="#L" n="14" break="no"/>quo dicitur multipliciter: &amp; ad praesens dupliciter, scilicet 
+      for<lb ed="#L" n="15" break="no"/>maliter &amp; originaliter, si quaeratur vtrum spiritus sanctus eodi 
+      <lb ed="#L" n="16"/>modo formaliter sit donum &amp; Deus dicendum quod non, sed 
+      <lb ed="#L" n="17"/>deitate est Deus, &amp; donabilitate donum &amp; hoc formaliter, 
+      dif<lb ed="#L" n="18" break="no"/>ferunt enim sicut superius &amp; inferius, quia in plus donum quam 
+      <lb ed="#L" n="19"/>Deus, vel donabilitas quam deitas, vel sicut res &amp; ratio, quia 
+      <lb ed="#L" n="20"/>deitas dicit rem super quam donabilitas addit rationem. S 
+      <lb ed="#L" n="21"/>vero quaeratur vtrum spiritus sanctus eodem modo 
+      origina<lb ed="#L" n="22" break="no"/>liter sit donum &amp; Deus: dicendum quod sic, quia quicquid ha 
+      <lb ed="#L" n="23"/>bet spiritus sanctus, habet vnica origine, qua procedit a patre 
+      <lb ed="#L" n="24"/>&amp; filio, siue illud sit esse Deum, siue esse donum: &amp; quodcunq 
+      <lb ed="#L" n="25"/>aliud. Argumenta procedunt viis suis. Primum quod non 
+      eo<lb ed="#L" n="26" break="no"/>dem formaliter spiritus sanctus est donum &amp; Deus. Secundum 
+      <lb ed="#L" n="27"/>quod eodem originaliter quod concessum est. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

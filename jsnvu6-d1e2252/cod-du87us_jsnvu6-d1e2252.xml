@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="103-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2252"><!-- l1d47q3 -->
+            <head xml:id="jsnvu6-d1e2252-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e2252-Hd1e103" type="question-title">Utrum Deus possit praecipere quod fieri non vult</head>
+            <p xml:id="jsnvu6-d1e2252-d1e106">
+               <lb ed="#L" n="20"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="21"/>Vtrum Deus possit praecipere quod 
+      <lb ed="#L" n="22"/>non vult. 
+      <lb ed="#L" n="23"/>Thom. nihil.
+    </p>
+            <p xml:id="jsnvu6-d1e2252-d1e117">
+               <lb ed="#L" n="24"/>TERTIO quaeritur, vtrum Deus possit 
+      praeci<lb ed="#L" n="25" break="no"/>spere quod non vult. Et videtur quod non, quia 
+      <lb ed="#L" n="26"/>praeceptum indicat voluntatem praecipientis, 
+      <lb ed="#L" n="27"/>sed quicunque indicat se velle quod non vult, 
+      <lb ed="#L" n="28"/>fictus est: quod non potest conuenire Deo, ergo 
+      <lb ed="#L" n="29"/>Deus nihil praecipit nisi quod vult. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e133">
+               <lb ed="#L" n="30"/>
+               <!--2--> IN CONTRARIVM est, quia praecipit Abraham 
+      <lb ed="#L" n="31"/>quod immolaret filium, Genes. 22. sed noluit immolationem 
+      <lb ed="#L" n="32"/>eius (vt patebit ibidem,) ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e145">
+               <lb ed="#L" n="33"/>
+               <!--3--> RESPONSIO. Hic est duplex modus dicendi. 
+      Pri<lb ed="#L" n="34" break="no"/>mus est, quod potest praecipere, &amp; quandoque praecipit aliquid quod 
+      <lb ed="#L" n="35"/>non vult, nec voluntate antecedente, nec voluntate consequen 
+      <lb ed="#L" n="36"/>te, sicut fuit de immolatione Isaac non enim fuit volita 
+      volun<lb ed="#L" n="37" break="no"/>tate consequente, quia illa semper impletur, nec voluntate 
+      an<lb ed="#L" n="38" break="no"/>tecedente. Quod patet tripliciter. Primo quia quum voluntas 
+      <lb ed="#L" n="39"/>antecedens &amp; consequens non sint oppositae, non possunt esse 
+      <lb ed="#L" n="40"/>de oppositis, sed oppositum immolationis Isaac fuit volitum 
+      <lb ed="#L" n="41"/>voluntate consequente, ergo immolatio quae fuit praecepta, 
+      ni<lb ed="#L" n="42" break="no"/>fuit volita voluntate antecedente. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e171">
+               <lb ed="#L" n="43"/>
+               <!--4--> Secundo, quia voluntas antecedens respicit ordinem 
+      crea<lb ed="#L" n="44" break="no"/>turae rationalis in finem: voluntas autem consequens respicit 
+      <lb ed="#L" n="45"/>executionem ordinis, sed ordo &amp; executio ordinis non possunt 
+      <lb ed="#L" n="46"/>esse de oppositis, imo quod deuiat ab ordine, deuiat ab 
+      or<lb ed="#L" n="47" break="no"/>dinis executione, &amp; quod contrariatur executioni, 
+      contra<lb ed="#L" n="48" break="no"/>riatur ordini, ergo impossibile est quod oppositum illius, quod 
+      <lb ed="#L" n="49"/>est volitum voluntate consequente, sit volitum voluntate 
+      an<lb ed="#L" n="50" break="no"/>tecedente, &amp; sic idem quod prius. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e193">
+               <lb ed="#L" n="51"/>
+               <!--5--> Tertio quia si voluntas consequens posset esse de opposito 
+      <lb ed="#L" n="52"/>eius quod est volitum voluntate antecedente, quum deus 
+      volun<lb ed="#L" n="53" break="no"/>rate antecedente velit peccata non fieri, posset voluntate cor 
+      <lb ed="#L" n="54"/>sequente velle ea fieri, quod est falsum, quum ergo voluntas 
+      <lb ed="#L" n="55"/>consequens fuerit de non immolando Isaac, voluntas 
+      antece<lb ed="#L" n="56" break="no"/>dens non potuit esse de eius immolatione, quae tamen fuit 
+      prae<lb ed="#L" n="57" break="no"/>cepta: &amp; ita potest Deus praecipere, &amp; iam praecepit illud quod 
+      <lb ed="#L" n="58"/>non vult, nec voluntate antecedente, nec consequente. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e215">
+               <lb ed="#L" n="59"/>
+               <!--6.--> ET. RESPONDENT ad primum argumentum, 
+      di<lb ed="#L" n="60" break="no"/>centes quod non propter hoc oportet ponere fictionem in Deo, 
+      <lb ed="#L" n="61"/>quia sicut est in his quae pertinet ad intellectum, sic in his qua 
+      <lb ed="#L" n="62"/>pertinent ad voluntatem, nunc est ita, quod ad hoc quod signa 
+      <lb ed="#L" n="63"/>intellectus sint vera, non oportet quod sint vera, quantum 
+      a<lb ed="#L" n="64" break="no"/>illa quae principaliter importantur per signa, sed sufficit quod 
+      <lb ed="#L" n="65"/>sint vera, quantum ad illa propter quae dicuntur, sicut est in 
+      <lb ed="#L" n="66"/>omnibus sermonibus parabolicis, vt Iudicum 9. dicitur, quod 
+      <lb ed="#L" n="67"/>ierunt ligna, vt vngerent sibi regem, quod non fuit verum, 
+      quan<lb ed="#L" n="68" break="no"/>tum ad illud quod principaliter significabatur, sed solum quan 
+      <lb ed="#L" n="69"/>tum ad illud, pro quo figuratiue dicebatur (scilicet pro 
+      Abime<lb ed="#L" n="70" break="no"/>lech &amp; viris Sichen) &amp; eodem modo est in parabolis 
+      euangeli<lb ed="#L" n="71" break="no"/>cis (vt quum dicitur de decem virginibus &amp; pluribus aliis) 
+      si<lb ed="#L" n="72" break="no"/>militer in praeceptis quae sunt signa voluntatis, non oporte 
+      <lb ed="#L" n="73"/>quod praecipiens velit illud quod praecipitur, sed sufficit quod velis 
+      <lb ed="#L" n="74"/>illud pro quo praecipitur, &amp; sic fuit in praecepto de immolatio. 
+      <lb ed="#L" n="75"/>ne Isaac, quia Deus noluit quod praecepit (scilicet 
+      immolatio<lb ed="#L" n="76" break="no"/>nem Isaac,) sed volebat illud pro quo praecipiebatur (scilice 
+      <lb ed="#L" n="77"/>quod obedientia Abrahae manifestaretur). 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e261">
+               <lb ed="#L" n="78"/>
+               <!--7--> ALIVS est modus totaliter contrarius, quantum ad 
+      tri<lb ed="#L" n="79" break="no"/>quae ponit prima opinio: ponit enim primo, quod Deus aliquid 
+      <lb ed="#L" n="80"/>praecipit, quod nullo modo vult, nec voluntate antecedente, nec 
+      <!--00272.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>voluntate consequente. Secundo assumit ad probandum 
+      prin<lb ed="#L" n="82" break="no"/>cipale propositum, quod Deus non potest velle voluntate 
+      con<lb ed="#L" n="83" break="no"/>sequente oppositum eius quod vult voluntate antecedente 
+      <lb ed="#L" n="84"/>Tertio dicit quod in sic praecipiendo non est fictio. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e285">
+               <lb ed="#L" n="85"/>
+               <!--8--> Sed contra haec tria quae ponit prima opinio, arguunt isti de 
+      <lb ed="#L" n="86"/>secundo modo. Contra primum quidem, quod est principale 
+      dupli<lb ed="#L" n="87" break="no"/>citer. Primo sic Deus dicitur velle voluntate antecedente omne 
+      <lb ed="#L" n="88"/>illud ad quod aliquem ordinat, sed quicunque praecipit aliquid ali 
+      <lb ed="#L" n="89"/>cui, ipso facto ordinat illum cui praecipit, ad illud quod praecipitur, 
+      <lb ed="#L" n="90"/>ergo ex ipso quod Deus aliquid praecipit, vult illud voluntate 
+      an<lb ed="#L" n="91" break="no"/>tecedente. Secundo sic, constat quod Deus vult voluntate 
+      antece<lb ed="#L" n="92" break="no"/>dente omnes homines saluos fieri, sed impossibile est aliquem 
+      <lb ed="#L" n="93"/>saluum fieri, nisi velit implere quod ei a Deo praecipitur, ergo Deus 
+      <lb ed="#L" n="94"/>vult voluntate antecedente, quod ille cui aliquid praecipitur, 
+      ve<lb ed="#L" n="95" break="no"/>lit facere id quod ei praecipitur, sed quicquid Deus vult nos velle 
+      <lb ed="#L" n="96"/>aliquo modo vult, ergo Deus vult aliquo modo quicquid praecipit. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e317">
+               <lb ed="#L" n="97"/>
+               <!--9--> Contra secundum vero sic, Deus vult voluntate antecedente 
+      <lb ed="#L" n="98"/>omnes homines saluos fieri, vt dicitur I. ad Tim. 2. Sed constat 
+      <lb ed="#L" n="99"/>quod voluntate consequente vult multos non saluari, sed potius 
+      <lb ed="#L" n="100"/>damnari, ergo Deus vult voluntate consequente oppositum eius 
+      <lb ed="#L" n="101"/>quod vult voluntate antecedente, cuius contrarium primi dicunt 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e333">
+               <lb ed="#L" n="102"/>
+               <!--10--> Contra tertium autem, scilicet quod non sit fictio, quando 
+      <lb ed="#L" n="103"/>aliquis praecipit quod non vult arguunt sic, ex eadem maiore 
+      <lb ed="#L" n="104"/>cum primae opinionis assertoribus. Sicut est in signis 
+      intelle<lb ed="#L" n="105" break="no"/>ctus, sic est in praeceptis respectu voluntatis, sed signa 
+      intelle<lb ed="#L" n="106" break="no"/>ctus non sunt vera, nisi sic sit in re, sicut dicitur, quia ab eo g 
+      <lb ed="#L" n="107"/>res est vel non est, dicitur oratio vera vel falsa, ergo similite 
+      <lb ed="#L" n="108"/>praecepta sunt ficta, nisi praecipiens aliquo modo velit illud 
+      <lb ed="#L" n="109"/>quod praecipitur. Quod autem inducitur de illa parabola libri 
+      <lb ed="#L" n="110"/>iudicum, &amp; de consimilibus respondent, quod aliquid 
+      duplici<lb ed="#L" n="111" break="no"/>ter significatur proprie &amp; metaphorice: in parabola ergo illa de 
+      <lb ed="#L" n="112"/>lignis &amp; rhamno verba accipiuntur, non pro eo quod significant 
+      <lb ed="#L" n="113"/>proprie, sed pro eo quod significatur metaphorice, scilicet 
+      ma<lb ed="#L" n="114" break="no"/>los electores, &amp; malum electum, &amp; in hoc sermo verificatur, pro 
+      <lb ed="#L" n="115"/>eo quod dicitur figuratiue, non proprie, quia quod figuratiu 
+      <lb ed="#L" n="116"/>significatur, vel dicitur, non est solum id pro quo dicitur (vt ali 
+      <lb ed="#L" n="117"/>accipiunt) sed est illud quod dicitur. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e372">
+               <lb ed="#L" n="118"/>
+               <!--11--> Ad primam rationem aliorum respondent isti, quod voluntates 
+      <lb ed="#L" n="119"/>quae sunt de oppositis non sunt oppositae, nisi sint simpliciter de 
+      <lb ed="#L" n="120"/>illis: si autem vna sit de vno conditionaliter, alia vero sit de 
+      opposi<lb ed="#L" n="121" break="no"/>to simpliciter, non oportet quod sint contrariae: nunc est ita, quod 
+      vo<lb ed="#L" n="122" break="no"/>luntas antecedens non est simplex voluntas, sed conditionata (vt. 
+      <lb ed="#L" n="123"/>pote quod omnes saluentur intelligendum est si agant ea quae 
+      con<lb ed="#L" n="124" break="no"/>gruunt ordini naturae in finem, voluntas autem consequens est 
+      vo<lb ed="#L" n="125" break="no"/>luntas simpliciter (scilicet quod saluetur iste qui hoc fecit, &amp; 
+      dam<lb ed="#L" n="126" break="no"/>netur ille qui non fecit) quae bene stat cum prima, vt de se patet 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e396">
+               <lb ed="#L" n="127"/>
+               <!--12--> Ad secundum respondent, quod voluntas consequens non 
+      <lb ed="#L" n="128"/>solum est de executione ordinis pertinentis ad voluntatem 
+      an<lb ed="#L" n="129" break="no"/>tecedentem, sed est de omni eo quod iuste euenit, &amp; istud potest 
+      <lb ed="#L" n="130"/>contrariari voluntati antecedenti, quia non solum iuste euenit 
+      <lb ed="#L" n="131"/>quod boni saluentur (quod consonat voluntati antecedenti 
+      <lb ed="#L" n="132"/>sed etiam quod mali damnentur, quod non pertinet ad 
+      execu<lb ed="#L" n="133" break="no"/>tionem ordinis spectantis ad voluntatem antecedentem. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e416">
+               <lb ed="#L" n="134"/>
+               <!--13--> Ad tertium argumentum respondetur, quod hoc solum 
+      pro<lb ed="#L" n="135" break="no"/>bat, quod non est verum vniuersaliter, quod deus possit velle vo 
+      <lb ed="#L" n="136"/>luntate consequente omne oppositum eius quod vult volunta 
+      <lb ed="#L" n="137"/>te antecedente, quia sic sequeretur quod posset velle mala fieri 
+      <lb ed="#L" n="138"/>tamen non probat quin in aliquo casu possit velle voluntate con 
+      <lb ed="#L" n="139"/>sequente, oppositum eius quod vult voluntate antecedente, &amp; si 
+      <lb ed="#L" n="140"/>ex vno concludatur omne, est fallacia consequentis: sequitur 
+      e<lb ed="#L" n="141" break="no"/>nim, istud non potest fieri, ergo non omne, sed non 
+      econuerso<lb ed="#L" n="142" break="no"/>Non enim sequitur, non omne potest fieri, ergo non istud. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e440">
+               <lb ed="#L" n="143"/>
+               <!--14--> Istae sunt opiniones, quarum secunda videtur magis 
+      acce<lb ed="#L" n="144" break="no"/>dere ad veritatem, licet in aliquo deficiat. Ad quod sciendum, 
+      con<lb ed="#L" n="145" break="no"/>siderandum est quod distinctio voluntatis diuinae per antecedem 
+      <lb ed="#L" n="146"/>tem &amp; consequentem non est ex parte ipsius voluntatis, sed potius 
+      <lb ed="#L" n="147"/>ex parte volitorum. Dicitur enim aliquid volitum voluntate 
+      con<lb ed="#L" n="148" break="no"/>sequente quando est volitum in se, ita quod super illud fertur 
+      vo<lb ed="#L" n="149" break="no"/>luntas diuina, sed dicitur volitum voluntate antecedente, quan 
+      <lb ed="#L" n="150"/>do non est volitum in se, ita quod super ipsum feratur voluntas, sed 
+      <lb ed="#L" n="151"/>super suum antecedens, ad quod natum est consequi, licet non 
+      <lb ed="#L" n="152"/>ex necessitate. Sicut quia deus vult simpliciter homini dare tale 
+      <lb ed="#L" n="153"/>naturam (scilicet rationalem) ad quam sequuntur vel natae sunt 
+      <lb ed="#L" n="154"/>consequi tales operationes, per quas potest acquirere 
+      beatitu<lb ed="#L" n="155" break="no"/>dinem, ideo deus volendo antecedens simpliciter dicitur in ipso 
+      <lb ed="#L" n="156"/>antecedente velle caetera quae nata sunt consequi ad illud 
+      an<lb ed="#L" n="157" break="no"/>tecedens secundum conuenientiam, licet non ex necessitate. 
+      Si<lb ed="#L" n="158" break="no"/>militer cum deus praecipit aliquid vel omnibus generaliter, ve 
+      <lb ed="#L" n="159"/>alicui specialiter, vult quidem ipsum praeceptum simpliciter &amp; 
+      <lb ed="#L" n="160"/>in se; &amp; in ipso praecepto, quasi in quodam antecedente, vul 
+      <lb ed="#L" n="161"/>voluntate antecedente quicquid natum est conuenienter sequi 
+      <lb ed="#L" n="162"/>ad praeceptum, licet non semper &amp; ex necessitate sequatur, 
+      <!--00273.xml-->
+      <pb ed="#L" n="104-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quia ergo ad praeceptum Dei sequi debet obedientia hominis 
+      <lb ed="#L" n="2"/>subditi in executione praecepti: ideo Deus praecipiendo 
+      quod<lb ed="#L" n="3" break="no"/>cunque &amp; cuicunque vult voluntate antecedente obedientiam 
+      <lb ed="#L" n="4"/>&amp; executionem rei quae praecipitur, nisi quod distinguendum est 
+      <lb ed="#L" n="5"/>de praecepto, quia aut proponitur vt praeceptum, &amp; sic verum 
+      <lb ed="#L" n="6"/>est quod statim dictum est, aut proponitur vt documentum so 
+      <lb ed="#L" n="7"/>lum, &amp; hoc praecipitur ab eo cui fit praeceptum, &amp; tunc 
+      prae<lb ed="#L" n="8" break="no"/>cipiens non vult aliquo modo rem quae praecipitur, nec in se 
+      <lb ed="#L" n="9"/>nec in suo antecedente, quia non proponitur vt praeceptum, 
+      an<lb ed="#L" n="10" break="no"/>tecedens ad executionem, sed vt documentum ad aliorum instru 
+      <lb ed="#L" n="11"/>ctionem, &amp; tale fuit praeceptum domini, Marci 7. qui postquam 
+      <lb ed="#L" n="12"/>sanauerat surdum &amp; mutum, praecepit ne cui diceret, quanto 
+      <lb ed="#L" n="13"/>autem magis eis praecipiebat, tanto magis praedicabant nec ta 
+      <lb ed="#L" n="14"/>men peccauerunt vt transgfessores praecepti, quia illud 
+      pro<lb ed="#L" n="15" break="no"/>ponebatur magis vt documentum, quam vt praeceptum, vt 
+      p<lb ed="#L" n="16" break="no"/>tet ex glosa Augustini: per hoc enim instruuntur beneficientes, 
+      <lb ed="#L" n="17"/>vt non quaerant gloriam mundi, &amp; beneficiati vt non sint 
+      in<lb ed="#L" n="18" break="no"/>grati, nec tamen est in tali modo loquendi fictio, quia sic 
+      loquen<lb ed="#L" n="19" break="no"/>do figurabat Christus in se, &amp; in illis quibus loquebatur, mem 
+      <lb ed="#L" n="20"/>bra ecclesiae, in quibus debet esse fuga propriae gloriae, quantum 
+      <lb ed="#L" n="21"/>ad benefacientes, &amp; fuga ingratitudinis quantum ad 
+      beneficia<lb ed="#L" n="22" break="no"/>tos, quae duo figurabantur in illo facto, vt dictum est, propter 
+      <lb ed="#L" n="23"/>quod verus est sermo figuratiuo modo: puto etiam quod non 
+      <lb ed="#L" n="24"/>esset falsitas, nec fictio in praeceptis diuinis per modum praecepti 
+      <lb ed="#L" n="25"/>sumptis, dato quod Deus nullo modo vellet voluntate 
+      conse<lb ed="#L" n="26" break="no"/>quente illud quod praecipitur, praeceptum enim non est directe 
+      <lb ed="#L" n="27"/>&amp; semper signum, quod praecipiens velit rem praeceptam 
+      fi<lb ed="#L" n="28" break="no"/>ri, sed solum quod velit subditum obligare, ad faciendum illud 
+      <lb ed="#L" n="29"/>quod praecipitur. Et hoc clarum est in praeceptis diuinis, per 
+      <lb ed="#L" n="30"/>quae Deus vult simpliciter nos obligare, sed non vult 
+      simplici<lb ed="#L" n="31" break="no"/>citer rem praeceptam fieri, alioquin semper fieret. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e563">
+               <lb ed="#L" n="32"/>
+               <!--15--> Similiter in praeceptis humanis. Praelatus enim religiosus, 
+      <lb ed="#L" n="33"/>quandoque praecipit subdito aliquid graue, volens eum per 
+      prae<lb ed="#L" n="34" break="no"/>ceptum ligare, &amp; tamen nec vult, nec intendit, quod res quam 
+      <lb ed="#L" n="35"/>praecipit, fiat. vnde quando subditus parat se ad exequendunm 
+      <lb ed="#L" n="36"/>praeceptum, praelatus reuocat, ita quod praeceptum est directe 
+      <lb ed="#L" n="37"/>signum voluntatis praecipientis, quod velit obligare subditum 
+      <lb ed="#L" n="38"/>ad exequendum praeceptum, sed non est directe signum, quod 
+      <lb ed="#L" n="39"/>velit rem praeceptam impleri: talia enim praecepta sunt vel ad 
+      <lb ed="#L" n="40"/>sumendum experimentum de obedientia subditi, vel ad 
+      osten<lb ed="#L" n="41" break="no"/>dendum pluribus obedientiam vnius, quasi pro exemplo. 
+      </p>
+            <p xml:id="jsnvu6-d1e2252-d1e589">
+               <lb ed="#L" n="42"/>
+               <!--16--> AD PRIMVM argumentum patet solutio ex eo quod 
+      <lb ed="#L" n="43"/>statim dictum est, quod praeceptum non semper indicat voluntatem 
+      <lb ed="#L" n="44"/>praecipientis, quia praecipiens velit rem praeceptam fieri, sed illam 
+      <lb ed="#L" n="45"/>qua praecipiens vult obligare illum cui praecipit ad faciendum 
+      <lb ed="#L" n="46"/>quod praecipitur, &amp; hoc est semper. Vel dicendum ratione 
+      mate<lb ed="#L" n="47" break="no"/>riae, quod Deus nihil praecipit quin velit illud fieri (saltem 
+      volunta<lb ed="#L" n="48" break="no"/>te antecedente.) Ad illud in oppositum per idem, quia 
+      immo<lb ed="#L" n="49" break="no"/>latio Isaac fuit volita voluntate antecedente, non consequente
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

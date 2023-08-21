@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="314-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e258789"><!-- l4d25q1 -->
+            <head xml:id="jsnvu6-e258789-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e258789-Hd1e103" type="question-title">Utrum omnis episcopus possit 
+      conferre ordines</head>
+            <p xml:id="jsnvu6-e258789-d1e106">
+               <lb ed="#L" n="39"/>QVASTIO 
+      <lb ed="#L" n="40"/>Vtrum omnis episcopus possit 
+      con<lb ed="#L" n="41" break="no"/>ferre ordines. 
+    </p>
+            <p xml:id="jsnvu6-e258789-d1e115">
+               <lb ed="#L" n="42"/>CIRCA distinctionem istam primo quaeritur a 
+      <lb ed="#L" n="43"/>Tillis qui possunt ordines conferre. Secundo 
+      de<lb ed="#L" n="44" break="no"/>sl impedimentis quae possunt circa ordines contin 
+      <lb ed="#L" n="45"/>gere. Quantum ad primum quaeritur vtrum om 
+      <lb ed="#L" n="46"/>nis episcopatus possit conferre ordines. Et 
+      argui<lb ed="#L" n="47" break="no"/>tur sic quod non quia agens instrumentale non agit nisi sit cor 
+      <lb ed="#L" n="48"/>iunctum principali agenti, sed minister sacramentorum est 
+      <lb ed="#L" n="49"/>agens instrumentale respectu Christi, qui est institutor eorum, 
+      <lb ed="#L" n="50"/>ergo nullus minister potest conferre sacramenta nisi sit 
+      con<lb ed="#L" n="51" break="no"/>junctus Christo: sed haereticus non consungitur Christo 
+      ne<lb ed="#L" n="52" break="no"/>que per fidem propriam cum sit infidelis, nec per fidem eccle 
+      <lb ed="#L" n="53"/>siae cum fit ab ecclesia praecisus, ergo episcopus si sit haereticus, 
+      <lb ed="#L" n="54"/>&amp; praecisus ab ecclesia non potest ordines conferre. 
+      </p>
+            <p xml:id="jsnvu6-e258789-d1e146">
+               <lb ed="#L" n="55"/>
+               <!--2--> Item plus est promouere aliquem ad ordines quam 
+      absol<lb ed="#L" n="56" break="no"/>uere a peecatis, vel a sententiis iuris, sed episcopum si fit 
+      haereti<lb ed="#L" n="57" break="no"/>cus vel ab ecclesis praecisus non potest aliquem absoluere a 
+      <lb ed="#L" n="58"/>peccatis vel a sententiis, ergo nec ordinare. 
+      </p>
+            <p xml:id="jsnvu6-e258789-d1e160">
+               <lb ed="#L" n="59"/>
+               <!--3--> IN CONTR ARIVM arguitur: quia sacerdos 
+      quan<lb ed="#L" n="60" break="no"/>tuocunque sit haereticus &amp; ab ecclesia praecisus potest 
+      confice<lb ed="#L" n="61" break="no"/>re sacramentum eucharistiae, vt patuit supra dist. 13. ergo 
+      epi<lb ed="#L" n="62" break="no"/>scopus quantumcunque sit haereticus &amp; ab ecclesia praecisus po 
+      <lb ed="#L" n="63"/>test ordines conferre. Probatio consequentiae: quia sicut 
+      conse<lb ed="#L" n="64" break="no"/>cratio sacerdoralis ordinatur ad confectionem sacramenti 
+      eu<lb ed="#L" n="65" break="no"/>charistiae, sic episcopalis ad ordinationem ministrorum ecclesiae 
+      </p>
+            <p xml:id="jsnvu6-e258789-d1e180">
+               <lb ed="#L" n="66"/>
+               <!--4.--> RESPONSIO. Circa quaestionem istam videnda sun 
+      <lb ed="#L" n="67"/>duo. Primum est quod omnis episcopus potest conferre omneis 
+      <lb ed="#L" n="68"/>ordines. Secundum est quod solus episcopus potest eos 
+      conferr<lb ed="#L" n="69" break="no"/>saltem maiores. Primum patet: episcopus enim ex ordine 
+      ep<lb ed="#L" n="70" break="no"/>scopali habet ex officio administrationem omnium sacramentori 
+      <lb ed="#L" n="71"/>in habentibus enim ordinem potessas superior potest 
+      quicqui<lb ed="#L" n="72" break="no"/>inferior &amp; adhuc amplius, cum igitur consecratio episcopalis si 
+      <lb ed="#L" n="73"/>suprema consecratio quae sit in ecclesia, potestas data per eam est 
+      <lb ed="#L" n="74"/>superior respectu omnium aliorum. Et ideo episcopus potest 
+      <lb ed="#L" n="75"/>quicquid possunt omnes inferiores in ministrando sacramenta 
+      <lb ed="#L" n="76"/>&amp; adhuc amplius: plenitudo ergo administrationis sacramen 
+      <lb ed="#L" n="77"/>torum residet apud episcopum. Ex quo sic arguitur, si non omnis 
+      <lb ed="#L" n="78"/>episcopus potest omnes ordines conferre, hoc esset vel propter 
+      <lb ed="#L" n="79"/>demeritum vitae, quia esset malus, vel propter defectum in 
+      fide<lb ed="#L" n="80" break="no"/>quia esset haereticus, vel propter sententiam ecclesiae, quia esse 
+      <!--00701.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>excom nunicatus vel suspensus seu alias praecisus, vel propter 
+      de<lb ed="#L" n="82" break="no"/>positionem ab ordine quia degradatus: sed nullum istorum impedit 
+      <lb ed="#L" n="83"/>quin episcopus posset veros ordines conferre, ergo &amp;c. Minor 
+      <lb ed="#L" n="84"/>probatur. Primo quantum ad duos eius articulos. s.qud 
+      demeri<lb ed="#L" n="85" break="no"/>tum vitae &amp; defectus in fide non impediat quia possit veros 
+      <lb ed="#L" n="86"/>ordines conferre, quia illud quod habet efficaciam ex opere 
+      ope<lb ed="#L" n="87" break="no"/>rato non frustratur ex demerito operantis, dummodo concurtant 
+      <lb ed="#L" n="88"/>ea quae sunt de necessitate operis, sed sacramenrum ordinis 
+      effi<lb ed="#L" n="89" break="no"/>caciam habet ex opere operato, ergo maliria vitae &amp; defectus in 
+      <lb ed="#L" n="90"/>fide personali quae pertinens ad demeritum operantis non 
+      Impe<lb ed="#L" n="91" break="no"/>diunt quin episcopus ex sua consecratione sit ministet omnium 
+      <lb ed="#L" n="92"/>ordinum, ut declaratum est, &amp; possit veros ordines conferre, 
+      dum<lb ed="#L" n="93" break="no"/>modo seruet debitam formam &amp; materiam quae sunt de necessitate 
+      <lb ed="#L" n="94"/>sacramenti. Item ad eliciendum aliquem actum nunquam est 
+      ne<lb ed="#L" n="95" break="no"/>cessatius habitus qui solum ponit modum, sed suficit potenria per 
+      <lb ed="#L" n="96"/>quam quilibet potest in actu, vt sonat nomen potentiae, sed 
+      gra<lb ed="#L" n="97" break="no"/>tia &amp; fides per quam est bona vita sunt quidam habitus, ergo non 
+      <lb ed="#L" n="98"/>requiritur ad hoc vt episcopus possit conferte ordines, sed solum 
+      <lb ed="#L" n="99"/>ad hoc, vt licite &amp; rite conferat. Secundo patet eadem minor 
+      <lb ed="#L" n="100"/>quantum ad alios duos articulos. s.quod episcopus excommunicatus 
+      <lb ed="#L" n="101"/>vel degradatus possit omnes ordines conferre, quia si non posset 
+      <lb ed="#L" n="102"/>hoc edet, vel quia esset priuatus potestate vel executione non 
+      <lb ed="#L" n="103"/>solum iuris sed facti: non potest dici quod sit priuatus potestate, quia 
+      <lb ed="#L" n="104"/>quae dantur per consectationem semper manent manente re 
+      con<lb ed="#L" n="105" break="no"/>secrata, sed potestas conferendi ordines datur episcopo in sua 
+      con<lb ed="#L" n="106" break="no"/>secratione, ergo semper manet nec amitti potest. Item hec 
+      pri<lb ed="#L" n="107" break="no"/>uatur executione facti qa executione facti correspondet potestati, 
+      <lb ed="#L" n="108"/>quia potestas est per quam possumus, executio autem iuris vltra 
+      <lb ed="#L" n="109"/>potestatem requirit licitum vsum. Cum ergo per 
+      excommuni<lb ed="#L" n="110" break="no"/>cationem &amp; degradationem non priuetur episcopus potestate 
+      <lb ed="#L" n="111"/>conferendi ordines, per consequens non priuatur executione 
+      <lb ed="#L" n="112"/>facti quin veros ordines conferate prinatus est tamen executione 
+      <lb ed="#L" n="113"/>iuris, quia illicte confert &amp; ad damnationem sui &amp; illius qui 
+      <lb ed="#L" n="114"/>scienter recipit, &amp; hoc est expresse determinatum in lirera ab 
+      <lb ed="#L" n="115"/>Augustino, vt habetur 1. quaest. 1. cano. quod quidem. 
+      </p>
+            <p xml:id="jsnvu6-e258789-d1e297">
+               <lb ed="#L" n="116"/>
+               <!--5.--> Secundum patet, scilicet quod solus episcopus potest 
+      ordi<lb ed="#L" n="117" break="no"/>nes conferre saltem maiores: quia non minus est in exercitu 
+      <lb ed="#L" n="118"/>duces proponere quam milites adscribere, sed ad solum 
+      episco<lb ed="#L" n="119" break="no"/>pum pertinet in exercitu ecelesiae militantis adscribere 
+      mili<lb ed="#L" n="120" break="no"/>tes per sacramentum confirmationis, vt patuit supra distin. 7. 
+      <lb ed="#L" n="121"/>ergo multo fortius pertinet in ecclesia proponere duces, quod fit 
+      <lb ed="#L" n="122"/>per sacramentum ordinis &amp; praecipue quo ad maiores ordines. 
+      </p>
+            <p xml:id="jsnvu6-e258789-d1e317">
+               <lb ed="#L" n="123"/>
+               <!--6--> Ad primum argumentum dicendum est quod episcopus 
+      <lb ed="#L" n="124"/>quantumcunque malus, haereticus, praecisus, &amp; degradatus 
+      con<lb ed="#L" n="125" break="no"/>iungitur in administratione sacramentorum Christo, vt 
+      prin<lb ed="#L" n="126" break="no"/>cipali agenti ratione potestatis ministralis quam accepit in 
+      <lb ed="#L" n="127"/>consecratione, &amp; ratione fidei ecclesiae si intendat facere quod 
+      <lb ed="#L" n="128"/>facit ecelesia quamuis illud valere non credat 
+      </p>
+            <p xml:id="jsnvu6-e258789-d1e335">
+               <lb ed="#L" n="129"/>
+               <!--7--> Ad secundum dicendum quod non est simile de ordinatione 
+      <lb ed="#L" n="130"/>&amp; de absolutione a peccatis &amp; a sententiis: quia posse aliun 
+      <lb ed="#L" n="131"/>ordinare conuenit episcopo ratione consecrationis episcopalis 
+      <lb ed="#L" n="132"/>quae non amittitur, nec amitti porest per quamcunque culpam 
+      <lb ed="#L" n="133"/>vel sententiam, propter quod episcopus haereticus &amp; ab 
+      eccle<lb ed="#L" n="134" break="no"/>sia praecisus potest alium ordinare, sed absoluere a peccatis &amp; 
+      <lb ed="#L" n="135"/>a lententiis conuenit episcopo ratione curae vel iurisdictionis 
+      <lb ed="#L" n="136"/>quae potest auferri per superiorem: quia vniuersalis cura 
+      eccle<lb ed="#L" n="137" break="no"/>siae &amp; iurisdictio super omnes Christianos commissa fuit soli 
+      <lb ed="#L" n="138"/>Petro pro se &amp; successoribus suis, &amp; ab eis deriuatur in alios 
+      <lb ed="#L" n="139"/>&amp; eis aufertur prout Papa successor Perri ordinat &amp; iudicati 
+      <lb ed="#L" n="140"/>expediens ecclesiae, secundum cuius ordinationem haereticus &amp; 
+      <lb ed="#L" n="141"/>quicunque praecisus ab ecelesia priuatur cura &amp; iurisdictione, 
+      <lb ed="#L" n="142"/>&amp; ideo non potest absoluere a peccatis nec a sententiis. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

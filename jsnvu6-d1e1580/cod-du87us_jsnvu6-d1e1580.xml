@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="74-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1580"><!-- l1d31q3 -->
+            <head xml:id="jsnvu6-d1e1580-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e1580-Hd1e103" type="question-title">Utrum essentialia attributa debeant appropriari aliquibus personis</head>
+            <p xml:id="jsnvu6-d1e1580-d1e106">
+      <!--00214.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="80"/>Vtrum essentialia attributa 
+      debe<lb ed="#L" n="81" break="no"/>propriari diuinis personis. 
+      <lb ed="#L" n="82"/>Tham. 1. q. 39. art. 7. &amp; 8.
+</p>
+            <p xml:id="jsnvu6-d1e1580-d1e122">
+               <lb ed="#L" n="83"/>AD secundum principale sic proceditur. Et 
+      vide<lb ed="#L" n="84" break="no"/>tur quod essentialia attributa non debeant 
+      ap<lb ed="#L" n="85" break="no"/>propriari diuinis personis, quia aeque 
+      commu<lb ed="#L" n="86" break="no"/>nia sunt in diuinis attributa essentialia sicut 
+      es<lb ed="#L" n="87" break="no"/>A sentia, sed essentia nulli appropriatur, ergo nec 
+      <lb ed="#L" n="88"/>essentialia. 
+      </p>
+            <p xml:id="jsnvu6-d1e1580-d1e138">
+               <lb ed="#L" n="89"/>
+               <!--2--> Item prius est proprium, quam appropriatum, quia 
+      appro<lb ed="#L" n="90" break="no"/>priatum dicitur per similitudinem ad proprium, sed propria 
+      per<lb ed="#L" n="91" break="no"/>sonarum non sunt priora essentialibus attributis, imo sunt 
+      se<lb ed="#L" n="92" break="no"/>cundum rationem posteriora, ergo essentialia attributa non 
+      <lb ed="#L" n="93"/>possunt appropriari personis. 
+</p>
+            <p xml:id="jsnvu6-d1e1580-d1e155">
+               <lb ed="#L" n="94"/>IN CONTRARIVM est quod dicit August. &amp; 
+      Hi<lb ed="#L" n="95" break="no"/>larius in littera. 
+      </p>
+            <p xml:id="jsnvu6-d1e1580-d1e162">
+               <lb ed="#L" n="96"/>
+               <!--4--> RESPONSIO. Dicendum est primo quod 
+      appropria<lb ed="#L" n="97" break="no"/>tio in diuinis est possibilis. Secundo quod est vtilis. Tertio 
+      red<lb ed="#L" n="98" break="no"/>detur ratio de appropriationibus diuersis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1580-d1e173">
+               <lb ed="#L" n="99"/>
+               <!--5--> Quod sit possibilis patet, non enim appropriatur nisi 
+      com<lb ed="#L" n="100" break="no"/>mune. Est enim appropriatum de communi, tractum ad proprium. 
+      <lb ed="#L" n="101"/>Item ad omne commune appropriatur cuilibet, sed illud quod 
+      <lb ed="#L" n="102"/>habet aliquam conuenientiam cum proprio propter quod de 
+      <lb ed="#L" n="103"/>communi trahitur ad proprium, licet autem omnia attributa 
+      <lb ed="#L" n="104"/>essentialia sunt communia omnibus personis, tamen quaedam 
+      <lb ed="#L" n="105"/>habent maiorem conuenientiam cum proprio personae quam 
+      <lb ed="#L" n="106"/>alterius propter quod illi personae potest conuenienter 
+      appro<lb ed="#L" n="107" break="no"/>priari, &amp; secundum hoc potentia quae nominat principium 
+      appro<lb ed="#L" n="108" break="no"/>priatur patriqui est primum principium. Sapientia vero quae ad 
+      <lb ed="#L" n="109"/>intellectum pertinet appropriatur filio qui procedit per modum 
+      <lb ed="#L" n="110"/>intellectus, bonitas autem appropriatur spir. sanct. qui procedit 
+      <lb ed="#L" n="111"/>per modum voluntatis, cuius obiectum est bonum, 
+      appropria<lb ed="#L" n="112" break="no"/>tio ergo est possibilis &amp; rationalis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1580-d1e208">
+               <lb ed="#L" n="113"/>
+               <!--6--> Est etiam vtilis, quia per appropriata aliqualiter 
+      manudu<lb ed="#L" n="114" break="no"/>cimur in cognitionem personarum hoc modo. Inuenitur enim 
+      <lb ed="#L" n="115"/>distinctio in attributis, &amp; in personis, sed differenter, quia 
+      di<lb ed="#L" n="116" break="no"/>stinctio personarum est realis, distinctio vero attributorum est 
+      <lb ed="#L" n="117"/>secundum rationem, &amp; est nobis magis nota, &amp; quamuis per 
+      <lb ed="#L" n="118"/>attributa sola ratione distincta non possumus sufficienter 
+      ar<lb ed="#L" n="119" break="no"/>guere distinctionem personarum, tamen inspicimus in appro 
+      <lb ed="#L" n="120"/>priatis aliquam similitudinem propriorum, &amp; sic per appropriata 
+      <lb ed="#L" n="121"/>aliqualiter manuducimur in notitiam personarum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1580-d1e232">
+               <lb ed="#L" n="122"/>
+               <!--7--> QUANTVM ad tertium notandum est quod alia est 
+      ap<lb ed="#L" n="123" break="no"/>propriatio secundum Hil. alia secundum Aug. Hilarius enim 
+      ap<lb ed="#L" n="124" break="no"/>propriat aeternitatem patri, speciem filio, vsum spir. sanct. Ratic 
+      <lb ed="#L" n="125"/>autem huius appropriationis est haec, aeternitas enim quia est 
+      <lb ed="#L" n="126"/>mensura ex sua ratione carens principio appropriatur patri qui 
+      <lb ed="#L" n="127"/>est principium non de principio. Species autem appropriatur filio 
+      <lb ed="#L" n="128"/>quia species quandoque sumitur pro imagine, filius autem ess 
+      <lb ed="#L" n="129"/>imago patris vt prius dictum fuit. Vsus vero appropriatur 
+      spir<lb ed="#L" n="130" break="no"/>san. quia vti large accipiendo est assumere aliquid in facultate 
+      <lb ed="#L" n="131"/>voluntatis. Spi. autem san. procedit per modum voluntatis. ideo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e1580-d1e258">
+               <lb ed="#L" n="132"/>
+               <!--8--> Beatus autem Aug. appropriat vnitatem patri, quia vnitas es 
+      <lb ed="#L" n="133"/>principium numeri, pater autem est principium diuinarum 
+      ori<lb ed="#L" n="134" break="no"/>ginum. Ac aequalitatem autem appropriat filio, quia aequalita 
+      <lb ed="#L" n="135"/>importat vnitatem respectu alterius. Est enim aequale quod 
+      ha<lb ed="#L" n="136" break="no"/>bet vnam quantitatem cum alio, &amp; ideo appropriatur filio qui 
+      <lb ed="#L" n="137"/>est secunda persona in trinitate. Connexio autem importat 
+      vnio<lb ed="#L" n="138" break="no"/>nem duorum per tertium &amp; ideo appropriatur spirit. sanct. qui 
+      <lb ed="#L" n="139"/>procedit a patre &amp; filio vt sunt vnum. 
+</p>
+            <p xml:id="jsnvu6-d1e1580-d1e281">
+               <lb ed="#L" n="140"/>Secundum hunc modum potest sumi illa appropriatio Ro. 11 
+      <lb ed="#L" n="141"/>(Si tamen Apostolus intendit facere ibi aliquam 
+      appropriatio<lb ed="#L" n="142" break="no"/>nem) quoniam ex ipso &amp; per ipsum &amp; in ipso sunt omnia. Haec 
+      <lb ed="#L" n="143"/>enim praepositio ex importat quandoque habitudinem causae 
+      <lb ed="#L" n="144"/>materialis, &amp; sic non habet locum in diuinis, quandoque 
+      habi<lb ed="#L" n="145" break="no"/>tudinem causae efficientis quaequidem conuenit deo in ratione 
+      <lb ed="#L" n="146"/>suae potentiae actiuae, vnde appropriatur patri sicut &amp; potentia 
+      <lb ed="#L" n="147"/>Haec autem praepositio per designat habitudinem formae per 
+      <lb ed="#L" n="148"/>quam agens agit sicut dicimus quod artifex agit per artem. Vnde 
+      <lb ed="#L" n="149"/>sicut ars &amp; sapientia appropriatur filio ita &amp; hoc quod est per 
+      <lb ed="#L" n="150"/>ipsum. Haec vero praepositio in denotat continentia. Continei 
+      <lb ed="#L" n="151"/>autem deus res inquantum sua bonitate eas conseruat &amp; 
+      guber<lb ed="#L" n="152" break="no"/>nat. Et ideo esse in quo appropriatur spir. san. sicut &amp; bonitas 
+      </p>
+            <p xml:id="jsnvu6-d1e1580-d1e312">
+               <lb ed="#L" n="153"/>
+               <!--10--> AD PRIMVM argumentum in oppositum dicendum ess 
+      <lb ed="#L" n="154"/>quod non simile est de essentia &amp; de attributis essentialibus, quia 
+      <lb ed="#L" n="155"/>essentia vt essentia est non habet maiorem conuenientiam cum 
+      <lb ed="#L" n="156"/>proprio vnius personae, quam cum proprio alterius, &amp; idec 
+      <lb ed="#L" n="157"/>non potest appropriari vni personae magis quam alij. Sed 
+      diuer<lb ed="#L" n="158" break="no"/>sa attributa habent maiorem conuenientiam cum proprio 
+      <!--00215.xml-->
+      <pb ed="#L" n="75-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>vnius personae quam cum proprio alterius, vt visum fuit prius 
+      <lb ed="#L" n="2"/>propter quod appropriantur magis vni quam alteri. 
+      </p>
+            <p xml:id="jsnvu6-d1e1580-d1e341">
+               <lb ed="#L" n="3"/>
+               <!--11--> Ad secundum dicendum quod in diuinis nihil est prius aui 
+      <lb ed="#L" n="4"/>posterius secundum rem, sed secundum rationem. &amp; hoc modo 
+      <lb ed="#L" n="5"/>quaedam essentialia sunt priora propriis personarum, sed non 
+      di<lb ed="#L" n="6" break="no"/>cuntur appropriata nisi ratione propriorum, &amp; sic sunt 
+      poste<lb ed="#L" n="7" break="no"/>riora propriis personarum secundum rationem talis nominis, 
+      <lb ed="#L" n="8"/>nec est inconueniens quod aliquid sit prius &amp; posterius altere 
+      <lb ed="#L" n="9"/>secundum rationem quantum ad diuersas considerationes. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

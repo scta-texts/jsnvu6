@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="121-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2603"><!-- l2d5prae -->
+            <head xml:id="jsnvu6-d1e2603-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2603-d1e103">
+      <!--00309.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="78"/>Sententia huius distinctionis quintae in 
+      <lb ed="#L" n="79"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e2603-d1e114">
+               <lb ed="#L" n="80"/>OST haec consideratio adducit inquirere. 
+      Supe<lb ed="#L" n="81" break="no"/>rius determinauit magister de conditione vel 
+      qua<lb ed="#L" n="82" break="no"/>litate angelorum. Hic vero determinat de eorum 
+      <lb ed="#L" n="83"/>conuersione. Et primo facit hoc. Secundo de his 
+      <lb ed="#L" n="84"/>quae ad eorum conuersionem vel auersionem 
+      con<lb ed="#L" n="85" break="no"/>sequentur. Secunda incipit in princip. 8. distinct. praeterea sciri 
+      <lb ed="#L" n="86"/>oportet. Prima in duas. Primo inquirit in generali causam con 
+      <lb ed="#L" n="87"/>uersionis &amp; auersionis. Secundo specialiter causam 
+      conuersio<lb ed="#L" n="88" break="no"/>nis. Secunda ibi, habebant enim omnes lib. arb. Et ista diuiditur 
+      <lb ed="#L" n="89"/>in tres. Primo mouet quaestionem vnam, &amp; istam prosequitur. 
+      <lb ed="#L" n="90"/>Secundo remouet quoddam inconueniens quod insequi posset. 
+      <lb ed="#L" n="91"/>Tertio mouet quandam aliam quaestionem, &amp; determinat. 
+      Se<lb ed="#L" n="92" break="no"/>cunda ibi, ideo a quibusdam dici. Tertia, hic quaeri solet. Haec 
+      <lb ed="#L" n="93"/>est diuisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2603-d1e147">
+               <lb ed="#L" n="94"/>
+               <!--2--> In speciali magister sic procedit, &amp; proponit sic primo,c 
+      <lb ed="#L" n="95"/>propter creationem angelorum quidam fuerunt conuersi, &amp; dec 
+      <lb ed="#L" n="96"/>per charitatem adhaerentes illuminati, alij vero non. Sed Deum 
+      <lb ed="#L" n="97"/>habentes odio excaecati sunt, &amp; eorum a bono auersio ipsos 
+      in<lb ed="#L" n="98" break="no"/>iustos, &amp; aliorum ad bonum conuersio iustos fecit. Postea dicit 
+      <lb ed="#L" n="99"/>quod amborum fuit libertas lib. arb. per quam bonum vel malum 
+      <lb ed="#L" n="100"/>elegerunt. Deinde quaerit vtrum angelis, &amp; ad quid antequam 
+      <lb ed="#L" n="101"/>conuerterentur data sit gratia. Et ostendit quod non indigebant 
+      <lb ed="#L" n="102"/>gratia iustificante, sed gratia eos ab bonum promouente, per quam 
+      <lb ed="#L" n="103"/>gratiam conuersi sunt. Postea dicit quod licet ista in potestate ange 
+      <lb ed="#L" n="104"/>lorum non esset, tamen aliquibus imputatur ad culpam, non quia 
+      <lb ed="#L" n="105"/>conuersi non sunt, sed quia auersi sunt, quia habere eam 
+      potue<lb ed="#L" n="106" break="no"/>rant, &amp; apposita eis fuisset si perstitissent. Item quaerit vtrum 
+      <lb ed="#L" n="107"/>in ipsa confirmatione beati fuerunt angeli, &amp; vtrum 
+      beatitudi<lb ed="#L" n="108" break="no"/>nem per gratiam tunc eis datam meruerunt. Primum istorum 
+      <lb ed="#L" n="109"/>concedit: de secundo tangit duas opiniones: quidam enim 
+      di<lb ed="#L" n="110" break="no"/>cunt ipsos mereri beatitudinem, quam in principio receperunt 
+      <lb ed="#L" n="111"/>per obsequia quae faciunt hominibus. Et hanc opinionem 
+      ma<lb ed="#L" n="112" break="no"/>gister approbat, in his autem consistit tota sententia lectionis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

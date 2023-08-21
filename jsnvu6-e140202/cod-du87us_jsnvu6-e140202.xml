@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="170-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e140202"><!-- l2d39q5 -->
+            <head xml:id="jsnvu6-e140202-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e140202-Hd1e103" type="question-title">Utrum conscientia erronea obliget</head>
+            <p xml:id="jsnvu6-e140202-d1e106">
+               <lb ed="#L" n="8"/>gvli .rio. cvixra. 
+      <lb ed="#L" n="9"/>Vtrum conscientia erronea obliget. 
+      <lb ed="#L" n="10"/>Ttum. I. . 4. 19. ar. 5.&amp; c. d. Traiecta guadl. 2.
+    </p>
+            <p xml:id="jsnvu6-e140202-d1e115">
+               <lb ed="#L" n="11"/>DEINDE quaeritur, vtrum conscientia 
+      erro<lb ed="#L" n="12" break="no"/>nea obliget. Et videtur quod non, quia secundum 
+      <lb ed="#L" n="13"/>Augustinum, praeceptum inferioris potestati: 
+      <lb ed="#L" n="14"/>non obligat, quando contrariatur praecepto 
+      su<lb ed="#L" n="15" break="no"/>perioris potestatis, sicut si proconsul iubeat 
+      ali<lb ed="#L" n="16" break="no"/>quid quod imperator prohibet, sed quandoque conscientia 
+      er<lb ed="#L" n="17" break="no"/>rans praecipit, quod est contra praeceptum superioris (scilicet 
+      <lb ed="#L" n="18"/>Dei) ergo tunc non obligat. 
+    </p>
+            <p xml:id="jsnvu6-e140202-d1e135">
+               <lb ed="#L" n="19"/>a Praeterea omne peccatum mortale opponitur alicui 
+      prae<lb ed="#L" n="20" break="no"/>cepto diuino, est enim peccatum dictum, vel factum, vel 
+      con<lb ed="#L" n="21" break="no"/>cupitum contra legem Dei, sed quod fit contra conscientiam 
+      <lb ed="#L" n="22"/>erroneam non opponitur alicui praecepto diuino, imo fit secun 
+      <lb ed="#L" n="23"/>dum legem Dei, ergo, &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-e140202-d1e149">
+               <lb ed="#L" n="24"/>IN CONTRARIVM arguitur, quia qui facit 
+      <lb ed="#L" n="25"/>illud quod conscientia dictat secundum Deum non esse facien 
+      <lb ed="#L" n="26"/>dum contemnit, sed contemptus est grande peccatum, ergo, &amp;c 
+      <lb ed="#L" n="27"/>Ad idem est quod dicit glosa, Rom. 14. super illud verbo, omne 
+      <lb ed="#L" n="28"/>quod non fit ex fide peccatum est, omne quod fit contra 
+      con<lb ed="#L" n="29" break="no"/>scientiam aedificat ad gehennam. 
+      </p>
+            <p xml:id="jsnvu6-e140202-d1e165">
+               <lb ed="#L" n="30"/>
+               <!--4--> RESPONSIO. Videnda sunt tria. Primum an 
+      <lb ed="#L" n="31"/>conscientia possit errare. Secundum an contra conscientiam 
+      <lb ed="#L" n="32"/>errantem posset aliquis facere. Tertium an conscientia errone. 
+      <lb ed="#L" n="33"/>liget vel obliget. 
+      </p>
+            <p xml:id="jsnvu6-e140202-d1e178">
+               <lb ed="#L" n="34"/>
+               <!--5.--> Quantum ad primum dicendum quod conscientia errare 
+      po<lb ed="#L" n="35" break="no"/>test, cuius ratio est, quia conscientia formatur ex assumptione 
+      <lb ed="#L" n="36"/>alicuius particularis propositionis sub vniuersalibus regulis ope 
+      <lb ed="#L" n="37"/>randorum: propositio autem illa, quae per se assumitur, non ess 
+      <lb ed="#L" n="38"/>per se nota, vt sunt vniuersalia principia agendorum, sed 
+      in<lb ed="#L" n="39" break="no"/>notescit per fidem vel inquisitionem rationis, &amp; ideo circa eam 
+      <lb ed="#L" n="40"/>&amp; circa conscientiam ex eius assumptione formatam contingi 
+      <lb ed="#L" n="41"/>error, vel quia fid ei non assentitur: non enim omnium est fides 
+      <lb ed="#L" n="42"/>vt dicitur 2. Thessal. 3. vel quia ratio conferens &amp; inquirens de 
+      <lb ed="#L" n="43"/>cipitur, quandoque quidem ex inconsideratione eorum quae 
+      <lb ed="#L" n="44"/>consideranda sunt, quandoque vero ex passione abducente iudi 
+      <lb ed="#L" n="45"/>cium rationis. Verbi gratia, lex naturalis tradit vniuersale prin 
+      <lb ed="#L" n="46"/>cipium, circa quod non contingit errare, scilicet quod nihil 
+      illi<lb ed="#L" n="47" break="no"/>citum est faciendum, haereticus autem assumit quod 
+      iuramen<lb ed="#L" n="48" break="no"/>tum est illicitum pro eo quod scriptum est Matth. 5. ego autem 
+      <lb ed="#L" n="49"/>dico vobis non iurare omnino, &amp; ex hoc sequitur conscientia 
+      <lb ed="#L" n="50"/>erronea, scilicet quod nullo modo est iurandum: decipitur 
+      au<lb ed="#L" n="51" break="no"/>tem eo quod non confert illud dictum scripturae ad alia in quibus 
+      <lb ed="#L" n="52"/>conceditur iuramentum tanquam licitum, patet ergo quod 
+      con<lb ed="#L" n="53" break="no"/>scientia errare potest. Item vbi non potest error incidere, fru 
+      <lb ed="#L" n="54"/>stra ponitur vel quaeritur habitus rectificans, sed circa agendi 
+      <lb ed="#L" n="55"/>particularia ponitur habitus acquisitus rectificans, vt 
+      pruden<lb ed="#L" n="56" break="no"/>tia, nec frustra, ergo, &amp;c. Et per idem patet, quod synderesis errari 
+      <lb ed="#L" n="57"/>non potest, respicit enim synderesis vniuersalia principia agen 
+      <lb ed="#L" n="58"/>derum circa quae non contingit mentem errare, sicut neque 
+      cir<lb ed="#L" n="59" break="no"/>ca prima principia in speculabilibus. 
+      </p>
+            <p xml:id="jsnvu6-e140202-d1e239">
+               <lb ed="#L" n="60"/>
+               <!--6.--> Quantum ad secundum videtur quod si conscientia 
+      no<lb ed="#L" n="61" break="no"/>minaret actum, impossibile esset facere contra conscientiam, 
+      <lb ed="#L" n="62"/>&amp; hoc patet primo, si conscientia importet actum voluntatis, 
+      <lb ed="#L" n="63"/>quia impossibile est voluntatem simul &amp; actu ferri in 
+      opposi<lb ed="#L" n="64" break="no"/>ta, sed si conscientia importat actum voluntatis, stante 
+      con<lb ed="#L" n="65" break="no"/>scientia voluntas fertur in illud, de quo habetur conscientia 
+      <lb ed="#L" n="66"/>ergo non potest ferri in oppositum conscientia manente. Idem 
+      <lb ed="#L" n="67"/>videtur, dato quod conscientia nihil importet pertinens ad 
+      vo<lb ed="#L" n="68" break="no"/>luntatem, dummodo pertineat ad intellectum vt actus, quia 
+      <lb ed="#L" n="69"/>voluntas non potest ferri in aliquid, nisi proponatur sub 
+      ra<lb ed="#L" n="70" break="no"/>tione boni, sed stante actuali iudicio de aliquo quod sit 
+      bo<lb ed="#L" n="71" break="no"/>num, impossibile est quod oppositum iudicetur bonum, erge 
+      <lb ed="#L" n="72"/>si conscientia importet actum intellectus practici iudicantis 
+      ali<lb ed="#L" n="73" break="no"/>quid esse bonum impossibile est ea stante voluntatem ferri in 
+      <lb ed="#L" n="74"/>oppositum. Si ergo contingat facere contra conscientiam, 
+      o<lb ed="#L" n="75" break="no"/>portet quod conscientia dicat habitum, &amp; non actum, &amp; 
+      si<lb ed="#L" n="76" break="no"/>contingit facere contra ipsam, secundum enim sententiam Ari 
+      <lb ed="#L" n="77"/>stotelis 7. Ethic. stante consideratione in actu &amp; in particulari 
+      <lb ed="#L" n="78"/>de aliquo agendo, impossibile est quod voluntas feratur in 
+      op<lb ed="#L" n="79" break="no"/>positum. Cum ergo conscientia respiciat particularia agibilia 
+      <!--00407.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>necessarium est si fiat contra ipsam quod non dicatur 
+      conside<lb ed="#L" n="81" break="no"/>ratio secundum actum, sed secundum habitum: tunc enim est 
+      <lb ed="#L" n="82"/>impossibile fieri contra ipsam, habens enim habitum, &amp; non 
+      <lb ed="#L" n="83"/>considerans secundum ipsum potest actu considerare 
+      opposi<lb ed="#L" n="84" break="no"/>tum eius quod dictaret habitus, &amp; per consequens potest velle 
+      <lb ed="#L" n="85"/>oppositum eius ad quod disponit habitus: vnde agens contra 
+      <lb ed="#L" n="86"/>conscientiam rectam vel erroneam agit, sicut prouciens 
+      mer<lb ed="#L" n="87" break="no"/>ces in mare timore periculi, vel sicut incontinens aduenient 
+      <lb ed="#L" n="88"/>passione, vtrobique enim est voluntarium mixtum &amp; cum 
+      quo<lb ed="#L" n="89" break="no"/>dam remorsu. Nullus enim sanae mentis absolute vellet 
+      proii<lb ed="#L" n="90" break="no"/>cere merces in mari, nec incontinens ante passionem vellet 
+      for<lb ed="#L" n="91" break="no"/>nicari, sed potius oppositum, sed adueniente passione timoris 
+      <lb ed="#L" n="92"/>in periculo existens, vult in mare proiicere merces cum 
+      qua<lb ed="#L" n="93" break="no"/>dam displicentia, licet magis placeat, similiter adueniente 
+      ten<lb ed="#L" n="94" break="no"/>tatione incontinens vult fornicari, tamen cum quodam 
+      remor<lb ed="#L" n="95" break="no"/>su, propter rationem quam ante tentationem habuit rectam, 
+      <lb ed="#L" n="96"/>&amp; cuius iudicium aliquo modo remanet saltem virtualiter etiam 
+      <lb ed="#L" n="97"/>praesente passione, licet non simpliciter: tunc enim dictat 
+      rati<lb ed="#L" n="98" break="no"/>errans quod licet fornicatio sit mala (&amp; in hoc est remorsus 
+      <lb ed="#L" n="99"/>tamen est facienda ad euitandum passionis angustiam, &amp; sic fit 
+      <lb ed="#L" n="100"/>contra conscientiam rectam vel erroneam. 
+      </p>
+            <p xml:id="jsnvu6-e140202-d1e337">
+               <lb ed="#L" n="101"/>
+               <!--7.--> CIRCA TERTIVM sciendum quod aliud est 
+      li<lb ed="#L" n="102" break="no"/>gari, aliud obligari, qui enim obligatur debet vel tenetur id fa 
+      <lb ed="#L" n="103"/>cere ad quod obligatur, nec quantum est ex parte sua aliter 
+      ab<lb ed="#L" n="104" break="no"/>soluitur ab obligatione: tale autem non potest esse illicitum 
+      <lb ed="#L" n="105"/>Nullus enim debet facere quod illicitum est fieri, propter quod 
+      <lb ed="#L" n="106"/>nulla obligatio potest esse respectu illiciti, aut liciti, non tamen 
+      <lb ed="#L" n="107"/>debiti: ligari autem dicitur moraliter, qui sic dispositus est cir 
+      <lb ed="#L" n="108"/>ca aliquod agibile, quod non potest licite procedere, proui 
+      <lb ed="#L" n="109"/>exigit natura illius agibilis, ad modum illius qui ligatur corpo 
+      <lb ed="#L" n="110"/>raliter, nec potest procedere etiam in recta &amp; plana via. 
+      Di<lb ed="#L" n="111" break="no"/>cendum ergo quod conscientia erronea neminem obligat, 
+      ta<lb ed="#L" n="112" break="no"/>men ligat. Primum patet, primo, quia obligatio non est de illi 
+      <lb ed="#L" n="113"/>cito, a ut non debito, vt dictum est. Conscientia autem 
+      erro<lb ed="#L" n="114" break="no"/>nea dictat faciendum quod illicitum est fieri, aut non debitum, 
+      <lb ed="#L" n="115"/>sicut est in indifferentibus, &amp; in his quae sunt 
+      supererogatio<lb ed="#L" n="116" break="no"/>nis, ergo non obligat. Secundo, quia sola vera notitia de re 
+      <lb ed="#L" n="117"/>obligationem non tollit, sed magis confirmat, sed vera 
+      noti<lb ed="#L" n="118" break="no"/>tia de: eo quod erronea conscientia dictat tollit obligationem, 
+      <lb ed="#L" n="119"/>ergo obligatio nulla fuit. 
+      </p>
+            <p xml:id="jsnvu6-e140202-d1e383">
+               <lb ed="#L" n="120"/>
+               <!--8--> Secundum patet, scilicet quod conscientia erronea ligat 
+      <lb ed="#L" n="121"/>nisi quod primo distinguendum est de errore conscientiae, quia 
+      <lb ed="#L" n="122"/>aut e st error imputabilis, cuius ipse errans est causa vel occasio, 
+      <lb ed="#L" n="123"/>aut non est imputabilis, sicut error vel ignorantia 
+      circunstan<lb ed="#L" n="124" break="no"/>tiae particularis adhibita debita diligentia, qualis fuit in Iacol 
+      <lb ed="#L" n="125"/>respectu Lyae. Si non fit imputabilis non ligat quin homo 
+      pos<lb ed="#L" n="126" break="no"/>sit procedere secundum conscientiam sic errantem, quia 
+      tali<lb ed="#L" n="127" break="no"/>error excusat, vt visum fuit suprâ, nec conclusio rationis cui 
+      <lb ed="#L" n="128"/>confirmatur electio voluntatis est erronea, sicut declaratum 
+      <lb ed="#L" n="129"/>fuit supra. Si autem error sit imputabilis, tunc distinguendum. 
+      <lb ed="#L" n="130"/>est de errore conscientiae, vel quia conscientia errat dicende 
+      <lb ed="#L" n="131"/>illud esse illicitum. Sicut conscientia haeretici dicit, quod sem 
+      <lb ed="#L" n="132"/>per est illicitum iurare, vel conscientia errat dicendo illud ess 
+      <lb ed="#L" n="133"/>licitum, quod est illicitum, sicut si aliquis crederet, quod 
+      lici<lb ed="#L" n="134" break="no"/>tum est furari malis diuitibus, vt detur bonis pauperibus. In 
+      <lb ed="#L" n="135"/>primo casu faciens contra conscientiam erroneam peccat 
+      <lb ed="#L" n="136"/>quia cum voluntas non tendat, nisi in illud quod ostensum es 
+      <lb ed="#L" n="137"/>ipsi per rationem, &amp; ratio erronea haeretici dicit quod iurare 
+      <lb ed="#L" n="138"/>est illicitum, &amp; contra diuinum praeceptum, si haereticus iura 
+      <lb ed="#L" n="139"/>timore mortis, vel alio quocunque modo facit contra illud quod 
+      <lb ed="#L" n="140"/>credit diuino praecepto esse prohibitum, &amp; sic est contempto 
+      <lb ed="#L" n="141"/>praecepti diuini, non quidem in iuramento secundum se, sec 
+      <lb ed="#L" n="142"/>quia apprehensum tanquam contrarium diuino praecepto, &amp; 
+      <lb ed="#L" n="143"/>ideo peccat mortaliter: faciens autem secundum conscientiam 
+      <lb ed="#L" n="144"/>talem erroneam, hoc est, nolendo iurare, non peccat semper 
+      <lb ed="#L" n="145"/>quia licitum est non iurare. 
+      </p>
+            <p xml:id="jsnvu6-e140202-d1e445">
+               <lb ed="#L" n="146"/>
+               <!--9--> Sed si superueniat praeceptum superioris imponentis 
+      haereti<lb ed="#L" n="147" break="no"/>co quod iuret, &amp; ipse nolit iurare, peccat mortaliter, tanquam 
+      in<lb ed="#L" n="148" break="no"/>obediens illi cui obedire tenetur, &amp; in tali casu conscientia 
+      er<lb ed="#L" n="149" break="no"/>ronea simpliciter ligat, quia nec secundum eam, nec contra eam 
+      <lb ed="#L" n="150"/>potest talis licite facere. In secundo autem casu semper peccat, 
+      <lb ed="#L" n="151"/>faciens secundum conscientiam erroneam, ex quo illud quod ipsa 
+      <lb ed="#L" n="152"/>dictat faciendum, est illicitum secundum se; sed faciens contra 
+      <lb ed="#L" n="153"/>eam non peccat si ipsa solum dictat illud quod est illicitum esse 
+      lici<lb ed="#L" n="154" break="no"/>tum, quia a licitis potest absque peccato abstineri, sed si ipsa 
+      di<lb ed="#L" n="155" break="no"/>ctet non solum esse licitum, sed debitum, puta quod debitum es 
+      <lb ed="#L" n="156"/>furari a diuitibus, vt detur pauperibus, vel quod debitum est 
+      men<lb ed="#L" n="157" break="no"/>tiri, pro saluanda vita alterius, tunc faciens contra eam peccat 
+      <lb ed="#L" n="158"/>illo genere peccati, quo apprehendit illud esse debitum fieri 
+      <lb ed="#L" n="159"/>non propter omissionem secundum se, sed quia actus qui 
+      omit<lb ed="#L" n="160" break="no"/>titur apprehensus est tanquam debitus fieri. Sed potest quaeri 
+      <lb ed="#L" n="161"/>vtrum plus peccat sequens conscientiam erroneam, vel facies 
+      <!--00408.xml-->
+      <pb ed="#L" n="170-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>contra ipsam. Et dicendum quod hoc non potest vno sermon 
+      <lb ed="#L" n="2"/>declarari, sed considerandum est qualiter est illicitum id quod 
+      <lb ed="#L" n="3"/>conscientia erronea dictat esse faciendum, quia quandoque es 
+      <lb ed="#L" n="4"/>illicitum vt peccatum veniale (sicut quando conscientia dicit 
+      ess<lb ed="#L" n="5" break="no"/>mentiendum propter vitam innocentis saluandam) quandoque 
+      <lb ed="#L" n="6"/>vero vt mortale, sicut quando quis credit esse furandum malis 
+      <lb ed="#L" n="7"/>diuitibus vt detur bonis pauperibus. Ex parte autem 
+      conscien<lb ed="#L" n="8" break="no"/>tiae erroneae considerandum est quid ipsa dictet, quia quando 
+      <lb ed="#L" n="9"/>que dictat aliquid faciendum tanquam ex praecepto, vtpote quod 
+      <lb ed="#L" n="10"/>non mentiens propter vitam alterius saluandam reus est 
+      homi<lb ed="#L" n="11" break="no"/>cidij, quandoque vero dicit aliquid esse faciendum vt opus 
+      mi<lb ed="#L" n="12" break="no"/>sericordiae solum, vtpote quod furans vt det pauperibus est 
+      mi<lb ed="#L" n="13" break="no"/>sericors, &amp; in primo casu sequens conscientiam erroneam 
+      pec<lb ed="#L" n="14" break="no"/>cat solum venialiter, sed faciens contra ipsam peccat mortali 
+      <lb ed="#L" n="15"/>ter. In secundo autem econuersu. Si autem aliquid ex praecepte 
+      <lb ed="#L" n="16"/>sit faciendum vel dimittendum conscientia autem dictet oppo 
+      <lb ed="#L" n="17"/>situm tanquam cadens sub praecepto comparandum est praece 
+      <lb ed="#L" n="18"/>ptum praecepto, &amp; secundum hoc iudicandum. Verbi gratia s 
+      <lb ed="#L" n="19"/>mulier errante conscientia credat quod licitum sit ei moechar 
+      <lb ed="#L" n="20"/>vt saluet suam vel viri vitam, alioquin rea est homicidij; plu 
+      <lb ed="#L" n="21"/>peccat exponendo se vel virum morti quam moechando, 
+      qui<lb ed="#L" n="22" break="no"/>majus est non occides quam non moechaberis, simili modo 
+      iu<lb ed="#L" n="23" break="no"/>dicandum est in omnibus aliis lo I 
+      </p>
+            <p xml:id="jsnvu6-e140202-d1e541">
+               <lb ed="#L" n="24"/>
+               <!--10.--> AD PRIMVM: argumentum dicendum quod prae 
+      <lb ed="#L" n="25"/>ceptum inferiori non obligat contra praeceptum superioris, 
+      <lb ed="#L" n="26"/>quando quis scit vel tenetur scire praeceptum superioris, &amp; idec 
+      <lb ed="#L" n="27"/>conscientia errans errore imputabili non obligat contra 
+      diui<lb ed="#L" n="28" break="no"/>num praeceptum ligat tamen modo quo dictum est. Sed 
+      quan<lb ed="#L" n="29" break="no"/>do praeceptum inferioris nescitur esse contra praeceptum 
+      supe<lb ed="#L" n="30" break="no"/>rioris, nec ignor antia talis imputatur, tunc praeceptum 
+      inferio<lb ed="#L" n="31" break="no"/>ris ligat. Et hoc modo conscientia erronea errore non 
+      impu<lb ed="#L" n="32" break="no"/>tabili ligat sicut dicitur fuisse de locob cum Lya, nec tamen 
+      <lb ed="#L" n="33"/>ipsa ligat secundum se, sed ratione diuini praecepti sub quo 
+      ali<lb ed="#L" n="34" break="no"/>quid appraehendit. 
+      </p>
+            <p xml:id="jsnvu6-e140202-d1e570">
+               <lb ed="#L" n="35"/>
+               <!--11--> Ad secundum dicendum quod illud quod fit contra con 
+      <lb ed="#L" n="36"/>scientiam erroneam opponitur alicui praecepto diuino non quo 
+      <lb ed="#L" n="37"/>ad factum, sed quo ad animum facientis qui appraehendit illud 
+      <lb ed="#L" n="38"/>quod conscientia dictat sub ratione alicuius praecepti diuini. 
+      </p>
+            <p xml:id="jsnvu6-e140202-d1e583">
+               <lb ed="#L" n="39"/>
+               <!--12--> ARGVMENTA in oppositum solum probant quod 
+      <lb ed="#L" n="40"/>conscientia erronea ligat sic quod faciens contra ipsam peccat 
+      <lb ed="#L" n="41"/>quod concedimus. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

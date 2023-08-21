@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="58-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1240"><!-- l1d21prae -->
+            <head xml:id="jsnvu6-d1e1240-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1240-d1e103">
+               <lb ed="#L" n="75"/>DISTINCTIO XXI. 
+      <lb ed="#L" n="76"/>Sententia huius distinctionis in 
+      ge<lb ed="#L" n="77" break="no"/>nerali &amp; speciali. 
+      <!--00181.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="78"/>Ic oritur quaestio. Superius ostendit magister 
+      <lb ed="#L" n="79"/>aequalitatem diuinarum personarum. Et quia 
+      vi<lb ed="#L" n="80" break="no"/>sus fuit quibusdam locutionibus, in quibus 
+      dictio<lb ed="#L" n="81" break="no"/>lines exclusiuae terminis personalibus adduntur, 
+      <lb ed="#L" n="82"/>al vt cum arguitur solus pater habet tantum de 
+      po<lb ed="#L" n="83" break="no"/>tentia, quantum omnes tres personae simul, &amp; similia. Hic 
+      in<lb ed="#L" n="84" break="no"/>quirit de veritate huius locutionis, qualiter, scilicet 
+      huiusmo<lb ed="#L" n="85" break="no"/>di dictiones exclusiuae nominibus diuinis possunt adiungi. Et 
+      <lb ed="#L" n="86"/>diuiditur in tres partes, secundum tres quas mouet. 
+      Secun<lb ed="#L" n="87" break="no"/>da ibi, Post haec autem quaeritur. Tertia ibi, sed iterum 
+      argui<lb ed="#L" n="88" break="no"/>tur. Cuilibet quaestioni adiungit suam solutionem. Haec est 
+      di<lb ed="#L" n="89" break="no"/>uisio &amp; sententia in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e1240-d1e142">
+               <lb ed="#L" n="90"/>
+               <!--2--> In speciali vero sic procedit. Et quaerit primo cum fuerit 
+      <lb ed="#L" n="91"/>dictum quod tantum est solus pater vel filius solus, vel 
+      spiri<lb ed="#L" n="92" break="no"/>tussanctus, quantum sunt illae tres personae, pater, filius, 
+      spi<lb ed="#L" n="93" break="no"/>ritussanctus, quomodo est intelligendum cum dicitur solus pa 
+      <lb ed="#L" n="94"/>ter &amp; solus filius, cum nunquam sit pater sine filio, nec filius 
+      <lb ed="#L" n="95"/>sine patre, &amp; respondet dicens quod per hoc non excluditur 
+      <lb ed="#L" n="96"/>vna persona ab alia, sed quia proprie relationes ita 
+      conue<lb ed="#L" n="97" break="no"/>niunt vni quod non alteri: vnde sensus est, solus pater qui ita 
+      <lb ed="#L" n="98"/>est pater quod nullus alius est pater in diuinis. Similiter 
+      so<lb ed="#L" n="99" break="no"/>lus filius qui ita est filius quod nulli alij conuenit filiatio 
+      diui<lb ed="#L" n="100" break="no"/>na. Postea quaerit vtrum ista sit vera solus pater vel solus 
+      fi<lb ed="#L" n="101" break="no"/>lius est deus. Et dicit quod non sunt concedendae propter hoc 
+      <lb ed="#L" n="102"/>quod aliae personae sunt exclusae a diuinitate, nec ista est 
+      con<lb ed="#L" n="103" break="no"/>cedenda, pater &amp; filius est solus deus, quia esse solum deum 
+      <lb ed="#L" n="104"/>trinitati conuenit, &amp; non vni tantum personae. Postea 
+      quae<lb ed="#L" n="105" break="no"/>rit quomodo dicatur solus deus est trinitas ipsa cum habeat 
+      <lb ed="#L" n="106"/>consortia Angelorum &amp; sanctarum animarum. Et respondet 
+      <lb ed="#L" n="107"/>quod ideo potest dici solus deus, quod nulli conuenit alij esse 
+      <lb ed="#L" n="108"/>deum: addit etiam quod tanta est cohaerentia diuinarum 
+      per<lb ed="#L" n="109" break="no"/>sonarum, quod vna sola nominata non excluduntur reliquae. 
+      <lb ed="#L" n="110"/>Haec est sententia lectionis in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

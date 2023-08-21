@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="286-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e235837"><!-- l4d15q3 -->
+            <head xml:id="jsnvu6-e235837-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-e235837-Hd1e103" type="question-title">
+      Utrum bona opera facta extra charitatem 
+      sint alicuius boni temporalis 
+      meritoria
+    </head>
+            <p xml:id="jsnvu6-e235837-d1e106">
+               <lb ed="#L" n="151"/>LQYAESTIO TERTIA. 
+      <lb ed="#L" n="152"/>Vtrum bona opera facta extra charitatem 
+      <lb ed="#L" n="153"/>sint alicuius boni temporalis 
+      <lb ed="#L" n="154"/>meritoria. 
+      <lb ed="#L" n="155"/>CATho 3. q. 89. ar. 6. ad tertium.
+    </p>
+            <p xml:id="jsnvu6-e235837-d1e119">
+               <lb ed="#L" n="156"/>EITId quaeritur vtrum ompera bona facta extra 
+      <lb ed="#L" n="157"/>charitatem sint boni alicuius temporalis 
+      merito<lb ed="#L" n="158" break="no"/>ria. Et videtur quod sic, quia sicut se habet poena ac 
+      <lb ed="#L" n="159"/>factum malum, ita praemium ad bonum: sed nullum 
+      <lb ed="#L" n="160"/>malum remanet impunitum a Deo, ergo nullum bo 
+      <lb ed="#L" n="161"/>per non remuneretur ab ipso, &amp; sic quodlibet bonum 
+      me<lb ed="#L" n="162" break="no"/>ur aliquod praemium saltem temporalo. 
+  </p>
+            <p xml:id="jsnvu6-e235837-d1e137">
+      <!--00646.xml-->
+               <pb ed="#L" n="286-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>2 Item magis es facere bonum quam dimittere malum; sed 
+      <lb ed="#L" n="2"/>dimittere malum semper vitat poenam etiam in eo qui 
+      charita<lb ed="#L" n="3" break="no"/>te caret, ergo facere bonum praeter vitationem poenae meretur 
+      <lb ed="#L" n="4"/>aliquod praemium. 
+      </p>
+            <p xml:id="jsnvu6-e235837-d1e156">
+               <lb ed="#L" n="5"/>
+               <!--3--> IN CONTRARIVM est quod dicit Augustin. quod 
+      <lb ed="#L" n="6"/>peccator non est dignus pane quo vescitur, sed illud est 
+      neces<lb ed="#L" n="7" break="no"/>sarium &amp; minimum, ergo cum hoc non mereatur, non meretur 
+      <lb ed="#L" n="8"/>aliquid aliud, nec adeptionem boni, nec vitationem mali. 
+      Con<lb ed="#L" n="9" break="no"/>sequentia de se patet. 
+      </p>
+            <p xml:id="jsnvu6-e235837-d1e172">
+               <lb ed="#L" n="10"/>
+               <!--4--> RESPONSIO. Circa quaestionem istam notandum est 
+      <lb ed="#L" n="11"/>quod cum meritum proprie dicatur actio per quam efficitur ei 
+      <lb ed="#L" n="12"/>qui agit aliquid debitum dari, sicut est duplex debitum ita est 
+      du<lb ed="#L" n="13" break="no"/>plex meritum. Quoddam enim est debitum de condigno, quod 
+      <lb ed="#L" n="14"/>est debitum simpliciter. Quando ex natura operis iustum est 
+      <lb ed="#L" n="15"/>quodtalis merces reddatur operanti propter aequalitatem quae 
+      <lb ed="#L" n="16"/>est inter opus &amp; mercedem, &amp; si non reddit iniustus est, &amp; istud 
+      me<lb ed="#L" n="17" break="no"/>ritum non est inter hominem &amp; Deum, vt declaratum est libr. 
+      <lb ed="#L" n="18"/>2. Aliud est debitum de congruo cui non debetur talis merces ex 
+      <lb ed="#L" n="19"/>natura operis, sed ex liberalitate dantis: aliqui enim licet 
+      libera<lb ed="#L" n="20" break="no"/>lem dare quod alius non meruit ex condigno recipere. meri 
+      <lb ed="#L" n="21"/>tum ergo de condigno respicit debitum primo modo dictum, 
+      <lb ed="#L" n="22"/>meritum autem de congruo respicit meritum secundo modo 
+      <lb ed="#L" n="23"/>dictum. 
+      </p>
+            <p xml:id="jsnvu6-e235837-d1e207">
+               <lb ed="#L" n="24"/>
+               <!--5--> Hoc supposito dicendum est quod praedicta quaestio vel 
+      in<lb ed="#L" n="25" break="no"/>telligitur de merito hominis ad hominem, vel de merito 
+      homi<lb ed="#L" n="26" break="no"/>nis ad Deum. Si intelligitur de merito hominis ad hominem 
+      <lb ed="#L" n="27"/>sic dicendum, quod per opera bona extra charitatem facta vnus 
+      <lb ed="#L" n="28"/>homo potest apud alium mereri mercedem temporalem, sicut 
+      <lb ed="#L" n="29"/>homo peccator colens agrum alterius meretur ex condigno 
+      iu<lb ed="#L" n="30" break="no"/>stum pretium inter eos condictum, nec de hoc est 
+      dubitatio<lb ed="#L" n="31" break="no"/>dignus est enim operarius mercede sua. Si autem intelligatur de 
+      <lb ed="#L" n="32"/>merito hominis ad Deum, aut intelligitur de merito stricte &amp; 
+      <lb ed="#L" n="33"/>proprie sumpto, &amp; sic nullus homo potest aliquid mereri apud 
+      <lb ed="#L" n="34"/>Deum, vt dictum est: quia non potest aliquis per quodcunque 
+      <lb ed="#L" n="35"/>opus suum reddere Deum debitorem, ita vt si Deus non reddat 
+      <lb ed="#L" n="36"/>fiat iniustus: hoc enim esset blasphemum. 
+      </p>
+            <p xml:id="jsnvu6-e235837-d1e240">
+               <lb ed="#L" n="37"/>
+               <!--6--> Sed contra hoc arguunt quidam, quia peccans mortalite 
+      <lb ed="#L" n="38"/>meretur ex condigno poenam, &amp; tamen Deus non est debitor 
+      <lb ed="#L" n="39"/>infligendi talem poenam, ita vt sit iniustus si eam non infligat 
+      <lb ed="#L" n="40"/>ergo similiter in bonis potest esse meritum de condigno 
+      pro<lb ed="#L" n="41" break="no"/>pie &amp; stricte sumpto, &amp; tamen Deus non erit debitor 
+      redden<lb ed="#L" n="42" break="no"/>di praemium pro tali merito, nec erit iniustus si non reddat. Et 
+      <lb ed="#L" n="43"/>ad hoc dicendum est quod non est simile in bonis &amp; malis, quia 
+      <lb ed="#L" n="44"/>in bonis si merenti ex condigno non redditur praemium 
+      sub<lb ed="#L" n="45" break="no"/>trahitur ei bonum quod est ipsi debitum, &amp; ita sit ei iniuria nisi 
+      <lb ed="#L" n="46"/>hoc procederet de voluntate sua, quia nullus patitur iniustum 
+      <lb ed="#L" n="47"/>volens: sed si peccanti non infligitur poena quam meruit non 
+      <lb ed="#L" n="48"/>fit ipsi iniuria, sed gratia: quia poena vt poena est, rationem 
+      <lb ed="#L" n="49"/>mali habet quo quilibet libenter caret, &amp; ideo in bonis mereni 
+      <lb ed="#L" n="50"/>ex condigno reddendum est praemium ex debito, &amp; ille ac 
+      <lb ed="#L" n="51"/>quem pertinet reddere iniustus est si non reddat: in malis vero 
+      <lb ed="#L" n="52"/>si non reddatur poena pro culpa non fit peccanti iniuria sed mi 
+      <lb ed="#L" n="53"/>sericordia. Aliud est meritum de condigno non quidem 
+      strict<lb ed="#L" n="54" break="no"/>&amp; proprie sumpto, sed large pro quadam dignitate quam 
+      Deui<lb ed="#L" n="55" break="no"/>ex sua ordinatione requirit in nobis ad hoc, vt opera nostra 
+      ac<lb ed="#L" n="56" break="no"/>ceptentur ab ipso tanquam remunerabilia vita aeterna. Et 
+      hae<lb ed="#L" n="57" break="no"/>dignitas est per gratiam vel charitatem, &amp; isto modo peccato 
+      <lb ed="#L" n="58"/>qui caret gratia non meretur ex condigno aliquid apud Deum 
+      <lb ed="#L" n="59"/>nec bonum spirituale, nec temporale. Restat ergo quod si 
+      pec<lb ed="#L" n="60" break="no"/>cator per bona opera extra charitatem facta aliquid mereatur 
+      <lb ed="#L" n="61"/>apud Deum, quod hoc sit solum de congruo, quia diuinam 
+      <lb ed="#L" n="62"/>bonitatem decet, vt bene vtenti naturalibus conferat ea quae 
+      <lb ed="#L" n="63"/>ordinantur ad sustentationem naturae, &amp; vbi inuenit 
+      disposi<lb ed="#L" n="64" break="no"/>"tionem adiiciat perfectionem: peccator autem faciendo opera 
+      <lb ed="#L" n="65"/>bona bene vtitur naturalibus, ipsa etiam opera bona sunt 
+      quae<lb ed="#L" n="66" break="no"/>dam bonae dispositiones ad gratiam, &amp; ideo decet bonitatem 
+      <lb ed="#L" n="67"/>diuinam, vt pro talibus operibus conferat bona temporalia quae 
+      <lb ed="#L" n="68"/>ordinantur ad sustentationem naturae, vel quod immittat 
+      <lb ed="#L" n="69"/>aliquam motionem seu inspirationem per quam propinquius 
+      <lb ed="#L" n="70"/>disponatur ad gratiam, &amp; sic talia opera valent ad duo, 
+      vide<lb ed="#L" n="71" break="no"/>licet ad temporalium consecutionem &amp; ad disponendum ad 
+      <lb ed="#L" n="72"/>gratiam. 
+      </p>
+            <p xml:id="jsnvu6-e235837-d1e323">
+               <lb ed="#L" n="73"/>
+               <!--7--> AD PRTMVM argumentum dicendum quod non esi 
+      <lb ed="#L" n="74"/>simile de bono actu &amp; malo, quia omnis actus noster bonus, est 
+      <lb ed="#L" n="75"/>Deo debitus, sic vt ipsum possit exigere. Et ideo non potest esse 
+      <lb ed="#L" n="76"/>de condigno meritorius alterius boni. actus autem noster malus 
+      <lb ed="#L" n="77"/>tanto est amplius contra iustitiam quanto ab eo plura bona 
+      re<lb ed="#L" n="78" break="no"/>cepimus, &amp; ideo ex condigno meretur poenam. 
+      </p>
+            <p xml:id="jsnvu6-e235837-d1e341">
+               <lb ed="#L" n="79"/>
+               <!--8--> Ad secundum dicendum quod facere bonum non solum 
+      vi<lb ed="#L" n="80" break="no"/>tat poenam, sed meretur mercedem non de condigno, sed de 
+      con<lb ed="#L" n="81" break="no"/>gruo, quia merces congrue potest ei auferri propter 
+      ingratitu<lb ed="#L" n="82" break="no"/>dinem sequentis peccat.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

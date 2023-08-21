@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="161-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3854"><!-- l2d34prae -->
+            <head xml:id="jsnvu6-d1e3854-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3854-d1e103">
+               <lb ed="#L" n="114"/>Sententia huius distinctionis 
+      trigesimaequar<lb ed="#L" n="115" break="no"/>tae in generali &amp; speculi. 
+</p>
+            <p xml:id="jsnvu6-d1e3854-d1e110">
+               <lb ed="#L" n="116"/>POST praedicta de peccato actuali. Superius 
+      de<lb ed="#L" n="117" break="no"/>terminauit magister de peccato originali. Hic 
+      <lb ed="#L" n="118"/>determinat de peccato actuali. Et diuiditur in 
+      <lb ed="#L" n="119"/>partes duas. Primo determinat de peccati 
+      causa<lb ed="#L" n="120" break="no"/>litate. Secundo de eius quidditate. Secunda in 
+      prin<lb ed="#L" n="121" break="no"/>cipio 35. distin. ibi, post haec videndum est quid sit peccatum. 
+      Pri<lb ed="#L" n="122" break="no"/>ma pars diuiditur in tres. Primo proponit intentum. Secundo 
+      <lb ed="#L" n="123"/>prosequitur. Tertio recapitulat excludendo quandam 
+      dubita<lb ed="#L" n="124" break="no"/>tionem. Secunda ibi, causa &amp; origo peccati. Tertia ibi, ex his 
+      ap<lb ed="#L" n="125" break="no"/>paret. Secunda diuiditur in tres. Primo inquirit causam 
+      efficien<lb ed="#L" n="126" break="no"/>tem tam remotam quam propinquam. Secundo causam 
+      mate<lb ed="#L" n="127" break="no"/>rialem siue subiectum. Tertio ex hoc concludit quasdam 
+      con<lb ed="#L" n="128" break="no"/>clusiones. Secunda ibi, ostensa origine. Tertia ibi, ex quo 
+      colli<lb ed="#L" n="129" break="no"/>gitur. Haec est diuisio &amp; sententia lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3854-d1e143">
+               <lb ed="#L" n="130"/>
+               <!--2--> IN SPECIALI sic procedit magister. Et proponit 
+      <lb ed="#L" n="131"/>primo uo intendit determinare de causa &amp; origine peccati, tam 
+      <lb ed="#L" n="132"/>efficiente, quam materiali, &amp; de eius quidditate &amp; diuisione. 
+      <lb ed="#L" n="133"/>Postea dicit quod causa &amp; origo peccati non fuit mala sed bona 
+      <lb ed="#L" n="134"/>quod ante primum malum non erat aliud malum, sed bonum 
+      <lb ed="#L" n="135"/>solum. Vnde quamuis mala voluntas sit causa &amp; origo aliquorum 
+      <lb ed="#L" n="136"/>malorum sequentium, tamen primam malam voluntatem non 
+      <lb ed="#L" n="137"/>praecessit aliud malum, fuit ergo hic ordo quod natura bona 
+      ho<lb ed="#L" n="138" break="no"/>minis, vel angeli fuit causa voluntatis malae, &amp; mala voluntas fuit 
+      <lb ed="#L" n="139"/>causa sequentium malorum. Postea dicit quod subiectum mali 
+      <lb ed="#L" n="140"/>non est nisi res bona, quia malum est priuatio boni, vbi autem 
+      <lb ed="#L" n="141"/>non est bonum non potest esse priuatio boni, sicut enim morbi 8 
+      <lb ed="#L" n="142"/>vulnera requirunt corpus in quo sint sicut in subiecto quod ess 
+      <lb ed="#L" n="143"/>res bona, sic peccata sunt in re bona tanquam in subiecto. Ex hoc 
+      <lb ed="#L" n="144"/>concludit quod cum dicitur homo malus idem est ac si dicere 
+      <lb ed="#L" n="145"/>tur bonum malum. Et dicit quod hic fallit regula Diale. qui 
+      di<lb ed="#L" n="146" break="no"/>cunt quod contraria non sunt simul, malum autem &amp; bonum sunt 
+      <lb ed="#L" n="147"/>simul, &amp; vnum originem habet ab alio, nec tamen ex hoc 
+      inci<lb ed="#L" n="148" break="no"/>dimus in maledictionem prophetae dicentis, vae qui dicitis 
+      ma<lb ed="#L" n="149" break="no"/>lum bonum, &amp; bonum malum, quia secundum Augu. illa 
+      male<lb ed="#L" n="150" break="no"/>dictio intelligitur de actionibus, vt qui dicit adulterium esse bo 
+      <lb ed="#L" n="151"/>num, vel orare deum esse malum. Non autem de rebus, vnde 
+      <lb ed="#L" n="152"/>qui dicit hominem qui est bona natura esse malum ex culpa dicis 
+      <lb ed="#L" n="153"/>bonum esse malum, nec incidit in maledictionem praedictam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

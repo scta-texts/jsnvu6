@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="212-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e174138"><!-- l3d20prae -->
+            <head xml:id="jsnvu6-e174138-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e174138-d1e103">
+               <lb ed="#L" n="68"/>Sententia huius distinctionis XX. 
+      <lb ed="#L" n="69"/>in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e174138-d1e110">
+               <lb ed="#L" n="70"/>VERO quaeritur vtrum Deus. Superius 
+      deter<lb ed="#L" n="71" break="no"/>minauit magister quomodo per passionem 
+      Chri<lb ed="#L" n="72" break="no"/>sti liberamur a malis. Hic determinat de causis 
+      <lb ed="#L" n="73"/>passionis. Et diuiditur in Duas. Primo enim assi 
+      <lb ed="#L" n="74"/>ae gnat causam congruentiae passionis. Secundo 
+      effi<lb ed="#L" n="75" break="no"/>caciae ipsius, Christus ergo sacerdos. Prima in quatuor. 
+      Pri<lb ed="#L" n="76" break="no"/>mo assignat causam congruentiae passionis ex vtilitate nostra. 
+      <lb ed="#L" n="77"/>Secundo ex decentia iussiciae ibi, est autem alia ratio. Tertio 
+      <lb ed="#L" n="78"/>prosequitur iustitiae ordinem ibi, sed qua iustitia. Quarto 
+      osten<lb ed="#L" n="79" break="no"/>dit qud isto ordine praetermisso potuit hominem liberare ibi, si 
+      <!--00497.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>a Item nullus redimit iuste aliquid ab aliquo quod non 
+      de<lb ed="#L" n="81" break="no"/>enim tres. Secunda pars principalis, Christus ergo sacerdos. Di 
+      <lb ed="#L" n="82"/>uiditur in tres. Primo determinat de causa efficiente passioni: 
+      <lb ed="#L" n="83"/>quantum ad opus operans, id est, quantum ad ipsam 
+      operatio<lb ed="#L" n="84" break="no"/>nem causae efficientis. Secundo quantum ad opus operatum 
+      <lb ed="#L" n="85"/>ibi, Passio ergo Christi. Tertio mouet quandam dubitationem 
+      <lb ed="#L" n="86"/>&amp; soluit ibi, cum autem passio. Haec est diuisio &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e174138-d1e154">
+               <lb ed="#L" n="87"/>
+               <!--2--> INSPECIALI sic procedit, &amp; proponit primo 
+      quam<lb ed="#L" n="88" break="no"/>dam quaestionem vtrum Deus potuit genus humanum saluare 
+      ali<lb ed="#L" n="89" break="no"/>ter quam per mortem Christi, &amp; respondet quod sic, sed ilte 
+      mo<lb ed="#L" n="90" break="no"/>dus fuit conuenientior. Quod ostendit primo ex nostra necessi 
+      <lb ed="#L" n="91"/>tate, quia per hoc mens nostra magis in deum erigitur &amp; ad eius 
+      <lb ed="#L" n="92"/>amorem excitatur. Postea ponit aliam causam quae sumitur ex 
+      <lb ed="#L" n="93"/>Dei iustitia hoc enim modo Christus diabolum non expoliauit, 
+      <lb ed="#L" n="94"/>sed ex iustitia superauit, homo enim per peccatum Deo 
+      permit<lb ed="#L" n="95" break="no"/>tente potestati diaboli subditus erat, nec tamen per hoc subtra 
+      <lb ed="#L" n="96"/>ctus est a Dei potestate, quia nec diabolus quantum ad dona 
+      na<lb ed="#L" n="97" break="no"/>turalia alienus extitit a dono ipsius, per Christi autem passionem 
+      <lb ed="#L" n="98"/>&amp; iustitiam diabolus victus est, &amp; homo a potestate eius ereptus. 
+      <lb ed="#L" n="99"/>Postea declarat modum &amp; ordinem secundum quem diabolus 
+      <lb ed="#L" n="100"/>victus est, &amp; dicit quod diabolus procurauit Christum occidi in quo 
+      <lb ed="#L" n="101"/>nulla erat causa mortis, &amp; ideo iustum fuit vt in omnes in 
+      Chri<lb ed="#L" n="102" break="no"/>stum credentes diabolus perderet potestatem: &amp; licet diabolu 
+      <lb ed="#L" n="103"/>potuerit vinci per potentiam, magis tamen decuit vt per 
+      iusti<lb ed="#L" n="104" break="no"/>tiam vinceretur, quia ipse est impugnator iustitiae, vt nos Chri 
+      <lb ed="#L" n="105"/>stum in iustitia imitemur. Postea dicit alium modum 
+      liberatio<lb ed="#L" n="106" break="no"/>nis fuisse possibilem, sola enim Dei misericordia homo potui 
+      <lb ed="#L" n="107"/>liberari, cum Deus super hominem &amp; diabolum habeat plena 
+      <lb ed="#L" n="108"/>riam potestatem, nec diabolus habeat aliquod ius detinendi 
+      ho<lb ed="#L" n="109" break="no"/>minem. Postea dicit quod Christus fuit causa efficiens nostrae 
+      re<lb ed="#L" n="110" break="no"/>demptionis, inquantum ipse qui est summus sacerdos, obtulit 
+      <lb ed="#L" n="111"/>seipsum Deo in hostiam &amp; precium nostrae liberationis, &amp; addii 
+      <lb ed="#L" n="112"/>quod pater tradidit eum, &amp; ipse seipsum, &amp; Iudas &amp; Iudaei, pi 
+      <lb ed="#L" n="113"/>ter quia voluntate eius Christus passus est, ipse qui etiam 
+      pas<lb ed="#L" n="114" break="no"/>sus est, quia voluit, Iudas qui eum prodidit, Iudaei, quia procu 
+      <lb ed="#L" n="115"/>rauerunt eius mortem, vnde vnum factum fuit a praedictis 
+      om<lb ed="#L" n="116" break="no"/>nibus scilicet mors Christi, sed voluntates fuerunt diuersae, 
+      <lb ed="#L" n="117"/>quia voluntas patris &amp; Christi fuit bona &amp; ex bona 
+      intentio<lb ed="#L" n="118" break="no"/>ne, voluntas autem Iudae &amp; Iudaeorum fuit mala, &amp; ex mala 
+      in<lb ed="#L" n="119" break="no"/>tentione. Et ideo non dicuntur bene fecisse, licet passio 
+      Chri<lb ed="#L" n="120" break="no"/>sti quam procurauerunt fuerit bona. Et in hoc terminatur &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="321-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e265341"><!-- l4d31prae -->
+            <head xml:id="jsnvu6-e265341-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e265341-d1e103">
+               <lb ed="#L" n="127"/>Sententia huius distinctionis XXXI. 
+      <lb ed="#L" n="128"/>enerali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e265341-d1e110">
+               <lb ed="#L" n="129"/>POST haec de bonis. Superius determinauit 
+      ma<lb ed="#L" n="130" break="no"/>gister de causa matrimonij efficiente &amp; finali, quae 
+      <lb ed="#L" n="131"/>sunt causae constituentes matrimonium: hic 
+      deter<lb ed="#L" n="132" break="no"/>minat magister de bonis matrimonij, quae sunt 
+      <lb ed="#L" n="133"/>causae honestantes matrimonij actum. Et diuiditur 
+      <lb ed="#L" n="134"/>in tres. Primo determinat de bonis matrimonij. Secundo de actu 
+      <lb ed="#L" n="135"/>matrimonij qui per huiusmodi bona excusatur. Tertio ostendit 
+      <lb ed="#L" n="136"/>quod huiusmodi bona etiam in matrimonio antiquorum patrum 
+      <lb ed="#L" n="137"/>concurrerunt. Secunda distinct. 32. ibi, Sciendum est etiam illud 
+      <lb ed="#L" n="138"/>Tertia disti. 33. ibi, Quaeritur hic de antiquis patribus. Prima est 
+      <lb ed="#L" n="139"/>principalis lectio, &amp; diuiditur in tres. Primo determinat de ipsi 
+      <lb ed="#L" n="140"/>bonis coniugij. Secundo ostendit quomodo se habeant ad 
+      ma<lb ed="#L" n="141" break="no"/>trimonium. Tertio quomodo excusent actum matrimonialem. 
+      <lb ed="#L" n="142"/>Secunda ibi, Et est sciendum. Tertia ibi, Cum haec tria bona. 
+      Se<lb ed="#L" n="143" break="no"/>cunda istarum diuiditur in duas. Primo ostendit quod non in 
+      <lb ed="#L" n="144"/>omni matrimonio illa concurrunt. Secundo ostendit quod vnum 
+      <lb ed="#L" n="145"/>illorum bonorum in quolibet matrimonio inuenitur (scilicet 
+      sa<lb ed="#L" n="146" break="no"/>cramentum) &amp; inquirit de contrahentibus contrariam 
+      inten<lb ed="#L" n="147" break="no"/>tionem istis bonis habentibus. Secunda ibi, Solet quaeri quum 
+      <lb ed="#L" n="148"/>masculus. Tertia pars principalis in qua ostendit quod bona illa 
+      <lb ed="#L" n="149"/>excusant actum matrimonij diuiditur in duas. Primo probar 
+      <lb ed="#L" n="150"/>intentum. Secundo obiicit in contrarium, &amp; soluit. Secunda ibi, 
+      <lb ed="#L" n="151"/>sed si concubitus. 
+      </p>
+            <p xml:id="jsnvu6-e265341-d1e162">
+               <lb ed="#L" n="152"/>
+               <!--2--> INSPECIALI sic procedit, &amp; primo proponit quod 
+      <lb ed="#L" n="153"/>tria bona sunt in matrimonio, fides, proles &amp; sacramentum: ad 
+      <lb ed="#L" n="154"/>fidem autem pertinet, vt ad aliam non accedat, ad prolem, vt 
+      <lb ed="#L" n="155"/>amanter suscipiatur, &amp; religiose educetur: ad sacramentum vero 
+      <lb ed="#L" n="156"/>vt coniugium non separetur, separatur autem corporaliter ex 
+      ali<lb ed="#L" n="157" break="no"/>qua causa, nunquam tamen sacramentaliter per totam hanc vitam, 
+      <lb ed="#L" n="158"/>quod auctoritatibus confirmar. Addit etiam quod sacramentum 
+      <!--00717.xml-->
+      <pb ed="#L" n="322-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod est tertium bonum matrimonij non est ipsum coniugium, 
+      <lb ed="#L" n="2"/>sed tamen est eiusdem rei signum cuius est coniugium, scilicet spi 
+      <lb ed="#L" n="3"/>ritualis &amp; inseparabilis coniunctionis Christi &amp; ecclesiae. Post 
+      <lb ed="#L" n="4"/>ea dicit quod bonum prolis &amp; bonum fidei aliquando in 
+      matrimoni<lb ed="#L" n="5" break="no"/>deficiunt, nunquam tamen deficit bonum quod est sacramentum, 
+      <lb ed="#L" n="6"/>Postea dicit quod illi qui contrahunt ad inuicem incontinentiae causa 
+      <lb ed="#L" n="7"/>dummodo perpetuus fit contractus, nec vitetur generatio prolis 
+      <lb ed="#L" n="8"/>verum matrimonium contrahunt: illi vero qui venenum 
+      steri<lb ed="#L" n="9" break="no"/>litatis procurant vel similia, veri coniuges non sunt. Quaerit etiam 
+      <lb ed="#L" n="10"/>vtrum illi qui abortum procurant sint homicidae. Et responde 
+      <lb ed="#L" n="11"/>quod sic si puerperium est animatum, aliter autem non. 
+      Poste<lb ed="#L" n="12" break="no"/>dicit quod illa bona excusant actum matrimonialem vt peccatum 
+      <lb ed="#L" n="13"/>non fit, vt quando fide thori seruata coniuges conueniunt causa 
+      <lb ed="#L" n="14"/>prolis, vel vt mortale non sit quando fide seruata conueniunt 
+      in<lb ed="#L" n="15" break="no"/>continentiae causa. Vitimo obiicitur in contrarium tripliciter 
+      <lb ed="#L" n="16"/>Primo per Apostolum qui actum coniugalem per indulgentiam 
+      <lb ed="#L" n="17"/>concedit dicens: hoc autem dico secundum indulgentiam, sed 
+      in<lb ed="#L" n="18" break="no"/>dulgentia non est nisi peccati, ergo a culpa non excusatur matri 
+      <lb ed="#L" n="19"/>monialis concubitus. Et respondet magister distinguendo de in 
+      <lb ed="#L" n="20"/>dulgentia sicut supra distinxit de indulgentia consensionis &amp; 
+      pe<lb ed="#L" n="21" break="no"/>missionis concubitus, ergo copula coniugalis quae fit causa 
+      pr<lb ed="#L" n="22" break="no"/>lis indulgetur secundum consensionem sicut minus bonum, sed ci 
+      <lb ed="#L" n="23"/>cubitus qui fit causa incontinentiae indulgetur secundum 
+      permis<lb ed="#L" n="24" break="no"/>sionem sicut minus malum: excusatur tamen huiusmodi actu: 
+      <lb ed="#L" n="25"/>coniugalis per matrimonij bona, dum tamen huiusmodi concu 
+      <lb ed="#L" n="26"/>bitus intra limites matrimonij &amp; bona matrimonij sit. Sed s 
+      <lb ed="#L" n="27"/>excedat limites non excusatur, quod multis auctoritatibus 
+      de<lb ed="#L" n="28" break="no"/>clarat. Secundo opponit per hoc quod omnis concupiscentia &amp; de 
+      <lb ed="#L" n="29"/>lectatio quae sunt in coitu mala est &amp; inordinata, &amp; ita est pecca 
+      <lb ed="#L" n="30"/>tum: &amp; respondet illam concupiscentiam semper esse malam &amp; 
+      <lb ed="#L" n="31"/>inordinatam inordinatione poenali quae est poena peccati, non 
+      <lb ed="#L" n="32"/>tamen est simpliciter inordinata inordinatione culpae, quia no 
+      <lb ed="#L" n="33"/>semper est peccatum, illa ergo delectatio coitus coniugij per 
+      b<lb ed="#L" n="34" break="no"/>na matrimonij defenditur, nisi sit immoderata &amp; vltra 
+      termi<lb ed="#L" n="35" break="no"/>nos se extendens. Tertio obiicit per auctoritatem Gregor. qui 
+      <lb ed="#L" n="36"/>dicit, quod accedens ad vxorem debet ab ingressu ecclesiae 
+      ab<lb ed="#L" n="37" break="no"/>stinere, quia voluntas quae est in ipsa coniunctione carnali 
+      sin<lb ed="#L" n="38" break="no"/>culpa non est. Et respondet magister quod hoc intelligendum est 
+      <lb ed="#L" n="39"/>quando ad vxorem accedit incontinentiae causa, vel quia vix 
+      si<lb ed="#L" n="40" break="no"/>ne incontinentia acceditur. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

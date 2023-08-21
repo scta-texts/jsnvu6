@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="247-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e203092"><!-- l3d40prae -->
+            <head xml:id="jsnvu6-e203092-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e203092-d1e103">
+               <lb ed="#L" n="28"/>Sententia huius distinctionis xl. in 
+      <lb ed="#L" n="29"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e203092-d1e110">
+               <lb ed="#L" n="30"/>EXTVM praeceptum est. Prius egit magister 
+      <lb ed="#L" n="31"/>de praeceptis quae consistunt in verbo &amp; facto, hic 
+      <lb ed="#L" n="32"/>Tagit de duobus quae consistunt in animo. Et 
+      di<lb ed="#L" n="33" break="no"/>(uiditur in duas, quia primo ponit illorum 
+      prae<lb ed="#L" n="34" break="no"/>Tceptorum explicationem. Et secundo determunat 
+      <lb ed="#L" n="35"/>quaestionem incidentem ibi. Si vero quaeritur. Prima diuiditur 
+      <lb ed="#L" n="36"/>in quatuor, quia primo explicat sextum praeceptum. Secundo 
+      <lb ed="#L" n="37"/>septimum ibi, septimum est. Tertio opponit contra 
+      distin<lb ed="#L" n="38" break="no"/>ctionem eorum ibi, Sed videtur. Quarco soluit 
+      oppositio<lb ed="#L" n="39" break="no"/>nem ibi, sed in istis duobus praeceptis. Secunda pars 
+      principa<lb ed="#L" n="40" break="no"/>lis quae incipit ibi, Si vero quaeritur, diuiditur in tres. 
+      Qui<lb ed="#L" n="41" break="no"/>ptimo mouer quaestionem de necessitate legis veteris. 
+      Secun<lb ed="#L" n="42" break="no"/>do assignat differentiam inter legem &amp; euangelium ibi, distat 
+      <lb ed="#L" n="43"/>autem. Tertio recapitulat de decem praeceptis &amp; ponit 
+      conti<lb ed="#L" n="44" break="no"/>nuationem huius libri ad quartum ibi, audiuis decem chordas. 
+      <lb ed="#L" n="45"/>Haec est diuisio in generali¬ 
+      </p>
+            <p xml:id="jsnvu6-e203092-d1e147">
+               <lb ed="#L" n="46"/>
+               <!--2.--> In speciali sic procedit magister, &amp; dicit quod sextum prae 
+      <lb ed="#L" n="47"/>ceptum inter praecepta secundae tabulae est, non desiderabis 
+      <lb ed="#L" n="48"/>xxorem proximi tur. Septimum est non concupisces domum 
+      <lb ed="#L" n="49"/>proximi tui, non feruum, non ancillam. Tunc opponit 
+      contr<lb ed="#L" n="50" break="no"/>hoc, quia praeceptum de non concupiscenda vxore proximi 
+      <lb ed="#L" n="51"/>videtur esse idem cum illo praecepto non moechaberis, &amp; 
+      prae<lb ed="#L" n="52" break="no"/>ceptum de non concupiscenda re proximi sui videtur esse idem 
+      <lb ed="#L" n="53"/>cum illo praecepto non furtum facies, &amp; sic non videtur 
+      distin<lb ed="#L" n="54" break="no"/>gui bene ab eis. Et respondet quod in illis duobus praeceptis 
+      <lb ed="#L" n="55"/>non moechaberis, &amp; non furtum facies, prohicentur opera 
+      ex<lb ed="#L" n="56" break="no"/>teriora. In aliis autem duobus prohibetur interior 
+      concupi<lb ed="#L" n="57" break="no"/>scentia, quare lex dicitur comprimere manum &amp; non animam. 
+      <lb ed="#L" n="58"/>Et dicit quod illud intelligitur de lege quantum ad 
+      ceremo<lb ed="#L" n="59" break="no"/>nialia &amp; non quantum ad moralia, vel quia in lege non 
+      prohi<lb ed="#L" n="60" break="no"/>betur omnis mala concupiscentia sicut in euangelio: tunc 
+      quae<lb ed="#L" n="61" break="no"/>ric quare Apostolus dicit literam esse occidentem, &amp; de qua 
+      in<lb ed="#L" n="62" break="no"/>telligitur, &amp; respondet quod de litera decalogi, non quia lex mala 
+      <lb ed="#L" n="63"/>sit, sed quia prohibendo peccatum augebat concupiscentian 
+      <lb ed="#L" n="64"/>&amp; non conferebat gratiam adiutricem. Tunc ponit duplicen 
+      <lb ed="#L" n="65"/>differentiam inter legem &amp; euangelium, vna est quia lex 
+      promit<lb ed="#L" n="66" break="no"/>tebat temporalia, euangelium vero promittit aeterna. Alia est 
+      <lb ed="#L" n="67"/>quia facramenta veteris legis non conferebant gratiam sicu 
+      <lb ed="#L" n="68"/>sacramenta aeuangelica. Tunc tecapitulat de decem praeceptis, 
+      <lb ed="#L" n="69"/>vt apparet in lictera. Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

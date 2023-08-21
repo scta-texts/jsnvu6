@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="346-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e285082"><!-- l4d44q9 -->
+            <head xml:id="jsnvu6-e285082-Hd1e101">Quaestio 9</head>
+            <head xml:id="jsnvu6-e285082-Hd1e103" type="question-title">Utrum ignis inferni sit corporeus</head>
+            <p xml:id="jsnvu6-e285082-d1e106">
+               <lb ed="#L" n="8"/>CVAITIO 12. 
+      <lb ed="#L" n="9"/>Vtrum ignis inferni sit corporeus.
+    </p>
+            <p xml:id="jsnvu6-e285082-d1e113">
+               <lb ed="#L" n="10"/>Ie quaeritur de his quae pertinent ad damnatos 
+      <lb ed="#L" n="11"/>&amp; primo vtrum ignis inferni sit corporeus. E 
+      <lb ed="#L" n="12"/>arguitur quod non quia ignis corporeus agit e 
+      <lb ed="#L" n="13"/>necessitate naturae, &amp; aequaliter in corpora eius 
+      <lb ed="#L" n="14"/>Adem rationis, si aequaliter sint approximata, sed 
+      <lb ed="#L" n="15"/>ignis inferni non pagltur aequallier agere in corpora omnium 
+      <lb ed="#L" n="16"/>damnatorum, sed differenter secundum modum culpae, ergo 
+      <lb ed="#L" n="17"/>non est ignis corporeus. Minor probatur per Greg. 4. dialog. 
+      <lb ed="#L" n="18"/>qui dicit sic: Vnus quidem est gehennae ignis, sed non vno 
+      mo<lb ed="#L" n="19" break="no"/>do omnes cruciat peccatores: vnusquisque inquantum exigit 
+      <lb ed="#L" n="20"/>culpa, tantum sentiet de poena. 
+      </p>
+            <p xml:id="jsnvu6-e285082-d1e139">
+               <lb ed="#L" n="21"/>
+               <!--2--> Item locus debet correspondere locato, sed infernus non 
+      <lb ed="#L" n="22"/>est locus corporeus, ergo nec ignis inferni. Minor probatu 
+      <lb ed="#L" n="23"/>per Aug. 12. super Geue. ad literam vbi dicit: Spiritualem 
+      ar<lb ed="#L" n="24" break="no"/>bitror esse locum ad quem anima defertur post mortem, non 
+      <lb ed="#L" n="25"/>corporalem. 
+      </p>
+            <p xml:id="jsnvu6-e285082-d1e156">
+               <lb ed="#L" n="26"/>
+               <!--3--> Ad idem est quod dicit Dam. lib. 4. ca. vlt. Tradetur diabo 
+      <lb ed="#L" n="27"/>lus &amp; daemones eius, &amp; homo eius, scilicet Antichristus, &amp; im 
+      <lb ed="#L" n="28"/>pij peccatores in ignem aeternum non materialem qualis est 
+      <lb ed="#L" n="29"/>qui apud nos est, sed qualem vtique nouit Deus. 
+      </p>
+            <p xml:id="jsnvu6-e285082-d1e169">
+               <lb ed="#L" n="30"/>
+               <!--4--> IN CONTRARIVM est communis doctrina 
+      ec<lb ed="#L" n="31" break="no"/>clesiae, &amp; auctoritate beati Grego. 4. dialog. arguitur, qui dicit 
+      <lb ed="#L" n="32"/>sic: Ignem gehennae corporeum esse non ambigo, in quo 
+      cer<lb ed="#L" n="33" break="no"/>tum est damnatorum corpora cruciari. 
+      </p>
+            <p xml:id="jsnvu6-e285082-d1e182">
+               <lb ed="#L" n="34"/>
+               <!--5--> RESPONSIO. Circa quaestionem istam videnda sunt 
+      <lb ed="#L" n="35"/>duo. Primum est de igne inferni, an sit corporeus. Secundum 
+      <lb ed="#L" n="36"/>est de loco inferni, vbi sit positus. 
+      </p>
+            <p xml:id="jsnvu6-e285082-d1e193">
+               <lb ed="#L" n="37"/>
+               <!--6--> QUANTVM ad primum sciendum est quod non potes 
+      <lb ed="#L" n="38"/>sciri per omnimodam certitudinem qualis sit ignis inferni: vnde 
+      <lb ed="#L" n="39"/>magister dicit in litera ex verbis Aug. Ignis aeternus cuiusmo 
+      <lb ed="#L" n="40"/>di sit neminem scire arbitror, nisi forte cui spiritus diuinus osten 
+      <lb ed="#L" n="41"/>dit, Ex dictis enim sacrae scripturae constat ignem ibi esse, sed qua 
+      <lb ed="#L" n="42"/>lis sit non potest, efficaciter ex illis dictis concludi. Vnum enim 
+      <lb ed="#L" n="43"/>de praecipuis dictis sacrae scripturae ex quo magis videtur con 
+      <lb ed="#L" n="44"/>cludi quod ille ignis esset corporeus videtur esse illud quod habe 
+      <lb ed="#L" n="45"/>tur Luc. 16. de diuite epulone qui dicit ad Abraham. Mitte La 
+      <lb ed="#L" n="46"/>zarum vt intingat extremum digiti sui in aqua vt refrigeret lin 
+      <lb ed="#L" n="47"/>guam meam, quia crucior in hac flamma. Flammam, enim nomina 
+      <lb ed="#L" n="48"/>ignem corporeum. Si quis tamen aduertat, ex illo dicto potestef 
+      <lb ed="#L" n="49"/>ficacius concludi oppositum quam propositum sic. Talis erat 
+      fian<lb ed="#L" n="50" break="no"/>ma quae eum cruciabat, qualis erat lingua quam habebat, &amp; qua 
+      <lb ed="#L" n="51"/>lis aqua quam petebat, sed constat quod lingua quam habebat non 
+      <lb ed="#L" n="52"/>erat corporea, nec digitus Lazari corporeus, nec aqua quam 
+      pe<lb ed="#L" n="53" break="no"/>tebat corporea, quia nihil valuisset ei, ergo, vt videtur, nec 
+      flam<lb ed="#L" n="54" break="no"/>ma quae eum cruciabat erat corporea. Nihilominus tamen quam 
+      <lb ed="#L" n="55"/>uis ex dictis scripturae non possit infallibiliter hoc conuinci, te 
+      <lb ed="#L" n="56"/>nendum est tamen illum ignem esse corporeum auctoritate Gre 
+      <lb ed="#L" n="57"/>gorij &amp; rarione probababili: auctoritas Gregorij expresse est 
+      <lb ed="#L" n="58"/>ad hoc. 4. Dialogo. Ratio etiam probabilis est ad idem, quia poe 
+      <lb ed="#L" n="59"/>na reproborum debet proportionabiliter respondere praemio 
+      <lb ed="#L" n="60"/>bonorum, sed beati non solum praemiabuntur in anima, sed 
+      e<lb ed="#L" n="61" break="no"/>tiam in corpore, ergo mali non solum punientur in anima, sed 
+      <lb ed="#L" n="62"/>etiam in corpore, sed ille ignis, nisi esset corporalis non afflige 
+      <lb ed="#L" n="63"/>ret corpora dannatorum: ex quo ergo ignis necessario ponitur 
+      <lb ed="#L" n="64"/>pao auctoritatem scripturae qui cruciabit dannatos, 
+      conuenien<lb ed="#L" n="65" break="no"/>tius est ponere ipsum esse corporeum eiusdem speciei cum igne 
+      <lb ed="#L" n="66"/>nostro, cum talis ignis ex se habeat corpus sensitiuum affligere, 
+      <lb ed="#L" n="67"/>quam fingere nouum ignem &amp; nouam afflictionem, &amp; hac de 
+      <lb ed="#L" n="68"/>causa conntetur Augustinus in litera ignem quo affliguntur 
+      <lb ed="#L" n="69"/>corpora damnatorum esse corporeum. 
+      </p>
+            <p xml:id="jsnvu6-e285082-d1e269">
+               <lb ed="#L" n="70"/>
+               <!--7--> QVANTVM ad secundum, scilicet de loco inferni es 
+      <lb ed="#L" n="71"/>similiter est dicendum, quia non potest sciri per certitudinem 
+      <lb ed="#L" n="72"/>vbi sit, vt patet per August. in litera, &amp; Greg. 4. Dialo. dicit de 
+      <lb ed="#L" n="73"/>nac re temere definire nihil audeo. Quidam tamen dicunt infer 
+      <lb ed="#L" n="74"/>num esse in superficie terrae ex parte opposita terrae nostrae ha 
+      <lb ed="#L" n="75"/>bitabili, quam partem vocant orbem tristem, &amp; hoc videtur 
+      sen<lb ed="#L" n="76" break="no"/>sisse Isidorus qui dicit, quod sol &amp; luna post resurrectionem in ord. 
+      <lb ed="#L" n="77"/>ne in quo creati sunt stabunt, ne impij in tormentis positi fruam 
+      <lb ed="#L" n="78"/>tur luce eorum: quae ratio nulla esset si infernus est infra 
+      ter<lb ed="#L" n="79" break="no"/>ram: quia cum terra fit opaca, vbicunque starent sol &amp; luna im 
+      <lb ed="#L" n="80"/>possibile esset lumen eorum ad infernum pertingere. 
+      </p>
+            <p xml:id="jsnvu6-e285082-d1e298">
+               <lb ed="#L" n="81"/>
+               <!--8--> ISTA tamen opinio communiter non tenetur quin po 
+      <!--00766.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>tius creditur quod ex opposito terrae nostrae habirabilis non sit 
+      <lb ed="#L" n="83"/>nisi aqua quae secundum naturam circulariter ambit terram, nisi 
+      <lb ed="#L" n="84"/>quantum ex prouidentia diuina nostra terra habitabilis est aquis 
+      <lb ed="#L" n="85"/>discoperta propter vitam hominis &amp; aliorum animalium respiram 
+      <lb ed="#L" n="86"/>tium tuendam. Vnde communiter tenetur quod infernus est infra 
+      <lb ed="#L" n="87"/>terram, cui alludit dictum scripturae in pluribus locis. Dicit enim 
+      <lb ed="#L" n="88"/>Esai. 14. infernus subtus conturbatus est in occursum tui. Item a 
+      <lb ed="#L" n="89"/>ticulus fidei dicit quod Christus descendit ad inferna, quem quasi 
+      <lb ed="#L" n="90"/>exponens Apostolus Ephe. 3. dicit de Christo. Quid est quod ascem 
+      <lb ed="#L" n="91"/>dit, nisi quia primum descendit ad inferiores partes terrae, hoc 
+      <lb ed="#L" n="92"/>est ad infernum, in quo insinuatur infernum esse infra terram. 
+      <lb ed="#L" n="93"/>Ipsum etiam nomen concordat. Dicitur enim infernus, vel 
+      infe<lb ed="#L" n="94" break="no"/>rus, quia inferius iacet. Per suadetur etiam hoc probabili 
+      ratio<lb ed="#L" n="95" break="no"/>ne, quia sicut est grauitas &amp; leuitas in corporibus, sic lecitia &amp; 
+      <lb ed="#L" n="96"/>tristitia in spiritibus: laetitia enim &amp; tristitia sunt quasi pondus 
+      <lb ed="#L" n="97"/>&amp; inclinatio spirituum, sed per grauitatem corpora tendunt 
+      de<lb ed="#L" n="98" break="no"/>orsum, per leuitatem vero sursum, ergo similiter locus conue 
+      <lb ed="#L" n="99"/>niens spiritibus existentibus in perpetua laetitia, maxime 
+      re<lb ed="#L" n="100" break="no"/>sumptis corporibus debet esse sursum, locus vero conuenies 
+      <lb ed="#L" n="101"/>spiritibus existentibus in perpetua tristitia debet esse 
+      deor<lb ed="#L" n="102" break="no"/>sum:beati autem &amp; nunc &amp; post resurrectionem erunt in 
+      perp<lb ed="#L" n="103" break="no"/>tua laetitia, damnati ve o in perpetua tristitia, propter quod 
+      <lb ed="#L" n="104"/>sicut locus conueniens naturae beatorum erit sursum in caelo, 
+      <lb ed="#L" n="105"/>sic locus conueniens naturae damnatorum erit deorsum in 
+      profun<lb ed="#L" n="106" break="no"/>do terrae, &amp; istum locum communiter vocamus infernum. Hanc 
+      <lb ed="#L" n="107"/>persuasionem tangit beatus Aug. super Gene. ad literam. 
+      </p>
+            <p xml:id="jsnvu6-e285082-d1e367">
+               <lb ed="#L" n="108"/>
+               <!--9--> AD argumenta in opposirum dicendum. Ad primum o 
+      <lb ed="#L" n="109"/>sicut corpora beatorum erunt differentis gloriae secundum 
+      dif<lb ed="#L" n="110" break="no"/>ferentiam meritorum, sic corpora damnatorum erut magis vel 
+      <lb ed="#L" n="111"/>minus passibilia respectu poenae secundum differentiam demeri 
+      <lb ed="#L" n="112"/>torum. Et ideo vnus &amp; idem ignis aequaliter agens quantum est 
+      <lb ed="#L" n="113"/>ex parte sua inaequaliter affliget corpora dannatorum propter 
+      <lb ed="#L" n="114"/>diuersam passibilitatem eorum, Vel sicut alij dieunt, ignis ille 
+      <lb ed="#L" n="115"/>agit non solum ex virtute naturae suae, sed vt instrumentum di 
+      <lb ed="#L" n="116"/>uinae iustitiae: propter quod actio eius modificabitur a 
+      princi<lb ed="#L" n="117" break="no"/>pali agente, vt qui plus peccauerunt plus crucientur. 
+      </p>
+            <p xml:id="jsnvu6-e285082-d1e393">
+               <lb ed="#L" n="118"/>
+               <!--10--> Ad secundum dicendum quod Augustinus loquitur de ani 
+      <lb ed="#L" n="119"/>ma separata quae non exigit locum corporalem, nam Deus 
+      po<lb ed="#L" n="120" break="no"/>tuit tam angelos quam animas separatas produxisse ante 
+      mun<lb ed="#L" n="121" break="no"/>dum corporeum. Et ideo si sic semper remaneret anima, ita q 
+      <lb ed="#L" n="122"/>nunquam corpori reuniretur non oporteret ad eius punitioni 
+      <lb ed="#L" n="123"/>assignare locum corporalem. Vel potest dici quod locus ille ad 
+      <lb ed="#L" n="124"/>quem animae deferuntur post mortem dicitur ab Augustino non 
+      <lb ed="#L" n="125"/>esse corporeus non quidem secundum se, sed ratione continentiae 
+      <lb ed="#L" n="126"/>quia anima in eo corporaliter non existit. Vel dicendum secundum 
+      <lb ed="#L" n="127"/>aliquos quod Augustinus loquitur opinando &amp; non 
+      determi<lb ed="#L" n="128" break="no"/>nando, quamuis verba sua videantur sonare assertionem. 
+      </p>
+            <p xml:id="jsnvu6-e285082-d1e422">
+               <lb ed="#L" n="129"/>
+               <!--11--> Ad tertium dicendum quod fortê Damascenus haesitauit, 
+      <lb ed="#L" n="130"/>an ignis inferni esset corporeus, &amp; ideo fatetur se nescire qua 
+      <lb ed="#L" n="131"/>lis sit. Vel potest dici quod non negat simpliciter illum igni 
+      <lb ed="#L" n="132"/>esse materialem, sed quod non est materialis sicut ille qui est 
+      <lb ed="#L" n="133"/>apud nos: quia non lucet neque indiget fomentis sicut ignis 
+      <lb ed="#L" n="134"/>noster, quamuis fit eiusdem speciei quo ad substantiam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

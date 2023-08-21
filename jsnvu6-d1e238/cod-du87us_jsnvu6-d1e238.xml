@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="14-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e238"><!-- l1d2prae -->
+            <head xml:id="jsnvu6-d1e238-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e238-d1e103">
+               <lb ed="#L" n="18"/>Sequitur diuisio litterae II. Distinctionis. 
+      <lb ed="#L" n="19"/>HOc itaque vera, &amp; ipsa fide. Superius Magister 
+      <lb ed="#L" n="20"/>inquisiuit, &amp; quibus agendum est in hoc opere: 
+      <lb ed="#L" n="21"/>hic persequitur suam intentionem: &amp; secundum 
+      <lb ed="#L" n="22"/>brdinem supra positum primo determinat de 
+      <lb ed="#L" n="23"/>rebus: secundo de signis sacramentalibus, in prin 
+      <lb ed="#L" n="24"/>cipio 4. libr. ibi, Samaritanus. Secunda pars diuiditur in tres 
+      <lb ed="#L" n="25"/>Primo determinat de rebus, quibus fruendum est: secundo de 
+      <lb ed="#L" n="26"/>rebus, quibus vtendum est: tertio de virtutibus, per quas 
+      frui<lb ed="#L" n="27" break="no"/>mur, &amp; de verbo incarnato, per quod huiusmodi virtutes 
+      infun<lb ed="#L" n="28" break="no"/>duntur. Secunda pars incipit ibi, in principio 2. lib. creationem 
+      <lb ed="#L" n="29"/>rerum. Tertia ibi in princi. 3. lib. Cum vero venerit plenitudo. 
+      <lb ed="#L" n="30"/>Prima adhuc in duas. Primo enim inquirit vnitatem diuinae 
+      <lb ed="#L" n="31"/>essentiae, &amp; pluralitatem personarum, quae est causa &amp; ratio 
+      exi<lb ed="#L" n="32" break="no"/>tus creaturarum cum essentiae diuersitate. Secundo determinat 
+      <lb ed="#L" n="33"/>de diuinis attributis, quibus adscribitur creaturarum 
+      causali<lb ed="#L" n="34" break="no"/>tas. Secunda ibi, in princ. 35. dist. Cumque supra disseruimus. 
+      <lb ed="#L" n="35"/>Prima diuiditur in tres partes. Primo enim inquirit trinitatem 
+      <lb ed="#L" n="36"/>personarum in vnitate essentiae: secundo remouet quasdam 
+      <lb ed="#L" n="37"/>quaestiones incidentes: tertio prosequitur determinationem 
+      <lb ed="#L" n="38"/>trinitatis &amp; vnitatis diuinae essentiae. Secunda ibi, in princ. 4.di. 
+      <lb ed="#L" n="39"/>hic exoritur quaestio. Tertia in principio 8. di. ibi, nunc de 
+      veri<lb ed="#L" n="40" break="no"/>tate. Prima adhuc diuiditur in duas. Primo inquirit trinitatem 
+      <lb ed="#L" n="41"/>personarum in vnitate essentiae per autoritates: secundo per 
+      re<lb ed="#L" n="42" break="no"/>rum sim litudines. Secunda in principio 3. dist. ibi, Apostolus 
+      <lb ed="#L" n="43"/>nanque ait. Prima est praesentis lectionis. Et diuiditur in tres 
+      <lb ed="#L" n="44"/>partes. Primo proponit intentum, secundo ostendit modum 
+      <lb ed="#L" n="45"/>inuestigandi per autoritates Veteris testamenti: tertio per auto 
+      <lb ed="#L" n="46"/>ritates Noui testamenti. Secunda ibi proponamus modo in 
+      me<lb ed="#L" n="47" break="no"/>dium. Tertia ibi, nunc vero post testimonia. Prima diuiditur 
+      <lb ed="#L" n="48"/>in tres, secundum quod modum inuestigandi ostendit 
+      quan<lb ed="#L" n="49" break="no"/>tum ad tria: primo quantum ad inquirendum conditionem 
+      <lb ed="#L" n="50"/>secundo, quantum ad eorum intentionem: tertio, quantum ad 
+      <lb ed="#L" n="51"/>inquirendi ordinem. Secunda ibi, omnes autem catholici. 
+      Ter<lb ed="#L" n="52" break="no"/>tia ibi, caeterum in primo libro. Secunda pars principalis, in qua 
+      <lb ed="#L" n="53"/>ostendit propositum per autoritates Veteris testamenti, 
+      diui<lb ed="#L" n="54" break="no"/>ditur in tres partes. Primo ostendit spiritualiter essentiae 
+      vni<lb ed="#L" n="55" break="no"/>tatem: secundo communiter essentiae vnitatem &amp; personarum 
+      <lb ed="#L" n="56"/>distinctionem: tertio, spiritualiter personarum distinctionem, 
+      <lb ed="#L" n="57"/>scilicet processionem filij a Patre, &amp; Spiritussancti ab vtroque. 
+      <lb ed="#L" n="58"/>Secundum ibi, personarum quoque principalitatem: tertium 
+      <lb ed="#L" n="59"/>ibi, dicendum quoque &amp;c. Pars vero principalis, in qua 
+      osten<lb ed="#L" n="60" break="no"/>dit per autoritates Noui testamenti, diuiditur in duas partes. 
+      <lb ed="#L" n="61"/>Primo enim ponit intentum. Secundo excusat se de 
+      paucita<lb ed="#L" n="62" break="no"/>te autoritatem inductarum. Secunda ibi, &amp; quia singulae 
+      poe<lb ed="#L" n="63" break="no"/>nae in simile. Haec est diuisio sententiarum in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e238-d1e205">
+               <lb ed="#L" n="64"/>
+               <!--2--> In speciali autem sic Magister procedit. Primo ponit, quod 
+      <lb ed="#L" n="65"/>diuina trinitas est vnus Deus, &amp; summum bonum. Secundo tan 
+      <lb ed="#L" n="66"/>git modum inuestigandi, quantum ad acquirendum conditionem. 
+      <lb ed="#L" n="67"/>Et primo, quantum ad ipsam puritate, quae necessaria est, 
+      quan<lb ed="#L" n="68" break="no"/>tum ad tantae veritatis contemplationem: vnde dicit, quod hoc 
+      <lb ed="#L" n="69"/>est summum bonum, scilicet trinitas quae per fidem a 
+      menti<lb ed="#L" n="70" break="no"/>bus purgatissimis cernitur. Cuius etiam tanta est excellentia, 
+      <lb ed="#L" n="71"/>quod secundum Augustinum nec alicubi periculosius 
+      erra<lb ed="#L" n="72" break="no"/>tur, nec laboriosius auquid quaeritur: nec fructuosius aliquoid 
+      in<lb ed="#L" n="73" break="no"/>uenitur. Secundo, quantum ad reuerentiam &amp; attentionem, quia 
+      <lb ed="#L" n="74"/>cum modestia &amp; attentione de ipsa agendum est. Tertio, 
+      inquan<lb ed="#L" n="75" break="no"/>tum ad mutuam charitatem, quia vnus indiget auxilio alterius 
+      <lb ed="#L" n="76"/>propter difficultatem materiae. Vnde auditori summe expedit 
+      <lb ed="#L" n="77"/>humilitas in dubitando, &amp; in inquirendo: &amp; male dicta 
+      corri<lb ed="#L" n="78" break="no"/>gendo. Deinde tangit modum inuestigandi, quantum ad 
+      inqui<lb ed="#L" n="79" break="no"/>rendum intentionem, dicens, quod secundum omnium 
+      catholico<lb ed="#L" n="80" break="no"/>rum sententias tres personae in diuinis sunt vnius substantiae 
+      <!--00093.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>&amp; inseparabiles aequalitate: &amp; sunt vnus Deus naturaliterinac 
+      <lb ed="#L" n="82"/>est ibi aliud &amp; aliud, sed vnus est alius ab altero. Et hoc tangi 
+      <lb ed="#L" n="83"/>Aug autoritate. Postmodum tangit modo inuestigandi, 
+      quan<lb ed="#L" n="84" break="no"/>tum ad inquirendi ordinem. Et dicit, quod primo veritatem vult 
+      con<lb ed="#L" n="85" break="no"/>firmare per autoritates, secundo per rationes &amp; similitudines 
+      <lb ed="#L" n="86"/>propter garrulos disputatores. Postea ostendit veritate 
+      essen<lb ed="#L" n="87" break="no"/>tiae, &amp; pluralitatem communiter &amp; specialiter per autoritater 
+      <lb ed="#L" n="88"/>Veteris testamenti, dicens, cum dixerit Deus Gene. I. 
+      Facia<lb ed="#L" n="89" break="no"/>mus hominem ad imaginem, &amp; similitudinem nostram. Per hoc, 
+      <lb ed="#L" n="90"/>quod dicit, faciamus, &amp; nostra, ostenditur pluralitas personarum: 
+      <lb ed="#L" n="91"/>per hoc quod dicit, ad imaginem, ostenditur vnitas essentiae quia 
+      se<lb ed="#L" n="92" break="no"/>cundum Hilarium, vbi est imago &amp; similitudo solet esse vnitas 
+      cha<lb ed="#L" n="93" break="no"/>ritatis. Hoc habito, addit quatuor alias autoritates ad proban 
+      <lb ed="#L" n="94"/>dum trinitatem personarum, &amp; vnitatem essentiae, non 
+      expri<lb ed="#L" n="95" break="no"/>mentes aliquam certam personam. Deinde adducit autoritates, 
+      <lb ed="#L" n="96"/>exprimentes certas personas, scilicet Filij, &amp; Spiritussancti. 
+      <lb ed="#L" n="97"/>Autoritates patent in litera. Hoc idem etiam ostendit per 
+      au<lb ed="#L" n="98" break="no"/>toritates Noui testamenti, quae patent in litera. Vltimo 
+      excu<lb ed="#L" n="99" break="no"/>sat se, quod plures autoritates non inducit de Nouo testamento, 
+      <lb ed="#L" n="100"/>quia totum est plenum talibus, imo pene omnes noui testamenti hoc 
+      <lb ed="#L" n="101"/>insinuant. Et ita in hoc terminatur sententia huius di in speciali 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

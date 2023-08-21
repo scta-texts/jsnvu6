@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="331-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e273649"><!-- l4d39q1 -->
+            <head xml:id="jsnvu6-e273649-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e273649-Hd1e103" type="question-title">Utrum fidelis possit contrahere 
+      matrimonium cum infideli</head>
+            <p xml:id="jsnvu6-e273649-d1e106">
+               <lb ed="#L" n="131"/>QVAESTIO 1. 
+      <lb ed="#L" n="132"/>Vtrum fidelis possit contrahere 
+      matri<lb ed="#L" n="133" break="no"/>monium cum infideli.
+    </p>
+            <p xml:id="jsnvu6-e273649-d1e115">
+               <lb ed="#L" n="134"/>CIrca distinctionem istam primo quaeritur, verum 
+      <lb ed="#L" n="135"/>fidelis possit contrahere matrimonium cum 
+      infi<lb ed="#L" n="136" break="no"/>deli. Et arguitur quod sic: quia duo mala magis 
+      <lb ed="#L" n="137"/>impediunt bonum quam vnum, sed quando 
+      vter<lb ed="#L" n="138" break="no"/>que est infidelis sunt duo mala, &amp; tamen non 
+      im<lb ed="#L" n="139" break="no"/>peditur matrimonium, ergo fortiori ratione: quando alter est 
+      <lb ed="#L" n="140"/>fidelis, cum sit ibi tantum vnum malum. 
+      </p>
+            <p xml:id="jsnvu6-e273649-d1e133">
+               <lb ed="#L" n="141"/>
+               <!--2--> Item sicut est disparitas cultus inter fidelem &amp; fidelem, ita 
+      <lb ed="#L" n="142"/>inter Christianum &amp; haereticum, &amp; inter duos infideles diue 
+      <lb ed="#L" n="143"/>sorum rituum, sicut Iudaeum &amp; Paganum, sed inter fidelem &amp; 
+      <lb ed="#L" n="144"/>haereticum, similiter inter duos infideles disparis cult? potest 
+      <lb ed="#L" n="145"/>esse matrimonium, ergo inter fidelem &amp; infidelem. 
+      <lb ed="#L" n="146"/>Item Ioseph contraxit cum Aegyptia: vt habet Gen. 45. &amp; Moy 
+      <lb ed="#L" n="147"/>ses cum Aethiopissa, vt innuitur Numc. 12. &amp; Hester cum Assuero 
+      <lb ed="#L" n="148"/>vt habetur Hester 2. Lex etiam dicis Deut. si egressus ad pugnam 
+      <lb ed="#L" n="149"/>videris mulierem pulchram in medio captiuorum &amp; adamaueris 
+      <lb ed="#L" n="150"/>eam, introies ad eam, dormiesque cum ea, &amp; erit tibi vxor, sed in 
+      <lb ed="#L" n="151"/>omnibus his erat matrimonium infidelis cum fideli, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-e273649-d1e163">
+               <lb ed="#L" n="152"/>
+               <!--4--> INICONTRARIVM est quod dicit Apostolus 1. 
+      <lb ed="#L" n="153"/>Corin. 7. cui vult nubat tantum in domino, hoc est cum fideli. 
+      </p>
+            <p xml:id="jsnvu6-e273649-d1e172">
+               <lb ed="#L" n="154"/>
+               <!--5--> Item Deut. 7. non inibiscum ei foedus, nec sociabis cum eii 
+      <lb ed="#L" n="155"/>coniugia. Esdras etiam separauit matrimonia Iudaeorum cum 
+      <lb ed="#L" n="156"/>alienigenis inita Esdrae 9. ergo nullum est matrimonium fide 
+      <lb ed="#L" n="157"/>lis cum infideli. 
+</p>
+            <p xml:id="jsnvu6-e273649-d1e185">
+               <lb ed="#L" n="158"/>
+               <!--6--> RESPONSIO. Videnda sunt duo. Primum est, an in 
+      <lb ed="#L" n="159"/>ter duos infideles sit matrimonium verum. Secundum est, 20 
+      <lb ed="#L" n="160"/>possit esse inter fidelem &amp; infidelem.
+    </p>
+            <p xml:id="jsnvu6-e273649-d1e196">
+      <!--00737.xml-->
+               <pb ed="#L" n="332-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>7 QUANTVM ad primam dicendum quod inter duos 
+      infide<lb ed="#L" n="2" break="no"/>des potest esse verum matrimonium dummodo contrahant in 
+      <lb ed="#L" n="3"/>grada non prohibito iure naturali vel diuino. Cuius ratio est, 
+      <lb ed="#L" n="4"/>qa matrimonium cum sit de iure naturali, omnibus est licitu 
+      qui<lb ed="#L" n="5" break="no"/>bus non est prohibitum, sed nulla pro hibitio arctat infideles quin 
+      <lb ed="#L" n="6"/>possint ad inuicem eontr ahere, non enim inuenif circa hoc 
+      prohi<lb ed="#L" n="7" break="no"/>bitio iuris naturalis sed potiP concessio: quam asus naturale omnes 
+      <lb ed="#L" n="8"/>communiter respicit, nec iuris diuini, cum hoc nusquam legatur, 
+      ne<lb ed="#L" n="9" break="no"/>ecclesia potsneis hoc inhibere cum ad eam non pertineat de his qua 
+      <lb ed="#L" n="10"/>foris sunt indicare, ergo inter infideles posest esse legitimu ma 
+      <lb ed="#L" n="11"/>trinionium: ad hoc etiam adducuntur multae auctoritates 
+      euange<lb ed="#L" n="12" break="no"/>lij &amp; Apostoli, &amp; 18. q. 1. circa principium. Item remoto posteriori 
+      <lb ed="#L" n="13"/>non remouetur prij, sed matrimonium ptinet ad officium naturae, 
+      <lb ed="#L" n="14"/>fides autem ad statum gratiae, ergo exclusa fide posest esse matrimo 
+      <lb ed="#L" n="15"/>nium, sicut status naturae potest manere amota gratia, 
+      </p>
+            <p xml:id="jsnvu6-e273649-d1e238">
+               <lb ed="#L" n="16"/>
+               <!--8--> QUANTVM ad sceundum dicendum est quod disparitas 
+      <lb ed="#L" n="17"/>cultus inter fidelem &amp;, infidelem impedit matrimonium contra 
+      <lb ed="#L" n="18"/>hendum, &amp; dirimit contractum ex se quidem dispositiue, sed ex 
+      sta<lb ed="#L" n="19" break="no"/>tuto ecclesiae completiue. Quod disparitas impediat marrimo 
+      <lb ed="#L" n="20"/>nium ex se dispositiue inter fidelem &amp; infidelem patet ex duobus 
+      se<lb ed="#L" n="21" break="no"/>cundum quod est duplex finis matrimonij s. bonum prolis &amp; conueniem 
+      <lb ed="#L" n="22"/>communicatio operum pertinentium ad conuictum. Ex quibus argui 
+      <lb ed="#L" n="23"/>tur fic: illud quod disconnenit vtrique fini matrimonij debet 
+      im<lb ed="#L" n="24" break="no"/>pedire matrimonium, sed disparitas cultus est huiusmodi, est 
+      <lb ed="#L" n="25"/>enim talis disparitas contra bonum prolis quod est eius educatio 
+      <lb ed="#L" n="26"/>quae impeditur per disparitatem cultus dum quilibet parentum nititu, 
+      <lb ed="#L" n="27"/>educare prolem ad ritum suum, &amp; est etiam contra bonum conuictus, 
+      qui<lb ed="#L" n="28" break="no"/>sideli imminet periculum subnersionis ex conaictu cum coniuge 
+      in<lb ed="#L" n="29" break="no"/>fideli, cum maximus affectus sit coniugum, &amp; perit iudicium cum re 
+      <lb ed="#L" n="30"/>transit in affectum, &amp; ideo disparitas cultus rationabiliter habe 
+      <lb ed="#L" n="31"/>impedire matrimonium. Huic auiem eongruitati superueniens 
+      sta<lb ed="#L" n="32" break="no"/>tutu ecclesiae facit personas tales illegitimas ad contrahendum 
+</p>
+            <p xml:id="jsnvu6-e273649-d1e280">
+               <lb ed="#L" n="33"/>Circa tamen hanc materiam aliud fuit ante legem Moysi aliud sel 
+      <lb ed="#L" n="34"/>lege, aliud epre euangelij quia ante legem poterat fidelis contrahe 
+      <lb ed="#L" n="35"/>re cum infideli, cum nulla esset circa hoc prohibitio, &amp; sic 
+      contraxi<lb ed="#L" n="36" break="no"/>Moyses cum Madianita EXO. I. &amp; Ioseph eum Aegyptiaca. Tem 
+      <lb ed="#L" n="37"/>pore vero legis fuit eis prohibitum contrahere specialiter, cum 
+      Ch<lb ed="#L" n="38" break="no"/>nanaeis propter eorum obstinationem &amp; peruersitatem, nisi relicte 
+      <lb ed="#L" n="39"/>ritu suo conuerterentur ad fidem, sicut contraxit Naason cum 
+      <lb ed="#L" n="40"/>Raab de qua genuit Boos, vt dicitur Mat .i. cum aliis vero liceba 
+      <lb ed="#L" n="41"/>maxime quando non timebatur de subuersione fidelium. Tpe veri 
+      <lb ed="#L" n="42"/>e uangelij, non licet fideli contrahere cum aliqua infideli, vt habet 
+      <lb ed="#L" n="43"/>18. q. 1. ca. omnes. §. ex his itaque, circa finem. &amp; cap. caue Christiane 
+    </p>
+            <p xml:id="jsnvu6-e273649-d1e307">
+               <lb ed="#L" n="44"/>AD PRIMVM argumentum dicendum, quod infidelitas no 
+      <lb ed="#L" n="45"/>impedit matrimonium quate nus est peccatum, quia sic inter 
+      duo<lb ed="#L" n="46" break="no"/>infideles non esset matrimonium. sed propter dissimilitudinem 
+      cul<lb ed="#L" n="47" break="no"/>&amp; subuersionem fidelis, &amp; impedimentum debite educationis, prolis 
+      </p>
+            <p xml:id="jsnvu6-e273649-d1e318">
+               <lb ed="#L" n="48"/>
+               <!--10--> Ad secundum dicendum quod inter infideles disparitas cultu 
+      <lb ed="#L" n="49"/>potest impedire matrimonium si apud eos sit ius positiuum 
+      ho<lb ed="#L" n="50" break="no"/>prohibens, sicut inter fideles, alias possent contrahere 
+      matrimo<lb ed="#L" n="51" break="no"/>nium in dispari cultu, cum non sit eis prohibitum iure naturali 
+      <lb ed="#L" n="52"/>nec aliquo iure scripto, diuino vel humano, nec statutum 
+      ecele<lb ed="#L" n="53" break="no"/>siae ligat eos: quia ecclesia non iudicat de his quae foris sunt, vt 
+      <lb ed="#L" n="54"/>dicitur I. Cor. 5. &amp; idem esset de fidelibus quod possent contrahere cum 
+      <lb ed="#L" n="55"/>infidelibus, nisi obuiaret statutum luris &amp; dictum Apostoli. Nan 
+      <lb ed="#L" n="56"/>haeretici infideles sunt quo ad actum fidei, licet communicen 
+      <lb ed="#L" n="57"/>cum fidelibus in sacramento fidei ( scilicet in baptismo) &amp; tamen 
+      matri<lb ed="#L" n="58" break="no"/>monium contractum inter fidelem &amp; haereticam tenet, non 
+      au<lb ed="#L" n="59" break="no"/>tem cum alia infideli propter communicantiam sacramenti quae est 
+      <lb ed="#L" n="60"/>hic &amp; non ibi: quamuis illud capitulum caue. aequaliter prohibea 
+      <lb ed="#L" n="61"/>fideles matrimonia contrahere cum haereticis, sicut cum caeteris 
+      <lb ed="#L" n="62"/>infidelibus. Similiter enim prohibetur contrahendum, sed non 
+      <lb ed="#L" n="63"/>similiter irritatur contractum propter causam iam dictam. 
+      </p>
+            <p xml:id="jsnvu6-e273649-d1e357">
+               <lb ed="#L" n="64"/>
+               <!--11.--> Ad tertium patet iam responsio ex dictis
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

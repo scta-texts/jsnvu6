@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="25-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e445"><!-- l1d5prae -->
+            <head xml:id="jsnvu6-d1e445-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e445-d1e103">
+      <!--00115.xml-->
+               <pb ed="#L" n="25-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Sententia quintae distinctionis in 
+      gene<lb ed="#L" n="2" break="no"/>rali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-d1e445-d1e116">
+               <lb ed="#L" n="3"/>POst haec quaeritur. Superius magister mouit 
+      quae<lb ed="#L" n="4" break="no"/>stionem de nominibus essentialibus concretis 
+      <lb ed="#L" n="5"/>hic mouet quaestionem de nominibus 
+      significan<lb ed="#L" n="6" break="no"/>tibus essentiam in abstracto, vtrum aliquid eorum 
+      <lb ed="#L" n="7"/>zi se possit habere ad generationem vt subiectum 
+      <lb ed="#L" n="8"/>vel terminus. Et circa hoc tria facit. Primo mouet quaestionem 
+      <lb ed="#L" n="9"/>Secundo determinat eam. Tertio determinationem confirmat 
+      <lb ed="#L" n="10"/>Secunda ibi, ad quod autem catholicis. Tertia ibi, ideo non es 
+      <lb ed="#L" n="11"/>dicendum. Haec vltima diuiditur in duas partes. Primo enim 
+      <lb ed="#L" n="12"/>ostendit quod diuina essentia non se habet ad generationem 
+      <lb ed="#L" n="13"/>vt terminus vt dicatur generata. Secundo ostendit quod nec si 
+      <lb ed="#L" n="14"/>habet ad ipsam vt principium vt dicatur generans. Secunda ibi 
+      <lb ed="#L" n="15"/>itaque etiam non est dicendum. Prima istarum diuiditur in duas 
+      <lb ed="#L" n="16"/>partes. Primo probat intentum triplici ratione. Secundo 
+      obii<lb ed="#L" n="17" break="no"/>cit in contrarium. Secunda ibi, huic autem videtur contrarium 
+      <lb ed="#L" n="18"/>esse. Secunda pars in qua ostendit quod essentia non dicitur 
+      gene<lb ed="#L" n="19" break="no"/>rans diuiditur in duas partes. Primo enim ostendit quod 
+      ne<lb ed="#L" n="20" break="no"/>essentia generat essentiam, nec essentia generat filium, secunde 
+      <lb ed="#L" n="21"/>obiicit contra vtrunque. Secunda pars ibi, praedictis autem 
+      vide<lb ed="#L" n="22" break="no"/>tur contrarium. Et haec secunda diuiditur in duas. Primo 
+      obii<lb ed="#L" n="23" break="no"/>cit per auctoritatem Aug. &amp; Hilarij quod essentia generat 
+      essen<lb ed="#L" n="24" break="no"/>tiam &amp; soluit vtramque. Secundo obiicit quod essentia generat 
+      <lb ed="#L" n="25"/>filium &amp; soluit. Secunda ibi, videtur quoque &amp; frequenter &amp; haec 
+      <lb ed="#L" n="26"/>est sententia &amp; diuisio in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e445-d1e171">
+               <lb ed="#L" n="27"/>
+               <!--2.--> In speciali vero sic procedit magister. Et quaerit primo vtri 
+      <lb ed="#L" n="28"/>concedendum sit quod pater genuerit diuinam essentiam, &amp; 
+      <lb ed="#L" n="29"/>vtrum diuina essentia genuit filium, &amp; vtrum essentia genui 
+      <lb ed="#L" n="30"/>essentiam, &amp; vtrum essentia possit dicit quod nec generet nec 
+      <lb ed="#L" n="31"/>sit generata, nec procedat. Postea respondet magister &amp; dicii 
+      <lb ed="#L" n="32"/>quod nec pater genuit essentiam, nec essentia filium, nec essen 
+      <lb ed="#L" n="33"/>tia genuit essentiam. Postea probat primum horum, scilice 
+      <lb ed="#L" n="34"/>quod pater non genuit diuinam essentiam. Et hoc triplici 
+      ra<lb ed="#L" n="35" break="no"/>tione. Prima talis est. Omne illud quod generatur relatiue 
+      di<lb ed="#L" n="36" break="no"/>citur ad aliud &amp; econuerso. Sed si diuina essentia generaretu 
+      <lb ed="#L" n="37"/>diceretur relatiue, quod falsum est quia non significaret 
+      substan<lb ed="#L" n="38" break="no"/>tiam. Secunda talis est, pater est diuina essentia. Si ergo pate 
+      <lb ed="#L" n="39"/>generet diuinam essentiam: ergo genuit se &amp; illud quod ipsi 
+      <lb ed="#L" n="40"/>est, quod esse non potest. Tertia ratio talis est, pater per diuini 
+      <lb ed="#L" n="41"/>essentiam potest esse. Si ergo pater genuit essentiam, tunc 
+      pa<lb ed="#L" n="42" break="no"/>ter haberet esse per id quod est generatum ab ipso, quod 
+      fal<lb ed="#L" n="43" break="no"/>sum est, quia generatum a generante habet esse non 
+      generan<lb ed="#L" n="44" break="no"/>a generato. Addit magister quod simili modo probat 
+      Augu<lb ed="#L" n="45" break="no"/>stinus quod pater non est sapiens sapientia generata. Si enim 
+      <lb ed="#L" n="46"/>esset sapiens per illam sapientiam genitam cum sit idem sape 
+      <lb ed="#L" n="47"/>re &amp; esse, ergo haberet esse per illud quod est ab eo, quod 
+      fal<lb ed="#L" n="48" break="no"/>sum est. Obiicit contra istam solutionem ostendendo quod genui 
+      <lb ed="#L" n="49"/>quod est ipse, &amp; ita genuit essentiam &amp; soluit exponendo ge 
+      <lb ed="#L" n="50"/>nuit illud quod est ipse, id est, genuit filium qui est idem cum 
+      <lb ed="#L" n="51"/>ipso. Postea ipse determinat quaestiones alias &amp; dicit quod non est 
+      <lb ed="#L" n="52"/>concedendum quod diuina essentia genuit filium, quia cum 
+      fi<lb ed="#L" n="53" break="no"/>lius fit idem cum essentia diuina sequeretur qo idem generare 
+      <lb ed="#L" n="54"/>seipsum, &amp; eadem ratione determinat quod diuina essentia non ge 
+      <lb ed="#L" n="55"/>nerat diuinam essentiam. Postea obiicit in contrarium, 
+      proban<lb ed="#L" n="56" break="no"/>do per multas auctoritates August. quod essentia filij est de essen 
+      <lb ed="#L" n="57"/>tia patris, &amp; sapientia de sapientia, &amp; diuinitas de diuinitate 
+      <lb ed="#L" n="58"/>Et respondet quod cum dicitur sapientia de sapientia sensus est, 
+      <lb ed="#L" n="59"/>filius qui est sapientia est de patre qui est sapientia, &amp; similitei 
+      <lb ed="#L" n="60"/>exponendae sunt aliae. Obiicit autem ad hoc per auctoritates 
+      <lb ed="#L" n="61"/>Hilarij ostendendo quod natura filij est nata de patre, &amp; soluit. 
+      <lb ed="#L" n="62"/>natura est nata, id est nascendo accepta, vel filius qui est 
+      eius<lb ed="#L" n="63" break="no"/>dem naturae cum patre est natus a patre. Vitimo obiicit quod 
+      <lb ed="#L" n="64"/>diuina essentia generat filium, ostendendo per multas 
+      auctori<lb ed="#L" n="65" break="no"/>tates quod pater genuit filium de sua substantia. Item 
+      osten<lb ed="#L" n="66" break="no"/>dendo quod filius est eiusdem naturae cum patre, &amp; responde 
+      <lb ed="#L" n="67"/>magister, quod autoritates istae sunt exponendae, sensus enim es 
+      <lb ed="#L" n="68"/>quod pater genuit filium de sua substantia, id est, genuit non 
+      di<lb ed="#L" n="69" break="no"/>nihilo, sed genuit talem qui est eiusdem naturae cum illo. Hanc 
+      <lb ed="#L" n="70"/>expositionem confirmat per multas auctoritates. Addit etiam 
+      <lb ed="#L" n="71"/>quod filius ideo dicitur filius natura non per adoptionem 
+      ha<lb ed="#L" n="72" break="no"/>bens naturam eandem cum patre. Et in hoc terminatur 
+      sen<lb ed="#L" n="73" break="no"/>tentia in speciali.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="238-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e196324"><!-- l3d35prae -->
+            <head xml:id="jsnvu6-e196324-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e196324-d1e103">
+               <lb ed="#L" n="146"/>Sententia huius distinctionis XXXV. 
+      <lb ed="#L" n="147"/>enerali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e196324-d1e110">
+               <lb ed="#L" n="148"/>POST praemissa diligenter considerandum. 
+      Supe<lb ed="#L" n="149" break="no"/>rius magister determinauit de donis. Hic intendit 
+      <lb ed="#L" n="150"/>ostendere quorundam donorum differentiam, quae 
+      <lb ed="#L" n="151"/>maxime conueniunt adinuicem, scilicet sapientiae, 
+      <lb ed="#L" n="152"/>gi scientiae &amp; intellectus. Et diuiditur in duas. In 
+      pri<lb ed="#L" n="153" break="no"/>ma assignat differentiam, in secunda respondet ad quaedam 
+      du<lb ed="#L" n="154" break="no"/>bitabilia ibi, Et notandum est quod intellectus. Prima in duas 
+      <lb ed="#L" n="155"/>Primo assignat differentiam inter sapientiam &amp; scientiam. 
+      Se<lb ed="#L" n="156" break="no"/>cundo inter sapientiam &amp; intellectum ostensa differentia, tunc 
+      <lb ed="#L" n="157"/>sequitur illa pars in qua determinat dubia. Et primo circa 
+      sci<lb ed="#L" n="158" break="no"/>entiam. Secundo circa sapientiam ibi, illud quoque sciendum 
+      <lb ed="#L" n="159"/>Haec est diuisio &amp;c.
+    </p>
+            <p xml:id="jsnvu6-e196324-d1e139">
+      <!--00551.xml-->
+               <pb ed="#L" n="239-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>In speciali sic procedit. Et primo ostendit differentiam inter 
+      <lb ed="#L" n="2"/>sapientiam &amp; scientiam, quia sapientia est rerum diuinarum &amp; 
+      <lb ed="#L" n="3"/>humanarum cognitio, scientia vero cognitio humanarum rerum, 
+      <lb ed="#L" n="4"/>&amp; secundum August. sapientia de diuinis &amp; humanis est: 
+      scien<lb ed="#L" n="5" break="no"/>tia autem de humanis tantum loquendo de sapientia non 
+      secun<lb ed="#L" n="6" break="no"/>dum Philosophos, sed secundum Apost. 1. Corin. 12. vbi dicit qui 
+      <lb ed="#L" n="7"/>alij datur sapientiae sermo, alij sermo scientiae, &amp;c. Nec scientia 
+      <lb ed="#L" n="8"/>est de omnibus rebus humanis, sed de humanis per quae fides 
+      <lb ed="#L" n="9"/>adiuuatur aliquo modo. Item secunda differentia est secundum 
+      <lb ed="#L" n="10"/>Aug. quod sapientia est de his quae ad diuinum cultum &amp; dilectionie 
+      <lb ed="#L" n="11"/>pertinent, scientia vero de his quae pertinent ad auersionem qua 
+      <lb ed="#L" n="12"/>est in medio nationis prauae &amp; peruersae. Item alia ponitur dif 
+      <lb ed="#L" n="13"/>ferentia secundum Aug. Sapientia pertinet ad Dei 
+      contempla<lb ed="#L" n="14" break="no"/>tionem, scientia vero ad actionem, sapientia est de diuinis, scies 
+      <lb ed="#L" n="15"/>tia de humanis, &amp; indeo de Christo habemus scientiam &amp; sapien 
+      <lb ed="#L" n="16"/>tiam, quia Deus est &amp; homo. Consequenter ponit differentiam 
+      <lb ed="#L" n="17"/>inter sapientiam &amp; intellectum, dicens quod sapientia est proprie de 
+      <lb ed="#L" n="18"/>aeternis, intellectus de Deo &amp; rebus inuisibilibus creatis 
+      indiffi<lb ed="#L" n="19" break="no"/>renter. Item intellectus consistit in sola creatoris &amp; creaturarum 
+      <lb ed="#L" n="20"/>inuisibilium cognitione, sapientia vero in creatoris cognitione 
+      <lb ed="#L" n="21"/>&amp; delectatione. Ex his patet differentia inter illa tria, quia scien 
+      <lb ed="#L" n="22"/>tia valet ad bonam conuersationem &amp; temporalium rerum ad 
+      <lb ed="#L" n="23"/>ministrationem, intellectus valet ad creatoris &amp; creaturarum 
+      in<lb ed="#L" n="24" break="no"/>uisibilium cognitionem: sapientia vero ad Dei cognitionem &amp; De 
+      <lb ed="#L" n="25"/>dilectionem. Demum quia aliquis posset credere quod intellectus 
+      <lb ed="#L" n="26"/>&amp; scientia de quibus hic communicarentur homini, &amp; quod natura 
+      <lb ed="#L" n="27"/>lia essent dicit quod non, sed a Deo infunduntur animabus, sanctis 
+      <lb ed="#L" n="28"/>per quae etiam in illis intellectus &amp; mens reformantur. Vltime 
+      <lb ed="#L" n="29"/>dicit quod sapientia ista non est Deus, sed donum eius, quia a Dec 
+      <lb ed="#L" n="30"/>infunditur homini, vt sit particeps summae sapientiae. Vnde sicut 
+      <lb ed="#L" n="31"/>dicitur iustitia quae Deus est, vel quam Deus dat homini, cum ipsum 
+      <lb ed="#L" n="32"/>iustificat, sic &amp; sapientia Dei dicitur, vel quia Deus est, vel qui 
+      <lb ed="#L" n="33"/>dat Deus homini, vt sit sapiens. Et in hoc terminatur, &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

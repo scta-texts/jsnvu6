@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="40-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e793"><!-- l1d13q1 -->
+            <head xml:id="jsnvu6-d1e793-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e793-Hd1e103" type="question-title">Utrum in divinis sit aliqua processio</head>
+            <p xml:id="jsnvu6-d1e793-d1e106">
+               <lb ed="#L" n="157"/>VARSTIO PIIIA. 
+      <lb ed="#L" n="158"/>Vtrum in diuinis sit aliqua processio. 
+      <lb ed="#L" n="159"/>Thom. 1. 9. 17. ar. 1.
+    </p>
+            <p xml:id="jsnvu6-d1e793-d1e115">
+      <!--00146.xml-->
+               <pb ed="#L" n="40-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>CIRCA distinctionem istam quaeruntur tria. 
+      Pri<lb ed="#L" n="2" break="no"/>mum est vtrum in diuinis sit aliqua processio. 
+      Se<lb ed="#L" n="3" break="no"/>cundum est vtrum generatio filij &amp; processio 
+      spiri<lb ed="#L" n="4" break="no"/>tus sancti sint emanationes distinctae realiter. Ter 
+      <lb ed="#L" n="5"/>tium est vtrum spiritus sanctus possit dici 
+      ingeni<lb ed="#L" n="6" break="no"/>tus. Ad primum sic proceditur. Et videtur quod in diuinis non si 
+      <lb ed="#L" n="7"/>aliqua processio, quia vel esset localis vel causalis, non localis 
+      <lb ed="#L" n="8"/>quia non est ibi motus personae de loco ad locum, nec causalis, 
+      <lb ed="#L" n="9"/>quia in diuinis non est causa &amp; causatum, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e793-d1e144">
+               <lb ed="#L" n="10"/>
+               <!--2--> Item si in diuinis aliqua esset processio, aut est eadem cum 
+      <lb ed="#L" n="11"/>generatione tantum &amp; ita non coueniret spiritui sancto quod 
+      <lb ed="#L" n="12"/>non est verum cum dicat Athanasius in symbolo quod 
+      Spiri<lb ed="#L" n="13" break="no"/>tus sanctus non est genitus sed procedens, aut diuiditur contra 
+      <lb ed="#L" n="14"/>generationem. Et ita non conueniret filio quod similiter non 
+      <lb ed="#L" n="15"/>est verum, cum filius dicat Ioan. 8. Ego enim ex Deo process 
+      <lb ed="#L" n="16"/>&amp; veni. aut esset in plus &amp; tunc vt videtur non deberet appro 
+      <lb ed="#L" n="17"/>priari Spirituisancto, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e793-d1e167">
+               <lb ed="#L" n="18"/>
+               <!--3--> IN CONTRARIVM est quod dicitur Ioan. 15 
+      <lb ed="#L" n="19"/>Cum venerit paracletus quem ego mittam vobis spiritum 
+      ve<lb ed="#L" n="20" break="no"/>ritatis qui a patre procedit. 
+      </p>
+            <p xml:id="jsnvu6-d1e793-d1e178">
+               <lb ed="#L" n="21"/>
+               <!--4--> RESPONSIO. duo sunt hic declaranda. Primum est 
+      <lb ed="#L" n="22"/>quomodo processio sit in diuinis. Secundum est quare 
+      appro<lb ed="#L" n="23" break="no"/>priatur Spiritui sancto. vtrumque enim in argumentis tangitur 
+      <lb ed="#L" n="24"/>Quantum ad primum sciendum est quod nomen processionis 
+      <lb ed="#L" n="25"/>videtur primo fuisse impositum ad significandum motum pro 
+      <lb ed="#L" n="26"/>gressiuum animalium quo mouent seipsa, &amp; sic dicitur 
+      pro<lb ed="#L" n="27" break="no"/>cessio quasi propter virtutem incessio. Inde translatum est ad 
+      <lb ed="#L" n="28"/>significandum omnem localem motum &amp; mutationem quae est 
+      <lb ed="#L" n="29"/>ex quodam in quiddam. Et postremo ad omnem 
+      emanatio<lb ed="#L" n="30" break="no"/>nem secundum quod aliquid est ab alio vt a causa sua vel 
+      prin<lb ed="#L" n="31" break="no"/>cipio. Dicimus enim quod effectus procedit a sua causa, &amp; 
+      vni<lb ed="#L" n="32" break="no"/>uersaliter quaelibet res procedit a suo principio, nullo autem 
+      <lb ed="#L" n="33"/>dictorum modorum processio est in diuinis nisi tantum vltimo 
+      <lb ed="#L" n="34"/>modo, &amp; hoc exclusis imperfectionibus quae sunt ex 
+      processio<lb ed="#L" n="35" break="no"/>nibus creaturarum ex causis suis quae ibi sunt ratione motus, 
+      <lb ed="#L" n="36"/>aut mutationis, aut diuersitatis essentiae, vt in creatione 
+      qui<lb ed="#L" n="37" break="no"/>bus exclusis de ratione processionis solum est quod procedem: 
+      <lb ed="#L" n="38"/>sit ab alio. Exclusis enim ab actione omni motu ex 
+      mutatio<lb ed="#L" n="39" break="no"/>ne &amp; innouatione remanent soli respectu a quo aliud &amp; quod 
+      <lb ed="#L" n="40"/>ab alio, haec autem reperiuntur in diuinis, ergo &amp;c. Ex quo 
+      pa<lb ed="#L" n="41" break="no"/>tet primo quod processio solum dicitur in diuinis de 
+      emana<lb ed="#L" n="42" break="no"/>tione passiua, quia illi solum conuenit procedere cui 
+      conue<lb ed="#L" n="43" break="no"/>nit ab alio esse, hoc autem non conuenit nisi producto, 
+      ergi<lb ed="#L" n="44" break="no"/>processio non conuenit nisi producto. Secundo patet quod 
+      <lb ed="#L" n="45"/>processio quantum est de vi nominis communis est 
+      emanatio<lb ed="#L" n="46" break="no"/>ni filij &amp; Spiritu sancti, quia esse ab alio est commune filio &amp; 
+      <lb ed="#L" n="47"/>Spiritu sancto, ergo &amp; processio, &amp; sic patet primum. 
+</p>
+            <p xml:id="jsnvu6-d1e793-d1e241">
+               <lb ed="#L" n="48"/>QVANTVM ad secundum sciendum est quod licet 
+      <lb ed="#L" n="49"/>processio vt statim dictum est quantum est ex vi nominis com 
+      <lb ed="#L" n="50"/>munis sit filio &amp; Spiritui sancto, tamen appropriatur 
+      emana<lb ed="#L" n="51" break="no"/>tioni Spiritus sancti, emanatio enim filij habet proprium 
+      no<lb ed="#L" n="52" break="no"/>men &amp; vocatur generatio. Ratio autem appropriationis est tri 
+      <lb ed="#L" n="53"/>plex, vna est penuria nominum in his quae pertinent ad 
+      Spi<lb ed="#L" n="54" break="no"/>ritum sanctum. Et ideo emanatio eius retinet commune 
+      no<lb ed="#L" n="55" break="no"/>men cum deficit proprium. 
+      </p>
+            <p xml:id="jsnvu6-d1e793-d1e261">
+               <lb ed="#L" n="56"/>
+               <!--6--> Secunda est ex conuenientia nominis processionis. 
+      Signifi<lb ed="#L" n="57" break="no"/>cat enim primo modo motum voluntarium accipiendo 
+      vo<lb ed="#L" n="58" break="no"/>luntatem pro appetitu sequente cognitionem, Spiritus autem 
+      <lb ed="#L" n="59"/>sanctus procedit per modum voluntatis. Et ideo 
+      conuenien<lb ed="#L" n="60" break="no"/>ter appropriatur ei nomen processionis. 
+</p>
+            <p xml:id="jsnvu6-d1e793-d1e277">
+               <lb ed="#L" n="61"/>Tertia quia Spiritussanctus procedit a pluribus quam 
+      fi<lb ed="#L" n="62" break="no"/>lius, procedit enim non solum a non procedente vt filius qu 
+      <lb ed="#L" n="63"/>est a solo patre, sed etiam a procedente &amp; non procedente 
+      <lb ed="#L" n="64"/>quia procedit a patre &amp; filio, propter quod quasi per excellen 
+      <lb ed="#L" n="65"/>tiam competit ei processio. 
+      </p>
+            <p xml:id="jsnvu6-d1e793-d1e290">
+               <lb ed="#L" n="66"/>
+               <!--8--> Ad primum argumentum dicendum quod non est in diuinis processio lo 
+      <lb ed="#L" n="67"/>calis &amp; causalis proprie loquendo, quia causa &amp; causatum non sunt 
+      <lb ed="#L" n="68"/>ibi, sed est ibi processio quae est principiati a suo principio. 
+      </p>
+            <p xml:id="jsnvu6-d1e793-d1e302">
+               <lb ed="#L" n="69"/>
+               <!--9--> Ad secundum dicendum quod processio communis est 
+      ema<lb ed="#L" n="70" break="no"/>nationi filij &amp; Spiritus sancti, sed propter dictas causas appro 
+      <lb ed="#L" n="71"/>priatur emanationi Spirnitus sancti. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

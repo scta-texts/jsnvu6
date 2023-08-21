@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="200-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e164410"><!-- l3d11prae -->
+            <head xml:id="jsnvu6-e164410-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e164410-d1e103">
+               <lb ed="#L" n="152"/>Sententia huius distinctionis xj. in 
+      <lb ed="#L" n="153"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-e164410-d1e110">
+               <lb ed="#L" n="154"/>SOLET autem quaeri, Superius magister 
+      deter<lb ed="#L" n="155" break="no"/>minauit qualiter ea quae sunt dignitatis in 
+      huma<lb ed="#L" n="156" break="no"/>na natura possunt dici de Christo, hic 
+      determi<lb ed="#L" n="157" break="no"/>nat quo modo ea quae pertinent ad defectum 
+      hu<lb ed="#L" n="158" break="no"/>a manae naturae possunt dici de Christo. Es 
+      diuidi<lb ed="#L" n="159" break="no"/>turm duas, quia primo inquirit vtrum esse factum vel creatum, 
+      <lb ed="#L" n="160"/>vel esse creaturam possunt dici de Christo, &amp; secundo vtrum 
+      <lb ed="#L" n="161"/>defectus qui consequuntur naturam humanam inquantum est 
+      <!--00474.xml-->
+      <pb ed="#L" n="200-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>creatura, vel alio modo possunt Christo conuenire. 
+      Secun<lb ed="#L" n="2" break="no"/>da in duas ibi, post praedicta. Prima diuiditur in duas. 
+      Pri<lb ed="#L" n="3" break="no"/>mo quaerit vtrum Christus possit dici factus vel creatus. 
+      Secun<lb ed="#L" n="4" break="no"/>do respondet ibi, ad quod sane potest dici. Et haec diuiditur in 
+      <lb ed="#L" n="5"/>duas, quia primo ostendit quod Christus non debet dici factu 
+      <lb ed="#L" n="6"/>vel creatus simpliciter &amp; absolute. Secundo ostendit quod potes 
+      <lb ed="#L" n="7"/>dici factus vel creatus cum additione, ibi, his aliisque pluribus 
+      <lb ed="#L" n="8"/>Haec est diuisio in generali. 
+      </p>
+            <p xml:id="jsnvu6-e164410-d1e154">
+               <lb ed="#L" n="9"/>
+               <!--2--> IN SPECIALI procedit sic, &amp; quaerit vtrum Christus. 
+      <lb ed="#L" n="10"/>debeat dici factus vel creatus vel creatura, &amp; dicit quod non sin 
+      <lb ed="#L" n="11"/>pliciter &amp; absolute ostendendo per Augu. quod filius dei non es 
+      <lb ed="#L" n="12"/>factus nec creatus, sed per ipsum omnia facta sunt &amp; creata vi 
+      <lb ed="#L" n="13"/>habetur Ioan. primo. Idem ostendit per auctoritatem. Amb. 
+      al<lb ed="#L" n="14" break="no"/>legantis, illud dictum euangelij quo Christus dicit apostolis 
+      prae<lb ed="#L" n="15" break="no"/>dicate euangelium omni creaturae. In hoc tamen errauit Arrius 
+      <lb ed="#L" n="16"/>dicens Christum esse puram creaturam. Postea dicit quod 
+      Chri<lb ed="#L" n="17" break="no"/>stus vel filius dei potest dici factus secundum caruem vel factus 
+      <lb ed="#L" n="18"/>homo, vel natus ex muliere. Quod probat pluribus auctoritati 
+      <lb ed="#L" n="19"/>bus. Et in hoc terminatur &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="35-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e686"><!-- l1d10q1 -->
+            <head xml:id="jsnvu6-d1e686-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e686-Hd1e103" type="question-title">Utrum Spiritus Sanctus sit proprium nomen alicuius personae divinae</head>
+            <p xml:id="jsnvu6-d1e686-d1e106">
+               <lb ed="#L" n="64"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="65"/>Vtrum Spiritus sanctus sit proprium 
+      <lb ed="#L" n="66"/>nomen alicuius personae diuinae. 
+    </p>
+            <p xml:id="jsnvu6-d1e686-d1e115">
+               <lb ed="#L" n="67"/>CIRCA distinctionem istam consueuit quaeri vtri 
+      <lb ed="#L" n="68"/>in diuinis aliqua persona procedat per modum 
+      <lb ed="#L" n="69"/>voluntatis, &amp; vtrum persona sic procedens 
+      de<lb ed="#L" n="70" break="no"/>beat dici amor. Sed quia de prima quaestione 
+      sa<lb ed="#L" n="71" break="no"/>tis dictum fuit supra distinctio 6. Secunda autem 
+      <lb ed="#L" n="72"/>quaestio totaliter dependet ex prima, quia sicut competit 
+      <lb ed="#L" n="73"/>personae diuinae procedere per modum voluntatis, sic 
+      compe<lb ed="#L" n="74" break="no"/>tit ei quod sortiatur nomen amoris, ideo de his nihil plus 
+      di<lb ed="#L" n="75" break="no"/>cem ad praesens. Sed restat quaerendum de duobus aliis, scili 
+      <lb ed="#L" n="76"/>cet vtrum Spiritus sanctus sit proprium nomen alicuius 
+      perso<lb ed="#L" n="77" break="no"/>nae diuinae, &amp; vtrum in diuinis sint tantum tres personae. Ad 
+      <lb ed="#L" n="78"/>primum sic proceditur. Et videtur quod non, quia omne quod 
+      <lb ed="#L" n="79"/>est &amp; non est corpus est Spiritus, sed pater &amp; quaelibet persona 
+      <lb ed="#L" n="80"/>diuina est, &amp; non est corpus, ergo est Spiritus. Et constat quod 
+      <!--00136.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>quilibet sanctus est, ergo Spiritus sanctus non est proprium 
+      no<lb ed="#L" n="82" break="no"/>men, proprium alicuius personae diuinae, sed est commune cuilibet. 
+      </p>
+            <p xml:id="jsnvu6-d1e686-d1e157">
+               <lb ed="#L" n="83"/>
+               <!--2--> Item quod conuenit toti trinitati non conuenit soli 
+      perso<lb ed="#L" n="84" break="no"/>nae, sed nomen Spi. san. conuenit trinitati toti, secundum illud 
+      <lb ed="#L" n="85"/>Ioan. 4. Deus Spiritus est, &amp; eos qui adorant, in Spiritu &amp; 
+      ve<lb ed="#L" n="86" break="no"/>ritate oportet adorare: adoratio autem trinitatis &amp; non vnius 
+      <lb ed="#L" n="87"/>tantum personae: ergo &amp;c. totius est. 
+      </p>
+            <p xml:id="jsnvu6-d1e686-d1e174">
+               <lb ed="#L" n="88"/>
+               <!--3--> IN CONTRARIVM est quod dicitur primae Ioan 
+<lb ed="#L" n="89"/>5. tres sunt qui testimonium dant in caelo, pater, verbum, &amp; 
+      Spi<lb ed="#L" n="90" break="no"/>ritus sanctus. Sed pater est proprium nomem vnius personae. 
+      Si<lb ed="#L" n="91" break="no"/>militer &amp; verbum, ergo &amp; Spiritus sanctus. 
+      </p>
+            <p xml:id="jsnvu6-d1e686-d1e187">
+               <lb ed="#L" n="92"/>
+               <!--4--> RESPONSIO. Dicendum quod Spi. san. vno modo 
+      <lb ed="#L" n="93"/>dicitur a spiritualitate, &amp; sic conuenit omnibus personis. Alic 
+      <lb ed="#L" n="94"/>modo dicitur a spiratione, &amp; sic conuenit tantum tertiae personi 
+      <lb ed="#L" n="95"/>in diuinis. Haec autem probatur vnica ratione sic: Cuius porso 
+      <lb ed="#L" n="96"/>nae proprium spirari illius proprium est esse Spiritum, prou 
+      <lb ed="#L" n="97"/>Spiritus dicitur a spiratione, sed tertiae personae in diuinis 
+      pro<lb ed="#L" n="98" break="no"/>prium est spirari: Sicut enim emanatio filij a patre dicitur gene 
+      <lb ed="#L" n="99"/>ratio, sic processio Spiritus sancti ab vtroque dicitur spiratio, ei 
+      <lb ed="#L" n="100"/>go tertiae personae in diuinis proprium est esse Spiritum proui 
+      <lb ed="#L" n="101"/>Spi. dicitur a spiratione quasi Spiritus, prout autem Spiritus di 
+      <lb ed="#L" n="102"/>citur a spiritualitate, Spiritus non est proprium nomen 
+      terti<lb ed="#L" n="103" break="no"/>personae, sed appropriatum tantum, id est de communi tractum 
+      <lb ed="#L" n="104"/>ad proprium propter aliquam specialem conuenientiam: Sic 
+      <lb ed="#L" n="105"/>enim Spiritus sonat in subtilitatem, vnde subtilia in 
+      corporali<lb ed="#L" n="106" break="no"/>bus Spiritus vocamus, sicut ventum &amp; aerem &amp; corpus 
+      subti<lb ed="#L" n="107" break="no"/>le quod est instrumentum virium anim ae: magis etiam 
+      propri<lb ed="#L" n="108" break="no"/>Spiritus dicuntur omnia incorporalia sicut dicimus Angelo 
+      <lb ed="#L" n="109"/>Spiritus, Deum etiam Spiritum vocamus: Iuxta illud Ioan. 4 
+      <lb ed="#L" n="110"/>Deus Spiritus est: sed ex vsu scripturae inuenitur appropriatum 
+      <lb ed="#L" n="111"/>tertiae personae propter aliquas congruitates, vna est, quia 
+      ter<lb ed="#L" n="112" break="no"/>tia persona procedit communiter a prima &amp; secunda, &amp; idec 
+      <lb ed="#L" n="113"/>quod est commune vtrique attribuitur tertiae personae 
+      commu<lb ed="#L" n="114" break="no"/>niter procedenti ab vtraque. Cum ergo pater sit Spiritus &amp; 
+      Fi<lb ed="#L" n="115" break="no"/>lius Spiritus &amp; vterque sanctus: Tertia persona a patro &amp; filic 
+      <lb ed="#L" n="116"/>communiter procedens vocatur appropriate Spiritus sanctus 
+      <lb ed="#L" n="117"/>Et hanc rationem tangit beatus August. 15. de trini. Alia ratic 
+      <lb ed="#L" n="118"/>est, quia in rebus corporeis spiritus sonat in quandam 
+      impul<lb ed="#L" n="119" break="no"/>sionem vel motionem: illud autem quo maxime mouemur est 
+      <lb ed="#L" n="120"/>voluntas cuius potissima affectio maxime motiua est amor, 
+      <lb ed="#L" n="121"/>propter quod persona procedens per modum voluntatis (vt 
+      <lb ed="#L" n="122"/>amor) appropriate dicitur Spiritus sanctus. Sanctus additur, 
+      <lb ed="#L" n="123"/>quia vt dicit Eustratius super primum Ethicorum, Iustum 
+      consi<lb ed="#L" n="124" break="no"/>stit in aequalitate ad alterum: sanctum autem in ordine ad Deum 
+      <lb ed="#L" n="125"/>Et quia dona, quibus ordinamur ad Deum attribuuntur per 
+      <lb ed="#L" n="126"/>appropriationem tertiae personae in diuinis: ideo &amp; sanctum ei 
+      <lb ed="#L" n="127"/>appropriatur. 
+      </p>
+            <p xml:id="jsnvu6-d1e686-d1e270">
+               <lb ed="#L" n="128"/>
+               <!--5--> Per hoc patet responsio ad argumentum vtriusque partis, 
+      <lb ed="#L" n="129"/>duo enim prima probant quod Spiritus dictus a spiritualitate, 
+      <lb ed="#L" n="130"/>&amp; prout Spiritualitas non solum sonat in subtilitatem, sed etiam 
+      <lb ed="#L" n="131"/>in immaterialitatem conuenit toti trinitati, nec est proprium 
+      <lb ed="#L" n="132"/>alicuius personae, appropriatur tamen propter rationes 
+      com<lb ed="#L" n="133" break="no"/>munes dictas: Spiritus autem dictus a spiratione proprie 
+      con<lb ed="#L" n="134" break="no"/>uenit tertiae personae: Et per idem patet solutio ad argumentum 
+      <lb ed="#L" n="135"/>in oppositum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

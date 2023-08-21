@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="233-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e192134"><!-- l3d32prae -->
+            <head xml:id="jsnvu6-e192134-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e192134-d1e103">
+               <lb ed="#L" n="127"/>Sententia huius distinctionis XXXII. in 
+      <lb ed="#L" n="128"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e192134-d1e110">
+               <lb ed="#L" n="129"/>PRAEDICTIS adiiciendum. Superius magister 
+      <lb ed="#L" n="130"/>egit de dilectione increata qua deum diligimus. 
+      <lb ed="#L" n="131"/>Hic agit de dilectione increata qua deus diligit 
+      <lb ed="#L" n="132"/>nos. Et diuiditur in tres. Quia primo agit de 
+      dile<lb ed="#L" n="133" break="no"/>ctione dei respectu omnium creaturarum 
+      genera<lb ed="#L" n="134" break="no"/>liter. Secundo respectu omnium specialiter ibi, consideratur. 
+      <lb ed="#L" n="135"/>Tertio specialius respectu reproborum ibi de reprobis. Prima 
+      <lb ed="#L" n="136"/>in duas. Primo ostendit diuinae dilectionis ad diuersos 
+      inaequa<lb ed="#L" n="137" break="no"/>litatem. Secundo assignat inaequalitatis rationem ibi, quum 
+      au<lb ed="#L" n="138" break="no"/>tem Secunda principalis diuiditur, quia primo ostendit qualiter 
+      <lb ed="#L" n="139"/>deus incipit aliquem hominem de nouo diligere. Secundo 
+      in<lb ed="#L" n="140" break="no"/>quirit an eundem hominem diligat eodem tempore plus quam 
+      <lb ed="#L" n="141"/>alio ibi, si vero quaeritur. Haec est sententia &amp; diuisio lectionis 
+      <lb ed="#L" n="142"/>in generali. 
+      </p>
+            <p xml:id="jsnvu6-e192134-d1e143">
+               <lb ed="#L" n="143"/>
+               <!--2.--> In speciali sic procedit. Et dicit quod eadem est dilectio, qua 
+      <lb ed="#L" n="144"/>deus diligit nos, &amp; qua nos diligimus deum: de qua aduertendum 
+      <lb ed="#L" n="145"/>est quod magister in hoc non tenetur, sicut patuit primo libro, 
+      <lb ed="#L" n="146"/>distinctione 17. Tunc dicit quod licet dilectio dei sit 
+      immutabi<lb ed="#L" n="147" break="no"/>lis, tamen deus dicitur diligere vnum plusquam alium, quod 
+      pro<lb ed="#L" n="148" break="no"/>bat per Augustinum super Ioan. qui dicit quod deus diligit 
+      om<lb ed="#L" n="149" break="no"/>nia quae fecit, &amp; sic diligit omnem creaturam, sed magis membra 
+      <lb ed="#L" n="150"/>Christi vnigeniti sui, sed amplius ipsum Christum. Tunc dicitae 
+      <lb ed="#L" n="151"/>dilectio dei licet sit immutabilis &amp; aeterna, tamen deus vnum 
+      plu<lb ed="#L" n="152" break="no"/>diligit quam alium, sine mutatione suae dilectionis quantum ad 
+      <lb ed="#L" n="153"/>eius essentiam, per quam diligit omnia etiam ab aeterno, sed 
+      mu<lb ed="#L" n="154" break="no"/>tatio est ex parte effectuum, vel donorum quae tribuit vel 
+      praece<lb ed="#L" n="155" break="no"/>perat illis quos diligit. Vnde dicitur illos magis diligere quibus 
+      <!--00541.xml-->
+      <pb ed="#L" n="234-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tribuit, vel praeparat maiora bona, quam illos quibus tribuit 
+      <lb ed="#L" n="2"/>vel praeparat minora bona: dilectio ergo Dei considerata secun 
+      <lb ed="#L" n="3"/>dum essentiam non dicitur secundum magis &amp; minus, sed 
+      so<lb ed="#L" n="4" break="no"/>lum secundum efficientiam. Similiter Deus dicitur diligere vnum 
+      <lb ed="#L" n="5"/>&amp; eundem hominem vno tempore plusquam alio, inquantum 
+      <lb ed="#L" n="6"/>confert illi maiora bona vno tempore quam in alio. Vitimo 
+      <lb ed="#L" n="7"/>quaerit vtrum Deum diligat reprobos, quos presciuit damnar 
+      <lb ed="#L" n="8"/>dos. Et respondet quod simpliciter &amp; absolute dicitur Deus di 
+      <lb ed="#L" n="9"/>ligere electos, non autem reprobos nisi cum determinatione 
+      <lb ed="#L" n="10"/>inquantum confert eis aliqua bona temporalia vel gratuita ad 
+      <lb ed="#L" n="11"/>tempus. Et in hoc terminatur sententia iectionis &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

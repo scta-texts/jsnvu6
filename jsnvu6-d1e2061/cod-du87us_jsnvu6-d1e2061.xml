@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="96-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2061"><!-- l1d43q2 -->
+            <head xml:id="jsnvu6-d1e2061-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e2061-Hd1e103" type="question-title">Utrum Deus possit aliquod infinitum actu</head>
+            <p xml:id="jsnvu6-d1e2061-d1e106">
+               <lb ed="#L" n="144"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="145"/>Utrum deus possit facere aliquod infinitum actu. 
+      <lb ed="#L" n="146"/>Tham. l. q. 7. art. 3. &amp;4.
+    </p>
+            <p xml:id="jsnvu6-d1e2061-d1e115">
+               <lb ed="#L" n="147"/>OCCASIONE eius quod dictum est, Quaeritur, 
+      <lb ed="#L" n="148"/>vtrum deus possit facere aliquod infinitum actu. 
+      <lb ed="#L" n="149"/>ut videtur quod non, quia de ratione infiniti est 
+      <lb ed="#L" n="150"/>quod non possit pertransiri neque a finito, neq 
+      <lb ed="#L" n="151"/>ab infinito, vt probatur 6. Physi. sed si infinitum 
+      <lb ed="#L" n="152"/>esset productum quodammodo esset pertransitum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e131">
+               <lb ed="#L" n="153"/>
+               <!--2--> Item impossibile est effectum aequari suae causae aequiuoce, 
+      <lb ed="#L" n="154"/>sed si deus produceret effectum infinitum ille adaequaretur sua 
+      <lb ed="#L" n="155"/>causae aequiuoce (scilicet deo) quia infinito nihil est majus, non 
+      <lb ed="#L" n="156"/>solum secundum quantitatem molis, sed etiam secundum, quam 
+      <lb ed="#L" n="157"/>titatem virtutis, quia in magnitudine infinita non potest esse 
+      vir<lb ed="#L" n="158" break="no"/>tutis finita, vt probatur 8. Physic. sic ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e150">
+               <lb ed="#L" n="159"/>
+               <!--3--> Item infinitum est cuius quantitatem accipientibus semper 
+      <lb ed="#L" n="160"/>est aliquid sumere extra, vt dicitur 3. Physi. sed si infinitum esset 
+      <lb ed="#L" n="161"/>actu, nihil eius esset sumere extra, ergo contra rationem 
+      infini<lb ed="#L" n="162" break="no"/>ti est esse actu, &amp; sic idem quod prius.
+</p>
+            <p xml:id="jsnvu6-d1e2061-d1e163">
+      <!--00259.xml-->
+               <pb ed="#L" n="97-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>4 IN CONTRARIVM arguitur, quia deus potest 
+      <lb ed="#L" n="2"/>sub qualibet specie producere aliquod indiuiduum, sed si sub 
+      <lb ed="#L" n="3"/>qualibet specie figurae esset producta aliqua figura, illae figurae 
+      <lb ed="#L" n="4"/>essent actu infinitae, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e181">
+               <lb ed="#L" n="5"/>
+               <!--5.--> Item deus potest facere quicquid non repugnatrationi rei, sed 
+      <lb ed="#L" n="6"/>rationi quantitatis non repugnat infinitum, imo finitum &amp; infinitum 
+      <lb ed="#L" n="7"/>quantitati conueniunt, vt dicitur 1. Physic. ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e192">
+               <lb ed="#L" n="8"/>
+               <!--6--> RESPONSIO. Quaestio ista non intelligitur de 
+      infi<lb ed="#L" n="9" break="no"/>nito secundum essentiam (vtrum deus possit aliquod tale infinitum 
+      <lb ed="#L" n="10"/>producere) cum constet omnem creaturam necessario limitari 
+      <lb ed="#L" n="11"/>ad certum genus &amp; ad certam speciem, intelligitur ergo de 
+      in<lb ed="#L" n="12" break="no"/>finito secundum quantitatem quod est duplex, scilicet secundum 
+      <lb ed="#L" n="13"/>magnitudinem, &amp; secundum multitudinem, sicut est duplex 
+      quanti<lb ed="#L" n="14" break="no"/>tas, continua videlicet &amp; discreta. Primo ergo videamus, vtrum re 
+      <lb ed="#L" n="15"/>pugnet naturae rei creatae infinitas secundum multitudinem: &amp; 
+      <lb ed="#L" n="16"/>secundo an repugnet ei infinitas secundum magnitudinem. Adhuc 
+      <lb ed="#L" n="17"/>circa primum primo ponetur illud, quod est clarum, &amp; ab 
+      omni<lb ed="#L" n="18" break="no"/>bus concessum: &amp; secundo inquiretur de eo quod est dubium 
+</p>
+            <p xml:id="jsnvu6-d1e2061-d1e221">
+               <lb ed="#L" n="19"/>Quantum ad primum sciendum est, quod conceditur ab omni 
+      <lb ed="#L" n="20"/>bus, quod in ordinatis per se &amp; essentialiter impossibile est dare mul 
+      <lb ed="#L" n="21"/>titudinem infinitam actu, cuius ratio est, quia si in ordinatis per si 
+      <lb ed="#L" n="22"/>&amp; essentialiter esset multitudo actu infinita in illa multitudinie 
+      <lb ed="#L" n="23"/>esset aliqua species virtutis vel perfectionis infinitae, consequem 
+      <lb ed="#L" n="24"/>est falsum, ergo &amp; antecedens: falsitas consequentis patet, quia 
+      <lb ed="#L" n="25"/>infinita perfectio non potest competere nisi deo, consequentia 
+      pro<lb ed="#L" n="26" break="no"/>batur, quia in ordinatis essentialiter semper vnum est perfectiu 
+      <lb ed="#L" n="27"/>altero, nec est dare duo in aequali gradu perfectionis, necesse est 
+      <lb ed="#L" n="28"/>ergo in tota multitudine ordinatorum essentialiter quod vnum sit 
+      pe<lb ed="#L" n="29" break="no"/>fectius caeteris omnibus. cum igitur in multitudine infinita sit 
+      <lb ed="#L" n="30"/>perfectio infinita, oportet quod similis sit in aliquo vno illius 
+      mul<lb ed="#L" n="31" break="no"/>titudinis. Alia autem sunt quae ordinantur accidentaliter sicut 
+      indi<lb ed="#L" n="32" break="no"/>uidua sub vna specie, &amp; talia possunt, produci dupliciter, 
+      succes<lb ed="#L" n="33" break="no"/>siue, vel simul, si successiue, impossibile est quod inchoando ab vno 
+      <lb ed="#L" n="34"/>vel a quocunque (dum tamen finitis) deueniatur aliquando ad mul 
+      <lb ed="#L" n="35"/>titudinem actu infinitam: cuius ratio est, quia de ratione infiniti est 
+      <lb ed="#L" n="36"/>quod quantacunque eius pars accipiatur, &amp; quotiescunque, quod semper 
+      <lb ed="#L" n="37"/>restet aliquid accipiendum. Propter quod cotra rationem eius est, ( 
+      <lb ed="#L" n="38"/>in accipiendo partem post partem, ipsum sit vnquam actu acceptum, &amp; 
+      <lb ed="#L" n="39"/>quia illud non potest fieri, quod est contra rationem rei, ideo iste 
+      <lb ed="#L" n="40"/>modo non possunt produci actu infinita, nec solum est hoc verum 
+      <lb ed="#L" n="41"/>in rerum productione, sed etiam in earum cognitione, si enim deus 
+      <lb ed="#L" n="42"/>cognosceret vnum post aliud, non cognosceret actu infinita. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e276">
+               <lb ed="#L" n="43"/>
+               <!--8--> Si vero indiuidua sub specie simul producantur sic dubium 
+      <lb ed="#L" n="44"/>est, an deus possit infinita actu producere, puta infinitas 
+      ani<lb ed="#L" n="45" break="no"/>mas, &amp; est hic duplex modus dicendi, vnus est quod deus potest in 
+      <lb ed="#L" n="46"/>finita producere actu. Quod probatur dupliciter. Primo sic, de 
+      <lb ed="#L" n="47"/>potest simul &amp; actu tot producere quot potest producere in 
+      po<lb ed="#L" n="48" break="no"/>tentia successiue, nisi natura rei requirat successionem, &amp; hoc pa 
+      <lb ed="#L" n="49"/>tet statim, quia vbi non est repugnantia ex parte rei non est 
+      de<lb ed="#L" n="50" break="no"/>fectus ex parte dei, si ergo natura rei non requirat successionem 
+      <lb ed="#L" n="51"/>sed patiatur simultatem, deus potest in talibus tot producere 
+      <lb ed="#L" n="52"/>simul quot successiue, sed natura animarum quae possunt a deo 
+      <lb ed="#L" n="53"/>produci, non requirit successionem, ergo deus potest tot animas 
+      <lb ed="#L" n="54"/>simul producere quot potest producere successiue, si autem 
+      <lb ed="#L" n="55"/>essent tot productae necessario essent infinitae, ergo &amp;c. Quod 
+      <lb ed="#L" n="56"/>essent infinitae patet, quia si essent finitae tunc per productioni 
+      <lb ed="#L" n="57"/>successiuam animarum transiretur illud quod esset actu 
+      pro<lb ed="#L" n="58" break="no"/>ductum (omne enim finitum transitur per continuam 
+      acce<lb ed="#L" n="59" break="no"/>ptionem alicuius finiti) &amp; sic deus non potuisset producere tot 
+      <lb ed="#L" n="60"/>simul quot successiue, cuius oppositum probatum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e321">
+               <lb ed="#L" n="61"/>
+               <!--9--> Secunda ratio talis est, deus potest simul tot animas 
+      produ<lb ed="#L" n="62" break="no"/>cere quot possunt participare naturam animae, hoc patet, quia non 
+      <lb ed="#L" n="63"/>habent inter se oppositionem, nec successionis necessarium 
+      or<lb ed="#L" n="64" break="no"/>dinem, sed si tot essent productae necessario essent infinitae, erg. 
+      <lb ed="#L" n="65"/>deus potest animas infinitas actu producere. Minor probatur, s 
+      <lb ed="#L" n="66"/>enim animae sic productae essent in numero finito vltra illum 
+      <lb ed="#L" n="67"/>numerum deus non posset aliquam animam producere cum 
+      pona<lb ed="#L" n="68" break="no"/>tur quod tot sunt productae quot possunt naturam animae 
+      parti<lb ed="#L" n="69" break="no"/>cipare. Hoc tamen est absurdum, (scilicet quod deus sit limitatus 
+      <lb ed="#L" n="70"/>ad producendum certum numerum animarum vltra quem nullam 
+      <lb ed="#L" n="71"/>posset, producere) ergo oportet dicere quod illae essent infinitae. Sic 
+      <lb ed="#L" n="72"/>igitur dicunt isti quod deus potest hoc modo producere infinita. 
+      <lb ed="#L" n="73"/>Hujus opinionis quae est satis probabilis fuerunt Auicenna, 
+      <lb ed="#L" n="74"/>Agazel, &amp; quidam alij: Et mihi ipsi visum est aliquando. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e356">
+               <lb ed="#L" n="75"/>
+               <!--10.--> Alius modus est qui videtur probabilior, videlicet quod deu 
+      <lb ed="#L" n="76"/>non potest facere infinita actu, non propter impotentiam sui, sed 
+      <lb ed="#L" n="77"/>propter repugnantiam rei: &amp; ad probandum istam 
+      conclusio<lb ed="#L" n="78" break="no"/>nem primo ponentur rationes per quas aliqui eam probant, &amp; 
+      <lb ed="#L" n="79"/>videbitur quantum concludant, &amp; deinde adducentur 
+      quae<lb ed="#L" n="80" break="no"/>dam aliae rationes quae videntur efficaciores. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e374">
+               <lb ed="#L" n="81"/>
+               <!--11--> Rationes per quas aliqui probant praedictam conclusionem sunt 
+      <lb ed="#L" n="82"/>duae. Prima talis est, quia oportet omnem multitudinem esse in 
+      <!--00259.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>aliqua specie multitudinis, species autem multitudinis sunt secur 
+      <lb ed="#L" n="84"/>dum species numerorum, nulla autem species numeri potest essi 
+      <lb ed="#L" n="85"/>infinita, cum numerus sit multitudo mensurata per vnum, ergi 
+      <lb ed="#L" n="86"/>impossibile est aliquam multitudinem esse actu infinitam. Secundo, 
+      <lb ed="#L" n="87"/>quia omne creatum comprehenditur sub aliqua certa intention 
+      <lb ed="#L" n="88"/>creantis, sed infinita multitudo si esset non posset comprehendi 
+      <lb ed="#L" n="89"/>sub certa intentione, sicut nec sub certo numero, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e403">
+               <lb ed="#L" n="90"/>
+               <!--12--> Sed istae rationes parum concludunt, cum enim primo dicitur 
+      <lb ed="#L" n="91"/>quod omnem multitudinem oportet esse in aliqua specie 
+      multitudi<lb ed="#L" n="92" break="no"/>nis, potest dici quod multitudo, vel totum discretu non est aliquid 
+      <lb ed="#L" n="93"/>vnum secundum rem, sed multa quorum quodlibet est aliquod 
+      <lb ed="#L" n="94"/>indiuiduum alicuius speciei sub aliquo genere, &amp; sic esset de 
+      infi<lb ed="#L" n="95" break="no"/>nitis hominibus si essent, nam quilibet eorum esset in specie 
+      hu<lb ed="#L" n="96" break="no"/>mana, sed nunquid oportet ipsam multitudinem qua numeramus 
+      <lb ed="#L" n="97"/>esse in aliqua specie sicut res numeratas? forte diceret aliquis &amp; 
+      <lb ed="#L" n="98"/>probabiliter quod non: quia licet vnitas generis, &amp; speciei sit 
+      vni<lb ed="#L" n="99" break="no"/>tas rationis, tamen vnitas suppositi vel indiuidui sub specie est 
+      <lb ed="#L" n="100"/>vnitas rei, intellectus enim non facit singularitatem in rebus sicut 
+      <lb ed="#L" n="101"/>vniuersalitatem, &amp; ideo cum nulla multitudo sit vnum secundum 
+      <lb ed="#L" n="102"/>rem, ipsa non est indiuiduum alicuius speciei, nec debeo quaerere 
+      <lb ed="#L" n="103"/>ipsius aliquam speciem. Adhuc multitudo nihil reale addit super 
+      <lb ed="#L" n="104"/>res quae multae dicuntur, sicut nec vnitas, vt prius dictum fuit, ad 
+      <lb ed="#L" n="105"/>quid ergo ipsius multitudinis secundum se oportet quaerere 
+      ali<lb ed="#L" n="106" break="no"/>quam speciem praeter speciem rerum quae multae dicuntur, cum ipsa 
+      <lb ed="#L" n="107"/>multitudo nihil reale addit super ipsas? sed esto quod oporteat, nan 
+      <lb ed="#L" n="108"/>&amp; numerorum dicimus esse diuersas species. Et ad id quod postea 
+      <lb ed="#L" n="109"/>addis, quod species multitudinis sunt secundum species numerorum 
+      <lb ed="#L" n="110"/>Potest dici quod cum multitudo sit in plus quam numerus (est 
+      <lb ed="#L" n="111"/>enim de transeuntibus) non quicquid est de ratione numeri est 
+      <lb ed="#L" n="112"/>de ratione multitudinis. Propter quod cum de ratione numeri 
+      <lb ed="#L" n="113"/>sit esse mensurabile, vel numerabile, &amp; ideo nulla species 
+      nume<lb ed="#L" n="114" break="no"/>ri posset esse infinita, tamen non oportet quod hoc sit de ratione 
+      <lb ed="#L" n="115"/>multitudinis quin possit aliqua species eius esse infinita. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e464">
+               <lb ed="#L" n="116"/>
+               <!--13--> Ad secundum dicendum qued multitudo quantum ad illud 
+      <lb ed="#L" n="117"/>quod importatur formaliter per ipsam non est aliquid creatum, 
+      <lb ed="#L" n="118"/>praeter res ipsas quae multae dicuntur, quarum quaelibet est 
+      ali<lb ed="#L" n="119" break="no"/>quid creatum, &amp; cadit sub certa intentione creantis, &amp; non 
+      so<lb ed="#L" n="120" break="no"/>lum quaelibet secundum se, sed omnes simul, nec propter hoc 
+      <lb ed="#L" n="121"/>oportet eas esse in certo numero, cum illa quorum non est 
+      nu<lb ed="#L" n="122" break="no"/>merus certitudinaliter sciantur ab illo, cuius scientiae non est 
+      <lb ed="#L" n="123"/>numerus, &amp; ideo certitudinaliter intendi possunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e486">
+               <lb ed="#L" n="124"/>
+               <!--14--> Aliter potest ergo praedicta conclusio efficacius probari 
+      <lb ed="#L" n="125"/>dupliciter. Primo sic, sicut infinito secundum magnitudinem 
+      <lb ed="#L" n="126"/>non potest aliquid esse majus, sic infinito secundum 
+      multitudi<lb ed="#L" n="127" break="no"/>nem non potest esse plus, sed quocunque producto a deo potest 
+      <lb ed="#L" n="128"/>aliquid esse plus, ergo infinitum actu non potest esse secundum 
+      <lb ed="#L" n="129"/>multitudinem a deo actu productum. Maior patet, quia sicu 
+      <lb ed="#L" n="130"/>se habet majus &amp; minus ad magnitudinem, sic plus &amp; minus ad 
+      <lb ed="#L" n="131"/>multitudinem. Minor patet, productis enim quotcunque sub vna 
+      <lb ed="#L" n="132"/>specie deus potest alia producere. Alioquin potentia esset 
+      ex<lb ed="#L" n="133" break="no"/>hausta, quod est inconueniens. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e513">
+               <lb ed="#L" n="134"/>
+               <!--15--> Ad hanc rationem respondetur quod deus potest producto 
+      infi<lb ed="#L" n="135" break="no"/>nito secundum multitudinem adhuc plura producere, ita vt fiat 
+      <lb ed="#L" n="136"/>additio illius quod de nouo producitur ad infinitum prius 
+      pro<lb ed="#L" n="137" break="no"/>ductum, nec tamen propter hoc erit aliquid plus infinito. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e526">
+               <lb ed="#L" n="138"/>
+               <!--16--> Quod declaratur sic, quamuis infinito secundum quod infinitum 
+      <lb ed="#L" n="139"/>est, non possit fieri additio, nihil tamen prohibet quin infinito ex 
+      <lb ed="#L" n="140"/>ea parte qua non est infinitum fiat additio. Verbi gratia, si 
+      ponere<lb ed="#L" n="141" break="no"/>mus columnam infinitam secundum longitudinem, &amp; non secundum 
+      <lb ed="#L" n="142"/>latitudinem, secundum longitudinem nihil posset ei addi, sed 
+      se<lb ed="#L" n="143" break="no"/>cundum latitudinem posset: similiter, Si poneremus eam infinitam 
+      <lb ed="#L" n="144"/>ex vno latere, (puta versus orientem) finitam vero ex alio latere, 
+      <lb ed="#L" n="145"/>scilicet versus occidentem, ex parte occidentis posset ei fieri 
+      ad<lb ed="#L" n="146" break="no"/>ditio, quamuis non ex parte orientis, iuxta quem modum dicunt 
+      <lb ed="#L" n="147"/>illi qui ponunt quod motus potest esse ab aeterno, quod a parte ante 
+      <lb ed="#L" n="148"/>nulla potuisset fieri additio, neque secundum extensionem, neque 
+      <lb ed="#L" n="149"/>secundum multitudinem reuolutionum, cum in illa parte 
+      mo<lb ed="#L" n="150" break="no"/>tus fuisset infinitus, sed ex altera parte quae nunc est, posset fieri 
+      <lb ed="#L" n="151"/>additio, &amp; secundum extensionem motus, &amp; secundum 
+      multi<lb ed="#L" n="152" break="no"/>tudinem reuolutionum, quia ex hac parte finitus esset, si autem 
+      <lb ed="#L" n="153"/>poneremus corpus omniquaque infinitum, nihil omnino posset 
+      <lb ed="#L" n="154"/>ei addi, modo vt dicunt aliud est indiuiduum de toto continuo, &amp; 
+      <lb ed="#L" n="155"/>de toto discreto. Totum enim continuum vnum est simpliciter. 
+      <lb ed="#L" n="156"/>Totum autem discretum non est vnum, sed plura (vt iam dictum 
+      <lb ed="#L" n="157"/>fuit) continet enim plures partes, quarum quaelibet habet 
+      pro<lb ed="#L" n="158" break="no"/>priam actualitatem discretam ab actualitate alterius. Ob hoc 
+      <lb ed="#L" n="159"/>igitur non potest fieri additio toti continuo, quin fiat toti per se 
+      <lb ed="#L" n="160"/>&amp; primo, partibus autem per accidens &amp; ex consequenti: sed toti 
+      <lb ed="#L" n="161"/>discreto possibile est fieri additionem cum secundum se nullam 
+      <lb ed="#L" n="162"/>habet vnitatem, sed fit primo &amp; per se additio parti, &amp; per conse 
+      <lb ed="#L" n="163"/>quens toti, cum igitur infinito secundum quod infinitum non possit 
+      <lb ed="#L" n="164"/>fieri additio, ideo corpori omniquaque infinito nullo modo po¬ 
+      <!--00260.xml-->
+      <pb ed="#L" n="97-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>test fieri additio, nec ratione totius, quia infinitum, nec ratione 
+      <lb ed="#L" n="2"/>partium, quia partibus non fit additio nisi per additionem factam 
+      <lb ed="#L" n="3"/>primo &amp; per se ad totum. Infinito autem secundum multitudinem 
+      <lb ed="#L" n="4"/>semper potest fieri additio, quia vel non est infinitum omniquaq 
+      <lb ed="#L" n="5"/>sed ex vna parte tantum sicut esset de multitudine reuolutionum 
+      <lb ed="#L" n="6"/>coeli si motus fuisset ab aeterno: vel dato quod esset infinitum om 
+      <lb ed="#L" n="7"/>niquaque (cum non esset ens nec vnum simpliciter) ei non fieret per 
+      <lb ed="#L" n="8"/>se additio, sed partibus eius quarum quaelibet secundum se est finita 
+      <lb ed="#L" n="9"/>&amp; potest recipere additionem quae redundat in totum (licet per 
+      ac<lb ed="#L" n="10" break="no"/>cidens) sic igitur nihil prohibet infinitum secundum multitudinem reci 
+      <lb ed="#L" n="11"/>pere additionem. Haec tamen additio (vt dicunt) non facit aliquid 
+      <lb ed="#L" n="12"/>plus, quia plus &amp; minus dicuntur per comparationem ad commune 
+      <lb ed="#L" n="13"/>mensurâ quam impossibile est dare infinito. Et ideo per talem 
+      <lb ed="#L" n="14"/>additionem infinitum non efficitur majus, nec prius erat minus, 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e626">
+               <lb ed="#L" n="15"/>
+               <!--17--> Sed istud non est bene dictum, quia omne quod continet 
+      ali<lb ed="#L" n="16" break="no"/>quid cum alio addito est plus illo, nec oppositum est intelligibile 
+      <lb ed="#L" n="17"/>cum implicet contradictionem, si ergo infinito secundum 
+      multitu<lb ed="#L" n="18" break="no"/>dinem potest fieri additio necesse &amp; quod facta additione illud 
+      <lb ed="#L" n="19"/>fit plus primo, continet enim ipsum, &amp; aliquid additum &amp; ita ali 
+      <lb ed="#L" n="20"/>quid erit plus infinito, &amp; quod dicitur quod plus &amp; minus dicuntur 
+      <lb ed="#L" n="21"/>per comparationem ad communem mensuram, concedatur, &amp; 
+      <lb ed="#L" n="22"/>ideo impossibile est illud attribuere infinito cui non competit men 
+      <lb ed="#L" n="23"/>sura, ad quod ex necessitate sequitur quod vnum infinitum sit 
+      <lb ed="#L" n="24"/>plus vel minus altero. Hoc autem fit cum dicitur quod infinito 
+      po<lb ed="#L" n="25" break="no"/>test fieri additio vt demonstratum est, ergo illud est impossibile. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e655">
+               <lb ed="#L" n="26"/>
+               <!--18--> Quod etiam patet ex alio, quia sicut infinitum in potentia, 
+      <lb ed="#L" n="27"/>quia habet rationem partis semper potest recipere additionem 
+      <lb ed="#L" n="28"/>(imo necessario recipit additionem) est enim tale infinitum 
+      cu<lb ed="#L" n="29" break="no"/>ius semper est aliquid sumere extra vt dicitur 3. Physi. sic 
+      infini<lb ed="#L" n="30" break="no"/>tum in actu cum habeat rationem totius &amp; accepti nunquan 
+      <lb ed="#L" n="31"/>potest recipere additionem, est enim tale infinitum cuius quan 
+      <lb ed="#L" n="32"/>titatem accipientibus nihil est sumere extra, sed quicquid ipsius 
+      <lb ed="#L" n="33"/>est possibile, totum est acceptum, propter quod si sit aliquid 
+      in<lb ed="#L" n="34" break="no"/>finitum actu nullo modo potest sibi fieri additio, neque 
+      secun<lb ed="#L" n="35" break="no"/>dum se, neque secundum partem, quia &amp; si parti per se sumptae posse 
+      <lb ed="#L" n="36"/>aliquid addi (quia praeter ipsam semper est aliud sumere) tamen 
+      <lb ed="#L" n="37"/>parti sumptae in toto infinito actu nihil penitus potest addi, qa 
+      <lb ed="#L" n="38"/>praeter ipsam cum aliiis sumptis non est possibile aliquid aliud sumi 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e688">
+               <lb ed="#L" n="39"/>
+               <!--19--> Secunda ratio talis est, totum aequari parti implicat 
+      contra<lb ed="#L" n="40" break="no"/>dictionem, cum omne totum sit majus sua parte, &amp; hoc sit de pri 
+      <lb ed="#L" n="41"/>mis principiis, sed hoc sequeretur si esset dare multitudinem actu 
+      <lb ed="#L" n="42"/>infinitam, ergo &amp;c. Probatio minoris, binarius est pars ternarij 
+      <lb ed="#L" n="43"/>vel quaternarij, sed in multitudine infinita tot essent quaterna 
+      <lb ed="#L" n="44"/>rij quod binarij, scilicet vtrobique infiniti, ergo ibi pars aequaretur 
+      <lb ed="#L" n="45"/>toti, &amp; totum parti, quod est impossibile, vt dictu est, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e708">
+               <lb ed="#L" n="46"/>
+               <!--20--> Ad hoc respondetur per modum qui dictus est prius, 
+      scili<lb ed="#L" n="47" break="no"/>cet quod in multitudine infinita binarij non aequantur quate 
+      <lb ed="#L" n="48"/>nariis, nec tamen sunt plures, vel pauciores hi quam illi, quia in 
+      <lb ed="#L" n="49"/>aequalitas plus &amp; minus habent solum locum in illis quibus est 
+      <lb ed="#L" n="50"/>communis mensura. Accipiendo ergo de multitudine infinita 
+      <lb ed="#L" n="51"/>quemcunque binarium &amp; quaternarium, Maior est 
+      quaterna<lb ed="#L" n="52" break="no"/>rius binario sicut totum majus est sua parte, sed accipiendo to 
+      <lb ed="#L" n="53"/>tam multitudinem non sunt plures binarij quam ternarij, nec pau 
+      <lb ed="#L" n="54"/>ciores nec aequales, quia non habent communem mensuram. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e733">
+               <lb ed="#L" n="55"/>
+               <!--21--> Istud non valet, quia illud quod dicitur de communi mensur: 
+      <lb ed="#L" n="56"/>falsum est (vt deductum fuit) tum quia sicut se habet pars ad 
+      pa<lb ed="#L" n="57" break="no"/>tem, sic totum ad totum, si ergo infinita multitudine quaterna 
+      <lb ed="#L" n="58"/>rius aliquis, maior est binario, &amp; plures sint binarij in quaterna 
+      <lb ed="#L" n="59"/>rio, necesse est qu infinitum constans ex quaternariis sit plus 
+      in<lb ed="#L" n="60" break="no"/>finito constante ex binariis, &amp; quod in eodem infinito sint plures 
+      <lb ed="#L" n="61"/>binarij quaternariis, sic igitur patet primum scilicet quod non est 
+      <lb ed="#L" n="62"/>possibile aliquid esse actu infinitum secundum multitudinem. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e755">
+               <lb ed="#L" n="63"/>
+               <!--22--> QVANTVM ad secundum scilicet vtrum deus posset 
+      fa<lb ed="#L" n="64" break="no"/>cere aliquid actu infinitum secundum magnitudinem, tenetur 
+      con<lb ed="#L" n="65" break="no"/>muniter quod non. Hoc autem probant aliqui sic, corpus sumitur du 
+      <lb ed="#L" n="66"/>pliciter haturaliter &amp; mathematice. Naturaliter prout dicit ccn 
+      <lb ed="#L" n="67"/>positum ex materia &amp; forma naturali cum accidentibus 
+      conco<lb ed="#L" n="68" break="no"/>mitamibus, mathematice prout dicit solam quantitatem 
+      triplici<lb ed="#L" n="69" break="no"/>ter dimensionata, quod autem corpus sumptum naturaliter non possit 
+      <lb ed="#L" n="70"/>esse actu infinitum probatur sic, omnis determinata forma 
+      neces<lb ed="#L" n="71" break="no"/>sario requirit determinata accidentia, sed omne corpus natural 
+      <lb ed="#L" n="72"/>habet necessario determinatam formam, ergo omne corpus 
+      na<lb ed="#L" n="73" break="no"/>turale requirit necessario determinata accidentia, sed inter 
+      acci<lb ed="#L" n="74" break="no"/>dentia numeratur quantitas, ergo omne corpus naturale 
+      necessa<lb ed="#L" n="75" break="no"/>rio habet determinatam quantitatem, impossibile est ergo quod habea 
+      <lb ed="#L" n="76"/>Pinfiniti. Idem probatur secundo de corpore mathe. quia in 
+      cor<lb ed="#L" n="77" break="no"/>pore mathematico sunt idem penitus quantitas, &amp; essentia, si 
+      <lb ed="#L" n="78"/>ergo corpus mathematicum esset infinitum secundum quantita 
+      <lb ed="#L" n="79"/>tem, sequeretur qued esset infinitum secundum essentiam. Hoc 
+      au<lb ed="#L" n="80" break="no"/>tem est impossibile, quia nihil potest esse tale praeter deum, quare 
+      <lb ed="#L" n="81"/>&amp;c. Item impossibile est esse corpus mathematicum absque 
+      fi<lb ed="#L" n="82" break="no"/>gura, quia figura forma est quantitatis, sed omne figuratum ne¬ 
+      <!--00260.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>cessario est finitum, quia figura est quae termino, vel terminis 
+      <lb ed="#L" n="84"/>clauditur ergo omne quantum necessario est finitum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e812">
+               <lb ed="#L" n="85"/>
+               <!--23--> Quicquid sit de conclusione, rationes tamen istae non valent, 
+      <lb ed="#L" n="86"/>quod enim primo dicitur, quod determinata forma necessario 
+      re<lb ed="#L" n="87" break="no"/>quirit determinata accidentia, distinguendum est de 
+      determi<lb ed="#L" n="88" break="no"/>natione, est enim quaedam determinatio ad certum genus &amp; ad 
+      <lb ed="#L" n="89"/>speciem, &amp; hanc determinationem in accidentibus requirit 
+      omni<lb ed="#L" n="90" break="no"/>forma naturalis, forma enim corui requirit nigredinem, &amp; forma 
+      <lb ed="#L" n="91"/>cygni albedinem, &amp; hoc modo quantitas etiam infinita est 
+      acci<lb ed="#L" n="92" break="no"/>dens determinatum ad certum genus, &amp; ad certam speciem. Alia 
+      <lb ed="#L" n="93"/>est determinatio intra genus &amp; speciem quae attenditur 
+      secun<lb ed="#L" n="94" break="no"/>dum intensum &amp; remissum in qualitatibus, vel secundum 
+      exten<lb ed="#L" n="95" break="no"/>sionem in quantitatibus, &amp; hoc modo calor si esset infinite intensus 
+      <lb ed="#L" n="96"/>non esset determinatus, &amp; quantitas si esset infinite extensa ni 
+      <lb ed="#L" n="97"/>esset determinata, &amp; talis indeterminatio forte non est possibilis 
+      <lb ed="#L" n="98"/>in qualitatibus propter rationem quae tacta fuit suprâ, dist. 17. in 
+      <lb ed="#L" n="99"/>illa quaestione, vtrum charitas possit augeri in infinitum, imo 
+      quae<lb ed="#L" n="100" break="no"/>libet qualitas determinata est ad supremum &amp; infimum gradum 
+      <lb ed="#L" n="101"/>intentionis &amp; remissionis sibi possibilem, propter quod omni 
+      <lb ed="#L" n="102"/>qualitas in quacunque re sit, habet hanc determinationem, sed 
+      <lb ed="#L" n="103"/>quantitas non habet talem determinationem, neque in majus, neque 
+      <lb ed="#L" n="104"/>in minus, vt ibidem dictum fuit, nec eam requirit omnis forma 
+      na<lb ed="#L" n="105" break="no"/>turalis (maxime forma corporis simplicis &amp; homogenei, vt 
+      for<lb ed="#L" n="106" break="no"/>ma aeris) non enim videtur requirere tantam quantitate determ 
+      <lb ed="#L" n="107"/>nate quin possit indifferenter esse sub quantacunque, etiam si esse 
+      <lb ed="#L" n="108"/>infinita, nec video repugnantiam aliquam ex parte talis formae 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e869">
+               <lb ed="#L" n="109"/>
+               <!--24--> Secunda etiam ratio non valet, quia infinitas essentiae qua 
+      <lb ed="#L" n="110"/>includit perfectiones omnium generum repugnat creaturae, &amp; 
+      <lb ed="#L" n="111"/>conuenit soli deo, &amp; hanc infinitatem essentiae non habere 
+      quan<lb ed="#L" n="112" break="no"/>titas infinita, sed solum haberet infinitatem extensionis intra 
+      <lb ed="#L" n="113"/>genus suum, quae non est infinitas essentiae quae soli deo 
+      attri<lb ed="#L" n="114" break="no"/>buitur, &amp; ab omni creatura negatur. propter quod itur in aequi 
+      <lb ed="#L" n="115"/>uoco de infinitate essentiae intra genus &amp; extra. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e889">
+               <lb ed="#L" n="116"/>
+               <!--25--> Tertia ratio minus valet, quia figura non est forma 
+      essen<lb ed="#L" n="117" break="no"/>tialis &amp; intrinseca quantitatis. Alioquin quantitas esset 
+      compo<lb ed="#L" n="118" break="no"/>sita ex aliquo tanquam materia, &amp; ex figura tanquam forma 
+      <lb ed="#L" n="119"/>sed est forma accidentalis &amp; extrinseca, pertinet enim ad aliud 
+      <lb ed="#L" n="120"/>genus, scilicet ad genus qualitatis, quaelibet autem res potest 
+      <lb ed="#L" n="121"/>priuari omni tali forma saltem virtute diuina. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e907">
+               <lb ed="#L" n="122"/>
+               <!--26--> Aliter potest probari eadem conclusio sic, in omni natura 
+      <lb ed="#L" n="123"/>habente gradus, supremum &amp; infimum sibi inuicem 
+      correspon<lb ed="#L" n="124" break="no"/>dent, ita quod si esset possibile dare vnum &amp; reliquum, si non 
+      <lb ed="#L" n="125"/>non. sed in quantitate non est possibile dare infimum vel 
+      mini<lb ed="#L" n="126" break="no"/>mum quo non possit minus dari, ergo in ea non est possibile 
+      da<lb ed="#L" n="127" break="no"/>re supremum vel maximum, quo non possit majus dari, sed si 
+      <lb ed="#L" n="128"/>esset possibile quod quantum esset actu infinitum non posset 
+      <lb ed="#L" n="129"/>dari majus in illo: ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e930">
+               <lb ed="#L" n="130"/>
+               <!--27--> Et si dicatur quod in numeris est dare infimum, scilicet, 
+      duali<lb ed="#L" n="131" break="no"/>tatem, &amp; non supremum: &amp; ita non videtur quod haec adinuicem sibi 
+      <lb ed="#L" n="132"/>correspondeant. Dicendum quod non valet, primo, quia numerus 
+      <lb ed="#L" n="133"/>secundum se non est aliqua natura, vt dictum fuit prius, dist. 27. 
+      <lb ed="#L" n="134"/>Nos autem agimus de natura rei in se habente gradus. Secundo 
+      <lb ed="#L" n="135"/>quia dato quod numerus esset secundum se aliqua natura, tamen 
+      <lb ed="#L" n="136"/>gradus in numeris non attenduntur secundum eandem naturam 
+      <lb ed="#L" n="137"/>specificam, sed secundum diuersas. Nos autem loquimur de 
+      gra<lb ed="#L" n="138" break="no"/>dibus in eadem natura specifica: propter quod instantia non 
+      <lb ed="#L" n="139"/>est ad propositum. Prima tamen responsio melior est. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e956">
+               <lb ed="#L" n="140"/>
+               <!--28--> AD PRIMVM rationem in oppositum dicendum, quod 
+      <lb ed="#L" n="141"/>sub qualibet specie figurarum diuisim accepta potest deus 
+      pro<lb ed="#L" n="142" break="no"/>ducere aliquod indiuiduum, sed sub omnibus speciebus 
+      coniun<lb ed="#L" n="143" break="no"/>ctim acceptis non, quia species figurarum procedunt sicut 
+      spe<lb ed="#L" n="144" break="no"/>cies numerorum, vt trigonum, tetragonum, &amp; sic de aliis: species 
+      <lb ed="#L" n="145"/>autem numerorum non possunt simul omnes accipi, cum 
+      cau<lb ed="#L" n="146" break="no"/>sentur ex diuisione continui quae procedit in infinitum 
+      succes<lb ed="#L" n="147" break="no"/>siue &amp; in potentia tantum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e978">
+               <lb ed="#L" n="148"/>
+               <!--29--> Ad aliud dicendum, quod rationi quantitatis non repugnat 
+      <lb ed="#L" n="149"/>finitum, &amp; infinitum appositione, &amp; diuisione successiue, &amp; in 
+      <lb ed="#L" n="150"/>potentia modo quo determinat philos. 3. physic. sed infinitum 
+      <lb ed="#L" n="151"/>actu repugnat, non quantitati, sed cuilibet entitati creatae, 
+      pro<lb ed="#L" n="152" break="no"/>pter quod nullo modo est producibile. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e994">
+               <lb ed="#L" n="153"/>
+               <!--30--> RATIONES ante oppositum concedantur ratione 
+      <lb ed="#L" n="154"/>conclusionis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2061-d1e1003">
+               <lb ed="#L" n="155"/>
+               <!--31--> Secunda tamen ratio quae videtur probare quod non possit 
+      <lb ed="#L" n="156"/>esse aliquod corpus infinitum secundum magnitudinem non 
+      con<lb ed="#L" n="157" break="no"/>cludit. Minor enim est falsa, infinitum enim secundum 
+      magnitudi<lb ed="#L" n="158" break="no"/>nem non aequaretur deo secundum virtutem, tum quia in 
+      magni<lb ed="#L" n="159" break="no"/>tudine infinita non oportet esse virtutem infinitam intensione, sed 
+      <lb ed="#L" n="160"/>solum extensione, &amp; hoc solum quantum ad illas formas quae 
+      ex<lb ed="#L" n="161" break="no"/>tenduntur extensione subiecti, quamuis Aristoteles insufficiete 
+      <lb ed="#L" n="162"/>sentiat contrarium 8. physi. tum etiam quia si esset infinita 
+      intensio<lb ed="#L" n="163" break="no"/>ne hoc esset intra certum genus &amp; non secundum perfectionem 
+      <lb ed="#L" n="164"/>omnis generis, propter quod non aequaretur perfectioni diuinae. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

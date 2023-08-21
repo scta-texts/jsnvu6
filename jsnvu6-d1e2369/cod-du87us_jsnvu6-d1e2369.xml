@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="111-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2369"><!-- l2d1q5 -->
+            <head xml:id="jsnvu6-d1e2369-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-d1e2369-Hd1e103" type="question-title">Utrum Deus agat immediate in omni actione creaturae</head>
+            <p xml:id="jsnvu6-d1e2369-d1e106">
+               <lb ed="#L" n="74"/>QVAESTIO QVINTA. 
+      <lb ed="#L" n="75"/>Vtrum Deus agat immediate in 
+      <lb ed="#L" n="76"/>omni actione 
+      crea<lb ed="#L" n="77" break="no"/>turae. 
+      <lb ed="#L" n="78"/>Thom. l. g.133.art. §. &amp; q. i0g. ar. 5. Dur. infrd.
+    </p>
+            <p xml:id="jsnvu6-d1e2369-d1e119">
+      <!--00287.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>CIRCA tertium principale quaeruntur duo. 
+      Pri<lb ed="#L" n="80" break="no"/>mum est vtrum Deus agat immediate in omni 
+      actio<lb ed="#L" n="81" break="no"/>ne creaturae. Secundum est vtrum Deo conueniat 
+      <lb ed="#L" n="82"/>agere propter finem. Ad primum sic proceditur. Et 
+      <lb ed="#L" n="83"/>arguitur quod Deus agat immediate in omni actione 
+      creatu<lb ed="#L" n="84" break="no"/>rae, quia sicut se habet vnitas ad constituendum numeros in 
+      ra<lb ed="#L" n="85" break="no"/>tione causae materialis, sic se habet Deus ad creaturas in 
+      ratio<lb ed="#L" n="86" break="no"/>ne causae agentis. Sed vnitas immediate sic se habet ad 
+      nume<lb ed="#L" n="87" break="no"/>ros quos sui additione cum aliis numeris constituat omnem 
+      <lb ed="#L" n="88"/>numerum praeter binarium quem ipsa per se ipsam vel in se 
+      re<lb ed="#L" n="89" break="no"/>plicata constituit, addita enim binario constituit ternarium &amp; 
+      ad<lb ed="#L" n="90" break="no"/>dita ternario constituit quaternarium, &amp; sic de omnibus, ergo 
+      <lb ed="#L" n="91"/>similiter Deus cum aliis agentibus immediate producit omnem 
+      <lb ed="#L" n="92"/>effectum praeter primum quem producit per se ipsum solum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e156">
+               <lb ed="#L" n="93"/>
+               <!--2--> Item sicut se habet esse ad esse, sic agere ad agere, sed 
+      crea<lb ed="#L" n="94" break="no"/>tura omnino non esset nisi De? immediate ei adesset, ergo 
+      crea<lb ed="#L" n="95" break="no"/>tura aliquid non ageret nisi Deus immediate coageret. 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e168">
+               <lb ed="#L" n="96"/>
+               <!--3--> IN CONTRARIVM est, quia si Deus immediate 
+      <lb ed="#L" n="97"/>ageret omnia actio creaturae superflueret, hoc autem est in 
+      com<lb ed="#L" n="98" break="no"/>ueniens, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e179">
+               <lb ed="#L" n="99"/>
+               <!--4--> RESPONSIO. Haec quaestio vnum supponit, &amp; aliud 
+      <lb ed="#L" n="100"/>quaerit. Supponit quod tam Deo quam creaturae competit agere. 
+      Alio<lb ed="#L" n="101" break="no"/>quin quaestio non haberet locum. Et de Deo quidem nulla est du 
+      <lb ed="#L" n="102"/>bitatio cum demonstratum sit a Philosopho totum vniuersum 
+      <lb ed="#L" n="103"/>esse ab vno principio quod dicimus Deum. De creatura autem 
+      <lb ed="#L" n="104"/>quamuis aliqui pauci quandoque senserint quod omnino nihil agat, 
+      <lb ed="#L" n="105"/>puta quod ignis non calefacit, sed Deus creat calorem, &amp; sic de 
+      om<lb ed="#L" n="106" break="no"/>nibus, tamen quia haec opinio tollit a rebus proprias operationes 
+      <lb ed="#L" n="107"/>tollit etiam iudicium sensus quo experimur res creatas inuicem 
+      <lb ed="#L" n="108"/>agere, ideo nunc ab omnibus refutatur tanquam improbabilis.
+</p>
+            <p xml:id="jsnvu6-d1e2369-d1e205">
+               <lb ed="#L" n="109"/>Supposito ergo quod Deus &amp; creatura agant, quaeritur vtrum 
+      <lb ed="#L" n="110"/>Deus agat in omni actione creaturae immediate, &amp; dicunt aliqui 
+      <lb ed="#L" n="111"/>quod sic. Et hi bifurcantur. Quidam enim dicunt tales effectus 
+      fie<lb ed="#L" n="112" break="no"/>ri a Deo inquantum habent esse, a creatura autem inquantum 
+      <lb ed="#L" n="113"/>habent esse determinatum. Quod nituntur sic probare, nullius 
+      <lb ed="#L" n="114"/>rei totum esse sumit principium ab aliqua creatura cum ad esse 
+      <lb ed="#L" n="115"/>rei faciat materia quae a solo Deo creatur. Ad distinctionem 
+      au<lb ed="#L" n="116" break="no"/>tem esse nihil facit materia, sed solum forma quam creatura 
+      <lb ed="#L" n="117"/>etiam impraesupposita materia inducit. Ex hoc sic, Deus creans 
+      <lb ed="#L" n="118"/>materiam operatur immediate ad esse rei, creatura autem dans 
+      <lb ed="#L" n="119"/>formam ad esse distinctum. Esse autem est magis intimum rei 
+      <lb ed="#L" n="120"/>quam ea per quae terminatur, vnde remanet aliis remotis, vt 
+      <lb ed="#L" n="121"/>dicitur prima propositione de causis, ergo in omni re Deus est 
+      <lb ed="#L" n="122"/>tam intimius &amp; immediatius operans quam aliqua creatura. 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e238">
+               <lb ed="#L" n="123"/>
+               <!--6.--> Haec autem responsio non videtur esse ad propositum. Assumit 
+      <lb ed="#L" n="124"/>etiam falsum. Quod non sit ad propositum patet, qua aliud est 
+      dice<lb ed="#L" n="125" break="no"/>re quod Deus producat immediate aliquid quod est in creatura, s. 
+      <lb ed="#L" n="126"/>materiam quae est altera pars substantiae compositae quod vtique 
+      <lb ed="#L" n="127"/>verum est, nec hoc quaerit quaestio. Aliud est dicere quod Deus 
+      im<lb ed="#L" n="128" break="no"/>mediate producat omne illud quod producit creatura. Cum enim 
+      <lb ed="#L" n="129"/>actio creaturae attingat formam vt terminum suae actionis &amp; non 
+      <lb ed="#L" n="130"/>materiam (vt ipsimet dicunt) quaerimus vtrum ipsam formam re 
+      <lb ed="#L" n="131"/>naturalis ad quam immediate attingit actio creaturae attingat 
+      <lb ed="#L" n="132"/>etiam necessario actio dei immediate, ipsi autem pertractant primum 
+      <lb ed="#L" n="133"/>&amp; non secundum, vt patet ex medio quod adducunt, &amp; ideo non est 
+      <lb ed="#L" n="134"/>ad propositum. Assumit etiam falsum, quod enim dicunt quod esse 
+      in<lb ed="#L" n="135" break="no"/>timius est rei quam ea quae ipsum determinant, si intelligitur? 
+      <lb ed="#L" n="136"/>esse in potentia sit intimius rei quam esse in actu per quod 
+      de<lb ed="#L" n="137" break="no"/>terminatur, falsum est. Sicut enim per formam quaelibet res est 
+      <lb ed="#L" n="138"/>verius id quod est quam per materiam (vt dicitur 2. Physi.) sic 
+      <lb ed="#L" n="139"/>esse actu est verius &amp; intimius esse rei quam esse in potentia. S. 
+      <lb ed="#L" n="140"/>autem intelligatur quod esse actuale in sua communitate sumptum 
+      <lb ed="#L" n="141"/>intimius est rei quam ea per quae determinatur ad hoc esse vel 
+      <lb ed="#L" n="142"/>illud quod est esse viuens vel intellectuale, tunc variatur 
+      proposi<lb ed="#L" n="143" break="no"/>tum, vt de se patet. Quod etiam non videtur verum, quia quae 
+      <lb ed="#L" n="144"/>penitus sunt idem, vnum non est intimius rei, sed esse &amp; 
+      deter<lb ed="#L" n="145" break="no"/>minatum esse in vna &amp; eadem re, sicut in planta sunt idem re, 
+      <lb ed="#L" n="146"/>viuere enim in viuentibus est esse, ergo vnum non est rei 
+      inti<lb ed="#L" n="147" break="no"/>mius quam alterum loquendo realiter, secundum rationem 
+      ta<lb ed="#L" n="148" break="no"/>men esse in communi intimius est rei quam perfectiones 
+      de<lb ed="#L" n="149" break="no"/>terminantes ipsam. Et secundum intellectum nostrum prius 
+      ad<lb ed="#L" n="150" break="no"/>uenit &amp; posterius recedit. Separatur enim secundum rationem 
+      <lb ed="#L" n="151"/>ab aliis, quia communius vt in praeallegata propositione 
+      dici<lb ed="#L" n="152" break="no"/>tur. Sed ex hoc non potest haberi quod Deus immediatius 
+      ope<lb ed="#L" n="153" break="no"/>retur in omni re quam aliqua creatura, imo nec quod 
+      opera<lb ed="#L" n="154" break="no"/>tur immediate, quia vniuersalia non fiunt nisi factione 
+      singu<lb ed="#L" n="155" break="no"/>larium, &amp; ideo res non sunt ab aliquo inquantum habent esse 
+      <lb ed="#L" n="156"/>nisi quia sunt ab eodem inquantum habent determinatum esse, 
+      <lb ed="#L" n="157"/>cuius oppositum pro conclusione ponit haec opinio. 
+</p>
+            <p xml:id="jsnvu6-d1e2369-d1e319">
+               <lb ed="#L" n="158"/>Alij tenent eandem conclusionem, sed alio modo quo ac 
+      <lb ed="#L" n="159"/>aliquid. Dicunt enim quod duo sunt genera affectuum: quidam 
+      <lb ed="#L" n="160"/>enim sunt solum a solo Deo creatura nihil cooperante, vt ange¬ 
+      <!--00288.xml-->
+      <pb ed="#L" n="111-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>lus vel caelum, &amp; tales effectus sunt a Deo immediate &amp; 
+      totali<lb ed="#L" n="2" break="no"/>ter, id est, secundum omnem modum, &amp; de illis non procedit 
+      quae<lb ed="#L" n="3" break="no"/>stio. Alij sunt effectus causarum secundarum &amp; non solius dei, &amp; de 
+      <lb ed="#L" n="4"/>istis est quaestio. De quibus dicunt quod sunt a deo toti 
+      immedia<lb ed="#L" n="5" break="no"/>te, non tamen totaliter hoc est, non secundum omnem modum. 
+      <lb ed="#L" n="6"/>quod declarant, quia vt dicunt deus agit vniformiter in omnibus 
+      <lb ed="#L" n="7"/>rebus quantum est de se, ita qod tota diuersitas in effectibus est 
+      <lb ed="#L" n="8"/>ex diuersitate recipientium influentiam diuinam propter 
+      diuersi<lb ed="#L" n="9" break="no"/>tatem suarum naturarum. Et ideo effectus ex ea parte qua sunt ex 
+      <lb ed="#L" n="10"/>causis secundis habent distinctionem, &amp; non ex parte dei. Sic igitur 
+      <lb ed="#L" n="11"/>res inquantum sunt a deo sunt, quia in hoc non distinguuntur, inquam 
+      <lb ed="#L" n="12"/>tum autem habent esse distinctum sunt a causis secundis per qua 
+      <lb ed="#L" n="13"/>distinguuntur: verbi gratia, in re viuente idem est penitus viuere &amp; 
+      <lb ed="#L" n="14"/>esse, &amp; ideo totum est immediate a deo, &amp; totum immediate, 
+      <lb ed="#L" n="15"/>secundo agente, sed non eodem modo, quia ex parte ipsius esse 
+      <lb ed="#L" n="16"/>non est distinctio in rebus, sed per viuere distinguitur vna res ab 
+      <lb ed="#L" n="17"/>alia, propter quod Deus dat esse &amp; viuere, sed solum sub ratione 
+      <lb ed="#L" n="18"/>ipsius esse in quo nihil distinguit. Creatura vero dat totum illud 
+      <lb ed="#L" n="19"/>sub ratione qua est viuere ex parte cuius est in rebus distinctio 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e376">
+               <lb ed="#L" n="20"/>
+               <!--8--> Pro hac autem opinione esse videtur dictum Aristot. 2. Phys. 
+      <lb ed="#L" n="21"/>cap. de causis, vbi dicit quod effectus particularis reducitur in cau 
+      <lb ed="#L" n="22"/>sam particularem, &amp; vniuersalis in vniuersalem, sed esse est 
+      vni<lb ed="#L" n="23" break="no"/>uersalissimus effectus, ergo reduci debet in causam 
+      vniuersa<lb ed="#L" n="24" break="no"/>lem quae est deus, viuere autem cum sit effectus particularis 
+      de<lb ed="#L" n="25" break="no"/>bet reduci in causam secundam particularem, vt rationes 
+      effe<lb ed="#L" n="26" break="no"/>ctuum correspondeant rationibus causarum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e397">
+               <lb ed="#L" n="27"/>
+               <!--9--> Haec autem opinio deficit in se &amp; in sua ratione. Quod enim 
+      <lb ed="#L" n="28"/>dicit qued deus vniformiter agit in omnibus, nec est diuersitas i 
+      <lb ed="#L" n="29"/>rebus nisi ex causis secundis, falsum est, quia secundum hoc 
+      im<lb ed="#L" n="30" break="no"/>possibile esset quod plura &amp; distincta fierent a deo sine causis 
+      se<lb ed="#L" n="31" break="no"/>cundis, &amp; ita deus non posset diuersa creare, quod est falsum. Ei 
+      <lb ed="#L" n="32"/>contradicit primo dicto eorum, scilicet quod effectus qui sunt a sole 
+      <lb ed="#L" n="33"/>deo sunt toti ab eo &amp; totaliter, hoc est secundum omnem modum 
+      <lb ed="#L" n="34"/>inquantum habent esse, &amp; inquantum habent esse distinctum, 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e419">
+               <lb ed="#L" n="35"/>
+               <!--10--> Item agere semper vniformiter, &amp; nullo modo difformite 
+      <lb ed="#L" n="36"/>est conditio agentis naturalis &amp; non voluntarij, dicere ergo 
+      <lb ed="#L" n="37"/>deus quatu est ex parte eius semper agat vniformiter, &amp; 
+      nulli<lb ed="#L" n="38" break="no"/>modo difformiter est idem, ac si diceretur deus agit ex necessi 
+      <lb ed="#L" n="39"/>tate naturae &amp; non ex libera voluntate, quod est falsum. 
+      Rati<lb ed="#L" n="40" break="no"/>etiam per quam probant suum propositum non valet. Quod 
+      <lb ed="#L" n="41"/>enim assumunt quod effectus particularis reducitur in causam 
+      par<lb ed="#L" n="42" break="no"/>ticularem, &amp; vniuersalis in vniuersalem est intelligendum 
+      di<lb ed="#L" n="43" break="no"/>particulari &amp; vniuersalis per praedicationem consimiliter in 
+      cau<lb ed="#L" n="44" break="no"/>sa &amp; effectu, vt patet per exempla quae ponit ibidem 
+      Philoso<lb ed="#L" n="45" break="no"/>phus vt statuae quidam statuam faciens: hic autem huius ita 
+      <lb ed="#L" n="46"/>quod sicut non est aliud re statua &amp; haec statua, sed ratione 
+      <lb ed="#L" n="47"/>tantum, sic non reducitur in causas diuersas re, sed tantum 
+      ra<lb ed="#L" n="48" break="no"/>tione quae sunt statuifica &amp; haec statuifica. Et similiter in 
+      pro<lb ed="#L" n="49" break="no"/>posito cum esse &amp; viuere in eodem differant solum ratione 
+      re<lb ed="#L" n="50" break="no"/>duci debent solum in causas differentes ratione, ita quod 
+      so<lb ed="#L" n="51" break="no"/>lum est vna causa re quae dat esse &amp; viuere immediate, sed 
+      <lb ed="#L" n="52"/>sub diuersis rationibus, esse quidem inquantum ipsa est ens actu 
+      <lb ed="#L" n="53"/>&amp; aliud solum in potentia, viuero vero inquantum est viuens 
+      <lb ed="#L" n="54"/>actu, &amp; aliud viuens in potentia. Semper enim quod est tale in 
+      <lb ed="#L" n="55"/>potentia fit ab eo quod est actu tale, &amp; ita non oportet esse &amp; 
+      <lb ed="#L" n="56"/>viuere in eodem secundum rationes eorum differentes 
+      redu<lb ed="#L" n="57" break="no"/>cantur immediate in causas realiter diuersas, puta viuere in 
+      <lb ed="#L" n="58"/>I. causam secunda, esse autem in causam primam quae est Deus. 
+</p>
+            <p xml:id="jsnvu6-d1e2369-d1e476">
+               <lb ed="#L" n="59"/>
+               <!--11--> Ideo dicendum est aliter quod ea quae fiunt a Deo 
+      media<lb ed="#L" n="60" break="no"/>tibus causis secundis non fiunt ab eo immediate sicut ipsaeme 
+      <lb ed="#L" n="61"/>rationes terminorum videntur sonare. Quod apparet prime 
+      <lb ed="#L" n="62"/>sic, si Deus ageret immediate ad productionem effectuum cau 
+      <lb ed="#L" n="63"/>sae secundae (vt cum ignis generat ignem) aut ageret eadem 
+      <lb ed="#L" n="64"/>actione qua creatura, aut alia. Non eadem propter duo. 
+      Pri<lb ed="#L" n="65" break="no"/>mo quia illam potest habere creatura sine speciali influxu De 
+      <lb ed="#L" n="66"/>(supposita conseruatione suae naturae &amp; suae virtutis actiuae 
+      <lb ed="#L" n="67"/>quia actio quae non excedit virtutem speciei agentis sufficien 
+      <lb ed="#L" n="68"/>ter elicitur a sola virtute speciei, frustra ergo poneretur prin 
+      <lb ed="#L" n="69"/>cipium aliud immediatum eliciens talem actionem. 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e505">
+               <lb ed="#L" n="70"/>
+               <!--12--> Secundo, quia impossibile est eandem actionem numero 
+      <lb ed="#L" n="71"/>esse a duobus vel pluribus agentibus ita quod a quolibet sit immo 
+      <lb ed="#L" n="72"/>diate &amp; perfecte, nisi in illis sit eadem virtus numero. Sed in 
+      <lb ed="#L" n="73"/>Deo &amp; creatura non potest esse eadem virtus numero, erge 
+      <lb ed="#L" n="74"/>impossibile est quo eadem actio numero sit ab vtroque 
+      immedia<lb ed="#L" n="75" break="no"/>te &amp; perfecte. Actio autem creaturae, immediate est a creatura 
+      <lb ed="#L" n="76"/>&amp; perfecte, cum non excedat virtutem suae speciei, ergo eadem 
+      <lb ed="#L" n="77"/>actio non est immediate a Deo. Minor de se patet. Sed maior 
+      <lb ed="#L" n="78"/>probatur, contingit enim quod eadem actio numero sit a duobus &amp; 
+      <lb ed="#L" n="79"/>a quolibet perfecte, sed ab vno immediate, ab alio vero media 
+      <lb ed="#L" n="80"/>te, quia eadem actionem quam facit causa propinqua 
+      immedia<lb ed="#L" n="81" break="no"/>te facit causa vniuersalis &amp; remota perfecte inquantum dat virtu 
+      <lb ed="#L" n="82"/>tem causae proximae, &amp; datam conseruat, &amp; hoc est mediate so¬ 
+      <!--00288.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>lum. Alio modo contingit eandem actionem numero esse duorum 
+      <lb ed="#L" n="84"/>immediate, sed a neutro perfecte, vt cum duo trahunt nauem 
+      <lb ed="#L" n="85"/>vel duae candelae causant vnum lumen, quia a neutro est 
+      perfe<lb ed="#L" n="86" break="no"/>cte tractus nauis, &amp; a neutra candela est per se &amp; perfecte 
+      illu<lb ed="#L" n="87" break="no"/>minatio aeris, in talibus enim duo agentia imperfecta supplen 
+      <lb ed="#L" n="88"/>vicem vnius agentis perfecti. Si autem actio sit immediate &amp; 
+      per<lb ed="#L" n="89" break="no"/>fecte a quolibet, non apparet modus possibilis, nisi in vtroque 
+      <lb ed="#L" n="90"/>eorum sit idem principium vel eadem virtus numero, propter hoc 
+      <lb ed="#L" n="91"/>enim dicimus quod in diuinis pater &amp; filius vna numero 
+      spiratio<lb ed="#L" n="92" break="no"/>ne spirant spiritum sanctum &amp; quilibet perfecte, quia in eis est 
+      <lb ed="#L" n="93"/>vis spiratiua vna numero. vera est ergo propositio maior, 
+      scili<lb ed="#L" n="94" break="no"/>cet quod eadem actio non potest esse a duobus vel pluribu. 
+      <lb ed="#L" n="95"/>ita quod a quolibet sit perfecte &amp; immediate, nisi in eis sit 
+      ea<lb ed="#L" n="96" break="no"/>dem virtus secundum numerum. Minor autem de se manifesta 
+      <lb ed="#L" n="97"/>est, sequitur ergo conclusio, scilicet quod Deus ad effectum 
+      cau<lb ed="#L" n="98" break="no"/>sae secundae non agit immediate eadem actione cum creatura. 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e577">
+               <lb ed="#L" n="99"/>
+               <!--13.--> Item nec alia, quia aut vna illarum actionum prius 
+      attin<lb ed="#L" n="100" break="no"/>geret productum quam alia, aut non, sed vtraque simul. Non vna 
+      <lb ed="#L" n="101"/>prius quam alia, puta actio Dei prius quam actio creaturae, quia si 
+      <lb ed="#L" n="102"/>Deus sua actione prius rem totam produceret, tunc creatura per 
+      <lb ed="#L" n="103"/>suam actionem sequentem nihil faceret. Et econuerso si actio 
+      <lb ed="#L" n="104"/>creaturae praecederet actionem Dei. Nec potest dici quod Deus 
+      <lb ed="#L" n="105"/>producat partem &amp; creatura parte, quia hoc quaerimus vtrum 
+      <lb ed="#L" n="106"/>illud idem quod producit creatura immediate producat, etiam im 
+      <lb ed="#L" n="107"/>mediate Deus. Prius enim fuit concessum quod in qualibet 
+      crea<lb ed="#L" n="108" break="no"/>tura materiali est aliqud quod est a Deo immediate, s. materia. 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e603">
+               <lb ed="#L" n="109"/>
+               <!--14--> Item nec vtraque actio simul attingit productum, quia si hoc 
+      <lb ed="#L" n="110"/>esset, altera superflueret, cum vna sufficiat ad totum producer 
+      <lb ed="#L" n="111"/>dum. Et praeterea actiones videntur esse idem realiter cum suis 
+      <lb ed="#L" n="112"/>terminis, vnde &amp; ab illis sumunt denominationem. impossibil. 
+      <lb ed="#L" n="113"/>est ergo ad acquirendum eandem formam numero esse diuersas 
+      <lb ed="#L" n="114"/>actiones. Patet igitur quod ea quae producuntur per actionem 
+      crea<lb ed="#L" n="115" break="no"/>ture non producuntur a deo immediate. Posset tamen deus ea im 
+      <lb ed="#L" n="116"/>mediate producere si vellet, sed tunc creatura nihil ibi ageret 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e626">
+               <lb ed="#L" n="117"/>
+               <!--15--> Secundo patet idem sic, ordo agentium correspondet ordini 
+      <lb ed="#L" n="118"/>finitum, sed vnius rei non possunt esse duo fines immediati &amp; per 
+      <lb ed="#L" n="119"/>fecti, ergo nec duo agentia, nisi forte supplerent vicem vniu 
+      <lb ed="#L" n="120"/>agentis modo quo dictum est de trahentibus nauem, quia 
+      consi<lb ed="#L" n="121" break="no"/>militer possent duo immediati fines. 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e642">
+               <lb ed="#L" n="122"/>
+               <!--16--> AD PRIMVM argumentum dicendum est per interen 
+      <lb ed="#L" n="123"/>ptionem minoris. Non enim vnitas sui additione cum aliis 
+      nu<lb ed="#L" n="124" break="no"/>meris causat numeros, imo ipsa sola sui replicatione causat om 
+      <lb ed="#L" n="125"/>nem numerum materialiter. Sex enim non sunt quinque &amp; vnum 
+      <lb ed="#L" n="126"/>sed? semel sex vel sex vnitates, numerus enim non habet alian 
+      <lb ed="#L" n="127"/>materiam quam vnitatem. Est enim numerus ex vnitatibum 
+      <lb ed="#L" n="128"/>multitudo collecta. Et eodem modo deus omnia immediati 
+      <lb ed="#L" n="129"/>produceret si virtutem producendi aliis non communicasset. 
+      </p>
+            <p xml:id="jsnvu6-d1e2369-d1e664">
+               <lb ed="#L" n="130"/>
+               <!--17.--> Ad secundum dicendum quod non est simile de esse &amp; 
+      de<lb ed="#L" n="131" break="no"/>agere, quia esse causae secundae puta intelligentiae vel corporis 
+      <lb ed="#L" n="132"/>coelestis est immediatus effectus causae primae quae est causa eiu 
+      <lb ed="#L" n="133"/>immediata non in fieri solum, sed conseruando in esse. Et ideo 
+      <lb ed="#L" n="134"/>causa secunda non esset nisi ei causa prima immediate 
+      coexi<lb ed="#L" n="135" break="no"/>steret. Sed agere causae secundae non est immediatus effectus 
+      <lb ed="#L" n="136"/>causae primae. Et ideo non oportet quod deus ad talem 
+      actio<lb ed="#L" n="137" break="no"/>nem immediate coagat, sed solum mediate conseruando 
+      natu<lb ed="#L" n="138" break="no"/>ram &amp; virtutem causae secundae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

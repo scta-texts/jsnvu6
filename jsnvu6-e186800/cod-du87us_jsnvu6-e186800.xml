@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="227-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e186800"><!-- l3d29prae -->
+            <head xml:id="jsnvu6-e186800-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e186800-d1e103">
+               <lb ed="#L" n="153"/>Sententia huis ditindioni. XXIX. 
+      <lb ed="#L" n="154"/>on ob in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e186800-d1e110">
+               <lb ed="#L" n="155"/>O3 T, praedicta. Superius deieminat magi 
+      <lb ed="#L" n="156"/>ster de charitate secundum se &amp; de numero 
+      di<lb ed="#L" n="157" break="no"/>ligibilium. Hic determinat de ordine 
+      diligen<lb ed="#L" n="158" break="no"/>idi respectu diligendorum. Et diuiditur in duas 
+      <lb ed="#L" n="159"/>Primo determinat ordinem quantum ad 
+      quan<lb ed="#L" n="160" break="no"/>titatem dilectionis. Secundo quantum ad quantitatem meri¬ 
+      <!--00528.xml-->
+      <pb ed="#L" n="227-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ti distinct. 30. Hic quaeri solet. Primo determinat de ordine di 
+      <lb ed="#L" n="2"/>ligendi ex parte diligendorum. Secundo mouet quasdam quae 
+      <lb ed="#L" n="3"/>stiones circa determinata, ibi, Solet etiam quaeri. Tertio ponit o 
+      <lb ed="#L" n="4"/>dinem diligendi ex parte graduum ipsius dilectionis, ibi, Sciendi 
+      <lb ed="#L" n="5"/>quoque. Prima in duas. Primo ostendit charitatem habere ordini 
+      <lb ed="#L" n="6"/>&amp; determinat illum ordinem respectu diligendorum simul. Secun 
+      <lb ed="#L" n="7"/>do specialiter respectu proximorum, ibi, vnde etiam super vitae 
+      <lb ed="#L" n="8"/>Secuda diuiditur in quatuor. Primo ponit vnam opinionem. 
+      Se<lb ed="#L" n="9" break="no"/>cundo ponit determinationem auctoritatum quae illi opinioni 
+      <lb ed="#L" n="10"/>videntur obuiare. Secunda ibi, quibus obuiat. Tertio ponit ali. 
+      <lb ed="#L" n="11"/>opinionem ibi, quorum etiam nonnulli. Quarto ostendit quid 
+      <lb ed="#L" n="12"/>sibi videatur verum ibi, quia praemissa. Et haec est diuisio &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e186800-d1e158">
+               <lb ed="#L" n="13"/>
+               <!--2--> In speciali sic procedit, &amp; proponit primo quod cum charitas o 
+      <lb ed="#L" n="14"/>dinem habeat sicut scriptum est in canticis ordinauit in me 
+      cha<lb ed="#L" n="15" break="no"/>ritatem. de hoc ordine de quo inquirendum est. Nam secunmdun 
+      <lb ed="#L" n="16"/>August. lib. de doctrina Christiana, ille non habet ordinatam cha 
+      <lb ed="#L" n="17"/>ritatem qui diligit quod non est diligendum, vel non diligit 
+      <lb ed="#L" n="18"/>est diligendum, aut aequaliter diligit quod est minus, vel amplius 
+      di<lb ed="#L" n="19" break="no"/>ligendum. Peccata enim non sunt diligenda, natura vero diligen 
+      <lb ed="#L" n="20"/>da est, deus quidem propter seipsum &amp; super omnia, proximu 
+      <lb ed="#L" n="21"/>vero propter Deum, &amp; anima proximi plus est diligenda quan 
+      <lb ed="#L" n="22"/>corpus nostrum. Quia magis potest participare beatitudinem 
+      <lb ed="#L" n="23"/>corpus nostrum. Tunc quaerit vtrum omnes homines sint 
+      aequa<lb ed="#L" n="24" break="no"/>liter diligendi &amp; tantum quantum nos, &amp; ponit opinionem quo 
+      <lb ed="#L" n="25"/>rundam quod omnes homines sunt aequaliter diligendi quantum 
+      <lb ed="#L" n="26"/>ad affectum dilectionis, sed quantum ad effectum exhibitioni 
+      <lb ed="#L" n="27"/>beneficij prius subueniendum est illis qui sunt nobis magis coniur 
+      <lb ed="#L" n="28"/>cti. Quod probat per auctoritatem beati Aug. &amp; Hierony. Sed 
+      <lb ed="#L" n="29"/>contra hoc arguit, primo per auctoritatem scripturae quae dicit 
+      <lb ed="#L" n="30"/>Honora patrem &amp; matrem, vbi specialiter amor parentum 
+      expri<lb ed="#L" n="31" break="no"/>mitur aliis tacitis quod non esset nisi parentes essent amplius alii 
+      <lb ed="#L" n="32"/>diligendi. Secundo arguit per Hieron. qui dicit super Ezech.c 
+      <lb ed="#L" n="33"/>post Deum pater &amp; mater filius &amp; filia, frater &amp; soror sunt dili 
+      <lb ed="#L" n="34"/>gendi, &amp; idem dicit Ambrosi. super cantica qui etiam 
+      addit<lb ed="#L" n="35" break="no"/>domestici seu propinqui boni sunt malis filiis praeponendi. E 
+      <lb ed="#L" n="36"/>quod sufficit non odire inimicos, nec tantum tenemur eos 
+      diliger<lb ed="#L" n="37" break="no"/>quantum nos. Sed ad omnia ista respondent illi qui tenent 
+      pri<lb ed="#L" n="38" break="no"/>mam opinionem quod omnia ista intelliguntur de effectum exhibitio 
+      <lb ed="#L" n="39"/>nis beneficij, &amp; non de effectu quo aequaliter debemus nos 8 
+      <lb ed="#L" n="40"/>omnes alios diligere, Deum tamen plusquam nos. Deinde dici 
+      <lb ed="#L" n="41"/>Magister quod sibi magis videtur secundum intentionem Ambrosij? 
+      <lb ed="#L" n="42"/>ordo debet esse in dilectione non solum quantum ad affectum, sec 
+      <lb ed="#L" n="43"/>etiam quantum ad effectum. Omnibus tamen secundum dictum 
+      <lb ed="#L" n="44"/>August. in vita aeterna est aequaliter optanda quantum ad rem 
+      <lb ed="#L" n="45"/>optatam &amp; non quantum ad effectum optantis. Deinde quaerit si 
+      <lb ed="#L" n="46"/>extranei boni sunt magis diligendi quam propinqui mali. Et ar 
+      <lb ed="#L" n="47"/>guit quod sic per auctoritatem Bedae qui dicit quod sanctior est 
+      copul<lb ed="#L" n="48" break="no"/>cordium, quam corporum, istam tamen quaestionem non soluit, sec 
+      <lb ed="#L" n="49"/>redit ad exponendum dictum Ambr. qui dicit quod nullus tenetur 
+      <lb ed="#L" n="50"/>diligere inimicum sicut seipsum. Sed sufficit quod non habeatu 
+      <lb ed="#L" n="51"/>odio, hoc enim est intelligendum quod non tenemur tantum ini 
+      <lb ed="#L" n="52"/>micos diligere sicut nos ipsos, tenemur tamen eos diligere 
+      qui<lb ed="#L" n="53" break="no"/>sunt proximi. Deinde dicit quod in omnibus natura &amp; virtute 
+      <lb ed="#L" n="54"/>sunt diligenda, vitia vero odienda. Item vltimo ponit quandam 
+      <lb ed="#L" n="55"/>distinctionem oraduum charitatis, scilicet quod est charita 
+      <lb ed="#L" n="56"/>incipiens, pronciens, &amp; perecta, &amp; perectisima, &amp; crponi 
+      <lb ed="#L" n="57"/>membra Et in hoc terminatur &amp;c 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

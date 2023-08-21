@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="145-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3385"><!-- l2d24q1 -->
+            <head xml:id="jsnvu6-d1e3385-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e3385-Hd1e103" type="question-title">Utrum liberum arbitrium sit potentia habitus, an actus</head>
+            <p xml:id="jsnvu6-d1e3385-d1e106">
+               <lb ed="#L" n="35"/>itirio 
+      rriua<lb ed="#L" n="36" break="no"/>Vtrum liberum arbitrium sit 
+      po<lb ed="#L" n="37" break="no"/>tentia animae. 
+      <lb ed="#L" n="38"/>Thom. l. 4. e5. a. 1. 
+    </p>
+            <p xml:id="jsnvu6-d1e3385-d1e117">
+               <lb ed="#L" n="39"/>CIRCA distinctionem illam quaeritur de duobus 
+      <lb ed="#L" n="40"/>principaliter. Primum est de libero arbitrio. 
+      Se<lb ed="#L" n="41" break="no"/>cundum est de diuisione rationis in superiorem 
+      <lb ed="#L" n="42"/>i &amp; inferiorem. Circa primum quaeruntur tria 
+      <lb ed="#L" n="43"/>gi Primum est vtrum liberum arbitrium sit 
+      poten<lb ed="#L" n="44" break="no"/>tia animae an habitus eius, an actus. Secundum est vtrum 
+      po<lb ed="#L" n="45" break="no"/>tentia pure passiua possit esse libera. Tertium est in qua 
+      poten<lb ed="#L" n="46" break="no"/>tia sit principalius libertas videlicet in intellectu an in 
+      volunta<lb ed="#L" n="47" break="no"/>te. Ad primum sic proceditur &amp; videtur quod liberum arbitrium 
+      <lb ed="#L" n="48"/>sit habitus, quia potentia non efficitur facilis ad actum nisi per 
+      <lb ed="#L" n="49"/>habitum, sed libertas dicit facilitatem potentiae ad actum vt 
+      vi<lb ed="#L" n="50" break="no"/>detur, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3385-d1e146">
+               <lb ed="#L" n="51"/>
+               <!--2--> Sed videtur quod sit actus, quia liberum arbitrium dicit prin 
+      <lb ed="#L" n="52"/>cipium actum liberorum, sed nuda potentia non potest 
+      secun<lb ed="#L" n="53" break="no"/>dum se esse principium talium actuum, sed solum mediantibus 
+      <lb ed="#L" n="54"/>quibusdam actibus, ergo liberum arbitrium non nominat nudam 
+      <lb ed="#L" n="55"/>potentiam, sed aliquem actum. Maior supponitur. Sed minor 
+      pro<lb ed="#L" n="56" break="no"/>batur, quia primus actus qui est liber, seu in potestate nostra, est 
+      <lb ed="#L" n="57"/>deliberatio vel conclusio deliberationis. Alioquin actus penitu 
+      <lb ed="#L" n="58"/>indeliberati essent in potestate nostra, quod videtur falsum. Sed 
+      <lb ed="#L" n="59"/>neuter praedictorum actuum est in potestate nostra nisi mediante 
+      <lb ed="#L" n="60"/>aliquo actu elicito a voluntate &amp; alio elicito a ratione quia 
+      de<lb ed="#L" n="61" break="no"/>liberatio non elicitur a voluntate cum sit actus intellectus, sed 
+      <lb ed="#L" n="62"/>solum imperatur ab ea mediante aliquo actu ab ea elicito.* Item 
+      <lb ed="#L" n="63"/>omnem actum voluntatis praecedit aliquis actus rationis, ergo 
+      <lb ed="#L" n="64"/>deliberatio &amp; conclusio deliberationis qui sunt primi actus 
+      li<lb ed="#L" n="65" break="no"/>beri non sunt in potestate nostra nisi mediantibus aliis actibus 
+      <lb ed="#L" n="66"/>&amp; haec fuit minor.
+</p>
+            <p xml:id="jsnvu6-d1e3385-d1e186">
+               <lb ed="#L" n="67"/>IN CONTRARIVM arguitur, quia illud 
+      princi<lb ed="#L" n="68" break="no"/>pium, cuius actus eliciti sunt primo in potestate nostra, est 
+      libe<lb ed="#L" n="69" break="no"/>rum arbitrium, sed voluntas est huiusmodi, ergo, &amp;c. Maior 
+      <lb ed="#L" n="70"/>probatur, quia quod est principium omnium actuum qui sunt in 
+      <lb ed="#L" n="71"/>potestate nostra, est liberum arbitrium, sed illud quod est 
+      prin<lb ed="#L" n="72" break="no"/>cipium omnium aliorum actuum existentium in potestate 
+      no<lb ed="#L" n="73" break="no"/>stra, ergo maior probanda sequitur. Minor probatur, quia actus 
+      <lb ed="#L" n="74"/>quai sunt primo in potestate nostra, aut sunt actus intellectus 
+      prae<lb ed="#L" n="75" break="no"/>cedentes omnem actum voluntatis, aut sunt actus a voluntate 
+      <lb ed="#L" n="76"/>eliciti, aut a voluntate imperati, non primi, quia illi sunt 
+      pur<lb ed="#L" n="77" break="no"/>naturales, &amp; ad eos se habet intellectus pure passiue, nec actus 
+      <lb ed="#L" n="78"/>imparati sunt primo in potestate nostra, quia illi actus qui de 
+      <!--00358.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>necessitate sequuntur ad aliquos actus non sunt primo in 
+      po<lb ed="#L" n="80" break="no"/>testate nostra, sed actus a voluntate nostra imperari, sunt 
+      hu<lb ed="#L" n="81" break="no"/>iusinodi, ergo, &amp; caetera. Maior patet, quia actus qui de 
+      necessi<lb ed="#L" n="82" break="no"/>tate sequitur ad alium, non est secundum se in potestate nostra 
+      <lb ed="#L" n="83"/>sed ratione alterius ad quem sequitur. &amp; ita non primo. Minor 
+      <lb ed="#L" n="84"/>probatur ex nono Metaph. vbi dicit philosophus quod volens 
+      <lb ed="#L" n="85"/>&amp; potens necessario operatur, ergo relinquitur quod actus qui 
+      <lb ed="#L" n="86"/>sunt primo in potestate nostra, sunt actus a voluntate eliciti. Et 
+      <lb ed="#L" n="87"/>haec fuit minor principalis rationis. 1112: 
+      </p>
+            <p xml:id="jsnvu6-d1e3385-d1e238">
+               <lb ed="#L" n="88"/>
+               <!--4--> RESPONSIO. Dicendum est quod liberum arbitrium 
+      <lb ed="#L" n="89"/>non est habitus neque actus elicitus, sed est potentia intellectus 
+      <lb ed="#L" n="90"/>vel voluutatis, vel vtraque si mul. Quod patet supposito quodam 
+      <lb ed="#L" n="91"/>principio, videlicet quod liberum arbitrium est principium omnium 
+      <lb ed="#L" n="92"/>actuum liberorum. Hoc enim supposito, patet faciliter quod 
+      li<lb ed="#L" n="93" break="no"/>berum arbitrium non est habitus acquisitus ex actibus vel 
+      inna<lb ed="#L" n="94" break="no"/>tus. Non acquisitus propter duo. Primum est, quia actus 
+      prae<lb ed="#L" n="95" break="no"/>cedentes acquisitionem talis habitus, non essent liberi, quia 
+      li<lb ed="#L" n="96" break="no"/>berum arbitrium est principium omnis actus liberi, posterius 
+      <lb ed="#L" n="97"/>autem non est principium prioris ergo liberum arbitrium non 
+      <lb ed="#L" n="98"/>esset principium actuum praecedentium ipsum, &amp; ita non essem 
+      <lb ed="#L" n="99"/>liberi, quod est falsum, tum quia non possemus peccare per 
+      ip<lb ed="#L" n="100" break="no"/>sos, tum quia actus causantes habitum &amp; causati ex habitu 
+      si<lb ed="#L" n="101" break="no"/>miles sunt, vt patet ex 2. Ethico. Et ideo si sequentes sunt liberi, 
+      <lb ed="#L" n="102"/>&amp; praecedentes. Secundum est, quia habitus determinatus ex 
+      <lb ed="#L" n="103"/>actibus, determinate inclinat ad bene operandum vel 
+      determi<lb ed="#L" n="104" break="no"/>nate ad male, vt patet ex 2. Ethico. sed liberum arbi trium non 
+      <lb ed="#L" n="105"/>inclinat determinate ad alterum, sed indifferenter ad vtrumque, 
+      <lb ed="#L" n="106"/>quare, &amp;c. Si dicatur quod est habitus innatus, adhuc habcinus 
+      <lb ed="#L" n="107"/>propositum, quia talis habitus non distinguitur realiter a 
+      po<lb ed="#L" n="108" break="no"/>tentia, cum non sit aliud quam habitualis inclinatio quam 
+      ha<lb ed="#L" n="109" break="no"/>bet potentia ad tale vel tale obiectum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3385-d1e290">
+               <lb ed="#L" n="110"/>
+               <!--5.--> Quod autem liberum arbitrium non sit actus elicitus 
+      pro<lb ed="#L" n="111" break="no"/>batur sic: actus qui dicitur esse libe. arbitr. aut est vnus &amp; idem 
+      <lb ed="#L" n="112"/>cum actu liberi, aut non. Si sic, ergo non est principium eius, 
+      <lb ed="#L" n="113"/>quia idem non est principium suiipsius, &amp; per consequens non 
+      <lb ed="#L" n="114"/>est liberum arbitrium, quia liberum arbitrium est principium 
+      <lb ed="#L" n="115"/>omnis actus liberi. Si non, aut illi duo actus sunt simul, aut non 
+      <lb ed="#L" n="116"/>non potest dici quod sint simul: quia secundum cursum naturae 
+      <lb ed="#L" n="117"/>de quo nunc loquimur, neque duo actus intelligendi, neque duo 
+      <lb ed="#L" n="118"/>actus volendi possunt esse simul: si non, sed adueniente secundo 
+      <lb ed="#L" n="119"/>primus cessat, sequitur quod primus non est causa secundi: quia 
+      <lb ed="#L" n="120"/>causa proxima &amp; immediata, siue sit effectiua, siue sit 
+      materia<lb ed="#L" n="121" break="no"/>lis, in qua vel ex qua simul est cum effectu. De effectiua dicitui 
+      <lb ed="#L" n="122"/>2. Physicorum, de materiali vero qualitercunque accepta de se 
+      <lb ed="#L" n="123"/>notum est: si ergo non est simul, non est causa talis nec per 
+      con<lb ed="#L" n="124" break="no"/>sequens est liberum arbitrum, cum liberum arbitrium sit 
+      cau<lb ed="#L" n="125" break="no"/>sa effectiua vel receptiua actuum liberorum. Patet ergo quod 
+      <lb ed="#L" n="126"/>liberum arbitrium non est habitus nec actus, relinquitur ergo 
+      <lb ed="#L" n="127"/>quod si potentia, quod concedendum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e3385-d1e334">
+               <lb ed="#L" n="128"/>
+               <!--6.--> Est tamen aduertendum quod liberum arbitrium non 
+      no<lb ed="#L" n="129" break="no"/>minat aliquam potentiam absolute, sed nominat proprietatem 
+      <lb ed="#L" n="130"/>potentiae, vel potentiam sub proprietate: quod non nominet 
+      ali<lb ed="#L" n="131" break="no"/>quam potentiam absolute, patet, quia si liberum arbitrium 
+      no<lb ed="#L" n="132" break="no"/>minaret aliquam potentiam absolute, omnes actus illi potenti 
+      <lb ed="#L" n="133"/>essent actus liberi arbitrij, sed nulla est potentia animae, cuius 
+      <lb ed="#L" n="134"/>omnes actus sint liberi arbitrij, ergo, &amp;c. Minor probatur 
+      de<lb ed="#L" n="135" break="no"/>ducendo in omnibus potentiis animae. Actus enim vegetatiuae 
+      <lb ed="#L" n="136"/>potentiae non sunt liberi, sed sunt pure naturales: actus etiam 
+      <lb ed="#L" n="137"/>partis sensitiuae non sunt liberi, quia non habent iudicium de 
+      <lb ed="#L" n="138"/>propriis actibus, vt possea magis patebit quando inquiretur de 
+      <lb ed="#L" n="139"/>causa libertatis. Item non omnes actus intellectus sunt liberi, 
+      <lb ed="#L" n="140"/>saltem ille qui est respectu primorum principiorum, nec omnes 
+      <lb ed="#L" n="141"/>actus voluntatis, saltem ille qui est respectu boni secundum eius 
+      <lb ed="#L" n="142"/>communem rationem, ergo liberum arbitrium non nominat 
+      ali<lb ed="#L" n="143" break="no"/>quam potentiam absolute. 
+      </p>
+            <p xml:id="jsnvu6-d1e3385-d1e373">
+               <lb ed="#L" n="144"/>
+               <!--7--> Relinquitur ergo quod nominat proprietatem potentiae, vel 
+      po<lb ed="#L" n="145" break="no"/>tentiam sub proprietate: quod contingit videre sic: quando enim 
+      <lb ed="#L" n="146"/>aliqua potentia habet aliam &amp; aliam habitudinem ad aliud &amp; 
+      <lb ed="#L" n="147"/>aliud obiectum, secundum vtrumque potest sortiri nomen 
+      pro<lb ed="#L" n="148" break="no"/>prium sicut videmus in intellectu, quod quia habet aliam 
+      habitu<lb ed="#L" n="149" break="no"/>dinem ad prima principia in quae fertur intuitiue &amp; sine discursu, 
+      <lb ed="#L" n="150"/>&amp; aliam ad conclusiones quas discurrendo &amp; conferendo deducit 
+      <lb ed="#L" n="151"/>ex primis principiis, ideo secundum primam vocatur intellectus 
+      <lb ed="#L" n="152"/>secundum vero secundam habitudinem vocatur ratio: eodem 
+      <lb ed="#L" n="153"/>modo est circa voluntatem: habet enim voluntas aliam 
+      habitu<lb ed="#L" n="154" break="no"/>dinem ad commune rationem boni respectu cuius necessitatur 
+      <lb ed="#L" n="155"/>quadam immutabilitate, &amp; aliam respectu bonorum 
+      particula<lb ed="#L" n="156" break="no"/>rium contingentium, quibus admiscetur ratio mali fugibilis, 
+      res<lb ed="#L" n="157" break="no"/>pectu quorum non necessitatur: sed potest hoc vel illud 
+      eliger<lb ed="#L" n="158" break="no"/>vel refutare, &amp; secundum primam habitudinem vocatur 
+      volun<lb ed="#L" n="159" break="no"/>tas proprie: sed fecundum secundam proprietatem vel 
+      habitu<lb ed="#L" n="160" break="no"/>dinem, dicitur liberum arbirium, non ipsa sula, sed etiam intelle¬ 
+      <!--00359.xml-->
+      <pb ed="#L" n="146-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ctus respectu eorundem: libertas ergo nominat illam proprie 
+      <lb ed="#L" n="2"/>tatem voluntatis quam habet respectus eorum ad quae non 
+      <lb ed="#L" n="3"/>necessitatur. Et liberum arbitrium nominat voluntatem &amp; 
+      in<lb ed="#L" n="4" break="no"/>tellectum sub hac proprietate. Et vtraque dictarum habitudinum 
+      <lb ed="#L" n="5"/>circa intellectum &amp; voluntatem magis debet dici proprieta 
+      <lb ed="#L" n="6"/>naturalis, quam habitus: quia habitus semper dicit aliquid 
+      ad<lb ed="#L" n="7" break="no"/>ditum potentiae, quod si quandoque dicatur habitus, &amp; impro 
+      <lb ed="#L" n="8"/>prie hoc quidem tolerandum est, quo ad primam 
+      habitudi<lb ed="#L" n="9" break="no"/>nem intellectus &amp; voluntatis, secundum quam determinantur 
+      <lb ed="#L" n="10"/>ad vnum. Sed nullo modo quo ad secundam, secundum quam 
+      <lb ed="#L" n="11"/>habent quandam indeterminationem: semper enim habitus 
+      <lb ed="#L" n="12"/>importat quandam determinationem potentiae. 
+      </p>
+            <p xml:id="jsnvu6-d1e3385-d1e447">
+               <lb ed="#L" n="13"/>
+               <!--8--> Ad primum argumentum dicendum quod liberum 
+      arbi<lb ed="#L" n="14" break="no"/>trium dicit facilitatem rationis &amp; voluntatis, non accipiendo 
+      <lb ed="#L" n="15"/>facilitatem pro facilitate quam ponit habitus circa difficilia, sed 
+      <lb ed="#L" n="16"/>accipitur ibi facilitas pro potestate intellectus &amp; voluntatis 
+      <lb ed="#L" n="17"/>quam habet in acceptando vel refutando. 
+</p>
+            <p xml:id="jsnvu6-d1e3385-d1e464">
+               <lb ed="#L" n="18"/>Ad secundum cum dicitur quod primus actus qui est in 
+      pote<lb ed="#L" n="19" break="no"/>state nostra est deliberatio vel conclusio deliberationis, 
+      dicen<lb ed="#L" n="20" break="no"/>dum quod hic est duplex defectus. Primus est, quia maior potest 
+      <lb ed="#L" n="21"/>negari probabiliter: quia sicut dicitur 2. Physic. ars non 
+      delibe<lb ed="#L" n="22" break="no"/>rat, imo ex defectu artis procedit deliberatio: non enim scriptor 
+      <lb ed="#L" n="23"/>deliberat qualiter formabit literam, nisi sit imperitissimus, &amp; 
+      <lb ed="#L" n="24"/>tamen opera artis sunt libera in potestate nostra. 
+      </p>
+            <p xml:id="jsnvu6-d1e3385-d1e482">
+               <lb ed="#L" n="25"/>
+               <!--10.--> Item intemperatus non deliberat an debeat velle delecta 
+      <lb ed="#L" n="26"/>bilia, quia haec accipit tanquam finem, &amp; tamen haec velle est 
+      <lb ed="#L" n="27"/>in potestate sua, alioquin non peccaret haec volendo, quod 
+      ta<lb ed="#L" n="28" break="no"/>men falsum est. Et si dicatur quod intemperatus peccat hoc voler 
+      <lb ed="#L" n="29"/>do, non quia illud velle nunc sit in potestate, quia non est sic 
+      <lb ed="#L" n="30"/>cum qualis vnusquisque est talis sibi finis videatur. Sed quia a 
+      <lb ed="#L" n="31"/>principio fuit in potestate sua quod in eo causaretur talis habitus 
+      <lb ed="#L" n="32"/>vel non causaretur, sicut dicitur de illo q inebriauit se ex culpi 
+      <lb ed="#L" n="33"/>sua, vel incidit in frenesim, &amp; in eis commisit homicidium, Nor 
+      <lb ed="#L" n="34"/>valet, quia ebrietas &amp; frenesis tollunt iudicium rationis: &amp; idec 
+      <lb ed="#L" n="35"/>quod faciunt ebrij vel frenetici non imputatur eis ad nouum 
+      <lb ed="#L" n="36"/>peccatum, sed totum peccatum fuit illud factum, per quod vi 
+      <lb ed="#L" n="37"/>luntarie incidunt in ebrietatem vel frenesim, &amp; propter illud 
+      <lb ed="#L" n="38"/>merentur tot maledictiones, quot mala sequuntur, quamuis non 
+      <lb ed="#L" n="39"/>peccent semper nouo peccato. De intemperato autem non sic 
+      <lb ed="#L" n="40"/>est, quia non amisit iudicium rationis, &amp; potest de eo quod 
+      ac<lb ed="#L" n="41" break="no"/>cipit vt finem deliberare ex altiori fine, etsi non deliberat, sed 
+      <lb ed="#L" n="42"/>sine deliberatione acceptat, peccat nouo peccato. &amp; cum 
+      dici<lb ed="#L" n="43" break="no"/>tur quod qualis, &amp;c. verum est inclinatiue, sed non necessario, 
+      <lb ed="#L" n="44"/>alioquin nullus vitiosus esset curabilis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3385-d1e530">
+               <lb ed="#L" n="45"/>
+               <!--11--> Sic igitur intemperatus peccat, &amp; tamen ille actus nec es 
+      <lb ed="#L" n="46"/>deliberatio, nec conclusio deliberationis, ergo maior illa non es 
+      <lb ed="#L" n="47"/>vera. Ad probationem cum dicitur quod actus penitus 
+      indelibe<lb ed="#L" n="48" break="no"/>rati non sunt in potestate nostra, dicendum quod actus penitus de 
+      <lb ed="#L" n="49"/>liberati possunt accipi dupliciter. Vno modo, illi de quibus no 
+      <lb ed="#L" n="50"/>est deliberatum, neque potuit deliberari, sicut sunt primi motu 
+      <lb ed="#L" n="51"/>subiti tangentes mentem, quia nulla deliberatio humana potest 
+      <lb ed="#L" n="52"/>esse subita, &amp; isti non sunt in potestate nostra, nec secundum si 
+      <lb ed="#L" n="53"/>nobis imputantur, nisi forte propter hoc quod potuerunt 
+      praeue<lb ed="#L" n="54" break="no"/>niri ne insurgerent. Alij autem actus sunt indeliberati, quia 
+      di<lb ed="#L" n="55" break="no"/>ipsis non est deliberatum, potuit tamen de eis deliberari, quia 
+      <lb ed="#L" n="56"/>mens non solum subito eis tangitur, sed persistit: Et tales actus 
+      <lb ed="#L" n="57"/>sic indeliberati bene sunt in potestate nostra. 
+      </p>
+            <p xml:id="jsnvu6-d1e3385-d1e563">
+               <lb ed="#L" n="58"/>
+               <!--12--> Secundus defectus est, quia concessa maiore potest mino 
+      <lb ed="#L" n="59"/>interimi: quia tam deliberatio quam conclusio deliberationis 
+      <lb ed="#L" n="60"/>est in potestate nostra per nudas potentias, &amp; non per aliquos 
+      <lb ed="#L" n="61"/>actus se habentes ad hoc in ratione principij actiui vel 
+      passi<lb ed="#L" n="62" break="no"/>ui, &amp; cum probatur quia liberum arbitrium includit 
+      volunta<lb ed="#L" n="63" break="no"/>tem, verum est: sed non solum quia cum ea includit rationem, 
+      <lb ed="#L" n="64"/>cum liberum arbitrium sit facultas rationis &amp; voluntatis, quam 
+      <lb ed="#L" n="65"/>uis autem deliberatio &amp; conclusio deliberationis non sit actu: 
+      <lb ed="#L" n="66"/>elicitus a voluntate: est tamen actus elicitus a ratione, sicul 
+      <lb ed="#L" n="67"/>electio a voluntate, &amp; sine alio actu medio: quia nec in 
+      intel<lb ed="#L" n="68" break="no"/>lectu est simul alius actus cum deliberatione, nec in voluntate 
+      <lb ed="#L" n="69"/>est alius actus cum electione: &amp; ideo nullum argumentum est, 
+      <lb ed="#L" n="70"/>deliberatio non est actus elicitus a voluntate, ergo non est actus 
+      <lb ed="#L" n="71"/>nudae potentiae pertinentis ad liberum arbitrium, sicut nullum 
+      <lb ed="#L" n="72"/>argumentum esset, electio non est actus elicitus a ratione, 
+      er<lb ed="#L" n="73" break="no"/>go non est actus elicitus a nuda potentia liberi arbitrij, quia 
+      li<lb ed="#L" n="74" break="no"/>perum arbitrium includit vtramque potentiam, &amp; vtrique 
+      re<lb ed="#L" n="75" break="no"/>spondet proprius actus ab ea elicitus, neque oportet quod actus 
+      <lb ed="#L" n="76"/>intellectus qui non est a voluntate elicitus, sit ab ea imperatus 
+      <lb ed="#L" n="77"/>quia non omnem actum intellectus praecedit aliquis actus 
+      vo<lb ed="#L" n="78" break="no"/>luntatis, quamuis oporteat econuerso. 
+      </p>
+            <p xml:id="jsnvu6-d1e3385-d1e613">
+               <lb ed="#L" n="79"/>
+               <!--13--> Argumentum in oppositum quod concludit quod voluntas 
+      <lb ed="#L" n="80"/>pertinet ad liberum arbitrium, concedendum est ratione 
+      con<lb ed="#L" n="81" break="no"/>clusionis: sic tamen qo ipsa sola non pertinet ad liberum 
+      arbi<lb ed="#L" n="82" break="no"/>trium, sed intellectus cum ea &amp; per prius, vt postea patebit. Et 
+      <!--00359.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>cum dicitur quod actus intellectus praecedentes omnem actum 
+      vo<lb ed="#L" n="84" break="no"/>luntatis sunt pure naturales, non est verum de actibus 
+      intelle<lb ed="#L" n="85" break="no"/>ctus praecedentibus omnem actum voluntatis liberum, quia 
+      <lb ed="#L" n="86"/>omnem liberam electionem voluntatis praecedit liberum 
+      iudi<lb ed="#L" n="87" break="no"/>cium rationis, quamuis vtrumque istorum possint praecedere 
+      <lb ed="#L" n="88"/>aliqui actus naturales, tam intellectus quam voluntatis, tamen 
+      <lb ed="#L" n="89"/>quia illi actus non manent cum actibus liberis, non possunt 
+      di<lb ed="#L" n="90" break="no"/>ci causa eorum, nec actiua, neque passiua, nec per consequens 
+      <lb ed="#L" n="91"/>sunt liberi arbitrij. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

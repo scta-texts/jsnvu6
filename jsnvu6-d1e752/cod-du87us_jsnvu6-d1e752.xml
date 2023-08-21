@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="38-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e752"><!-- l1d12prae -->
+            <head xml:id="jsnvu6-d1e752-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e752-d1e103">
+               <lb ed="#L" n="106"/>SEQVITVR DISTINGTIO XII. 
+      <lb ed="#L" n="107"/>Sententiae literae magistri in 
+      gene<lb ed="#L" n="108" break="no"/>rali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e752-d1e112">
+               <lb ed="#L" n="109"/>TIM QVAERITVR. Superius determinaui: 
+      <lb ed="#L" n="110"/>magister de principio Spiritus sancti, 
+      ostende<lb ed="#L" n="111" break="no"/>quod Spiritus sanctus procedit a patre &amp; filio 
+      <lb ed="#L" n="112"/>Hic vero inquirit vtrum sit aliquis ordo inter 
+      pa<lb ed="#L" n="113" break="no"/>trem &amp; filium respectu processionis Spiritus 
+      san<lb ed="#L" n="114" break="no"/>cti. Et diuiditur in tres partes. Primo enim ostendit quod 
+      in<lb ed="#L" n="115" break="no"/>ter patrem &amp; filium in procedendo &amp; Spiritum sanctum non 
+      <lb ed="#L" n="116"/>est ordo temporis. Secundo ostendit quod non est ibi ordo pu 
+      <lb ed="#L" n="117"/>chritudinis, vel dignitatis. Tertio ostendit quod est ordo 
+      na<lb ed="#L" n="118" break="no"/>turae &amp; autoritatis. Secunda ibi. nunc tractandum est. 
+      Terti<lb ed="#L" n="119" break="no"/>ibi. Dicit tamen Augustinus in quinto libro. Prima diuiditu 
+      <lb ed="#L" n="120"/>in duas. Primo mouet dubitationem. Secundo soluit. Secund. 
+      <lb ed="#L" n="121"/>ibi. his &amp; huiusmodi quaestionibus. Haec diuisio &amp; sententia 
+      <lb ed="#L" n="122"/>magistri in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e752-d1e145">
+               <lb ed="#L" n="123"/>
+               <!--2--> In speciali vero sic procedit. Et quaerit primo vtrum spiritu: 
+      <lb ed="#L" n="124"/>sanctus prius procedat a patre quam a filio. Et arguit ad hoc 
+      hae<lb ed="#L" n="125" break="no"/>reticus sic. Aut spiritus sanctus procedit a patre nato filio, aut 
+      <lb ed="#L" n="126"/>non nato, si nato, ergo natiuitas filij praecedit processionem 
+      <lb ed="#L" n="127"/>spiritus sancti quod est inconueniens. Si non nato, ergo ante 
+      <lb ed="#L" n="128"/>procedit spiritus sanctus a patre quam filius nasceretur. Postea sol 
+      <lb ed="#L" n="129"/>uit secundum Augustinum dicens quod nullus est ibi ordo 
+      tempo<lb ed="#L" n="130" break="no"/>ris vbi omnia sunt aeterna. Nec habet locum quaestio vtrum 
+      <lb ed="#L" n="131"/>nato filio an non nato procedit spiritus sanctus. Postea 
+      osten<lb ed="#L" n="132" break="no"/>dit quod non plenius procedit ab vno quam ab alio. Vltimo ponit 
+      au<lb ed="#L" n="133" break="no"/>toritates per quas videtur pater plus habere in productione 
+      <lb ed="#L" n="134"/>spiritus sancti quam filius, quia quaedam autoritates dicunt quod spe 
+      <lb ed="#L" n="135"/>ritus sanctus procedit a patre principaliter. Et quia filius attri. 
+      <lb ed="#L" n="136"/>buit patri processionem spi. sancti in Euangelio, quae omnia 
+      <lb ed="#L" n="137"/>non nominant maiorem dignitatem in patre, sed autoritatem 
+      <lb ed="#L" n="138"/>in spirando, quae autoritas in hoc consistit quod filius habet a 
+      pa<lb ed="#L" n="139" break="no"/>tre quod potuit ab ipso procedere spiritus sanctus. Et in hoc 
+      <lb ed="#L" n="140"/>terminatur sententia huius distinctionis in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

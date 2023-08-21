@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="229-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e188818"><!-- l3d30prae -->
+            <head xml:id="jsnvu6-e188818-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e188818-d1e103">
+               <lb ed="#L" n="128"/>Sententia huius distinctionis XXX. in 
+      <lb ed="#L" n="129"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e188818-d1e110">
+               <lb ed="#L" n="130"/>HIC QUAERI solet. Superius determinauit 
+      ma<lb ed="#L" n="131" break="no"/>gister de ordine charitatis secundum 
+      quadrupli<lb ed="#L" n="132" break="no"/>cem modum dilectionis. Hic determinat de 
+      or<lb ed="#L" n="133" break="no"/>dine charitatis secundum quantitatem meriti. Et 
+      di<lb ed="#L" n="134" break="no"/>Auiditur in sex. Primo mouet quaestionem. 
+      Secun<lb ed="#L" n="135" break="no"/>do respondet ibi, sed haec comparatio. Tertio obiicit in 
+      con<lb ed="#L" n="136" break="no"/>trarium ex auctoritatibus Aug. ibi, Augu. tamen. Quarto 
+      deter<lb ed="#L" n="137" break="no"/>minat auctoritatem ibi, quod si quis simpliciter. Quinto 
+      mo<lb ed="#L" n="138" break="no"/>uet ex dictis incidentem quaestionem ibi, Illud vero quod 
+      se<lb ed="#L" n="139" break="no"/>quitur. Sexto vero determinat eam ibi, quidam quod hic 
+      di<lb ed="#L" n="140" break="no"/>citur. Haec est diuisio &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e188818-d1e136">
+               <lb ed="#L" n="141"/>
+               <!--2--> IN SPECIALI sic procedit. Primo quaerit quid fit 
+      <lb ed="#L" n="142"/>magis meritorium diligere amicos, an diligere inimicos. 
+      Respon<lb ed="#L" n="143" break="no"/>det quod dupliciter potest intelligi comparatio ista. Vno modo vi 
+      <lb ed="#L" n="144"/>comparetur dilectio amici ex vna parte ad dilectionem amici &amp; 
+      <lb ed="#L" n="145"/>inimici ex altera, &amp; sic dilectio secunda est magis meritoria! 
+      <lb ed="#L" n="146"/>prima. Alio modo qod in eodem homine comparetur 
+      dilecti<lb ed="#L" n="147" break="no"/>amici ad dilectionem inimici &amp; sic siue sit vnus actus 
+      dilectio<lb ed="#L" n="148" break="no"/>nis siuem duo quo diligitur amicus &amp; inimicus semper videtur 
+      <lb ed="#L" n="149"/>quod dilectio amici sit potior, quia est feruentior. Arguitur tamen 
+      <lb ed="#L" n="150"/>in contrarium per Aug. qui dicit quod diligere inimicos est 
+      per<lb ed="#L" n="151" break="no"/>fectior &amp; non est tot hominum quot exaudiuntur in oratione 
+      do<lb ed="#L" n="152" break="no"/>minica cum dicitur, Dimitte nobis debita nostra, sicut &amp; nos 
+      di<lb ed="#L" n="153" break="no"/>mittimus &amp;c. Et sic dilectio inimicorum videtur potior quam 
+      dile<lb ed="#L" n="154" break="no"/>ctio amicorum. Et respondet ad hoc secundum distinctionem 
+      su<lb ed="#L" n="155" break="no"/>prapositam quod Aug. intelligit perfectiorem esse dilectionem qua di 
+      <lb ed="#L" n="156"/>ligitur amicus &amp; inimicus simul quam sit illa qua diligitur solum 
+      <lb ed="#L" n="157"/>amicus. Tunc mouet dubitationem ex hoc quod dicit Aug. quod dilectio 
+      <lb ed="#L" n="158"/>inimicorum non est tot hominum quot exaudiuntur in oratione 
+      <!--00533.xml-->
+      <pb ed="#L" n="230-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dominica, cum dicitur, Dimitte nobis debita nostra, quia nulli 
+      <lb ed="#L" n="2"/>dimittuntur peccata nisi sit in charitate. Si ergo plures exaudium 
+      <lb ed="#L" n="3"/>tur in praedicta oratione dominica quam sint illi qui diligunt 
+      <lb ed="#L" n="4"/>inimicos, sequitur quod diligere inimicos non cadit sub praecepte 
+      <lb ed="#L" n="5"/>charitatis quod est inconueniens cum nomine proximi omnis ho 
+      <lb ed="#L" n="6"/>mo intelligatur. Cum dicitur, Diliges proximum tuum sicut 
+      te<lb ed="#L" n="7" break="no"/>ipsum. Et respondetur dupliciter. Vno modo quod diligere ini 
+      <lb ed="#L" n="8"/>micos est perfectis in praeceptum, sed imperfectis est solum con 
+      <lb ed="#L" n="9"/>silium. Alio modo respondet quod dilectio inimicorum est 
+      perfe<lb ed="#L" n="10" break="no"/>„cta per quam exhibentur eis signa dilectionis orando, &amp; eis be 
+      <lb ed="#L" n="11"/>"nefaciendo solum est perfectorum, nec cadit sub praecepto quan 
+      <lb ed="#L" n="12"/>tum ad omnes generaliter, &amp; sic intelligit Augustinus. Et in hoc 
+      <lb ed="#L" n="13"/>terminatur &amp; caetera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

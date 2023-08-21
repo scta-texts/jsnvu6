@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="55-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1161"><!-- l1d19q3 -->
+            <head xml:id="jsnvu6-d1e1161-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e1161-Hd1e103" type="question-title">Utrum in divinis personis sit circuminsesio hoc est utrum una persona divina sit in alia</head>
+            <p xml:id="jsnvu6-d1e1161-d1e106">
+               <lb ed="#L" n="69"/>QUAEATIO TERTIA. 
+      <lb ed="#L" n="70"/>Vtrum in diuinis sit 
+      circumin<lb ed="#L" n="71" break="no"/>sessio. 
+      <lb ed="#L" n="72"/>Thom. 1. 4. 42. ar. 5 
+    </p>
+            <p xml:id="jsnvu6-d1e1161-d1e117">
+               <lb ed="#L" n="73"/>DEINDE quaeritur, vtrum in diuinis sit circum 
+      <lb ed="#L" n="74"/>insessio. Voco autem circuminsessionem quod 
+      <lb ed="#L" n="75"/>vna persona sit in alia. Etvidetur quod non 
+      qui<lb ed="#L" n="76" break="no"/>si pater esset in filio &amp; filius in patre sequeretur 
+      <lb ed="#L" n="77"/>quod pater sit in seipso, consequens est falsum, 
+      <lb ed="#L" n="78"/>antecedens, probatio consequentiae, quia si sortes est 
+      <!--00175.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>similis platoni &amp; plato est similis martino, sequitur quod 
+      sor<lb ed="#L" n="80" break="no"/>tes est similis martino, &amp; eodem modo est in proposito vt 
+      vi<lb ed="#L" n="81" break="no"/>detur, falsitas consequentiae apparet: quia nihil potest esse in 
+      <lb ed="#L" n="82"/>scipso vt habetur 4. Physicorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1161-d1e146">
+               <lb ed="#L" n="83"/>
+               <!--2.--> Item Arist. 4. Physicorum assignat modos essendi in, sed 
+      se<lb ed="#L" n="84" break="no"/>cundum nullum eorum vna persona potest esse in alia, vt 
+      pa<lb ed="#L" n="85" break="no"/>tet discurrendo per singulos, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1161-d1e158">
+               <lb ed="#L" n="86"/>
+               <!--3--> IN CONTRARIVM est, quod dicitur Io. 14. Ege 
+      <lb ed="#L" n="87"/>in patre &amp; pater in me est. 
+      </p>
+            <p xml:id="jsnvu6-d1e1161-d1e167">
+               <lb ed="#L" n="88"/>
+               <!--4--> RESPONSIO. Dicendum est quod in diuinis est 
+      cir<lb ed="#L" n="89" break="no"/>cuminsessio, quia pater est in filio &amp; filius in patre, &amp; quaelibe 
+      <lb ed="#L" n="90"/>persona in alia: qualiter autem hoc sit, sciendum est quod vna 
+      per<lb ed="#L" n="91" break="no"/>sona non potest esse in alia ratione totius constituri ex essentia 
+      <lb ed="#L" n="92"/>&amp; relatione ita quod quaelibet sit continens &amp; contenta ratione te 
+      <lb ed="#L" n="93"/>tius, potest tame ratione alterius partis, nec fiat vis in nomine 
+      <lb ed="#L" n="94"/>totius &amp; partis, quia sic oportet loqui, licet in diuinis non sit 
+      <lb ed="#L" n="95"/>proprie totum &amp; pars. Primum patet sic, esse in alio &amp; in quo 
+      <lb ed="#L" n="96"/>aliud, opponuntur secundum proprias rationes, sicut esse ab 
+      <lb ed="#L" n="97"/>alio &amp; a quo aliud, sed nihil vnum &amp; idem secundum idem &amp; 
+      <lb ed="#L" n="98"/>respectu eiusdem est ab alio, &amp; a quo aliud, ergo nihil vnum &amp; 
+      <lb ed="#L" n="99"/>idem respectu eiusdem &amp; secundum idem est quod in alio &amp; 
+      <lb ed="#L" n="100"/>in quo aliud, sed istud sequeretur si pater esset in filio &amp; 
+      ccon<lb ed="#L" n="101" break="no"/>uerso quilibet ratione totius constituti, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1161-d1e202">
+               <lb ed="#L" n="102"/>
+               <!--5--> Secundum patet scilicet quod vna persona potest esie i 
+      <lb ed="#L" n="103"/>alia ratione partis nisi quod praeintelligendum est quod secundum 
+      no<lb ed="#L" n="104" break="no"/>strum modum intelligendi diuina persona est constituta quasi 
+      <lb ed="#L" n="105"/>ex duabus partibus, scilicet ex essentia &amp; relatione, vna auten 
+      <lb ed="#L" n="106"/>persona non proprie dicitur esse in alia ratione relationis, lice 
+      <lb ed="#L" n="107"/>per eam sit de intellectu alterius, quia vt ad quem &amp; vt in que 
+      <lb ed="#L" n="108"/>sunt diuersae habitudines, sed habitudo personae ad personam 
+      <lb ed="#L" n="109"/>secundum relationes est habitudo vt ad quem tantum; erg 
+      <lb ed="#L" n="110"/>ratione relationis vna persona non est in alia. 
+      </p>
+            <p xml:id="jsnvu6-d1e1161-d1e226">
+               <lb ed="#L" n="111"/>
+               <!--6--> Item illud per quod vna persona distinguitur ab alia non 
+      <lb ed="#L" n="112"/>est ratio quare vna sit in alia, quia illud per quod vna est in alia 
+      <lb ed="#L" n="113"/>est commune vtrique: &amp; est in vtraque, alioquin non esset 
+      ra<lb ed="#L" n="114" break="no"/>tio quare vna persona esset in alia, sed relationes quibus 
+      per<lb ed="#L" n="115" break="no"/>sonae distinguuntur non sunt communes personis, ergo 
+      secun<lb ed="#L" n="116" break="no"/>dum eas vna non dicitur esse in alia. 
+      </p>
+            <p xml:id="jsnvu6-d1e1161-d1e244">
+               <lb ed="#L" n="117"/>
+               <!--7--> Restat ergo quod vna persona sit in alia ratione essentiae qui 
+      <lb ed="#L" n="118"/>vna est numero in omnibus personis. Sed persona non est vt in 
+      <lb ed="#L" n="119"/>qua est alia ratione solius essentiae, quia tunc per ide 
+      conueni<lb ed="#L" n="120" break="no"/>ret personae esse in alio &amp; in quo aliud, quod reprobatum est, sed 
+      <lb ed="#L" n="121"/>conuenit personae vt in ipsa sit alia, ratione totius constituti, 
+      <lb ed="#L" n="122"/>sicut filio conuenit ratione essentiae quod sit in patre, sed patri con 
+      <lb ed="#L" n="123"/>uenit vt sit in quo filius ratione totius constituti, &amp; similite 
+      <lb ed="#L" n="124"/>in aliis. Et hoc videtur rationabile, illud enim in quo est aliud 
+      <lb ed="#L" n="125"/>debet excedere vel esse in plus, quam illud quod est in ipso, sec 
+      <lb ed="#L" n="126"/>pater ratione totius constituti se habet aliquo modo in plus, 
+      <lb ed="#L" n="127"/>filius ratione solius essentiae, &amp; similiter econuerso: quare &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e1161-d1e273">
+               <lb ed="#L" n="128"/>
+               <!--8--> AD PRIMVM argumentum cum dicitur si pater est 
+      <lb ed="#L" n="129"/>in filio &amp; filius in patre &amp;c. Dicendum quod consequentia non te 
+      <lb ed="#L" n="130"/>net quia inesse est proprietas distincti, eiusdem autem ad 
+      seip<lb ed="#L" n="131" break="no"/>sum non est distinctio. Et ideo procedendo in rectum bene 
+      te<lb ed="#L" n="132" break="no"/>net consequentia non reflectendo sicut in exemplo quod 
+      ad<lb ed="#L" n="133" break="no"/>ducitur, si sortes est similis platoni, &amp; plato martino, bene 
+      se<lb ed="#L" n="134" break="no"/>quitur quod sortes sit similis martino, reflectendo autem non 
+      <lb ed="#L" n="135"/>tenet consequentia, quia reflexio tollit distinctionem, vnde no 
+      <lb ed="#L" n="136"/>sequitur, sortes est similis platoni, &amp; plato similis sorti, ergo so 
+      <lb ed="#L" n="137"/>tes est similis sibiipsi. Eodem modo sequitur in proposito, 
+      spi<lb ed="#L" n="138" break="no"/>ritus sanctus est in filio &amp; filius est in patre, ergo suirit? fanctu 
+      <lb ed="#L" n="139"/>est in patre, non tamen sequitur reflectendo, pater est in filio 8 
+      <lb ed="#L" n="140"/>filius in patre: ergo pater est in seipso. Vel dicendum quod forte 
+      se<lb ed="#L" n="141" break="no"/>queretur si quaelibet persona esset in alia ratione totius consti 
+      <lb ed="#L" n="142"/>tuti &amp; esset in qua alia ratione eiusdem, sed non est ita, vt vi 
+      <lb ed="#L" n="143"/>sum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e1161-d1e313">
+               <lb ed="#L" n="144"/>
+               <!--9--> Ad secundum dicendum quod non omnes modi essendi in 
+      <lb ed="#L" n="145"/>aliquo continentur in illis quos ponit Aristoteles quarto Phy 
+      <lb ed="#L" n="146"/>sicorum nisi forte per quandam remotam reductionem, sicut 
+      <lb ed="#L" n="147"/>esse in tempore reducitur ad illum modum quo aliquid in 
+      lo<lb ed="#L" n="148" break="no"/>co est. quia vterque est sicut mensuratum in mensura. &amp; eodem 
+      <lb ed="#L" n="149"/>modo potest hic inueniri aliqua reductio, pater enim est in 
+      fi<lb ed="#L" n="150" break="no"/>lio ratione essentiae, essentia autem est in filio modo quo 
+      natu<lb ed="#L" n="151" break="no"/>ra communis est in supposito, reducitur ad modum quo genu: 
+      <lb ed="#L" n="152"/>est in specie, vel species in indiuiduo, licet essentia non habea 
+      <lb ed="#L" n="153"/>proprie rationem generis vel speciei respectu personarum vt 
+      <lb ed="#L" n="154"/>postea patebit. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

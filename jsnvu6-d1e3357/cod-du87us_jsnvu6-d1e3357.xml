@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="144-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3357"><!-- l2d23q2 -->
+            <head xml:id="jsnvu6-d1e3357-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e3357-Hd1e103" type="question-title">Utrum primus homo viderit Deum per essentiam</head>
+            <p xml:id="jsnvu6-d1e3357-d1e106">
+               <lb ed="#L" n="146"/>QVAISTIO SECVNDA. 
+      <lb ed="#L" n="147"/>Vtrum primus homo viderit deum 
+      <lb ed="#L" n="148"/>per essentiam. 
+      <lb ed="#L" n="149"/>Thum 1a. 5. 2. 1.
+      </p>
+            <p xml:id="jsnvu6-d1e3357-d1e117">
+               <lb ed="#L" n="150"/>DEINDE quaeritur, vtrum primus homo videri 
+      <lb ed="#L" n="151"/>deum per essentiam. Et videtur quod sic: quia 
+      se<lb ed="#L" n="152" break="no"/>cundum Augu. 14. de ciui. dei. Primo homini non 
+      <lb ed="#L" n="153"/>ii deerat quicquam quod bona voluntas 
+      adipiscere<lb ed="#L" n="154" break="no"/>tur. Sed nihil melius bona voluntas adipisci 
+      po<lb ed="#L" n="155" break="no"/>test visione diuinae essentia, ergo hoc in statu innocentia 
+      <lb ed="#L" n="156"/>non deerat. 
+      </p>
+            <p xml:id="jsnvu6-d1e3357-d1e135">
+               <lb ed="#L" n="157"/>
+               <!--2--> Item vita beata confistit in visione Dei per essentiam, sed si 
+      <lb ed="#L" n="158"/>cundum Dam. lib. 2. homo in paradiso beatam &amp; omnium 
+      di<lb ed="#L" n="159" break="no"/>uitem vitam habuit, ergo, &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e3357-d1e147">
+               <lb ed="#L" n="160"/>PCINUCONTRARIVM est quod dicitur Ioann.1 
+      <lb ed="#L" n="161"/>Deum nemo vidit vnquamci iuDiui
+      </p>
+            <p xml:id="jsnvu6-d1e3357-d1e154">
+      <!--00357.xml-->
+               <pb ed="#L" n="145-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>4 Et arguitur ratione, quia videre Deum per essentiam est 
+      sta<lb ed="#L" n="2" break="no"/>tus comprehensoris &amp; non viatoris, sed Adam in toto statu 
+      in<lb ed="#L" n="3" break="no"/>nocentiae fuit viator, &amp; non comprehensor, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3357-d1e170">
+               <lb ed="#L" n="4"/>
+               <!--5--> RESPONSIO cum loquimur de cognitione Dei qui 
+      <lb ed="#L" n="5"/>habuit Adam vel habuissent alij in statu innocentiae, aut loqui 
+      <lb ed="#L" n="6"/>mur de cognitione quam habuissent secundum communem statum, 
+      <lb ed="#L" n="7"/>vel quam habuissent secundum speciale priuilegium. Si loquamur 
+      de<lb ed="#L" n="8" break="no"/>cognitione quam potuerunt habere ex speciali priuilegio, sic nulli 
+      <lb ed="#L" n="9"/>dubium est quin deus potuerit Adae vel alij cui voluit manifestare 
+      <lb ed="#L" n="10"/>se per effentiam, &amp; manifestauit, vt quidam credunt, non solum 
+      <lb ed="#L" n="11"/>Adae in raptu quando immisit soporem in Adam, vt dicitur Gen 
+      <lb ed="#L" n="12"/>2. sed etiam Moysi sub lege, &amp; Paulo in tempore gratiae, vt 
+      inue<lb ed="#L" n="13" break="no"/>nitur in 2. ad Cor. 12. Et de hoc cum sit de facto quod dependet 
+      <lb ed="#L" n="14"/>ex mera voluntate diuina, non potest haberi alia certitudo. 
+      </p>
+            <p xml:id="jsnvu6-d1e3357-d1e199">
+               <lb ed="#L" n="15"/>
+               <!--6--> Si vero loquamur de cognitione quae competebat ei secundum 
+      <lb ed="#L" n="16"/>communem statum, sic dicunt quidam quod sicut status innocentiae fuit 
+      <lb ed="#L" n="17"/>medius inter statum gloriae &amp; statum culpae, sic homo in isto sta 
+      <lb ed="#L" n="18"/>tu habuit cognitionem de deo medio modo, in statu autem gloria 
+      <lb ed="#L" n="19"/>videtur de? per essentiam, in statu culpe videtur a nobis per speculi 
+      <lb ed="#L" n="20"/>&amp; in aenigmate ex contuitu creaturarum, sed in statu innocentia 
+      <lb ed="#L" n="21"/>videbatur per speciem influxam: Et hoc quidem est naturae in angeli 
+      <lb ed="#L" n="22"/>fuit autem gratiae communis statui innocentiae, vt omnes homines in 
+      <lb ed="#L" n="23"/>illo statu ad illum modum cognoscendi deum attingerent per gratiam 
+      <lb ed="#L" n="24"/>qui competit angelis per naturam. Et huius triplicis visionis intelle 
+      <lb ed="#L" n="25"/>ctualis ponitur exemplum in visione corporali, lux enim corpe 
+      <lb ed="#L" n="26"/>ralis videtur immediate pr suam essentiam, &amp; sic beati 
+      intellectua<lb ed="#L" n="27" break="no"/>liter vident deum. Homo vero videt alium in speculo per imaginem 
+      <lb ed="#L" n="28"/>illius in speculo resultantem, &amp; sic in statu culpae videmus dei 
+      <lb ed="#L" n="29"/>per effectus eius relucentes in creaturis tanquam in speculo: 
+      lapi<lb ed="#L" n="30" break="no"/>autem videtur ab oculo per suam similitudinem in oculo 
+      reli<lb ed="#L" n="31" break="no"/>ctam, &amp; hoc modo videtur deus ab angelis per speciem eis 
+      in<lb ed="#L" n="32" break="no"/>fluxam a sua creatione: &amp; videbatur ab homine in statu inno 
+      <lb ed="#L" n="33"/>centiae, nisi quod hoc non tam fuit naturae, quam gratiae.
+</p>
+            <p xml:id="jsnvu6-d1e3357-d1e245">
+               <lb ed="#L" n="34"/>Sed istud deficit in duobus. Primum est, quia nulla 
+      cognitic<lb ed="#L" n="35" break="no"/>sensitiua aut intellectiua nostra vel angelica fit per speciem, prou 
+      <lb ed="#L" n="36"/>isti ponunt, sicut probatum fuit supra, distinct. 3. Secundum est 
+      <lb ed="#L" n="37"/>quod si aliqua cognitio fieret per speciem, &amp; homo in statu in 
+      <lb ed="#L" n="38"/>nocentiae cognouisset Deum per solam speciem; illa 
+      cogniti<lb ed="#L" n="39" break="no"/>fuisset beata, quia beata visio est ex hoc quod Deus clare 
+      vi<lb ed="#L" n="40" break="no"/>detur, &amp; non aenigmatice, sed visio per speciem a re 
+      immedia<lb ed="#L" n="41" break="no"/>te acceptam, est clara &amp; non aenigmatica, sed est facie ad faciem, 
+      <lb ed="#L" n="42"/>sic enim videt vnus alterum, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3357-d1e267">
+               <lb ed="#L" n="43"/>
+               <!--8--> Dicendum ergo, quod Adam in statu innocentiae cum esset 
+      <lb ed="#L" n="44"/>viator sicut nos, vidit deum in eodem genere visionis quo nos 
+      <lb ed="#L" n="45"/>scilicet ex creaturis sumens cognitionem, sed tanto perfectius 
+      <lb ed="#L" n="46"/>quam nos, quanto perfectiorem cognitionem habuit de 
+      crea<lb ed="#L" n="47" break="no"/>turis quam nos. Si autem Deus voluit ipsi imprimere 
+      quan<lb ed="#L" n="48" break="no"/>dam mediam cognitionem inter cognitionem beatam &amp; 
+      aeni<lb ed="#L" n="49" break="no"/>gmaticam, quam nunc habemus de Deo, per creaturas, non 
+      <lb ed="#L" n="50"/>quidem imprimendo speciem, sed solam cognitionem: hoc 
+      la<lb ed="#L" n="51" break="no"/>tet omnem hominem, quantum est de facto. 
+      </p>
+            <p xml:id="jsnvu6-d1e3357-d1e292">
+               <lb ed="#L" n="52"/>
+               <!--9--> De possibilitate vero videtur dicendum, quod si illa 
+      cogni<lb ed="#L" n="53" break="no"/>tio non esset beata, nec intuitiua, sed abstractiua, si 
+      intelligere<lb ed="#L" n="54" break="no"/>tur sic esse abstractiua, quod per eam cognosceretur Deus essi 
+      <lb ed="#L" n="55"/>trinus &amp; vnus, prout quidam posuerunt, vt recitatum fuit 
+      su<lb ed="#L" n="56" break="no"/>per prooemium primi lib. non videtur nobis quod sit 
+      possibi<lb ed="#L" n="57" break="no"/>lis propter rationes ibidem positas: si autem ponatur esse quae 
+      <lb ed="#L" n="58"/>dam alia abstractiua altior omni cognitione quae potest 
+      ha<lb ed="#L" n="59" break="no"/>beri de Deo per creaturas, dicatur quomodo illa sit possibilis, 
+      <lb ed="#L" n="60"/>quia nobis non apparet quod aliqua sit altior nisi illa 
+      cogniti<lb ed="#L" n="61" break="no"/>quae est per fidem, quae extendit se etiam in nobis ad aliqua, ad 
+      <lb ed="#L" n="62"/>quae ratio naturalis sumpta ex creaturis non se extendit. 
+      </p>
+            <p xml:id="jsnvu6-d1e3357-d1e321">
+               <lb ed="#L" n="63"/>
+               <!--10--> Ad primum argumentum dicendum quod bona voluntas 
+      <lb ed="#L" n="64"/>est ordinata voluntas: non fuisset autem ordinata voluntas si in 
+      <lb ed="#L" n="65"/>statu meriti voluisset habere visionem Dei per essentiam, quae 
+      <lb ed="#L" n="66"/>omnibus promittitur pro praemio. 
+      </p>
+            <p xml:id="jsnvu6-d1e3357-d1e334">
+               <lb ed="#L" n="67"/>
+               <!--11--> Ad secundum dicendum quod homo in statu innocentiae 
+      ha<lb ed="#L" n="68" break="no"/>bebat beatam vitam, non secundum illam beatitudinem in quam 
+      <lb ed="#L" n="69"/>transferendus erat, quae in visione Dei consistit, sed secundum 
+      <lb ed="#L" n="70"/>quendam modum inquantum habebat integritatem &amp; 
+      perfe<lb ed="#L" n="71" break="no"/>ctionem naturae absque miseria, &amp; repugnantia corporis ad 
+      ani<lb ed="#L" n="72" break="no"/>mam, &amp; virium inferiorum ad superiores.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

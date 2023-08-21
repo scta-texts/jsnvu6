@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="315-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e260085"><!-- l4d25q5 -->
+            <head xml:id="jsnvu6-e260085-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e260085-Hd1e103" type="question-title">Utrum praelatus aliquis posset excusari a vitio 
+      simoniae conferendo pro pecunia simplicem canoni 
+      catum, vel simplex beneficium cui non sit 
+      annexa cura animarum, vel sacer ordo</head>
+            <p xml:id="jsnvu6-e260085-d1e106">
+               <lb ed="#L" n="52"/>QUAESTIO 5 
+      <lb ed="#L" n="53"/>Vtrum praelatus aliquis posset excusari a vitio 
+      simo<lb ed="#L" n="54" break="no"/>niae conferendo pro pecunia simplicem canoni 
+      <lb ed="#L" n="55"/>catum, vel simplex beneficium cui non sit 
+      <lb ed="#L" n="56"/>annexa cura animarum, vel sacer ordo. 
+    </p>
+            <p xml:id="jsnvu6-e260085-d1e119">
+               <lb ed="#L" n="57"/>TErtio quaeritur, vtrum praelatus aliquis posset 
+      <lb ed="#L" n="58"/>excusari a vitio simoniae conferendo pro pecunia 
+      <lb ed="#L" n="59"/>simplicem canonicatum vel simplex beneficium cui 
+      <lb ed="#L" n="60"/>non fit annexa cura animarum vel sacer ordo. 
+      <lb ed="#L" n="61"/>Et videtur quod saltem papa vel inferiores 
+      praela<lb ed="#L" n="62" break="no"/>ti ex commissione papae possint in hoc casu excusari a 
+      pecca<lb ed="#L" n="63" break="no"/>to: quia quod non est simoniacum de se nisi ex iuris prohibi 
+      <lb ed="#L" n="64"/>tibne non ligat papam nec inferiores cum quibus papa dispensat, sed 
+      <lb ed="#L" n="65"/>conferre simplicem canonicatum, vel aliud beneficium cui non 
+      <lb ed="#L" n="66"/>est annexa cura animarum nec sacer ordo non est de se simonia 
+      <lb ed="#L" n="67"/>cum, sed solum ex prohibitione iuris, ergo &amp;c. Maior patet, 
+      <lb ed="#L" n="68"/>quia statuta canonum non ligant papam nec illum cum quo papa 
+      <lb ed="#L" n="69"/>dispensat sicut nec leges imperatorem. Probantur haec. F. de legi 
+      <lb ed="#L" n="70"/>I. princeps. &amp; 9. q. 3. can. cuncta per mundum. Minor probatur 
+      <lb ed="#L" n="71"/>primo per Hostiensem qui dicit hoc expresse extra de fimonia. 
+      <lb ed="#L" n="72"/>supra vltimum capitulum. Et probatur per rationem: quia non 
+      <lb ed="#L" n="73"/>videtur quod aliquid sit de se simonia eum nisi emptio &amp; ven 
+      <lb ed="#L" n="74"/>ditio sacramentorum, vt patet per illud quod legitur Actuim 
+      <lb ed="#L" n="75"/>8. vnde radix fimoniae processisse videtur. Simon enim a quo 
+      <lb ed="#L" n="76"/>&amp; simont dicta est voluit pro pecunia emere gratiam confe 
+      <lb ed="#L" n="77"/>rendi spiritum sanctum quem videbat visibiliter dari in 
+      sacra<lb ed="#L" n="78" break="no"/>mento confirmationis per impositionem manuum apostolo 
+      <lb ed="#L" n="79"/>rum, sed in simplici canonicatu &amp; beneficio sine cura &amp; sacre 
+      <lb ed="#L" n="80"/>ordine nulla est obligatio ad susceptionem vel 
+      administratio<lb ed="#L" n="81" break="no"/>nem cuiuscunque sacramenti, ergo vendere vel emere tale be 
+      <!--00704.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>neficium non est de se simoniacum.
+    </p>
+            <p xml:id="jsnvu6-e260085-d1e182">
+               <lb ed="#L" n="83"/>Item quando spirituale &amp; corpora le sunt aonera liciti es 
+      <lb ed="#L" n="84"/>ex veditione temporalis transferre spirituale in alierum, dum 
+      <lb ed="#L" n="85"/>modo propter spirituale non augeatur prerium, vt patet in 
+      iu<lb ed="#L" n="86" break="no"/>re patronacus quod transit villa vendita: vt habetur extra de in 
+      <lb ed="#L" n="87"/>re patronatus. c. cum seculum. sed in simplici canonicatu sunt 
+      <lb ed="#L" n="88"/>annexa spiritualia cum temporalibus, scilicet officium cum 
+      <lb ed="#L" n="89"/>praebenda, ergo cum praebenda posset vendi, videtur quod cum 
+      <lb ed="#L" n="90"/>ea possit transire canonicatus licite dummodo non plus 
+      ven<lb ed="#L" n="91" break="no"/>datur praebenda propter canonicatum. 
+    </p>
+            <p xml:id="jsnvu6-e260085-d1e205">
+               <lb ed="#L" n="92"/>Item non minus sunt spiritualia sacramenta antecedentia 
+      <lb ed="#L" n="93"/>quam consequentia, sed antecedentia ad sacramenta vt sunt va 
+      <lb ed="#L" n="94"/>sa sacra possunt licite vendi dummodo non plus vendantur 
+      ra<lb ed="#L" n="95" break="no"/>tione consecrationis (vt dictum est in praecedente quaestione) 
+      er<lb ed="#L" n="96" break="no"/>go quodcunque beneficium ecelesiasticum cum fit consequens ad 
+      <lb ed="#L" n="97"/>sacramenta vel natum consequi potest licite vendi dummodo 
+      <lb ed="#L" n="98"/>non plus vendatur ratione spiritualis. Et confirmatur, quia 
+      pu<lb ed="#L" n="99" break="no"/>re spirituale nullo modo licitum est vendere, temporale vero om 
+      <lb ed="#L" n="100"/>nino potest vendi: ergo quod est parum spirituale &amp; parum 
+      tem<lb ed="#L" n="101" break="no"/>porale (vt canonicatus &amp; praebenda) potest aliquo modo vendi. 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e229">
+               <lb ed="#L" n="102"/>
+               <!--4--> Item sicut ad imperatorem pertinet dispensatio 
+      magistra<lb ed="#L" n="103" break="no"/>tuum, sic ad papam dispensatio officiorum ecelesiasticorum, &amp; 
+      <lb ed="#L" n="104"/>sicut non licet ambire magistratum pro pecunia, sed est virium 
+      <lb ed="#L" n="105"/>ambitus, sic non licet ambire beneficium ecclesiasticum pro 
+      pe<lb ed="#L" n="106" break="no"/>cunia, sed est vitium simoniae; sed imperator vendens magistra 
+      <lb ed="#L" n="107"/>tum pro pecunia non commitit in legem Iuliam ambitus, imo 
+      <lb ed="#L" n="108"/>tenetur communiter quod in curia principis non potest com 
+      <lb ed="#L" n="109"/>mitti ambitus, ergo similiter si papa conferat beneficium 
+      ec<lb ed="#L" n="110" break="no"/>clesiasticum pro pecunia non committit simoniam. 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e253">
+               <lb ed="#L" n="111"/>
+               <!--5--> IN CONTRARIVM arguitur quia magis est spiri 
+      <lb ed="#L" n="112"/>tuale auctoritas officiandi ecclesiam quam auctoritas docendi 
+      <lb ed="#L" n="113"/>quantumcunque per humanam scientiam, sed auctoritas vel li 
+      <lb ed="#L" n="114"/>centia docendi non potest sine peccato vendi, vt habetur 
+      ex<lb ed="#L" n="115" break="no"/>tra ne pro licentia docendi aliquid exigatur quasi per totum, 
+      <lb ed="#L" n="116"/>ergo fortiori ratione auctoritas officiandi ecclesiam nullo 
+      <lb ed="#L" n="117"/>modo licite potest vendi, sed in simplici canonicatu est aucto 
+      <lb ed="#L" n="118"/>ritas officiandi ecclesiam, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e275">
+               <lb ed="#L" n="119"/>
+               <!--6--> RESPONSIO. Aliquem excusari a simonia in collatio 
+      <lb ed="#L" n="120"/>ne simplicis beneficij potest dupliciter intelligi. Vno modo 
+      <lb ed="#L" n="121"/>quod non incurrat poenam debitam simoniacis ex statuto iuris. 
+      <lb ed="#L" n="122"/>Alio modo quod nec culpa committat nec poenam luris 
+      incur<lb ed="#L" n="123" break="no"/>rat. In primo casu elarum est quod papa vel ille cum quo Papa dis 
+      <lb ed="#L" n="124"/>pensat non potest committere simonia, quia sicut dictum fuit in 
+      <lb ed="#L" n="125"/>arguendo, sicut leges non ligant imperatorem ita nec canones 
+      Pa<lb ed="#L" n="126" break="no"/>pa, sed poti? leges vim habent ex imperatore &amp; canones ex 
+      au<lb ed="#L" n="127" break="no"/>ctoritate Papae: propter quod Papa vel ille cum quo dispensat non 
+      <lb ed="#L" n="128"/>ligatur statuto canonum, vt incurrant poenam a canone taxatam 
+      <lb ed="#L" n="129"/>&amp; in hoc articulo quaestio non est dubia. Si autem intelligatur se 
+      <lb ed="#L" n="130"/>cundo modo, an scilicet aliquis posset excusari ne in casu nostro con 
+      <lb ed="#L" n="131"/>mittat simoniam, id est culpam si moniae, sic quaestio dubitabilis est 
+      <lb ed="#L" n="132"/>maxime de Papa. Circa quam procedetur sic, quia primo 
+      ostende<lb ed="#L" n="133" break="no"/>tur in generali quod Papa potest committere culpam simoniae sicut 
+      <lb ed="#L" n="134"/>quicunque inferior praelatus. Secundo ostendetur specialites 
+      <lb ed="#L" n="135"/>quod in casu nostro Papa peccaret vitio simoniae, sicut 
+      quicun<lb ed="#L" n="136" break="no"/>que alius. 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e319">
+               <lb ed="#L" n="137"/>
+               <!--7--> PRIMUM declaratur sic omne peccatum est deuiatio ab 
+      <lb ed="#L" n="138"/>aliqua lege naturali, vel diuina, vel humana recte posita. vnde 
+      <lb ed="#L" n="139"/>Ambrosius dicit, quod peccatum est dictum factum, vel 
+      concupi<lb ed="#L" n="140" break="no"/>tum contra legem Dei, quaecunque autem lex loquitur his 
+      <lb ed="#L" n="141"/>qui sub lege sunt, Ro. 3. Ex quo potest sic argui: omnis homo 
+      <lb ed="#L" n="142"/>faciens contra legem cui subiectus est peccat, sed omnis 
+      ho<lb ed="#L" n="143" break="no"/>mo vendens spirituale pro temporali peccat contra legem 
+      natu<lb ed="#L" n="144" break="no"/>ralem &amp; diuinam cui omnes subiecti sunt tam papa quam alij 
+      <lb ed="#L" n="145"/>ergo omnis talis peccat, &amp; non nisi peccato si moniae ergo &amp;e. 
+      <lb ed="#L" n="146"/>Maior patet ex his quae dicta sunt statim. Minor vero ex his 
+      <lb ed="#L" n="147"/>quae dicta sunt in praecedente quaestione. 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e348">
+               <lb ed="#L" n="148"/>
+               <!--8--> QUANTVM ad secundum sic proceditur, quia primo 
+      <lb ed="#L" n="149"/>ponetur opinio aliorum, dehinc illud quod verius creditur. 
+      Pri<lb ed="#L" n="150" break="no"/>mo ergo sciendum quod quidam distinguunt quod aliquid 
+      po<lb ed="#L" n="151" break="no"/>test dici fimoniacum dupliciter. Vno modo de se, &amp; ideo 
+      prohi<lb ed="#L" n="152" break="no"/>betur in iure. Alio modo ex sola iuris prohibitione. De se sunt 
+      <lb ed="#L" n="153"/>simoniaca quae prohibentur vendi in nouo &amp; veteri testamento 
+      <lb ed="#L" n="154"/>vt sacramenta, caetera vero sunt tantum fimoniaca, quia prohi 
+      <lb ed="#L" n="155"/>bita: &amp; haec distinctio habetur extra de officio iudicis dele. 
+      ca<lb ed="#L" n="156" break="no"/>ex parte. in glossa ordinaria, cui concordat Innocentius &amp; Ho 
+      <lb ed="#L" n="157"/>stiensis. Hoc supposito dicunt quod papa peccaret peccato 
+      si<lb ed="#L" n="158" break="no"/>moniae in omnibus quae essent de se simoniaca, in alijs autem 
+      <lb ed="#L" n="159"/>non: vendere autem simplicem canonicatum vel simplex 
+      be<lb ed="#L" n="160" break="no"/>neficium ecclesiasticum non est simoniacum, nisi quia 
+      prohi<lb ed="#L" n="161" break="no"/>bitum, vt in eadem glossa dicitur, propter quod Papa qui non 
+      <lb ed="#L" n="162"/>ligatur aliqua prohibitione iuris politiui non committit vi. 
+      <lb ed="#L" n="163"/>tium simoniae in hoc casu etiam quo ad culpam. 
+</p>
+            <p xml:id="jsnvu6-e260085-d1e388">
+      <!--00705.xml-->
+               <pb ed="#L" n="316-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Sed hic est duplex defectus. Primus est, quia distinctio non 
+      <lb ed="#L" n="2"/>est bona. Secundus est, quia conclusio non est vera. Primum pa 
+      <lb ed="#L" n="3"/>tet duabus rationibus &amp; exemplo. Prima ratio est talis: circi 
+      <lb ed="#L" n="4"/>illud quod non est de se malum, nisi quia prohibitum non conueni 
+      <lb ed="#L" n="5"/>peccare nisi peccato simplicis inobedientiae, quam a in talibus 
+      tot<lb ed="#L" n="6" break="no"/>ratio peccati est ex transgressione prohibitionis &amp; non ex natu 
+      <lb ed="#L" n="7"/>ra facti, transgressio autem prohibitionis est peccatum solius inobe 
+      <lb ed="#L" n="8"/>dientiae: i ergo venditio simplicis beneficij non sit de se simoniaca 
+      <lb ed="#L" n="9"/>impossibile est quod ex probibitione iuris sit ibi nisi sola 
+      inobe<lb ed="#L" n="10" break="no"/>dientia. Secunda est talis: simonia est venditio rel spiritualis pro 
+      <lb ed="#L" n="11"/>temporali, sed prohibitio iuris non mutat naturas rerum vt de tem 
+      <lb ed="#L" n="12"/>porali faciat spirituale vel econuerso, ergo vbi non est simonia 
+      <lb ed="#L" n="13"/>ex natura rei non posst esse ex prohibitione iuris, hoc etiam patei 
+      <lb ed="#L" n="14"/>per exempla, quia comedere pluries in die non est de se illicitum 
+      <lb ed="#L" n="15"/>sed solum ex prohibitione iuris quo ad dies ieiuniorum, qui auie 
+      <lb ed="#L" n="16"/>comedit diebus ieiuniorum pluries in die non peccat, nisi pecca 
+      <lb ed="#L" n="17"/>to solius inobed etiae, similiter mentiri iocose, non est nisi pecca 
+      <lb ed="#L" n="18"/>tum veniale. Si autem superaddatur praeceptum praelati ne quis men 
+      <lb ed="#L" n="19"/>tiatur, tunc mentiendo non additur simplici mendacio, nisi pecca 
+      <lb ed="#L" n="20"/>tum solius inobedientiae, &amp; sic est in omnibus: quia prohibitio ho 
+      <lb ed="#L" n="21"/>minis vel luris non addit nisi peccatum simplicis inobedientiae 
+      <lb ed="#L" n="22"/>quia tamen praedicta distinctio in iure notatur per iurisperitos 
+      <lb ed="#L" n="23"/>Ideo ne videamur totaliter reprobare dictum iuri statum potestex 
+      <lb ed="#L" n="24"/>poni sic: quod illud quod non est simoniacum de se post esse simo 
+      <lb ed="#L" n="25"/>niacum ex prohibitione, non quidem quo ad culpam, quia ibi non 
+      <lb ed="#L" n="26"/>potest esse culpa simoniae, sed inobedientiae (vt dictum est) sed que 
+      <lb ed="#L" n="27"/>ad poenam. Quia faciens contra talem prohibitionem iuris simi 
+      <lb ed="#L" n="28"/>li poena punitur ac si esset vere fimoniacus, contingit autem quar 
+      <lb ed="#L" n="29"/>doque quod illa peccata simili nomine censentur quae poena simi 
+      <lb ed="#L" n="30"/>Ii puniuntur, &amp; hoc modo aliquid dicitur simoniacum, quia pre 
+      <lb ed="#L" n="31"/>hibitum, sicut permutatio beneficiorum quae fit sine auctorita 
+      <lb ed="#L" n="32"/>te superioris non est de se simoniaca: posset enim quis licite 
+      <lb ed="#L" n="33"/>permutare canonicatum suum in canonicatum alterius (si hoc 
+      <lb ed="#L" n="34"/>faceret ea intentione, vt proficeret magis in alia ecelesia quam 
+      <lb ed="#L" n="35"/>in ea quam habet) nisi prohibitio iuris esset in contrarium, pro 
+      <lb ed="#L" n="36"/>pter quam hoc iudicatur fimoniacum nisi fiat auctoritate supe 
+      <lb ed="#L" n="37"/>rioris cuius est iudicare, ne quis transeat de ecclesia in ecelesiam 
+      <lb ed="#L" n="38"/>cupiditate maioris lucri &amp; non animo magis proficiendi. 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e479">
+               <lb ed="#L" n="39"/>
+               <!--10--> Conclusio etiam non est vera, quia venditio beneficij 
+      eccle<lb ed="#L" n="40" break="no"/>siastici est de se simoniaca, vt postea patebit, &amp; est prohibita iu 
+      <lb ed="#L" n="41"/>re diuino in Euangelio Mat. 10. non quidem in se, sed in suo simil 
+      <lb ed="#L" n="42"/>non est enim minus spirituale auctoritas eligendi episcopum, &amp; o 
+      <lb ed="#L" n="43"/>ficiandi ecclesiam quam auctoritas praedicandi, sed in simplic 
+      <lb ed="#L" n="44"/>canonicatu est auctoritas eligendi episcopum &amp; officiand i 
+      ecele<lb ed="#L" n="45" break="no"/>siam: cum ergo praedicatio prohibeatur vendi Matthael 1o. sim 
+      <lb ed="#L" n="46"/>liter (imo fortiori ratione) prohibetur vendi auctoritas eligi 
+      <lb ed="#L" n="47"/>di episcopum siue officiandi ecclesiam quae est in simplici 
+      ca<lb ed="#L" n="48" break="no"/>nonicatu. 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e505">
+               <lb ed="#L" n="49"/>
+               <!--11--> DICENDVM est ergo aliter quod conferre pro 
+      pecuni<lb ed="#L" n="50" break="no"/>simplicem canonicatum est simoniacum de se, &amp; non solum 
+      e<lb ed="#L" n="51" break="no"/>iuris prohibitione. Quod patet sic: in simplici canonicatu sunt 
+      <lb ed="#L" n="52"/>duo, scilicet officium ad quod quis mancipatur, &amp; beneficium 
+      <lb ed="#L" n="53"/>temporale quod inde percipitur, beneficium enim datur propter 
+      <lb ed="#L" n="54"/>officium ad sustentationem ministri. Istud autem beneficium non 
+      <lb ed="#L" n="55"/>est aliud quam quoddam emolumentum temporale datum a 
+      fun<lb ed="#L" n="56" break="no"/>datoribus ecclesiarum &amp; aliis deuotis personis loco &amp; officio pro 
+      <lb ed="#L" n="57"/>sustentatione ministri qui debet in loco officiare, instituere aum 
+      <lb ed="#L" n="58"/>ministrum pro tali officio &amp; pro tali loco pertinet ad praelatum 
+      <lb ed="#L" n="59"/>cuius est iudicare de idoneltate ministri, sed quod institutus 
+      reci<lb ed="#L" n="60" break="no"/>piat beneficium non est ex dono praelati qui nihil iuris habet in 
+      <lb ed="#L" n="61"/>beneficio quo ad hoc, sed ex dono fundatorum qui tale bunficium 
+      <lb ed="#L" n="62"/>dederut ministro seruituro, &amp; in tali loco &amp; in tali officio, &amp; 
+      <lb ed="#L" n="63"/>hoc satis innuitur in auth. de sanctissimis episcopis &amp; elericis. 
+      <lb ed="#L" n="64"/>§. Si quis oratorij domum, collatione ix. vbi expresse dicitur, 
+      <lb ed="#L" n="65"/>fundatores ecelesiarum debent expensas clericis ministrare, sec 
+      <lb ed="#L" n="66"/>clerici debent institui per episcopum, &amp; instituti debent obsequium 
+      <lb ed="#L" n="67"/>dare suis ecclesijs &amp; adimplere ministerium ecelesiasticum. Ex 
+      <lb ed="#L" n="68"/>quo sic arguitur: dare spirituale pro temporali est de se simonia 
+      <lb ed="#L" n="69"/>cum &amp; contra ius naturale &amp; diuinum, vt patet ex praecedenti 
+      quaesti<lb ed="#L" n="70" break="no"/>ne, sed vendere simplicem canonicatum est dare directe spiri 
+      <lb ed="#L" n="71"/>tuale pro temporali, ergo est de simoniacum, &amp; contra sus nan 
+      <lb ed="#L" n="72"/>rale &amp; diuinum, sed hic nullus potest excusari a peccato, erge 
+      <lb ed="#L" n="73"/>&amp;c. Minor patet ex dictis: quia praelatus non dat aliquod bene 
+      <lb ed="#L" n="74"/>ficium, nisi quia instiuit ministrum loco &amp; officio, institutio 
+      <lb ed="#L" n="75"/>autem ministri ad diuinum officium est pure spiritualis 
+      prou<lb ed="#L" n="76" break="no"/>nunc loquimur de spirituali, quod de facto vendi potest, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e570">
+               <lb ed="#L" n="77"/>
+               <!--12--> AD PRIMVM ARGVMENTVM principale 
+      <lb ed="#L" n="78"/>dicendum est per interemptionem minoris: &amp; quod dicit 
+      Ho<lb ed="#L" n="79" break="no"/>stiensis non est necessarium sequi nisi quis voluerit: quod auti 
+      <lb ed="#L" n="80"/>subditur quod in scriptura sacra non inuenitur damnatum al 
+      <lb ed="#L" n="81"/>quid vt simoniacum nisi benedictio sacramentorum &amp; opera 
+      <lb ed="#L" n="82"/>tio miraculorum, falsum est. Mat. enim 10. prohibentur vendi omnes 
+      <!--00705.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>actus spirituales ad quorum aliquos simplex canonieatus depu 
+      <lb ed="#L" n="84"/>tatur, in lege etiamvereri reprobatur quod aliquis fieret ministes 
+      <lb ed="#L" n="85"/>per pecuniam, vt habetur 3. Reg. 13. quod quicunque volebat, 
+      im<lb ed="#L" n="86" break="no"/>plebat manum suam &amp; fiebat sacerdos excelsorum 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e601">
+               <lb ed="#L" n="87"/>
+               <!--13--> Ad secundum dicendum est qud non est simile de iure 
+      pa<lb ed="#L" n="88" break="no"/>tronatus &amp; de collatione beneficiorum: quia ius patronatus cum 
+      <lb ed="#L" n="89"/>transit vendita villa vel castro non venditur directe &amp; primo 
+      <lb ed="#L" n="90"/>quia super ipsum non cadit venditio sed super villam vel castrum 
+      <lb ed="#L" n="91"/>nec venditur etiam secundario, quia non plus venditus villa ve 
+      <lb ed="#L" n="92"/>castrum propter ius partonatus annexum alioquin esset fimonia 
+      <lb ed="#L" n="93"/>sed si venderetur beneficium ecclesiasticum venditio caderet di 
+      <lb ed="#L" n="94"/>recte super illud quod esset spirituale, quia praelatus non habe 
+      <lb ed="#L" n="95"/>aliter dare beneficium nisi quia habet instituere ministrum ad 
+      <lb ed="#L" n="96"/>officium. Et ideo si aliquid venderetur hoc primo modo vende 
+      <lb ed="#L" n="97"/>retur, &amp; ratione huius quodcunque temporale annexum: &amp; sic 
+      <lb ed="#L" n="98"/>caderet venditio directe super illud quod esset spirituale, quod 
+      <lb ed="#L" n="99"/>non potest fieri vitio simoniae. 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e634">
+               <lb ed="#L" n="100"/>
+               <!--14--> Ad tertium patet per idem, quia antecedentia ad sacramen 
+      <lb ed="#L" n="101"/>ta (vt vasa sacra) possunt vendi licite dummodo non vendantur 
+      <lb ed="#L" n="102"/>plus ratione consecrationis: quia super illud quod est corpora 
+      <lb ed="#L" n="103"/>le cadit: venditio directe, sed officium consequens ad sacramentum 
+      <lb ed="#L" n="104"/>est secundum se spirituale, &amp; ideo vendi non potest, ne ratione 
+      <lb ed="#L" n="105"/>temporalis beneficij annexi consequentis, cum non transfera 
+      <lb ed="#L" n="106"/>tur, nisi prius translato beneficio, propter quod oporter vendi 
+      <lb ed="#L" n="107"/>tionem primo eadere super officium quod est spirituale. 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e657">
+               <lb ed="#L" n="108"/>
+               <!--15--> Et per hoc patet ad sequentem confirmationem: quia quan 
+      <lb ed="#L" n="109"/>do aliquid est partim corporale &amp; partim spirituale, potest ali 
+      <lb ed="#L" n="110"/>quo modo vendi ratione corporalis, quando vendens directe 
+      <lb ed="#L" n="111"/>&amp; per se potest illud corporale in aliud transferre &amp; non 
+      me<lb ed="#L" n="112" break="no"/>diante spirituali, quod non est in proposito. 
+      </p>
+            <p xml:id="jsnvu6-e260085-d1e673">
+               <lb ed="#L" n="113"/>
+               <!--16--> Ad quartum dicendum quod imperator vendens 
+      magi<lb ed="#L" n="114" break="no"/>stratum, licet non peccet in legem Iuliam peccat tamen in 
+      le<lb ed="#L" n="115" break="no"/>gem naturalem cui subiicitur: similiter Papa si vendat 
+      quod<lb ed="#L" n="116" break="no"/>cunque officium ecclesiasticum, licet non peccet in canonem 
+      <lb ed="#L" n="117"/>cui non sublicitur, peccat tamen ia legem diuinam cui 
+      subii<lb ed="#L" n="118" break="no"/>citur. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="321-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e264642"><!-- l4d30prae -->
+            <head xml:id="jsnvu6-e264642-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e264642-d1e103">
+               <lb ed="#L" n="20"/>Sententia huius distinctionis XXX. 
+      <lb ed="#L" n="21"/>in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e264642-d1e110">
+               <lb ed="#L" n="22"/>EC SOLVM coactio. Superius determinaui 
+      <lb ed="#L" n="23"/>magister de impedimento coactionis: hic veri 
+      <lb ed="#L" n="24"/>determinat delimpedimento erroris. Et cum 
+      ho<lb ed="#L" n="25" break="no"/>sequitur illa pars in qua determinat de causa 
+      fi<lb ed="#L" n="26" break="no"/>nali matrimonij, &amp; diuiditur in tres. Primo 
+      dete<lb ed="#L" n="27" break="no"/>minat de impedimento erroris. Secundo incidenter de 
+      consen<lb ed="#L" n="28" break="no"/>su qui fuit in matrimonio beatae Mariae Virginis. Tertio de fine 
+      <lb ed="#L" n="29"/>matrimonij ob quam scilicet causam matrimonium contrahitur. 
+      Se<lb ed="#L" n="30" break="no"/>cunda ibi praemissis aliquid addendum est. Tertia ibi, exposito 
+      <lb ed="#L" n="31"/>quae sit causa efficiens. Prima in duas. Primo ostendit quis erroi 
+      <lb ed="#L" n="32"/>impedit matrimonium. Secundo obiicit in contrarium, &amp; soluit 
+      <lb ed="#L" n="33"/>Secunda ibi, sed obiicitur de Iacob. Secunda pars principalis in 
+      <lb ed="#L" n="34"/>qua determinat de matrimonio beatae Mariae Virginis, 
+      diuidi<lb ed="#L" n="35" break="no"/>tur in duas. Primo ostendit cuiusmodi consensus fuit. Secundo 
+      <lb ed="#L" n="36"/>ostendit quod illud matrimonium fuit perfectum ibi, inter quo 
+      <lb ed="#L" n="37"/>vt ait Aug. Tertia pars principalis in qua determinat de causis 
+      <lb ed="#L" n="38"/>matrimonij, diuiditur in tres. Primo ponit causas finales 
+      matri<lb ed="#L" n="39" break="no"/>monij principaliter &amp; singulariter. Secundo excludit errorem 
+      <lb ed="#L" n="40"/>Tertio ponit specialiter causas matrimonij beatae virginis. Se 
+      <lb ed="#L" n="41"/>cunda ibi, nec est assentiendum illis. Tertia ibi, habuit 
+      coniu<lb ed="#L" n="42" break="no"/>gium Mariae. 
+      </p>
+            <p xml:id="jsnvu6-e264642-d1e158">
+               <lb ed="#L" n="43"/>
+               <!--2--> In speciali sic procedit. Primo proponit quod error 
+      impe<lb ed="#L" n="44" break="no"/>dit matrimonium, non quidem error qualitatis, nec fortunae 
+      <lb ed="#L" n="45"/>sed conditionis, vt quando putatur esse libet qui seruus est: &amp; 
+      <lb ed="#L" n="46"/>similiter error personae quandoque impedit matrimonium, vi 
+      <lb ed="#L" n="47"/>si quis petat hanc mulierem scilicet nobilem in matrimonium &amp; 
+      <lb ed="#L" n="48"/>detur ei ignobilis, &amp; etiam si aliquis emat aurum, &amp; detur ipsi 
+      <lb ed="#L" n="49"/>aurichalcu non est venditio, sed deceptio. Et error personae, 
+      quam<lb ed="#L" n="50" break="no"/>do putatur hic esse homo &amp; est alius. Error autem conditioni 
+      <lb ed="#L" n="51"/>est quando liber creditur, &amp; seruus est. Error fortunae est 
+      quan<lb ed="#L" n="52" break="no"/>do aliquis putatur esse diues qui pauper est, vel econuerso. Erro 
+      <lb ed="#L" n="53"/>qualitatis quando putatur esse pulcher &amp; est turpis, bonus &amp; est 
+      <lb ed="#L" n="54"/>malus. Postea obiicit in contrarium de Iacob qui accessit per 
+      er<lb ed="#L" n="55" break="no"/>rorem ad Liam: &amp; respondet quod hoc factum est mystice, nec 
+      <lb ed="#L" n="56"/>fuit natrimonium illud per errorem illum, sed per consensum 
+      <lb ed="#L" n="57"/>qui postmodum accessit. Excusatur tamen Iacob de 
+      fornicatio<lb ed="#L" n="58" break="no"/>ne, quia ad eam accessit vxorem suam credens esse: &amp; sic 
+      mari<lb ed="#L" n="59" break="no"/>tali affectu eam cognouit, &amp; ita vxori debitum reddidit vel pe 
+      <lb ed="#L" n="60"/>soluit: sicut excusaretur accedens ad sororem vxoris, quam in 
+      l<lb ed="#L" n="61" break="no"/>cto inueniens nesciret. Et sicut excusatur angelum veneras 
+      ma<lb ed="#L" n="62" break="no"/>lum credens bonum esse, &amp; similiter consentiens opinioni illius 
+      <lb ed="#L" n="63"/>quem credidit Augustinus vel Ambrosius, etiam dicit quod non 
+      <lb ed="#L" n="64"/>peccaret. Postea quaerit in quo consenserit beata virgo? 
+      propo<lb ed="#L" n="65" break="no"/>suerat enim se seruaturam virginitatem nisi ei Deus aliter reue 
+      <lb ed="#L" n="66"/>laret, sed ipsum votum non expressit ore sed committens 
+      virgini<lb ed="#L" n="67" break="no"/>tatem diuinae dispositioni consensit in copulam maritalem sine 
+      <lb ed="#L" n="68"/>in societatem coniugalem ex familiari consilio spiritussancti: &amp; 
+      <lb ed="#L" n="69"/>secundum Aug. implicit e consensit in carnalem copulam 
+      commit<lb ed="#L" n="70" break="no"/>tendo se diuinae dispositioni in vtraque scilicet virginitate &amp; 
+      commisti<lb ed="#L" n="71" break="no"/>ne. Postea simul cum viro labiis expressit votu, &amp; vterque in 
+      vir<lb ed="#L" n="72" break="no"/>ginitate permansit. Postea dicitur quod illud coniugium perfectum 
+      <lb ed="#L" n="73"/>fuit sanctitate, licet non significatione, quia coniugium quod est 
+      <lb ed="#L" n="74"/>sine copula carnali, quamuis sit perfectum quantum ad 
+      verita<lb ed="#L" n="75" break="no"/>tem, vel sanctitatem coniugij, non tamen secundum 
+      significatio<lb ed="#L" n="76" break="no"/>nem, quia non ita perfecte significat coniunctionem Christi &amp; 
+      <lb ed="#L" n="77"/>ecclesiae, sicut coniugium per carnalem copulam consummatum 
+      <lb ed="#L" n="78"/>&amp; quod illud coniugium perfectum fuerit ostendit per tria 
+      bo<lb ed="#L" n="79" break="no"/>na matrimonij, quae ibi fuerunt, scilicet proles, fides, &amp; 
+      sacra<lb ed="#L" n="80" break="no"/>mentum. Proles enim Christus fuit ibi, fides quia adulterium nul 
+      <!--00715.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>lum, &amp; sacramentum quia nullum diuortium. Postea dicit quod 
+      <lb ed="#L" n="82"/>matrimonij prima &amp; principalis causa fuit liberorum procrea 
+      <lb ed="#L" n="83"/>tio. Secunda est fornicationis euitatio: sunt etiam aliae causae mi 
+      <lb ed="#L" n="84"/>nus honestae, vt pulchritudo viri &amp; mulieris, quaestus pecunia 
+      <lb ed="#L" n="85"/>&amp; diuitiarum possessio, &amp; alia huiusmodi. Postea remouet 
+      er<lb ed="#L" n="86" break="no"/>rorem quorundam dicentium quod propter minus honestam 
+      <lb ed="#L" n="87"/>causam matrimonium non contrahitur, sed quod propter 
+      huius<lb ed="#L" n="88" break="no"/>modi causas non impediatur quin sit matrimonium probat: qui 
+      <lb ed="#L" n="89"/>malitia vel peruersa intentio alicuius non commaculat 
+      sacrame<lb ed="#L" n="90" break="no"/>tum, nec eius bonitatem tollit, nec impedit. Vltimo dibit o in ma 
+      <lb ed="#L" n="91"/>trimonio virginis beatae &amp; Ioseph sunt quaedam aliae causae 
+      spe<lb ed="#L" n="92" break="no"/>ciales. Prima fuit, vt virgo eius solatio, &amp; auxilio sustentaretur. 
+      <lb ed="#L" n="93"/>Secunda fuit, vt partus virginis diabulo celaretur. Tertia fuit vi 
+      <lb ed="#L" n="94"/>Ioseph fuisset testis castitatis, virginitatis, &amp; post defenderet ea 
+      <lb ed="#L" n="95"/>ab infamia suspicionis, ne vt adultera danaretur ab hominibus. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

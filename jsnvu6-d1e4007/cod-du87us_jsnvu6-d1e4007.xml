@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="166-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e4007"><!-- l2d37q3 -->
+            <head xml:id="jsnvu6-d1e4007-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e4007-Hd1e103" type="question-title">Utrum culpa plus habeat de ratione mali quam poena</head>
+            <p xml:id="jsnvu6-d1e4007-d1e106">
+               <lb ed="#L" n="118"/>QVAISTIO TIITIA. 
+      <lb ed="#L" n="119"/>trum culpa magis habeat de ratione 
+      <lb ed="#L" n="120"/>mali, quam poena. 
+      <lb ed="#L" n="121"/>Thom. 1. q. 48. ar. 6. 
+    </p>
+            <p xml:id="jsnvu6-d1e4007-d1e117">
+               <lb ed="#L" n="122"/>OSTMODTM quaeritur, quid plus habeat de 
+      <lb ed="#L" n="123"/>ratione mali, culpa an poena. Et videtur quod poe 
+      <lb ed="#L" n="124"/>na, quia sicut in bonis illud est melius, propter 
+      <lb ed="#L" n="125"/>quod alterum elicitur, ira in malis illud est peius, 
+      <lb ed="#L" n="126"/>propter quod alterum euitatur, sed culpa 
+      euita<lb ed="#L" n="127" break="no"/>tur propter poenam, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e4007-d1e133">
+               <lb ed="#L" n="128"/>
+               <!--2.--> Item sicut se habet meritum ad praemium, ita culpa ad 
+      <lb ed="#L" n="129"/>poenam, sed praemium melius est merito; ergo poena est 
+      de<lb ed="#L" n="130" break="no"/>terior culpa. 
+      </p>
+            <p xml:id="jsnvu6-d1e4007-d1e145">
+               <lb ed="#L" n="131"/>
+               <!--3--> IN CONTRARIVM est, quia omne quod 
+      com<lb ed="#L" n="132" break="no"/>muniter dicitur de causa a causato, verius &amp; principalius 
+      dici<lb ed="#L" n="133" break="no"/>tur de causa, quam de causato: sed malum dicitur de culpa S 
+      <lb ed="#L" n="134"/>poena, tanquam de causa &amp; causato: culpa enim est causa 
+      <lb ed="#L" n="135"/>poenae, ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e4007-d1e161">
+               <lb ed="#L" n="136"/>RESPONSIO. Quid sit maius malum culpa, an poena 
+      <lb ed="#L" n="137"/>improprie quaeritur, quia quae comparantur proprie secundum 
+      <lb ed="#L" n="138"/>majus &amp; minus debent esse vnius rationis in eo in quo 
+      compa<lb ed="#L" n="139" break="no"/>rantur, vt patet ex 7. Physic. malum autem non conuenit 
+      vni<lb ed="#L" n="140" break="no"/>uoce culpae &amp; poenae, quia poena est malum naturae, culpa vero 
+      <lb ed="#L" n="141"/>malum moris, ideo &amp;c. Item culpa consistit in actione, poena 
+      au<lb ed="#L" n="142" break="no"/>tem in passione, haec autem non sunt vnius rationis, ideo &amp;c 
+    </p>
+            <p xml:id="jsnvu6-d1e4007-d1e179">
+               <lb ed="#L" n="143"/>Quia tamen large comparantur quandoque quae in vna 
+      ra<lb ed="#L" n="144" break="no"/>tione non conueniunt, sicut dicimus quod substantia verius est ens 
+      <lb ed="#L" n="145"/>quam accidens: ideo tolerando dictam comparationem, dicer 
+      <lb ed="#L" n="146"/>dum quod culpa verius habet rationem mali quam poena, quod 
+      pa<lb ed="#L" n="147" break="no"/>tet ex propriis rationibus boni &amp; mali, ratio enim boni, vt 
+      su<lb ed="#L" n="148" break="no"/>pra dictum est, est ratio conuenientis: ratio autem mali est con 
+      <lb ed="#L" n="149"/>uenientiae priuatio. Tunc sic, illud est majus malum homini, quo 
+      <lb ed="#L" n="150"/>tollit illud quod maxime conuenit ei, sed hoc est magis culpa 
+      <lb ed="#L" n="151"/>quam poena, ergo &amp;c. Probatio minoris, quia illud conuenit ma 
+      <lb ed="#L" n="152"/>xime homini, quod conuenit ei secundum quod est homo, sed 
+      bo<lb ed="#L" n="153" break="no"/>num rationis quod tollitur per culpam est huiusmodi. Conueni: 
+      <lb ed="#L" n="154"/>enim homini secundum quod est homo, quia homo est homo per 
+      <lb ed="#L" n="155"/>rationem, quare &amp;c. Item malum culpae est in potestate hominis, 
+      <!--00400.xml-->
+      <pb ed="#L" n="166-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>malum autem poenae non, quae autem sunt in potestate 
+      homi<lb ed="#L" n="2" break="no"/>nis imputantur ei: &amp; ideo malum culpae imputatur homini, 
+      <lb ed="#L" n="3"/>vt ex ipso dicatur malus, non autem ex malo poenae, &amp; ita 
+      lo<lb ed="#L" n="4" break="no"/>quitur Dionysius quarto capite de diuin. nomin. quod punir 
+      <lb ed="#L" n="5"/>non est malum, sed fieri dignum poena, &amp; Augustinus primo de 
+      <lb ed="#L" n="6"/>libero arbitrio, quod culpa est malum quod facimus, &amp; quo 
+      <lb ed="#L" n="7"/>mali sumus: poena vero est malum quod patimur, non quo 
+      <lb ed="#L" n="8"/>mali sumus. Et ideo alibi dicitur quod melius est omnia pati 
+      <lb ed="#L" n="9"/>mala, quam malo consentire. 
+      </p>
+            <p xml:id="jsnvu6-d1e4007-d1e236">
+               <lb ed="#L" n="10"/>
+               <!--6--> Ad primum argumentum dicendum quod culpa non es 
+      <lb ed="#L" n="11"/>vitanda principaliter propter poenam, sed propter se, etiam s 
+      <lb ed="#L" n="12"/>nulla poena sequeretur. Vnde &amp; virtuosus plus culpam fugit, 
+      <lb ed="#L" n="13"/>quam poenam, ad quam tamen oportet mensurare actus 
+      alio<lb ed="#L" n="14" break="no"/>rum hominum, vt dicitur tertio Ethicorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e4007-d1e252">
+               <lb ed="#L" n="15"/>
+               <!--7--> Ad secundum dicendum quod licet culpa terminetur ad 
+      <lb ed="#L" n="16"/>poenam, sicut meritum ad praemium, tamen non intenditur 
+      <lb ed="#L" n="17"/>propter poenam sicut intenditur meritum propter praemium, 
+      <lb ed="#L" n="18"/>sed potius inducitur vt culpa vitetur: &amp; sic culpa maior est 
+      si<lb ed="#L" n="19" break="no"/>ue peior, quam poena. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

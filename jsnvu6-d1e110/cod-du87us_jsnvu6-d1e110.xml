@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="6-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e110"><!-- l1prolq3 -->
+            <head xml:id="jsnvu6-d1e110-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e110-Hd1e103" type="question-title">Utrum viatori possit communicari 
+      scientia de articulis fidei</head>
+            <p xml:id="jsnvu6-d1e110-d1e106">
+      <!--00075.xml-->
+               <pb ed="#L" n="6-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ISTIO- TERTIA. 
+      <lb ed="#L" n="2"/>Vtrum viatori possit communicari 
+      <lb ed="#L" n="3"/>scientia de articulis fidei. 
+      <lb ed="#L" n="4"/>Gandan Quodlibet. 8. q. 14. 22 013.
+    </p>
+            <p xml:id="jsnvu6-d1e110-d1e124">
+               <lb ed="#L" n="5"/>D TLATIVM sic proceditur: &amp; arguitur, qui 
+      <lb ed="#L" n="6"/>s puro viatori virtute diuina possit communicari 
+      <lb ed="#L" n="7"/>cognitio scientifica de articulis fidei, vel 
+      cogni<lb ed="#L" n="8" break="no"/>tio certa &amp; expressa: quia omnis illa cognitic 
+      <lb ed="#L" n="9"/>potest communicari viatori, quae non ponit ipsum 
+      <lb ed="#L" n="10"/>extra terminos viae: sed cognicio abstractiua de Deo quod fit 
+      tri<lb ed="#L" n="11" break="no"/>nus &amp; vnus, quantuncunque sit certa, &amp; expressa, vel scientifica 
+      <lb ed="#L" n="12"/>non ponit hominem extra terminos viae: igitur potest commu 
+      <lb ed="#L" n="13"/>nicari viatori. Maior patet: quia nihil repugnat viatori, vt 
+      via<lb ed="#L" n="14" break="no"/>tor est, nisi illud: quod faceret ipsum non esse viatorem, vel 
+      ex<lb ed="#L" n="15" break="no"/>tra terminos viae. Omnis enim repugnantia resoluitur in 
+      con<lb ed="#L" n="16" break="no"/>tradictionem. Minor probatur: quia sola cognitio intuitiua, quam 
+      <lb ed="#L" n="17"/>Apostolus vocat, facie ad faciem, est beatifica, quae ponit homi 
+      <lb ed="#L" n="18"/>nem extra statum viae: sed cognitio abstractiua, quantuncunque 
+      <lb ed="#L" n="19"/>fit expressa &amp; perfecta, est distincta contra intuitiua, &amp; 
+      imper<lb ed="#L" n="20" break="no"/>fectior ea: quia habens abstractiuam, adhuc desiderat intuitiuam 
+      <lb ed="#L" n="21"/>ergo nulla cognitio abstractiua ponit hominem extra statum viae 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e163">
+               <lb ed="#L" n="22"/>
+               <!--2--> Item, prior cognitio potest haberi sine posteriore: sed 
+      cogni<lb ed="#L" n="23" break="no"/>tio abstractiua, quantucunque sit perfecta &amp; expressa &amp; 
+      scien<lb ed="#L" n="24" break="no"/>tifica, est prior quam intuitiua, quae sola est beatifica: ergo 
+      po<lb ed="#L" n="25" break="no"/>test haberi ab homine sine ea: &amp; sic homo remanebit pur¬ via 
+      <lb ed="#L" n="26"/>tor. Maior de se patet. Minor probatur: quia cognitio 
+      intuiti<lb ed="#L" n="27" break="no"/>ua, cum respiciat rem secundum esse praesentialis existentiae, &amp; se 
+      <lb ed="#L" n="28"/>habeat ad abstractiuam per additionem, quae respicit rem 
+      se<lb ed="#L" n="29" break="no"/>cundum quidditatem eius absolute: certe est posterior ea¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e186">
+               <lb ed="#L" n="30"/>
+               <!--3--> Item, quicquid faceret essentia diuina, si esset praesens 
+      intel<lb ed="#L" n="31" break="no"/>lectui sub ratione obiecti naturaliter mouentis, posset facere 
+      <lb ed="#L" n="32"/>voluntas diuina, dato quod essentia diuina non sit illo modo prae 
+      <lb ed="#L" n="33"/>sens: sed si essentia diuma esset praesens intellectui nostro in 
+      <lb ed="#L" n="34"/>ratione obiecti naturaliter mouentis, ipsa causaret 
+      cognitio<lb ed="#L" n="35" break="no"/>nem quidditatis suae, &amp; omnium quae sunt in ea expressam &amp; 
+      <lb ed="#L" n="36"/>perfectam: ergo hoc idem potest facere voluntas diuina absque 
+      <lb ed="#L" n="37"/>praesentia praedicta. Sed illa cognitio esset abstractiua. ergo &amp;c. 
+      <lb ed="#L" n="38"/>Maior patet: quia voluntas diuina potest supplere vicem cuiuscunque 
+      <lb ed="#L" n="39"/>causae mouentis. Minor de se patet, &amp; per consequens tota ratio 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e212">
+               <lb ed="#L" n="40"/>
+               <!--4.--> Item, Paulus, qui in raptu vidit diuinam essentiam, post 
+      <lb ed="#L" n="41"/>raptum habuit memoriam de visione, &amp; de re visa, quia ipse 
+      <lb ed="#L" n="42"/>locutus est de ipsa 2. ad Corint. 12. Illa autem cognitio memo 
+      <lb ed="#L" n="43"/>ratiua, non fuit mtuitiua, sed abstractiua: ergo ista est 
+      possibi<lb ed="#L" n="44" break="no"/>lis homini sine illa. Et sic idem, quod prius. 
+      <lb ed="#L" n="45"/>IN CONTRARIVM arguitur, quia cognitio 
+      ab<lb ed="#L" n="46" break="no"/>stractiua de Deo, aut est aeque perfecta, sicut intuitiua, aut 
+      per<lb ed="#L" n="47" break="no"/>fectior, aut minus perfecta. Si sit aeque perfecta, vel perfectior, 
+      <lb ed="#L" n="48"/>tunc sicut vna est beatifica, nec est communicabilis, ita &amp; altera. 
+      <lb ed="#L" n="49"/>Si autem dicitur, quod sit minus perfecta, arguitur contra. Deus non 
+      <lb ed="#L" n="50"/>habuit ab aeterno de rebus croabilibus nisi cognitionem 
+      ab<lb ed="#L" n="51" break="no"/>stractiuam: quia creaturae non fuerunt ab aeterno praesentes Deo 
+      <lb ed="#L" n="52"/>secundum suum esse reale, eo quod ab aeterno nihil erant. Nunc 
+      <lb ed="#L" n="53"/>autem habet de eis, vel de aliquibus earum, cognitionem 
+      intui<lb ed="#L" n="54" break="no"/>tiuam: haec autem non est perfectior prima, alioquin Deus profecis 
+      <lb ed="#L" n="55"/>set in cognitione rerum, quod est impossibile. Ergo cognitio 
+      <lb ed="#L" n="56"/>abstractiua, non est minus perfecta, quam intuitiua: &amp; per 
+      conse<lb ed="#L" n="57" break="no"/>quens est beatifica, &amp;t inconmmunicabilis viatori, sicut intuitiua. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e256">
+               <lb ed="#L" n="58"/>
+               <!--6.--> RESPONSIO. Circa quaestionem istam procedetur sic, 
+      <lb ed="#L" n="59"/>quia primo ponetur, &amp; exponetur quaedam opinio, quae dicit, 
+      <lb ed="#L" n="60"/>quod viatori potest communicari cognitio perfecta, certa, &amp; 
+      ex<lb ed="#L" n="61" break="no"/>pressa de Deo, quod sit trinus &amp; vnus, non quidem intuitiua, sed 
+      ab<lb ed="#L" n="62" break="no"/>stractiua: &amp; secundo inquiretur de veritate illius opinionis. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e272">
+               <lb ed="#L" n="63"/>
+               <!--7--> Quantum ad primum, sciendum, quod ponentes dictam 
+      opinio<lb ed="#L" n="64" break="no"/>nem, distingunt duplicem cognitionem, scilicet abstractiuam, &amp; 
+      <lb ed="#L" n="65"/>intuitiuam. Vocant cognitionem intuitiuam, illam, quae 
+      immedia<lb ed="#L" n="66" break="no"/>te tendit ad rem sibi praesentem obiectiue, secundum eius 
+      actua<lb ed="#L" n="67" break="no"/>lem existentiam: sicut cum video colorem existentem in pariete, 
+      <lb ed="#L" n="68"/>vel rosam, quam in manu teneo. Abstractiuam autem vocant, 
+      <lb ed="#L" n="69"/>omnem cognitionem, quae habetur de re, non sic realiter 
+      prae<lb ed="#L" n="70" break="no"/>sente in ratione obiecti immediate cogniti. Vnde secundum istos, 
+      <lb ed="#L" n="71"/>cognitio abstractiua dicitur non solum per abstractionem quid 
+      <lb ed="#L" n="72"/>ditatis ab esse, &amp; a non esse, sicur est illa cognitio, per quam 
+      co<lb ed="#L" n="73" break="no"/>gnoscitur de aliqua re, puta de rosa, quid sit, non 
+      consideran<lb ed="#L" n="74" break="no"/>do an sit, vel non sit: sed etiam dicitur abstractiua illa cognitio, 
+      <lb ed="#L" n="75"/>per quam cognoscitur de re quo ipsa sit in rerum natura, dum 
+      ta<lb ed="#L" n="76" break="no"/>mem ipsa, vt sic, non sit presens in ratione obiecti immediate co 
+      <lb ed="#L" n="77"/>gniti. Verbi gratia, si eclipsis Lunae sit in rerum natura, &amp; 
+      Astro<lb ed="#L" n="78" break="no"/>logus existens in domo, sciat Luna tunc actualiter eclipsari; quia 
+      <lb ed="#L" n="79"/>scit adesse tempus &amp; horâ interpositionis terrae inter Solem &amp; 
+      <lb ed="#L" n="80"/>Lunam, dum tamen non videat eclipsim in se, dicitur habere 
+      <lb ed="#L" n="81"/>de eclipsi cognitionem abstractiuam, &amp; non intuitiuam. Et eo¬ 
+      <!--00075.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>dem modo Philosophus, sciens demonstratiue Deum esse, 
+      ha<lb ed="#L" n="83" break="no"/>bet de Deo cognitionem abstractiuam, non per abstractionem 
+      <lb ed="#L" n="84"/>quidditatis ab esse, sed quia cognitio eius non tendit 
+      immedia<lb ed="#L" n="85" break="no"/>te in Deum, sibi realiter praesentem, sed solum cognoscit 
+      ip<lb ed="#L" n="86" break="no"/>sum esse ex effectibus suis. Vnde omnis cognitio, cuiuscunque 
+      <lb ed="#L" n="87"/>rei, quae non est de eius actuali existentia immediate, vt 
+      prae<lb ed="#L" n="88" break="no"/>sente, cognoscenti est abstractiua, &amp; non intuitiua. Et ideo, qui 
+      <lb ed="#L" n="89"/>accipiunt cognitionem abstractiuam primo modo solum, non 
+      <lb ed="#L" n="90"/>vadunt ad intentionem aliorum, nec per consequens rationes, 
+      <lb ed="#L" n="91"/>quas super hoc fundant. Accipiendo ergo cognitionem 
+      abstra<lb ed="#L" n="92" break="no"/>ctiuam, illo modo, quo expositum est, dicunt quidam, quod Deus 
+      <lb ed="#L" n="93"/>posset communicaro cognitionem abstractiuam puro viatori 
+      <lb ed="#L" n="94"/>de seipso, adeo perfectam, quod ipse sic cognoscendo Deum, 
+      <lb ed="#L" n="95"/>cognoscere certitudinaliter &amp; expresse, ipsum esse trinum in 
+      <lb ed="#L" n="96"/>personis, quia cognita perfecte &amp; certitudinaliter natura 
+      sub<lb ed="#L" n="97" break="no"/>iecti, cognoscuntur ea quae conueniunt subiecto: quibus 
+      co<lb ed="#L" n="98" break="no"/>gnitis cognoscitur propositio complexa ex subiecto &amp; 
+      praedi<lb ed="#L" n="99" break="no"/>cato. Et ideo cognitio abstractiua de Deo quidditatiua &amp; 
+      per<lb ed="#L" n="100" break="no"/>fecta, sufficit ad perfectam, certam, &amp; expressam cognitionem 
+      <lb ed="#L" n="101"/>omnium, quae conueniunt Deo intrinsece, sicut est, esse trinum 
+      <lb ed="#L" n="102"/>&amp; vnum, &amp; consimilia. Rationes autem huius opinionis, 
+      pro<lb ed="#L" n="103" break="no"/>bantes talem cognitionem posse communicari viatori, positae 
+      <lb ed="#L" n="104"/>sunt in arguendo ad quaestionem. Et hoc sufficit de primo. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e372">
+               <lb ed="#L" n="105"/>
+               <!--8.--> Quantum ad secundum dicendum, quod viator purus 
+      po<lb ed="#L" n="106" break="no"/>test habere de Deo cognitionem abstractiuam, qualis potest 
+      <lb ed="#L" n="107"/>concludi ex creaturis. Et haec nullo modo se extendit ad cogno 
+      <lb ed="#L" n="108"/>scendum de Deo, quod sit trinus, sicut in praecedentibus 
+      pro<lb ed="#L" n="109" break="no"/>batum fuit. Potest etiam habere de Deo, quod sit trinus, &amp; vnus, 
+      <lb ed="#L" n="110"/>per cognitionem expressam, qualis potest haberi per fidem. 
+      <lb ed="#L" n="111"/>Sed quod viator possit habere de Deo cognitionem abstracti 
+      <lb ed="#L" n="112"/>uam, adeo expressam, &amp; perfectam, vt supra dicti dicunt, non 
+      <lb ed="#L" n="113"/>apparet mihi possibile, semper tamen salua reuerentia diuinae 
+      <lb ed="#L" n="114"/>potentiae, quae non potest a nobis comprehendi perfecte. Et 
+      <lb ed="#L" n="115"/>hoc probatur dupliciter: primo sic, Impossibile est cognitionem 
+      <lb ed="#L" n="116"/>abstractiuam cuiuscunque rei esse primam, sed necessario 
+      se<lb ed="#L" n="117" break="no"/>quitur aliam priorem, ex qua deducitur: sed in puro viatore 
+      <lb ed="#L" n="118"/>non potest praeesse aliqua cognitio, ex qua cognitio 
+      abstracti<lb ed="#L" n="119" break="no"/>ua de Deo possit deduci: ergo impossibile est, quod cognitio 
+      <lb ed="#L" n="120"/>abstractiua de Deo communicetur viatori. Maior patet 
+      indu<lb ed="#L" n="121" break="no"/>ctiue &amp; ratione. Inductiue sic, Deus nihil cognouit 
+      abstracti<lb ed="#L" n="122" break="no"/>ue, puta res antequam sint, nisi cognoscendo essentiam suam 
+      <lb ed="#L" n="123"/>intuitiue. Similiter &amp; angelus primo intuitiue cognoscit 
+      essen<lb ed="#L" n="124" break="no"/>tiam suam, &amp; ex ea deducitur cognitio abstractiua aliorum. 
+      <lb ed="#L" n="125"/>Similiter experimur in nobis, quod omnem cognitionem 
+      ab<lb ed="#L" n="126" break="no"/>stractiuam intellectiuam praecedit cognitio intuitiua 
+      sensiti<lb ed="#L" n="127" break="no"/>ua. Et similiter est in brutis, si habeant aliquam cognitionem 
+      <lb ed="#L" n="128"/>abstractiuam. Non autem sunt plura cognoscentia, quam 
+      <lb ed="#L" n="129"/>Deus, angelus, nos, &amp; bruta. Quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e431">
+               <lb ed="#L" n="130"/>
+               <!--9.--> Ad hoc autem dicunt quidam, quod haec inductio solum 
+      con<lb ed="#L" n="131" break="no"/>cludit id, quod est secundum consuetum cursum naturae, sed i 
+      <lb ed="#L" n="132"/>non concludit, quod non possit aliter fieri diuina virtute. Sed 
+      com<lb ed="#L" n="133" break="no"/>tra hoc arguitur sic: Certum est, quod Deus non intelligit, nec 
+      <lb ed="#L" n="134"/>intelligere potest abstractiue alia a se, nisi cognoscendo 
+      intui<lb ed="#L" n="135" break="no"/>tiue essentiam suam, per quam cognoscit alia. Angelos 
+      dimit<lb ed="#L" n="136" break="no"/>tamus, quia parum scimus de eis: &amp; loquamur de nobis, de 
+      qui<lb ed="#L" n="137" break="no"/>bus est quaestio. Concessum est etiam ab omnibus, quod secundum. 
+      <lb ed="#L" n="138"/>communem cursum naturae, vires interiores, tam sensitiuae, quam 
+      <lb ed="#L" n="139"/>intellectiuae, non possunt exire in actum, nisi praeuia 
+      cognitio<lb ed="#L" n="140" break="no"/>ne intuitiua alicuius sensus exterioris: quia non habent imme 
+      <lb ed="#L" n="141"/>diatum ordinem ad res exteriores, sed solum mediante 
+      cogni<lb ed="#L" n="142" break="no"/>tione sensitiua exteriore. Propter hanc mediationem, omnes 
+      <lb ed="#L" n="143"/>actus interiorum virium, sunt abstractiui, &amp; non intuitiui. Ex 
+      <lb ed="#L" n="144"/>hoc sic arguitur: Si virtute diuina fieret, quod intellectus, &amp; alia 
+      <lb ed="#L" n="145"/>vires interiores, exirent in actus suos, respectu rerum exterio. 
+      <lb ed="#L" n="146"/>rum, absque vlla praesuppositione quorumcumque actuum 
+      sen<lb ed="#L" n="147" break="no"/>suum exteriorum, tunc intellectus, &amp; vires sensitiuae interiore 
+      <lb ed="#L" n="148"/>haberent, quo ad tales actus, immediatum ordinem ad res 
+      ex<lb ed="#L" n="149" break="no"/>teriores, sicut &amp; sensus. Sed actus sensuum exteriorum sunt 
+      <lb ed="#L" n="150"/>intuitiui, propter immediatum ordinem ad obiecta sua. Ergo 
+      <lb ed="#L" n="151"/>&amp; actus intellectus, &amp; aliarum virium interiorum, essent 
+      intui<lb ed="#L" n="152" break="no"/>tiui, &amp; non abstractiui propter eandem causam. Si ergo 
+      ali<lb ed="#L" n="153" break="no"/>qua cognitio sit abstractiua, oportet o eam praecedat aliqua 
+      <lb ed="#L" n="154"/>alia, quam supponit, vel ex qua deducatur. Et si patet, quod illa 
+      <lb ed="#L" n="155"/>inductio concludit illud, quod sic est in Deo, &amp; in nobis, quod 
+      <lb ed="#L" n="156"/>impossibile est fieri oppositum quacunque virtute. 
+      <lb ed="#L" n="157"/>io Ratione sic probatur eadem maior: Prima cognitio nemces 
+      <lb ed="#L" n="158"/>sario est entis in actu: sed talis cognitio necessario est 
+      intuiti<lb ed="#L" n="159" break="no"/>ua, vt probatur: ergo omnis alia cognitio necessario 
+      praesup<lb ed="#L" n="160" break="no"/>ponit intuitiuam, &amp; ex ea deducitur. Maior patet: quia non 
+      <lb ed="#L" n="161"/>ens non potest cognosci, nisi per ens: nec ens in 
+      poten<lb ed="#L" n="162" break="no"/>tia, nisi per ens in actu; vt habetur 9. Metaphysicae: ergo 
+      pri<lb ed="#L" n="163" break="no"/>ma cognitio, ex qua omnis alia dependet, est entis in actu. 
+      <!--00076.xml-->
+      <pb ed="#L" n="6-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Minor probatur: quia illa cognitio est intuitiua, quae fertur 
+      im<lb ed="#L" n="2" break="no"/>mediate in rem, vt sibi praesentem, secundum eius existentiam 
+      actua<lb ed="#L" n="3" break="no"/>lem: &amp; hoc patet ex ratione cognitionis intuitiuae prius posita. 
+      <lb ed="#L" n="4"/>Sed prima cognitio, quae est entis in actu, vt praecogniti, fertur 
+      <lb ed="#L" n="5"/>in ens in actu, secundum eius existentiam actualem, cum hoc sit 
+      forma<lb ed="#L" n="6" break="no"/>lis ratio sui obiecti, &amp; fertur immediate in ipsum: quia non 
+      me<lb ed="#L" n="7" break="no"/>diante alia cognitione, cum illa sint prima: nec mediate alio 
+      co<lb ed="#L" n="8" break="no"/>gnito, cum sit illud prius. Ergo talis cognitio est intuitiua, quam 
+      <lb ed="#L" n="9"/>supponit omnis alia. Et haec fuit maior principalis rationis. Mi 
+      <lb ed="#L" n="10"/>nor probatur, videlicet, quod in puro viatore non potest praecedere 
+      <lb ed="#L" n="11"/>aliqua cognitio, ex qua deducatur talis cognitio abstractiua, 
+      <lb ed="#L" n="12"/>qualem illi ponunt, quia cognitio vel esse eiusdem cogniti, scilicet 
+      <lb ed="#L" n="13"/>Dei, aut alterius. Non alterius: quia illud esset creatum: ex nullo 
+      <lb ed="#L" n="14"/>autem creato praecognito potest deduci talis cognitio Dei, per 
+      <lb ed="#L" n="15"/>quam certitudinaliter &amp; expresse cognoscatur De? esse trinus 
+      <lb ed="#L" n="16"/>&amp; vnus, vt probatu est in praecedentibus. Nec potest esse eius. 
+      <lb ed="#L" n="17"/>dem cogniti, scilicet Dei, quia vel esset abstractiua, vel 
+      intuiti<lb ed="#L" n="18" break="no"/>ua. Si abstractiua, adhuc ipsam praecederet quaedam alia, de qua 
+      <lb ed="#L" n="19"/>quaereretur, vt prius, &amp; sic esset processus in infinitum. 
+      Relin<lb ed="#L" n="20" break="no"/>quitur ergo, quod sit intuitiua: sed illa non potest communica 
+      <lb ed="#L" n="21"/>riviatori, cum sit beatifica: ergo nec abstractiua. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e562">
+               <lb ed="#L" n="22"/>
+               <!--11.--> Sed diceret aliquis, quod quauis viatori, qui nunquam fuit 
+      con<lb ed="#L" n="23" break="no"/>praehensor, non possit talis cognitio abstractiua communicari, 
+      via<lb ed="#L" n="24" break="no"/>tori tamen poterit communicari, si primo rapiatur ad visionem 
+      in<lb ed="#L" n="25" break="no"/>tuitiuam Dei: ac deinde cesset illa visio, &amp; ille raptus: sicut fuit 
+      <lb ed="#L" n="26"/>in Beato Paulo. Sed quia hoc tangitur in quoda argumento pri 
+      <lb ed="#L" n="27"/>facto, ideo nunc differtur vsque ad solutionem illius argumenti. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e580">
+               <lb ed="#L" n="28"/>
+               <!--12--> Secundo probatur principalis conclusio sic: Si talis 
+      cogni<lb ed="#L" n="29" break="no"/>tio abstractiua esset possibilis viatori, aut essentia diuina secun 
+      <lb ed="#L" n="30"/>dum se immediate praesentaretur intellectui, aut mediante 
+      al<lb ed="#L" n="31" break="no"/>quo alio. Si primum, tuc esset cognitio intuitiua, sicut visio colo 
+      <lb ed="#L" n="32"/>ris in pariete, &amp; talis visio non potest communicari viatori. Si 
+      se<lb ed="#L" n="33" break="no"/>cundum, aut illud esset medium cognitum, aut solum ratio 
+      cognoscen<lb ed="#L" n="34" break="no"/>di, (sicut quidam ponunt de specie) non medium cognitum, quia nihil 
+      <lb ed="#L" n="35"/>creatum potest per modum obiecti cogniti ducere in tam perfectam 
+      <lb ed="#L" n="36"/>cognitionem Dei, quod expresse cognoscatur, esse trinus, (vt prius 
+      <lb ed="#L" n="37"/>dictum fuit, &amp; probati) nec aliquis vnquam hoc posuit. Si 
+      au<lb ed="#L" n="38" break="no"/>tem illud medium sit solum ratio cognoscendi, vt species, tale mo 
+      <lb ed="#L" n="39"/>dium non faceret cognitionem abstractiuam, sed intuitiuam. Quod 
+      <lb ed="#L" n="40"/>patet: quia si aliqua res esset secundum se realiter praesens 
+      poten<lb ed="#L" n="41" break="no"/>tiae cognitiuae, &amp; praesentetur ei in ratione obiecti 
+      cognoscibi<lb ed="#L" n="42" break="no"/>lis per solam speciem, illa cognitio est intuitiua, quia potentia 
+      <lb ed="#L" n="43"/>fertur in talem rem, vt sibi realiter praesentem in ratione obiecti 
+      <lb ed="#L" n="44"/>immediate cognitiquia species non est medium cognitum, sed 
+      so<lb ed="#L" n="45" break="no"/>lum ratio cognoscendi. Exemplum de cognitione sensitiua 
+      vi<lb ed="#L" n="46" break="no"/>nia. Sed essentia diuina est secundum se praesens realiter cuicunque 
+      <lb ed="#L" n="47"/>potentiae cognitiuae, &amp; cuilibet rei. Si ergo ipsa praesentetur in 
+      <lb ed="#L" n="48"/>ratione obiecti cognoscibilis per solam speciem illi potentiae quae 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e630">
+               <lb ed="#L" n="49"/>
+               <!--2--> ost capax eius, necesse est talem cognitionem esse intuitiuam. Et hoc 
+      <lb ed="#L" n="50"/>modo ponunt quidam speciem in visione beata, quae est intuitiua. 
+      <lb ed="#L" n="51"/>: Puto tamen, quod nulla species (prout loquimur de specie) potest 
+      <lb ed="#L" n="52"/>Crepraesentare essentiam diuinam vt per eam cognoscatur 
+      in<lb ed="#L" n="53" break="no"/>tuitiue, vel abstractiue: quod plenius patebit in 4. lib. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e646">
+               <lb ed="#L" n="54"/>
+               <!--313--> Sed diceret aliquis, quod non oportet essentia diuinam, nec 
+      <lb ed="#L" n="55"/>quodcunque aliud obiectum esse praesens potentiae, neque secun 
+      <lb ed="#L" n="56"/>dum suam actualem existentiam, neque per medium cognitum, neque 
+      <lb ed="#L" n="57"/>per medium, quod est ratio cognoscendi solum, vt species: quia so 
+      <lb ed="#L" n="58"/>la cognitio rei apud potentiam cognitiuam, facit obiectum praesens 
+      <lb ed="#L" n="59"/>esse potentiae, non in ratione existentis, sed in ratione agniti. Hac 
+      <lb ed="#L" n="60"/>enim praesentiam facit solus actus, &amp; nulla alia praesentia obiecti 
+      <lb ed="#L" n="61"/>requiritur ad eius cognitionem, nisi quando cognitio causatur es 
+      <lb ed="#L" n="62"/>fectiue ab obiecto, quia propter hoc bene requiritur actualis 
+      <lb ed="#L" n="63"/>praesentia obiecti, secundum eius realem existentiam, eo quod illud 
+      <lb ed="#L" n="64"/>quod non est realiter in actu, nihil potest agere: sed DeP potest 
+      <lb ed="#L" n="65"/>per seipsum facere, quod facit mediante obiecto. Et ideo, vt 
+      vide<lb ed="#L" n="66" break="no"/>tur, Deus potest causare in intellectu cognitionem alicuius rei quae 
+      <lb ed="#L" n="67"/>non est praesens intellectui, secundum suam actualem existentiam, 
+      <lb ed="#L" n="68"/>nec secundum medium cognitum, nec secundum speciem 
+      ali<lb ed="#L" n="69" break="no"/>quam: cuius oppositum assumebatur in praecedenti ratione. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e685">
+               <lb ed="#L" n="70"/>
+               <!--14--> Istud autem prima facie videtur mirabile satis, qua secundum hoc 
+      <lb ed="#L" n="71"/>Deus posset facere, quod oculus videret colorem, qui non esset ei 
+      prae<lb ed="#L" n="72" break="no"/>sens realiter, imo qui omnino non esset in rerum natura, ex quo 
+      <lb ed="#L" n="73"/>actus potentiae non requirit aliquam realem existentiam obiecti, quando 
+      <lb ed="#L" n="74"/>obiectum non mouet ad actum: quod vtique esset, si Deus suppleret 
+      vi<lb ed="#L" n="75" break="no"/>cem obiecti in mouendo. Posset igitur secundum hoc dici, quod oculus 
+      <lb ed="#L" n="76"/>vident &amp; colorem: qui non est: &amp; auditus audiret sonum, quo non est: &amp; gu 
+      <lb ed="#L" n="77"/>stus gustaret saporem, qui non est: tact sentiret calorem, qui non est: 
+      <lb ed="#L" n="78"/>&amp; odoratus odorem, qui non ess quod videtur multis impossibile. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e709">
+               <lb ed="#L" n="79"/>
+               <!--15--> Item quaecunque cognitio creata plus videtur requirere 
+      prae<lb ed="#L" n="80" break="no"/>sentiam sui obiecti, quam cognitio increata: quia cognitio, quanto 
+      <lb ed="#L" n="81"/>est perfectior, tanto pauciora requirit: &amp; quanto imperfectior, 
+      <lb ed="#L" n="82"/>tanco plura. Sed cognitio diuina &amp; increata requirit necessa¬ 
+      <!--00076.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>rio praesentiam cuiuscunque obiecti sui in sua reali existentia, 
+      <lb ed="#L" n="84"/>vel in suo repraesentatiuo: quia obiectum cognitionis diuinae pri 
+      <lb ed="#L" n="85"/>marium, est sua essentia realiter praesens: obiectum a utem secun 
+      <lb ed="#L" n="86"/>darium, sunt creaturae, quae ab aeterno fuerunt intellectui diuino 
+      <lb ed="#L" n="87"/>praesentes in suo repraesent atiuo, scilicet in essentia diuina, quae 
+      <lb ed="#L" n="88"/>est obiectum primum &amp; repraesentatiuum omnium obiectorum 
+      secun<lb ed="#L" n="89" break="no"/>dariorum: nec aliter creaturae possent cognosci a Deo, nisi reprae 
+      <lb ed="#L" n="90"/>sentarentur in essentia diuina, vt in obiecto primo. Ergo 
+      for<lb ed="#L" n="91" break="no"/>tiori ratione quaecunque cognitio creata requirit necessario 
+      rea<lb ed="#L" n="92" break="no"/>lem praesentiam cuiuscunque obiecti sui in sua actuali existentia, 
+      <lb ed="#L" n="93"/>vel in suo repraesentatiuo: nec aliter videtur possibile, quod 
+      ali<lb ed="#L" n="94" break="no"/>quid cognoscatur. Et sic remanet adhuc virtus rationis 
+      praece<lb ed="#L" n="95" break="no"/>dentis: &amp; per consequens patet principalis conclusio, videlicet 
+      <lb ed="#L" n="96"/>quod nullus viator potest quacunque virtute habere 
+      cognitio<lb ed="#L" n="97" break="no"/>nem abstractiuam de Deo adeo perfectam, quod possit 
+      certi<lb ed="#L" n="98" break="no"/>tu linaliter &amp; expresse cognoscere Deum esse trinum. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e762">
+               <lb ed="#L" n="99"/>
+               <!--16--> Ad rationes in oppositum respondendum est: Ad primam, cum 
+      di<lb ed="#L" n="100" break="no"/>citur, quod omnis illa cognitio potest communicari homini viatori, 
+      <lb ed="#L" n="101"/>quae non ponere ipsum extra terminos viae: dicendum est, quod hic est 
+      <lb ed="#L" n="102"/>duplex defectus: primus est, quia ad hoc quod aliqua perfectio sit 
+      <lb ed="#L" n="103"/>communicabuis alicui, oportet quod illa perfectio sit in se, &amp; 
+      secun<lb ed="#L" n="104" break="no"/>dum se possibilis: quia quod non est possibile secundum se non 
+      po<lb ed="#L" n="105" break="no"/>test alicui communicari. Et ideo debet dici sic in maiori 
+      proposi<lb ed="#L" n="106" break="no"/>tione. Quia omnis illa cognitio, quae est possibilis secundum se, 
+      <lb ed="#L" n="107"/>&amp;c. &amp; tunc minor propositio, si directe sumatur sub ista, est 
+      fal<lb ed="#L" n="108" break="no"/>sa: quia cognitio abstractiua, qualem isti ponunt, non est socundum se 
+      <lb ed="#L" n="109"/>possibilis: quia cum omnis cognitio sit alicuius cognoscentis. 
+      <lb ed="#L" n="110"/>ista nullius est, nec esse potest, nec Dei, nec creaturae, nec pro 
+      <lb ed="#L" n="111"/>statu patriae, nec pro statu viae. Et quod non sit possibilis Deo, de se 
+      <lb ed="#L" n="112"/>clarum est: quia illa cognitio est imperfecta respectu 
+      cognitio<lb ed="#L" n="113" break="no"/>nis intuitiuae, vt ipsi dicunt. Nihil autem imperfectum potest esse in 
+      <lb ed="#L" n="114"/>Deo. Quod etia non sit possibilis creaturae beatae, vt beatar est, pa 
+      <lb ed="#L" n="115"/>tet per idem: quia cognitio creaturae beatae, vt beata est &amp; 
+      di<lb ed="#L" n="116" break="no"/>stinguitur a non beata, non est nisi cognitio beata, quae est 
+      intuiti<lb ed="#L" n="117" break="no"/>ua, &amp; non abstractiua. Quod non sit possibilis creaturae in statu 
+      <lb ed="#L" n="118"/>viae, quamuis sit probatum in corpore quaestionis, nunc tamen 
+      respon<lb ed="#L" n="119" break="no"/>dendo ad rationem, sufficit negare hac possibilitatem, &amp; eis 
+      in<lb ed="#L" n="120" break="no"/>cumbit probatio, vel manifeste petunt principium. Secundus 
+      de<lb ed="#L" n="121" break="no"/>fectus est quia homo viator duo dicit, quae se habent sicut 
+      exce<lb ed="#L" n="122" break="no"/>dentia, &amp; excessa: quia non omnis homo est viator, imo quidam 
+      <lb ed="#L" n="123"/>sunt compraehensores nec omnis viator est homo, quia angeli 
+      fue<lb ed="#L" n="124" break="no"/>runt viatores, &amp; adhuc Deus creare posset angelos, qui possent 
+      <lb ed="#L" n="125"/>esse in statu viae. Potest igitur aliquid repugnare homini 
+      viato<lb ed="#L" n="126" break="no"/>ri, quatenus homo est, quod non repugnat, quatenus viator est: 
+      <lb ed="#L" n="127"/>sicut esse angelum, repugnat homini viatori, inquantum homo est, 
+      <lb ed="#L" n="128"/>quia idem non potest esse homo &amp; angelus: sed non repugnat, in 
+      <lb ed="#L" n="129"/>quantum est viator, quia angeli fuerunt viatores, &amp; adhuc possunt 
+      <lb ed="#L" n="130"/>esse, sicut homines. Debet ergo poni in maiori propositione, 
+      <lb ed="#L" n="131"/>quod illa cognitio, quae est possibilis secundum se, neo repugnat 
+      <lb ed="#L" n="132"/>homini viatori, nec inquantum homo est, nec inquantum viator. Et 
+      <lb ed="#L" n="133"/>tunc in minori propositione debet probari, quod cognitio 
+      ab<lb ed="#L" n="134" break="no"/>stractiua sit talis, quo ad singula menbra: quod non fit, nisi de vlti 
+      <lb ed="#L" n="135"/>mo mebro. Et ideo ratio est tripliciter defectuosa, vt dictum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e847">
+               <lb ed="#L" n="136"/>
+               <!--17.--> Ad secundam rationem dicendum est, per intereptionem minoris: 
+      <lb ed="#L" n="137"/>quia cognitio intuitiua prior est, quam abstractiua, vt probatum 
+      <lb ed="#L" n="138"/>fuit. Et ideo intuitiua potest haberi sine abstractiua, &amp; non econ 
+      <lb ed="#L" n="139"/>tra. Et cum probatur, quod abstractiua sit prior, quia tendit in 
+      quid<lb ed="#L" n="140" break="no"/>ditatem rei absolutae, intuitiua autem tendit in rem secundum esse 
+      <lb ed="#L" n="141"/>praesentialis existentiae: concedatur; quamuis abstractiua ad aliud 
+      <lb ed="#L" n="142"/>se extendat, quam ad cognitionem quidditatis, vt prius dictum est. 
+      <lb ed="#L" n="143"/>Sed illo concesso, adhuc non sequitur, quod abstractiua sit prior 
+      <lb ed="#L" n="144"/>Nam sensitiua exterior, quae praecedit omnem abstractiuam, 
+      <lb ed="#L" n="145"/>tendit in rem secundum esse praesentialis existentiae. Quod autem 
+      <lb ed="#L" n="146"/>additur, quod talis cognitio se habet per additionem ad aliam, 
+      <lb ed="#L" n="147"/>non est verum, sed totum est econtrario, sicut vna cognitio pontest 
+      <lb ed="#L" n="148"/>se habere per additionem ad aliam, scilicet secundum 
+      praesupposi<lb ed="#L" n="149" break="no"/>tionem. Nec argumentum ex parte cognitorum valet, nec 
+      sim<lb ed="#L" n="150" break="no"/>pliciter, nec in proposito. Non simpliciter, quia accidentia se 
+      <lb ed="#L" n="151"/>habent per additionem ad substa atiam, tanquam posteriora. Et 
+      <lb ed="#L" n="152"/>tamen cognitio accidentium tam sensitiua, quam intellectiua, 
+      <lb ed="#L" n="153"/>praecedit cognitionem substantiae. Item in proposito, esse 
+      actua<lb ed="#L" n="154" break="no"/>lis existentiae, non se habet in Deo per additionem ad 
+      quiddita<lb ed="#L" n="155" break="no"/>tem, cum sint penitus idem: vnde illa ratio nihil concludit. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e895">
+               <lb ed="#L" n="156"/>
+               <!--18.--> Ad tertiam rationem dicendum est, quod ipsa nihil 
+      conclu<lb ed="#L" n="157" break="no"/>dit pro eis, sed solum contra eos, si aliquid concludit: quod 
+      pa<lb ed="#L" n="158" break="no"/>tet resumendo rationem eorum, quicquid faceret essentia 
+      di<lb ed="#L" n="159" break="no"/>uina, si esset praesens intellectui in ratione obiecti naturaliter 
+      <lb ed="#L" n="160"/>mouentis: potestfacere voluntas diuina sine tali praesentia 
+      exi<lb ed="#L" n="161" break="no"/>stentiae: sod si essentia diuina esset praesens intellectui in 
+      ra<lb ed="#L" n="162" break="no"/>tione obiecti naturaliter mouentis, ipsa causaret perfectam 
+      <lb ed="#L" n="163"/>cognitionem sui intuitiuam, &amp; non abstractiuam: ergo 
+      vo<lb ed="#L" n="164" break="no"/>luntas diuina sine praesentia essentiae in ratione obiecti natu¬ 
+      <!--00077.xml-->
+      <pb ed="#L" n="7-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>raliter mouentis, potest causare cognitionem perfectam 
+      in<lb ed="#L" n="2" break="no"/>tuitiuam, &amp; non abstractiuam. quod est contra eos, 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e930">
+               <lb ed="#L" n="3"/>
+               <!--19.--> Ad quartam rationem dicendum ost, quo memoria quam habuit 
+      <lb ed="#L" n="4"/>Ecatus Paulus post raptum de visione, qua habuerat in raptu, &amp; 
+      <lb ed="#L" n="5"/>de re visa, non fuit expressa cognitio essentiae diuinae, qualem isti 
+      <lb ed="#L" n="6"/>ponunt: nec expressa cognitio visionis beatae: sed solum in 
+      quo<lb ed="#L" n="7" break="no"/>dam confuso recordabatur se vidisse Deum, sicut Nabuchodono. 
+      <lb ed="#L" n="8"/>sor Daniel. 2. in somno recordabatur aliquid magnum &amp; 
+      mirahi<lb ed="#L" n="9" break="no"/>le, &amp; non recordabatur quid esset in speciali. Cuius ratio est, 
+      <lb ed="#L" n="10"/>quia omnis cognitio memoratiua fit per aliquam impressionem, 
+      <lb ed="#L" n="11"/>repraesentantem rem memoratam per modum obiecti, 
+      me<lb ed="#L" n="12" break="no"/>dij: sed quicquid sit de specie in visione beata, nullus tamen 
+      <lb ed="#L" n="13"/>vnquam posuit, quod essentia diuina possit expresse &amp; 
+      quiddita<lb ed="#L" n="14" break="no"/>tiue repraesentari per aliquod creatum, se habens in ratione 
+      <lb ed="#L" n="15"/>obiecti medij. Et ideo illa memoria beati Pauli non potuit esse 
+      <lb ed="#L" n="16"/>expressa cognitio Dei abstractiua, qualem isti ponunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e110-d1e965">
+               <lb ed="#L" n="17"/>
+               <!--20--> Argumentu in oppositum, licet sit pro parte ista, quo ad co 
+      <lb ed="#L" n="18"/>gnitionem: assumit tamen vnum non verum, istud videlicot, quod 
+      co<lb ed="#L" n="19" break="no"/>gnitio abstractiua eiusdem potentiae &amp; obiecti sit aequae perfe 
+      <lb ed="#L" n="20"/>cta, sicut intuitiua: quod non puto verum. Nec probatio valet, quia 
+      <lb ed="#L" n="21"/>falsum assumit, scilicet, quod Deus habet de creaturis quandoque 
+      <lb ed="#L" n="22"/>cognitionem intuitiuam, de quibus habuerat prius cognitionem 
+      <lb ed="#L" n="23"/>abstractiuam. Deus enim de nullo habet, nisi vnam cognitionem 
+      <lb ed="#L" n="24"/>&amp; vno modo, &amp; semper aequaliter perfecta, qualitercunque illa 
+      <lb ed="#L" n="25"/>vocetur. Quia quantumcunque creaturae sint in rerum natura, 
+      <lb ed="#L" n="26"/>vel non sint, tam eodem modo repraesentantur intellectui diuino, 
+      <lb ed="#L" n="27"/>scilicet in ratione obiecti secundarij, per prnum obiectum, quod 
+      <lb ed="#L" n="28"/>est essentia diuina, viuformter se habens in seipsa, &amp; in 
+      reprae<lb ed="#L" n="29" break="no"/>xtando alia. Propter quod cognitio creaturarum non est in Deo 
+      <lb ed="#L" n="30"/>pius abstractiua, quando non sunt nec plus intuitiua, quando sunt 
+      <lb ed="#L" n="31"/>NaR, sic autem est in nobis. Et ideo nullum simile est hinc &amp; ind, 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

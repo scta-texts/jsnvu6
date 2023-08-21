@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="218-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e179006"><!-- l3d23q2 -->
+            <head xml:id="jsnvu6-e179006-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e179006-Hd1e103" type="question-title">Utrum habitus faciat aliquid ad 
+      intensionem actus</head>
+            <p xml:id="jsnvu6-e179006-d1e106">
+               <lb ed="#L" n="33"/>QYALSTIOISICVIDA
+      <lb ed="#L" n="34"/>Vtrum habitus faciat aliquid ad 
+      inten<lb ed="#L" n="35" break="no"/>sionem actus. 
+      <lb ed="#L" n="36"/>Caiet. 1. 2. 4. 49. ar. 3. 
+    </p>
+            <p xml:id="jsnvu6-e179006-d1e117">
+               <lb ed="#L" n="37"/>SECVNDO quaeritur, vtrum habitus faciat 
+      al<lb ed="#L" n="38" break="no"/>quid ad substantiam actus, an solum ad modum 
+      <lb ed="#L" n="39"/>eius. Et quia triplex modus potest considerari 
+      <lb ed="#L" n="40"/>circa actum, videlicet eius, intensio, &amp; eius 
+      deter<lb ed="#L" n="41" break="no"/>minatio ad bonum vel ad malum, &amp; facilitas ad 
+      <lb ed="#L" n="42"/>actum. Ideo de istis tribus quaeretur per ordinem. Et primo 
+      <lb ed="#L" n="43"/>vtrum habitus faciat aliquid ad intensionem actus. Et 
+      argui<lb ed="#L" n="44" break="no"/>tur quod sic, quia perfecti est agere &amp; magis perfecti 
+      perfe<lb ed="#L" n="45" break="no"/>ctius agere, sed potentia cum habitu est perfectior quam fint 
+      <lb ed="#L" n="46"/>habitu, ergo potest perfectius agere, sed non agere perfectius, 
+      <lb ed="#L" n="47"/>nisi ageret intensiorem actum; ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e179006-d1e143">
+               <lb ed="#L" n="48"/>
+               <!--2--> Item secundo Ethicorum dicit Philosophus quod ex recedere 
+      <lb ed="#L" n="49"/>a voluptatibus efficimur temperati &amp; effecti maxime 
+      possu<lb ed="#L" n="50" break="no"/>mus recedere ab ipsis. Similiter assueti contemnere terribilia 
+      <lb ed="#L" n="51"/>&amp; sustinere ipsa, efficimur fortes, &amp; effecti maxime possumu: 
+      <lb ed="#L" n="52"/>terribilia sustinere. Ex quibus videtur quod habitus causatus 
+      <lb ed="#L" n="53"/>ex actibus aliquid faciat ad intensionem in actu sequente. 
+      </p>
+            <p xml:id="jsnvu6-e179006-d1e162">
+               <lb ed="#L" n="54"/>
+               <!--3--> IN CONTRARIVM arguitur, quia illud quod 
+      <lb ed="#L" n="55"/>natum est per se intendere actum, potest per se solum causare 
+      <lb ed="#L" n="56"/>similem, nisi ex parte receptiui sit praeualens resistentia, sed 
+      ha<lb ed="#L" n="57" break="no"/>bitus secundum se, excluso quocunque alio, non potest causare 
+      <lb ed="#L" n="58"/>quemcunque actum, ergo non facit per se ad intensionem cuiusque 
+      <lb ed="#L" n="59"/>actus. Minor de se patet. Probatio maioris, quia quum intensio 
+      <lb ed="#L" n="60"/>actus attendatur secundum ipsam essentiam actus, illud quod 
+      <lb ed="#L" n="61"/>potest per se in intensionem actus potest per se in essentiam 
+      <lb ed="#L" n="62"/>eius excluso impedimento praeualente, dico autem excluso im 
+      <lb ed="#L" n="63"/>pedimento. Quia si agens quod intendit actum esset debilioris 
+      <lb ed="#L" n="64"/>virtutis quam esset resistentia passi nihil causaret per se, sicui 
+      <lb ed="#L" n="65"/>cum debilis adiungitur forti trahenti nauem, &amp; causat motum 
+      <lb ed="#L" n="66"/>intensiorem. Non oportet quod per se possit causare motus 
+      <lb ed="#L" n="67"/>illius nauis quae forte grauior est quam sit virtus istius debilis 
+      <lb ed="#L" n="68"/>trahentis. Sed si nihil resisteret mouens quantumcunque 
+      debi<lb ed="#L" n="69" break="no"/>lis virtutis ipsam moueret. Cum ergo potentiae animae nullam 
+      <lb ed="#L" n="70"/>resistentiam habeant ad actus suos, sed quantum est de se sint 
+      <lb ed="#L" n="71"/>summe dispositae. Sequitur quod illud quod intendit per se ea 
+      <lb ed="#L" n="72"/>rum actum possit per se solum causare consimilem actum 
+      se<lb ed="#L" n="73" break="no"/>cundum speciem quamuis remissum. Et haec est maior. 
+      </p>
+            <p xml:id="jsnvu6-e179006-d1e210">
+               <lb ed="#L" n="74"/>
+               <!--5--> RESPONSIO. Ad praesens solum loquimur de ha 
+      <lb ed="#L" n="75"/>bitibus acquisitis de quibus dicendum est quod nullus habitus 
+      <lb ed="#L" n="76"/>acquisitus facit per se ad intentionem actus; quamuis aliquis 
+      <lb ed="#L" n="77"/>habitus (maxime moralis) possit ad hoc facere per accidens. 
+      </p>
+            <p xml:id="jsnvu6-e179006-d1e223">
+               <lb ed="#L" n="78"/>
+               <!--5--> PRIMVM patet sic, illud quod conuenit per se habitui 
+      <lb ed="#L" n="79"/>acquisito conuenit per se omni tali, sed intendere actum non 
+      con<lb ed="#L" n="80" break="no"/>uenit omni habitui acquisito, ergo &amp;c. Maior patet, quia quo¬ 
+      <!--00509.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>per se conuenit alicui conuenit per se omni contento sub eo. M. 
+      <lb ed="#L" n="82"/>nor probatur, quia omnis habitus acquisitus, vel est intellectua 
+      <lb ed="#L" n="83"/>lis, vel moralis, vt dicitur in fine primi Ethicorum. Sed isti 
+      habi<lb ed="#L" n="84" break="no"/>tus non faciunt per se ad intensionem actus (vt patebit) igitur, &amp;c 
+      <lb ed="#L" n="85"/>Minor istius patet inducendo primo in habiribus 
+      intellectuali<lb ed="#L" n="86" break="no"/>bus. Verbi gratia, de scientia &amp; opinione, &amp; fide acquisita, 
+      qui<lb ed="#L" n="87" break="no"/>qui cognoscit primo aliquam conclusionem ex sola auctorita 
+      <lb ed="#L" n="88"/>te dicentis (puta credens eclypsim ex auctoritate astrologi ho 
+      <lb ed="#L" n="89"/>praedicentis, &amp; nondum habens habitum) si postea firmetur in ec 
+      <lb ed="#L" n="90"/>habitus istius credulitatis, &amp; de eadem vel simili conclusiont 
+      <lb ed="#L" n="91"/>non habeat nisi auctoritatem eiusdem, quamuis firmius credat 
+      <lb ed="#L" n="92"/>propter veritatem quam forte expertus est de dictis astrologi 
+      <lb ed="#L" n="93"/>tamen non clarius cognoscit veritatem dicti quam prius, licet 
+      for<lb ed="#L" n="94" break="no"/>te firmius adhaereat, quae firmitas non est primo &amp; solum ex 
+      au<lb ed="#L" n="95" break="no"/>ctoritate, nec ex habitu causato per auctoritatem. Sed ex 
+      expe<lb ed="#L" n="96" break="no"/>rientia euentus rerum dictarum ab astrologo. Et si esset adhuc 
+      <lb ed="#L" n="97"/>de firmitate non quaerimus, sed de claritate cognitionis, quae so 
+      <lb ed="#L" n="98"/>la pertinet ad intensionem actus cognoscendi. Firmitas enim 
+      <lb ed="#L" n="99"/>adhaesionis nihil facit ad claritatum cognitionis, quum opinam, 
+      <lb ed="#L" n="100"/>quandoque aeque firmiter adhaereat conclusioni opinatae, sicu 
+      <lb ed="#L" n="101"/>demonstrator adhaeret conclusioni demonstratae, vt dicitur 7. 
+      <lb ed="#L" n="102"/>Ethicorum. Similiter si quis habeat de aliqua conclusione 
+      ra<lb ed="#L" n="103" break="no"/>tionem dialecticam vel demonstratiuam, &amp; ex frequentatione 
+      <lb ed="#L" n="104"/>earum causetur in eo habitus opinionis, vel sciensiae, si post 
+      ha<lb ed="#L" n="105" break="no"/>bitum causatum cognoscat eandem conclusionem per idem 
+      <lb ed="#L" n="106"/>medium, per quod prius cognoscebat, non apparet quod propter 
+      <lb ed="#L" n="107"/>hoc clarius cognoscat, licet * promptius possit exire in actum 
+      <lb ed="#L" n="108"/>cognoscendi, quia habet habitum quo vti potest quum 
+      volue<lb ed="#L" n="109" break="no"/>rit. Sed de promptitudine nunc non quaerimus, sed de claritate 
+      <lb ed="#L" n="110"/>cognitionis, quae sola pertinet ad intentionem actus. 
+      </p>
+            <p xml:id="jsnvu6-e179006-d1e304">
+               <lb ed="#L" n="111"/>
+               <!--6--> Quod autem ita sit, probatur sic, intensio cognitionis in 
+      <lb ed="#L" n="112"/>non videtur posse contingere per se; nisi ex parte luminis sub 
+      <lb ed="#L" n="113"/>quo aliquid cognoscitur, vel obiecti quod repraesentatur, vel po 
+      <lb ed="#L" n="114"/>tentiae cognoscentis, vel dispositionis potentiae requisitae per 
+      <lb ed="#L" n="115"/>se ad receptionem actus. Omnia enim alia videntur se habere 
+      <lb ed="#L" n="116"/>per accidens ad actum, &amp; ad eius intensionem, sed habitus 
+      in<lb ed="#L" n="117" break="no"/>tellectualis nihil horum est, quare &amp;c. Maior patet: videmus 
+      <lb ed="#L" n="118"/>enim intensionem variari in actu ex parte solius luminis. Sicut 
+      <lb ed="#L" n="119"/>illud quod videtur in lumine solis, clarius videtur quam illud 
+      <lb ed="#L" n="120"/>quod videtur in lumine lunae, caeteris paribus. Item ex parte re 
+      <lb ed="#L" n="121"/>praesentationis solius obiecti, quia idem visibile repraesentatum 
+      <lb ed="#L" n="122"/>in eodem lumine videtur clarius vel obscurius ratione 
+      propin<lb ed="#L" n="123" break="no"/>quitatis, vel remotionis. Similiter ex parte potentiae quia idem 
+      <lb ed="#L" n="124"/>visibile, &amp; in eodem lumine, &amp; eadem distantia clarius vider 
+      <lb ed="#L" n="125"/>juuenis quam senex, quia potentia visiua, quum sit corporalis 
+      <lb ed="#L" n="126"/>est debilior vel fortior secundum conditionem corporum. Item 
+      <lb ed="#L" n="127"/>ex parte dispositionis per se requisitae, quia idem visibile 
+      ae<lb ed="#L" n="128" break="no"/>qualiter propinquum, &amp; in eodem lumine videtur intensius &amp; 
+      <lb ed="#L" n="129"/>remissius ab eadem potentia aeque secundum se intensa, si 
+      <lb ed="#L" n="130"/>diaphanitas oculi, quae per se requiritur ad receptionem 
+      spe<lb ed="#L" n="131" break="no"/>ciei, vel visionis sit alia &amp; alia, forte istud coincidit cum tertio 
+      <lb ed="#L" n="132"/>his autem exclusis non apparet vnde possit esse varietas inter 
+      <lb ed="#L" n="133"/>sionis &amp; remissionis in actu. Et sic patet maior. Et similiter 
+      mi<lb ed="#L" n="134" break="no"/>nor manifesta est, quia habitus acquisitus non est lumen sul 
+      <lb ed="#L" n="135"/>quo aliquid cognoscitur. Supponitur etiam quod idem 
+      obie<lb ed="#L" n="136" break="no"/>ctum repraesentetur aequaliter ante habitum &amp; post, quia per 
+      <lb ed="#L" n="137"/>idem medium repraesentatiuum. Potentia autem intellectius 
+      <lb ed="#L" n="138"/>non suscipit magis &amp; minus, habitus etiam acquisitus non es 
+      <lb ed="#L" n="139"/>dispositio necessaria ad recipiendum actum, quum actus 
+      prae<lb ed="#L" n="140" break="no"/>cedat habitum, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e179006-d1e374">
+               <lb ed="#L" n="141"/>
+               <!--7--> Item patet secundo sic. Si potentia &amp; habitus facerent pe 
+      <lb ed="#L" n="142"/>se ad intensionem actus hoc esset, aut quia habitus intendere 
+      <lb ed="#L" n="143"/>potentiam quae intensa exiret in actum intensiorem, aut (vi 
+      <lb ed="#L" n="144"/>quidam dicunt) potentia &amp; habitus essent duo imperfecta 
+      a<lb ed="#L" n="145" break="no"/>gentia supplentia vicem vnius perfecti agentis respectu actu 
+      <lb ed="#L" n="146"/>intensi, in quem nullum istorum agentium per se esset 
+      suffi<lb ed="#L" n="147" break="no"/>ciens ad ipsum producendum. Primum non potest dici: 
+      qui<lb ed="#L" n="148" break="no"/>potentia intellectiua non recipit intensionem &amp; remissionem 
+      <lb ed="#L" n="149"/>Nec secundum potest dici, quia illa principia quae aeque 
+      im<lb ed="#L" n="150" break="no"/>mediate se habent ad aliquem actum, &amp; propria virtute 
+      a<lb ed="#L" n="151" break="no"/>gunt, habent vniuoce rationem potentiae respectu illius actus 
+      <lb ed="#L" n="152"/>Si ergo habitus &amp; potentia se haberent, vt duo imperfecta 
+      <lb ed="#L" n="153"/>agentia supplentia vicem vnius perfecti agentis, quum ad 
+      ho<lb ed="#L" n="154" break="no"/>sequatur quod quodlibet se habeat immediate ad actum, &amp; 
+      <lb ed="#L" n="155"/>virtute propria (alioquin non essent duo agentia imperfecta 
+      <lb ed="#L" n="156"/>supplentia vicem vnius agentis perfecti modo quo ipsi 
+      po<lb ed="#L" n="157" break="no"/>nunt) sequeretur quod ratio potentiae vniuoce conueniret 
+      po<lb ed="#L" n="158" break="no"/>tentiae intellectiuae &amp; habitui. Hoc autem non est verum, 
+      qui<lb ed="#L" n="159" break="no"/>quamuis habitus dicantur quaedam potentiae, tamen hoc non 
+      <lb ed="#L" n="160"/>est secundum illam rationem, secundum quam potentia actiua vel 
+      <lb ed="#L" n="161"/>passiua simpliciter dicta dicuntur potentiae, sed secundum alium 
+      <lb ed="#L" n="162"/>modum a praedictis distinctum, vt patet quinto Metaphysicae
+</p>
+            <p xml:id="jsnvu6-e179006-d1e426">
+      <!--00510.xml-->
+               <pb ed="#L" n="218-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Item principia quae per se requiruntur ad actum quemcunque 
+      per<lb ed="#L" n="2" break="no"/>fectum in aliqua specie videntur requiri necessario ad 
+      quemli<lb ed="#L" n="3" break="no"/>bet actum eiusdem speciei. Sed habitus non requiritur ad 
+      quen<lb ed="#L" n="4" break="no"/>libet actum eiusdem speciei cum actu sequente habitum. 
+      Qui<lb ed="#L" n="5" break="no"/>actus praecedentes habitum, non sunt ab habitu, quum tamen sint eius 
+      <lb ed="#L" n="6"/>dem speciei cum actibus sequentibus, ergo &amp;c. Minor iam patet 
+      <lb ed="#L" n="7"/>Probatio maioris. Primo per exemplum eorum, quia sicut acutie 
+      <lb ed="#L" n="8"/>&amp; duricies requiruntur in securi ad intense, vel velociter secare 
+      <lb ed="#L" n="9"/>ita requiruntur ad quodlibet secare. Secundo quia eorundem effe 
+      <lb ed="#L" n="10"/>ctuum secundum speciem differentium, solum secundum inten 
+      <lb ed="#L" n="11"/>sum &amp; remissum sunt eadem principia secundum speciem non 
+      <lb ed="#L" n="12"/>differentia nisi secundum intensum &amp; remissum solum. Et sic 
+      pa<lb ed="#L" n="13" break="no"/>tet maior: &amp; per consequens tota ratio, &amp; primum principale
+    </p>
+            <p xml:id="jsnvu6-e179006-d1e464">
+               <lb ed="#L" n="14"/>
+               <!--8.--> Secundum principale patet, scilicet quod aliquis habitus 
+      maxi<lb ed="#L" n="15" break="no"/>me moralis potest facere per accidens qud actus sit intensior, 
+      qui<lb ed="#L" n="16" break="no"/>illud quod facit obiectum appetitus videri conuenientius faci 
+      <lb ed="#L" n="17"/>quod ipsum appetatur intensius, sed habitus moralis est huius 
+      <lb ed="#L" n="18"/>modi, quare &amp;c. Maior de se patet. Minor probatur, quia quum 
+      <lb ed="#L" n="19"/>habitus mortalis sit circa passiones appetitus sensitiui quarum 
+      <lb ed="#L" n="20"/>varietas alterat corpus ab vna dispositione in aliam, nec 
+      mode<lb ed="#L" n="21" break="no"/>rantur nisi per actus alterantes corpus, sicut concupiscentia 
+      re<lb ed="#L" n="22" break="no"/>primitur per ieiunium. Iudicium autem de appetendis est secun 
+      <lb ed="#L" n="23"/>dum conformitatem ad appetentem, ideo alia apparent 
+      con<lb ed="#L" n="24" break="no"/>uenientia vel disconuenientia dispositis per habitum 
+      virtuo<lb ed="#L" n="25" break="no"/>sum, &amp; per habitum vitiosum. Nam dispositis per habitum 
+      vir<lb ed="#L" n="26" break="no"/>tuosum, puta per habitum temperantiae apparent minus 
+      con<lb ed="#L" n="27" break="no"/>uenientia delectabilia secundum tactum propter macerationem 
+      <lb ed="#L" n="28"/>corporis, &amp; repressionem caloris causatam ex actibus 
+      quibu<lb ed="#L" n="29" break="no"/>causata fuit virtus, &amp; continuata per sequentes, quam appareani 
+      <lb ed="#L" n="30"/>dispositis per habitum intemperantiae, in quibus sunt aliae 
+      dispo<lb ed="#L" n="31" break="no"/>sitiones ex actibus intemperatis causatae. Ex quo contingit? 
+      <lb ed="#L" n="32"/>per habitum temperantiae delectabilia fugiuntur intensius, &amp; 
+      <lb ed="#L" n="33"/>appetuntur remissius. Et sic habitus temperantiae vnum actum 
+      <lb ed="#L" n="34"/>intendit, scilicet fugam delectabilium contrariantium rationi 
+      <lb ed="#L" n="35"/>sed alium remittit, scilicet prosecutionem eorum quae non con 
+      <lb ed="#L" n="36"/>trariantur rationi, propter quod intensio non est per se ab ha 
+      <lb ed="#L" n="37"/>bitu, quia ab eodem non esset remissio, sed per accidens tantum 
+      <lb ed="#L" n="38"/>eo modo quo dictum est. 
+      </p>
+            <p xml:id="jsnvu6-e179006-d1e523">
+               <lb ed="#L" n="39"/>
+               <!--9--> AD PRIMVM argumentum dicendum quod magi 
+      <lb ed="#L" n="40"/>perfecti est perfectius agere, aecipiendo vtrobique perfectio 
+      <lb ed="#L" n="41"/>nem eodem modo, Constat autem quod per habitum 
+      poten<lb ed="#L" n="42" break="no"/>tia non efficitur perfectior perfectione intensionus, nec potentia 
+      <lb ed="#L" n="43"/>&amp; habitus supplent vicem vnius intensioris agentis, vt dictum 
+      <lb ed="#L" n="44"/>est. Et ideo non oportet quod potentia cum habitu causet actum 
+      <lb ed="#L" n="45"/>perfectiorem secundum intensionem. Vtrum autem causet aliam 
+      <lb ed="#L" n="46"/>perfectionem, patebit inferius. 
+      </p>
+            <p xml:id="jsnvu6-e179006-d1e545">
+               <lb ed="#L" n="47"/>
+               <!--10.--> Ad secundum argumentum dicendum quod Philosophu 
+      <lb ed="#L" n="48"/>loquitur de vittutibus moralibus, de quibus concessum est quod 
+      <lb ed="#L" n="49"/>faciunt ad intensionem aliquorum actuum, &amp; ad remissionem 
+      <lb ed="#L" n="50"/>aliorum. Et vtrumque est per accidens.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

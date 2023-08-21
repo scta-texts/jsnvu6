@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="287-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e236446"><!-- l4d15q5 -->
+            <head xml:id="jsnvu6-e236446-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e236446-Hd1e103" type="question-title">Utrum satisfactio debeat fieri per opera poenalia</head>
+            <p xml:id="jsnvu6-e236446-d1e106">
+               <lb ed="#L" n="57"/>QUAESTIO, QUINTA. 
+      <lb ed="#L" n="58"/>Vtrum satisfactio debeat fieri per opera poenalia. 
+      <lb ed="#L" n="59"/>Thom. 4. distinct. 159. 1. ad 4. 
+    </p>
+            <p xml:id="jsnvu6-e236446-d1e115">
+               <lb ed="#L" n="60"/>CIRCA lectionem istam quaeritur de partibus sa 
+      <lb ed="#L" n="61"/>tisfactionis. Et primo in generali vtrum 
+      satisfa<lb ed="#L" n="62" break="no"/>ctio debeat fieri per opera poenalia. Et arguitur 
+      <lb ed="#L" n="63"/>quod non: quia si poenalitas esset de ratione ope 
+      <lb ed="#L" n="64"/>ris satisfactorij quanto opus esset minus poenale, 
+      <lb ed="#L" n="65"/>tanto esset minus satisfactorium, sed quanto opus fit ex maiori 
+      <lb ed="#L" n="66"/>charitate, tanto est minus poenale, ergo quanto opus fieret ex 
+      <lb ed="#L" n="67"/>maiori charitate, tanto esset minus satisfactorium, hoc autem 
+      <lb ed="#L" n="68"/>est falsum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e236446-d1e137">
+               <lb ed="#L" n="69"/>
+               <!--2--> Item satisfactio quae fit Deo valet propter eius 
+      acceptatio<lb ed="#L" n="70" break="no"/>nem, &amp; non ex sola natura operis. Sed multa opera delectabilia 
+      <lb ed="#L" n="71"/>possunt esse Deo magis acceptata quam opera poenalia, ergo 
+      satis<lb ed="#L" n="72" break="no"/>factio potest fieri aeque bene, vel melius per opera delectabilia 
+      <lb ed="#L" n="73"/>quae possunt esse Deo magis acceptata quam opera poenalia. 
+</p>
+            <p xml:id="jsnvu6-e236446-d1e154">
+               <lb ed="#L" n="74"/>IN CONTRARIVM est quod dicit Greg. Iustum 
+      <lb ed="#L" n="75"/>est vt peccator tanto maiora inferat sibi lamenta per 
+      poeniten<lb ed="#L" n="76" break="no"/>tiam, quanto maiora intulit sibi damna per culpam.
+    </p>
+            <p xml:id="jsnvu6-e236446-d1e163">
+               <lb ed="#L" n="77"/>
+               <!--4--> RESPONSIO. Dicendum est quod satisfactio quam 
+      <lb ed="#L" n="78"/>homo potest Deo facere debet fieri per opera poenalia. Cuius 
+      <!--00647.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>ratio est, quia satisfactio (vt patet ex praedictis) est 
+      iecompen<lb ed="#L" n="80" break="no"/>satio offensae per emendam, sed talis recompensatio non potes 
+      <lb ed="#L" n="81"/>esse nisi per opera poenalia, ergo &amp;c. Probatio minoris: 
+      recom<lb ed="#L" n="82" break="no"/>pensatio enim importat quandam adaequationem inter illum qui 
+      <lb ed="#L" n="83"/>offendit &amp; illum in quem offensa commissa est, adaequatio autem in 
+      <lb ed="#L" n="84"/>iustitia fit per subtractionem ab illo qui plus iusto habuit, &amp; 
+      ad<lb ed="#L" n="85" break="no"/>ditionem ad alterum cui subtractum est aliquid: peccator aute 
+      <lb ed="#L" n="86"/>quantum in ipso est subtrahit Deo peccando non quidem aliquid 
+      <lb ed="#L" n="87"/>quod sit in Deo subiectiue, quia sic Deo nihil subtrahi potest, 
+      <lb ed="#L" n="88"/>sed obedientiam &amp; reuerentiam qua quilibet tenetur 
+      obtem<lb ed="#L" n="89" break="no"/>perare praeceptis diuinis, ergo ad hoc quod recompensatio fiat opo 
+      <lb ed="#L" n="90"/>tet quod per satisfactionem subtrahatur aliquid a peccante quod 
+      <lb ed="#L" n="91"/>in honorem Dei cedat. Opus autem malum non potest in 
+      hono<lb ed="#L" n="92" break="no"/>rem Dei cedere: opus vero bonum si fit delectabile nihil subtra 
+      <lb ed="#L" n="93"/>hit ab operante, sed magis perficit ipsum, ergo ad hoc quod aliquod 
+      <lb ed="#L" n="94"/>opus sit satisfactorium oportet quod sit bonum vt cedat ad 
+      hono<lb ed="#L" n="95" break="no"/>rem Dei, &amp; quod sit poenale. vt subtrahat aliquid peccatori. 
+      </p>
+            <p xml:id="jsnvu6-e236446-d1e213">
+               <lb ed="#L" n="96"/>
+               <!--5--> Et propter hoc assignantur tres partes satisfactionis, scilicet 
+      <lb ed="#L" n="97"/>ieiunium, eleemosyna, &amp; oratio, quarum sufficientia potest haber 
+      <lb ed="#L" n="98"/>hoc modo: satisfactio (vt dictum est) debet esse talis per quam 
+      <lb ed="#L" n="99"/>nobis subtrahatur aliquid quod fit ad honorem Dei, habemus 
+      au<lb ed="#L" n="100" break="no"/>tem tria bona in nobis, scilicet bona fortunae, bona corporis, &amp; 
+      <lb ed="#L" n="101"/>bona animae. Ex bonis fortunae subtrahimus nobis per 
+      eleemo<lb ed="#L" n="102" break="no"/>synam. Ex bonis corporis per ieiunium, ex bonis animae per 
+      ora<lb ed="#L" n="103" break="no"/>tionem submittendo Deo totaliter propriam voluntatem: ve 
+      <lb ed="#L" n="104"/>potest sumi distinctio istorum per comparationem ad illa a qui 
+      <lb ed="#L" n="105"/>bus homo curatur per satisfactionem. Quia per ieiunium 
+      cu<lb ed="#L" n="106" break="no"/>ratur homo a concupiscentia carnis, per eleemosynam a 
+      concu<lb ed="#L" n="107" break="no"/>piscentia oculorum quae est de rebus fortunae, per orationem a 
+      <lb ed="#L" n="108"/>superbia vitae: vel aliter homo debet bene ordinari ad Deum &amp; 
+      <lb ed="#L" n="109"/>ad seipsum, &amp; ad proximum: ordinatur autem bene per 
+      oratio<lb ed="#L" n="110" break="no"/>nem ad Deum, per eleemosynam ad proximum, per ieiunium ad 
+      <lb ed="#L" n="111"/>seipsum castigando corpus proprium, sub ieiunio autem 
+      compre<lb ed="#L" n="112" break="no"/>henditur quicquid pertinet ad afflictionem corporis, vt 
+      pere<lb ed="#L" n="113" break="no"/>grinationes, vigiliae, &amp; huiusmodi: sub eleemosyna autem omne 
+      <lb ed="#L" n="114"/>oblatum, vel collatum propter Deum. 
+      </p>
+            <p xml:id="jsnvu6-e236446-d1e259">
+               <lb ed="#L" n="115"/>
+               <!--6--> Ad primum argumentum dicendum quod aliquid est poenale 
+      <lb ed="#L" n="116"/>ex genere operis, &amp; tale quanto magis est poenale, tanto magis 
+      <lb ed="#L" n="117"/>satisfactorium suppositis aliis quae necessario requiruntur ad 
+      sa<lb ed="#L" n="118" break="no"/>tisfactionem, aliquid vero est poenale magis, vel minus ex dispo 
+      <lb ed="#L" n="119"/>sitione operantis. Et si dispositio alleuians poenalitatem sit 
+      bo<lb ed="#L" n="120" break="no"/>na, non minuit satisfactionem. Et ideo opus poenale quod 
+      alle<lb ed="#L" n="121" break="no"/>uiatur per charitatem non minuit satisfactione, sicut opus bonu 
+      <lb ed="#L" n="122"/>&amp; difficile procedens ex maiori virtute non minuit meritum. 
+      </p>
+            <p xml:id="jsnvu6-e236446-d1e281">
+               <lb ed="#L" n="123"/>
+               <!--7--> Ad secundum dicendum quod licet acceptatio diuiua 
+      re<lb ed="#L" n="124" break="no"/>quiratur tam ad meritum quam ad satisfactionem, tamen ipsa 
+      <lb ed="#L" n="125"/>praesupponit in vtroque bonitatem operis: &amp; in satisfactione 
+      <lb ed="#L" n="126"/>specialiter poenalitatem propter causam assignatam in 
+      corpo<lb ed="#L" n="127" break="no"/>re solutionis, ergo &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

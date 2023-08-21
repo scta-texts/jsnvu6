@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="353-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e290974"><!-- l4d48prae -->
+            <head xml:id="jsnvu6-e290974-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e290974-d1e103">
+               <lb ed="#L" n="36"/>Sententia huius distinctionis XLVIII. in 
+      <lb ed="#L" n="37"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e290974-d1e110">
+               <lb ed="#L" n="38"/>SOLET etiam quaeri. In praecedentibus 
+      deter<lb ed="#L" n="39" break="no"/>minauit de iudicij modo. Hic determinat de 
+      iu<lb ed="#L" n="40" break="no"/>dicantis persona, Et diuiditur in tres. Primo 
+      <lb ed="#L" n="41"/>lenim determinat de iudicantis persona. 
+      Secun<lb ed="#L" n="42" break="no"/>ido de iudicij loco ibi, putant quidam. Tertio de 
+      <lb ed="#L" n="43"/>Audicij circunstantiis ibi, veniente autem. Circa 
+      <lb ed="#L" n="44"/>primum tria facit. Primo enim inquirit formam. Secundo qua 
+      <lb ed="#L" n="45"/>litatem ibi, sed cum in forma. Tertio proposita declarat per 
+      si<lb ed="#L" n="46" break="no"/>militudinem ibi, &amp; sicut dicitur. Secunda pars in qua 
+      determi<lb ed="#L" n="47" break="no"/>nat de circunstantiis iudicij habet tres. Primo enim determinat 
+      <lb ed="#L" n="48"/>de praesentia iudicis. Secundo de praecedentibus. Tertio de 
+      se<lb ed="#L" n="49" break="no"/>quentibus. Prima ibi, veniente autem. Secunda, ante diem. 
+      Ter<lb ed="#L" n="50" break="no"/>tia, cum autem fuerit. 
+      </p>
+            <p xml:id="jsnvu6-e290974-d1e141">
+               <lb ed="#L" n="51"/>
+               <!--2.--> PROPONIT ergo magister quod Christus secundum 
+      <lb ed="#L" n="52"/>formam hominis iudicabit, quia deitas a malis videri non potest 
+      <lb ed="#L" n="53"/>ideo iudicabit in forma gloriosa, in qua a malis &amp; bonis 
+      videbi<lb ed="#L" n="54" break="no"/>tur, iudicabit autem virtute diuinitatis vnitae, sicut &amp; corpora 
+      resu<lb ed="#L" n="55" break="no"/>scitabuntur virtute diuinitatis, mediante tamen humanitate, iu 
+      <lb ed="#L" n="56"/>dicabit in valle Iosaphat, quia in spacioso loco illius aeris 
+      sede<lb ed="#L" n="57" break="no"/>bit, vel quia ad literam ibi, cum multis deceptabit. Deinde subdi 
+      <lb ed="#L" n="58"/>quod in iudicio sol &amp; luna dicuntur obscurari propter claritati 
+      <lb ed="#L" n="59"/>iudicis superuenientem, &amp; virtutes coelorum moueri ex admiratio 
+      <lb ed="#L" n="60"/>ne visorum, post iudicium vero maiorem claritatem recipient 
+      <lb ed="#L" n="61"/>sicut enim per peccatum hominis sunt omnia deteriorata, sicut 
+      <lb ed="#L" n="62"/>econtrario post reparationem meliorabuntur, &amp; si aliquae 
+      aucto<lb ed="#L" n="63" break="no"/>ritates dicant solem &amp; lunam cessare, intelligendum est quanti 
+      <lb ed="#L" n="64"/>ad motum, &amp; quia beati eorum lumine non indigebunt, &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="184-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e151183"><!-- l3d1q5 -->
+            <head xml:id="jsnvu6-e151183-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e151183-Hd1e103" type="question-title">Utrum natura humana possit subsistere in alieno 
+      supposito creato angelico vel alio</head>
+            <p xml:id="jsnvu6-e151183-d1e106">
+               <lb ed="#L" n="12"/>QVAESTIO, QUINTA. 
+      <lb ed="#L" n="13"/>Vtrum natura humana possit subsistere in alieno 
+      <lb ed="#L" n="14"/>supposito creato angelico vel alio. 
+      <lb ed="#L" n="15"/>Caiet. 3. p. 9. 3. ar. 1. ad secundum. 
+    </p>
+            <p xml:id="jsnvu6-e151183-d1e117">
+               <lb ed="#L" n="16"/>QVINTO quaeritur, vtrum natura humana possi 
+      <lb ed="#L" n="17"/>subsistere in alieno supposito creato, puta angeli 
+      <lb ed="#L" n="18"/>co, vel aliquo alio. Et arguitur quod sic, quia 
+      fa<lb ed="#L" n="19" break="no"/>cilius vniuntur media quam extrema, sed in toto 
+      <lb ed="#L" n="20"/>vniuerso suprema natura est natura diuina, infima 
+      <lb ed="#L" n="21"/>vero est creatura irrationalis quae possunt secundum solenniores 
+      <lb ed="#L" n="22"/>doctores in eodem supposito vniri, quia persona diuina posset 
+      as<lb ed="#L" n="23" break="no"/>sumere creaturam irrationalem, ergo multo fortius (vt videtur 
+      <lb ed="#L" n="24"/>duae creaturae rationales, puta angelica &amp; humana quae sunt 
+      me<lb ed="#L" n="25" break="no"/>diae inter praedicta extrema possunt vniri in eodem supposito 
+      </p>
+            <p xml:id="jsnvu6-e151183-d1e141">
+               <lb ed="#L" n="26"/>
+               <!--2--> Item potissima ratio quae assignatur quod illud non possi 
+      <lb ed="#L" n="27"/>fieri, est quia assumens debet continere formaliter vel virtualite 
+      <lb ed="#L" n="28"/>omnem perfectionem naturae assumptibilis &amp; suppositi propri 
+      <lb ed="#L" n="29"/>cuius vicem supplet, sed nullum suppositum creatum continei 
+      <lb ed="#L" n="30"/>perfectionem alterius naturae, nec suppositi nati per ipsam 
+      con<lb ed="#L" n="31" break="no"/>stitui, ergo &amp;c. Haec autem ratio non valet, ergo multominus 
+      <lb ed="#L" n="32"/>quaecunque alia, cum haec inter omnes sit potissima. Quod autem 
+      <lb ed="#L" n="33"/>non valeat probatur sic: persona diuina assumpsit naturam huma 
+      <lb ed="#L" n="34"/>nam sicut tenet veritas fidei, sed non assumpsit propter aliquam 
+      <lb ed="#L" n="35"/>dictarum causarum saltem vt terminus assumptionis, ergo &amp;c. Mino 
+      <lb ed="#L" n="36"/>probatur, quia persona diuina est terminus vel extremum 
+      assum<lb ed="#L" n="37" break="no"/>ptionis ratione proprietatis particularis, &amp; non ratione 
+      essen<lb ed="#L" n="38" break="no"/>tiae, alioquin vna persona assumente, omnes assumerent, sed 
+      pro<lb ed="#L" n="39" break="no"/>prietas personalis non continet aliquam perfectionem, nec formali 
+      <lb ed="#L" n="40"/>ter nec virtualiter, alioquin in qualibet persona diuina non esse 
+      <lb ed="#L" n="41"/>omnis perfectio formalis vel virtualis, quod falsum est, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-e151183-d1e181">
+               <lb ed="#L" n="42"/>
+               <!--3--> Item perfectio formalis quae est perfectio simpliciter est 
+      sem<lb ed="#L" n="43" break="no"/>per in creatura superiore respectu inferioris, si ergo illa 
+      suffice<lb ed="#L" n="44" break="no"/>ret tunc creatura superior posset inferiorem assumere, puta ange 
+      <lb ed="#L" n="45"/>lica humanam, &amp; sic haberetur propositum. perfectio vero 
+      virtuali<lb ed="#L" n="46" break="no"/>reducitur ad aliquod genus causae, sed omnis causalitas 
+      diuin<lb ed="#L" n="47" break="no"/>est communis omnibus personis diuinis: quod autem est eis 
+      commun<lb ed="#L" n="48" break="no"/>non requiritur ad terminum vel extremum vnionis, cum vnic 
+      <lb ed="#L" n="49"/>possit fieri, &amp; iam facta sit; sic cum vna persona quod non cum 
+      om<lb ed="#L" n="50" break="no"/>nibus, ergo illa ratio quae assignat pro causa omnimodam perfe 
+      <lb ed="#L" n="51"/>ctionem essentialem, vel virtualem in persona assumente 
+      nul<lb ed="#L" n="52" break="no"/>la est, quare nec quaecunque alia cum illa reputetur potissima. 
+      </p>
+            <p xml:id="jsnvu6-e151183-d1e210">
+               <lb ed="#L" n="53"/>
+               <!--4--> IN CONTRARIVM arguitur, quia principium 
+      <lb ed="#L" n="54"/>actionis &amp; terminus sibi inuicem correspondent, sed principium 
+      <lb ed="#L" n="55"/>agens ad vnionem naturae valentem constituere proprium 
+      sup<lb ed="#L" n="56" break="no"/>positum cum alieno supposito non potest esse, nisi suppositum 
+      <lb ed="#L" n="57"/>diuinum, ergo cum talis vnio secundum doctores terminetur ac 
+      <lb ed="#L" n="58"/>suppositum illud non poterit esse nisi diuinum. 
+      </p>
+            <p xml:id="jsnvu6-e151183-d1e228">
+               <lb ed="#L" n="59"/>
+               <!--5--> RESPONSIO. Dicendum est quod inter naturas 
+      creata<lb ed="#L" n="60" break="no"/>natas constituere suppositum est magna diuersitas, est enim quaedam 
+      <lb ed="#L" n="61"/>quae sibi derelicta constituit suppositum, &amp; tamen nata est esse pari 
+      <lb ed="#L" n="62"/>alterius naturae perfectioris, alterius dico, non secundum speciem 
+      <lb ed="#L" n="63"/>sed secundum numerum, vt in homogeneis, quaelibet enim aqua 
+      <lb ed="#L" n="64"/>per se sumpta est quoddam suppositum aquae, &amp; tamen nata est vniri 
+      <lb ed="#L" n="65"/>alteri per continuationem ex quibus sic coniunctis fit vna aqua qua 
+      <lb ed="#L" n="66"/>se habet ad priores sicut totum ad partes. Alia est quae sibi 
+      dereli<lb ed="#L" n="67" break="no"/>cta constituit proprium suppositum, nec est nata esse pars alterius na 
+      <lb ed="#L" n="68"/>turae, sicut humana natura, &amp; natura animalium perfectorum: tunc 
+      <lb ed="#L" n="69"/>ad propositum dicendum quod natura nata primo modo constituere 
+      <lb ed="#L" n="70"/>suppositum potest existere virtute naturae in alieno supposito, quod 
+      <lb ed="#L" n="71"/>no est alienum secundum speciem, sed solum secundum numerum, 
+      no<lb ed="#L" n="72" break="no"/>totaliter, sed secundum quid (hoc est secundum partem) quod pate 
+      <lb ed="#L" n="73"/>sic. Natura quae sibi derelicta nata est constituere proprium sup. 
+      <lb ed="#L" n="74"/>positum, &amp; nihilominus nata est esse pars naturae perfectioris sup. 
+      <lb ed="#L" n="75"/>positum constituentis potest subsistere in alieno supposito quoac 
+      <lb ed="#L" n="76"/>aliquid saltem quoad partem, sed tales sunt multae naturae creata 
+      <lb ed="#L" n="77"/>(videlicet corpora simplicia &amp; omnia mixta homogenea, salten 
+      <lb ed="#L" n="78"/>humida) quare &amp;c. Per hunc modum ramus praecisus ab arbore sibi 
+      <lb ed="#L" n="79"/>derelictus constituit proprium suppositum, &amp; tamen insitus alteri ar¬ 
+      <!--00442.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>bori eiusdem speciei efficitur vnum continuitate cum ipso, &amp; subsi stit 
+      <lb ed="#L" n="81"/>in eodem supposito. Dico autem si vniatur arbori eiusdem speciei 
+      <lb ed="#L" n="82"/>quia si esset alterius speciei non efficeretur vna natura, nec vnum 
+      <lb ed="#L" n="83"/>suppositum, alioquin vnum indiuiduum vel vnum suppositum 
+      pos<lb ed="#L" n="84" break="no"/>set esse duplici specie quod est impossibile secundum naturam 
+      </p>
+            <p xml:id="jsnvu6-e151183-d1e293">
+               <lb ed="#L" n="85"/>
+               <!--6.--> De natura autem humana, &amp; de qualibet alia sic perfecta( 
+      <lb ed="#L" n="86"/>non est nata esse pars alterius narurae aliud est iudicium. talis enim 
+      <lb ed="#L" n="87"/>vt mihi videtur ad praesens &amp; absque praeiudicio sententiae 
+      sa<lb ed="#L" n="88" break="no"/>nioris nulla virtute potest existere in alieno supposito creato, 
+      <lb ed="#L" n="89"/>sed solum in diuino. quod enim illud non possit fieri virtute crea 
+      <lb ed="#L" n="90"/>ta patet, quia generales modos essendi* consequentes per se to 
+      <lb ed="#L" n="91"/>tam naturam entis creati non potest aliqua virtus creata mutate, 
+      <lb ed="#L" n="92"/>sed esse in se, &amp; esse in alio sunt generales modi essendi, per se con ( 
+      <lb ed="#L" n="93"/>sequentes totam naturam entis creati (saltem absoluti) quod solum 
+      <lb ed="#L" n="94"/>proprie dicitur ens, ergo nulla virtus creata potest hos modos 
+      <lb ed="#L" n="95"/>essendi mutare circa res quibus conueniunt salua eorum natura 
+      <lb ed="#L" n="96"/>Natura autem humana &amp; quaecunque consimilis naturaliter es 
+      <lb ed="#L" n="97"/>per se subsistens, &amp; in proprio supposito, nec est apta nata esse 
+      <lb ed="#L" n="98"/>perfectioris naturae constituens suppositum. propter quod 
+      null<lb ed="#L" n="99" break="no"/>virtute creata fieri potest quod ipsa existat in alieno supposito, 
+      <lb ed="#L" n="100"/>nec credo quod aliquis vnquam oppositum senserit. 
+      </p>
+            <p xml:id="jsnvu6-e151183-d1e332">
+               <lb ed="#L" n="101"/>
+               <!--7--> Quod etiam virtute diuina non possit fieri quod ipsa 
+      subsi<lb ed="#L" n="102" break="no"/>stat in alieno supposito creato patet, quia suppositum sustentans 
+      <lb ed="#L" n="103"/>alienam naturam habet talem &amp; tam perfectam subsistentiam 
+      <lb ed="#L" n="104"/>quod potest per eam terminare depedentiam illius naturae, sed 
+      <lb ed="#L" n="105"/>nullum suppositum creatum potest habere talem &amp; tam 
+      perfe<lb ed="#L" n="106" break="no"/>ctam subsistentiam quacunque virtute, quare &amp;c. Maior de se 
+      pa<lb ed="#L" n="107" break="no"/>tet. Minor probatur: quia dependentiam supernaturalem non 
+      po<lb ed="#L" n="108" break="no"/>test terminare nisi subsistentia supernaturalis, sed nullum 
+      supposi<lb ed="#L" n="109" break="no"/>tum creatum potest habere subsistentiam supernaturalem, quare 
+      <lb ed="#L" n="110"/>&amp;c. Adhuc minor huius rationis probatur sic, subsistentia quam 
+      <lb ed="#L" n="111"/>habet quodlibet suppositum creatum, vel est ex principiis suae 
+      na<lb ed="#L" n="112" break="no"/>turae, aut ex aliquo superaddito, si primo modo, tunc est naturalis 
+      <lb ed="#L" n="113"/>si secundo modo contra, uihil dependens potest alteri dare 
+      sub<lb ed="#L" n="114" break="no"/>sistentiam, sed omne quod potest superaddi naturae suppositi 
+      <lb ed="#L" n="115"/>creati est per se dependens, quia est aliquod accidens ei inhaerens, 
+      <lb ed="#L" n="116"/>ergo per nullum tale potest suppositum creatum habere 
+      subsi<lb ed="#L" n="117" break="no"/>stentiam, &amp; haec fuit minor. sequitur ergo conclusio. 
+      </p>
+            <p xml:id="jsnvu6-e151183-d1e374">
+               <lb ed="#L" n="118"/>
+               <!--8.--> Item sicut plura corpora repugnant sibi in eodem loco 
+      na<lb ed="#L" n="119" break="no"/>turaliter, ita plures naturae natae constituere propria supposita 
+      <lb ed="#L" n="120"/>repugnant sibi in eodem supposito naturaliter, sed si virtute 
+      diui<lb ed="#L" n="121" break="no"/>na fiat quod plura corpora sint in eodem loco, eadem virtute potes 
+      <lb ed="#L" n="122"/>fieri quod infinita corpora si essent, essent simul in eodem loco 
+      <lb ed="#L" n="123"/>ita quod ex parte loci nulla esset repugnantia, ergo consimilite 
+      <lb ed="#L" n="124"/>si virtute diuina potest fieri quod plures tales naturae sint in eo 
+      <lb ed="#L" n="125"/>dem supposito, eadem virtute possit fieri quod &amp; infinitae, ita quod 
+      <lb ed="#L" n="126"/>ex parte suppositi nulla esset repugnantia, hoc autem non potes 
+      <lb ed="#L" n="127"/>conuenire supposito creato, quia dependentiam infinitam, seu 
+      <lb ed="#L" n="128"/>infinitorum non potest terminare nisi subsistentia infinita qua 
+      <lb ed="#L" n="129"/>supposito creato non potest competere, quare &amp;c. Et 
+      confirma<lb ed="#L" n="130" break="no"/>tur per dictum commune, quia secundum omnes doctores sicut 
+      <lb ed="#L" n="131"/>persona diuina assumpsit naturam humanam, ita cum ea posse 
+      <lb ed="#L" n="132"/>quantum est ex parte personae assumentis infinitas assumere. 
+      </p>
+            <p xml:id="jsnvu6-e151183-d1e412">
+               <lb ed="#L" n="133"/>
+               <!--9--> AD PRIMVM argumentum in oppositum dicendum 
+      <lb ed="#L" n="134"/>quod possibilitas vnionis plurium naturarum in eodem 
+      suppo<lb ed="#L" n="135" break="no"/>sito non est secundum maiorem conuenientiam in natura cum 
+      <lb ed="#L" n="136"/>videamus quod materia &amp; forma, substantia &amp; accidens 
+      concur<lb ed="#L" n="137" break="no"/>rant in vnum suppositum naturaliter, non autem duae materiae, 
+      <lb ed="#L" n="138"/>nec duae formae, nec duae substantiae completae, sed secundum 
+      pro<lb ed="#L" n="139" break="no"/>portionem dependentiae &amp; subsistentiae terminantis dependentiam, 
+      <lb ed="#L" n="140"/>Et quia in supposito diuino est subsistentia nata terminare omne 
+      <lb ed="#L" n="141"/>dependentiam supernaturalem, non autem in supposito creato 
+      <lb ed="#L" n="142"/>propter rationes prius dictas. Ideo creatura quaecunque potest 
+      <lb ed="#L" n="143"/>existere in supposito diuino, non autem in creato nisi in proprio 
+      </p>
+            <p xml:id="jsnvu6-e151183-d1e441">
+               <lb ed="#L" n="144"/>
+               <!--10--> Ad secundum cum dicitur quod persona diuina non est 
+      ter<lb ed="#L" n="145" break="no"/>minus vel extremum assumptionis ratione essentiae, sed ratione 
+      <lb ed="#L" n="146"/>proprietatis personalis quae non importat formaliter aliquan 
+      <lb ed="#L" n="147"/>perfectionem. Dicendum quod non est verum, nam sicut patuit 
+      <lb ed="#L" n="148"/>in praecedenti quaestione, prima ratio vnionis naturae humanae 
+      <lb ed="#L" n="149"/>cum persona diuina est per se subsistentia personae diuinae per 
+      <lb ed="#L" n="150"/>quam potest terminare dependentiam naturae assumptae, illam 
+      <lb ed="#L" n="151"/>autem per se subsistentiam habet ratione naturae, vel essentiae, &amp; 
+      <lb ed="#L" n="152"/>non ratione proprietatis personalis (vt probatum fuit) essentia 
+      <lb ed="#L" n="153"/>autem diuina continet omnem perfectionem naturae 
+      cuiuscun<lb ed="#L" n="154" break="no"/>que, &amp; cuiuslibet subsistentiae suppositalis propter quod 
+      instan<lb ed="#L" n="155" break="no"/>tia contra maiorem illius rationis non est bona. 12.gin. 
+      </p>
+            <p xml:id="jsnvu6-e151183-d1e472">
+               <lb ed="#L" n="156"/>
+               <!--11.--> Quod autem dicitur contra minorem quod perfectio forma 
+      <lb ed="#L" n="157"/>lis quae est perfectio simpliciter est tota in creatura superiore 
+      <lb ed="#L" n="158"/>respectu inferioris, verum est de perfectione naturae, non autem de 
+      <lb ed="#L" n="159"/>perfectione subsistentiae suppositalis. Haec enim est aeque 
+      parfe<lb ed="#L" n="160" break="no"/>cta in creatura inferiore sicut in creatura superiore, sicut e con 
+      <lb ed="#L" n="161"/>trario imperfectio dependentiae est tanta in accidente su perioris 
+      <!--00443.xml-->
+      <pb ed="#L" n="185-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>naturae puta in intelligere sicut in accidente inferioris naturae 
+      <lb ed="#L" n="2"/>puta in albedine, propter quod cum ratio terminandi 
+      depen<lb ed="#L" n="3" break="no"/>dentiam naturae assumptibilis sit per se subsistentia assumentis, 
+      <lb ed="#L" n="4"/>&amp; haec non est potior in natura creata superiore quam inferiore, 
+      <lb ed="#L" n="5"/>nec eam formaliter vel virtualiter continet sicut nec econuerso. 
+      <lb ed="#L" n="6"/>Ideo vna non potest substantiari in alia. Quod vero additur 
+      <lb ed="#L" n="7"/>quod perfectio virtualis reducitur ad aliquod genus causae, &amp; c 
+      <lb ed="#L" n="8"/>omnis causalitas communis est omnibus personis, concedatur. 
+      <lb ed="#L" n="9"/>Et cum dicitur quod illud quod est commune non requiritur 
+      <lb ed="#L" n="10"/>ad terminum vel extremum vnionis. Dicendum quod falsum 
+      <lb ed="#L" n="11"/>est, sed in illo non completur sed in proprio, ratione cuius fit vnio 
+      <lb ed="#L" n="12"/>cum vna persona, &amp; non cum omnibus quantum ad personalitatem 
+      </p>
+            <p xml:id="jsnvu6-e151183-d1e522">
+               <lb ed="#L" n="13"/>
+               <!--12--> ARGVMENTVM alterius partis quamuis sit ad 
+      con<lb ed="#L" n="14" break="no"/>clusionem nostram tamen multipliciter deficit. Primo quia 
+      prin<lb ed="#L" n="15" break="no"/>cipium actionis &amp; terminus non sic correspondent quod idem 
+      <lb ed="#L" n="16"/>numero, vel specie sit principium &amp; terminus nisi in 
+      actio<lb ed="#L" n="17" break="no"/>ne yniuoca quae nunquam est Dei respectu creaturae, sicut est 
+      <lb ed="#L" n="18"/>illa de qua quaeritur. Secundo, quia principium talis actionis est 
+      <lb ed="#L" n="19"/>tota trinitas secundum illud quod est commune cuilibet 
+      per<lb ed="#L" n="20" break="no"/>sonae, &amp; ideo si argumentum procederet concluderetur quod 
+      <lb ed="#L" n="21"/>non posset fieri vnio naturae assumptibilis nisi cum tota 
+      trini<lb ed="#L" n="22" break="no"/>tate. Tertio, quia terminus assumptionis non est suppositum, 
+      <lb ed="#L" n="23"/>sed esse vnitum vel ipsa vnio, quia terminus actionis non 
+      prae<lb ed="#L" n="24" break="no"/>cedit actionem, sed sequitur cum per eam acquiratur, 
+      supposi<lb ed="#L" n="25" break="no"/>tum autem cui fit vnio praecedit actionem assumptionis, ideo &amp;c 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

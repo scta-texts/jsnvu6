@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="118-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2526"><!-- l2d3q6 -->
+            <head xml:id="jsnvu6-d1e2526-Hd1e101">Quaestio 6</head>
+            <head xml:id="jsnvu6-d1e2526-Hd1e103" type="question-title">Utrum angeli cognoscant per species an per suam essentiam</head>
+            <p xml:id="jsnvu6-d1e2526-d1e106">
+               <lb ed="#L" n="57"/>Y.Io. 21114. 
+      <lb ed="#L" n="58"/>Utrum angeli cognoscant res per suam 
+      essen<lb ed="#L" n="59" break="no"/>tiam, vel per species. 
+      <lb ed="#L" n="60"/>Tho. l. q. 55. art. 1. &amp; 2. 
+    </p>
+            <p xml:id="jsnvu6-d1e2526-d1e117">
+               <lb ed="#L" n="61"/>DEECVMDVM sic proceditur. Et arguitur 
+      <lb ed="#L" n="62"/>quod angeli intelligant per species, &amp; non pe 
+      <lb ed="#L" n="63"/>luam essentiam, quia cognitio angeli se 
+      ex<lb ed="#L" n="64" break="no"/>tendit ad omnia quae sunt, sed essentia angel 
+      <lb ed="#L" n="65"/>quum sit limitata ad certum genus &amp; ad cert. 
+      <lb ed="#L" n="66"/>speciem non potest omnes res repraesentare, ergo angelus nor 
+      <lb ed="#L" n="67"/>intelligit per essentiam suam. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e135">
+               <lb ed="#L" n="68"/>
+               <!--2--> Item i angelus intelligeret per suam essentiam, sequeretu 
+      <lb ed="#L" n="69"/>quod semper &amp; actu cognosceret omnia, videlicet se, &amp; alia 
+      <lb ed="#L" n="70"/>consequens est falsum, ergo &amp; antecedens. Probatio 
+      conseque<lb ed="#L" n="71" break="no"/>tiae, quia si essentia angeli esset ei ratio repraesentans alia, quum 
+      <lb ed="#L" n="72"/>angelus semper, &amp; actu cognosceret omnia alia quae per suan 
+      <lb ed="#L" n="73"/>essentiam repraesentarentur ei, &amp; sic patet consequentia. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e154">
+               <lb ed="#L" n="74"/>
+               <!--3--> Item decima propositione de causis dicitur, quod omnis 
+      in<lb ed="#L" n="75" break="no"/>telligentia plena est formis, sed illas formas vocamus species, 
+      er<lb ed="#L" n="76" break="no"/>go angeli intelligunt per species, non ergo per suam essentiam. 
+      <!--00304.xml-->
+      <cb ed="#L" n="b"/>
+            </p>
+            <p xml:id="jsnvu6-d1e2526-d1e170">
+               <lb ed="#L" n="77"/>
+               <!--4.--> Item Dionysius dicit quod angeli illuminantur rationibus 
+      <lb ed="#L" n="78"/>rerum, ergo cognoscunt res per rationes earum, &amp; non 
+      pe<lb ed="#L" n="79" break="no"/>suam essentiam 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e181">
+               <lb ed="#L" n="80"/>
+               <!--5--> IN CONTRARIVM arguitur, quia non minornis 
+      <lb ed="#L" n="81"/>perfectionis est intelligere, quam intelligibilia repraesentare, sed 
+      <lb ed="#L" n="82"/>essentia angeli quamuis sit finita, potest omnia intelligibilia 
+      <lb ed="#L" n="83"/>intelligere, ergo potest ea repraesentare, non obstante quod 
+      ip<lb ed="#L" n="84" break="no"/>sa sit finita, sed propter aliud non negatur quod angelus non 
+      <lb ed="#L" n="85"/>intelligat alia per suam essentiam, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e199">
+               <lb ed="#L" n="86"/>
+               <!--6--> RESPONSIO. Haec praepositio (per) potest denotar. 
+      <lb ed="#L" n="87"/>vel principium intellectiuum, sicut dicimus quod homo 
+      intelli<lb ed="#L" n="88" break="no"/>git per intellectum, vel illud quod est subiecti repraesentatiuum, 
+      <lb ed="#L" n="89"/>sicut dicimus quod homo intelligit causam per effectum. 
+      pri<lb ed="#L" n="90" break="no"/>mum tenet se ex parte intelligentis, &amp; secundum ex parte 
+      in<lb ed="#L" n="91" break="no"/>telligibilis. Primo modo quaestio soluta est in praecedente arti 
+      <lb ed="#L" n="92"/>culo, vbi ostensum est quod intellectus angeli est sua substantia, &amp; 
+      <lb ed="#L" n="93"/>sic angelus intelligit quicquid intelligit per suam substantiam 
+      <lb ed="#L" n="94"/>tanquam per principium intellectiuum, &amp; ideo quaestio solum 
+      <lb ed="#L" n="95"/>est dubia secundo modo, videlicet vtrum angelus intelligat 
+      <lb ed="#L" n="96"/>omnia per suam essentiam, tanquam per repraesentatiuum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e228">
+               <lb ed="#L" n="97"/>
+               <!--7--> Circa quod est aduertendum quod angelus cognoscit se &amp; 
+      <lb ed="#L" n="98"/>alia a se. Sed cognoscendo se, seu suam essentiam non indiget 
+      <lb ed="#L" n="99"/>alio repraesentatiuo, sed immediate cognoscit se per se, seu per 
+      <lb ed="#L" n="100"/>suam essentiam. Cuius ratio est, quia per hoc fit intelligere in 
+      <lb ed="#L" n="101"/>nobis, &amp; in quibuscunque aliis, quod intelligibile est praesens 
+      <lb ed="#L" n="102"/>intellectui, nihil autem est adeo praesens intellectui angelico, si 
+      <lb ed="#L" n="103"/>cut sua essentia, ergo angelus intelligit se per suam essentiam. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e248">
+               <lb ed="#L" n="104"/>
+               <!--8--> Et si dicatur quod eodem modo concludit ratio de 
+      intelle<lb ed="#L" n="105" break="no"/>ctu nostro quod intelligat se per suam essentiam. quia est sibiipsi 
+      <lb ed="#L" n="106"/>praesens. Dicendum quod non, quia obiectum primo 
+      proportio<lb ed="#L" n="107" break="no"/>natum nostro intellectui est aliquid prius sensatum, quia 
+      intel<lb ed="#L" n="108" break="no"/>lectus noster est cum sensu, propter quod intellectus noster (
+      li<lb ed="#L" n="109" break="no"/>cet sit sibi praesens) non tamen in ratione primi intelligibilis ab 
+      <lb ed="#L" n="110"/>eo, quia non est aliquid quod cadere possit sub sensu. Sed 
+      intel<lb ed="#L" n="111" break="no"/>lectus angelicus, qui a sensu non dependet, statim apprehendit 
+      <lb ed="#L" n="112"/>omne intelligibile sibi praesens. Essentia autem angeli secundum 
+      <lb ed="#L" n="113"/>se est intelligibilis, ideo &amp;c. Et in hoc consentiunt tam 
+      theolo<lb ed="#L" n="114" break="no"/>gi, quam philosophi. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e278">
+               <lb ed="#L" n="115"/>
+               <!--9--> De aliis autem ab angelo qualiter intelligantur per ipsum. 
+      <lb ed="#L" n="116"/>Est aduertendum quod si opinio Auicennae esset vera videlicet 
+      <lb ed="#L" n="117"/>quod prima causa creauit intelligentiam sibi proximam &amp; 
+      im<lb ed="#L" n="118" break="no"/>mediatam, &amp; haec aliam, &amp; sic vsque ad infimam quae creauit 
+      coe<lb ed="#L" n="119" break="no"/>lum, &amp; mediante coelo omnia inferiora, sic posset dici quod 
+      qui<lb ed="#L" n="120" break="no"/>libet angelus cognoscit omnia per suam essentiam, sicut &amp; causa 
+      <lb ed="#L" n="121"/>prima, quia sicut causa prima ratione suae causalitatis repraesen 
+      <lb ed="#L" n="122"/>tat sufficienter omnia (vt dictum fuit libro primo) Sic quaelibet 
+      <lb ed="#L" n="123"/>infelligentia repraesentat sufficienter omnia quae sub ipsa essent, 
+      <lb ed="#L" n="124"/>quia esset causa eorum, &amp; omnia quia essent supra ipsam quae 
+      <lb ed="#L" n="125"/>esset causata ab eis, &amp; hanc viam tenet author de causis, qui 
+      <lb ed="#L" n="126"/>dicit octaua propositione quod omnis intelligentia scit id 
+      <lb ed="#L" n="127"/>quod est sub se, &amp; illud quod est supra se, veruntamen scit illud 
+      <lb ed="#L" n="128"/>quod est sub se, quoniam est causa eius. Et scit quod est supra se, 
+      <lb ed="#L" n="129"/>quia acquirit bonitates ab eo. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e315">
+               <lb ed="#L" n="130"/>
+               <!--9--> Sed quia haec opinio non est consona veritati, nec fidei: 
+      id<lb ed="#L" n="131" break="no"/>circo quaestio maiorem habet dubitationem. De qua quidam 
+      <lb ed="#L" n="132"/>alij dicunt quod angelus intelligit alia a se per species, non qui 
+      <lb ed="#L" n="133"/>dem a rebus acceptas, sed concreatas, seu a deo influxas, quae 
+      re<lb ed="#L" n="134" break="no"/>praesentant intellectui angelico alias res tam spirituales quam 
+      <lb ed="#L" n="135"/>corporales, &amp; rationes istorum tactae sunt in arguendo ad 
+      <lb ed="#L" n="136"/>quaestionem. Istae autem species originaliter introductae 
+      vi<lb ed="#L" n="137" break="no"/>dentur esse propter sensum visus, &amp; sensibilia illius sensus. 
+      Co<lb ed="#L" n="138" break="no"/>lor enim videtur facere speciem suam in medio, &amp; in organo 
+      si<lb ed="#L" n="139" break="no"/>cut sensibiliter apparet in refractione, quae est in speculo. nisi 
+      <lb ed="#L" n="140"/>enim istud fuisset forsitan nunquam fuisset facta mentio de spe 
+      <lb ed="#L" n="141"/>ciebus requisitis ad cognitionem. Sed quia quidam credunt 
+      <lb ed="#L" n="142"/>quod species coloris in oculo repraesentat visui colorem, cuius 
+      <lb ed="#L" n="143"/>est species, ideo ponunt tam in intellectu nostro, quam 
+      angeli<lb ed="#L" n="144" break="no"/>co quasdam species ad repraesentandum res, vt cognoscantur 
+      <lb ed="#L" n="145"/>tam a nobis quam ab angelis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e354">
+               <lb ed="#L" n="146"/>
+               <!--10.--> Hoc autem non reputo verum esse, nec in sensu, nec in 
+      in<lb ed="#L" n="147" break="no"/>tellectu nostro, nec in angelico. Et quod non sit ponere speciem in 
+      <lb ed="#L" n="148"/>sensu, puta in visu ad repraesentandum visui colorem vt 
+      videa<lb ed="#L" n="149" break="no"/>tur, patet sic, omne illud per quod tanquam per repraesentatiui 
+      <lb ed="#L" n="150"/>potentia cognitiua fertur in alterum est primo cognitum. Sed 
+      spe<lb ed="#L" n="151" break="no"/>cies coloris in oculo non est primo cognita, seu visa ab ipso, ime 
+      <lb ed="#L" n="152"/>nullo modo est visa ab eo, ergo per ipsam tanquam per reprae 
+      <lb ed="#L" n="153"/>sentatiuum, visus, non fertur in aliquid aliud. Probatio maioris 
+      <lb ed="#L" n="154"/>quia quicquid se habet obiectiue ad potentiam cognitiuam 
+      <lb ed="#L" n="155"/>vt est cognitiua, est ab ea cognoscibile seu cognitum. Sed omne 
+      <lb ed="#L" n="156"/>quod repraesentat aliquid potentiae cognitiuae se habet ad eam 
+      <lb ed="#L" n="157"/>obiectiue (supplet enim vicem rei quam repraesentat, quae si 
+      <lb ed="#L" n="158"/>secundum se praesens esset, haberet se obiectiue ad potentiam 
+      <!--00305.xml-->
+      <pb ed="#L" n="119-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cognitiuam (ergo omne tale est cognoscibile vel cognitum. Et 
+      <lb ed="#L" n="2"/>cum ducat in cognitionem alterius est prius eo cognitum tem 
+      <lb ed="#L" n="3"/>pore, vel natura. Et haec fuit maior, minor de se manifesta est 
+      <lb ed="#L" n="4"/>Species enim coloris existens in oculo nullo modo videtur, 
+      ne<lb ed="#L" n="5" break="no"/>videri potest ab ipso sicut quilibet experitur, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e404">
+               <lb ed="#L" n="6"/>
+               <!--11--> Item talis species si duceret in cognitionem alterius hoc 
+      face<lb ed="#L" n="7" break="no"/>ret ratione similitudinis. Vnde communiter vocatur similitudo 
+      <lb ed="#L" n="8"/>rei, &amp; sic haberet rationem imaginis, imago autem ducens in co 
+      <lb ed="#L" n="9"/>gnitionem illius cuius est imago est primo cognita quod non po 
+      <lb ed="#L" n="10"/>test dici de tali specie, ergo &amp;c. Et sine dubio de se videtur 
+      ab<lb ed="#L" n="11" break="no"/>surdum que potentia cognitiua ducatur in cognitionem alicuius 
+      <lb ed="#L" n="12"/>per tale repraesentatiuum, quod est sibi totaliter incognitum. Con 
+      <lb ed="#L" n="13"/>trarium enim verissimum est, videlicet quod per notum ducitur in 
+      <lb ed="#L" n="14"/>cognitionem ignoti. Et sic patet quod nulla species est in oculo ad 
+      <lb ed="#L" n="15"/>repraesentandum visui colorem vt videatur, quamuis enim 
+      co<lb ed="#L" n="16" break="no"/>lor imprimat in medio, &amp; in oculo suam speciim propter 
+      simi<lb ed="#L" n="17" break="no"/>lem dispositionem diaphaneitatis quae est in eis, illa tamen nihi 
+      <lb ed="#L" n="18"/>facit ad visionem, neque visui repraesentat colorem vt videatur. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e437">
+               <lb ed="#L" n="19"/>
+               <!--12--> Quod autem in intellectu nostro non sit ponere speciem talem 
+      <lb ed="#L" n="20"/>patet per eandem rationem, quia oporteret quod esset ab intellectu 
+      <lb ed="#L" n="21"/>primo cognita cuius opposi tum experimur. Item si in intellectu es 
+      <lb ed="#L" n="22"/>set talis species, aut esset respectu primi cogniti solum: aut respe 
+      <lb ed="#L" n="23"/>ctu omnium, non respectu omnium, quia species in intellectu nostre 
+      <lb ed="#L" n="24"/>si qua sit, potest abstrahi a fantasmatibus. Sed fantasmata non 
+      <lb ed="#L" n="25"/>sunt omnium, sed solum rerum sensibilium, &amp; quantum ad accidentia 
+      se<lb ed="#L" n="26" break="no"/>cundum quae solum sunt sensibilia, ergo respectu aliorum nulla ess 
+      <lb ed="#L" n="27"/>intellectu nostro species. Item cognitio rei per speciem secundum 
+      <lb ed="#L" n="28"/>ponentes speciem non est discursiua, sed multa cognoscuntura 
+      <lb ed="#L" n="29"/>nobis per discursum, talia ergo non cognoscuntur per speciem. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e466">
+               <lb ed="#L" n="30"/>
+               <!--13--> Si autem dicatur quod species requiratur in intellectu respectu 
+      <lb ed="#L" n="31"/>primi cogniti. Contra, quia in potentiis ordinatis obiectum praesen 
+      <lb ed="#L" n="32"/>tatur posteriori potentiae per actum prioris (sicut appetitui 
+      re<lb ed="#L" n="33" break="no"/>praesentatur suum obiectum, videlicet bonum per cognitionem 
+      prae<lb ed="#L" n="34" break="no"/>uiam. Per hoc enim solum praesentatur appetitui bonum quia est 
+      <lb ed="#L" n="35"/>cognitum. Sed sensus &amp; intellectus in nobis sunt potentiae 
+      ordi<lb ed="#L" n="36" break="no"/>natae, ergo per solum actum prioris potentiae (videlicet sensus) 
+      prae<lb ed="#L" n="37" break="no"/>sentatur sufficienter intellectui suum obiectum, neque oportet 
+      pone<lb ed="#L" n="38" break="no"/>re aliquam speciem. Item intellectus cum sit virtus refluxiua cognoscii 
+      <lb ed="#L" n="39"/>se &amp; ea quae sunt in eo per certitudinem, &amp; quasi 
+      experimentali<lb ed="#L" n="40" break="no"/>ter. Vnde experimur nos intelligere &amp; habere in nobis princi. 
+      <lb ed="#L" n="41"/>pium quo intelliginius. Si ergo in intellectu nostro esset aliqua ta 
+      <lb ed="#L" n="42"/>lis species, videtur quod possimus per certitudinem cognoscere eam 
+      <lb ed="#L" n="43"/>esse in nobis. Sicut cognoscimus per certitudinem alia quae sunt in 
+      <lb ed="#L" n="44"/>intellectu nostro tam actus quam habitus, quod non est verum. Non v 
+      <lb ed="#L" n="45"/>detur ergo quod in intellectu nostro sit aliqua species ad repraesen 
+      <lb ed="#L" n="46"/>tandum sibi suum obiectum, nec in sensu vt prius probatum est, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e509">
+               <lb ed="#L" n="47"/>
+               <!--14--> Est tamen aduertendum quod licet in nulla potentia 
+      sensiti<lb ed="#L" n="48" break="no"/>ua, vel intellectiua sit species ad repraesentandum ei suum 
+      ob<lb ed="#L" n="49" break="no"/>iectum. Tamen in spiritibus corporeis non sentientibus 
+      rema<lb ed="#L" n="50" break="no"/>nent quandoque species, seu impressiones sensibiles 
+      abeunti<lb ed="#L" n="51" break="no"/>bus sensibilibus quae dum nobis dormientibus, vel vigilantibus 
+      <lb ed="#L" n="52"/>obiiciuntur organis interiorum sensuum apprehenduntur, &amp; 
+      <lb ed="#L" n="53"/>si in eis sistat cognitio, decipimur existimantes rerum 
+      imagi<lb ed="#L" n="54" break="no"/>nes esse veras res exteriores. Si vero cognitio non sistat in eis, 
+      <lb ed="#L" n="55"/>Sed apprehendantur vt imagines aliarum rerum non 
+      decipi<lb ed="#L" n="56" break="no"/>mur, sed sunt nobis principium memorandi. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e535">
+               <lb ed="#L" n="57"/>
+               <!--15--> In ipsis autem organis sensuum interiorum si fiant 
+      spe<lb ed="#L" n="58" break="no"/>cies vel huiusnodi impressiones nullo modo percipiuntur ab 
+      <lb ed="#L" n="59"/>eis, nec aliae res per ipsas, quia non se habent ad potentias 
+      co<lb ed="#L" n="60" break="no"/>gnitiuas obiectiue, sicut impressio quam aliquis videt in 
+      ocul<lb ed="#L" n="61" break="no"/>alieno non percipitur ab oculo in quo est, nec mediante ipsa 
+      <lb ed="#L" n="62"/>percipit ille oculus rem cuius est species. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e553">
+               <lb ed="#L" n="63"/>
+               <!--17--> De intellectu autem angelico de quo principaliter 
+      quaeri<lb ed="#L" n="64" break="no"/>tur idem dicendum est, videlicet quod in ipso non sunt aliquae 
+      spe<lb ed="#L" n="65" break="no"/>cies per quas repraesentantur ei res quas cognoscit. Quod 
+      pa<lb ed="#L" n="66" break="no"/>tet sic, species repraesentans rem aliquam &amp; res cuius est species 
+      <lb ed="#L" n="67"/>sunt eiusdem rationis specificae licet differant in modo essendi. 
+      <lb ed="#L" n="68"/>Sed nulla species existens in intellectu angeli cum sit accidens 
+      <lb ed="#L" n="69"/>potest esse eiusdem rationis specificae cum substantiis rerum tam 
+      <lb ed="#L" n="70"/>spiritualium quam corporalium quas angelus intelligit, 
+      erg<lb ed="#L" n="71" break="no"/>saltem angelus non intelligit per species substantias spirituales 
+      <lb ed="#L" n="72"/>vel corporales. Minor de se patet, quia substantia &amp; accidens non 
+      <lb ed="#L" n="73"/>possunt esse eiusdem rationis specificae cum differant genere. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e582">
+               <lb ed="#L" n="74"/>
+               <!--18--> Sed maior probatur in sensibilibus quae sunt nobis notio. 
+      <lb ed="#L" n="75"/>ra &amp; ex quibus introductae sunt species vt dictum est. Et primo sic, 
+      <lb ed="#L" n="76"/>sicut se habet lux in corpore luminoso ad lumen causatum in 
+      me<lb ed="#L" n="77" break="no"/>dio, sic videtur se habere color in corpore terminato ad speciem 
+      <lb ed="#L" n="78"/>causatam in medio, quia sicut proprium subiectum lucis 
+      secun<lb ed="#L" n="79" break="no"/>dum suum perfectu esse, est corpus densum (vnde &amp; stella lucem 
+      <lb ed="#L" n="80"/>dicitur esse densior pars suae spherae secundo caeli). Sic proprium 
+      <lb ed="#L" n="81"/>subiectum coloris, qui in se continet aliquid de natura lucis 
+      se<lb ed="#L" n="82" break="no"/>cundum suum perfectum esse, ess perspicuum terminatum pe 
+      <!--00305.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>opacum, subiectum autem vtriusque secundum esse imperfectum 
+      <lb ed="#L" n="84"/>est perspicuum non densum nec determinatum, propter quod 
+      si<lb ed="#L" n="85" break="no"/>cut se habet lux ad lumen, sic color ad speciem. Sed lux in corpore 
+      <lb ed="#L" n="86"/>denso &amp; lumen in medio sunt eiusdem rationis specificae, lice 
+      <lb ed="#L" n="87"/>differant in modo essendi, secundum rationem perfecti, &amp; 
+      im<lb ed="#L" n="88" break="no"/>perfecti, propter diuersitatem subiecti recipientis, ergo 
+      simili<lb ed="#L" n="89" break="no"/>ter color in corpore terminato &amp; species eius in medio sunt 
+      <lb ed="#L" n="90"/>eiusdem rationis specificae, licet differant secundum perfectum &amp; 
+      <lb ed="#L" n="91"/>imperfectum propter diuersitatem subiectorum recipientium 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e630">
+               <lb ed="#L" n="92"/>
+               <!--19--> Secundo probatur eadem maior sic, Actio omnium aliorum 
+      <lb ed="#L" n="93"/>sensibilium in medio &amp; organo est vniuoca, calor enim distans 
+      <lb ed="#L" n="94"/>ad hoc vt sentiatur, oportet quod calefaciat medium vsque ad o1 
+      <lb ed="#L" n="95"/>ganum, &amp; ipsummet organum vt experimur, &amp; idem est de 
+      sa<lb ed="#L" n="96" break="no"/>pore, &amp; de quocunque alio sensibili, ergo a simili videtur quod 
+      <lb ed="#L" n="97"/>actio coloris in medium &amp; organum sit vniuoca, quod non esset 
+      <lb ed="#L" n="98"/>nisi color, &amp; sua species essent vnius rationis. Tertio quia 
+      spe<lb ed="#L" n="99" break="no"/>cies non ducit in cognitionem alterius (vt videtur) nisi ratione 
+      <lb ed="#L" n="100"/>similitudinis, vnde &amp; similitudo dicitur per quandam 
+      expres<lb ed="#L" n="101" break="no"/>sionem. Similitudo autem non est differentium, secundum 
+      spe<lb ed="#L" n="102" break="no"/>ciem: ergo species quae est medium quo res cognoscitur, &amp; 
+      di<lb ed="#L" n="103" break="no"/>citur similitudo rei non differt secundum speciem a re quam 
+      <lb ed="#L" n="104"/>immediate repraesentat. Et sic probata est sufficienter maior. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e663">
+               <lb ed="#L" n="105"/>
+               <!--20--> Sequitur ergo conclusio principalis, scilicet, quod angelus 
+      <lb ed="#L" n="106"/>non intelligit substantias rerum spiritualium vel corporalium 
+      <lb ed="#L" n="107"/>per aliquam speciem, &amp; per eandem rationem non intelligit 
+      ac<lb ed="#L" n="108" break="no"/>cidentia rerum corporalium per speciem, quia in angelo, qui 
+      <lb ed="#L" n="109"/>est substantia mere spiritualis, non potest esse aliquod accidens 
+      <lb ed="#L" n="110"/>eiusdem rationis cum accidentibus corporalibus. Contra 
+      ra<lb ed="#L" n="111" break="no"/>tiones autem prius positas sunt aliquae instantiae quae 
+      ponen<lb ed="#L" n="112" break="no"/>tur in quarto libro, &amp; ibidem soluentur. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e686">
+               <lb ed="#L" n="113"/>
+               <!--21.--> Per quid ergo intelligit angelus alia a se? Dicendum quod non per d 
+      <lb ed="#L" n="114"/>aliud repraesentatiuum, quam per ipsammet praesentiam rerum in 
+      <lb ed="#L" n="115"/>se vel in suis causis vel vtroque modo. Ad cuius euidentia 
+      scien<lb ed="#L" n="116" break="no"/>dum est quod quamuis in nobis fit duplex cognitio (scilicet sensitiua 
+      <lb ed="#L" n="117"/>&amp; intellectiua) tamen in angelo est sola intellectiua, per quam 
+      <lb ed="#L" n="118"/>perfectius &amp; efficacius cognoscit quicquid cognoscimus nos per 
+      <lb ed="#L" n="119"/>sensum &amp; intellectum quam cognoscamus nos. Sicut ergo 
+      sensi<lb ed="#L" n="120" break="no"/>bilia secundum se praesentia sensui cognoscuntur per sensum, 
+      pu<lb ed="#L" n="121" break="no"/>ta omnia colorata, &amp; omnia lucentia, quae secundum se 
+      praesentia<lb ed="#L" n="122" break="no"/>liter obiiciuntur visui statim videntur, quia vnum est visiuum, &amp; 
+      <lb ed="#L" n="123"/>aliud visibile, propter quod eis approximatis statim sequitur vi 
+      <lb ed="#L" n="124"/>sio a quocunque sit effectiue. Et similiter est de aliis sensibus. Sic 
+      <lb ed="#L" n="125"/>tam res spirituales vt alij angeli quam corporales vt coelum &amp; 
+      <lb ed="#L" n="126"/>astra, &amp; huiusmodi, quae secundum se sunt praesentes intellectui 
+      <lb ed="#L" n="127"/>alicuius angeli propter ordinem &amp; gradum, quem angelus habet 
+      <lb ed="#L" n="128"/>inter partes vniuersi statim intuitiue cognoscuntur ab angelo 
+      <lb ed="#L" n="129"/>absque alio repraesentatiuo. Et in hoc cognitio angelica contine 
+      <lb ed="#L" n="130"/>modum &amp; perfectionem nostrae cognitionis sensitiuae, &amp; plus, quia 
+      <lb ed="#L" n="131"/>non se extendit solum ad accidentia (vt sensus) sed etiam ad 
+      quid<lb ed="#L" n="132" break="no"/>ditates substantiarum. Sicut etiam praesentato intellectui nostro 
+      <lb ed="#L" n="133"/>aliquo obiecto per actum sensitiuae partis fit intellectio a 
+      quo<lb ed="#L" n="134" break="no"/>cunque illa sit effectiue, &amp; ex illo cognitio intellectus noster alia 
+      <lb ed="#L" n="135"/>intelligit propter habitudinem causae ad effectum, vel 
+      econtra<lb ed="#L" n="136" break="no"/>rio, &amp; sic de aliis habitudinibus, sic angelus ex his quae intuitiu? 
+      <lb ed="#L" n="137"/>cognoscit per ipsarum rerum actualem praesentiam, cognoscit 
+      <lb ed="#L" n="138"/>alia propter habitudinem quam habent ad prima cognita, siue 
+      il<lb ed="#L" n="139" break="no"/>la habitudo sit causae ad effectum siue alia, &amp; in hoc assimilatur 
+      <lb ed="#L" n="140"/>nostrae cognitioni intellectiuae. Sed eam excedit in hoc quod 
+      intel<lb ed="#L" n="141" break="no"/>lectus noster cognoscit vnum per aliud discurrendo de noto ad 
+      <lb ed="#L" n="142"/>ignotum. Intellectus vero angelicus, licet cognoscat vnum per 
+      <lb ed="#L" n="143"/>aliud, non tamen discurrendo de noto ad ignotum. Sed statim 
+      <lb ed="#L" n="144"/>&amp; simul tempore vtrunque cognoscit, licet vnum per aliud. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e760">
+               <lb ed="#L" n="145"/>
+               <!--22--> Ad primum argumentum dicendum quod essentia angeli 
+      <lb ed="#L" n="146"/>non repraesentat ei omnes alias res ab angelo cognoscibues, 
+      <lb ed="#L" n="147"/>sed hoc non est propter limitationem angeli ad certum genus, 
+      <lb ed="#L" n="148"/>&amp; ad certam speciem, sicut bene probat argumentum factum 
+      <lb ed="#L" n="149"/>in oppositum. Sed hoc est quod ipsa non est causa aliorum sub 
+      <lb ed="#L" n="150"/>se, quemadmodum essentia diuina est causa omnium, sicut 
+      <lb ed="#L" n="151"/>prius declaratum fuit libro primo, dist. 35. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e780">
+               <lb ed="#L" n="152"/>
+               <!--23--> Ad secundum dicendum que concludit aequaliter que angelus 
+      <lb ed="#L" n="153"/>non cognoscit alia a se per species, sicut concludit quod non cogno 
+      <lb ed="#L" n="154"/>scat per essentiam suam, &amp; vtrunque concessum est. Quod autem ita 
+      <lb ed="#L" n="155"/>sit patet, quia si sint species in angelo, per quas repraesententur 
+      <lb ed="#L" n="156"/>ei res intelligibiles, quum illae species sint semper ei praesentes 
+      <lb ed="#L" n="157"/>videtur quod semper intelligat omnes res, quarum habet species, 
+      si<lb ed="#L" n="158" break="no"/>cut si repraesentarentur ei per suam essentiam. Nec valet si dicatur 
+      <lb ed="#L" n="159"/>quod angelus potest vti vna specie, &amp; non altera, &amp; quandoque 
+      nul<lb ed="#L" n="160" break="no"/>la quum sit substantia volens &amp; libera, quia idem posset dici 
+      de<lb ed="#L" n="161" break="no"/>essentia sua, quod non vteretur ea ad repraesentandum res, nisi quando 
+      <lb ed="#L" n="162"/>vellet, quorum neutrum est verum, quia licet in potestate hominis 
+      <lb ed="#L" n="163"/>vel angeli sit quandoque applicare, vel non applicare ea, quibus 
+      <lb ed="#L" n="164"/>applicatis necessario sequitur actio (verbi gratia). In potestate 
+      <!--00306.xml-->
+      <pb ed="#L" n="119-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>hominis vel angeli, est applicare ignem stupae, tamen non est in 
+      <lb ed="#L" n="2"/>potestate eorum, quin facta applicatione sequatur actio. 
+      Si<lb ed="#L" n="3" break="no"/>quum ad praesentiam illius quod sufficienter repraesentat 
+      ob<lb ed="#L" n="4" break="no"/>iectum potentiae cognitiuae sequatur necessario cognitio, nor 
+      <lb ed="#L" n="5"/>est in potestate angeli quod non cognoscat illud quod ei 
+      reprae<lb ed="#L" n="6" break="no"/>sentatur, sicut non est in potestate hominis, quod 
+      repraesenta<lb ed="#L" n="7" break="no"/>to obiecto in fantasmate intellectus non intelligat. Et ideo siue 
+      <lb ed="#L" n="8"/>res intelligibiles repraesententur angelo per substantiam suam, 
+      <lb ed="#L" n="9"/>vel per species idem sequitur: nos tamen dicimus quod pe 
+      <lb ed="#L" n="10"/>neutrum eorum eis repraesentantur. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e841">
+               <lb ed="#L" n="11"/>
+               <!--24--> Ad tertium dicendum qued nunquam fuit intentio authori 
+      <lb ed="#L" n="12"/>de causis, quod in angelo vel in intelligentia sint species, de quibus 
+      <lb ed="#L" n="13"/>alij loquuntur, sed quum ipse fuerit platonicus posuit tales for 
+      <lb ed="#L" n="14"/>mas esse in intelligentiis quales ideas posuit Plato, quas etiam 
+      <lb ed="#L" n="15"/>quandoque vocauit formas. Plato autem secundum veritatem vo 
+      <lb ed="#L" n="16"/>cauit ideas cognitiones rerum, vel res vt cognitas, &amp; non aliqua 
+      <lb ed="#L" n="17"/>formas intellectui inhaerentes, vel per se subsistentes, sicut 
+      fa<lb ed="#L" n="18" break="no"/>bulose imposuit ei Aristoteles, &amp; tales formas, hoc est rerum 
+      co<lb ed="#L" n="19" break="no"/>gnitiones dicit author de causis esse in intelligentiis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e865">
+               <lb ed="#L" n="20"/>
+               <!--25--> Per idem patet ad quartum, quia secundum Dionysium 
+      <lb ed="#L" n="21"/>angeli illuminantur rationibus rerum &amp; cognitionibus earum, 
+      <lb ed="#L" n="22"/>quia ipsa cognitio est earum illuminatio. 
+      </p>
+            <p xml:id="jsnvu6-d1e2526-d1e876">
+               <lb ed="#L" n="23"/>
+               <!--26--> Argumentum in oppositum bene probat quod essentia angel 
+      <lb ed="#L" n="24"/>per hoc quod est limitata ad genus, &amp; ad speciem non 
+      impedi<lb ed="#L" n="25" break="no"/>tur quin possit alias res repraesentare, quia quum inter res 
+      di<lb ed="#L" n="26" break="no"/>uersorum generum sit certa habitudo, vna potest per aliam 
+      re<lb ed="#L" n="27" break="no"/>praesentari. Vnde &amp; accidentia magnam partem conferunt ad 
+      <lb ed="#L" n="28"/>cognoscendum quod quid est (vt dicitur primo de anima) 
+      ve<lb ed="#L" n="29" break="no"/>runtamen quod angelus cognoscit perfecte &amp; distincte omne 
+      <lb ed="#L" n="30"/>res naturales, spirituales &amp; corporales ad talem distinctam &amp; 
+      pe<lb ed="#L" n="31" break="no"/>fectam repraesentationem non sufficit essentia angeli, quia non 
+      <lb ed="#L" n="32"/>continet alias res distincte nec formaliter, nec virtualiter quum 
+      <lb ed="#L" n="33"/>non fit eorum causa, sicut essentia diuina est causa omnium. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

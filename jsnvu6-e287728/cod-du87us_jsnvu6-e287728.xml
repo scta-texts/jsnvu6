@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="349-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e287728"><!-- l4d45q2 -->
+            <head xml:id="jsnvu6-e287728-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e287728-Hd1e103" type="question-title">Utrum suffragia prosint existentibus 
+      in inferno</head>
+            <p xml:id="jsnvu6-e287728-d1e106">
+               <lb ed="#L" n="79"/>QVAISTIO IICVNDA. 
+      <lb ed="#L" n="80"/>Vtrum suffragia prosint existentibus 
+      <lb ed="#L" n="81"/>in inferno. 
+    </p>
+            <p xml:id="jsnvu6-e287728-d1e115">
+      <!--00772.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>SECVNDO quaeritur vtrum suffragia prosim 
+      <lb ed="#L" n="83"/>existentibus in inferno. Et videtur quod sic, quia bea 
+      <lb ed="#L" n="84"/>tus Aug. dicit &amp; habetur in littera quod quibus 
+      <lb ed="#L" n="85"/>prosunt suffragia ad hoc prosunt, vt plena fit 
+      re<lb ed="#L" n="86" break="no"/>missio, vel tolerabilior sit eorum damnatio, 
+      se<lb ed="#L" n="87" break="no"/>damnati non dicuntur nisi illi qui sunt in 
+      infer<lb ed="#L" n="88" break="no"/>no, ergo suffragia ecclesiae prosunt illis. 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e137">
+               <lb ed="#L" n="89"/>
+               <!--2--> Item sicut se habent beati ad gloriam, sic damnati ad poenam, sed 
+      <lb ed="#L" n="90"/>beatis saltem vsque ad diem iudicij possunt prodesse suffragia ecclesi 
+      <lb ed="#L" n="91"/>ad gloriam augmentandam, ergo damnatis possunt prodesse ad poenam 
+      <lb ed="#L" n="92"/>minuendam. Minor probar per illud quod dicit Greg. in collect. 
+      <lb ed="#L" n="93"/>sicut sanctis tuis prosunt ad gloriam, ita nobis proficiat ad medelam. 
+</p>
+            <p xml:id="jsnvu6-e287728-d1e154">
+               <lb ed="#L" n="94"/>Item Dam. recitat in quodam sermone quod Traianus qui 
+      <lb ed="#L" n="95"/>per multos annos fuerat in inferno, quia multorum martyrum 
+      <lb ed="#L" n="96"/>necem amaram instituit, ad preces Greg. veniam consecutus est, 
+      <lb ed="#L" n="97"/>&amp; caput cuiusdam sacerdotis gentilis dixit Machario se &amp; alios 
+      <lb ed="#L" n="98"/>iuuari precibus Macharij, vt dicit idem Damas. &amp; habetur 
+      simi<lb ed="#L" n="99" break="no"/>liter in vitis patrum, ergo videtur quod damnati in inferno 
+      pos<lb ed="#L" n="100" break="no"/>sint per orationes sanctorum iuuari. 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e172">
+               <lb ed="#L" n="101"/>
+               <!--4--> IN CONTRARIVM est, quia in inferno nulla es 
+      <lb ed="#L" n="102"/>redemptio, secundum quod dicitur Iob 7. qui descendit ad infernos 
+      <lb ed="#L" n="103"/>non ascendet, nec reuertetut vltra in domum suam, &amp; Dion. dicit 67 
+      <lb ed="#L" n="104"/>cap. ecclesiasticae Hierarchiae quod summus sacerdos pro immudis 
+      <lb ed="#L" n="105"/>non orat, quia in hoc auerteretur a diuino ordine, vbi dicit commen 
+      <lb ed="#L" n="106"/>tator quod propeccatoribus non orat remissionem, quia non 
+      au<lb ed="#L" n="107" break="no"/>diretur pro illis, igitur suffragia ecclesiae non prosunt damnatis. 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e192">
+               <lb ed="#L" n="108"/>
+               <!--5--> RESPONSIO. Quaestio ista non est dubia pro tempore quo 
+      <lb ed="#L" n="109"/>damnati erunt in inferno post generale iudicium, qui a pro tunc non fient 
+      <lb ed="#L" n="110"/>aliqua suffragia quae possint quoscunque iuuare, sed finem habebuni 
+      <lb ed="#L" n="111"/>ciuitates duae, vna Christi, altera diaboli (scilicet paradisus &amp; 
+      in<lb ed="#L" n="112" break="no"/>fernus) sed solum dubia est de his quae sunt in inferno ante diem iudicij 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e208">
+               <lb ed="#L" n="113"/>
+               <!--6--> De quibus quidam dicunt quod aliqui eorum iuuantur per suffragia 
+      <lb ed="#L" n="114"/>viuorum, non tamen omnes. Distinguunt enim de mortuis iuxta sen 
+      <lb ed="#L" n="115"/>tentiam beati Aug. in Enchirid. Quidam enim eorum sunt valde 
+      bo<lb ed="#L" n="116" break="no"/>ni, alij valde mali, alij mediocriter boni, &amp; alij mediocriter 
+      ma<lb ed="#L" n="117" break="no"/>li, pro valde bonis non est orandum, quia non indigent sicut sunt 
+      bea<lb ed="#L" n="118" break="no"/>ti, vnde Aug. iniuriam facit martyri, qui pro martyre orat, &amp; idem 
+      <lb ed="#L" n="119"/>habetur extra de celebratione missaru, cap. cum marthae. Item 
+      <lb ed="#L" n="120"/>nec valde malis psunt suffragia, sed mediocriter bonis posunt, vi 
+      <lb ed="#L" n="121"/>citius liberentur ab igne purgatorio, mediocriter malis psunt ad 
+      <lb ed="#L" n="122"/>hoc, vt minus puniant in inferno, a quo tamen nunquam liberabuntur 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e234">
+               <lb ed="#L" n="123"/>
+               <!--7--> Haec est sententia aliquorum iuristarum, quae expresse ponitur 
+      <lb ed="#L" n="124"/>in glosa 12. quaest. 1. super illud cap. tempus. Et arguunt isti contra 
+      <lb ed="#L" n="125"/>seipsos sic, pone quod aliquis dat eleemosynam pro eo qui decessit 
+      <lb ed="#L" n="126"/>in mortali peccato, qui secundum eos est mediocriter malus, talis 
+      <lb ed="#L" n="127"/>eleemosyna prodest ei ad diminutionem poenae, aliquid ergo de 
+      <lb ed="#L" n="128"/>poena eius est sublatum, ponatur quod centesima pars, tunc si dentur 
+      <lb ed="#L" n="129"/>tales centum eleemosynae, tota poena erit dimissa, &amp; ille 
+      totali<lb ed="#L" n="130" break="no"/>ter liberatus quod ipsi negant. Ad hoc respondent dicentes quod 
+      <lb ed="#L" n="131"/>si eleemosyna tollat centesimam partem poenae, secunda tollet 
+      tan<lb ed="#L" n="132" break="no"/>tam poenam non in quantitate, sed in proportione, &amp; sic ibidem 
+      <lb ed="#L" n="133"/>semper aliquid remanebit de poena, sicut in diuisione contingit 
+      <lb ed="#L" n="134"/>aliquid semper remanebit diuidendum cum diuisio non fit 
+      sem<lb ed="#L" n="135" break="no"/>per in partes eiusdem quantitatis, sed eiusdem proportionis. 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e267">
+               <lb ed="#L" n="136"/>
+               <!--8--> Quicquid sit de conclusione, de qua postea dicetur, solutio 
+      <lb ed="#L" n="137"/>tamen ad obiectionem nulla est. Primo, quia non est aliqua ratio, 
+      <lb ed="#L" n="138"/>quare secunda eleemosyna si sit aequalis valoris cum prima &amp; ex 
+      <lb ed="#L" n="139"/>aequali deuotione data diminuat minus de poena quam prima, 
+      <lb ed="#L" n="140"/>&amp; ideo fiet diminutio poenae secundum aequalitatem quantitatis 
+      <lb ed="#L" n="141"/>prout in talibus possumus loqui, &amp; non secundum aequalitatem 
+      <lb ed="#L" n="142"/>proportionis. Secundo, quia si diminutio poenae fieret secundum 
+      <lb ed="#L" n="143"/>partes eiusdem proportionis, quemadmodum diuisio lineae, 
+      adhu<lb ed="#L" n="144" break="no"/>sequeretur idem, quia diuisio lineae tantum potest procedere quod 
+      <lb ed="#L" n="145"/>peruenietur ad partem lineae insensibilem, ergo similiter tot elee 
+      <lb ed="#L" n="146"/>mosynae poterunt dari pro damnatis quod peruenietur ad 
+      par<lb ed="#L" n="147" break="no"/>tem insensibilem vel imperceptibilem, sed talis poena non ess 
+      <lb ed="#L" n="148"/>poena, cum omnis poena sequatur cognitionem, ergo nullo modo 
+      <lb ed="#L" n="149"/>potest dici quod poena damnatorum potest minui per suffragis 
+      <lb ed="#L" n="150"/>quin sequatur quod possit tolli totaliter quod isti negant. 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e305">
+               <lb ed="#L" n="151"/>
+               <!--9--> Alij tamen hoc concedunt, vt Praepositus &amp; eius sequaces, qui 
+      <lb ed="#L" n="152"/>dixerunt quod damnati per suffragia ecclesiae possunt totaliter fieri 
+      <lb ed="#L" n="153"/>immunes a poena vsque ad diem iudicij, sed post diem iudicij re 
+      <lb ed="#L" n="154"/>sumptis corporibus detrudentur in ignem aeternum side spe 
+      cuius<lb ed="#L" n="155" break="no"/>cunque veniae. Istud autem cum non probetur eadem facilitate 
+      po<lb ed="#L" n="156" break="no"/>test contemni qua dicitur. Ipsum etiam dictum est valde 
+      irratio<lb ed="#L" n="157" break="no"/>nabile, quia plus debet valere vnicuique illud quod ipse facit pro 
+      <lb ed="#L" n="158"/>seipso dum viuit, vel alius pro ipso quam illud quod facit scilicet 
+      <lb ed="#L" n="159"/>viuens pro mortuo, sed id quod facit viuens in peccato mortali, 
+      <lb ed="#L" n="160"/>de quo non poenitet nec poenitere proponit, aut quod facit alius 
+      <lb ed="#L" n="161"/>pro ipso nihil omnino valet ad diminutionem poenae tali 
+      pec<lb ed="#L" n="162" break="no"/>cato debitae, quamuis possit valere ad hoc, vt talis disponatur 
+      <lb ed="#L" n="163"/>ad poenitendum de illo peccato, ergo fortiori ratione, illud 
+      <!--00773.xml-->
+      <pb ed="#L" n="350-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod faciunt viuentes pro mortuis damnatis, qui de peccatis suit 
+      <lb ed="#L" n="2"/>non poenitent nec poenitere proponunt, sed in eis obstinati sunt non 
+      <lb ed="#L" n="3"/>prodest eis ad aliquam poenae diminutionem, &amp; absque dubio con 
+      <lb ed="#L" n="4"/>tra omnem iustitiam &amp; rationem videtur esse quod impoenitenti 
+      per<lb ed="#L" n="5" break="no"/>seueranti in impoenitentia remittatur aliquid de poena debita 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e355">
+               <lb ed="#L" n="6"/>
+               <!--10--> Dicendum est ergo quod suffragia ecclesiae nullo modo pro 
+      <lb ed="#L" n="7"/>sunt damnatis, cuius ratio licet statim assignata sit, alia tamer 
+      <lb ed="#L" n="8"/>potest adduci, quia suffragia vnius prosunt alteri, quatenus sunt 
+      <lb ed="#L" n="9"/>membra vnius corporis, sed damnati qui iam obstinati sunt in 
+      <lb ed="#L" n="10"/>malo, iam non sunt membra corporis ecclesiae, cum sint praecisi ir 
+      <lb ed="#L" n="11"/>reuocabiliter per finalem sententiam, ergo suffragia ecclesiae ve 
+      <lb ed="#L" n="12"/>cuiusque membri de ecclesia non possunt eis prodesse. Nec vale 
+      <lb ed="#L" n="13"/>illud in quo iuristae fundant se, quia illa distinctio beati Augusti 
+      <lb ed="#L" n="14"/>ni licet sit quadrimembris quo ad vocem, est tamen solum trimen 
+      <lb ed="#L" n="15"/>bris quo ad rem, mediocriter enim boni &amp; mediocriter mali 
+      iidi<lb ed="#L" n="16" break="no"/>sunt, scilicet illi qui decedunt in gratia cum peccato veniali, ve 
+      <lb ed="#L" n="17"/>cum debito poenae pro peccatis mortalibus, de quibus statim ante 
+      <lb ed="#L" n="18"/>mortem poenituerunt. Et quod ita sit probatur sic, quia mediocriter 
+      <lb ed="#L" n="19"/>bonus vel omnino non est malus, vel est valde malus, vel est 
+      me<lb ed="#L" n="20" break="no"/>diocriter malus, non potest dici quod omnino non sit malus, ita quod 
+      <lb ed="#L" n="21"/>nihil malitiae habeat, nec secundum actum, nec secundum reatum, 
+      <lb ed="#L" n="22"/>quia talis quando decedit statim euolat ad gloriam, quia non habe 
+      <lb ed="#L" n="23"/>culpam secundum actum, nec reatum poenae culpae debitae, qui autem 
+      <lb ed="#L" n="24"/>statim euolat ad coelum est valde bonus &amp; non mediocriter bonus, 
+      <lb ed="#L" n="25"/>nec potest dici quod sit valde malus, quia valde malis secundum istos 
+      <lb ed="#L" n="26"/>non prosunt suffragia, prosunt autem mediocriter bonis, igitur 
+      <lb ed="#L" n="27"/>mediocriter boni non sunt valde mali, nec omnino mali, vt 
+      pro<lb ed="#L" n="28" break="no"/>batum est, ergo sunt mediocriter mali. Simili modo potest 
+      pro<lb ed="#L" n="29" break="no"/>bari quod mediocriter mali sunt mediocriter boni, quia 
+      mediocri<lb ed="#L" n="30" break="no"/>ter malus. aut omnino nihil habet de bonitate, aut est valde 
+      bo<lb ed="#L" n="31" break="no"/>nus, aut est mediocriter bonus, non potest dici quod nihil habeat de 
+      <lb ed="#L" n="32"/>bonitate, quia sic esset valde malus, cum malum non sit nisi priuatio 
+      <lb ed="#L" n="33"/>boni, &amp; ideo valde malus est qui nihil boni moralis vel merito 
+      <lb ed="#L" n="34"/>rij habet, isti etiam mediocriter malos dicunt esse illos qui fidem 
+      ha<lb ed="#L" n="35" break="no"/>buerunt, sed alia peccata mortalia commiserunt, licet non maxima 
+      <lb ed="#L" n="36"/>nec enormissima, igit mediocriter mali non omnino nihil habent 
+      <lb ed="#L" n="37"/>de bonitate. Nec potest dici quod sunt valde boni, quia illi non 
+      indi<lb ed="#L" n="38" break="no"/>gent suffragiis, mediocriter autem mali indigent. Relinquitur ergo 
+      <lb ed="#L" n="39"/>quod mediocriter mali sint mediocriter boni, &amp; econuerso, vnde B 
+      <lb ed="#L" n="40"/>Aug. vtrisque idem attribuit, s. quod possint iuuari suffragiis viuorum 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e436">
+               <lb ed="#L" n="41"/>
+               <!--11--> Magis autem absurdum est quod ipsi dicunt per valde malo 
+      <lb ed="#L" n="42"/>illos intelligi, qui fidem non habuerunt. Constat enim quod paruuli 
+      <lb ed="#L" n="43"/>decedentes in solo originali non habuerunt fidem, &amp; tamen 
+      absur<lb ed="#L" n="44" break="no"/>dum est dicere eos esse magis malos quam sint damnati, qui 
+      fi<lb ed="#L" n="45" break="no"/>dem habuerunt, &amp; multa peccata mortalia habuerunt &amp; commise 
+      <lb ed="#L" n="46"/>runt, quia cum poena correspondeat culpae, ille est magis malus cui 
+      <lb ed="#L" n="47"/>debetur poena damni &amp; poena sensus quam ille cui debetur poena 
+      <lb ed="#L" n="48"/>damni tantum. sed damnatis fidelibus debetur poena damnni &amp; poena 
+      <lb ed="#L" n="49"/>sensus, decedentibus vero solum in originali non debetur nisi 
+      poen<lb ed="#L" n="50" break="no"/>damni, quae secundum Aug. est mitissima omnium poenarum, ergo fi 
+      <lb ed="#L" n="51"/>deles damnati sunt magis mali quam decedentes solum in originali 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e465">
+               <lb ed="#L" n="52"/>
+               <!--12--> Quod si quis dicat quod per valde malos intelliguntur nor 
+      <lb ed="#L" n="53"/>omnes infideles, sed solum adulti, qui cum infidelitate sua mul 
+      <lb ed="#L" n="54"/>ta peccata mortalia commiserunt, igitur decedentes in solo origi 
+      <lb ed="#L" n="55"/>nali non sunt valde mali, sed non valde malis prosunt suffragia 
+      <lb ed="#L" n="56"/>secundum Aug. ergo talibus debent suffragia ecclesiae prodesse 
+      <lb ed="#L" n="57"/>Istud autem est falsum, quia cum poena eorum non sit nisi carentia 
+      <lb ed="#L" n="58"/>visionis beatae, quae carentia non potest minui aliquo modo, nisi 
+      <lb ed="#L" n="59"/>aliquid oppositae visionis eis conferatur, quia priuatio non tolli 
+      <lb ed="#L" n="60"/>tur nisi per habitum, sequeretur quod si iuuarentur per aliquod 
+      <lb ed="#L" n="61"/>suffragium quod per illud conferretur eis aliquid visionis beatae 
+      <lb ed="#L" n="62"/>&amp; sic vnico suffragio expedirentur de inferno, quod est erroneum, 
+      <lb ed="#L" n="63"/>cum nec per vnum suffragium, nec per multa possint a limbo libera 
+      <lb ed="#L" n="64"/>ri, vel diuinam visionem pertingere. Intentio ergo beati Aug. est quod 
+      <lb ed="#L" n="65"/>"illi soli sunt mediocriter boni &amp; mediocriter mali, qui sine pec 
+      <lb ed="#L" n="66"/>cato mortali decedunt, sed tamem habent vel peccata venialia, vel 
+      <lb ed="#L" n="67"/>sunt debitores poenae pro peccatis mortalibus, de quibus ante 
+      mo<lb ed="#L" n="68" break="no"/>tem poenituerunt, &amp; istis solis prosunt suffragis &amp; non damnatis in 
+      <lb ed="#L" n="69"/>inferno, &amp; quod haec sit intentio Aug. patet per illud quod dicit in littera 
+      <lb ed="#L" n="70"/>quod qui sine fide operante per dilectionem eiusque sacramentis de 
+      cor<lb ed="#L" n="71" break="no"/>pore exierunt frustra illis a suis huiusmodi pietatis officia impen 
+      <lb ed="#L" n="72"/>duntur. Constat autem quod omnes qui decedunt in peccato 
+      mor<lb ed="#L" n="73" break="no"/>tali, decedunt absque fide operante per dilectionem, ergo talibus 
+      <lb ed="#L" n="74"/>suffragia non prosunt secundum Aug. Ad idem est quod 
+      scripsi<lb ed="#L" n="75" break="no"/>Gregorius Bonifacio archiepiscopo vbi dicit, quod pro impiis 
+      <lb ed="#L" n="76"/>quamuis christiani fuerint tale quid scilicet oblationes &amp; suffragis 
+      <lb ed="#L" n="77"/>facere non licebit, liceret autem si talia suffragia possent eis 
+      pro<lb ed="#L" n="78" break="no"/>desse, ergo, &amp;c. Idem etiam dicit 34. moralium sic, sancti de his 
+      vti<lb ed="#L" n="79" break="no"/>que quos aeterno iam damnatos supplicio cognouerunt ante illum 
+      <lb ed="#L" n="80"/>iudicis iusti conspectum orationis suae meritum quassari refugiunt 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e533">
+               <lb ed="#L" n="81"/>
+               <!--13--> AD PRIMVM argumentum in oppositum dicendum 
+      <lb ed="#L" n="82"/>quod ibi accipitur damnatio large pro quacunque punitione, vt si 
+      <!--00773.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>includat etiam poenam purgatorij, dicitur etiam aliquis quandoque 
+      <lb ed="#L" n="84"/>damnatus ad certam poenam pecuniariam soluendam, vel ad aliquod 
+      <lb ed="#L" n="85"/>supplicium sustinendum, quamuis talis damnatio non sit ad mortem. 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e553">
+               <lb ed="#L" n="86"/>
+               <!--14--> Ad secundum dicendum quod non est simile de damnatis &amp; 
+      <lb ed="#L" n="87"/>beatis. quia beati bene participant cum viuentibus in charitate 
+      <lb ed="#L" n="88"/>in qua fundatur valor suffragiorum, sed existentes in inferno 
+      <lb ed="#L" n="89"/>tali communicatione praeclusi sunt, &amp; iterum quamuis beati de 
+      <lb ed="#L" n="90"/>bonis quae viuentes faciunt laetentur, &amp; sic aliquid gloriae 
+      acci<lb ed="#L" n="91" break="no"/>dentalis eis accrescat, illud tamen non est propter aliquem 
+      fru<lb ed="#L" n="92" break="no"/>ctum suffragij quem percipiunt, sed propter perfectam 
+      charita<lb ed="#L" n="93" break="no"/>tem quam habent, per quam congaudent omni homini beato. 
+      </p>
+            <p xml:id="jsnvu6-e287728-d1e576">
+               <lb ed="#L" n="94"/>
+               <!--15--> Ad tertium dicendum quod aut Traianus fuit vitae miracu 
+      <lb ed="#L" n="95"/>lose restitutus, &amp; tunc remissionem peccatorum consecutus est 
+      <lb ed="#L" n="96"/>nec prius erat sententia finali damnatus, sed conditionaliter. Vel 
+      <lb ed="#L" n="97"/>dicendum quod illud fuit singulare priuilegium diuinae gratiae 
+      <lb ed="#L" n="98"/>quod non est contrahendum ad consequentiam, quia de lege 
+      con<lb ed="#L" n="99" break="no"/>muni fit oppositum. Ad illud de Machario, dicendum quod non 
+      <lb ed="#L" n="100"/>aliter iuuabantur damnati per preces Macharij, vt ibidem 
+      dici<lb ed="#L" n="101" break="no"/>tur, nisi quia mutuo se videbant in tormentis, de hoc non poterant 
+      <lb ed="#L" n="102"/>habere verum gaudium nisi falsum &amp; fantasticum, sicut solatium 
+      mise<lb ed="#L" n="103" break="no"/>rorum est socios videre in poena, sicut daemones gaudere 
+      dicun<lb ed="#L" n="104" break="no"/>tur, quando homines ad peccata pertrahunt, poena tamen inflicta 
+      <lb ed="#L" n="105"/>tam hominibus damnatis quam daemonibus in nullo minuitur. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

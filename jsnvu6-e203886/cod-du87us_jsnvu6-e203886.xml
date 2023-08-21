@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praefatio</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praefatio</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="248-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e203886"><!-- l4praefatio -->
+            <head xml:id="jsnvu6-e203886-Hd1e101">Praefatio</head>
+            <p xml:id="jsnvu6-e203886-d1e103">
+      <!--00569.xml-->
+               <pb ed="#L" n="248-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>IVSDEMMA 
+      <lb ed="#L" n="2"/>GISTRI DVRANDI 
+      <lb ed="#L" n="3"/>de sancto Porciano Theologi 
+      do<lb ed="#L" n="4" break="no"/>ctissimi, in Quartum librum 
+      <lb ed="#L" n="5"/>Sententiarum, 
+      <lb ed="#L" n="6"/>PIATIATIO. 
+    </p>
+            <p xml:id="jsnvu6-e203886-d1e125">
+               <lb ed="#L" n="7"/>ST Deus in caelo reuelans mysteria. 
+      Quan<lb ed="#L" n="8" break="no"/>Quis nomine mysterij insinuetur totius 
+      scr<lb ed="#L" n="9" break="no"/>pturae materia generaliter, sicut dictum fuit 
+      <lb ed="#L" n="10"/>in principio primi libri: Specialiter tamer 
+      <lb ed="#L" n="11"/>materia quarti libri, quod patet sic. Est enim 
+      <lb ed="#L" n="12"/>mysterium idem quod sacrum secretum quod 
+      <lb ed="#L" n="13"/>occultam habet intelligentiam. Aliquid aut? 
+      <lb ed="#L" n="14"/>I est nobis occultum siue incognitum duplic 
+      <lb ed="#L" n="15"/>de causa, scilicet propter aliquid interpositum, aut quia longe 
+      <lb ed="#L" n="16"/>positum. Propter primum sacramenta dicuntur mysteria, 
+      qui<lb ed="#L" n="17" break="no"/>gratiae sacramentales proponuntur nobis interposito velamini 
+      <lb ed="#L" n="18"/>rerum sensibilium. Propter secundum resurrectio dicitur 
+      my<lb ed="#L" n="19" break="no"/>sterium, quia longe posita, &amp; ideo magis occulta: pertinet enin 
+      <lb ed="#L" n="20"/>ad futurum statum. De his autem duobus, scilicet de sacramentis 8 
+      <lb ed="#L" n="21"/>gloria resurrectionis agit magister in quarto libro. Quantum 
+      a<lb ed="#L" n="22" break="no"/>primum est aduertendum quod sicut mundus sensibilis recipit in 
+      <lb ed="#L" n="23"/>fluentiam a corporibus caelestibus, maxime autem a septem stelli 
+      <lb ed="#L" n="24"/>quae planetae dicuntur, sic corpus ecclesiae militantis recipit 
+      in<lb ed="#L" n="25" break="no"/>fluentiam vitae spiritualis a Christo mediantibus septem sacramentis 
+      <lb ed="#L" n="26"/>&amp; mystice stellae vocantur Apo. primo, vt sit verbum Christi 
+      lo<lb ed="#L" n="27" break="no"/>quentis ad magistrum sententiarum. Scribe mysterium septem 
+      stel<lb ed="#L" n="28" break="no"/>larum quas vidisti in dextera mea. Et merito comparantur stelli 
+      <lb ed="#L" n="29"/>propter tria: habent enim stellae claritatem in aspectu, velocita 
+      <lb ed="#L" n="30"/>tum in motu, virtuositatem in effectu. Sic &amp; sacramenta institut: 
+      <lb ed="#L" n="31"/>sunt propter nostram eruditionem, quoad primum, propter nostram 
+      <lb ed="#L" n="32"/>exercitationem, quoad secundum, propter nostram iustificationem 
+      <lb ed="#L" n="33"/>quoad tertium, quia etiam eis munimur contra insidias diaboli 
+      <lb ed="#L" n="34"/>ideo figurantur per septem cornua agni: quia vero per eadem diri 
+      <lb ed="#L" n="35"/>gimur in vita spirituali, figurantur per septem oculos agni, de qu 
+      <lb ed="#L" n="36"/>bus Apoc. 5. Vidi agnum stantem tanquam occisum habentem 
+      cor<lb ed="#L" n="37" break="no"/>nua septem, &amp; oculos septem, sed quia omnia nobis proponuntur 
+      <lb ed="#L" n="38"/>sub velamine rerum sensibilium, ideo figurantur per septem signa. 
+      <lb ed="#L" n="39"/>cula libri quae solus Christus agnus occisus dignus fuit aperire, 
+      <lb ed="#L" n="40"/>vt praeberet gentibus ingressum in ecclesiam per fidem mediantibus 
+      <lb ed="#L" n="41"/>sacramentis, Iudaeis propter suam caecitatem &amp; incredulitatem 
+      fo<lb ed="#L" n="42" break="no"/>ris manentibus Vnde Rom. II. dicitur: Nolo vos ignorare 
+      fratre<lb ed="#L" n="43" break="no"/>mei mysterium hoc vt non sitis vobisipsis sapientes, quia 
+      caeci<lb ed="#L" n="44" break="no"/>tas ex parte contingit in Israel donec plenitudo Gentium 
+      intra<lb ed="#L" n="45" break="no"/>ret. De hoc autem mystetio agitur vsque ad 43. dist. quarti libri 
+      <lb ed="#L" n="46"/>Quantum ad secundum sciendum est quod resurrectio finalis 
+      myst<lb ed="#L" n="47" break="no"/>rium dicitur, vel sacrum secretum, quia nobis est occulta, eo quod long 
+      <lb ed="#L" n="48"/>posita: pertinet enim ad statum futuri seculi, vt dictum fuit. 
+      Ho<lb ed="#L" n="49" break="no"/>est mysterium, de quo magister agit a 43. distin. vsque ad finen 
+      <lb ed="#L" n="50"/>libri de quo dicitur Apo. 10. quod angelus stans super terram &amp; 
+      ma<lb ed="#L" n="51" break="no"/>re iurauit per viuentem in secula seculorum quod tempus non eri 
+      <lb ed="#L" n="52"/>amplius. Sed in diebus vocis septimi angeli cum coeperit tuba 
+      ca<lb ed="#L" n="53" break="no"/>nere consummabitur mysterium Dei illud, scilicet quod 
+      mor<lb ed="#L" n="54" break="no"/>tale hoc induet immortalitatem, &amp; corruptibile hoc 
+      incorru<lb ed="#L" n="55" break="no"/>ptionem, quod erit in resurrectione beata, quam nobis, &amp;c.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="362-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e298497"><!-- l4d50prae -->
+            <head xml:id="jsnvu6-e298497-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e298497-d1e103">
+               <lb ed="#L" n="140"/>Sententia huius distinctionis L. in 
+      <lb ed="#L" n="141"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e298497-d1e110">
+               <lb ed="#L" n="142"/>HIC ORITVR quaestio. Determinato de 
+      <lb ed="#L" n="143"/>gloria sanctorum: hic determinat de poena 
+      <lb ed="#L" n="144"/>malorum. Et primo quantum ad effectum. 
+      <lb ed="#L" n="145"/>Secundo quantum ad cognitionem ibi, Hic 
+      <lb ed="#L" n="146"/>quaeri potest. Tertio determinata recapiti 
+      <lb ed="#L" n="147"/>lat ibi, De pedibus. Prima habet duas. 
+      Pri<lb ed="#L" n="148" break="no"/>mo enim mouet dubitationem intentam 
+      <lb ed="#L" n="149"/>Secundo soluit ibi, Quidam autumant. 
+      Se<lb ed="#L" n="150" break="no"/>cunda pars principalis in qua determinat de poena 
+      damnato<lb ed="#L" n="151" break="no"/>rum quantum ad cognitionem habet tres. Primo inquirit 
+      quo<lb ed="#L" n="152" break="no"/>modo se habeant quantum ad cognitionem Dei. Secundo 
+      quo<lb ed="#L" n="153" break="no"/>modo ad cognitionem eorum quae sunt in mundo. Tertio 
+      quo<lb ed="#L" n="154" break="no"/>modo se habeant quantum ad cognitionem sanctorum. Prima 
+      <lb ed="#L" n="155"/>ibi, Hic quaeri potest. Secunda ibi, Praeterea quaeri solet. Tertia 
+      <lb ed="#L" n="156"/>ibi, Quaeri etiam solet. 
+    </p>
+            <p xml:id="jsnvu6-e298497-d1e145">
+               <lb ed="#L" n="157"/>PROPONIT ERGO primo magister quaestionem, 
+      <lb ed="#L" n="158"/>scilicet vtrum damnatis non erit facultas peccandi cum 
+      conti<lb ed="#L" n="159" break="no"/>nue malam habeant voluntatem. Et respondet secundum aliquos 
+      <lb ed="#L" n="160"/>quod illa mala voluntas non erit culpa sed poena: secundum alios cul 
+      <lb ed="#L" n="161"/>pa erit, sed secundum eam nihil demerebuntur. Magister tamen 
+      <lb ed="#L" n="162"/>primam opinionem approbat, quia sicut sanctis cedet ad gloriam 
+      <lb ed="#L" n="163"/>quod non poterunt habere malam voluntatem, ita malis erit in poe¬ 
+      <!--00799.xml-->
+      <pb ed="#L" n="363-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nam quod bonam voluntatem habere non poterunt. Deinde 
+      <lb ed="#L" n="2"/>quaerit, quare mali in tenebris exterioribus dicuntur esse. Et 
+      <lb ed="#L" n="3"/>respondet quod hoc ideo erit, quia omnino penitus exclusi 
+      <lb ed="#L" n="4"/>erunt a luce Dei, tum propter perfectam malitiam voluntatis, 
+      <lb ed="#L" n="5"/>tum propter obliuionem Dei quam in eis causabit grauita 
+      <lb ed="#L" n="6"/>tormentorum. Deinde quaerit, vtrum damnati cognoscant ea 
+      <lb ed="#L" n="7"/>quae in mundo geruntur. Et respondet quod habent tamen 
+      <lb ed="#L" n="8"/>aliquam curam de suis notis, quia non vident eos in 
+      tormen<lb ed="#L" n="9" break="no"/>tis secum, nec in gloria cum beatis. Ibi etiam incidenter se 
+      b<lb ed="#L" n="10" break="no"/>dit quod animae separatae a corporibus in locis corporalibus 
+      <lb ed="#L" n="11"/>possunt detineri a poena, ponit exemplum de diuite 
+      damna<lb ed="#L" n="12" break="no"/>to, licet quidam aliter intelligant. Deinde subdit quod boni 
+      vi<lb ed="#L" n="13" break="no"/>debunt malos ante iudicium, &amp; econuerso mali bonos. 
+      Quae<lb ed="#L" n="14" break="no"/>rit etiam quomodo boni possunt videre malos fine 
+      compassio<lb ed="#L" n="15" break="no"/>ne. Et respondet quod ratio est, quia vita eorum perfecta &amp; 
+      <lb ed="#L" n="16"/>conformis erit diuinae iustitiae. Vitimo quaerit vtrum poena dam 
+      <lb ed="#L" n="17"/>natorum cedat in gaudium bonorum. Respondet quod sic, 
+      <lb ed="#L" n="18"/>inquantum vident se ab illis malis liberatos, &amp; in sine 
+      recapitu<lb ed="#L" n="19" break="no"/>lat quae dixerat, &amp; in hoc terminatur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

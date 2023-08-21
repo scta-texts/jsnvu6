@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="36-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e715"><!-- l1d11q1 -->
+            <head xml:id="jsnvu6-d1e715-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e715-Hd1e103" type="question-title">Utrum Spiritus Sanctus procedat a Patre et Filio, an a Patre tantum</head>
+            <p xml:id="jsnvu6-d1e715-d1e106">
+               <lb ed="#L" n="88"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="89"/>Vtrum spiritus sanctus procedat a solo patre 
+      <lb ed="#L" n="90"/>an a solo filio, an ab vtroque. 
+      <lb ed="#L" n="91"/>Thom. l. 4. 36. artic. 2. &amp; 4. 
+    </p>
+            <p xml:id="jsnvu6-d1e715-d1e117">
+               <lb ed="#L" n="92"/>CIRCA distinctionem istam quaeruntur tria. Pri 
+      <lb ed="#L" n="93"/>mo uaeritur vtrum spiritus sanctus procedat a 
+      <lb ed="#L" n="94"/>patre &amp; filio, an a solo patre. Et videtur quod non 
+      <lb ed="#L" n="95"/>procedat a filio. Primo sic spiritus sanctus non 
+      <lb ed="#L" n="96"/>minus conuenit cum patre quam filius. (Est enim 
+      <lb ed="#L" n="97"/>inter personas diuinas summa similitudo &amp; summa aequalitas 
+      <lb ed="#L" n="98"/>Sed spiritus sanctus non communicat cum patre in 
+      genera<lb ed="#L" n="99" break="no"/>tione filij: ergo nec filius communicat cum eodem in 
+      spira<lb ed="#L" n="100" break="no"/>tione spiritus sancti. 
+      </p>
+            <p xml:id="jsnvu6-d1e715-d1e139">
+               <lb ed="#L" n="101"/>
+               <!--2--> Secundo vnum &amp; idem simplex non potest esse a duobus, 
+      <lb ed="#L" n="102"/>quia talis effectus esset simplicior sua causa: sed spiritus 
+      san<lb ed="#L" n="103" break="no"/>ctus est implicissima persona: ergo non potest esse a duobu 
+      <lb ed="#L" n="104"/>personis. 
+      </p>
+            <p xml:id="jsnvu6-d1e715-d1e153">
+               <lb ed="#L" n="105"/>
+               <!--3--> Tertio, Danie. dicit lib. I, cap. 11. Ex filio spiritum sanctum 
+      <lb ed="#L" n="106"/>non dicimus, spiritum vero filij nominamus: ergo secundum 
+      <lb ed="#L" n="107"/>ipsum spiritus sanctus non est ex filio 
+      </p>
+            <p xml:id="jsnvu6-d1e715-d1e164">
+               <lb ed="#L" n="108"/>
+               <!--4--> IN CONTRARIVM est quod dicitur Ioan. 15. 
+      <lb ed="#L" n="109"/>Ille me clarificabit quia de meo accipiet, sed nulla acceptio est 
+      <lb ed="#L" n="110"/>in diuinis nisi per originem; ergo spiritus originatur a filio. &amp; 
+      <lb ed="#L" n="111"/>constat quod a patre, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e715-d1e177">
+               <lb ed="#L" n="112"/>
+               <!--5--> Item Athanasius in symbo. ipiri, sanct. a patre &amp; flio non 
+      <lb ed="#L" n="113"/>factus nec creatus, nec genitus, sed procedens. 
+      </p>
+            <p xml:id="jsnvu6-d1e715-d1e186">
+               <lb ed="#L" n="114"/>
+               <!--6--> RESPONSIO. in hac quaestione dissentiunt Graeci. 
+      <lb ed="#L" n="115"/>nobis, licet enim conueniant nobiscum in hoc quod dicunt sp 
+      <lb ed="#L" n="116"/>ri. sanct. procedere a patre &amp; esse de substantia patris, tamen 
+      <lb ed="#L" n="117"/>non dicunt spiritum sanctum procedere a filio, sed esse 
+      spiri<lb ed="#L" n="118" break="no"/>tum filij consubstantialem filio. Haec autem opinio non potest 
+      <lb ed="#L" n="119"/>habere veritatem quantum ad hoc quod dicunt spiritum 
+      san<lb ed="#L" n="120" break="no"/>ctum non procedere a filio quod alicui probant sic, spir. sancto 
+      <lb ed="#L" n="121"/>repugnat quod sit generans. haec autem repugnantia vel est 
+      duo<lb ed="#L" n="122" break="no"/>rum productorum quod esse non potest (quia pater a nullo 
+      pro<lb ed="#L" n="123" break="no"/>ducitur) vel duorum producentium quod etiam esse non 
+      po<lb ed="#L" n="124" break="no"/>test, quia spiritus sanctus nihil producit, vel est vnius tanquam 
+      <lb ed="#L" n="125"/>producentis &amp; alterius tanquam producti vt pote, quia 
+      spira<lb ed="#L" n="126" break="no"/>tus est a generante quod conuenit omni opinioni. Omnis enim 
+      <lb ed="#L" n="127"/>opinio dicit spiritum sanctum a patre procedere, aut ergo 
+      spi<lb ed="#L" n="128" break="no"/>ritus immediate procedit a generante, &amp; tunc est genitus, aut 
+      <lb ed="#L" n="129"/>mediante alio non nisi genito? ergo necesse est spiritum esse a 
+      <lb ed="#L" n="130"/>genito, quod est nostrum propositum. 
+      </p>
+            <p xml:id="jsnvu6-d1e715-d1e228">
+               <lb ed="#L" n="131"/>
+               <!--7.--> Sed ad hoc posset aliquis dicere quod spiritus non potest 
+      <lb ed="#L" n="132"/>esse generans, quia est a generante immediate non 
+      inquan<lb ed="#L" n="133" break="no"/>tum est generans, quia sic esset genitus, sed inquantum 
+      spi<lb ed="#L" n="134" break="no"/>rans, quia tamen generare &amp; spirare inseparabilia sunt, 
+      ne<lb ed="#L" n="135" break="no"/>genitus potest esse spirans, nec spiratur generans. Ideo 
+      pro<lb ed="#L" n="136" break="no"/>bo eandem conclusionem dupliciter. primo sic. Ab vno 
+      agen<lb ed="#L" n="137" break="no"/>te ex tota sua virtute &amp; ex necessitate naturae &amp; eodem 
+      mo<lb ed="#L" n="138" break="no"/>do semper se habente in se &amp; in sua actione non potest 
+      pro<lb ed="#L" n="139" break="no"/>duci immediate nisi vnum: sed pater est vnum agens &amp; agi 
+      <lb ed="#L" n="140"/>actione ad intra &amp; ex tota sua virtute &amp; ex necessitate 
+      natu<lb ed="#L" n="141" break="no"/>rae, &amp; semper eodem modo se habente in se &amp; in sua 
+      actio<lb ed="#L" n="142" break="no"/>ne: ergo a patre non potest produci immediate nisi vnum. Si 
+      <lb ed="#L" n="143"/>ergo a patre producuntur filius, &amp; spiritus sanctus, oportet 
+      <lb ed="#L" n="144"/>quod hoc sit ordine quodam: aut ergo ordine originis quo 
+      <lb ed="#L" n="145"/>vnum est ab alio: &amp; sit habetur propositum: Aut ordine quo 
+      <lb ed="#L" n="146"/>vnum est prius alio quod non potest esse, quia vnum non 
+      po<lb ed="#L" n="147" break="no"/>test esse prius altero, nec natura cum sit eadem in omnibus, 
+      <lb ed="#L" n="148"/>nec tempore, cum vterque sit aeternus, quare relinquitu 
+      <lb ed="#L" n="149"/>quod ibi est ordo quo vnum est ab alio. Constat autem quod 
+      <lb ed="#L" n="150"/>filius non est a spiritu sancto, ergo spiritus sanctus est a filio. 
+      <lb ed="#L" n="151"/>Haec autem ratio satis efficaciter probat intentum secundum 
+      <lb ed="#L" n="152"/>opinione millorum qui ponunt quod sola essentia est 
+      princi<lb ed="#L" n="153" break="no"/>pium eliciens vel elicitiuum omnium actuum notionaliuv, 
+      <lb ed="#L" n="154"/>scilicet generandi &amp; spirandi, quia oportet quod sint ab ea 
+      <lb ed="#L" n="155"/>ordine quodam cum ipsa sit vna, &amp; ab vno principio naturali 
+      <lb ed="#L" n="156"/>non procdit immediate nisi vnum, sed secundum illos qui 
+      po<lb ed="#L" n="157" break="no"/>nunt quog potentia spirandi &amp; potentia generandi importan 
+      <lb ed="#L" n="158"/>intrinsece &amp; essentialiter relationem, habet instantiam. 
+      Di<lb ed="#L" n="159" break="no"/>ceret eninm quis quod licet pater sit vnum agens tamen duplici 
+      <!--00138.xml-->
+      <pb ed="#L" n="36-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>hac virtute potest immediate duo producere quorum vnum non 
+      <lb ed="#L" n="2"/>est ab alio. Haec autem instantia refellitur ex eo quod secundum 
+      <lb ed="#L" n="3"/>catholicam doctrinam inter omnes personas diuinas est, ordo 
+      <lb ed="#L" n="4"/>quia vbicumque est pluralitas sine ordine ibi est confusio. In 
+      diuini<lb ed="#L" n="5" break="no"/>autem est pluralitas sine confusione: ergo est ibi pluralitas ci 
+      <lb ed="#L" n="6"/>ordine, sed constat quod non est ibi ordo quo vnum est post aliud 
+      <lb ed="#L" n="7"/>(vt probatum est) ergo est ibi ordo quo vnum est ex alio, &amp; 
+      si<lb ed="#L" n="8" break="no"/>idem quod prius. Item si Spiritus sanctus esset immediate a se 
+      <lb ed="#L" n="9"/>lo patre sicut &amp; filius, processio eius esset generatio sicut 
+      pro<lb ed="#L" n="10" break="no"/>cessio filij, quia procederet per modum naturae sicut filius, sicut 
+      <lb ed="#L" n="11"/>patet ex his quae dicta sunt supra distinct. 6. hoc autem est 
+      im<lb ed="#L" n="12" break="no"/>possibile, quia tunc essent duo geniti (id est duo filij in 
+      diui<lb ed="#L" n="13" break="no"/>nis) quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e715-d1e330">
+               <lb ed="#L" n="14"/>
+               <!--8--> Secunda ratio talis est, pater communicat quicquid habet a 
+      <lb ed="#L" n="15"/>filio excepto eo in quo ei opponitur. Sed pater non opponitur 
+      <lb ed="#L" n="16"/>filio, quo ad spirationem, sed solum quoad paternitatem &amp; 
+      in<lb ed="#L" n="17" break="no"/>nascibilitatem, quia spirans inquantum spirans non opponitur 
+      <lb ed="#L" n="18"/>nisi spirato: filius autem non est spiratus sed genitus, ergo 
+      pa<lb ed="#L" n="19" break="no"/>ter communicat filio actiuam spirationem, si sic, ergo Spiri 
+      <lb ed="#L" n="20"/>sanct. spiratur communiter a filio &amp; a patre. Sed contra hoc 
+      in<lb ed="#L" n="21" break="no"/>statur, pater inquantum generans non habet oppositionem 
+      <lb ed="#L" n="22"/>nisi ad genitum, sed Spiritus sanctus non est generatus: ergi 
+      <lb ed="#L" n="23"/>pater quoad generare non opponitur Spiritui sancto. Si erge 
+      <lb ed="#L" n="24"/>communicat illi omne illud in quo non ei opponitur sequitu 
+      <lb ed="#L" n="25"/>quod communicet ei generare quod est impossibile. Non erge 
+      <lb ed="#L" n="26"/>pater communicat Spiritui sancto &amp; per eandem rationem 
+      ne<lb ed="#L" n="27" break="no"/>filio omne illud in quo ei non opponitur, &amp; sic maior quae assu 
+      <lb ed="#L" n="28"/>mebatur videtur esse falsa 
+      </p>
+            <p xml:id="jsnvu6-d1e715-d1e368">
+               <lb ed="#L" n="29"/>
+               <!--9--> Est dicendum quod non est simile propter duo. Primum est, 
+      <lb ed="#L" n="30"/>quia generare &amp; generari habent oppositionem ad spirari 
+      me<lb ed="#L" n="31" break="no"/>diatam, licet non immediatam: Cuius ratio est, quia in per se 
+      <lb ed="#L" n="32"/>ordinatis illud quod est principium prioris est principium 
+      po<lb ed="#L" n="33" break="no"/>sterioris. In diuinis autem est ordo primi, secundi, &amp; tertij, 
+      li<lb ed="#L" n="34" break="no"/>cet non sit ibi prius &amp; posterius. Et ideo quod est principium 
+      <lb ed="#L" n="35"/>secundi, est principium tertij. Cum ergo pater per generare sit 
+      <lb ed="#L" n="36"/>principium filij per consequens per ipsum est principium 
+      Spi<lb ed="#L" n="37" break="no"/>ritus sancti licet mediatum, quia pater per ipsum generare 
+      con<lb ed="#L" n="38" break="no"/>municat filio vim spiratiuam qua producitur Spiri. san. Et ideo 
+      <lb ed="#L" n="39"/>eadem oppositione qua opponitur pater &amp; filius Spiritui 
+      san<lb ed="#L" n="40" break="no"/>cto inquantum spirantes opponuntur ei ordine quodam in ec 
+      <lb ed="#L" n="41"/>quod iste generans, scilicet pater, ille genitus, scilicet filius. Et 
+      <lb ed="#L" n="42"/>propter hanc oppositionem pater &amp; filius non possunt 
+      commu<lb ed="#L" n="43" break="no"/>nicare Spiritui sancto gonerare vel generari, sed pater per spi 
+      <lb ed="#L" n="44"/>rare nullam oppositionem directam vel indirectam, mediatam 
+      <lb ed="#L" n="45"/>vel immediatam habet ad filium. Et ideo communicat ei 
+      spira<lb ed="#L" n="46" break="no"/>re. Secundo, quia proprietas personalis quae est per se 
+      constitu<lb ed="#L" n="47" break="no"/>oiua, non est alij personae communicabilis. quia hoc repugnai 
+      <lb ed="#L" n="48"/>distinctioni personarum: Sed si generare &amp; generari possent 
+      <lb ed="#L" n="49"/>communicari, paternitas &amp; filiatio quae sunt proprietates 
+      per<lb ed="#L" n="50" break="no"/>sonales vel personarum constitutiuae possent communicari 
+      <lb ed="#L" n="51"/>Cui enim conuenit generare &amp; paternitas, cui conuenit 
+      gene<lb ed="#L" n="52" break="no"/>rari &amp; filiatio: ergo generare &amp; generari non possunt 
+      commu<lb ed="#L" n="53" break="no"/>nicari, quia hoc repugnat distinctioni personarum. Si autem 
+      pa<lb ed="#L" n="54" break="no"/>ter communicat filio actiuam spirationem, non repugnat 
+      di<lb ed="#L" n="55" break="no"/>stinctioni patris &amp; filij quae est per paternitatem &amp; filiationem 
+      <lb ed="#L" n="56"/>&amp; ideo communicari potest &amp; communicatur. Esto ergo quod 
+      <lb ed="#L" n="57"/>pater &amp; filius non opponuntur Spiritui sancto quoad 
+      genera<lb ed="#L" n="58" break="no"/>re &amp; generari, adhuc posset maior supradictae rationis 
+      supple<lb ed="#L" n="59" break="no"/>ri sic, pater producens communicat producto filio omne illud 
+      <lb ed="#L" n="60"/>in quo ei non opponitur, nec repugnat distinctioni personarum 
+      <lb ed="#L" n="61"/>sed pater non opponitur filio quo ad spirare, nec repugnat 
+      di<lb ed="#L" n="62" break="no"/>stinctioni patris &amp; filij communicatio spirationis, ergo spirare 
+      <lb ed="#L" n="63"/>potest filio communicari. Et tunc cessat obiectio? quare 
+      gene<lb ed="#L" n="64" break="no"/>rare &amp; generari naturaliter non communicantur Spiritui 
+      san<lb ed="#L" n="65" break="no"/>cto, quia talis communicatio repugnat distinctioni personarum 
+      <lb ed="#L" n="66"/>patris &amp; filij inter se a Spiritu sancto. Si enim generare &amp; 
+      ge<lb ed="#L" n="67" break="no"/>nerari &amp; per consequens paternitas &amp; filiatio possent esse ir 
+      <lb ed="#L" n="68"/>persona Spiritus sancti, pater &amp; filius qui primo constituuntu 
+      <lb ed="#L" n="69"/>paternitate &amp; filiatione non essent personae distinctae a Spiritu 
+      <lb ed="#L" n="70"/>sancto, nec inter se. Propria enim vnius personae non possunt 
+      <lb ed="#L" n="71"/>in alia reperiri. 
+      </p>
+            <p xml:id="jsnvu6-d1e715-d1e466">
+               <lb ed="#L" n="72"/>
+               <!--10--> AD PRIMVM argumentum dicendum quod 
+      Spiri<lb ed="#L" n="73" break="no"/>tus sanctus quantum ad essentiam secundum quam attenditur 
+      <lb ed="#L" n="74"/>si militudo &amp; aequalitas, tantum conuenit cum patre quantum 
+      <lb ed="#L" n="75"/>filius, sed oppositionibus relatiuis seu relationis plus differunt 
+      <lb ed="#L" n="76"/>saltem implicite vt visum fuit. Et ideo non tot communicat 
+      <lb ed="#L" n="77"/>pacto Spiritui sancto sicut filio de actibus notionalibus qua 
+      <lb ed="#L" n="78"/>important vel exigunt relationes 
+      </p>
+            <p xml:id="jsnvu6-d1e715-d1e486">
+               <lb ed="#L" n="79"/>
+               <!--11--> Ad secundum dicendum quod si Spiritus sanctus proceda 
+      <lb ed="#L" n="80"/>a duobus, scilicet a patre &amp; filio, procedit tamen ab eis rationi 
+      <lb ed="#L" n="81"/>vnius principij simplicis quod est vis spiratiua. Et ideo aeque 
+      <lb ed="#L" n="82"/>simplex est principium virtute cuius Spiritus est sicut illud 
+      <!--00138.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>quod est ex principio Spirit. sanct. 
+      </p>
+            <p xml:id="jsnvu6-d1e715-d1e506">
+               <lb ed="#L" n="84"/>
+               <!--12--> AD TERTIVM dicendum quod Damascenus dicit 
+      <lb ed="#L" n="85"/>illud in nouitate discordiae inter latinos &amp; graecos. Et ideo cau. 
+      <lb ed="#L" n="86"/>te dixit nullam partem asserens, dixit enim Spiritum ex filio 
+      <lb ed="#L" n="87"/>non dicimus nec dixit Spiritus non est ex filio, sed non dicimus 
+      <lb ed="#L" n="88"/>Spiritum ex filio, nec propter hoc dicit oppositum, verum es 
+      <lb ed="#L" n="89"/>illud quod alibi dixit expresse quod Spiritus sanctus non est 
+      <lb ed="#L" n="90"/>ex filio sed hoc dixit ante prouulgationem &amp; declarationem 
+      <lb ed="#L" n="91"/>huius articuli &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

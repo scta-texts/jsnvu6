@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="140-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3180"><!-- l2d20prae -->
+            <head xml:id="jsnvu6-d1e3180-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3180-d1e103">
+               <lb ed="#L" n="130"/>Sententia huius distinctionis XX. in 
+      <lb ed="#L" n="131"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e3180-d1e110">
+               <lb ed="#L" n="132"/>POST haec videndum est &amp;c. Superius 
+      determi<lb ed="#L" n="133" break="no"/>nauit Magister de statu primi hominis quantum ad 
+      <lb ed="#L" n="134"/>immortalitatem. Hic vero determinat de statu 
+      <lb ed="#L" n="135"/>eius quantum ad speciei multiplicationem. Et 
+      di<lb ed="#L" n="136" break="no"/>Quiditur in duas. Primo determinat suum 
+      inten<lb ed="#L" n="137" break="no"/>tum. Secundo determinat finalem statum quem homo tunc 
+      <lb ed="#L" n="138"/>habiturus erat. Secunda ibi, talis erat hominis institutio. 
+      Pri<lb ed="#L" n="139" break="no"/>ma diuiditur in duas. Primo determinat modum generationis 
+      <lb ed="#L" n="140"/>in primo statu. Secundo inquirit generandorum conditionem. 
+      <lb ed="#L" n="141"/>Secunda ibi, Si vero quaeritur. Prima diuiditur in tres. Primo 
+      <lb ed="#L" n="142"/>inquirit &amp; determinat generationis modum. Secundo genera 
+      <lb ed="#L" n="143"/>tionis locum. Tertio generationis terminum. Secunda ibi, cum 
+      <lb ed="#L" n="144"/>ergo non. Tertia ibi, determinatio vero. Secunda vero in qua 
+      <lb ed="#L" n="145"/>inquirit generatorum conditionem, diuiditur in duas. Primo 
+      <lb ed="#L" n="146"/>inquirit qualitatem eorum. Primo quantum ad corpus. 
+      Secun<lb ed="#L" n="147" break="no"/>do quantum ad animam. Secunda ibi, Et cum de corpore 
+      hu<lb ed="#L" n="148" break="no"/>mano. Prima diuiditur in quatuor. Primo mouet quaestionem 
+      <lb ed="#L" n="149"/>suam. Secundo ostendit eam esse dubitationem. Tertio eam 
+      <lb ed="#L" n="150"/>determinat. Quarto circa determinata opponit &amp; soluit. 
+      Se<lb ed="#L" n="151" break="no"/>cunda ibi, &amp; super hoc August. Tertia ibi, Sed cum August. 
+      <lb ed="#L" n="152"/>Quarta ibi, ad haec autem opponitur, &amp; haec est sententia &amp; 
+      <lb ed="#L" n="153"/>diuisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3180-d1e160">
+               <lb ed="#L" n="154"/>
+               <!--2--> In speciali vero sic procedit &amp; proponit primo inquirendo 
+      <lb ed="#L" n="155"/>qualiter &amp; quales filios primi parentes generassent. Et dicit quod 
+      <lb ed="#L" n="156"/>quidam opinati sunt quod concubitum non potuisset esse 
+      ge<lb ed="#L" n="157" break="no"/>neratio, quia concubitus non est sine corruptione quae ante 
+      <lb ed="#L" n="158"/>peccatum in homine esse non poterat. Sed Magister dicit quod 
+      <lb ed="#L" n="159"/>secundum veritatem per concubitum ibi fuisset generatio, &amp; 
+      <lb ed="#L" n="160"/>thorus immaculatus, &amp; conimixtio sine concupiscentia, &amp; vsus 
+      <!--00348.xml-->
+      <pb ed="#L" n="140-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>membrorum sine corruptione, sicut homo vtitur aliis membris, 
+      <lb ed="#L" n="2"/>Postea quaerit, quare in illo tempore non fuit generatio in 
+      pa<lb ed="#L" n="3" break="no"/>radiso facta. Et respondet quod hoc fuit, quia deus nondum 
+      prae<lb ed="#L" n="4" break="no"/>ceperat, vel quia statim post mulieris formationem peccatum 
+      <lb ed="#L" n="5"/>secutum est: &amp; eiectio de paradiso. Postea quaerit qualiter pos 
+      <lb ed="#L" n="6"/>generationem primi parentes ad perfectam immortalitatem 
+      <lb ed="#L" n="7"/>transissent: &amp; dicit quod hoc est dubium. Potuit enim fieri, vi 
+      <lb ed="#L" n="8"/>perfecta generatione transferrentur statim parentes antequam 
+      <lb ed="#L" n="9"/>filij, &amp; forte omnes simul perfecto numero electorum. Postea 
+      <lb ed="#L" n="10"/>quaerit quales filios homo genuisset quantum ad corpus, vtrun 
+      <lb ed="#L" n="11"/>scilicet statim in sua natiuitate habuisset perfectionem staturae, 
+      <lb ed="#L" n="12"/>&amp; perfectum vsum membrorum. Postea dicit quod propte 
+      <lb ed="#L" n="13"/>vteri matrum necessitatem videtur esse dicendum quod paruul 
+      <lb ed="#L" n="14"/>nascerentur. Sed poterat deus supernaturaliter in eis 
+      cooperan<lb ed="#L" n="15" break="no"/>do statim in ipsa natiuitate perfectum vsum membrorum dare 
+      <lb ed="#L" n="16"/>sicut &amp; aliquibus animalibus dat perfectu vsum membrorum, 
+      <lb ed="#L" n="17"/>Postea respondet quod paruuli nascerentur, vt modo non ex 
+      <lb ed="#L" n="18"/>culpa, sed ex conditione naturae, sicut &amp; cibo indigebant ex 
+      con<lb ed="#L" n="19" break="no"/>ditione naturae. Et obiicit in oppositum, quod non indigebani 
+      <lb ed="#L" n="20"/>alimonia, quia poterant sine peccato non comedere. Sed si non 
+      <lb ed="#L" n="21"/>peccarent, viuerent, ergo non indigebant quod de ligno vite 
+      co<lb ed="#L" n="22" break="no"/>mederent. Et respondet quod non solum peccassent, si de ligne 
+      <lb ed="#L" n="23"/>vetito comedissent: Sed etiam si concessis non vterentur, quia 
+      <lb ed="#L" n="24"/>de vtroque praeceptum fuit. Item contra rationem naturalem, 
+      <lb ed="#L" n="25"/>&amp; appetitum facerent si de illis non ederent. Opponit etiam 
+      <lb ed="#L" n="26"/>quod non indigebant cibo, quum fames sit poena peccati, ergo 
+      <lb ed="#L" n="27"/>nec ibi fuit, &amp; sic cibo non indigebant. Et respondet quod 
+      indi<lb ed="#L" n="28" break="no"/>gentia cibifuit, sed non indigentia poenalis. Postea inquirit qua 
+      <lb ed="#L" n="29"/>litatem generandorum quantum ad animam. Et dicit quod 
+      sup<lb ed="#L" n="30" break="no"/>ponendo, vel sustinendo quod paruuli nascerentur, sicut sati: 
+      <lb ed="#L" n="31"/>potest concedi quod imperfecti essent in cognitione, tamen ista 
+      <lb ed="#L" n="32"/>ignorantia naturalis esset, &amp; non poenalis, eo quod non esset 
+      re<lb ed="#L" n="33" break="no"/>spectu eius quod scire tenerentur: tunc vltimo dicit per quod 
+      <lb ed="#L" n="34"/>meritum obedientiae translati fuissent ad illum statum, vt aeterne 
+      <lb ed="#L" n="35"/>bono fruerentur. Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

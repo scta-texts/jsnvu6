@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="269-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e221533"><!-- l4d9prae -->
+            <head xml:id="jsnvu6-e221533-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e221533-d1e103">
+               <lb ed="#L" n="60"/>Sententia huius distinctionis ix. in 
+      <lb ed="#L" n="61"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e221533-d1e110">
+               <lb ed="#L" n="62"/>T sicut sunt duae res. Superius determinauit Ma 
+      <lb ed="#L" n="63"/>gister de facramento eucharistiae secundum se. 
+      Hi<lb ed="#L" n="64" break="no"/>determinat de eo quantum ad vsum. Et diuiditur 
+      <lb ed="#L" n="65"/>in partes tres. Primo determinat suum intentum. 
+      <lb ed="#L" n="66"/>Al Secundo excludit quorundam errorem. Tertio 
+      <lb ed="#L" n="67"/>secundum determinata auctoritates dubias exponit. Secunda ib 
+      <lb ed="#L" n="68"/>haec verba &amp; huius. Tertia ibi, secundum hos duos modos. Hae 
+      <lb ed="#L" n="69"/>est diuisio lectionis &amp; sententia in generali. 
+      </p>
+            <p xml:id="jsnvu6-e221533-d1e130">
+               <lb ed="#L" n="70"/>
+               <!--2--> In speciali sic procedit Magister. Et proponit primo quod 
+      se<lb ed="#L" n="71" break="no"/>cundum duas res nuius sacramenti, sunt duo modi 
+      manducan<lb ed="#L" n="72" break="no"/>di. Vnus sacramentalis, qui consistit in sumptione ipsius sub 
+      sa<lb ed="#L" n="73" break="no"/>cramento visibili vel specie panis &amp; vini. Alius spiritualis qui 
+      <lb ed="#L" n="74"/>consistit in vnione ad Christum in sacramento. vnde ille spiritua 
+      <lb ed="#L" n="75"/>liter manducat, qui in vnitate Christi &amp; ecclesiae quam 
+      sacra<lb ed="#L" n="76" break="no"/>mentum significat manet. Et ideo soli boni manducant 
+      spiritua<lb ed="#L" n="77" break="no"/>liter. Sacramentum autem manducare possunt tam boni, quam mali, 
+      <lb ed="#L" n="78"/>sed mali ad suum iudicium sumunt. Quod auctoritatibus 
+      confir<lb ed="#L" n="79" break="no"/>mat. Postea dicit quod ratione quarundam auctoritatum videtur 
+      qui<lb ed="#L" n="80" break="no"/>busdam quod a malis corpus Christi non sumitur, quod ostendit 
+      <!--00611.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>esse falsum multis auctoritatibus quae dicunt hoc sacramentum 
+      <lb ed="#L" n="82"/>siue a bonis siue a malis sacrametaliter sumi, sed a bonis etiam 
+      <lb ed="#L" n="83"/>spiritualiter, a malis autem tantum sacramentaliter. Vltimo dat 
+      in<lb ed="#L" n="84" break="no"/>tellectum quarundam auctoritatum quae sund dubiae, Vbi ostendit quod 
+      <lb ed="#L" n="85"/>non solum species panis &amp; vini sed etiam ipsum corpus Christi 
+      <lb ed="#L" n="86"/>verum potest dici verum sacramentum. Et ex hoc procedit ad 
+      expo<lb ed="#L" n="87" break="no"/>sitionem istarum auctoritatum dubiarum. In fine concludit intentum 
+      <lb ed="#L" n="88"/>dicens, quod sacramentum tam a bonis quam a malis sumitur, &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="215-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e176904"><!-- l3d22q4 -->
+            <head xml:id="jsnvu6-e176904-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e176904-Hd1e103" type="question-title">
+      Utrum Christus descenderit ad 
+      infernum damnatorum
+    </head>
+            <p xml:id="jsnvu6-e176904-d1e106">
+               <lb ed="#L" n="26"/>6vITIO gVITI. 
+      <lb ed="#L" n="27"/>Vtrum Christus descenderit ad 
+      infer<lb ed="#L" n="28" break="no"/>num damnatorum. 
+      <lb ed="#L" n="29"/>Thom. 3. q. 52.
+    </p>
+            <p xml:id="jsnvu6-e176904-d1e117">
+               <lb ed="#L" n="30"/>DEINDE quaeritur vtrum Christus descenderi 
+      <lb ed="#L" n="31"/>ad infernumdamnatorum. Et arguitur quod sic 
+      <lb ed="#L" n="32"/>quia descensus respondet ascensioni, sed Christus 
+      <lb ed="#L" n="33"/>Cascendit super omnes coelos, ergo descendit ad 
+      <lb ed="#L" n="34"/>Adj infernum infimum. Sed ille est infernus 
+      damna<lb ed="#L" n="35" break="no"/>torum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e176904-d1e133">
+               <lb ed="#L" n="36"/>
+               <!--2--> Item Psal. dicit, eripuisti animam meam ex inferno inferiori, E 
+      <lb ed="#L" n="37"/>Iob. 13. dicitur in profundum inferni descendent ossa mea, sed tam 
+      <lb ed="#L" n="38"/>Psal. quam Iob liberati sunt per descensum Christi ad inferos, 
+      <lb ed="#L" n="39"/>ergo Christus descendit ad inferos ad inferiorem scilicet &amp; 
+      pro<lb ed="#L" n="40" break="no"/>fundissimum infernum, sed ille est infernus damnatorum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e176904-d1e150">
+               <lb ed="#L" n="41"/>
+               <!--3--> IN CONTRARIVM arguitur, quia de damnatis 
+      dici<lb ed="#L" n="42" break="no"/>tur Esaiae vltimo, ignis eorum non extinguetur, ergo quicunque 
+      <lb ed="#L" n="43"/>fuit in inferno damnatorum semper remansit, &amp; remanebit. Sed 
+      <lb ed="#L" n="44"/>Christus liberauit omnes illos qui in inferno erant ad quem ipse 
+      <lb ed="#L" n="45"/>descendit, ergo ipse non descendit ad infernum damnatorum. 
+      </p>
+            <p xml:id="jsnvu6-e176904-d1e166">
+               <lb ed="#L" n="46"/>
+               <!--4--> RESPONSIO. Sciendum est quod quadruplex est 
+      in<lb ed="#L" n="47" break="no"/>fernus secundum quadruplex genuis poenarum, quibusdam enim 
+      <lb ed="#L" n="48"/>debetur poena danni hoc est perpetua carentia visionis diuinae &amp; 
+      <lb ed="#L" n="49"/>perpetua poena sensus ratione peccati actualis mortalis in quo 
+      <lb ed="#L" n="50"/>decesserunt, Et ij dicuntur esse in inferno damnatorum. Aliis 
+      de<lb ed="#L" n="51" break="no"/>betur perpetua poena damni absque poena sensus, scilicet, 
+      dece<lb ed="#L" n="52" break="no"/>dentibus in solo peccato originali qui dicuntur esse in limbo 
+      pue<lb ed="#L" n="53" break="no"/>rorum, Aliis debetur poena sensus &amp; damni non quidem perpetua 
+      <lb ed="#L" n="54"/>sed temporalis illis scilicet qui decesserunt in gratia debitores 
+      <lb ed="#L" n="55"/>alicuius poenae eo quod in praesenti vita non satisfecerunt 
+      pleni<lb ed="#L" n="56" break="no"/>de culpis commissis. Et isti dicuntur esse in purgatorio. Aliis vere 
+      <lb ed="#L" n="57"/>debetur sola poena damni solum temporalis absque vlla poena 
+      <lb ed="#L" n="58"/>sansus. Et isti dicebantur esse in limbo patrum qui 
+      prohibeban<lb ed="#L" n="59" break="no"/>tur ante passionem Christi a visione diuina, eo quod non erat 
+      <lb ed="#L" n="60"/>satis factum pro peccato totius naturae, quamuis hi non essent 
+      <lb ed="#L" n="61"/>obnoxij alicui poenae pro peccatis suis personalibus. 
+      </p>
+            <p xml:id="jsnvu6-e176904-d1e205">
+               <lb ed="#L" n="62"/>
+               <!--5--> Dicendum ergo quod Christus non descendit in infernum 
+      <lb ed="#L" n="63"/>damnatorum, nec in limbum puerorum. Cuius ratio est, quia 
+      de<lb ed="#L" n="64" break="no"/>scensus Christi in infernum fuit secundum effectum liberationis eo 
+      <lb ed="#L" n="65"/>rum qui in inferno detinebantur, sed damnati pro peccato 
+      actua<lb ed="#L" n="66" break="no"/>li, &amp; decedentes pueri in peccato originali non fuerunt per 
+      Chri<lb ed="#L" n="67" break="no"/>stum liberati, ergo Christus non descendit in infernum damnatorum, 
+      <lb ed="#L" n="68"/>nec in limbum puerorum. Maior patet ex dictis in primo articulo, 
+      <lb ed="#L" n="69"/>minor probatur, quia liberationis factae per Christum nullus fit 
+      <lb ed="#L" n="70"/>particeps, nisi qui coniungitur ei, vt membrum capiti, sed caretes 
+      <lb ed="#L" n="71"/>gratia, vt sunt omnes decedentes in peccato actuali mortali, vel 
+      <lb ed="#L" n="72"/>in solo originali non vniuntur Christo, vt membrum capiti, quia 
+      <lb ed="#L" n="73"/>sola gratia sic vnit, ergo tales non fuerunt per Christum liberati 
+      </p>
+            <p xml:id="jsnvu6-e176904-d1e236">
+               <lb ed="#L" n="74"/>
+               <!--6--> De existentibus autem in purgatorio an fuerint per Christum 
+      <lb ed="#L" n="75"/>liberati non est clarum, probabiliter tamen tenetur qo non omnes 
+      <lb ed="#L" n="76"/>qui tunc fuerunt in purgatorio fuerunt liberati. Cuius ratio est, 
+      <lb ed="#L" n="77"/>quia similem effectum habet nunc passio Christi in illis qui nunc 
+      <lb ed="#L" n="78"/>sunt in purgatorio sicut habuit tunc, passio enim Christi non 
+      ha<lb ed="#L" n="79" break="no"/>bet temporalem virturem &amp; transitoriam, sed sempiternam, 
+      <!--00504.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>secundum illud Heb. 10. vna oblatione consummauit sanctificato, 
+      <lb ed="#L" n="81"/>in sempiternum, sed nunc non liberantur a purgatorio virtute pas 
+      <lb ed="#L" n="82"/>sionis Christi, nisi qui sustinendo poenam peccatis debitam sunt 
+      pur<lb ed="#L" n="83" break="no"/>gati, vel per suffragium illorum qui sunt in statu merendi. Passic 
+      <lb ed="#L" n="84"/>enim Christi non potest immediate eis applicari per sacramenta 
+      <lb ed="#L" n="85"/>ecclesiae, sicut applicatur viuentibus in hoc mundo, ergo 
+      tem<lb ed="#L" n="86" break="no"/>pore passionis Christi non fuerunt omnes liberati qui erant in 
+      <lb ed="#L" n="87"/>purgatorio, nisi qui purgati erant per solutionem poenae a peccatis 
+      <lb ed="#L" n="88"/>suis debitae, vel per suffragium alterius personae ad eos relatum. Si 
+      <lb ed="#L" n="89"/>qui autem fuerunt in purgatorio, tunc qui ex magno desiderio 
+      <lb ed="#L" n="90"/>aduentus Christi meruerunt hoc, vt per passionem Christi 
+      libe<lb ed="#L" n="91" break="no"/>rarentur, probabile est tales ex speciali gratia fuisse liberatos
+</p>
+            <p xml:id="jsnvu6-e176904-d1e284">
+               <lb ed="#L" n="92"/>De patribus autem qui erant in limbo, patet quod fuerunt 
+      <lb ed="#L" n="93"/>liberati per Christum, quia tales nulli poenae erant obnoxij, nisi 
+      <lb ed="#L" n="94"/>soli poenae damni debitae peccato totius naturae. Sed hoc 
+      debi<lb ed="#L" n="95" break="no"/>tum directe, per passionem Christi solutum est, igitur per 
+      pas<lb ed="#L" n="96" break="no"/>sionem Christi tales fuerunt penitus liberati. 
+      </p>
+            <p xml:id="jsnvu6-e176904-d1e297">
+               <lb ed="#L" n="97"/>
+               <!--8--> AD PRIMVM argumentum dicendum quod ascensio 
+      <lb ed="#L" n="98"/>congruit Christo ratione sui, &amp; ideo quia ipse est altissimus 
+      su<lb ed="#L" n="99" break="no"/>per omnes ascendere debuit, sed descendere non competit ei nisi 
+      <lb ed="#L" n="100"/>pro nobis. Et ideo tantum descendit quantum nostrae liberationi 
+      <lb ed="#L" n="101"/>expediebat &amp; non sub omnibus simpliciter. 
+      </p>
+            <p xml:id="jsnvu6-e176904-d1e314">
+               <lb ed="#L" n="102"/>
+               <!--9--> Ad secundum dicendum quod limbus patrum dicitur 
+      infer<lb ed="#L" n="103" break="no"/>nus inferior non simpliciter, sed respectu huius habitationis, de 
+      <lb ed="#L" n="104"/>quo anima Dauid vel etiam Christi deducta fuit. Et ille locus 
+      <lb ed="#L" n="105"/>potest dici profundissimum inferni comparatiue vt profundum sit 
+      <lb ed="#L" n="106"/>respectu coeli aer caliginosus in quo sunt daemones, profundius 
+      <lb ed="#L" n="107"/>locus nostrae habitationis, profundissimus autem limbus patrum, 
+      <lb ed="#L" n="108"/>de quo Iob liberatus fuit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

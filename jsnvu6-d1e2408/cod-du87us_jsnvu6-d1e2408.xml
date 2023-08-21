@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="112-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2408"><!-- l2d2q2 -->
+            <head xml:id="jsnvu6-d1e2408-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e2408-Hd1e103" type="question-title">Utrum coelum empyreum habeat aliquam influentiam in haec inferiora</head>
+            <p xml:id="jsnvu6-d1e2408-d1e106">
+               <lb ed="#L" n="126"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="127"/>Vtrum caelum empyreum habeat aliquam 
+      <lb ed="#L" n="128"/>influentiam ad inferiora.
+      <lb ed="#L" n="129"/>Thom. 1. q. 67. art. 3ad secundum.
+    </p>
+            <p xml:id="jsnvu6-d1e2408-d1e117">
+               <lb ed="#L" n="130"/>AD secundum sic proceditur. Et arguitur quod 
+      cae<lb ed="#L" n="131" break="no"/>lum empyreum non habeat aliquam influentiam 
+      <lb ed="#L" n="132"/>in haec inferiora, quia caelum agit per motum &amp; 
+      <lb ed="#L" n="133"/>lumen, vt dicitur. 2. taeli &amp; mundi, sed illud 
+      cae<lb ed="#L" n="134" break="no"/>lum non agit per motum cum non moueatur, 
+      <lb ed="#L" n="135"/>nec per lumen cum non sit radiosum (vt statim fuit dictum in 
+      <lb ed="#L" n="136"/>praecedente quaestione) quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2408-d1e135">
+               <lb ed="#L" n="137"/>
+               <!--2--> IN CONTRARIVM arguitur, quia locus est 
+      con<lb ed="#L" n="138" break="no"/>seruatiuus locati, sed caelum empyreum est locus inferiorum 
+      <lb ed="#L" n="139"/>corporum, ergo est conseruatiuus eorum, sed non conserua 
+      <lb ed="#L" n="140"/>nisi per aliquam actionem, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2408-d1e149">
+               <lb ed="#L" n="141"/>
+               <!--3--> RESPONSIO. Hic est duplex modus dicendi non 
+      so<lb ed="#L" n="142" break="no"/>lum diuersorum doctorum, sed vnius &amp; eiusdem in diuersis locis (
+      ne<lb ed="#L" n="143" break="no"/>mirum) quia cum nihil sciamus de illo caelo an sit, nisi per auctor 
+      <lb ed="#L" n="144"/>tatem, vt dictum fuit in praecedente quaestione, parum possumus sciri 
+      <lb ed="#L" n="145"/>si agat vel non agat cum nullus effectus eius nobis appareat, nec 
+      <lb ed="#L" n="146"/>auctoritates aliquae de hoc expresse loquantur. Est ergo vnus mo 
+      <lb ed="#L" n="147"/>dus dicendi quod illud caelum nihil agat propter duo. Primum est, quia 
+      <lb ed="#L" n="148"/>illud caelum ordinatur ad statum gloriae. Sed illi status non erit status 
+      <lb ed="#L" n="149"/>generationis &amp; corruptionis propter quas sunt omnes 
+      actio<lb ed="#L" n="150" break="no"/>nes &amp; passiones, ergo illud caelum nihil agit. Secundo, quia 
+      nul<lb ed="#L" n="151" break="no"/>lum corpus videtur habere influentiam super aliud nisi motum, sed 
+      <lb ed="#L" n="152"/>caelum empyreum non mouetur, ergo non influit in alia corpora 
+      </p>
+            <p xml:id="jsnvu6-d1e2408-d1e180">
+               <lb ed="#L" n="153"/>
+               <!--4--> Alius modus dicendi est quod caelum empyreum influit in alia 
+      cor<lb ed="#L" n="154" break="no"/>pora. Quod potest sic persuaderi, incoueniens est ponere aliqui 
+      <lb ed="#L" n="155"/>substantiam ociosam seu destituta omni operatione, sed caelum em 
+      <lb ed="#L" n="156"/>pyreum est substantia quaedam naturalis, &amp; inter corporeas es 
+      <lb ed="#L" n="157"/>nobilissima, oportet ergo quod secundum suam naturam habeat aliqui 
+      <lb ed="#L" n="158"/>operationem, haec autem non potest esse manens in operante, quia 
+      <lb ed="#L" n="159"/>huiusmodi operationes sunt rerum viuentium solum. Requiritur ergo 
+      <!--00291.xml-->
+      <pb ed="#L" n="113-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod operatio eius transeat in materiam exteriorem, hoc autem 
+      <lb ed="#L" n="2"/>non esset, nisi aliquid influeret in alia corpora, ergo coelum 
+      em<lb ed="#L" n="3" break="no"/>pyreum aliquid influit in alia. Quid autem fit illud, potest dic 
+      <lb ed="#L" n="4"/>quod lumen cum sit lucidum, &amp; si non adeo vt corpora astrorum 
+      <lb ed="#L" n="5"/>tamen potest in corpus sibi propinquum aliquod lumen in 
+      <lb ed="#L" n="6"/>fluere, &amp; mediante lumine aliquam virtute quam ignoramus 
+      <lb ed="#L" n="7"/>sicut ignoramus multa alia quae sunt nobis viciniora, vt cum 
+      <lb ed="#L" n="8"/>magnes attrahit ferrum, ignoramus quid influat.
+</p>
+            <p xml:id="jsnvu6-d1e2408-d1e224">
+               <lb ed="#L" n="9"/>Ad rationes in oppositum dicendum quod illud coelum agit 
+      <lb ed="#L" n="10"/>per lumen modo quo dictum est. Rationes etiam alterius 
+      opinio<lb ed="#L" n="11" break="no"/>nis non cogunt quod nullus debeat negare quod coelum 
+      emp<lb ed="#L" n="12" break="no"/>reum (quamuis fit ordinatum ad statum gloriae) non habeat ta 
+      <lb ed="#L" n="13"/>lem influentiam in alia corpora qualem habebunt post 
+      resur<lb ed="#L" n="14" break="no"/>rectionem caetera corpora inuicem, quia omnia corpora 
+      perti<lb ed="#L" n="15" break="no"/>nebunt tunc ad eundem statum, sed tunc corpora coelestia 
+      in<lb ed="#L" n="16" break="no"/>fluent lumen inuicem, sol enim illuminabit lunam &amp; corpor. 
+      <lb ed="#L" n="17"/>astrorum &amp; partes diaphanas superiorum, ergo coelum 
+      empy<lb ed="#L" n="18" break="no"/>reum potest nunc corpus propinquum sibi illuminare, nec 
+      ta<lb ed="#L" n="19" break="no"/>les actiones inducent generationem aut corruptionem 
+      substan<lb ed="#L" n="20" break="no"/>tiarum, quia sic influunt quod nihil auferunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e2408-d1e253">
+               <lb ed="#L" n="21"/>
+               <!--6--> Quod autem secundo dicitur quod nullum corpus agit nisi motum, 
+      <lb ed="#L" n="22"/>falsum est, &amp; hoc nunc supponitur, quia inferius probabitur. 
+      </p>
+            <p xml:id="jsnvu6-d1e2408-d1e262">
+               <lb ed="#L" n="23"/>
+               <!--7--> Argumentum pro alia parte concedatur propter 
+      conclusio<lb ed="#L" n="24" break="no"/>nem, tamen in hoc deficit quod dicit omnem locum esse conserua 
+      <lb ed="#L" n="25"/>tiuum locati, nihil enim conseruatur ab alio per se, nisi sit eius 
+      <lb ed="#L" n="26"/>causa p se, sicut sol conseruat lumen in aere. Per accidens 
+      autm<lb ed="#L" n="27" break="no"/>non conseruatur, nisi quod est corporale, quia talis 
+      conseruatio<lb ed="#L" n="28" break="no"/>fit impediendo actionem corrumpentis, propter quod cum coelum 
+      <lb ed="#L" n="29"/>empyreum non sit causa aliorum orbium, nec alij sint 
+      corrupti<lb ed="#L" n="30" break="no"/>biles, non habet rationem conseruantis, sed solum continentis 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

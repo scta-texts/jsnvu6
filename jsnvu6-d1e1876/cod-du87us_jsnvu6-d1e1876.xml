@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="89-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1876"><!-- l1d38q3 -->
+            <head xml:id="jsnvu6-d1e1876-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e1876-Hd1e103" type="question-title">Utrum Deus sciat futura contingentia</head>
+            <p xml:id="jsnvu6-d1e1876-d1e106">
+               <lb ed="#L" n="60"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="61"/>Vtrum Deus sciat futura contingentia. 
+      <lb ed="#L" n="62"/>Tham. 1. 4. 14. artic. 13.
+    </p>
+            <p xml:id="jsnvu6-d1e1876-d1e115">
+               <lb ed="#L" n="63"/>TERTIO quaeritur vtrum deus sciat futura 
+      con<lb ed="#L" n="64" break="no"/>tingentia. Et videtur quod non, quia omne scitum a 
+      <lb ed="#L" n="65"/>Deo ex necessitate eueniet, sed nullum futurum 
+      <lb ed="#L" n="66"/>contingens de necessitate eueniet, ergo nullum 
+      <lb ed="#L" n="67"/>s futurum contingens est a deo scitum, minor pa 
+      <lb ed="#L" n="68"/>tet ex proprus rationibus terminorum. Probatio maioris, 
+      ac<lb ed="#L" n="69" break="no"/>cipiamus aliquid futurum scitum a deo, puta quod sortes 
+      cur<lb ed="#L" n="70" break="no"/>ret cras, aut ergo necessario curret, aut possibile erit eum non 
+      <lb ed="#L" n="71"/>currere, si necessario curret habetur propositum, si non 
+      neces<lb ed="#L" n="72" break="no"/>sario, sed possibile est eum non currere, ponatur in esse, quia 
+      <lb ed="#L" n="73"/>secundum regulam Aristotelis possibili posito in esse, quod 
+      se<lb ed="#L" n="74" break="no"/>quitur non est impossibile: ponatur ergo in esse, quod sortes 
+      <lb ed="#L" n="75"/>non curret, sed deus scit quod curret, ergo scientia dei 
+      falli<lb ed="#L" n="76" break="no"/>tur, quod est impossibile. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e148">
+               <lb ed="#L" n="77"/>
+               <!--2--> Item omnis conditionalis, cuius antecedens est necessarium, 
+      <lb ed="#L" n="78"/>&amp; consequentia necessaria, &amp; ipsum consequens est necessa 
+      <lb ed="#L" n="79"/>rium, sed haec est quaedam conditionalis si deus praesciuit A 
+      fo<lb ed="#L" n="80" break="no"/>re A erit, cuius antecedens est aecessarium, tum quia aeternum, 
+      <!--00243.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>tum quia praeteritum, &amp; consequentia necessaria, quia 
+      opposi<lb ed="#L" n="82" break="no"/>tum consequentis non stat cum antecedente, ergo consequens est 
+      <lb ed="#L" n="83"/>necessarium, &amp; eodem modo arguam de quolibet futuro contingente. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e173">
+               <lb ed="#L" n="84"/>
+               <!--3--> Item ex maiore de necessario, &amp; minore de inesse sequitur 
+      <lb ed="#L" n="85"/>conclusio de necessario, vt dicitur primo priorum. Vnde sic, omne 
+      <lb ed="#L" n="86"/>scitum a deo, necessario est verum, sed A fore est scitum a deo, 
+      <lb ed="#L" n="87"/>ergo necessario est verum, quod A erit, &amp; sic idem quod prius. 
+      <lb ed="#L" n="88"/>Si dicatur quod haec est duplex, scitum a deo necessario est 
+      ve<lb ed="#L" n="89" break="no"/>rum, quia potest esse de deo, &amp; sic est vera &amp; composita sub hoc 
+      <lb ed="#L" n="90"/>sensu scitum a deo inquantum scitum necesse est esse verum, 
+      <lb ed="#L" n="91"/>vel potest esse de re, &amp; sic est diuisa &amp; falsa sub hoc sensu, id quod 
+      <lb ed="#L" n="92"/>est scitum a deo necesse est esse verum. Sed contra hoc 
+      argui<lb ed="#L" n="93" break="no"/>tur sic, ista distinctio solum habet locum in formis 
+      separabili<lb ed="#L" n="94" break="no"/>bus, sine quibus potest esse subiectum, non autem in formis 
+      <lb ed="#L" n="95"/>inseparabilibus, nullus enim distinguit hanc, cygnum album 
+      <lb ed="#L" n="96"/>possibile est esse nigrum, quia albedo non est separabilis a 
+      cy<lb ed="#L" n="97" break="no"/>gno, nisi secundum rationem, vnde quod non potest simul esse 
+      <lb ed="#L" n="98"/>cum albo non potest simul esse cum cygno, sed esse praescitum 
+      <lb ed="#L" n="99"/>est inseparabiliter conditio se habens ad omne futurum, ergo 
+      <lb ed="#L" n="100"/>illa distinctio non habet hic locum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e215">
+               <lb ed="#L" n="101"/>
+               <!--4--> IN CONTRARIVM est, quia illa quae fiunt ab 
+      <lb ed="#L" n="102"/>agente libero &amp; habente dominium sui actus possunt non 
+      fie<lb ed="#L" n="103" break="no"/>ri (haec enim est natura liberi arbitrij) sed multa fiunt ab 
+      a<lb ed="#L" n="104" break="no"/>gente libero, &amp; habente dominium sui actus (vt merita &amp; 
+      de<lb ed="#L" n="105" break="no"/>merita nostra) ergo possunt non fieri, fiunt ergo 
+      contingen<lb ed="#L" n="106" break="no"/>ter, sed talium deus habet cognitionem, quum remuneret 
+      me<lb ed="#L" n="107" break="no"/>rita, &amp; puniat demerita, &amp; ab aeterno cognoscit ea antequam 
+      <lb ed="#L" n="108"/>fiant, alioquin scientiae eius aliquid accresceret, ergo deus 
+      co<lb ed="#L" n="109" break="no"/>gnoscit futura contingentia. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e239">
+               <lb ed="#L" n="110"/>
+               <!--5--> RESPONSIO. ad solutionem huius quaestionis duo 
+      <lb ed="#L" n="111"/>praemittenda sunt. Primum est, quid vocamus futurum 
+      con<lb ed="#L" n="112" break="no"/>tingens, &amp; quot sunt modi futuri contingentis. Secundum est 
+      <lb ed="#L" n="113"/>de modo cognoscendi contingens. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e252">
+               <lb ed="#L" n="114"/>
+               <!--6--> Quantum ad primum sciendum quod antequam res fit in acti 
+      <lb ed="#L" n="115"/>secundum esse suae existentiae, solum habet esse in causis suis, 
+      <lb ed="#L" n="116"/>&amp; dicitur futura. Causarum autem inuenitur triplex gradus, 
+      <lb ed="#L" n="117"/>quaedam enim sunt causae necessariae in se, &amp; in ordine ad 
+      ef<lb ed="#L" n="118" break="no"/>fectum, sicut est motus coeli in comparatione ad eclipses, &amp; 
+      <lb ed="#L" n="119"/>ad alio effectus, qui ex motu orbium necessario eueniunt, &amp; 
+      <lb ed="#L" n="120"/>effectus praeexistentes in talibus causis sunt quidem futuri, sed 
+      <lb ed="#L" n="121"/>non contingentes, imo sunt necessarij. Aliae sunt causae quae non 
+      <lb ed="#L" n="122"/>sunt necessariae saltem per comparationem ad effectus, vt eos 
+      <lb ed="#L" n="123"/>necessario producant, imo possunt non producere, &amp; effectus 
+      <lb ed="#L" n="124"/>praeexistentes in talibus causis sunt futuri, &amp; contingentes. Et 
+      <lb ed="#L" n="125"/>horum est triplex differentia, quia quaedam causae 
+      contingen<lb ed="#L" n="126" break="no"/>tes determinatae sunt ad producendum suos effectus; vt 
+      fre<lb ed="#L" n="127" break="no"/>quenter, nec deficiunt nisi raro (vt quod homo generetur cum 
+      <lb ed="#L" n="128"/>quinque digitis solum) hoc enim euenit vt in pluribus, raro au 
+      <lb ed="#L" n="129"/>tem euenit vt generetur cum pluribus, vel paucioribus quam 
+      <lb ed="#L" n="130"/>quinque, effectus igitur talium causarum dum praeexistunt in 
+      <lb ed="#L" n="131"/>eis sunt futuri &amp; contingentes, sed quidam eorum sunt contin 
+      <lb ed="#L" n="132"/>gentes frequenter, quidam vero raro, aliae vero sunt causae qui 
+      <lb ed="#L" n="133"/>de se nullam habent determinationem ad hunc effectum 
+      pro<lb ed="#L" n="134" break="no"/>ducendum vel non producendum, sed indifferenter sese habeni 
+      <lb ed="#L" n="135"/>ad vtrunque, sicut est liberum arbitrium, vt sortes potest 
+      curre<lb ed="#L" n="136" break="no"/>re, vel non currere, &amp; effectus praeexistentes in talibus causis 
+      <lb ed="#L" n="137"/>sunt futuri &amp; contingentes ad vtrumlibet, sunt ergo in 
+      vniuer<lb ed="#L" n="138" break="no"/>so futura contingentia quaedam frequenter, quaedam raro, 
+      quae<lb ed="#L" n="139" break="no"/>dam ad vtrumlibet. Patet etiam quod contingens ad 
+      vtrumli<lb ed="#L" n="140" break="no"/>bet nunquam dicitur per comparationem ad causam agentem 
+      <lb ed="#L" n="141"/>ex necessitate naturae, illa enim semper est determinata ad 
+      <lb ed="#L" n="142"/>vnum, nisi impediatur quod fit vt raro, sed dicitur per 
+      compa<lb ed="#L" n="143" break="no"/>rationem ad causam agentem libere, quae potest agere &amp; non 
+      <lb ed="#L" n="144"/>agere, quae vt fit nunquam aliquid producit, quum sit aeque in 
+      <lb ed="#L" n="145"/>differens ad opposita, propter quod qua ratione producere 
+      <lb ed="#L" n="146"/>vnum &amp; alterum. Quantum ad secundum, scilicet de modo co 
+      <lb ed="#L" n="147"/>gnoscendi contingens, sciendum est quod contingens &amp; quaelibet re 
+      <lb ed="#L" n="148"/>alia potest cognosci dupliciter. Vno modo in causa sua. Alic 
+      <lb ed="#L" n="149"/>modo in sua existentia. Alio enim modo cognosco de milite, qui 
+      <lb ed="#L" n="150"/>debeat pugnare quando video eum armari, &amp; alio modo 
+      quan<lb ed="#L" n="151" break="no"/>do video eum actu pugnare. 
+</p>
+            <p xml:id="jsnvu6-d1e1876-d1e339">
+               <lb ed="#L" n="152"/>His suppositis descendendum est ad quaestionem, circa quam 
+      <lb ed="#L" n="153"/>primo inquiretur vtrum de futuris contingentibus possit 
+      ha<lb ed="#L" n="154" break="no"/>beri certa cognitio solum ex causis suis. Secundo vtrum deus 
+      <lb ed="#L" n="155"/>habeat cognitionem de futuris contingentibus secundum suam, 
+      <lb ed="#L" n="156"/>actualem &amp; propriam existentiam. &amp; tertio quomodo stat 
+      cer<lb ed="#L" n="157" break="no"/>titudo diuinae scientiae cum contingentia rerum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e355">
+               <lb ed="#L" n="158"/>
+               <!--8--> Quantum ad primum dicunt quidam quoed de contingente non 
+      <lb ed="#L" n="159"/>poteit haberi certa cognitio per causam suam, sed solum 
+      con<lb ed="#L" n="160" break="no"/>iecturalis, quod probant sic, quicunque cognoscit rem aliquam 
+      <lb ed="#L" n="161"/>per talem causam qua posita effectus vel res illa potest poni 
+      <lb ed="#L" n="162"/>vel non poni, non habet de illa re certam cognitionem sed falli¬ 
+      <!--00244.xml-->
+      <pb ed="#L" n="89-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>bilem &amp; coniecturalem, sed qui cognoscit futurum contingens 
+      <lb ed="#L" n="2"/>solum per causam suam cognoscit ipsum solum per talem causam 
+      <lb ed="#L" n="3"/>qua posita adhuc contingens potest poni vel non poni, cum sit 
+      <lb ed="#L" n="4"/>impedibilis, ergo &amp;c. Et ideo dicitur quod si deus haberet solum 
+      <lb ed="#L" n="5"/>cognitionem de futuro contingente per causam suam contingen 
+      <lb ed="#L" n="6"/>tem &amp; impedibilem non haberet de eo certam cognitionem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e391">
+               <lb ed="#L" n="7"/>
+               <!--9--> Sed istud non videtur, quia sicut ex causa necessaria sequitur 
+      <lb ed="#L" n="8"/>effectum necessarius infallibiliter, sic ex causa impedibili 
+      deter<lb ed="#L" n="9" break="no"/>minata ad vnum si non sit impedita, sequitur effectus 
+      contin<lb ed="#L" n="10" break="no"/>gens infallibiliter, nisi quod haec infallibilitas est ex 
+      suppositio<lb ed="#L" n="11" break="no"/>ne, prima autem est secundum se &amp; absolute, &amp; eodem modo a 
+      cau<lb ed="#L" n="12" break="no"/>sa indifferente &amp; impedibili si determinetur &amp; non impediatur 
+      <lb ed="#L" n="13"/>sequitur suus proprius effectus infallibiliter, igitur sicut in cau 
+      <lb ed="#L" n="14"/>sa necessaria praecognoscitur effectus necessarius certa cognitio 
+      <lb ed="#L" n="15"/>ne, sic cognita causa impedibili, &amp; omnibus quae eam impedire pos 
+      <lb ed="#L" n="16"/>sunt, &amp; insuper ea quae ea impedient, vel non impedient, 
+      certitu<lb ed="#L" n="17" break="no"/>dinaliter potest cognosci quis effectus eueniet vel non euenier 
+      <lb ed="#L" n="18"/>&amp; si militer cognita causa indifferente &amp; impedibili si cum ea 
+      co<lb ed="#L" n="19" break="no"/>gnoscantur omniaquae eam determinare possunt &amp; determinabunt. 
+      <lb ed="#L" n="20"/>&amp; omnia quae eam impedire possunt &amp; quae impedient vel non 
+      iun<lb ed="#L" n="21" break="no"/>pedient, potest infallibiliter cognosci quis effectus eueniet. Nunm 
+      <lb ed="#L" n="22"/>autem deus non solum cognoscit causam contingentem in se &amp; abs 
+      <lb ed="#L" n="23"/>lute, quia sic in ea vel per eam non cognosceretur infallibiliter ali 
+      <lb ed="#L" n="24"/>quis effectus nisi tantu coniectura probabili (vt bene dicunt alij 
+      <lb ed="#L" n="25"/>sed cognoscit omnia quae eam determinare possunt &amp; quae deter 
+      <lb ed="#L" n="26"/>minabut, insuper cognoscit omnia quae eam impedire possunt &amp; qui 
+      <lb ed="#L" n="27"/>impedient vel non impedient, ergo deus in causa contingente sic co 
+      <lb ed="#L" n="28"/>gnita potest certitudinaliter cognoscere effectum futurum 
+      con<lb ed="#L" n="29" break="no"/>tingentem. Item deus non cognoscit alia a se nisi per cognitionem su 
+      <lb ed="#L" n="30"/>essentiae, futura ergo contingentia si nouit, nouit per notitiam su 
+      <lb ed="#L" n="31"/>essentiae, aut ergo per hoc quod essentia sua est eorum causa, aut per 
+      <lb ed="#L" n="32"/>hoc quod est eorum exemplar, non per hoc quod est eorum exemplar, vt 
+      <lb ed="#L" n="33"/>probatum fuit supra dist. 33. ergo per hoc quod est eorum causa, 
+      <lb ed="#L" n="34"/>ergo prima imo tota cognitio quam habet deus de futuris con 
+      <lb ed="#L" n="35"/>tingentibus est per eorum causam, &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e459">
+               <lb ed="#L" n="36"/>
+               <!--11--> QVANTVM ad secundum, scilicet vtrum deus 
+      cogno<lb ed="#L" n="37" break="no"/>scat futura contingentia quantum ad eorum actualem existentiam. 
+      <lb ed="#L" n="38"/>Sciendum quod potest habere duplicem intellectum, vnum vtrum 
+      <lb ed="#L" n="39"/>deus cognoscat futura contingentia quantum ad suam 
+      actual<lb ed="#L" n="40" break="no"/>existentia, id est, ea actu existere, &amp; sic constat quod uon, quia intel 
+      <lb ed="#L" n="41"/>lectus dicens esse quod non est, est falsus, sed futura contingentia 
+      <lb ed="#L" n="42"/>nondum sunt actu, alioquin non essent futura sed praesentia, erge 
+      <lb ed="#L" n="43"/>si deus intelligeret ea actu existeret intellectus eius esset falsus, 
+      <lb ed="#L" n="44"/>quod est impossibile, deus ergo non cognoscit futura contingem 
+      <lb ed="#L" n="45"/>tia quantum ad eorum actualem existentiam sic quod 
+      cogno<lb ed="#L" n="46" break="no"/>scat ea actu existere. Alius potest esse intellectus, scilicet quod deus 
+      <lb ed="#L" n="47"/>cognoscat futura contingentia quantum ad suam actualem 
+      exi<lb ed="#L" n="48" break="no"/>stentiam non quod deus cognoscat ea iam actu existere, sed 
+      qui<lb ed="#L" n="49" break="no"/>deus ab aeterno nouit illam propriam &amp; distinctam &amp; actuale 
+      <lb ed="#L" n="50"/>existentiam quam habebunt processu temporis in seipsis, &amp; hoc 
+      <lb ed="#L" n="51"/>modo deus cognoscit futura contingentia quantum ad eorum 
+      <lb ed="#L" n="52"/>actualem existentiam. Cuius ratio est, constat enim quod 
+      deu<lb ed="#L" n="53" break="no"/>cognoscit contingens dum est praesens puta sortem currere, 
+      <lb ed="#L" n="54"/>alioquin ego cognoscerem illud quod deus ignoraret, si ergo 
+      <lb ed="#L" n="55"/>non cognoscebat hoc prius quando fuit futurum; sequeretur 
+      <lb ed="#L" n="56"/>quod aliquid accreuisset suae scientiae quod est impossibile. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e509">
+               <lb ed="#L" n="57"/>
+               <!--12--> Quidam tamen dicunt quod quantum ad istam cognitio 
+      <lb ed="#L" n="58"/>nem requiritur quod res creatae sint praesentes deo quantum ad 
+      <lb ed="#L" n="59"/>suas proprias &amp; actuales existentias, quia prima cognitio qua 
+      <lb ed="#L" n="60"/>est per causam, est vel esse potest rei absentis, ista autem 
+      secun<lb ed="#L" n="61" break="no"/>da cognitio est rei tantum praesentis. Qualiter autem futura 
+      con<lb ed="#L" n="62" break="no"/>tingentia possint esse deo praesentia ab aeterno, secundum suas 
+      <lb ed="#L" n="63"/>proprias &amp; actuales existentias declarant sic, aeternitas est dura 
+      <lb ed="#L" n="64"/>tio indiuisibilis tota simul existens, &amp; ideo quicquid coexisti 
+      <lb ed="#L" n="65"/>aeternitati coexistit toti, constat autem quod omnia quae 
+      tempora<lb ed="#L" n="66" break="no"/>liter sunt, aeternitati coexistunt eo quod ipsa semper existit, 
+      pro<lb ed="#L" n="67" break="no"/>pter quod quicquid quandoque existit coexistit aeternitati, igitu 
+      <lb ed="#L" n="68"/>quaecunque sunt per differentias temporum toti aeternitati 
+      coexi<lb ed="#L" n="69" break="no"/>stunt, sed non coexisterent toti nisi ab aeterno coexisterent ei, er 
+      <lb ed="#L" n="70"/>go quaecunque sunt secundum differentias temporum, ad 
+      aeternie<lb ed="#L" n="71" break="no"/>coexistunt deo cuius esse &amp; cognitio sunt in aeternitate, &amp; 
+      ho<lb ed="#L" n="72" break="no"/>est quod consuetum est dici, quod aeternitas tota simul existens 
+      <lb ed="#L" n="73"/>ambit totum tempus, sic igitur dicunt quod futura contingenti: 
+      <lb ed="#L" n="74"/>sunt ab aeterno deo praesentia secundum actualem suam 
+      existen<lb ed="#L" n="75" break="no"/>tiam, ac per hoc sunt ab eo determinate cognita, quia vt actu 
+      <lb ed="#L" n="76"/>esunt non sunt ad vtrumlibet, sed iunt determinata ad vnum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e557">
+               <lb ed="#L" n="77"/>
+               <!--13--> Sed hic videtur esse dupiex defectus. Vnus est de hoc quod 
+      <lb ed="#L" n="78"/>dicitur quod futura sunt ab aeterno deo praesentia secundum suum 
+      <lb ed="#L" n="79"/>esse actuale, quia quod nihil est in se nulli potest realiter &amp; 
+      <lb ed="#L" n="80"/>actualiter coexistere. coexistere enim praesupponit existere, sed 
+      <lb ed="#L" n="81"/>futura non soluin contingentia, sed quaecunque generantur, ab 
+      <lb ed="#L" n="82"/>aeterno iulul fuerunt in se secundum esse actuale, sed solum in 
+      <!--00244.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>potentia dei creantis, ergo non potuerunt ab aeterno deo 
+      coexi<lb ed="#L" n="84" break="no"/>ste re secundum praesentialitatem suae actualis existentiae. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e583">
+               <lb ed="#L" n="85"/>
+               <!--14--> Item quaecunque coexistunt vni &amp; eidem sic quod nunquam est 
+      <lb ed="#L" n="86"/>verum de vno eorum quod coexistat illi, quin sit verum de altero, illa 
+      ne<lb ed="#L" n="87" break="no"/>cessario coexistunt sibi, sed si omnia coexistunt deo ab aeterno non 
+      <lb ed="#L" n="88"/>est verum dicere, quod dies hodiernus coextiterit vel coexistat deo, 
+      <lb ed="#L" n="89"/>quin illud idem sit verum de die hesterno, ergo dies hodiernus &amp; 
+      <lb ed="#L" n="90"/>hesternus simul sibi inuicem coextiterunt &amp; coexistunt, hoc aucem 
+      <lb ed="#L" n="91"/>est impossibile, ergo &amp; illud ex quo sequitur, scilicet quod omnia 
+      <lb ed="#L" n="92"/>ab aeterno realiter coexistant deo. major patet, quando enim duo 
+      <lb ed="#L" n="93"/>coexistunt tertio sic qud vno eorum coexistente, aliud non coexistit 
+      <lb ed="#L" n="94"/>tunc non oportet quod illa duo coexistentia sibi inuicem, sicut 
+      <lb ed="#L" n="95"/>durationi meae coextitit pascha &amp; penthecostes, sed coexistente 
+      <lb ed="#L" n="96"/>vno aliud non coexistebat, &amp; ideo non oportet quod sibi inuicem coexi 
+      <lb ed="#L" n="97"/>stant, sed si nunquam vnum coexisteret mihi, quin aliud similiter 
+      <lb ed="#L" n="98"/>pro tunc mihi coexisteret, necesse esset quod illa sibi inuicem simul 
+      <lb ed="#L" n="99"/>coexisterent, &amp; haec fuit maior minor autem de se manifesta est, 
+      <lb ed="#L" n="100"/>si enim semper &amp; ab aeterno omnia coexistunt deo nunquam 
+      <lb ed="#L" n="101"/>vnum coexistet, quin aliud coexistat, sequitur ergo conclusio¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e625">
+               <lb ed="#L" n="102"/>
+               <!--15.--> Item simultas (cum sit relatio) requirit extrema in actu, si 
+      <lb ed="#L" n="103"/>sit actualis simultas, sed creaturae non fuerunt ab aeterno in 
+      actua<lb ed="#L" n="104" break="no"/>li existentia, ergo non fuerunt simul cum eo¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e637">
+               <lb ed="#L" n="105"/>
+               <!--16--> Alius defectus est, quia dato quod futura hoc modo essent 
+      <lb ed="#L" n="106"/>praesentia deo ab aeterno, istud tamen nihil facetet ad hoc, vt 
+      <lb ed="#L" n="107"/>determinate &amp; certitudinaliter cognoscerentur ab ipso, propter 
+      <lb ed="#L" n="108"/>quod tamen illud ponitur, quia cognitio rerum a deo in nullo depen 
+      <lb ed="#L" n="109"/>det ab existentia rerum, vnde dato quod deus nihil produxisset aut 
+      <lb ed="#L" n="110"/>pducturus esset, nihilominus deus habuisset ita perfectam &amp; 
+      de<lb ed="#L" n="111" break="no"/>terminatam cognitionem de rebus quantum ad earum 
+      quiddi<lb ed="#L" n="112" break="no"/>tates, &amp; quantum ad existentiam actualem quam habere posse 
+      <lb ed="#L" n="113"/>sicut nunc habet, alioquin futuritio rerum secundum aliquam 
+      <lb ed="#L" n="114"/>differentiam temporis esset causa distinctae cognitionis in deo, 
+      <lb ed="#L" n="115"/>quod est inconueniens, &amp; tamen si nihil fuisset aut futurum esset 
+      <lb ed="#L" n="116"/>res non essent deo praesentes ab aeterno realiter secundum 
+      ali<lb ed="#L" n="117" break="no"/>quod esse actuale, quia nullum habiturae essent in tempore, &amp; illa 
+      <lb ed="#L" n="118"/>praesentia non ponitur nisi quia aeternitas ambit totum tempus, 
+      <lb ed="#L" n="119"/>propter quod quicquid ponitur esse secundum aliquam 
+      differen<lb ed="#L" n="120" break="no"/>tiam temporis, ponitur semper esse praesens aeternitati, cum igitur 
+      <lb ed="#L" n="121"/>idem sit apud cognitionem diuinam, posita praesentia rerum, ve 
+      <lb ed="#L" n="122"/>non posita, si ustra ponuntur futura contingentia esse ab 
+      aeter<lb ed="#L" n="123" break="no"/>no deo praesentia ad hoc vt sint ab eo determinate cognita 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e683">
+               <lb ed="#L" n="124"/>
+               <!--17.--> Ad rationem in oppositum cum dicit quicquid coexistit 
+      aeter<lb ed="#L" n="125" break="no"/>nitati, coexistit toti, &amp; quicquid coexistit toti, coexistit ao aete 
+      <lb ed="#L" n="126"/>no ei. Dicendum quod cum aeternitas sit duratio non habens parti 
+      <lb ed="#L" n="127"/>&amp; partem intra se, nec habens principium &amp; finem quibus clauda 
+      <lb ed="#L" n="128"/>tur, ideo totalitas aeternitatis potest accipi dupliciter. Vno mo 
+      <lb ed="#L" n="129"/>do excludendo partem. Alio modo excludendo principium &amp; finem. Ei 
+      <lb ed="#L" n="130"/>secundum hoc dupliciter dicitur aliquid coexistere toti aeternit. 
+      <lb ed="#L" n="131"/>ti. Vno modo, quia non coexissit vni parti tantum, &amp; sic quicquid 
+      <lb ed="#L" n="132"/>coexistit aeternitati, coexistit toti. quia non coexistit parti tantum 
+      <lb ed="#L" n="133"/>eo quoed aeternitas partes non habet. Alio modo dicitur aliquid co 
+      <lb ed="#L" n="134"/>xistere toti aeternitati, quia coexistit ei, vt non habet principium 
+      <lb ed="#L" n="135"/>nec finem, &amp; sic quicquid coexistit toti aeternitati, coexistit ei al 
+      <lb ed="#L" n="136"/>aeterno sine principio, &amp; coexistet inaeternum sine fine, sed 
+      ho<lb ed="#L" n="137" break="no"/>modo non quicquid coexistit aeternitati, coexistit toti, quia 
+      tem<lb ed="#L" n="138" break="no"/>poralia quae quandoque sunt, &amp; pro tunc coexistunt aeternitatis 
+      <lb ed="#L" n="139"/>quia sunt dum aeternitas est, licet coexistant toti aeternitati prou 
+      <lb ed="#L" n="140"/>coexistunt ei non secundum partem, cum non coexistunt ei toti, vt non 
+      <lb ed="#L" n="141"/>est habens principium nec finem, &amp; ideo non coexistunt ei ab aeterno 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e727">
+               <lb ed="#L" n="142"/>
+               <!--18--> Sic igitur patet qualiter deus cognoscit futura contingentia, 
+      <lb ed="#L" n="143"/>quia cognoscit ea determinate quantum ad suas proprias &amp; 
+      de<lb ed="#L" n="144" break="no"/>terminatas actualitates quas habebunt; nec cognoscit eam per 
+      <lb ed="#L" n="145"/>hoc quod sint ei ab aeterno praesentia realiter, sed per hoc quod 
+      <lb ed="#L" n="146"/>essentia diuina, vt causa est sufficiens ratio repraesentandi 
+      intel<lb ed="#L" n="147" break="no"/>lectui diuino determinate singula modo quo dictum fuit prius 
+      <lb ed="#L" n="148"/>De caeteris singularibus licet etiam essentia diuina sit prima &amp; 
+      <lb ed="#L" n="149"/>sufficiens ratio intelligendi ea, tamen nihil prohibet, quod deus 
+      <lb ed="#L" n="150"/>ea cognoscat in causis creatis contingentibus, cognitio tamen 
+      <lb ed="#L" n="151"/>vtrorunque dependet a cognitione diuinae essentiae. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e753">
+               <lb ed="#L" n="152"/>
+               <!--19--> QVANTVM ad tertium, scilicet an scientia dei 
+      impo<lb ed="#L" n="153" break="no"/>nat necessitatem rebus scitis. Notandum quod scientia dei 
+      com<lb ed="#L" n="154" break="no"/>paratur ad res dupliciter. Vno modo, vt causa. Alio modo, vt co 
+      <lb ed="#L" n="155"/>gnitio infallibilis &amp; certa, &amp; neutro eorum modorum imponit 
+      <lb ed="#L" n="156"/>necessitatem rebus. Quod non vt causa patet primo sic, aliqua fu 
+      <lb ed="#L" n="157"/>tura dependent a solo deo sicut a causa, alia vero dependent ab 
+      <lb ed="#L" n="158"/>ipso mediantibus causis secudis, sed scientia diuina neutris 
+      im<lb ed="#L" n="159" break="no"/>ponit necessitatem, ergo &amp;c. Minor probatur quantum ad 
+      vtran<lb ed="#L" n="160" break="no"/>que partem, quod enim scientia dei vt causa non imponat 
+      ne<lb ed="#L" n="161" break="no"/>cessitatem futuris quae dependent a solo deo, probatur sic, 
+      <lb ed="#L" n="162"/>scientia dei non est causa eorum quae fiunt a deo, nisi 
+      median<lb ed="#L" n="163" break="no"/>te voluntate, vt patet ex supradictis, sed voluntas dei non 
+      ne<lb ed="#L" n="164" break="no"/>cessario vult quicquid deus scit, sed libere vult. &amp; potest non 
+      <!--00245.xml-->
+      <pb ed="#L" n="90-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>velle omne aliud ab ipso, ergo scientia dei, vt causa non 
+      impo<lb ed="#L" n="2" break="no"/>nit necessitatem rebus futuris, vnde coelum &amp; angeli qui inter 
+      <lb ed="#L" n="3"/>omnes res creatas videntur esse effectus necessaij non sunt 
+      <lb ed="#L" n="4"/>necessario producti, sed libere, nisi forte necessitate 
+      supposi<lb ed="#L" n="5" break="no"/>tionis supposito enim quod deus voluerit ea producere, 
+      ne<lb ed="#L" n="6" break="no"/>cessarium est quod producantur non necessitate absoluta, sed 
+      <lb ed="#L" n="7"/>necessitate praedictae suppositionis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e808">
+               <lb ed="#L" n="8"/>
+               <!--20--> Item patet de his quae producuntur a deo medianmus cau 
+      <lb ed="#L" n="9"/>sis secundis sic, omnis effectus futurus contingens &amp; contingente 
+      <lb ed="#L" n="10"/>eueniens, cuius aliqua causa per se est impedibilis potest imp 
+      <lb ed="#L" n="11"/>diri, sed eorum quae fiunt a deo mediantibus causis secundis mult 
+      <lb ed="#L" n="12"/>sunt quae praeter scientiam diuinam habent causas impedibiles, vel 
+      <lb ed="#L" n="13"/>per actionem contrarij, vel per dispositionem materiae, ergo 
+      tali<lb ed="#L" n="14" break="no"/>non obstante causalitate diuinae scientiae contingenter eueniunt 
+      <lb ed="#L" n="15"/>Minor de se patet, sed maior probatur, quia euenire 
+      contingen<lb ed="#L" n="16" break="no"/>ter est euenirae cum possibilitate deficiendi, sed effectus qui de 
+      <lb ed="#L" n="17"/>pendet ex pluribus causis quacunque earum exissente impedibili 
+      <lb ed="#L" n="18"/>&amp; ita ponente deficere potest non euenire, &amp; ita cum euenit. 
+      <lb ed="#L" n="19"/>euenit cum possibilitate deficiendi, quare &amp;c. Scientia igitur 
+      <lb ed="#L" n="20"/>dei, vt causa non imponit rebus aliquam necessitatem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e841">
+               <lb ed="#L" n="21"/>
+               <!--21--> Item nec prout est cognitio, infallibilis &amp; certa quod est 
+      dif<lb ed="#L" n="22" break="no"/>ficilius, non enim videntur posse stare simul, quod res possit alite 
+      <lb ed="#L" n="23"/>euenire, quam praescita scit, &amp; quod praescientia non possit falli, 
+      pro<lb ed="#L" n="24" break="no"/>pter quod est intelligendum quod in deo ponimus duplicem 
+      cogni<lb ed="#L" n="25" break="no"/>tionem. Vnam qua apprehendit absolute rerum quidditates 
+      <lb ed="#L" n="26"/>essentias quae potest vocari indiuisibilium intelligentia. Aliam 
+      <lb ed="#L" n="27"/>qua apprehendit habitudines rerum, secundum quas possunt 
+      ad<lb ed="#L" n="28" break="no"/>inuicem componi vel diuidi, &amp; componuntur vel diuiduntur pro 
+      <lb ed="#L" n="29"/>aliquo tempore, &amp; hae duae cognitiones licet non differant ex 
+      <lb ed="#L" n="30"/>parte dei, qui omnia vno simplici intuitu cognoscit, tamen dif 
+      <lb ed="#L" n="31"/>ferunt ex parte cognitorum. Prima autem harum cognitionum 
+      <lb ed="#L" n="32"/>nulli rei necessitatem imponit, &amp; tamen non potest falli, quia sul 
+      <lb ed="#L" n="33"/>rima cognitione non cadit rem euenire vel non euenire, sed 
+      so<lb ed="#L" n="34" break="no"/>lum natura rei quantum ad suum quod quid est, &amp; ideo siue 
+      re<lb ed="#L" n="35" break="no"/>eueniat, siue non, talis cognitio non fallitur. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e879">
+               <lb ed="#L" n="36"/>
+               <!--22--> Item nec secunda cognitione imponit necessitatem, nec 
+      <lb ed="#L" n="37"/>fallitur. Cuius ratio est, quia circa eandem rem stant simul 
+      ne<lb ed="#L" n="38" break="no"/>cessitas suppositionis, &amp; contingentia simpliciter, sed de eo quod el 
+      <lb ed="#L" n="39"/>necessarium ex suppositione, potest haberi certa &amp; Infalibili 
+      <lb ed="#L" n="40"/>cognitio, ergo infallibilis &amp; certa cognitio de aliqua re potes 
+      <lb ed="#L" n="41"/>stare cum contingentia, cuius simpliciter. Maior patet, quia 
+      sor<lb ed="#L" n="42" break="no"/>tem currere dum currit necessarium est ex suppositione, &amp; 
+      vni<lb ed="#L" n="43" break="no"/>uersaliter omne quod est quando est, necessario est noii 
+      simpli<lb ed="#L" n="44" break="no"/>citer, sed ex suppositione, sortem tamen currere est simplicite 
+      <lb ed="#L" n="45"/>contingens, libere enim currit, ergo circa eandem rem stant simu 
+      <lb ed="#L" n="46"/>necessitas suppositionis &amp; contingentia simpliciter, &amp; haec fui 
+      <lb ed="#L" n="47"/>maior. Minor similiter patet, quia de cursu sortis dum est, potes 
+      <lb ed="#L" n="48"/>haberi &amp; determinata &amp; infallibilis cognitio, quia necessarium 
+      <lb ed="#L" n="49"/>est sortem currere supposito quod currat, ita quod pro illo tempore 
+      <lb ed="#L" n="50"/>non potest non currere, &amp; sicut est de praesenti cursu sortis, quod pro 
+      <lb ed="#L" n="51"/>test infallibiliter cognosci propter suam determinationem &amp; 
+      ne<lb ed="#L" n="52" break="no"/>cessitatem suppositionis, sic est de omni futuro quantuncunqui 
+      <lb ed="#L" n="53"/>simpliciter contingente, si respectu eius possit inueniri aliqua ne 
+      <lb ed="#L" n="54"/>cessitas suppositionis, inuenitur autem respectu cognitionis diui 
+      <lb ed="#L" n="55"/>nae, qua vt prius dictum fuit a causa impedibili, &amp; simpliciter quo 
+      <lb ed="#L" n="56"/>ad hoc contingente supposito, quod non sit impedita, sequitur effe 
+      <lb ed="#L" n="57"/>ctus infallibiliter &amp; necessario necessitate praedictae 
+      supposi<lb ed="#L" n="58" break="no"/>tionis, &amp; similiter a causa indifferente &amp; ad vtrumlibet (suppo 
+      <lb ed="#L" n="59"/>sito quod determinetur, &amp; non impediatur) sequitur infallibilite 
+      <lb ed="#L" n="60"/>determinatus effectus, intellectus ergo cui notae sunt praedictae 
+      <lb ed="#L" n="61"/>suppositiones potest infallibiliter quodcunque futurum cogno 
+      <lb ed="#L" n="62"/>scere, sicut visus meus, qui videt sortem currere infallibilite 
+      <lb ed="#L" n="63"/>nouit cursum sortis, talis autem est intellectus diuinus, qui non 
+      <lb ed="#L" n="64"/>solum nouit causam futuri contingentis secundum se, sed noui 
+      <lb ed="#L" n="65"/>perfecte omnem cursum omnium causarum quae possunt 
+      impe<lb ed="#L" n="66" break="no"/>dire vel non, &amp; quae impedient vel non impedient, etiam quae 
+      <lb ed="#L" n="67"/>determinabunt liberum arbitrium nostrum vt angeli, &amp; quae non 
+      <lb ed="#L" n="68"/>propter quod infallibiliter cognoscit omne futurum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e955">
+               <lb ed="#L" n="69"/>
+               <!--23--> Causa autem horum est vniuersalitas diuinae cognitionis 
+      <lb ed="#L" n="70"/>quam nihil subterfugit, sicut enim est de causa vt deficiat in cau 
+      <lb ed="#L" n="71"/>fando, sic est de cognitione vt fallatur in iudicando de 
+      productio<lb ed="#L" n="72" break="no"/>ne effectus per causam suam. Causa autem cuius ordinem nihil sub 
+      <lb ed="#L" n="73"/>terfugit, non potest deficere vel impediri in causando, quia omni 
+      <lb ed="#L" n="74"/>causa quae impeditur, impeditur per aliquid quod 
+      subterfugi<lb ed="#L" n="75" break="no"/>ordinem suae causalitatis. Et ideo vna causa particularis impedi 
+      <lb ed="#L" n="76"/>aliam, sed nulla impedit causam vniuersalem, sub cuius ordine 
+      <lb ed="#L" n="77"/>vtraque continetur. Verbi gratia, ponamus quod sit aliqua 
+      constel<lb ed="#L" n="78" break="no"/>latio quae fecit istam herbam florere propter suam caliditatem 
+      <lb ed="#L" n="79"/>ex motu autem corporis coelestis superuenit alia constellatio qui 
+      <lb ed="#L" n="80"/>sua frigiditate impedit herbam ne vltra floreat, sed potius vt flo 
+      <lb ed="#L" n="81"/>decidat, hic vna causa particularis impedit aliam, quia vna non 
+      <lb ed="#L" n="82"/>continetur sub alia. Sed nunquid propter hoc impeditur effe¬ 
+      <!--00245.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>ctus corporis coelestis, quod continet vtranque constellationem? 
+      <lb ed="#L" n="84"/>non, sed impletur, quia effectus eius fuit, vt vsque ad hoc 
+      flore<lb ed="#L" n="85" break="no"/>ret, &amp; postea decideret: &amp; ideo adhibuit contrarias causas 
+      par<lb ed="#L" n="86" break="no"/>ticulares, quarum vna aliam impediret, vtraque tamen 
+      subser<lb ed="#L" n="87" break="no"/>uiret causae vniuersali. Et est simile in agente a proposito. 
+      vol<lb ed="#L" n="88" break="no"/>comburere medietatem alicuius ligni, &amp; ideo adhibeo ignem, 
+      <lb ed="#L" n="89"/>quantum est de se combureret totum lignum, nii impediretur, 
+      <lb ed="#L" n="90"/>sed quum iam combussit medietatem, appono aquam 
+      extin<lb ed="#L" n="91" break="no"/>guentem ipsum, impeditur ergo effectus ignis, sed non meus, 
+      <lb ed="#L" n="92"/>mo completur omnino. sic est de qualibet causa, quod nunquam 
+      <lb ed="#L" n="93"/>potest impediri, nisi per illud quod subterfugit ordinem suae cau 
+      <lb ed="#L" n="94"/>salitatis, &amp; sicut est de causalitate in producendo effectum, sic 
+      <lb ed="#L" n="95"/>est de cognitione in iudicando de productione effectus, quia si 
+      <lb ed="#L" n="96"/>aliquis cognoscat particulariter &amp; solum causam effectus 
+      tutu<lb ed="#L" n="97" break="no"/>ri contingentis, pote st decipi in iudicando de productione esffe 
+      <lb ed="#L" n="98"/>ctus, sicut causa impedin in producendo, &amp; sic nos decipinur, 
+      <lb ed="#L" n="99"/>sed intelligens qui nouit hanc &amp; alias quae impedire possunt, &amp; 
+      <lb ed="#L" n="100"/>vniuersaliter totum concursum causarum prouenientem ex 
+      <lb ed="#L" n="101"/>ordine superioris causae quaecunque sit illa, taus intellectus non 
+      <lb ed="#L" n="102"/>potest decipi, sicut nec ordo ille impediri, &amp; talis est intellectu 
+      <lb ed="#L" n="103"/>diuinus respectu omnium generaliter, &amp; forte intellectus ange 
+      <lb ed="#L" n="104"/>licus respectu omnium pure naturalium, 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e1042">
+               <lb ed="#L" n="105"/>
+               <!--24--> Ad primum argumentum cum dicitur omuae scitum a deo 
+      <lb ed="#L" n="106"/>de necessitate euenmet. Dicendum quod falsum est, loquendo de 
+      ne<lb ed="#L" n="107" break="no"/>cessitate absoluta &amp; simpliciter, imo sicut scitum est euaenire, 
+      <lb ed="#L" n="108"/>sic eueniet, &amp; ideo quod scitum est euenire necessario, 
+      necessa<lb ed="#L" n="109" break="no"/>rio eueniet, &amp; quod scitum est euenire contingenter, eueniae 
+      <lb ed="#L" n="110"/>contingenter, alioquin scientia dei falleretur, quae non sulum est 
+      <lb ed="#L" n="111"/>de euentu rerum, sed etiam de modo euentus. Et quod dicitur 
+      <lb ed="#L" n="112"/>vlterius, si non necessario euenit, potest non euenire, ponatur ergo 
+      <lb ed="#L" n="113"/>in esse. Dicendum quod si ponatur in esse illo modo qui est possibulae. 
+      <lb ed="#L" n="114"/>non sequitur aliquod impossibile. est autem possibile, non euenire 
+      <lb ed="#L" n="115"/>loquendo simpliciter &amp; absolute, sed stante suppositione non est 
+      <lb ed="#L" n="116"/>possibile, &amp; ideo sic non est ponendum. si enim praescitum est 
+      <lb ed="#L" n="117"/>euenire, praeuisus est ordo causarum talis, quo posito &amp;t stante 
+      <lb ed="#L" n="118"/>non potest illud non euenire, sed necessario euemet necessitat. 
+      <lb ed="#L" n="119"/>suppositionis praedictae, quae stat cum contingentia simpliciter 
+      <lb ed="#L" n="120"/>&amp; est simile de contingente praesente, sortes enim dum currit. 
+      <lb ed="#L" n="121"/>non necessario currit simpliciter &amp; absolute, imo libere currit 
+      <lb ed="#L" n="122"/>potens non currere, &amp; tamen non potest poni in esse, quod non 
+      <lb ed="#L" n="123"/>currat stante suppositione quod currat, alioquin contradictoria 
+      <lb ed="#L" n="124"/>simul verificarentur de eodem, quod est impossibile. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e1090">
+               <lb ed="#L" n="125"/>
+               <!--25--> Ad secundum, cum dicitur quod omnis conditionalis cuius 
+      ac<lb ed="#L" n="126" break="no"/>cedens est necessariu, &amp; consequentia est necessaria, &amp; consequens 
+      <lb ed="#L" n="127"/>est necessarium, concedatur, si tamen antecedens sit necessarium sim 
+      <lb ed="#L" n="128"/>pliciter, &amp; vt ex ipso infertur consequens, &amp; cum dicitur quod haec est 
+      <lb ed="#L" n="129"/>necessaria deus praesciuit A fore. Dicendum quod est vt sic, &amp; est vt 
+      <lb ed="#L" n="130"/>non, si enim est necessaria adiuncto modo necessitatis erit vera. 
+      <lb ed="#L" n="131"/>dicendo sic, deus praesciuit necessario A fore. Haec autem est 
+      du<lb ed="#L" n="132" break="no"/>plex, quia si modus necessitatis determinaret compositionem 
+      ver<lb ed="#L" n="133" break="no"/>bi ad subiectu, vera est &amp; composita sub hoc sensu, necessarium est 
+      <lb ed="#L" n="134"/>deum praescirae A fore, &amp; adhuc haec necessitas non est nisi ex 
+      sup<lb ed="#L" n="135" break="no"/>positione, &amp; non simpliciter, quia, vt infra videbitur, deus potest 
+      <lb ed="#L" n="136"/>nescire quod scit, &amp; scire quod nescit, &amp; ideo non necessario scit 
+      <lb ed="#L" n="137"/>talia, sed libere, sicut libere vult ea fore vel non fore, si autem deter 
+      <lb ed="#L" n="138"/>minet materiam verbi, scilicet A fore, sic est falsa &amp; diuisa, sub 
+      <lb ed="#L" n="139"/>hoc sensu deus preuidit A fore necessario, quod non est verum, imo 
+      prae<lb ed="#L" n="140" break="no"/>uidit A fore conungenter, modo sic est quod consequens non infertur 
+      <lb ed="#L" n="141"/>ex antecedente ratione compositionis verbi ad subiectum, quae est 
+      <lb ed="#L" n="142"/>necessatia, sed solum ratione materiae verbi, quae est contungens. 
+      <lb ed="#L" n="143"/>Quod patet, quia si separaretur materia verbi a compositione 
+      in<lb ed="#L" n="144" break="no"/>ferret consequens, ad A enim fore sequitur quod A erit, sed compositio 
+      <lb ed="#L" n="145"/>principalis siuae materia verbi non inferret consequens, non enim 
+      <lb ed="#L" n="146"/>sequitur deus scit A, ergo erit, scit enim non solum quae erunt, sed 
+      <lb ed="#L" n="147"/>&amp; multa quae non erunt. Quum ergo consequens non inferatur 
+      <lb ed="#L" n="148"/>ex antecedentae vt est necessarium, sed potius vt est contingens, non 
+      <lb ed="#L" n="149"/>oportet consequens esse necessarium, sed contingens. Vel dicen 
+      <lb ed="#L" n="150"/>dum secundum praecepta quod hoc accedens deus praesciuit A fore 
+      <lb ed="#L" n="151"/>non est necessarium simpliciter, sed contingens eo modo quo 
+      li<lb ed="#L" n="152" break="no"/>berum arbitrium dicimus esse contingens. Quod patet, quia 
+      im<lb ed="#L" n="153" break="no"/>possibile est illud esse simpliciter necessarium quod coexigit 
+      con<lb ed="#L" n="154" break="no"/>tingens, sed deum praescire A fore coexigit deum velle A fore, 
+      <lb ed="#L" n="155"/>quod est contingens (id est liberum) ergo illud antecedens non 
+      <lb ed="#L" n="156"/>est simpliciter necessarium, quare nec consequens. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e1164">
+               <lb ed="#L" n="157"/>
+               <!--26--> Ad tertium potest responderi sicut in argumentando 
+      respon<lb ed="#L" n="158" break="no"/>sum est. Et quod obiicitur quod illa distinctio non habet locum nisi 
+      <lb ed="#L" n="159"/>in formis separabilibus. Dicendum quod esse scitum non 
+      compa<lb ed="#L" n="160" break="no"/>ratur ad rem scitam, sicut forma ad subiectum, sed solum sicut actus 
+      <lb ed="#L" n="161"/>ad obiectum, quia tamen omne quod denominat aliud quandoque 
+      <lb ed="#L" n="162"/>vocatur forma, ideo loquamur de scientia dei, tanquam de forma 
+      <lb ed="#L" n="163"/>denominante rem scitam, &amp; tunc possumus dicere quod aliqua 
+      <lb ed="#L" n="164"/>forma vel actus potest dici inseparabilis dupliciter. Vno modo 
+      <!--00246.xml-->
+      <pb ed="#L" n="90-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ex naturali &amp; per se habitudine formae vel actus ad rem, &amp; 
+      econ<lb ed="#L" n="2" break="no"/>uerso, &amp; sic anima est forma inseparabilis ab homine existente. 
+      <lb ed="#L" n="3"/>Alio modo ex suppositione, sicut si poneremus quod sortes 
+      <lb ed="#L" n="4"/>quandiu viueret esset infirmus, infirmitas esset ab eo 
+      insepa<lb ed="#L" n="5" break="no"/>rabilis. Inseparabilitas ergo prima tollit praedictam 
+      distinctio<lb ed="#L" n="6" break="no"/>nem, sed secunda inseparabilitas, vel potius inseparatio quae est 
+      <lb ed="#L" n="7"/>ex suppositione non tollit quin absolute oppositum potuerit 
+      in<lb ed="#L" n="8" break="no"/>esse, vnde dato quod sortes semper esset infirmus, adhuc 
+      ist<lb ed="#L" n="9" break="no"/>esset distinguenda, sortem infirmum impossibile est esse sanum 
+      <lb ed="#L" n="10"/>secundum sensum compositum &amp; diuisum, &amp; in sensu 
+      compo<lb ed="#L" n="11" break="no"/>sito esset vera, sed in sensu diuiso esset falsa, quia significare 
+      <lb ed="#L" n="12"/>impossibilitatem sanitatis inesse sorti ex natura sua, quod no 
+      <lb ed="#L" n="13"/>est verum, sed ex suppositione qua ponitur semper infirmus. Si 
+      <lb ed="#L" n="14"/>militer in proposito: quia A fore &amp; esse scitum non sunt 
+      inse<lb ed="#L" n="15" break="no"/>parabilia nisi ex suppositione (absolute enim A potuit non 
+      fo<lb ed="#L" n="16" break="no"/>re &amp; non esse scirum fore) sed supposito quod sit scitum, 
+      impos<lb ed="#L" n="17" break="no"/>sibile est non esse scitum, &amp; inseparabile est ab eo esse scitum ex 
+      <lb ed="#L" n="18"/>suppositione iam dicta, &amp; ideo adhuc in tali actu potest locum 
+      <lb ed="#L" n="19"/>habere supradicta distinctio, sicut &amp; in formis inseparabilibus 
+      <lb ed="#L" n="20"/>ex suppositione. 
+      </p>
+            <p xml:id="jsnvu6-d1e1876-d1e1236">
+               <lb ed="#L" n="21"/>
+               <!--27.--> Vel dicendum ad principalem rationem quod si maior est 
+      <lb ed="#L" n="22"/>de necessario simpliciter &amp; absolute, &amp; minor de inesse, 
+      conclu<lb ed="#L" n="23" break="no"/>sio erit de necessario simpliciter &amp; absolute: si autem maior sit 
+      <lb ed="#L" n="24"/>de necessario non absolute, sed ex suppositione, conclusio eri 
+      <lb ed="#L" n="25"/>de necessario non simpliciter &amp; absolute, sed ex suppositione 
+      <lb ed="#L" n="26"/>Modo quum dicitur omne scitum a deo necessario est verum, si 
+      <lb ed="#L" n="27"/>intelligatur de necessario simpliciter &amp; absolute non est verum 
+      <lb ed="#L" n="28"/>Necessarium enim ex suppositione quae stat cum 
+      contingenti<lb ed="#L" n="29" break="no"/>simpliciter potest esse scitum infallibiliter, non solum a deo 
+      <lb ed="#L" n="30"/>sed etiam a nobis, vt cum scio sortem actu currere, vt prius 
+      sa<lb ed="#L" n="31" break="no"/>tis deductum fuit, propter quod sequitur quod conclusio ex 
+      <lb ed="#L" n="32"/>maiore sit necessaria necessitate suppositionis solum, &amp; non 
+      <lb ed="#L" n="33"/>simpliciter, quod concessum est. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

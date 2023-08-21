@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="230-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e188933"><!-- l3d30q1 -->
+            <head xml:id="jsnvu6-e188933-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e188933-Hd1e103" type="question-title">Utrum de necessitate salutis sit 
+      diligere inimicos</head>
+            <p xml:id="jsnvu6-e188933-d1e106">
+               <lb ed="#L" n="14"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="15"/>Vtrum de necessitate salutis sit 
+      di<lb ed="#L" n="16" break="no"/>ligere inimicos. 
+      <lb ed="#L" n="17"/>Th. 2. 245. 1285. 
+    </p>
+            <p xml:id="jsnvu6-e188933-d1e117">
+               <lb ed="#L" n="18"/>CIRCA distinctionem istam primo quaeritur 
+      <lb ed="#L" n="19"/>Vtrum de necessitate salutis sit diligere inimicos 
+      <lb ed="#L" n="20"/>Et arguitur quod non, quia natura non inclinat in co 
+      <lb ed="#L" n="21"/>trarium charitatis, sed quaelibet res naturaliter odi 
+      <lb ed="#L" n="22"/>contrarium, ergo &amp; charitas, sed inimicus est cor 
+      <lb ed="#L" n="23"/>trarius nobis &amp; charitati, ergo non est diligendus, sed odiendus 
+      </p>
+            <p xml:id="jsnvu6-e188933-d1e133">
+               <lb ed="#L" n="24"/>
+               <!--2--> Item non est necessarium illum diligere cui licet malum 
+      opta<lb ed="#L" n="25" break="no"/>re, &amp; de cuius malo licitum est gaudere, sed inimicis licitum est 
+      <lb ed="#L" n="26"/>mala optare, &amp; de malis eorum gaudere. igitur &amp; caetera. Maio 
+      <lb ed="#L" n="27"/>de se patet, minor probatur ex hoc quod in facra scriptura 
+      fr<lb ed="#L" n="28" break="no"/>quenter ponuntur imprecationes malorum contra inimicos 
+      <lb ed="#L" n="29"/>&amp; in gaudium, &amp; in consolationem bonorum praedicitur 
+      destru<lb ed="#L" n="30" break="no"/>ctio inimicorum, quare &amp; caetera. 
+      </p>
+            <p xml:id="jsnvu6-e188933-d1e154">
+               <lb ed="#L" n="31"/>
+               <!--3--> Et confirmatur hoc per illud quod dixit dominus Matthae 
+      <lb ed="#L" n="32"/>quinto. Audistis quod dictum est antiquis diliges amicum tui 
+      <lb ed="#L" n="33"/>&amp; odio habebis inimicum tuum. 
+      </p>
+            <p xml:id="jsnvu6-e188933-d1e165">
+               <lb ed="#L" n="34"/>
+               <!--4--> INCONTRARIVM est quod dicitur Matthaei 
+      <lb ed="#L" n="35"/>quinto. Diligite inimicos vestros. &amp; ibidem, si diligitis eos qui 
+      <lb ed="#L" n="36"/>vos diligunt quam mercedem habebitis? quoe. d. nullam: ergo sine 
+      <lb ed="#L" n="37"/>dilectione inimicorum vel non diligentium non est salus. 
+      </p>
+            <p xml:id="jsnvu6-e188933-d1e178">
+               <lb ed="#L" n="38"/>
+               <!--5--> RESPONSIO. Cum charitas attendatur penes 
+      affe<lb ed="#L" n="39" break="no"/>ctum, &amp; effectum, vt dictum fuit supra, ideo circa quaestionem 
+      <lb ed="#L" n="40"/>istam videnda sunt duo. Primum est vtrum teneamur inimicos 
+      <lb ed="#L" n="41"/>diligere quo ad affectum, Secundum est vtrum teneamur eis 
+      ex<lb ed="#L" n="42" break="no"/>hibere signa dilectionis in effectum. 
+      </p>
+            <p xml:id="jsnvu6-e188933-d1e194">
+               <lb ed="#L" n="43"/>
+               <!--6--> QUANTVM ad primum sciendum est quod inimicus 
+      <lb ed="#L" n="44"/>potest capi dupliciter, scilicet formaliter secundum quod inim 
+      <lb ed="#L" n="45"/>cus, vel materialiter secundum quod homo ad imaginem Dei ex 
+      <lb ed="#L" n="46"/>stens. Primo modo non tenemur diligere inimicum scilicet inquam 
+      <lb ed="#L" n="47"/>tum est inimicus, imo magis odire. Cuius ratio est, quia appro 
+      <lb ed="#L" n="48"/>bare malum culpae in alio peruersum, &amp; charitati contrarium 
+      <lb ed="#L" n="49"/>Sed diligere inimicum inquantum inimicus est, virtuoso &amp; habent 
+      <lb ed="#L" n="50"/>charitatem est approbare malum culpae in eo, ergo hoc est 
+      peruer<lb ed="#L" n="51" break="no"/>sum &amp; charitati contrarium. Item aequalis peruersitatis est 
+      odir<lb ed="#L" n="52" break="no"/>amicum &amp; diligere inimicum accipiendo vtrunque formaliter. Sed 
+      <lb ed="#L" n="53"/>per se malum est odire amicum inquantum amicus est: ergo &amp; di 
+      <lb ed="#L" n="54"/>ligere inimicum inquantum inimicus est. Si autem accipiatur 
+      mate<lb ed="#L" n="55" break="no"/>rialiter, scilicet inquantum homo ad imaginem dei existens. Sic dice 
+      <lb ed="#L" n="56"/>dum est quod diligere inimicum in generali est de necessitate 
+      salu<lb ed="#L" n="57" break="no"/>tis. vt scilicet diliges Deum &amp; proximum, ab illa generalitate non 
+      <lb ed="#L" n="58"/>excludat inimicum, sed non de necessitate salutis vt speciali motu 
+      <lb ed="#L" n="59"/>dilectionis afficiatur aliquis ad inimicum nisi vbi apparet euidems 
+      <lb ed="#L" n="60"/>necessitas. Primum patet, quia charitas attenditur in eo qui ex 
+      <lb ed="#L" n="61"/>charitate diligitur ratione diuinae imaginis secundum quam est ca 
+      <lb ed="#L" n="62"/>pax beatitudinis, sed haec ratio inuenitur in omni homine tam 
+      <lb ed="#L" n="63"/>amico quam inimico, ergo secundum hanc rationem generalem in 
+      di<lb ed="#L" n="64" break="no"/>lectione charitatis includitur inimicus. Secundum patet, quia ille 
+      <lb ed="#L" n="65"/>motus dilectionis qui non est de necessitate salutis ad amicum no 
+      <lb ed="#L" n="66"/>est de necessitate salutis ad inimicum, sed specialis motus dilectio 
+      <lb ed="#L" n="67"/>nis ad amicum non est de necessitate salutis extra casum necessita 
+      <lb ed="#L" n="68"/>tis nisi secundum praeparationem animi si necessitas adesset ergo 
+      <lb ed="#L" n="69"/>multo minus est de necessitate salutis ad inimicum, &amp; sic pate 
+      <lb ed="#L" n="70"/>primum. 
+</p>
+            <p xml:id="jsnvu6-e188933-d1e259">
+               <lb ed="#L" n="71"/>QVANTVM ad secundum aduertendum est quod cum 
+      effe<lb ed="#L" n="72" break="no"/>ctus exterior dilectionis correspondeat interiori affectui sicu 
+      <lb ed="#L" n="73"/>tenemur diligere inimicum affectu, ita tenemur exhibere signa di 
+      <lb ed="#L" n="74"/>lectionis in effectu. Cum ergo (vt patet ex primo articulo) 
+      inte<lb ed="#L" n="75" break="no"/>rior affectus dilectionis ad inimicum sit de necessitate salutis se 
+      <lb ed="#L" n="76"/>lum in communi, non autem in speciali nisi secundum 
+      praepara<lb ed="#L" n="77" break="no"/>tionem animi (s. si necessitas adesset) sic dicendum est signa &amp; bene 
+      <lb ed="#L" n="78"/>ficia dilectionis quae exhibentur generaliter proximis puta cur 
+      <!--00533.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>aliquis orat pro omnibus fidelibus, vel pro toto populo, non suni 
+      <lb ed="#L" n="80"/>neganda, vel subtrahenda inimicis, hoc enim pertinet ad liuori 
+      <lb ed="#L" n="81"/>vindictae contra illud quod dicitur Leuit. 19. non quaeres vltio 
+      <lb ed="#L" n="82"/>nem, nec memoreris iniuriae ciuium tuorum, beneficia vero vel 
+      <lb ed="#L" n="83"/>dilectionis signa quae quis exhibet specialiter &amp; particulariter 
+      <lb ed="#L" n="84"/>aliquibus personis non est necessarium exhibere inimicis, quia 
+      <lb ed="#L" n="85"/>nec est necessarium, sed perfectionis talia exhibere amicis extra 
+      <lb ed="#L" n="86"/>casum necessitatis. In casu autem necessitatis est necessarium 
+      vtris<lb ed="#L" n="87" break="no"/>que tam amicis quam inimicis talia exhibere, secundum illud Prou. 
+      <lb ed="#L" n="88"/>25. Si esurierit inimicus tuus ciba illum, si sitit da potum illi. 
+      </p>
+            <p xml:id="jsnvu6-e188933-d1e305">
+               <lb ed="#L" n="89"/>
+               <!--8--> AD PRIMVM argum. dicendum quod natura sicut 
+      incli<lb ed="#L" n="90" break="no"/>nat in odium contrarij sic &amp;t charitas. Charitas enim inclinat in 
+      <lb ed="#L" n="91"/>odium inimici inquantum inimicus est, secundum illud Psal. Perfe 
+      <lb ed="#L" n="92"/>cto odio oderam illos, sic enim est charitati contrarius, inquantum 
+      <lb ed="#L" n="93"/>autem est homo ad imaginem dei existens &amp; capax beatitudinis, 
+      <lb ed="#L" n="94"/>sic non esset contrarius charitati, sed potius habet id quod invno 
+      <lb ed="#L" n="95"/>quoque attendit charitas. Et hoc modo est ex charitate diligendus. 
+      </p>
+            <p xml:id="jsnvu6-e188933-d1e326">
+               <lb ed="#L" n="96"/>
+               <!--9--> Ad secundum dicendum quod non est necessarium diligere ex 
+      <lb ed="#L" n="97"/>charitate cui licitum est optare malum oppositum bono quod per 
+      <lb ed="#L" n="98"/>se respicit charitas. Tale enim bonum est gratia &amp; gloria, 
+      quo<lb ed="#L" n="99" break="no"/>rum oppositum non est licitum optare cuicunque inimico. 
+      <lb ed="#L" n="100"/>Ad bona autem temporalia non respicit charitas nisi inquantum 
+      <lb ed="#L" n="101"/>ordinantur ad bonum gratiae &amp; gloriae. Et quia prosperitas in 
+      <lb ed="#L" n="102"/>his bonis quandoque est occasio subuersionis bonorum gratiae 
+      se<lb ed="#L" n="103" break="no"/>cundum illud Deut. 32. Incrassatus est dilectus &amp; recalcitrauit 
+      <lb ed="#L" n="104"/>&amp; dereliquit deum factorem suum. Aduersitas vero occasio est 
+      re<lb ed="#L" n="105" break="no"/>uertendi ad dominum, secundum illud Ozeae 6. In tribulatione sua 
+      <lb ed="#L" n="106"/>mane consurgent ad me. Ideo licitum est tam amicis quam ini 
+      <lb ed="#L" n="107"/>micis talia mala optare. Et de ipsis si euenerint gaudere non qa 
+      <lb ed="#L" n="108"/>mala sint, sed quia promotiua sunt ad bonum, vel impeditiua ma 
+      <lb ed="#L" n="109"/>iorum malorum. Rursus quia charitas ordinem habet &amp; plus 
+      de<lb ed="#L" n="110" break="no"/>bet quilibet se diligere quam alium, &amp; propinquos quam 
+      extra<lb ed="#L" n="111" break="no"/>neos, &amp; amicos quam inimicos, &amp; bonum comune quam 
+      pri<lb ed="#L" n="112" break="no"/>uatum. Ideo posest aliquis salua charitate optare malum 
+      tempora<lb ed="#L" n="113" break="no"/>le alicui non inquantum malum est illius, sed inquantum est im 
+      <lb ed="#L" n="114"/>pedimentum malorum alterius quem plus tenetur diligere. 
+      </p>
+            <p xml:id="jsnvu6-e188933-d1e372">
+               <lb ed="#L" n="115"/>
+               <!--10.--> Ad tertium dicendum quod nunquam scriptum est in lege ve 
+      <lb ed="#L" n="116"/>teri, odio habebis inimicum tuum. Sed additum fuit ex praua 
+      <lb ed="#L" n="117"/>interpretatione Iudaeorum, qui ex hoc quod praecipiebatur 
+      di<lb ed="#L" n="118" break="no"/>lectio amici. Leuit. 19. Concludebant quod inimici essent odiendi. 
+      <lb ed="#L" n="119"/>Dominus autem hanc interpretationem elisit simul cum 
+      dile<lb ed="#L" n="120" break="no"/>ctione inimici addens consilium de ostensione signorum bene 
+      <lb ed="#L" n="121"/>uolentiae ad ipsum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

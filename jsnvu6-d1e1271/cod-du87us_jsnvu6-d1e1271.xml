@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="59-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1271"><!-- l1d22q1 -->
+            <head xml:id="jsnvu6-d1e1271-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e1271-Hd1e103" type="question-title">Utrum aliquod nomen conveniat Deo proprie</head>
+            <p xml:id="jsnvu6-d1e1271-d1e106">
+               <lb ed="#L" n="97"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="98"/>Vtrum aliquod nomen conueniat 
+      <lb ed="#L" n="99"/>proprie Deo. 
+      <lb ed="#L" n="100"/>Thom. 1. q. 13. artic. 1. &amp; 3.
+    </p>
+            <p xml:id="jsnvu6-d1e1271-d1e117">
+               <lb ed="#L" n="101"/>CIRCA distinctionem istam quaeritur primo, 
+      <lb ed="#L" n="102"/>vtrum aliquod nomen conueniat proprie deo. 
+      <lb ed="#L" n="103"/>Et videtur quod non, quia secundum Diony. 
+      <lb ed="#L" n="104"/>i sium quaecunque dicuntur de deo, verius 
+      negan<lb ed="#L" n="105" break="no"/>tur, quam affirmentur, sed talia non dicuntur 
+      <lb ed="#L" n="106"/>proprie, sed potius vt videtur cranslatiue, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1271-d1e133">
+               <lb ed="#L" n="107"/>
+               <!--2--> Item secundum eundem non est nisi duplex theologia, sci 
+      <lb ed="#L" n="108"/>licet, mystica &amp; symbologica, sed secundum vtramque 
+      deu<lb ed="#L" n="109" break="no"/>translatiue nominatur, quia secundum mysticam a nominibus 
+      <lb ed="#L" n="110"/>creaturarum spiritualium, secundum vero symbologicam, 
+      <lb ed="#L" n="111"/>nominibus creaturarum corporalium: eigo omnis Dei 
+      no<lb ed="#L" n="112" break="no"/>minatio est translatiua 
+      </p>
+            <p xml:id="jsnvu6-d1e1271-d1e152">
+               <lb ed="#L" n="113"/>
+               <!--3--> IN CONTRARIVM est, quia quae prius sunt in 
+      <lb ed="#L" n="114"/>aliquo transferuntur ab illo in alia, &amp; non econuerso, sed sapien 
+      <lb ed="#L" n="115"/>tia, bonitas, &amp; huiusmodi, per prius sunt in deo quam in 
+      crea<lb ed="#L" n="116" break="no"/>turis, ergo haec nomina transferuntur ab ipso ad creaturas, &amp; 
+      <lb ed="#L" n="117"/>non econuerso, quod etiam videtur dicere Apost. Ephes. 4. a quo 
+      <lb ed="#L" n="118"/>omnis paternitatis in coelo &amp; in terra nominatur. 
+      </p>
+            <p xml:id="jsnvu6-d1e1271-d1e170">
+               <lb ed="#L" n="119"/>
+               <!--4--> RESPONSIO. Videnda sunt duo. Primum est quo 
+      <lb ed="#L" n="120"/>deus potest ex creaturis multipliciter nominari: Socundum es 
+      <lb ed="#L" n="121"/>quod illorum nominum quaedam conueniunt Deo proprie. 
+      Pri<lb ed="#L" n="122" break="no"/>mum patet sic, nominamus vnumquodque sicut intelligimus, 
+      <lb ed="#L" n="123"/>intellectus enim est, qui imponit nomina rebus quas intelligit 
+      <lb ed="#L" n="124"/>&amp; sicut intelligit, sed Deum intelligimus ex creaturis multi 
+      <lb ed="#L" n="125"/>modis, &amp; quantum ad multas conditiones: ergo possumus 
+      <lb ed="#L" n="126"/>ipsum nominare multis nominibus: minor patet, 
+      cognosci<lb ed="#L" n="127" break="no"/>mus enim Deum ex creaturis tripliciter secundum Dionysium, 
+      <lb ed="#L" n="128"/>scilicet per causalitatem, remotionem &amp; eminentiam, &amp; 
+      quo<lb ed="#L" n="129" break="no"/>libet istorum modorum potest. Deus nominari pluribus 
+      no<lb ed="#L" n="130" break="no"/>minibus. Si enim nominetur per causalitatem multa sunt 
+      no<lb ed="#L" n="131" break="no"/>mina, quia multi sunt eius actus, &amp; effectus scilicet creare, ô 
+      <lb ed="#L" n="132"/>gubernare, iustificare, glorificare, &amp; sic de aliis, ex quibus 
+      <lb ed="#L" n="133"/>omnibus nominatur. Si vero nominetur per remotionem 
+      <lb ed="#L" n="134"/>multa sunt nomina, quia multa remouentur a Deo, omne 
+      <lb ed="#L" n="135"/>scilicet imperfectiones, &amp; secundum hoc sic nominatur 
+      Deu<lb ed="#L" n="136" break="no"/>nominibus pluribus, vt increatus, infinitus, immensus, 
+      in<lb ed="#L" n="137" break="no"/>commutabilis, &amp; sic de caeteris. Si autem nominatur per 
+      emi<lb ed="#L" n="138" break="no"/>nentiam multa sunt nomina, quia multae sunt perfectiones in 
+      <lb ed="#L" n="139"/>creaturis, quae eminentius sunt in Deo: sicut sunt illae 
+      qua<lb ed="#L" n="140" break="no"/>simpliciter melius est habere, quam non habere; vt esse 
+      bo<lb ed="#L" n="141" break="no"/>num, cognoscentem, potentem, a quibus omnibus &amp; consimi 
+      <lb ed="#L" n="142"/>libus nominatur, &amp; sic pater primum. 
+</p>
+            <p xml:id="jsnvu6-d1e1271-d1e227">
+               <lb ed="#L" n="143"/>Quantum ad secundum sciendum est quod proprium 
+      diui<lb ed="#L" n="144" break="no"/>ditur contra commune &amp; contra metaphoricum, &amp; 
+      transsa<lb ed="#L" n="145" break="no"/>tum, vt dictum fuit supra, distinct. octaua: nomen autem non ¬ 
+      <lb ed="#L" n="146"/>conuenit rei nisi sicut signum signato. Et ideo nomen aliquod 
+      <lb ed="#L" n="147"/>conuenire Deo proprie potest intelligi dupliciter. Vno modo, 
+      <lb ed="#L" n="148"/>quia significat diuinam essentiam, secundum propriam &amp; 
+      per<lb ed="#L" n="149" break="no"/>fectam eius naturam, quasi diffinitiue sicut animal rationale 
+      <lb ed="#L" n="150"/>significat hominem, &amp; sic dicendum est quod nullum nomer 
+      <lb ed="#L" n="151"/>Deo proprie conuenit: cuius ratio est, quia Deum nominamd 
+      <lb ed="#L" n="152"/>sicut eum intelligimus, sed pro statu viae non intelligimu 
+      <lb ed="#L" n="153"/>Deum secundum eius propriam (vt ita dicam) specificam 
+      ra<lb ed="#L" n="154" break="no"/>tionem: ergo nullum nomen Deo a nobis impositum, 
+      signifi<lb ed="#L" n="155" break="no"/>cat ipsam eius propriam &amp; omnino determinatam rationem 
+      <lb ed="#L" n="156"/>ad hunc sensum loquitur beatus Dionysius, capite primo, de 
+      <lb ed="#L" n="157"/>diuinis nominibus dicens sic, omnibus autem 
+      incomprehensi<lb ed="#L" n="158" break="no"/>bilis est, &amp; neque sensus vllus eius est, neque fantasia, neque 
+      <!--00184.xml-->
+      <pb ed="#L" n="59-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>opinio, neque nomen, neque sermo, neque tactus, neque 
+      scien<lb ed="#L" n="2" break="no"/>tia quo modo scribemus &amp; de diuinis nominibus aggrediemur 
+      <lb ed="#L" n="3"/>sexta propositione de causis dicitur quod causa prima superi 
+      <lb ed="#L" n="4"/>or est omni narratione quia nullum nomen est quod perfecte 
+      <lb ed="#L" n="5"/>diuinam naturam exprimat. 
+      </p>
+            <p xml:id="jsnvu6-d1e1271-d1e282">
+               <lb ed="#L" n="6"/>
+               <!--6--> Alio modo potest dici nomen proprie deo conuenire quia 
+      <lb ed="#L" n="7"/>non conuenit ei metaphorice vel transsumptiue &amp; sic quaeritu 
+      <lb ed="#L" n="8"/>nunc. Circa quod notandum est quid est significare proprie, &amp; qui 
+      <lb ed="#L" n="9"/>significare metaphorice, vel transsumptiue. Et ex hoc apparebi 
+      <lb ed="#L" n="10"/>illud quod principaliter quaeritur. Sciendum est ergo quod 
+      no<lb ed="#L" n="11" break="no"/>men proprie dicitur alicui conuenire quando in eo est res ad 
+      <lb ed="#L" n="12"/>quam significandam nomen est proprie &amp; directe impositum, sicut 
+      <lb ed="#L" n="13"/>ridere est proprie &amp; directe impositum ad significandum 
+      deter<lb ed="#L" n="14" break="no"/>minatum actum oris qui in solo homine inuenitur nomen autem 
+      <lb ed="#L" n="15"/>dicitur metaphorice vel transsumptiue alicui conuenire quando 
+      <lb ed="#L" n="16"/>non est res in illo adquam significandam est directe &amp; primo 
+      im<lb ed="#L" n="17" break="no"/>positum, sed solum aliqua similitudo eius vel proportio sicut in 
+      <lb ed="#L" n="18"/>prato non est actus ad quem significandum est ridere primo &amp; 
+      <lb ed="#L" n="19"/>directe impositum sed est in eo tantum quaedam similitudo vel 
+      <lb ed="#L" n="20"/>proportio, quia floritio prati praetendit quasi quandam 
+      iocun<lb ed="#L" n="21" break="no"/>ditatem sicut risus in homine signum est iocunditatis. Ex quo 
+      <lb ed="#L" n="22"/>patet quod nomen non dicitur conuenire alicui rei metaphori 
+      <lb ed="#L" n="23"/>ce vel transsumptiue ex hoc quod res signata per nomen prius: 
+      <lb ed="#L" n="24"/>nota est nobis in alio quam in isto; quia hoc non facit nisi ac 
+      <lb ed="#L" n="25"/>ordinem cognitionis &amp; impositionis nominis ad significandum 
+      <lb ed="#L" n="26"/>sed ex hoc quod statim dictum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e1271-d1e332">
+               <lb ed="#L" n="27"/>
+               <!--7--> Ex hoc ad propositum sciendum quod nomina possunt 
+      con<lb ed="#L" n="28" break="no"/>siderari quantum ad rem significatam, vel quantum ad modum 
+      <lb ed="#L" n="29"/>significandi. Si quantum ad significatum, sic ad praesens sunt qui 
+      <lb ed="#L" n="30"/>tuor genera nominum. Primum est eorum quae solam 
+      imperfe<lb ed="#L" n="31" break="no"/>ctionem important in suo formali significato sicut esse creatum 
+      <lb ed="#L" n="32"/>esse finitum, esse corruptibile, &amp; similia &amp; haec nullo modo 
+      con<lb ed="#L" n="33" break="no"/>ueniunt deo, nec proprie, nec metaphorice. Secundum genus 
+      <lb ed="#L" n="34"/>nominum est, quia significant exclusionem imperfectionum 
+      <lb ed="#L" n="35"/>creaturarum, sicut infinitus excludit limitationem potentia 
+      <lb ed="#L" n="36"/>immutabilis dependentiam naturae, vel quae important 
+      perfe<lb ed="#L" n="37" break="no"/>ctionem in tali gradu quae nullo modo conuenit creaturae sicut 
+      <lb ed="#L" n="38"/>omnipotens &amp; aeternus &amp; haec soli deo conueniunt proprie, &amp; 
+      <lb ed="#L" n="39"/>non metaphorice vel transsumptiue, quod patet dupliciter, pri 
+      <lb ed="#L" n="40"/>mo quia quod conuenit alicui metaphorice vel transsumptiu? 
+      <lb ed="#L" n="41"/>conuenit alij proprie a quo transsumitur, sed nomina nulli ali 
+      <lb ed="#L" n="42"/>nisi deo conueniunt, ergo non conueniunt deo metaphorice vel 
+      <lb ed="#L" n="43"/>transsumptiue sed proprie 
+      </p>
+            <p xml:id="jsnvu6-d1e1271-d1e374">
+               <lb ed="#L" n="44"/>
+               <!--8--> Secundo quia ilud nomen conuenit deo proprie quod es 
+      <lb ed="#L" n="45"/>impositum ad significandum illud quod est in deo, sed talia 
+      no<lb ed="#L" n="46" break="no"/>mina directe &amp; primo sunt imposita ad significandum illud quod 
+      <lb ed="#L" n="47"/>est in deo siue sit remotio impertectionis hue conseruatio 
+      per<lb ed="#L" n="48" break="no"/>fectionis, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1271-d1e391">
+               <lb ed="#L" n="49"/>
+               <!--9--> Tertium genus nominum est eorum quae imponuntur ac 
+      <lb ed="#L" n="50"/>significandum perfectionem absolute &amp; non secundum aliquie 
+      <lb ed="#L" n="51"/>determinatum modum qui est in deo tantum, vel in creatura 
+      <lb ed="#L" n="52"/>tantum sicut esse vel cognoscere &amp; talia proprie deo conuenius 
+      <lb ed="#L" n="53"/>vt patet per rationem iam factam quia res significatae per tali: 
+      <lb ed="#L" n="54"/>nomina inueniuntur in deo. Oportet enim ponere in deo omne 
+      <lb ed="#L" n="55"/>illud quod dicit perfectionem absolute quam melius est 
+      habe<lb ed="#L" n="56" break="no"/>re quam non habere, sed talia sunt huiusmodi nomina 
+      simpli<lb ed="#L" n="57" break="no"/>citer enim melius est esse quam non esse, &amp; esse cognoscentem 
+      <lb ed="#L" n="58"/>quam non esse cognoscentem, quare talia nomina proprie deo 
+      <lb ed="#L" n="59"/>conueniunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e1271-d1e420">
+               <lb ed="#L" n="60"/>
+               <!--10--> Est praeterea quartum genus nominum eorum scilicet quae 
+      <lb ed="#L" n="61"/>important aliquam perfectionem tamen secundum modum 
+      crea<lb ed="#L" n="62" break="no"/>turis conuenientem, vt sentire, leo &amp; agnus &amp;c. talia non conue 
+      <lb ed="#L" n="63"/>niunt deo proprie sed transsumptiue, quia res proprie significa 
+      <lb ed="#L" n="64"/>tae per alia nomina non sunt in deo, sed aliqua eorum 
+      similitu<lb ed="#L" n="65" break="no"/>do, scilicet agnitio singularium, fortitudo, masuetudo, propte 
+      <lb ed="#L" n="66"/>quae huiusmodi nomina transferuntur in deo a creaturis. Si 
+      ver<lb ed="#L" n="67" break="no"/>nomina quae conueniunt deo proprie quantum ad rem 
+      significa<lb ed="#L" n="68" break="no"/>tam considerentur quantum ad modum significandi non ita 
+      pro<lb ed="#L" n="69" break="no"/>prie attribuuntur deo, quia talia nomina sunt abstracta vel con 
+      <lb ed="#L" n="70"/>creta. abstracta autem significant vt quo aliquid est vel simplici 
+      <lb ed="#L" n="71"/>ter vel aliquid tale sicut humanitas, iustitia, bonitas, &amp; non vi 
+      <lb ed="#L" n="72"/>quod est. Concretum autem significat vt quod est habens sicut 
+      <lb ed="#L" n="73"/>homo habens humanitatem, iustus habens iustitiam, &amp; haec sem 
+      <lb ed="#L" n="74"/>per differunt secundum modum intelligendi, quandoque autem 
+      <lb ed="#L" n="75"/>secundum rem. In deo autem non differunt quod habet, &amp; quod 
+      <lb ed="#L" n="76"/>fabetur realiter, ideo talia nomina quo ad modum significand 
+      <lb ed="#L" n="77"/>non ita proprie deo conueniunt, improprietas tamen non 
+      falsifi<lb ed="#L" n="78" break="no"/>cat propositionem, quia veritas non consistit in hoc quod res 
+      <lb ed="#L" n="79"/>sit conformis ipsi modo significandi sed ei quod de ipsa dicitu 
+      <lb ed="#L" n="80"/>vel significatur. 
+      </p>
+            <p xml:id="jsnvu6-d1e1271-d1e470">
+               <lb ed="#L" n="81"/>
+               <!--11--> AD PRIMVM argumentum dicendum quod 
+      nomi<lb ed="#L" n="82" break="no"/>na dicta de deo verius negantur quam affirmantur, si conside 
+      <!--00184.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>retur modus significandi, quia quam plurima signi ficantur per 
+      <lb ed="#L" n="84"/>modum accidentis abstracti, vel alteri inhaerentis quae non 
+      <lb ed="#L" n="85"/>competunt deo, res tamen significatae proprie inueniuntur in deo 
+      </p>
+            <p xml:id="jsnvu6-d1e1271-d1e490">
+               <lb ed="#L" n="86"/>
+               <!--12--> Ad secundum dicendum, quod mystica theologia, quam 
+      <lb ed="#L" n="87"/>uis nominet deum per creaturas spirituales, tamen hoc non 
+      fa<lb ed="#L" n="88" break="no"/>cit solum propter rerum similitudinem, sicut fit in 
+      metaphori<lb ed="#L" n="89" break="no"/>cis locutionibus, sed quia ex creaturis spiritualibus deuenit ir 
+      <lb ed="#L" n="90"/>cognitionem eorum quae deo proprie conueniunt, quibus etiam 
+      <lb ed="#L" n="91"/>nomen imponit quod proprie deo conuenit, sicut res per 
+      no<lb ed="#L" n="92" break="no"/>men significata. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

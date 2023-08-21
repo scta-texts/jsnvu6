@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="283-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e233342"><!-- l4d14q2 -->
+            <head xml:id="jsnvu6-e233342-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e233342-Hd1e103" type="question-title">Utrum poenitentia sit virtus generalis</head>
+            <p xml:id="jsnvu6-e233342-d1e106">
+               <lb ed="#L" n="161"/>VAA*TIMITE VIRIINMN 
+      <lb ed="#L" n="162"/>Vtrum poenitentia sit virtus generalis. 
+      <lb ed="#L" n="163"/>ivvdaui τj TPag. q. 85. ar. 2. 3. &amp; 6. 2dL.I-XNVIIIVI.
+    </p>
+            <p xml:id="jsnvu6-e233342-d1e115">
+      <!--00640.xml-->
+               <pb ed="#L" n="283-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>AD secundum sic proceditur, &amp; arguitur quod 
+      poe<lb ed="#L" n="2" break="no"/>nitentia sit virtus generalis, quia remedium quod 
+      <lb ed="#L" n="3"/>est contra omnem morbum, est generale &amp; non 
+      <lb ed="#L" n="4"/>speciale: sed poenitentia est remedium contra 
+      om<lb ed="#L" n="5" break="no"/>nem morbum peccati, ergo cum sit virtus (vt in 
+      <lb ed="#L" n="6"/>praecedente quaestione dictum est) non est virtus specialis 
+      re<lb ed="#L" n="7" break="no"/>mediatiua, sed generalis. 
+      </p>
+            <p xml:id="jsnvu6-e233342-d1e139">
+               <lb ed="#L" n="8"/>
+               <!--2.--> Item, virtus &amp; vitium opponuntur, sed poenitcentuii 
+      opponi<lb ed="#L" n="9" break="no"/>tur omni vitio: quia per poenitentiam displicet quicquid per 
+      <lb ed="#L" n="10"/>vitium placuit, ergo poenitentia est omnis virtus. 
+      </p>
+            <p xml:id="jsnvu6-e233342-d1e151">
+               <lb ed="#L" n="11"/>
+               <!--3--> IN. CONTRARIVM est: quia illud quod perficit 
+      <lb ed="#L" n="12"/>liberum arbitrium ad actum bonum &amp; determinatum est 
+      de<lb ed="#L" n="13" break="no"/>terminata virtus, sed poenitentia perficit liberum arbitrium ad 
+      <lb ed="#L" n="14"/>actum bonum &amp; determinatum: qui est poenitere de peccato 
+      <lb ed="#L" n="15"/>commisso, ergo est determinata virtus. 
+</p>
+            <p xml:id="jsnvu6-e233342-d1e167">
+               <lb ed="#L" n="16"/>
+               <!--4--> RESPONSIO. Aduertendum est ug i acus 
+      paenicen<lb ed="#L" n="17" break="no"/>tiae esset solum displicentia de peccato commisso quatenus est 
+      <lb ed="#L" n="18"/>contra rectam rationem, poenitere non pertinet ad aliquam 
+      <lb ed="#L" n="19"/>specialem virtutem: quia per eundem habitum placet vnicuique 
+      <lb ed="#L" n="20"/>illud quod est conueniens, &amp; displicet illud quod est 
+      disconue<lb ed="#L" n="21" break="no"/>niens. Et ideo cum omnis virtus sit concors rectae rationi, per 
+      <lb ed="#L" n="22"/>eam placet virtuoso quicquid est concors rationi, &amp; displicet 
+      <lb ed="#L" n="23"/>quicquid discordat a recta ratione. Propter quod secundum 
+      <lb ed="#L" n="24"/>vnamquanque virtutem displicet peccatum, quod est illi virtuti 
+      <lb ed="#L" n="25"/>contrarium, nec quantum ad hoc oportet ponere vnam 
+      spe<lb ed="#L" n="26" break="no"/>cialem virtutem per quam displiceat omne peccatum, seu per 
+      <lb ed="#L" n="27"/>quam poeniteat homo de omni peccato: quia vnaquaeque virtus 
+      <lb ed="#L" n="28"/>sufficit ad hoc vt peccatum contra eam commissum displiceat, sed 
+      <lb ed="#L" n="29"/>quia poenitentia de qua loquuntur theologi &amp; sacra scriptura 
+      <lb ed="#L" n="30"/>plus importat, videlicet displicentiam de peccato quatenus est 
+      <lb ed="#L" n="31"/>contra diuinum praeceptum, &amp; in eius iniuriam, cum proposito 
+      sa<lb ed="#L" n="32" break="no"/>tisfaciendi, &amp; sub spe veniae, quorum neutrum pertinet ad aliquam 
+      <lb ed="#L" n="33"/>vnam virtutem pure moralem: ideo dubium est vtrum 
+      opor<lb ed="#L" n="34" break="no"/>teat ponere aliquam vnam partim virtutem moralem, partim 
+      <lb ed="#L" n="35"/>vero quasi theologicam, sicut ponitur de latria. 
+    </p>
+            <p xml:id="jsnvu6-e233342-d1e215">
+               <lb ed="#L" n="36"/>Et videtur quibusdam probabiliter quod sic, ita scilicet quod sicut 
+      <lb ed="#L" n="37"/>latria est virtus moralis pertinens ad iustitiam, cuius tamen actu 
+      <lb ed="#L" n="38"/>procedunt ab imperio virtutis theologicae, &amp; sic non est pure 
+      <lb ed="#L" n="39"/>moralis: sic poenitentia est virtus specialis pertinens ad iustitiam, 
+      <lb ed="#L" n="40"/>cuius tamen actus procedunt ab imperio virtutum theologicarum, 
+      <lb ed="#L" n="41"/>&amp; sic non est pure &amp; simpliciter moralis. Quod probatur sic, quia 
+      <lb ed="#L" n="42"/>omnis virtus moralis quae ordinat hominem ad alterum in 
+      ratio<lb ed="#L" n="43" break="no"/>ne debiti pertinet ad iustitiam, sed poenitentia quae est virtus mo 
+      <lb ed="#L" n="44"/>ralis cum habeat actum humanu pro obiecto ordinat hominem 
+      <lb ed="#L" n="45"/>ad alterum in ratione debiti, ergo pertinet ad virtutem iustitiae. 
+      <lb ed="#L" n="46"/>Maior patet, qa virtutes morales aliae a iustitia aut non ordinant 
+      <lb ed="#L" n="47"/>hominem ad alterum vt temperantia, aut si ordinent (vt 
+      liberali<lb ed="#L" n="48" break="no"/>tas) non tamen in ratione debiti: non enim liberalis tenetur ei cu 
+      <lb ed="#L" n="49"/>dat liberaliter ex aliquo debito, quia iam non esset liberaliter 
+      da<lb ed="#L" n="50" break="no"/>tum, sed necessario redditum: sed ad solam iustitiam pertinet ratio 
+      <lb ed="#L" n="51"/>debiti vt ipsum nomen sonat. quod enim iustum est fieri, debitum 
+      <lb ed="#L" n="52"/>est, &amp; quod debitum est, iustum est reddi, &amp; sic patet maior. Mi 
+      <lb ed="#L" n="53"/>nor probatur, scilicet o poenitentia ordinat hominem ad 
+      alte<lb ed="#L" n="54" break="no"/>rum in ratione debiti: quod enim ordinet hominem ad alteri 
+      <lb ed="#L" n="55"/>scilicet ad Deum iam patet ex dictis. Quod autem in rarione 
+      <lb ed="#L" n="56"/>debiti declaratur sic: homo efficitur debitor alteri dupliciter. 
+      <lb ed="#L" n="57"/>Vno modo per hoc quod ab eo voluntarie aliquid recipit sicut 
+      <lb ed="#L" n="58"/>in commutationibus voluntariis, puta emptione &amp; 
+      venditio<lb ed="#L" n="59" break="no"/>ne. Alio modo per hoc quod ei iniuste aliquid subtraxit sicut in 
+      <lb ed="#L" n="60"/>violentiis, furto, percussione, rapina &amp; in caeteris. Similiter 
+      ali<lb ed="#L" n="61" break="no"/>quis efficitur Deo debitor vno modo per hoc quod aliquid ab 
+      <lb ed="#L" n="62"/>eo recipit, &amp; redditio huius debiti pertinet ad virtutem latria 
+      <lb ed="#L" n="63"/>per quam exhibemus Deo debitum honorem in oblationibus 
+      <lb ed="#L" n="64"/>sacrificiis, &amp; huiusmodi. Alio modo ex eo quod contra Deum 
+      <lb ed="#L" n="65"/>peccauit &amp; sic subtraxit ei debitam obedientiam &amp; quo ad hoc 
+      <lb ed="#L" n="66"/>reddit Deo debitam poenitentiam. Propter quod ficut latria 
+      <lb ed="#L" n="67"/>vel religio pertinet ad iustitiam secundum Tullium, sic &amp; 
+      poe<lb ed="#L" n="68" break="no"/>nitentia. ex quo sequitur quod poenitentia est specialis virtus, 
+      <lb ed="#L" n="69"/>quia licet respiciat generaliter malum tanquam obiectum, 
+      ta<lb ed="#L" n="70" break="no"/>men considerat in eo specialem rationem, scilicet vt 
+      commis<lb ed="#L" n="71" break="no"/>sum contra obedientiam Deo debitam, &amp; vt est expiabile per 
+      <lb ed="#L" n="72"/>IIIII 
+      <lb ed="#L" n="73"/>satisfactionem quod non facit aliqua alia virtus. 
+      </p>
+            <p xml:id="jsnvu6-e233342-d1e300">
+               <lb ed="#L" n="74"/>
+               <!--6--> Quod autem dictum est quod poenitentia est specialis virtus 
+      <lb ed="#L" n="75"/>pertinens ad iustitiam non est sic intelligendum quod ipsa fit 
+      fe<lb ed="#L" n="76" break="no"/>cundum se quaedam virtus infusa, quia nulla talis est praeter 
+      theo<lb ed="#L" n="77" break="no"/>logicas, vt ostensum fuit in teruo lib. vel quod fit acquisita 
+      distin<lb ed="#L" n="78" break="no"/>cta per essentiam a iustitia, sed est ipsamet virtus iustitiae prout 
+      <lb ed="#L" n="79"/>actus eius imperatur a virtutibus theologicis circa obiectum 
+      <lb ed="#L" n="80"/>per actum earum circunstantionatum. Si enim esset secundum 
+      <lb ed="#L" n="81"/>se quaedam virtus acquisita ex actibus poenitendi, tunc ille qu 
+      <lb ed="#L" n="82"/>pluries peccaret &amp; pluries poeniteret esset virtuosior seu 
+      plu<lb ed="#L" n="83" break="no"/>res virtutes haberet quam innocens qui semper in actibus vir 
+      <!--00640.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="84"/>tuosis perseueraret, &amp; per consequens non acquireret sibi 
+      vir<lb ed="#L" n="85" break="no"/>tutem poenitentiae ex actibus poenitendi, quia nunquam 
+      poeni<lb ed="#L" n="86" break="no"/>teret eo quod peccatum non fecisset. Hoc autem est irrisorium. 
+      </p>
+            <p xml:id="jsnvu6-e233342-d1e337">
+               <lb ed="#L" n="87"/>
+               <!--7--> Est ergo virtus poenitentiae ipsamet virtus iustitiae cuius 
+      pri<lb ed="#L" n="88" break="no"/>mus actus est reddere vnicuique quod suum est, Deo 
+      obedien<lb ed="#L" n="89" break="no"/>tiam, obseruando mandata &amp; fugiendo transgressionem eorum. 
+      <lb ed="#L" n="90"/>Et si contingat transgredi, tunc elicit actum puniendi propter 
+      <lb ed="#L" n="91"/>quem actum sortitur nomen poenitentiae. Quod etiam dictum 
+      <lb ed="#L" n="92"/>est quod latria &amp; poenitentia non sunt virtutes puro morales pro 
+      <lb ed="#L" n="93"/>hoc solummodo dictum est, quia non possunt exire in actus suos 
+      <lb ed="#L" n="94"/>nisi praeuiis actibus virtutum theologicarum ostendentium 
+      ob<lb ed="#L" n="95" break="no"/>iecta sub circunstantiis ad quas ratio naturalis non se extendit. 
+      </p>
+            <p xml:id="jsnvu6-e233342-d1e361">
+               <lb ed="#L" n="96"/>
+               <!--8--> Ad primum argumentum dicendum quod aliquid dicitur gene 
+      <lb ed="#L" n="97"/>rale dupliciter. vno modo per praedicationem sicut vniuersale 
+      <lb ed="#L" n="98"/>est generale ad illa quae continentur sub ipso. Et sic virtus in 
+      <lb ed="#L" n="99"/>communi est generale remedium contra peccatum. Et hoc mo 
+      <lb ed="#L" n="100"/>do poenitentia non est generalis virtus, nec generale remedium 
+      <lb ed="#L" n="101"/>contra peccatum. Alio modo dicitur aliquid generale per 
+      causa<lb ed="#L" n="102" break="no"/>litatem, eo quod causalitas eius extenditur ad plura. Et sic 
+      poeniten<lb ed="#L" n="103" break="no"/>tia licet fit specialis virtus, est tamen generale remedium contra 
+      <lb ed="#L" n="104"/>omne vitium: quia conditiones quas recipis in suo obiecto inus 
+      <lb ed="#L" n="105"/>niuntur in omni peccato mortali scilicet in obedientia mandatorum Dei 
+      </p>
+            <p xml:id="jsnvu6-e233342-d1e388">
+               <lb ed="#L" n="106"/>
+               <!--9--> Ad secundum dicendum quod poenitentia non opponitu 
+      <lb ed="#L" n="107"/>omni vitio formaliter, sed solum impoenitentiae, &amp; ideo non est 
+      <lb ed="#L" n="108"/>omnis virtus formaliter: opponitur tamen omni vitio 
+      causali<lb ed="#L" n="109" break="no"/>ter, vt dictum est, &amp; ideo delet omna peccatum. 
+      </p>
+            <p xml:id="jsnvu6-e233342-d1e401">
+               <lb ed="#L" n="110"/>
+               <!--10--> ARGVMENTVM in oppositum bene probat quod 
+      <lb ed="#L" n="111"/>poenitentia est specialis virtus, sed tamen non potest exire in 
+      <lb ed="#L" n="112"/>actum poenicedi nisi praeuiis actibus virtutum theologicarum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

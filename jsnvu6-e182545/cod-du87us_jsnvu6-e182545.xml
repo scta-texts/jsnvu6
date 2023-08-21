@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="222-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e182545"><!-- l3d24q2 -->
+            <head xml:id="jsnvu6-e182545-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e182545-Hd1e103" type="question-title">Utrum fidei possit subesse falsum</head>
+            <p xml:id="jsnvu6-e182545-d1e106">
+               <lb ed="#L" n="127"/>UQSAESTIQVSECVNDA. 
+      <lb ed="#L" n="128"/>Vtrum fidei possit subesse falsum. 
+      <lb ed="#L" n="129"/>Thom. 21. 9. l. ar3. 111
+    </p>
+            <p xml:id="jsnvu6-e182545-d1e115">
+               <lb ed="#L" n="130"/>ECTDo quaeritur, vtrum filei possit subesse 
+      <lb ed="#L" n="131"/>salsum, &amp; arguitur quod sic, quia spei potest 
+      sub<lb ed="#L" n="132" break="no"/>esse falsum, ergo &amp; fidei: consequentia patet, quia 
+      <lb ed="#L" n="133"/>vtraque est virtus theologica, &amp; infusa. Antecedem 
+      <lb ed="#L" n="134"/>&amp; probatur, quia aliquis non existens in gratia 
+      po<lb ed="#L" n="135" break="no"/>test sperare se habere vitam aeternam, qui tamen nunquam 
+      ha<lb ed="#L" n="136" break="no"/>bebit, &amp; sic falsum sperat. 
+      </p>
+            <p xml:id="jsnvu6-e182545-d1e133">
+               <lb ed="#L" n="137"/>
+               <!--2.--> Item verum contingens saltem futurum potest non euenires 
+      <lb ed="#L" n="138"/>sed multa sunt talia quae subsunt fidei, sicut quod Deus iudicabit 
+      <lb ed="#L" n="139"/>mundum, &amp; resurrectio corporum, ergo talia possunt non 
+      gue<lb ed="#L" n="140" break="no"/>nire, &amp; sic fidei potest falsum subesse.? 13 
+      </p>
+            <p xml:id="jsnvu6-e182545-d1e147">
+               <lb ed="#L" n="141"/>
+               <!--3--> INICONTRARIVM arguitur, quia actus virtutis 
+      <lb ed="#L" n="142"/>non potest esse malus, sed aestimare falsum; est malum 
+      intelle<lb ed="#L" n="143" break="no"/>ctus, ergo actus fidei quae est virtus intellectualis, non potest 
+      <lb ed="#L" n="144"/>esse falsus, quia sic esset malus. aob ollci aislog 
+      </p>
+            <p xml:id="jsnvu6-e182545-d1e160">
+               <lb ed="#L" n="145"/>
+               <!--4--> RESPONSIO, Dicendum est simpliciter quod fidei 
+      <lb ed="#L" n="146"/>de qua loquimur non potest subesse falsum. Quod patet tripli¬ P 
+      <lb ed="#L" n="147"/>citer. Primo quia quando duo habitus sunt consimiliter circa 
+      <lb ed="#L" n="148"/>idem secundum affirmationem &amp; negationem, si vni non potest 
+      <lb ed="#L" n="149"/>subesse falsum, nec alteri, sed fides et visio sunt consimiliter 
+      cir<lb ed="#L" n="150" break="no"/>ca idem secundum affirmationem &amp; negationem. Quod enim 
+      <lb ed="#L" n="151"/>credimus beati vident, ergo cum visioi non possit subesse 
+      fal<lb ed="#L" n="152" break="no"/>sum, nec fidei. Secundo sic, fides aut est circa necessaria, vt deum 
+      <lb ed="#L" n="153"/>esse trinum &amp; vnum, aut circa contingentia, si circa necellaria 
+      <lb ed="#L" n="154"/>ipsi non potest subesse falsum, nisi semper subesset, quia talia 
+      <lb ed="#L" n="155"/>sunt intransinutabilia: si vero sit circa contingentia, adhuc 
+      <lb ed="#L" n="156"/>non potest ipsi subesse falsum, quia licet talia de potentia 
+      abso<lb ed="#L" n="157" break="no"/>luta possint non euenire, tamen relata ad ordinationem 
+      didi<lb ed="#L" n="158" break="no"/>nam, secundum quem modum solum subsunt fidei, nullo 
+      mo<lb ed="#L" n="159" break="no"/>do possunt non cuenire, sed eueniunt de necessitate suppositionis, 
+      <lb ed="#L" n="160"/>quare &amp;ci Tertio sic, quando medium per quod aliquis 
+      assen<lb ed="#L" n="161" break="no"/>tit conclusioni non potesm deficere assensus non potest esse 
+      fal<lb ed="#L" n="162" break="no"/>sus vel defectuosus, sed veritas auctoriratis diuinae, per quam 
+      <!--00518.xml-->
+      <pb ed="#L" n="222-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>assentimus creditis, non potest deficere, ergo assensus fidei non 
+      <lb ed="#L" n="2"/>potest esse falsus. 
+</p>
+            <p xml:id="jsnvu6-e182545-d1e215">
+               <lb ed="#L" n="3"/>AD PRIMVM argumentum dicendum quod spei nor 
+      <lb ed="#L" n="4"/>potest subesse falsum: alia tamen ratione quam de fide, quia 
+      ve<lb ed="#L" n="5" break="no"/>rum &amp; falsum respiciunt intellectum, &amp; non voluntatem, vnde 
+      <lb ed="#L" n="6"/>nullus actus voluntatis potest esse verus vel falsus, sed solum actu 
+      <lb ed="#L" n="7"/>intellectus, quamuis actus voluntatis possit sequi &amp; sequatu 
+      <lb ed="#L" n="8"/>quandoque actum intellectus verum vel falsum: quum ergo actu: 
+      <lb ed="#L" n="9"/>spei sit actus voluntatis, non potest proprie dici falsus, dato 
+      quo<lb ed="#L" n="10" break="no"/>non eueniret id quod speratur. Verbi gratia in aliis: si enim 
+      de<lb ed="#L" n="11" break="no"/>sidero bonum prandium, &amp; spero me habiturum si contingat me 
+      <lb ed="#L" n="12"/>deficere, non propter hoc desiderium meum fuit falsum, sed for 
+      <lb ed="#L" n="13"/>te sequebatur aestimationem falsam, scilicet, quod credebam mi 
+      <lb ed="#L" n="14"/>habiturum bonum prandium. Similiter si non obtineretur quod 
+      <lb ed="#L" n="15"/>speratur non propter hoc spei subesset falsum, sed aestimationi 
+      <lb ed="#L" n="16"/>quam spes sequeretur. Item quod subest spei quae est virtus 
+      in<lb ed="#L" n="17" break="no"/>fusa, non potest non euenire ex suppositione, sicut nec illud quod 
+      <lb ed="#L" n="18"/>subest fidei: actus enim spei infusae non est quod aliquis speret se 
+      <lb ed="#L" n="19"/>habiturum vitam aeternam absolute, sed est quod aliquis spere 
+      <lb ed="#L" n="20"/>se habiturum vitam aeternam per gratiam Christi 
+      perseueran<lb ed="#L" n="21" break="no"/>tem in eo, &amp; istud nunquam deficit. qui enim perseuerauerit 
+      vs<lb ed="#L" n="22" break="no"/>que in finem, hic saluus erit. Primum tamen forte est melius 
+      di<lb ed="#L" n="23" break="no"/>ctum. Ad secundum patet solutio ex dictis, quia futura 
+      contin<lb ed="#L" n="24" break="no"/>gentia, vt subsunt diuinae ordinationi, non possunt non euenire 
+      <lb ed="#L" n="25"/>&amp; hoc modo solum subsunt fidei. Consueuit etiam hic quaeri 
+      <lb ed="#L" n="26"/>vtrum fides possit esse de scitis, &amp; vtrum possit esse de visis, sed 
+<lb ed="#L" n="27"/>de primo fuit visum primo libro, quaestione prima: de secundo 
+      <lb ed="#L" n="28"/>autem videbitur infra, distinctione. 31. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

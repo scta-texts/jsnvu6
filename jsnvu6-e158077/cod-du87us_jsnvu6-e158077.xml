@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="192-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e158077"><!-- l3d6q1 -->
+            <head xml:id="jsnvu6-e158077-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e158077-Hd1e103" type="question-title">Utrum in Christo sit pluralitas suppositorum</head>
+            <p xml:id="jsnvu6-e158077-d1e106">
+               <lb ed="#L" n="145"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="146"/>Vtrum in Christo sit pluralitas suppositorum. 
+      <lb ed="#L" n="147"/>Thom. 3. 4. 17. a1. 1.
+    </p>
+            <p xml:id="jsnvu6-e158077-d1e115">
+               <lb ed="#L" n="148"/>SVISIS inquirendum est de veritate 
+      sin<lb ed="#L" n="149" break="no"/>gularum opinionum. Et primo circa primam 
+      <lb ed="#L" n="150"/>opinionem quae ponit in Christo pluralitatem 
+      <lb ed="#L" n="151"/>sj suppositorum. Quaeritur vtrum hoc sit verum 
+      <lb ed="#L" n="152"/>i Et videtur quod sic. Omne illud quod est aliud 
+      <lb ed="#L" n="153"/>&amp; aliud differt supposito. Sed Christus secundum quod Deus 
+      <lb ed="#L" n="154"/>&amp; secundum quod homo aliud &amp; aliud est, ergo Christus 
+      secun<lb ed="#L" n="155" break="no"/>dum quod Deus &amp; secundum quod homo differt a seipso 
+      sup<lb ed="#L" n="156" break="no"/>posito. Minor probatur per Augustinum in Enchiridio vbi 
+      di<lb ed="#L" n="157" break="no"/>cit quod diuina substantia &amp; humana vtrumque est Dei filius, sed 
+      <lb ed="#L" n="158"/>aliud propter verbum, &amp; aliud propter hominem. Et Leo papa 
+      <lb ed="#L" n="159"/>dicit in quadam epistola quod vnum horum coruscat miracu¬ 
+      <!--00459.xml-->
+      <pb ed="#L" n="193-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>lis, &amp; aliud succumbit iniuriis. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e152">
+               <lb ed="#L" n="2"/>
+               <!--2.--> Item illud quod est magis proprium naturae minus est sepa 
+      <lb ed="#L" n="3"/>rabile. Sed esse suppositum est magis proprium substantiae com 
+      <lb ed="#L" n="4"/>pletae quam esse indiuiduum, quia esse indiuiduum competit 
+      <lb ed="#L" n="5"/>rebus cuiuslibet generis, non autem esse suppositum, sed 
+      so<lb ed="#L" n="6" break="no"/>li substantiae, ergo minus potest separari a substantia ratic 
+      <lb ed="#L" n="7"/>suppositi quam ratio indiuidui, sed ab humana natura in Chri 
+      <lb ed="#L" n="8"/>sto non fuit separata nec forte potuit separari ratio indiuidui, 
+      <lb ed="#L" n="9"/>eigo nec ratio suppositi. Sed constat quod ibi fuit suppositum 
+      <lb ed="#L" n="10"/>diuinum, ergo duo supposita diuinum &amp; humanum. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e177">
+               <lb ed="#L" n="11"/>
+               <!--3.--> Item Christus secundum quod homo continetur in specie 
+      <lb ed="#L" n="12"/>humana, dicit enim Dion. I. cap. de diuinis nomi. quod intra no 
+      <lb ed="#L" n="13"/>stram factus est naturam qui omnem naturam &amp; omnem 
+      or<lb ed="#L" n="14" break="no"/>dinem supersubstantialiter excedit, sed Christus non 
+      contine<lb ed="#L" n="15" break="no"/>tur in specie humana nisi sicut suppositum humanae speciei, 
+      er<lb ed="#L" n="16" break="no"/>go in Christo est aliud suppositum a supposito verbi. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e195">
+               <lb ed="#L" n="17"/>
+               <!--4.--> Item homo nomen est suppositi, sed secundum Aug. &amp; plu 
+      <lb ed="#L" n="18"/>res alios sanctos in pluribus locis homo fuit a verbo assumptus, 
+      <lb ed="#L" n="19"/>ergo suppositum fuit assumptum, sed constat quod in Christe 
+      <lb ed="#L" n="20"/>fuit vnum assumens, ergo plura supposita, vnum assumens &amp; 
+      <lb ed="#L" n="21"/>aliud assumptum. 
+</p>
+            <p xml:id="jsnvu6-e158077-d1e211">
+               <lb ed="#L" n="22"/>
+               <!--5.--> IN CONTRARIVM est quod dicit Damas. 3. lib. 
+      <lb ed="#L" n="23"/>In domino nostro Iesu Christo duas naturas cognoscimus 
+      <lb ed="#L" n="24"/>vnam autem hypostasim. Sed hypostasis Grece idem est quod 
+      <lb ed="#L" n="25"/>suppositum Latine, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e224">
+               <lb ed="#L" n="26"/>
+               <!--6--> RESPONSIO. Circa istam quaestionem duo sunt 
+      vi<lb ed="#L" n="27" break="no"/>denda. Primum est vtrum in Christo sint plura supposita. 
+      Se<lb ed="#L" n="28" break="no"/>cundum est dato quod non, sed quod plures sint naturae in 
+      eo<lb ed="#L" n="29" break="no"/>dem supposito, vtrum secundum illas Christus debeat dici 
+      es<lb ed="#L" n="30" break="no"/>se vnum an plura. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e240">
+               <lb ed="#L" n="31"/>
+               <!--7--> QUANTVM ad primum dicendum quod in Christo fuit 
+      <lb ed="#L" n="32"/>tantum vnum suppositum scilicet suppositum filij subsistem 
+      <lb ed="#L" n="33"/>in duabus naturis diuina &amp; humana. Quod patet supponendo 
+      <lb ed="#L" n="34"/>ea quae sunt fidei &amp; scripturae, fides enim &amp; scriptura verificant 
+      <lb ed="#L" n="35"/>has propositiones filius Dei est homo, filius Dei est 
+      incarna<lb ed="#L" n="36" break="no"/>tus, &amp; passus, &amp; consimiles. Ex hoc sic arguitur, nihil 
+      praedica<lb ed="#L" n="37" break="no"/>tur de altero in quid, vel denominatiue formali 
+      denominatio<lb ed="#L" n="38" break="no"/>ne, &amp; non solum extrinseca nisi fit vnum secundum suppositum 
+      <lb ed="#L" n="39"/>cum illo, sed vt dictum est secundum fidem &amp; scripturam, 
+      hu<lb ed="#L" n="40" break="no"/>mana natura praedicatur de filio Dei concretiue &amp; in quid, di 
+      <lb ed="#L" n="41"/>cendo filius Dei est homo, &amp; denominatiue denominatione 
+      <lb ed="#L" n="42"/>formali &amp; non solum extrinseca, dicendo Deus est incarnatus 
+      <lb ed="#L" n="43"/>humanatus, ergo humana natura cum filio Dei est vnum 
+      sup<lb ed="#L" n="44" break="no"/>positum. Minor patet ex variis locis scripturae. Maior similiter 
+      <lb ed="#L" n="45"/>manifesta est, nunquam enim illa quae differunt secundum 
+      supposi<lb ed="#L" n="46" break="no"/>tum praedicantur de se inuicem in quid, nec denominatiue 
+      ni<lb ed="#L" n="47" break="no"/>si denominatione extrinseca dicitur homo est vestitus. Omnis 
+      <lb ed="#L" n="48"/>enim denominatio intrinseca est ab aliquo secundum 
+      suppo<lb ed="#L" n="49" break="no"/>situm indistincto, ergo humana natura in Christo non 
+      distin<lb ed="#L" n="50" break="no"/>guitur a verbo secundum suppositum, impossibile est ergo 
+      sal<lb ed="#L" n="51" break="no"/>uare veritatem scripturae ponendo in Christo duo supposita¬ 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e290">
+               <lb ed="#L" n="52"/>
+               <!--8--> Aliqui tamen crediderunt eam posse saluare ponendo in 
+      <lb ed="#L" n="53"/>Christo vnitatem personae cum pluralitate suppositorum, quod 
+      <lb ed="#L" n="54"/>includit contradictionem, &amp; incidit in damnatum errorem. Con 
+      <lb ed="#L" n="55"/>tradictionem includit, quia quando aliqua se habent sicut 
+      supe<lb ed="#L" n="56" break="no"/>rius &amp; inferius directe plurificato vno plurificatur aliud, sed 
+      <lb ed="#L" n="57"/>suppositum &amp; persona se habent sicut superius &amp; inferius, quia il 
+      <lb ed="#L" n="58"/>lud idem quod dicit suppositum in genere substantiae absolutae dicit 
+      <lb ed="#L" n="59"/>persona in genere, intellectualis naturae, ergo ponendo plura 
+      <lb ed="#L" n="60"/>supposita in intellectuali natura, necesse est ponere plures 
+      per<lb ed="#L" n="61" break="no"/>sonas, sed vtraque natura in Christo diuina &amp; humana est intel 
+      <lb ed="#L" n="62"/>lectualis: ergo sicut in Christo sunt plura supposita, ita &amp; 
+      plu<lb ed="#L" n="63" break="no"/>res personae. Et ideo vtrumque horum repperi damnatum esse in 
+      <lb ed="#L" n="64"/>concilio Constantinopolitano sub his verbis, Si quis 
+      introdu<lb ed="#L" n="65" break="no"/>"cere conetur in mysterio Christi duas subsistentias, seu duas 
+      <lb ed="#L" n="66"/>personas anathema sit, subsistentia autem ibi assumitur pro 
+      sup<lb ed="#L" n="67" break="no"/>posito vel hypostasi. Incidit etiam in errorem. Nestorij qui 
+      dixi<lb ed="#L" n="68" break="no"/>suppositum assumptum vniri personae diuinae secundum 
+      digni<lb ed="#L" n="69" break="no"/>tatem lionoris inquantum omnis honor qui exhibetur filio 
+      <lb ed="#L" n="70"/>Dei exhibetur illi homini propter coniunctionem ad filium Dei. 
+      <lb ed="#L" n="71"/>Et ideo dicit tantum vnam personam esse in Christo, licet 
+      es<lb ed="#L" n="72" break="no"/>sent duo supposita. hoc autem est damnatum approbante synodo 
+      <lb ed="#L" n="73"/>Ephesina sub his verbis, Si quis in vno Christo diuidat 
+      substan<lb ed="#L" n="74" break="no"/>tias post adunationem copulas eas sola coniunctione quae est 
+      <lb ed="#L" n="75"/>secundum dignitatem vel auctoritatem, vel potentiam, &amp; non 
+      <lb ed="#L" n="76"/>magis concursu secundum adunationem naturalem anathema 
+      <lb ed="#L" n="77"/>sit: sic igitur patet quod prima opinio non solum falsa est, sed est 
+      <lb ed="#L" n="78"/>haeresis damnata ab ecclesia in conciliis, &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e354">
+               <lb ed="#L" n="79"/>
+               <!--9--> QUANTVM ad secundum scilicet supposito, quod in 
+      <lb ed="#L" n="80"/>Christo sint plures naturae in vna hypostasi siue persona, vtrum 
+      <lb ed="#L" n="81"/>debeat dici Christus vnum an plura. Et circa hoc est triplex 
+      mo<lb ed="#L" n="82" break="no"/>dus dicendi, Primus modus est quod Christus debet dici vnum, licet 
+      <!--00459.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>in Christo sint plures naturae. Cuius ratio est, quia Christus non 
+      <lb ed="#L" n="84"/>est nisi illud quod praedicatur de supposito Christi. Sed altera na 
+      <lb ed="#L" n="85"/>turarum non praedicatur de Christo, Christus enim non est 
+      hu<lb ed="#L" n="86" break="no"/>manitas, sed est habens eam, licet diuina natura de Christo 
+      prae<lb ed="#L" n="87" break="no"/>dicetur. Et ideo cum humanitas non praedicetur de Christo in ab. 
+      <lb ed="#L" n="88"/>stracto propter hoc Christus secundum humanitatem non potes 
+      <lb ed="#L" n="89"/>dici vnum distinctum ab eo quod est secundum diuinitatem, 
+      quan<lb ed="#L" n="90" break="no"/>uis possit dici multa habens, scilicet deitatem &amp; humanitatem. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e389">
+               <lb ed="#L" n="91"/>
+               <!--10--> SECVNDVS modus est quod Christus debet dici plura 
+      <lb ed="#L" n="92"/>propter tria. Primo, quia secundum Philoso. 7. Meta. homo albus 
+      <lb ed="#L" n="93"/>non est simpliciter vnum, sed plura, sed de homine &amp; albo, nec 
+      <lb ed="#L" n="94"/>albedo, nec humanitas praedicatur: non eim bene dicitur homo 
+      <lb ed="#L" n="95"/>est humanitas, vel albedo, ergo non obstante quod humanitas 
+      ab<lb ed="#L" n="96" break="no"/>stractiue non praedicetur de Christo, deitas vero praedicetur 
+      <lb ed="#L" n="97"/>nihilominus secundum has plures naturas potest dici plura. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e409">
+               <lb ed="#L" n="98"/>
+               <!--11--> Secundo sic vnitas substantiae non diminuit de ratione 
+      <lb ed="#L" n="99"/>vnitatis, ergo nec pluralitas de ratione pluralitatis, sed 
+      perso<lb ed="#L" n="100" break="no"/>nae diuinae propter vnitatem substantiae dicuntur vnum, ergo 
+      <lb ed="#L" n="101"/>Christus propter pluralitatem substantiarum in Christo 
+      exi<lb ed="#L" n="102" break="no"/>stentium potest dici plura. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e425">
+               <lb ed="#L" n="103"/>
+               <!--12--> Tertio, quia vnum &amp; ens simpliciter dicuntur de vno &amp; 
+      <lb ed="#L" n="104"/>ente actuali, quia ens potentiale de se non est ens, nec vnum sim 
+      <lb ed="#L" n="105"/>pliciter, propter quod compositum substantiale non est plura 
+      <lb ed="#L" n="106"/>simpliciter, quia non est ex pluribus entibus in actu, sed in 
+      <lb ed="#L" n="107"/>Christo natura humana est ens actu similiter &amp; diuina, erge 
+      <lb ed="#L" n="108"/>secundum eas Christus debet dici plura simpliciter. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e443">
+               <lb ed="#L" n="109"/>
+               <!--13--> TERTIVS modus est quod proprie loquendo Christus 
+      <lb ed="#L" n="110"/>non debet dici nec vnum, nec plura absolute, sed cum 
+      determina<lb ed="#L" n="111" break="no"/>tione. Cuius ratio est, quia haec nomina cum sint adiectiua, po 
+      <lb ed="#L" n="112"/>nunt rem suam circa substantiua. Cum igitur haec nomina 
+      ponun<lb ed="#L" n="113" break="no"/>tur in praedicato sine substantiuo addito respondet eis, pro substam 
+      <lb ed="#L" n="114"/>tiuo res posita in subiecto, vt cum dicitur homo est albus. 
+      Quan<lb ed="#L" n="115" break="no"/>do vero additur substantiuum, talia adiectiua ponunt rem suam circa 
+      <lb ed="#L" n="116"/>ipsum, vt si diceretur Sortes est bonus cantor, quia lybonus non 
+      <lb ed="#L" n="117"/>determinaret Sortem sed cantorem. Eodem modo in proposite 
+      <lb ed="#L" n="118"/>si dicatur Christus est vnum nullo addito cum non determinaret 
+      <lb ed="#L" n="119"/>aliud substantiuum quam Christum non bene dicitur, sed deberei 
+      <lb ed="#L" n="120"/>dici Christus est vnus eo quod substantiuum &amp; adiectiuum debeni 
+      <lb ed="#L" n="121"/>in genere conuenire. Si vero aliud additur in praedicato secundum 
+      <lb ed="#L" n="122"/>conditionem praedicati debet determinatio vnitatis vel 
+      plurali<lb ed="#L" n="123" break="no"/>tatis addi, vt si dicatur Christus est suppositum debet addi vnum, 
+      <lb ed="#L" n="124"/>si vero dicatur Christus habet naturam addendum est duplicem, 
+      <lb ed="#L" n="125"/>vel dicendum est quod Christus habet duas naturas. Sed quia de 
+      <lb ed="#L" n="126"/>quo non praedicatur substantiuum non praedicatur adiectiuum 
+      <lb ed="#L" n="127"/>quod est determinatio substantiui, ideo sicut de Christo non prae 
+      <lb ed="#L" n="128"/>dicatur humana natura, sic non est dicendum qued Christus secun 
+      <lb ed="#L" n="129"/>dum ipsam sit vnum vel plura. Et idem dicendum est de diuin: 
+      <lb ed="#L" n="130"/>natura secundum illos qui dicunt quod non praedicatur formaliter 
+      <lb ed="#L" n="131"/>de Christo, &amp; istud videtur conuenientius dictum. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e498">
+               <lb ed="#L" n="132"/>
+               <!--14--> Ad rationes vtriusque opinionis potest responderi. Prima 
+      <lb ed="#L" n="133"/>enim opinio vera, si diuina natura praedicatur de Christo, quia 
+      <lb ed="#L" n="134"/>secundum eam solam potest dici vnum proprie loquendo, secur 
+      <lb ed="#L" n="135"/>dum vero aliam naturam quae non praedicatur de ipso non potes 
+      <lb ed="#L" n="136"/>dici vnum nec multa, propter causam iam assignatam, 
+      quan<lb ed="#L" n="137" break="no"/>quam multi dubitent an diuina natura praedicetur de Christe 
+      <lb ed="#L" n="138"/>in abstracto, de hoc tamen fuit plenius visum in primo libro. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e519">
+               <lb ed="#L" n="139"/>
+               <!--15--> Ad rationes secundae opinionis potest responderi. Ad 
+      pri<lb ed="#L" n="140" break="no"/>mam quod Philosophus quando dicit quod homo albus non est vnum 
+      <lb ed="#L" n="141"/>sed multa, intelligit materialiter quo ad naturas substantiae &amp; 
+      <lb ed="#L" n="142"/>accidentis, &amp; non quo ad formalem modum praedicandi. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e532">
+               <lb ed="#L" n="143"/>
+               <!--16--> Ad secundam dicendum est quod plures substantiae sunt realite 
+      <lb ed="#L" n="144"/>&amp; simpliciter plures res, sed secundum eas non potest Christus dici 
+      <lb ed="#L" n="145"/>simpliciter plura cum non praedicentur de ipso, vel saltem altera¬ 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e543">
+               <lb ed="#L" n="146"/>
+               <!--17--> Per idem patet ad tertiam, quia licet natura diuina &amp; 
+      hu<lb ed="#L" n="147" break="no"/>mana sint plura entia simpliciter &amp; in actu. Tamen quia 
+      neu<lb ed="#L" n="148" break="no"/>tra, vel saltem altera non praedicatur de Christo, ideo 
+      secun<lb ed="#L" n="149" break="no"/>dum eas non potest proprie dici plura. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e556">
+               <lb ed="#L" n="150"/>
+               <!--18--> AD ARGVMENTA principalia respondendum est. 
+      <lb ed="#L" n="151"/>Ad primum, quod sicut alterum &amp; alterum notat differentiam 
+      ac<lb ed="#L" n="152" break="no"/>cidentalem, ita aliud &amp; aliud differentiam substantialem, &amp; 
+      <lb ed="#L" n="153"/>ideo sicut in eodem supposito possunt vicissim esse diuersa acci 
+      <lb ed="#L" n="154"/>dentia secundum quae potest dici alterum &amp; alterum, sic Chri 
+      <lb ed="#L" n="155"/>stus in quo sunt diuersae substantiae potest dici aliud &amp; aliud, 
+      <lb ed="#L" n="156"/>maxime cum determinatione naturae dicendo quod est aliud 
+      se<lb ed="#L" n="157" break="no"/>cundum naturam diuinam, aliud secundum naturam humanam, 
+      <lb ed="#L" n="158"/>hoc est habens aliud &amp; aliud, quorum vtrumque potest esse 
+      si<lb ed="#L" n="159" break="no"/>ne multitudine suppositi. Et sic intelligendae sunt auctoritates 
+      <lb ed="#L" n="160"/>beati Aug. &amp; Leonis papae, cui concordat Greg. nazianzenus 
+      <lb ed="#L" n="161"/>in epistola ad Didimum, dicens sic: aliud &amp; aliud sunt ea ex 
+      <lb ed="#L" n="162"/>quibus saluator est, ipse autem non alius &amp; alius. 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e589">
+               <lb ed="#L" n="163"/>
+               <!--19--> Ad secundum dicendum est quod magis proprium non est 
+      sem<lb ed="#L" n="164" break="no"/>per magis inseparabile, magis enim propriumest homini esse 
+      <!--00460.xml-->
+      <pb ed="#L" n="193-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>bipedem quam esse animal, quia in pluribus conuenit homo, in 
+      <lb ed="#L" n="2"/>eo quod animal quam in eo quod bipes. Et tamen bipes magis potes 
+      <lb ed="#L" n="3"/>separari ab homine quam animal. Similiter in proposiro, esse 
+      in<lb ed="#L" n="4" break="no"/>diuiduum cum sit idem quod esse vnum numero magis est 
+      inse<lb ed="#L" n="5" break="no"/>parabile a substantia, &amp; a quacunque alia re quam quaecunque alia 
+      <lb ed="#L" n="6"/>proprietas posterior &amp; se habens per additionem ad esse 
+      indi<lb ed="#L" n="7" break="no"/>uiduum, quia suppositum dicitur indiuiduum, per se subsistens, &amp; 
+      <lb ed="#L" n="8"/>ideo econtrario debet dici quod suppositum cum sit posterius 
+      <lb ed="#L" n="9"/>quam indiuiduum, &amp; includat ipsum magis potest separari a 
+      <lb ed="#L" n="10"/>substantia quam ratio indiuidui 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e626">
+               <lb ed="#L" n="11"/>
+               <!--20--> Ad teruu dicendum est quod Christus ratione humanae 
+      natu<lb ed="#L" n="12" break="no"/>rae est in specie humana sicut hypostasis, vel suppositum non 
+      qui<lb ed="#L" n="13" break="no"/>dem per humanam naturam constitutum, sed vt habens humana 
+      na<lb ed="#L" n="14" break="no"/>turam. Et hoc sufficit ad hoc vt possit dici esse in humana specie 
+      </p>
+            <p xml:id="jsnvu6-e158077-d1e640">
+               <lb ed="#L" n="15"/>
+               <!--21--> Ad quartam dicendum que vbicunque beatus August. vel ali 
+      <lb ed="#L" n="16"/>sancti dicunt hominem a filio dei esse assumptum exponendum 
+      <lb ed="#L" n="17"/>est (hominem, id est humanitatem.) Sicut enim prius dictum 
+      <lb ed="#L" n="18"/>fuit doctores sacri in dictis suis non semper seruauerunt pro 
+      <lb ed="#L" n="19"/>prietatem locutionis. Sic igitur patet quod prima opinio qua 
+      <lb ed="#L" n="20"/>ponit hominem assumptum, &amp; piuralitatem suppositorum 
+      ne<lb ed="#L" n="21" break="no"/>gando pluralitatem personarum in his omnibus &amp; aliis quae 
+      hae<lb ed="#L" n="22" break="no"/>sequuntur falsa est &amp; haeretica.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

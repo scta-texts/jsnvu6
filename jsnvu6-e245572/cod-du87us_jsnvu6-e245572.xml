@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="298-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e245572"><!-- l4d17q15 -->
+            <head xml:id="jsnvu6-e245572-Hd1e101">Quaestio 15</head>
+            <head xml:id="jsnvu6-e245572-Hd1e103" type="question-title">Utrum confessio debeat fieri integraliter vni et eidem</head>
+            <p xml:id="jsnvu6-e245572-d1e106">
+               <lb ed="#L" n="23"/>QVAESTIO DECIMAQVINTA. 
+      <lb ed="#L" n="24"/>Vtrum confessio debeat fieri integraliter vni &amp; eidem. 
+    </p>
+            <p xml:id="jsnvu6-e245572-d1e113">
+               <lb ed="#L" n="25"/>DTERTIVM sic proceditur, &amp; arguitur quod 
+      <lb ed="#L" n="26"/>confessio non debeat fieri integraliter vni &amp; 
+      ei<lb ed="#L" n="27" break="no"/>dem: quia confessio fit propter absolutionem, 
+      <lb ed="#L" n="28"/>sed contingit quandoque quod ille cui peccator 
+      con<lb ed="#L" n="29" break="no"/>firetur non potest de omnibus peccatis 
+      absol<lb ed="#L" n="30" break="no"/>uere propter aliquem easum superiori retentum, ergo 
+      confi<lb ed="#L" n="31" break="no"/>tens non tenetur tali confessori omnia confiteri. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e131">
+               <lb ed="#L" n="32"/>
+               <!--2--> Item sicut confessio habet determinatum ministrum, ita vi 
+      <lb ed="#L" n="33"/>detur habere determinatam materiam quae est illud per quod 
+      <lb ed="#L" n="34"/>peccata manifestantur, sed confitens (vt videtur) potest 
+      mani<lb ed="#L" n="35" break="no"/>festare partem peccatorum per vnum signum (scilicet verbo) 
+      <lb ed="#L" n="36"/>partem per aliud (scilicet scripto) ergo similiter potest partem 
+      <lb ed="#L" n="37"/>peccatorum manifestare vni ministro, &amp; partem alteri. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e150">
+               <lb ed="#L" n="38"/>
+               <!--3--> IN CONTRARIVM arguitur, quia confessio fit 
+      <lb ed="#L" n="39"/>ad hoc, vt peccator veniam consequatur de peccatis a Deo, 
+      <lb ed="#L" n="40"/>sed non potest consequi veniam de vno peccato sine alio, erge 
+      <lb ed="#L" n="41"/>confitens non debet confireri de vno peccato sine aliis. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e163">
+               <lb ed="#L" n="42"/>
+               <!--4--> RESPONSIO. Circa quaestionem istam videnda sunt 
+      <lb ed="#L" n="43"/>duo. Primum est illud quod directe quaeritur, videlicet vtrum 
+      <lb ed="#L" n="44"/>confessio debeat fieri integraliter vni &amp; eidem. Secundum est 
+      il<lb ed="#L" n="45" break="no"/>lud quod in primo argumento implicatur (videlicet vtrum 
+      abso<lb ed="#L" n="46" break="no"/>lutio de omnibus peccatis debeat fieri ab vno &amp; eodem ministro. 
+</p>
+            <p xml:id="jsnvu6-e245572-d1e179">
+               <lb ed="#L" n="47"/>QUANTVM ad primum sciendum est, quod de 
+      conclu<lb ed="#L" n="48" break="no"/>sione est omnium concors sententia, videlicet qued necessarium est 
+      <lb ed="#L" n="49"/>omnia peccata confiteri vni &amp; eidem: modus autem probandi 
+      <lb ed="#L" n="50"/>non est idem apud omnes. Vno enim modo probatur sic: sicut 
+      <lb ed="#L" n="51"/>est in medicina corporali sic est in poenitentia quae est medicina 
+      <lb ed="#L" n="52"/>spiritualis. Sed in medicina corporali sic est quod medicus non solum 
+      <lb ed="#L" n="53"/>debet cognoscere vnum morbum, sed totam dispositionem corpo 
+      <lb ed="#L" n="54"/>ris, pro eo quod vnus morbus grauatur ex alio, &amp; quod prodest ad 
+      <lb ed="#L" n="55"/>curationem vnius morbi aliquando nocet alij, ergo in poeniten 
+      <lb ed="#L" n="56"/>tia quae est medicina spiritualis oportet quod sacerdos qui est 
+      me<lb ed="#L" n="57" break="no"/>dicus spiritualis cognoscat non solum vnum peccatum, sed 
+      om<lb ed="#L" n="58" break="no"/>nia: quia ex quolibet, aliud grauitatem recipit, &amp; quia 
+      medici<lb ed="#L" n="59" break="no"/>na quae valeret ad vnum peccatum posset esse incentiua alterius 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e210">
+               <lb ed="#L" n="60"/>
+               <!--6--> Sed ista ratio non videtur necessario probare quod necessarium 
+      <lb ed="#L" n="61"/>sit omnia peccata confiteri vni &amp; eidem, sed quod est valde 
+      con<lb ed="#L" n="62" break="no"/>gruum: quia secundum eam non est necesse omnia peccata con 
+      <lb ed="#L" n="63"/>fiteri vni &amp; eidem nisi ratione grauitatis quam vnum sortitur ex 
+      <lb ed="#L" n="64"/>alio, vel ratione medicinae quae prodesset contra vnum &amp; non 
+      <lb ed="#L" n="65"/>contra aliud. Sed propter primum non oportet hoc ponere: quia 
+      <lb ed="#L" n="66"/>circunstantiae aggrauantes non sunt de necessitate confessionis 
+      <lb ed="#L" n="67"/>sed solum illae quae addunt nouam speciem peccati: vt patet ex prae 
+      <lb ed="#L" n="68"/>"cedentibus, sed vnum peccatum si recipiat grauitatem ex alio 
+      si<lb ed="#L" n="69" break="no"/>bi adiuncto, non tamen recipit nouam speciem, ergo ad confessionem 
+      <lb ed="#L" n="70"/>vnius peccati non requiritur necessario quod fiat mentio de alio. 
+      <lb ed="#L" n="71"/>Nec propter secundum scilicet propter medicinam: quia vel loquimur 
+      <lb ed="#L" n="72"/>de medicina quae expellit morbum, vel de illa quae praeseruat a 
+      <lb ed="#L" n="73"/>recidiuo: medicina quae expellit morbum vnius peccati nunquam 
+      <lb ed="#L" n="74"/>est contraria medicinae alterius peccati: quia eadem medicina est 
+      <lb ed="#L" n="75"/>expellens omne peccatu (.I. gratia) &amp; ita ratione talis medicinae 
+      <lb ed="#L" n="76"/>non oportet omnia peccata confiteri simul, ne medicina quae 
+      cu<lb ed="#L" n="77" break="no"/>rat vnm peccatu, grauet vel augeat aliud, quia istud nunquam est, 
+      <lb ed="#L" n="78"/>nec ratione medicinae praeseruatiuae, quia non est de ratione 
+      ve<lb ed="#L" n="79" break="no"/>iae poenitentiae quod homo ab ea non possit excidere (vt patuit 
+      <lb ed="#L" n="80"/>prius) ion est ergo necessarium ad veram poenitentiam quod exhi¬ 
+      <!--00669.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>beantur omnimoda remedia contra recidiuum. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e267">
+               <lb ed="#L" n="82"/>
+               <!--7.--> Alius est modus efficacior probans eandem conclusionem, &amp; est 
+      <lb ed="#L" n="83"/>talis: confessio correspondet contritioni, sicut signum signato, quia 
+      <lb ed="#L" n="84"/>ea quae sunt in voce sunt eorum quae sunt in anima passionum 
+      <lb ed="#L" n="85"/>norae, &amp; correspondet per simile: quia per contritionem fit mentalis 
+      <lb ed="#L" n="86"/>confessio coram Deo, sicut per confessionem vocalem fit manifestario 
+      <lb ed="#L" n="87"/>peccatorum coram Dei ministro, sed contritio non potest esse de vno 
+      <lb ed="#L" n="88"/>peccato sine alio, ergo nec confessio. Et sic patet quod confessio 
+      <lb ed="#L" n="89"/>debet fieri integre de omnibus peccatis vni &amp; eidem, quod 
+      <lb ed="#L" n="90"/>est intelligendum de peccatis quae memoriae occurrunt praeuia 
+      <lb ed="#L" n="91"/>discussione conscientiae quae debet confessionem praecedere. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e293">
+               <lb ed="#L" n="92"/>
+               <!--8--> QUANTVM ad secundum videlicet vtrum absolutio 
+      <lb ed="#L" n="93"/>de omnibus peccatis debeat fieri ab vno &amp; eodem ministro est 
+      <lb ed="#L" n="94"/>multiplex modus dicendi. Primus est o confitens debet dicere 
+      <lb ed="#L" n="95"/>omnia peccata sua sacerdoti, &amp; ille ipsum non absolutum debet 
+      <lb ed="#L" n="96"/>remittere ad superiorem qui debet eum iterato audire de 
+      om<lb ed="#L" n="97" break="no"/>nibus, &amp; absoluere vel committere inferiori, quod eum absoluat de 
+      <lb ed="#L" n="98"/>omnibus. Et sic tota confessio fit vni, &amp; tota absolutio est ab 
+      <lb ed="#L" n="99"/>vno. Sed contra istum modum est consuetudo ecclesiae. Ecclesia 
+      <lb ed="#L" n="100"/>enim obseruat quod inferior audiens totam confessionem 
+      absol<lb ed="#L" n="101" break="no"/>uit de casibus quibus potest, superior autem ad quem remittitur 
+      <lb ed="#L" n="102"/>audit solum casum pertinentem ad se, &amp; de illo absoluit. Item si 
+      <lb ed="#L" n="103"/>ille modus obseruaretur, includeret aliqua inconuenientia. Primum 
+      <lb ed="#L" n="104"/>quod ille qui est confessus omnia peccata sua inferiori, puta curato 
+      <lb ed="#L" n="105"/>suo tenetur iterum omnia peccata sua confiteri superiori, 
+      put<lb ed="#L" n="106" break="no"/>episcopo vel eius poenitentiario quod est magnum 
+      inconue<lb ed="#L" n="107" break="no"/>niens: quia quamuis rite confessus possit si velit irerum confiteri, 
+      <lb ed="#L" n="108"/>quod tamen ad hoc obligetur non videtur rationabile. Item 
+      fru<lb ed="#L" n="109" break="no"/>stra fit confessio illi a quo non speratur absolutio, sed si confessio 
+      <lb ed="#L" n="110"/>fiat integre duobus successiue, &amp; tantum vnus absoluit de 
+      om<lb ed="#L" n="111" break="no"/>nibus, tunc fit confessio alicui eorum a quo non fit absolutio. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e342">
+               <lb ed="#L" n="112"/>
+               <!--9--> Tenendo autem modum quem obseruat ecclesia (vt dictum 
+      <lb ed="#L" n="113"/>est) sequuntur similiter aliqua de praedictis inconuenientibus. 
+      <lb ed="#L" n="114"/>Primum est, quia confessio quae fit inferiori integre &amp; de 
+      om<lb ed="#L" n="115" break="no"/>nibus non habet absolutionem correspondentem. Secundum 
+      <lb ed="#L" n="116"/>est quod confessio quae fit superiori de solo casu ad eum 
+      per<lb ed="#L" n="117" break="no"/>tinente non est integra, &amp; iterum cum de illo peccaro fuerit 
+      <lb ed="#L" n="118"/>confessus inferiori dubium est quare tenetur iterato alij 
+      consi<lb ed="#L" n="119" break="no"/>teri: absolutio etiam quae fit ab inferiori ministro, &amp; a 
+      superio<lb ed="#L" n="120" break="no"/>re non est vna, nec de eisdem peccatis, sed de diuersis, quae 
+      om<lb ed="#L" n="121" break="no"/>nia videntur inconuenientia. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e368">
+               <lb ed="#L" n="122"/>
+               <!--10--> Secundo modo dicitur sic, quod inferior audit totam 
+      confes<lb ed="#L" n="123" break="no"/>sionem &amp; de omnibus absoluit, remittit tamen eum ad 
+      superio<lb ed="#L" n="124" break="no"/>rem, non quidem vt absoluatur de peccato, sed vt absoluatu 
+      <lb ed="#L" n="125"/>ab obligatione praecepti quo tenetur se repraesentare superiori 
+      <lb ed="#L" n="126"/>cui reseruatur cognitio talium peccatorum. Sed istud minus va 
+      <lb ed="#L" n="127"/>let, tum quia ecclesia non potest praecipere quod rite confessus 
+      <lb ed="#L" n="128"/>&amp; absolutus iterato eadem confiteatur, tum quia secundum 
+      <lb ed="#L" n="129"/>istum modum sufficeret peccatori venire ad episcopum &amp; 
+      di<lb ed="#L" n="130" break="no"/>cere ei peccatum suum, et statim recedere non expectata 
+      ab<lb ed="#L" n="131" break="no"/>solutione, cum iam sit ab omnibus absolutus, hoc enim 
+      facien<lb ed="#L" n="132" break="no"/>do impleuit praeceptum. Istud autem est ridiculum, nec 
+      obser<lb ed="#L" n="133" break="no"/>uatur ab ecclesia, superior enim &amp; confessionem audit, &amp; 
+      sacra<lb ed="#L" n="134" break="no"/>mentaliter absoluit, &amp; poenitentiam imponit. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e401">
+               <lb ed="#L" n="135"/>
+               <!--11--> Tertio modo dicitur sic, quod non obstante quod inferior 
+      <lb ed="#L" n="136"/>absoluat de casibus pertinentibus ad ipsum, &amp; superior de casu 
+      <lb ed="#L" n="137"/>ad se pertinente, est tamen tantum vna absolutio: quia quilibet 
+      <lb ed="#L" n="138"/>eorum absoluit, vt minister Dei qui est vnus, licet ministri sint 
+      <lb ed="#L" n="139"/>plures. Sed istud in nullo soluit, imo potius confirmat, quia 
+      si<lb ed="#L" n="140" break="no"/>cut minister non absoluit nisi vice Dei, sic non fit ei confessio, 
+      <lb ed="#L" n="141"/>nisi vt ministro Dei. Si ergo absolutio quae fit a pluribus 
+      mini<lb ed="#L" n="142" break="no"/>stris est vna propter virtutem Dei cuius ministris sunt: eodem 
+      <lb ed="#L" n="143"/>modo confessio facta pluribus presbyteris erit vna &amp; sufficiens. 
+      <lb ed="#L" n="144"/>Quod quidam concedunt, asserentes periculose contra commuo 
+      <lb ed="#L" n="145"/>nein doctrinam, quod sicut homo non tenetur confiteri 
+      inte<lb ed="#L" n="146" break="no"/>gre, nisi de quibus recolit, sic cum confessio fiat propter 
+      abso<lb ed="#L" n="147" break="no"/>lutionem, non tenetur confiteri integre, nisi illi qui integre 
+      po<lb ed="#L" n="148" break="no"/>test eum absoluere, vnde sufficit (vt dicunt) quod peccator con 
+      <lb ed="#L" n="149"/>fiteatur inferiori de illis de quibus potest per eum absolui, &amp; de 
+      <lb ed="#L" n="150"/>reliquis superiori, &amp; per quemlibet absoluatur de casibus ad 
+      <lb ed="#L" n="151"/>cum pertinentibus. Absui dum est enim (vt dicunt) quod aliquis 
+      <lb ed="#L" n="152"/>teneatur confiteri de aliquo peccato sacerdoti, qui non potest 
+      <lb ed="#L" n="153"/>eum de illo peccato absoluere. Et ideo sic dimidiabitur licite 
+      <lb ed="#L" n="154"/>tam confessio quam absolutio, quod videtur erroneum. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e449">
+               <lb ed="#L" n="155"/>
+               <!--12:--> Quarto modo dicitur sic, quod per peccatum homo deliquit in 
+      <lb ed="#L" n="156"/>Deum &amp; in ecclesiam, &amp; ideo indiget reconciliatione 
+      abvtrun<lb ed="#L" n="157" break="no"/>que: quantum ergo ad reconciliationem quae fit ad Deum 
+      con<lb ed="#L" n="158" break="no"/>fessio est facienda vni integraliter &amp; ille de omnibus absoluit 
+      <lb ed="#L" n="159"/>cum, &amp; Deo reconciliat. Sed quantum ad reconciliationem qui 
+      <lb ed="#L" n="160"/>fit ecclesiae plures possunt eum diuisim reconciliare, vnus de 
+      <lb ed="#L" n="161"/>vno, &amp; alius de alio prout placet ecclesiae ordinare. Istud autem 
+      <lb ed="#L" n="162"/>posset sustineri si appareret qualiter per peccatum occultum ali¬ 
+      <!--00670.xml-->
+      <pb ed="#L" n="298-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ter delinquatur in Deum, &amp; aliter in ecclesiam: quia tunc 
+      proba<lb ed="#L" n="2" break="no"/>bile esset quod aliter reconciliaretur peccator Deo, &amp; aliter 
+      eccl<lb ed="#L" n="3" break="no"/>siae. Sed non apparet qualiter peccatum occultum aliter fit contra 
+      <lb ed="#L" n="4"/>Deum &amp; aliter contra ecclesiam, licet de peccato notorio posset. 
+      <lb ed="#L" n="5"/>hoc dici ratione scandali, quod etiam forte non est verum, qua 
+      <lb ed="#L" n="6"/>etiam ratione scandali est contra Deum: eadem est ergo 
+      recon<lb ed="#L" n="7" break="no"/>ciliatio qua quis reconciliatur Deo &amp; ecclesiae, quia per 
+      sacra<lb ed="#L" n="8" break="no"/>mentalem absolutionem circa quam ecclesia non habet aliquid 
+      <lb ed="#L" n="9"/>immutare cuicunque talis reconciliatio fiat. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e497">
+               <lb ed="#L" n="10"/>
+               <!--13--> Et sic patet quod dubia sunt circa articulum istum propter 
+      <lb ed="#L" n="11"/>consuetudinem quam obseruant multae ecclesiae credentes imitar 
+      <lb ed="#L" n="12"/>ecclesiam Romanam quae est omnium domina &amp; magistra, sed 
+      <lb ed="#L" n="13"/>certe non bene imitantur eam quoad hoc, qa sola peccata &amp; 
+      eo<lb ed="#L" n="14" break="no"/>rum confessio &amp; absolutio pertinent ad forum poenitentiae: 
+      sen<lb ed="#L" n="15" break="no"/>tentiae autem excommunicationum &amp; absolutio ab eis, 
+      irregulari<lb ed="#L" n="16" break="no"/>tates, &amp; dispensatio super eis, commutatio votorum, &amp; 
+      dispensatio<lb ed="#L" n="17" break="no"/>in eis pertinent ad forum exterius: ecclesia autem Romana nunquam 
+      <lb ed="#L" n="18"/>retinuit sibi absolutionem ab aliqua culpa directe, sed solum reti 
+      <lb ed="#L" n="19"/>nuit sibi absolutionem a quibusdam excommunicationibus, &amp; dis 
+      <lb ed="#L" n="20"/>pensationem super quibusdam irregularitatibus quae incurrunt quam 
+      <lb ed="#L" n="21"/>doque propter aliquas culpas, &amp; auctoritatem commutandi 
+      quae<lb ed="#L" n="22" break="no"/>dam vota vel dispensandi in eis, &amp; propter praedictam 
+      retentio<lb ed="#L" n="23" break="no"/>nem non oportet recurrere ad sedem apostolicam, nisi propter 
+      <lb ed="#L" n="24"/>absolutionem a sententiis, vel propter dispensationem super 
+      irre<lb ed="#L" n="25" break="no"/>gularitatibus, &amp; in votis quibus obtentis praelati possunt de om 
+      <lb ed="#L" n="26"/>nibus peccatis absoluere, nec oportet absolutionem vel confessio 
+      <lb ed="#L" n="27"/>nem dimidiare vel iterare, quin totum fiat ab vno &amp; per vnum 
+      <lb ed="#L" n="28"/>Et si per hunc modum facerent praelati in suis dioecesibus, &amp;c 
+      <lb ed="#L" n="29"/>retinerent sententias excomunicationum quas possent annecter 
+      <lb ed="#L" n="30"/>quibusdam criminibus, in hoc imitarentur ecclesiam Romanam, 
+      <lb ed="#L" n="31"/>sed quia illi non sibi retinent solum sententia, sed absolutionem ali 
+      <lb ed="#L" n="32"/>quorum peccatorum, quibus non est annexa sententia 
+      excommuni<lb ed="#L" n="33" break="no"/>cationis: idcirco ex hoc proueniunt omnia dubia superius tact: 
+      <lb ed="#L" n="34"/>de iteratione &amp; dimidiatione confessionis &amp; absolutionis, &amp; 
+      <lb ed="#L" n="35"/>quicquid sit de solutione &amp; terminatione praedictorum 
+      dubio<lb ed="#L" n="36" break="no"/>rum de quibus non video quod possit haberi plena certitudo, nisi 
+      <lb ed="#L" n="37"/>magna &amp; solenni discussione ac determinatione sedis 
+      apostoli<lb ed="#L" n="38" break="no"/>cae, tamen nullum ex hoc subditis imminet periculum qui 
+      obe<lb ed="#L" n="39" break="no"/>dienter faciunt quicquid superiores statuunt. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e567">
+               <lb ed="#L" n="40"/>
+               <!--14--> Et hoc sufficiat pro solutione primi argumenti. 
+      </p>
+            <p xml:id="jsnvu6-e245572-d1e575">
+               <lb ed="#L" n="41"/>
+               <!--15--> Ad secundum argumentum dicendum est, quod non est simile 
+      <lb ed="#L" n="42"/>de plurificatione signorum per quae fit confessio, &amp; de 
+      plurifi<lb ed="#L" n="43" break="no"/>catione ministrorum quibus fit absolutio: quia sicut per contri 
+      <lb ed="#L" n="44"/>tionem cordis fit Deo necessario integra confessio, sic 
+      confessi<lb ed="#L" n="45" break="no"/>oris debet fieri integre Dei ministro, sed signum per quod con 
+      <lb ed="#L" n="46"/>fitens manifestat peccata sua confessori non est tantum vnum, quia 
+      <lb ed="#L" n="47"/>non est possibile: quidam enim sunt muti, &amp; ideo non possunt per 
+      <lb ed="#L" n="48"/>verba peccata sua confiteri, propter quod cum Deus nihil 
+      impos<lb ed="#L" n="49" break="no"/>sibile requirat, restat quod tales possunt confiteri per scriptum. signa 
+      <lb ed="#L" n="50"/>vel nutus. materia enim confessionis non est vna secundum 
+      spe<lb ed="#L" n="51" break="no"/>ciem (vt aqua in baptismo) sed est vna vnitate analogiae quae est 
+      <lb ed="#L" n="52"/>inter signa, sic tamen quod semper principalius assumatur de pol 
+      <lb ed="#L" n="53"/>sibilibus. Cuius ratio est, quia in quibusdam sacramentis, puta in 
+      <lb ed="#L" n="54"/>baptismo. confirmatione, &amp; ordine nihil requiritur ex parte 
+      re<lb ed="#L" n="55" break="no"/>cipientis, nisi quod non ponat impedimentum. Et ideo quicquid ex 
+      <lb ed="#L" n="56"/>trinsecus apponitur totum est determinatum in specie vna ex 
+      or<lb ed="#L" n="57" break="no"/>dinatione diuina, sed in potentia requiritur per se actus 
+      poe<lb ed="#L" n="58" break="no"/>nitentis scilicet quod manifestet peccata sua sacerdoti, &amp; quia 
+      Deu<lb ed="#L" n="59" break="no"/>non requirit a nobis nisi quod possumus, ideo sufficit quod pecca 
+      <lb ed="#L" n="60"/>tor manifestet peccata sua sacerdoti per praecipuum signum 
+      <lb ed="#L" n="61"/>quod est sibi possibile, quamuis non sit semper eiusdem rationis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

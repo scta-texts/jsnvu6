@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="133-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2959"><!-- l2d14q1 -->
+            <head xml:id="jsnvu6-d1e2959-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e2959-Hd1e103" type="question-title">Utrum aliquae aquae sint super coelos</head>
+            <p xml:id="jsnvu6-d1e2959-d1e106">
+               <lb ed="#L" n="128"/>QVAIITIO TIIRA, 
+      <lb ed="#L" n="129"/>Vtrum aliquae aquae sint super coelos. 
+      <lb ed="#L" n="130"/>Thom. 1. q. 68. ar. 2. 
+    </p>
+            <p xml:id="jsnvu6-d1e2959-d1e115">
+               <lb ed="#L" n="131"/>CIRCA distinctionem decimamquartam 
+      quae<lb ed="#L" n="132" break="no"/>runtur primo, vtrum aliquae aquae sint super 
+      coe<lb ed="#L" n="133" break="no"/>los. Et videtur qo non, quia secundum naturam 
+      igni<lb ed="#L" n="134" break="no"/>&amp; aer supereminent aquae, sed nullus ponit ignem 
+      <lb ed="#L" n="135"/>vel aerem super coelos: ergo multominus aquam. 
+      </p>
+            <p xml:id="jsnvu6-d1e2959-d1e128">
+               <lb ed="#L" n="136"/>
+               <!--2--> IN CONTRARIVM arguitur, quia secundum Au 
+      <lb ed="#L" n="137"/>gustinum Gen. 2. ad literam. Maior est sacrae scripturae auctori 
+      <lb ed="#L" n="138"/>tas, quam omnis humani ingenij perspicacitas, sed sacra 
+      scri<lb ed="#L" n="139" break="no"/>ptura dicit expresse aquas esse super coelos Genes. 1. diuisit 
+      a<lb ed="#L" n="140" break="no"/>quas, quae erant sub firmamento ab aquis iis quae erant supra 
+      <lb ed="#L" n="141"/>firmamentum, &amp; sequitur quod vocauit Deus firmamentum 
+      <lb ed="#L" n="142"/>coelum, ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e2959-d1e149">
+               <lb ed="#L" n="143"/>RESPONSIO. Quidam attendentes ad potentiam 
+      <lb ed="#L" n="144"/>diuinam, quae potest facere omne quod contradictionem non 
+      <lb ed="#L" n="145"/>implicat, dixerunt quod verae aquae elementares sunt super 
+      coe<lb ed="#L" n="146" break="no"/>lum, quum contradictionem non implicet. Sed hoc 
+      rationali<lb ed="#L" n="147" break="no"/>ter refellit August. 2. super Gen. dicens quod in operibus sex 
+      <lb ed="#L" n="148"/>dierum, quibus natura instituta est, non quaeritur quid Deus 
+      <lb ed="#L" n="149"/>facere possit, sed quid rerum natura patiatur. 
+    </p>
+            <p xml:id="jsnvu6-d1e2959-d1e167">
+               <lb ed="#L" n="150"/>Ideo alij dicunt, quod aquae elementares secundum naturam 
+      <lb ed="#L" n="151"/>possunt esse, &amp; sunt super coelum, quod declarant multipliciter 
+      <lb ed="#L" n="152"/>Primo quia omnis qualitas corporum inferiorum habet reduci 
+      <lb ed="#L" n="153"/>sicut in causam in aliquam virtutem corporum superiorum, sed 
+      <lb ed="#L" n="154"/>frigiditas, quae ess qualitas quaedam corporum inferiorum, non 
+      <lb ed="#L" n="155"/>potest reduci in aliquam virtutem corporum coelestium, nisi 
+      <lb ed="#L" n="156"/>ponatur aliquod coelum aqueum, vel aquae super coelos, ergo 
+      <lb ed="#L" n="157"/>&amp;c. Minor patet, quia coelum non potest causare frigiditatem 
+      <lb ed="#L" n="158"/>per motum suum localem, quia motus localis non habet 
+      infri<lb ed="#L" n="159" break="no"/>gidare, sed magis ignire, vt dicitur secundo coeli. Item nec per 
+      <lb ed="#L" n="160"/>lumen, per eandem rationem, ergo oportet quod hoc fiat, pe 
+      <!--00334.xml-->
+      <pb ed="#L" n="133-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>hoc quod est aqueum. Aqua enim quum sit primo frigida, 
+      vi<lb ed="#L" n="2" break="no"/>detur esse causa frigiditatis in aliis, ergo &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-d1e2959-d1e204">
+               <lb ed="#L" n="3"/>Secundo quia eidem rei competit diuersus motus in 
+      diuer<lb ed="#L" n="4" break="no"/>sis, sicut oleum quod ascendit in aqua, descendit in aere, 
+      erg<lb ed="#L" n="5" break="no"/>eodem modo possibile est quod aqua quae respectu aeris habet 
+      <lb ed="#L" n="6"/>descendere, habeat respectu coeli ascendere vel stare: &amp; ideo 
+      <lb ed="#L" n="7"/>non est timendum quod cadat. 
+      </p>
+            <p xml:id="jsnvu6-d1e2959-d1e217">
+               <lb ed="#L" n="8"/>
+               <!--6--> Tertio, quia velocitas motus circuli impedit ne scutella ple 
+      <lb ed="#L" n="9"/>na aquae posita intra circulum cadat, vel aqua in ea contenta: 
+      <lb ed="#L" n="10"/>sed motus coeli est velocior, quam motus cuiuscunque apud nos, 
+      <lb ed="#L" n="11"/>ergo potest prohibere casum aquae. 
+      </p>
+            <p xml:id="jsnvu6-d1e2959-d1e230">
+               <lb ed="#L" n="12"/>
+               <!--7.--> Quarto, quia distantia corporis naturalis a loco suo 
+      natu<lb ed="#L" n="13" break="no"/>rali minuit eius inclinationem ad locum &amp; motum: &amp; ideo 
+      mo<lb ed="#L" n="14" break="no"/>tus naturalis intensior est in fine, quam in principio. Sed aqua 
+      <lb ed="#L" n="15"/>super coelum maxime distant a loco suo naturali, ergo minime 
+      <lb ed="#L" n="16"/>inclinantur ad ipsum, &amp; sic idem quod prius. 
+      </p>
+            <p xml:id="jsnvu6-d1e2959-d1e246">
+               <lb ed="#L" n="17"/>
+               <!--8--> Quicquid sit de conclusione, rationes tamen istae non valent, 
+      <lb ed="#L" n="18"/>Quod enim primo dicitur quod corpus coeleste non potest 
+      causa<lb ed="#L" n="19" break="no"/>re frigiditatem, nisi sit aqueum, est falsum. Et cum dicitur quod non 
+      <lb ed="#L" n="20"/>per motum fit, ita nec per lumen falsum est, lumen enim de si 
+      <lb ed="#L" n="21"/>non habet nisi illuminare, sed in virtute corporis cuius est, 
+      ha<lb ed="#L" n="22" break="no"/>bet calefacere, si sit corpus calidum virtualiter, vt Sol, Mars, &amp; 
+      <lb ed="#L" n="23"/>huiusmodi, vel frigefacere si sit planeta virtualiter frigidus, vi 
+      <lb ed="#L" n="24"/>Saturnus. Neque oportet quod omnia sint frigida per primum 
+      fri<lb ed="#L" n="25" break="no"/>gidum formaliter, puta per aquam, vel per coelum aqueum, sec 
+      <lb ed="#L" n="26"/>per primum frigidum virtualiter. 
+      </p>
+            <p xml:id="jsnvu6-d1e2959-d1e273">
+               <lb ed="#L" n="27"/>
+               <!--9--> Ratio etiam magis procedit contra eos, quia si esset coelum 
+      <lb ed="#L" n="28"/>aqueum non causaret frigiditatem per motum vt dicunt, 
+      ne<lb ed="#L" n="29" break="no"/>per lumen, quia non esset luminosum, sed solum diaphanum, &amp; 
+      <lb ed="#L" n="30"/>si esset per lumen tamen calefaceret, &amp; non infrigidaret vt 
+      di<lb ed="#L" n="31" break="no"/>cunt, nec per suam frigiditatem formalem, quia corpus non agi 
+      <lb ed="#L" n="32"/>in distans, nisi agendo in propinquum, sed illa frigiditas non re 
+      <lb ed="#L" n="33"/>ciperetur in orbibus mediis, qui non sunt capaces peregrina 
+      <lb ed="#L" n="34"/>impressionis, vt dicitur in primo metheororum, ergo 
+      impossi<lb ed="#L" n="35" break="no"/>bile est, quod coelum dato quod esset aqueum, immediate 
+      cau<lb ed="#L" n="36" break="no"/>saret frigiditatem quae esset in ipso. 
+      </p>
+            <p xml:id="jsnvu6-d1e2959-d1e299">
+               <lb ed="#L" n="37"/>
+               <!--10--> Sequentes etiam rationes non probant, quod aquae sint 
+      <lb ed="#L" n="38"/>ibi, vel possint esse per naturam, sed solum quod si ibi essent 
+      <lb ed="#L" n="39"/>non caderent, quod certe timere non oportet, neque probare. 
+      <lb ed="#L" n="40"/>quia cum sphera vndique circunstet medium, nec sit diuisibili 
+      <lb ed="#L" n="41"/>absque vlla dubitatione, si super aliquam spheram essent aqua 
+      <lb ed="#L" n="42"/>nullo modo possent cadere. Nihilominus nec istud proban 
+      <lb ed="#L" n="43"/>illae rationes sufficienter, quod enim oleum in aere descendat 
+      <lb ed="#L" n="44"/>in aqua vero ascendat, causa est, quia oleum corpus mixtum 
+      <lb ed="#L" n="45"/>est, in quo est multum de humido aereo, ratione cuius ascendi 
+      <lb ed="#L" n="46"/>positum in aqua, &amp; est in eo siccum terrestre, ratione cuius 
+      <lb ed="#L" n="47"/>descendit in aere: hoc autem dici non potest de aqua 
+      elemen<lb ed="#L" n="48" break="no"/>tari, quum sit corpus simplex, &amp; iterum quod descendit in ratione 
+      <lb ed="#L" n="49"/>nihil prohibet ascendere in grossiori, &amp; densiori vt ponitur de 
+      <lb ed="#L" n="50"/>oleo respectu aeris &amp; aquae. Sed contra rationem est, quod illud 
+      <lb ed="#L" n="51"/>quod descendit in densiori ascendat in rariori vel subtiliori. 
+      Coe<lb ed="#L" n="52" break="no"/>lum autem est naturae subtilioris, quam corpus quodcunque 
+      ele<lb ed="#L" n="53" break="no"/>mentare, &amp; ideo nulla probabilitas est, quod aqua quae 
+      natu<lb ed="#L" n="54" break="no"/>raliter descendit in aere ascendat, vel stet in coelo. 
+      </p>
+            <p xml:id="jsnvu6-d1e2959-d1e343">
+               <lb ed="#L" n="55"/>
+               <!--11.--> Quod etiam tertio dicitur quod velocissimus motus 
+      pro<lb ed="#L" n="56" break="no"/>hibet calum grauis deorsum in nullo est ad propositum, quia 
+      <lb ed="#L" n="57"/>istud locum habet in graui posito intra circulum vel spheram, 
+      <lb ed="#L" n="58"/>non autem in graui posito super circulum vel spheram: de 
+      <lb ed="#L" n="59"/>scensum enim eius ad medium spherae vel circuli prohibet 
+      so<lb ed="#L" n="60" break="no"/>liditas spherae vel circuli. Et ideo ratio eorum posset aliquid 
+      <lb ed="#L" n="61"/>valere, si ponerentur aquae infra concauum orbis lunae: sed pr 
+      <lb ed="#L" n="62"/>nendo eas super coelum, nihil valet ad propositum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2959-d1e365">
+               <lb ed="#L" n="63"/>
+               <!--12.--> Quod vero vltimo dicitur quod distantia a loco naturali 
+      <lb ed="#L" n="64"/>minuit inclinationem mobilis, falsum est. Cum enim inclinatio 
+      <lb ed="#L" n="65"/>grauis, &amp; leuis ad loca sua sequatur formam grauitatis &amp; 
+      le<lb ed="#L" n="66" break="no"/>uitatis, manentibus eisdem formis manet eadem inclinatio 
+      <lb ed="#L" n="67"/>nec propinquitas vel distantia a loco per se facit aliquid, ad 
+      <lb ed="#L" n="68"/>hoc ergo quod motus naturalis sit intensior in fine, quam in 
+      <lb ed="#L" n="69"/>principio, causa est minor resistentia medij supposita eadem 
+      in<lb ed="#L" n="70" break="no"/>clinatione mobilis, quanto enim aer est terrae propinquior, tar 
+      <lb ed="#L" n="71"/>to est minus leuis, &amp; minus nititur contra motum grauis. Idem 
+      <lb ed="#L" n="72"/>intelligendum est circa leue. 
+      </p>
+            <p xml:id="jsnvu6-d1e2959-d1e391">
+               <lb ed="#L" n="73"/>
+               <!--13--> Dicendum ergo aliter ad quaestionem, quod si coelum 
+      accipia<lb ed="#L" n="74" break="no"/>tur pro corpore quintae essentiae, tunc super coelos non sunt aqua 
+      <lb ed="#L" n="75"/>elementares, sed aquae dictae metaphorice. Si vero coelum acci 
+      <lb ed="#L" n="76"/>piatur metaphorice pro parte aeris in qua condensantur 
+      nu<lb ed="#L" n="77" break="no"/>bes, quae coelum &amp; firmamentum aliqualiter dici potest, sic su 
+      <lb ed="#L" n="78"/>per coelum sunt verae aquae elementares. Primum patet, quia 
+      su<lb ed="#L" n="79" break="no"/>pra lunam non est locus generationis &amp; corruptionis: vnde dici 
+      <lb ed="#L" n="80"/>quod supra lunam non est malum sed si supra coelum proprie dictum 
+      es<lb ed="#L" n="81" break="no"/>sent verae aquae elementares, ibi esset locus generationis, &amp; 
+      cor<lb ed="#L" n="82" break="no"/>ruptionis, &amp; quandoque ibi aliquid generaretur &amp; corrumpere¬ 
+      <!--00334.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>tur, ergo &amp;c. Probatio minoris, quia si aquae essent inter duas 
+      <lb ed="#L" n="84"/>spheras, &amp; per motum &amp; lumen corporum coelestium possem 
+      <lb ed="#L" n="85"/>calefieri &amp; rarefieri vltra quam congruat formae aquae, &amp; sic 
+      <lb ed="#L" n="86"/>eis corruptis aliquid aliud generaretur, puta aer vel ignis: non 
+      <lb ed="#L" n="87"/>sunt ergo supra coelum aquae elementares, sunt tamen ibi aquae 
+      <lb ed="#L" n="88"/>dictae metaphorice ratione similitudinis cum aqua in 
+      quibus<lb ed="#L" n="89" break="no"/>dam proprietatibus: est enim diaphana aqua, &amp; non lucida, 
+      <lb ed="#L" n="90"/>quae duo etiam conueniunt aeri, sed vltra hoc, aqua quandam 
+      <lb ed="#L" n="91"/>maiorem terminabilitatem habet quam aer, hae autem 
+      pro<lb ed="#L" n="92" break="no"/>prietates conueniunt nonae spherae, quam nos coelum 
+      cristali<lb ed="#L" n="93" break="no"/>num vocamus, &amp; eadem ratione potest dici aqueum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2959-d1e445">
+               <lb ed="#L" n="94"/>
+               <!--14--> Secundum patet, si enim coelum vocetur pars aeris, in qua 
+      <lb ed="#L" n="95"/>condensantur nubes, sic est clarum qued aquae elementares sunt 
+      <lb ed="#L" n="96"/>super illud coelum, quae ibi vaporabiliter trahuntur virtute 
+      so<lb ed="#L" n="97" break="no"/>lis et stellarum: eadem etiam pars potest dici firmamentum 
+      <lb ed="#L" n="98"/>propter spissitudinem &amp; aliqualem soliditatem. Vnde Augusti 
+      <lb ed="#L" n="99"/>nus 2. super Gen. ad literam hanc expositionem commendans 
+      <lb ed="#L" n="100"/>dicit: hanc considerationem laude dignissimam iudico, vnde 
+      <lb ed="#L" n="101"/>firmamentum aequiuoce vel anagogice sumitur quum dicitu 
+      <lb ed="#L" n="102"/>Gen. I. diuisit aquas, quae erant sub firmamento, &amp;c. Et quum 
+      <lb ed="#L" n="103"/>dicitur in opere quarti diei, quod posuit in firmamento coeli 
+      stel<lb ed="#L" n="104" break="no"/>las, quia firmamentum primo modo sumptum est coelum 
+      so<lb ed="#L" n="105" break="no"/>lum nuncupatiue, ad quod designandum dicitur ibidem quod 
+      vo<lb ed="#L" n="106" break="no"/>cauit Deus firmamentum coelum. Sed secundo modo sumptum 
+      <lb ed="#L" n="107"/>est coelum vere &amp; proprie, ad quod designandum dicitur ibi 
+      <lb ed="#L" n="108"/>quod posuit stellas in firmamento coeli, id est, quod est coelum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2959-d1e483">
+               <lb ed="#L" n="109"/>
+               <!--15--> PER HOC patet responsio ad argumenta. Ponimus 
+      <lb ed="#L" n="110"/>enim non solum aquam, sed ignem &amp; aerem super coelum 
+      me<lb ed="#L" n="111" break="no"/>taphorice dictum hoc est super partem aeris, in qua nubes 
+      con<lb ed="#L" n="112" break="no"/>densantur, sed nullum istorum ponimus super coelum 
+      propri<lb ed="#L" n="113" break="no"/>sumptum, nisi ipsa metaphorice sumantur. Aqua enim &amp; ignis 
+      <lb ed="#L" n="114"/>metaphorice sumpta, sunt supra coelos proprie dictos, quia coe 
+      <lb ed="#L" n="115"/>lum empyreum dicitur igneum metaphorice, sicut nona 
+      sphe<lb ed="#L" n="116" break="no"/>ra dicitur coelum aqueum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

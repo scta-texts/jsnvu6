@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="276-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e227875"><!-- l4d11q5 -->
+            <head xml:id="jsnvu6-e227875-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e227875-Hd1e103" type="question-title">Utrum aqua miscenda sit vino in 
+      sacramento Eucharistiae</head>
+            <p xml:id="jsnvu6-e227875-d1e106">
+               <lb ed="#L" n="125"/>QUABSTIO QVINTA. 
+      <lb ed="#L" n="126"/>Vtrum aqua miscenda sit vino in 
+      sa<lb ed="#L" n="127" break="no"/>cramento Eucharistiae. 
+      <lb ed="#L" n="128"/>Thom. 3. 4. 74. 
+    </p>
+            <p xml:id="jsnvu6-e227875-d1e117">
+               <lb ed="#L" n="129"/>POSTEA quaeritur vtrum vino sit admiscenda aqua 
+      <lb ed="#L" n="130"/>in hoc sacramento. Et arguitur quod non, quia 
+      au<lb ed="#L" n="131" break="no"/>admistio aquae esset de necessitate sacramenti, vel 
+      <lb ed="#L" n="132"/>de congruitate: non de necessitate, quia solum 
+      pa<lb ed="#L" n="133" break="no"/>nis &amp; vinum dicuntur esse materia huius sacramenti 
+      <lb ed="#L" n="134"/>Nec de congruitate, vt per hoc significetur vnio populi cum 
+      <lb ed="#L" n="135"/>Christo, quia sicut vnimur Christo per sumptionem sanguinis 
+      <lb ed="#L" n="136"/>sub specie vini, ita vnimur ei per sumptionem corporis sub 
+      spe<lb ed="#L" n="137" break="no"/>cie panis. Sed pani non apponitur aqua ad significandum 
+      prae<lb ed="#L" n="138" break="no"/>dictam vnionem, ergo nec vino est apponenda, vt videtur. 
+      </p>
+            <p xml:id="jsnvu6-e227875-d1e141">
+               <lb ed="#L" n="139"/>
+               <!--2--> Item Christus instituens hoc sacramentum non legitur 
+      appo<lb ed="#L" n="140" break="no"/>fuisse aquam vino, nec ordinasse quod apponeretur, ergo 
+      teme<lb ed="#L" n="141" break="no"/>rarium videtur quod praeter eius institutionem, &amp; ordinationem 
+      <lb ed="#L" n="142"/>apponatur aqua vino. 
+      </p>
+            <p xml:id="jsnvu6-e227875-d1e155">
+               <lb ed="#L" n="143"/>
+               <!--3--> IN CONTRARIVM est, quod dixit Alex. Papa, &amp; 
+      <lb ed="#L" n="144"/>habetur de consec. dist. 2. can. 1. in sacramentorum oblationibus 
+      <lb ed="#L" n="145"/>panis tantum &amp; vinum aquae permistum offerantur. Et in eaden 
+      <lb ed="#L" n="146"/>distinctione ex dictis Cypriani quae etiam recitantur per 
+      magi<lb ed="#L" n="147" break="no"/>strum in litera habetur sic: Calix domini non potest esse aqua 
+      <lb ed="#L" n="148"/>sola, nec vinum, solum nisi misceatur vtrunque. Et sic videtu 
+      <lb ed="#L" n="149"/>quod appositio aquae sit de necessitate sacramenti. 
+      </p>
+            <p xml:id="jsnvu6-e227875-d1e175">
+               <lb ed="#L" n="150"/>
+               <!--4--> RESPONSIO. Dicendum est, quod aqua miscenda est 
+      <lb ed="#L" n="151"/>vino. Eius tamen mistio non est de necessitate sacramenti, sec 
+      <lb ed="#L" n="152"/>de congruirate. 
+      </p>
+            <p xml:id="jsnvu6-e227875-d1e186">
+               <lb ed="#L" n="153"/>
+               <!--5--> Quod congrue apponatur persuadetur sic communiter ex 
+      <lb ed="#L" n="154"/>duobus. Primo ex institutione, quia creditur probabiliter quod 
+      <lb ed="#L" n="155"/>Christus in vinum de quo confecit apposuit aquam secundum 
+      <lb ed="#L" n="156"/>morem illius terrae, quo homines temperati non vtuntur 
+      vin<lb ed="#L" n="157" break="no"/>puro sed aqua misto propter fortitudinem vini. Secundo ex 
+      signi<lb ed="#L" n="158" break="no"/>ficatione, quia effectus huius sacramenti est vnio populi Chri 
+      <lb ed="#L" n="159"/>stiani cum Chrisso, vt membrorum cum capite, hoc autem 
+      signifi<lb ed="#L" n="160" break="no"/>catur per mistionem aquae cum vino, vt Iulius papa dicit, &amp; 
+      ha<lb ed="#L" n="161" break="no"/>betur de consecra distin. 2. can. omne crimen. vbi dicitur sic: vi¬ 
+      <!--00627.xml-->
+      <pb ed="#L" n="277-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>demus in aqua intelligi populum, in vino vero sanguinem 
+      Chri<lb ed="#L" n="2" break="no"/>sti ostendi, ergo quum in calice vino aqua miscetur, populus Chr 
+      <lb ed="#L" n="3"/>sto adunatur. Quicquid sit de secunda congruitate, prima tamen 
+      <lb ed="#L" n="4"/>non est multum apta, quia si Christus apposuit aquam vino 
+      pro<lb ed="#L" n="5" break="no"/>pter vini fortitudinem, sicut caeteri sobrij homines, non 
+      conuin<lb ed="#L" n="6" break="no"/>cit propter hoc quod illi qui celebrant de vino debili ponant aquam 
+      <lb ed="#L" n="7"/>nec bibendo, nec celebrando. Item si Christus aquam posuit, illa 
+      <lb ed="#L" n="8"/>appositio multum differt ab appositione qua vtitur ecclesia 
+      <lb ed="#L" n="9"/>Quia quantumcunque esset in vino prius aqua apposita, siue ir 
+      <lb ed="#L" n="10"/>dolio, siue in vase alio, cum in illa parte vini quae ponitur in 
+      ca<lb ed="#L" n="11" break="no"/>lice, semper ponitur aliquid modicum aquae: quod autem 
+      Chri<lb ed="#L" n="12" break="no"/>stus sic apposuerit aquam satis est incertum: imo forte toti 
+      vi<lb ed="#L" n="13" break="no"/>no a principio coenae fuit aqua apposita more quorundam 
+      ho<lb ed="#L" n="14" break="no"/>minum, &amp; quarundam regionum, in quibus non venditur vini 
+      <lb ed="#L" n="15"/>purum, sed aqua mistum, vel temperatur antequam in mensa 
+      <lb ed="#L" n="16"/>ponatur, vnde congruitas secunda videtur aptior quam prima 
+      <lb ed="#L" n="17"/>&amp; forte est ex sola institutione ecclesiae. Aqua autem quae vinc 
+      <lb ed="#L" n="18"/>apponitur congrue prius benedicitur per illa verba, In nomini 
+      <lb ed="#L" n="19"/>patris, &amp;c. cum signo crucis, quia omnia quae applicantur materia 
+      <lb ed="#L" n="20"/>nuius sacramenti sunt benedicta sicut calix patena, corporalia, 
+      <lb ed="#L" n="21"/>manus sacerdotis. Et ideo rationabile est quod aqua quae vino 
+      con<lb ed="#L" n="22" break="no"/>secrando apponitur prius benedicatur. 
+</p>
+            <p xml:id="jsnvu6-e227875-d1e264">
+               <lb ed="#L" n="23"/>
+               <!--6.--> Debet autem apponi aqua in tam parua quantitate quod non 
+      <lb ed="#L" n="24"/>corrumpat vinum, quia sine vino non potest confici hoc sacramentum 
+      </p>
+            <p xml:id="jsnvu6-e227875-d1e273">
+               <lb ed="#L" n="25"/>
+               <!--7--> Quod autem appositio aquae non fit de necessitate sacramen. 
+      <lb ed="#L" n="26"/>ti, patet sic: quia hoc sacramentum confistit in consecrationi 
+      <lb ed="#L" n="27"/>materiae, &amp; non in vsu eius. Et ideo significatio quae pertinet ad 
+      <lb ed="#L" n="28"/>eius vsum non est intrinseca sacramento, nec est per consequens 
+      <lb ed="#L" n="29"/>de necessitate sacramenti. Talis autem est significatio propter 
+      <lb ed="#L" n="30"/>quam apponitur aqua vino, vt dictum est, ergo appositio aquae 
+      <lb ed="#L" n="31"/>ad vinum non est de necessitate sacramenti, vnde de vino sine 
+      <lb ed="#L" n="32"/>aqua potest confici, peccaret tamen qui scienter non 
+      appone<lb ed="#L" n="33" break="no"/>ret aquam. Dicitur etiam quod Graeci aquam non apponunt, 
+      <lb ed="#L" n="34"/>&amp; tamen vere conficiunt. 
+      </p>
+            <p xml:id="jsnvu6-e227875-d1e299">
+               <lb ed="#L" n="35"/>
+               <!--8--> Ad primum argumentum dicendum quod appositio aqua 
+      <lb ed="#L" n="36"/>non est de necessitate, sed de congruitate: nec est simile de 
+      vi<lb ed="#L" n="37" break="no"/>no &amp; pane, quia pani apponitur aqua in sua confectione, non 
+      <lb ed="#L" n="38"/>autem vino. 
+      </p>
+            <p xml:id="jsnvu6-e227875-d1e313">
+               <lb ed="#L" n="39"/>
+               <!--9--> Ad secundum dicendum quod multa fecit Christus quae non 
+      <lb ed="#L" n="40"/>sunt expresse scripta in euangeliis: probabile tamen est quod vine 
+      <lb ed="#L" n="41"/>ipse apposuerit aquam, vel vsus est vino aqua prius apposita. 
+      </p>
+            <p xml:id="jsnvu6-e227875-d1e324">
+               <lb ed="#L" n="42"/>
+               <!--10--> Auctoritates enim Alexand. &amp; Cypriani quae tanguntu 
+      <lb ed="#L" n="43"/>in argumento ad oppositum satis concludunt quod aqua est 
+      <lb ed="#L" n="44"/>vino admiscenda. Sed illud quod dicit Cyprianus quod calix 
+      <lb ed="#L" n="45"/>Domini non potest esse aqua sola, nec vinum solum, nisi vtrunq 
+      <lb ed="#L" n="46"/>misceatur, glossandum est sicut Magister glossat in litera: non 
+      <lb ed="#L" n="47"/>potest, id est, non debet. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

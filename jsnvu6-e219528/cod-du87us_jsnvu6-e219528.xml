@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="266-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e219528"><!-- l4d8prae -->
+            <head xml:id="jsnvu6-e219528-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e219528-d1e103">
+               <lb ed="#L" n="94"/>Sententia huius distinctionis VIII. 
+      <lb ed="#L" n="95"/>in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e219528-d1e110">
+               <lb ed="#L" n="96"/>POST sacramentum baptismi, &amp;c Superius 
+      magi<lb ed="#L" n="97" break="no"/>ster determinauit de sacramento baptismi &amp; 
+      con<lb ed="#L" n="98" break="no"/>firmationis. Hic vero determinat de sacramento 
+      <lb ed="#L" n="99"/>eucharistiae. diuiditur iste tractatus in partes tres 
+      <lb ed="#L" n="100"/>Primo enim determinat de hoc sacramento quan.¬ 
+      <lb ed="#L" n="101"/>tum ad esse. Secundo quantum ad fieri. Tertio quantum ad di 
+      <lb ed="#L" n="102"/>spensationem. Secunda 11. distinct. ibi, Si autem quaeritur qualis 
+      <lb ed="#L" n="103"/>sit ista conuersio. Tertia 13. distinct. ibi, Solet etiam quaeri vtrum 
+      <lb ed="#L" n="104"/>praui sacerdotes. Prima diuiditur in tres. Quia primo agitur 
+      <lb ed="#L" n="105"/>de hoc sacramento secundum se. Secundo quantum ad vsum 
+      <lb ed="#L" n="106"/>9. distinct. ibi, Et sicut duae res. Tertio quantum ad eius 
+      verita<lb ed="#L" n="107" break="no"/>tem dist. 10. ibi, Sunt autem alij. Prima in tres diuiditur. Prime 
+      <lb ed="#L" n="108"/>enim determinat huius sacramenti praecedentes figuras. 
+      Secun<lb ed="#L" n="109" break="no"/>do ipsius institutionem confirmat. Tertio ipsius integritatem 
+      <lb ed="#L" n="110"/>inquirit. Secunda ibi, Haec &amp; alia quatuor consideranda  
+      occur<lb ed="#L" n="111" break="no"/>runt. Tertia ibi, Nunc quid ibi sacramentum sit &amp; quid res vi 
+      <lb ed="#L" n="112"/>deamus. Secunda istarum diuiditur in tres partes. Primo enim 
+      <lb ed="#L" n="113"/>determinat huius sacramenti institutionem. Secundo ipsius for 
+      <lb ed="#L" n="114"/>mam. Tertio determinat quandam incidentem dubitationem 
+      <lb ed="#L" n="115"/>Secunda ibi, Forma vero est. Tertia ibi, Vera consideratione 
+      di<lb ed="#L" n="116" break="no"/>gnum est. Haec est diuisio lectionis &amp; sententia generalis. 
+      </p>
+            <p xml:id="jsnvu6-e219528-d1e158">
+               <lb ed="#L" n="117"/>
+               <!--2--> In speciali vero sic procedit magister &amp; proponit quod pos 
+      <lb ed="#L" n="118"/>sacramentum baptismi, &amp; confirmationis agendum est de 
+      eu<lb ed="#L" n="119" break="no"/>charistiae sacramento per quod spiritualiter reficimur, &amp; in 
+      bo<lb ed="#L" n="120" break="no"/>no confirmamur. In ipso enim non solum confertur gratiae, &amp; 
+      vir<lb ed="#L" n="121" break="no"/>tutis augmentum, sed etiam ille totus sumitur qui totus est gratiae 
+      <lb ed="#L" n="122"/>fons &amp; origo. fuit autem hoc sacramentum praefiguratum tempore  
+      ve<lb ed="#L" n="123" break="no"/>le per manna, sicut sacramentum in mari rubro, &amp; tempore 
+      pas<lb ed="#L" n="124" break="no"/>sionis Christi per sanguinem, qui de eius latere fluxit, sicut baptis 
+      <lb ed="#L" n="125"/>mus per aquam quae exinde emanauit. Ante legem vero per 
+      obla<lb ed="#L" n="126" break="no"/>tionem panis &amp; vini factam a Melchisedech. Ponit etiam 
+      magi<lb ed="#L" n="127" break="no"/>ster alias conuenientias huius sacramenti ad manna. Et ostendi 
+      <lb ed="#L" n="128"/>quod iste cibus est illo excellentior, sicut patet in litera. Poste 
+      <lb ed="#L" n="129"/>dicit, quod hoc sacramentum institutum est a Christo incoena posi 
+      <lb ed="#L" n="130"/>esum agni paschalis tempore quo Christus per praesentiam 
+      corpo<lb ed="#L" n="131" break="no"/>ralem erat recessurus a discipulis. Deinde dicit, quod forma huius 
+      sa<lb ed="#L" n="132" break="no"/>cramenti est talis qualem ipse dominus Iesus Christus edidit, 
+      scili<lb ed="#L" n="133" break="no"/>cet, Hoc est corpus meum. Et hic est calix, &amp;c. Caetera vero qui 
+      <lb ed="#L" n="134"/>in missa dicuntur, dicit magister quod per ea fit oratio pro 
+      popul<lb ed="#L" n="135" break="no"/>&amp; principibus. vnde non sunt nisi laudes &amp; obsecrationes &amp;  
+      pe<lb ed="#L" n="136" break="no"/>titiones fidelium. Et istud multis auctoritatibus confirmat. Post. 
+      <lb ed="#L" n="137"/>ea reddit causam quare dominus hoc sacramentum quasi 
+      me<lb ed="#L" n="138" break="no"/>moriale suae passionis celebrato post coenam cum discipulis typice 
+      <lb ed="#L" n="139"/>paschate instituit, vt, s. ostenderet sacramenta ve. le. inter qua 
+      <lb ed="#L" n="140"/>erat praecipuum quantum ad significationem agni paschalis sacri 
+      <lb ed="#L" n="141"/>ficium finiri, &amp; nouae legis sacramenta substitui, inter quae excellit 
+      <lb ed="#L" n="142"/>eucharistiae sacramentum. Et etiam vt districtius discipulorum me 
+      <lb ed="#L" n="143"/>moriae infigeret. Et quamuis a Christo fuerit sacramentum datum 
+      <lb ed="#L" n="144"/>post coe nam, qualiter tamen decaetero sumendum sit discipuli 
+      <lb ed="#L" n="145"/>reliquit: a quibus statutum fuit, vt propter huius sacramenti 
+      re<lb ed="#L" n="146" break="no"/>uerentiam iste cibus prius quam alij cibi in os intraret: Quod 
+      au<lb ed="#L" n="147" break="no"/>ctoritatibus confirmat. Vitimo ostendit quid in eucharistia sit  
+      sa<lb ed="#L" n="148" break="no"/>cramentum, &amp; quid res, dicens: quod sacramentum est visibilis specie: 
+      <lb ed="#L" n="149"/>s. panis &amp; vini forma, res vero huius sacramenti est gemina, 
+      con<lb ed="#L" n="150" break="no"/>tenta &amp; significata, vt corpus Christi verum quod de virgine  
+      tra<lb ed="#L" n="151" break="no"/>xit, &amp; sanguis quem pro nobis fudit. Alia vero significata &amp; non 
+      <lb ed="#L" n="152"/>contenta, vt corpus Christi mysticum quod est vnitas ecclesiae. Ex 
+      <lb ed="#L" n="153"/>quo vlterius concludit, quod in hoc sacramento sunt tria distinguem 
+      <lb ed="#L" n="154"/>da. Vnum quod est sacramentum, vt species visibilis . s. forma pani 
+      <lb ed="#L" n="155"/>&amp; vini. Aliud quod est sacramentum &amp; res, vt est caro Christ 
+      <lb ed="#L" n="156"/>vera, &amp; sanguis verus. Aliud vero quod est res, &amp; non  
+      sacramen<lb ed="#L" n="157" break="no"/>tum, vt corpus Christi mysticum. Primum est sacramentum gemin 
+      <lb ed="#L" n="158"/>rei scilicet corpus Christi veri &amp; mystici, quia vtrunque rem significa 
+      <lb ed="#L" n="159"/>&amp; vtriusque similitudinem gerit. Secundum vero est res huius 
+      sa<lb ed="#L" n="160" break="no"/>cramenti, &amp; sacramentum vnius rei. Tertium vero . s. corpus Christi 
+      <lb ed="#L" n="161"/>mysticum est res gemini sacramenti, scilicet species panis &amp; vini 
+      <lb ed="#L" n="162"/>&amp; corporis Christi veri, sicut dicit magister, &amp; patet in litera 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

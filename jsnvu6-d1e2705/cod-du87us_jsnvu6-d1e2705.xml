@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="124-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2705"><!-- l2d7q2 -->
+            <head xml:id="jsnvu6-d1e2705-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e2705-Hd1e103" type="question-title">Utrum angeli mali possint aliquod bonum facere</head>
+            <p xml:id="jsnvu6-d1e2705-d1e106">
+               <lb ed="#L" n="47"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="48"/>Vtrum angeli mali possint aliquod bonum facere. 
+      <lb ed="#L" n="49"/>Thom. 1. p. q. 64. ar. 2. De Gand. in quodl. 8. q. 11. 
+    </p>
+            <p xml:id="jsnvu6-d1e2705-d1e115">
+               <lb ed="#L" n="50"/>SECVNDO quaeritur vtrum angeli mali possint ali 
+      <lb ed="#L" n="51"/>quod bonum facere, &amp; videtur quod non, quia sicut boni 
+      <lb ed="#L" n="52"/>Jangeli sunt confirmati in bono, ita mali sunt 
+      obsti<lb ed="#L" n="53" break="no"/>alnati in malo, sed boni non possunt peccare (vt dictum 
+      <lb ed="#L" n="54"/>est) ergo nec mali benefacere. 
+      </p>
+            <p xml:id="jsnvu6-d1e2705-d1e128">
+               <lb ed="#L" n="55"/>
+               <!--2--> Item ex mala voluntate non potest egredi nisi malus actus, 
+      <lb ed="#L" n="56"/>sed Daemones mala voluntate carere non possunt, vt ait Aug 
+      <lb ed="#L" n="57"/>de fide ad Petrum, quare &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e2705-d1e140">
+               <lb ed="#L" n="58"/>Item si daemones possent benefacere, possent se ad gratiam pra 
+      <lb ed="#L" n="59"/>parare, &amp; eam recuperare: consequens est falsum, ergo&amp; antecedens 
+    </p>
+            <p xml:id="jsnvu6-d1e2705-d1e147">
+               <lb ed="#L" n="60"/>CONTRA. si daemones non possent aliquod bonum 
+      <lb ed="#L" n="61"/>facere, hoc inesset eis vel a natura, vel a culpa commissa, vel ab 
+      <lb ed="#L" n="62"/>ordinatione diuina, non a natura, quia natura bona est, 
+      peccas<lb ed="#L" n="63" break="no"/>sent etiam omnes, statim cum habuissent naturam. Nec a 
+      cul<lb ed="#L" n="64" break="no"/>pa quam primo commiserunt: quia illa non manet in eis actu 
+      <lb ed="#L" n="65"/>sed reatu. Nec ab ordinatione diuina. Deus enim non ordina 
+      <lb ed="#L" n="66"/>aut vult mala fieri, sed facta punit, quare &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-d1e2705-d1e165">
+               <lb ed="#L" n="67"/>RESPONSIO. Cum sit triplex bonum sicut ad 
+      prae<lb ed="#L" n="68" break="no"/>sens loquimur, scilicet bonum naturae moris &amp; gratiae. 
+      Manife<lb ed="#L" n="69" break="no"/>stum est omnes actus daemonum habere primam bonitatem 
+      <lb ed="#L" n="70"/>quia illa bonitas est rei entitas, tertia autem bonitate quae esta 
+      <lb ed="#L" n="71"/>gratia carent, quia gratiam irrecuperabiliter amiserunt, &amp; 
+      caus<lb ed="#L" n="72" break="no"/>postmodum reddetur. Restat ergo videre de secunda bonitate 
+      <lb ed="#L" n="73"/>quae est moralis, quae proprie est bonitas debita inesse actibus 
+      <lb ed="#L" n="74"/>creaturae agentis ex lib. arbit. &amp; sumitur ex obiecto &amp; 
+      circun<lb ed="#L" n="75" break="no"/>stantiis, vtrum daemones possint hoc modo bonum facere, quod 
+      <lb ed="#L" n="76"/>sit bonum ex genere &amp; ex circunstantiis. Et dicitur communiter 
+      <lb ed="#L" n="77"/>quod non, imo quicquid volunt, aut faciunt, est malum totum 
+      <lb ed="#L" n="78"/>vel ex genere actus cadentis super indebitam materiam, vel si sit 
+      <lb ed="#L" n="79"/>bonum ex genere (vt confiteri Christum vel credere) depra 
+      <!--00315.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>uatur tamen per aliquam circunstantiam malam. 
+      </p>
+            <p xml:id="jsnvu6-d1e2705-d1e202">
+               <lb ed="#L" n="81"/>
+               <!--6--> Huius autem assignantur variae rationes, quidam dicunt quod sicut 
+      <lb ed="#L" n="82"/>impossibile est a voluntate immutabiliter adhaerente bono fini 
+      <lb ed="#L" n="83"/>procedere opus prauum: Ita econtrario impossibile est a 
+      volun<lb ed="#L" n="84" break="no"/>tate immutabiliter adhaerente prauo fini procedere opus 
+      bo<lb ed="#L" n="85" break="no"/>num. Cum finis sit mensura &amp; regula eorum quae fiunt 
+      propte<lb ed="#L" n="86" break="no"/>finem. Voluntas autem daemonis immutabiliter adhaeret prauo 
+      <lb ed="#L" n="87"/>finis, ideo &amp;c. Minorem probant, quia peccatum voluntatis circa 
+      <lb ed="#L" n="88"/>finem contingit dupliciter, quandoque ex passione abducente ra 
+      <lb ed="#L" n="89"/>tionem ab actuali consideratione recti finis, sicut in 
+      ifscotinen<lb ed="#L" n="90" break="no"/>tibus, &amp; talis peccator est poenitens passione cessante. Aliquande 
+      <lb ed="#L" n="91"/>autem ex malitia, quae secundum Philos. 7. Ethic. est corruptiu: 
+      <lb ed="#L" n="92"/>finis, eo quod qualis vnusquisque est secundum habitum, talis ei fini 
+      <lb ed="#L" n="93"/>videtur, &amp; qui sic peccant, peccant ex habitu &amp; electione, nec est 
+      <lb ed="#L" n="94"/>poenitens, vt intemperatus: propter quod talis non est curabilis 
+      <lb ed="#L" n="95"/>nisi habitu remoto. Peccatum autem angeli non fuit ex passione 
+      <lb ed="#L" n="96"/>sed ex electione &amp; habitu, &amp; ideo stante tali habitu non potest no 
+      <lb ed="#L" n="97"/>adhaerere malo fini, habitus autem ab eo remoueri non est possibile 
+      <lb ed="#L" n="98"/>cum non sit in statu viae post casu, sicut nec homines post mortem, 
+      <lb ed="#L" n="99"/>quia quod hominibus est mors, hoc est angelis casus, ideo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2705-d1e248">
+               <lb ed="#L" n="100"/>
+               <!--7--> Istud non videtur sufficienter dictum. Primo quia finis cui im 
+      <lb ed="#L" n="101"/>mutabiliter adhaeret voluntas mali angeli est ille cui adhaesit 
+      pri<lb ed="#L" n="102" break="no"/>mo peccando. Sed ille finis non est malus, quia non peccauit appe 
+      <lb ed="#L" n="103"/>tendo aliquod malum de se: Sed appetendo bonum ex genere absque 
+      <lb ed="#L" n="104"/>debitis circunstantiis, vt dictum fuit prius, ergo voluntas angeli 
+      <lb ed="#L" n="105"/>non adhaeret malo fini, sed bono. Ex voluntate autem boni finis ex 
+      <lb ed="#L" n="106"/>genere non est necesse procedere opus malum, quare &amp;c. Item dato 
+      <lb ed="#L" n="107"/>quod voluntas angeli adhaeret malo fini de se, non est necesse quod a tali 
+      <lb ed="#L" n="108"/>voluntate procedat opus malum, quia a voluntate adhaerent? 
+      <lb ed="#L" n="109"/>recto fini potest procedere opus prauum, cum non sit actuali 
+      <lb ed="#L" n="110"/>deductio in vniuersali &amp; partuiculari eorum quae sunt propter 
+      fin<lb ed="#L" n="111" break="no"/>in vniuersali &amp; particulari eligenda, sicut dictum fuit in praeced. 
+      <lb ed="#L" n="112"/>quaest. Et simile est de voluntate adhaerente prauo fini, quia es 
+      <lb ed="#L" n="113"/>ipsa potest bonum opus procedere, si non deducatur ex illo fine 
+      <lb ed="#L" n="114"/>sicut praestituens sibi adulterium tanquam finem potest dare eleemosinam 
+      <lb ed="#L" n="115"/>non propter finem illum &amp; bene facit, non autem est necesse quod 
+      vo<lb ed="#L" n="116" break="no"/>luntas daemonis malo fini adhaerens omnia quae agit ex illo 
+      fini<lb ed="#L" n="117" break="no"/>deducat, non enim angelus malus in malo fine cui adhaeret, 
+      vide<lb ed="#L" n="118" break="no"/>omnia quae ad ipsum pertinent, sicut angelus bonus in suo fine 
+      </p>
+            <p xml:id="jsnvu6-d1e2705-d1e294">
+               <lb ed="#L" n="119"/>
+               <!--8--> Item sicut angelus non peccauit ex passione, sic nec ex 
+      ha<lb ed="#L" n="120" break="no"/>bitu, quia antequam peccaret, malum habitum non habebat 
+      <lb ed="#L" n="121"/>nec ex electione, sed magis ex nescientia, vel inconsideratione, 
+      <lb ed="#L" n="122"/>vt dictum fuit supra, distinct. 5. Sicut ergo peccans ex passione, 
+      <lb ed="#L" n="123"/>cessante passione poenitet, sic vt videtur daemon cessante (vi 
+      <lb ed="#L" n="124"/>dixi) dicta consideratione qua peccauit, poenitere poterit, &amp; 
+      <lb ed="#L" n="125"/>cui adhaerebat, poterit non adhaerere. 
+      </p>
+            <p xml:id="jsnvu6-d1e2705-d1e315">
+               <lb ed="#L" n="126"/>
+               <!--9--> Ad hoc quod dicitur quod angelus post casum suum in termino 
+      <lb ed="#L" n="127"/>certum est, quod non fuit in termino suae durationis, cum sit 
+      incor<lb ed="#L" n="128" break="no"/>ruptibilis, nec in termino electionis. Aliqua enim volunt &amp; 
+      eli<lb ed="#L" n="129" break="no"/>gunt angeli mali &amp; boni quae prius nec volebant, &amp; nec 
+      elige<lb ed="#L" n="130" break="no"/>bant: &amp; econtrario prius aliqua volebant quae modo nolunt. 
+      Re<lb ed="#L" n="131" break="no"/>stat ergo quod solum sint in termino merendi &amp; demerendi, vt iam 
+      <lb ed="#L" n="132"/>per actum quantumcunque bonum ex genere &amp; circunstantiis non 
+      <lb ed="#L" n="133"/>mereantur, nec de congruo gratiam, nec de condigno gloriam, 
+      <lb ed="#L" n="134"/>nec per actum quantumcunque malum merentur ampliorem po 
+      <lb ed="#L" n="135"/>nam essentialem, licet forte aliquam accidentalem poenam amplio 
+      <lb ed="#L" n="136"/>rem mereantur ex multitudine damnatorum, sicut beati angel 
+      <lb ed="#L" n="137"/>ampliorem gloriam accidentalem habent ex salute iustorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2705-d1e346">
+               <lb ed="#L" n="138"/>
+               <!--10.--> Ex hoc autem quod daemones sic sunt in termino, non sequitu 
+      <lb ed="#L" n="139"/>quin possint aliquod bonum facere, quamuis non esset meritorium: 
+      <lb ed="#L" n="140"/>Ideo alia assignatur ratio, quae sumitur ex conditione naturae 
+      an<lb ed="#L" n="141" break="no"/>gelicae. Vis enim appetitiua proportionatur apprehensioni, dif 
+      <lb ed="#L" n="142"/>fert autem apprehensio angeli ab apprehensione hominis, quia 
+      <lb ed="#L" n="143"/>angelus apprehendit immobiliter &amp; sine discursu, homo vero 
+      <lb ed="#L" n="144"/>mobiliter &amp; cum discursu, &amp; propter hoc voluntas hominis 
+      ad<lb ed="#L" n="145" break="no"/>haeret mobiliter quasi potens discedere&amp; contrario adhaerere, 
+      <lb ed="#L" n="146"/>voluntas autem angeli fixe adhaeret &amp; immobiliter. vnde ante 
+      ad<lb ed="#L" n="147" break="no"/>haesionem potest libere adherere huic &amp; opposito, in his duntaxat 
+      <lb ed="#L" n="148"/>quae non naturaliter vult, sed postquam adhaesit immobiliter 
+      ad<lb ed="#L" n="149" break="no"/>haeret. Et ideo consueuit dici quod lib. arb. hominis flexibile est ad 
+      <lb ed="#L" n="150"/>opposita ante electionem &amp; post, lib. arb. angeli flexibile est ante, 
+      <lb ed="#L" n="151"/>sed non post, propter quod angeli mali post electionem suam malam 
+      <lb ed="#L" n="152"/>in peccato obstinati sunt, ita quod bene agere non possunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e2705-d1e383">
+               <lb ed="#L" n="153"/>
+               <!--11--> Sed nec istud videtur sufficere. Primo quia effectus 
+      commu<lb ed="#L" n="154" break="no"/>nis requirit causam communem: obstinatio autem in malo est quid 
+      <lb ed="#L" n="155"/>commune angelis malis, &amp; hominibus damnatis, ergo causa 
+      ob<lb ed="#L" n="156" break="no"/>stinationis debet in eis assignari secundum aliquid comune, &amp; 
+      <lb ed="#L" n="157"/>non secundum illud in quo differunt lib. arbi. angeli, &amp; lib. arbi. 
+      <lb ed="#L" n="158"/>hominis, quod est immobiliter adhaereret, &amp; mobiliter. Secundo 
+      <lb ed="#L" n="159"/>quia non videtur verum quod angelus immobiliter adhaerea 
+      <lb ed="#L" n="160"/>his quibus semel adhaesit, quia secudum illos qui ponunt istam 
+      <lb ed="#L" n="161"/>positionem, omnes angeli a principio adhaeserunt bono, quia 
+      <!--00316.xml-->
+      <pb ed="#L" n="124-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>omnes meruerunt, sicut ipsi dicunt: sed mali post meritum 
+      prae<lb ed="#L" n="2" break="no"/>stiterunt impedimentum peccando, &amp; ita diuerterunt se a bono 
+      <lb ed="#L" n="3"/>cui primo adhaeserant: Et sic haec duo dicta sibi contradicunt. It. 
+      <lb ed="#L" n="4"/>si natura angeli est talis, quod semel adhaerens alicui non potest al 
+      <lb ed="#L" n="5"/>illo deflecti. Et ex hoc sic fuit obstinatio daemonum, quod non 
+      pos<lb ed="#L" n="6" break="no"/>sunt velle aliquod bonum, ex quo primo peccauerunt, per 
+      ean<lb ed="#L" n="7" break="no"/>dem rationem boni angeli essent confirmati in bono, ita quod 
+      pec<lb ed="#L" n="8" break="no"/>care non possunt, ex hoc solo quod meruerunt: Sed hoc est falsum. 
+      <lb ed="#L" n="9"/>Per meritum non sunt confirmati, sed per praemium; ergo &amp; 
+      <lb ed="#L" n="10"/>illud ex quo sequitur, scilicet quod naturalis modus adhaesioni 
+      <lb ed="#L" n="11"/>angeli sit causa obstinationis. Item dato quod daemones 
+      immobili<lb ed="#L" n="12" break="no"/>ter adhaerent eis quibus semel adhaeserunt. Ex hoc tamen non se 
+      <lb ed="#L" n="13"/>quitur quod non possint aliquod bonum velle vel facere, sed solum 
+      <lb ed="#L" n="14"/>quod non possunt velle honum oppositum malo quod 
+      elege<lb ed="#L" n="15" break="no"/>runt: de alio autem bono illi malo non opposito, non sequitur 
+      </p>
+            <p xml:id="jsnvu6-d1e2705-d1e446">
+               <lb ed="#L" n="16"/>
+               <!--12--> Dicendum ergo quod quamuis angeli mali non possint merer 
+      <lb ed="#L" n="17"/>de condigno vel congruo remissionem culpae pro eo quod secundun 
+      <lb ed="#L" n="18"/>ordinationem diuinam tempus merendi tam angelis quam 
+      ho<lb ed="#L" n="19" break="no"/>minibus praefixum est: hominibus quidem mors, angelis quiden 
+      <lb ed="#L" n="20"/>casus: hominibus quidem prolixius, quia magis distant a deo, &amp; 
+      <lb ed="#L" n="21"/>in cognitionem diuinorum etiam imperfectam multo tempore deueniunt 
+      <lb ed="#L" n="22"/>Angelis autem breuius tanquam habentibus deiformen intellectum 
+      <lb ed="#L" n="23"/>Quamuis etiam angeli mali non possint nolle quod semel 
+      vo<lb ed="#L" n="24" break="no"/>luerunt, quod tamen non est asserendum, nihilominus quod non 
+      pos<lb ed="#L" n="25" break="no"/>sint aliquod bonum velle quod sit bonum ex genere &amp; 
+      circunstan<lb ed="#L" n="26" break="no"/>tiis, nec ratio aliqua perfecta conuincit, nec authoritas. 
+      Attri<lb ed="#L" n="27" break="no"/>buere autem hoc deo omnino inconueniens est, qui nec potes 
+      <lb ed="#L" n="28"/>esse causat vt aliquis male velit, aut in malo volito perseueret 
+      </p>
+            <p xml:id="jsnvu6-d1e2705-d1e479">
+               <lb ed="#L" n="29"/>
+               <!--13.--> Ad primum argumentum patet responsio ex iam dictis, c 
+      <lb ed="#L" n="30"/>angeli boni non possunt peccare, pro tanto est, quia in essentis 
+      <lb ed="#L" n="31"/>diuina, quam videndo beatificantur, vident quicquid ad eos pertinet 
+      <lb ed="#L" n="32"/>vel aliqua visione beatifica. Non sic autem est de angelis malis 
+      </p>
+            <p xml:id="jsnvu6-d1e2705-d1e492">
+               <lb ed="#L" n="33"/>
+               <!--14.--> Ad secundum dicendum quod a voluntate mala 
+      inquan<lb ed="#L" n="34" break="no"/>tum huiusmodi non potest egredi actus bonus, non est tamer 
+      <lb ed="#L" n="35"/>necesse quod quicquid egreditur a voluntate daemonis, 
+      egredia<lb ed="#L" n="36" break="no"/>tur ab ea inquantum mala. 
+      </p>
+            <p xml:id="jsnvu6-d1e2705-d1e506">
+               <lb ed="#L" n="37"/>
+               <!--15 --> Ad tertium dicendum quo bene facere no esi ie praeparare ad 
+      <lb ed="#L" n="38"/>gratiam, nisi in eo qui est in statu viae, qualis non est angelus malus
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

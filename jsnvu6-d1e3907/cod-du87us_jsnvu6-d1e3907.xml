@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="164-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3907"><!-- l2d35q1 -->
+            <head xml:id="jsnvu6-d1e3907-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e3907-Hd1e103" type="question-title">Utrum malum sufficienter dividatur per poenam et culpam</head>
+            <p xml:id="jsnvu6-d1e3907-d1e106">
+               <lb ed="#L" n="116"/>QVAISTIO PRIMA. 
+      <lb ed="#L" n="117"/>Vtrum malum sufficienter diuidatur, 
+      <lb ed="#L" n="118"/>per culpam &amp; poenam. 
+      <lb ed="#L" n="119"/>Thom. 1. 4. 48. ar. 5. 
+      </p>
+            <p xml:id="jsnvu6-d1e3907-d1e117">
+               <lb ed="#L" n="120"/>CIRCA distinctione istam quaeritur primo, vtri 
+      <lb ed="#L" n="121"/>malum sufficienter diuidatur per culpam &amp; 
+      poe<lb ed="#L" n="122" break="no"/>nam, &amp; videtur quod non, quia in irrationalibus 
+      <lb ed="#L" n="123"/>non est culpa nec poena quae respondet culpae, &amp; 
+      <lb ed="#L" n="124"/>tamen in eis inuenitur malum, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3907-d1e130">
+               <lb ed="#L" n="125"/>
+               <!--2.--> Idem secundum Aug. in Enchirid. Malum dicitur quia nocet, 
+      <lb ed="#L" n="126"/>sed omne quod nocet est poena, ergo omne malum poena est. 
+      </p>
+            <p xml:id="jsnvu6-d1e3907-d1e140">
+               <lb ed="#L" n="127"/>
+               <!--3--> IN CONTRARIVM est commune dictum doctorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3907-d1e147">
+               <lb ed="#L" n="128"/>
+               <!--4--> RESPONSIO. Dicendum quod poena &amp; culpa 
+      <lb ed="#L" n="129"/>sufficienter diuidunt malum non vniuersaliter sumptum, sed 
+      <lb ed="#L" n="130"/>prout reperitur in habentibus libe. arb. Ad cuius euidentiam 
+      <lb ed="#L" n="131"/>sciendum est quod cum malum sit priuatio boni, sicut est 
+      du<lb ed="#L" n="132" break="no"/>plex bonum, vnum pertinens ad perfectionem primam, quae est 
+      <lb ed="#L" n="133"/>forma, seu ad integritatem rei, vt pars. Aliud pertinens ad 
+      se<lb ed="#L" n="134" break="no"/>cundam quae est operatio. Sic est duplex malum, vnum quod 
+      <lb ed="#L" n="135"/>priuat primum bonum, vel magis est passio priuatiua primi 
+      bo<lb ed="#L" n="136" break="no"/>ni, &amp; haec dicitur vniuersaliter malum naturae, sed in 
+      habenti<lb ed="#L" n="137" break="no"/>bus electionem dicitur malum poenae: maxime si sit 
+      contra<lb ed="#L" n="138" break="no"/>rium voluntati. Aliud vero quod priuat secundum bonum, 
+      <lb ed="#L" n="139"/>scilicet debitam operationem vel debitum ordinem in 
+      opera<lb ed="#L" n="140" break="no"/>tione, seu debitam rectitudinem: &amp; hoc malum vocatur 
+      gene<lb ed="#L" n="141" break="no"/>raliter peccatum, quod etiam reperitur in naturalibus, proui 
+      <lb ed="#L" n="142"/>operatio natuxalis non est conueniens, vt dicitur 2. Physi. 
+      Spe<lb ed="#L" n="143" break="no"/>cialiter autem in habentibus lib. arbi. vocatur culpa, inquantum 
+      <lb ed="#L" n="144"/>talis operatio est in potestate nostra propter libertatem volun 
+      <lb ed="#L" n="145"/>tatis. Culpamur enim solum de his quorum habemus 
+      domi<lb ed="#L" n="146" break="no"/>nium, &amp; ita culpa &amp; poena solum sunt in habentibus lib. arb. &amp; in 
+      <lb ed="#L" n="147"/>talibus sufficienter diuidunt malum, quod patet dupliciter. Pri 
+      <lb ed="#L" n="148"/>mo quia quot modis dicitur vnum oppositorum &amp; reliquum. 
+      <lb ed="#L" n="149"/>Sed bonum humanum dicitur tantum dupliciter, scilicet de bo 
+      <lb ed="#L" n="150"/>no naturae, &amp; de bono moris: ergo malum similiter: sed malum 
+      <lb ed="#L" n="151"/>naturae est malum poenae, malum vero moris est malum culpae, 
+      <lb ed="#L" n="152"/>ergo, &amp;c. Secundo, quia omne malum humanum vel est malum 
+      <lb ed="#L" n="153"/>quod voluntarie facimus, vel inuoluntarie patimur: sed primum 
+      <lb ed="#L" n="154"/>est culpa, reliquum vero est poena, ergo, &amp;c. Vtraque patet 
+      <lb ed="#L" n="155"/>per August. 1. de libe. arbit.
+</p>
+            <p xml:id="jsnvu6-d1e3907-d1e212">
+               <lb ed="#L" n="156"/>Ad primum argumentum patet solutio per iam dicta. 
+      </p>
+            <p xml:id="jsnvu6-d1e3907-d1e217">
+               <lb ed="#L" n="157"/>
+               <!--6--> Ad secundum dicendum qud tam malum culpae quam poenae 
+      <lb ed="#L" n="158"/>nocet, vel magis est ipsum nocumentum: malum quidam in his 
+      <lb ed="#L" n="159"/>quae pertinent ad primam rei integritatem: malum autem culpae 
+      <!--00396.xml-->
+      <pb ed="#L" n="164-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in actione. Sed quia nocumentum poenae magis percipitur, quia 
+      <lb ed="#L" n="2"/>est contrarium voluntati, quam nocumentum culpae, quae est 
+      vo<lb ed="#L" n="3" break="no"/>luntaria, ideo vulgus iudicat poenam magis nocere quam culpam 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

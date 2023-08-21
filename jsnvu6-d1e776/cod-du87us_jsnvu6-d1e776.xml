@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="40-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e776"><!-- l1d12q3 -->
+            <head xml:id="jsnvu6-d1e776-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e776-Hd1e103" type="question-title">Utrum Spiritus Sanctus sit a Patre mediante Filio vel per Filium</head>
+            <p xml:id="jsnvu6-d1e776-d1e106">
+               <lb ed="#L" n="36"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="37"/>Vtrum Spiritus sanctus sit a patre per filium.
+    </p>
+            <p xml:id="jsnvu6-d1e776-d1e113">
+               <lb ed="#L" n="38"/>TERTIUM sic proceditur. Et videtur? 
+      <lb ed="#L" n="39"/>Spirit. sanct. procedat a patre mediante filio: ve 
+      <lb ed="#L" n="40"/>per filium quia quod conuenit principio &amp; prin 
+      <lb ed="#L" n="41"/>cipiato, non conuenit eis aequo immediate &amp; pr 
+      <lb ed="#L" n="42"/>mo. Sed spirare Spi. sanctum conuenit patri &amp; 
+      <lb ed="#L" n="43"/>ucut principio &amp; principiato, ergo non conuenit vtrique 
+      <lb ed="#L" n="44"/>immediate &amp; primo. Cum ergo non conueniat filio mediante 
+      <lb ed="#L" n="45"/>patre, ergo conuenit patri mediante filio. 
+    </p>
+            <p xml:id="jsnvu6-d1e776-d1e133">
+               <lb ed="#L" n="46"/>CONTRA cum aliquis operatur per alium tanquam 
+      <lb ed="#L" n="47"/>per medium potest fieri conuersio. Sicut enim rex operatur, 
+      <lb ed="#L" n="48"/>per Baliuum, ita dicitur Baliuus operari per regem, sed nulle 
+      <lb ed="#L" n="49"/>modo dicitur quod filius spirat per patrem, ergo nec 
+      econ<lb ed="#L" n="50" break="no"/>uerso, scilicet quod pater spiret per filium. 
+    </p>
+            <p xml:id="jsnvu6-d1e776-d1e147">
+               <lb ed="#L" n="51"/>ITEM VBI non est prius &amp; posterius ibi est aeque im 
+      <lb ed="#L" n="52"/>mediate primo, sed in processione Spiritus sancti a patre &amp; fi 
+      <lb ed="#L" n="53"/>lio non est prius &amp; posterius, ergo &amp;c. Maior videtur esse 
+      ma<lb ed="#L" n="54" break="no"/>nifesta, sed minor probatur sic. quia si Spiritus sanctus 
+      proce<lb ed="#L" n="55" break="no"/>deret prius a patre quam a filio, sequeretur quod bis 
+      proce<lb ed="#L" n="56" break="no"/>deret. Eadem enim processione indiuisibili non potest prius &amp; 
+      <lb ed="#L" n="57"/>posterius procedere. 
+    </p>
+            <p xml:id="jsnvu6-d1e776-d1e165">
+               <lb ed="#L" n="58"/>RESPONSIO. dicendum quod in patre &amp; filio 
+      re<lb ed="#L" n="59" break="no"/>spectu actus spirandi possumus considerare duo, actus enim 
+      <lb ed="#L" n="60"/>spirandi egreditur ab aliquo supposito mediante forma, &amp; idec 
+      <lb ed="#L" n="61"/>actus spirandi potest referri ad formam quae est spirationis 
+      <lb ed="#L" n="62"/>principium, vel ad supposita spirantia. Si ad formam quae est 
+      <lb ed="#L" n="63"/>spirationis principium, sic pater non producit Spiritum sanctum 
+      <lb ed="#L" n="64"/>mediante filio, sed immediate producitur ab vtroque. Cuius 
+      <lb ed="#L" n="65"/>ratio est quia eiusdem ad seipsum non est medium, sed vis 
+      <lb ed="#L" n="66"/>spiratiua est vna &amp; eadem numero in patre &amp; filio, ergo 
+      quan<lb ed="#L" n="67" break="no"/>tum ad hanc vnum non est respectu alterius in spirando 
+      Spi<lb ed="#L" n="68" break="no"/>ritum sanctum. Si autem actus spirandi compararetur ad sup. 
+      <lb ed="#L" n="69"/>posita a quibus egreditur. Sic cum inter patrem &amp; Spiritum
+      <lb ed="#L" n="70"/>sanctum filius sit tanquam media persona virtutem spirandia 
+      <lb ed="#L" n="71"/>patre recipiens, potest dici quod pater producit Spiritumsan 
+      <lb ed="#L" n="72"/>ctum mediante filio, sub eodem sensu potest dici quod pater 
+      <lb ed="#L" n="73"/>producit Spiritumsanctum per filium. 
+    </p>
+            <p xml:id="jsnvu6-d1e776-d1e202">
+               <lb ed="#L" n="74"/>Vbi est notandum quod haec praesuppositio per, denotat habi 
+      <lb ed="#L" n="75"/>tudinem principij hoc potest dici dupliciter, vno modo sic vt 
+      <lb ed="#L" n="76"/>illud sit agenti cui additur vt agat, sicut dicimus quid ignis agii 
+      <lb ed="#L" n="77"/>per calorem: &amp; hoc modo non conuenit patri agere vel 
+      pro<lb ed="#L" n="78" break="no"/>ducere Spiritunsanctum per filium, quia filius non est principium 
+      <lb ed="#L" n="79"/>vel ratio patri vt spiret. Alio modo potest dicere rationem 
+      prin<lb ed="#L" n="80" break="no"/>cipij non respectu agentis sed tantum respectu producti, sicut 
+      <lb ed="#L" n="81"/>dicimus quod rex facit hoc vel illud per baliuum, &amp; hoc mo¬ 
+      <!--00145.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>do potest dici quod patet spirat Spiritum sanctum per filium 
+      <lb ed="#L" n="83"/>eo quod filius habet rationem principij respectu Spiritus 
+      san<lb ed="#L" n="84" break="no"/>cti, &amp; hoc ipsam habet a patre sicut baliuus a rege, nisi quod 
+      <lb ed="#L" n="85"/>habet eandem numero cum patre &amp; aeque perfectam, quod 
+      <lb ed="#L" n="86"/>est in baliuo respectu regis. 
+      </p>
+            <p xml:id="jsnvu6-d1e776-d1e237">
+               <lb ed="#L" n="87"/>
+               <!--6--> AD PRIMVM argumentum dicendum quod aliquid 
+      <lb ed="#L" n="88"/>potest conuenire principio &amp; principiato aeque immediate, 
+      <lb ed="#L" n="89"/>quando ratio per quam illud conuenit eis est eadem numero 
+      <lb ed="#L" n="90"/>in vtroque, ficut est de vi spiratiua quae est eadem numero in 
+      <lb ed="#L" n="91"/>patre &amp; filio per quam vtrique conuenit spirare Spiritum 
+      san<lb ed="#L" n="92" break="no"/>ctum &amp; aeque immediate: sed non aeque primo sumendo 
+      pri<lb ed="#L" n="93" break="no"/>mum pro principali vt patet ex praecedente quaestione. 
+      </p>
+            <p xml:id="jsnvu6-d1e776-d1e257">
+               <lb ed="#L" n="94"/>
+               <!--7--> Ad argumentum oppositum dicendum quod non semper 
+      <lb ed="#L" n="95"/>recipitur conuersio cum aliquid dicitur agere per alium: 
+      dici<lb ed="#L" n="96" break="no"/>mus enim quod faber agit per martellum, &amp; tamen non dicimus 
+      <lb ed="#L" n="97"/>quod martellus agat per fabrum. Et similiter non oportet quod 
+      <lb ed="#L" n="98"/>si pater spirat per filium quod econuerso filius dicatur spirare per 
+      <lb ed="#L" n="99"/>patrem, quamuis sane intelligendo posset dici eodem modo 
+      <lb ed="#L" n="100"/>quo baliuus dicitur agere per regem. Hic enim dicitur quod 
+      bali<lb ed="#L" n="101" break="no"/>uus habet potestatem &amp; autoritatem agendi a rege. Et 
+      simili<lb ed="#L" n="102" break="no"/>ter posset dici quod filius spirat per patrem non tanquam per 
+      me<lb ed="#L" n="103" break="no"/>dium, sed quia virtutem &amp; autoritatem spirandi habet a patre. 
+      </p>
+            <p xml:id="jsnvu6-d1e776-d1e283">
+               <lb ed="#L" n="104"/>
+               <!--8--> Ad aliud argumentum cum dicitur quod vbi non est prius &amp; 
+      <lb ed="#L" n="105"/>posterius, ibi est aeque primo &amp; immediate. Dicendum quod non 
+      <lb ed="#L" n="106"/>est ibi aeque primo, accipiendo primum pro principali, quia 
+      li<lb ed="#L" n="107" break="no"/>cet simul, &amp; vnica virtute pater &amp; filius spirent, tamen illam 
+      <lb ed="#L" n="108"/>virtutem principalius habet pater (quia a se habet) quam 
+      fi<lb ed="#L" n="109" break="no"/>lius qui habet ab alio. Est tamen ibi aeque immediate inspicier 
+      <lb ed="#L" n="110"/>do virtutem spiratiuam, licet respiciendo supposita spirantia 
+      <lb ed="#L" n="111"/>sit ibi qualiscunque ratio medij vt dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

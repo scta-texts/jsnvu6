@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="234-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e192946"><!-- l3d33q2 -->
+            <head xml:id="jsnvu6-e192946-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e192946-Hd1e103" type="question-title">
+      Utrum virtutes causentur in nobis ex actibus
+    </head>
+            <p xml:id="jsnvu6-e192946-d1e106">
+               <lb ed="#L" n="130"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="131"/>Vtrum virtutes causentur in nobis 
+      <lb ed="#L" n="132"/>ex actibus. 
+      <lb ed="#L" n="133"/>Thom. L2. q. 63. art. 2. 
+    </p>
+            <p xml:id="jsnvu6-e192946-d1e117">
+               <lb ed="#L" n="134"/>SECVNDO quaeritur, vtrum virtutes causentur in 
+      <lb ed="#L" n="135"/>nobis ex actibus. Et videtur quod non quia 
+      conti<lb ed="#L" n="136" break="no"/>nentia est aliquid minus virtute, vt patet septimo 
+      <lb ed="#L" n="137"/>Ethicorum, sed nullus potest esse continens nisi ex 
+      <lb ed="#L" n="138"/>dono dei, secundum illud Sapientiae octauo, Non possum esse 
+      <lb ed="#L" n="139"/>continens, nisi deus det, ergo multominus potest aliquis esse 
+      vir<lb ed="#L" n="140" break="no"/>tuosus, nisi ex dono dei: hoc autem non esset si virtutes 
+      causa<lb ed="#L" n="141" break="no"/>retur ex nostris actibus, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e192946-d1e137">
+               <lb ed="#L" n="142"/>
+               <!--2--> Item perfectius non sumit originem a minus perfecto, sed 
+      <lb ed="#L" n="143"/>virtutes sunt perfectiores actibus praecedentibus ipsas, ergo non 
+      <lb ed="#L" n="144"/>causantur ex eis. Maior patet ex nono Metaphy. Minor proba 
+      <lb ed="#L" n="145"/>tur, quia quod est causa magis perfecti est perfectius illo, sed vis 
+      <lb ed="#L" n="146"/>tutes sunt causa actuum sequentium, qui sunt magis perfecti 
+      <lb ed="#L" n="147"/>quam actus praecedentes virtutem, ergo virtutes sunt 
+      perfectio<lb ed="#L" n="148" break="no"/>res actibus sequentibus, &amp; fortiori ratione actibus 
+      praecedenti<lb ed="#L" n="149" break="no"/>bus, quia quod est perfectius perfectiore, est perfectius minus 
+      <lb ed="#L" n="150"/>perfecto. 
+      </p>
+            <p xml:id="jsnvu6-e192946-d1e162">
+               <lb ed="#L" n="151"/>
+               <!--3--> IN CONTRARIVM arguitur, quia secundum 
+      bea<lb ed="#L" n="152" break="no"/>tum Dionysium, bonum est potentius quam malum, sed ex ma 
+      <lb ed="#L" n="153"/>lis actibus generantur habitus vitiosi, ergo a fortiori ratione ex 
+      <lb ed="#L" n="154"/>actibus virtuosis generabuntur habitus virtuosi. Ad idem est 
+      <lb ed="#L" n="155"/>quod dicit Philosophus secundo Ethicorum 
+      </p>
+            <p xml:id="jsnvu6-e192946-d1e178">
+               <lb ed="#L" n="156"/>
+               <!--4--> RESPONSIO. Circa quaestionem istam videnda sunt 
+      <lb ed="#L" n="157"/>duo. Primum est, an virtutes morales &amp; intellectuales, ad 
+      qua<lb ed="#L" n="158" break="no"/>homo potest attingere ex puris naturalibus causentur ex 
+      acti<lb ed="#L" n="159" break="no"/>bus nostris. Secundum est, per quem modum causentur ex eis 
+      </p>
+            <p xml:id="jsnvu6-e192946-d1e191">
+               <lb ed="#L" n="160"/>
+               <!--5--> Quantum ad primum patet dupliciter quod tales virtute 
+      <lb ed="#L" n="161"/>causentur ex actibus nostris. Primo sic, principia operatiua 
+      <lb ed="#L" n="162"/>quae non insunt nobis ex natura, sed ex acquisitione causantu 
+      <!--00543.xml-->
+      <pb ed="#L" n="235-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ex actibus nostris, sed virtutes tam morales quam intellectuales 
+      <lb ed="#L" n="2"/>sunt quaedam principia operatiua quae non insunt nobis ex 
+      na<lb ed="#L" n="3" break="no"/>tura, sed ex acquisitione vt probatum fuit prius, ergo 
+      causan<lb ed="#L" n="4" break="no"/>tur ex actibus nostris. Maior patet ex 2. Etnico. haec enim est 
+      <lb ed="#L" n="5"/>differentia mter principia innata &amp; acquisita, quia principia 
+      in<lb ed="#L" n="6" break="no"/>nata praecedunt actus, nec ex ipsis acquiruntur, visus enim 
+      praece<lb ed="#L" n="7" break="no"/>dit videre: nec per videre acquiritur visus, sed principia acqui 
+      <lb ed="#L" n="8"/>sita sequuntur actus &amp; ex eis acquiruntur, fabricando enim 
+      fabri<lb ed="#L" n="9" break="no"/>simus, &amp; sic de similibus vt ibidem dicitur, &amp; sic patet maior, 
+      se<lb ed="#L" n="10" break="no"/>quitur ergo conclusio. Item consuetudo habet vim naturae sicut 
+      <lb ed="#L" n="11"/>dicitur libro de memoria &amp; reminiscentia, ergo secundum 
+      quan<lb ed="#L" n="12" break="no"/>dam proportionem, pronitatem &amp; facilitatem quam habent 
+      natu<lb ed="#L" n="13" break="no"/>ralia secundum se ad suas operationes naturales talem quantum 
+      <lb ed="#L" n="14"/>possunt acquirunt potentiae rationales per consuetudinem, sed 
+      <lb ed="#L" n="15"/>ista pronitas vel facilitas ad operandum non est aliud quam vir 
+      <lb ed="#L" n="16"/>tus intellectualis vel moralis per quam de facili potest quis 
+      exir<lb ed="#L" n="17" break="no"/>in actum conuenientem, ergo per consuetudinem actuum tali 
+      <lb ed="#L" n="18"/>pronitas &amp; facilitas quae realiter est virtus acquiritur in nobis 
+      </p>
+            <p xml:id="jsnvu6-e192946-d1e248">
+               <lb ed="#L" n="19"/>
+               <!--6--> Ex hoc concludunt quidam duas conclusiones. Prima est. 
+      <lb ed="#L" n="20"/>per non operari non potest causari in nobis habitus vitiosus. 
+      Se<lb ed="#L" n="21" break="no"/>cunda est quod omne peccatum acquiritur per actum aliquem. 
+      Ra<lb ed="#L" n="22" break="no"/>tio primi eit, quia affectus positiuus requirit causam positiuam 
+      <lb ed="#L" n="23"/>sed omnis habitus non solum virtuosus, sed etiam vitiosus est 
+      ali<lb ed="#L" n="24" break="no"/>quid positiuum, ergo requirit causam positiuam: sed non operari non 
+      <lb ed="#L" n="25"/>est aliquid positiuum, eigo &amp;c. Rationem secundi assignant, quia 
+      si<lb ed="#L" n="26" break="no"/>mile videtur esse de vitio &amp; habitu vitioso, &amp; ideo sicut 
+      habi<lb ed="#L" n="27" break="no"/>tus vitiosus est aliquid positiuum, ita vitium vel peccatum (vt dicunt 
+      <lb ed="#L" n="28"/>Et iterum quia de ratione peccati est voluntarium, sed nihil est ve 
+      <lb ed="#L" n="29"/>luntarium nisi ratione actus volendi, ergo in omni peccato requi 
+      <lb ed="#L" n="30"/>ritur aliquis actus saltem interior. Quod etiam verum est secundum 
+      <lb ed="#L" n="31"/>istos in peccato omissionis, quia in illo semper est actus 
+      volen<lb ed="#L" n="32" break="no"/>di siue explicite, siue implicite, explicite quidem quando actus vo 
+      <lb ed="#L" n="33"/>lendi directe fertur super negationem actus debiti, vt cum 
+      ali<lb ed="#L" n="34" break="no"/>quis actu considerans quod tenetur ire ad ecclesiam vult non in 
+      <lb ed="#L" n="35"/>plus diligens aliquam aliam occupationem. Implicite autem 
+      quan<lb ed="#L" n="36" break="no"/>do aliquis non considerans quod tenetur ire ad ecclesiam siue pe 
+      <lb ed="#L" n="37"/>obliuionem siue per aliam causam occupat se in talibus, vndi 
+      <lb ed="#L" n="38"/>contingit eum non ire, talis enim dicitur implicite velle non 
+      ir<lb ed="#L" n="39" break="no"/>inquantum vult illud ad quod sequitur non ire ad ecclesiam.
+  
+      <lb ed="#L" n="40"/>Prima istarum conclusionum vt credo est vera &amp; ratio qua 
+      <lb ed="#L" n="41"/>ad eam adducitur est bona, sed secunda conclusio non videtur 
+      <lb ed="#L" n="42"/>vera, &amp; quia in secundo libro fuit dictum de hoc, ideo non sufficiat 
+      <lb ed="#L" n="43"/>respondere ad rationes eorum. Cum enim dicitur simile est di 
+      <lb ed="#L" n="44"/>vitio &amp; habitu vitioso, dicendum quod non est verum, quia omnis 
+      <lb ed="#L" n="45"/>habitus vitiosus est aliquid positiuum ex hoc quod habitus est, 
+      vi<lb ed="#L" n="46" break="no"/>tium autem consistit in carentia alicuius boni debiti, &amp; quia 
+      bo<lb ed="#L" n="47" break="no"/>num debitum est tam actus quam rectitudo eius, ideo peccatum 
+      <lb ed="#L" n="48"/>consistere potest non solum in carentia rectitudinis in actu, sed 
+      <lb ed="#L" n="49"/>etiam in carentia ipsius actus. Primum est in peccato 
+      commis<lb ed="#L" n="50" break="no"/>sionis. Secundum est in peccato omissionis. Quod dicitur 
+      poste<lb ed="#L" n="51" break="no"/>quod nihil est voluntarium nisi ratione actus volendi cadentis 
+      su<lb ed="#L" n="52" break="no"/>peripsum. Dicendum est quod si voluntarium accipiatur pro eo 
+      <lb ed="#L" n="53"/>quod est in potestate voluntatis quod sufficit ad rationem pec 
+      <lb ed="#L" n="54"/>cati. sic aliquid est voluntarium (hoc est in potestate voluntatis 
+      <lb ed="#L" n="55"/>absque hoc quod actus volendi cadat super ipsum. Quod patet, 
+      <lb ed="#L" n="56"/>quia nihil magis est in potestate voluntatis quam suum velle 
+      libe<lb ed="#L" n="57" break="no"/>rum, &amp; tamen non oportet hoc esse per actum alium 
+      volunta<lb ed="#L" n="58" break="no"/>tis cadentem super ipsum, alioquin nunquam in actu voluntas 
+      <lb ed="#L" n="59"/>esset peccatum nisi ibi esset actus reflexus quo volumus nos 
+      <lb ed="#L" n="60"/>velle quod est falsum, est ergo in potestate voluntatis 
+      omni<lb ed="#L" n="61" break="no"/>actus &amp; priuatio eius respectu quorum voluntas non habet 
+      ne<lb ed="#L" n="62" break="no"/>cessariam determinationem, &amp; hoc sufficit ad hoc quod talis 
+      <lb ed="#L" n="63"/>actus vel priuatio eius sit peccatum. 
+      </p>
+            <p xml:id="jsnvu6-e192946-d1e350">
+               <lb ed="#L" n="64"/>
+               <!--8--> QUANTVM ad secundum scilicet quo modo virtutes prae 
+      <lb ed="#L" n="65"/>dicte causentur ex actibus nostris, praeuidenda sunt duo. Primum 
+      <lb ed="#L" n="66"/>est quod actus ex quibus dicuntur causari habitus, possunt 
+      confi<lb ed="#L" n="67" break="no"/>derari dupliciter. Vno modo secundum suum esse reale natura 
+      <lb ed="#L" n="68"/>le. Alio modo secundum esse morale. Primo modo quidam actus 
+      <lb ed="#L" n="69"/>boni &amp; mali tam interiores quam exteriores sunt eiusdem specie 
+      <lb ed="#L" n="70"/>sicut concupiscere vxorem suam &amp; alienam, vel accedere ad 
+      <lb ed="#L" n="71"/>d. suam &amp; ad alienam vnius speciei est in esse naturae. Quod patet 
+      <lb ed="#L" n="72"/>ex parte principiorum &amp; effectuum, quia principia realia 
+      huius<lb ed="#L" n="73" break="no"/>modi actuum &amp; effectus reales &amp; exteriores puta proles 
+      gene<lb ed="#L" n="74" break="no"/>rata ex matrimonio &amp; ex adulterio sunt eiusdem speciei in esse 
+      <lb ed="#L" n="75"/>naturae. Secundo autem modo. Lin esse morali differunt 
+      secun<lb ed="#L" n="76" break="no"/>dum rationem boni &amp; mali specifice, quia vnus dicitur bonus 
+      <lb ed="#L" n="77"/>actus temperatus, &amp; alius malus &amp; intemperatus, causalitas etiam 
+      <lb ed="#L" n="78"/>realis non potest attribui alicui nisi secundum suum esse reale, &amp; 
+      <lb ed="#L" n="79"/>ideo si aliquid reale causatur ex talibus actibus qui sunt 
+      eiusd<lb ed="#L" n="80" break="no"/>speciei in esse reali quamuis differat secundum rationem boni &amp; 
+      <lb ed="#L" n="81"/>mali in esse morali illud causatum est realiter vnius speciei 
+      quan<lb ed="#L" n="82" break="no"/>uis moraliter differant secundum rationem boni &amp; mali, propte¬ 
+      <!--00543.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>quod habitus temperantiae &amp; intemperantiae ex talibus actibus 
+      <lb ed="#L" n="84"/>causati sunt eiusdem specici in esse naturae seu reali differente 
+      <lb ed="#L" n="85"/>solum moraliter secundum rationem boni &amp; mali: &amp; sic est de 
+      com<lb ed="#L" n="86" break="no"/>similibus: non autem de omnibus, quia quidam habitus sunt qu 
+      <lb ed="#L" n="87"/>caussantur ex actibus differentibus specie, non solum secundun 
+      <lb ed="#L" n="88"/>esse morale, sed etiam reale, sicut temperantia &amp; insensibilitas, 
+      <lb ed="#L" n="89"/>liberalitas, &amp; auaritia, differunt enim specie persecutio &amp; fuga 
+      <lb ed="#L" n="90"/>ex quorum primo caussatur temperantia, &amp; ex secundo 
+      insensi<lb ed="#L" n="91" break="no"/>bilitas: similiter datio, &amp; acceptio, seu retentio differunt specie, 
+      <lb ed="#L" n="92"/>ex quorum primo caussatur liberalitas, &amp; ex secundo auaritia 
+      </p>
+            <p xml:id="jsnvu6-e192946-d1e422">
+               <lb ed="#L" n="93"/>
+               <!--9--> Secundo sciendum est quod aliquid dicitur fieri per aliquid 
+      du<lb ed="#L" n="94" break="no"/>pliciter. Vno modo sicut per principium actiuum, vt aqua 
+      di<lb ed="#L" n="95" break="no"/>citur calefieri per calorem ignis. Secundo modo sicut per prin 
+      <lb ed="#L" n="96"/>cipium passiuum vt cera dicitur figurari per quantitatem vel 
+      <lb ed="#L" n="97"/>per mollitiem. Dicendum ergo quod virtutes intellectuales &amp; 
+      <lb ed="#L" n="98"/>morales acquisitae non generantur per actus, sicut per 
+      princi<lb ed="#L" n="99" break="no"/>pium actiuum quia aut habitus caussantur immediate per actus 
+      <lb ed="#L" n="100"/>vel mediate: non immediate, quia tunc aliqua actio immediate 
+      <lb ed="#L" n="101"/>terminaretur ad habitum: &amp; quum illa actio esset alteratio, 
+      se<lb ed="#L" n="102" break="no"/>queretur quod ad dispositiones &amp; ad habitus esset alteratio 
+      im<lb ed="#L" n="103" break="no"/>mediate, cuius oppositum probat Philosophus per 
+      intensio<lb ed="#L" n="104" break="no"/>nem 7. Physic. nec mediate, quia ad illud quo mediante actu 
+      <lb ed="#L" n="105"/>caussant habitus, nec poteris, nec enim facile est illud fingere, 
+      <lb ed="#L" n="106"/>ergo actus non se habent ad habitus, vt principium actiuum 
+      </p>
+            <p xml:id="jsnvu6-e192946-d1e458">
+               <lb ed="#L" n="107"/>
+               <!--10.--> Restat ergo q actus se habeant ad generationem habituum, 
+      <lb ed="#L" n="108"/>vt principium passiuum, de quo distinguendum est, quia princi 
+      <lb ed="#L" n="109"/>pium passiuum vocatur illud proprie quod recipit, sicut cera es 
+      <lb ed="#L" n="110"/>principium passiuum respectu figurae quam recipit: quandoque vero 
+      <lb ed="#L" n="111"/>dispositio secundum quam recipit sicut mollities in cera est prin 
+      <lb ed="#L" n="112"/>cipium passiuum recipiendi figuram. Primo modo actus non 
+      <lb ed="#L" n="113"/>sunt principium receptiuum habituum, sed potentiae, alioquin 
+      abeun<lb ed="#L" n="114" break="no"/>tibus actibus non remanerent habitus. Sed secundo modo actus 
+      <lb ed="#L" n="115"/>sunt principium passiuum respectu habituum, sicut dispositio 
+      prae<lb ed="#L" n="116" break="no"/>uia non quidem necessaria in esse, sicut quantitas est necessaria 
+      <lb ed="#L" n="117"/>in cera ad receptionem figurae, quia adhuc sequeretur quod 
+      habi<lb ed="#L" n="118" break="no"/>tus non possent esse in potentia, nisi praesentibus actibus, sed 
+      <lb ed="#L" n="119"/>sicut dispositio necessario praeuia ad fieri habituum vt mollicies 
+      <lb ed="#L" n="120"/>in cera ad receptionem figurae, nisi qo illud quod caussat 
+      mol<lb ed="#L" n="121" break="no"/>liciem cerae, non oportet quod causset figuram, sed illud idem quod 
+      <lb ed="#L" n="122"/>caussat actus ex consequenti caussat habitum ordine quodam, 
+      <lb ed="#L" n="123"/>sicut illud quod caussat in aqua calorem caussat in ea raritatem 
+      <lb ed="#L" n="124"/>ordine quodam. Quanto enim aliqua potentia reducitur frequen 
+      <lb ed="#L" n="125"/>tius in actum tanto redditur magis disposita &amp; pronior ad 
+      reci<lb ed="#L" n="126" break="no"/>piendum consimilem actum, haec autem dispositio vel pronitas, 
+      <lb ed="#L" n="127"/>seu facilitas, est habitus, propter quod illud idem quod caussa 
+      <lb ed="#L" n="128"/>actus &amp; frequentiam eorum caussat per consequens habitum 
+      </p>
+            <p xml:id="jsnvu6-e192946-d1e510">
+               <lb ed="#L" n="129"/>
+               <!--11--> AD PRIMVM argumentum dicendum qued Deus dai 
+      <lb ed="#L" n="130"/>non solum continetiam, sed omnes virtutes, non tamen 
+      imme<lb ed="#L" n="131" break="no"/>diate, sed mediantibus actibus nostris &amp; principiis actuum, 
+      lo<lb ed="#L" n="132" break="no"/>quendo de virtutibus acquisitis. Illud autem quod dicitur 
+      Sa<lb ed="#L" n="133" break="no"/>pientiae 8. non possum esse continens, nisi Deus det, 
+      intelligen<lb ed="#L" n="134" break="no"/>dum est non possum, id est, vix possum: frequenter enim 
+      dici<lb ed="#L" n="135" break="no"/>tur impossibile illud quod est vix, &amp; cum magna difficultate 
+      pos<lb ed="#L" n="136" break="no"/>sibile, vt patet ex quinto Metaphysicae. 
+      </p>
+            <p xml:id="jsnvu6-e192946-d1e532">
+               <lb ed="#L" n="137"/>
+               <!--12--> Ad aliud dicendum quod perfectius non sumit originem 
+      <lb ed="#L" n="138"/>ab imperfecto, tanquam a principali principio effectiuo: sic 
+      au<lb ed="#L" n="139" break="no"/>tem actus non est principium habitus, nec econuerso, sed in 
+      <lb ed="#L" n="140"/>genere principij passiui per modum dispositionis in fieri 
+      po<lb ed="#L" n="141" break="no"/>test perfectum sumere originem ab imperfecto, &amp; 
+      econuer<lb ed="#L" n="142" break="no"/>so, sicut quaedam dispositiones accidentales praecedunt 
+      for<lb ed="#L" n="143" break="no"/>mam substantialem in materia: &amp; quaedam sequuntur, &amp; sic 
+      <lb ed="#L" n="144"/>forma substantialis sumit originem a dispositionibus 
+      praeceden<lb ed="#L" n="145" break="no"/>tibus quae sunt imperfectiores, &amp; sic dispositiones sequentes 
+      su<lb ed="#L" n="146" break="no"/>munt originem a forma substantiali, quae est perfectior: similiter 
+      ha<lb ed="#L" n="147" break="no"/>bitus sumunt originem ab actibus praecedentibus, &amp; ab habitibus 
+      <lb ed="#L" n="148"/>sequentibus actus, &amp; totum hoc est in ratione dispositionis. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

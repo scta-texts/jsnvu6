@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="158-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3737"><!-- l2d31prae -->
+            <head xml:id="jsnvu6-d1e3737-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3737-d1e103">
+               <lb ed="#L" n="47"/>Sententia huius distinctionis xxxi. in 
+      <lb ed="#L" n="48"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-d1e3737-d1e110">
+               <lb ed="#L" n="49"/>NVNC superest inuestigandum. Superius 
+      deter<lb ed="#L" n="50" break="no"/>minauit magister de quidditate originalis 
+      pec<lb ed="#L" n="51" break="no"/>cati. Hic determinat de eius traductione. Et 
+      di<lb ed="#L" n="52" break="no"/>uiditur in tres. Primo determinat suum 
+      inten<lb ed="#L" n="53" break="no"/>tum. Secundo ex determinatione concludit 
+      pro<lb ed="#L" n="54" break="no"/>batum. Tertio excludit quandam dubitationem contrariam. 
+      Se<lb ed="#L" n="55" break="no"/>cunda ibi, iam ostensum est. Tertia ibi, sed adhuc opponitur. 
+      Pri<lb ed="#L" n="56" break="no"/>ma diuiditur in tres. Primo mouet quaestionem, &amp; eam 
+      deter<lb ed="#L" n="57" break="no"/>minat excludendo opinionem erroneam, &amp; declarando 
+      verita<lb ed="#L" n="58" break="no"/>tem. Secundo mouet quandam aliam dubitationem circa 
+      prae<lb ed="#L" n="59" break="no"/>dicta &amp; confirmat. Tertio ostendit quo modo aliqui purgati a 
+      <lb ed="#L" n="60"/>foeditate originalis culpae peccatum transmittere possunt. 
+      Se<lb ed="#L" n="61" break="no"/>cunda ibi, hic quaeri solet. Tertia ibi, ne autem miremur. Haec 
+      <lb ed="#L" n="62"/>est sententia lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3737-d1e143">
+               <lb ed="#L" n="63"/>
+               <!--2--> IN SPECLALI sic procedit. Et proponit primo 
+      in<lb ed="#L" n="64" break="no"/>quirendo vtrum peccatum originale traducatur secundum 
+      ani<lb ed="#L" n="65" break="no"/>mam, an secundum carnem: &amp; dixerunt quidam quod 
+      secun<lb ed="#L" n="66" break="no"/>dum animam, quia animam praesumunt ex traduce. Hoc autem 
+      <lb ed="#L" n="67"/>non est ponendum, sed magis per carnis traductionem 
+      origi<lb ed="#L" n="68" break="no"/>nale peccatum inducitur. Caro enim viciosa concupiscentia 
+      <lb ed="#L" n="69"/>concepta virtute in se maculam peccati habet, &amp; ideo ex vnione 
+      <lb ed="#L" n="70"/>animae ad ipsam contrahitur peccatum originale. Et ideo 
+      dici<lb ed="#L" n="71" break="no"/>tur peccatu manere in carne virtualiter. Postea quaerit, vtrum 
+      <lb ed="#L" n="72"/>ista infectio carnis sit culpa an poena: non enim videtur esse 
+      <lb ed="#L" n="73"/>culpa, cum culpa non sit in subiecto irrationali, nec poena, quia 
+      <lb ed="#L" n="74"/>inter poenalitates non connumeratur. Et respondet magister q 
+      <lb ed="#L" n="75"/>est quaedam fomes. Postea dicit, quod sicut ex circuncisis, secundum 
+      <lb ed="#L" n="76"/>August. nascitur puor cum praeputio, &amp; ex grano nudo granum 
+      <lb ed="#L" n="77"/>cum palea, ita ex carue per baptismum mundata, nascitur 
+      ca<lb ed="#L" n="78" break="no"/>ro cum infectione originali. Postea dicit quod ideo nominatur 
+      <lb ed="#L" n="79"/>originale, quia ex viciosa &amp; libidinosa origine contrahitur. Et 
+      <lb ed="#L" n="80"/>quia Christus talem originem non habuit, illud peccatum non 
+      <!--00384.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>traduxit. Vltimo quaerit quomodo peccatum potest esse in car 
+      <lb ed="#L" n="82"/>ne quando concipitur, cum tunc non sit mala, &amp; respondetae 
+      <lb ed="#L" n="83"/>hoc ideo dicitur, quia tantum est ibi virtualiter infectio ex qua 
+      <lb ed="#L" n="84"/>habet anima maculari. Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

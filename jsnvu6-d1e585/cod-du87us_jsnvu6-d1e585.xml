@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="31-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e585"><!-- l1d8p2q1 -->
+            <head xml:id="jsnvu6-d1e585-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e585-Hd1e103" type="question-title">Utrum Deus sit omnino simplex</head>
+            <p xml:id="jsnvu6-d1e585-d1e106">
+               <lb ed="#L" n="4"/>QVAESTIO PRIMA QVAE EST QVARTA. 
+      <lb ed="#L" n="5"/>Vtrum Deus sit omnino simplex. 
+      <lb ed="#L" n="6"/>Thom. . p. q. artic. g. &amp;8. 
+    </p>
+            <p xml:id="jsnvu6-d1e585-d1e115">
+               <lb ed="#L" n="7"/>CIrca istam partem distinctionis quaeritur de 
+      duo<lb ed="#L" n="8" break="no"/>bus in generali. Primum est de simplicitate Dei 
+      <lb ed="#L" n="9"/>Secundum est de simplicitate creaturae. Circa 
+      pri<lb ed="#L" n="10" break="no"/>mum quaeritur vtrum Deus sit omnino simplex 
+      <lb ed="#L" n="11"/>Et arguitur quod non, quia omne quod melius est, est 
+      <lb ed="#L" n="12"/>Deo attribuendum, sed apud nos composita sunt meliora sim 
+      <lb ed="#L" n="13"/>plicibus. (Compositum enim melius est quam materia sola aut 
+      <lb ed="#L" n="14"/>sola forma) ergo compositio est Deo attribuenda. 
+      </p>
+            <p xml:id="jsnvu6-d1e585-d1e135">
+               <lb ed="#L" n="15"/>
+               <!--2.--> Item in quocunque est pluralitas realis illud est realiter com 
+      <lb ed="#L" n="16"/>positum; sed in Deo est realis pluralitas relationum realium: 
+      <lb ed="#L" n="17"/>ergo in ipso est realis compositio. 
+</p>
+            <p xml:id="jsnvu6-d1e585-d1e147">
+               <lb ed="#L" n="18"/>IN CONTRARIVM est quod dicit August. 6. de 
+      <lb ed="#L" n="19"/>Trinit. quod Deus vere simplex est summe. 
+      </p>
+            <p xml:id="jsnvu6-d1e585-d1e154">
+               <lb ed="#L" n="20"/>
+               <!--4.--> RESPONSIO: circa quaestionem dicenda sunt duo. Pri 
+      <lb ed="#L" n="21"/>mum est, quod Deus non est compositus in se. Secundum est, quod non 
+      <lb ed="#L" n="22"/>est alteri compossibilis nec aliud sibi. Primum patet dupliciter. 
+      <lb ed="#L" n="23"/>primo exprimitate Dei (supposito quod declaratum est prius 
+      <lb ed="#L" n="24"/>scilicet quod Deus est primum in entibus) &amp; hoc sic, primum eni 
+      <lb ed="#L" n="25"/>est primum vnum, sed Deus est primum ens: ergo est primun 
+      <lb ed="#L" n="26"/>vnum, sed vnum compositione non potest esse primum vnum 
+      <lb ed="#L" n="27"/>ergo Deus non est vnus compositione, sed simplicitate. Quod 
+      <lb ed="#L" n="28"/>autem primum vnum non sit vnum compositione patet, quia 
+      <lb ed="#L" n="29"/>sicut se habet entitas ad entitatem, sic se habet vnitas ad 
+      vni<lb ed="#L" n="30" break="no"/>tatem, sed entitas compositi supponit entitatem partium: 
+      ergi<lb ed="#L" n="31" break="no"/>vnitas eius supponit vnitatem cuiuslibet partis. 
+      </p>
+            <p xml:id="jsnvu6-d1e585-d1e185">
+               <lb ed="#L" n="32"/>
+               <!--5--> Secundo patet idem ex eius causalitate (supposito quod 
+      Deu<lb ed="#L" n="33" break="no"/>causa non habet) sic, omne compositum habet causam, sed 
+      <lb ed="#L" n="34"/>Deus causam non habet, sed est omnium prima causa: ergo Deu 
+      <lb ed="#L" n="35"/>non est aliquid compositum. minor supponitur, sed maior 
+      pro<lb ed="#L" n="36" break="no"/>batur quia duplex est compositio: vna est ex materia &amp; forma 
+      <lb ed="#L" n="37"/>quia substantia de qua nunc loquimur (cum de Deo quaerimus 
+      <lb ed="#L" n="38"/>non componitur nisi ex materia &amp; forma: alia est compositio es 
+      <lb ed="#L" n="39"/>subiecto &amp; accidente, de qua dicetur in 2. artic. Quod autem com 
+      <lb ed="#L" n="40"/>positum ex materia &amp; forma causam habeat, patet, habet enim 
+      <lb ed="#L" n="41"/>duas causas intrinsecas, scilicet materiam &amp; formam ex quibus 
+      <lb ed="#L" n="42"/>componitur, habet etiam causam efficientem, quia vnio 
+      ma<lb ed="#L" n="43" break="no"/>teriae cum forma fit per agens quod introducit formam in 
+      ma<lb ed="#L" n="44" break="no"/>ateria: vnde Philosop. 8. metaphys. cum quaereret quare ex 
+      ma<lb ed="#L" n="45" break="no"/>teria &amp; forma fit vnum, dicit quod non est aliqua causa nisi vnum 
+      <lb ed="#L" n="46"/>principium motus quod est causa agens. Item patet per 
+      ratio<lb ed="#L" n="47" break="no"/>nem idem sic: Omne illud quod de se non est necesse esse, 
+      ha<lb ed="#L" n="48" break="no"/>bet causam efficientem, sed nullum compositum ex materia &amp; 
+      <lb ed="#L" n="49"/>forma est de se necesse esse: ergo omne tale habet causam 
+      effi<lb ed="#L" n="50" break="no"/>fientem. maior patet, quia quod de se non est necesse esse, 
+      po<lb ed="#L" n="51" break="no"/>test non esse quantum est de se, imo etiam quantum est de si 
+      <lb ed="#L" n="52"/>non esset. Omne autem tale indiget aliquo reducente ipsum 
+      <lb ed="#L" n="53"/>de non esse ad esse, &amp; illud est solum agens: quare &amp;c. mino 
+      <lb ed="#L" n="54"/>probatur, quia non est maior necessitas compositi quam 
+      par<lb ed="#L" n="55" break="no"/>tium ex quibus componitur, immo minor: quaero ergo de 
+      for<lb ed="#L" n="56" break="no"/>ma quae est pars istius compositi vtrum possit esse sine 
+      mate<lb ed="#L" n="57" break="no"/>ria vel non. Si potest esse sine materia compositum potest non 
+      <lb ed="#L" n="58"/>esse, quia compositum non est, nisi forma existente in materia 
+      <lb ed="#L" n="59"/>Si autem forma non potest esse nisi in materia, ergo de se ipsa 
+      <lb ed="#L" n="60"/>non est necesse esse, quia omne quod est de se necesse esse, 
+      po<lb ed="#L" n="61" break="no"/>test esse excluso quocunque alio. Si autem ipsa non est de se 
+      <lb ed="#L" n="62"/>necesse esse, nec compositum. Idem potest probari ex parte 
+      <lb ed="#L" n="63"/>materiae: &amp; sic patet minor: sequitur ergo conclusio. 
+      </p>
+            <p xml:id="jsnvu6-d1e585-d1e259">
+               <lb ed="#L" n="64"/>
+               <!--6--> SECVNDVM principale: patet, scilicet quod 
+      Deu<lb ed="#L" n="65" break="no"/>non est alij componibilis, nec aliquid sibi. Cum enim Deus sit 
+      <lb ed="#L" n="66"/>substantia actu ens, si est alteri componibilis, vel aliud sibi 
+      ta<lb ed="#L" n="67" break="no"/>lis compositio est subiecti &amp; accidentis: sed probo quod 
+      ho<lb ed="#L" n="68" break="no"/>non fit possibile, quia omne accidens habet causam 
+      efficien<lb ed="#L" n="69" break="no"/>tem cum de se non sit necesse esse, eo quod non potest sine 
+      a<lb ed="#L" n="70" break="no"/>lio esse: ergo accidens quod esset in Deo aut esset tantum 
+      ef<lb ed="#L" n="71" break="no"/>fectiue ab eo vel ab alio, non ab alio: quia tale accidens 
+      opor<lb ed="#L" n="72" break="no"/>tet quod dicat perfectionem simpliciter: alias non esset in 
+      <lb ed="#L" n="73"/>Deo, sed Deus cum sit perfectissimus &amp; primum perfectum. 
+      <lb ed="#L" n="74"/>haeo ex se quicquid perfectionis est &amp; non ab alio: ergo tale 
+      <lb ed="#L" n="75"/>accidens non esset effectiue in Deo ab alio, nec ab ipso, quia 
+      <lb ed="#L" n="76"/>idem simplex, &amp; secundum idem, &amp; respectu eiusdem non 
+      po<lb ed="#L" n="77" break="no"/>test esse in actu, &amp; in potentia, sed Deus per essentiam suam 
+      <lb ed="#L" n="78"/>simplicem respectu talis accidentis potest esse agens, &amp; in acti 
+      <lb ed="#L" n="79"/>vt tu dicis. ideo respectu eius non potest esse in potentia &amp; 
+      <lb ed="#L" n="80"/>subiectum: ergo nullum accidens est ei componibile. Et 
+      con<lb ed="#L" n="81" break="no"/>firmatur quia quod est simpliciter &amp; omniquanque perfectij 
+      <!--00128.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>non recipit additionem perfectionis, se d Deus est summe 
+      per<lb ed="#L" n="83" break="no"/>fectus: ergo non recipit additionem cuiuscunque perfectio 
+      <lb ed="#L" n="84"/>nis accidentalis. 
+</p>
+            <p xml:id="jsnvu6-d1e585-d1e314">
+               <lb ed="#L" n="85"/>AD PRIMVM argumentum dicendm qg quicquis 
+      <lb ed="#L" n="86"/>bonitatis est in creaturis, totum est Deo attribuendum. Et cum 
+      <lb ed="#L" n="87"/>dicitur quod composita sunt meliora simplicibus, dico quod 
+      <lb ed="#L" n="88"/>non in eo quod composita, immo in hoc sunt minoris 
+      perfe<lb ed="#L" n="89" break="no"/>ctionis &amp; maioris dependentiae, vt declaratum est in corpori 
+      <lb ed="#L" n="90"/>quaestionis, vnde si ea quae sunt in composito, essent in eo 
+      mo<lb ed="#L" n="91" break="no"/>do vnico &amp; simplici, perfectius esse haberent: &amp; sic est in Deo 
+      <lb ed="#L" n="92"/>habet enim omnes perfectiones compositorum sicut esse 
+      sub<lb ed="#L" n="93" break="no"/>sistens quod non habet materiam neque formam. 
+    </p>
+            <p xml:id="jsnvu6-d1e585-d1e336">
+               <lb ed="#L" n="94"/>S AD SECVNDVM dicendum que realis pluralitas 
+      ab<lb ed="#L" n="95" break="no"/>solutorum in eodem facit realem compositionem, &amp; talis 
+      plura<lb ed="#L" n="96" break="no"/>litas realis non est, in Deo, sed realis pluralitas relationu inte 
+      <lb ed="#L" n="97"/>se vel cum absoluto nullam facit compositionem; sicut 
+      infe<lb ed="#L" n="98" break="no"/>rius declarabitur, talis autem solum est in Deo, &amp; non illa qua 
+      <lb ed="#L" n="99"/>est absolutorum, propter quod in ipso nulla est compositio. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

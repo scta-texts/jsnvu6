@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="233-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e191519"><!-- l3d31q5 -->
+            <head xml:id="jsnvu6-e191519-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e191519-Hd1e103" type="question-title">
+      Utrum imperfectio sit de essentia 
+      actus fidei
+    </head>
+            <p xml:id="jsnvu6-e191519-d1e106">
+               <lb ed="#L" n="59"/>QVARSTIO. QVINTA. 
+      <lb ed="#L" n="60"/>Vtrum imperfectio sit de essentia 
+      <lb ed="#L" n="61"/>actus fidei. 
+    </p>
+            <p xml:id="jsnvu6-e191519-d1e115">
+               <lb ed="#L" n="62"/>CCASIONB eius quod statim supradictum 
+      <lb ed="#L" n="63"/>est, quaeritur vtrum imperfectio sit de 
+      essenti<lb ed="#L" n="64" break="no"/>actus fidei. Et arguitur quod sic, quia aenigma in 
+      <lb ed="#L" n="65"/>cognitione videtur importare imperfectionem 
+      <lb ed="#L" n="66"/>cognitionis, sed aenigma est de ratuone actus 
+      fi<lb ed="#L" n="67" break="no"/>dei secundum illud. I. ad Corin. 13. videmus nunc per speculum 
+      <lb ed="#L" n="68"/>&amp; in aenigmate, ergo imperfectio est de ratione eius. 
+      </p>
+            <p xml:id="jsnvu6-e191519-d1e133">
+               <lb ed="#L" n="69"/>
+               <!--2.--> Item motus est actus imperfectus &amp; imperfecti, sed 
+      crede<lb ed="#L" n="70" break="no"/>re comparatur motui ab Apostolo dicente per fidem 
+      ambu<lb ed="#L" n="71" break="no"/>lamus, ergo est essentialiter actus imperfectus. 
+      </p>
+            <p xml:id="jsnvu6-e191519-d1e145">
+               <lb ed="#L" n="72"/>
+               <!--3--> IN CONTRARIVM arguitur, quia sicut aenigma 
+      <lb ed="#L" n="73"/>quod attribuitur fidei, sonat imperfectionem, sic esse ex parte 
+      <lb ed="#L" n="74"/>quod attribuitur scientiae ab Apostolo. I. ad Cor. 13. sonat imper 
+      <lb ed="#L" n="75"/>fectionem, sed imperfectio non est de ratione actus scientiae 
+      se<lb ed="#L" n="76" break="no"/>cundum doctores ergo similiter non est de ratione actus fidei. 
+      </p>
+            <p xml:id="jsnvu6-e191519-d1e161">
+               <lb ed="#L" n="77"/>
+               <!--4--> RESPONSIO. Nomen imperfectionis importat dese 
+      <lb ed="#L" n="78"/>ctum perfectionis vel gradum minoris perfectionis, &amp; magis 
+      <lb ed="#L" n="79"/>proprie importat defectum perfectionis, quia sicut perfectum est 
+      <!--00539.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>cui nihil deest, sic imperfectum dicitur cui aliquid deest. Et sic 
+      <lb ed="#L" n="81"/>imperfectio dicit formaliter defectum, vel priuationem 
+      perfe<lb ed="#L" n="82" break="no"/>ctionis vel simpliciter, vel secundum aliquem gradum, sed siue 
+      si<lb ed="#L" n="83" break="no"/>siue alio modo accipiatur imperfectio, dicendum est quod si 
+      acci<lb ed="#L" n="84" break="no"/>piatur pro defectu vel priuatione perfectionis simpliciter ve 
+      <lb ed="#L" n="85"/>secundum gradum, sic imperfectio non est de essentia credendi 
+      <lb ed="#L" n="86"/>nec alicuius alterius actus. Cuius ratio est, quia nulla priuatio 
+      <lb ed="#L" n="87"/>potest esse de essentia alicuius positiui, quia omne positiuum 
+      <lb ed="#L" n="88"/>constituitur intrinsece &amp; essenti aliter ex solis positiuis, quum igi 
+      <lb ed="#L" n="89"/>tur actus credendi, &amp; omnis alius actus sit aliquid positiuum, 
+      <lb ed="#L" n="90"/>impossibile est quod imperfectio prout dicit priuationem sit 
+      intrin<lb ed="#L" n="91" break="no"/>sece de essentia actus fidei, vel cuiuscumque alterius: potest tamen 
+      <lb ed="#L" n="92"/>esse conditio concomitans, quia minor perfectio deficit a maiori 
+      <lb ed="#L" n="93"/>perfectione: &amp; sic imperfectio concomitatur semper &amp; 
+      insepa<lb ed="#L" n="94" break="no"/>rabiliter actum fidei, qui est praecise &amp; totaliter a fide. Deficit 
+      <lb ed="#L" n="95"/>enim a perfectione actus scientiae &amp; visionis, quia actus visionis 
+      <lb ed="#L" n="96"/>tendit in rem sibi actualiter secundum se praesentem, actus 
+      ve<lb ed="#L" n="97" break="no"/>ro scientiae tendit in obiectum praesentatum per medium certum &amp; 
+      <lb ed="#L" n="98"/>euidens, de cuius certitudine constat ipsi scienti: ab vtroque 
+      au<lb ed="#L" n="99" break="no"/>tem istorum deficit actus fidei, cui non est praesens obiectum, 
+      <lb ed="#L" n="100"/>nisi per auctoritate dicentis, de cuius veritate non constat 
+      eui<lb ed="#L" n="101" break="no"/>denter credenti, &amp; sic talis imperfectio semper concomitatur 
+      <lb ed="#L" n="102"/>actum qui est solius fidei, dico autem solius fidei, quia medium 
+      <lb ed="#L" n="103"/>cui fides innititur potest concurrere cum medio faciente scire, 
+      <lb ed="#L" n="104"/>vel cum praesentia obiecti, &amp; tunc causatur vnus actus ex 
+      tri<lb ed="#L" n="105" break="no"/>bus medus simul concurrentibus, qui actus non habet illam 
+      im<lb ed="#L" n="106" break="no"/>perfectionem quam habet actus, qui est ex sola fide: &amp; hoc 
+      suffi<lb ed="#L" n="107" break="no"/>cienter declaratum fuit in principio primi libri.
+</p>
+            <p xml:id="jsnvu6-e191519-d1e237">
+               <lb ed="#L" n="108"/>Si autem imperfectio dicat gradum minoris perfectionis 
+      <lb ed="#L" n="109"/>sic imperfectio est de essentia omnis illius actus in quo 
+      repe<lb ed="#L" n="110" break="no"/>ritur, quia magis &amp; minus perfectum attenduntur secundum 
+      <lb ed="#L" n="111"/>ipsam essentiam formae, siue in eadem specie siue in diuersis spe¬ q 
+      <lb ed="#L" n="112"/>ciebus, vt probatum fuit in I. lib. dist. 17. &amp; ideo tam in actu fidei 
+      <lb ed="#L" n="113"/>qui est imperfectus respectu actus scientiae, quam in actu scientiae, 
+      <lb ed="#L" n="114"/>qui est imperfectus respectu visionis beatae, imperfectio est de 
+      <lb ed="#L" n="115"/>essentia vtriusque, nec potest tolli, talis imperfectio, quin tolla 
+      <lb ed="#L" n="116"/>tur essentia actus, sed differenter, quia si perfectio &amp; 
+      imperfe<lb ed="#L" n="117" break="no"/>ctio sunt in eadem specie, sicut magis, &amp; minus album, si aliquid. 
+      <lb ed="#L" n="118"/>fiat de minus albo magis album, non dicitur tolli albedo, sed 
+      <lb ed="#L" n="119"/>perfici, quia species albedinis manet, &amp; eadem albedo sed 
+      per<lb ed="#L" n="120" break="no"/>fici, quia species albedinis manet, &amp; eadem albedo secundum 
+      <lb ed="#L" n="121"/>numerum non identitate indiuisibilitatis, sed continuitatis si 
+      <lb ed="#L" n="122"/>motus intensionis albedinis fuit continuus, &amp; tamen 
+      secun<lb ed="#L" n="123" break="no"/>dum veritatem illa pars albedinis, quae fuit imperfecta defiit 
+      <lb ed="#L" n="124"/>esse, sicut eius imperfectio, quum sint penitus idem, vt probatum 
+      <lb ed="#L" n="125"/>fuit lib. primo, dist. 17. Et hoc modo charitas &amp; actus eius 
+      dici<lb ed="#L" n="126" break="no"/>tur perfici in patria, &amp; non euacuari, quia manebit eadem specie, 
+      <lb ed="#L" n="127"/>&amp; actus eius similiter, sed perfectior, non tamen erit idem actus 
+      <lb ed="#L" n="128"/>numero in patria, qui fuit in via, nec idem habitus numero, 
+      <lb ed="#L" n="129"/>qui fuit in via si efficiatur intensior in patria: idem dico de 
+      iden<lb ed="#L" n="130" break="no"/>titate indiuisibilitatis: &amp; quod dictum est de charitate, 
+      intelli<lb ed="#L" n="131" break="no"/>gendum est de scientia hic acquisita &amp; actu eius quantum ad 
+      <lb ed="#L" n="132"/>essentiam habitus &amp; actus, sed quantum ad modum 
+      extrinse<lb ed="#L" n="133" break="no"/>cum euacuabitur quod anima saltem separata non intelliget 
+      <lb ed="#L" n="134"/>per conuersionem ad fantasmata sicut modo, &amp; ideo dicitur 
+      <lb ed="#L" n="135"/>destrui quantum ad talem modum, &amp; non quantum ad 
+      habi<lb ed="#L" n="136" break="no"/>tum vel actum, sicut exponunt doctores. 
+      </p>
+            <p xml:id="jsnvu6-e191519-d1e302">
+               <lb ed="#L" n="137"/>
+               <!--6.--> Quando autem perfectio &amp; imperfectio sunt diuersarum 
+      <lb ed="#L" n="138"/>specierum, nec stant simul, tunc adueniente perfectione cessat 
+      <lb ed="#L" n="139"/>imperfectio, &amp; euacuatur totaliter, &amp; sic erit de actu fidei &amp; 
+      <lb ed="#L" n="140"/>visionis, quia non sunt eiusdem rationis, nec actus fidei stabit 
+      <lb ed="#L" n="141"/>in patria cum visione, non propter oppositionem quam 
+      ha<lb ed="#L" n="142" break="no"/>beant ad inuicem, sed quia medium fidei non stabit in patria 
+      <lb ed="#L" n="143"/>sub ratione medij propter causam superius assignatam: patet 
+      <lb ed="#L" n="144"/>ergo quod impertectio qualitercunque accipiatur, siue 
+      priua<lb ed="#L" n="145" break="no"/>tiue siue affirmatiue aequaliter est vel non est de essentia actus 
+      <lb ed="#L" n="146"/>fidei, &amp;t cuiuscunque alterius actus. 
+      </p>
+            <p xml:id="jsnvu6-e191519-d1e328">
+               <lb ed="#L" n="147"/>
+               <!--7--> AD PRIMVM argumentum dicendum quod enigma po 
+      <lb ed="#L" n="148"/>test importare imperfectionem cognitionis priuatiuae, &amp; sic non 
+      <lb ed="#L" n="149"/>est de intrinseca ratione actus fidei, sed est concomitans 
+      condi<lb ed="#L" n="150" break="no"/>tio. Alio modo potest importare gradum minoris perfectionis, 
+      <lb ed="#L" n="151"/>&amp; sic est de essentia actus fidei. Per idem patet ad secundum, so 
+      <lb ed="#L" n="152"/>lum enim probat quod imperfectio prout dicit gradum 
+      mino<lb ed="#L" n="153" break="no"/>ris perfectionis, est de essentia actus fidei, sicut de essentia 
+      mo<lb ed="#L" n="154" break="no"/>tus, &amp; non prout dicit priuationem: quaedam etiam imperfectio est 
+      <lb ed="#L" n="155"/>de essentia mot?, quae non est, de essentia actus fidei quia motu 
+      <lb ed="#L" n="156"/>est actus successiuus, &amp; semper restat de eo aliqua pars acquiri 
+      <lb ed="#L" n="157"/>da. Actus fidei est totius simul, &amp; tamen comparatur 
+      ambulatio<lb ed="#L" n="158" break="no"/>ni, quia solum competit viatoribus, &amp; non comprehensoribus. 
+      </p>
+            <p xml:id="jsnvu6-e191519-d1e359">
+               <lb ed="#L" n="159"/>
+               <!--8--> Ad argumentum alterius partis dicendum quod perfectio 
+      <lb ed="#L" n="160"/>&amp; imperfectio consimiliter se habent ad actum scientiae, sicut 
+      <lb ed="#L" n="161"/>ad actum fidei, quantum ad hoc quod sint intrinsece de essen¬ 
+      <!--00540.xml-->
+      <pb ed="#L" n="233-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tia actuum, vel non, quamuis imperfectio seu minor perfectio 
+      <lb ed="#L" n="2"/>sit in actu fidei quam scientiae: de spe autem an remaneat in 
+      pa<lb ed="#L" n="3" break="no"/>tria quantum ab habitum vel actum dictum fuit supra di. 26. &amp; 
+      <lb ed="#L" n="4"/>ideo non oportet hic replicare. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

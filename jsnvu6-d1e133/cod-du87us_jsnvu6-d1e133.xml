@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="7-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e133"><!-- l1prolq5 -->
+            <head xml:id="jsnvu6-d1e133-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-d1e133-Hd1e103" type="question-title">Quid sit subiectum in theologia, utrum Deus an aliud</head>
+            <p xml:id="jsnvu6-d1e133-d1e106">
+               <lb ed="#L" n="23"/>VAISTIO QVINTA. 
+      <lb ed="#L" n="24"/>De subiecto Theologiae. 
+      <lb ed="#L" n="25"/>Tb. 1. p. q.1. artic. 7. Capr. q. 4. Prologi. 
+      <lb ed="#L" n="26"/>EEIONSEQVENTER quaeritur de 
+      pertinenti<lb ed="#L" n="27" break="no"/>bus ad materiam, seu ad subiectum Theologiae. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e119">
+               <lb ed="#L" n="28"/>
+               <!--1--> Et quaeritur, quid sit subiectum in Theologia 
+      <lb ed="#L" n="29"/>vtrum Deus, an aliquid aliud. Et arguitur, quod 
+      <lb ed="#L" n="30"/>Deus non fit subiectum: quia omnis scientia deber 
+      <lb ed="#L" n="31"/>habere subiectum, de quo probetur, quod ei insint aliquae passiones 
+      <lb ed="#L" n="32"/>sed Deus non est huiusmodi: ergo non est subiectum Theologiae 
+      <lb ed="#L" n="33"/>nec alicuius scientiae. Maior patet ex primo Posteriorum, vb 
+      <lb ed="#L" n="34"/>dicitur, quod omnis scientia est vnius generis, subiecti partes &amp; 
+      <lb ed="#L" n="35"/>passiones considerans. Minor videtur manifesta: quia Deus nul 
+      <lb ed="#L" n="36"/>las habet passiones, cum nulla habeat accidentia. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e143">
+               <lb ed="#L" n="37"/>
+               <!--2--> Item h Deus esset subiectum in Theologia, aut hoc esset sub 
+      <lb ed="#L" n="38"/>ratione absoluta, vel sub aliqua alia ratione determinata. Non 
+      <lb ed="#L" n="39"/>sub ratione absoluta: quia nihil infinitum, sub ratione infinita, 
+      <lb ed="#L" n="40"/>potest esse subiectum scieutiae finitae: quia scientia sortitur 
+      ration<lb ed="#L" n="41" break="no"/>ab obiecto. Sed Deus sub ratione absoluta est infinitus, &amp; sub 
+      <lb ed="#L" n="42"/>ratione infinitatis acceptus. Ergo vt sic non potest esse subiectum 
+      <lb ed="#L" n="43"/>vel obiectum Theologiae nostrae, quae finitatem habet. Nec sub 
+      ali<lb ed="#L" n="44" break="no"/>determinata ratione: quia ad subiectum, sub ratione formali sub 
+      <lb ed="#L" n="45"/>necti attributionem habent omnia, de quibus determinatur in 
+      sci<lb ed="#L" n="46" break="no"/>tia. Sed multa determinatur in Theologia. quae nullam attribu 
+      <lb ed="#L" n="47"/>tionem habent ad Deum sub aliqua vna speciali ratione. Ergo, &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e173">
+               <lb ed="#L" n="48"/>
+               <!--3--> Item si Theologia esset de Deo, aut procederet per causam 
+      <lb ed="#L" n="49"/>&amp; a priori, aut per effectum &amp; a posteriori. Sed Theologia nul 
+      <lb ed="#L" n="50"/>lo istorum modorum potest procedere ad probandum aliqua 
+      <lb ed="#L" n="51"/>de Deo. Ergo Deus non est subiectum in ea. Maior videtur de 
+      <lb ed="#L" n="52"/>se manifesta. Mihor probatur: quia Deum esse trinum? non 
+      <lb ed="#L" n="53"/>habet causam: nec per aliquem effectum potest concludi de 
+      <lb ed="#L" n="54"/>Deo, quod sit trinus. Ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e193">
+               <lb ed="#L" n="55"/>
+               <!--4--> IN CONTRARIVM arguitur: illud est subiectum in 
+      <lb ed="#L" n="56"/>Theologia nostra, quod est subiectum in Theologia Sanctorum 
+      <lb ed="#L" n="57"/>quia scientia nostra, &amp; Beatorum, non videntur differre ex 
+      part<lb ed="#L" n="58" break="no"/>obiecti, sed modi cognoscendi, vt innuit Apostolus I. ad Corin 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e206">
+               <lb ed="#L" n="59"/>
+               <!--13.--> Videmus nunc per speculum in aenigmate: tunc autem facie 
+      <lb ed="#L" n="60"/>ad faciem: nunc cognosco ex parte: tunc cognoscam sicut &amp; co 
+      <lb ed="#L" n="61"/>gnitus sum. Sed in scientia Beatorum subiectum vel obiectum 
+      <lb ed="#L" n="62"/>est Deus, &amp; sub ratione absoluta. Ergo &amp; in nostra. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e219">
+               <lb ed="#L" n="63"/>
+               <!--5--> Item, aut Theologia est de Deo, vt de subiecto, aut de 
+      crea<lb ed="#L" n="64" break="no"/>tura, aut de ente communi vtrique. Non potest dici, quod sit 
+      <lb ed="#L" n="65"/>de creatura, vt de subiecto, quia tuc non consideraret de Deo, 
+      <lb ed="#L" n="66"/>nisi quantum ad causalitatem creaturae: quod videtur esse 
+      fal<lb ed="#L" n="67" break="no"/>sum. Nec est de ente communi Deo &amp; creaturae: quia tunc non 
+      <lb ed="#L" n="68"/>consideraret in speciali de Deo &amp; creatura, sed solum 
+      inquan<lb ed="#L" n="69" break="no"/>tum sunt entia: quod iterum est falsum. Relinquitur ergo, quod 
+      <lb ed="#L" n="70"/>ipsa sit de Deo vt de subiecto. Ad idem est quia ipsa 
+      denomi<lb ed="#L" n="71" break="no"/>natur ex hoc Theologia, quasi sermo de Deo. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e243">
+               <lb ed="#L" n="72"/>
+               <!--6--> RESPONSIO: Theologia tripliciter accipitur, sicut 
+      <lb ed="#L" n="73"/>in prima quaestione expositum est: ideo quaestio ista tripliciter 
+      <lb ed="#L" n="74"/>dedocetur, secundum triplicem acceptionem Theologiae. Prius tamen 
+      <lb ed="#L" n="75"/>praemittetur, quid sit esse subiectum in scientia, &amp; quae sunt de ra 
+      <lb ed="#L" n="76"/>tione subiecti. Est ergo sciendum, quod nunc non quaeritur de 
+      sub<lb ed="#L" n="77" break="no"/>iecto, in quo est scientia. Sic enim omnium scientiarum est vnum 
+      sub<lb ed="#L" n="78" break="no"/>jectum scilicet intellectus. Sed intendimus de subiecto scientiae 
+      <lb ed="#L" n="79"/>de quo est scientia. Et tale subiectum oportet habere tres 
+      conditio<lb ed="#L" n="80" break="no"/>nes. Prima est, quod sit aliquid incomplexum, scilicet terminus, &amp; 
+      <lb ed="#L" n="81"/>non propositio. Secunda est, quod si primo &amp; principaliter in scien 
+      <!--00078.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>tia consideratum, &amp; quod omnia alia habeant attributionem ad ipsum 
+      <lb ed="#L" n="83"/>Tertia est; quod aliqua possint praedicari de ipso denominatiue. 
+      <lb ed="#L" n="84"/>Ratio primae conditionis est: quia illud est subiectum scientiae, 
+      <lb ed="#L" n="85"/>quod est subiectum conclusionis demonstratae, sed subiectum 
+      conclu<lb ed="#L" n="86" break="no"/>sionis demonstratae est terminus incomplexus, &amp; non propositio. 
+      <lb ed="#L" n="87"/>Ergo &amp;c. Minor patet: sed maior probatur: quia scientia est 
+      ha<lb ed="#L" n="88" break="no"/>bitus conclusionis demonstratae: &amp; ideo illud est subiectum, de quo 
+      <lb ed="#L" n="89"/>est scientia, &amp; de quo ost aliquid demonstratum in conclusione scita. 
+      <lb ed="#L" n="90"/>Demonstratur autem praedicatum de subiecto, &amp; non econuerso. 
+      Er<lb ed="#L" n="91" break="no"/>go subiectum conclusionis scitae, est subiectum scientiae. Propter 
+      <lb ed="#L" n="92"/>quod magis proprie est subiectum, quam obiectum: non quidem 
+      sub<lb ed="#L" n="93" break="no"/>iectum in quo, sed de quo. Obiectum enim proprie sumptum, est 
+      <lb ed="#L" n="94"/>illud, quod primo &amp; principaliter cognoscitur. Quod autem 
+      pri<lb ed="#L" n="95" break="no"/>mo, &amp; principaliter cognoscitur scientifice, est conclusio 
+      de<lb ed="#L" n="96" break="no"/>monstrata, quae continet subiectum &amp; passionem. Et ideo 
+      conclu<lb ed="#L" n="97" break="no"/>sio demonstrata, proprie dicitur obiectum scientiae: sed subiectum 
+      <lb ed="#L" n="98"/>conclusionis demonstratae, est subiectum scientiae proprie dictum, 
+      <lb ed="#L" n="99"/>de quo alia sciuntur: quia de ipso alia demonstrantur. Vnde 
+      secum<lb ed="#L" n="100" break="no"/>dum hoc illa comparatio, qua dicitur, quod sicut se habet obiectum 
+      <lb ed="#L" n="101"/>ad potentiam, ita subiectum ad scientiam, non est vera secundum 
+      <lb ed="#L" n="102"/>omnem sensum. Obiectum enim potentiae est illud, quod primo, &amp; 
+      <lb ed="#L" n="103"/>directe cognoscitur: sed subiectum scientiae non est illud, quod pri 
+      <lb ed="#L" n="104"/>mo &amp; directe scitur: sed est illud de quo passiones demonstrata 
+      <lb ed="#L" n="105"/>sciuntur. Veruntamen in hoc potest esse vera comparatio, quod 
+      si<lb ed="#L" n="106" break="no"/>cut omnia, quae cognoscuntur ab aliqua potentia, habent 
+      attri<lb ed="#L" n="107" break="no"/>butionem aliquam ad principale obiectum, sic illa omnia quae 
+      de<lb ed="#L" n="108" break="no"/>terminantur in scientia, habent attributionem ad subiectum. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e332">
+               <lb ed="#L" n="109"/>
+               <!--7--> Et haec est secunda conditio subiecti in aliqua scientia. Cuiu 
+      <lb ed="#L" n="110"/>ratio est, quia vnitas scientiae est a subiecto, sicut dicitur primo 
+      <lb ed="#L" n="111"/>Posteriorum, quod scientia vna est, vnius generis subiecti partes &amp; 
+      <lb ed="#L" n="112"/>passiones considerans: sed non esset vna a subiecto, nisi subiectum 
+      <lb ed="#L" n="113"/>primo &amp; principaliter consideraretur &amp; alia per comparationem ad 
+      <lb ed="#L" n="114"/>ipsum. Si enim subiectum non consideraretur principalius, quam 
+      <lb ed="#L" n="115"/>alia, non magis attenderetur vnitas scientiae secundum subiectum, 
+      <lb ed="#L" n="116"/>quam secundum alia. Rursus si aliqua non haberent attributione 
+      <lb ed="#L" n="117"/>ad subiectum, scientia non esset vna: quia diuersa consideraret, 
+      <lb ed="#L" n="118"/>&amp; quidem vt diuersa, &amp; non vt aliquo modo vnum. Ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e359">
+               <lb ed="#L" n="119"/>
+               <!--8--> Ratio tertij est, quia omnis scientia probat de subiecto 
+      ali<lb ed="#L" n="120" break="no"/>quas passiones vel aliqua per modum passionum: sed passio, vel 
+      <lb ed="#L" n="121"/>quodcunque acceptum per modum passionum, praedicatur de subiecto 
+      <lb ed="#L" n="122"/>denominatiue: ergo oportet quod de subiecto scientiae possint 
+      ali<lb ed="#L" n="123" break="no"/>qua praedicari non solum essentialiter, sed etiam denominatiue 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e375">
+               <lb ed="#L" n="124"/>
+               <!--9--> Hoc supposito, inquirendum est de principali proposito, scili 
+      <lb ed="#L" n="125"/>cet quid sit subiectum in Theologia. Et primo secundum primam ac 
+      <lb ed="#L" n="126"/>ceptionem, videlicet prout dicit habitum, quo assentimur his, qu 
+      <lb ed="#L" n="127"/>in sacra scriptura traduntur, &amp; prout in ea traduntur. Et dicendum 
+      <lb ed="#L" n="128"/>quod subiectum in Theologia sic accepta est actus meritorius, ve 
+      <lb ed="#L" n="129"/>actus salutaris, seu ordinabilis ad beatitudinem. Quod patet 
+      dua<lb ed="#L" n="130" break="no"/>bus rationibus, &amp; quibusdam autoritatibus tam sacrae scripturae, 
+      <lb ed="#L" n="131"/>quam Sactorum. Prima ratio talis est illud est subiectum in 
+      quacu<lb ed="#L" n="132" break="no"/>que doctrina, cuius cognitio est finis proxims in ea: sed in sacra 
+      <lb ed="#L" n="133"/>scriptura cognitio actus humani meritorij, vel ordinabilis in 
+      <lb ed="#L" n="134"/>beatitudinem, est finis proximus. Ergo &amp;c. Maior patet. In omni 
+      <lb ed="#L" n="135"/>enim doctrina cognitio subiecti secundum se, &amp; secundum ea, quae 
+      <lb ed="#L" n="136"/>ei attribuuntur, quaeritur tanquam finis proximus. Et dico, 
+      proxi<lb ed="#L" n="137" break="no"/>mus, quia in scientia speculatiua perfecta cognitio subiecti, est 
+      <lb ed="#L" n="138"/>finis proxims, &amp; finis simpliciter, quia ad nihil aliud ordinatur, 
+      <lb ed="#L" n="139"/>inquantum huiusmodi. Sed in scientia practica, licet cognitio 
+      sub<lb ed="#L" n="140" break="no"/>iecti sit finis proxims, non tamen est finis simpliciter: qa ordinatur 
+      <lb ed="#L" n="141"/>ad aliquid aliud, vltra scilicet ad exteriorem operationem. Et sic pa 
+      <lb ed="#L" n="142"/>tet maior: minor sic: Scribitur 2. ad Ti. 3. Ois scriptura diuinitus 
+      <lb ed="#L" n="143"/>inspirata, est vtilis ad docendum ad arguendum ad corrigendum ad 
+      <lb ed="#L" n="144"/>erudiendum in iustitia. &amp; sequitur quis sit finis: Vt perfects sit homo 
+      <lb ed="#L" n="145"/>Dei, ad omne opus bonum instructus. Ecce quod instructio de bono 
+      <lb ed="#L" n="146"/>opere, quod est actus imeritoris vitae aeternae, est finis, saltem 
+      pro<lb ed="#L" n="147" break="no"/>ximus, sacrae scripturae. Et haec fuit minor: sequitur ergo conclusio. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e432">
+               <lb ed="#L" n="148"/>
+               <!--10--> Secunda ratio tans est: illud est subiectum in aliqua doctrina 
+      <lb ed="#L" n="149"/>quod est primum, &amp; principaliter consideratum in ea, &amp; ad quod 
+      <lb ed="#L" n="150"/>attributionem habent omnia, de quibus determinatur in ea: sed 
+      <lb ed="#L" n="151"/>actus humanus meritorius primo &amp; principaliter consideratur 
+      <lb ed="#L" n="152"/>in sacra scriptura, &amp; ad eum habent attributionem omnia, quae 
+      de<lb ed="#L" n="153" break="no"/>terminantur in ea: ergo actus meritorius est subiectum. Maior 
+      <lb ed="#L" n="154"/>patet ex secunda conditione subiecti prius posita. Sed minor 
+      pro<lb ed="#L" n="155" break="no"/>batur: quia quae in tota sacra scriptura ajprincipio Gen vsque ad 
+      <lb ed="#L" n="156"/>finem Apocalypsis habentur, (praeter ea, quae proponuntur nobis 
+      <lb ed="#L" n="157"/>credenda de Deo in se, vel de Deo incarnato) omnia illa habeni 
+      <lb ed="#L" n="158"/>claram attributionem ad opus meritorium. Sunt enim vel praecepta 
+      <lb ed="#L" n="159"/>bene operandi, quae traduntur nobis per Decalogum, quantum ad 
+      <lb ed="#L" n="160"/>praecepta Iuris naturalis, &amp; in aliis locis scripturae, quantum ad 
+      <lb ed="#L" n="161"/>alia praecepta: vel exempla bonae operationis, quae traduntur 
+      <lb ed="#L" n="162"/>in libris historialibus: vel monita salutaria, quae traduntur in 
+      <lb ed="#L" n="163"/>libris Salomonis: vel praemia, &amp; poenae, quae proponuntur 
+      <!--00079.xml-->
+      <pb ed="#L" n="8-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>bene &amp; male operatibus vt patet in Prophetis. Et idem est in 
+      <lb ed="#L" n="2"/>Nouo Testamento. Haec autem, vt de se patet, attributionem 
+      ha<lb ed="#L" n="3" break="no"/>bent clara ad opus meritorium. Quae autem proponuntur nobis 
+      <lb ed="#L" n="4"/>credenda de Deo in se, vel de filio incarnato, vt nobis 
+      proponun<lb ed="#L" n="5" break="no"/>tur per sacra scripturam, attributionem habent ad opus meritorium. 
+      <lb ed="#L" n="6"/>Illa enim, quae sacra scriptura proponit nobis credenda de Deo, 
+      <lb ed="#L" n="7"/>non proponit nobis principaliter propter cognitionem, quam 
+      habe<lb ed="#L" n="8" break="no"/>mus de eis per fidem, cum illa sit ineuidetissima, &amp; quantum est ex 
+      <lb ed="#L" n="9"/>parte nostra, possint esse non verorum: sed proponuntur nobis 
+      ta<lb ed="#L" n="10" break="no"/>lia, ad eredendum: tum quia ipse actus credendi, cum debitis circunstam 
+      <lb ed="#L" n="11"/>tiis, est opus meritorium, ita quod non solum proponuntur nobis 
+      <lb ed="#L" n="12"/>talia vt credantur, sed etiam ipsum credere proponitur nobis, vt 
+      <lb ed="#L" n="13"/>actus meritorius vitae aeternae, iuxta illud Ioan. 20. Haec autem 
+      <lb ed="#L" n="14"/>scripta sunt, vt credatis, quia Iesus est Christus filius Dei viui, 
+      <lb ed="#L" n="15"/>&amp; vt credentes vitam habeatis in nomine eius. Item proponuntur 
+      <lb ed="#L" n="16"/>nobis vt regula operis meritorij, &amp; vt adiuuantia nos ad bene 
+      <lb ed="#L" n="17"/>operandum: Et hoc est satis clarum, quantum ad articulos, qui sunt 
+      <lb ed="#L" n="18"/>de Christo incarnato. Oens enim ad hoc tendunt, vt 
+      cognosca<lb ed="#L" n="19" break="no"/>mus, quod merito Christi incarnati passi, &amp; sic de aliis, restituti 
+      <lb ed="#L" n="20"/>sumus ad statum merendi. Iuxta quod scriptum est Gal. 4. At vbi ve 
+      <lb ed="#L" n="21"/>nit plenitudo temporis, misit Deus filium suum ex muliere, 
+      fa<lb ed="#L" n="22" break="no"/>ctum sub lege, vt eos, qui sub lege erant, redimeret, &amp; vt 
+      ado<lb ed="#L" n="23" break="no"/>ptionem filiorum reciperomus. Et cum hoc ipsa incarnatio &amp; pas 
+      <lb ed="#L" n="24"/>sio exempla fuerunt operis meritorij illa quidem humilitatis 
+      <lb ed="#L" n="25"/>haec autem patientiae &amp; charitatis. Quod inducit Beatus Petrus, 
+      <lb ed="#L" n="26"/>primae Canonicae 2. capit. Christus passus est pro nobis, 
+      relin<lb ed="#L" n="27" break="no"/>quens exemplum, vt sequamur vestigia eius. Et rursus 4. ca. 
+      Chri<lb ed="#L" n="28" break="no"/>sto igitur in carne passo, &amp; vos eadem cogitatione armamini. 
+      <lb ed="#L" n="29"/>De solo autem articulo Trinitatis, non est clarum, qualem 
+      attri<lb ed="#L" n="30" break="no"/>butionem habeat ad opus meritorium. Habet tamen: quia non 
+      <lb ed="#L" n="31"/>solum proponitur nobis articulus, vt credatur, (quod ad cogni 
+      <lb ed="#L" n="32"/>tionem attinet) sed proponitur nobis ipsum credere, tanquam 
+      <lb ed="#L" n="33"/>aliquid maxime meritorium, propter maximam difficultatem 
+      <lb ed="#L" n="34"/>obiecti: tum quia articulus necessarius est ad cognoscendum 
+      <lb ed="#L" n="35"/>personam incarnatam, cuius fides directe habet attributionem ad 
+      <lb ed="#L" n="36"/>opus meritorium, vt dictum est: tum quia proponitur non solum 
+      <lb ed="#L" n="37"/>vt credamus, sed vt credamus, quod deueniemus ad clarum 
+      intel<lb ed="#L" n="38" break="no"/>lectum articuli tanquam ad finem &amp; mercedem operis 
+      merito<lb ed="#L" n="39" break="no"/>rij. Finis autem in agibilibus habet rationem principij, cuius est 
+      <lb ed="#L" n="40"/>per se habitudo ad ea, de quibus est doctrina. Patet igitur qo 
+      <lb ed="#L" n="41"/>omnia, de quibus tractatur in sacra scriptura, habent 
+      attributio<lb ed="#L" n="42" break="no"/>nem ad opus meritorium. Et haec fuit minor. Sequitur ergo 
+      con<lb ed="#L" n="43" break="no"/>clusio principalis, scilicet, quod actus meritorius, vel salutaris, seu 
+      <lb ed="#L" n="44"/>ordinabilis in beatitudinem, est subiectum in sacra scriptura. 
+    </p>
+            <p xml:id="jsnvu6-d1e133-d1e573">
+               <lb ed="#L" n="45"/>
+               <!--11--> Ad idem sunt plures autoritates sacrae scripturae, in quibus 
+      <lb ed="#L" n="46"/>ipsa vocatur scientia salutis quia docet opera salutaria, vel 
+      me<lb ed="#L" n="47" break="no"/>ritoria. Iutroducitur enim sacra scriptura, vt loquens de se 
+      ip<lb ed="#L" n="48" break="no"/>sa, Prouer. 8. Qui inueniet me, inueniet vitam: &amp; hauriet sibi sa 
+      <lb ed="#L" n="49"/>lutem a Dno. Et Luc. I. dicitur, Ad danda scientiam salutis ple 
+      <lb ed="#L" n="50"/>bi eius, in remissionem peccatorum. Et iterum Roma. I. 
+      Apo<lb ed="#L" n="51" break="no"/>stolus: Non enim erubesco euangelium: virtus enim Dei in illo 
+      <lb ed="#L" n="52"/>est ad salutem omnium credentium. Et Actuum. 13. dicitur: 
+      No<lb ed="#L" n="53" break="no"/>bis verbum salutis huius missum est. Et in pluribus aliis locis 
+      scri<lb ed="#L" n="54" break="no"/>pturae, inueniuntur quaedam consimilia. Item August. 8. lib. de 
+      <lb ed="#L" n="55"/>Trinitate, ca. 4. dicit sic illa tria, propter quae in animo aedifican 
+      <lb ed="#L" n="56"/>da omnium diuinorum machinamenta consurgunt, sunt fides, 
+      <lb ed="#L" n="57"/>spes, &amp; charitas. Item de laude charitatis sic dicit: Ille tenet, &amp; 
+      <lb ed="#L" n="58"/>quod patet, &amp; quod latet in diuinis codicibus, vel sermonibus 
+      <lb ed="#L" n="59"/>qui charitatem seruat in moribus. Ecce quod dicit, omnes libros 
+      <lb ed="#L" n="60"/>&amp; sermones diuinos, de hoc principaliter esse, quod virtuose 
+      ope<lb ed="#L" n="61" break="no"/>remur per fidem, spem, &amp; charitatem. Hoc est meritorie operari. 
+      <lb ed="#L" n="62"/>propter quod opus meritorium esse videtur illud, de quo princi 
+      <lb ed="#L" n="63"/>paliter tractatur in sacra scriptura. Vnde qui dicunt contrarium, 
+      <lb ed="#L" n="64"/>aut non viderunt sacra scripturam, aut scienter auertunt oculum 
+      <lb ed="#L" n="65"/>„considerationis ab eius contuitu. Omnes enim concedunt, quod pri 
+      <lb ed="#L" n="66"/>cipalis necessitas &amp; vtilitas sacrae scripturae est, quod homo 
+      ordi<lb ed="#L" n="67" break="no"/>netur ad beatitudinem supernaturalem, quae excedit naturalem 
+      cogni<lb ed="#L" n="68" break="no"/>tionem hominis. Propter quod, vt homo ad hunc finem posset 
+      di<lb ed="#L" n="69" break="no"/>rigere actus suos, necesse fuit aliquam doctrinam per 
+      reuelatio<lb ed="#L" n="70" break="no"/>nem haberi, quae traderet cognitionem huius finis &amp; operum, quae 
+      <lb ed="#L" n="71"/>ad ipsum meritorie perducunt. Et haec est sacra scriptura, quae (
+      ex<lb ed="#L" n="72" break="no"/>clusa praedicta causa) nullam necessitatem vel vtilitatem videtur 
+      ha<lb ed="#L" n="73" break="no"/>bere. Propter quod principalis consideratio sacrae scripturae, est 
+      <lb ed="#L" n="74"/>de opere, per quod beatitudo supernaturalis potest acquiri. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e643">
+               <lb ed="#L" n="75"/>
+               <!--12--> Contra haec autem, quae dicta sunt, potest sic obiici: Theologia 
+      <lb ed="#L" n="76"/>praedicto modo accepta, &amp; fides, sunt idem, vt supra probatum fuit: 
+      <lb ed="#L" n="77"/>sed opus meritorium non est obiectum vel subiectu fidei: ergo nec 
+      <lb ed="#L" n="78"/>p. Theologiae praedicto modo acceptae. Minor probatur: quia 
+      ar<lb ed="#L" n="79" break="no"/>ticuli, qui sunt principaliter crediti, non sunt de opere 
+      merito<lb ed="#L" n="80" break="no"/>erio, sed de Deo. Et dicendum est ad hoc, quod fides potest accipi, vel 
+<lb ed="#L" n="81"/>secundum suam totam latitudinem, scilicet prout se extendit ad omnia 
+      <lb ed="#L" n="82"/>quae credita sunt reuelatione diuina: &amp; sic est idem, quod Theolo 
+      <!--00079.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>gia, de qua nunc loquimur: &amp; habet idem subiectum, scilicet opus 
+      <lb ed="#L" n="84"/>meritorium: quia secundum omnes tota causa necessitatis fideim est illa, 
+      <lb ed="#L" n="85"/>quae dicta est de necessitate Theologiae, vel sacrae scripturae. 
+      <lb ed="#L" n="86"/>Et ideo ex illa necessario debet concludi, idem subiectum esse 
+      vtro<lb ed="#L" n="87" break="no"/>bique Vn accipiendo sic fidem, minor est falsa. Alio modo potest 
+      acci<lb ed="#L" n="88" break="no"/>pi fides, secundum quandam arctationem ad illa, quae secundum se 
+      ha<lb ed="#L" n="89" break="no"/>bent excellentiorem dignitatem, &amp; ampliorem difficultatem: &amp; 
+      <lb ed="#L" n="90"/>sic dicitur fides articulorum, quae sic praecise accepta, est de Deo: 
+      <lb ed="#L" n="91"/>quia omnes vel principaliores articuli sunt, Deum esse trinu, 
+      incar<lb ed="#L" n="92" break="no"/>natum, passum, &amp; huiusmodi. Et de fide sic arctata procedit 
+      pro<lb ed="#L" n="93" break="no"/>batio minoris. Et licet fides sic praecise accepta, non sit de opere 
+      <lb ed="#L" n="94"/>nostro meritorio, vt de subiecto, sed de Deo sub ratione 
+      Sal<lb ed="#L" n="95" break="no"/>uatoris (vt postea dicetur) tamen omnes articuli, qui sunt de Deo, 
+      <lb ed="#L" n="96"/>sub praedicta ratione attributionem habent ad opus salutare, seu 
+      <lb ed="#L" n="97"/>meritorium, modo quo declaratum fuit in secunda ratione. Et hoc 
+      <lb ed="#L" n="98"/>idem dicitur in symbolo Niceno, quod cantatur in misla, vbi 
+      di<lb ed="#L" n="99" break="no"/>citur sic: Qui propter nos homines, &amp; propter nostra salutem 
+      <lb ed="#L" n="100"/>descendit de coelis, &amp; incarnatus est, &amp;c. Et sic de singulis 
+      arti<lb ed="#L" n="101" break="no"/>culis. Quod etiam trahitur ex diuersis locis sacrae scripturae, vbi 
+      <lb ed="#L" n="102"/>expresse dicitur, quod oia, quae fecit Christus, vel passus est, 
+      ordi<lb ed="#L" n="103" break="no"/>nabantur ad nostra salutem, ita scilicet, vt nos haec credentes, &amp; ex 
+      <lb ed="#L" n="104"/>eis spem salutis accipientes, ac exardescentes in dilectione Dei 
+      <lb ed="#L" n="105"/>operemur opera meritoria nostrae salutis, secundum quod ipse 
+      <lb ed="#L" n="106"/>Saluator operari nos docuit, verbo pariter &amp; exemplo. Propter 
+      <lb ed="#L" n="107"/>quod, sicut nauta considerat astra &amp; motum astrorum, non secundum 
+      <lb ed="#L" n="108"/>se &amp; absolute sed prout sunt regula nauigandi ad determinatu 
+      <lb ed="#L" n="109"/>portum, vt patet de stella, quae dicitur nautica, &amp; de consimilibus 
+      <lb ed="#L" n="110"/>secundum quorum situm nauigatio est tuta vel periculosa: sic fides 
+      <lb ed="#L" n="111"/>&amp; sacra scriptura considerat de Deo incarnato, passo, &amp; sic de 
+      <lb ed="#L" n="112"/>aliis, non secundum se, &amp; absolute, sed inquantum sunt quaedam adiu 
+      <lb ed="#L" n="113"/>toria, iuuantia, ac dirigentia nos ad nauigandum per mare huius 
+      <lb ed="#L" n="114"/>seculi, vsque ad portum salutis. Et ideo, sicut in arte nauigatiua 
+      <lb ed="#L" n="115"/>astra &amp; motus astrorum non sunt subiectum, sed nauigatio: sic in 
+      <lb ed="#L" n="116"/>fide absolute sumpta, seu in Theologia, put nunc sumitur, De 
+      <lb ed="#L" n="117"/>sub quacunque rone sumptus, non est subiectum, sed ops meritorium. 
+      <lb ed="#L" n="118"/>Et sic patet, quid sit subiectum in Theolo. sumpta primo modo 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e747">
+               <lb ed="#L" n="119"/>
+               <!--13.--> NVNC videndum est, quod sit subiectum in Theologia sum 
+      <lb ed="#L" n="120"/>pta secundo modo, scilicet pro habitu, quo defenduntur, &amp; 
+      de<lb ed="#L" n="121" break="no"/>clarantur ea, quae tradunt fides et scriptura sacra. Et dicendum, quod 
+      <lb ed="#L" n="122"/>subiectum in ea est Deus. Et primo declarabitur hoc, &amp; secundo 
+      <lb ed="#L" n="123"/>ostendetur, sub qua ratione Deus imbi fit subiectum. Primum patet 
+      <lb ed="#L" n="124"/>sic: Illud est subiectum in scientia, quod est subiectum in conclusione, 
+      <lb ed="#L" n="125"/>principaliter illata &amp; scita: sed Deus est lubiectum in conclusione 
+      <lb ed="#L" n="126"/>principaliter scita &amp; illata in Theologia, vt nunc accipitur: ergo 
+      <lb ed="#L" n="127"/>Deus est subiectum in Theologia. Maior patet primo ex 
+      condi<lb ed="#L" n="128" break="no"/>tione subiecti supra posita. Minor probatur, quia Theologia, 
+      <lb ed="#L" n="129"/>quae defendit &amp; declarat fidem, &amp; ea quae tradit scriptura, princi 
+      <lb ed="#L" n="130"/>paliter defendit &amp; declarat articulos, qui sunt de Doo, secundum 
+      <lb ed="#L" n="131"/>se, vel de Deo, vt incarnato: ita quod tales articuli sunt 
+      conclusio<lb ed="#L" n="132" break="no"/>nes, principaliter illatae in Theo, vt prius dictum fuit. Causa autem q. 
+      <lb ed="#L" n="133"/>est, qua licet tota scriptura, principaliter fidei innitatur: fide enim 
+      <lb ed="#L" n="134"/>tenemus non solum, quod Deus est trinus &amp; vnus, incarnatus, &amp; pas 
+      <lb ed="#L" n="135"/>sus, &amp; huiusmodi: sed etiam, quod opus nostrum potest esse vitae aeternae 
+      <lb ed="#L" n="136"/>meritorium, &amp; multa talia: tame istorum quaedam habent rationem 
+      <lb ed="#L" n="137"/>principij in sacra doctrina: habent etiam speci alem difficultatem, vt 
+      <lb ed="#L" n="138"/>articuli qui sunt de Deo. Alia autem sunt, quae magis habent 
+      ratio<lb ed="#L" n="139" break="no"/>nem conclusionis, nec habent specialem difficultate, suppositis arti 
+      <lb ed="#L" n="140"/>culis: sicut quod dilectio diuina sit meritoria vitae aeternae. Hoc enim 
+      <lb ed="#L" n="141"/>facilitar concluditur ex articulo incarnationis sic: Illud, quod 
+      <lb ed="#L" n="142"/>Deus dixit, verum est: sed Christus, qui fuit verus Deus, &amp; homo 
+      <lb ed="#L" n="143"/>dixit, Ioa. 14. Qui diligit me, diligetur a patre meo: &amp; ego 
+      di<lb ed="#L" n="144" break="no"/>ligam eum, &amp; manifestabo ei meipsum. Et quasi infinita 
+      tali<lb ed="#L" n="145" break="no"/>possunt inueniri in scriptura, quae concluduntur ex principalibus 
+      <lb ed="#L" n="146"/>articulis: nec in talibus est aliqua difficultas, nisi illa, qua 
+      impli<lb ed="#L" n="147" break="no"/>cant articuli, ex quibus concluditur. Et ideo scriptura non 
+      indi<lb ed="#L" n="148" break="no"/>get defensione, vel declaratione, quatum ad conclusiones de 
+      qui<lb ed="#L" n="149" break="no"/>bus est, sed quatum ad principia, ex quibus procedit. Principia 
+      au<lb ed="#L" n="150" break="no"/>tem, ex quibus sacra scriptura procedit modo doctrinae, sunt 
+      pri<lb ed="#L" n="151" break="no"/>cipales articuli, qui sunt de Deo subiectiue: ergo Theologia, quae 
+      <lb ed="#L" n="152"/>eit habitus defendens, &amp; declaras scriptura, cum concluda vtrunc 
+      <lb ed="#L" n="153"/>articulum, vel possibilitatem articuli, est de Deo subiectiue. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e829">
+               <lb ed="#L" n="154"/>
+               <!--14.--> Nunc restat inquirere, sub quâ ratione sit subiectum, vtrum 
+      <lb ed="#L" n="155"/>sub ratione absoluta, qua Deus est, an sub aliqua ratione 
+      de<lb ed="#L" n="156" break="no"/>terminata, puta sub racione glorificatoris, vel alia quacunque 
+      <lb ed="#L" n="157"/>tali. Et videtur quibusdam, quod sub ratione absoluta: quod 
+      <lb ed="#L" n="158"/>probant primo ex ambitu subiecti sic: Subiectum secundum 
+      <lb ed="#L" n="159"/>suam ratione formalem, debet ambire, &amp; fundamentaliter 
+      con<lb ed="#L" n="160" break="no"/>tinere omnia, de quibus tractatur in scientia: sed nulla ratio 
+      <lb ed="#L" n="161"/>attributalis potest esse talis: ergo secundum nullam rationem 
+      <lb ed="#L" n="162"/>attributalem potest Deus esse subiectum in Theologia. Maior 
+      <lb ed="#L" n="163"/>patet, quia tantum extendit se consideratio scientiae, quantum 
+      <lb ed="#L" n="164"/>formalis ratio subiecti. Medicus enim in tantum considerat 
+      <!--00080.xml-->
+      <pb ed="#L" n="8-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>neruum, inquantum est susceptiuus sanitatis, quae est subiectum 
+      me<lb ed="#L" n="2" break="no"/>dicinae, vt habet Philosophus. Et similiter est in omnibus aliis. 
+      <lb ed="#L" n="3"/>Minor probatur: quia considerat Theologia multa de Deo dicta 
+      <lb ed="#L" n="4"/>secundum substantiam. Omnis enim ratio attributalis dicitur de 
+      <lb ed="#L" n="5"/>Deo per modum accidentis: substantia autem non habet attributionem 
+      <lb ed="#L" n="6"/>ad accidentia, sed potius econuerso. Item Theologia considerat multa 
+      <lb ed="#L" n="7"/>quae conueniunt Deo secundum se, &amp; non per respectum ad creaturas 
+      <lb ed="#L" n="8"/>sicut esse aeternum, trinum, &amp; vnum, &amp; huiusmodi. Talia autem non 
+      ha<lb ed="#L" n="9" break="no"/>bent attributionem ad illud, quod competit Deo per respectum ad 
+      crea<lb ed="#L" n="10" break="no"/>turas: sicut est ratio glorificatoris, vel redemptoris. Ergo, &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e886">
+               <lb ed="#L" n="11"/>
+               <!--15.--> Secundo probant idem, ex habitudine subiecti ad passionem 
+      <lb ed="#L" n="12"/>sic: Illud, quod quaeritur in scientia, tanquam aliquid 
+      proban<lb ed="#L" n="13" break="no"/>dum de alio, non est subiectum, sed potius passio vel 
+      proprieta<lb ed="#L" n="14" break="no"/>subiecti: sed esse glorificatorem, quaeritur in Theologia, 
+      tan<lb ed="#L" n="15" break="no"/>quam aliquid probandum de alio: ergo esse glorificatorem, non 
+      <lb ed="#L" n="16"/>est formalis ratio subiecti Theologiae. Maior patet: quia omnis 
+      <lb ed="#L" n="17"/>scientia supponit suum subiectum secundum suam formalem 
+      ratio<lb ed="#L" n="18" break="no"/>nem, nec probat ipsum de alio, sed alia de ipso Minor similiter 
+      <lb ed="#L" n="19"/>patet: quaeritur enim in Theologia, vtrum Deus sit glorificator, 
+      <lb ed="#L" n="20"/>sicut quaeritur, vtrum sit sapiens vel omnipotens. Ergo, &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e912">
+               <lb ed="#L" n="21"/>
+               <!--16.--> His autem non obstantibus, dicendum, quod in Theologia, de 
+      qu<lb ed="#L" n="22" break="no"/>nunc loquimur, Deus est subiectum, non sub ratione absoluta, sed 
+      <lb ed="#L" n="23"/>sub ratione determinata. Quod patet sic: Sub eadem ratione es 
+      <lb ed="#L" n="24"/>Deus subiectum in Theologia, de qua nunc loquimur, &amp; in fide arti 
+      <lb ed="#L" n="25"/>culorum: sed in fide articulorum Deus est subiectum non sub ratione 
+      ab<lb ed="#L" n="26" break="no"/>soluta, sed sub ratione determinata: ergo Deus non est subiectum in 
+      <lb ed="#L" n="27"/>Theologia sub ratione absoluta. Maior patet: quia sicut supra 
+      <lb ed="#L" n="28"/>dictum est, illud idem, &amp; sub eadem ratione, est subiectum in scientia, 
+      <lb ed="#L" n="29"/>quod est subiectum in conclusione principaliter illata, sed articul 
+      <lb ed="#L" n="30"/>fidei sunt conclusiones principaliter illatae in Theologia, proui 
+      <lb ed="#L" n="31"/>nunc loquimur, vt supra declaratum est: cigo idem, &amp; sub eadem 
+      <lb ed="#L" n="32"/>ratione, est subiectu in Theologia, &amp; in fide articulorum, ita qui 
+      <lb ed="#L" n="33"/>Theologia, &amp; fides articulorum, non differunt quantum ad subiectu 
+      <lb ed="#L" n="34"/>sed solum quantum ad modum assentiendi. Et haec fuit maior. Mi 
+      <lb ed="#L" n="35"/>nor probatur, scilicet quod in fide articulorum Deus non sit 
+      sub<lb ed="#L" n="36" break="no"/>iectu sub ratione absoluta, sed sub ratione determinata: 
+      qui<lb ed="#L" n="37" break="no"/>sicut probatum fuit in prima quaestione, licet fides, secundum suan 
+      <lb ed="#L" n="38"/>formalem rationem, possit esse simul in eodem, &amp; de eodem, de quo est 
+      <lb ed="#L" n="39"/>scientia: tamen fides accepta secundum specialem materiam, 
+      quali<lb ed="#L" n="40" break="no"/>est fides articulorum, de qua sola loquuntur Theologi, non est 
+      <lb ed="#L" n="41"/>de aliquo scibili pro statu viae, quia nec articuli possunt 
+      demon<lb ed="#L" n="42" break="no"/>strari, nec rationes adductae contra articulos possunt scientifice 
+      <lb ed="#L" n="43"/>solui, vt probatum fuit suprâ. Ex hoc sic arguitur: Deus non est 
+      sub<lb ed="#L" n="44" break="no"/>jectum in fide articulorum sub illa ratione, sub qua multa possunt 
+      <lb ed="#L" n="45"/>probari de ipso demonstratiue &amp; scientifice: alioquin inueniretur 
+      <lb ed="#L" n="46"/>caliquis articulus fidei, qui posset viatori demonstrari: sed de Dec 
+      <lb ed="#L" n="47"/>sub ratione absoluta, qua Deus est. possunt multa probari deme 
+      <lb ed="#L" n="48"/>stratiue &amp; scientifice, verbi gratia, quod Deus est vnus, quod Deus est 
+      <lb ed="#L" n="49"/>intellectualis, &amp; similia: ergo Deus sub ratione absoluta non est 
+      <lb ed="#L" n="50"/>subiectum in fide articulorum, sed sub aliqua ratione determinata 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e982">
+               <lb ed="#L" n="51"/>
+               <!--17.--> Quae autem est ista ratio? credo quod sit ratio Saluatoris: quod 
+      pa<lb ed="#L" n="52" break="no"/>tet primo: quia illa est ratio subiecti in aliquo habitu, quae in 
+      <lb ed="#L" n="53"/>illo principaliter attenditur &amp; consideratur, &amp; quae continet alia 
+      <lb ed="#L" n="54"/>fundamentaliter, &amp; per illas explicatur. Exemplum de corpor 
+      <lb ed="#L" n="55"/>mobili in Scientia naturali. Sed ratio Saluatoris est huiusmodi 
+      <lb ed="#L" n="56"/>Principaliter enim in fide intenditur. Nunquam enim fuit fides 
+      <lb ed="#L" n="57"/>nec in statu innocentiae, nec post lapsum, quin explicite fuerit 
+      <lb ed="#L" n="58"/>de Saluatore non sic autem est de aliis. Item haec ratio contine 
+      <lb ed="#L" n="59"/>alias fundamentaliter, &amp; implicite, scilicet esse incarnatum, 
+      pas<lb ed="#L" n="60" break="no"/>sum, resurrexisse, ascendisse in coelum, venturum ad iudicium 
+      <lb ed="#L" n="61"/>quibus explicatur, qualiter Deus salutem nostram operatus est 
+      <lb ed="#L" n="62"/>Et ipse articulus Trinitatis continetur implicite etiam in 
+      ratio<lb ed="#L" n="63" break="no"/>ne Saluatoris, propter determinationem personae saluantis no 
+      <lb ed="#L" n="64"/>meritorie: quae est principale obiectum completae salutis. Erge 
+      <lb ed="#L" n="65"/>Deus sub ratione Saluatoris, est subiectum in fide articulorum 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e1019">
+               <lb ed="#L" n="66"/>
+               <!--18.--> Secundo patet idem sic: Sub illa ratione Deus est subiectum in fi 
+      <lb ed="#L" n="67"/>de articulorum, sub qua maxime habet habitudinem ad ops 
+      meri<lb ed="#L" n="68" break="no"/>torium: sed talis est ratio Saluatoris: ergo &amp;c. Maior patet 
+      qui<lb ed="#L" n="69" break="no"/>principia oportet habere per se habitudinem ad conclusionem: art 
+      <lb ed="#L" n="70"/>culi autem fidei sunt principia respectu eorum, quae in sacra 
+      scriptu<lb ed="#L" n="71" break="no"/>ra concluduntur de opere meritorio, vt dictum fuit pris: ergo 
+      opo<lb ed="#L" n="72" break="no"/>tet illud, quod subucitur in fide articulorum, habere habitudine 
+      <lb ed="#L" n="73"/>ad opus meritorium. Minor similiter probatur: quia illa ratio 
+      ha<lb ed="#L" n="74" break="no"/>bet maxime directam habitudinem ad opus meritorium, quae 
+      inclu<lb ed="#L" n="75" break="no"/>dit aliqualiter rationem finis, &amp; aliqualiter modum perueniendi ad 
+      <lb ed="#L" n="76"/>si ae loc patet, quia in agibilibus, finis habet rationem principij, 
+      <lb ed="#L" n="77"/>vt habetur 2. Physico. Sed ratio Saluatoris includit finem 
+      ope<lb ed="#L" n="78" break="no"/>ris meritorij, scilicet salutem, &amp; implicite modum perueniendi ad 
+      <lb ed="#L" n="79"/>hunc finem: ergo Deus sub ratione Saluatoris maxime habet 
+      ha<lb ed="#L" n="80" break="no"/>bitudinem ad opus meritorium. Et haec fuit minor. Sequitur ergi 
+      <lb ed="#L" n="81"/>conclusio, quod Deus sub ratione Saluatoris, sit subiectum in fide 
+      <lb ed="#L" n="82"/>articulorum, &amp; in Theologia, quae est fidei declaratiua &amp; defen¬ 
+      <!--00080.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>siua. Ad hoc facit, quod ille, de quo omnes articuli loquuntur, 
+      no<lb ed="#L" n="84" break="no"/>men Saluatoris accepit, vt dicitur Matth. I. &amp; Luc. I. &amp; 2. cap. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e1069">
+               <lb ed="#L" n="85"/>
+               <!--19.--> Ad rationes alterius opinionis respondendum est. Cum enim 
+      <lb ed="#L" n="86"/>primo dicitur, quod subiectum debet continere fundamentaliter 
+      <lb ed="#L" n="87"/>omnia de quibus determinatur in scientia: concedatur. Et ad mi 
+      <lb ed="#L" n="88"/>norem dicendum est, per interemptionem. Ad probationem re 
+      <lb ed="#L" n="89"/>spondendum est dupliciter: Primo, quia attributio aliorum ad 
+      for<lb ed="#L" n="90" break="no"/>malem rationem subiecti, non est secundum ordinem causalitatis 
+      <lb ed="#L" n="91"/>in essendo, vel in inhaerendo subiecto: quia si sic esset, tunc dicta 
+      <lb ed="#L" n="92"/>secundum substantiam, non haberent attributionem ad dicta per 
+      <lb ed="#L" n="93"/>modum accidentis: nec dicta de Deo absolute, ad ea quae dicuntu 
+      <lb ed="#L" n="94"/>de Deo in respectu ad creaturas. Sed non est sic: Videmus enim, 
+      <lb ed="#L" n="95"/>quod formalis ratio subiecti in Scientia naturali, est ratio mobilis, 
+      <lb ed="#L" n="96"/>ad quam habet attributionem ratio quanti: &amp; ad generabile ratio 
+      <lb ed="#L" n="97"/>compositi ex materia &amp; forma, quae ad substantiam pertinent. Ex 
+      <lb ed="#L" n="98"/>hoc enim quod aliquid est mobile, probamus quod sit quantum, vt 
+      pa<lb ed="#L" n="99" break="no"/>tet 6. Physic. Et ex eo, quod est generabile, prooamus, quod sit 
+      com<lb ed="#L" n="100" break="no"/>positum ex materia &amp; forma: vt patet primo de generatione, 
+      <lb ed="#L" n="101"/>&amp; 2. Physico. Et constat, quod haec attributio non secundum 
+      or<lb ed="#L" n="102" break="no"/>dinem causalitatis in essendo vel insinhaerendo. Non enim 
+      pro<lb ed="#L" n="103" break="no"/>pter hoc aliquid est quantum, quia est mobile, sed econuerso: 
+      <lb ed="#L" n="104"/>nec propter hoc aliquid est compositum ex materia &amp; forma, 
+      <lb ed="#L" n="105"/>quia est generabile &amp; corruptibile, sed econuerso. Ergo 
+      attri<lb ed="#L" n="106" break="no"/>butio, quam habent ea, de quibus determinatur in scientia ad 
+      <lb ed="#L" n="107"/>rationem formalem subiecti, non est secundum ordinem 
+      natu<lb ed="#L" n="108" break="no"/>rae &amp; causalitatis, sed secundum ordinem cognitionis. Sic enim 
+      <lb ed="#L" n="109"/>subiectum cum sua formali ratione est suppositum in scientia, 
+      <lb ed="#L" n="110"/>tanquam praecognitum. Caetera autem de subiecto inquiruntur 
+      <lb ed="#L" n="111"/>Et hoc modo nihil prohibet, dicta per modum substatiae, 
+      habe<lb ed="#L" n="112" break="no"/>re attributionem ad aliquid dictum per modum accidentis: (quia 
+      <lb ed="#L" n="113"/>accidentia magnam partem conferunt ad cognoscendum quod 
+      <lb ed="#L" n="114"/>quid est, vt dicitur primo de Anima.) &amp; ea quae dicuntur 
+      absolu<lb ed="#L" n="115" break="no"/>te, ad ea quae dicuntur respectiue. Nam operationes diuinae, 
+      trans<lb ed="#L" n="116" break="no"/>euntes ad creatura, natae sunt deducere nos in cognitionem 
+      ali<lb ed="#L" n="117" break="no"/>quarum perfectionum, quae Deo absolute conueniunt. Et sic ad 
+      ra<lb ed="#L" n="118" break="no"/>tionem Saluatoris, licet sit denominatiua &amp; respectiua, possunt 
+      <lb ed="#L" n="119"/>habere attributionem alia dicta de Deo absolute &amp; secundum 
+      sub<lb ed="#L" n="120" break="no"/>stantiam. Secundo, quia dicta de Deo secundum substantiam, &amp; 
+      <lb ed="#L" n="121"/>absolute, non pertinent proprie ad Theologiam, vtpote, quod 
+      <lb ed="#L" n="122"/>Deus sit substantia intellectualis, vel aliquid tale: quia ad Theo 
+      <lb ed="#L" n="123"/>logiam, &amp; ad fidem secundum materiam, in qua loquimur, vt 
+      Theolo<lb ed="#L" n="124" break="no"/>gi, non pertinent proprie, &amp; per se, ea quae possunt de Deo demon 
+      <lb ed="#L" n="125"/>strari. Et huic concordat, quod dicit August. nono de Trinitate 
+      <lb ed="#L" n="126"/>Huic scientiae illud tantummodo attribuitur, &amp;c. Sed talia 
+      suppo<lb ed="#L" n="127" break="no"/>nuntur, ab alia scientia Metaphysica, vel Naturali, quae innitutur 
+      <lb ed="#L" n="128"/>lumini naturali: &amp; cum de talibus inquirit Theologus, assumit 
+      <lb ed="#L" n="129"/>formam, Philosophi, &amp; transgreditur limites Theologi. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e1172">
+               <lb ed="#L" n="130"/>
+               <!--20.--> Ad secundum argumentum dicendum, quod in Theologia 
+      sup<lb ed="#L" n="131" break="no"/>ponitur Deum esse Saluatorem: quo supposito, inquiritur modus, 
+      <lb ed="#L" n="132"/>scilicet quod per meritum suae incarnationis, passionis, &amp; 
+      hu<lb ed="#L" n="133" break="no"/>iusmodi. Et si quis inquirit, an Deus sit saluator, simile est, ac si 
+      <lb ed="#L" n="134"/>Naturalis inquirat, an aliquid sit mobile. Vnde argumentum 
+      fal<lb ed="#L" n="135" break="no"/>sum supponit. Sic patet secundus articulus, scilicet, quid sit subiectum 
+      <lb ed="#L" n="136"/>in Theologia, quae est habitus defensiuus fidei, &amp; declaratiuus 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e1192">
+               <lb ed="#L" n="137"/>
+               <!--21.--> NVN C videndum est de tertio, scilicet, quid sit subiecti 
+      <lb ed="#L" n="138"/>in Theologia, prout dicit habitum eorum, quae deducuntur ex 
+      ar<lb ed="#L" n="139" break="no"/>ticulis fidei. Et sicut dictum fuit supra, non video quod ex articu 
+      <lb ed="#L" n="140"/>lis aliquid proprie speculatiuum deducatur: sed potius ad artici 
+      <lb ed="#L" n="141"/>lum declarandum adducitur. Si tamen aliquid deducatur, idem 
+      <lb ed="#L" n="142"/>est subiectum in tali habitu, &amp; in fide articulorum. Cuius ratio est 
+      <lb ed="#L" n="143"/>quia in demonstratione, &amp; in omni ratione syllogistica 
+      conclu<lb ed="#L" n="144" break="no"/>dente directe, subiectum conclusionis sumitur idem, &amp; sub 
+      ea<lb ed="#L" n="145" break="no"/>dem ratione, qua in minori propositione. Minor enim 
+      extre<lb ed="#L" n="146" break="no"/>mitas subiicitur in conclusione, &amp; praeaccipitur semper in 
+      pro<lb ed="#L" n="147" break="no"/>positione minori. Sed in omni eo, quod speculatiue deducitur 
+      <lb ed="#L" n="148"/>ex articulo, articulus tenet locum minoris propositionis. Et 
+      ma<lb ed="#L" n="149" break="no"/>ior sumitur, tanquam nota in lumine naturali: vt si arguatur sic 
+      <lb ed="#L" n="150"/>Vbicunque est vnitas essentiae in pluribus suppositis, 
+      impossibi<lb ed="#L" n="151" break="no"/>le est distinctionem esse secundum absoluta: sed in Deo est sic, cun 
+      <lb ed="#L" n="152"/>Deus sit trinus vnus: ergo &amp;c. Patet, quod hic articulus 
+      sumi<lb ed="#L" n="153" break="no"/>tur pro minore propositione: similiter in aliis: ergo subiectum ta 
+      <lb ed="#L" n="154"/>lis conclusionis, &amp; per consequens talis habitus continetur idem, 8 
+      <lb ed="#L" n="155"/>sub eadem ratione in articulo, uon vt praedicatum est, sed vt subiectum 
+      <lb ed="#L" n="156"/>si arguatur in prima figura, in cuius virtute aliae concludunt 
+      <lb ed="#L" n="157"/>propterea quod ad primam reducuntur. Ergo idem est subiectum 
+      <lb ed="#L" n="158"/>conclusionis deductae ex articulo, &amp; articuli: &amp; per consequens, 
+      <lb ed="#L" n="159"/>Theologiae sic acceptae, &amp; articulorum, fidei. Quid autem sit illud 
+      <lb ed="#L" n="160"/>dictum est in secundo articulo quaestionis. Magis tamen sto ir 
+      <lb ed="#L" n="161"/>hoc, quod nullius scientiae est deducere aliquid speculatiuum 
+      <lb ed="#L" n="162"/>ex articulo, quia talis deductio, in nullo, aut modicum perficere 
+      <lb ed="#L" n="163"/>intelloctum. Practiue autem multa deducuntur ex articulis, vt 
+      po<lb ed="#L" n="164" break="no"/>te, quod humiliter est viuendum exemplo Christi, qui soipsum 
+      <!--00081.xml-->
+      <pb ed="#L" n="9-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>exinaniuit, formam serui accipiens, vt dicitur Philip. 2. multa, 
+      <lb ed="#L" n="2"/>imo quantumcumque grauia, sustinenda sunt pro salute, exemplo Chri 
+      <lb ed="#L" n="3"/>sti, qui passus est pro nobis, &amp; salute nostrae sicut arguit Beatus 
+      <lb ed="#L" n="4"/>Petrs, 1. Can. c. 2. vt dictum est supra, Christu? passus est pro nobis, 
+      <lb ed="#L" n="5"/>relinquens nobis exemplum, &amp;c. Et simili modo ex aliis articulis 
+      <lb ed="#L" n="6"/>multa deducuntur, quae etsi modicum &amp; quasi in nullo, perficiant 
+      <lb ed="#L" n="7"/>intellectum, quo ad cognitionem: mirabiliter tamon promouent 
+      <lb ed="#L" n="8"/>affectum, &amp; bonam operationem. Et cum complures, &amp; consimiles 
+      <lb ed="#L" n="9"/>deductiones per sacram scripturam fiant, patet quod Theologia 
+      ac<lb ed="#L" n="10" break="no"/>cepta pro habitu eorum, quae ex articulis deducuntur, coincidit 
+      <lb ed="#L" n="11"/>cum sacra scriptura: propter quod de subiecto eius, &amp; ratione 
+      <lb ed="#L" n="12"/>subiecti, idem est dicendum, quod de subiecto sacrae scripturae 
+      di<lb ed="#L" n="13" break="no"/>ctum est supra, scilicet quod opus meritorium est in ea subiectum. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e1292">
+               <lb ed="#L" n="14"/>
+               <!--22--> Ad primum argumentum dicendum, quod dictum Philosophi 1. 
+      <lb ed="#L" n="15"/>Posteriorum intelligitur de scientia potissima, scu propter quid, 
+      <lb ed="#L" n="16"/>in qua demonstratur passio de subiecto per causam passionis, 
+      <lb ed="#L" n="17"/>sed scientia quia, quae procedit ex effectu ad causam, non 
+      con<lb ed="#L" n="18" break="no"/>cludit semper passionem de causa, sed concludit quadoque solum 
+      <lb ed="#L" n="19"/>de causa quia est. Et ideo subiectum in tali scientia non 
+      opor<lb ed="#L" n="20" break="no"/>tet habere aliquas passiones realiter differentes ab ipso. Et si in 
+      <lb ed="#L" n="21"/>rali scientia condudatur de causa quia est, non solum accipien 
+      <lb ed="#L" n="22"/>do esse secundo adiacens, sed &amp; tertio adiacens, vt quia est 
+      in<lb ed="#L" n="23" break="no"/>telligens, vel volens, vel aliquid huiusmodi, sufficit quod ista diffe 
+      <lb ed="#L" n="24"/>rant a subiecto ratione. Et per hunc modum potest haberi 
+      <lb ed="#L" n="25"/>scientia de Deo tam acquisita, quam infusa. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e1323">
+               <lb ed="#L" n="26"/>
+               <!--23--> Ad secundum dicendum est quoe Deus est subiectum in 
+      Theo<lb ed="#L" n="27" break="no"/>log. quae est fidei defensiua &amp; declaratiua. Ratio autem formalis 
+      <lb ed="#L" n="28"/>subiecti, est ratio saluatoris, ad quam habent attributionem omnia, 
+      <lb ed="#L" n="29"/>de quibus determinatur in Theolog. vt dictum fuit prius. Non 
+      <lb ed="#L" n="30"/>nego tamen, quod Deus sub ratione absoluta, non sit subiectum in 
+      <lb ed="#L" n="31"/>Theolo. propterea quod illa ratio est infinita, vt tangebatur in 
+      ar<lb ed="#L" n="32" break="no"/>guendo. Istud enim non valet, quia siue accipiatur infinitum pro 
+      <lb ed="#L" n="33"/>eo, quod formaliter importatur per nomen infiniti, quod est 
+      <lb ed="#L" n="34"/>priuatio finis: siue accipiatur pro re subiecta infinitati: semper 
+      <lb ed="#L" n="35"/>de infinito potest haberi scientia finita. Quod patet, quantum 
+      <lb ed="#L" n="36"/>ad primum modum. Eiusdem enim scientiae est, considerare habitum 
+      <lb ed="#L" n="37"/>&amp; priuationem: quia rectus est iudex sui &amp; obliqui. Ergo scientia, 
+      <lb ed="#L" n="38"/>quae considerat rationem finiti in quacunque materia, siue in 
+      quanti<lb ed="#L" n="39" break="no"/>tate, molis, siue virtutis, habet considerare rationem infiniti, quae 
+      <lb ed="#L" n="40"/>ei opponitur priuatiue. Primum potest scientia finita: ergo &amp; 
+      se<lb ed="#L" n="41" break="no"/>cundum Vnde &amp; Philos. 3. Phys. tradit scientiam de infinito. Sed 
+      <lb ed="#L" n="42"/>ratio infiniti non potest esse primum subiectum. Quantum ad 
+      se<lb ed="#L" n="43" break="no"/>cundum, patet idem: quia si repugnaret scientiae finitae, esse d 
+      <lb ed="#L" n="44"/>re infinita, tota ratio repugnantiae esset non propter rem, sed 
+      <lb ed="#L" n="45"/>propter rei infinitatem: quia quantum ad hoc solum, apparet ib 
+      <lb ed="#L" n="46"/>oppositio secundum finitum &amp; infinitum. Si ergo scientiae 
+      fini<lb ed="#L" n="47" break="no"/>tae non repugnat tractaro de ratione infinitatis, vt statim 
+      osten<lb ed="#L" n="48" break="no"/>sum est, multo minus repugnat ei considerare rem subiectam 
+      <lb ed="#L" n="49"/>infinitati. Et mirum est hoc negare, cum Deus secundum illud quod 
+      <lb ed="#L" n="50"/>est, &amp; non secundum aliquam specialem rationem, sit obiectum 
+      <lb ed="#L" n="51"/>scientiae Beatorum, quae finita est. Et si dicatur, qo scientia 
+      sor<lb ed="#L" n="52" break="no"/>titur rationem ab obiecto: verum est, sed non vniuocam cum obie 
+      <lb ed="#L" n="53"/>cto: alioquin scientia de motu esset mobilis: &amp; scientia, quam 
+      ha<lb ed="#L" n="54" break="no"/>bemus de lapide, esset lapidea: quod est absurdum. Quare 
+      simili<lb ed="#L" n="55" break="no"/>ter non oportet scientiam de infinito esse infinitam. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e1393">
+               <lb ed="#L" n="56"/>
+               <!--24--> Ad tertium dicendum, quod scientia stricte &amp; proprie accepta 
+      <lb ed="#L" n="57"/>non potest hic haberi de Deo, quod sit trinus, neque per causam, 
+      <lb ed="#L" n="58"/>neque per effectum, sicut probat argumentum: sed accipiendo scien 
+      <lb ed="#L" n="59"/>tiam large, pro quacunque notitia declaratiua articulorum, siue 
+      <lb ed="#L" n="60"/>per autoritatem, siue pro quacunque apparentia probabili, 
+      qui<lb ed="#L" n="61" break="no"/>bus posset persuaderi eorum veritas, sic de articulis potest esse 
+      <lb ed="#L" n="62"/>talis scientia, &amp; talem dicimus esse Theologiam. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e1413">
+               <lb ed="#L" n="63"/>
+               <!--15--> Ad argumenta alterius partis respondendum est: ad primum, qui 
+      <lb ed="#L" n="64"/>scientia viatoris, per quam declarantur articuli: &amp; aliqualiter 
+      de<lb ed="#L" n="65" break="no"/>fenduntur, &amp; scientia Beatorum, non differunt solum ex parte 
+      lumini<lb ed="#L" n="66" break="no"/>&amp; modi cognoscendi, sed etiam ex parte obiecti. Scientia enim 
+      Bea<lb ed="#L" n="67" break="no"/>torum, est praemium nostrum: propter quod eius obiectu est Deus, 
+      <lb ed="#L" n="68"/>sub ratione qua potest capacitatem intellectus replere, quod non 
+      <lb ed="#L" n="69"/>posset facere aliqua determinata ratio attributalis. Sed scientia 
+      <lb ed="#L" n="70"/>quam habemus de Deo in via, dirigit nos ad opus meritorium: &amp; 
+      <lb ed="#L" n="71"/>ideo subiectum in ea est Deus, secundum rationem illi, quae maxime 
+      <lb ed="#L" n="72"/>respicit meritum. Et haec est ratio Saluatoris, vt declaratum fuit. 
+      <lb ed="#L" n="73"/>Veruntamen quia ratio absoluta latior est, quam ratio saluatoris, &amp; 
+      <lb ed="#L" n="74"/>eam includit: ideo visio patriae clara est omnibus, de quibus nunc 
+      <lb ed="#L" n="75"/>est fides aenigmatica, &amp; non econuerso. Propter quod, qucquid nunc 
+      <lb ed="#L" n="76"/>videmus aenigmatice, tunc videbimus facie ad facie: &amp; sic fidei 
+      <lb ed="#L" n="77"/>succedet visio de eodem, &amp; non adaequata, imo superexcedens. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e1451">
+               <lb ed="#L" n="78"/>
+               <!--26--> Ad secundum dicendum, quod in Theologia, qualitercunque 
+      ac<lb ed="#L" n="79" break="no"/>cepta non consideratur de Deo secundum ea, quae ipsi absolute 
+      <lb ed="#L" n="80"/>conueniunt, sed solum in habitudine ad creaturas: vnde ratio 
+      Sal<lb ed="#L" n="81" break="no"/>uatoris, secundum quam consideratur de Deo, est respectiua. 
+      </p>
+            <p xml:id="jsnvu6-d1e133-d1e1464">
+               <lb ed="#L" n="82"/>
+               <!--27.--> Ad terdum dicendum, quod habitus non semper denomina¬ 
+      <!--00081.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>tur a formali ratione subiecti, sed sic quandoque denominatio a 
+      <lb ed="#L" n="84"/>digniori. Et quia in opere nostrae salutis dignius est illud, quod 
+      <lb ed="#L" n="85"/>est ibi ex parte Dei quam illud, quod est ibi ex parte nostra: ideo 
+      <lb ed="#L" n="86"/>Theologia, quae est scientia nostrae salutis, denominatur a Deo. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

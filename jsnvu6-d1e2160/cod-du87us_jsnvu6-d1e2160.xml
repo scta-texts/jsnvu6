@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="100-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2160"><!-- l1d45prae -->
+            <head xml:id="jsnvu6-d1e2160-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2160-d1e103">
+               <lb ed="#L" n="18"/>Sententia XLV. distinctionis in 
+      ge<lb ed="#L" n="19" break="no"/>nerali &amp; speciali. 
+  </p>
+            <p xml:id="jsnvu6-d1e2160-d1e110">
+               <lb ed="#L" n="20"/>AM de voluntate dei. Superius determinaui 
+      <lb ed="#L" n="21"/>magister de scientia &amp; potentia dei, hic 
+      determi<lb ed="#L" n="22" break="no"/>nat de voluntate. Et diuiditur in partes tres. 
+      Pri<lb ed="#L" n="23" break="no"/>mo enim determinat de voluntato diuina. 
+      Secun<lb ed="#L" n="24" break="no"/>do de eius impletione. Tertio de conformitate 
+      <lb ed="#L" n="25"/>voluntatis nostrae ad ipsum. Secunda incipit in principio 16 
+      <lb ed="#L" n="26"/>dist. ibi, Hic oritur quaestio. Tertia in principio 48. ibi, sciendum 
+      <lb ed="#L" n="27"/>quoque. Prima pars est principalis lectionis. Et diuiditur in 
+      par<lb ed="#L" n="28" break="no"/>tes tres. Primo determinat de voluntate dei in se. Secundo 
+      d<lb ed="#L" n="29" break="no"/>voluntatis causalitate respectu creaturarum. Tertio compara 
+      <lb ed="#L" n="30"/>multitudinem voluntatis quantum ad acceptionem nominis 
+      <lb ed="#L" n="31"/>Secunda ibi, hoc itaque summe. Tertia ibi, hoc non est 
+      praeter<lb ed="#L" n="32" break="no"/>mittendum. Haec est sententia lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2160-d1e141">
+               <lb ed="#L" n="33"/>
+               <!--2--> INSPECIALI Vero sic procedit, &amp; proponit prime 
+      <lb ed="#L" n="34"/>quod voluntas dei idem est quod diuina essentia differens al 
+      <lb ed="#L" n="35"/>ipsa solum ratione sicut &amp; scientia, propter quam diuersitatem 
+      <lb ed="#L" n="36"/>attribuuntur voluntati dei quae non attribuuntur scientiae dei 
+      <lb ed="#L" n="37"/>Postea dicit quod voluntatis dei causa non est quaerenda, quia 
+      si<lb ed="#L" n="38" break="no"/>ipsa non esset causa prima &amp; haberet aliquid majus se, est enin 
+      <lb ed="#L" n="39"/>causa vniuersalis omnium quae sunt, non solum secundum 
+      cur<lb ed="#L" n="40" break="no"/>sum naturae, sed supernaturaliter. Postea dicit quod voluntas 
+      <lb ed="#L" n="41"/>dei multipliciter nominatur, &amp; aliquando accipitur proprie 
+      se<lb ed="#L" n="42" break="no"/>cundum quod ipsa est diuina essentia, aliquando vero pro prae 
+      <lb ed="#L" n="43"/>cepto, prohibitione, &amp; consilio, permissione, &amp; operatione 
+      vo<lb ed="#L" n="44" break="no"/>luntatis diuinae, quae omnia dicuntur voluntas dei, quia sunt 
+      si<lb ed="#L" n="45" break="no"/>gna voluntatis, non tamen illa sunt signa quod deus omnia illa 
+      <lb ed="#L" n="46"/>velit fieri, &amp; subdit quod prima voluntas dicitur voluntas simpl 
+      <lb ed="#L" n="47"/>citer, aliae voluntates dicuntur voluntates signi, &amp; differunt in 
+      <lb ed="#L" n="48"/>hoc quod voluntas beneplaciti est aeterna, reliquae vero sunt 
+      <lb ed="#L" n="49"/>temporales. Item voluntas beneplaciti semper impletur, reliqu 
+      <lb ed="#L" n="50"/>vero non. Et in hoc terminatur sententia lectionis in speciali.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

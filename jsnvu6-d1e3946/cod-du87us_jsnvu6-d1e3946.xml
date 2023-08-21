@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="165-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3946"><!-- l2d36q1 -->
+            <head xml:id="jsnvu6-d1e3946-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e3946-Hd1e103" type="question-title">Utrum peccatum sit causa mali seu peccati</head>
+            <p xml:id="jsnvu6-d1e3946-d1e106">
+               <lb ed="#L" n="58"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="59"/>Vtrum peccatum sit causa peccati. 
+      <lb ed="#L" n="60"/>Thom. 1. 2. 4. 75. ar. 4. 
+    </p>
+            <p xml:id="jsnvu6-d1e3946-d1e115">
+               <lb ed="#L" n="61"/>CIRCA distinctionem istam quaeritur primo, 
+      <lb ed="#L" n="62"/>vtrum peccatum sit causa peccati. Et videtur? 
+      <lb ed="#L" n="63"/>non, quia facere sibi simile est actus perfecti vt 
+      <lb ed="#L" n="64"/>patet ex 4. Methe. Sed peccatum non est aliquid 
+      <lb ed="#L" n="65"/>a perfectum, sed est defectus debitae perfectionis, 
+      <lb ed="#L" n="66"/>ergo non potest facere sibi simile, sed si peccatum causaret, 
+      <lb ed="#L" n="67"/>peccatum faceret sibi simile, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3946-d1e133">
+               <lb ed="#L" n="68"/>
+               <!--2.--> Item motus non est motus, quia esset processus in 
+      infini<lb ed="#L" n="69" break="no"/>tum, vt dicitur 5. Physi. ergo per eandem rationem peccatum 
+      <lb ed="#L" n="70"/>non est causa peccati: quia esset processus in infinitum, quia 
+      <lb ed="#L" n="71"/>qua ratione vnum peccatum esset causa peccati alterius, 
+      ea<lb ed="#L" n="72" break="no"/>dem ratione &amp; illud aliud cuiusdem alterius &amp; sic semper. 
+      </p>
+            <p xml:id="jsnvu6-d1e3946-d1e150">
+               <lb ed="#L" n="73"/>
+               <!--3--> IN CONTRARIVM est, quia ex actibus pecca 
+      <lb ed="#L" n="74"/>torum causatur habitus malus: ex habitu malo causantur actus 
+      <lb ed="#L" n="75"/>mali &amp; viciosi, ergo a primo ad vltimum ex peccato causatu 
+      <lb ed="#L" n="76"/>peccatum. 
+</p>
+            <p xml:id="jsnvu6-d1e3946-d1e163">
+      <!--00397.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="77"/>4 RESPONSIO. In peccato omissionis est solus 
+      defe<lb ed="#L" n="78" break="no"/>ctus, in peccato autem commissionis est actus &amp; defectus. Cor 
+      <lb ed="#L" n="79"/>siderando ergo peccatum ratione solius defectus, contingi 
+      <lb ed="#L" n="80"/>vnum peccatum esse causam alterius per accidens, scilicet pe 
+      <lb ed="#L" n="81"/>modum remouentis prohibens, quia quod inclinat in vnum pro 
+      <lb ed="#L" n="82"/>hibet motum in contrarium. Sed gratia inclinat ad bonum 
+      <lb ed="#L" n="83"/>sine gratia sit bonus habitus creatus, siue beneplacitum 
+      spe<lb ed="#L" n="84" break="no"/>ciale Dei t ergo prohibet motum vel lapsum in peccatum. Sed 
+      <lb ed="#L" n="85"/>defectus peccati est priuatio gratiae, non quidem effectiue, sed 
+      <lb ed="#L" n="86"/>meritorie, vel concomitatiue, ergo peccatum est causa motus, 
+      <lb ed="#L" n="87"/>vel lapsus in quodcunque aliud peccatu, sicut remouens 
+      pro<lb ed="#L" n="88" break="no"/>hibens: hoc autem solum est verum de primo peccato quo 
+      pri<lb ed="#L" n="89" break="no"/>uatur gratia, quia per sequentia peccata gratia non tollitur. 
+      </p>
+            <p xml:id="jsnvu6-d1e3946-d1e198">
+               <lb ed="#L" n="90"/>
+               <!--5--> Si autem consideretur peccatum quoad actum, sic vnum 
+      <lb ed="#L" n="91"/>peccatum potest esse causa alterius, per modum causae finalis 
+      <lb ed="#L" n="92"/>efficientis &amp; materialis. De causa finali patet sic, illud quod 
+      ha<lb ed="#L" n="93" break="no"/>bet rationem eminentioris boni respectu alterius potest 
+      ha<lb ed="#L" n="94" break="no"/>bere rationem finis respectu eius, sed vnum peccatum potesi 
+      <lb ed="#L" n="95"/>habere rationem eminentioris boni respectu alterius, ergo &amp;c. 
+      <lb ed="#L" n="96"/>Minor probatur: aliquis enim credit bonum esse fornicari, 
+      qui<lb ed="#L" n="97" break="no"/>tamen non potest hoc facere nisi det, dare autem non potess 
+      <lb ed="#L" n="98"/>cum sit pauper, nisi furetur: per consequens eligit furari. De cau 
+      <lb ed="#L" n="99"/>sa vero efficiente patet similiter, quia illud quod est dispositio 
+      <lb ed="#L" n="100"/>inclinans causam agentem ad similem actum est aliquo modo 
+      <lb ed="#L" n="101"/>causa efficiens illius actus: sed vnus actus peccati est dispositio 
+      <lb ed="#L" n="102"/>inclinans ad similem actum, aliâs nunquam ex actibus causaretur 
+      <lb ed="#L" n="103"/>habitus, ergo &amp;c. Dico autem aliquo modo, quia non est causa 
+      <lb ed="#L" n="104"/>agens, nec ratio agendi, sed quaedam dispositio pronitatis ad 
+      <lb ed="#L" n="105"/>similem actum. De causa vero materiali patet idem, quia 
+      obie<lb ed="#L" n="106" break="no"/>ctum circa quod exercetur actus habet rationem materiae, 
+      re<lb ed="#L" n="107" break="no"/>spectu eius, sed actus vnius peccati est huiusmodi respectu 
+      al<lb ed="#L" n="108" break="no"/>terius peccati: pugnatur enim de actibus venereis, ergo &amp;c 
+      <lb ed="#L" n="109"/>Hic autem materia vocatur transumptiue obiectum, quia non 
+      <lb ed="#L" n="110"/>est materia in qua vel ex qua, quae proprie habent rationem 
+      <lb ed="#L" n="111"/>materiae, sed est materia circa quam. Secundum vero genus 
+      cau<lb ed="#L" n="112" break="no"/>sae formalis vnus actus peccati non potest esse causa alterius 
+      <lb ed="#L" n="113"/>quia formae non est forma proprie loquendo. 
+      </p>
+            <p xml:id="jsnvu6-d1e3946-d1e255">
+               <lb ed="#L" n="114"/>
+               <!--6--> AD PRIMVM argumentum dicendum quod licet 
+      pec<lb ed="#L" n="115" break="no"/>catum non sit aliquid perfectum in genere moris, est tamen ali 
+      <lb ed="#L" n="116"/>quid perfectum secundum esse naturae. Et ideo quoad hoc po 
+      <lb ed="#L" n="117"/>test esse causa alterius peccati per se: quoad defectum autem 
+      <lb ed="#L" n="118"/>moralem solum est causa vt remouens prohibens. 
+      </p>
+            <p xml:id="jsnvu6-d1e3946-d1e271">
+               <lb ed="#L" n="119"/>
+               <!--7--> Ad secundum dicendum quod peccatum inquantum pec 
+      <lb ed="#L" n="120"/>catum non est causa peccati, sicut nec motus est causa motus 
+      <lb ed="#L" n="121"/>inquantum motus, nihil tamen prohibet aliquod peccatum 
+      <lb ed="#L" n="122"/>esse causam alterius secundum aliquid speciale repertum, in eo 
+      <lb ed="#L" n="123"/>scilicet, quia remouet prohibens, vt primum peccatum per 
+      <lb ed="#L" n="124"/>quod amittitur gratia, vel ratione specialis habitudinis actus 
+      <lb ed="#L" n="125"/>ad actum modis quibus dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

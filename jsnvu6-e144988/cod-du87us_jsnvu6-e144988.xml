@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="175-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e144988"><!-- l2d42q8 -->
+            <head xml:id="jsnvu6-e144988-Hd1e101">Quaestio 8</head>
+            <head xml:id="jsnvu6-e144988-Hd1e103" type="question-title">
+      Utrum peccata inter se sint paria
+    </head>
+            <p xml:id="jsnvu6-e144988-d1e106">
+               <lb ed="#L" n="125"/>QUARSTIO OCTAVA. 
+      <lb ed="#L" n="126"/>Vtrum peccata inter se sint paria. 
+      <lb ed="#L" n="127"/>Thom. i. 2. 4. 73. ar. 6. &amp; q. 105. ar. 2. ad nonum. 
+    </p>
+            <p xml:id="jsnvu6-e144988-d1e115">
+               <lb ed="#L" n="128"/>POSTMODVM quaeritur, vtrum peccata sint 
+      pa<lb ed="#L" n="129" break="no"/>ria. Et videtur quod sic, quia peccare est transgredi 
+      <lb ed="#L" n="130"/>regulam rationis, quae ita se habet ad actus 
+      hu<lb ed="#L" n="131" break="no"/>manos sicut regula linearis se habet ad actus 
+      cor<lb ed="#L" n="132" break="no"/>porales, ergo peccare simile est ei quod est lineas 
+      <lb ed="#L" n="133"/>transilire de qua prohibitum esset quod non transiliretur est 
+      aequa<lb ed="#L" n="134" break="no"/>liter &amp; vno modo etiam si aliquis propinquius stet, vel longius 
+      <lb ed="#L" n="135"/>recedat &amp; esset aequalis transgressio si praeceptum esset lineam 
+      <lb ed="#L" n="136"/>non transgredi, ergo peccare contingit aequaliter &amp; vno modo. 
+      </p>
+            <p xml:id="jsnvu6-e144988-d1e137">
+               <lb ed="#L" n="137"/>
+               <!--2.--> Item ibi videtur esse aequalis culpa vbi aequaliter priuatur 
+      <lb ed="#L" n="138"/>gratia. sed in omni peccato mortali aequaliter priuatur gratia, 
+      <lb ed="#L" n="139"/>quia totaliter, ergo omnia peccata mortalia sunt aequalia. 
+      </p>
+            <p xml:id="jsnvu6-e144988-d1e149">
+               <lb ed="#L" n="140"/>
+               <!--3--> IN CONTRARIVM est, quia sicut peccatum 
+      oppo<lb ed="#L" n="141" break="no"/>nitur virtuti, sic falsitas veritati, sed falso contingit dare magis 
+      <lb ed="#L" n="142"/>falsum, magis enim falsum est quod est falsum &amp; impossibile 
+      <lb ed="#L" n="143"/>quam falsum contingens, ergo est dare vnum peccatum peius altero. 
+      </p>
+            <p xml:id="jsnvu6-e144988-d1e162">
+               <lb ed="#L" n="144"/>
+               <!--4--> Ad idem est quod dicitur Ioan. 18. Propterea qui me 
+      tradi<lb ed="#L" n="145" break="no"/>dit tibi majus peccatum habet. constat autem quod Pylatus cui 
+      <lb ed="#L" n="146"/>hoc dictum fuit, aliquod peccatum habuit, ergo est dare aliquod 
+      <lb ed="#L" n="147"/>peccatum majus peccato. 
+      </p>
+            <p xml:id="jsnvu6-e144988-d1e175">
+               <lb ed="#L" n="148"/>
+               <!--5--> RESPONSIO. Dicendum quod peccata possunt comparari 
+      <lb ed="#L" n="149"/>quoad grauitatem tripliciter. Primo comparando adinuicem peccata 
+      <lb ed="#L" n="150"/>diuersorum generum, puta mortale ad veniale. Secundo 
+      compa<lb ed="#L" n="151" break="no"/>rando peccata diuersarum specierum sicut mortale mortali, puta 
+      <lb ed="#L" n="152"/>furtum homicidio, vel veniale veniali. Tertio comparando inuicem 
+      <lb ed="#L" n="153"/>peccata eiusdem speciei, puta furtum furto, vel mendacium 
+      men<lb ed="#L" n="154" break="no"/>dacio, quibuscunque autem modis comparantur peccata, 
+      di<lb ed="#L" n="155" break="no"/>cendum quod non sunt paria, sed est vnum grauius altero quod 
+      <lb ed="#L" n="156"/>apparet primo comparando veniale mortali sic: peccatum est 
+      pri<lb ed="#L" n="157" break="no"/>uatio debitae rectitudinis in actu, illud igitur in peccatis est 
+      pe<lb ed="#L" n="158" break="no"/>ius quod tollit ab actu rectitudinem magis debitam, sed peccatum 
+      <lb ed="#L" n="159"/>mortale tollit rectitudine ab actu magis debitum quam veniale, 
+      <!--00419.xml-->
+      <pb ed="#L" n="176-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ergo &amp;c. Maior patet, sed minor probatur, quia peccatum 
+      mor<lb ed="#L" n="2" break="no"/>tale priuat rectitudinem debitae subiectionis ad Deum, vel 
+      de<lb ed="#L" n="3" break="no"/>bitae charitatis &amp; societatis ad proximum, vt patet ex 
+      praece<lb ed="#L" n="4" break="no"/>dentibus. Veniale autem puta mendacium iocosum talem 
+      re<lb ed="#L" n="5" break="no"/>ctitudinem quae in actibus humanis est maxime debita non 
+      <lb ed="#L" n="6"/>priuat, licet priuet rectum ordinem signi ad suum signatum 
+      <lb ed="#L" n="7"/>quae in moribus non est adeo debita sicut prima, qual e &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e144988-d1e227">
+               <lb ed="#L" n="8"/>
+               <!--6--> Secundo patet idem comparando peccata eiusdem generis 
+      <lb ed="#L" n="9"/>sed diuersarum specierum puta comparando peccata mortalia 
+      <lb ed="#L" n="10"/>diuersarum specierum inter se, quia deordinatio quae est circa 
+      <lb ed="#L" n="11"/>finem peior est &amp; grauior deordinatione quae contingit circa 
+      <lb ed="#L" n="12"/>ea quae sunt ad finem, quia ordo &amp; rectitudo eorum quae sunt ac 
+      <lb ed="#L" n="13"/>finem sumitur ex fine, sed inter peccata mortalia quaedam diue 
+      <lb ed="#L" n="14"/>cte deordinant ab ipso fine, quaedam vero in his quae sunt ad 
+      fi<lb ed="#L" n="15" break="no"/>nem, verbi gratia, res exteriores ordinantur ad hominem 
+      tan<lb ed="#L" n="16" break="no"/>quam ad finem qui vltimo ordinatur ad Deum, vnde peccatun 
+      <lb ed="#L" n="17"/>quod directe deordinat nos circa Deum sicut infidelitas vel blas 
+      <lb ed="#L" n="18"/>phemia est grauissimum, quia contra finem vltimum. Deinde illud 
+      <lb ed="#L" n="19"/>quod committitur in proximum quantum ad eius personam (sicul 
+      <lb ed="#L" n="20"/>homicidium) quia homo est finis sub fine. Vitimo illud quod 
+      <lb ed="#L" n="21"/>deordinat circa res exteriores vt furtum, quia res exteriores 
+      so<lb ed="#L" n="22" break="no"/>lum habent rationem eius quod est ad finem, ideo &amp;c. Quo 
+      <lb ed="#L" n="23"/>autem dictum est quod non omne peccatum mortale deordinat a 
+      <lb ed="#L" n="24"/>fine intelligendum est obiectiue, quia non omne peccatum habe 
+      <lb ed="#L" n="25"/>finem pro obiecto meritorie, aut omne peccatu mortale a fini 
+      <lb ed="#L" n="26"/>&amp; consecutione finis deordinat. Item circa eandem materiani 
+      <lb ed="#L" n="27"/>contingit virtus &amp; vitium opposito modo, &amp; forte priuatio, 
+      qui<lb ed="#L" n="28" break="no"/>actus redditur viciosus ex sola carentia perfectionis debita 
+      <lb ed="#L" n="29"/>actui virtuoso, sed in virtutibus vna inuenitur potior alia, sicu 
+      <lb ed="#L" n="30"/>iustitia praeeminet inter omnes virtutes morales vt dicit Tul 
+      <lb ed="#L" n="31"/>lius libro de officiis ergo inter vitia vnum est grauius alio. Pro 
+      <lb ed="#L" n="32"/>batur consequentia, quia priuationes correspondent habitibus
+</p>
+            <p xml:id="jsnvu6-e144988-d1e286">
+               <lb ed="#L" n="33"/>Tertio patet idem comparando peccata eiusdem speciei 
+      in<lb ed="#L" n="34" break="no"/>ter se, primo ex parte peccantis, quia actus intensior in boni 
+      <lb ed="#L" n="35"/>est melior, &amp; in malis peior, sed duorum peccantium secundum 
+      <lb ed="#L" n="36"/>eandem speciem peccati contingit voluntatem vnius intensiu 
+      <lb ed="#L" n="37"/>ferri in obiectum quam voluntatem alterius, quare &amp;c. 
+      Maio<lb ed="#L" n="38" break="no"/>patet, sed minor probatur, sunt enim aliquae causae quae augen 
+      <lb ed="#L" n="39"/>voluntarium sicut habitus viciosus. Quaedam vero diminuunt 
+      <lb ed="#L" n="40"/>ipsum &amp; miscent cum inuoluntario sicut motus violentus, &amp; 
+      <lb ed="#L" n="41"/>similiter ignorantia quae tollit iudicium rationis, propter 
+      quo<lb ed="#L" n="42" break="no"/>intensius &amp; grauius peccat qui peccat ex habitu quam qui 
+      pec<lb ed="#L" n="43" break="no"/>cat ex ignorantia, metu vel violentia passionis. Idem patet 
+      se<lb ed="#L" n="44" break="no"/>cundo ex parte circunstantiarum sic ille actus est peior qui 
+      cor<lb ed="#L" n="45" break="no"/>rumpit plures bonas circunstantias quam qui vnam tantum, sed 
+      <lb ed="#L" n="46"/>inter peccata eiusdem speciei istud inuenitur quod vnus actus 
+      co<lb ed="#L" n="47" break="no"/>rumpit plures bonas circunstantias, Alius autem vnam tantum, 
+      <lb ed="#L" n="48"/>sicut prodigus qui dat cui non oportet &amp; quando non 
+      opor<lb ed="#L" n="49" break="no"/>tet plus omittit de circunstantus liberalitatis quam qui dat cui 
+      <lb ed="#L" n="50"/>oportet, sed non quando oportet, ergo &amp;c. Item secundum ean 
+      <lb ed="#L" n="51"/>dem circunstantiam in specie ille actus est peior cuius 
+      circumstan<lb ed="#L" n="52" break="no"/>tia est deterior, sed in peccatis eiusdem speciei circunstantia 
+      ea<lb ed="#L" n="53" break="no"/>dem secundum speciem potest esse in vno peior quam in alio, 
+      <lb ed="#L" n="54"/>sicut in furto. supposito enim quod res aliena sit furtiue ablata 
+      <lb ed="#L" n="55"/>quantitas rei auget vel minuit grauitatem furti, grauius enim 
+      <lb ed="#L" n="56"/>est subtrahere alicui multum quam parum, sicut econtrario 
+      <lb ed="#L" n="57"/>seruato modo virtutis virtuosius est dare multum quam 
+      pa<lb ed="#L" n="58" break="no"/>rum, ergo &amp;c. Patet igitur quod qualitercunque comparentur 
+      pec<lb ed="#L" n="59" break="no"/>cata non sunt paria, sed semper inuenitur, vel potest inueniri 
+      <lb ed="#L" n="60"/>inter ea inaequalitas. Et hoc est quod dicit beatus Aug. ad Hier. 
+      <lb ed="#L" n="61"/>clarissima disputatione tua satis apparuit non placuisse 
+      aucto<lb ed="#L" n="62" break="no"/>ribus nostris, imo nec ipsi veritati omnia peccata esse paria. 
+      </p>
+            <p xml:id="jsnvu6-e144988-d1e354">
+               <lb ed="#L" n="63"/>
+               <!--8--> AD PRIMVM argumentum dicendum quod ratio illa in 
+      <lb ed="#L" n="64"/>multis deficit. Primo quia regula rationis non est vna tantun 
+      <lb ed="#L" n="65"/>nec circa vnam materiam, sed circa plures. Et licet in omni 
+      ma<lb ed="#L" n="66" break="no"/>teria sit seruanda regula rationis, tamen magis est seruanda in 
+      <lb ed="#L" n="67"/>vna quam in alia, vt declaratum fuit in corpore quaestionis, 
+      pro<lb ed="#L" n="68" break="no"/>pter quod grauior est transgressio in vna quam alia, sicut de plu 
+      <lb ed="#L" n="69"/>ribus lineis prohibitis transgredi peius esset transgredi illam quae 
+      <lb ed="#L" n="70"/>esset prohibita sub poena mortis quam illam quae esset prohi 
+      <lb ed="#L" n="71"/>bita sub poena minore. Secundo, quia regula rationis circa vnam 
+      <lb ed="#L" n="72"/>&amp; eandem materiam respicit multa &amp; non vnum tantum. 
+      bo<lb ed="#L" n="73" break="no"/>num enim virtutis est ex obiecto &amp; omnibus circunstantiis, &amp; 
+      <lb ed="#L" n="74"/>ideo peior est transgressio omnium circunstantiarum quam vniu 
+      <lb ed="#L" n="75"/>tantum, non sic autem est de transitu lineae prohibitae, quia ibi 
+      <lb ed="#L" n="76"/>non est nisi vna mala circunstantia, s. u ansgressio prohibitio 
+      <lb ed="#L" n="77"/>nis. Tertio, quia licet peccatum semper sit quaedam 
+      transgressi<lb ed="#L" n="78" break="no"/>regulae rationis, tamen tota grauitas peccati non attenditur 
+      <lb ed="#L" n="79"/>ex sola transgressione, sed pensatur etiam ex maiori vel 
+      mino<lb ed="#L" n="80" break="no"/>ri voluntate transgredientis, ideo insufficienter arguitur. 
+      </p>
+            <p xml:id="jsnvu6-e144988-d1e399">
+               <lb ed="#L" n="81"/>
+               <!--9--> Ad secundum dicendum per interemptionem maioris, pe 
+      <lb ed="#L" n="82"/>omne enim peccatum mortale priuatur totaliter gratia, non qui¬ 
+      <!--00419.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>omnia sint paria, sed quia omne peccatum mortale natum est 
+      <lb ed="#L" n="84"/>tollere ordinem subiectionis ad Deum, vel foedus humanae 
+      socie<lb ed="#L" n="85" break="no"/>tatis ad proximum: talis autem qui sic facit, habendus est in 
+      ciui<lb ed="#L" n="86" break="no"/>litate tanquam hostis ad quem non habetur gratia. Et ideo, &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

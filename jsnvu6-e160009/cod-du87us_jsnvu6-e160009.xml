@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="195-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e160009"><!-- l3d7q1 -->
+            <head xml:id="jsnvu6-e160009-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e160009-Hd1e103" type="question-title">Utrum ista sit vera Deus factus est homo</head>
+            <p xml:id="jsnvu6-e160009-d1e106">
+      <!--00463.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>QVAESTIO PRIMA 
+      <lb ed="#L" n="82"/>Vtrum ista sit vera Deus factus est homo 
+      <lb ed="#L" n="83"/>πιρύαως.
+    </p>
+            <p xml:id="jsnvu6-e160009-d1e119">
+               <lb ed="#L" n="84"/>I1 CA distincdtionem septima, primo quaritus 
+      <lb ed="#L" n="85"/>de locutionibus exprimentibus incarnationem. 
+      <lb ed="#L" n="86"/>Et primo quaeritur vtrum ista sit vera Deus 
+      fa<lb ed="#L" n="87" break="no"/>Ictus est homo. Et arguitur quod non quia qui non 
+      <lb ed="#L" n="88"/>qui est factus, non est factus homo a destructione 
+      supe<lb ed="#L" n="89" break="no"/>rioris, sed Deus non est factus, ergo Deus non est factus homo. 
+      </p>
+            <p xml:id="jsnvu6-e160009-d1e135">
+               <lb ed="#L" n="90"/>
+               <!--2.--> Item si Deus factus est homo, Deus est homo: quia in 
+      per<lb ed="#L" n="91" break="no"/>manentibus res est quando facta est, sed Deus non est homo, ergo 
+      <lb ed="#L" n="92"/>non est factus homo. Probatio minoris si haec esset vera, Deus 
+      <lb ed="#L" n="93"/>est homo, aut esset vera per se, aut per accidens: non per se, quia 
+      <lb ed="#L" n="94"/>in omni propositione per se praedicatum dicitur de omni eo de 
+      <lb ed="#L" n="95"/>quo dicitur subiectum. Sed homo non dicitur de omni eo de quo 
+      <lb ed="#L" n="96"/>dicitur Deus, quia Pater dicitur Deus, nec tamen dicitur homo, 
+      <lb ed="#L" n="97"/>ergo ista Deus est homo non est vera per se, nec per accidens, quia 
+      <lb ed="#L" n="98"/>omnis praedicatio per accidens, vel est vera ratione inhaerentiae 
+      <lb ed="#L" n="99"/>praedicati ad subiectum, vel ratione extrinsecae denominationis, 
+      <lb ed="#L" n="100"/>sed natura humana non inest diuinae, nec aduenit extrinsece: vt 
+      <lb ed="#L" n="101"/>patet ex praecedenti quaestione, ergo non est vera per accidens. 
+      </p>
+            <p xml:id="jsnvu6-e160009-d1e167">
+               <lb ed="#L" n="102"/>
+               <!--3--> Item fieri hominem aut attribuitur Deo, vt subiecto 
+      factio<lb ed="#L" n="103" break="no"/>nis, aut vt termino: non vt subiecto, quia omne fieri in subiecto 
+      <lb ed="#L" n="104"/>supposito mutari, Deus autem immutabilis est, nec vt 
+      termi<lb ed="#L" n="105" break="no"/>no, quia terminus actionis non praecedit actionem. Sed Deus 
+      <lb ed="#L" n="106"/>praecessit hoc quod est fieri hominem, ergo non potest ipsi 
+      at<lb ed="#L" n="107" break="no"/>tribui vt termino, ergo nullo modo. 
+      </p>
+            <p xml:id="jsnvu6-e160009-d1e185">
+               <lb ed="#L" n="108"/>
+               <!--4--> IN CONTRARIVM est quod dicitur Ioan. i. Ver 
+      <lb ed="#L" n="109"/>bum caro factum est, id est, filius Dei factus est homo, &amp; in 
+      sym<lb ed="#L" n="110" break="no"/>bolo Niceno dicitur de filio Dei quod homo factus est. 
+</p>
+            <p xml:id="jsnvu6-e160009-d1e196">
+               <lb ed="#L" n="111"/>RESPONSIO. Duo sunt facienda circa quaestionem 
+      <lb ed="#L" n="112"/>istam, quia primo excludetur sensus improprius secundum quem 
+      <lb ed="#L" n="113"/>aliqui verificant has propositiones, Deus factus est homo, &amp; 
+      <lb ed="#L" n="114"/>homo factus est Deus, &amp; secundo declarato quis sit sensus 
+      pro<lb ed="#L" n="115" break="no"/>prius inquiretur de veritate earum secundum illum sensum. 
+      </p>
+            <p xml:id="jsnvu6-e160009-d1e209">
+               <lb ed="#L" n="116"/>
+               <!--6--> QUANTVM ad primum sciendum est quod aliqui dicunt. 
+      <lb ed="#L" n="117"/>quod ly factus est potest esse determinatio totius compositionis, vt 
+      <lb ed="#L" n="118"/>sit sensus Deus est factus homo, &amp; homo factus est Deus, hoc 
+      <lb ed="#L" n="119"/>est, factum est quod Deus est homo, &amp; homo est Deus, &amp; in hoc 
+      <lb ed="#L" n="120"/>sensu vera est vtraque propositio, &amp; sic loquitur beatus Aug. 
+      <lb ed="#L" n="121"/>vbi dicit, quod talis fuit illa vnio quae faceret Deum hominem, &amp; 
+      <lb ed="#L" n="122"/>hominem Deum: quia per illam vnionem factum est, quod Deus 
+      <lb ed="#L" n="123"/>est homo, &amp; homo Deus. Alio modo ly factum potest 
+      determi<lb ed="#L" n="124" break="no"/>nare solum subiectum, vel solum praedicatum, vt sit sensus, Deus 
+      <lb ed="#L" n="125"/>factus est homo, vel homo factus est Deus, &amp; similiter ex parte 
+      <lb ed="#L" n="126"/>praedicati Deus est homo factus, vel homo est Deus factus, &amp; 
+      <lb ed="#L" n="127"/>in hoc sensu vtraque propositio falsa est, quia ponit factionem sim 
+      <lb ed="#L" n="128"/>pliciter circa suppositum diuinum quod importatur nomine 
+      <lb ed="#L" n="129"/>Dei, vel nomine hominis in supposito. Est autem ibi falsitas, non 
+      <lb ed="#L" n="130"/>propter principalem compositionem. Sed propter falsam impli 
+      <lb ed="#L" n="131"/>cationem ex parte subiecti, vel praedicati, sicut ista est falsa. Sor 
+      <lb ed="#L" n="132"/>tes albus currit dato quod curreret non esset tamen albus. 
+      <lb ed="#L" n="133"/>Neutrum autem istorum est bene dictum. Non primum, quia 
+      <lb ed="#L" n="134"/>ly factus est, non est de his quae determinant compositionem: 
+      <lb ed="#L" n="135"/>sicut possibile, necessarium, vel contingens: &amp; ideo non est 
+      pro<lb ed="#L" n="136" break="no"/>prie resolutio istarum propositionum Deus factus est homo, vel 
+      <lb ed="#L" n="137"/>homo factus est Deus in hanc factum est quod Deus sit homo, 
+      <lb ed="#L" n="138"/>vel homo Deus quamuis Augu. isto modo vtatur, Nec 
+      secun<lb ed="#L" n="139" break="no"/>dum valet, quia hoc totum factus est locum tenet vnius 
+      co<lb ed="#L" n="140" break="no"/>pulae verbalis. Est enim suppletio praeteriti huius verbi sio sis
+</p>
+            <p xml:id="jsnvu6-e160009-d1e268">
+               <lb ed="#L" n="141"/>Et ideo sicut pro instanti incarnationis quaereremus de ista 
+      <lb ed="#L" n="142"/>Deus fit homo, vel homo fit Deus, ita quod ly fit esset 
+      copul<lb ed="#L" n="143" break="no"/>puta verbalis coniungens subiectum cum praedicato, &amp; non 
+      <lb ed="#L" n="144"/>esset determinatio praedicati, vel subiecti: ita pro nunc quaeri 
+      <lb ed="#L" n="145"/>mus vtrum haec sit vera Deus factus est homo, vtendo hoc 
+      <lb ed="#L" n="146"/>toto factus est pro sola copula verbali quam non licet 
+      diuide<lb ed="#L" n="147" break="no"/>re. Sic vt lyfactus sit determinatio praedicati, vel subiecti: &amp;l 
+      <lb ed="#L" n="148"/>est sic copula quemadmodum alij dicunt. Sed hoc totum 
+      fa<lb ed="#L" n="149" break="no"/>ctus est, est solum vna copula, &amp; sic patet primum 
+</p>
+            <p xml:id="jsnvu6-e160009-d1e290">
+               <lb ed="#L" n="150"/>QUANTVM ad secundum dicendum quod haec est 
+      ver<lb ed="#L" n="151" break="no"/>Deus factus est homo, quod patet sic: omne quod nunc est aliquid 
+      <lb ed="#L" n="152"/>quod prius non fuit potest dici factum illud, sed filius Dei nunc 
+      <lb ed="#L" n="153"/>est homo, &amp; quandoque prius non fuit homo, ergo potest dici qui 
+      <lb ed="#L" n="154"/>filius Dei, vel Deus factus est homo. Ad cuius ampliorem 
+      de<lb ed="#L" n="155" break="no"/>clarationem notandum est quod fieri, vel factum esse quandoque 
+      <lb ed="#L" n="156"/>attribuitur alicui absolute sine determinatione aliqua, vt si 
+      di<lb ed="#L" n="157" break="no"/>catur: Sortes factus est, quandoque vero cum determinatione 
+      addi<lb ed="#L" n="158" break="no"/>ta, vt si dicatur: Sortes factus est albus, vel Sortes factus est 
+      mi<lb ed="#L" n="159" break="no"/>hi, ppe. Primo modo ilud cui ateribuitur fieri, vel factu esse est 
+      <!--00464.xml-->
+      <pb ed="#L" n="195-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>terminus, vel intrinsece includit terminum factionis, quia cum fa 
+      <lb ed="#L" n="2"/>ctio non possit esse sine aliquo termino (Alioquin esset aliqua 
+      fa<lb ed="#L" n="3" break="no"/>ctio per quam nihil fieret) vbi autem fieri, vel factum esse attri 
+      <lb ed="#L" n="4"/>buitur alicui absolute nihil est ibi praeter factionem, nisi illud cui 
+      <lb ed="#L" n="5"/>factio attribuitur, ideo necessarium est quod illud sit factionis te 
+      <lb ed="#L" n="6"/>minus, vel intrinsece includat terminum. Isto autem modo non 
+      <lb ed="#L" n="7"/>potest fieri, vel factum esse attribui Deo. Cuius ratio est, quia cui 
+      <lb ed="#L" n="8"/>non potest attribui esse terminum factionis, vel includere ipsum 
+      <lb ed="#L" n="9"/>intrinsece illi non potest attribui absolute fieri, vel factum esse 
+      <lb ed="#L" n="10"/>sed Deus est huiusmodi, ergo &amp;c. Maior pater ex dictis. Mino 
+      <lb ed="#L" n="11"/>probatur; quia factio terminatur ad aliquod esse acquisitum pe 
+      <lb ed="#L" n="12"/>factionem. Sed per hoc nomen Deus non importatur aliquid esse 
+      <lb ed="#L" n="13"/>acquisitum per factionem, ergo Deus non potest esse terminus 
+      <lb ed="#L" n="14"/>factionis, &amp; haec fuit minor, sequitur ergo conclusio.
+    </p>
+            <p xml:id="jsnvu6-e160009-d1e352">
+               <lb ed="#L" n="15"/>Alio modo attribuitur alicui fieri, vel factum esse cum 
+      deter<lb ed="#L" n="16" break="no"/>minatione addita. Quod contingit dupliciter, vno modo 
+      quand<lb ed="#L" n="17" break="no"/>illa determinatio est subiectiue inhaerens, sicut dicitur: Sortes fie 
+      <lb ed="#L" n="18"/>ri albus, &amp; tunc illud cui attribuitur se habet in ratione subiecti 
+      <lb ed="#L" n="19"/>respectu factionis &amp; determinationis quae est terminus factionis 
+      <lb ed="#L" n="20"/>vt patet in exemplo iam dicto de Sorte albo, &amp; hoc modo non po 
+      <lb ed="#L" n="21"/>test fieri, vel factum esse conuenire Deo, quia omne quod se habe 
+      <lb ed="#L" n="22"/>ad factionem &amp; terminum factionis tanquam subiectum vere 
+      mu<lb ed="#L" n="23" break="no"/>tatur per factionem. Sed Deus est omnino immutabilis, ergo ipsi 
+      <lb ed="#L" n="24"/>non potest attribui fieri, vel factum esse hoc modo. Alio modo 
+      <lb ed="#L" n="25"/>quando illa determinatio non se habet inhaerenter, sed relatiue: 
+      <lb ed="#L" n="26"/>vt si dicatur quod Sortes est factus mihi prope, &amp; tunc non 
+      opor<lb ed="#L" n="27" break="no"/>tet quod omne illud cui attribuitur fieri, vel factum esse sit 
+      termi<lb ed="#L" n="28" break="no"/>nus vel subiectum factionis. Sed sufficit quod sit extremum 
+      relatio<lb ed="#L" n="29" break="no"/>nis, quae potest vni aduenire sine mutatione sui ex mutatione 
+      <lb ed="#L" n="30"/>alterius, sicut ergo factus prope Sortem ex sola mutatione Sor 
+      <lb ed="#L" n="31"/>tis, quia venit ad me, &amp; sic est in proposito. Cum enim dicitur 
+      <lb ed="#L" n="32"/>Deus factus est homo, fieri non attribuitur Deo absolute, nec 
+      <lb ed="#L" n="33"/>attribuitur ei cum determinatione inhaerente, sed cum 
+      determi<lb ed="#L" n="34" break="no"/>natione respectiua, quae est realiter in humana natura, ex eo o 
+      <lb ed="#L" n="35"/>non habet proprium subsistere, sed dependet ad personam 
+      di<lb ed="#L" n="36" break="no"/>uinam, in persona autem diuina est solum secundum rationem, 
+      <lb ed="#L" n="37"/>&amp; sic patet quod ista est vera Deus factus est homo. 
+      </p>
+            <p xml:id="jsnvu6-e160009-d1e404">
+               <lb ed="#L" n="38"/>
+               <!--10.--> Ad primum argumentum dicendum quod non sequitur Deu 
+      <lb ed="#L" n="39"/>non est factus, ergo non est factus homo, nec est locus 
+      dialecti<lb ed="#L" n="40" break="no"/>cus a superiori ad inferius negando, sed potius est fallacia 
+      se<lb ed="#L" n="41" break="no"/>cundum quid ad simpliciter, quia fieri sumptum absolute 
+      acci<lb ed="#L" n="42" break="no"/>pitur pro fieri simpliciter, sumptum autem cum determinatio 
+      <lb ed="#L" n="43"/>ne tenetur pro fieri secundum conditionem determinationis 
+      <lb ed="#L" n="44"/>licet autem natura humana det suppusito generis proprij essi 
+      <lb ed="#L" n="45"/>simpliciter. Tamen supposito diuino dat solum esse secundum 
+      <lb ed="#L" n="46"/>quid, quia aduenit &amp; in actu perfecto. Et ideo cum infertur Deu 
+      <lb ed="#L" n="47"/>non est factus, ergo non est factus homo, negatur factio secundum 
+      <lb ed="#L" n="48"/>quid ex negatione factionis simpliciter. Si autem fieri absolut 
+      <lb ed="#L" n="49"/>sumptum teneretur pro fieri quod est commune ad fieri 
+      simpli<lb ed="#L" n="50" break="no"/>citer, &amp; secundum quid, tunc ex negatione eius absoluta posset 
+      <lb ed="#L" n="51"/>inferri negatio cuiuslibet fieri simpliciter, &amp; secundum quid, sed 
+      <lb ed="#L" n="52"/>modus loquendi hoc non habet. 
+      </p>
+            <p xml:id="jsnvu6-e160009-d1e441">
+               <lb ed="#L" n="53"/>
+               <!--11--> Ad secundum dicendum quod ista est vera Deus est homo, vi 
+      <lb ed="#L" n="54"/>patet ex praecedentibus. Et cum dicitur aut est vera per se, aui 
+      <lb ed="#L" n="55"/>per accidens. Respondetur communiter quod si attendatur ad su 
+      <lb ed="#L" n="56"/>positum sic est per se, quia suppositum habens deitatem iden 
+      <lb ed="#L" n="57"/>per essentiam est habens humanitatem. Sed quantum ad forma 
+      <lb ed="#L" n="58"/>importatas per terminos est per accidens. Quia Deus 
+      secun<lb ed="#L" n="59" break="no"/>dum quod Deus, siue in eo quod habens deitatem non est homo 
+      <lb ed="#L" n="60"/>Si enim Deus secundum quod Deus esset homo, Deus non posset, 
+      <lb ed="#L" n="61"/>non esse homo quod est falsum. Quod autem istorum proprius 
+      <lb ed="#L" n="62"/>sit dicendum, puto quod magis proprie posset dici per accidens 
+      <lb ed="#L" n="63"/>quam per se, quia omnis propositio vera per se, vera est cum 
+      <lb ed="#L" n="64"/>reduplicatione termini supra se. Sicut homo secundum quod hom 
+      <lb ed="#L" n="65"/>est animal, &amp; secundum quod homo est risibilis, quia illud quod 
+      <lb ed="#L" n="66"/>importatur formaliter per subiectum est ratio inhaerentiae 
+      prae<lb ed="#L" n="67" break="no"/>dicati cum subiecto. Sed non potest dici quod Deus secundum quod 
+      <lb ed="#L" n="68"/>Deus est homo, quia quod importatur formaliter in nomine 
+      <lb ed="#L" n="69"/>Dei non est ratio conuenientiae praedicati cum subiecto, sed se 
+      <lb ed="#L" n="70"/>la vnitas suppositi, quae etiam in propositionibus per accidens 
+      <lb ed="#L" n="71"/>est tota causa verificationis. Propter quod talis propositio 
+      ma<lb ed="#L" n="72" break="no"/>gis est dicta per accidens quam per se, non propter hoc quod 
+      <lb ed="#L" n="73"/>humana natura sit accidens, aut adueniat inhaerenter vel 
+      ex<lb ed="#L" n="74" break="no"/>trinsece ad modum habitus, sed quia aduenit enti in anctu, 
+      ne<lb ed="#L" n="75" break="no"/>formaliter importatur nomine hominis, illud quod formaliter 
+      <lb ed="#L" n="76"/>importatur nomine Dei, nec econuerso. 
+      </p>
+            <p xml:id="jsnvu6-e160009-d1e498">
+               <lb ed="#L" n="77"/>
+               <!--12--> Ad tertium dicendum quod cum dicitur Deus factus est 
+      <lb ed="#L" n="78"/>homo, fieri non attribuitur Deo vt subiecto factionis, nec vt 
+      te<lb ed="#L" n="79" break="no"/>mino acquisito per factionem, sed attribuitur ei vt extremo 
+      <lb ed="#L" n="80"/>ad quod terminus factionis realem habitudinem ratione 
+      cu<lb ed="#L" n="81" break="no"/>ius attribuitur ipsi fieri non simpliciter, nec per inhaerentiam 
+      <lb ed="#L" n="82"/>sed per habitudinem relatiuam sicut declaratum fuit prius. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

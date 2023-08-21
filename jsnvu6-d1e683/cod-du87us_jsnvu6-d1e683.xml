@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="35-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e683"><!-- l1d10prae -->
+            <head xml:id="jsnvu6-d1e683-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e683-d1e103">
+               <lb ed="#L" n="31"/>Diuisio textus in generali &amp; speciali 
+      <lb ed="#L" n="32"/>Distinctionis X. 
+    </p>
+            <p xml:id="jsnvu6-d1e683-d1e110">
+               <lb ed="#L" n="33"/>NVNC post filij aeternitatem. Superius magiste 
+      <lb ed="#L" n="34"/>determinauit de filij generatione in ista parte 
+      <lb ed="#L" n="35"/>determinat de Spi. san. processione. Et diuidi 
+      <lb ed="#L" n="36"/>tur in duas partes. Primo determinat de 
+      proces<lb ed="#L" n="37" break="no"/>sione eius aeterna. Secundo de temporali. 
+      Secun<lb ed="#L" n="38" break="no"/>da in principio decima. 4. distinctione. Praeterea diligenter. 
+      Pri<lb ed="#L" n="39" break="no"/>ma diuiditur in tres. Primo enim determinat processionis 
+      mo<lb ed="#L" n="40" break="no"/>dum. Secundo processionis principium. Tertio distinguit 
+      pro<lb ed="#L" n="41" break="no"/>cessionem &amp; generationem. Secunda in principio distinctionis 
+      <lb ed="#L" n="42"/>Tertia ibi, post hoc considerandum. Prima est praesentis lectio 
+      <lb ed="#L" n="43"/>nis. Et diuiditur in quatuor partes. Primo enim proponit quod 
+      <lb ed="#L" n="44"/>amor in diuinis Spiritui sancto attribuitur. Secundo declara 
+      <lb ed="#L" n="45"/>per simile. Tertio confirmat per autoritatem canonis. Quarte 
+      <lb ed="#L" n="46"/>oconfirmat per autoritatem sanctorum. Secunda ibi, in pluribus 
+      <lb ed="#L" n="47"/>enim exemplis. Tertia ibi, sed Dei verbis. Quarta ibi. Nunc ve 
+      <lb ed="#L" n="48"/>ro quae incepimus ostendere. Haec est sententia &amp; diuisio in 
+      <lb ed="#L" n="49"/>generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e683-d1e149">
+               <lb ed="#L" n="50"/>
+               <!--2--> In speciali vero sic procedit, quia Spiritus sanctus est amo 
+      <lb ed="#L" n="51"/>vel dilectio patris &amp; filij, subditque quod nomen charitatis tri 
+      <lb ed="#L" n="52"/>bus personis in diuinitate conuenit, tamen sicut sapientia 
+      ap<lb ed="#L" n="53" break="no"/>propriatur filio ita charitas Spi. san. postea per simile hoc 
+      osten<lb ed="#L" n="54" break="no"/>dit dicens, quod sicut nomen legis quod commune est veteri 
+      <lb ed="#L" n="55"/>testamento appropriaturlegi Moysi. Postea confirmat 
+      canoni<lb ed="#L" n="56" break="no"/>cam Ioam. vt in serie literae habetur quod dilectio est Deus &amp; est 
+      <lb ed="#L" n="57"/>in Deo, &amp; facit nos in Deo manere. Et ita Spiritus sanctus est 
+      <lb ed="#L" n="58"/>dilectio. Postea probat per autoritatem sanctorum quod 
+      Spiri<lb ed="#L" n="59" break="no"/>tus sanctus est amor patris in filium &amp; vnitas &amp; communio ac 
+      <lb ed="#L" n="60"/>donum amborum, &amp; vnius essentiae, &amp; aequalis diuinitatis. Vl. 
+      <lb ed="#L" n="61"/>timo dicit quia Spiritus sanctus est vnio &amp; communio 
+      ambo<lb ed="#L" n="62" break="no"/>rum nomen charitatis, quia ambobus conuenit, sibi 
+      appropria<lb ed="#L" n="63" break="no"/>tur. Et in hoc terminatur sententia lectionis in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

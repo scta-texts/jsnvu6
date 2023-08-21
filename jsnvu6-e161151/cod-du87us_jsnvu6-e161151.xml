@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="196-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e161151"><!-- l3d8q1 -->
+            <head xml:id="jsnvu6-e161151-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e161151-Hd1e103" type="question-title">Utrum nasci competat naturae an 
+      personae</head>
+            <p xml:id="jsnvu6-e161151-d1e106">
+               <lb ed="#L" n="33"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="34"/>Vtrum nasci competat naturae an 
+      <lb ed="#L" n="35"/>personae. 
+      <lb ed="#L" n="36"/>Thom. 3. 4 35. a1. 2.
+    </p>
+            <p xml:id="jsnvu6-e161151-d1e117">
+               <lb ed="#L" n="37"/>CIRCA distinctionem istam quaeruntur 
+      tri<lb ed="#L" n="38" break="no"/>Primo cui competat nasci, vtrum naturae an 
+      per<lb ed="#L" n="39" break="no"/>ssonae. Secundum est, vtrum in Christo fuerin 
+      <lb ed="#L" n="40"/>duae natiuitates. Tertium, vtrum in Christo sint 
+      <lb ed="#L" n="41"/>duae filiationes. Ad primum sic proceditur. Et 
+      <lb ed="#L" n="42"/>videtur quod naturae humanae competat nasci, quia 
+      deno<lb ed="#L" n="43" break="no"/>minatio fit secundum conuenientiam, sed natura a nascendo 
+      <lb ed="#L" n="44"/>nomen suscepit: vt habetur 5. Metaphysicae, ergo ipsi 
+      pro<lb ed="#L" n="45" break="no"/>prie compeut nasci. 
+      </p>
+            <p xml:id="jsnvu6-e161151-d1e139">
+               <lb ed="#L" n="46"/>
+               <!--2.--> Item illud proprie nascitur quod per natiuitatem accipit 
+      <lb ed="#L" n="47"/>esse, sed per temporalem natiuitatem Christi persona non 
+      ac<lb ed="#L" n="48" break="no"/>cipit esse, sed natura humana, ergo videtur quod nasci magis 
+      <lb ed="#L" n="49"/>competat naturae quam personae. 
+      </p>
+            <p xml:id="jsnvu6-e161151-d1e153">
+               <lb ed="#L" n="50"/>
+               <!--3--> IN CONTRARIVM est quod dicit Dama hb, 
+      <lb ed="#L" n="51"/>nasci est hypostasis non naturae. 
+      </p>
+            <p xml:id="jsnvu6-e161151-d1e162">
+               <lb ed="#L" n="52"/>
+               <!--4--> RESPONSIO. Dicenda sunt duo. Primum est quid 
+      <lb ed="#L" n="53"/>sit nasci. Secundum est cui eonueniat. 
+      </p>
+            <p xml:id="jsnvu6-e161151-d1e171">
+               <lb ed="#L" n="54"/>
+               <!--4--> QUANTVM ad primum sciendum est, quod cum 
+      gene<lb ed="#L" n="55" break="no"/>rari commune sit omnibus, quae per viam naturae procedunt de 
+      <lb ed="#L" n="56"/>non esse ad esse, nasci tamen competit solum viuentibus quorum 
+      <lb ed="#L" n="57"/>generatio sortitur triplex nomen secundum specialia quae 
+      in<lb ed="#L" n="58" break="no"/>ueniuntur in ea. Primum enim speciale quod inuenitur in 
+      ge<lb ed="#L" n="59" break="no"/>neratione viuentium est quod aliquid descendit a generant. 
+      <lb ed="#L" n="60"/>quod est principium generationis, scilicet semen, vel aliquic 
+      <lb ed="#L" n="61"/>loco seminis. Sciendum est, quod generatio viuentium est pe 
+      <lb ed="#L" n="62"/>modum exitus cuiusdam a generate, &amp; secundum sequitur ac 
+      <lb ed="#L" n="63"/>primum. Tertium est, quod viuentia quandam colligationem 
+      <lb ed="#L" n="64"/>habent ad principium suae generationis, sicut colligatur fructu 
+      <lb ed="#L" n="65"/>arbori, vel embrio vel matrici. Ratione primi dicutur viuentia 
+      <lb ed="#L" n="66"/>gigni, genita esse, ratione secundi dicuntur oriri, &amp; istud etiam 
+      <lb ed="#L" n="67"/>non conuenit inanimatis nisi secundum quandam similitudi 
+      <lb ed="#L" n="68"/>nem, sicut sol dicitur oriri inquantum exit de occulto ad 
+      ma<lb ed="#L" n="69" break="no"/>nifestum. Ratione tertij dicuntur nasci: vnde &amp; nata dicuntu 
+      <lb ed="#L" n="70"/>quasi adnata, id est, coniuncta. Sic igitur natiuitas, vel nasci est 
+      <lb ed="#L" n="71"/>generatio, vel generati in viuentibus. 
+      </p>
+            <p xml:id="jsnvu6-e161151-d1e215">
+               <lb ed="#L" n="72"/>
+               <!--6--> HOC SVPPOSITO dicendum est, quantum ad 
+      se<lb ed="#L" n="73" break="no"/>cundum quod nasci proprie conuenit personae tanquam illi qui 
+      na<lb ed="#L" n="74" break="no"/>scitur, sed naturae conuenit tanquam illi quo nascitur. Et hoc 
+      <lb ed="#L" n="75"/>patet tripliciter accipiendo nasci pro eo quod est generari. Pri 
+      <lb ed="#L" n="76"/>mo sic, sicut se habet generare ad generationis principium, sic si 
+      <lb ed="#L" n="77"/>habet generari ad generationis terminum, sed generationis prin 
+      <!--00466.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="78"/>cipium, tanquam illud quod generat est suppositum, quia 
+      actio<lb ed="#L" n="79" break="no"/>nes sunt suppositorum. Natura autem est illud quo, vel cuius 
+      <lb ed="#L" n="80"/>virtute suppositum generat. Si enim generatio est opus 
+      natu<lb ed="#L" n="81" break="no"/>rae secundum Dama ergo similiter terminus gene rationis est 
+      sup<lb ed="#L" n="82" break="no"/>positum, tanquam illud quod generatur. Natura autem est 
+      il<lb ed="#L" n="83" break="no"/>lud quo suppositum generationem terminat. Secundo sic 
+      gene<lb ed="#L" n="84" break="no"/>ratio est via ad esse, ergo sicut competit alicui esse, ita &amp; 
+      gene<lb ed="#L" n="85" break="no"/>rari, sed suppositum proprie est. natura autem est illud quo 
+      sup<lb ed="#L" n="86" break="no"/>positum est, ergo suppositum est id quod generatur, natura au 
+      <lb ed="#L" n="87"/>tem illud quo generatur. Tertio sic, sicut se habet diuina 
+      na<lb ed="#L" n="88" break="no"/>tura in filio ad generationem aeternam, ex patre, sic se habet 
+      <lb ed="#L" n="89"/>natura humana in Christo ad generationem temporalem ex ma 
+      <lb ed="#L" n="90"/>tre, sed natura diuina non est illud quod generatur ex patre, sed 
+      <lb ed="#L" n="91"/>est id quo filius generationem terminat, ergo similiter natura 
+      <lb ed="#L" n="92"/>humana in ipso non est quod generatur ex matre, sed est illud 
+      <lb ed="#L" n="93"/>quo filius generationem terminat. Ex quo patet quod cum 
+      <lb ed="#L" n="94"/>generari in viuentibus sit idem quod nasci, suppositum est illud 
+      <lb ed="#L" n="95"/>quo nascitur. Sed natura est, illud quo nascitur. 
+      </p>
+            <p xml:id="jsnvu6-e161151-d1e276">
+               <lb ed="#L" n="96"/>
+               <!--7--> AD PRIMVM argumentum dicendum o 
+      denomi<lb ed="#L" n="97" break="no"/>natio motus &amp; actionis est a termino, non autem a fubiecto 
+      <lb ed="#L" n="98"/>nisi ratione termini, &amp; quia nasci est via ad naturam, ideo vnum 
+      <lb ed="#L" n="99"/>ex altero denominatur quamuis natura non sit illud quod 
+      nasci<lb ed="#L" n="100" break="no"/>tur, quia illud quod proprie nascitur non includit solum 
+      ter<lb ed="#L" n="101" break="no"/>minum, sed subiectum cum termino, vel aliquid se habens ad 
+      <lb ed="#L" n="102"/>modum subiecti secundum nostrum modum intelligendi¬ 
+      </p>
+            <p xml:id="jsnvu6-e161151-d1e296">
+               <lb ed="#L" n="103"/>
+               <!--8--> AD SECVNDVM dicendum, quod per 
+      tempora<lb ed="#L" n="104" break="no"/>lem natiuitatem Christi natura humana non accepit proprie 
+      <lb ed="#L" n="105"/>esse, sed oppositum mediante natura. Propter quod proprie 
+      <lb ed="#L" n="106"/>natura non dicitur nasci, sed suppositum ratione naturae. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

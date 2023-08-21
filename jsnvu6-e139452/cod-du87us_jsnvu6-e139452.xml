@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="169-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e139452"><!-- l2d39q3 -->
+            <head xml:id="jsnvu6-e139452-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-e139452-Hd1e103" type="question-title">Utrum voluntas naturaliter velit bonum</head>
+            <p xml:id="jsnvu6-e139452-d1e106">
+               <lb ed="#L" n="45"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="46"/>Vtrum voluntas naturaliter velit bonum. 
+      <lb ed="#L" n="47"/>Thom. 1. 2. q. 8. ar. 1. Gand quodl. 1. 9. 17.
+    </p>
+            <p xml:id="jsnvu6-e139452-d1e115">
+               <lb ed="#L" n="48"/>DEINDE quaeritur, vtrum voluntas 
+      natura<lb ed="#L" n="49" break="no"/>liter velit bonum. Et videtur quod non. Nullum 
+      <lb ed="#L" n="50"/>enim voluntarium est naturale, diuiditur enim 
+      <lb ed="#L" n="51"/>agens naturale contra voluntarium in principio 
+      <lb ed="#L" n="52"/>secundi Physicorum, sed omne velle est 
+      volun<lb ed="#L" n="53" break="no"/>tarium, ergo nullum est naturale.
+    </p>
+            <p xml:id="jsnvu6-e139452-d1e131">
+               <lb ed="#L" n="54"/>Item natura non assuescit in contrarium, vt dicitur a. Ethic. 
+      <lb ed="#L" n="55"/>sed homo per assuefactionem efficitur habilior ad malum 
+      vo<lb ed="#L" n="56" break="no"/>lendum, ergo non vult naturaliter bonum. 
+    </p>
+            <p xml:id="jsnvu6-e139452-d1e141">
+               <lb ed="#L" n="57"/>IN CONTRARIVM est quod dicit 
+      Am<lb ed="#L" n="58" break="no"/>brosius super illud ad Romanos I. Non quod volo borum illud 
+      <lb ed="#L" n="59"/>facio: dicit enim quod homo subditus peccato, facit quod non 
+      <lb ed="#L" n="60"/>vult, quia naturaliter vult bonum. Et arguitur per rationem, 
+      <lb ed="#L" n="61"/>quia peccata &amp; defectus sunt praeter naturam, vt dicitur 2. Physi. 
+      <lb ed="#L" n="62"/>sed velle malum est defectus quidam, &amp; peccatum, vt 
+      appa<lb ed="#L" n="63" break="no"/>ret ex praecedente quaestione, ergo velle malum est praeter 
+      na<lb ed="#L" n="64" break="no"/>turam voluntatis: id autem non esset nisi velle bonum inesset 
+      <lb ed="#L" n="65"/>ei naturaliter, ergo: &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-e139452-d1e163">
+               <lb ed="#L" n="66"/>RESPONSIO. Dicendum que quaestio potest intelligi 
+      <lb ed="#L" n="67"/>dupliciter. Vno modo, vtrum velle bonum insit naturaliter vo 
+      <lb ed="#L" n="68"/>luntati, hoc est secundum conuenientiam naturae. Alio modo, 
+      <lb ed="#L" n="69"/>vtrum velle bonum conueniat voluntati naturaliter, hoc est 
+      mo<lb ed="#L" n="70" break="no"/>do naturali, sicut igni conuenit ferri sursum naturaliter. Primo 
+      <lb ed="#L" n="71"/>modo intelligendo quaestionem, dicendum quod voluntas vult bo 
+      <lb ed="#L" n="72"/>num naturaliter, hoc est, secundum conuenientiam naturae, quia 
+      <lb ed="#L" n="73"/>illud per quod natura perficitur inest naturaliter, id est, secundum 
+      <lb ed="#L" n="74"/>conuenientiam naturae, sed natura voluntatis perficitur in volen 
+      <lb ed="#L" n="75"/>do bonum, &amp; intellectus in intelligendo verum, vt patet ex 
+      praece<lb ed="#L" n="76" break="no"/>dente quaest. ergo, &amp;c. Et econtrario error in intellectu, &amp; velle 
+      <lb ed="#L" n="77"/>malum est praeter naturam, imo contra naturam, id est, contra 
+      <lb ed="#L" n="78"/>conuenientiam naturae intellectus &amp; voluntatis. 
+      </p>
+            <p xml:id="jsnvu6-e139452-d1e194">
+               <lb ed="#L" n="79"/>
+               <!--5.--> Si autem quaestio intelligatur secundo modo, scilicet an vo¬ 
+      <!--00405.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>luntas velit bonum naturaliter, id est, modo naturali. Sic 
+      vi<lb ed="#L" n="81" break="no"/>dendum est quae sint conditiones agentis vel actionis naturalis, 
+      <lb ed="#L" n="82"/>quae videntur esse duae, vna est, quia actio naturalis non tendit 
+      <lb ed="#L" n="83"/>in praecognitum. Alia est, quod ipsa est determinata ad vnum &amp; 
+      <lb ed="#L" n="84"/>vno modo. Quantum ad primam conditionem patet quod vo 
+      <lb ed="#L" n="85"/>luntas non vult naturaliter bonum, quia non tendit per actum 
+      <lb ed="#L" n="86"/>volendi, nisi in cognitum. Quantum autem ad secundam 
+      con<lb ed="#L" n="87" break="no"/>ditionem considerandum eit, quod bonum (sub cuius ratione 
+      <lb ed="#L" n="88"/>est volitum quicquid est volitum) considerari potest 
+      secun<lb ed="#L" n="89" break="no"/>dum communem rationem boni, vel secundum eius aliquam 
+      <lb ed="#L" n="90"/>rationem specialem. Primo modo voluntas vult naturaliter 
+      <lb ed="#L" n="91"/>bonum. Quod patet, quia nullum peccatum potest esse in 
+      vo<lb ed="#L" n="92" break="no"/>luntate, nin praecedente aliquo defectu in ratione, vt 
+      proba<lb ed="#L" n="93" break="no"/>tum fuit supra, sed proposito bono secundum communem 
+      ratio<lb ed="#L" n="94" break="no"/>nem boni intellectui practico nullus defectus potest esse in 
+      ra<lb ed="#L" n="95" break="no"/>tione, quia sicut intellectus speculatiuus necessario assentit pri 
+      <lb ed="#L" n="96"/>mis principiis formatis in communibus terminis entis, nec circa 
+      <lb ed="#L" n="97"/>ea potest decipi, vt dicitur 4. Metaphys. sic intellectus practicus 
+      <lb ed="#L" n="98"/>primis principiis formatis in communibus terminis 
+      boninecessa<lb ed="#L" n="99" break="no"/>rio assentit in operabilibus, nec circa ea decipitur. Et ita bono 
+      <lb ed="#L" n="100"/>proposito secundum communem rationem boni, intellectui 
+      pra<lb ed="#L" n="101" break="no"/>ctico, nullus defectus potest esse in ratione practica, nec 
+      defe<lb ed="#L" n="102" break="no"/>ctus inconsiderationis, nec erroris, aut ignorantiae: ergo nullum 
+      <lb ed="#L" n="103"/>peccatum omnino potest esse in voluntate, posset autem in ipsa 
+      <lb ed="#L" n="104"/>esse peccatum, si ea non necessario &amp; determinate ferretur in 
+      <lb ed="#L" n="105"/>bonum sic propositum, sed libere posset refutare bonum sic 
+      obla<lb ed="#L" n="106" break="no"/>tum, ergo voluntas necessario, &amp; determinate &amp; vniformiter 
+      <lb ed="#L" n="107"/>fertur in bonum secundum communem rationem boni. 
+      Respe<lb ed="#L" n="108" break="no"/>ctu autem boni accepti in particulari non sic est, quia 
+      intelle<lb ed="#L" n="109" break="no"/>ctus practicus non necessario assentit tali bono, sed deliberat 
+      <lb ed="#L" n="110"/>an sit bonum, sicut deliberat medicus an pharmaca expediant 
+      <lb ed="#L" n="111"/>tali infirmo: potest etiam circa hoc decipi iudicando bonum 
+      <lb ed="#L" n="112"/>quod est malum, vel econtrario, secundum diuersas circunstar 
+      <lb ed="#L" n="113"/>tias. Et ideo voluntas non necessario &amp; determinate fertur in 
+      <lb ed="#L" n="114"/>tale bonum, sed potest libere refutare ipsum. 
+      </p>
+            <p xml:id="jsnvu6-e139452-d1e281">
+               <lb ed="#L" n="115"/>
+               <!--6--> Ad primum argumentum dicendum qued voluntarium 
+      diui<lb ed="#L" n="116" break="no"/>ditur contra naturale, quoad illa, respectu quorum habet 
+      volun<lb ed="#L" n="117" break="no"/>tas dominium sui actus, &amp; sic diuidit Philosoph. 2. Physi. agen 
+      <lb ed="#L" n="118"/>per artem contra agens naturale: ars enim est de factibilibus, 
+      <lb ed="#L" n="119"/>respectu quorum voluntas est libere mouens sic vel aliter, sed 
+      <lb ed="#L" n="120"/>respectu eorum in quae necessario fertur voluntas voluntarium 
+      <lb ed="#L" n="121"/>coincidit cum naturali quoad vltimam conditionem. 
+      </p>
+            <p xml:id="jsnvu6-e139452-d1e301">
+               <lb ed="#L" n="122"/>
+               <!--7--> Per idem patet ad secundum, quia per assuefactionem homo 
+      <lb ed="#L" n="123"/>non habilitatur ad volendum malum sub ratione mali, quia 
+      bi<lb ed="#L" n="124" break="no"/>num secundum rationem communem boni propositum necessario 
+      <lb ed="#L" n="125"/>est volitum, sed habilitatur ad volendum hoc, vel illud malum 
+      <lb ed="#L" n="126"/>sub aliqua particulari ratione boni, circa quam ratio decipitur. 
+      </p>
+            <p xml:id="jsnvu6-e139452-d1e317">
+               <lb ed="#L" n="127"/>
+               <!--8--> AVCTORITAS Ambrosij, &amp; ratio adducta post 
+      <lb ed="#L" n="128"/>oppositum probant quod bonum est volitum naturaliter, id est 
+      <lb ed="#L" n="129"/>secundum conuenientiam naturae. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

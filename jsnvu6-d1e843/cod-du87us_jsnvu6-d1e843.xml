@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="42-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e843"><!-- l1d14q2 -->
+            <head xml:id="jsnvu6-d1e843-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e843-Hd1e103" type="question-title">Utrum processio temporalis ponat in numerum cum aeterna</head>
+            <p xml:id="jsnvu6-d1e843-d1e106">
+               <lb ed="#L" n="112"/>QVALSTISSECVNS A. 
+      <lb ed="#L" n="113"/>Vtrum processio temporalis Spiritus sancti 
+      <lb ed="#L" n="114"/>ponat in numerum cum aeterna. 
+      <lb ed="#L" n="115"/>Tho. 1. q. 33. 
+    </p>
+            <p xml:id="jsnvu6-d1e843-d1e117">
+               <lb ed="#L" n="116"/>SECVNDO quaeritur, vtrum temporalis processio 
+      <lb ed="#L" n="117"/>ponat in numerum cum aeterna. Et videtur quod sic, 
+      <lb ed="#L" n="118"/>quaecunque habent adinuicem ordinem 
+      numeran<lb ed="#L" n="119" break="no"/>tur, quia ordo non est eiusdem ad se ipsum sed 
+      plu<lb ed="#L" n="120" break="no"/>rium. Sed processio temporalis habet ordinem ad 
+      <lb ed="#L" n="121"/>aeternam, quia est posterior ea, ergo ponit cum ea in numerum. 
+      </p>
+            <p xml:id="jsnvu6-d1e843-d1e133">
+               <lb ed="#L" n="122"/>
+               <!--2--> Item sicut se habet filius ad gonerationem passiuam ita 
+      Spi<lb ed="#L" n="123" break="no"/>ritus sanctus ad spirationem passiuam, sed generatio filij aeterna. 
+      <lb ed="#L" n="124"/>&amp; temporalis sunt realiter duae generationes, ergo processio 
+      Spi<lb ed="#L" n="125" break="no"/>ritus sanct: aeterna &amp; temporalis sunt realiter duae processiones. 
+      </p>
+            <p xml:id="jsnvu6-d1e843-d1e147">
+               <lb ed="#L" n="126"/>
+               <!--3--> IN CONTRARIVM arguitur, quia omnis 
+      proces<lb ed="#L" n="127" break="no"/>sio Spiritus sancti est a Patre &amp; Filio, illa autem non potest esse 
+      <lb ed="#L" n="128"/>nisi vnica, ergo processio Spiritus fancti temporalis &amp; aeterna 
+      <lb ed="#L" n="129"/>non sunt duae processiones, sed tantum vna. 
+      </p>
+            <p xml:id="jsnvu6-d1e843-d1e160">
+               <lb ed="#L" n="130"/>
+               <!--4--> RESPONSIO. Si processio temporalis spiri. san: esset 
+      <lb ed="#L" n="131"/>processio qua aliquod donum procedit a Spiriru sancto in creatu 
+      <lb ed="#L" n="132"/>ram temporaliter sicut nonnulli imaginantur, tunc certum esset 
+      <lb ed="#L" n="133"/>quod processio temporalis &amp; aeterna essent duae processione, 
+      <lb ed="#L" n="134"/>realiter differentes, nec mirum, vbicunque enim sunt 
+      proceden<lb ed="#L" n="135" break="no"/>tia realiter differentia ibi processiones realiter differunt, sed sic 
+      <lb ed="#L" n="136"/>esset in processione aeterna &amp; temporali supradicto modo 
+      ac<lb ed="#L" n="137" break="no"/>ceptis, ergo &amp;c. Minor probatur, quia procedens processione 
+      <lb ed="#L" n="138"/>aeterna est persona diuina, procedens vero processione temporali 
+      <lb ed="#L" n="139"/>est aliquod donum creatum &amp; haec differunt realiter vt de se patet 
+      </p>
+            <p xml:id="jsnvu6-d1e843-d1e186">
+               <lb ed="#L" n="140"/>
+               <!--5--> Sed quia haec opinio reprobata est prius, ideo dicendum est 
+      <lb ed="#L" n="141"/>realiter quod quaestio potest intelligi dupliciter. Vno modo 
+      <lb ed="#L" n="142"/>processio temporali &amp; aeterna ponant in numerum 
+      processio<lb ed="#L" n="143" break="no"/>num, ita quod sint duae processiones realiter differentes. Alio 
+      <lb ed="#L" n="144"/>modo quod ponant in numerum non quidem processionum 
+      <lb ed="#L" n="145"/>sed in qualemcunque numerum rerum vel rei rationis. Si primo 
+      <lb ed="#L" n="146"/>modo intelligatur quaestio, sic dico quod processio temporalis 
+      <lb ed="#L" n="147"/>non ponit in numerum cum aeterna, quia non sunt duae reales 
+      <lb ed="#L" n="148"/>processiones sed tantum vna, quod patet sic, per realem 
+      processio<lb ed="#L" n="149" break="no"/>nem fit aliquid reale in persona procedente absolutum vel 
+      re<lb ed="#L" n="150" break="no"/>latum. In diuinis enim persona quae procedit ab alia per proces 
+      <lb ed="#L" n="151"/>sionem habet quicquid habet absolutum vel relatum a 
+      perso<lb ed="#L" n="152" break="no"/>na a qua procedit, ergo per aliam &amp; aliam realem procession 
+      <lb ed="#L" n="153"/>fit aliud realiter in procedente, sed per procesßionem tempora 
+      <lb ed="#L" n="154"/>lem Spi. san. nihil fit reale absolutum vel relatum in Spi. sanct. 
+      <lb ed="#L" n="155"/>praeter illud quod est in ipso per processionem aeternam, erge 
+      <lb ed="#L" n="156"/>processio temporalis non est processio realiter distincta ab 
+      ae<lb ed="#L" n="157" break="no"/>terna. Et hoc quidem manifestu est ex praedictis, processio enim 
+      <lb ed="#L" n="158"/>aeterna dicit solum exitum personae a persona, processio vero 
+      <lb ed="#L" n="159"/>temporalis dicit illud idem cum nouo respectu ad creaturam 
+      <lb ed="#L" n="160"/>&amp; iste nouus respectus non potest dici secundum se processio 
+      <lb ed="#L" n="161"/>alioquin cum pater possit habere &amp; habeat quandoque hunc 
+      <lb ed="#L" n="162"/>nouum respectum ad creaturam; pater diceretur quandoque 
+      <lb ed="#L" n="163"/>temporaliter procedere, quod est falsum, totum ergo hoc, scilicet 
+      <!--00151.xml-->
+      <pb ed="#L" n="43-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>processio personae a persona cum nouo respectu ad creaturam 
+      <lb ed="#L" n="2"/>dicitur processio temporalis, processio aeterna quidem 
+      ratio<lb ed="#L" n="3" break="no"/>ne solius primi, sed temporalis ratione solius secundi, &amp; ita es 
+      <lb ed="#L" n="4"/>ibi vnica processio quae est aeterna ex primo, &amp; dicitur 
+      tem<lb ed="#L" n="5" break="no"/>poralis ex secundo. 
+</p>
+            <p xml:id="jsnvu6-d1e843-d1e260">
+               <lb ed="#L" n="6"/>Si autem quae dis inteis atur cecundo modo ic adius. ai 
+      <lb ed="#L" n="7"/>cendum quod processio temporalis &amp; aeterna non ponunt 
+      innu<lb ed="#L" n="8" break="no"/>merum reru, quia nec sunt duae res, nec vna includit super aliam 
+      <lb ed="#L" n="9"/>aliquam rem, quod patet, quia praeter processionem aeternam 
+      <lb ed="#L" n="10"/>nihil est ibi nisi respectus nouus ad ereaturam, ille autem resp 
+      <lb ed="#L" n="11"/>ctus non est realis, sed solum secundum rationem &amp;c. 
+      Verunta<lb ed="#L" n="12" break="no"/>men licet processio temporalis non sit alia res nec aliam reu 
+      <lb ed="#L" n="13"/>includat intrinsece, connotat tamen aliam rem intrinsecem. 
+      Ho<lb ed="#L" n="14" break="no"/>autem donum est aliquid in creatura, quia persona diuina non 
+      <lb ed="#L" n="15"/>se habet nouo modo ad creaturam obiectiue nisi, quia creatu 
+      <lb ed="#L" n="16"/>ra se habet nouo modo ad Deum per aliquid receptum in 
+      e<lb ed="#L" n="17" break="no"/>subiectiue. Et est simile Deus &amp; Deus creans non sunt duo dij 
+      <lb ed="#L" n="18"/>nec duae res, &amp; tamen Deus creans connotat extrinsece aliam 
+      <lb ed="#L" n="19"/>rem, scilicet creaturam. Similiter est in proposito vt visum est, 
+      <lb ed="#L" n="20"/>Si autem quaestio intelligatur de qualicuque numero, scilicet re 
+      <lb ed="#L" n="21"/>vel rationis, sic processio temporalis ponit in numerum cum 
+      aeter<lb ed="#L" n="22" break="no"/>na non ita quod vna processio puta aeterna sit tantum res &amp; alia 
+      <lb ed="#L" n="23"/>scilicet temporalis fit tantum ratio, sed quia supra processioni 
+      <lb ed="#L" n="24"/>aeternam quae vera res est processio temporalis addit 
+      respe<lb ed="#L" n="25" break="no"/>ctum ad creaturam quae est solum secundum rationem. 
+    </p>
+            <p xml:id="jsnvu6-d1e843-d1e306">
+               <lb ed="#L" n="26"/>AD PRIMVM argumentum dicendum quod ordo pro 
+      <lb ed="#L" n="27"/>cessionis temporalis ad aeternam est solum ratione connotati. 
+      <lb ed="#L" n="28"/>ex quo consurgit circa personam diuinam procedentem respi 
+      <lb ed="#L" n="29"/>ctus nouus, licet secundum rationem &amp; per consequens num 
+      <lb ed="#L" n="30"/>rus rei &amp; rationis vel eiusdem accepti solum secundum rem ad 
+      <lb ed="#L" n="31"/>seipsum acceptum secundum nouam rationem. 
+    </p>
+            <p xml:id="jsnvu6-d1e843-d1e322">
+               <lb ed="#L" n="32"/>Ad secundum dicendum qued generatio filij aeterna &amp; 
+      tem<lb ed="#L" n="33" break="no"/>poralis non solum distinguuntur per respectum rationis 
+      super<lb ed="#L" n="34" break="no"/>additum sicut processio spir. san. temporalis &amp; aeterna, sed pe 
+      <lb ed="#L" n="35"/>diuersas naturas acceptas per hanc generationem &amp; illam, idec 
+      <lb ed="#L" n="36"/>generationes realiter distinguuntur sicut naturae per eas acce 
+      <lb ed="#L" n="37"/>ptae: non sic autem est ex alia parte. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

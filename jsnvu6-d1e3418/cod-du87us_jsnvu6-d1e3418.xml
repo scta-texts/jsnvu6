@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="148-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3418"><!-- l2d24q4 -->
+            <head xml:id="jsnvu6-d1e3418-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e3418-Hd1e103" type="question-title">Utrum ratio superior et inferior sint una potentia, an duae</head>
+            <p xml:id="jsnvu6-d1e3418-d1e106">
+               <lb ed="#L" n="29"/>QVAESTIO <unclear>QVINTA</unclear>. 
+      <lb ed="#L" n="30"/>Vtrum ratio superior &amp; inferior sint vna 
+      <lb ed="#L" n="31"/>potentia, an duae. 
+      <lb ed="#L" n="32"/>Thom. 1. 9. 79. ar. 8. 9 &amp; II.
+    </p>
+            <p xml:id="jsnvu6-d1e3418-d1e119">
+               <lb ed="#L" n="33"/>SECVNDO principaliter quaeritur, vtrum 
+      rati<lb ed="#L" n="34" break="no"/>superior &amp; inferior sint vna potentia, an duae. Et 
+      <lb ed="#L" n="35"/>videtur quod sint duae, quia regulans &amp; regulatum 
+      <lb ed="#L" n="36"/>differunt realiter, sed iatio superior regit &amp; 
+      mo<lb ed="#L" n="37" break="no"/>uet inferiorem, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3418-d1e132">
+               <lb ed="#L" n="38"/>
+               <!--2--> Item si non differunt nisi quia ratio superior intendit 
+      aeter<lb ed="#L" n="39" break="no"/>nis, inferior vero temporalibus: per eandem rationem posset 
+      <lb ed="#L" n="40"/>distingui oculus superior, inquantum respicit superiora, &amp; 
+      ocu<lb ed="#L" n="41" break="no"/>lus inferior, inquantum respicit inferiora: sed hoc non dicitur 
+      <lb ed="#L" n="42"/>ergo nec illud 
+      </p>
+            <p xml:id="jsnvu6-d1e3418-d1e149">
+               <lb ed="#L" n="43"/>
+               <!--3--> IN CONTRARIVM est quod dicit August. in 
+      lite<lb ed="#L" n="44" break="no"/>ra, quod cum de natura mentis humanae disserimus, de vna 
+      <lb ed="#L" n="45"/>quadam re disserimus, neque eam in superiorem, neque 
+      inferio<lb ed="#L" n="46" break="no"/>rem rationis partem nisi per officia geminamus. 
+      </p>
+            <p xml:id="jsnvu6-d1e3418-d1e162">
+               <lb ed="#L" n="47"/>
+               <!--4.--> RESPONSIO. Videndum est primo quid sit ratio 
+      su<lb ed="#L" n="48" break="no"/>perior &amp; inferior, quia per hoc patebit quod quaeritur. 
+      Rati<lb ed="#L" n="49" break="no"/>autem vt dictum est in praecedente quaestione nominat potentiam 
+      <lb ed="#L" n="50"/>discursiuam a principiis ad conclusiones. Principia autem ex 
+      qui<lb ed="#L" n="51" break="no"/>bus discurrit ratio speculatiua vel practica, vel sunt accepta 
+      na<lb ed="#L" n="52" break="no"/>turaliter sicut in speculabilibus de quolibet esse vel non esse, &amp; 
+      <lb ed="#L" n="53"/>omne totum est majus sua parte, &amp; in practicis quia nihil 
+      inho<lb ed="#L" n="54" break="no"/>nestum est faciendum, vel sunt accepta ex reuelatione, puta quod 
+      <lb ed="#L" n="55"/>deus est trinus in personis, &amp; vnus in essentia, &amp; sic de aliis 
+      arti<lb ed="#L" n="56" break="no"/>culis quo ad speculabilia, &amp; similiter quo ad operabilia, 
+      puta<lb ed="#L" n="57" break="no"/>nihil est committendum quo vita aeterna amittatur. Et quia al 
+      <lb ed="#L" n="58"/>tiora &amp; digniora sunt quae per reuelationem habentur, quam 
+      <lb ed="#L" n="59"/>quae naturaliter cognoscuntur, ideo ratio deducens aliquid es 
+      <lb ed="#L" n="60"/>principiis per reuelationem habitis, vocatur superior: deducens 
+      <lb ed="#L" n="61"/>vero practice vel speculatiue aliquid ex principiis naturalite 
+      <lb ed="#L" n="62"/>cognitis, vocatur ratio inferior. Et sic ratio tam inferior quan 
+      <lb ed="#L" n="63"/>superior includit tam speculatiuum quam practicum. Vnde 
+      Au<lb ed="#L" n="64" break="no"/>gust. dicit quod ratio superior est quae intendit aeternis 
+      conspicien<lb ed="#L" n="65" break="no"/>dis quo ad speculationem, vel consulendis quo ad operationem 
+      <lb ed="#L" n="66"/>inferior vero quae intendit temporalibus rebus, communius 
+      ta<lb ed="#L" n="67" break="no"/>men vtimur eis prout pertinent ad praxim siue ad operationem: 
+      <lb ed="#L" n="68"/>quia haec distinctio principaliter introducta est ad inquirendum 
+      <lb ed="#L" n="69"/>qualiter peccatum &amp; processus peccati consummetur in nobis 
+      <lb ed="#L" n="70"/>Ex hoc patet quod ratio superior &amp; inferior non sunt diuers. 
+      <lb ed="#L" n="71"/>potentiae animae, quia illa potentia cuius obiectum formale es 
+      <lb ed="#L" n="72"/>ens secundum rationem entis, non plurificatur secundum plu 
+      <lb ed="#L" n="73"/>rificationem specialium entium, sicut potentia visiua cuius ob 
+      <lb ed="#L" n="74"/>jectum formale est color, non plurificatur secundum 
+      plurifica<lb ed="#L" n="75" break="no"/>tionem specialium colorum. Sed intellectus habet pro formali 
+      <lb ed="#L" n="76"/>obiecto &amp; adaequato ens secundum communem rationem en 
+      <lb ed="#L" n="77"/>tis, vt patet ex tertio de anima, &amp; per Auic. qui dicit quod qu 
+      <lb ed="#L" n="78"/>non intelligit ens, nihil intelligit: ergo potentia intellectiua nor 
+      <lb ed="#L" n="79"/>distinguitur in diuersas potentias per hoc quod intendit aeter¬ 
+      <!--00364.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>nis conspiciendis vel consulendis, seu temporalibus 
+      disponen<lb ed="#L" n="81" break="no"/>dis. Nulla autem potentia praeter intellectum potest praedictis 
+      <lb ed="#L" n="82"/>intendere, ergo, &amp;c. Et confirmatur, quia deducere conclusioni 
+      <lb ed="#L" n="83"/>aliquam ex principiis necessariis, vel ex principiis 
+      contingenti<lb ed="#L" n="84" break="no"/>bus, non variat potentiam, sed habitus: quia vnum pertinet ad 
+      <lb ed="#L" n="85"/>scientiam, aliud vero ad opinionem: ergo similiter procedere ex 
+      <lb ed="#L" n="86"/>principiis naturaliter cognitis, vel per reuelationem habitis, non 
+      <lb ed="#L" n="87"/>variat potentiam, quamuis posset variare habitum: quia vnum 
+      <lb ed="#L" n="88"/>pertinet ad sapientiam, reliquum vero ad scientiam, prout de 
+      <lb ed="#L" n="89"/>sapientia &amp; scientia loquitur August. 
+      </p>
+            <p xml:id="jsnvu6-d1e3418-d1e264">
+               <lb ed="#L" n="90"/>
+               <!--6--> Ad primum argumentum dicendum quod ratio superior regit 
+      <lb ed="#L" n="91"/>inferiorem non quidem vt potentia potentiam, sed per actum 
+      <lb ed="#L" n="92"/>superioris rationis considerantis altiorem finem regitur &amp; 
+      di<lb ed="#L" n="93" break="no"/>rigitur actus inferioris rationis accedentis ad finem sub fine. 
+      </p>
+            <p xml:id="jsnvu6-d1e3418-d1e277">
+               <lb ed="#L" n="94"/>
+               <!--7--> AD SECVNDVM dicendum quod oculus materiali 
+      <lb ed="#L" n="95"/>per aspectum superiorem non regitur respectu inferioris sicu 
+      <lb ed="#L" n="96"/>oculus intellectualis, nec in aspectu superioris &amp; inferioris es 
+      <lb ed="#L" n="97"/>aliqua differentia quo ad actum, vel modum actus, vt sic possit 
+      <lb ed="#L" n="98"/>aliquis gradus ibi inueniri in ratione superiori &amp; inferiori. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

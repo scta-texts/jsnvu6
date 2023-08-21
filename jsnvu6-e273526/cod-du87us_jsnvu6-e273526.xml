@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="331-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e273526"><!-- l4d39prae -->
+            <head xml:id="jsnvu6-e273526-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e273526-d1e103">
+      <!--00736.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>Sententia huius distinctionis XXXI 
+      <lb ed="#L" n="84"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e273526-d1e114">
+               <lb ed="#L" n="85"/>POst haec de dispari cultu. Superius 
+      determina<lb ed="#L" n="86" break="no"/>uit magister de impedimentis matrimonij quae 
+      <lb ed="#L" n="87"/>faeiunt personam simpliciter illegitimam 
+      respe<lb ed="#L" n="88" break="no"/>ctu cuius liber personae: hic autem determinat 
+      <lb ed="#L" n="89"/>de impedimentis quae faciunt eam illegitmam 
+      <lb ed="#L" n="90"/>respectu aliquarum personarum. Et diuiditur in duas. Primi 
+      <lb ed="#L" n="91"/>determinat de disparitate cultus. Secundo de cognatione vel 
+      <lb ed="#L" n="92"/>propinquitate. Secunda 40. dist. nunc superest de cognatione. 
+      <lb ed="#L" n="93"/>Prima est principalis lectionis, &amp; diuiditur in duas. Primo de 
+      <lb ed="#L" n="94"/>terminat de matrimonio quod est in disparitate cultus scilicet 
+      infi<lb ed="#L" n="95" break="no"/>delis ad fidelem. Secundo de matrimonio quod est inter fide 
+      <lb ed="#L" n="96"/>les ibi, sunt tamen nonnulli. Primo ostendit quod fidelis eum 
+      <lb ed="#L" n="97"/>infideli non possit contrahere matrimonium. Secundo ponit 
+      <lb ed="#L" n="98"/>quandam obiectionem &amp; soluit, ex cuius solutione declaratu 
+      <lb ed="#L" n="99"/>an duorum infidelium matrimonio coniunctorum vnus ad si 
+      <lb ed="#L" n="100"/>dem conuersus possit relinquere non conuersum. Tertio 
+      in<lb ed="#L" n="101" break="no"/>quirit vtrum propter alia peccata posset vxor dimitti. 
+      Secun<lb ed="#L" n="102" break="no"/>da ibi, Si autem quaeris. Tertia ibi, Hic quaeritur. Prima habet 
+      <lb ed="#L" n="103"/>tres partes. Primo enim proponit intentum. Secundo oblici 
+      <lb ed="#L" n="104"/>in contrarium ibi, Huic videtur obuiare. Tertio soluit ibi, Sec 
+      <lb ed="#L" n="105"/>aliud hic esse, aliud illud. Tertia pars principalis habet tres 
+      <lb ed="#L" n="106"/>Primo enim mouet quaestionem intentam, &amp; objicit ad aliam par 
+      <lb ed="#L" n="107"/>tem. Secundo objicit in contrarium ibi, sed econtra Ambro 
+      <lb ed="#L" n="108"/>Tertio soluit ibi, attende, &amp;c. Et haec in generali. 
+      </p>
+            <p xml:id="jsnvu6-e273526-d1e169">
+               <lb ed="#L" n="109"/>
+               <!--2--> IN speciali autem proponit primo magister quod dispari 
+      <lb ed="#L" n="110"/>tas cultus impedit matrimonium. Et hoc probat testimonio ver 
+      <lb ed="#L" n="111"/>I. &amp; no. sed opponitur in contrarsum per auctoritatem Apostoli qui 
+      <lb ed="#L" n="112"/>dicit quod fidelis non debet vxorem infidelem dimittere si illa 
+      <lb ed="#L" n="113"/>velit cum eo manere. Et respondet quod Apostolus loquitur 
+      quam<lb ed="#L" n="114" break="no"/>do vterque in infidelitate sunt coniuncti, &amp; alter eorum ad fidem 
+      <lb ed="#L" n="115"/>conuertitur, tunc enim potest fidelis infidelem dimittere 
+      pro<lb ed="#L" n="116" break="no"/>pter fornicationem spiritualem infidelitatis, vel potest eam reti 
+      <lb ed="#L" n="117"/>nere pro spe conuersionis. &amp; hoc Apostolus consuluit. Deinde 
+      <lb ed="#L" n="118"/>quaerit vtrum propter alia crimina vir possit vxorem dimitte 
+      <lb ed="#L" n="119"/>re. Et respondet quod sic, &amp; specialiter quando matrimonium sic eom 
+      <lb ed="#L" n="120"/>trahitur quod aliqua peccandi conditio interponitur. Deinde 
+      quae<lb ed="#L" n="121" break="no"/>rit vtrum si fidelis vxorem infidelem dimittit, vel dimittatur ab 
+      <lb ed="#L" n="122"/>ea posset aliam ducere. Et arguit pro &amp; contra. In fine dicit &amp; 
+      <lb ed="#L" n="123"/>respondet quod fi dimittit infidelem volentem cohabitare, ea viuente 
+      <lb ed="#L" n="124"/>aliam vxorem ducere non potest. Si vero dimittatur ab infideli po 
+      <lb ed="#L" n="125"/>test. In fine dicit quod quidam inter infideles dicunt non esse matrimo 
+      <lb ed="#L" n="126"/>nium legitinum, quia quod non est ex fide peccatum est, nec est 
+      ra<lb ed="#L" n="127" break="no"/>tioni consonum, nec pudicitiae, &amp; ideo solui potest. Et responde 
+      <lb ed="#L" n="128"/>quod matrimonium est legitimum sed in tantum est illegitimum, 
+      qui<lb ed="#L" n="129" break="no"/>non habet fundamentum fidei, nec dicitur esse pudicum, quiand 
+      <lb ed="#L" n="130"/>habet bona matrimonij perfecte, &amp; in hoc terminatur, &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="138-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3114"><!-- l2d18prae -->
+            <head xml:id="jsnvu6-d1e3114-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3114-d1e103">
+      <!--00343.xml-->
+               <pb ed="#L" n="138-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Sententia huius distinctionis xliiij. in 
+      <lb ed="#L" n="2"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e3114-d1e116">
+               <lb ed="#L" n="3"/>IN eodem quoque paradiso, &amp;c. Superius 
+      de<lb ed="#L" n="4" break="no"/>terminauit magister de productione vii. Hic 
+      de<lb ed="#L" n="5" break="no"/>terminat de productione mulieris. Et 
+      diuidi<lb ed="#L" n="6" break="no"/>ntur in duas. Primo determinat productionem 
+      <lb ed="#L" n="7"/>Deius, quantum ad corpus. Secundo quantum ad 
+      <lb ed="#L" n="8"/>animam ibi, quemadmodum mulieris corpus. Prima diuiditu 
+      <lb ed="#L" n="9"/>in duas. Primo inquirit vtrum fuerit mulier formata de costa 
+      <lb ed="#L" n="10"/>Secundo inquirit modum formationis eius. Secunda ibi, Sole 
+      <lb ed="#L" n="11"/>etiam quaeri, vtrum de costa. Prima in duas. Primo docet quid 
+      <lb ed="#L" n="12"/>scriptura de formatione mulieris tradat. Secundo concludit 
+      <lb ed="#L" n="13"/>congruitatem formationis, ibi, attendendum est. Secunda 
+      par<lb ed="#L" n="14" break="no"/>in qua inquirit formationis modum diuiditur in tres secundum 
+      <lb ed="#L" n="15"/>tres quaestiones quas mouet &amp; soluit, quarum prima est circa 
+      <lb ed="#L" n="16"/>principium materiale. Secunda vero &amp; tertia circa principium 
+      <lb ed="#L" n="17"/>actionis. Secunda ibi, illud autem sciri oportet. Tertia hic 
+      quae<lb ed="#L" n="18" break="no"/>ritur, an ratio qua deus plus. Haec est sententia &amp; diuisio 
+      le<lb ed="#L" n="19" break="no"/>ctionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3114-d1e155">
+               <lb ed="#L" n="20"/>
+               <!--2--> In speciali sic procedit magister. Et proponit primo 
+      mulie<lb ed="#L" n="21" break="no"/>rem de costa viri dormientis esse formatam vel fuisse, vt 
+      scri<lb ed="#L" n="22" break="no"/>ptura Genes. refert. Postea dicit mulierem de viro formari 
+      con<lb ed="#L" n="23" break="no"/>gruum fuisse, vt maior esset amor inter homines, &amp; homo 
+      osten<lb ed="#L" n="24" break="no"/>deretur omnium aliorum hominum esse principium. De lateri 
+      <lb ed="#L" n="25"/>autem formata fuit, quia non ad dominium, vel ad seruitutem, sed 
+      <lb ed="#L" n="26"/>ad societatem eius producebatur. De dormiente viro fuit pro 
+      <lb ed="#L" n="27"/>ducta, ad diuinae virtutis ostensionem, &amp; fundationis ecclesiae 
+      my<lb ed="#L" n="28" break="no"/>sticam significationem. Postea quaerit vtrum de sola costa, sine 
+      <lb ed="#L" n="29"/>alterius materiae additione formata fuit mulier. Et respondet 
+      <lb ed="#L" n="30"/>quod non fuit alia materia, quia sic magis deberet dici mulie 
+      <lb ed="#L" n="31"/>de illa materia esse formata, quam de costa, quae multiplicata 
+      <lb ed="#L" n="32"/>fuit virtute diuina ad totius mulieris formationem, sicut factum 
+      <lb ed="#L" n="33"/>fuit de quinque panibus. Paulo post dicit quod angeli mulierem 
+      <lb ed="#L" n="34"/>non formauerunt, licet ad formationem eius ministerium 
+      prae<lb ed="#L" n="35" break="no"/>buerint. Postea quaerit vtrum in creatura fuerit ratio seminalis 
+      <lb ed="#L" n="36"/>ad mulieris formationem. Et respondet praemittendo prime 
+      <lb ed="#L" n="37"/>quaedam, scilicet quod rationes primordiales ab aeterno in dee 
+      <lb ed="#L" n="38"/>fuerunt, seminales vero creaturis inditae, licet non omnium re 
+      <lb ed="#L" n="39"/>rum, sed quarundam: addit etiam quod illae rationes possumm 
+      <lb ed="#L" n="40"/>dici primordiales aliquo modo: Tum quia rebus in prima 
+      crea<lb ed="#L" n="41" break="no"/>tione inditae sunt: Tum quia sunt quasi principia rerum ex ipsi 
+      <lb ed="#L" n="42"/>producendarum. Subditque quod illa naturaliter fiunt, quae ex 
+      <lb ed="#L" n="43"/>ratione seminali fiunt, seu producuntur. Illa vero fiunt 
+      super<lb ed="#L" n="44" break="no"/>naturaliter, quorum causae tantum sunt in deo. In rebus 
+      ve<lb ed="#L" n="45" break="no"/>ro creatis est potentia, vt haec possint fieri, non tamen 
+      neces<lb ed="#L" n="46" break="no"/>sitas vt sint: ex his concludit quod formatio mulieris non fuit 
+      <lb ed="#L" n="47"/>secundum causas seminales, sed supernaturaliter ex diuina 
+      vir<lb ed="#L" n="48" break="no"/>tute. Vitimo ostendit quod quidam posuerunt animam 
+      mulie<lb ed="#L" n="49" break="no"/>ris de anima viri esse propagatam. Alij vero ab initio cum 
+      cae<lb ed="#L" n="50" break="no"/>teris animabus dicunt fuisse creatam. Sed secundum 
+      catholi<lb ed="#L" n="51" break="no"/>cam fidem creando infunditur, &amp; infundendo creatur. Vnde 
+      <lb ed="#L" n="52"/>beatus Hieronymus excommunicat eos qui dicunt animam 
+      <lb ed="#L" n="53"/>esse ex traduce, vbi ponit auctoritates, per quas multi errores 
+      <lb ed="#L" n="54"/>circa productionem animae excluduntur. Er in hoc terminatur 
+      <lb ed="#L" n="55"/>sententia, &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

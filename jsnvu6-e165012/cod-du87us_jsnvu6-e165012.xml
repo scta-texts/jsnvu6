@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="201-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e165012"><!-- l3d11q2 -->
+            <head xml:id="jsnvu6-e165012-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e165012-Hd1e103" type="question-title">Utrum illa quae sunt humanae naturae 
+      possint dici de filio Dei</head>
+            <p xml:id="jsnvu6-e165012-d1e106">
+               <lb ed="#L" n="63"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="64"/>Vtrum illa quae sunt humanae naturae 
+      <lb ed="#L" n="65"/>possint dici de filio Dei. 
+      <lb ed="#L" n="66"/>Thom. j. 4. 16. a. 5.
+    </p>
+            <p xml:id="jsnvu6-e165012-d1e117">
+               <lb ed="#L" n="67"/>SECVNDo quaeritur, vtrum ea quae sunt naturae pos 
+      <lb ed="#L" n="68"/>sint dici de filio Dei Et videtur quod non, quia proprie 
+      <lb ed="#L" n="69"/>tates diuinae naturae dicuntur de filio Dei propter hoc 
+      <lb ed="#L" n="70"/>quod filius Dei est diuina natura, sed filius Dei est 
+      <lb ed="#L" n="71"/>humana natura, ergo proprietas humanae naturae non potes 
+      <lb ed="#L" n="72"/>dici de filio Dei. 
+      </p>
+            <p xml:id="jsnvu6-e165012-d1e133">
+               <lb ed="#L" n="73"/>
+               <!--2--> Item humanae naturae conuenit assumi a filio Dei, sed 
+      assu<lb ed="#L" n="74" break="no"/>mi non conuenit filio Dei, ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-e165012-d1e143">
+               <lb ed="#L" n="75"/>IN CONTRARIVM arguitur, quia de quocunque 
+      <lb ed="#L" n="76"/>praedicatur aliquid de eodem praedicantur omnia 
+      consequen<lb ed="#L" n="77" break="no"/>tia ad ipsum, etiam si sit praedicatio accidentalis, sicut si hom 
+      <lb ed="#L" n="78"/>est albus sequitur quod sit coloratus, sed natura humana 
+      praedi<lb ed="#L" n="79" break="no"/>catur de illo dicendo filius Dei est homo, ergo proprietates 
+      <lb ed="#L" n="80"/>consequentes naturam humanam praedicantur de eodem. 
+      <!--00475.xml-->
+      <cb ed="#L" n="b"/>
+            </p>
+            <p xml:id="jsnvu6-e165012-d1e163">
+               <lb ed="#L" n="81"/>
+               <!--4--> Item nihil magis repugnat naturae diuinae quam mori, sed 
+      <lb ed="#L" n="82"/>vere dicitur de filio Dei quod fuit mortuus ratione natura 
+      <lb ed="#L" n="83"/>humanae, ergo a fortiori ratione aliae proprietates humanae na 
+      <lb ed="#L" n="84"/>turae possunt dici de filio Dei. 
+      </p>
+            <p xml:id="jsnvu6-e165012-d1e176">
+               <lb ed="#L" n="85"/>
+               <!--5--> RESPONSIO. Eorum quae dicuntur de natura huma 
+      <lb ed="#L" n="86"/>na in Christo quaedam dicuntur de ea solum in abstracto sumpta 
+      <lb ed="#L" n="87"/>vt assumi, vniri &amp; similia, quaedam vero dicuntur de ipsa solum in 
+      <lb ed="#L" n="88"/>concreto vt iste homo est Deus, quaedam vero dicuntur indifferer 
+      <lb ed="#L" n="89"/>ter de eo sumpta in abstracto &amp; in concreto vt gigni, &amp; nasci, pa 
+      <lb ed="#L" n="90"/>ti &amp; mori, &amp; similia. Dicendum ergo est ad quaestionem quod illa quae 
+      <lb ed="#L" n="91"/>praedicantur de humana natura sumpta solum in abstracto non 
+      <lb ed="#L" n="92"/>praedicantur de filio Dei, quae autem dicuntur de ea sumpta solum 
+      <lb ed="#L" n="93"/>in concreto, vel communiter dicuntur de ea sumpta in abstracto, &amp; 
+      <lb ed="#L" n="94"/>in concreto, talia praedicantur de filio Dei absolute, vel eum deter 
+      <lb ed="#L" n="95"/>minatione quae determinatio vel debet exprimi, vel subintelligi 
+      </p>
+            <p xml:id="jsnvu6-e165012-d1e205">
+               <lb ed="#L" n="96"/>
+               <!--6--> Ratio primi est ista, quando aliqua tria se habent per ordi 
+      <lb ed="#L" n="97"/>nem sic quod tertium non conuenit primo nisi per medium, si 
+      <lb ed="#L" n="98"/>medium non conuenit primo nec tertium, sed proprietates 
+      hu<lb ed="#L" n="99" break="no"/>manae naturae non conueniunt filio Dei nisi mediante natura 
+      hu<lb ed="#L" n="100" break="no"/>mana, ergo proprietates quae non conueniunt naturae 
+      huma<lb ed="#L" n="101" break="no"/>nae solum in abstracto (cum ipsa vt sic non praedicetur de filic 
+      <lb ed="#L" n="102"/>Dei) non possunt de eo dici, vnde sicut non bene dicitur quod 
+      <lb ed="#L" n="103"/>filius Dei sit humana natura, sic non bene dicitur quod 
+      filiu<lb ed="#L" n="104" break="no"/>Dei sit assumptus, vel vnitus sibiipsi, quia assumi a filio Dei, vel 
+      <lb ed="#L" n="105"/>vniri eidem conuenit naturae humanae solum in abstracto. 
+      </p>
+            <p xml:id="jsnvu6-e165012-d1e231">
+               <lb ed="#L" n="106"/>
+               <!--7--> Ratio secundi est ista, quando alterum de altero praedicatur 
+      <lb ed="#L" n="107"/>realiter quicqud conuenit realiter praedicato, conuenit subiecto 
+      <lb ed="#L" n="108"/>dum tamen non fiat variatio medij, &amp; haec propositio scripta in 
+      <lb ed="#L" n="109"/>praedicamentis quamuis intelligatur quando vtrobique est praed 
+      <lb ed="#L" n="110"/>catio essentialis vt dicendo sortes est homo, &amp; homo est animal, 
+      <lb ed="#L" n="111"/>ergo sortes est animal, tamem habet etiam veritatem in 
+      praedica<lb ed="#L" n="112" break="no"/>tione accidentali dum tamen non fiat variatio medij, cum ergo 
+      ve<lb ed="#L" n="113" break="no"/>rum sit dicere quod filius Dei est homo, quicquid realiter 
+      conue<lb ed="#L" n="114" break="no"/>nit homini siue in concreto solum, siue in abstracto &amp; concreto 
+      <lb ed="#L" n="115"/>simul vere potest dici de filio Dei nisi aliquo modo medium 
+      va<lb ed="#L" n="116" break="no"/>rietur: potest autem variari medium si in vna propositione accipia 
+      <lb ed="#L" n="117"/>tur secundum esse reale (vt dicendo filius Dei est homo) &amp; in 
+      ali<lb ed="#L" n="118" break="no"/>secundum esse rationis (vt dicendo homo est species) tunc enim ni 
+      <lb ed="#L" n="119"/>sequitur quod filius Dei sit species: quia variatur medium. Si autem 
+      <lb ed="#L" n="120"/>aliquis dicat quod propositio ista non sit vera quando 
+      praedi<lb ed="#L" n="121" break="no"/>catio est accidentalis (non enim sequitur homo est albus, &amp; 
+      al<lb ed="#L" n="122" break="no"/>bum est accidens, ergo homo est accidens) dicendum quod aut 
+      <lb ed="#L" n="123"/>est variatio medij, aut altera propositio est falsa. Si enim 
+      acci<lb ed="#L" n="124" break="no"/>dens capiatur pro vno de quinque praedicabilibus, de quibus lo 
+      <lb ed="#L" n="125"/>quitur Porphyrius, tunc accidens est ens rationis, sicut genus vel 
+      <lb ed="#L" n="126"/>species, &amp; tunc variatur medium: si autem accidens capiatur 
+      <lb ed="#L" n="127"/>secundum esse reale, sic secunda propositio est falsa. Cum scilicet 
+      <lb ed="#L" n="128"/>dicitur album est accidens, cum album supponat pro subiecti 
+      <lb ed="#L" n="129"/>habente albedinem, &amp; illud non est accidens, patet quia haec est 
+      <lb ed="#L" n="130"/>falsa, album est accidens, sed haec est vera, albedo est accidens. 
+      </p>
+            <p xml:id="jsnvu6-e165012-d1e290">
+               <lb ed="#L" n="131"/>
+               <!--8--> AD PRIMVM argumentum dicendum quod licet 
+      <lb ed="#L" n="132"/>natura humana non praedicetur de filio Dei in abstracto 
+      prae<lb ed="#L" n="133" break="no"/>dicatur tamen in concreto: &amp; ideo proprietates reales quae 
+      <lb ed="#L" n="134"/>competunt homini, competunt etiam filio Dei. 
+      </p>
+            <p xml:id="jsnvu6-e165012-d1e304">
+               <lb ed="#L" n="135"/>
+               <!--9--> Ad secundum patet solutio ex dictis, quia assumi conuenit 
+      natu<lb ed="#L" n="136" break="no"/>rae humanae in abstracto solum, &amp; ideo non competit filio Dei
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="355-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e292131"><!-- l4d49prae -->
+            <head xml:id="jsnvu6-e292131-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e292131-d1e103">
+               <lb ed="#L" n="3"/>DISTINCTIO XLIX. 
+      <lb ed="#L" n="4"/>Sententia huius distinctionis in 
+      gene<lb ed="#L" n="5" break="no"/>rali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e292131-d1e112">
+               <lb ed="#L" n="6"/>POST resurrectionem vero. In praecedentibus, 
+      <lb ed="#L" n="7"/>determinauit magister de pertinentibus ad 
+      iu<lb ed="#L" n="8" break="no"/>dicium. Hic determinat de finali 
+      remuneratio<lb ed="#L" n="9" break="no"/>ne. Et primo specialiter agit de gloria bonorum 
+      <lb ed="#L" n="10"/>Secundo de poenis damnatorum de quinquagesi 
+      <lb ed="#L" n="11"/>Ema distinctione hic oritur quaestio. Prima est 
+      <lb ed="#L" n="12"/>principalis lectionis, &amp; diuiditur in tres. Primo enim tangis in 
+      <lb ed="#L" n="13"/>generali fructum diuinae remunerationis futurae. Secundo spe 
+      <lb ed="#L" n="14"/>cialiter inquirit de appetitu beatitudinis ibi, solet etiam quaeri 
+      <lb ed="#L" n="15"/>de beatitudine. Tertio differentia modi beatitudinis ibi, solei 
+      <lb ed="#L" n="16"/>quaeri vtrum aliud. Et haec diuiditur in tres. Qui a primo 
+      inqui<lb ed="#L" n="17" break="no"/>rit differentiam beatitudinis quoad obiectum. Secundo quoad 
+      <lb ed="#L" n="18"/>gaudium. Tertio quoad statum. Secunda ibi, solet etiam quaeri 
+      <lb ed="#L" n="19"/>an in gaudio. Tertia ibi, post hoc quaeri solet. 
+      </p>
+            <p xml:id="jsnvu6-e292131-d1e145">
+               <lb ed="#L" n="20"/>
+               <!--2--> PROPONIT ergo magister post iudicium bonos in glo 
+      <lb ed="#L" n="21"/>ria, malos in poena collocari. Deinde quaerit quomodo 
+      intelli<lb ed="#L" n="22" break="no"/>gendum est quod omnes appetunt beatitudinem, quum non 
+      o<lb ed="#L" n="23" break="no"/>mnes cognoscant beatitudinem, &amp; respondere videtur quod 
+      o<lb ed="#L" n="24" break="no"/>mnes sciunt quae sit beatitudinis ratio. Quum ratio beatitudini: 
+      <lb ed="#L" n="25"/>non sit habere quod delectat, sed habere quod homo vult, &amp; ni 
+      <lb ed="#L" n="26"/>hil mali velle. Deinde quaerit vtrum vnus beatus alio plus cogno 
+      <lb ed="#L" n="27"/>scat. Et respondet quod non de pertinentibus ad beatitudinem 
+      <lb ed="#L" n="28"/>sed in modo cognoscendi est differentia. In fine subdit quod sine 
+      <lb ed="#L" n="29"/>dubio beatitudo sanctorum post iudicium maior erit quam an 
+      <lb ed="#L" n="30"/>te, quia majus gaudium, &amp; perfectior erit cognitio, quod proba 
+      <lb ed="#L" n="31"/>auctoritate Augustini, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="11-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e180"><!-- l1d1prae -->
+            <head xml:id="jsnvu6-d1e180-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e180-d1e103">
+               <lb ed="#L" n="148"/>VISIO LITE, 
+      <lb ed="#L" n="149"/>rae Magistri sententiarum, cum sententia eiusdem 
+      <lb ed="#L" n="150"/>in generali, &amp; speciali: &amp; primae distinctionis 
+      pri<lb ed="#L" n="151" break="no"/>mi libri. 
+      <lb ed="#L" n="152"/>ETERIS, ac nouae legis. Hic incipit 
+      <lb ed="#L" n="153"/>tractatus: &amp; diuiditur in duas partes. 
+      Pri<lb ed="#L" n="154" break="no"/>mo enim Magister praemittit quaedaa ge 
+      <lb ed="#L" n="155"/>neralia, quasi totius operis praelibatiua. 
+      <lb ed="#L" n="156"/>Secundo, suam intentionem exequitur. 
+      <lb ed="#L" n="157"/>Et hoc in principio secundae distinctionis, 
+      <lb ed="#L" n="158"/>ibi, Hic itaque vera &amp; pia fide. Prima est 
+      <lb ed="#L" n="159"/>Wpraesentis lectionis: &amp; diuiditur in tres 
+      <lb ed="#L" n="160"/>partes. In prima, Magister determinat suum intentum. In 
+      se<lb ed="#L" n="161" break="no"/>cunda, mouet quaestiones circa determinata. In tertia, ponit 
+      <!--00086.xml-->
+      <pb ed="#L" n="11-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quandam epilogationem, in qua continuat dicta dicendis. 
+      Se<lb ed="#L" n="2" break="no"/>cunda incipit ibi, Cum autem hominis. Tertia ibi, Omnia ergo 
+      <lb ed="#L" n="3"/>quae dicta sunt. Prima pars diuiditur in tres: quia primo 
+      prae<lb ed="#L" n="4" break="no"/>mittit quandam diuisionem vtilem toti operi. Secundo, 
+      mem<lb ed="#L" n="5" break="no"/>bra diuisionis declarat. Tertio, mouet quandam dubitationem 
+      <lb ed="#L" n="6"/>Secunda incipit ibi, Illud vero in rebus considerandum est. Ter 
+      <lb ed="#L" n="7"/>tia ibi, Notandum vero &amp;c. Secunda pars principalis, in qua 
+      mo<lb ed="#L" n="8" break="no"/>uet quaestiones, diuiditur in tres partes, secundum tres 
+      quaestio<lb ed="#L" n="9" break="no"/>nes, quas mouet. Secunda incipit, Sed cum Deus diligat nos. 
+      <lb ed="#L" n="10"/>Tertia ibi, Hic considerandum est. Cuilibet autem quaestioni 
+      adiun<lb ed="#L" n="11" break="no"/>git suam solutionem. Et haec est diuisio, &amp; sententia in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e180-d1e166">
+               <lb ed="#L" n="12"/>
+               <!--2--> In speciali sic procedit Magister: primo ponit, quod 
+      conside<lb ed="#L" n="13" break="no"/>ranti diligenter &amp; subtiliter continentiam veteris ac nouae 
+      le<lb ed="#L" n="14" break="no"/>gis, patet, totam sacram paginam circa res &amp; signa versari: &amp; 
+      <lb ed="#L" n="15"/>declarat membra huius diuisionis dicens, quod res est de his 
+      <lb ed="#L" n="16"/>quae non adhibentur ad aliud significandum: signa vero, quorum 
+      <lb ed="#L" n="17"/>vsus in significatione est. Subdiuidit signa, dicens, quod 
+      figno<lb ed="#L" n="18" break="no"/>rum quaedam sunt signa solum, vt sacramenta veteris legis: 
+      quae<lb ed="#L" n="19" break="no"/>dam vero sunt signa &amp; res, vt sunt sacramenta nouae legis. 
+      Com<lb ed="#L" n="20" break="no"/>parat etiam signa ad rem, dicens, quod omne signum est res: non 
+      <lb ed="#L" n="21"/>enim potest signare quod nihil est: sed non omnis res est signum, 
+      <lb ed="#L" n="22"/>quia non omnis res ad significandum adhibetur. Hinc etiam 
+      <lb ed="#L" n="23"/>ordinem concludit agendi, quia primo est agendum de rebus 
+      <lb ed="#L" n="24"/>quae in tribus libris continentur: &amp; postea de signis, quod fit in 
+      <lb ed="#L" n="25"/>4. lib. Deinde ponit subdiuisionem rerum: quia aliae sunt, 
+      qui<lb ed="#L" n="26" break="no"/>bus fruendum est: illae scilicet, quae beatos nos faciunt, vt 
+      Tri<lb ed="#L" n="27" break="no"/>nitas, Pater &amp; filius, &amp; Spiritus sanctus. Aliae sunt, quibus 
+      vten<lb ed="#L" n="28" break="no"/>dum est, illae scilicet, quibus tendentes ad beatitudinem 
+      adiuua<lb ed="#L" n="29" break="no"/>mur. vt creaturae, per quas in Deum manuducimur. Et hoc 
+      con<lb ed="#L" n="30" break="no"/>firmat Magister per Augustinum. Aliae sunt res, quae fruuntur 
+      <lb ed="#L" n="31"/>&amp; vtuntur, vt creaturae rationales in medio situatae, fruendorum 
+      <lb ed="#L" n="32"/>scilicet, &amp; vtendorum. Vbi determinat, quid est frui, &amp; quid vti. 
+      <lb ed="#L" n="33"/>Postea remouet quandam dubitationem: vbi sic procedit. Prime 
+      <lb ed="#L" n="34"/>enim ponit quandam aliam assignationem de frui &amp; vti, cum 
+      <lb ed="#L" n="35"/>gaudio non spei, sed iam rei vti vero est assumere aliquid in 
+      fa<lb ed="#L" n="36" break="no"/>cultatem voluntatis: vnde concludit, quod omnis fruitio sub vsu 
+      <lb ed="#L" n="37"/>continetur. Secundo ex hoc opponit contra praedicta, dicens, qu 
+      <lb ed="#L" n="38"/>soli Beati fruuntur: quia solum nabent gaudium rei. Tertio 
+      re<lb ed="#L" n="39" break="no"/>spondet, dicens, quod soli Beatifruuntur proprie &amp; perfecte, iu 
+      <lb ed="#L" n="40"/>sti vero in via improprie, &amp; imperfecte. Aliam etiam 
+      quaestio<lb ed="#L" n="41" break="no"/>nem soluit, dicens, quod iusti in via, habent gaudium reale: idec 
+      <lb ed="#L" n="42"/>etiam realiter loquendo oportet quod etiam fruantur: quia 
+      qui<lb ed="#L" n="43" break="no"/>cunque alicui rei cum delectatione adhaeret, fruitur. Sed si ista 
+      <lb ed="#L" n="44"/>fruitio &amp; adhaesio alibi sit, quam in Deo, sic est abusiua fruitio 
+      <lb ed="#L" n="45"/>Leinde quaerit, vtrum hominibus sit fruendum, an vtendum. Et 
+      <lb ed="#L" n="46"/>respondet secundum Augustinum, quod vtendum est, non 
+      fru<lb ed="#L" n="47" break="no"/>endum: quia propter se non sunt diligendi: vt tamen videtur 
+      di<lb ed="#L" n="48" break="no"/>cere Apostolus, quod hominibus sit fruendum ad Philemone 
+      <lb ed="#L" n="49"/>dicens, Itaque frater ego te fruar in Domino. Et respondet 
+      se<lb ed="#L" n="50" break="no"/>cundum Augustinum, quod non dicit, Ego fruar te: sed addit, in 
+      <lb ed="#L" n="51"/>Domino. Sed homine sic in Deo frui, potius est Deo frul, quam 
+      <lb ed="#L" n="52"/>homine. Contra quaeritur, vtrum Deus vtatur nobis, an fruatur. 
+      <lb ed="#L" n="53"/>Et dicit, quod non fruitur, sed vtitur. Sed tamen differenter 
+      <lb ed="#L" n="54"/>quam nos: quia nos vtimur aliis rebus propter nostra 
+      vtilita<lb ed="#L" n="55" break="no"/>tem. Deus autem nobis vtitur non ad vtilitatem suam, sed ad 
+      <lb ed="#L" n="56"/>nostram. Et exempla habentur ex verbis Augustini. Hoc 
+      habi<lb ed="#L" n="57" break="no"/>to, quaerit, vtrum virtutibus sit fruendum. Et prmo ostendit 
+      per<lb ed="#L" n="58" break="no"/>autoritatem Augustini, quod non, tali ratione: Omne quo est 
+      <lb ed="#L" n="59"/>fruendum, propter se est amandum: virtutes autem non sunt 
+      <lb ed="#L" n="60"/>propter se amandae, sicut ostendit autoritate Augustini: ergi 
+      <lb ed="#L" n="61"/>virtutibus non est fruendum. Sed quod vircutibus est fruendum, 
+      <lb ed="#L" n="62"/>&amp; propter se sint appetendae, ostendit autoritate Ambrosij. Ei 
+      <lb ed="#L" n="63"/>respondet Magister, quod non est fruendum virtutibus. Et quod 
+      <lb ed="#L" n="64"/>dicit Ambrosius, quod propter se sunt appetendae vel amandae, 
+      <lb ed="#L" n="65"/>hoc est, quia delectant suos possessores, &amp; habent aliquid, vnde 
+      <lb ed="#L" n="66"/>propter se amentur: tamen earum amor ad aliud ordinatur. 
+      <lb ed="#L" n="67"/>Vnde non est in eis sistendum: sed vlterius per eas ad beatitu. 
+      <lb ed="#L" n="68"/>dinem est tendendum. Sed contra hanc solutionem obiicitur 
+      <lb ed="#L" n="69"/>sic, Frui est amore alicui adhaerere propter se: sed hoc est intel 
+      <lb ed="#L" n="70"/>ligendum cum hac additione, tantum, ita quod amor non refe 
+      <lb ed="#L" n="71"/>ratur ad aliquid: sed sic non est adhaerendum virtutibus propter 
+      <lb ed="#L" n="72"/>se: sed vlterius propter beatitudinem est virtutibus 
+      adhaeren<lb ed="#L" n="73" break="no"/>dum: &amp; hoc ostendit autoritate Augustini: &amp; ideo virtutibus 
+      <lb ed="#L" n="74"/>non est fruendum, sed Deo. Vitimo recapitulat ea, quae dicta 
+      <lb ed="#L" n="75"/>sum eostendens secundum quem ordinem de eis sit 
+      tractatu<lb ed="#L" n="76" break="no"/>rus, quia prius de rebus, quam de signis: &amp; prius de rebus, 
+      qui<lb ed="#L" n="77" break="no"/>bus fruendum est, quam de eis, quibus vtendum est. Et haec est 
+      <lb ed="#L" n="78"/>sententia in generali, &amp; speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

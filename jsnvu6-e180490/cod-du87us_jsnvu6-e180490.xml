@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="219-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e180490"><!-- l3d23q6 -->
+            <head xml:id="jsnvu6-e180490-Hd1e101">Quaestio 6</head>
+            <head xml:id="jsnvu6-e180490-Hd1e103" type="question-title">Utrum fides sit habitus virtuosus</head>
+            <p xml:id="jsnvu6-e180490-d1e106">
+               <lb ed="#L" n="130"/>QUAESTIO SEXTA. 
+      <lb ed="#L" n="131"/>Vtrum fides sit habitus virtuosus. 
+      <lb ed="#L" n="132"/>Thom. 21. 9. 4. art. 5. 6. &amp;7. 
+    </p>
+            <p xml:id="jsnvu6-e180490-d1e115">
+               <lb ed="#L" n="133"/>SECVNDO quaeritur, vtrum fides sit habitus 
+      vir<lb ed="#L" n="134" break="no"/>tuosus. Et videtur quod non, quia virtutes fuerum 
+      <lb ed="#L" n="135"/>plenissime in Christo, sed in ipso non fuit fides, 
+      <lb ed="#L" n="136"/>quum verus fuerit comprehensor: ergo ipsa non 
+      <lb ed="#L" n="137"/>gi est virtus. 
+      </p>
+            <p xml:id="jsnvu6-e180490-d1e128">
+               <lb ed="#L" n="138"/>
+               <!--2--> Item si esset virtus, aut esset acquisita, aut infusa, non 
+      acqui<lb ed="#L" n="139" break="no"/>sita, quia de illis tractant sufficienter philosophi, nec inter ea 
+      <lb ed="#L" n="140"/>numerant fidem, nec infusa, quia quod acquiritur per auditum 
+      <lb ed="#L" n="141"/>non est infusum, sed fides acquiritur per auditum, secundum il 
+      <lb ed="#L" n="142"/>lud Roma. 12. Fides ex auditu est, ergo non est infusa, Dato etiam 
+      <lb ed="#L" n="143"/>quod esset habitus infusus, non esset virtuosus, vt videtur, qui 
+      <lb ed="#L" n="144"/>sicut se habet virtus acquisita, ad habitus acquisitos, ita infusa 
+      <lb ed="#L" n="145"/>ad infusos, sed fides acquisita non connumeratur inter 
+      habi<lb ed="#L" n="146" break="no"/>tus acquisitos virtuosos, ergo nec fides infusa iuter habitus 
+      vir<lb ed="#L" n="147" break="no"/>tuosos infusos. ibs. 
+</p>
+            <p xml:id="jsnvu6-e180490-d1e155">
+               <lb ed="#L" n="148"/>IN CONTRARIVM est, quia omnis habitus 
+      intel<lb ed="#L" n="149" break="no"/>lectualis verum dicens est virtus, vt patet ex sexto Ethicorum 
+      <lb ed="#L" n="150"/>Sed fides est huiusmodi, quia, vt infra patebit, fidei non potes 
+      <lb ed="#L" n="151"/>subesse falsum, ergo est virtus. 
+      </p>
+            <p xml:id="jsnvu6-e180490-d1e166">
+               <lb ed="#L" n="152"/>
+               <!--4--> Item fides connumeratur charitati inter habitus infusos, sed 
+      <lb ed="#L" n="153"/>charitas est virtus, ergo &amp; fides. . 
+      </p>
+            <p xml:id="jsnvu6-e180490-d1e175">
+               <lb ed="#L" n="154"/>
+               <!--5--> RESPONSIO. Circa quaestionem istam videnda sunt 
+      <lb ed="#L" n="155"/>tria. Primum est, vtrum fides sit habitus virtuosus. Secundum est, 
+      <lb ed="#L" n="156"/>vtrum sit habitus infusus. Tertium est de ordine eius ad alios 
+      ha<lb ed="#L" n="157" break="no"/>bitus, scilicet spem &amp; charitatem. 
+      </p>
+            <p xml:id="jsnvu6-e180490-d1e188">
+               <lb ed="#L" n="158"/>
+               <!--6--> QUANTVM ad primum sciendum est quod virtus 
+      po<lb ed="#L" n="159" break="no"/>test sumi dupliciter, Vno modo large pro quocunque habitu 
+      <!--00513.xml-->
+      <pb ed="#L" n="220-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>laudabili inclinante potentiam ad bonum actum. Alio modo magis 
+      <lb ed="#L" n="2"/>stricte pro habitu ponente potentiam in vltimo perfectionis 
+      de<lb ed="#L" n="3" break="no"/>bitae suo actui. Sic enim virtus est vltimum de potentia. Primo 
+      <lb ed="#L" n="4"/>modo loquendo de virtute fides potest dici virtus. Cuius ratio 
+      <lb ed="#L" n="5"/>est quia omnis habitus inclinas intellectum ad assentiendum 
+      ve<lb ed="#L" n="6" break="no"/>ro supernaturali &amp; necessario ad salutem est habitus inclinani 
+      <lb ed="#L" n="7"/>ad bonum actum &amp; per consequens est virtus largo modo. Sed 
+      <lb ed="#L" n="8"/>fides est huiusmodi, ergo &amp;c. Maior probatur, quia verum est bo 
+      <lb ed="#L" n="9"/>num intellectus &amp; si sit necessarium ad salutem addit nouam 
+      ra<lb ed="#L" n="10" break="no"/>tionem boni praeter illam qua actus intellectus generaliter est 
+      <lb ed="#L" n="11"/>bonus. Minor patet ex praecedentibus scilicet quod per fidem assentimu: 
+      <lb ed="#L" n="12"/>bono supernaturali &amp; necessario ad salutem. Loquendo autem 
+      <lb ed="#L" n="13"/>de virtute, secundo modo, dicendum quod fides non est virtus. 
+      <lb ed="#L" n="14"/>Cuius ratio est quia omnis virtus proprie dicta perficiens 
+      in<lb ed="#L" n="15" break="no"/>tellectum perficit ipsum ad conspiciendum obiectum in se vel 
+      <lb ed="#L" n="16"/>per resolutionem ad id quod in se conspicitur. In hoc enim con 
+      <lb ed="#L" n="17"/>sistit efficacia actus intelligendi, quem potuit virtus circa 
+      po<lb ed="#L" n="18" break="no"/>tentiam intellectiuam, sed fides non perficit intellectum ad 
+      con<lb ed="#L" n="19" break="no"/>spiciendum obiectum in se vel per resolutionem ad illud quod 
+      <lb ed="#L" n="20"/>in se conspicitur, ergo non est proprie &amp; simpliciter virtus.
+</p>
+            <p xml:id="jsnvu6-e180490-d1e247">
+               <lb ed="#L" n="21"/>Loquendo autem de quocunque dictorum modorum de virtute 
+      <lb ed="#L" n="22"/>fidei non est magis, vel minus virtus charitate existente in 
+      volum<lb ed="#L" n="23" break="no"/>tate, vel non existente, quia habitus qui non elicit perfectiorem 
+      <lb ed="#L" n="24"/>actum non est perfectior, sed fides non elicit perfectiorem actum 
+      <lb ed="#L" n="25"/>charitate existente in voluntate quam non exiitente. Quia actus 
+      <lb ed="#L" n="26"/>eius qui est assentire vero supernaturali non est perfectior quam 
+      <lb ed="#L" n="27"/>tum ad aliquid quod pertineat ad cognitione, quae mere perti 
+      <lb ed="#L" n="28"/>neat ad intellectum quem perficit fides, licet sit perfectior quan 
+      <lb ed="#L" n="29"/>tum ad rationem meriti quae est perfectio extrinieca cum 
+      perti<lb ed="#L" n="30" break="no"/>neat ad charitatem quae perficit voluntatem, ergo fides non ess 
+      <lb ed="#L" n="31"/>magis, vel minus virtus charitate existente in voluntate quam 
+      <lb ed="#L" n="32"/>non existente. Nec est simile de fide, &amp; charitate, sicut de 
+      pru<lb ed="#L" n="33" break="no"/>dentia &amp; virtute morali, quia prudentia non potest acquiri sine 
+      <lb ed="#L" n="34"/>morali virtute: nec moralis virtus sine prudentia vt infra 
+      de<lb ed="#L" n="35" break="no"/>clarabitur. Et quia vtraque acquiritur ex actibus, ideo actus 
+      <lb ed="#L" n="36"/>vtriusque recipit perfectionem ex sibi adiuncto ita quod 
+      impossi<lb ed="#L" n="37" break="no"/>bile est actum prudentiae esse perfectum nisi virtus moralis sit 
+      <lb ed="#L" n="38"/>in appetitu, nec actum appetitus esse perfectum nisi prudentia 
+      <lb ed="#L" n="39"/>sit in intellectu. Fides autem non dependet a charitate, nec 
+      <lb ed="#L" n="40"/>quantum ad habitum cum sit prior ordine naturae vt 
+      poste<lb ed="#L" n="41" break="no"/>dicetur. nec in actu suo recipit aliquam perfectionem a 
+      chari<lb ed="#L" n="42" break="no"/>tate, &amp; ideo potest habere aequaliter rationem virtutis, &amp; 
+      chari<lb ed="#L" n="43" break="no"/>tate existente in voluntate &amp; non existente. Quanuis enim 
+      vo<lb ed="#L" n="44" break="no"/>luntas inclinet intellectum ad credendum, non tamen oporte 
+      <lb ed="#L" n="45"/>quod ipsa sit informata charitate, &amp; sic patet primum 
+      </p>
+            <p xml:id="jsnvu6-e180490-d1e304">
+               <lb ed="#L" n="46"/>
+               <!--8--> QVANTVM ad secundum tellendum est qud fides est 
+      <lb ed="#L" n="47"/>habitus infusus. Quod patet primo per auctoritates scripturae 
+      <lb ed="#L" n="48"/>dicitur enim Ephe. 2. gratia saluati estis per fidem &amp; non ex no 
+      <lb ed="#L" n="49"/>bis, Dei enim donum est, &amp; Heb. I1. quod sine fide impossibile es 
+      <lb ed="#L" n="50"/>placere Deo. Placent autem Deo pueri baptizati in quibus 
+      nu<lb ed="#L" n="51" break="no"/>lus est habitus acquisitus, ergo fides est in eis habitus infusus. 
+      <lb ed="#L" n="52"/>Item charitas est habitus infusus ad Rom. 5. Charitas Dei 
+      dif<lb ed="#L" n="53" break="no"/>fusa est in cordibus nostris per spiritum sanctum. Fides autem 
+      <lb ed="#L" n="54"/>connumeratur ei, ergo ipsa est habitus infusus. Secundo patet 
+      <lb ed="#L" n="55"/>idem per rationem probabilem, quia quae immediate ordinam 
+      <lb ed="#L" n="56"/>nos ad finem supernaturalem sunt in nobis immediate ab agen 
+      <lb ed="#L" n="57"/>te supernaturali, quia finis &amp; agens sibi correspondent, sed 
+      fi<lb ed="#L" n="58" break="no"/>des cum spe &amp; charitate ordinant nos immediate ad finem si 
+      <lb ed="#L" n="59"/>pernaturalem vt dictum fuit, prius, ergo sunt in nobis 
+      imme<lb ed="#L" n="60" break="no"/>diate a Deo. Et sic per infusionem. Infunditur autem fides non 
+      <lb ed="#L" n="61"/>quin sine ea infusa possumus credere verum supernaturale, sed 
+      <lb ed="#L" n="62"/>quia non ita prompte &amp; faciliter vt determinatum fuit 
+      secun<lb ed="#L" n="63" break="no"/>do libro dist. 28. &amp; sic patet secundum. 
+      </p>
+            <p xml:id="jsnvu6-e180490-d1e349">
+               <lb ed="#L" n="64"/>
+               <!--9--> QUANTVM ad tertium scilicet de ordine fidei ad spem &amp; 
+      <lb ed="#L" n="65"/>charitatem sciendum est quod duplex est ordo scilicet naturae &amp; 
+      tempo<lb ed="#L" n="66" break="no"/>ris, loquendo de ordine temporis fides non praecedit spem, aui 
+      <lb ed="#L" n="67"/>charitatem, sed simul tempore infunduntur. Cuius ratio est quia 
+      <lb ed="#L" n="68"/>haec infunduntur nobis a Deo vt ordinet nos ad beatitudinem, 
+      <lb ed="#L" n="69"/>sed vnum non sufficit sine aliis vt prius patuit, ergo Deus qui 
+      <lb ed="#L" n="70"/>non deficit in necessariis non infundit vnum sine aliis, sed omnia 
+      <lb ed="#L" n="71"/>simul supposita dispositione recipientis, loquendo autem de 
+      or<lb ed="#L" n="72" break="no"/>dine naturae fides praecedit spem &amp; charitatem. Quod patet 
+      pri<lb ed="#L" n="73" break="no"/>mo ex actibus. Quia qualis est ordo in actibus talis est in 
+      habi<lb ed="#L" n="74" break="no"/>tibus, sed sperare &amp; amare qui sunt actus spei &amp; charitatis suj 
+      <lb ed="#L" n="75"/>ponunt credere quod est actus fidei. Affectio enim boni sup. 
+      <lb ed="#L" n="76"/>ponit eius cognitionem, ergo spes &amp; charitas supponunt fidem, 
+      <lb ed="#L" n="77"/>Secundo patet idem per illud quod dicitur Heb. II. fides est 
+      sub<lb ed="#L" n="78" break="no"/>stantia sperandarum rerum &amp; exponitur substantia, id est, 
+      fun<lb ed="#L" n="79" break="no"/>damentum. Et in eodem cap. dicitur quod accedentem ad Deum 
+      <lb ed="#L" n="80"/>oportet quod credere ponitur primum principium salutis. 
+      </p>
+            <p xml:id="jsnvu6-e180490-d1e391">
+               <lb ed="#L" n="81"/>
+               <!--10--> AD PRIMVM argumentum dicendum quod virtute 
+      <lb ed="#L" n="82"/>quae non important in actu suo imperfectionem fuerunt plenis¬ 
+      <!--00513.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>sime in Christo: fides autem prout pertinet ad statum merendi 
+      <lb ed="#L" n="84"/>pro quo solum est necessaria, importat imperfectionem in actu 
+      <lb ed="#L" n="85"/>suo, quia est de non visis, propter quod non fuit in Christo, 
+      <lb ed="#L" n="86"/>qui ab instanti suae conceptionis vidit Deum per essentiam 
+      </p>
+            <p xml:id="jsnvu6-e180490-d1e413">
+               <lb ed="#L" n="87"/>
+               <!--11--> Ad secundum dicendum quod fides est virtus infusa, 
+      se<lb ed="#L" n="88" break="no"/>cundum generalem &amp; largam rationem virtutis, non auten 
+      <lb ed="#L" n="89"/>stricte &amp; proprie, sicut Philosophi loquuntur de virtutibus. 
+      <lb ed="#L" n="90"/>Quod autem dicitur quod fides est ex auditu, verum est, quan 
+      <lb ed="#L" n="91"/>tum ad propositionem credibilium, sed non quantum ad habi 
+      <lb ed="#L" n="92"/>tum. Supposito enim habitu ad hoc quod exeat in actum, 
+      ne<lb ed="#L" n="93" break="no"/>cesse est quod credibilia proponantur. 
+      </p>
+            <p xml:id="jsnvu6-e180490-d1e433">
+               <lb ed="#L" n="94"/>
+               <!--12--> AD RATIONES alterius partis dicendum. Ad 
+      pri<lb ed="#L" n="95" break="no"/>mam quod non omnis habitus verum dicens est virtus stricte 
+      <lb ed="#L" n="96"/>&amp; proprie, nisi illud verum perfecte cognoscatur per 
+      euiden<lb ed="#L" n="97" break="no"/>tiam in se, vel per resolutionem ad illa quae ex se sunt nota, 
+      <lb ed="#L" n="98"/>quod non est ex fide. 
+      </p>
+            <p xml:id="jsnvu6-e180490-d1e449">
+               <lb ed="#L" n="99"/>
+               <!--13--> Ad secundum dicendum quod non est simile de fide &amp; 
+      chari<lb ed="#L" n="100" break="no"/>tate, quia amor potest esse perfectus, vbi cognitio est 
+      imperfe<lb ed="#L" n="101" break="no"/>cta. Intentio enim amoris non respondet intentioni boni 
+      co<lb ed="#L" n="102" break="no"/>gniti, qualitercunque sit illud bonum cognitum. Si enim 
+      co<lb ed="#L" n="103" break="no"/>gnoscamus per certitudinem aliquid minus bonum, &amp; per con 
+      <lb ed="#L" n="104"/>iecturam probabilem aliquid magis bonum: magis diligimus 
+      <lb ed="#L" n="105"/>bonum cognitum per probabilem coniecturam, quam 
+      cogni<lb ed="#L" n="106" break="no"/>tum per certitudinem, quia aestimamus illud magis bonum 
+      <lb ed="#L" n="107"/>quamuis aestimatio certa perfectior sit quam coniectura 
+      pro<lb ed="#L" n="108" break="no"/>babilis. Et quia per fidem habemus obscuram cognitionem d 
+      <lb ed="#L" n="109"/>obiecto perfectissimo &amp; optimo: ideo non obstante 
+      imperfe<lb ed="#L" n="110" break="no"/>ctione actus fidei, actus charitatis potest esse perfectus, &amp; 
+      ha<lb ed="#L" n="111" break="no"/>bitus a quo elicitur virtuosus, quamuis fides a qua elicitur 
+      <lb ed="#L" n="112"/>actus imperfectus non sit virtus proprie. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

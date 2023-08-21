@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="287-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e236363"><!-- l4d15p2prae -->
+            <head xml:id="jsnvu6-e236363-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e236363-d1e103">
+               <lb ed="#L" n="25"/>Sententia secundae partis distinctionis XV. 
+      <lb ed="#L" n="26"/>generalis &amp; specialis. 
+</p>
+            <p xml:id="jsnvu6-e236363-d1e110">
+               <lb ed="#L" n="27"/>ATIS arbitror. Superius Magister soluit 
+      ratio<lb ed="#L" n="28" break="no"/>(nes confirmantes errorem illorum qui dicunt 
+      poe<lb ed="#L" n="29" break="no"/>nitentiam posse agi de vno peccato sine aliis, hic 
+      <lb ed="#L" n="30"/>improbat directe illum errorem, &amp; diuiditur in 
+      <lb ed="#L" n="31"/>duas partes. Quia primo illum errorem improbat. 
+      <lb ed="#L" n="32"/>Et secundo concludit veritatem, scilicet quae sit vera &amp; 
+      suffi<lb ed="#L" n="33" break="no"/>ciens poena ibi, Ex praemissis, &amp;c. Prima diuiditur in duas. Quia 
+      <lb ed="#L" n="34"/>primo probat intentum per miracula quae Christus fecit in 
+      cu<lb ed="#L" n="35" break="no"/>ratione infirmorum. Et secundo ex comparatione poenitentiae 
+      <lb ed="#L" n="36"/>ad baptismum. Secunda ibi, Quaedam enim impietas. Haec est 
+      <lb ed="#L" n="37"/>diuisio &amp; sententia in generali. 
+      </p>
+            <p xml:id="jsnvu6-e236363-d1e136">
+               <lb ed="#L" n="38"/>
+               <!--2.--> In speciali sic procedit, &amp; primo dicit satis est responsum his 
+      <lb ed="#L" n="39"/>obiectionibus per quas probatur quod vera poenitentia potest 
+      <lb ed="#L" n="40"/>agi de vno peccato sine aliis: quod est falsum, vt patet per ea quae 
+      <lb ed="#L" n="41"/>fecit Christus in curatione infirmorum: surdum enim, &amp; 
+      mu<lb ed="#L" n="42" break="no"/>tum, &amp; a daemonio possessum totaliter liberauit, a muliere 
+      ha<lb ed="#L" n="43" break="no"/>bente septem daemonia omnes eiecit. Et ab homine habente 
+      le<lb ed="#L" n="44" break="no"/>gionem daemonum omnes eiiciens nullum reliquit, totum etiam 
+      <lb ed="#L" n="45"/>hominem sanum fecit in sabbato. Ex quibus datur intelligi quod 
+      <lb ed="#L" n="46"/>omne peccatum Deus dimittit, aut nullum: est enim inimicus 
+      <lb ed="#L" n="47"/>omnis peccati, vnde sicut per baptismum omne peccatum 
+      mor<lb ed="#L" n="48" break="no"/>tale dimittitur, sic per veram poenitentiam. Vitimo concludit qu 
+      <lb ed="#L" n="49"/>illa est vera poenitentia quae omne peccatum abolet, quod fit quan 
+      <lb ed="#L" n="50"/>do aliquis poenitet de omnibus peccatis cum proposito non con 
+      <lb ed="#L" n="51"/>mittendi, &amp; satisfaciendi de commissis: satisfactio autem hic non 
+      <lb ed="#L" n="52"/>accipitur pro restitutione rei ablatae, quandoque enim restitui non 
+      <lb ed="#L" n="53"/>potest, vt cum oculus vel vita alicui iniuste eripitur, &amp; tamen si 
+      <lb ed="#L" n="54"/>vere poenituerit &amp; aliter prout potest satisfecerit veniam 
+      con<lb ed="#L" n="55" break="no"/>sequitur: vbi autem restitutio est possibilis non est vera 
+      satisfa<lb ed="#L" n="56" break="no"/>ctio sine restitutione. Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

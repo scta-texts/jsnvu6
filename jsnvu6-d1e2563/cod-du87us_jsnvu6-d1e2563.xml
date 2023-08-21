@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="120-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2563"><!-- l2d4prae -->
+            <head xml:id="jsnvu6-d1e2563-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2563-d1e103">
+               <lb ed="#L" n="9"/>Dlsrinetio gvA1TI. 
+      <lb ed="#L" n="10"/>Sententia huius distinctionis quartae, in 
+      <lb ed="#L" n="11"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e2563-d1e112">
+               <lb ed="#L" n="12"/>POST hoc videndum est, &amp;c. Superius 
+      ostendi<lb ed="#L" n="13" break="no"/>magister, quales creati sunt angeli quantum ad do 
+      <lb ed="#L" n="14"/>na gratuita. Hic ostendit quales creati sunt quam 
+      <lb ed="#L" n="15"/>tum ad dona perfecta. Et diuiditur in tres 
+      par<lb ed="#L" n="16" break="no"/>tes. Primo mouet quaestionem. Secundo soluit. 
+      <lb ed="#L" n="17"/>Tertio recapitulat determinata. Secunda incipit ibi, Ad hoc 
+      <lb ed="#L" n="18"/>autem quod. Tertia, quales fuerunt angeli. Secunda istarum 
+      <lb ed="#L" n="19"/>diuiditur in duas, secundum duas quaestiones quas soluit. 
+      Se<lb ed="#L" n="20" break="no"/>cunda ibi, dicitur nanque perfectum. Prima principalis 
+      diui<lb ed="#L" n="21" break="no"/>ditur in tres. Primo soluit quaestionem quantum ad malos. 
+      Se<lb ed="#L" n="22" break="no"/>cundo quantum ad beatos opponendos &amp; veritatem 
+      dete<lb ed="#L" n="23" break="no"/>minando. Tertio concludit quantum ad vtrosque. Secunda, 
+      <lb ed="#L" n="24"/>boni vero qui perstiterunt. Tertia, Ex praedictis consequitur 
+      <lb ed="#L" n="25"/>Haec est diuisio in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2563-d1e145">
+               <lb ed="#L" n="26"/>
+               <!--2--> In speciali sic procedit magister: Et proponit primo 
+      quae<lb ed="#L" n="27" break="no"/>rendo an angeli sint creati beati an miseri, perfecti an 
+      imper<lb ed="#L" n="28" break="no"/>fecti. Deinde respondet ad primum, dicens quod angeli non fuerun 
+      <lb ed="#L" n="29"/>creati mali vel miseri, quia non statim peccauerunt. Miseria 
+      au<lb ed="#L" n="30" break="no"/>tem peccatum consequitur, &amp; qui peccauerunt, &amp; qui cecide 
+      <lb ed="#L" n="31"/>runt, non fuerunt creati beati, quia certitudinem euentus sui 
+      <lb ed="#L" n="32"/>non habuerunt. Postea respondet quantum ad bonos opponens 
+      <lb ed="#L" n="33"/>per August. quod boni suum statum praesciuerunt, mali vero 
+      <lb ed="#L" n="34"/>non. Sed magister dicit quod August. loquitur inquirendo, non 
+      <lb ed="#L" n="35"/>asserendo. Ante peccatum enim nulla fuit discretio malorum 
+      <lb ed="#L" n="36"/>angelorum a bonis, &amp; ideo vtrique erant sui status incerti. 
+      Poste<lb ed="#L" n="37" break="no"/>respondet quod illi qui corruerunt, nunquam, boni fuerunt, nisi 
+      <lb ed="#L" n="38"/>perfectione naturali. Illi vero qui perstiterunt aut beati fuerunt 
+      <lb ed="#L" n="39"/>in spe, quia aliquo modo beatitudinem praesciuerunt, aut 
+      in<lb ed="#L" n="40" break="no"/>certi sui euentus, &amp; tunc nec aliter quam alij erant beati, &amp; 
+      <lb ed="#L" n="41"/>hoc probabilius videtur. Deinde respondet ad secundam 
+      quae<lb ed="#L" n="42" break="no"/>stionem, dicens quod triplex est perfectio, quaedam 
+      secun<lb ed="#L" n="43" break="no"/>dum tempus, quaedam secundum naturam, quaedam 
+      vniuer<lb ed="#L" n="44" break="no"/>saliter. Primam habuerunt in creatione, secundam in 
+      confir<lb ed="#L" n="45" break="no"/>matione. Tertiam vero solius Dei est. Ideo quoad aliquid 
+      fue<lb ed="#L" n="46" break="no"/>runt perfecti, quoad aliquid imperfecti: vltimo recapitulande 
+      <lb ed="#L" n="47"/>concludit ea quae dicta sunt. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="340-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e280426"><!-- l4d44p1prae -->
+            <head xml:id="jsnvu6-e280426-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e280426-d1e103">
+               <lb ed="#L" n="124"/>Sententia huius distinctionis XLIIII. 
+      <lb ed="#L" n="125"/>in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e280426-d1e110">
+               <lb ed="#L" n="126"/>SOLENT autem nonnulli. Determinato de 
+      resur<lb ed="#L" n="127" break="no"/>rectionis veritate, hic determinat de resurgentium 
+      <lb ed="#L" n="128"/>conditione, &amp; habet duas partes. Primo inquirit 
+      <lb ed="#L" n="129"/>ij conditionem resurrectonis eorum qui in hac vita 
+      <lb ed="#L" n="130"/>vixerunt. Secundo specialiter inquirit de defectibus 
+      <lb ed="#L" n="131"/>abortiuorum ibi, illud etiam inuestigari. Prima habet duas. 
+      Pri<lb ed="#L" n="132" break="no"/>mo determinat conditionem bonorum resurgentium. Secundo 
+      <lb ed="#L" n="133"/>de conditione malorum ibi, de reprobis autem. Prima est 
+      prae<lb ed="#L" n="134" break="no"/>sentis lectionis. Et diuiditur in tres. Primo determinat de 
+      statu<lb ed="#L" n="135" break="no"/>ra resurgentium. Secundo de integritate ibi, non enim possunt. 
+      <lb ed="#L" n="136"/>Tertio de gloria bonorum, ibi hoc autem in corporibus. 
+      </p>
+            <p xml:id="jsnvu6-e280426-d1e136">
+               <lb ed="#L" n="137"/>
+               <!--2--> IN SPECIALI autem sic proponit magister quod 
+      <lb ed="#L" n="138"/>omnes resurgent in aetate in qua Christus resurrexit, sed non in 
+      <lb ed="#L" n="139"/>statura, sed sua propria, quam vnusquisque habuit, vel 
+      habitu<lb ed="#L" n="140" break="no"/>rus fuit, resurgent etiam cum membrorum integritate, quia in 
+      <lb ed="#L" n="141"/>quamcunque rem transiuit materia corporis, tamen reddetui 
+      <lb ed="#L" n="142"/>illi corpori, vbi prius animata fuit, ita tamen quod tota materia 
+      <lb ed="#L" n="143"/>reddetur toti corpori ordinata sine omni indecentia. Haec 
+      au<lb ed="#L" n="144" break="no"/>tem decentia specialiter apparebit in corporibus sanctorum qui 
+      <lb ed="#L" n="145"/>sine omni vitio &amp; deformitate resurgent. Et in hoc terminatur 
+      <lb ed="#L" n="146"/>sententia lectionis in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

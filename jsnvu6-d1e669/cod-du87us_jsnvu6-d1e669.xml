@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="35-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e669"><!-- l1d9q4 -->
+            <head xml:id="jsnvu6-d1e669-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e669-Hd1e103" type="question-title">Utrum generatio divina debeat exprimi per verbum praesentis temporis dicendo filius semper nascitur, an per verbum praeteriti dicendo Filius semper natus est</head>
+            <p xml:id="jsnvu6-d1e669-d1e106">
+               <lb ed="#L" n="129"/>QVAESTIO QVARTA. 
+      <lb ed="#L" n="130"/>Per quod verbum potest exprimi diuina 
+      <lb ed="#L" n="131"/>generatio. 
+    </p>
+            <p xml:id="jsnvu6-d1e669-d1e115">
+               <lb ed="#L" n="132"/>IHTO quaeritur quomodo diuina 
+      genera<lb ed="#L" n="133" break="no"/>tio debeat exprimi, vtrum per verbum 
+      praesen<lb ed="#L" n="134" break="no"/>tis temporis dicendo filius semper nascitur, an 
+      <lb ed="#L" n="135"/>per verbum praeteriti dicendo filius semper 
+      na<lb ed="#L" n="136" break="no"/>tus est. Et videtur quod per verbum praeteriti 
+      tem<lb ed="#L" n="137" break="no"/>poris, quia quod est nobilius, est Deo attribuendum, sed 
+      nobi<lb ed="#L" n="138" break="no"/>lius est esse natum vel genitum quam nasci vel gigni: ergo 
+      de<lb ed="#L" n="139" break="no"/>bemus dicere quod filius semper est natus vel genitus, magis 
+      <lb ed="#L" n="140"/>quam semper gignitur vel nascitur. 
+      </p>
+            <p xml:id="jsnvu6-d1e669-d1e137">
+               <lb ed="#L" n="141"/>
+               <!--2.--> Item Aug. 93. q. c. 57. sic dicit, qui nascitur nondum est 
+      na<lb ed="#L" n="142" break="no"/>tus: sed filius est natus, ergo nou semper nascitur. 
+</p>
+            <p xml:id="jsnvu6-d1e669-d1e147">
+               <lb ed="#L" n="143"/>Praeterea natiuitas completa debet significari vt iam facta 
+      <lb ed="#L" n="144"/>&amp; per consequens debet signilicari per praeteritum, sed 
+      natiui<lb ed="#L" n="145" break="no"/>tas filij est completa, quia nihil de ea expectatur in futurum 
+      <lb ed="#L" n="146"/>ergo debet significari per praeteritum vt dicamus filius 
+      sem<lb ed="#L" n="147" break="no"/>per natus, &amp; non semper nascitur aut semper nascetur. 
+</p>
+            <p xml:id="jsnvu6-d1e669-d1e160">
+               <lb ed="#L" n="148"/>IN CONTRARLVM est, quod non desinit esse 
+      <lb ed="#L" n="149"/>semper debet designari vt praesens, sed natiuitas filij non 
+      de<lb ed="#L" n="150" break="no"/>sinit esse, ergo debet significari per praesens dicendo filius sem 
+      <lb ed="#L" n="151"/>per nascitur. 
+    </p>
+            <p xml:id="jsnvu6-d1e669-d1e171">
+               <lb ed="#L" n="152"/>Item pater semper generat, ergo filius semper gignitur, 
+      <lb ed="#L" n="153"/>consequentia patet: probatio antecedentis patet per Daniel. 
+      <lb ed="#L" n="154"/>lib. I. qui dicit Deus infinite &amp; sine tempore ens 
+      inquiescibili<lb ed="#L" n="155" break="no"/>ter generat. 
+      </p>
+            <p xml:id="jsnvu6-d1e669-d1e182">
+               <lb ed="#L" n="156"/>
+               <!--6--> RESPONSIO. dicendum quod generatio filzcon 
+      <lb ed="#L" n="157"/>sufficienter exprimitur per praesentis temporis ver bum 
+      tan<lb ed="#L" n="158" break="no"/>tum, vel praeteriti tantum, sed per vtrumque simul quod 
+      pa<lb ed="#L" n="159" break="no"/>tet sic, in his quae producuntur non per motum, nec per 
+      actio<lb ed="#L" n="160" break="no"/>nem nouam, sed per actionem indiuisibilem, &amp; perpetuam sem 
+      <lb ed="#L" n="161"/>per sunt simul fieri &amp; factum esse, sed filius producitur a 
+      pa<lb ed="#L" n="162" break="no"/>tre non per motum nec per actionem nouam, sed per actio¬ 
+      <!--00136.xml-->
+      <pb ed="#L" n="35-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nem indiuisibilem &amp; perpetuam, ergo in productione vel 
+      ge<lb ed="#L" n="2" break="no"/>neratione filij semper sunt simul produci &amp; productum esse 
+      <lb ed="#L" n="3"/>gigni &amp; genitum esse, ergo per vtrunque debet generatio fili 
+      <lb ed="#L" n="4"/>exprimi, &amp; non per alterum tantum, vt dicatur semper gignitur 
+      <lb ed="#L" n="5"/>&amp; semper genitus est, semper nascitur &amp; semper natus est. 
+      mi<lb ed="#L" n="6" break="no"/>nor supponitur, sed probatio haec est maioris. In his enim qua 
+      <lb ed="#L" n="7"/>fiunt per motum fieri eorum est ipse motus qui non manet 
+      ac<lb ed="#L" n="8" break="no"/>quisito termino, sed cessat &amp; tunc primo res dicitur facta 
+      <lb ed="#L" n="9"/>propter quod in talibus fieri &amp; factum esse nunquam sunt 
+      si<lb ed="#L" n="10" break="no"/>mul. In his vero quae non fiunt per actionem subitam sed 
+      no<lb ed="#L" n="11" break="no"/>uam, sicut illa quae creantur de nouo fieri &amp; factum esse funt 
+      <lb ed="#L" n="12"/>simul, quia mox vt talis actio est, completa est, sed haec non ess 
+      <lb ed="#L" n="13"/>pro quolibet instanti sed solum pro instanti primo in quo de 
+      <lb ed="#L" n="14"/>nouo accipit esse. Tunc enim verum est dicere quod res creatur 
+      <lb ed="#L" n="15"/>&amp; creata est. Deinceps autem solum dicimus quod est creata &amp; 
+      <lb ed="#L" n="16"/>quod non creatur. Istud tamen non est de virtute sermonis 
+      ne<lb ed="#L" n="17" break="no"/>ex proprietate rei, sed tantum ex consuetudine loquendi vt 
+      pa<lb ed="#L" n="18" break="no"/>tebit in secundo libro, distin. 1. In his autem quae fiunt per 
+      <lb ed="#L" n="19"/>actionem indiuisibilem &amp; perpetuam semper sunt simul fieri &amp; 
+      <lb ed="#L" n="20"/>factum esse, vel produci &amp; productum esse, quia talis 
+      produ<lb ed="#L" n="21" break="no"/>ctio, vt statim est, perfecta est, &amp; nihil de perfectione sua 
+      ex<lb ed="#L" n="22" break="no"/>pectans in posterum. Et quia semper est &amp; semper completa 
+      <lb ed="#L" n="23"/>est, ideo productum per eam dicitur semper produci propter 
+      <lb ed="#L" n="24"/>permanentiam productionis. Et dicitur semper productum 
+      <lb ed="#L" n="25"/>propter eius perfectionem. Et ideo filius dicitur semper nasci 
+      <lb ed="#L" n="26"/>&amp; semper natus, forte tamen aliquantulum magis propria es 
+      <lb ed="#L" n="27"/>ista, filius semper natus est quam semper nascitur, quia in 
+      com<lb ed="#L" n="28" break="no"/>muni modo loquendi fieri dicit, quasi viam ad terminum 
+      di<lb ed="#L" n="29" break="no"/>stantem quod non est reperire in diuinis. Per hoc patet 
+      res<lb ed="#L" n="30" break="no"/>ponsio ad obiecta 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

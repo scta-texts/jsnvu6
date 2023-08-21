@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="320-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e263771"><!-- l4d29prae -->
+            <head xml:id="jsnvu6-e263771-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e263771-d1e103">
+               <lb ed="#L" n="5"/>Sententia huius distinctionis xxix. in 
+      ge<lb ed="#L" n="6" break="no"/>nerali &amp; speciali 
+</p>
+            <p xml:id="jsnvu6-e263771-d1e110">
+               <lb ed="#L" n="7"/>PORTET autem. Superius determinauit 
+      Ma<lb ed="#L" n="8" break="no"/>gister de causa efficiente matrimonij: hic 
+      deter<lb ed="#L" n="9" break="no"/>minat de causae efficientis impedimentis ne 
+      con<lb ed="#L" n="10" break="no"/>sensus matrimonium facere possit. Et diuiditur 
+      <lb ed="#L" n="11"/>in duas. Primo determinat de impedimento 
+      co<lb ed="#L" n="12" break="no"/>actionis. Secundo de impedimento erroris. Secunda ibi, distin. 30 
+      <lb ed="#L" n="13"/>nec solum. Prima est praesentis lectionis, &amp; diuiditur in tres. Pr 
+      <lb ed="#L" n="14"/>mo ostendit quomodo coactio impedit matrimonium. 
+      Secun<lb ed="#L" n="15" break="no"/>do ostendit quod post coactionem si liber consensus aduenit, 
+      ma<lb ed="#L" n="16" break="no"/>trimonium verum est. Tertio ostendit qualiter intelligendum si 
+      <lb ed="#L" n="17"/>quod aliquis dicatur consentire. Secunda ibi, Veruntamen qu 
+      <lb ed="#L" n="18"/>inuiti. Tertia ibi, consentire autem probatur 
+      </p>
+            <p xml:id="jsnvu6-e263771-d1e139">
+               <lb ed="#L" n="19"/>
+               <!--2--> In speciali sic procedit dicens: quod consensus per coactio 
+      <lb ed="#L" n="20"/>nem extortus non facit matrimonium, quia nec consensus 
+      ap<lb ed="#L" n="21" break="no"/>pellari debet, quod auctoritatibus confirmat. Postea dicit quod 
+      <lb ed="#L" n="22"/>post talem coactionem si sequens consensus interuenerit, vtpot 
+      <lb ed="#L" n="23"/>si simul cohabitent &amp; contra matrimonium non reclament 
+      <lb ed="#L" n="24"/>prior coactio matrimonio non nocet. Vltimo dicit quod ille di 
+      <lb ed="#L" n="25"/>citur consentire qui manifeste &amp; euidenter non contradicit, &amp; 
+      <lb ed="#L" n="26"/>talis tacitus consensus non solum matrimonium, sed etiam spon 
+      <lb ed="#L" n="27"/>salia prius facta confirmat. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

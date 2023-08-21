@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="160-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3815"><!-- l2d33prae -->
+            <head xml:id="jsnvu6-d1e3815-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3815-d1e103">
+               <lb ed="#L" n="113"/>Sententia huius distinctionis XXXIII. 
+      <lb ed="#L" n="114"/>in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e3815-d1e110">
+               <lb ed="#L" n="115"/>RABDICTIS ad idem videtur. Superius 
+      de<lb ed="#L" n="116" break="no"/>terminauit magister de peccati originalis 
+      tradu<lb ed="#L" n="117" break="no"/>ctione &amp; remissione. Hic determinat de eius ag 
+      <lb ed="#L" n="118"/>grauatione &amp; vnitate, &amp; multitudine. Et 
+      diuidi<lb ed="#L" n="119" break="no"/>tur in duas. Primo inquirit vtrum peccatum 
+      pro<lb ed="#L" n="120" break="no"/>ximorum parentum imputetur paruulis quo ad culpam. 
+      Se<lb ed="#L" n="121" break="no"/>cundo vtrum quo ad poenam. Secunda ibi, Et licet parentis 
+      pec<lb ed="#L" n="122" break="no"/>catum. Prima diuiditur in tres. Primo inquirit de peccati 
+      ori<lb ed="#L" n="123" break="no"/>ginalis vnitare, opponendo ad vtranque partem, &amp; veritatem 
+      <lb ed="#L" n="124"/>determinando. Secundo inquirit de peccati primi parentis 
+      gra<lb ed="#L" n="125" break="no"/>uitate. Tertio de eius remissione. Secunda ibi, hic quaeri solet 
+      <lb ed="#L" n="126"/>vtrum peccatum. Tertia ibi, Si vero quaeritur an illud peccatum. 
+      <lb ed="#L" n="127"/>Et haec est sententia &amp; diuisio lectionis in generali. 2. 
+      </p>
+            <p xml:id="jsnvu6-d1e3815-d1e141">
+               <lb ed="#L" n="128"/>
+               <!--2--> IN SPECIALI sic procedit, &amp; quaerit primo, vtrum 
+      <lb ed="#L" n="129"/>peccatum aliquorum parentum, vel omnium imputetur 
+      paruu<lb ed="#L" n="130" break="no"/>lis, sicut peccatum primi parentis. Et probat primo quod sic, 
+      sci<lb ed="#L" n="131" break="no"/>licet quod eis imputentur peccata proximorum parentum, 
+      scili<lb ed="#L" n="132" break="no"/>cet a generatione per auctoritates Aug. ex verbo Exodi, vbi 
+      di<lb ed="#L" n="133" break="no"/>citur quod deus visitat peccata parentum in filios, &amp; sic plura 
+      pec<lb ed="#L" n="134" break="no"/>cata poterunt contrahere ab origine. Item probat hoc, quia 
+      pec<lb ed="#L" n="135" break="no"/>catum originale in scriptura pluraliter significatur, Psalm. Ecce 
+      <lb ed="#L" n="136"/>enim in inmquitatibus conceptus sum, &amp; in peccatis. Item ex mul 
+      <lb ed="#L" n="137"/>titudine peccatorum Adae, quia plura peccata fuerunt in 
+      pecca<lb ed="#L" n="138" break="no"/>to Adae, quia omnia transierunt, &amp; quia parentum proximorum 
+      <lb ed="#L" n="139"/>peccata paruulis imputantur. In contrarium arguitur, quia 
+      si<lb ed="#L" n="140" break="no"/>sequeretur quod paruulorum poena non esse mitissima, quia no 
+      <lb ed="#L" n="141"/>habent nisi originale, cuius contrarium dicit Aug. Et quia Augu 
+      <lb ed="#L" n="142"/>videtur dicere quod plora peccata sint ab origine, ostendit 
+      ma<lb ed="#L" n="143" break="no"/>gister quod August. in super hoc indeterminate fuit locutus. Ei 
+      <lb ed="#L" n="144"/>subdit quod hor non obstate quia peccatum originale in 
+      sacr<lb ed="#L" n="145" break="no"/>scriptura pluraliter nominatur, vt ibi. Ecce enim in 
+      iniquitati<lb ed="#L" n="146" break="no"/>bus, &amp;c. quia ibi ponitur plurale pro singulari, sicut econuerso 
+      <lb ed="#L" n="147"/>aliquando ponitur singulare pro plurali, vt declarat per 
+      exem<lb ed="#L" n="148" break="no"/>pla. Postea quaerit, vtrum peccatu Adae fuerit grauius caeteri: 
+      <lb ed="#L" n="149"/>peccatis. Et ostendit quod quibusdam visum est grauius esse, 
+      e<lb ed="#L" n="150" break="no"/>quod majus pocumentum ex eo prouenit, quia in eo bona 
+      na<lb ed="#L" n="151" break="no"/>turalia corrumpuntur, quia in eo sicut in principio 
+      consisteba<lb ed="#L" n="152" break="no"/>tota natura. Postea quaerit, vtrum istud peccatu Adae fuerit 
+      di<lb ed="#L" n="153" break="no"/>missum. Et respondet quod sic per poenitentiam, non tamen 
+      pro<lb ed="#L" n="154" break="no"/>pter hoc paradisum corporalem recuperanit. Vitimo quaerit, cum 
+      <lb ed="#L" n="155"/>peccata patentum, excepto primo parente, non redundent in 
+      fi<lb ed="#L" n="156" break="no"/>lios, secudum illud, filius non portabit iniquitatem patris, quo 
+      <lb ed="#L" n="157"/>modo est verum illud quod scriptura dicit, quod peccata pa 
+      <lb ed="#L" n="158"/>rentum visitantur in filios vsque ad tertiam &amp; quartam gene 
+      <lb ed="#L" n="159"/>rationem. Et respondet quod illud intelligitur de filiis qui imi 
+      <lb ed="#L" n="160"/>tantur peccata parentu, qui puniuntur non pro peccatis 
+      paren<lb ed="#L" n="161" break="no"/>tum, sed pro peccatis propriis, in quibus imitati sunt malitiam 
+      pa<lb ed="#L" n="162" break="no"/>tentum. Et ideo facit mentionem de tertia &amp; quarta generatione, 
+      <!--00389.xml-->
+      <pb ed="#L" n="161-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quia vsque ad illam generationem consueuerunt filij parentes 
+      <lb ed="#L" n="2"/>videre, &amp; eorum malitiam imitari. Et tangit etiam mysticam 
+      <lb ed="#L" n="3"/>expositionem, quae patet in litera.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

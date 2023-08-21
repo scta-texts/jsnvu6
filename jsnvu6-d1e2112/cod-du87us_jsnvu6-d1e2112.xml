@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="98-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2112"><!-- l1d44q1 -->
+            <head xml:id="jsnvu6-d1e2112-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e2112-Hd1e103" type="question-title">Utrum Deus possit facere unam et eandem creaturam numero 
+      meliorem quam fecerit</head>
+            <p xml:id="jsnvu6-d1e2112-d1e106">
+               <lb ed="#L" n="101"/>QVALSTIO PRIMA 
+      <lb ed="#L" n="102"/>Vtrum deus potuerit facere aliquam vnam &amp; 
+      ean<lb ed="#L" n="103" break="no"/>dem creaturam meliorem quam fecerit. 
+      <lb ed="#L" n="104"/>Thom. 1. 9. 25. art. 6. 
+    </p>
+            <p xml:id="jsnvu6-d1e2112-d1e117">
+               <lb ed="#L" n="105"/>CIRCA distinctionem istam quaeruntur tria. 
+      Pri<lb ed="#L" n="106" break="no"/>imum est, vtrum deus potuerit facere aliquam vnam 
+      <lb ed="#L" n="107"/>&amp; eandem creaturam meliorem quam fecerit. 
+      Se<lb ed="#L" n="108" break="no"/>cundum est, vtrum data quacunque creatura deus 
+      <lb ed="#L" n="109"/>possit facere aliam perfectiorem secundum speciem 
+      <lb ed="#L" n="110"/>(ita vt non sit status in perfectionibus specificis, sed fit 
+      proces<lb ed="#L" n="111" break="no"/>sus in infinitum.) Tertium est vtrum deus possit facere 
+      vniuer<lb ed="#L" n="112" break="no"/>sum melius quam fecerit. Ad primum sic proceditur. Et arguitur 
+      <lb ed="#L" n="113"/>quod deus non potuerit facere vnam &amp; eandem creaturam 
+      se<lb ed="#L" n="114" break="no"/>cundum numerum meliorem quam fecerit, quia effectus qui 
+      <lb ed="#L" n="115"/>producitur ab aliqua causa secundum totam virtutem causae non 
+      <lb ed="#L" n="116"/>potest ab ipsa meliorari, sed quaelibet creatura producitur a deo 
+      <lb ed="#L" n="117"/>secundum totam suam virtutem, nam secundum partem 
+      pro<lb ed="#L" n="118" break="no"/>duci non potest (cum partem non habeat) ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2112-d1e150">
+               <lb ed="#L" n="119"/>
+               <!--2.--> Item quod est optimum meliorari non potest, sed quae deus 
+      <lb ed="#L" n="120"/>facit sunt optima Genes. 1. Vidit deus cuncta quae fecerat, &amp; 
+      <lb ed="#L" n="121"/>erant valde bona: ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2112-d1e162">
+               <lb ed="#L" n="122"/>
+               <!--3--> IN CONTRARIVM est, quia quicquid potest 
+      na<lb ed="#L" n="123" break="no"/>tura, potest &amp; deus, &amp; adhuc amplius, sed opere naturae res 
+      me<lb ed="#L" n="124" break="no"/>liorantur sicut homo de pueritia mutatur in melius, scilicet in 
+      <lb ed="#L" n="125"/>iuuentutem: ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e2112-d1e175">
+               <lb ed="#L" n="126"/>
+               <!--4--> RESPONSIO. Dicendum quod cum sit duplex bonitas rei 
+      <lb ed="#L" n="127"/>sicut est duplex entitas, scilicet essentialis &amp; accidentalis, loquen 
+      <lb ed="#L" n="128"/>do de bonitate accidentali deus potest facere multas creaturas 
+      <lb ed="#L" n="129"/>meliores quam sint. Cuius ratio est. quia deus potest facere 
+      <lb ed="#L" n="130"/>quodcunque, quod non repugnat naturae rei, sed multis rebus 
+      <lb ed="#L" n="131"/>non repugnat habere plures perfectiones accidentales quam 
+      ha<lb ed="#L" n="132" break="no"/>beant, istas etiam quas habent possunt habere intensiori modo: 
+      <lb ed="#L" n="133"/>ergo deus potest multas creaturas meliorare accidentaliter. 
+      </p>
+            <p xml:id="jsnvu6-d1e2112-d1e197">
+               <lb ed="#L" n="134"/>
+               <!--5--> Si autem loquamur de bonitate essentiali, aut loquimur de 
+      <lb ed="#L" n="135"/>creatura proprie dicta, quae est substantia completa per se sum 
+      <lb ed="#L" n="136"/>pta, aut de creatura large sumpta quae includit omnem naturam 
+      <lb ed="#L" n="137"/>creatam, siue sit substantia, siue sit accidens. Primo modo 
+      accipien<lb ed="#L" n="138" break="no"/>do creaturam scilicet pro substantia completa, &amp; per se subsistente: 
+      Dicen<lb ed="#L" n="139" break="no"/>dum quod talis non potest meliorari quantu ad bonitatem 
+      essentia<lb ed="#L" n="140" break="no"/>lem &amp; intrinsecam, quod patet, quia si deus posset facere aliquam 
+      <lb ed="#L" n="141"/>creaturam meliorem quam sit quantum ad bonitatem essentialem, 
+      <lb ed="#L" n="142"/>hoc esset vel addendo nouam perfectionem, aut intendendo 
+      prae<lb ed="#L" n="143" break="no"/>existentem, non addendo nouam perfectionem, quia sicut dicitur 
+      <lb ed="#L" n="144"/>8. meta. species rerum sunt sicut numeri, in quibus addita vel 
+      <lb ed="#L" n="145"/>substracta vnitate mutatur species, sic addita vel substracta qua 
+      <lb ed="#L" n="146"/>cunque perfectione essentiali a re variatur necessario species rei, 
+      <lb ed="#L" n="147"/>nec melioratur res praeexistens, sed fit noua res &amp; praeexistens 
+      <lb ed="#L" n="148"/>corrumpitur. Vnde sicut non potest fieri qud ternarius manens 
+      <lb ed="#L" n="149"/>ternarius habeat plures vel pauciores vnitates quam tres, sic non 
+      <lb ed="#L" n="150"/>potest fieri quod res aliqua manens eadem habeat successiue 
+      plu<lb ed="#L" n="151" break="no"/>res vel pauciores perfectiones essentiales, igitur nulla 
+      substan<lb ed="#L" n="152" break="no"/>tia potest meliorari per additionem nouae formae, vel perfectionis 
+      <lb ed="#L" n="153"/>essentialis. Item nec per intensionem perfectionis 
+      praeexisten<lb ed="#L" n="154" break="no"/>tis, quia formae substantiales non possunt intendi, vel remitti, 
+      <lb ed="#L" n="155"/>vt dictum fuit supra, distinctione decimaseptima. (Alioquin ad 
+      <lb ed="#L" n="156"/>has posset esse motus) quod negat Philos. 5. physi. 
+      </p>
+            <p xml:id="jsnvu6-d1e2112-d1e252">
+               <lb ed="#L" n="157"/>
+               <!--6--> Si vero accipiatur creatura large pro omni re creata 
+      natura<lb ed="#L" n="158" break="no"/>liter tunc aliqua creatura potest meliorari essentialiter, scilicet 
+      <lb ed="#L" n="159"/>omnis forma quae suscipit magis &amp; minus, quia potest deduci de 
+      <lb ed="#L" n="160"/>gradu imperfectiori ad perfectiorem, &amp; hi gradus attenduntur 
+      <!--00263.xml-->
+      <pb ed="#L" n="99-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>secundum essentiam ipsius formae, vt patuit supra, cum 
+      agere<lb ed="#L" n="2" break="no"/>tur de charitate 
+</p>
+            <p xml:id="jsnvu6-d1e2112-d1e276">
+               <lb ed="#L" n="3"/>AD PRIMVM argumentum dicendum quod effectus qui 
+      <lb ed="#L" n="4"/>producitur ex aliqua causa secundum eius totam virtutem non 
+      <lb ed="#L" n="5"/>potest ab ea meliorari si agat ex necessitate naturae, nisi 
+      fort<lb ed="#L" n="6" break="no"/>melioratio proueniret ex melioratione subiecti, sed si omnino 
+      <lb ed="#L" n="7"/>agat libere &amp; non ex necessitate potest effectum suum 
+      melio<lb ed="#L" n="8" break="no"/>rare, quia non oportuit quod a principio produceret ipsum secui 
+      <lb ed="#L" n="9"/>dum summum perfectionis sibi possibilis, talis autem causa est 
+      <lb ed="#L" n="10"/>deus, quia non agit ex necessitate, sed libere. 
+      </p>
+            <p xml:id="jsnvu6-d1e2112-d1e296">
+               <lb ed="#L" n="11"/>
+               <!--8--> Ad secundum dicendum, quod vnaquaeque res facta a Deo 
+      bo<lb ed="#L" n="12" break="no"/>na est secundum se, non autem optima, imo meliorari potest, 
+      <lb ed="#L" n="13"/>sed omnia simul dicuntur optima in comparatione ad vniuer 
+      <lb ed="#L" n="14"/>sum quod constituunt, talia enim producta sunt, sicut optime 
+      <lb ed="#L" n="15"/>congruebat vniuerso quod Deus volebat producere: &amp; ex ipsis 
+      <lb ed="#L" n="16"/>constituere, sic enim optimi est optima producere secundum 
+      <lb ed="#L" n="17"/>Dionysium: &amp; nihilominus deus potuit producere omnia 
+      me<lb ed="#L" n="18" break="no"/>liora ad constitutionem melioris vniuersi si sic ordinasset.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

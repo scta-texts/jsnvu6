@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="74-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1558"><!-- l1d31q1 -->
+            <head xml:id="jsnvu6-d1e1558-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e1558-Hd1e103" type="question-title">Utrum aequalitas sit realis relatio in divinis</head>
+            <p xml:id="jsnvu6-d1e1558-d1e106">
+               <lb ed="#L" n="8"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="9"/>Vtrum aequalitas in diuinis sit 
+      re<lb ed="#L" n="10" break="no"/>latio realis. 
+      <lb ed="#L" n="11"/>Thom. 1. q. 2. artic. 2. ad quin. 
+    </p>
+            <p xml:id="jsnvu6-d1e1558-d1e117">
+               <lb ed="#L" n="12"/>CIRCA distinctionem istam quaeritur de duobus 
+      <lb ed="#L" n="13"/>Primum est de aequalitate diuinarum personarum 
+      <lb ed="#L" n="14"/>Secundum est de appropriatione quae fit in 
+      diui<lb ed="#L" n="15" break="no"/>nis. Quantum ad primum sic proceditur. Et 
+      vide<lb ed="#L" n="16" break="no"/>eal tur quod aequalitas in diuinis relatio sit realis, 
+      <lb ed="#L" n="17"/>quia illae relationes quae sic se habent quod earum est ider 
+      <lb ed="#L" n="18"/>fundamentum &amp; eadem extrema si vna est realis &amp; alia, sed 
+      <lb ed="#L" n="19"/>relationes originis habent idem fundamentum &amp; eadem 
+      extre<lb ed="#L" n="20" break="no"/>ma cum relatione aequalitatis (vtrobique enim est 
+      essenti<lb ed="#L" n="21" break="no"/>diuina fundamentum, &amp; personae diuinae sunt extrema) ergo 
+      <lb ed="#L" n="22"/>cum relationes originis sint reales, videtur quod relatio 
+      aequa<lb ed="#L" n="23" break="no"/>litatis sit realis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1558-d1e146">
+               <lb ed="#L" n="24"/>
+               <!--2--> Item sicut perfectio diuinae essentiae requirit quod ipsa a patre 
+      <lb ed="#L" n="25"/>communicetur filio, ita requirit quod sit eadem in patre &amp; filio, sed 
+      <lb ed="#L" n="26"/>propter primum pater realiter refertur ad filium relatione ori 
+      <lb ed="#L" n="27"/>ginis, quia scilicet habet essentiam a patre, ergo propter 
+      secun<lb ed="#L" n="28" break="no"/>dum pater debet realiter referri ad filium relatione aequalitatis, 
+      <lb ed="#L" n="29"/>quia filius habet eandem essentiam cum patre. 
+      </p>
+            <p xml:id="jsnvu6-d1e1558-d1e165">
+               <lb ed="#L" n="30"/>
+               <!--3--> IN CONTRARIVM arguitur, qa si aequalitas in 
+      <lb ed="#L" n="31"/>diuinis esset realis relatio, tunc in diuinis essent plures relatione. 
+      <lb ed="#L" n="32"/>reales quam quatuor, hoc autem est inconueniens, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e1558-d1e176">
+               <lb ed="#L" n="33"/>
+               <!--4--> RESPONSIO. Hic est triplex modus dicendi 
+      con<lb ed="#L" n="34" break="no"/>cors in conclusione hac quod aequalitas in diuinis est solum 
+      rela<lb ed="#L" n="35" break="no"/>tio rationis, sed differens in modo probandi. Primus modus 
+      ta<lb ed="#L" n="36" break="no"/>lis est, relationum quaedam sunt similium nominum, sicut illa 
+      <lb ed="#L" n="37"/>quae fundantur super vnum pro idem simile &amp; aequale. Quaedam 
+      <lb ed="#L" n="38"/>dissimilium &amp; haec sunt in triplici differentia: quia quaedam 
+      fun<lb ed="#L" n="39" break="no"/>dantur super numerum, vt duplum subduplum. quaedam super 
+      <lb ed="#L" n="40"/>actionem &amp; passionem vt pater &amp; filius. quaedam autem 
+      refe<lb ed="#L" n="41" break="no"/>runtur vt mensura &amp; mensuratum, &amp; hae relationes dissimilium 
+      <lb ed="#L" n="42"/>nominum proportionabiliter se habent ad illas quae sunt 
+      simi<lb ed="#L" n="43" break="no"/>lium nominum &amp; econuerso: ita quod sicut sunt duo modi reales 
+      <lb ed="#L" n="44"/>relationum dissimilium nominum, scilicet illarum quae 
+      fundan<lb ed="#L" n="45" break="no"/>tur super numerum, &amp; illarum quae fundantur super actionem 
+      <lb ed="#L" n="46"/>&amp; passionem: tertius autem modus relationum est secundum 
+      <lb ed="#L" n="47"/>rationem: scilicet mensurae ad mensurabile, sic in relationibus 
+      <lb ed="#L" n="48"/>similium nominum duo modi sunt reales in creaturis duntaxat, 
+      <lb ed="#L" n="49"/>scilicet aequalitas &amp; similitudo. Tertius autem est secundum 
+      ra<lb ed="#L" n="50" break="no"/>tionem, scilicet identitas. Tunc dicunt isti vlterius quod sicut 
+      <lb ed="#L" n="51"/>qualitas &amp; quantitas in diuinis transeunt in substantiam, sic 
+      re<lb ed="#L" n="52" break="no"/>lationes fundatae super quantitatem, vt aequalitas, &amp; super 
+      qua<lb ed="#L" n="53" break="no"/>litatem, vt similitudo transeunt in relationem fundatam in 
+      su<lb ed="#L" n="54" break="no"/>persubstantiam quae est identitas, cum ergo identitas semper 
+      <lb ed="#L" n="55"/>sit relatio secundum rationem, oportet quod aequalitas &amp; 
+      si<lb ed="#L" n="56" break="no"/>militudo, vt sunt in diuinis (quia sic transeunt in identitatem 
+      <lb ed="#L" n="57"/>sunt relationes rationis tantum 
+</p>
+            <p xml:id="jsnvu6-d1e1558-d1e235">
+               <lb ed="#L" n="58"/>Licet haec conclusio sit vera, tamen ratio probans eam 
+      mul<lb ed="#L" n="59" break="no"/>ripliciter deficit. Primo, quia quod relationes dissimilium 
+      nomi<lb ed="#L" n="60" break="no"/>num proportionantur relationibus similium nominum non es 
+      <lb ed="#L" n="61"/>de se notum, nec ipsi probant, sed absque aliqua probatione 
+      as<lb ed="#L" n="62" break="no"/>sumunt. Secundo, quia dato quod proportionentur, ita vt 
+      rela<lb ed="#L" n="63" break="no"/>tio identitatis respondeat relationi mensurae &amp; mensurabilis. 
+      <lb ed="#L" n="64"/>tunc deberent dicere quod sicut relatio mensurae &amp; 
+      mensura<lb ed="#L" n="65" break="no"/>bilis est relatio ex vna parte realis, &amp; ex alia secundum 
+      ratio<lb ed="#L" n="66" break="no"/>nem tantum, fic identitas ex vna parte erit relatio realis, &amp;t ex 
+      <lb ed="#L" n="67"/>alia relatio rationis tantum, quod est absurdum. Tertio, 
+      qui<lb ed="#L" n="68" break="no"/>applicatio ad propositum non est conueniens, scilicet quod si 
+      quan<lb ed="#L" n="69" break="no"/>titas &amp; qualitas in diuinis transeunt in substantiam, quod 
+      aequali<lb ed="#L" n="70" break="no"/>tas &amp; similitudo transeant in identitatem quae sit relatio 
+      ra<lb ed="#L" n="71" break="no"/>tionis. Possumus enim in diuinis accipere dupliciter 
+      identita<lb ed="#L" n="72" break="no"/>tem. Vno modo prout vnaquaeque persona dicitur eadem 
+      sibi<lb ed="#L" n="73" break="no"/>ipsi, &amp; haec identitas proculdubio est relatio rationis, quia est 
+      <lb ed="#L" n="74"/>ad aliud secundum rationem tantum, &amp; in hanc non transeunt 
+      <lb ed="#L" n="75"/>similitudo &amp; aequalitas. Alio modo possumus accipere 
+      identi<lb ed="#L" n="76" break="no"/>tatem, prout vna persona dicitur eadem alteri in essentia, &amp; in 
+      <lb ed="#L" n="77"/>hanc transeunt similitudo &amp; aequalitas. Sed quod hic sit 
+      relatio<lb ed="#L" n="78" break="no"/>rationis non minus est dubium quam de similitudine &amp; 
+      aequa<lb ed="#L" n="79" break="no"/>lirate etiam in creaturis. Si autem aliquando duo 
+      participan<lb ed="#L" n="80" break="no"/>tia vnum in specie quantitatis &amp; qualitatis referuntur ad se in¬ 
+      <!--00213.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>uicem realiter: multo fortius ea quae participant vnum in 
+      spe<lb ed="#L" n="82" break="no"/>cie substantiae secundum illud vnum debent referri ad se 
+      inui<lb ed="#L" n="83" break="no"/>cem realiter. eodem modo in diuinis, vbi plura supposita 
+      par<lb ed="#L" n="84" break="no"/>ticipant vnum secundum numerum, siue illud vnum accipiatu 
+      <lb ed="#L" n="85"/>sub ratione substantiae: siue quantitatis, vel qualitatis, aequi 
+      <lb ed="#L" n="86"/>dubium est, ex quo supposita relara sunt realiter distincta: &amp; 
+      <lb ed="#L" n="87"/>fundamentum realiter vnum quod referantur secundum 
+      ra<lb ed="#L" n="88" break="no"/>tionem tantum fundamento accepto in ratione substantiae: 
+      si<lb ed="#L" n="89" break="no"/>cut eo accepto in ratione quantitatis &amp; qualitatis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1558-d1e311">
+               <lb ed="#L" n="90"/>
+               <!--6--> Secundus modus probandi eandem conclusionem talis est 
+      <lb ed="#L" n="91"/>De ratione relationis est, quod per eam aliquid dicatur ad se 
+      <lb ed="#L" n="92"/>habere, sed secundum aequalitatem diuina persona non se 
+      ha<lb ed="#L" n="93" break="no"/>bet ad aliud secundum rem, quia persona dicitur aequalis personae 
+      <lb ed="#L" n="94"/>secundum essentiam acceptam sub ratione quantitatis: vna au 
+      <lb ed="#L" n="95"/>tem persona est eadem alteri quoad essentiam, quare 
+      aequali<lb ed="#L" n="96" break="no"/>tas inter diuinas personas non est relatio realis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1558-d1e331">
+               <lb ed="#L" n="97"/>
+               <!--1--> Sed contra hoc arguitur, quia licet de ratione relationis sit 
+      <lb ed="#L" n="98"/>esse ad aliud, quantum ad extrema relata, non tamen quoad fun 
+      <lb ed="#L" n="99"/>damentum relationis. Alioquin in diuinis non esset aliqua 
+      re<lb ed="#L" n="100" break="no"/>latio realis, quia omnes relationes diuinae fundantur super 
+      es<lb ed="#L" n="101" break="no"/>sentiam quae est vna numero indistincta in omnibus personis. 
+      <lb ed="#L" n="102"/>Igitur vnitas essentiae diuinae, &amp; diuinarum personarum in essen. 
+      <lb ed="#L" n="103"/>tia accepta sub ratione quantitatis non impedit quin 
+      aequali<lb ed="#L" n="104" break="no"/>tas sit realis relatio, quod autem essentia quae est vna numero 
+      <lb ed="#L" n="105"/>sit fundamentum omnium relationum diuinarum etiam 
+      ori<lb ed="#L" n="106" break="no"/>ginis patet, quia in diuinis non sunt nisi duo praedicamenta, sub 
+      <lb ed="#L" n="107"/>stantia, &amp; relatio, sed relatio non potest fundari super 
+      relatio<lb ed="#L" n="108" break="no"/>nem alioquin esset processus in infinitum: ergo fundatur super 
+      <lb ed="#L" n="109"/>essentiam, vel substantiam quae est idem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1558-d1e364">
+               <lb ed="#L" n="110"/>
+               <!--8--> Et idcirco aliqui supplent modum istum dicentes quod licet 
+      <lb ed="#L" n="111"/>non sit necessarium ad realitatem relationum, quod extrema 
+      ha<lb ed="#L" n="112" break="no"/>beant distinctum fundamentum, tamen necessarium est, quod 
+      ex<lb ed="#L" n="113" break="no"/>trema, vt extrema sint realiter distincta. nunc est ita quod 
+      person<lb ed="#L" n="114" break="no"/>diuinae licet sint realiter distinctae: vt sunt extrema relationum 
+      <lb ed="#L" n="115"/>originis, non tamen vt sunt extrema relationis aequalitatis, &amp; 
+      <lb ed="#L" n="116"/>similitudinis propter quod relationes originis sunt reales, non 
+      <lb ed="#L" n="117"/>autem relationes aequalitatis, vel similitudinis. Minor probatur, 
+      <lb ed="#L" n="118"/>quia pater &amp; filius de se dicuntur extrema relationum originis 
+      <lb ed="#L" n="119"/>&amp; de se distinctionem habent, sed pater &amp; filius vt sic non sunt 
+      <lb ed="#L" n="120"/>extrema relationum aequalitatis aut similitudinis, sed vt 
+      quan<lb ed="#L" n="121" break="no"/>ta vel qualia, aequalitas enim est duorum quantorum, &amp; 
+      simili<lb ed="#L" n="122" break="no"/>tudo duorum qualium: pater autem &amp; filius non distinguuntur 
+      <lb ed="#L" n="123"/>vt quanti, &amp; aequales, sed sunt penitus vnum re, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1558-d1e400">
+               <lb ed="#L" n="124"/>
+               <!--9--> Tertius modus est, qui videtur verior, &amp; magis consonat 
+      <lb ed="#L" n="125"/>praedictis, quod relationes aequalitatis &amp; similitudinis non sunt 
+      <lb ed="#L" n="126"/>reales in diuinis, sed tantum relationes originis, quia vt dictum 
+      <lb ed="#L" n="127"/>fuit supra, relatio realis, vel est realis respectus accidentaliter 
+      <lb ed="#L" n="128"/>adueniens, vel est denominatio sumpta ex pluribus. Similitude 
+      <lb ed="#L" n="129"/>autem &amp; aequalitas nullo istorum modorum possunt esse reale 
+      <lb ed="#L" n="130"/>relationes in diuinis, quod patet primo accipiendo relationem 
+      <lb ed="#L" n="131"/>pro respectu consequente per se ad suum fundamentum, quia 
+      <lb ed="#L" n="132"/>talis respectus est realis ex hoc que extrma realia ex natura sui 
+      <lb ed="#L" n="133"/>fundamenti habent inter se necessariam exigentiam, nunc est 
+      <lb ed="#L" n="134"/>ita quod personae diuinae non habent inter se necessariam 
+      exi<lb ed="#L" n="135" break="no"/>gentiam ratione essentiae, vt est fundamentum aequalitatis &amp; 
+      <lb ed="#L" n="136"/>similitudinis: habent autem vt ipsa est fundamentum 
+      relatio<lb ed="#L" n="137" break="no"/>num originis, ergo solae relationes originis sunt reales, non 
+      au<lb ed="#L" n="138" break="no"/>tem relationes aequalitatis aut similitudinis. Maior probata 
+      <lb ed="#L" n="139"/>fuit prius, minor declaratur, quia essentia diuina, aut est vna ha 
+      <lb ed="#L" n="140"/>bens rationem quantitatis &amp; qualitatis, &amp; sic est fundamentum 
+      <lb ed="#L" n="141"/>relationum aequalitatis &amp; similitudinis, aut est essentia 
+      foecun<lb ed="#L" n="142" break="no"/>da, &amp; sic est fundamentum relationum originis. Ex foecunditate 
+      <lb ed="#L" n="143"/>enim diuinae essentiae est qu in ipsa vna numero existente sini 
+      <lb ed="#L" n="144"/>plures personae, quarum personarum vna sit ab alia &amp; tertia ab 
+      <lb ed="#L" n="145"/>vtraque. Cum igitur essentia diuina, vt est vna non requirat? 
+      <lb ed="#L" n="146"/>sit in pluribus: sed hoc requirit solum inquantum est foecunda 
+      <lb ed="#L" n="147"/>&amp; sub hac ratione solum est fundamentum relationum 
+      origi<lb ed="#L" n="148" break="no"/>nis, patet quod illae solae sunt reales in diuinis. Respectu autem 
+      re<lb ed="#L" n="149" break="no"/>lis accidentaliter adueniens non conuenit deo etiam per 
+      com<lb ed="#L" n="150" break="no"/>parationem ad creaturam, vt prius probatum fuit, &amp; 
+      multo<lb ed="#L" n="151" break="no"/>minus per comparationem ad intrinseca, propter quod 
+      aequa<lb ed="#L" n="152" break="no"/>litas quae est inter personas diuinas non potest esse realis respe 
+      <lb ed="#L" n="153"/>ctus accidentaliter adueniens. Denominatio etiam respectiua 
+      <lb ed="#L" n="154"/>quae est realis relatio sumitur ex pluribus rebus realiter inter 
+      <lb ed="#L" n="155"/>se differentibus, vt supra dictum fuit, aequalitas autem 
+      diuina<lb ed="#L" n="156" break="no"/>rum personarum non est denominatio sumpta ex pluribus 
+      re<lb ed="#L" n="157" break="no"/>bus, sed est denominatio sumpta ex vnica re, quae nullo modo 
+      <lb ed="#L" n="158"/>est realiter plurificata, sed solum secundum rationem, &amp; ideo 
+      <lb ed="#L" n="159"/>non est realis relatio in diuinis sicut in creaturis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1558-d1e483">
+               <lb ed="#L" n="160"/>
+               <!--10--> AD PRIMVM argumentum dicendum, quod illa 
+      <lb ed="#L" n="161"/>relationes quae habent eadem extrema, &amp; idem fundamentum 
+      <lb ed="#L" n="162"/>sub eadem reali ratione exigentiae extremorum omnes sunt 
+      <!--00214.xml-->
+      <pb ed="#L" n="74-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>reales aequaliter, nunc est ita, quod in essentia diuina vt est 
+      fun<lb ed="#L" n="2" break="no"/>damentum relationum originis est sufficiens ratio exigentia 
+      <lb ed="#L" n="3"/>extremorum, haec enim est foecunditas naturae, vt dictum est. sed 
+      <lb ed="#L" n="4"/>in ipsa vt est fundamentum aequalitatis &amp; similitudinis non es 
+      <lb ed="#L" n="5"/>talis ratio exigentiae, vnitas enim essentiae non requirit quod 
+      <lb ed="#L" n="6"/>ipsa sit in pluribus suppositis, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1558-d1e514">
+               <lb ed="#L" n="7"/>
+               <!--11--> Ad secundum dicendum quod perfectio essentiae diuinae vt 
+      <lb ed="#L" n="8"/>foecunda est requirit quod sit a patre in filio, sed perfectio essen 
+      <lb ed="#L" n="9"/>tiae diuinae vt vna est non requirit quod in eis sit vna, quia vt 
+      vn<lb ed="#L" n="10" break="no"/>est, non requirit quod sit in pluribus, &amp; per consequens non 
+      re<lb ed="#L" n="11" break="no"/>quirit quod sit vna in pluribus, tota ergo necessitas exigentia 
+      <lb ed="#L" n="12"/>est ex foecunditate naturae secundum quam ipsa est 
+      fundamen<lb ed="#L" n="13" break="no"/>tum relationum originis, &amp; non ex eius vnitare secundum qui 
+      <lb ed="#L" n="14"/>ipsa est fundamentum aequalitatis &amp; similitudinis. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

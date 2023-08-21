@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="88-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1837"><!-- l1d37q4 -->
+            <head xml:id="jsnvu6-d1e1837-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e1837-Hd1e103" type="question-title">Utrum angelus moveatur localiter</head>
+            <p xml:id="jsnvu6-d1e1837-d1e106">
+               <lb ed="#L" n="61"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="62"/>Vtrum angelus moueatur localiter. 
+      <lb ed="#L" n="63"/>Tho. l. 4. 53. art. 1. 
+    </p>
+            <p xml:id="jsnvu6-d1e1837-d1e115">
+               <lb ed="#L" n="64"/>DEINDE quaeritur vtrum angelus moueatur 
+      <lb ed="#L" n="65"/>localiter. Et videtur quod non, quia nullum 
+      im<lb ed="#L" n="66" break="no"/>partibile potest moueri vt probatur 6. 
+      Physico<lb ed="#L" n="67" break="no"/>rum, sed angelus est impartibilis, ergo non 
+      po<lb ed="#L" n="68" break="no"/>test moueri. 
+      </p>
+            <p xml:id="jsnvu6-d1e1837-d1e128">
+               <lb ed="#L" n="69"/>
+               <!--2--> IN CONTRARIVM est, quod dicit magister in 
+      <lb ed="#L" n="70"/>litera. 
+      </p>
+            <p xml:id="jsnvu6-d1e1837-d1e138">
+               <lb ed="#L" n="71"/>
+               <!--3--> RESPONSIO. Sicut alicui conuenit esse in loco, sic v 
+      <lb ed="#L" n="72"/>dendum est an ei competat moueri localiter, angelo autem non 
+      <lb ed="#L" n="73"/>competit esse in loco circunscriptiue sicut corpori, &amp; ideo non 
+      <lb ed="#L" n="74"/>competit ei proprie motus localis qui competit corpori prout 
+      <lb ed="#L" n="75"/>successiue transfertur de loco in locu commensurando se 
+      par<lb ed="#L" n="76" break="no"/>- tibus magnitudinis. Item nec angelo secundum se competit lo 
+      <lb ed="#L" n="77"/>n. cus diffinitiue sic quod ei determinetur situs, &amp; eius proprietates, 
+      <lb ed="#L" n="78"/>es, vt recitatiue loquar, non assertiue, &amp; ideo nec sic potest ei com¬ 
+      <!--00241.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>petere motus localis. Alio modo potest competere angelo esse 
+      <lb ed="#L" n="80"/>in loco, scilicet secundum ordinem ad locum, &amp; nec isto modo 
+      <lb ed="#L" n="81"/>potest angelus moueri localiter, quia motus est ad non habitun 
+      <lb ed="#L" n="82"/>secundum totum, vel saltem secundum aliquam partem, possi 
+      <lb ed="#L" n="83"/>bile tamen haberi, sed angelus hoc modo dicitur esse in omni 
+      <lb ed="#L" n="84"/>loco, in quo potest esse (vt prius recitatum est) &amp; ita nullus est 
+      <lb ed="#L" n="85"/>ab eo non habitus qui sit possibilis ab eo haberi, ergo secundum 
+      <lb ed="#L" n="86"/>hunc modum essendi in loco non competit angelo moueri 
+      lo<lb ed="#L" n="87" break="no"/>caliter. Alio modo dicitur angelus esse in loco quoad 
+      manife<lb ed="#L" n="88" break="no"/>stationem, quod fit per operationem angeli circa locum, &amp; 
+      <lb ed="#L" n="89"/>hoc modo competit angelo moueri dupliciter, vno modo, vt 
+      <lb ed="#L" n="90"/>motus corporis ab angelo dicatur motus angeli, quia est ab 
+      <lb ed="#L" n="91"/>angelo, &amp; hoc est satis improprie dictum. Alio modo sic, quod 
+      <lb ed="#L" n="92"/>successio diuersorum motuum causatorum ab angelo vocetur 
+      <lb ed="#L" n="93"/>motus angeli, quia per talem successionem operationum 
+      an<lb ed="#L" n="94" break="no"/>geli circa diuersa corpora, &amp; in diuersis locis manifestatur 
+      suc<lb ed="#L" n="95" break="no"/>cessiue natura angeli in diuersis locis. Et primus quidem 
+      mo<lb ed="#L" n="96" break="no"/>tus est continuus. Secundus autem non est, sed discretus, quia 
+      <lb ed="#L" n="97"/>est successio diuersorum motuum consequenter se habentium, 
+      <lb ed="#L" n="98"/>siue cum interpellatione temporis, siue non, neuter tamen 
+      isto<lb ed="#L" n="99" break="no"/>rum motuum est in angelo sicut in subiecto, sed solum sicut in 
+      <lb ed="#L" n="100"/>principio effectiuo per effectum manifestato. 
+      </p>
+            <p xml:id="jsnvu6-d1e1837-d1e212">
+               <lb ed="#L" n="101"/>
+               <!--4--> Hoc supposito patent duae conclusiones de motu angeli 
+      <lb ed="#L" n="102"/>vna est quod motus angeli non potest esse in instanti, quod pa 
+      <lb ed="#L" n="103"/>tet sic, motus angeli vel dicitur motus localis alicuius 
+      corpo<lb ed="#L" n="104" break="no"/>ris localiter translati per angelum, vel successio duorum 
+      mo<lb ed="#L" n="105" break="no"/>tuum, sed constat quod neutrum horum potest esse in 
+      instan<lb ed="#L" n="106" break="no"/>ti, ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e1837-d1e230">
+               <lb ed="#L" n="107"/>Secunda conclusio est, quod motus angeli de loco ad locum 
+      <lb ed="#L" n="108"/>potest esse pertranseundo medium, vel non pertranseundo. Si 
+      <lb ed="#L" n="109"/>enim motus angeli dicatur successiua translatio corporis de 
+      lo<lb ed="#L" n="110" break="no"/>co ad locum, sic necesse ex quod pertranseatur medium quod est 
+      <lb ed="#L" n="111"/>inter terminum a quo, &amp; terminum ad quem, cum hoc sit de 
+      <lb ed="#L" n="112"/>essentiali ratione continui motus. Si vero motus angeli 
+      voce<lb ed="#L" n="113" break="no"/>tur successio diuersorum motuum causatorum ab angelo, sic 
+      <lb ed="#L" n="114"/>angelus potest transire medium si vult, vel non pertransire. 
+      Tri<lb ed="#L" n="115" break="no"/>bus enim corporibus existentibus contactis a. &amp; b. &amp; c. angelus 
+      <lb ed="#L" n="116"/>si vult potest primo mouere a. deinde b. &amp; tertio c. &amp; tunc non 
+      <lb ed="#L" n="117"/>transit de a. in c. nisi per b. medium potest etiam si vult 
+      moue<lb ed="#L" n="118" break="no"/>re primo a. deinde c. non moto b. &amp; tunc non transit medium, 
+      <lb ed="#L" n="119"/>AD ARGVMENTVM dicendum quod solum probar 
+      <lb ed="#L" n="120"/>quod motus non competit angelo vt subiecto, quod concessum 
+      <lb ed="#L" n="121"/>est, sed attribuitur ei vt principio effectiuo per effectum 
+      mani<lb ed="#L" n="122" break="no"/>festato. Secundum hoc exponenda sunt dicta magistri in litera.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

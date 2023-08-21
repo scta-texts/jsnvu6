@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="86-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1820"><!-- l1d37p2prae -->
+            <head xml:id="jsnvu6-d1e1820-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1820-d1e103">
+               <lb ed="#L" n="4"/>Sententia huius literae in generali. 
+    </p>
+            <p xml:id="jsnvu6-d1e1820-d1e108">
+               <lb ed="#L" n="5"/>VMQVE diuina natura. Haec est secunda pars 
+      <lb ed="#L" n="6"/>principalis distinctionis praedictae, vbi excludit 
+      <lb ed="#L" n="7"/>a deo ea quae consequuntur creaturam in loco 
+      <lb ed="#L" n="8"/>existentem, scilicet locabilitatem &amp; motum. Et 
+      di<lb ed="#L" n="9" break="no"/>uiditur in tres partes. Primo proponit quod 
+      in<lb ed="#L" n="10" break="no"/>tendit. Secundo ostendit qualis imperfectio inuenitur in 
+      crea<lb ed="#L" n="11" break="no"/>turis existentibus in loco ibi, omne ergo corpus. Tertio conclu 
+      <lb ed="#L" n="12"/>dit imperfectionem deum non habere, ibi, fatemur itaque. 
+      </p>
+            <p xml:id="jsnvu6-d1e1820-d1e128">
+               <lb ed="#L" n="13"/>
+               <!--2--> In speciali sic procedit. Primo ponit quod diuina natura 
+      <lb ed="#L" n="14"/>sic est in omni loco quod non circunscribitur vel diffinitur 
+      lo<lb ed="#L" n="15" break="no"/>co, vel aliquo modo, deinde ostendit quod haec duplex 
+      im<lb ed="#L" n="16" break="no"/>perfectio inuenitur in creatura, creatura enim corporalis 
+      lo<lb ed="#L" n="17" break="no"/>co diffinitur &amp; circunscribitur, spiritualis autem solum 
+      diffini<lb ed="#L" n="18" break="no"/>tur. Item corporalis creatura per tempus &amp; locum mouetur, 
+      <lb ed="#L" n="19"/>spirntualis autem per tempus solum. Mutari autem per 
+      tem<lb ed="#L" n="20" break="no"/>pus est per affectiones tempori subiacentes mutari. Postea 
+      in<lb ed="#L" n="21" break="no"/>quirit vtrum mutari per locum spiritui conueniat, &amp; 
+      deter<lb ed="#L" n="22" break="no"/>minat quod transire de loco ad locum, itaque diffiniatur &amp; 
+      <lb ed="#L" n="23"/>non circunscribatur sic conuenit spiritibus, sed transire de 
+      <lb ed="#L" n="24"/>loco ad locum circunscriptiue eis non conuenit. Deinde osten 
+      <lb ed="#L" n="25"/>dit quod esse locale &amp; circunscriptibile, &amp; diffinibile deo non 
+      <lb ed="#L" n="26"/>conuenit, addit, quod deus sine sui mutatione de nouo incipit, 
+      <lb ed="#L" n="27"/>&amp; definit esse in creatura. Vitimo determinata recapitulat, v 
+      <lb ed="#L" n="28"/>patet in litera. Haec est, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="112-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2397"><!-- l2d2q1 -->
+            <head xml:id="jsnvu6-d1e2397-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e2397-Hd1e103" type="question-title">Utrum coelum empyreum sit locus corporeus</head>
+            <p xml:id="jsnvu6-d1e2397-d1e106">
+               <lb ed="#L" n="41"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="42"/>Vtrum. caelum empyreum sit locus corporeus. 
+      <lb ed="#L" n="43"/>Thom. 14. 66. artic. 3.
+    </p>
+            <p xml:id="jsnvu6-d1e2397-d1e115">
+               <lb ed="#L" n="44"/>CIRCA distinctionem istam quaeritur de duobus, 
+      <lb ed="#L" n="45"/>scilicet de caelo empyreo &amp; de aeuo. De caelo 
+      em<lb ed="#L" n="46" break="no"/>pyreo quaeruntur duo. Primum est, vtrum fit 
+      lo<lb ed="#L" n="47" break="no"/>Icus corporeus. Secundum est, vtrum habeat 
+      in<lb ed="#L" n="48" break="no"/>fluentiam in alia corpora. Quantum ad primum 
+      <lb ed="#L" n="49"/>arguitur quod caelum empyreum non sit corpus, quia 
+      con<lb ed="#L" n="50" break="no"/>templationi non debetur locus corporeus. Nam 
+      contempla<lb ed="#L" n="51" break="no"/>tio existens in corpore aliqualiter abstrahit, vnde August. 10. 
+      <lb ed="#L" n="52"/>de Trinit. quando aliquid diuinum mente percipimus non in 
+      <lb ed="#L" n="53"/>hoc mundo sumus. Sed caelum empyreum dicitur deputatum 
+      <lb ed="#L" n="54"/>contemplationi beatorum, ergo non est locus corporeus. 
+      </p>
+            <p xml:id="jsnvu6-d1e2397-d1e141">
+               <lb ed="#L" n="55"/>
+               <!--2--> IN CONTRARIVM sunt Strabus &amp; Beda. Dicii 
+      <lb ed="#L" n="56"/>enim Strabus super illo verbo Genes. 1. In principio creaui 
+      <lb ed="#L" n="57"/>Deus caelum &amp; terram. caelum enim dicitur visibile firmamen. 
+      <lb ed="#L" n="58"/>tum, sed empyreum, id est igneum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2397-d1e155">
+               <lb ed="#L" n="59"/>
+               <!--3--> RESPONSIO. Videnda sunt tria, an caelum empyreum 
+      <lb ed="#L" n="60"/>sit, ad quid factum sit, &amp; quale sit. Quod caelum empyreum sit, aut 
+      <lb ed="#L" n="61"/>quod sit corpus non potest per rationes necessarias demonstrari, 
+      <lb ed="#L" n="62"/>quia quicquid cognoscimus de corporibus coelestibus, 
+      cogno<lb ed="#L" n="63" break="no"/>scimus aut per visum, aut per motum aut ex aliquo effectu in 
+      <lb ed="#L" n="64"/>his inferioribus apparente, sed illud caelum visu non 
+      comprehen<lb ed="#L" n="65" break="no"/>ditur nec subiacet motui, vt infra dicetur, nec aliquis 
+      effectu<lb ed="#L" n="66" break="no"/>de illo caelo innotescit nobis, &amp; ideo non potest efficaciter 
+      pro<lb ed="#L" n="67" break="no"/>bari per rationem quod sit tale caelum. Tenemus autem hoc aucto. 
+      <lb ed="#L" n="68"/>ritate sanctorum maxime Strabi &amp; Bedae, nihilominus potest hoc 
+      <lb ed="#L" n="69"/>aliqualiter persuaderi, licet non multum efficaciter: Sic, inter 
+      cor<lb ed="#L" n="70" break="no"/>pora coelestia inuenitur aliquid quod est partim diaphanum 
+      par<lb ed="#L" n="71" break="no"/>tim lucidum (vt caelum stellatum) aliquod quod est omnino 
+      diaph<lb ed="#L" n="72" break="no"/>num, vt 9. sphera seu coelum cristallinum, ergo debet aliquod 
+      <lb ed="#L" n="73"/>inueniri quod sit omnino lucidum, &amp; dicimus hoc empyreum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2397-d1e192">
+               <lb ed="#L" n="74"/>
+               <!--4--> QUANTVM ad secundum, scilicet ad quid factum sit 
+      <lb ed="#L" n="75"/>Quidam dicunt quod factum sit principaliter propter ordinem 
+      vni<lb ed="#L" n="76" break="no"/>uersi. Quod declarant sic, inferiora in entibus secundum sui su 
+      <lb ed="#L" n="77"/>premum attingunt superiora secundum sui infimum, vt vult 
+      <lb ed="#L" n="78"/>Dionysi. nunc est ita quod intelligentia est motor immobilis 
+      <lb ed="#L" n="79"/>oportet ergo quod sit aliquod corpus attingens ipsam quantum ad 
+      <lb ed="#L" n="80"/>immobilitatem quod est eius infimum, intellectualitas enim 
+      <!--00290.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>est eius supremum, oportet ergo aliquod corpus coeleste esse 
+      <lb ed="#L" n="82"/>immobile. Et hoc est caelum empyreum. Et ita congruebat 
+      or<lb ed="#L" n="83" break="no"/>dini vniuersi propter eius connexionem esse aliquod tale 
+      cor<lb ed="#L" n="84" break="no"/>pus. Factum est etiam (vt dicunt) vt sit locus corporum 
+      glorioso<lb ed="#L" n="85" break="no"/>rum. Decet enim corpora gloriosa esse in aliqua parte vniuersi 
+      <lb ed="#L" n="86"/>(&amp; maxime in suprema) quam dicimus caelum empyreum. Et 
+      <lb ed="#L" n="87"/>eadem ratione factum est propter angelos quibus congruit 
+      <lb ed="#L" n="88"/>esse in aliqua parte vniuersi cum sint &amp; ipsi partes vniuersi. 
+      </p>
+            <p xml:id="jsnvu6-d1e2397-d1e234">
+               <lb ed="#L" n="89"/>
+               <!--5--> Istud autem non videtur sufficienter dictum ordo enim in 
+      <lb ed="#L" n="90"/>quo inferiora attingunt superiora debet attendi secundum ea 
+      <lb ed="#L" n="91"/>quae sunt rei intrinseca &amp; essentialia, esse autem immobile non 
+      <lb ed="#L" n="92"/>est intrinsecum nec essentiale caelo empyreo, imo non est 
+      im<lb ed="#L" n="93" break="no"/>mobile (licet sit immotum.) Posset enim moueri &amp; alij orbes 
+      <lb ed="#L" n="94"/>quiescere non mutata huius vel eorum natura, ideo &amp;c. Quod 
+      <lb ed="#L" n="95"/>etiam subditur quod factum est tam propter homines quam 
+      <lb ed="#L" n="96"/>propter angelos, non video quo ad angelos, quia vt aliqui 
+      pro<lb ed="#L" n="97" break="no"/>babiliter dicunt angelis non conuenit esse in loco nisi per 
+      ope<lb ed="#L" n="98" break="no"/>rationem quam habent circa locum, &amp; adhuc secundum illam 
+      <lb ed="#L" n="99"/>dicuntur ibi esse metaphorice, nec angeli sunt partes vniuers 
+      <lb ed="#L" n="100"/>corporei, vt propter hoc oporteat eis aptare locum corporeum 
+      </p>
+            <p xml:id="jsnvu6-d1e2397-d1e265">
+               <lb ed="#L" n="101"/>
+               <!--6--> Propter quod videtur esse melius dicendum quod propter 
+      <lb ed="#L" n="102"/>hoc quod caelum empyreum tenet gradum in corporibus qui forte 
+      <lb ed="#L" n="103"/>non est supremus cum non sit corpus viuens, neque attenditur 
+      <lb ed="#L" n="104"/>secundum suam immobilitatem, sed secundum sua essentialia, 
+      ni<lb ed="#L" n="105" break="no"/>hilominus factum est propter corpora sanctorum vt sit eis locus 
+      <lb ed="#L" n="106"/>congruitatis non necessitatis. Ex qua congruitate redditur cau 
+      <lb ed="#L" n="107"/>sa tertij propositi (scilicet quale debeat esse.) Conditiones eiim 
+      <lb ed="#L" n="108"/>rei ordinatae in finem debent congruere fini. Caelum autem illud 
+      <lb ed="#L" n="109"/>ordinatur ad futurum statum beatorum. Et quia illi sunt in ple 
+      <lb ed="#L" n="110"/>na fruitione totaliter quietante appetitum humanum, ideo 
+      de<lb ed="#L" n="111" break="no"/>bet esse non motum vel quietum, quia vero sunt in 
+      participa<lb ed="#L" n="112" break="no"/>tione aeternitatis, debet locus ille esse incorruptibilis, quia etii 
+      <lb ed="#L" n="113"/>sunt in continua visione lucis aeternae, debuit esse aeternum 
+      luci<lb ed="#L" n="114" break="no"/>dum, vnde empyreum dicitur (id est igneum) non a calore sed a 
+      <lb ed="#L" n="115"/>splendore, lucidum autem dicitur non quia sit radiosum, quia 
+      <lb ed="#L" n="116"/>claritas eius nequaqua latet nos, cum spherae intermediae fini 
+      <lb ed="#L" n="117"/>transparentes. Sed pro tanto dicitur lucidum, quia in 
+      compositio<lb ed="#L" n="118" break="no"/>ne sua lucem habet, sed non ex tanta densitate partium vt 
+      ter<lb ed="#L" n="119" break="no"/>minet visum sicut faciunt corpora solis &amp; lunae, &amp; astrorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2397-d1e311">
+               <lb ed="#L" n="120"/>
+               <!--7--> AD ARGVMENTVM in oppositum dicendum 
+      <lb ed="#L" n="121"/>quod ibi est locus verae contemplationis non propter angelos 
+      <lb ed="#L" n="122"/>sed propter homines, nec propter spiritum contemplantem nisi 
+      <lb ed="#L" n="123"/>quatenus est actus corporis cui congruit talis locus pro statu 
+      <lb ed="#L" n="124"/>suae glorificationis, &amp; propter adaptationem iam dictam vt 
+      cor<lb ed="#L" n="125" break="no"/>poralia spiritualibus respondeant. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

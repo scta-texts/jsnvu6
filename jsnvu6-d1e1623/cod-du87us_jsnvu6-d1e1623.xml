@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="76-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1623"><!-- l1d33prae -->
+            <head xml:id="jsnvu6-d1e1623-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1623-d1e103">
+               <lb ed="#L" n="4"/>Sententia huius distinctionis XXXIII. 
+      <lb ed="#L" n="5"/>in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e1623-d1e110">
+               <lb ed="#L" n="6"/>POST supradicta. Superius determinauit 
+      ma<lb ed="#L" n="7" break="no"/>gister de essentia, personis &amp; proprietatibus. Hi 
+      <lb ed="#L" n="8"/>vero determinat comparationes illorum 
+      adinui<lb ed="#L" n="9" break="no"/>cem. Et diuiditur in duas partes. Primo ostendi 
+      <lb ed="#L" n="10"/>qualiter proprietates comparantur ad essentiam, 
+      <lb ed="#L" n="11"/>&amp; personam. Secundo qualiter personae ad essentiam 
+      compa<lb ed="#L" n="12" break="no"/>rantur. Secunda in principio 34. dist. praedictis autem 
+      adiicien<lb ed="#L" n="13" break="no"/>dum. Prima est praesentis lectionis. Et diuiditur in tres partes. 
+      <lb ed="#L" n="14"/>Primo mouet dubitationem. Secundo determinat. Tertio 
+      ex<lb ed="#L" n="15" break="no"/>dudit errorem. Secunda ibi, quod enim. Tertia ibi, hic autem 
+      ali<lb ed="#L" n="16" break="no"/>qui negant. Prima diuiditur in tres. Primo probat quod 
+      proprie<lb ed="#L" n="17" break="no"/>tates sint in personis. Secundo quot sunt ipsae personae. Terti? 
+      <lb ed="#L" n="18"/>quod sunt ipsa natura diuina. Secunda ibi, Superius quoque. Terti 
+      <lb ed="#L" n="19"/>ibi, cumque de simplicitate. Illa vero pars in quam excludit 
+      erro<lb ed="#L" n="20" break="no"/>rem diuiditur in duas. Primo ponit errorem siue falsam 
+      posi<lb ed="#L" n="21" break="no"/>tionem. Secundo ponit confirmationem erroris &amp; soluit. 
+      Se<lb ed="#L" n="22" break="no"/>cunda ibi, si inquiunt. &amp; haec secunda diuiditur in duas. Primi 
+      <lb ed="#L" n="23"/>ponit errorem &amp; erroris confirmationem per duas rationes. 
+      <lb ed="#L" n="24"/>Secundo per auctoritates. Secunda ibi, veruntamen nondum 
+      <lb ed="#L" n="25"/>desistunt. quarum prima diuiditur in quatuor. Primo ponit ra 
+      <lb ed="#L" n="26"/>tionem qua probatur quod proprietas non est persona. Secunde 
+      <lb ed="#L" n="27"/>inducit rationem, qua probatur quod proprietas non est essentia 
+      <lb ed="#L" n="28"/>Tertio probat quod proprietates non sunt in essentia. Quarto 
+      <lb ed="#L" n="29"/>excludit quandam obiectionem. Secunda ibi, sed iterum 
+      ad<lb ed="#L" n="30" break="no"/>dunt. Tertia ibi, caeterum haereticorum. Quarta ibi, Sed forte 
+      <lb ed="#L" n="31"/>quaeres. Haec est diuisio lectionis in generali. 
+    </p>
+            <p xml:id="jsnvu6-d1e1623-d1e169">
+               <lb ed="#L" n="32"/>In speciali vero sic procedit magister, &amp; quaerit primo vtri 
+      <lb ed="#L" n="33"/>proprietates sint ipsae personae, an vtrum sint ipsa diuina essen 
+      <lb ed="#L" n="34"/>tia. Postea soluit &amp; ostendit primo quod proprietates sint in 
+      <lb ed="#L" n="35"/>ipsis personis. Proprietates enim ab aeterno fuerunt sicut &amp; 
+      per<lb ed="#L" n="36" break="no"/>ionae, ergo fuerunt in personis. Postea ostendit quod proprietate 
+      <lb ed="#L" n="37"/>sint ipsae personae, proprietates enim sunt in personis, vt 
+      di<lb ed="#L" n="38" break="no"/>ctum est. Sed in personis nulla est diuersitas, ergo proprietate 
+      <lb ed="#L" n="39"/>sunt ipsae diuinae personae. Postea ostendit quod proprietate 
+      <lb ed="#L" n="40"/>sunt ipsa diuina essentia, quia diuina essentia propter eius 
+      sim<lb ed="#L" n="41" break="no"/>plicitatem est quicquid habet, sed diuina persona &amp; natura 
+      ha<lb ed="#L" n="42" break="no"/>bent proprietates, ergo proprietates sunt ipsa natura &amp; 
+      perso<lb ed="#L" n="43" break="no"/>na diuina, quod etiam confirmat per auctoritatem. Postea 
+      po<lb ed="#L" n="44" break="no"/>nit errorem dicentium quod licet proprietates sint in 
+      perso<lb ed="#L" n="45" break="no"/>nis, non tamen sunt ipsae personae, sed sunt quasi 
+      extrinsecu<lb ed="#L" n="46" break="no"/>affixae. Postea secundum hunc errorem inducit duas ratione 
+      <lb ed="#L" n="47"/>&amp; soluit, quarum vna est talis. Si proprietates sunt personae 
+      <lb ed="#L" n="48"/>ergo non distinguunt personas, nec determinant: Idem enim 
+      <lb ed="#L" n="49"/>non determinatur, nec distinguitur seipso. Respondet auten 
+      <lb ed="#L" n="50"/>ad hanc obiectionem, non est inconueniens personas distingu 
+      <lb ed="#L" n="51"/>seipsis. Postea ponit aliam rationem, per quam probat quod 
+      <lb ed="#L" n="52"/>proprietates non sunt essentia, quae talis est, proprietates sunt 
+      <lb ed="#L" n="53"/>diuina essentia, ergo sicut diuinae personae dicuntur conuenire 
+      <lb ed="#L" n="54"/>in essentia, ita dicuntur conuenire in proprietatibus, quod fal 
+      <lb ed="#L" n="55"/>sum est. Ad hanc rationem respondet o hoc videtur 
+      propte<lb ed="#L" n="56" break="no"/>sui altitudinem excedere omnem intellectum. Postea 
+      poni<lb ed="#L" n="57" break="no"/>aliam rationem, per quam probat quod proprietates non sunt 
+      <lb ed="#L" n="58"/>in diuina essentia, quia illud in quo est paternitas est pater, &amp; 
+      <lb ed="#L" n="59"/>in quo est filiatio illud est filius. Si ergo res vna habet 
+      paterni<lb ed="#L" n="60" break="no"/>tatem &amp; filiationem eadem res erit pater &amp; filius quod est 
+      in<lb ed="#L" n="61" break="no"/>conueniens. Et respondet ad hanc rationem, quia essentia 
+      li<lb ed="#L" n="62" break="no"/>cet habeat paternitatem &amp; filiationem, non tamen est pate 
+      <lb ed="#L" n="63"/>&amp; filius, nec generat, nec generatur, quia proprietates non sunt 
+      <lb ed="#L" n="64"/>in ea, vt determinantes, &amp; distinguentes eam. Postea 
+      exclu<lb ed="#L" n="65" break="no"/>dit quandam obiectionem quae ex dictis posset oriri. Posset 
+      <lb ed="#L" n="66"/>enim quis quaerere quomodo proprietates non distinguunt 
+      <lb ed="#L" n="67"/>essentiam personarum in qua sunt, sicut distinguunt 
+      persona<lb ed="#L" n="68" break="no"/>in quibus sunt, &amp; dicit magister quod hoc exprimere est supra 
+      <lb ed="#L" n="69"/>intellectum nostrum. Vitimo ponit quasdam auctoritates per 
+      <lb ed="#L" n="70"/>quas videtur probari quod aliud in diuinis sit substantia, &amp; 
+      <lb ed="#L" n="71"/>aliud proprietas. Et respondet quod August. intendit per illas 
+      <lb ed="#L" n="72"/>auctoritates dicere proprietates esse aliquid diuersum ab essen 
+      <lb ed="#L" n="73"/>tia, sed intendit nominare inter illa diuersitatem rationis. Ei 
+      <lb ed="#L" n="74"/>in hoc terminatur &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

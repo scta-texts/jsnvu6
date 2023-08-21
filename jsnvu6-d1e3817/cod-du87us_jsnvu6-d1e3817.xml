@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="161-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3817"><!-- l2d33q1 -->
+            <head xml:id="jsnvu6-d1e3817-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e3817-Hd1e103" type="question-title">Utrum peccata proximorum parentum sint vel redundent in filios</head>
+            <p xml:id="jsnvu6-d1e3817-d1e106">
+               <lb ed="#L" n="4"/>QVAESTIO PRIMA 
+      <lb ed="#L" n="5"/>Vtrum peccata proximorum parentum 
+      re<lb ed="#L" n="6" break="no"/>dundent in filios. 
+      <lb ed="#L" n="7"/>Thom. . a 4. t. α. p. G 387. .38.
+    </p>
+            <p xml:id="jsnvu6-d1e3817-d1e117">
+               <lb ed="#L" n="8"/>CIRCA distinctionem istam primo quaeritur 
+      <lb ed="#L" n="9"/>vtrum peccata proximorum parentum 
+      redunden<lb ed="#L" n="10" break="no"/>in filios. Et videtur quod sic, quia in habentibus sym 
+      <lb ed="#L" n="11"/>bolum facilior est transitus (vt dicitur primo 
+      di<lb ed="#L" n="12" break="no"/>gui generatione.) Sed maior est conuenientia 
+      proli<lb ed="#L" n="13" break="no"/>ad patrem proximum, quam ad remotum, cum ergo peccatum 
+      <lb ed="#L" n="14"/>parentum primorum redundet in filios. Videtur quod peccata 
+      pro<lb ed="#L" n="15" break="no"/>ximorum parentum magis redundant in eos. 
+      </p>
+            <p xml:id="jsnvu6-d1e3817-d1e137">
+               <lb ed="#L" n="16"/>
+               <!--2--> Item peccatu Adae transit in nos, quia in ipso eramus dum 
+      <lb ed="#L" n="17"/>peccauit, sed eodem modo sumus in proximis parentibus 
+      an<lb ed="#L" n="18" break="no"/>tequam generemur, sicut in Adam fuimus, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3817-d1e149">
+               <lb ed="#L" n="19"/>
+               <!--3--> IN CONTRARIUM est, quia qui non potes 
+      <lb ed="#L" n="20"/>transfundere iustitiam, nec culpam. Sed proximus pater non po 
+      <lb ed="#L" n="21"/>test transfundere iustitiam, ergo nec culpam. 
+      </p>
+            <p xml:id="jsnvu6-d1e3817-d1e160">
+               <lb ed="#L" n="22"/>
+               <!--4--> RESPONSIO. Ex titulo quaestionis, &amp; ex argumen 
+      <lb ed="#L" n="23"/>tis factis ad vtramque partem clare patet quod quaestio ista nullo 
+      <lb ed="#L" n="24"/>modo quaerit de Adam, vtrum ab ipso transeat in nos aliquod 
+      <lb ed="#L" n="25"/>peccatum. De hoc enim in praecedentibus quaestionibus satis 
+      <lb ed="#L" n="26"/>dictum est, sed intelligitur haec quaestio solum de peccatis 
+      pro<lb ed="#L" n="27" break="no"/>ximorum parentum, &amp; omnium aliorum ab Adam 
+      quantum<lb ed="#L" n="28" break="no"/>cunque remotorum vtrum redundent in posteros. 
+      </p>
+            <p xml:id="jsnvu6-d1e3817-d1e180">
+               <lb ed="#L" n="29"/>
+               <!--5--> Ad quod dicendum quod peccata parentum redundare in filios 
+      <lb ed="#L" n="30"/>potest intelligi dupliciter, scilicet quo ad culpa vel quo ad 
+      poe<lb ed="#L" n="31" break="no"/>nam, si quo ad culpam adhuc dupliciter, vel quo ad culpam 
+      actua<lb ed="#L" n="32" break="no"/>lem, vel quo ad culpam originalem, si quo ad culpam actualem, 
+      <lb ed="#L" n="33"/>sic peccatum cuiuscunque parentis, etiam Adae non transit in fi 
+      <lb ed="#L" n="34"/>lium, nisi per imitationem inquantum filius est imitator pater 
+      <lb ed="#L" n="35"/>norum scelerum agendo similia quae vidit vel nouit patrem egis 
+      <lb ed="#L" n="36"/>se. Quod patet sic, peccatum actuale patris non potest 
+      redun<lb ed="#L" n="37" break="no"/>: dare in actuale peccatum filij, nisi quia eadem actio numero qu 
+      <lb ed="#L" n="38"/>est patris sit ab ipso in filio, vel quia similis actio peccati qua 
+      <lb ed="#L" n="39"/>praecessit in patre consequenter est in filio. Primum non potest 
+      <lb ed="#L" n="40"/>esse, quia in creaturis actio manens in agente numeratur nume 
+      <lb ed="#L" n="41"/>ratione suppositorum, pater autem &amp; filius distinguuntur 
+      secun<lb ed="#L" n="42" break="no"/>dum suppositum, ergo impossibile est quod actio peccati eadem 
+      <lb ed="#L" n="43"/>secundum numerum sit in patre &amp; filio, saltem quoad actionem 
+      <lb ed="#L" n="44"/>immanentem, in qua principaliter consistit peccatum. Et idem ess 
+      <lb ed="#L" n="45"/>de actione transeunte in materiam exteriorem saltem quo ad 
+      <lb ed="#L" n="46"/>paruulum recenter natum, in quo non potest esse executio 
+      tali<lb ed="#L" n="47" break="no"/>actionis. Relinquitur ergo quod actuale peccatum patris non potes 
+      <lb ed="#L" n="48"/>redundare in actuale peccatum filij, nisi quia talis actio peccati 
+      <lb ed="#L" n="49"/>quae praecessit in patre tanquam in exemplari consequenter est 
+      <lb ed="#L" n="50"/>in filio imitante scelus paternum, &amp; hoc habet locum solum in 
+      <lb ed="#L" n="51"/>adultis. Si vero peccatum patris dicatur redundare in filium que 
+      <lb ed="#L" n="52"/>ad culpam originalem; sic tenendum est quod nullum peccatum 
+      <lb ed="#L" n="53"/>proximorum parentum, vel etiam primi parentis praeter suum 
+      <lb ed="#L" n="54"/>primum peccatum traducitur seu diriuatur ad filios. 
+      </p>
+            <p xml:id="jsnvu6-d1e3817-d1e241">
+               <lb ed="#L" n="55"/>
+               <!--6--> Ad cuius euidentiam attendendum est quod siue peccatum 
+      <lb ed="#L" n="56"/>originale sit idem quod reatus, siue non, nunquam tamen est 
+      si<lb ed="#L" n="57" break="no"/>ne reatu. Et ideo ad sciendum an peccata quorumcumque 
+      paren<lb ed="#L" n="58" break="no"/>tum transeant in filios per originem, videndum est qualiter 
+      re<lb ed="#L" n="59" break="no"/>dundent in eos quo ad poenam &amp; reatum poenae. Est autem du 
+      <lb ed="#L" n="60"/>plex poena, scilicet sensus &amp; damni, poena sensus consistit in 
+      ve<lb ed="#L" n="61" break="no"/>ra passione quae est ex praeceptione alicuius laesiui, poena vero 
+      <lb ed="#L" n="62"/>damni in carentia alicuius boni superadditi. 
+      </p>
+            <p xml:id="jsnvu6-d1e3817-d1e263">
+               <lb ed="#L" n="63"/>
+               <!--7--> Quo ad primam poenam filius non est reus peccati patris, nec 
+      <lb ed="#L" n="64"/>iuste punitur pro patre. Cuius ratio est, quia qui non communicant 
+      <lb ed="#L" n="65"/>in actione non debent communicare in passione correspondente 
+      <lb ed="#L" n="66"/>Sed pater &amp; filius (vt supponimus) non communicant in actioni 
+      <lb ed="#L" n="67"/>culpae, ergo non debent communicare in passione correspondente, 
+      <lb ed="#L" n="68"/>sed poena sensus consistit in vera passione, ergo &amp;c. Et ideo si p: 
+      <lb ed="#L" n="69"/>ter pro culpa sua cruciatur, mutilatur, vel fustigatur, nihil horum 
+      <lb ed="#L" n="70"/>debet pati filius adultus vel paruulus. Si vero loquamur de poep 
+      <lb ed="#L" n="71"/>na damni, adhuc talis est duplex, quia vel tale damnum consistit 
+      <lb ed="#L" n="72"/>: in priuatione boni habiti, vt cum aliquis priuatur haereditate ian 
+      <lb ed="#L" n="73"/>habita, aut in amissione boni nondum habiti, sed tamen debit 
+      <lb ed="#L" n="74"/>haberi. Primo modo peccatum patris non redundat in filiu. 
+      Cu<lb ed="#L" n="75" break="no"/>ius ratio est, qua in eo non debet filius puniri pro patre in quo est 
+      <lb ed="#L" n="76"/>omnino distinctus a patre, quando em aliquid redundat de vnc 
+      <lb ed="#L" n="77"/>in alium, hoc est ratione alicuius v nionis, sed in perfectione 
+      ha<lb ed="#L" n="78" break="no"/>bita filius est omnino distinctus a patre, ergo &amp;c. Et ideo si patet 
+      <lb ed="#L" n="79"/>pro culpa sua exhaeredaretur filius emancipatus non debet exha 
+      <!--00389.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>redari. Et eodem modo si Adam genuisset filum antequam peccal 
+      <lb ed="#L" n="81"/>set filius ille per sequens peccatum Adae non amisisset iustitian 
+      <lb ed="#L" n="82"/>originalem, nec consequentia ad ipsam: quod autem dictum est 
+      <lb ed="#L" n="83"/>talis poena non debetur filio pro peccato parentum intelligendum 
+      <lb ed="#L" n="84"/>est de poena, prout ipsa est vindicatiua culpae, qa inquantum ipsa 
+      <lb ed="#L" n="85"/>est medicina praebens exemplum aliis, seu cautelam contra re 
+      <lb ed="#L" n="86"/>cidiuum, sic quandoque infligitur filio pro peccato patris.
+</p>
+            <p xml:id="jsnvu6-d1e3817-d1e324">
+               <lb ed="#L" n="87"/>Si autem loquamur de poena damni quae consistit in amissione 
+      <lb ed="#L" n="88"/>boni debiti haberi a filio, sed nondum habiti, sic filius potest 
+      iu<lb ed="#L" n="89" break="no"/>ste puniri pro patre, vel magis in patre. Cuius ratio est, quia 
+      <lb ed="#L" n="90"/>quae sunt vnum, vno actu tolluntur. Sed respectu boni habiti a pa 
+      <lb ed="#L" n="91"/>tre &amp; non habiti a filio: sed tamen debiti haberi habere actu in 
+      <lb ed="#L" n="92"/>patre &amp; habere in potentia in filio sunt vnum, quia propter hoc 
+      <lb ed="#L" n="93"/>est debitum haberi a filio, quia est actu habitum a patre, vel saltem 
+      <lb ed="#L" n="94"/>vnum dependet ex altero, ergo ista simul &amp; vno actu tolluntur 
+      <lb ed="#L" n="95"/>Et ideo cum pater ex cum pa sua iuste priuatur, eo quod habuit 
+      <lb ed="#L" n="96"/>filius in patre priuatur eo quod ex patre habere debebat; &amp; hoc 
+      <lb ed="#L" n="97"/>modo priuato Adam per peccatum suum, ab eo quod 
+      accepe<lb ed="#L" n="98" break="no"/>rat pro se, &amp; sua posteritate priuata est iuste tota posteritas. 
+      </p>
+            <p xml:id="jsnvu6-d1e3817-d1e354">
+               <lb ed="#L" n="99"/>
+               <!--9--> Ex hoc patet propositum, scilicet quod peccata proximorum par 
+      <lb ed="#L" n="100"/>tum, vel etiam primorum, scilicet Adae &amp; Euae (praeter peccati 
+      <lb ed="#L" n="101"/>eorum primum) non redundant in filios, quantu ad originalem 
+      <lb ed="#L" n="102"/>culpam, quia cui non est concessum vt transmittat ad filios aliquod 
+      <lb ed="#L" n="103"/>donum, talis peccando non potest transmittere ad eos defectum 
+      <lb ed="#L" n="104"/>doni illius, sed nulli parentum proximorum, nec etiam ipsi Adae, 
+      <lb ed="#L" n="105"/>postquam semel peccauit concessum est aliquod donum in posteros 
+      <lb ed="#L" n="106"/>transmittendum, sed solum hoc fuit concessum primis 
+      parenti<lb ed="#L" n="107" break="no"/>bus antequam peccarent, ergo nullus proximorum parentum peccando 
+      <lb ed="#L" n="108"/>potest transmittere in posteros: defectum alicuius doni, nec etiam 
+      <lb ed="#L" n="109"/>parentes primi nisi per suum prinium peccatum, per quod 
+      ami<lb ed="#L" n="110" break="no"/>serunt donum supernatura le sibi collatum pro se &amp; sua posteritate 
+      <lb ed="#L" n="111"/>peccatum autem originale est carentia alicuius doni dirigentis ad 
+      <lb ed="#L" n="112"/>salutem cum debito habendi ipsum, &amp; dignitate seu reatu cared 
+      <lb ed="#L" n="113"/>eo, ergo peccatum originale on pot est transfundi in posteros a 
+      <lb ed="#L" n="114"/>proximis parentibus, vel rei notis propter aliquod eorum actuale 
+      <lb ed="#L" n="115"/>peccatum, sed solum propter primum peccatum Adae. 
+      </p>
+            <p xml:id="jsnvu6-d1e3817-d1e396">
+               <lb ed="#L" n="116"/>
+               <!--10--> Per hoc patet ad argumenta in contrarium, quia si fuisse 
+      <lb ed="#L" n="117"/>proximis parentibus aliquod donum collatum pro se &amp; poste 
+      <lb ed="#L" n="118"/>ritate si illud amisissent per peccatum suum transfudissent in 
+      <lb ed="#L" n="119"/>posteros illius doni defectum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

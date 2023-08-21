@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="105-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2280"><!-- l1d48q1 -->
+            <head xml:id="jsnvu6-d1e2280-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e2280-Hd1e103" type="question-title">Utrum voluntas nostra possit conformari voluntati divinae</head>
+            <p xml:id="jsnvu6-d1e2280-d1e106">
+               <lb ed="#L" n="117"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="118"/>Vtrum voluntas nostras possit conformari 
+      <lb ed="#L" n="119"/>voluntati diuinae. 
+      <lb ed="#L" n="120"/>Nihil Thom. 
+    </p>
+            <p xml:id="jsnvu6-d1e2280-d1e117">
+               <lb ed="#L" n="121"/>CIRCA distinctionem istam duo quaeruntur. Pri 
+      <lb ed="#L" n="122"/>simum est, vtrum voluntas nostra possit 
+      confor<lb ed="#L" n="123" break="no"/>mari voluntati diuinae. Secundum est vtrum omnes 
+      <lb ed="#L" n="124"/>teneantur ad conformandum voluntatem suam 
+      <lb ed="#L" n="125"/>diuinae voluntati, maxime quantum ad volitum 
+      <lb ed="#L" n="126"/>Ad primum sic proceditur. Et videtur quod voluntas nostri 
+      <lb ed="#L" n="127"/>non possit conformari voluntati diuinae, quia conformitas est 
+      <lb ed="#L" n="128"/>conuenientia duorum in vna forma, sed voluntas diuina &amp; no 
+      <lb ed="#L" n="129"/>stra non possunt in aliqua forma vna conuenire, neque 
+      secun<lb ed="#L" n="130" break="no"/>dum speciem, neque secundum genus, ergo non potest inter 
+      <lb ed="#L" n="131"/>eas esse aliqua conformitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e2280-d1e143">
+               <lb ed="#L" n="132"/>
+               <!--2--> Item relatiua aequiparentiae ad conuertentiam ducuntur, 
+      <lb ed="#L" n="133"/>sed conformitas est relatio aequiparentiae, ergo si voluntas nostra 
+      <lb ed="#L" n="134"/>diceretur conformari voluntati diuinae, sequeretur qud voluntas 
+      <lb ed="#L" n="135"/>diuina posset dici conformari voluntati nostrae, quod non dicimus
+</p>
+            <p xml:id="jsnvu6-d1e2280-d1e157">
+               <lb ed="#L" n="136"/>IN CONTRARIVM est, quia voluntas vere 
+      <lb ed="#L" n="137"/>obedientis conformatur voluntati praecipientis, sed multi sunt 
+      <lb ed="#L" n="138"/>vere obedientes diuinis praeceptis, ergo voluntas multorum 
+      <lb ed="#L" n="139"/>conformatur voluntati diuinae. 
+      </p>
+            <p xml:id="jsnvu6-d1e2280-d1e168">
+               <lb ed="#L" n="140"/>
+               <!--4--> RESPONSIO. Cum quaerimus de conformitate 
+      <lb ed="#L" n="141"/>voluntatis nostrae ad diuinam, aut quaerimus de conformitat. 
+      <lb ed="#L" n="142"/>earum secundum esse reale vel in essendo, prout quaelibet est 
+      <lb ed="#L" n="143"/>quaedam res secundum se, aut quaerimus de conformitate 
+      ea<lb ed="#L" n="144" break="no"/>rum secundum tendentiam in obiectum. Primo modo, 
+      quaeli<lb ed="#L" n="145" break="no"/>bet voluntas creata conformatur voluntati diuinae. Cuius 
+      ra<lb ed="#L" n="146" break="no"/>tio est, quia omnis imago est aliquo modo conformis rei, cuius 
+      <lb ed="#L" n="147"/>est imago, sed omnis voluntas creata est imago voluntatis 
+      di<lb ed="#L" n="148" break="no"/>uinae, ergo est aliquo modo ei conformis. haec autem 
+      conformi<lb ed="#L" n="149" break="no"/>tas non est participando eandem naturam specificam, sed in 
+      <lb ed="#L" n="150"/>participando aliam, speciei tamen demonstratiuam, sicut 
+      ex<lb ed="#L" n="151" break="no"/>positum fuit suprâ, dist. 3. lib. 2. dist. 16. Sed de hac conformitate 
+      <lb ed="#L" n="152"/>non quaerimus nunc, sed de illa quae est secundum tendentiam 
+      <lb ed="#L" n="153"/>in obiectum, secundum quam sortitur esse morale secundum 
+      <lb ed="#L" n="154"/>quod dicitur bona vel mala moraliter. Circa quam 
+      consideran<lb ed="#L" n="155" break="no"/>dum est quod talis conformitas plurium voluntatum semper 
+      atten<lb ed="#L" n="156" break="no"/>ditur secundum aliquid vnum: illud autem vnum aut se habet 
+      <lb ed="#L" n="157"/>ad vtranque voluntatem consimiliter, vtpote quando duo 
+      vo<lb ed="#L" n="158" break="no"/>lunt idem, vel propter idem, vel secundum eundem habitum, 
+      <lb ed="#L" n="159"/>aut se habet dissimiliter, sed tamen correspondenter (sicut quum 
+      <lb ed="#L" n="160"/>aliquis vult aliquam rem, alius autem non vult eam) vult tamen 
+      <!--00276.xml-->
+      <pb ed="#L" n="105-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>&amp; placet ei quod primus eam velit, sicut Abraham voluit 
+      oc<lb ed="#L" n="2" break="no"/>cidere filium, Deus autem hoc non voluit simpliciter, tamer 
+      <lb ed="#L" n="3"/>voluit quod Abraham illud vellet. 
+      </p>
+            <p xml:id="jsnvu6-d1e2280-d1e231">
+               <lb ed="#L" n="4"/>
+               <!--5--> Quantum ad primum modum attenditur triplex conformitas 
+      <lb ed="#L" n="5"/>vna quantum ad obiectum, quando idem est volitum, quae vocatur 
+      <lb ed="#L" n="6"/>conformitas secundum causam materialem, vocando materiam, ni 
+      <lb ed="#L" n="7"/>in qua fit actus voluntatis, sed circa quam est obiectiue. Secunda 
+      <lb ed="#L" n="8"/>conformitas est, quantum ad habitum, quando duo eodem habitu 
+      ali<lb ed="#L" n="9" break="no"/>quid volunt, puta iustitia vel charitate, &amp; haec vocatur conformi 
+      <lb ed="#L" n="10"/>tas secundum causam formalem, quatenus habitus est quaedam 
+      for<lb ed="#L" n="11" break="no"/>ma potentiae dans modum actui. Tertia est secundum causam 
+      fi<lb ed="#L" n="12" break="no"/>nalem, vt quum plures volunt aliquid propter eundem finem. 
+      Con<lb ed="#L" n="13" break="no"/>formitas autem quae attenditur penes secundum modum 
+      voca<lb ed="#L" n="14" break="no"/>tur a quibusdam conformitas secundum causam efficientem, sci 
+      <lb ed="#L" n="15"/>licet quando aliquis vult illud quod alius vult eum velle. &amp; istuc 
+      <lb ed="#L" n="16"/>est verum, vbi velle vnius est causa mouens &amp; inclinans 
+      volunta<lb ed="#L" n="17" break="no"/>tem alterius, quia tunc vnum velle est aliquo modo causa efficien 
+      <lb ed="#L" n="18"/>alterius, vbi autem non est sic, locum non habet quod dicitur 
+      </p>
+            <p xml:id="jsnvu6-d1e2280-d1e268">
+               <lb ed="#L" n="19"/>
+               <!--6--> Ex his patet quod quaeritur, scilicet quod voluntas nostra 
+      po<lb ed="#L" n="20" break="no"/>test conformari voluntati diuinae, primo modo, scilicet quoad 
+      <lb ed="#L" n="21"/>volitum, potest enim homo idem velle quod deus vult, vt de se patet 
+      <lb ed="#L" n="22"/>sed secudo modo proprie non potest, quia non potest esse in deo &amp; 
+      <lb ed="#L" n="23"/>homine habitus vnius rationis, secundum analogiam tamen dicitur 
+      <lb ed="#L" n="24"/>in deo charitas &amp; in nobis. Quantum autem ad tertium modum, 
+      <lb ed="#L" n="25"/>possibilis est conformitas inter nos &amp; deum, quia sicut deus vuli 
+      <lb ed="#L" n="26"/>omnia propter se, &amp; nos possumus velle eadem vel etiam 
+      ali<lb ed="#L" n="27" break="no"/>propter deum. De quarto autem modo, scilicet quod velimus illud 
+      <lb ed="#L" n="28"/>quod deus vult nos velle clarum est, quod est possibile, quia si 
+      lo<lb ed="#L" n="29" break="no"/>quamur de voluntate antecedente, illa innotescit nobis per pra 
+      <lb ed="#L" n="30"/>cepta iuris naturalis vel diuini. Constat autem quod possumus 
+      vel<lb ed="#L" n="31" break="no"/>le ea quae deus nobis praecepit, non enim praecipit impossibile. 
+      <lb ed="#L" n="32"/>ad faciendum, &amp; multo minus ad volendum. Si vero loquamui 
+      <lb ed="#L" n="33"/>de voluntate consequente, clarius est quod possimus ei conformari, 
+      <lb ed="#L" n="34"/>quia quicquid deus vult tali voluntatae totum fit. Patet ergo qua 
+      <lb ed="#L" n="35"/>liter possibilis est conformitas voluntatis nostrae ad diuinam.
+</p>
+            <p xml:id="jsnvu6-d1e2280-d1e310">
+               <lb ed="#L" n="36"/>Ad primum argumentum dicendum quod non omnis con 
+      <lb ed="#L" n="37"/>formitas est secundum participationem eiusdem formae 
+      speci<lb ed="#L" n="38" break="no"/>ficae inhaerentis vel non inhaerentis, sed secundum plures alios 
+      <lb ed="#L" n="39"/>modos qui tacti sunt in corpore solutionis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2280-d1e321">
+               <lb ed="#L" n="40"/>
+               <!--8--> Ad secundum dicendum quod conformari plus importat, 
+      <lb ed="#L" n="41"/>quam esse conforme, quia conformari dicitur solum illud quod 
+      <lb ed="#L" n="42"/>habet quasi rationem imaginis, vel effectus proportionati 
+      re<lb ed="#L" n="43" break="no"/>spectu alterius, quia conformari est fieri quasi ad alterius 
+      for<lb ed="#L" n="44" break="no"/>mam, &amp; istud non potest competere voluntati diuinae respectu 
+      <lb ed="#L" n="45"/>voluntatis nostrae, sed econuerso, propter quod voluntas nostri 
+      <lb ed="#L" n="46"/>dicitur conformari voluntati diuinae, &amp; non econuerso, sed esse 
+      <lb ed="#L" n="47"/>conforme dicit absolute participationem vel proportionem 
+      plu<lb ed="#L" n="48" break="no"/>rium in vno, &amp; sic voluntas nostra dicitur conformis voluntat 
+      <lb ed="#L" n="49"/>diuinae, &amp; econuerso, quamuis hoc quidam negant accipiente 
+      <lb ed="#L" n="50"/>pro eodem esse conformem &amp; conformari, quae tamen non sun 
+      <lb ed="#L" n="51"/>idem, sicut nec esse simile, &amp; assimilari. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

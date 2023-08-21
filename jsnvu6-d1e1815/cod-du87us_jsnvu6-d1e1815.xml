@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="86-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1815"><!-- l1d37q2 -->
+            <head xml:id="jsnvu6-d1e1815-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e1815-Hd1e103" type="question-title">Utrum Deus sit ubique</head>
+            <p xml:id="jsnvu6-d1e1815-d1e106">
+               <lb ed="#L" n="108"/>QVALSTIO SECVNDA. 
+      <lb ed="#L" n="109"/>Vtrum Deus sit vbique. 
+      <lb ed="#L" n="110"/>Thom. 1. q. 8. ar. 2. 
+    </p>
+            <p xml:id="jsnvu6-d1e1815-d1e115">
+               <lb ed="#L" n="111"/>SECVNDo quaeritur vtrum Deus sit vbique. 
+      <lb ed="#L" n="112"/>Et arguitur quod non, quia sic se habent perma 
+      <lb ed="#L" n="113"/>nentia ad locum sicut successiua ad tempus, sed 
+      <lb ed="#L" n="114"/>in successiuis vnum indiuisibile non potest esse 
+      <lb ed="#L" n="115"/>el in diuersis temporibus simul, ergo nec indiui. 
+      <lb ed="#L" n="116"/>sibile permanens (vt Deus) potest simul esse in diuersis locis, 
+      <lb ed="#L" n="117"/>non est ergo vbique. 
+      </p>
+            <p xml:id="jsnvu6-d1e1815-d1e133">
+               <lb ed="#L" n="118"/>
+               <!--2--> IN CONTRARIVM est qa Deus est in omnibs 
+      re<lb ed="#L" n="119" break="no"/>bus, sed quilibet locus est aliqua res ergo Deus est in omni loco 
+      </p>
+            <p xml:id="jsnvu6-d1e1815-d1e143">
+               <lb ed="#L" n="120"/>
+               <!--3--> RESPONSIO. Locus potest considerari dupliciter. 
+      <lb ed="#L" n="121"/>Vno modo prout est quaedam res creata, &amp; sic Deus est in 
+      om<lb ed="#L" n="122" break="no"/>nibus locis sicut dictum est eum esse in omnibus rebus. Alic 
+      <lb ed="#L" n="123"/>modo potest considerari secundum quod est contentiuus 
+      lo<lb ed="#L" n="124" break="no"/>cati. Et sic dicendum est quod Deus secundum se nusquam est, 
+      <lb ed="#L" n="125"/>&amp; secundum effectus suos est vbique, secundum se nusquan 
+      <lb ed="#L" n="126"/>est, quia a nullo continetur, sed potius omnia continet, &amp; 
+      con<lb ed="#L" n="127" break="no"/>seruat, secundum autem effectus suos est vbique, quia omnem 
+      <lb ed="#L" n="128"/>locum replet effectibus suis, &amp; secundum hunc modum 
+      pro<lb ed="#L" n="129" break="no"/>prium Dei est esse vbique, nihil enim replet omnem locum 
+      <lb ed="#L" n="130"/>bonitatibus, &amp; effectibus suis nisi Deus. 
+      </p>
+            <p xml:id="jsnvu6-d1e1815-d1e172">
+               <lb ed="#L" n="131"/>
+               <!--4--> Iuxta quod est notandum quod magister in litera 
+      distin<lb ed="#L" n="132" break="no"/>guit triplicem modum essendi in loco (scilicet) circunscriptiue, 
+      <lb ed="#L" n="133"/>&amp; hic modus conuenit solis corporibus, quae secundum sui 
+      vl<lb ed="#L" n="134" break="no"/>timum commensurantur vltimo continentis quod est locus ea 
+      <lb ed="#L" n="135"/>circunscribens. Item aliquid est in loco diffinitiue &amp; hic modus 
+      <lb ed="#L" n="136"/>vt dicunt quidam conuenit substantiis spiritualibus creatis de 
+      <lb ed="#L" n="137"/>quo statim inquiretur postea. 
+      </p>
+            <p xml:id="jsnvu6-d1e1815-d1e192">
+               <lb ed="#L" n="138"/>
+               <!--5--> Et neuter istorum modorum essendi in loco, vel vbique Dec 
+      <lb ed="#L" n="139"/>conuenit. Cuius ratio est, quia primus modus arguit in eo quod 
+      <lb ed="#L" n="140"/>dicitur esse in loco limitationem quantitatis corporeae. 
+      Secun<lb ed="#L" n="141" break="no"/>dus vero modus arguit limitationem essentiae &amp; virtutis 
+      secun<lb ed="#L" n="142" break="no"/>dum illos qui hunc modum ponunt. Vtrunque autem istorum 
+      <lb ed="#L" n="143"/>Deo repugnat. Item secundum nullum istorum modorum potest 
+      <lb ed="#L" n="144"/>aliquid esse in pluribus locis simul, &amp; multo minus vbique, 
+      im<lb ed="#L" n="145" break="no"/>pediente hoc limitatione rei secundum quantitatem molis vel 
+      <lb ed="#L" n="146"/>virtutis, vt dicunt qui ponunt spiritum loco diffiniri. 
+      </p>
+            <p xml:id="jsnvu6-d1e1815-d1e216">
+               <lb ed="#L" n="147"/>
+               <!--6--> Tertius modus essendi in loco scilicet repletiue conueni 
+      <lb ed="#L" n="148"/>Deo, non secundum se, sed secundum suos effectus (vt dictum 
+      <lb ed="#L" n="149"/>est) &amp; sic est proprium Dei esse vbique, quia sola virtus diuina 
+      <lb ed="#L" n="150"/>se extendit ad producendum omnes res existentes, vel 
+      possi<lb ed="#L" n="151" break="no"/>biles esse in loco, &amp; hoc (scilicet) replere locum suis effectibus. 
+      <lb ed="#L" n="152"/>&amp; sic esse vbique conuenit ei non ab aeterno, sed ex tempore 
+      <lb ed="#L" n="153"/>sicut &amp; producere res quibus omnis locus repletur.
+</p>
+            <p xml:id="jsnvu6-d1e1815-d1e236">
+               <lb ed="#L" n="154"/>AD ARGVMENTVM primum dicendum quod sicut
+      <lb ed="#L" n="155"/>est aliquid indiuisibile quod est aliquid successiuorum vt nunc 
+      <lb ed="#L" n="156"/>vel mutatum esse, &amp; istud non potest esse in pluribus partibus, 
+      <lb ed="#L" n="157"/>temporis, vel motus, aliud vero est quod non est de genere 
+      suc<lb ed="#L" n="158" break="no"/>cessiuorum vt aeternitas vel aeuum &amp; istud potest coexistere toti 
+      <lb ed="#L" n="159"/>successioni motus aut temporis: Sic est quoddam 
+      indiuisibil<lb ed="#L" n="160" break="no"/>quod est aliquid quantitatis vt punctus. Et istud non potest esse in 
+      <lb ed="#L" n="161"/>pluribus partibus magnitudinis, vel in pluribus locis. Aliud est 
+      <!--00238.xml-->
+      <pb ed="#L" n="86-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>indiuisibile quod est totaliter extra naturam quanti 
+      corpora<lb ed="#L" n="2" break="no"/>lis (vt deus) &amp; de tali indiuisibili nihil prohibet quin sit 
+      prae<lb ed="#L" n="3" break="no"/>sens omnibus locis, &amp; omnibus rebus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

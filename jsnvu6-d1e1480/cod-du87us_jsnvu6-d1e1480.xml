@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="70-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1480"><!-- l1d29q1 -->
+            <head xml:id="jsnvu6-d1e1480-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e1480-Hd1e103" type="question-title">Utrum una persona possit dici principium alterius</head>
+            <p xml:id="jsnvu6-d1e1480-d1e106">
+               <lb ed="#L" n="76"/>QVAESTIO TERTIA. 
+      <lb ed="#L" n="77"/>Utrum una persona possit dici principium alterius. 
+      <lb ed="#L" n="78"/>Thom. 1. 4. 33. ar.1. 
+    </p>
+            <p xml:id="jsnvu6-d1e1480-d1e115">
+      <!--00205.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>CIRCA hanc distinctionem quaeritur primo 
+      <lb ed="#L" n="80"/>vtrum vna persona possit dici principium 
+      alte<lb ed="#L" n="81" break="no"/>rius. Et videtur quod non quia principium &amp; 
+      <lb ed="#L" n="82"/>i causa idem sunt, vt dicitur quinto 
+      Metaphysi<lb ed="#L" n="83" break="no"/>cae. sed vna persona non est causa alterius, quia 
+      <lb ed="#L" n="84"/>in diuinis nihil est causatum, igitur &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1480-d1e135">
+               <lb ed="#L" n="85"/>
+               <!--2.--> Item sicut ideo conuenit esse principium ita &amp; esse finem 
+      <lb ed="#L" n="86"/>secundum illud Apocal.I. Ego sum alpha &amp; o principium &amp; 
+      fi<lb ed="#L" n="87" break="no"/>nis, sed vna persona non est finis alterius, eroo nec principium.
+</p>
+            <p xml:id="jsnvu6-d1e1480-d1e147">
+               <lb ed="#L" n="88"/>IN CONTRARIVM est quod dicit August. 4. de 
+      <lb ed="#L" n="89"/>Trinit. quod pater est principium totius deitatis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1480-d1e154">
+               <lb ed="#L" n="90"/>
+               <!--4--> RESPONSIO. Videnda sunt duo. Primum est an ra 
+      <lb ed="#L" n="91"/>tio principij reperiatur in diuinis respectu diuinorum. 
+      Secun<lb ed="#L" n="92" break="no"/>dum est vtrum ratio principij sit vniuoca cum dicitur patei 
+      <lb ed="#L" n="93"/>est principium filij, &amp; cum dicitur quod Deus est principium 
+      <lb ed="#L" n="94"/>creaturarum. 
+</p>
+            <p xml:id="jsnvu6-d1e1480-d1e170">
+               <lb ed="#L" n="95"/>QUANTIVM ad primum sciendum quod cum voces sinm 
+      <lb ed="#L" n="96"/>signa rerum, in diuinis autem est vnitas essentiae &amp; pluralita 
+      <lb ed="#L" n="97"/>personarum, ideo cauenda sunt nomina quae tollunt vnitaten 
+      <lb ed="#L" n="98"/>essentiae aut diuisionem personarum. Quo supposito dicendum 
+      <lb ed="#L" n="99"/>est quod in diuinis est principium respectu diuinorum non autem 
+      <lb ed="#L" n="100"/>causa. Primum patet, quia secundum Philos. 5 Metaphy. 
+      prin<lb ed="#L" n="101" break="no"/>cipium est vnde est aliquid, sed in diuinis vna persona est ab alia, 
+      <lb ed="#L" n="102"/>ergo vna persona est principium alterius. Secundum quia 
+      cau<lb ed="#L" n="103" break="no"/>sa &amp; causatum distinguuntur per essentiam, sed in diuinis nulla 
+      <lb ed="#L" n="104"/>est distinctio per essentiam, ergo in diuinis non est causa nequi 
+      <lb ed="#L" n="105"/>causatum. minor de se patet. sed maior probatur quia causa est 
+      <lb ed="#L" n="106"/>ad cuius esse sequitur aliud, vbi est ergo vera causa &amp; verum 
+      <lb ed="#L" n="107"/>causatum ibi est vere esse procedens &amp; esse sequens, vel saltem 
+      <lb ed="#L" n="108"/>secundum naturam, quia esse effectus sequitur ordine natura 
+      <lb ed="#L" n="109"/>esse causae, vt ratio causae indicat, sed vbi est vnitas essentia 
+      <lb ed="#L" n="110"/>ibi non potest esse vnum praecedens &amp; aliud sequens, quia esse 
+      <lb ed="#L" n="111"/>absolutum non est nisi vnum. Esse vero relata non praecedunt 
+      <lb ed="#L" n="112"/>se aliquo modo, sed sunt simul natura &amp; intellectu, igitur vbi 
+      <lb ed="#L" n="113"/>est vnitas essentiae ibi non potest esse proprie causa &amp; 
+      causa<lb ed="#L" n="114" break="no"/>tum, sed solum in distinctis per essentiam &amp; haec fuit maior, 
+      <lb ed="#L" n="115"/>ergo sequitur conclusio, &amp; sic pater primum principale. 
+      </p>
+            <p xml:id="jsnvu6-d1e1480-d1e218">
+               <lb ed="#L" n="116"/>
+               <!--6--> QUANTVM ad secundum dicunt quidam quod nomen 
+      <lb ed="#L" n="117"/>principij dicitur vniuoce cum dicimus quod Deus est principium 
+      <lb ed="#L" n="118"/>creaturarum, &amp; cum dicimus quod vna persona est principium al 
+      <lb ed="#L" n="119"/>terius, quod probant sic, illud quod non variat conceptum mi 
+      <lb ed="#L" n="120"/>nus communem neque magis communem. quae enim sunt vnus 
+      <lb ed="#L" n="121"/>triangulus sunt vna figura, sed non econuerso, vt patet ex 5. 
+      <lb ed="#L" n="122"/>met, cap. de vno, sed causa est minus commune quam 
+      princi<lb ed="#L" n="123" break="no"/>pium, nam omnis causa est principium, sed non econuerso, 
+      er<lb ed="#L" n="124" break="no"/>go quod non variat conceptum causae nec principij, sed causare 
+      <lb ed="#L" n="125"/>in aliena natura &amp; in propria non variat conceptum causae, nan 
+      <lb ed="#L" n="126"/>causa vniuoca &amp; aequiuoca pertinet ad idem genus causae (8 
+      <lb ed="#L" n="127"/>vniuoce) scilicet ad genus causae efficientis, ergo principiare in 
+      <lb ed="#L" n="128"/>natura sua vt in diuinis &amp; in aliena, vt respectu creaturarum 
+      <lb ed="#L" n="129"/>non variat conceptum principij quin sit hincinde vniuocus 
+      </p>
+            <p xml:id="jsnvu6-d1e1480-d1e253">
+               <lb ed="#L" n="130"/>
+               <!--7--> Sed istud non valet, quia licet principiare in natura sua vel 
+      <lb ed="#L" n="131"/>aliena (dummodo vtraque differunt secundum numerum) not 
+      <lb ed="#L" n="132"/>variat rationem causae vel principij: tamen principiare in 
+      na<lb ed="#L" n="133" break="no"/>tura sua eadem secundum numerum, &amp; in aliena variat 
+      ratio<lb ed="#L" n="134" break="no"/>nem principij variatione quae est, secundum quid simplicite 
+      <lb ed="#L" n="135"/>vt patebit. 
+      </p>
+            <p xml:id="jsnvu6-d1e1480-d1e271">
+               <lb ed="#L" n="136"/>
+               <!--8--> Dicendum est ergo quod nomen principij cum dicitur Deus 
+      <lb ed="#L" n="137"/>esse principium creaturarum, &amp; cum dicitur vnam personam 
+      <lb ed="#L" n="138"/>esse principium alterius non dicitur vniuoce, quod patet sic, 
+      <lb ed="#L" n="139"/>potentia dicit absolute rationem principij, vt patet ex eius 
+      diffi<lb ed="#L" n="140" break="no"/>nitione quae ponitur 5. Metaphysi. quae est quod potentia est 
+      <lb ed="#L" n="141"/>principium transmutandi alterum &amp; transmutandi ab altero, 
+      <lb ed="#L" n="142"/>Sic igitur est iudicandum de principio respectu diuinorum &amp; 
+      <lb ed="#L" n="143"/>respectu creaturarum sicut de potentia generandi vel 
+      spiran<lb ed="#L" n="144" break="no"/>di quae est in diuinis respectu diuinorum, &amp; de potentia 
+      crean<lb ed="#L" n="145" break="no"/>di quae est in Deo respectu creaturarum. Sed potentia non 
+      di<lb ed="#L" n="146" break="no"/>citur vniuoce de potentia generandi &amp; potentia creandi. 
+      Alio<lb ed="#L" n="147" break="no"/>quin potentia generandi contineretur sub omnipotentia, sicu 
+      <lb ed="#L" n="148"/>potentia creandi, cuius oppositum ostensum fuit supra 
+      distin<lb ed="#L" n="149" break="no"/>ctio. 20. ergo principium non dicitur vniuoce de potentia 
+      ge<lb ed="#L" n="150" break="no"/>nerandi, &amp; spirandi quod est intrinsece in diuinis respectu 
+      di<lb ed="#L" n="151" break="no"/>uinorum &amp; de principio creandi quod est respectu 
+      creatura<lb ed="#L" n="152" break="no"/>rum, sed dicitur analogice secundum prius &amp; posterius.
+</p>
+            <p xml:id="jsnvu6-d1e1480-d1e314">
+               <lb ed="#L" n="153"/>Cui autem competat ratio principij &amp; potentiae per pr 
+      <lb ed="#L" n="154"/>puto quod principio &amp; potentiae creandi. Cuius ratio est, quia 
+      <lb ed="#L" n="155"/>ibi per prius inuenitur ratio potentiae &amp; principij productiui, 
+      <lb ed="#L" n="156"/>vbi producitur per potentiam vel principium simpliciter aliud ve 
+      <lb ed="#L" n="157"/>alterum, ibi vero inuenitur per posterius vbi producitur 
+      secun<lb ed="#L" n="158" break="no"/>dum quid aliud vel alterum quod patet ex duobus, scilicet ex eo 
+      <lb ed="#L" n="159"/>quod simpliciter praecedit secundum quid, &amp; ex eo, quod tam, 
+      <lb ed="#L" n="160"/>potentia, quam principium productiuum dicitur ad aliud (vt 
+      <!--00206.xml-->
+      <pb ed="#L" n="70-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>patet ex diffinitionibus eorum) sed in productione creaturarum a 
+      <lb ed="#L" n="2"/>deo producitur simpliciter aliud per potentiam seu principium cre 
+      <lb ed="#L" n="3"/>di (vt de se patet. In productione vero personae a persona non 
+      <lb ed="#L" n="4"/>producitur simpliciter aliud per principium seu potentiam 
+      generan<lb ed="#L" n="5" break="no"/>di vel spirandi: ergo principiu &amp; potentia per prius dicuntur de 
+      <lb ed="#L" n="6"/>principio &amp; potentia creandi respectu creaturarum quam de 
+      <lb ed="#L" n="7"/>principio &amp; potentia generandi vel spirandi respectu diuinorum 
+      </p>
+            <p xml:id="jsnvu6-d1e1480-d1e356">
+               <lb ed="#L" n="8"/>
+               <!--10.--> Sed contra hoc videntur esse duo. Primum est, quia illa quae 
+      <lb ed="#L" n="9"/>sonant perfectionem per prius conueniunt deo quam creaturis 
+      <lb ed="#L" n="10"/>perfectiones enim deriuantur a deo in creaturas, &amp; non ecor 
+      <lb ed="#L" n="11"/>uerso, sed esse principium sonat perfectionem: ergo per prius con 
+      <lb ed="#L" n="12"/>uenit deo quam creaturis: ergo principium in diuinis respectu d 
+      <lb ed="#L" n="13"/>uinorum per prius dicitur principium quam respectu 
+      creatura<lb ed="#L" n="14" break="no"/>rum. Secundo, quia esse principium respectu personae reperitur, 
+      <lb ed="#L" n="15"/>in deo ab aeterno. Esse autem principium creaturae conuenit dec 
+      <lb ed="#L" n="16"/>ex tempore, sed ea quae conueniunt deo ab aeterno per priu: 
+      <lb ed="#L" n="17"/>conueniunt ei quam ea quae conueniunt ei ex tempore sicut 
+      aeternita<lb ed="#L" n="18" break="no"/>praecedit tempus, ergo &amp;c. Tertio, quia idem nomen competens 
+      <lb ed="#L" n="19"/>causae &amp; effectui, per prius competit causae quam effectui, sed 
+      <lb ed="#L" n="20"/>principiatio in diuinis est causa principiationis creaturarum 
+      <lb ed="#L" n="21"/>ergo principium &amp; principiatio per prius competit deo 
+      respe<lb ed="#L" n="22" break="no"/>ctu diuinorum quam respectu creaturarum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1480-d1e393">
+               <lb ed="#L" n="23"/>
+               <!--11--> Et dicendum ad primum quod ratio non plus concludit nisi 
+      <lb ed="#L" n="24"/>que ratio principij per prius &amp; verius conuenit deo quam 
+      crea<lb ed="#L" n="25" break="no"/>turis. Et istud verum est: quia per prius &amp; verius dicitur 
+      deu<lb ed="#L" n="26" break="no"/>principium creaturarum quam vna creatura dicatur principium 
+      <lb ed="#L" n="27"/>alterius creaturae, sed ex hoc non debet concludi quod vna 
+      perso<lb ed="#L" n="28" break="no"/>na dicatur verius principium alterius personae quam deus 
+      di<lb ed="#L" n="29" break="no"/>catur principium creaturae, squia etsi principium verius 
+      dica<lb ed="#L" n="30" break="no"/>tur de deo quam de creaturis, non tamen respectu diuinorum, 
+      <lb ed="#L" n="31"/>quia si principium sonat perfectionem vt arguitur, 
+      principia<lb ed="#L" n="32" break="no"/>tum sonat defectum qui nullo modo est in diuinis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1480-d1e419">
+               <lb ed="#L" n="33"/>
+               <!--12.--> Ad aliud dicendum, quod dato quod persona sit a persona ab 
+      <lb ed="#L" n="34"/>aeterno, creatura autem non sit a deo nisi ex tempore, non tamer 
+      <lb ed="#L" n="35"/>sequitur quod principium verius &amp; prius dicatur de persona 
+      re<lb ed="#L" n="36" break="no"/>spectu personae, quam de deo respectu creaturae. Cuius ratio est 
+      <lb ed="#L" n="37"/>quia nos non quaerimus de priori &amp; posteriori secundum 
+      dura<lb ed="#L" n="38" break="no"/>tionem. sed secundum proprietatem participationis eius quod 
+      <lb ed="#L" n="39"/>importatur per nomen. Et isto modo nihil prohibet quod illud 
+      <lb ed="#L" n="40"/>est posterius duratione sit prius participatione nominis, sicu 
+      <lb ed="#L" n="41"/>sortes qui fuit heri verius &amp; prius dicitur ens quam motus coel 
+      <lb ed="#L" n="42"/>qui fuit a principio mundi. Similiter nihil prohibet quod ratio prin 
+      <lb ed="#L" n="43"/>cipij verius (&amp; sic per prius) conueniat deo ex tempore respectu 
+      <lb ed="#L" n="44"/>creaturae quam conueniat vni personae respectu alterius ab aeterno, 
+      </p>
+            <p xml:id="jsnvu6-d1e1480-d1e450">
+               <lb ed="#L" n="45"/>
+               <!--13.--> Ad tertium dicendum, quod maior est falsa, sanum enim dicitur de 
+      <lb ed="#L" n="46"/>medicina &amp; de animali. Et calidum de sole &amp; igne sicut de cau 
+      <lb ed="#L" n="47"/>sa &amp; effectu. Et tamen prius dicitur animal sanum quam 
+      medi<lb ed="#L" n="48" break="no"/>cina. Et ignis calidus quam Sol, quia res nominis in eis verius 
+      <lb ed="#L" n="49"/>inuenitur, minor etiam dubia est &amp; forte falsa: quia deus est prin 
+      <lb ed="#L" n="50"/>cipium creaturarum secundum illud quod est comune 
+      perso<lb ed="#L" n="51" break="no"/>nis, &amp; esset in diunis circunscripta productione personarum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1480-d1e470">
+               <lb ed="#L" n="52"/>
+               <!--14--> AD PRIMVM argumentum in oppositum patei 
+      <lb ed="#L" n="53"/>responsio, principium enim &amp; causa sunt idem sicut superius&amp; 
+      <lb ed="#L" n="54"/>inferius. Omnis enim causa est principium &amp; non econuerso. 
+      <lb ed="#L" n="55"/>Et ideo alicubi inuenitur ratio principij, vbi non inuenitur ra 
+      <lb ed="#L" n="56"/>tio causae, vt in diuinis respectu diuinorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1480-d1e487">
+               <lb ed="#L" n="57"/>
+               <!--15--> Ad secundum dicendum, quod non est simile de fine &amp; de 
+      <lb ed="#L" n="58"/>principio, quia principium dicit solum ordinem originis qui es 
+      <lb ed="#L" n="59"/>in diuinis, sed finis importat praeeminentiam bonitatis qua 
+      <lb ed="#L" n="60"/>non est in diuinis respectu diuinorum, sed solum respectu crea 
+      <lb ed="#L" n="61"/>tuiarum, quarum Deus est principium &amp; finis. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

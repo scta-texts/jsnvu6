@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="225-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e185319"><!-- l3d27q1 -->
+            <head xml:id="jsnvu6-e185319-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e185319-Hd1e103" type="question-title">
+      Utrum amor prout est passio appetitus sit 
+      principalis passio
+    </head>
+            <p xml:id="jsnvu6-e185319-d1e106">
+               <lb ed="#L" n="76"/>QUARATAOIPRLMA. 
+      <lb ed="#L" n="77"/>Vtrum amor prout est passio appetitus sit 
+      <lb ed="#L" n="78"/>principalis passio.
+    </p>
+            <p xml:id="jsnvu6-e185319-d1e115">
+      <!--00524.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>I2 CA distinctionem istam quaeritur, primo 
+      <lb ed="#L" n="80"/>vtrum amor prout est passio appetitus fit 
+      prin<lb ed="#L" n="81" break="no"/>cipalis passio. Et arguitur quod non secundum 
+      <lb ed="#L" n="82"/>Aug. 83. q. nemo est qui non magis dolorem 
+      fu<lb ed="#L" n="83" break="no"/>giat quam appetat volu ptatem, ex quo sic 
+      argui<lb ed="#L" n="84" break="no"/>tur, principalius fugitur malum quam appetatur bonum, sed fu 
+      <lb ed="#L" n="85"/>ga mali est per odium, appetitus autem boni est per amorem, 
+      <lb ed="#L" n="86"/>ergo odium est principalior passio quam amor. 
+      </p>
+            <p xml:id="jsnvu6-e185319-d1e139">
+               <lb ed="#L" n="87"/>
+               <!--2--> Item denominatio fit a principaliori, sed appetitus tam 
+      ira<lb ed="#L" n="88" break="no"/>scibilis quam concupiscibilis denominatur ab ira &amp; 
+      concupi<lb ed="#L" n="89" break="no"/>scentia, ergo sunt principaliores passiones quam amor. 
+      </p>
+            <p xml:id="jsnvu6-e185319-d1e151">
+               <lb ed="#L" n="90"/>
+               <!--3--> Item quod vincitur ab alio est minus potens &amp; minus prin 
+      <lb ed="#L" n="91"/>cipale, sed amor vincitur ab ira, quia ira odium generat, erge 
+      <lb ed="#L" n="92"/>ira est principalior passio quam amor. 
+      </p>
+            <p xml:id="jsnvu6-e185319-d1e162">
+               <lb ed="#L" n="93"/>
+               <!--4--> IN CONTRARIVM est, oria amor comparatur 
+      <lb ed="#L" n="94"/>igni &amp; morti, Canticorum 8. sed nulia passio est vehementio 
+      <lb ed="#L" n="95"/>quam ab istis, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-e185319-d1e173">
+               <lb ed="#L" n="96"/>
+               <!--5--> Item August. dicit quod omnis affectio ex amore est 
+      </p>
+            <p xml:id="jsnvu6-e185319-d1e180">
+               <lb ed="#L" n="97"/>
+               <!--6--> RESPONSIO. quamuis amor prout est passio propri 
+      <lb ed="#L" n="98"/>pertineat ad appetitum sensitiuum, tamen nomen amoris absolut. 
+      <lb ed="#L" n="99"/>inuenimus pertinere ad appetitum intellectiuum &amp; sic amor es 
+      <lb ed="#L" n="100"/>quaedam affectio magis quam passio. Et quia omnis passio est 
+      affecti<lb ed="#L" n="101" break="no"/>&amp; non econuerso, ideo loquendo de amore communiter prou 
+      <lb ed="#L" n="102"/>dicit affectionem pertinentem tam ad appetitum sensitiuum qui 
+      <lb ed="#L" n="103"/>ad intellectiuum. Dicendum est ad quaestionem quod aliqua 
+      passi<lb ed="#L" n="104" break="no"/>vel affectio potest dici principalior dupliciter, aut quia 
+      prio<lb ed="#L" n="105" break="no"/>aut quia completior. Si primo modo sic amor potest comparari ac 
+      <lb ed="#L" n="106"/>passiones vel affectiones quae sunt respectu mali vt odium, ira, ti 
+      <lb ed="#L" n="107"/>mor &amp; huiusmodi, vel ad passiones quae sunt respectu boni, v 
+      <lb ed="#L" n="108"/>desiderium &amp; delectatio. Si comparetur ad passiones quae sunt 
+      re<lb ed="#L" n="109" break="no"/>spectu mali sic amor est principalior affectio, quia prior &amp; effic. 
+      <lb ed="#L" n="110"/>cior. Quod sit prior patet primo, quia sicut se habent habitus &amp; 
+      <lb ed="#L" n="111"/>priuatio, affirmatio &amp; negatio ad cognitionem, sic se habent 
+      bo<lb ed="#L" n="112" break="no"/>num &amp; malum ad apperitum, sed habitus &amp; affirmatio prius na 
+      <lb ed="#L" n="113"/>tura cognoscuntur quam priuatio &amp; negatio, priuatio enim no 
+      <lb ed="#L" n="114"/>cognoscitur nisi per habitum, nec negatio nisi per affirmation 
+      <lb ed="#L" n="115"/>ergo similiter actus appetitus prius cadit super bonum quam su 
+      <lb ed="#L" n="116"/>per malum quod est priuatio boni. Secundo, quia in illud prius mo 
+      <lb ed="#L" n="117"/>netur appetitus cuius formalis ratio includitur per se in rationi 
+      <lb ed="#L" n="118"/>finis quam in illud cuius ratio nullo modo includitur in rationi 
+      <lb ed="#L" n="119"/>finis, sed ratio boni per se includitur in ratione finis, ratio auten 
+      <lb ed="#L" n="120"/>mali nequaquam, ergo prius naturaliter mouetur appetitus in 
+      b<lb ed="#L" n="121" break="no"/>num quam in malum. Minor de se patet, sed maior probatur, qui 
+      <lb ed="#L" n="122"/>finis est prior in in tentione quae est actus appetitus, &amp; ideo illu 
+      <lb ed="#L" n="123"/>quod per se inclnditur in ratione finis per prius se habet ad a 
+      <lb ed="#L" n="124"/>petitum, sic igitur patet, quod comparando amorem ad affectiones qui 
+      <lb ed="#L" n="125"/>sunt respectu mali, amor est principalior affectio, quia prior, 
+      <lb ed="#L" n="126"/>non solum sic, sed quia efficacior, cum enim malum non agat ni 
+      <lb ed="#L" n="127"/>virtute boni secundum Dionysium, bonum autem agat secur 
+      <lb ed="#L" n="128"/>dum se, idcirco efficacius bonum mouet appetitum quam mi 
+      <lb ed="#L" n="129"/>lum ipsi oppositum, quia quaeritur bonum ideo refutatur vel si 
+      <lb ed="#L" n="130"/>gitur oppositum malum, si autem amor comparetur ad alias affe 
+      <lb ed="#L" n="131"/>ctiones quae sunt respectu boni vt sunt desiderium &amp; delectati¬ 
+      </p>
+            <p xml:id="jsnvu6-e185319-d1e261">
+               <lb ed="#L" n="132"/>
+               <!--7--> Sic de ordine amoris ad desiderium &amp; delectationem est du 
+      <lb ed="#L" n="133"/>plex modus dicendi. Vnus est quod amor non praecedit deside 
+      <lb ed="#L" n="134"/>rium &amp; delectationem secundum rem, sed solum secundum ra 
+      <lb ed="#L" n="135"/>tionem, quia desiderium &amp; delectatio non distinguuntur ab amo 
+      <lb ed="#L" n="136"/>re nisi sicut inferiora, a suo superiori, quia omne desiderium vi 
+      <lb ed="#L" n="137"/>delectatio est quidam amor, &amp; nullus est amor in re qui non si 
+      <lb ed="#L" n="138"/>desiderium vel delectatio, &amp; hoc probat dupliciter. Primo sicu 
+      <lb ed="#L" n="139"/>se habet appetitus naturalis consequens formam naturalem a 
+      <lb ed="#L" n="140"/>actum sibuconuenientem, sic appetitus sequens cognitionem 
+      <lb ed="#L" n="141"/>habet ad actum sibi proportionatum &amp; conuenientem, sed a 
+      <lb ed="#L" n="142"/>titus naturalis pura grauitas solum habet duplicem actum scilice 
+      <lb ed="#L" n="143"/>moueri ad locum non habitum &amp; quiescere in loco habito, 
+      <lb ed="#L" n="144"/>similiter appetitus sequens cognitionem non habet nisi du 
+      <lb ed="#L" n="145"/>actum scilicet moueri in bonum non habitum, &amp; quiescere in bo 
+      <lb ed="#L" n="146"/>no habito, sed primum pertinet ad desiderium, secundum ad dele 
+      <lb ed="#L" n="147"/>ctationem, ego praeter hoc appetitus sequens cognitionem 
+      no<lb ed="#L" n="148" break="no"/>habet aliquem alium actum. Secundo sic, omnis amor vel est bo 
+      <lb ed="#L" n="149"/>ni habiti vel non habiti, si habiti est delectatio, si non habiti el 
+      <lb ed="#L" n="150"/>desiderium, ergo non est aliquis actus praeter delectationem &amp; 
+      <lb ed="#L" n="151"/>desiderium. Pro hac opinione videtur esse August. 14. de ci 
+      <lb ed="#L" n="152"/>te dei, vbi dicit quod amor inhians habere quod amatur cup 
+      <lb ed="#L" n="153"/>ditas est, illud autem habens eoque frues laetitia est. 
+</p>
+            <p xml:id="jsnvu6-e185319-d1e313">
+               <lb ed="#L" n="154"/>Alius modus dicendi est ug amor est actus distinctus a dele 
+      <lb ed="#L" n="155"/>ctatione &amp; desiderio &amp; est prior vtroque Quod probatur, volun 
+      <lb ed="#L" n="156"/>tas fertur per amorem in bonum per cognitum, sed bonum 
+      <lb ed="#L" n="157"/>test cognosci dato quod non cognoscatur vt habitum vel non habi 
+      <lb ed="#L" n="158"/>tum sicut superius &amp; commune potest cognosci sine quolibe 
+      <lb ed="#L" n="159"/>inferiori, ergo bonum sic cognitum potest a voluntate amari, 
+      se<lb ed="#L" n="160" break="no"/>talis amor nonn pontest esse desiderium quod est de bono vt non 
+      <!--00525.xml-->
+      <pb ed="#L" n="226-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>habito, nec delectatio quae est de bono habito, ergo amor est, 
+      <lb ed="#L" n="2"/>actus distinctus a desiderio &amp; delectatione. Est etiam prior, priu: 
+      <lb ed="#L" n="3"/>enim afficitur voluntas ad bonum &amp; ei complacet in eo, deinde 
+      <lb ed="#L" n="4"/>tendit in ipsum per desiderium si non sit habitum vltimo vero 
+      <lb ed="#L" n="5"/>quiescit per delectationem in bono habito, &amp; secundum hanc viam 
+      <lb ed="#L" n="6"/>adhuc amor est principalior affectio inter affectiones quae sunt 
+      <lb ed="#L" n="7"/>respectu boni, quia prior. Alio modo dicitur aliqua passio vel 
+      <lb ed="#L" n="8"/>affectio principalior, quia completior, &amp; sic amor non est princi 
+      <lb ed="#L" n="9"/>palis passio, sed istae quatuor scilicet gaudium, tristiria, spes, &amp; timor, 
+      <lb ed="#L" n="10"/>cuius ratio est quia complementum &amp; principalitas passionis 
+      <lb ed="#L" n="11"/>consistit in duobus. Vnum est ex parte obiecti. s. vt sit motur 
+      <lb ed="#L" n="12"/>appetitus tendentis in obiectum secundum rationem &amp; 
+      apti<lb ed="#L" n="13" break="no"/>tudinem obiecti, vt scilicet bonum prosequatur, &amp; fugiatur malum 
+      </p>
+            <p xml:id="jsnvu6-e185319-d1e366">
+               <lb ed="#L" n="14"/>
+               <!--9--> Secundum est ex parte ipsius passionis vt scilicet motus ille sit per 
+      <lb ed="#L" n="15"/>fectus quantum est possibile secundum genus suum, &amp; secundun 
+      <lb ed="#L" n="16"/>hoc inueniuntur duae principales passiones in appetitu concup 
+      <lb ed="#L" n="17"/>scibili scilicet gaudium, vel delectatio &amp; tristitia, in istis enim duabus 
+      <lb ed="#L" n="18"/>completur finaliter &amp; terminatur omnis motus concupiscibilis, &amp; 
+      <lb ed="#L" n="19"/>secundum conuenientiam obiecti, nam in delectatione de bono 
+      ha<lb ed="#L" n="20" break="no"/>bito terminatur omnis motus concupiscibilis respectu boni &amp; 
+      <lb ed="#L" n="21"/>secundum conuenientiam ad obiectum, in tristitia vero quae est d 
+      <lb ed="#L" n="22"/>malo habito quod repelli non potest, terminatur omnis motus 
+      concu<lb ed="#L" n="23" break="no"/>piscibilis respectu mali &amp; secundum conuenientiam obiecti, quia 
+      si<lb ed="#L" n="24" break="no"/>cut conuenit bono vt appetatur, &amp; in eo quiescatur, sic malo con 
+      <lb ed="#L" n="25"/>uenit vt fugiatur, &amp; si non possit quod displiceat, &amp; hoc fit per tri 
+      <lb ed="#L" n="26"/>stitiam sicut primum per delectationem, &amp; sic delectatio vel gaudii 
+      <lb ed="#L" n="27"/>&amp; tristitia sunt principales &amp; completiuae passiones appetitus com 
+      <lb ed="#L" n="28"/>cupiscibilis, spes vero &amp; timor sunt principales passiones 
+      app<lb ed="#L" n="29" break="no"/>titus irascibilis, non simpliciter, sed quantum est possibile in illo 
+      ge<lb ed="#L" n="30" break="no"/>nere, quia motus irascibilis inquantum huiusmodi non terminatu 
+      <lb ed="#L" n="31"/>in obiectum praesens, quia obiectum irascibilis est bonum arduum quod 
+      <lb ed="#L" n="32"/>habet difficultatem ad assequendum, bonum autem praesens &amp; habi 
+      <lb ed="#L" n="33"/>tum talem difficultatem non habet propter quod ad obiectum prae 
+      <lb ed="#L" n="34"/>sens non terminatur motus irascibilis tanquam ad terminum proprium 
+      <lb ed="#L" n="35"/>sui generis, sed perficitur in certitudine inclinationis ad suum 
+      <lb ed="#L" n="36"/>obiectum, hanc autem certitudinem respectu boni habet spes &amp; 
+      se<lb ed="#L" n="37" break="no"/>cundum conuenientiam obiecti, quia de natura boni est (si non sit 
+      <lb ed="#L" n="38"/>habitum) vt expectetur, similiter talem certitudinem habet timo 
+      <lb ed="#L" n="39"/>respectu mali, &amp; secundum conuenientiam eius, quia de natura ma 
+      <lb ed="#L" n="40"/>li est, vt fugiatur, &amp; ideo consueuit numerus &amp; sufficientia ista 
+      <lb ed="#L" n="41"/>rum passionum principalium sumi secundum differentiam boni &amp; 
+      ma<lb ed="#L" n="42" break="no"/>li, praesentis &amp; futuri, quia delectatio est de bono praesenti in 
+      <lb ed="#L" n="43"/>quo finaliter quiescitur. Ttistitia vero de malo praesenti cui 
+      re<lb ed="#L" n="44" break="no"/>murmuratur. Spes vero de bono futuro in quod tenditur. Timor 
+      <lb ed="#L" n="45"/>vero de malo futuro a quo fugitur, &amp; quia amor non dicit de se 
+      <lb ed="#L" n="46"/>motum appetitus vel quietem secundum complementum &amp; terminum 
+      <lb ed="#L" n="47"/>modis praedictis, ideo non ponitur principalis passio vel affectio 
+      </p>
+            <p xml:id="jsnvu6-e185319-d1e444">
+               <lb ed="#L" n="48"/>
+               <!--10--> AD rationes in oppositum dicendum est ad primam quod magis 
+      <lb ed="#L" n="49"/>appetitur bonum quam fugiatur malum illi oppositum, &amp; plus 
+      appeti<lb ed="#L" n="50" break="no"/>vnusquisque voluptatem quam fugiat tristitiam illi voluptati 
+      opposi<lb ed="#L" n="51" break="no"/>tam, nullus enim fugit malum vel tristitiam nisi quia appetit bonum 
+      <lb ed="#L" n="52"/>&amp; delectationem oppositam, &amp; ita fuga mali &amp; tristitiae oritur ex 
+      <lb ed="#L" n="53"/>amore boni, seu deiectationis, nihil tamen prohibet quod aliquis 
+      do<lb ed="#L" n="54" break="no"/>lor plus fugiatur quam eius delectatio appetatur inquantum 
+      do<lb ed="#L" n="55" break="no"/>lor ille priuat majus bonum quam sit delectatio, sicut dolor qui consi 
+      <lb ed="#L" n="56"/>stit in diuisione corporis priuat vitam vel tendit ad priuationem 
+      <lb ed="#L" n="57"/>vitae quae est majus bonum quam sit delectatio venerea, vel quaecunque 
+      <lb ed="#L" n="58"/>alia delectatio corpalis naturae superaddita, &amp; sic loquitur Auae 
+      <lb ed="#L" n="59"/>quod nemo est qui non magis fugiat dolorem corruptiuum quam 
+      appe<lb ed="#L" n="60" break="no"/>tat voluptatem superadditam naturae, ipsa tamen vita plus diligitur 
+      <lb ed="#L" n="61"/>&amp; appetitur quam dolor corruptiuus eius fugiatur, &amp; hoc est veri 
+      <lb ed="#L" n="62"/>vniuersaliter in delectatione &amp; dolore sibi directe oppositis 
+      </p>
+            <p xml:id="jsnvu6-e185319-d1e481">
+               <lb ed="#L" n="63"/>
+               <!--11--> Ad secundum dicendum quod concupiscentia &amp; ira non sunt principa 
+      <lb ed="#L" n="64"/>les passiones, quia concupiscentia vel desiderium cum pertineat ad 
+      <lb ed="#L" n="65"/>appecitum concupiscibilem &amp; sic de futuro non est completa passio 
+      <lb ed="#L" n="66"/>qa motus concupiscibilis terminatur in bono praesenti, ira vero 
+      <lb ed="#L" n="67"/>non habet motum in malum secundum conuenientiam mali, quia habe 
+      <lb ed="#L" n="68"/>motum in ipsum non quidem vt fugiendum quod est secundum 
+      conue<lb ed="#L" n="69" break="no"/>nientiam mali, sed in ipsum aggrediendum, nec obstat quod 
+      appeti<lb ed="#L" n="70" break="no"/>tus concupiscibilis &amp; irascibilis denominantur a concupiscenti: 
+      <lb ed="#L" n="71"/>&amp; ira, qa denominationes non semper fiunt a principaliori, sed 
+      <lb ed="#L" n="72"/>quandoque ab euidentiori, &amp; quia concupiscentia inter omnes passio. 
+      <lb ed="#L" n="73"/>nes appetitus concupiscibilis euidentior est magis sensibilis, quia 
+      <lb ed="#L" n="74"/>est de futuro &amp; non de habito, &amp; secundum Aug. 10. de trinit. 
+      <lb ed="#L" n="75"/>amor magis sentitur tum cum prodit indigentia, ideo ab ipsi 
+      <lb ed="#L" n="76"/>tanquam ab euidentiori &amp; magis sensibili denominatur 
+      poten<lb ed="#L" n="77" break="no"/>tia concupiscibilis, per eandem rationem denominatur 
+      irascibi<lb ed="#L" n="78" break="no"/>lis ab ira, quia est vltimum in passionibus eius &amp; ideo est 
+      eui<lb ed="#L" n="79" break="no"/>dentior maxime quia crebrius prodit in exteriorem actum. 
+      </p>
+            <p xml:id="jsnvu6-e185319-d1e523">
+               <lb ed="#L" n="80"/>
+               <!--12--> Ad tertium dicendum que amor non vincitur ab ira in virtute 
+      <lb ed="#L" n="81"/>propria, sed in virtute alterius boni qud plus amatur, sicut 
+      cor<lb ed="#L" n="82" break="no"/>rumpitur amor quem aliquis habet ad alium ex hoc quod in alio perpen 
+      <!--00525.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>ditur aliquid quod est contrarium bono proprio &amp; amori quem 
+      <lb ed="#L" n="84"/>habet aliquis ad seipsum, &amp; qa maior est amor hominis ad 
+      se<lb ed="#L" n="85" break="no"/>ipsum quam ad alium, quia amicabilia quae sunt ad alterum veniunt 
+      <lb ed="#L" n="86"/>ex his quae sunt hominis ad seipsum, ideo per ii a corrumpitur 
+      <lb ed="#L" n="87"/>amor ad alterum, quia est contrarius amori hominis ad seipsum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

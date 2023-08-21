@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="122-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2616"><!-- l2d5q2 -->
+            <head xml:id="jsnvu6-d1e2616-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e2616-Hd1e103" type="question-title">Utrum potuerit peccare in primo instanti suae creationis</head>
+            <p xml:id="jsnvu6-d1e2616-d1e106">
+      <!--00311.xml-->
+               <pb ed="#L" n="122-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QAESTIO SECVNDA. 
+      <lb ed="#L" n="2"/>lus potuerit peccare in primo 
+      <lb ed="#L" n="3"/>instanti sui esse. 
+      <lb ed="#L" n="4"/>Thom. l. q. 63. art. 5. 
+    </p>
+            <p xml:id="jsnvu6-d1e2616-d1e124">
+               <lb ed="#L" n="5"/>AD secundum sic proceditur. Et videtur quod Ange 
+      <lb ed="#L" n="6"/>lus potuit peccare in primo instanti suae creatio 
+      <lb ed="#L" n="7"/>nis, quia peccatum opponitur merito, sed natura 
+      <lb ed="#L" n="8"/>intellectualis in primo instanti suae creationis potui 
+      <lb ed="#L" n="9"/>"mereri, sicut ponitur de anima Christi, ergo pari 
+      <lb ed="#L" n="10"/>ratione angeli i primo instanti suae creationis potuerunt peccare. 
+      </p>
+            <p xml:id="jsnvu6-d1e2616-d1e140">
+               <lb ed="#L" n="11"/>
+               <!--2--> Item anima in primo instanti potest peccato maculari, 
+      igi<lb ed="#L" n="12" break="no"/>tur &amp; angelus. 
+      </p>
+            <p xml:id="jsnvu6-d1e2616-d1e150">
+               <lb ed="#L" n="13"/>
+               <!--3--> IN CONTRARIVM arguitur, quia tam meriti 
+      <lb ed="#L" n="14"/>quam peccatum non videtur posse esse sine actu libero, quae videtu 
+      <lb ed="#L" n="15"/>requieeere deliberationem. Sed deliberatio non potest esse in instanti, 
+      <lb ed="#L" n="16"/>ergo angelus non potuit peccare, vel mereri in primo instanti 
+      </p>
+            <p xml:id="jsnvu6-d1e2616-d1e163">
+               <lb ed="#L" n="17"/>
+               <!--4--> RESPONSIO. Fere omnes concordant in hoc, quod 
+      <lb ed="#L" n="18"/>angelus in primo instanti suae creationis non potuit peccare 
+      <lb ed="#L" n="19"/>Hujus autem variae assignantur rationes. Quidam dicunt sic 
+      <lb ed="#L" n="20"/>quod cum voluntas non sit, nisi boni apprehensi, non potest ess 
+      <lb ed="#L" n="21"/>aliquid volitum, nisi apprehendatur vt bonum, quod si vere 
+      bo<lb ed="#L" n="22" break="no"/>num est, non est peccatum in appetitu, oportet ergo quod s 
+      <lb ed="#L" n="23"/>peccatum est, quod sit verisimile bonum, &amp; non vere bonum. Sec 
+      <lb ed="#L" n="24"/>secundum August. contra Academicos non potest aliquid iudi 
+      <lb ed="#L" n="25"/>cari verisimile, nisi prius sit verum cognitum, oportet ergo 
+      <lb ed="#L" n="26"/>intellectus veri boni praecedat intellectum verisimilis boni, 
+      <lb ed="#L" n="27"/>sic appetitus aestimati boni (quo malus fit angelus) non potest 
+      <lb ed="#L" n="28"/>sequi primum actum intellectus quo verum bonum 
+      conside<lb ed="#L" n="29" break="no"/>ratur, sed sequitur secundum, quo consideratur verisimile 
+      bo<lb ed="#L" n="30" break="no"/>num: &amp; sic non potuit in primo instanti peccare. 
+</p>
+            <p xml:id="jsnvu6-d1e2616-d1e198">
+               <lb ed="#L" n="31"/>Haec autem positio videtur in duobus peccare. Primo in hoc 
+      <lb ed="#L" n="32"/>quod dicit quod in appetendo verum bonum non est peccatum. 
+      Contin<lb ed="#L" n="33" break="no"/>git enim peccare in appetendo verum bonum, si appetatur absque 
+      <lb ed="#L" n="34"/>debitis circunstantiis (vt dictum est in quaest. praeced.) Isti etiam &amp; 
+      <lb ed="#L" n="35"/>omnes alij ponunt angelum peccasse appetendo verum bonum. 
+      Se<lb ed="#L" n="36" break="no"/>cundo deficit in hoc quod verisimile bonum non potest esse primi 
+      <lb ed="#L" n="37"/>apprehensum ab intellectu, quia etsi verisimile bonum non possit 
+      <lb ed="#L" n="38"/>esse primum apprehensum sub ratione qua simile, quia verisimile 
+      <lb ed="#L" n="39"/>bonum non dicitur tale, nisi quia est vero bono simile, &amp; idec 
+      <lb ed="#L" n="40"/>supponit cognitionem veri boni. Iuxta quam sententiam 
+      loqui<lb ed="#L" n="41" break="no"/>tur Aug. talem apprehensionem verisimilis boni, aeque parum 
+      <lb ed="#L" n="42"/>sequitur electio mala, sicut apprehensionem veri boni, quia ille 
+      <lb ed="#L" n="43"/>apprehendit aliquid non esse verum bonum, sed simile vero 
+      bo<lb ed="#L" n="44" break="no"/>no aeque parum decipitur, sicut ille qui apprehendit verum bo 
+      <lb ed="#L" n="45"/>num. Et ideo si peccatum in electione sequitur defectum in cc 
+      <lb ed="#L" n="46"/>gnitione, ita parum potest peccare vnus sicut alius. 
+      </p>
+            <p xml:id="jsnvu6-d1e2616-d1e235">
+               <lb ed="#L" n="47"/>
+               <!--6--> Alius modus ponitur ad eandem conclusionem, quod angelus 
+      <lb ed="#L" n="48"/>peccare non potuit in primo instanti suae creationis pro tanto 
+      <lb ed="#L" n="49"/>quia operatio quae simul incipit cum esse rei inest ab agente: 
+      <lb ed="#L" n="50"/>quo habet esse, sicut moueri sursum a generante. Sed actio per 
+      <lb ed="#L" n="51"/>cati non potest angelo inesse a deo creante angelum, quia actus 
+      <lb ed="#L" n="52"/>defectuosus non est, nisi a defectuoso agente, sicut claudicatio na 
+      <lb ed="#L" n="53"/>turalis tibiae ex debilitate virtutis seminis. In deo autem non possu 
+      <lb ed="#L" n="54"/>mus ponere alicuit virtutis defectum, quare impossibile est 
+      actic<lb ed="#L" n="55" break="no"/>nem quae simul incipit cum esse angeli creati a Deo esse malam.
+</p>
+            <p xml:id="jsnvu6-d1e2616-d1e259">
+               <lb ed="#L" n="56"/>Nec ista ratio facit fidem, quia quod actio quae simul incipit cum 
+      <lb ed="#L" n="57"/>esse rei attribuatur agenti vel generanti, &amp; ei imputetur, hoc so 
+      <lb ed="#L" n="58"/>lum est in illis, in quibus non est principium actiuum, sed solum 
+      pas<lb ed="#L" n="59" break="no"/>siuum, non liberum, sed naturale, sicut in grauibus &amp; leuibus: 
+      <lb ed="#L" n="60"/>quod patet, in eodem enim instanti in quo est ignis, illuminat 
+      <lb ed="#L" n="61"/>domum. Et haec actio attribuitur igni, in quo est actiuum principii 
+      <lb ed="#L" n="62"/>illuminationis, nec attribuitur generanti ignem, nisi sicut causa 
+      <lb ed="#L" n="63"/>remotae. In grauibus &amp; leuibus in quibus non est actiuum 
+      princi<lb ed="#L" n="64" break="no"/>pium sui motus, sed solum passiuum oportet quod sit extra ipsa, &amp; 
+      <lb ed="#L" n="65"/>noc est generans, quod est proxima causa per se mouens grauia 
+      <lb ed="#L" n="66"/>&amp; leuia, vt docet Arist. 8. Physi. In quibus etiam est solum princi 
+      <lb ed="#L" n="67"/>pium passiuum non naturale. sed liberum: si tamen aliquod 
+      princi<lb ed="#L" n="68" break="no"/>pium passiuum liberum esse potest, actio non imputatur agenti 
+      <lb ed="#L" n="69"/>quia generans non causat actionem, nisi dando tale principium, sicui 
+      <lb ed="#L" n="70"/>generans non mouet graue, nisi dando ei formam grauiratis, ad 
+      <lb ed="#L" n="71"/>quod sequitur naturaliter esse deorsum, nisi sit aliquid 
+      prohi<lb ed="#L" n="72" break="no"/>bens. Sed si principium datum a producente sit liberum, actio 
+      sequi<lb ed="#L" n="73" break="no"/>tur ad tale principium per indifferentiam, propter quod 
+      determi<lb ed="#L" n="74" break="no"/>ratio actionis ad hoc vel illud bonum vel malum non debet 
+      im<lb ed="#L" n="75" break="no"/>putari producenti, sed rei productae, quae ratione libertatis 
+      su<lb ed="#L" n="76" break="no"/>ad alterum se determinat, ergo in re solum actio attribuitur 
+      ge<lb ed="#L" n="77" break="no"/>neranti vel producenti, in quibus non est principium actiuum, sed 
+      <lb ed="#L" n="78"/>solum passiuum, naturale &amp; non liberum. Sed in angelo vel est 
+      <lb ed="#L" n="79"/>principium actiuum sui primi velle, vel si sit passiuum est tamen 
+      <lb ed="#L" n="80"/>liberum, quare primum velle angeli non debet attribui Deo creanti.
+    </p>
+            <p xml:id="jsnvu6-d1e2616-d1e316">
+      <!--00311.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>8 Item quandocunque actio quae simul incipit cum esse rei 
+      attri<lb ed="#L" n="82" break="no"/>buitur generanti oes actiones eiusdem rationis attribuuntur 
+      <lb ed="#L" n="83"/>eidem, sicut patet in grauibus &amp; leuibus. Non enim solum 
+      mo<lb ed="#L" n="84" break="no"/>uetur graue deorsum a generante quando fit graue, sed etiam 
+      <lb ed="#L" n="85"/>postquam est actu graue, &amp; est extra locum suum mouetur per 
+      <lb ed="#L" n="86"/>se a generante, per accidens autem a remouente prohibens (vt 
+      <lb ed="#L" n="87"/>docetur 8. Physi.) Si igitur primum velle angeli attribuitur Deo 
+      <lb ed="#L" n="88"/>creanti, &amp; omnia velle sequentia attribuentur eidem, &amp; ita 
+      <lb ed="#L" n="89"/>nunquam poterit peccare angelus, quod est falsum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2616-d1e343">
+               <lb ed="#L" n="90"/>
+               <!--9--> Ideo dicendum est aliter, quod angelus fuit creatus in gratia au 
+      <lb ed="#L" n="91"/>non. Si in gratia (cum impossibile sit eidem simul inesse gratiam 
+      <lb ed="#L" n="92"/>&amp; culpam) impossibile est quod in instanti suae creationis in quo ha 
+      <lb ed="#L" n="93"/>buit gratiam commisit culpam. Si autem non fuit creatus in gratia, aut 
+      <lb ed="#L" n="94"/>habuit in sua creatione solam cognitionem naturalem, aut praetei 
+      <lb ed="#L" n="95"/>eam habuit aliquam superadditam. Si habuit solam cognitionem 
+      <lb ed="#L" n="96"/>naturalem peccare non potuit, quia secundum eam non possumu. 
+      <lb ed="#L" n="97"/>in angelo ponere inconsiderationem aliquam, cum angeius 
+      noue<lb ed="#L" n="98" break="no"/>rit plene omnes circunstantias cuiuscunque agibilis vel appetibilis 
+      <lb ed="#L" n="99"/>ab eo intuendo naturam rei, vt supra dictum est. Si autem in sua q. 
+      <lb ed="#L" n="100"/>creatione habuerit aliquam supernaturalem cognitionem idem, 
+      <lb ed="#L" n="101"/>sequitur, quia peccatum angeli non potuit esse nisi per 
+      inconside<lb ed="#L" n="102" break="no"/>rationem. Impossibile est autem &amp; contradictionem implicams 
+      <lb ed="#L" n="103"/>quod in instanti in quo data est angelo supernatur alis cognitio in 
+      <lb ed="#L" n="104"/>eodem fuerit in eo inconsideratio. Nullus enim accipit nouam 
+      <lb ed="#L" n="105"/>cognitionem, nisi per actualem considerationem, &amp; ideo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2616-d1e382">
+               <lb ed="#L" n="106"/>
+               <!--10--> Sed contra hoc potest sic instari, nonnullum peccatum es 
+      <lb ed="#L" n="107"/>non assentire his quae reuelantur per fidem, sed si in instanti, in 
+      <lb ed="#L" n="108"/>quo creatus est angelus proposita fuerint vel reuelata aliqua 
+      <lb ed="#L" n="109"/>supernaturalia, pertuinentia ad fidem (vt ponit praedicta 
+      posi<lb ed="#L" n="110" break="no"/>tio) potuit eis angelus non assentire, cum non essent ei 
+      mani<lb ed="#L" n="111" break="no"/>festa, ergo non assentiendo potuit peccare, &amp; hoc etiam 
+      pec<lb ed="#L" n="112" break="no"/>catum peruenisset ex quadam nescientia angeli, qui ignorat 
+      <lb ed="#L" n="113"/>quantum est de se ea quae sunt supernaturalia. 
+      </p>
+            <p xml:id="jsnvu6-d1e2616-d1e404">
+               <lb ed="#L" n="114"/>
+               <!--11--> Sed illud non valet, quia quod angelus non assentiret Deo 
+      re<lb ed="#L" n="115" break="no"/>uelanti hoc esset, vel quia illud quod est reuelatum a Deo 
+      repu<lb ed="#L" n="116" break="no"/>taret falsum, vel saltem dubium: vtroque autem modo poneretur, 
+      <lb ed="#L" n="117"/>error in angelo. quod esse non potest, quare tenendum est quod 
+      <lb ed="#L" n="118"/>angelus in primo instanti peccare non potuit, quia non potui 
+      <lb ed="#L" n="119"/>in illo instanti habere inconsiderationem illam, quae ad eius 
+      pec<lb ed="#L" n="120" break="no"/>catum requiritur. Item patet tenendo aliam viam (scilicet quod 
+      <lb ed="#L" n="121"/>angelus peccauit appetendo illud quod malum erat, non 
+      secun<lb ed="#L" n="122" break="no"/>dum se, sed quia prohibitum, quia peccatum angeli prouenit 
+      <lb ed="#L" n="123"/>ex inconsideratione, vt dictum est. Sed angelus in instanti in quo 
+      <lb ed="#L" n="124"/>creatus fuit, non potuit habere inconsiderationem de 
+      prohi<lb ed="#L" n="125" break="no"/>bitione sibi facta, quia vel tunc sibi facta fuit, &amp; sic eam tunc 
+      <lb ed="#L" n="126"/>agnouit, vel postmodum, &amp; sic in primo instanti eam 
+      transgre<lb ed="#L" n="127" break="no"/>di non potuit, quia nondum eam acceperat, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2616-d1e439">
+               <lb ed="#L" n="128"/>
+               <!--12--> Ad primum argumentum dicendum qued non est simile de 
+      me<lb ed="#L" n="129" break="no"/>rito, &amp; de peccato pro primo instanti creationis angeli. Quia 
+      <lb ed="#L" n="130"/>enim in primo instanti non potest esse in angelo defectus incon 
+      <lb ed="#L" n="131"/>siderationis respectu supernaturalium, respectu quorum potest 
+      <lb ed="#L" n="132"/>peccare, ideo in eo non potest esse vitium electionis: potuit 
+      ta<lb ed="#L" n="133" break="no"/>men in eo esse recta &amp; libera electio, propter quam mereri 
+      po<lb ed="#L" n="134" break="no"/>tuit, si tamen aliquem actum liberum tunc habere potuit. 
+      </p>
+            <p xml:id="jsnvu6-d1e2616-d1e459">
+               <lb ed="#L" n="135"/>
+               <!--13--> Ad secundum dicendum qued non est simile de anima &amp; de 
+      an<lb ed="#L" n="136" break="no"/>gelo, quia anima non contrahit peccatum originale ex personali 
+      <lb ed="#L" n="137"/>electione, sed ex vnione sui cum corpore cui vnitur statim quan 
+      <lb ed="#L" n="138"/>do creatur, peccatum autem angeli (si quod fuisset) prouenisset 
+      <lb ed="#L" n="139"/>ex personali electione, quae non potuit esse mala in primo 
+      in<lb ed="#L" n="140" break="no"/>stanti, quia non potuit tunc esse defectus inconsiderationis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2616-d1e477">
+               <lb ed="#L" n="141"/>
+               <!--14--> Ad argumentum in oppositum licet sit pro conclusione ista, 
+      <lb ed="#L" n="142"/>tamen assumit vnum quod a paucis concederetur, videlicet qui 
+      <lb ed="#L" n="143"/>electio angeli bona vel mala sequatur deliberationem discursiua 
+      <lb ed="#L" n="144"/>&amp; requirentem tempus, quia sicut deus aliqua libere voluit al 
+      <lb ed="#L" n="145"/>aeterno, ita angelus ab instanti suae creationis aliqua libere 
+      vell<lb ed="#L" n="146" break="no"/>potuit: propter quod potuit mereri bene volendo, &amp; demereri 
+      <lb ed="#L" n="147"/>si potuisset inesse pro illo instanti defectus inconsiderationis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

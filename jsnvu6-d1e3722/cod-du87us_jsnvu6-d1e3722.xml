@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="158-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3722"><!-- l2d30q5 -->
+            <head xml:id="jsnvu6-d1e3722-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-d1e3722-Hd1e103" type="question-title">Utrum semen sit de superfluo alimenti</head>
+            <p xml:id="jsnvu6-d1e3722-d1e106">
+      <!--00383.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>1, ni S QVAE STIOCIQVANTAhOV 
+      <lb ed="#L" n="84"/>Vtrum semen sit de supersfuo alumeni 
+      <lb ed="#L" n="85"/>Ta.  4 1o. a.. 
+    </p>
+            <p xml:id="jsnvu6-d1e3722-d1e119">
+               <lb ed="#L" n="86"/>EINDA quaeritur vtrum semen sit de 
+      coiper<lb ed="#L" n="87" break="no"/>fluo aimenti. Et videtur quod non, quia 
+      instru<lb ed="#L" n="88" break="no"/>mentum non recipit virtutem principalis 
+      agen<lb ed="#L" n="89" break="no"/>tis nisi per vnionem ad ipsum, sed semen habet 
+      <lb ed="#L" n="90"/>Iin se virtutem generandi instrumentaliter 
+      de<lb ed="#L" n="91" break="no"/>riuatam ab anima patris, ergo hoc est per vnionem quam 
+      ha<lb ed="#L" n="92" break="no"/>buit cum anima patris: sed omne vnitum animae patris est de 
+      <lb ed="#L" n="93"/>substantia eius &amp; non de superfluo, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3722-d1e139">
+               <lb ed="#L" n="94"/>
+               <!--2--> Item Damas. dicit quod generatio est opus naturae, de 
+      sub<lb ed="#L" n="95" break="no"/>stantia generantis producens id quod generatur, sed illud quod 
+      <lb ed="#L" n="96"/>generatur in viuentibus generatur ex semine, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3722-d1e151">
+               <lb ed="#L" n="97"/>
+               <!--3--> Item filius assimilatur patri secundum illud quod accipit 
+      <lb ed="#L" n="98"/>ab ipso, sed si semen esset de superfluo alimenti &amp; non de 
+      sub<lb ed="#L" n="99" break="no"/>stantia generantis plus acciperet filius a porco, vel a boue 
+      cu<lb ed="#L" n="100" break="no"/>ius carnes pater comedit quam a patre, eigo plus deberet 
+      asii<lb ed="#L" n="101" break="no"/>milari porco, vel boui quam patri quod est falsum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3722-d1e167">
+               <lb ed="#L" n="102"/>
+               <!--4--> IN CONTRARIVM est, quia natura non 
+      alleuia<lb ed="#L" n="103" break="no"/>tur quando aliquid de substantia rei deciditur, sed magis 
+      gra<lb ed="#L" n="104" break="no"/>uatur, sed per decisionem seminis natura alleuiatur, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e3722-d1e178">
+               <lb ed="#L" n="105"/>
+               <!--5--> RESPONSIO. Sicut circa praecedentem quaestionem 
+      <lb ed="#L" n="106"/>sunt opiniones sic circa istam. Quidam enim tam Philo. quam 
+      <lb ed="#L" n="107"/>Theologi ponunt quod semen est aliquid decisum a substantia 
+      <lb ed="#L" n="108"/>&amp; a virtute naturae generantis, alia tamen &amp; alia ratione. 
+      Theo<lb ed="#L" n="109" break="no"/>logi enim hoc posuerunt propter traductionem peccati origi 
+      <lb ed="#L" n="110"/>nalis quod non credebant posse traduci cum semine nisi semen 
+      <lb ed="#L" n="111"/>esset de substantia generantis, quia per hoc videtur peccatum 
+      <lb ed="#L" n="112"/>originale traduci a parente in prolem, quia aliquid prolis fuit 
+      <lb ed="#L" n="113"/>infectum in parente quod cum sua infectione deriuatur in 
+      pro<lb ed="#L" n="114" break="no"/>lem. Motiuum autem Philosophorum fuit ex assimilatione 
+      pro<lb ed="#L" n="115" break="no"/>lis ad parentem quae similiter non videtur esse nisi propter 
+      ali<lb ed="#L" n="116" break="no"/>quid vtrique commune quod similiter est in prole a parente 
+      <lb ed="#L" n="117"/>pertinens ad substantiam vtriusque. 
+      </p>
+            <p xml:id="jsnvu6-d1e3722-d1e211">
+               <lb ed="#L" n="118"/>
+               <!--6.--> Primum autem motiuum non valet, quia semen cum sit 
+      ali<lb ed="#L" n="119" break="no"/>quid inanimatum non potest esse subiectum peccati vt eius 
+      tra<lb ed="#L" n="120" break="no"/>ductione traducatur peccatum, quod solum est in habente lib. 
+      <lb ed="#L" n="121"/>ar. Item si aliquid pertinens ad substantiam patris cum sua 
+      in<lb ed="#L" n="122" break="no"/>fectione transiret ad naturam prolis tunc idem numero 
+      pec<lb ed="#L" n="123" break="no"/>catum originale esset in parente &amp; prole, sicut esset idem 
+      nu<lb ed="#L" n="124" break="no"/>mero deriuatum ab vno in alterum. Item si per deriuationem 
+      <lb ed="#L" n="125"/>alicuius naturae infectae in parente deriuaretur in prolem 
+      pec<lb ed="#L" n="126" break="no"/>catum originale, cum non deriuaretur in prolem tota natura 
+      <lb ed="#L" n="127"/>parentis intecta sed aliquid eius, sequeretur quod in patre esset 
+      <lb ed="#L" n="128"/>quoddam magnum peccatum originale quod diuideretur in fi 
+      <lb ed="#L" n="129"/>liis in multa parua peccata originalia sicuc &amp; ipsa natura patris 
+      <lb ed="#L" n="130"/>non secundum se totam sed secundum partem sui deriuatur in 
+      <lb ed="#L" n="131"/>filios, quae omnia sunt absurda. 
+      </p>
+            <p xml:id="jsnvu6-d1e3722-d1e246">
+               <lb ed="#L" n="132"/>
+               <!--7.--> Praedictum etiam motiuum Philosophorum sumptum ex 
+      <lb ed="#L" n="133"/>assimilatione parentis ad prolem, vel econuerso non est 
+      suffi<lb ed="#L" n="134" break="no"/>ciens, quia assimilario duorum attenditur secundum formam, 
+      <lb ed="#L" n="135"/>non secundum materiam. Omnia enim generabilia 
+      communi<lb ed="#L" n="136" break="no"/>cant in materia, nec tamen sunt similia illa similitudine de qua 
+      <lb ed="#L" n="137"/>loquimur, semen autem secundum istos ponitur pertinere ad 
+      <lb ed="#L" n="138"/>substantiam patris, vel parentis &amp; prolis solum materialiter 
+      tan<lb ed="#L" n="139" break="no"/>quam illud ex quo formatur corpus prolis, ergo secundum 
+      ip<lb ed="#L" n="140" break="no"/>sum non attenditur assimilatio inter parentem &amp; prolem. Et si 
+      <lb ed="#L" n="141"/>dicatur quod assimilatio licet non possit esse ratione materiae 
+      re<lb ed="#L" n="142" break="no"/>motae, potest tamen esse ratione materiae propinquae qualis 
+      ma<lb ed="#L" n="143" break="no"/>teria est semen. Dicendum quod vbi tota substatia rei est materia 
+      <lb ed="#L" n="144"/>sicut in artificialibus assimilatio potest esse ratione materiae, 
+      <lb ed="#L" n="145"/>sed in naturalibus vbi praeter materiam qualitercunque 
+      acce<lb ed="#L" n="146" break="no"/>ptam ad substantiam rei pertinet forma, materia parum aut nihil 
+      <lb ed="#L" n="147"/>facit ad assimilationem. Ex hoc ergo quod semen ex quo 
+      forma<lb ed="#L" n="148" break="no"/>retur corpus prolis decideretur de substantia patris non possei 
+      <lb ed="#L" n="149"/>reddi sufficienter causa assimilationis parentis ad prolem, sed 
+      <lb ed="#L" n="150"/>tota sumenda est ex virtute formatiua quae est in semine ex 
+      ani<lb ed="#L" n="151" break="no"/>ma patris quamuis semen non decidatur de fubstantia eius. 
+      </p>
+            <p xml:id="jsnvu6-d1e3722-d1e294">
+               <lb ed="#L" n="152"/>
+               <!--8--> Dicendum ergo q, semen deciditur de superfluo alimenti. 
+      <lb ed="#L" n="153"/>Quod patet ratione &amp; signo ratione sic, quia si semen esset 
+      ali<lb ed="#L" n="154" break="no"/>quid resolutum ab eo quod iam pertinet ad substatiam 
+      mem<lb ed="#L" n="155" break="no"/>brorum; aut retinet naturam eius a quo resoluitur, aut non 
+      <lb ed="#L" n="156"/>si retinet naturam eius a quo resoluitur, aut esset resolutum a 
+      <lb ed="#L" n="157"/>determinata parte, aut a toto, si a determinata parte, tunc non 
+      <lb ed="#L" n="158"/>haberes vircutem mouendi ad naturam totius. Si autem 
+      resol<lb ed="#L" n="159" break="no"/>ueretur a toto, &amp; naturam eius retineret, sic semen actu esse 
+      <lb ed="#L" n="160"/>quoddam animal paruum, &amp; sic generatio animalis ex animal 
+      <lb ed="#L" n="161"/>non esset, nisi per diriuationem quandam, quae manifeste sunt 
+      <lb ed="#L" n="162"/>falsa. Si veru semen non retinet naturam eius a quo resolui¬ 
+      <!--00384.xml-->
+      <pb ed="#L" n="158-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tur, tunc iam esset recedens a natura generantis &amp; in via 
+      cor<lb ed="#L" n="2" break="no"/>ruptionis existens, &amp; per consequens non haberet virtutem 
+      <lb ed="#L" n="3"/>producendi simile aliquid generanti. 
+      </p>
+            <p xml:id="jsnvu6-d1e3722-d1e337">
+               <lb ed="#L" n="4"/>
+               <!--9--> Signa etiam sunt ad hoc quae ponit Philosophus lib. de 
+      ge<lb ed="#L" n="5" break="no"/>neratione animalium, quorum vnum est, quia nihil dissolutum 
+      <lb ed="#L" n="6"/>a corpore habet determinatum locum in ipso, sed vagatur per 
+      <lb ed="#L" n="7"/>corpus, sicut apparet de sudore: semen autem habet 
+      determi<lb ed="#L" n="8" break="no"/>natum locum in corpore, sicut et aliae superfluitates resolutae 
+      <lb ed="#L" n="9"/>ab alimento, &amp; quasi in eadem parte corporis, in qua sunt loca 
+      <lb ed="#L" n="10"/>aliarum superfluitatum, ergo, &amp;c. Secundum signum est, quia 
+      <lb ed="#L" n="11"/>semen &amp; superfluitas alimenti consequuntur se in 
+      multitudi<lb ed="#L" n="12" break="no"/>ne &amp; paucitate: quia vbi inuenitur minus de superfluo 
+      alimen<lb ed="#L" n="13" break="no"/>ti, ibi inuenitur minus de semine. Et propter hanc causam in 
+      <lb ed="#L" n="14"/>pueris non est semen, quia superfluum nutrimenti conuertitur 
+      <lb ed="#L" n="15"/>in augmentum. Pingues etiam homines sunt pauci seminis, quia 
+      <lb ed="#L" n="16"/>superfluum alimenti in eis conuertitur in pinguedinem, &amp; 
+      quae<lb ed="#L" n="17" break="no"/>dam similia, quae inducuntur ibidem a Philosopho. Ex quibus 
+      <lb ed="#L" n="18"/>patet quod semen non est aliquid resolutum de substantia 
+      co<lb ed="#L" n="19" break="no"/>poris, sed de superfluo alimenti. 
+      </p>
+            <p xml:id="jsnvu6-d1e3722-d1e376">
+               <lb ed="#L" n="20"/>
+               <!--10--> Ad primum argumentum dicendum quod ad hoc quod instru 
+      <lb ed="#L" n="21"/>mentum recipiat virtutem principalis agentis, non requiritur 
+      <lb ed="#L" n="22"/>vnio secundum suppositum, sed sufficit vnio per contactum, 
+      <lb ed="#L" n="23"/>vt patet in securi mota ab artifice: hoc autem modo vnitur 
+      se<lb ed="#L" n="24" break="no"/>men animae generantis: per virtutem enim animae nutritiuam 
+      <lb ed="#L" n="25"/>digeritur alimentum, vt assimiletur naturae corporis: quando 
+      <lb ed="#L" n="26"/>ergo venit ad vltimam digestionem antequam sit in membra 
+      <lb ed="#L" n="27"/>conuersum mouetur, vt statim per virtutem animae accipia 
+      <lb ed="#L" n="28"/>formam cuiuslibet membsi. Cum ergo per virtutem 
+      nutriti<lb ed="#L" n="29" break="no"/>uam conuersum est de alimento, sic praeparato id quod ad 
+      nu<lb ed="#L" n="30" break="no"/>trimentum indigetur, residuum quod est nutritiuae resoluitur 
+      <lb ed="#L" n="31"/>ad actum generatiuae: vnde ex hoc accipit vt moueat materii 
+      <lb ed="#L" n="32"/>foetus eo motu quo mouebatur in corpore, mouebatur autem 
+      <lb ed="#L" n="33"/>sic, vt acciperet formam cuiuslibet membri, &amp; ideo virtutem 
+      <lb ed="#L" n="34"/>habet formandi materiam prolis in singula membra corporis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3722-d1e413">
+               <lb ed="#L" n="35"/>
+               <!--11--> Ad secundum argumentum dicendum qued generatio alicuius 
+      <lb ed="#L" n="36"/>dicitur esse de substantia generantis non materialiter, sed 
+      for<lb ed="#L" n="37" break="no"/>maliter, inquantum forma generantis quae est principalior par 
+      <lb ed="#L" n="38"/>substantiae rei, est principium quo generans principaliter 
+      gene<lb ed="#L" n="39" break="no"/>rat, &amp; ab ipsa est virtus actiua in agente instrumentali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3722-d1e429">
+               <lb ed="#L" n="40"/>
+               <!--12.--> Ad tertium dicendum quod assimilatio non est propter 
+      conue<lb ed="#L" n="41" break="no"/>nientiam in materia sed in forma, &amp; ideo de quocunque sit 
+      ali<lb ed="#L" n="42" break="no"/>mentum siue de carnibus bonis siue porci, quia tamen virtus 
+      <lb ed="#L" n="43"/>quae est in semine quod est superfluum alimenti, est productiua 
+      simi<lb ed="#L" n="44" break="no"/>lis formae, &amp; hoc habet ab anima generantis, &amp; non a natura 
+      <lb ed="#L" n="45"/>porci vel bonis, de quibus sumptum est alimentum, 
+      assimila<lb ed="#L" n="46" break="no"/>tur magis filius patri, quam porco vel boni. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

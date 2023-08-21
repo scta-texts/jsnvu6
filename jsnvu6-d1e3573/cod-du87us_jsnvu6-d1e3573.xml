@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="153-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3573"><!-- l2d28prae -->
+            <head xml:id="jsnvu6-d1e3573-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3573-d1e103">
+               <lb ed="#L" n="109"/>Sententia huius distinctionis xxviij. in 
+      <lb ed="#L" n="110"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e3573-d1e110">
+               <lb ed="#L" n="111"/>ILLVD vero inconcusse, &amp;c. Superius 
+      determi<lb ed="#L" n="112" break="no"/>nauit de libero arbitrio. Hic determinat de insuff 
+      <lb ed="#L" n="113"/>cientia liberi arbitrij sine gratia. Et diuiditur in 
+      <lb ed="#L" n="114"/>duas. Primo determinat quod dictum est 
+      genera<lb ed="#L" n="115" break="no"/>a&amp; liter in omnibus. Secundo specialiter in primis 
+      pa<lb ed="#L" n="116" break="no"/>rentibus. Secunda in princip. 21. dist. ibi, post haec considerandi 
+      <lb ed="#L" n="117"/>est. Prima diuiditur in tres. Primo exprimit Pelagianorum 
+      er<lb ed="#L" n="118" break="no"/>rorem &amp; erroris absurditatem. Secundo ponit eorum 
+      obiectio<lb ed="#L" n="119" break="no"/>nes, &amp; ipsarum obiectionum solutionem. Tertio subdit 
+      verita<lb ed="#L" n="120" break="no"/>tis confirmationem. Secunda ibi, quid vero dicit sine gratia 
+      <lb ed="#L" n="121"/>Tertia ibi, illud de gratia liberi arbitrij. Secunda istarum 
+      diui<lb ed="#L" n="122" break="no"/>ditur in tres. Primo, ponit rationem eorum ad probandum q 
+      <lb ed="#L" n="123"/>homo sine gratia possit mandata Dei implere. Secundo, ponii 
+      <lb ed="#L" n="124"/>argumenta ad probandum quod possit per se a peccato 
+      resur<lb ed="#L" n="125" break="no"/>gere. Tertio, ponit aliquid ad probandum quod possit per se 
+      <lb ed="#L" n="126"/>in Deum credere. Secunda ibi, alibi etiam Augustinus. Tertia 
+      <lb ed="#L" n="127"/>ibi, in expositione autem quarundam. Haec est sententia &amp; 
+      di<lb ed="#L" n="128" break="no"/>uisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3573-d1e152">
+               <lb ed="#L" n="129"/>
+               <!--2--> In speciali sic procedit. Et proponit primo quod libe. arb. sine 
+      <lb ed="#L" n="130"/>gratia ad obtinendam salutem non sufficit. Et ostendit errorem 
+      <lb ed="#L" n="131"/>Pelagianorum. Et circa hoc tangit &amp; explicat secundum Auae 
+      <lb ed="#L" n="132"/>quod dicebant Pelag. gratiam &amp; salutem secundum meritum 
+      <lb ed="#L" n="133"/>dari. Et hic error ortum habuit a Pelagiano monacho, qui 
+      di<lb ed="#L" n="134" break="no"/>cebat homines sine gratia posse implere mandata Dei. Et cun 
+      <lb ed="#L" n="135"/>increparetur a fratribus dicentibus, ad quid ergo est necessaria 
+      <lb ed="#L" n="136"/>gratia. Respondebat, vt facilius posset homo mandata Dei 
+      im<lb ed="#L" n="137" break="no"/>plere, quae sine gratia difficilius poterat operari. Et sic ponebar 
+      <lb ed="#L" n="138"/>quod libe. arbit. erat ista gratia sine qua principaliter nihil boni 
+      <lb ed="#L" n="139"/>operari potest homo. Addit autem multa alia 
+      inconuenienti<lb ed="#L" n="140" break="no"/>quae dicebat ex istis sequentia, scilicet orationes quas ecclesia 
+      <lb ed="#L" n="141"/>facit quod nihil conferant his pro quibus fuerunt factae. Et quod 
+      <lb ed="#L" n="142"/>gratia datur secundum merita nostra. Et quod paruuli sine 
+      ori<lb ed="#L" n="143" break="no"/>ginali peccato nascuntur. Postea ponit obiectiones &amp; 
+      auctori<lb ed="#L" n="144" break="no"/>tates August. per quas haeretici confirmant errores suos. Qua. 
+      <lb ed="#L" n="145"/>rum prima talis est, Si fit peccatum secundum August. ergo ca 
+      <lb ed="#L" n="146"/>ueri potest. Si enim caueri non posset, ergo peccatum non esset, 
+      <lb ed="#L" n="147"/>quia nullus peccat in eo quod cauere non potest. Sed peccatum 
+      <lb ed="#L" n="148"/>non vitatur, hisi per libe. arbi, quia secundum August. 
+      volunta<lb ed="#L" n="149" break="no"/>est qua peccatur, &amp; recte viuitur: ergo secundum August. per 
+      <lb ed="#L" n="150"/>libe. arb. sine gratia potest quis mereri. Et respondet August. 
+      <lb ed="#L" n="151"/>qui dicit se sic intellexisse quod voluntas est qua peccatur &amp; re 
+      <lb ed="#L" n="152"/>cte viuitur, sed non potest in bonum dirigi, nisi per gratiam dei 
+      <lb ed="#L" n="153"/>a peccato mandata adiuuetur. Item arguunt per August. aucte 
+      <lb ed="#L" n="154"/>ritatem dicentis quod nulli debet imputari, si non fecerit quod 
+      <lb ed="#L" n="155"/>facere non potuit: ergo paruuli qui gratiam non habent, sed 
+      <lb ed="#L" n="156"/>diuina mandata non seruant rei publicandi non sunt. Ex quo 
+      <lb ed="#L" n="157"/>sine ipsa gratia non possent mandata implere: Et respondet 
+      Au<lb ed="#L" n="158" break="no"/>gustinus, quod hoc dicit contra Manichaeos qui ponebant dua 
+      <lb ed="#L" n="159"/>naturas in homine, vnam bonam a Deo, aliam malam a 
+      diabo<lb ed="#L" n="160" break="no"/>lo, quod si ita esset, non posset ab ea bonum fieri, &amp; sic non 
+      et<lb ed="#L" n="161" break="no"/>set ei culpa imputanda. Postea ponit aliam ipsorum obiectio¬ 
+      <!--00374.xml-->
+      <pb ed="#L" n="153-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nem, quod homo posset resurgere a peccato sine gratia. Quia 
+      <lb ed="#L" n="2"/>secundum Augustinum, mutare voluntatem est in nostra 
+      pote<lb ed="#L" n="3" break="no"/>state: ergo potest de se sine gratia resurgere a peccato, 
+      respon<lb ed="#L" n="4" break="no"/>det Augustinus quod haec potestas nulla est si non esset a dee 
+      <lb ed="#L" n="5"/>data, vnde proponit quod voluntas non nisi per gratiam opera 
+      <lb ed="#L" n="6"/>pietatis faciliter exerceret. Postea ponit alias obiectiones, quod 
+      <lb ed="#L" n="7"/>potest aliquis in deum credere sine gratia, eo quod velle credere 
+      <lb ed="#L" n="8"/>nostrum est, ergo potest homo in deum credere sine gratia. 
+      Re<lb ed="#L" n="9" break="no"/>spondet August. quod vtrumque est dei principaliter, ex conse 
+      <lb ed="#L" n="10"/>quenti autem nostrum, quia non nisi nobis volentibus &amp; 
+      con<lb ed="#L" n="11" break="no"/>sentientibus hoc esse potest. Item ad idem arguunt secundum 
+      <lb ed="#L" n="12"/>Augustinum posse habere fidem a natura est hominum, ergo 
+      <lb ed="#L" n="13"/>homo per sua naturalia potest in deum credere. Et respondet 
+      <lb ed="#L" n="14"/>quod homo de se habet naturalem aptitudinem ad credendum, 
+      <lb ed="#L" n="15"/>&amp; diligendum, sed credere, vel diligere sine gratia esse non 
+      pos<lb ed="#L" n="16" break="no"/>sunt. Vitimo ponit veritatem de gratia &amp; libero arbitrio 
+      secun<lb ed="#L" n="17" break="no"/>dum Hieronymum quid dicit etiam illos errare qui dicunt 
+      ho<lb ed="#L" n="18" break="no"/>mines propter naturam maiam non posse vitare peccatum, &amp; 
+      <lb ed="#L" n="19"/>illos qui ponunt homines propter naturam bonam 
+      peccar<lb ed="#L" n="20" break="no"/>non posse sicut Iouinianus. Ambo enim tollunt arbitrij 
+      liber<lb ed="#L" n="21" break="no"/>tatem. sed dicit Hieronymus quod possumus semper peccare, &amp; 
+      <lb ed="#L" n="22"/>non peccare vt nos liberos confiteamur. Haec est fides nostra &amp;c
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="165-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3985"><!-- l2d37q1 -->
+            <head xml:id="jsnvu6-d1e3985-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e3985-Hd1e103" type="question-title">Utrum actio peccati sit a Deo</head>
+            <p xml:id="jsnvu6-d1e3985-d1e106">
+               <lb ed="#L" n="125"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="126"/>Vtrum actio peccati secundum quod 
+      <lb ed="#L" n="127"/>actio, sit a deo. 
+      <lb ed="#L" n="128"/>Thom. 1. 2. q. 79. ar. 1. 
+    </p>
+            <p xml:id="jsnvu6-d1e3985-d1e117">
+               <lb ed="#L" n="129"/>CIRCA distinctionem istam quaeritur, primo 
+      <lb ed="#L" n="130"/>vtrum actio peccati secundum quod actio sit a 
+      <lb ed="#L" n="131"/>deo. Et videtur quod non, quia Fulgentius dicit, 
+      <lb ed="#L" n="132"/>quod deus illius rei vltor est cuius non est 
+      au<lb ed="#L" n="133" break="no"/>ctor, sed deus est vltor peccati quantum ad 
+      ip<lb ed="#L" n="134" break="no"/>sam actionem, ergo &amp;c. Probatio minoris, quia sicut peccato 
+      <lb ed="#L" n="135"/>respondet poena damni ratione auersionis, in qua consistit 
+      de<lb ed="#L" n="136" break="no"/>fectus, ita respondet ei poena sensus ratione conuersionis, in 
+      <lb ed="#L" n="137"/>qua consistit actus. 
+      </p>
+            <p xml:id="jsnvu6-d1e3985-d1e139">
+               <lb ed="#L" n="138"/>
+               <!--2.--> Item defectus non assignatur causa, nisi ratione actus, vb 
+      <lb ed="#L" n="139"/>ergo actus &amp; defectus sunt inseparabiles, quicquid est 
+      caus<lb ed="#L" n="140" break="no"/>actus est causa defectus, sed in actione peccati, puta in verbe 
+      <lb ed="#L" n="141"/>blasphemiae actus &amp; defectus sunt inseparabiles: ergo cum deus 
+      <lb ed="#L" n="142"/>non sit causa defectus (alioquin deo imputaretur peccatum) 
+      <lb ed="#L" n="143"/>videtur quod non sit causa actus. 
+      </p>
+            <p xml:id="jsnvu6-d1e3985-d1e158">
+               <lb ed="#L" n="144"/>
+               <!--3--> IN CONTRARIVM est, quia illud quod non est 
+      <lb ed="#L" n="145"/>causa actus, non est causa effectus producti per actum, sed per 
+      <lb ed="#L" n="146"/>actionem peccati aliqui effectus in esse producuntur: generantur 
+      <lb ed="#L" n="147"/>enim homines ex adulteriis. Si ergo talium actionum deus non 
+      <lb ed="#L" n="148"/>esset causa, per consequens nec hominum, qui his actionibus 
+      <lb ed="#L" n="149"/>generantur, quod est inconueniens. 
+      </p>
+            <p xml:id="jsnvu6-d1e3985-d1e176">
+               <lb ed="#L" n="150"/>
+               <!--4--> RESPONSIO. Dicenda sunt tria. Primum est, quod 
+      <lb ed="#L" n="151"/>deus est causa actionis peccati vniuersalis, &amp; prima. Secundum es 
+      <lb ed="#L" n="152"/>quod non est causa eius proxima &amp; immediata. Tertium est, quod 
+      <lb ed="#L" n="153"/>ex hoc non potest deo imputari culpa. Primum patet, quia a quo 
+      <!--00399.xml-->
+      <pb ed="#L" n="166-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>est essentia, est &amp; virtus &amp; operatio saltem mediate, sed omni 
+      <lb ed="#L" n="2"/>essentia est a Deo, igitur &amp;c. Secundum patet ex his quae 
+      dict<lb ed="#L" n="3" break="no"/>sunt supra distinctione prima huius libri. Tertium patet sic, 
+      acti<lb ed="#L" n="4" break="no"/>non debet imputari agenti nisi secundum quod ab ipso procedit 
+      <lb ed="#L" n="5"/>sed actiones liberi arbitrij non procedunt a Deo nisi secundum 
+      <lb ed="#L" n="6"/>indifferentiam ad bonum &amp; malum, ergo &amp;c. Minor probatur 
+      <lb ed="#L" n="7"/>quia Deus non est causa actionum liberi arbitrij nisi quia 
+      libe<lb ed="#L" n="8" break="no"/>rum arbitrium ab ipso &amp; est &amp; conseruatur, sed liberum 
+      arbi<lb ed="#L" n="9" break="no"/>trium in esse conseruatum, adhuc est indifferens ad eligendum 
+      <lb ed="#L" n="10"/>actum bonum vel malum, nec determinatio eius ad malum est a 
+      <lb ed="#L" n="11"/>Deo, ergo actiones liberi arbitrij non possunt Deo imputari 
+      <lb ed="#L" n="12"/>secundum communem cursum nisi secundum indisferentiam 
+      <lb ed="#L" n="13"/>ad bonum &amp; malum. Dico autem secundum communem 
+      cur<lb ed="#L" n="14" break="no"/>sum, quia forsan Deus ex beneplacito suo liberum arbitrium 
+      <lb ed="#L" n="15"/>inclinat ad bonum, nunquam tamen ad malum, vt sic bona actic 
+      <lb ed="#L" n="16"/>Deo imputari possit, nunquam tamen mala, &amp; si ratione illius 
+      <lb ed="#L" n="17"/>vel huius indifferentiae intelligant aliqui quod Deus est causa 
+      ma<lb ed="#L" n="18" break="no"/>lorum vel malarum actionum inquantum actiones sunt &amp; non 
+      <lb ed="#L" n="19"/>inquantum malae. Verum est, quia omnes huiusmodi actiones 
+      <lb ed="#L" n="20"/>reduci possunt in Deum secundum indifferentiam &amp; non 
+      secun<lb ed="#L" n="21" break="no"/>dum determinationem ad malum, quia vero principia actio 
+      <lb ed="#L" n="22"/>num naturalium sunt determinata ad vnum, ideo actiones 
+      na<lb ed="#L" n="23" break="no"/>turales eorum Deo attribuuntur &amp; quantum ad essentiam actu 
+      <lb ed="#L" n="24"/>&amp; quantum ad determinationem eius. 
+      </p>
+            <p xml:id="jsnvu6-d1e3985-d1e248">
+               <lb ed="#L" n="25"/>
+               <!--5--> Si vero sumatur aliqua singularis actio puta hoc adulterium 
+      <lb ed="#L" n="26"/>quae secundum se separari non potest a deformitate culpae, 
+      im<lb ed="#L" n="27" break="no"/>possibile est q Deus fit immediata causa talis actionis non 
+      so<lb ed="#L" n="28" break="no"/>lum propter rationes praedictas, sed quia necessario esset cau 
+      <lb ed="#L" n="29"/>sa deformitatis, ita quod ipsi attribueretur defectus sicut actus 
+      </p>
+            <p xml:id="jsnvu6-d1e3985-d1e264">
+               <lb ed="#L" n="30"/>
+               <!--6--> Quod patet. Ad defectum enim culpabilem tria concurrum 
+      <lb ed="#L" n="31"/>scilicet quod defectus culpabilis non causetur nisi ab agente, 
+      qui<lb ed="#L" n="32" break="no"/>culpa est malum quod facimus, defectus vero non culpabiles, 
+      <lb ed="#L" n="33"/>aliunde causari possunt scilicet ex dispositione materiae, sicu 
+      <lb ed="#L" n="34"/>tibia claudi non potest recte incedere, licet non sit defectus ex 
+      <lb ed="#L" n="35"/>parte virtutis progressiuae, sed ex indispositione materiae. Ad 
+      <lb ed="#L" n="36"/>hoc etiam quod defectus sit culpabilis oportet quod sit in 
+      pote<lb ed="#L" n="37" break="no"/>state agentis, quia quae non sunt in potestate nostra, non sunt 
+      <lb ed="#L" n="38"/>nobis culpabilia. Item requiritur quod defectus non sit ignoratus 
+      <lb ed="#L" n="39"/>ignorantia quae excuset peccatum. Ex quibus sic arguitur, 
+      Om<lb ed="#L" n="40" break="no"/>nis defectus culpabilis imputatur agenti producenti, &amp; haben 
+      <lb ed="#L" n="41"/>ti super actum dominium &amp; non ignoranti defectum. Si erg. 
+      <lb ed="#L" n="42"/>Deus immediate causet actum huiusmodi adulterij, cum non 
+      <lb ed="#L" n="43"/>agat ex necessitate naturae, sed libere habens plenum dominium 
+      <lb ed="#L" n="44"/>actus, neque ignoret defectum adiunctum, non video quin ips 
+      <lb ed="#L" n="45"/>debeat ad culpam imputari sicut &amp; homini vel magis quam 
+      <lb ed="#L" n="46"/>homini cuius ignorantia potest eum quandoque rotaliter 
+      ex<lb ed="#L" n="47" break="no"/>cusare, vel culpam alleuiare. Item quando duo sunt coniuncta 
+      <lb ed="#L" n="48"/>inseparabiliter quicunque sciens vtrumque, eligit vnum, eligit 
+      <lb ed="#L" n="49"/>&amp; alterum, quia &amp; si illud non eligeret absolute quia malum 
+      <lb ed="#L" n="50"/>ex quo tamen coniunctum est ei quod vult, nec separari potes 
+      <lb ed="#L" n="51"/>ab eo, necesse est quod vtrumque velit, sicut patet in volunta 
+      <lb ed="#L" n="52"/>riis mixtis cum aliquis proiicit merces in mare vt saluetur 
+      <lb ed="#L" n="53"/>quas tamen secundum se non vellet proiicere. Cum igitur Deus 
+      <lb ed="#L" n="54"/>non ignoret defectum coniunctum actui si vult vnum vult &amp; 
+      <lb ed="#L" n="55"/>alterum, non operatur autem nisi sciens &amp; volens &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3985-d1e325">
+               <lb ed="#L" n="56"/>
+               <!--7--> AD PRIMVM argumentum dicendum quod Deus 
+      <lb ed="#L" n="57"/>non est immediate auctor huius vel illius peccati sed mediante 
+      <lb ed="#L" n="58"/>libe. arbi. cui imputatur bona vel mala actio ratione suae 
+      liber<lb ed="#L" n="59" break="no"/>tatis qua se determinat ad hoc vel ad illud, &amp; sic imputatur ei 
+      <lb ed="#L" n="60"/>ad culpam vel meritum &amp; sic praemiatur vel punitur. 
+      </p>
+            <p xml:id="jsnvu6-d1e3985-d1e341">
+               <lb ed="#L" n="61"/>
+               <!--8.--> Ad secundum patet solutio per iam dicta, concessum ess 
+      <lb ed="#L" n="62"/>enim quod concludit. 
+      </p>
+            <p xml:id="jsnvu6-d1e3985-d1e351">
+               <lb ed="#L" n="63"/>
+               <!--9--> AD ARGVMENTVM in oppositum dicendum 
+      <lb ed="#L" n="64"/>quod per actionem peccati nullus effectus in esse producitur. 
+      <lb ed="#L" n="65"/>actio enim peccati vel est interior actus voluntatis per quem 
+      <lb ed="#L" n="66"/>nihil constituitur, vel actus exterior imperatus qui est motus 
+      <lb ed="#L" n="67"/>localis solum per quem nihil acquintur, &amp; ideo per actionem 
+      <lb ed="#L" n="68"/>peccati nullus effectus producitur. Sed verum est quod per 
+      <lb ed="#L" n="69"/>actionem peccati actiua &amp; passiua naturalia 
+      appropinquan<lb ed="#L" n="70" break="no"/>tur sicut per actum adulterij commiscetur semen viri cum 
+      se<lb ed="#L" n="71" break="no"/>mine mulieris quibus appropinquatis sequitur actio naturalis 
+      <lb ed="#L" n="72"/>eorum &amp; effectus, quorum vtrumque Deo attribuitur, non 
+      <lb ed="#L" n="73"/>autem praecedens actio peccati propter rationem iam dictam 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

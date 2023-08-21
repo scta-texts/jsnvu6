@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="214-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e175691"><!-- l3d22prae -->
+            <head xml:id="jsnvu6-e175691-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e175691-d1e103">
+               <lb ed="#L" n="28"/>Sententia huius distinctionis Xxij. in 
+      <lb ed="#L" n="29"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-e175691-d1e110">
+               <lb ed="#L" n="30"/>HIc quaeritur vtrum in illo. Superius Magiste 
+      <lb ed="#L" n="31"/>determinauit de his quae pertinent ad mortem 
+      <lb ed="#L" n="32"/>Christi. Hic determinat de his quae 
+      consequun<lb ed="#L" n="33" break="no"/>tur ad eam. Et diuiditur in quatuor. Primo 
+      quae<lb ed="#L" n="34" break="no"/>ritur vtrum Christus in triduo mortis fuerit 
+      ho<lb ed="#L" n="35" break="no"/>mo. Secundo an in sepulchro fuerit. hic quaeritur si Christus 
+      <lb ed="#L" n="36"/>Tertio quaerit an fuerit ibi totus, ibi fuit itaque. Quarro &amp; si 
+      <lb ed="#L" n="37"/>totus ibi fuit, quaerit an ille homo descendit de coelo. Solet 
+      au<lb ed="#L" n="38" break="no"/>tem quaeri. Haec est diuisio, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e175691-d1e132">
+               <lb ed="#L" n="39"/>
+               <!--2--> In speciali sic procedit, &amp; primo proponit vtrum Christus 
+      <lb ed="#L" n="40"/>in illo triduo mortis suae fuerit homo, &amp; dicit quod quibusdam 
+      <lb ed="#L" n="41"/>videtur quod non. Quorum ratio est, quia Christus in illo 
+      tridu<lb ed="#L" n="42" break="no"/>fuit mortuus, &amp; homo mortuus non est homo, quia aut morta 
+      <lb ed="#L" n="43"/>lis, aut immortalis. Non mortalis, quia iam erat mortuus, nec 
+      <lb ed="#L" n="44"/>immortalis, quia post resurrectionem solum fuit immortalis, 
+      <lb ed="#L" n="45"/>ergo Christus in triduo mortis non fuit homo. Postea 
+      responde<lb ed="#L" n="46" break="no"/>Magister secundum propriam opinionem dicens quod Christus in 
+      <lb ed="#L" n="47"/>illo triduo fuit verus homo, &amp; tamen fuit mortuus. Haec autem 
+      <lb ed="#L" n="48"/>opinio Magistri non tenetur, assignat tamen sui dicti rationem, 
+      sci<lb ed="#L" n="49" break="no"/>licet inseparabilem vnionem. Quia diuinitas vnita carni &amp; anima 
+      <lb ed="#L" n="50"/>remanebat. Ad cuius declarationem subdit quod aliter dicitur 
+      deu<lb ed="#L" n="51" break="no"/>homo, &amp; aliter Petrus vel Martinus, dicitur enim Deus vel 
+      De<lb ed="#L" n="52" break="no"/>filius homo propter susceptionem carnis &amp; animae quae susceptio 
+      <lb ed="#L" n="53"/>&amp; vnio in morte desiit. Petrus autem vel Martinus dicitur homo 
+      <lb ed="#L" n="54"/>propter vnionem carnis &amp; animae. Christus ergo fuit verus homo 
+      <lb ed="#L" n="55"/>vt dicit Magister propter vnionem diuinitatis cum anima &amp; 
+      car<lb ed="#L" n="56" break="no"/>ne, &amp; tamen fuit vere mortuus propter separationem animae a 
+      car<lb ed="#L" n="57" break="no"/>ne. Et respondet ad obiecta. Ad primum sicut dictum est, &amp; ad 
+      se<lb ed="#L" n="58" break="no"/>cundum cum arguebatur. Quod si fuit homo aut mortalis, aui 
+      <lb ed="#L" n="59"/>immortalis, dicit quod huiusmodi argumentationes logieae non 
+      ha<lb ed="#L" n="60" break="no"/>bent locum in materia fidei, quod confirmat per Ambrosium 
+      <lb ed="#L" n="61"/>Postea quaerit vtrum Christus sit homo vbicunque est, &amp; dicit c 
+      <lb ed="#L" n="62"/>secundum diuinitatem vbique est. Secundum autem carnem fuit in 
+      <lb ed="#L" n="63"/>sepulchro, in inferno autem secundum animam, &amp; vtrobique fuit 
+      <lb ed="#L" n="64"/>homo. Postea mouet dubitationem, si enim in inferno tantum 
+      <lb ed="#L" n="65"/>fuit animae, in sepulchro fuit tantum vnitus carni quomodo potes 
+      <lb ed="#L" n="66"/>dici homo, cum homo constet ex anima &amp; corpore. Et responder 
+      <lb ed="#L" n="67"/>quod Christus verus homo non fuisset nisi carnem &amp; animam 
+      <lb ed="#L" n="68"/>assumpsisset, scilicet postquam vtrumque assumpsisset, neutrum 
+      <lb ed="#L" n="69"/>a se separauit, quamuis ista fuerint aliquando ab inuicem sepa 
+      <lb ed="#L" n="70"/>rata, ad quod adducit auctoritates, vnde concludit quod Christus 
+      <lb ed="#L" n="71"/>fuit homo in sepulchro secundum carnem, &amp; in inferno 
+      secun<lb ed="#L" n="72" break="no"/>dum animam. Postea dicit quod Christus eodem tempore totu 
+      <lb ed="#L" n="73"/>&amp; perfectus erat vtrobique totus erat, quia persona Christi cum 
+      <lb ed="#L" n="74"/>esset aeterna non erat major, quando erat vnita carni &amp; animae 
+      <lb ed="#L" n="75"/>simul coniunctim quam cum erat diuisim, &amp; eodem tempore 
+      <lb ed="#L" n="76"/>totus erat in inferno, &amp; totus in sepulchro. Sed non secundum 
+      <lb ed="#L" n="77"/>totum, sicut Christus totus dicitur deus, sed non secundum totum, 
+      <lb ed="#L" n="78"/>quia genus masculinum refertur ad personam, sed neutrum 
+      re<lb ed="#L" n="79" break="no"/>fertur ad naturam. vnde cum in Christo sit natura humana no 
+      <lb ed="#L" n="80"/>possumus dicere Christum secundum totum deum, quia naturi 
+      <!--00501.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>humana non est deus, sed in masculino totus est deus, quia est, 
+      <lb ed="#L" n="82"/>vna persona est deus. Vitimo quaerit vtrum conuenienter dicatur 
+      <lb ed="#L" n="83"/>homo iste vel filius hominis de coelo descendisse vel verum esse, 
+      <lb ed="#L" n="84"/>sicut dicitur filius dei, vel deus descendisse &amp; est verum, &amp; 
+      respon<lb ed="#L" n="85" break="no"/>det quod si respiciamus ad vnitatem personae in qua sunt vnitae 
+      <lb ed="#L" n="86"/>duae naturae, tunc sunt propositiones istae concedendae, si vero re 
+      <lb ed="#L" n="87"/>spiciamus ad naturas distinctas sic non sunt concedendae, quia 
+      <lb ed="#L" n="88"/>nec secundum naturam humanam potest dici descendisse de coelo, 
+      <lb ed="#L" n="89"/>sed propter personam, quod ostendit auctoritate Apostoli. Ex quo 
+      <lb ed="#L" n="90"/>concludit quod propter vnitatem personae dicitur filius hominis 
+      <lb ed="#L" n="91"/>descendisset de coelo, &amp; propter eandem vnitatem dicitur Deus 
+      <lb ed="#L" n="92"/>gloriae crucifixus, licet hoc fuerit secundum naturam humanam. 
+      <lb ed="#L" n="93"/>Addit etiam Magister quod circa praedicta quid, &amp; propter quid, 
+      <lb ed="#L" n="94"/>&amp; secundum quid dicatur, prudens diligens lector attendat, &amp; 
+      <lb ed="#L" n="95"/>epilogat circa determinata. Et in hoc terminatur &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

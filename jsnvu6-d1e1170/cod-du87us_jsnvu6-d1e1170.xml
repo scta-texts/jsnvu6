@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="55-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1170"><!-- l1d19p2prae -->
+            <head xml:id="jsnvu6-d1e1170-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1170-d1e103">
+               <lb ed="#L" n="155"/>Secunda pars distinctionis XIX. 
+      <lb ed="#L" n="156"/>Sententia huius literae in generali &amp; speciali: 
+      <lb ed="#L" n="157"/>&amp; in generali primo.
+    </p>
+            <p xml:id="jsnvu6-d1e1170-d1e112">
+      <!--00176.xml-->
+               <pb ed="#L" n="55-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>SEd iam hunc ad propositum, &amp;c. Superius 
+      ma<lb ed="#L" n="2" break="no"/>gister probauit aequalitatem in magnitudine per 
+      <lb ed="#L" n="3"/>naturae vnitatem. Hic probat eam remouendo 
+      <lb ed="#L" n="4"/>siue excludendo omnem inaequalitatem: &amp; cun 
+      <lb ed="#L" n="5"/>hoc sequitur alia pars in qua probat aequalita 
+      <lb ed="#L" n="6"/>tem in magnitudine per diuinam simplicitatem &amp; vnitatem 
+      <lb ed="#L" n="7"/>&amp; sic sunt duae partes. Prima autem istarum diuiditur in tres 
+      <lb ed="#L" n="8"/>Primo ostendit intentum. Secundo opponit in contrarium 
+      <lb ed="#L" n="9"/>Tertio soluit obiectionem. Secunda ibi, His autem videntu 
+      <lb ed="#L" n="10"/>aduersarij. Tertia ibi, Haec autem quae hic dicuntur. 
+      Prim<lb ed="#L" n="11" break="no"/>istarum diuiditur in quatuor partes secundum quatuor qua 
+      <lb ed="#L" n="12"/>persequitur ad ostendendum suum intentum. Primo enim 
+      <lb ed="#L" n="13"/>probat quod in diuinis non est conuenientia tanquam in 
+      tot<lb ed="#L" n="14" break="no"/>integrali. Secundo non est conuenientia in diuinis tanquam in 
+      <lb ed="#L" n="15"/>toto vniuersali. Tertio quod non est conuenientia tanquam in 
+      <lb ed="#L" n="16"/>materiali aliquo. Quarto quod non est in proprietate formal 
+      <lb ed="#L" n="17"/>aliqua. Secunda ibi, Hic autem adiiciendum est. Tertia ibi, No 
+      <lb ed="#L" n="18"/>tandum etiam. Quarta ibi, His quoque adiiciendum est. Haec 
+      <lb ed="#L" n="19"/>diuisio &amp; sententia lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e1170-d1e162">
+               <lb ed="#L" n="20"/>
+               <!--2--> In speciali vero sic procedit magister. Et ostendit primo? 
+      <lb ed="#L" n="21"/>non est inaequalitas in diuinis per hoc quod sit aliquod totum 
+      in<lb ed="#L" n="22" break="no"/>tegrale in personis, quod ex hoc probat: vbi est summa 
+      natu<lb ed="#L" n="23" break="no"/>rae vnitas, ibi non potest esse totius integralis vel partium 
+      di<lb ed="#L" n="24" break="no"/>uersitas, sed haec est in diuinis personis, ergo &amp;c. Quomodo au 
+      <lb ed="#L" n="25"/>tem pluralitas personarum non ponat compositionem in 
+      di<lb ed="#L" n="26" break="no"/>uinis: ostendit per simile ex hoc quod in vna &amp; eadem persona plu 
+      <lb ed="#L" n="27"/>ralitas attributorum compositionem non ponit. Deinde ponit &amp; 
+      <lb ed="#L" n="28"/>probat quod in diuinis non est natura totius vniuersalis: non enim 
+      <lb ed="#L" n="29"/>dicimus essentiam totum vniuersale esse respectu personarum 
+      <lb ed="#L" n="30"/>quod ostendit duabus rationibus. Prima dicit impossibile: &amp; est ta 
+      <lb ed="#L" n="31"/>lis, multiplicatis illis quorum est genus, multiplicatur &amp; ipsum 
+      <lb ed="#L" n="32"/>genus: ergo si diuina essentia esset genus respectu personarum 
+      <lb ed="#L" n="33"/>multiplicaretur diuina essentia multiplicatis diuinis personis 
+      <lb ed="#L" n="34"/>constat autem quod diuina essentia non multiplicatur multiplica 
+      <lb ed="#L" n="35"/>tis diuinis personis: ergo diuina essentia non est genus, nec per 
+      <lb ed="#L" n="36"/>sonae sunt species, nec indiuidua. Ratio autem ista est beati Ai 
+      <lb ed="#L" n="37"/>gustini dicentis, quod diuina essentia non est genus nec persona 
+      <lb ed="#L" n="38"/>species: nec essentia est species, nec personae indiuidua rationi 
+      <lb ed="#L" n="39"/>praedicta: quia iam multiplicaretur diuina essentia: ergo 
+      diuin<lb ed="#L" n="40" break="no"/>essentia non est species nec genus: nec personae sunt, vt 
+      indi<lb ed="#L" n="41" break="no"/>uidua: manifestum ergo est quod diuina essentia non est vniuersale 
+      <lb ed="#L" n="42"/>ad personas. Alia ratio est ostensiua: &amp; est talis: vna essentia 
+      in<lb ed="#L" n="43" break="no"/>quantum vna non habet species, sed diuina essentia est 
+      simpli<lb ed="#L" n="44" break="no"/>citer vna: ergo non habet species. Et quod non habet specie 
+      <lb ed="#L" n="45"/>non est genus: ergo diuina essentia non est genus. Item non es 
+      <lb ed="#L" n="46"/>species: quia non multiplicatur ad multiplicationem personarum 
+      <lb ed="#L" n="47"/>ergo non est ibi aliquod totum vniuersale. Postea dicit quod tres per 
+      <lb ed="#L" n="48"/>sonae non conueniunt in essentia sicut in parte materiali, ita 
+      <lb ed="#L" n="49"/>diuina essentia sit in materia personarum, sicut lutum vel aes mul 
+      <lb ed="#L" n="50"/>torum vasorum, quia sicut dicit in omnibus quae constituuntur es 
+      <lb ed="#L" n="51"/>vna materia, plus est de materia in pluribus quam in vna: sed no 
+      <lb ed="#L" n="52"/>est plus de essentia diuina in pluribus personis quam in vna: erge 
+      <lb ed="#L" n="53"/>essentia non se habet ad personas vt materia. Deinde ostendi 
+      <lb ed="#L" n="54"/>quod diuinae personae non conueniunt in essentia, sicut in 
+      pro<lb ed="#L" n="55" break="no"/>prietate formali: sicut conueniunt homines in vna 
+      complexio<lb ed="#L" n="56" break="no"/>ne, qui etiam propter hoc dicuntur esse vnius naturae, quod es 
+      <lb ed="#L" n="57"/>hoc ostenditur, quia in his majus aliquid sunt duo quam vnus 
+      <lb ed="#L" n="58"/>quod non est in diuinis personis. Postea obiicit per auctorita 
+      <lb ed="#L" n="59"/>tem Damasceni, qui dicit quod diuina essentia est communis &amp; 
+      <lb ed="#L" n="60"/>vniuersalis: tres vero personae sunt tria particularia. Deinde 
+      <lb ed="#L" n="61"/>respondet ad hoc, &amp; dicit quod verba ista Damasceni non 
+      pro<lb ed="#L" n="62" break="no"/>prie, sed similitudinarie sunt accipienda: sunt ibi tamen aliqua 
+      <lb ed="#L" n="63"/>quae similitudinem tenent respectu communis, &amp; aliqua respecti 
+      <lb ed="#L" n="64"/>particularis. Differentia autem materialis dicitur in diuinis esse 
+      <lb ed="#L" n="65"/>non quod aliquid sit in vna quo nullo modo sit in alia, sed quia 
+      <lb ed="#L" n="66"/>propter distinctionem relationum possunt sibi inuicem conni 
+      <lb ed="#L" n="67"/>merari. Vitimo probat aequalitatem magnitudinis personarum 
+      <lb ed="#L" n="68"/>ex ratione vnitatis: vel ex diuina simplicitate sic: vbicunque 
+      <lb ed="#L" n="69"/>idem est vnitas &amp; magnitudo non est major magnitudo vbi non 
+      <lb ed="#L" n="70"/>est maior vnitas, sed in Deo est idem magnitudo &amp; vnitas 
+      secun<lb ed="#L" n="71" break="no"/>dum rem: ideo si in Deo non est major vnitas, ibi non est maior 
+      <lb ed="#L" n="72"/>magnitudo: sed non est maior vnitas in tribus personis quam in 
+      <lb ed="#L" n="73"/>vna: ergo non est major magnitudo trium quam vnius tantum, 
+      <lb ed="#L" n="74"/>&amp; ita sunt in magnitudine aequales. Concludit etiam ex dictis 
+      <lb ed="#L" n="75"/>quod quamuis Deus dicatur trinus, non tamen est dicendus triplex 
+      <lb ed="#L" n="76"/>muia triplicitas inaequalitatem poneret. In illis enim rebus 
+      in<lb ed="#L" n="77" break="no"/>uenitur triplicitas vbi tria excedunt vnum in magnitudine, quod 
+      <lb ed="#L" n="78"/>tamen non est in diuinis personis: ergo non est ibi triplicitas, &amp;c 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

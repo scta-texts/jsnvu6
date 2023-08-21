@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="46-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e965"><!-- l1d16q4 -->
+            <head xml:id="jsnvu6-d1e965-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e965-Hd1e103" type="question-title">Utrum Pater sit maior Filio</head>
+            <p xml:id="jsnvu6-d1e965-d1e106">
+               <lb ed="#L" n="120"/>QVAESTIO, QVARTA. 
+      <lb ed="#L" n="121"/>vtrum pater sit maior filio. 
+    </p>
+            <p xml:id="jsnvu6-d1e965-d1e113">
+               <lb ed="#L" n="122"/>QVARTO quaeritur vtrum pater sit maior 
+      fi<lb ed="#L" n="123" break="no"/>lio. Et videtur quod sic per dictum Hilarij in 
+      li<lb ed="#L" n="124" break="no"/>tera, qui dicit expresse quod pater est maior 
+      fi<lb ed="#L" n="125" break="no"/>lio, licet filius non sit minor patre. 
+    </p>
+            <p xml:id="jsnvu6-d1e965-d1e124">
+               <lb ed="#L" n="126"/>
+               <!--2--> IN CONTRARIVM est quod dici 
+      <lb ed="#L" n="127"/>Athanasius in symbolo quod in hac Trini. nihil majus aut minus
+    </p>
+            <p xml:id="jsnvu6-d1e965-d1e134">
+               <lb ed="#L" n="128"/>
+               <!--3--> RESPONSIO, in hac quaestione nulla esset dubitatio 
+      <lb ed="#L" n="129"/>nisi propter verba Hilarij quae sunt inducta in arguendo. 
+      Cer<lb ed="#L" n="130" break="no"/>tum est enim quod proprie loquendo pater non est maior filio, quod 
+      <lb ed="#L" n="131"/>patet quia secundum August. &amp; veritatem in his duntaxat bonis qua 
+      <lb ed="#L" n="132"/>non sunt magna mole idem est majus esse quod melius esse, sed 
+      <lb ed="#L" n="133"/>esset vera res extra imaginationem quam astantes possent vi¬, in diuinis, non est magnitudo molis, ergo ibi majus esse est 
+      me<lb ed="#L" n="134" break="no"/>lius esse, sed in diuinis nihil est altero melius cum omnino sit 
+      ib<lb ed="#L" n="135" break="no"/>vna summa &amp; infinita bonitas, ergo nihil est ibi majus altero
+    </p>
+            <p xml:id="jsnvu6-d1e965-d1e156">
+               <lb ed="#L" n="136"/>
+               <!--4--> Restat ergo solum exponere verba Hilarij propter quori 
+      <lb ed="#L" n="137"/>expositionem dicendum est, quod proprie accipiendo 
+      maiori<lb ed="#L" n="138" break="no"/>tatem pater non est major filio vt iam probatum est, &amp; 
+      adhu<lb ed="#L" n="139" break="no"/>patet ex alio; quia majus &amp; minus sunt species vel differentia 
+      <lb ed="#L" n="140"/>inaequalitatis, sed inter patrem &amp; filium est summa aequalita 
+      <lb ed="#L" n="141"/>secundum Athanasium in symbolo, ergo inter patrem &amp; filii 
+      <lb ed="#L" n="142"/>non est majus &amp; minus proprie loquendo, accipiendo autem 
+      <lb ed="#L" n="143"/>large &amp; improprie majus per autoritatem originis, sic pate 
+      <lb ed="#L" n="144"/>dicitur (licet improprie) maior filio, quia a patre est filius lice 
+      <lb ed="#L" n="145"/>non econuerso, &amp; eodem modo sane intelligendo filius posset. 
+      <lb ed="#L" n="146"/>dici minor patre, quia caret autoritatem originis in patre qui 
+      <lb ed="#L" n="147"/>tamen pater habet in filium, hoc autem pro tanto 
+      impropri<lb ed="#L" n="148" break="no"/>dictum est, quia quaestio de inaequalitate maioris ad minus 
+      <lb ed="#L" n="149"/>nullo modo proprie potest esse quaestio originis quis a quo fit, 
+      <lb ed="#L" n="150"/>sed est quaestio quantitatis molis vel virtutis. Ad argumenta 
+      <lb ed="#L" n="151"/>vtriusque partis patet solutio ex iam dictis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

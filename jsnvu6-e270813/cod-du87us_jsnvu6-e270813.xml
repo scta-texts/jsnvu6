@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="328-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e270813"><!-- l4d36prae -->
+            <head xml:id="jsnvu6-e270813-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e270813-d1e103">
+      <!--00730.xml-->
+               <pb ed="#L" n="328-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ntentia huius distinctionis XXXvj. 
+      <lb ed="#L" n="2"/>in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e270813-d1e116">
+               <lb ed="#L" n="3"/>NVnc de conditione videamus. Superius 
+      deter<lb ed="#L" n="4" break="no"/>minauit magister de impedimentis 
+      anteceden<lb ed="#L" n="5" break="no"/>tibus matrimonium contrahendum, &amp; etiam 
+      su<lb ed="#L" n="6" break="no"/>peruenientibus post contractum: hic vero 
+      de<lb ed="#L" n="7" break="no"/>terminat de incipientibus in ipso contractu, 
+      si<lb ed="#L" n="8" break="no"/>cut est error conditionis. Et diuiditur in tres. Primo 
+      determi<lb ed="#L" n="9" break="no"/>nat de impedimento seruilis conditionis. Secundo de impedi 
+      <lb ed="#L" n="10"/>mento ex defectu aetatis, quia talis non differta seruo 
+      quan<lb ed="#L" n="11" break="no"/>diu est sub custodibus. Tertio recapitulat continuans se ad prae 
+      <lb ed="#L" n="12"/>cedentia. Secunda ibi, Hoc etiam sciendum quod pueri. Tertia 
+      <lb ed="#L" n="13"/>ibi, Illa duo executi sumus. Prima in tres, Prin o determinat 
+      <lb ed="#L" n="14"/>de seruitute matrimonium praecedente, quae est ex altera 
+      par<lb ed="#L" n="15" break="no"/>te contrahentium matrimonium. Secundo de illa quae est ex 
+      <lb ed="#L" n="16"/>parte vtraque contrahentium. Tertio de seruitute quae 
+      matri<lb ed="#L" n="17" break="no"/>monio superinducitur. Secunda ibi, Quaeritur etiam si seruus 
+      <lb ed="#L" n="18"/>Tertia ibi, Illud etiam notandum est. 
+      </p>
+            <p xml:id="jsnvu6-e270813-d1e153">
+               <lb ed="#L" n="19"/>
+               <!--2--> IN SPECIALI sic procedit. Et primo quaerit vtrum 
+      <lb ed="#L" n="20"/>seruitus coniugium dirimere possit. Et respondet quod liber po 
+      <lb ed="#L" n="21"/>test accipere seruam mulierem, &amp; libera mulier seruum virum, 
+      <lb ed="#L" n="22"/>&amp; est verum matrimonium, si liber cognoscat conditionem 
+      <lb ed="#L" n="23"/>serui: si autem ignoret eam detecta seruitute potest (si vult) 
+      ma<lb ed="#L" n="24" break="no"/>nere cum seruo vel serua. Sed si non vult, dirimendum est 
+      ma<lb ed="#L" n="25" break="no"/>trimonium, quod auctoritatibus probat. Postea quaerit si 
+      am<lb ed="#L" n="26" break="no"/>bo (scilicet vir &amp; mulier) fuerint seruilis conditionis, vtrum 
+      <lb ed="#L" n="27"/>possit inter eos fieri coniugium. Et respondet ex auctoritate 
+      <lb ed="#L" n="28"/>cuiusdam concilij qud sic, dummodo fiat coniunctio ex volun 
+      <lb ed="#L" n="29"/>tate dominorum: quamuls dicant alij quod dominis ignorantibus 
+      <lb ed="#L" n="30"/>potest inter eos fieri coniugium. Postea dicit quod si mulier 
+      acce<lb ed="#L" n="31" break="no"/>pit virum liberum, &amp; ille postmodum fecerit se seruum 
+      alicu<lb ed="#L" n="32" break="no"/>ius occasione diuortij, vir ille non potest vxoram dimittere, 
+      <lb ed="#L" n="33"/>nec illa obvinculum matrimonij potest in seruitutem redigi 
+      <lb ed="#L" n="34"/>quum ille non ex consensu coniugis seruum se fecerit, quod 
+      <lb ed="#L" n="35"/>auctoritate cuiusdam concilij probat. Postea dicit quod secundum 
+      <lb ed="#L" n="36"/>legem pueri ante 14. annos, &amp; puellae ante 12. non possunt 
+      ma<lb ed="#L" n="37" break="no"/>trimonium iure contrahere, quod si fecerint ante praedicta 
+      <lb ed="#L" n="38"/>tempora, separari poterunt: qui autem in pueritia copulantur, 
+      <lb ed="#L" n="39"/>&amp; post annos pubertatis volunt se dimittere, possunt, sed si in 
+      <lb ed="#L" n="40"/>coniunctione permanere volunt, ex hoc efficiunt coniuges, &amp; 
+      <lb ed="#L" n="41"/>deinceps nequeunt separari. Addit autem quod sponsalia ante 
+      <lb ed="#L" n="42"/>septem annos contrahi non possunt, oportet enim qued ab 
+      vtra<lb ed="#L" n="43" break="no"/>que parte intelligatur quod inter eos agitur. Vitimo dicit esse 
+      <lb ed="#L" n="44"/>determinatum de duobus impedimentis quibus solui potest 
+      <lb ed="#L" n="45"/>matrimonium, sed non necesse est solui quibusdam aliis 
+      addi<lb ed="#L" n="46" break="no"/>tis. Restat autem de illis impedimentis quae faciunt personas 
+      <lb ed="#L" n="47"/>penitus illegitimas vlterius exequi, &amp; primo de ordine.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

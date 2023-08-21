@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="98-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2083"><!-- l1d43q4 -->
+            <head xml:id="jsnvu6-d1e2083-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e2083-Hd1e103" type="question-title">Utrum Deus agat ex necessitate naturae</head>
+            <p xml:id="jsnvu6-d1e2083-d1e106">
+               <lb ed="#L" n="46"/>QVARSTIO, QVARTA. 
+      <lb ed="#L" n="47"/>Vtrum Deus agat ex necessitate naturae. 
+      <lb ed="#L" n="48"/>Thom. 1.q. 19. artic. 3. 
+    </p>
+            <p xml:id="jsnvu6-d1e2083-d1e115">
+               <lb ed="#L" n="49"/>CONSEQVENTER quaeritur de modo 
+      acti<lb ed="#L" n="50" break="no"/>nis diuinae. Et primo, vtrum deus agat ex 
+      neces<lb ed="#L" n="51" break="no"/>sitate naturae. Et videtur quod sic, quia illud quod 
+      <lb ed="#L" n="52"/>m agendo sic est determinatum quod non potest 
+      <lb ed="#L" n="53"/>non agere, videtur agere ex necessitate naturae 
+      <lb ed="#L" n="54"/>quia potestates rationales sunt ad opposita, naturales vero non 
+      <lb ed="#L" n="55"/>sed Deus est sic determinatus ad agendum quod agit, quod non 
+      <lb ed="#L" n="56"/>potest illud non agere, ergo &amp;c. Maior patet, sed minor 
+      pro<lb ed="#L" n="57" break="no"/>batur, quia deus producit res per voluntatem, sed Deus 
+      di<lb ed="#L" n="58" break="no"/>necessitate vult quicquid vult, nec potest non velle, quare &amp;c 
+      <lb ed="#L" n="59"/>Minor huius prosyllogismi adhuc probatur, quia si illa quae 
+      <lb ed="#L" n="60"/>Deus vult non vellet de necessitate, sed posset ea non velle, 
+      se<lb ed="#L" n="61" break="no"/>queretur quod voluntas eius posset esse indifferens ad velle &amp; 
+      <lb ed="#L" n="62"/>nolle. Hoc autem est inconueniens, quia tunc oporteret quod 
+      <lb ed="#L" n="63"/>determinaretur ab alio, &amp; etiam quod actus eius differret 
+      rea<lb ed="#L" n="64" break="no"/>liter ab ipsa, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2083-d1e152">
+               <lb ed="#L" n="65"/>
+               <!--2--> Item Dionysi. 2. cap. de diui. nomi. assimilat diuinam 
+      actio<lb ed="#L" n="66" break="no"/>nem illuminationi dicens, quod sicut sol non ratiocinans neque 
+      <lb ed="#L" n="67"/>eligens radios suos diffundit, sic diuina voluntas se diffundit in 
+      <lb ed="#L" n="68"/>omnia entia, sed agere sine ratiocinatione &amp; electione est age 
+      <lb ed="#L" n="69"/>re ex necessitate naturae, ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e2083-d1e169">
+               <lb ed="#L" n="70"/>SED CONTRA. Illud quod agit ex necessitate na 
+      <lb ed="#L" n="71"/>turae statim cum est producit effectum suum, nisi sua virtus sit 
+      <lb ed="#L" n="72"/>impersecta, vel sua actio successiua, sed virtus diuina est ab 
+      <lb ed="#L" n="73"/>aeterno perfecta. Actio autem qua producit res est subita, &amp; non 
+      <lb ed="#L" n="74"/>successiua, ergo si Deus ageret ex necessitate naturae, ab 
+      aeter<lb ed="#L" n="75" break="no"/>no produxisset res, quod falsum est. 
+    </p>
+            <p xml:id="jsnvu6-d1e2083-d1e185">
+               <lb ed="#L" n="76"/>RESPONSIO. Deum agere ex necessitate naturae po 
+      <lb ed="#L" n="77"/>test dupliciter intelligi secundum duo in quibus differt agens 
+      na<lb ed="#L" n="78" break="no"/>turale ab agente per artem seu a proposito, vnum est quod agen 
+      <lb ed="#L" n="79"/>per artem praecognoscit quod agit, naturalem vero non. Aliud 
+      <!--00261.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>est quod agens per naturam quantum est de se non potesi non age 
+      <lb ed="#L" n="81"/>re, agens vero per artem, siue a proposito agit libere, &amp; pores 
+      <lb ed="#L" n="82"/>non agere. Si ergo intelligatur quaestio quo ad primum modum 
+      <lb ed="#L" n="83"/>scilicet an Deus producat res ex necessitate naturae, sic quod 
+      na<lb ed="#L" n="84" break="no"/>tura eius sit principium producendi res secundum se non vt 
+      prae<lb ed="#L" n="85" break="no"/>cognoscens eas, sic dicendum est quod non, imo quicquid 
+      produ<lb ed="#L" n="86" break="no"/>cit praecognoscit, &amp; eius praecognitio per se praeexigitur ad pro 
+      <lb ed="#L" n="87"/>ductionem creaturarum. Et quia illud fuit sufficienter probatum 
+      <lb ed="#L" n="88"/>prius dist. 35. Ideo ad praesens nihil plus dicetur de hoc. 
+      </p>
+            <p xml:id="jsnvu6-d1e2083-d1e220">
+               <lb ed="#L" n="89"/>
+               <!--5--> Si autem quaestio intelligatur quo ad secundum modum, 
+      <lb ed="#L" n="90"/>scilicet, vtrum deus producat res ex necessitate naturae non 
+      quid<lb ed="#L" n="91" break="no"/>absque praecognitione &amp; volitione, sed quia vult ex necessitate 
+      <lb ed="#L" n="92"/>eas producere, nec potest non velle producere. Hoc modo 
+      po<lb ed="#L" n="93" break="no"/>suerunt aliqui Philosophi Deum producere res ex necessitate 
+      <lb ed="#L" n="94"/>naturae, quia quicquid vult, vult de necessitate absoluta, non 
+      <lb ed="#L" n="95"/>solum bonitatem suam, sed alia propter ipsam. 
+      </p>
+            <p xml:id="jsnvu6-d1e2083-d1e240">
+               <lb ed="#L" n="96"/>
+               <!--6.--> Istud autem non videtur verum, nec est fidei consonum, 
+      qui<lb ed="#L" n="97" break="no"/>si Deus vult de necessitate alia a se; aut vult ea tanquam finem 
+      <lb ed="#L" n="98"/>aut propter alium finem, non potest dici quod velit ea tanquam 
+      fi<lb ed="#L" n="99" break="no"/>nem, quia sicut Dei potentia est primum principium omnium 
+      <lb ed="#L" n="100"/>entiuui, sic diuina bonitas est omnium finis, vt patebit lib. 2 
+      <lb ed="#L" n="101"/>Item nec vult ea de necessitate propter bonitatem suam, 
+      cuiu<lb ed="#L" n="102" break="no"/>ratio est, quia volentem aliquem finem non est necesse velle illa 
+      <lb ed="#L" n="103"/>sine quibus ille finis potest haberi, &amp; habitus conseruari, sed 
+      si<lb ed="#L" n="104" break="no"/>ne rebus causatis diuina bonitas perfectissime, &amp; plenissimi 
+      <lb ed="#L" n="105"/>habetur, &amp; habita conseruatur, creaturae enim solum sunt 
+      <lb ed="#L" n="106"/>manifestatiuae condecentiae bonitatis diuinae: ergo Deum 
+      vo<lb ed="#L" n="107" break="no"/>lentem bonitatem suam non est necesse velle alia propter ipsam, 
+      <lb ed="#L" n="108"/>sed libere vult, &amp; potest ea non velle. 
+      </p>
+            <p xml:id="jsnvu6-d1e2083-d1e273">
+               <lb ed="#L" n="109"/>
+               <!--7--> Ad primum argumentum dicendum per interemptionem 
+      <lb ed="#L" n="110"/>minoris, tam syllogismi principalis, quam prosyllogismi, quia 
+      <lb ed="#L" n="111"/>Deus potest non facere &amp; non velle quod vult, ita quod voluntas 
+      <lb ed="#L" n="112"/>sua est indifferens ad velle &amp; nolle quodcunque aliud a se, nisi qu 
+      <lb ed="#L" n="113"/>distinguendum est de indifferentia, quia aliquid potest esse 
+      in<lb ed="#L" n="114" break="no"/>differens ad aliqua dupliciter. Vno modo sic, quod non est in 
+      <lb ed="#L" n="115"/>actu alicuius eorum, sed est mere in potentia contingenter ac 
+      <lb ed="#L" n="116"/>vtrunque, vt sortes stans est mere in potentia ad sedendum vel 
+      <lb ed="#L" n="117"/>currendum. Alio modo aliquid est indifferens ad plura sic, 
+      <lb ed="#L" n="118"/>est sub vno eorum, sed quia sibi secundum se &amp; absolute 
+      consi<lb ed="#L" n="119" break="no"/>derato non repugnat oppositum, ideo dicitur secundum se 
+      in<lb ed="#L" n="120" break="no"/>differens ad vtrunque, &amp; istud potest esse dupliciter. Vno modo 
+      <lb ed="#L" n="121"/>sicut subiectum ad actus oppositos realiter ab ipso differentes, 
+      <lb ed="#L" n="122"/>sicut sortes est indifferens de se ad sedere vel currere, dato 
+      <lb ed="#L" n="123"/>actu sit sub altero eorum, &amp; hoc modo voluntas diuina non est 
+      <lb ed="#L" n="124"/>indifferens ad velle &amp; nolle cum ipsa sit realiter suus* actus. 
+      <lb ed="#L" n="125"/>Alio modo est aliquid indifferens ad plura non per modum sub.) 
+      <lb ed="#L" n="126"/>iecti ad actus sibi inhaerentes, sed per modum potentiae 
+      respe<lb ed="#L" n="127" break="no"/>ctu obiectorum in quae potest per actum suum tendere vel non 
+      <lb ed="#L" n="128"/>tendere quantum est de se, licet actu tendat in vnum eorum 
+      <lb ed="#L" n="129"/>determinate, &amp; hoc modo voluntas diuina, &amp; suum velle quod 
+      <lb ed="#L" n="130"/>est idem cum ea, est indifferens ad omnia volita creata. Et quod 
+      <lb ed="#L" n="131"/>dicitur contra hoc, quia illud quod est indifferens ad plura, 
+      in<lb ed="#L" n="132" break="no"/>diget determinari per aliud, &amp; si est indifferens ad plures actus 
+      <lb ed="#L" n="133"/>differt realiter ab vtroque. Dicendum quod illud quod est indifferens 
+      <lb ed="#L" n="134"/>ad plura quorum neutrum habet, indiget determinari ad 
+      alte<lb ed="#L" n="135" break="no"/>rum, sed si habeat alterum ipsorum actu si tamen indifferens sit 
+      <lb ed="#L" n="136"/>per modum subiecti ad actus differentes a subiecto, licet tale 
+      <lb ed="#L" n="137"/>non indigeat determinari, quia iam alterum habet determinate, 
+      <lb ed="#L" n="138"/>tamen tale habet causam inhaerentiae illius actus differentis. Si 
+      <lb ed="#L" n="139"/>vero indifferens sit ad plura quorum vnum actu habetur, sed 
+      <lb ed="#L" n="140"/>non repugnat ei secundum se &amp; absolute oppositum, nec est 
+      in<lb ed="#L" n="141" break="no"/>differentia per modum subiecti ad actus inhaerentes, sed pe 
+      <lb ed="#L" n="142"/>modum potentiae, vel actus ad diuersa obiecta, tale non indige 
+      <lb ed="#L" n="143"/>determinari, quia iam determinatum est, nec habet causam 
+      ali<lb ed="#L" n="144" break="no"/>cuius sibi inhaerentis, quia nihil sibi inhaeret, &amp; talis est 
+      indiffe<lb ed="#L" n="145" break="no"/>rentia voluntatis diuinae ad diuersa volita, quia ab aeterno vult 
+      <lb ed="#L" n="146"/>vnum determinate, &amp; libere, propter quod oppositum non 
+      re<lb ed="#L" n="147" break="no"/>pugnat, nec est indifferentia voluntatis ad actus differentes sib 
+      <lb ed="#L" n="148"/>inhaerentes, vt subiecto: sed est indifferentia potentiae &amp; actus 
+      <lb ed="#L" n="149"/>indifferentis ab ea ad diuersa obiecta, &amp; ideo non indiget 
+      deter<lb ed="#L" n="150" break="no"/>minari ab alio, nec habet causam alicuius sibi inhaerentis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2083-d1e369">
+               <lb ed="#L" n="151"/>
+               <!--8--> Ad secundum dicendum, quod non est intentio Dionysij 
+      assi<lb ed="#L" n="152" break="no"/>milare diuinam actionem illuminationi quantum ad necessitatem 
+      <lb ed="#L" n="153"/>sed quantum ad vniuersalitatem: vnde ly sic non reduplicat illud 
+      <lb ed="#L" n="154"/>quod dixerat, non ratiocinans, neque eligens, sed assimilat in hoc 
+      <lb ed="#L" n="155"/>quod bonitas Dei diffundit seipsam, quia ipsa tendit in omnia 
+      <lb ed="#L" n="156"/>sicut lux solis in omnia sensibilia sibi supposita, ideo non valet 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

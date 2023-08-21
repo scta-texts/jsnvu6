@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="291-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e240451"><!-- l4d17prae -->
+            <head xml:id="jsnvu6-e240451-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e240451-d1e103">
+               <lb ed="#L" n="151"/>Sententia huius distinctionis XVII. 
+      <lb ed="#L" n="152"/>in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e240451-d1e110">
+               <lb ed="#L" n="153"/>Tc oritur quaestio multiplex. Superius 
+      determina<lb ed="#L" n="154" break="no"/>(uit magister de partibus poenitentiae. Hic circa 
+      de<lb ed="#L" n="155" break="no"/>terminata mouet quasdam quaestiones 
+      inciden<lb ed="#L" n="156" break="no"/>tes. Et diuiditur in duas: quia primo mouet illas 
+      <lb ed="#L" n="157"/>qi quae stiones. Et secundo prosequitur de eis ibi 
+      <lb ed="#L" n="158"/>ut eium quidam sine confessione. Et haec secunda 
+      diuidi<lb ed="#L" n="159" break="no"/>tur in tres partes secundum tres opiniones quas prosequitur. 
+      <lb ed="#L" n="160"/>Secunda ibi, Iam secundum quaestionis articulum. Tertia ibi, 
+      <!--00657.xml-->
+      <pb ed="#L" n="292-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Nunc priusquam praemifsis. Prima in tres. Quia primo tangit 
+      <lb ed="#L" n="2"/>circa primam quaestionem vnam opinionem. Et secundo aliam. 
+      <lb ed="#L" n="3"/>Et tertio determinat quaestionem. Secunda ibi, Quod qui 
+      ne<lb ed="#L" n="4" break="no"/>gint. Tertia ibi, quid igitur super his. Pars illa in qua 
+      prosequi<lb ed="#L" n="5" break="no"/>tur diuiditur in duas. Quia primo obiicit contra veritatem. E 
+      <lb ed="#L" n="6"/>secundo pro ipsa. Prima ibi, Iam secundum quaestionis 
+      articu<lb ed="#L" n="7" break="no"/>lum. Secunda ibi, Sed quod sacerdotibus confiteri oporteat. 
+      <lb ed="#L" n="8"/>Illa pars in qua prosequimur tertiam opinionem diuiditur in 
+      <lb ed="#L" n="9"/>duas. Quia primo illam quaestionem determinat. Secundo ad 
+      <lb ed="#L" n="10"/>obiectiones secundae quaestionis contra veritatem factas re 
+      <lb ed="#L" n="11"/>spondet. Prima ibi, nunc priusquam praemissis. Secunda ibi 
+      <lb ed="#L" n="12"/>cum igitur ex his aliisque pluribus. Haec est sententia &amp; diuisio 
+      <lb ed="#L" n="13"/>lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-e240451-d1e165">
+               <lb ed="#L" n="14"/>
+               <!--2--> IN SPECIALI vero sic procedit, &amp; proponit 
+      tre<lb ed="#L" n="15" break="no"/>quaestiones. Prima est vtrum ad remissionem peccati sufficiat 
+      <lb ed="#L" n="16"/>sola cordis contritio sine confessione &amp; satisfactione. Secunda 
+      <lb ed="#L" n="17"/>est, vtrum sufficiat confiteri soli Deo, an oporteat hominem con 
+      <lb ed="#L" n="18"/>fiteri homini. Tertia vtrum sufficiat confiteri laico, an oporteat 
+      <lb ed="#L" n="19"/>confiteri sacerdoti. Circa primam quaestionem tangit tres 
+      opinio<lb ed="#L" n="20" break="no"/>nes: quidam enim dixerunt contritionem sine confessione &amp; 
+      sa<lb ed="#L" n="21" break="no"/>tisfactione sufficere ad salutem, &amp; adducunt plures auctoritates 
+      <lb ed="#L" n="22"/>quae ponuntur in litera, per quas ostendunt quod solum 
+      proposi<lb ed="#L" n="23" break="no"/>tum confitendi, &amp; interior cordis gemitus sufficit ad 
+      deletio<lb ed="#L" n="24" break="no"/>nem peccati: vnde &amp; leprosi mundati sunt antequam se 
+      ostende<lb ed="#L" n="25" break="no"/>rent sacerdotibus. Et Lazarus prius suscitatus est in monumen 
+      <lb ed="#L" n="26"/>to quam foras prodierit. Alij vero dicunt necessariam esse confes 
+      <lb ed="#L" n="27"/>sionem, nec sine ea peccatum dimitti si tempus adsit confitendi: 
+      <lb ed="#L" n="28"/>qui dictas auctoritates soluunt, &amp; alias pro se inducunt, quae 
+      vi<lb ed="#L" n="29" break="no"/>dentur dicere quod sola confessio iustificat, &amp; a morte liberat 
+      ho<lb ed="#L" n="30" break="no"/>minem, &amp; facit a peccati profundo non absorberi. Et addit 9 
+      <lb ed="#L" n="31"/>si sine confessione &amp; peccati contritione, &amp; poenae solutione 
+      <lb ed="#L" n="32"/>delerentur peccata, claues ecclesiae frustra essent: inducunt etiam 
+      <lb ed="#L" n="33"/>quasdam auctoritates, quod sine poenae alicuius solutione non fiat 
+      <lb ed="#L" n="34"/>remissio peccatorum. Postea determinat hanc quaestionem 
+      di<lb ed="#L" n="35" break="no"/>cens, quod sine exteriore confessione &amp; satisfactione per solam 
+      <lb ed="#L" n="36"/>contritionem cordis dimittitur peccatu, dum tamen adsit pro 
+      <lb ed="#L" n="37"/>positum confitendi &amp; satisfaciendi: contritio enim est quaedam 
+      <lb ed="#L" n="38"/>confessio cordis. Auctoritates autem supradictae quae dicunt 
+      <lb ed="#L" n="39"/>sine confessione &amp; satisfactione remitti peccata referendae sunt 
+      <lb ed="#L" n="40"/>ad confessionem cordis, &amp; ad interiorem poenitentiam cordis. 
+      <lb ed="#L" n="41"/>In hoc ergo concluditur tota determinatio magistri, quod 
+      an<lb ed="#L" n="42" break="no"/>tequam sit confessio in ore, si votum confessionis &amp; satisfactio 
+      <lb ed="#L" n="43"/>nis fit in corde dimittitur peccatum. Postea tractat secundam 
+      <lb ed="#L" n="44"/>quaestionem, vtrum sit necessarium confiteri homini, an sufficiat 
+      <lb ed="#L" n="45"/>confiteri soli Deo, &amp; adducit multas auctoritates tam de sacra 
+      <lb ed="#L" n="46"/>scriptura quam ex dictis sanctorum Amb. Max. episcopi, Ioan 
+      <lb ed="#L" n="47"/>Chrys. Prosperi, quod sufficit confiteri soli Deo. Postea arguit 
+      <lb ed="#L" n="48"/>in oppositum auctoritate beati laco. in canonica sua, 
+      Confite<lb ed="#L" n="49" break="no"/>mini alterutrum peccata vestra, &amp;c. Item per Augustinum &amp; 
+      <lb ed="#L" n="50"/>auctoritatem Leonis papae, quae patent in litera. Deinde 
+      ante<lb ed="#L" n="51" break="no"/>quam respondeat ad istam quaestionem prosequitur tertiam, 
+      <lb ed="#L" n="52"/>videlicet an sufficiat confiteri socio, an requiratur quod 
+      confes<lb ed="#L" n="53" break="no"/>sio fiat sacerdoti: &amp; dicit quod debet fieri sacerdoti qui habet 
+      <lb ed="#L" n="54"/>potestatem ligandi &amp; soluendi. Si tamen desit sacerdos, potest 
+      <lb ed="#L" n="55"/>fieri clerico, vel laico, &amp; quum adest sacerdos debet sumi 
+      ido<lb ed="#L" n="56" break="no"/>neus &amp; discretus. Postea redit ad respondendum 
+      auctoritati<lb ed="#L" n="57" break="no"/>bus illis quae videntur sonare quod sufficeret confiteri Deo. Et 
+      <lb ed="#L" n="58"/>respondet primo ad auctoritatem Chrysostomi, qui dicit: Non 
+      <lb ed="#L" n="59"/>dico vt te prodas in publicum, neque apud alios te accuscs. &amp; 
+      <lb ed="#L" n="60"/>dicit quod non licet soli Deo confiteri si habeat sacerdotis 
+      co<lb ed="#L" n="61" break="no"/>piam: sed intelligitur vbi crimen occultum est sufficit soli Dec 
+      <lb ed="#L" n="62"/>dicere per sacerdotem, nec oportet publicare multis. Ad illud 
+      <lb ed="#L" n="63"/>autem quod dicit Ambrosius, quod lachrymae lauant delictum, ( 
+      <lb ed="#L" n="64"/>pudor est ore confiteri, dicit quod referendum est ad publicam 
+      <lb ed="#L" n="65"/>poenitentiam, sine qua potest esse salus, dum tamen homo 
+      ver<lb ed="#L" n="66" break="no"/>poeniteat, &amp; confireatur secrete sacerdoti. Per idem responde 
+      <lb ed="#L" n="67"/>ad auctoritatem Prosperi, addit etiam quod erubescentia qui 
+      <lb ed="#L" n="68"/>est dum homo homini confitetur, est pars poenitentiae. Et in 
+      <lb ed="#L" n="69"/>hoc terminatur sententia lectionis in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

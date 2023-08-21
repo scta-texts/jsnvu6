@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="57-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1213"><!-- l1d20prae -->
+            <head xml:id="jsnvu6-d1e1213-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1213-d1e103">
+               <lb ed="#L" n="67"/>DISTINCTIO XX. 
+      <lb ed="#L" n="68"/>Sententia huius literae in generali 
+      <lb ed="#L" n="69"/>&amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e1213-d1e112">
+               <lb ed="#L" n="70"/>IN e ostendere restat. Superius probauit ma 
+      <lb ed="#L" n="71"/>gister aequalitatem personarum in magnitudinie 
+      <lb ed="#L" n="72"/>&amp; aeternitate. Hic probat aequalitatem earum 
+      <lb ed="#L" n="73"/>in potestate earum. Et diuiditur in duas partes. 
+      <lb ed="#L" n="74"/>Primo proponit intentum. Secundo probat 
+      in<lb ed="#L" n="75" break="no"/>tendum. Secunda ibi, Nihil inquit patre minus. Secunda 
+      di<lb ed="#L" n="76" break="no"/>uiditur in duas. Primo probat intentum per auctoritatem 
+      <lb ed="#L" n="77"/>Secundo per rationes. Secunda ibi, Item alio modo. Prima 
+      <lb ed="#L" n="78"/>istarum diuiditur in duas. Primo proponit probationem 
+      Au<lb ed="#L" n="79" break="no"/>gustini. Secundo excludit duas rationes erroneas. Secunda ibi 
+      <lb ed="#L" n="80"/>Sed inquit pater a nemine. Illa pars in qua probat intentum per 
+      <!--00179.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>rationes diuiditur in tres partes. Primo ponit rationem. Secundo 
+      <lb ed="#L" n="82"/>confirmat per simile. Tertio excludit quandam haereticam 
+      respon<lb ed="#L" n="83" break="no"/>sionem. Secunda ibi, Haec autem per similitudinem. Tertia ibi 
+      <lb ed="#L" n="84"/>Sed forte dices. Haec est sententia lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e1213-d1e151">
+               <lb ed="#L" n="85"/>
+               <!--8--> In speciali vero sic procedit magister, &amp; primo proponit 
+      <lb ed="#L" n="86"/>personas esse aequales in potentia extensiue, quia quaecunqui 
+      <lb ed="#L" n="87"/>potest vna persona possunt &amp; aliae, &amp; a qua virtute potest vna 
+      <lb ed="#L" n="88"/>persona possunt &amp; aliae, eadem virtute. Postea probat hoc per 
+      <lb ed="#L" n="89"/>auctoritatem, &amp; est probatio talis. Si filius habet in potestate 
+      <lb ed="#L" n="90"/>minus quam pater, filius non habet omnia quae habet pater 
+      <lb ed="#L" n="91"/>sed quaecunque habet pater habet filius, ergo non habet 
+      mi<lb ed="#L" n="92" break="no"/>nus in potestate quam pater. Postea excludit vnam 
+      respon<lb ed="#L" n="93" break="no"/>sionem haeretici ad rationem inductam quae talis est, verum 
+      <lb ed="#L" n="94"/>est quod quicquid habet pater habet filius, sicut bonitatem &amp; 
+      <lb ed="#L" n="95"/>potentiam, sed non tantum habet ex vnoquoque quantum ha 
+      <lb ed="#L" n="96"/>bet pater. Hoc autem non videtur verum ex auctoritate 
+      in<lb ed="#L" n="97" break="no"/>ducta Ioan. 17. omnia quae habet pater &amp; filius. Hoc autem 
+      re<lb ed="#L" n="98" break="no"/>fellit Augustinus hoc modo. Omnia habet filius quae habet 
+      pa<lb ed="#L" n="99" break="no"/>ter, sed omnipotentiam habet pater, ergo tantundem de 
+      po<lb ed="#L" n="100" break="no"/>testate habet filius. Postea excludit aliam responsionem qua 
+      <lb ed="#L" n="101"/>talis est. Et si filius omnia habet quae pater habet: tamen 
+      pa<lb ed="#L" n="102" break="no"/>ter est potentior filio, quia hoc ipse filio dedit, &amp; ipse a nullo 
+      <lb ed="#L" n="103"/>sed a seipso habet: Sed hoc refellit Augustinus hoc modo, 
+      ve<lb ed="#L" n="104" break="no"/>rum est quod pater dedit filio potentiam sibi aequalem vel non 
+      <lb ed="#L" n="105"/>Si aequalem, si pater est omnipotens, &amp; filius est omnipotens. 
+      <lb ed="#L" n="106"/>Si non aequalem, tunc non omnia quae habet pater habet 
+      fi<lb ed="#L" n="107" break="no"/>lius. Deinde probat, aequalitatem personarum in potestate per 
+      <lb ed="#L" n="108"/>rationem quae talis est, Si pater genuit filium minorem se in 
+      <lb ed="#L" n="109"/>potestate, aut potuit gignere sibi aequalem &amp; noluit, aut 
+      vo<lb ed="#L" n="110" break="no"/>luit &amp; non potuit. Si noluit &amp; potuit, inuidus fuit. Si voluit &amp; 
+      <lb ed="#L" n="111"/>non potuit, omnipotens non fuit, quorum vtrumque est 
+      fal<lb ed="#L" n="112" break="no"/>sum, ergo impossibile est filium non esse aequalem patri in 
+      po<lb ed="#L" n="113" break="no"/>testate. Ibidem probat hoc idem per simile, quia in 
+      genera<lb ed="#L" n="114" break="no"/>tione humana pater quanto perfectiorem potest generare 
+      <lb ed="#L" n="115"/>filium generat, ergo multo fortius in diuinis. Excludit 
+      vlti<lb ed="#L" n="116" break="no"/>mo responsionem haeretici, posset enim dicere ex hoc ipso 
+      <lb ed="#L" n="117"/>quod filius est a patre est inaequalis ipsi, quam refellit Augustinus 
+      <lb ed="#L" n="118"/>sic, aequalitas &amp; inaequalitas attenduntur secundum 
+      quantita<lb ed="#L" n="119" break="no"/>tem &amp; non secundum relationem, sed in hoc quod dicimus 
+      fi<lb ed="#L" n="120" break="no"/>lium a patre esse non designamus nisi relationem originis, ergi 
+      <lb ed="#L" n="121"/>in hoc non designatur inaequalitas patris ad filium. Recapitulat 
+      <lb ed="#L" n="122"/>etiam ea quae dicta sunt, &amp; concludit intentum iam probatum. 
+      <lb ed="#L" n="123"/>Et in hoc terminatur sententia in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

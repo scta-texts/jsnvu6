@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="155-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3638"><!-- l2d29q1 -->
+            <head xml:id="jsnvu6-d1e3638-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e3638-Hd1e103" type="question-title">Utrum homo in statu innocentiae indiguerit gratia</head>
+            <p xml:id="jsnvu6-d1e3638-d1e106">
+               <lb ed="#L" n="152"/>A.TIS 
+      RIM<lb ed="#L" n="153" break="no"/>virum in statu innocentiae homo 
+      <lb ed="#L" n="154"/>Lm indiguerit gratia. 
+      <lb ed="#L" n="155"/>Ttum a a 4 109. ar. 4. . &amp; .. 
+    </p>
+            <p xml:id="jsnvu6-d1e3638-d1e117">
+      <!--00378.xml-->
+               <pb ed="#L" n="155-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>CIRCA distinctionem istam quaeritur, primo. vtrum 
+      <lb ed="#L" n="2"/>in statu innocentiae homo indiguerit gratia. Et 
+      <lb ed="#L" n="3"/>videtur quod non, quia poena non praecedit 
+      cul<lb ed="#L" n="4" break="no"/>pam, sed carentia visionis diuinae est quaedam poe 
+      <lb ed="#L" n="5"/>na, ergo hanc non incurrisset homo in statu 
+      in<lb ed="#L" n="6" break="no"/>nocentiae dato quod gratiam non habuisset. 
+      </p>
+            <p xml:id="jsnvu6-d1e3638-d1e139">
+               <lb ed="#L" n="7"/>
+               <!--2--> IN CONTRARIVM est quod dicitur Roman. 6 
+      <lb ed="#L" n="8"/>gratia dei vita aeterna, ergo in quolibet statu ad consequendam 
+      <lb ed="#L" n="9"/>vitam aeternam necessaria est gratia. 
+      </p>
+            <p xml:id="jsnvu6-d1e3638-d1e151">
+               <lb ed="#L" n="10"/>
+               <!--3--> RESPONSIO. quamuis homo in staru innocentiae 
+      con<lb ed="#L" n="11" break="no"/>ditus fuerit in gratia, tamen non necessario indiguit ea ad 
+      con<lb ed="#L" n="12" break="no"/>seruandum statum illum, indiguit tamen ea ad meritum vita 
+      <lb ed="#L" n="13"/>aeternae. Primum patet, quia status innocentiae non amittitur nis 
+      <lb ed="#L" n="14"/>per culpam, sed illam poterat homo vitare sine gratia vt dictum 
+      <lb ed="#L" n="15"/>est supra 28. distin. quare, &amp;c. Secundum sic patet, omne meritum 
+      <lb ed="#L" n="16"/>vel est de condigno vel de congruo, sed ad meritum de 
+      condi<lb ed="#L" n="17" break="no"/>gno requiritur gratia habitualis, ad meritum autem de 
+      congru<lb ed="#L" n="18" break="no"/>requiritur gratia quae est acceptatio diuina vt ostensum fuit 
+      su<lb ed="#L" n="19" break="no"/>pra distin. 27. ergo &amp;c. Item ad illud ad quod aliquis non potes 
+      <lb ed="#L" n="20"/>peruenire ex natura sua oportet perueniat ex alterius gratia vel 
+      <lb ed="#L" n="21"/>dono gratuito quod est idem, sed ad visionem diuinae essentia 
+      <lb ed="#L" n="22"/>in qua consistit vita aeterna homo non potest peruenire ex pro 
+      <lb ed="#L" n="23"/>priis naturalibus, ergo oportet quod ad hoc perueniat ex 
+      al<lb ed="#L" n="24" break="no"/>terius dono seu gratia. 
+      </p>
+            <p xml:id="jsnvu6-d1e3638-d1e188">
+               <lb ed="#L" n="25"/>
+               <!--4--> Ad argumentum in contrarium dicendum quod 
+      carenti<lb ed="#L" n="26" break="no"/>visionis diuinae potest intelligi dupliciter. Vno modo negatiue 
+      <lb ed="#L" n="27"/>&amp; sic non est proprie poena, sed defectus totam naturam 
+      crea<lb ed="#L" n="28" break="no"/>tam consequens, nulla enim natura creata est ex se sufficiens ad 
+      <lb ed="#L" n="29"/>visionem diuinam qualem expectamus, &amp; sic carentia visionis 
+      <lb ed="#L" n="30"/>diuinae fuisset in homine ante peccatum si gratiam non habuisse 
+      <lb ed="#L" n="31"/>Alio modo potest sumi priuatiue vt intelligatur quaedam 
+      ob<lb ed="#L" n="32" break="no"/>noxietas ad carentiam visionis diuinae &amp; sic est poena, nec 
+      fuis<lb ed="#L" n="33" break="no"/>set in homine ante peccatum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

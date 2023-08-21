@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="42-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e815"><!-- l1d13q3 -->
+            <head xml:id="jsnvu6-d1e815-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e815-Hd1e103" type="question-title">Utrum Spiritus Sanctus possit dici ingenitus</head>
+            <p xml:id="jsnvu6-d1e815-d1e106">
+               <lb ed="#L" n="8"/>QVAESTIO TERTIA. 
+      <lb ed="#L" n="9"/>Vtrum Spiritus sanctus possit dici ingenitus. „ 
+      <lb ed="#L" n="10"/>Thom. 1. qg. 3. artic. . Et infra di. 28. 41. 
+      <lb ed="#L" n="11"/>211 
+    </p>
+            <p xml:id="jsnvu6-d1e815-d1e117">
+               <lb ed="#L" n="12"/>TERTIO quaeritur vtrum Spiritus sanctus 
+      pos<lb ed="#L" n="13" break="no"/>sit dici ingenitus, Et videtur quod sic, quia plus 
+      <lb ed="#L" n="14"/>distat a ratione generationis pater quam spirit. 
+      <lb ed="#L" n="15"/>sanct. quia spir. sanct. nec generat nec generatur, 
+      <lb ed="#L" n="16"/>u pater autem &amp; si non generatur tamen generat, 
+      <lb ed="#L" n="17"/>enitum negat vel priuat generationem, ergo verius 
+      po<lb ed="#L" n="18" break="no"/>test dici spir. sanct. ingenitus quam pater. 
+      </p>
+            <p xml:id="jsnvu6-d1e815-d1e135">
+               <lb ed="#L" n="19"/>
+               <!--2--> Item in litera, &amp; est Hieronymi dicitur quod omne quod est 
+      <lb ed="#L" n="20"/>aut est ingenitum aut genitum aut factum, sed spir, san. nec est 
+      <lb ed="#L" n="21"/>genitus nec factus, igitur est ingenitus. Item ad negatiuam 
+      de<lb ed="#L" n="22" break="no"/>praedicato finito sequitur affirinatiua de praedicato infinito cum 
+      <lb ed="#L" n="23"/>constantia subiecti. Sequitur ergo spir. san. non est genitus: erg 
+      <lb ed="#L" n="24"/>est ingenitus vel non genitus quod est idem 
+      </p>
+            <p xml:id="jsnvu6-d1e815-d1e154">
+               <lb ed="#L" n="25"/>
+               <!--3.--> IN CONTRARIVM est quod dicitur in litera, q 
+      <lb ed="#L" n="26"/>solus pater est ingenitus. Et August. 15. de Trinit. ca. 26. dicit? 
+      <lb ed="#L" n="27"/>cum spir. san. genitum non dicamus, dicere tamen ingenitum 
+      <lb ed="#L" n="28"/>non audemus, ne in hoc vocabulo duos patres in trinitat. vel 
+      <lb ed="#L" n="29"/>duos qui non sunt de alio quispiam suspicetur. 
+      </p>
+            <p xml:id="jsnvu6-d1e815-d1e170">
+               <lb ed="#L" n="30"/>
+               <!--4--> RESPONSIO. Duo videnda sunt. Primum est 
+      quali<lb ed="#L" n="31" break="no"/>ter ingenitum sumatur in diuinis vtrum negatiue an priuatiue 
+      <lb ed="#L" n="32"/>Secundum erit cui competat esse ingenitum &amp; cui non 
+      Quan<lb ed="#L" n="33" break="no"/>tum ad primum sciendum quod ingenitum non potest sumi 
+      <lb ed="#L" n="34"/>pure negatiue, quia illa quae sunt pure negatiua possunt 
+      veri<lb ed="#L" n="35" break="no"/>ficari tam de ente quam de non ente (vt non lapis verificatur, 
+      <lb ed="#L" n="36"/>de homine &amp; chimera) sed ingenitum non potest verificari de 
+      <lb ed="#L" n="37"/>non ente, haec enim est falsa chimera est ingenita sicut ista 
+      chi<lb ed="#L" n="38" break="no"/>mera est iniusta, ergo ingenitum non potest sumi pure 
+      negati<lb ed="#L" n="39" break="no"/>ue, restat ergo quod sumatur priuatiue. Sed tunc occurrunt 
+      <lb ed="#L" n="40"/>dubia quia priuatio est remotio alicuius apti nati a subiecto 
+      <lb ed="#L" n="41"/>sed in diuinis nihil est aptum natum esse quod ibi non sit, 
+      ne<lb ed="#L" n="42" break="no"/>amoueri potest quia quicquid ibi esse potest necessario est, 
+      er<lb ed="#L" n="43" break="no"/>go nihil potest dici in diuinis priuatiue. propter hoc notandum 
+      <lb ed="#L" n="44"/>est quod priuatio ad praesens tripliciter dicitur sicut appare 
+      <lb ed="#L" n="45"/>ex 5. Metaphysicae. cap. de priuatione. Dicitur enim vno modi 
+      <lb ed="#L" n="46"/>aliquid priuatum propriissime quando non habet quod aptum 
+      <lb ed="#L" n="47"/>natum est habere secundum propriam speciem sicut 
+      hom<lb ed="#L" n="48" break="no"/>carens visu dicitur caecus propriissime quando non habet quod 
+      <lb ed="#L" n="49"/>aptum natum est habere. 
+      </p>
+            <p xml:id="jsnvu6-d1e815-d1e218">
+               <lb ed="#L" n="50"/>
+               <!--5--> Secundo modo dicitur aliquia priuatum quando non 
+      ha<lb ed="#L" n="51" break="no"/>bet illud quod natum est habere non secundum suam speciem, 
+      <lb ed="#L" n="52"/>sed secundum suum genus, vtpote quia illud inuenitur in 
+      ali<lb ed="#L" n="53" break="no"/>quo sui generis vt talpa dicitur caeca quia non habet visum 
+      <lb ed="#L" n="54"/>qui natus est haberi ab aliquo sub genere animalis licet non a 
+      <lb ed="#L" n="55"/>specie talpae. 
+      </p>
+            <p xml:id="jsnvu6-d1e815-d1e236">
+               <lb ed="#L" n="56"/>
+               <!--6.--> Tertio modo dicitur aliquid pruatum quia non habet 
+      ali<lb ed="#L" n="57" break="no"/>quid quod natum est haberi licet non ab eo vel secundum speciem 
+      <lb ed="#L" n="58"/>vel secundum genus: sicut planta dicitur priuari oculis. Primo 
+      <lb ed="#L" n="59"/>ergo modo dicitur aliquid proprie priuatum. Et hoc modo non 
+      <lb ed="#L" n="60"/>reperitur priuatio in diuinis sicut probat argumentum ad hoc 
+      <lb ed="#L" n="61"/>tantum. Secundo autem modo reperitur, ingenitum enim 
+      pri<lb ed="#L" n="62" break="no"/>uat generationem quae nata est alicui conuenire de genere suj 
+      <lb ed="#L" n="63"/>positorum diuinorum, scilicet filio, &amp; sic patet primum.
+</p>
+            <p xml:id="jsnvu6-d1e815-d1e258">
+               <lb ed="#L" n="64"/>Quantum ad secundum sciendum quod priuationes 
+      cogno<lb ed="#L" n="65" break="no"/>scuntur per habitus, ingenitum autem dicit prinationem genit 
+      <lb ed="#L" n="66"/>modo quo dictum est statim. Et ideo ex consideratione genit 
+      <lb ed="#L" n="67"/>iudicandum est de ingenito. Genitum autem dicit illud quod 
+      <lb ed="#L" n="68"/>habet esse ab alio per generationem. Quod ergo aliquid 
+      dica<lb ed="#L" n="69" break="no"/>tur ingenitum potest habere duas causas veritatis, aut quia 
+      <lb ed="#L" n="70"/>omnino non est ab alio, aut quia est ab alio, sed non per viam 
+      <lb ed="#L" n="71"/>generationis. Primo modo esse ingenitum conuenit soli patri, 
+      <lb ed="#L" n="72"/>quia in genere personarum diuinarum solus pater est a nullo 
+      <lb ed="#L" n="73"/>vel non ab alio. Secundo autem modo prout ingenitum dicitur 
+      <lb ed="#L" n="74"/>aliquid quod est ab alio non tamen per generationem, sed per spi 
+      <lb ed="#L" n="75"/>rationem spir. san. potest dici ingenitus, quia licet sit a patre &amp; 
+      <lb ed="#L" n="76"/>filio non tamen per generationem, sed per spirationem. 
+      </p>
+            <p xml:id="jsnvu6-d1e815-d1e289">
+               <lb ed="#L" n="77"/>
+               <!--8.--> Ad argumentum primum dicendum, quod distantia a 
+      ge<lb ed="#L" n="78" break="no"/>neratione passiua facit quod aliquid dicatur ingenitum &amp; non 
+      <lb ed="#L" n="79"/>distantia a generatione actiua. Pater autem plus distat a 
+      ge<lb ed="#L" n="80" break="no"/>neratione passiua quam spirit. sanct. quia distat secundum 
+      ge<lb ed="#L" n="81" break="no"/>nus eo quod omnino non est ab alio secundum aliquam emanatio¬ 
+      <!--00149.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>nem. Spiritus autem sanctus distat solum secundum speciem, quia 
+      <lb ed="#L" n="83"/>est ab alio, sed non per generationem. Et ideo in aliquo sensu 
+      <lb ed="#L" n="84"/>vterque potest dici ingenitus, sed magis pater quam spi. sanct. 
+      </p>
+            <p xml:id="jsnvu6-d1e815-d1e316">
+               <lb ed="#L" n="85"/>
+               <!--9--> Ad secundum dicendum, quod Hieronymus accipit ingenitum 
+      <lb ed="#L" n="86"/>pro omni eo quod est non per generationem siue sit ab alio vt 
+      <lb ed="#L" n="87"/>spiritus sanctus, siue non, vt pater, &amp; sic ingenitum dicitur de 
+      <lb ed="#L" n="88"/>vtroque, scilicet de patre &amp; spiritu sancto. 
+      </p>
+            <p xml:id="jsnvu6-d1e815-d1e329">
+               <lb ed="#L" n="89"/>
+               <!--10.--> Ad terrium dicendum, quod in illo sensu quo ingenitum dicitur 
+      <lb ed="#L" n="90"/>illud quod est ab alio &amp; non per generationem spiritus sanctus 
+      <lb ed="#L" n="91"/>potest dici ingenitus; in sensu autem in quo ingenitum negat vel 
+      <lb ed="#L" n="92"/>priuat omnino esse ab alio ingentium conuenit soli patri, &amp; sic 
+      <lb ed="#L" n="93"/>accipit August. ingenitum in autoritate allegata in contrarium. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="48-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1020"><!-- l1d17p2prae -->
+            <head xml:id="jsnvu6-d1e1020-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1020-d1e103">
+               <lb ed="#L" n="61"/>Sententia generalis &amp; specialis secundae 
+      par<lb ed="#L" n="62" break="no"/>tis distinctionis decimae septimae.
+    </p>
+            <p xml:id="jsnvu6-d1e1020-d1e110">
+               <lb ed="#L" n="63"/>HIC QUAERITVR si charitas. Superius 
+      de<lb ed="#L" n="64" break="no"/>terminauit magister de missione Spiritussancti 
+      <lb ed="#L" n="65"/>inuisibili. Hic mouet incidentem quaestionem 
+      cir<lb ed="#L" n="66" break="no"/>ca determinata. Et diuiditur in tres partes. 
+      Pri<lb ed="#L" n="67" break="no"/>mo enim obiicit contra determinationem per 
+      <lb ed="#L" n="68"/>rationem. Secundo patet per autoritatem. Tertio mouet aliam 
+      <lb ed="#L" n="69"/>quaestionem de comparatione Spiritussancti ad dona. Secunda 
+      <lb ed="#L" n="70"/>ibi. Supradictum est. Tertia ibi. Hic oritur quaestio cum 
+      Spiri<lb ed="#L" n="71" break="no"/>tusancto. Prima diuiditur in tres. Primo enim mouet 
+      quaestio<lb ed="#L" n="72" break="no"/>nem suam obiiciendo contra determinata. Secundo respondet. 
+      <lb ed="#L" n="73"/>Tertio responsionem confirmat. Secunda ibi. His itaque 
+      respon<lb ed="#L" n="74" break="no"/>det. Tertia ibi. Vt autem manifestum fiat. Secunda vero par 
+      <lb ed="#L" n="75"/>o incipalis in qua obiicit contra autoritatem diuiditur in tres, 
+      <lb ed="#L" n="76"/>secundum tres autoritates quas mouet &amp; soluit. Secunda ibi. 
+      <lb ed="#L" n="77"/>Sed aliud est inquisitum. Tertia ibi. Et animal quoque 
+      indu<lb ed="#L" n="78" break="no"/>cunt. Et haec est diuisio magistri, &amp; sententia in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e1020-d1e147">
+               <lb ed="#L" n="79"/>
+               <!--2--> In speciali vero sic procedit magister. Et primo dicit quod 
+      <lb ed="#L" n="80"/>charitas non est Spiritussanctus: quia Spiritussanctus non po 
+      <lb ed="#L" n="81"/>test augeri, vel minui cum sit immutabilis, sed charitas potes 
+      <!--00162.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>augeri, vel minui: ergo Spiritusianctus non est charitas. Item 
+      <lb ed="#L" n="83"/>Spiritussanctus est vbique, charitas autem non, quia non 
+      haben<lb ed="#L" n="84" break="no"/>ti datur Spiritussanctus: ergo non est charitas. Et respondet 
+      ma<lb ed="#L" n="85" break="no"/>gister quod Spiritussanctus in se est immutabilis: nec augetur nec 
+      <lb ed="#L" n="86"/>minuitur: sed in homine vel potius augetur homini vel 
+      minui<lb ed="#L" n="87" break="no"/>tur, sicut dicitur exaltari &amp; magnificari in nobis inquantum 
+      sci<lb ed="#L" n="88" break="no"/>licet in se magnos facit, qui tamen in se non magnificatur, nec 
+      <lb ed="#L" n="89"/>exaltatur. Quod autem obiicitur quod vbique est, verum est, sed 
+      <lb ed="#L" n="90"/>non omne habens Spiritum sanctum est vbique. &amp; quo ad 
+      pri<lb ed="#L" n="91" break="no"/>mum sic responsum confirmat per Augustinum, &amp; patet in 
+      li<lb ed="#L" n="92" break="no"/>tera. Deinde obiicit per Augustinum: qui exponens illud Apc 
+      <lb ed="#L" n="93"/>stoli, Charitas Dei diffusa est in cordibus nostris: distingui 
+      <lb ed="#L" n="94"/>inter charitatem qua Deus dilexit nos, &amp; charitatem qua nos 
+      <lb ed="#L" n="95"/>diligimus Deum &amp; proximum. Et respondet quod non est 
+      distin<lb ed="#L" n="96" break="no"/>ctio secundum rem, sed secundum rationem solum, quia 
+      cha<lb ed="#L" n="97" break="no"/>ritas alia ratione est qua Deus diligit &amp; qua nos diligimus 
+      <lb ed="#L" n="98"/>Deum &amp; proximum, licet sit eadem charitas in essentia. Alia 
+      <lb ed="#L" n="99"/>ratio quae probat quod Spiritussanctus non est charitas talis est 
+      <lb ed="#L" n="100"/>Spiritussanctus non est a seipso, charitas autem est a 
+      Spiritusan<lb ed="#L" n="101" break="no"/>cto, sicut fides, sicut dicit Augustinus: ergo Spiritussanctus not 
+      <lb ed="#L" n="102"/>est charitas, sicut nec fides. Et respondet quod Spiritussanctus a 
+      <lb ed="#L" n="103"/>se non est charitas aut a Spiritusancto est in nobis: Et ideo, 
+      <lb ed="#L" n="104"/>seipso datur nobis: &amp; quantum ad hoc dicit Augustinus, quod cha 
+      <lb ed="#L" n="105"/>ritas est a Spiritusancto, fides autem quia non est Deus dans, sed 
+      <lb ed="#L" n="106"/>tantum ipsum datum: Spiritussanctus non est, sed tantum a Sp 
+      <lb ed="#L" n="107"/>ritusancto est. Tertia ratio talis est, quia charitas est affectus 
+      <lb ed="#L" n="108"/>mentis &amp; motus animi, &amp; hoc ostendit duabus autoritatibus. 
+      <lb ed="#L" n="109"/>August. sed Spiritussanctus non est affectus mentis, nec motus 
+      <lb ed="#L" n="110"/>animi cum sit immutabilis: ergo Spiritussanctus non est 
+      chari<lb ed="#L" n="111" break="no"/>tas. Et respondet quod cum charitas est affectus mentis &amp; motus 
+      <lb ed="#L" n="112"/>animi, hoc est effectiue, quia per charitatem mouentur &amp; 
+      affi<lb ed="#L" n="113" break="no"/>ciuntur homines ad diligendum Deum: &amp; hoc modo, scilice 
+      <lb ed="#L" n="114"/>effectiue dicitur charitas siue Spiritussanctus motus animi, si 
+      <lb ed="#L" n="115"/>cut dicitur sapientia mobilis, scientia: sed tunc est quaestio cum 
+      <lb ed="#L" n="116"/>per Spiritumsanctum afficiatur aliquis ad spirandum, vel 
+      cre<lb ed="#L" n="117" break="no"/>dendum, sicut ad diligendum, quare Spiritussanctus non dicitu 
+      <lb ed="#L" n="118"/>fides aut spes sicut charitas. Et respondet quod actum fidei &amp; 
+      <lb ed="#L" n="119"/>spei operatur Spiritussanctus mediante fide &amp; spe, sed actum 
+      <lb ed="#L" n="120"/>charitatis immediate. Et quia immediate actus charitatis a Spi 
+      <lb ed="#L" n="121"/>ritussancto est, ideo illud a quo immediate ingreditur est 
+      cha<lb ed="#L" n="122" break="no"/>ritas, non fides, vel spes: vnde Spiritussanctus est charitas. Ei 
+      <lb ed="#L" n="123"/>ad hoc adducit autorita. August. qui vult quod charitas est bo 
+      <lb ed="#L" n="124"/>num quo nihil est melius, sed quo nihil est melius est 
+      Spiritus<lb ed="#L" n="125" break="no"/>sanctus: ergo Spiritussanctus est charitas qui non diuiditur, 
+      <lb ed="#L" n="126"/>sed dona eius. Et hoc confirmat autoritate Augustini. Sed haec 
+      <lb ed="#L" n="127"/>opinio magistri non tenetur, nec ipse obiectiones soluit. 
+      Vlti<lb ed="#L" n="128" break="no"/>mo quaerit vtrum per donum quod est Spiritussanctus dentur 
+      <lb ed="#L" n="129"/>omnia dona. Et respondet quod sic, sed tamen non omnes qui 
+      <lb ed="#L" n="130"/>habent Spiritum sanctum omnia dona habent: &amp; in hoc 
+      termi<lb ed="#L" n="131" break="no"/>natur sententia in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

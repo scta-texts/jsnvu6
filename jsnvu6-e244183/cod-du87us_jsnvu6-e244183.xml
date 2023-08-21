@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="296-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e244183"><!-- l4d17q11 -->
+            <head xml:id="jsnvu6-e244183-Hd1e101">Quaestio 11</head>
+            <head xml:id="jsnvu6-e244183-Hd1e103" type="question-title">Utrum sit necessarium confiteri sacerdoti, 
+      an sufficiat alteri confiteri</head>
+            <p xml:id="jsnvu6-e244183-d1e106">
+               <lb ed="#L" n="146"/>QVAESTIO VNDECIMA. 
+      <lb ed="#L" n="147"/>Vtrum sit necessarium confiteri sacerdoti, 
+      <lb ed="#L" n="148"/>an sufficiat alteri confiteri. 
+    </p>
+            <p xml:id="jsnvu6-e244183-d1e115">
+               <lb ed="#L" n="149"/>CIRCA secundum principale quaeruntur duo. 
+      Pri<lb ed="#L" n="150" break="no"/>mum est, vtrum fit necessarium confireri 
+      sacerdo<lb ed="#L" n="151" break="no"/>ti, an sufficiat alteri confiteri. Secundum est, vtrum sit 
+      <lb ed="#L" n="152"/>necessarium confiteri proprio sacerdoti. Ad primum 
+      pro<lb ed="#L" n="153" break="no"/>ceditur, &amp; arguitur sic quod sufficiat confiteri non 
+      fa<lb ed="#L" n="154" break="no"/>cerdoti: quia confessio promulgata est a beato Iacobo. Iac. 5. 
+      <lb ed="#L" n="155"/>Confitemini alterutrum peccata vestra, sed secundum hanc 
+      opi<lb ed="#L" n="156" break="no"/>nionem licitum est aequaliter cuilibet confiteri, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e244183-d1e135">
+               <lb ed="#L" n="157"/>
+               <!--2--> Item praeceptum est rectoribus ecclesiarum, vt agnoscant 
+      <lb ed="#L" n="158"/>vultum pecorum suorum. Prouerb. 27. quod fit per 
+      confessio<lb ed="#L" n="159" break="no"/>nem: sed rector ecclesiae quandoque est non sacerdos, ergo 
+      sal<lb ed="#L" n="160" break="no"/>tem tales possunt audire confessiones. 
+</p>
+            <p xml:id="jsnvu6-e244183-d1e149">
+      <!--00666.xml-->
+               <pb ed="#L" n="296-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>3 IN contrarium arguitur, quia in veteri lege discernendi lepran 
+      <lb ed="#L" n="2"/>a lepra fuit commissum solis sacerdotibus: sed per illud iudicium 
+      <lb ed="#L" n="3"/>figurabatur iudicium confessionis, ergo iudicium confessionis quo 
+      <lb ed="#L" n="4"/>discernitur inter culpam &amp; culpam pertinet ad solos sacerdotes 
+      </p>
+            <p xml:id="jsnvu6-e244183-d1e167">
+               <lb ed="#L" n="5"/>
+               <!--4--> RESPONSIO. Aut confitens habet copiam sacerdotis, 
+      <lb ed="#L" n="6"/>aut non habet: si habet, necessarium est quod confiteatur in 
+      ca<lb ed="#L" n="7" break="no"/>sibus duntaxat in quibus necessarium est confiteri, vt dictum ef 
+      <lb ed="#L" n="8"/>in praecedentibus, quod patet sic: sacramentum confessionis est 
+      <lb ed="#L" n="9"/>de necessitate salutis, nisi excludatur per articulum necessitatis, 
+      <lb ed="#L" n="10"/>sed non est sacramentum confessionis nisi fiat confessio 
+      sacer<lb ed="#L" n="11" break="no"/>doti, ergo necessarium est confiteri sacerdoti. Maior patet ex 
+      di<lb ed="#L" n="12" break="no"/>ctis. Minor declaratur, quia non est verum sacramentum vbi non 
+      <lb ed="#L" n="13"/>est verus minister sacramenti, sed verus minister sacramenti 
+      con<lb ed="#L" n="14" break="no"/>fessionis est solus sacerdos, vt pazzt ex traditione Christiprius 
+      <lb ed="#L" n="15"/>allegata, &amp; ex forma quam seruat ecclesia in ordinatione 
+      sacer<lb ed="#L" n="16" break="no"/>dotum, in qua dicuntur eadem verba super ordinandos qua 
+      <lb ed="#L" n="17"/>Christus dixit discipulis (scilicet) quorum remiseritis peccara 
+      <lb ed="#L" n="18"/>remittuntur eis, &amp;c. quae directe respiciunt potestatem ministri 
+      <lb ed="#L" n="19"/>super effectum sacramenti, ergo non est verum sacramentum 
+      <lb ed="#L" n="20"/>confessionis quando non fit confessio sacramenti. 
+      </p>
+            <p xml:id="jsnvu6-e244183-d1e206">
+               <lb ed="#L" n="21"/>
+               <!--5--> Si autem non habeatur copia sacerdotis, sic dicunt quidam q 
+      <lb ed="#L" n="22"/>tenetur laicis confiteri: quorum ratio est, quia in sacramento con 
+      <lb ed="#L" n="23"/>fessionis non solum est aliquid ex parte ministri (scilicet 
+      abso<lb ed="#L" n="24" break="no"/>lutio &amp; iniunctio satisfactionis) sed etiam est aliquid ex parte 
+      <lb ed="#L" n="25"/>confitentis, qui sacramentum suscipit, scilicet confessio, &amp; 
+      vtrun<lb ed="#L" n="26" break="no"/>que concurrit ad plenitudinem sacramenti: quando ergo 
+      possi<lb ed="#L" n="27" break="no"/>bile est vtrunque concurrere necessarium est vtrunque 
+      obser<lb ed="#L" n="28" break="no"/>uare, sed quando deest sacerdotis copia &amp; necessitas imminet, 
+      <lb ed="#L" n="29"/>debet facere poenitens quod in se est (scilicet conteri &amp; 
+      confire<lb ed="#L" n="30" break="no"/>ri cui potest, clerico non sacerdoti vel laico.) Sed istud non vide. 
+      <lb ed="#L" n="31"/>tur necessarium, quia cessante principali cessat accessorium: sed 
+      <lb ed="#L" n="32"/>confessio fit principaliter propter absolutionem, ergo si desit 
+      co<lb ed="#L" n="33" break="no"/>pia sacerdotis absoluentis, qui solus potest in foro poenitentiae 
+      <lb ed="#L" n="34"/>absoluere, absolutus est poenitens ab obligatione confessionis. 
+      </p>
+            <p xml:id="jsnvu6-e244183-d1e241">
+               <lb ed="#L" n="35"/>
+               <!--6--> Propter hoc potest aliter dici quod nunquam est necessarium 
+      <lb ed="#L" n="36"/>confiteri non sacerdoti, est tamen licitum si fiat ex sola humili 
+      <lb ed="#L" n="37"/>tate ad habendum consilium vel ad verecundandum propter Deum, 
+      <lb ed="#L" n="38"/>quum verecundia sit pars satisfactionis, dummodo confitens non 
+      <lb ed="#L" n="39"/>subiiciat se non sacerdoti sacramentaliter vt ministro: hoc enim 
+      <lb ed="#L" n="40"/>esset illicitum, quia sicut non sacerdos peccaret si gereret se pro 
+      <lb ed="#L" n="41"/>ministro huius sacramenti, sic peccaret qui subiiceret se non 
+      sa<lb ed="#L" n="42" break="no"/>cerdoti vt ministro. 
+      </p>
+            <p xml:id="jsnvu6-e244183-d1e263">
+               <lb ed="#L" n="43"/>
+               <!--7--> Ad primum argumentum dicendum quod beatus Iacobus 
+      lo<lb ed="#L" n="44" break="no"/>quitur ex suppositione diuinae institutionis per quam 
+      sacramen<lb ed="#L" n="45" break="no"/>talis confessio solum est facienda sacerdotibus, pro eo quod eis solis 
+      <lb ed="#L" n="46"/>dedit Christus potestatem peccata remittendi, vt patet Io. 20. 
+      <lb ed="#L" n="47"/>quo supposito beatus Iacobus confessionem faciendam eis monuit. 
+      </p>
+            <p xml:id="jsnvu6-e244183-d1e279">
+               <lb ed="#L" n="48"/>
+               <!--8--> Ad secundum dicendum quod curatus debet cognoscere 
+      <lb ed="#L" n="49"/>vultum subditi sui dupliciter. Vno modo quantum ad 
+      exterio<lb ed="#L" n="50" break="no"/>rem conuersationem, an peccator notorius an non, &amp; in hoc non 
+      <lb ed="#L" n="51"/>debet credere subdito: &amp; hanc cognitionem potest habere 
+      cura<lb ed="#L" n="52" break="no"/>tus non sacerdos sicut sacerdos. Alio modo quantum ad 
+      con<lb ed="#L" n="53" break="no"/>scientiam interiorem in sacramento confitentis, &amp; hanc habet 
+      <lb ed="#L" n="54"/>solus sacerdos: propter quod rationabiliter institutum est, vt curati 
+      <lb ed="#L" n="55"/>paroeciani intra annum ordinarentur, quia aliter non possunt 
+      in<lb ed="#L" n="56" break="no"/>tegre exercere suum officium, &amp; irrationabiliter dispensatur in 
+      <lb ed="#L" n="57"/>hoc nisi magna causa subsit, ideo &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

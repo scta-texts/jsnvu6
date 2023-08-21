@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="163-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3878"><!-- l2d34q3 -->
+            <head xml:id="jsnvu6-d1e3878-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e3878-Hd1e103" type="question-title">Utrum bonum sit causa mali</head>
+            <p xml:id="jsnvu6-d1e3878-d1e106">
+               <lb ed="#L" n="159"/>QVAESTIO TERTIA. 
+      <lb ed="#L" n="160"/>Vtrum bonum sit causa mali. 
+      <lb ed="#L" n="161"/>Thom. l. 4. 49. 41.1. 
+    </p>
+            <p xml:id="jsnvu6-d1e3878-d1e115">
+      <!--00394.xml-->
+               <pb ed="#L" n="163-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>TERTIO quaeritur, vtrum bonum sit causa mali. Et 
+      <lb ed="#L" n="2"/>arguitur quod non, quia bonum est suiipsius 
+      dif<lb ed="#L" n="3" break="no"/>fusiuum, secundum Dionysium. Sed si bonum 
+      es<lb ed="#L" n="4" break="no"/>set causa mali bonum non esset sui diffusiuum, sed 
+      <lb ed="#L" n="5"/>corruptibilium, quia malum est corruptio boni, 
+      <lb ed="#L" n="6"/>ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3878-d1e137">
+               <lb ed="#L" n="7"/>
+               <!--2.--> Item super illo verbo Mat. 7. Non potest bona arbor fructus 
+      <lb ed="#L" n="8"/>malos facere dicit glosa: nihil medium quin boni causa bona fit 
+      <lb ed="#L" n="9"/>&amp; mali mala, ergo bonum non est causa mali, sed malum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3878-d1e149">
+               <lb ed="#L" n="10"/>
+               <!--3--> CONTRA. Causa mali praeexistit malo, aut ergo ipsa es 
+      <lb ed="#L" n="11"/>aliquid bonum, aut malum. Si malum quaero de causa eius, &amp; sic 
+      <lb ed="#L" n="12"/>erit processus in infinitum, vel dabitur aliquod malum aeternum 
+      <lb ed="#L" n="13"/>quod non erit causatum, sed erit aliorum causa, vtrumque auti 
+      <lb ed="#L" n="14"/>horum est impossibile, ergo necesse est malum causari a bono 
+      </p>
+            <p xml:id="jsnvu6-d1e3878-d1e165">
+               <lb ed="#L" n="15"/>
+               <!--4--> RESPONSIO. Bonum &amp; malum aut sumuntur 
+      abstra<lb ed="#L" n="16" break="no"/>ctiue pro bonitate &amp; malitia, vel concretiue. Si abstractiue sic 
+      <lb ed="#L" n="17"/>vnum non est causa alterius secundum aliquod genus causae. Cuius 
+      <lb ed="#L" n="18"/>ratio est quia esse causam non competit nisi rei absolutae non 
+      ha<lb ed="#L" n="19" break="no"/>bitudini vel relationi, sed bonum &amp; malum abstractiue sumpta 
+      <lb ed="#L" n="20"/>non dicunt res sed habitudines &amp; relationes (vt ostensum est ir 
+      <lb ed="#L" n="21"/>praecedente quaestione,) ergo non competit eis ratio causae, vel 
+      cau<lb ed="#L" n="22" break="no"/>sati per se. Si vero bonum &amp; malum sumantur concretiue, vel 
+      sumum<lb ed="#L" n="23" break="no"/>tur cum reduplicatione, vel sine. Si cum reduplicatione, vt dicende 
+      <lb ed="#L" n="24"/>bonum inquantum bonum si sit reduplicatio formalis sic dicendum 
+      <lb ed="#L" n="25"/>quod bonum non habet rationem causae respectu mali, vel 
+      respe<lb ed="#L" n="26" break="no"/>ctu cuiuscunque. Cuius ratio est quia formalis reduplicatio 
+      con<lb ed="#L" n="27" break="no"/>creti super seipsum fit ratione abstracti. Sicut si dicatur album 
+      <lb ed="#L" n="28"/>inquantum album disgregat, sensus est quod album disgregat 
+      ratio<lb ed="#L" n="29" break="no"/>ne albedinis ergo eodem modo cum dicitur bonum inquantum 
+      bo<lb ed="#L" n="30" break="no"/>num est causa, sensus est quod bono ratione bonitatis competit esse 
+      <lb ed="#L" n="31"/>causam. Sed probatum est statim quod bonitati quod est bonum 
+      <lb ed="#L" n="32"/>abstractiue dictum non competit esse causam, ergo nec bono 
+      <lb ed="#L" n="33"/>inquantum bonum si sit formalis reduplicatio sicut dictum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e3878-d1e211">
+               <lb ed="#L" n="34"/>
+               <!--5--> Sed contra hoc videtur esse quod dicitur secundo metaph. 
+      <lb ed="#L" n="35"/>quod finis est cuius gratia &amp; bonum rei, ergo bono competit 
+      ra<lb ed="#L" n="36" break="no"/>tio finis vel esse causam per modum finis. Et dicendum ad hoc 
+      <lb ed="#L" n="37"/>quod illud cui denominatiue competit esse causam semper es 
+      <lb ed="#L" n="38"/>aliquid absolutum, sed formalis ratio causalitatis seu ipsa causa 
+      <lb ed="#L" n="39"/>litas semper est respectiua, sunt ignis vel calor eius cui 
+      compe<lb ed="#L" n="40" break="no"/>tit esse causam caloris in alio, est aliquid absolutum vnde ad s 
+      <lb ed="#L" n="41"/>&amp; secundum se exclusa omni habitudine ad alterum dicitur 8 
+      <lb ed="#L" n="42"/>ignis et calidus, sed non dicitur causa vel calefaciens nisi in 
+      ha<lb ed="#L" n="43" break="no"/>bitudine &amp; respectu ad effectum. Semper enim ratio formalis caus 
+      <lb ed="#L" n="44"/>&amp; effectus est respectiua, sed fundamentum cui competit esse 
+      cau<lb ed="#L" n="45" break="no"/>sam vel effectum est esse absolutum, cum ergo dicit Arist. quod 
+      <lb ed="#L" n="46"/>finis est gratia cuius &amp; bonum rei, vult dicere quod formalis 
+      ra<lb ed="#L" n="47" break="no"/>tio causalitatis finalis est cuius gratia fit aliquid, &amp; ista ratio est 
+      <lb ed="#L" n="48"/>respectiua &amp; includit per se in primo modo formalem rationem 
+      <lb ed="#L" n="49"/>boni quae similiter est respectiua, &amp; sic bono quantum ad 
+      for<lb ed="#L" n="50" break="no"/>malem eius rationem potest competere quod sit aliqua ratio 
+      causa<lb ed="#L" n="51" break="no"/>litatis maxime finalis, vel includatur in ea sicut superius in infe 
+      <lb ed="#L" n="52"/>riori. Sed illud cui denominatiue competit esse bonum est * 
+      ab<lb ed="#L" n="53" break="no"/>stractum &amp; eidem potest competere denominatiue esse causam. 
+      </p>
+            <p xml:id="jsnvu6-d1e3878-d1e259">
+               <lb ed="#L" n="54"/>
+               <!--6--> Si vero loquamur de bono &amp; malo concretiue sumptis, &amp; 
+      si<lb ed="#L" n="55" break="no"/>ne reduplicatione, scilicet de eo quod est bonum &amp; de eo quod 
+      <lb ed="#L" n="56"/>est malum, sic dicendum est quod bonum potest esse causa 
+      mali<lb ed="#L" n="57" break="no"/>sic scilicet, quod res est per se causa rei vel priuationis quibus 
+      con<lb ed="#L" n="58" break="no"/>ueniunt rationes boni &amp; mali. quod autem bonum hoc modo si 
+      <lb ed="#L" n="59"/>causa mali per modum efficientis finis &amp; subiecti patet. Et prime 
+      <lb ed="#L" n="60"/>de efficiente, quia calor ignis qui est ei bonus, quia est formae 
+      su<lb ed="#L" n="61" break="no"/>conueniens est causa caloris excessiui in manu qui est manui 
+      <lb ed="#L" n="62"/>malus &amp; disconueniens, &amp; sic bonum efficit malum. De fine autem 
+      <lb ed="#L" n="63"/>similiter patet, quia nutritio hominis finis est occisionis bouis. 
+      <lb ed="#L" n="64"/>Occisio autem bouis mala est ei: &amp; bona est homini, quare, &amp;c. 
+      <lb ed="#L" n="65"/>Similiter per modum causae materialis. Nam oculus vel manus 
+      <lb ed="#L" n="66"/>quae sunt hominis bona, subiectum sunt aegritudines quae est ei 
+      <lb ed="#L" n="67"/>mala. Sed quia sic loqui de bono &amp; malo non inquantum bonum 
+      <lb ed="#L" n="68"/>vel malum, est loqui de eis per accidens, ideo omnes 
+      causalita<lb ed="#L" n="69" break="no"/>tes sic attributae bono respectu mali sunt per accidens, &amp; forte 
+      <lb ed="#L" n="70"/>similes possunt inueniri in malo respectu boni, sed quia ea quae 
+      <lb ed="#L" n="71"/>sunt per accidens non cadunt sub arte ideo hic dimittentur. 
+      </p>
+            <p xml:id="jsnvu6-d1e3878-d1e303">
+               <lb ed="#L" n="72"/>
+               <!--7.--> Quid ergo est causa mali inquantum malum. dicendum quod 
+      <lb ed="#L" n="73"/>malum inquantum malum non habet causam finalem, quia omne 
+      <lb ed="#L" n="74"/>quod est ad finem inquantum est huiusinodi est bonum vtile, nec 
+      <lb ed="#L" n="75"/>habet causam formalem, quia priuatio est, materialem vel 
+      sub<lb ed="#L" n="76" break="no"/>iecti non habet, quia in hoc differt priuatio a negatione, quia 
+      <lb ed="#L" n="77"/>determinat sibi subiectum non autem simplex negatio. 
+      Subie<lb ed="#L" n="78" break="no"/>ctum autem mali est natura aliqua quae non est alteri conueniens 
+      <lb ed="#L" n="79"/>cum malum sit priuatio conuenientiae, sicut calor excessiuus, 
+      put<lb ed="#L" n="80" break="no"/>febrilis in homine malus est, vt fundamentum priuationis 
+      impor<lb ed="#L" n="81" break="no"/>tatae per malitiam, vel natura carens aliquo sibi conueniente est 
+      <lb ed="#L" n="82"/>subiectum mali, sicut oculus carens visu. Nam destructa form: 
+      <!--00394.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>conueniente, sicut est visus, destruitur ratio conuenientiae, talis 
+      <lb ed="#L" n="84"/>autem natura quae est obiectum mali non est subiectum eius 
+      in<lb ed="#L" n="85" break="no"/>quantum bona, sed inquantum est in potentia ad habitum &amp; ac 
+      <lb ed="#L" n="86"/>oppositam priuationem: haec enim est priuatio subiecti quod sit 
+      <lb ed="#L" n="87"/>ens in potentia, per hoc enim est alterius receptiuum. Causam 
+      <lb ed="#L" n="88"/>vero efficientem &amp; positiue influentem non habet malum, quia 
+      <lb ed="#L" n="89"/>non est effectus, sed defectus. Nihilominus tamen malum habet 
+      <lb ed="#L" n="90"/>causam efficientem secundario &amp; per accidens, non quidem 
+      posi<lb ed="#L" n="91" break="no"/>tiue influentem defectum, sed positiue influentem effectum ad 
+      <lb ed="#L" n="92"/>quem sequitur defectus alicuius oppositi, sicut ignis incendens 
+      <lb ed="#L" n="93"/>calorem vltra quam fit conueniens manui priuat conuenientia 
+      <lb ed="#L" n="94"/>caloris ad manum, vel impediens influentiam causae agentis, dicitu 
+      <lb ed="#L" n="95"/>causare priuationem quae habet rationem mali: haec autem non 
+      <lb ed="#L" n="96"/>conuenit agenti inquantum bonum, sed inquantum contrariun 
+      <lb ed="#L" n="97"/>praedominans, &amp; hoc modo malum habet causam &amp; non aliter 
+      </p>
+            <p xml:id="jsnvu6-d1e3878-d1e368">
+               <lb ed="#L" n="98"/>
+               <!--8--> AD PRIMVM argumentum dicendum quod illud quod 
+      <lb ed="#L" n="99"/>est bonum &amp; sui diffusiuum, non tamen ratione bonitatis, sed 
+      ra<lb ed="#L" n="100" break="no"/>tione perfectionis quae virtualiter continet alterum, sicut calo 
+      <lb ed="#L" n="101"/>qui est bonus igni diffundit se causando calorem aquae propter 
+      <lb ed="#L" n="102"/>perfectionem &amp; dominium suae virtutis super aquam, &amp; per 
+      con<lb ed="#L" n="103" break="no"/>sequens causat malum, inquantum priuat aquam frigiditate sibi 
+      <lb ed="#L" n="104"/>conueniente, nec tamen propter hoc est sui corruptiuum, 
+      qui<lb ed="#L" n="105" break="no"/>non causat malum sibi oppositum, nisi secundum communem 
+      <lb ed="#L" n="106"/>rationem boni &amp; mali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3878-d1e393">
+               <lb ed="#L" n="107"/>
+               <!--9--> Ad secundum dicendum quod ibi comparatur actus exterio 
+      <lb ed="#L" n="108"/>interiori actui voluntatis, quorum vnus est ab alio, malus a malo 
+      <lb ed="#L" n="109"/>sicut bonus a bono: causalitas tamen respicit per se in vtroque 
+      <lb ed="#L" n="110"/>entitatem non malitiam, nisi secundario &amp; per accidens. 
+      Argu<lb ed="#L" n="111" break="no"/>mentum in oppositum bene probat quod probat bonum est 
+      cau<lb ed="#L" n="112" break="no"/>sa mali, sed non per se, nec inquantum bonum vel malum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

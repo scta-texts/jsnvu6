@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="14-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e251"><!-- l1d2q2 -->
+            <head xml:id="jsnvu6-d1e251-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e251-Hd1e103" type="question-title">Utrum attributa divina differant aliquo modo ex natura rei circumscripta omni operatione intellectus</head>
+            <p xml:id="jsnvu6-d1e251-d1e106">
+               <lb ed="#L" n="77"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="78"/>Vtrum attributa diuina aliquo modo 
+      <lb ed="#L" n="79"/>differant ex natura 
+      rei<lb ed="#L" n="80" break="no"/>. Scot. d. 8. 4.3. Nymphus 12. Metaph q 13. Henr. Quodl. 
+      <lb ed="#L" n="81"/>§. q.1. &amp; Quodl. 15. q. 1. Side Quodl. 7.4.1.
+    </p>
+            <p xml:id="jsnvu6-d1e251-d1e119">
+      <!--00094.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>CIRCA distinctionem attributorum 
+      quaerun<lb ed="#L" n="83" break="no"/>tur duo. Primum est, vtrum attributa diuina 
+      <lb ed="#L" n="84"/>differant aliquo modo ex natura rei, 
+      circunscri<lb ed="#L" n="85" break="no"/>Ipta omni operatione intellectus. Secundum est, 
+      <lb ed="#L" n="86"/>vtrum aliquis intellectus creatus vel increatus 
+      <lb ed="#L" n="87"/>possit concipere distinctionem attributorum diuinorum absque 
+      <lb ed="#L" n="88"/>omni comparatione ad creaturas. 
+      </p>
+            <p xml:id="jsnvu6-d1e251-d1e141">
+               <lb ed="#L" n="89"/>
+               <!--1--> Ad primum sic proceditur: &amp; arguitur, quod attributa differunt 
+      <lb ed="#L" n="90"/>in Deo ex natura rei, circunscripta omni operatione 
+      intelle<lb ed="#L" n="91" break="no"/>ctus. Primo sic: iustitia &amp; sapientia in Deo, aut signant ens ra 
+      <lb ed="#L" n="92"/>tionis, aut ens reale, aut aggregatum ex ambobus. Non ens ra 
+      <lb ed="#L" n="93"/>tionis tantum: quia tale cum sit ens diminutum, non dicit 
+      ali<lb ed="#L" n="94" break="no"/>quam perfectionem simpliciter, quemadmodum iustitia, &amp; 
+      sa<lb ed="#L" n="95" break="no"/>pientia. Nec dicit aggregatum ex ambobus: quia tunc 
+      conce<lb ed="#L" n="96" break="no"/>ptus iustitiae non esset vnus, quod est falsum: ergo dicunt ens 
+      <lb ed="#L" n="97"/>reale. Si ergo nulla est differentia inter ista ex parte rei, 
+      sequi<lb ed="#L" n="98" break="no"/>tur quod sapientia &amp; iustitia habent penitus idem signatum 
+      for<lb ed="#L" n="99" break="no"/>male, &amp; sic erunt synonyma, hoc autem est falsum: ergo 
+      neces<lb ed="#L" n="100" break="no"/>se est, quod differant aliquo modo ex natura rei. 
+      </p>
+            <p xml:id="jsnvu6-d1e251-d1e173">
+               <lb ed="#L" n="101"/>
+               <!--2--> Item, Deus cognoscit ista attributa distincte cognitione 
+      <lb ed="#L" n="102"/>intuitiua: sed illud quod conuenit rebus secundum rationem intelli 
+      <lb ed="#L" n="103"/>gendi tantum, non cognoscitur cognitione intuitiua: ergo distin 
+      <lb ed="#L" n="104"/>ctio istorum non est secudum rationem intelligendi tantum. Probatur 
+      <lb ed="#L" n="105"/>maior: quia ad cognitionem Dei beatificam pertinet ista cognosce 
+      <lb ed="#L" n="106"/>re distincte: sed cognitio Dei beatifica est intuitiua, quia cogni 
+      <lb ed="#L" n="107"/>tio intuitiua est perfectior omni alia cognitione: cognitio aute 
+      <lb ed="#L" n="108"/>beatifica debet esse perfectissima: ergo, &amp;c. Probatur minor, 
+      <lb ed="#L" n="109"/>quia illud quod conuenit rei secundum rationem intelligendi tantum, 
+      <lb ed="#L" n="110"/>non conuenit ei in existentia sua reali: sed cognitio intuitiua non 
+      <lb ed="#L" n="111"/>terminatur nisi ad existens, vt existens in rerum natura: ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e251-d1e202">
+               <lb ed="#L" n="112"/>
+               <!--3--> Item, Deus realiter intelligit, seu cognoscit mala fieri: sed 
+      <lb ed="#L" n="113"/>non vult mala fieri: ergo intelligere, &amp; velle in Deo non sunt 
+      <lb ed="#L" n="114"/>penitus idem ex natura rei: ergo aliquo modo differunt ex 
+      na<lb ed="#L" n="115" break="no"/>tura rei. &amp; idem videtur de aliis attributis. 
+      </p>
+            <p xml:id="jsnvu6-d1e251-d1e215">
+               <lb ed="#L" n="116"/>
+               <!--4--> IN CONTRARIVM arguitur: ga quae differunt ex 
+      <lb ed="#L" n="117"/>natura rei, circumscripto omni actu intelligendi, differunt realiter 
+      <lb ed="#L" n="118"/>sed nulus vnquam dixit, quod attributa differant in deo realiter: erge 
+      <lb ed="#L" n="119"/>non differunt ex natura rei, circumscripto omni actus intelligendi. 
+      </p>
+            <p xml:id="jsnvu6-d1e251-d1e228">
+               <lb ed="#L" n="120"/>
+               <!--5--> RESPONSIO. Circa quaestionem istam primo ponetui 
+      <lb ed="#L" n="121"/>quaedam opinio, quam non credo veram. Et secundo, ponendo 
+      <lb ed="#L" n="122"/>oppositum, respondebitur ad rationes prime opinionis. Quan 
+      <lb ed="#L" n="123"/>tum ad primum, dicunt quidam, quod attributa diuina differunt 
+      for<lb ed="#L" n="124" break="no"/>maliter, &amp; quidditatiue ex natura rei, ante omnem operationem 
+      <lb ed="#L" n="125"/>intellectus. Et ista differentia non est realis, cum omnia 
+      attribu<lb ed="#L" n="126" break="no"/>ta sint vna res simplicissima: nec est secundum rationem tantum, 
+      <lb ed="#L" n="127"/>cum praecedat omnem operationem intellectus: sed est media 
+      in<lb ed="#L" n="128" break="no"/>ter vtranque, &amp; vocatur ab eis differentia formalis. Confirmatur 
+      <lb ed="#L" n="129"/>autem haec opinio quatuor rationibus. Prima talis est: quae 
+      diffe<lb ed="#L" n="130" break="no"/>runt diffinitione, differunt formaliter &amp; quidditatiue ex natura 
+      <lb ed="#L" n="131"/>rei, quia diffinitio indicat quid est res: sed attributa, puta sapien 
+      <lb ed="#L" n="132"/>tia, honitas, differunt diffinitione: (si enim diffinirentur, alia 
+      diffi<lb ed="#L" n="133" break="no"/>nitio daretur de sapientia, alia de bonitate) ergo differunt 
+      forma<lb ed="#L" n="134" break="no"/>liter, &amp; quidditatiue ex natura rei. Secunda talis est: per idem 
+      <lb ed="#L" n="135"/>simplex non potest aliquid conuenire cum alio, &amp; differre ab 
+      eo<lb ed="#L" n="136" break="no"/>dem, nisi sit aliquo modo diuersificatum. Sed brutum per eandem 
+      <lb ed="#L" n="137"/>&amp; simplicem animae essentiam, inquantum est vegetatiua, 
+      conue<lb ed="#L" n="138" break="no"/>nit cum planta, &amp; inquantum est sensitiua, differt ab eadem: ergo 
+      <lb ed="#L" n="139"/>vna &amp; eadem essentia animae aliquo modo diuersificatur per 
+      <lb ed="#L" n="140"/>sensitiuam &amp; vegetatiuam: sed non realiter, ergo formaliter. Et 
+      <lb ed="#L" n="141"/>exemplificatur de albedine, quae inquantum color est, conuenit 
+      <lb ed="#L" n="142"/>cum nigredine, &amp; inquantum albedo, differt ab eadem. Cum 
+      ta<lb ed="#L" n="143" break="no"/>men sit vna res simpliciter albedo &amp; color: ergo oportet, quod 
+      <lb ed="#L" n="144"/>differant formaliter saltem. Tertia est talis: entitas &amp; bonitas 
+      dif<lb ed="#L" n="145" break="no"/>ferunt formaliter, licet sint vna res: sed haec differentia non est 
+      <lb ed="#L" n="146"/>ex parte intellectus, cum formalis ratio obiecti praecedat actum 
+      <lb ed="#L" n="147"/>potentiae: entitas autem est obiectum intellectus: ergo talis 
+      dif<lb ed="#L" n="148" break="no"/>ferentia est ex parte rei. Quarta ratio talis est illud quod de se 
+      <lb ed="#L" n="149"/>est communicabile, differt ex natura rei ab eo quod de se est 
+      in<lb ed="#L" n="150" break="no"/>communicabile: sed essentia diuina est de se communicabilis, 
+      pa<lb ed="#L" n="151" break="no"/>ternitas incommunicabilis: ergo essentia &amp; paternitas 
+      diffe<lb ed="#L" n="152" break="no"/>runt ex natura rei, sed non differunt realiter, cum sint vna res, 
+      <lb ed="#L" n="153"/>ergo formaliter. &amp; idem videtur de attributis. 
+      </p>
+            <p xml:id="jsnvu6-d1e251-d1e306">
+               <lb ed="#L" n="154"/>
+               <!--6--> QUANTVM ad secundum, dicendum est, quod haec 
+      opi<lb ed="#L" n="155" break="no"/>nio deficit in duobus: vnum est quia ponit differentiam quandam 
+      <lb ed="#L" n="156"/>mediam inter differentiam realem, &amp; differentiam rationis. Aliud 
+      <lb ed="#L" n="157"/>est, quod pertinet ad principale propositum, quia dicunt 
+      attribu<lb ed="#L" n="158" break="no"/>ta differre ex natura rei, circumscripta omni operatione 
+      intelle<lb ed="#L" n="159" break="no"/>ctus. Primum patet dupliciter: primo quia vnum &amp; multiplicata, 
+      <lb ed="#L" n="160"/>idem &amp; differens, sunt passiones entis sed nullum ens est, nec 
+      <lb ed="#L" n="161"/>esse potest, nisi ens rationis quod habet esse per operationem 
+      in<lb ed="#L" n="162" break="no"/>tellectus, vel ens reale, quod non habet esse per solam 
+      operatio<lb ed="#L" n="163" break="no"/>nem animae: ergo nec est, nec esse potest identitas, vel differentia,
+      <!--00095.xml-->
+      <pb ed="#L" n="15-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nisi realis, vel secundum rationem. Secundo, quia quicquid 
+      con<lb ed="#L" n="2" break="no"/>uenit rei secundum se, &amp; ex eius natura, circumscripta omni 
+      ope<lb ed="#L" n="3" break="no"/>ratione intellectus, est vere reale. Si ergo in eadem re simplici 
+      <lb ed="#L" n="4"/>puta diuina vel alia, inueniatur aliqua differentia ex natura rei, 
+      <lb ed="#L" n="5"/>circunscripta omni operatione intellectus, oportet quod illa 
+      <lb ed="#L" n="6"/>sit realis: quod ipsimet negant de attributis ergo in nulla 
+      ea<lb ed="#L" n="7" break="no"/>dem re simplici potest ex natura rei aliqua differentia inueniri 
+      <lb ed="#L" n="8"/>inter absoluta. Secundum patet dupliciter: primo, quia 
+      diffini<lb ed="#L" n="9" break="no"/>tio indicat quid est res: ergo quae differunt diffinitione, differunt 
+      <lb ed="#L" n="10"/>re. Sed attributa diuina secundum illos differunt diffinitione: 
+      er<lb ed="#L" n="11" break="no"/>go differunt re: quod est impossibile. Secundo, quia nihil 
+      plu<lb ed="#L" n="12" break="no"/>est modo in albedine ex natura rei, quam si non esset, vel si non pol 
+      <lb ed="#L" n="13"/>set esse alius color. Sed si non posset esse alius color, albedo &amp; 
+      <lb ed="#L" n="14"/>color non differrent formaliter ex natura rei: ergo nec modo 
+    </p>
+            <p xml:id="jsnvu6-d1e251-d1e369">
+               <lb ed="#L" n="15"/>
+               <!--7--> Ad rationes alterius opinionis respondendum est: ad prima 
+      <lb ed="#L" n="16"/>dicendum, quod si diffiniretur bonitas, &amp; sapientia in communi, 
+      <lb ed="#L" n="17"/>alia daretur diffinitio de bonitate, alia de sapientia: pro eo qui 
+      <lb ed="#L" n="18"/>sub vtraque continentur aliqua, quae differunt realiter. Sed si 
+      <lb ed="#L" n="19"/>non esset bonitas aut sapientia, nisi in Deo, &amp; diffinirentur, ea 
+      <lb ed="#L" n="20"/>dem esset diffinitio vtriusque: &amp; idem est, si diffiniantur nunc, 
+      <lb ed="#L" n="21"/>prout sunt vnum in Deo, quia idem est quid vtriusque. 
+    </p>
+            <p xml:id="jsnvu6-d1e251-d1e390">
+               <lb ed="#L" n="22"/>
+               <!--8--> Ad secundam dicendum est, quod loquendo de conuenientia, 
+      <lb ed="#L" n="23"/>&amp; differentia reali, minor est falsa, quia essentia animae bruti 
+      <lb ed="#L" n="24"/>inquantum est sensitiua, &amp; inquantum est vegetatiua (
+      exclu<lb ed="#L" n="25" break="no"/>"dendo potentias partis sensitiuae &amp; vegetatiuae, quę realiter 
+      in<lb ed="#L" n="26" break="no"/>ter se differunt) aequaliter conuenit &amp; differt ab anima plantae 
+      <lb ed="#L" n="27"/>Dicimus tamen, quod anima bruti conuenit cum anima plantae, 
+      <lb ed="#L" n="28"/>inquantum est vegetatiua: &amp; differt ab ea, inquantum est 
+      sensi<lb ed="#L" n="29" break="no"/>tiua, tam ex parte rei, quam secundum rationem 
+      consideran<lb ed="#L" n="30" break="no"/>di. Ex parte rei propter potentias: quia potentiae vegetatiua 
+      <lb ed="#L" n="31"/>bruti plus conueniunt cum potentiis plantae, quae simpliciter 
+      <lb ed="#L" n="32"/>sunt vegetatiuae, quam sensitiuae potentię eiusdem bruti, quia 
+      <lb ed="#L" n="33"/>nullae sensitiuae sunt in planta: secundum vero rationem 
+      consi<lb ed="#L" n="34" break="no"/>derandi, quia ex eo quod videmus potentias vegetatiuas animę 
+      <lb ed="#L" n="35"/>bruti plus conuenire secundum rem cum potentiis plantae, quam 
+      <lb ed="#L" n="36"/>conueniant sensitiuae, concipimus, quod anima bruti simplex &amp; 
+      <lb ed="#L" n="37"/>eadem (cuius sunt ambae potentiae) conueniat cum anima 
+      plan<lb ed="#L" n="38" break="no"/>tae, inquantum est vegetatiua, &amp; non inquantum est sensitiua 
+      <lb ed="#L" n="39"/>&amp; tamen, quantum est praecise ex parte essentiae animae 
+      plan<lb ed="#L" n="40" break="no"/>tae, excludendo quodcunque aliud, &amp; loquendo de re 
+      aequali<lb ed="#L" n="41" break="no"/>ter, differunt anima bruti, inquantum vegetatiua, &amp; inquantum 
+      <lb ed="#L" n="42"/>sensitiua, ab anima plantae: quia in essentia animae bruti nullo 
+      <lb ed="#L" n="43"/>modo differunt ex parte rei vegetatiuum, &amp; sensitiuum. 
+    </p>
+            <p xml:id="jsnvu6-d1e251-d1e442">
+               <lb ed="#L" n="44"/>
+               <!--9--> Ad tertium dicendum, quod entitas &amp; bonitas in eodem diffe 
+      <lb ed="#L" n="45"/>runt solum secundum rationem, &amp; non ex natura rei absolute. 
+      <lb ed="#L" n="46"/>Et cum dicitur, quod formalis ratio obiecti praesupponitur actui 
+      <lb ed="#L" n="47"/>potentiae, concedatur: &amp; ideo bene sequitur, quod entitas &amp; bonitas 
+      <lb ed="#L" n="48"/>sunt in rebus ante omnem operationem intellectus, sed in 
+      dif<lb ed="#L" n="49" break="no"/>ferentia omnino ex natura rei. Differunt autem per intellectum, 
+      <lb ed="#L" n="50"/>hoc modo: Intellectus enim appraehendens entitatem alicuius rei, 
+      <lb ed="#L" n="51"/>&amp; videns quod est alteri conueniens, alteri vero disconueniens, po 
+      <lb ed="#L" n="52"/>nit differentiam rationis inter entitatem rei, &amp; eius bonitatem, siu 
+      <lb ed="#L" n="53"/>conuenientiam: quia res est ens per comparatione ad omnem 
+      <lb ed="#L" n="54"/>aliam rem, sed non est conueniens, vel bona, per 
+      comparatio<lb ed="#L" n="55" break="no"/>nem ad omnem aliam rem, sed ad aliquam rem tantum: sicut 
+      ca<lb ed="#L" n="56" break="no"/>lor in gradu tali, est bonus, &amp; conueniens igni, non tamen 
+      ma<lb ed="#L" n="57" break="no"/>nui. Est tamen ens respectu cuiuslibet, &amp; tota causa est, quia 
+      <lb ed="#L" n="58"/>denominatio boni sumitur ex pluribus tanquam respectiua. 
+    </p>
+            <p xml:id="jsnvu6-d1e251-d1e479">
+               <lb ed="#L" n="59"/>
+               <!--10--> Ad quartam dicendum, quod non est simile de attributis 
+      ab<lb ed="#L" n="60" break="no"/>solutis inter se, &amp; de essentia respectu paternitatis, vel cuiusque 
+      <lb ed="#L" n="61"/>alterius relationis, quia relatio &amp; essentia differunt in diuinis 
+      <lb ed="#L" n="62"/>aliquo modo ex natura rei, vt patebit inferius. 
+    </p>
+            <p xml:id="jsnvu6-d1e251-d1e492">
+               <lb ed="#L" n="63"/>
+               <!--11--> Ad rationes principales respondendum est, quod sapientia &amp; 
+      iu<lb ed="#L" n="64" break="no"/>stitia non significant ens rationis, nec ens compositum ex ente 
+      rea<lb ed="#L" n="65" break="no"/>li, &amp; ente rationis: sed significant tantum ens reale: &amp; illud, 
+      quam<lb ed="#L" n="66" break="no"/>uis sit penitus idem in Deo, non tamen in creaturis: imo in eis 
+      <lb ed="#L" n="67"/>aliud realiter est sapientia, &amp; aliud iustitia, propter quod 
+      iusti<lb ed="#L" n="68" break="no"/>tiae, &amp; sapientię, prout sumuntur absolute, non est idem significatum 
+      <lb ed="#L" n="69"/>formale, nec per consequens sunt nomina synonyma, cuicunque 
+      <lb ed="#L" n="70"/>applicentur: quia non propter hoc mutant significatum suum for 
+      <lb ed="#L" n="71"/>male, quod est commune his, quae sunt idem, &amp; quae differunt: &amp; 
+      <lb ed="#L" n="72"/>prius, quo ad impositionem, respicit ea quae differunt, quam ea qu 
+      <lb ed="#L" n="73"/>sunt idem: quia mpositiones nominum conuenientium Deo &amp; 
+      <lb ed="#L" n="74"/>creaturis, fuerunt acceptae ex his, quae conueniunt creaturis: quae 
+      <lb ed="#L" n="75"/>sunt nobis prius notae. Si autem plura nomina imponerentur 
+      <lb ed="#L" n="76"/>ad significandum praecise perfectiones absolutas, quae sunt in 
+      <lb ed="#L" n="77"/>Deo, &amp; ex ipsis immediate sumeretur illorum nominum 
+      im<lb ed="#L" n="78" break="no"/>positio, illa essent synonyma: sed non est sic in proposito. 
+    </p>
+            <p xml:id="jsnvu6-d1e251-d1e531">
+               <lb ed="#L" n="79"/>
+               <!--12--> Ad secundam rationem dicendum, quod accipiendo cognitionem 
+      intui<lb ed="#L" n="80" break="no"/>uuam pro cognitione tendente immediate in rem praesentem, 
+      secun<lb ed="#L" n="81" break="no"/>dum eius actualem existentiam, sic Deus suam iustitiam, &amp; suam 
+      <lb ed="#L" n="82"/>bonitatem (quae sunt realiter id quod ipse) cognoscit intuitiue, 
+      <!--00095.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>sed non distinctionem eorum: quia non conuenic eis secundum 
+      <lb ed="#L" n="84"/>esse reale existentiae, sed solum secundum rationem. Et cum 
+      proba<lb ed="#L" n="85" break="no"/>tur, quod imo, quia ad cognitione beatificam, quae est intuitiua, 
+      <lb ed="#L" n="86"/>pertinet ista cognoscere distincte, seu distinctionem istorum, 
+      dicen<lb ed="#L" n="87" break="no"/>dum est, quod cognitio Dei beatifica est omnium, non solum 
+      illo<lb ed="#L" n="88" break="no"/>rum respectu, quorum dicitur intuitiua, vt est sua essentia, sed 
+      <lb ed="#L" n="89"/>omnium creaturarum, entium etiam possibilium, &amp; omnium 
+      ratio<lb ed="#L" n="90" break="no"/>num, quae circa ipsum &amp; creaturas considerari possunt respectu 
+      <lb ed="#L" n="91"/>quorum non dicitur vllo modo intuitiua: nec omnem cognitione 
+      <lb ed="#L" n="92"/>beatificam esse intuitiuam respectu omnium, nisi respectu 
+      princi<lb ed="#L" n="93" break="no"/>palis obiecti. Et cum dicitur vlterius, quod cognitio intuitiua est 
+      <lb ed="#L" n="94"/>nobilior abstractiua, &amp; ob hoc omnem cognitionem beatificam, 
+      <lb ed="#L" n="95"/>tanquam nobilissimam, esse intuitiuam: dicendum, quod cognitio 
+      in<lb ed="#L" n="96" break="no"/>tuitiua est nobilior, quam abstractiua, excludendo intuitiuam: sed 
+      <lb ed="#L" n="97"/>cognitio; quae vtramque includit, est nobilior, quam altera earum, 
+      <lb ed="#L" n="98"/>quaecunque sit illa: sicut cognitio Dei est nobilior, quam cognitio 
+      <lb ed="#L" n="99"/>creaturae praecise: sed cognitio Dei &amp; creaturae simui est 
+      nobi<lb ed="#L" n="100" break="no"/>lior, quam sola cognitio Dei, caeteris paribus. Cognitio autem 
+      bea<lb ed="#L" n="101" break="no"/>tifica Dei omnia praedicta includit, &amp; ideo est perfectissima. 
+    </p>
+            <p xml:id="jsnvu6-d1e251-d1e590">
+               <lb ed="#L" n="102"/>
+               <!--12--> Ad tertiam rationem dicendum, quod ex eo, quod Deus 
+      cogno<lb ed="#L" n="103" break="no"/>scit mala fieri &amp; non vult mala fieri, non potest concludi, quod 
+      co<lb ed="#L" n="104" break="no"/>gnoscere, &amp; velle, in Deo differunt ex natura rei: quia licet 
+      in<lb ed="#L" n="105" break="no"/>telligere, &amp; velle, &amp; omnia absoluta, in diuinis importent 
+      ean<lb ed="#L" n="106" break="no"/>dem rem penitus indifferentem ex natura rei, &amp; ob hoc 
+      verifi<lb ed="#L" n="107" break="no"/>centur de se inuicem in praedicatione dicente, hoc est hoc, quia 
+      <lb ed="#L" n="108"/>intelligere Dei, est suum velle: &amp; econuerso. &amp; idem est de 
+      omni<lb ed="#L" n="109" break="no"/>bus absolutis. Tamen quaedam nomina important illam rem per 
+      <lb ed="#L" n="110"/>modum actus nullo modo tendentis in aliud, sicut esse: quędam 
+      <lb ed="#L" n="111"/>vero per modum actus tendentis vel connotantis aliud, sicut 
+      in<lb ed="#L" n="112" break="no"/>telligere, &amp; velle, quae secundum rationem tendunt in cognitum, 
+      <lb ed="#L" n="113"/>&amp; volitum quod potest esse aliud a Deo: quia Deus non solum 
+      <lb ed="#L" n="114"/>cognoscit &amp; vult se, sed etiam alia a se. Et ob hoc esse non 
+      com<lb ed="#L" n="115" break="no"/>petit Deo sub illa connotatione, sub qua competit ei 
+      intellige<lb ed="#L" n="116" break="no"/>re &amp; velle. Non enim est verum dicere, quod Deus sit aliud a se, 
+      <lb ed="#L" n="117"/>sicut intelligit &amp; vult alia a se. Et eodem modo, quia omnis actus 
+      <lb ed="#L" n="118"/>requirit in obiecto, in quod nomen tendit, determinatam 
+      ratio<lb ed="#L" n="119" break="no"/>nem: ideo importans actum diuinum, vt tendentem in obiectum, 
+      <lb ed="#L" n="120"/>non verificatur, nisi in illo obiecto inueniatur ratio 
+      correspon<lb ed="#L" n="121" break="no"/>dens illi actui, vt importatur per tale nomen. Et quia perfectio 
+      <lb ed="#L" n="122"/>diuina, vt importatur per tale nomen: quod est velle, requirit 
+      <lb ed="#L" n="123"/>in obiecto volito rationem boni, quam non requirit necessario 
+      ea<lb ed="#L" n="124" break="no"/>dem perrectio, vt importatur per hoc nomen quod est 
+      intelli<lb ed="#L" n="125" break="no"/>gere, non quidem propter aliquam differentiam, quae sit inter 
+      <lb ed="#L" n="126"/>ista ex parte rei, sed quia vnumquodque praedictorum nominum 
+      <lb ed="#L" n="127"/>importat perfectionem diuinam secundum quod continet prae 
+      <lb ed="#L" n="128"/>cise illum actum, qui in creaturis importatur per idem nomem: 
+      <lb ed="#L" n="129"/>idcirco verificamus hanc Deus agnoscit mala fieri, &amp; non hanc 
+      <lb ed="#L" n="130"/>Deus vult mala fieri: quamuis intelligere Dei, &amp; suum velle, 
+      nul<lb ed="#L" n="131" break="no"/>lo modo differant ex natura rei, vt dictum est, sed solum secun 
+      <lb ed="#L" n="132"/>dum rationem, quo supposito procedit sequens quaetio 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

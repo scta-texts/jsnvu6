@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="38-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e754"><!-- l1d12q1 -->
+            <head xml:id="jsnvu6-d1e754-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e754-Hd1e103" type="question-title">Utrum generatio filii sit prior processione Spiritus Sancti</head>
+            <p xml:id="jsnvu6-d1e754-d1e106">
+               <lb ed="#L" n="141"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="142"/>trum generatio filij sit prior 
+      processio<lb ed="#L" n="143" break="no"/>ne spiritus sancti. 
+      <lb ed="#L" n="144"/>Thom. 1. g. 45.4r. 3. 
+    </p>
+            <p xml:id="jsnvu6-d1e754-d1e117">
+               <lb ed="#L" n="145"/>CIRCA distinctionem istam quaeritur de tribus 
+      <lb ed="#L" n="146"/>Primum est vtrum generatio filij sit prior 
+      pro<lb ed="#L" n="147" break="no"/>cessione spiritus sancti. Secundum est vtrum spi 
+      <lb ed="#L" n="148"/>ritus sanctus plenius &amp; perfectius procedat a pa 
+      <lb ed="#L" n="149"/>tre quam a filio. Tertium est vtrum spiritus 
+      san<lb ed="#L" n="150" break="no"/>ctus sit a patre mediante filio, an per filium. Ad primum sic 
+      <lb ed="#L" n="151"/>proceditur. Et videtur quod generatio filij sit prior 
+      processio<lb ed="#L" n="152" break="no"/>ne spiritus sancti: quia sicut est in trin. creata sic videtur esse in 
+      <lb ed="#L" n="153"/>increata, quia vna exemplata est ab alia, sed in trinit. creata 
+      <lb ed="#L" n="154"/>productio verbi natura praecedit productionem amoris, ergo 
+      <lb ed="#L" n="155"/>in trinitate increata productio filij praecedit productionem 
+      <lb ed="#L" n="156"/>spiritus sancti¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e146">
+               <lb ed="#L" n="157"/>
+               <!--2.--> Item sicut se habet generatum ad spiratum, sic generatio 
+      <lb ed="#L" n="158"/>ad spirationem, sed generatum prius est spirato cum sit 
+      prin<lb ed="#L" n="159" break="no"/>cipium eius, ergo generatio praecederet spirationem. 
+      <!--00142.xml-->
+      <pb ed="#L" n="38-v"/>
+               <cb ed="#L" n="a"/>
+            </p>
+            <p xml:id="jsnvu6-d1e754-d1e165">
+               <lb ed="#L" n="1"/>
+               <!--3--> IN CONTRARIVM est quod dicitur in 
+      symbol<lb ed="#L" n="2" break="no"/>Athanasij quod in tri. nihil prius aut posterius, nihil mai? aut min¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e174">
+               <lb ed="#L" n="3"/>
+               <!--4.--> Et arguitur per rationem, quia sicut se habet pater ad filium 
+      <lb ed="#L" n="4"/>sic pater &amp; filius ad Spiritum sanctum, sed pater nullo mod 
+      <lb ed="#L" n="5"/>est prior filio, vt probatum fuit supra dist. 9. ergo nec filius po 
+      <lb ed="#L" n="6"/>test esse prior Spiritu sancto, quare nec generatio filij potes 
+      <lb ed="#L" n="7"/>esse prior processione Spiritus sancti, quia sicut se habet ter 
+      <lb ed="#L" n="8"/>minus ad terminum, sic actio ad actionem. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e192">
+               <lb ed="#L" n="9"/>
+               <!--5--> RESPONSIO: cum quaeritur de prioritate 
+      genera<lb ed="#L" n="10" break="no"/>tionis filij respectu processionis Spi. sancti, aut quaeritur de prio 
+      <lb ed="#L" n="11"/>ritate secundu rem, aut secundum rationem intelligendi. Si de prio 
+      <lb ed="#L" n="12"/>ritate secundum, sic dicunt quidam quod inter gene rationem 
+      fi<lb ed="#L" n="13" break="no"/>lij &amp; spirationem Spi. sancti, est quidem per se ordo originis qui 
+      <lb ed="#L" n="14"/>vnum est ab altero, sed non est ibi ordo prioris aut posterioris 
+      <lb ed="#L" n="15"/>Primum probant sic, Spi. sanctus per se est a genito: ergo spirar 
+      <lb ed="#L" n="16"/>por se est a generari, probatiotam antecedentis quam 
+      conseque<lb ed="#L" n="17" break="no"/>tiae, consequentia patet sic: quando aliqua per se sunt vnum &amp; ide 
+      <lb ed="#L" n="18"/>re maxime relata in diuinisquicquid ad originem pertincus dici 
+      <lb ed="#L" n="19"/>tur per se de vno &amp; de altero, &amp; ratio est quia origines in 
+      di<lb ed="#L" n="20" break="no"/>uinis attenduntur secundum relata, &amp; inter relata, sed generari 
+      <lb ed="#L" n="21"/>&amp; genitus &amp; spirari &amp; spiritus sunt per se vnum &amp; idem re 
+      ni<lb ed="#L" n="22" break="no"/>solum in absoluto sed in re relata, ergo quicquid ad originem 
+      <lb ed="#L" n="23"/>pertinens dicitur de genito &amp; spirato per se, vt pote quod vnum 
+      <lb ed="#L" n="24"/>sit ab altero per se, hoc competit ei quod est generari, &amp; 
+      spira<lb ed="#L" n="25" break="no"/>ri, scilicet quod spirari sit per se a generari realiter loquendo licet 
+      <lb ed="#L" n="26"/>quo ad nomen sit improprius modus loquendi propter alium 
+      <lb ed="#L" n="27"/>modum significandi. Quod aute generari &amp; genitus, &amp; spirar 
+      <lb ed="#L" n="28"/>&amp; spiritus sint idem re &amp; per se patet, quia excluso motu ab 
+      a<lb ed="#L" n="29" break="no"/>ctione &amp; passione soli respectus remanent a quo aliud &amp; quod al 
+      <lb ed="#L" n="30"/>349. sed a generatione, &amp; spiratione diuina excluditur omgi 
+      <lb ed="#L" n="31"/>motus, ergo remanent soli respectus ita quod generatio actiua, 
+      <lb ed="#L" n="32"/>spiratio actiua dicunt solum respectum, a quo est aliud per 
+      ta<lb ed="#L" n="33" break="no"/>lem, vel per talem modum, genci ari autem &amp; spirari dicunt 
+      respe<lb ed="#L" n="34" break="no"/>ctum solum, vt quod ab alio secundum talem vel talem modum 
+      <lb ed="#L" n="35"/>Sed per respectum originis passiuae constituitur per se 
+      perspn<lb ed="#L" n="36" break="no"/>nuae est terminus originis, ergo generari &amp; spirari passiue 
+      acc<lb ed="#L" n="37" break="no"/>pta cum sint soli re spectus sunt idem per se cum genito &amp; spira 
+      <lb ed="#L" n="38"/>to, &amp; haec fuit nunor. patet ergo consequentia, scilicet, quod sit sp 
+      <lb ed="#L" n="39"/>ritus est per se a genito quod spirari per se est a generari, quia 
+      id<lb ed="#L" n="40" break="no"/>sunt generari &amp; genitus, spirari &amp; spiritus. antecedens pate 
+      <lb ed="#L" n="41"/>scilicet quod spiritus sit per se a genito quia de ratione spirati est 
+      <lb ed="#L" n="42"/>esse productum ab aliquo prius producto, sed illud non potes 
+      <lb ed="#L" n="43"/>esse nisi genitum. Cum in diuinis non sit nec esse possit praete 
+      <lb ed="#L" n="44"/>spiraionem aliqua productio nisi generatio, ergo spiritus est pe 
+      <lb ed="#L" n="45"/>se a genito, dico autem per se quia licet filius sit a parre spirant 
+      <lb ed="#L" n="46"/>productus, hoc tamen accidit modo quo aliquid potest accidere 
+      <lb ed="#L" n="47"/>in diuinis quia non est de ratione filij quod producatur a spirante 
+      <lb ed="#L" n="48"/>quia posito per impossibilo quod pater non spiraret, adhuc tamen 
+      <lb ed="#L" n="49"/>intelligeretur vt generans filium, sed in proposito nostro 
+      nulle<lb ed="#L" n="50" break="no"/>modo intelligeretur. aliquid spiratum nisi esset productum 
+      <lb ed="#L" n="51"/>genito &amp; per consequens a generate saltem mediante: propter 
+      <lb ed="#L" n="52"/>quod inter spiratum ex vna parte &amp; genitum, &amp; generanten 
+      <lb ed="#L" n="53"/>ex alia est ordo originis ergo inter spirari ex vna parte &amp; 
+      ge<lb ed="#L" n="54" break="no"/>nerari &amp; generare ex alia est similis ordo. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e296">
+               <lb ed="#L" n="55"/>
+               <!--6.--> Istud autem non videtur, scilicet que spiritus sit per se a genito 
+      <lb ed="#L" n="56"/>&amp; generate, quia cuicunque comperit quod ab ipso sit spiritus per 
+      <lb ed="#L" n="57"/>se, ei competit quod sit spiras per se, sed genito &amp; generanti non 
+      <lb ed="#L" n="58"/>competit per se quod sint spirantes, ergo non comperit eis per se ( 
+      <lb ed="#L" n="59"/>ab ipsis sit spiritus. Maior patet quia spiritus inquantum est spi 
+      <lb ed="#L" n="60"/>ritus non potest esse nisi a spirante inquantum est spirans. Mino 
+      <lb ed="#L" n="61"/>patet, quia si genito &amp; generanti competit per se esse spirantes, 
+      <lb ed="#L" n="62"/>tunc haec est vera genitu inquantum genitum est spirans, &amp; gene 
+      <lb ed="#L" n="63"/>rans inquantum generans est spirans, quia in propositionibu 
+      <lb ed="#L" n="64"/>per se semper potest fieri reduplicatio subiecti; eo quod est ibi 
+      ra<lb ed="#L" n="65" break="no"/>tio inhaerentie praedicati eum subiecto vt dicendo homo 
+      inquan<lb ed="#L" n="66" break="no"/>tum homo est anim? Trisibile, vel interfectum inquantum 
+      interfe<lb ed="#L" n="67" break="no"/>ctum interiit. Et similiter in proposito debet se maxiime, 
+      qui<lb ed="#L" n="68" break="no"/>aliter non concluderetur intentum, quicquid enim conuenit gene 
+      <lb ed="#L" n="69"/>ranti, vel genito nisi eis conueniat inquantum sunt generans &amp; 
+      <lb ed="#L" n="70"/>genitum, non potest ex hoc concludi quod conueniat per se ge 
+      <lb ed="#L" n="71"/>neranti, sed istae non videntur verae genitum inquatum genitum 
+      <lb ed="#L" n="72"/>est spirans, vel generans inquantum generans est spiras. Quoc 
+      <lb ed="#L" n="73"/>enim genitum inquantum genitum non sit spirans, patet. quia 
+      <lb ed="#L" n="74"/>omne genitum inquantum genitum est productum, ergo nullum 
+      <lb ed="#L" n="75"/>genitum inquantum genitum est producens, ergo nec spirans 
+      <lb ed="#L" n="76"/>per locum a destructione superioris. Et probatur consequentia, 
+      <lb ed="#L" n="77"/>que licet relatio producentis &amp; producti possint conuenire 
+      ei<lb ed="#L" n="78" break="no"/>dem subiecto respectu diuersorum, tamen vna nunquam potest 
+      <lb ed="#L" n="79"/>esse alia, nec causa seu ratio alterius. Verbi gratia aqua calesit 
+      <lb ed="#L" n="80"/>ab igne, &amp; calefacit manum, ecce ratio producentis &amp; producti 
+      <lb ed="#L" n="81"/>in aqua respectu diuersorum, scilicet ignis &amp; manus, sed certe 
+      <lb ed="#L" n="82"/>esse calefactum non est esse calefacientem, nec aquam esse cale¬ 
+      <!--00142.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>factam est causa, siue ratio sibi calefaciendi manum sed eam ess 
+      <lb ed="#L" n="84"/>calidam: &amp; quamuis non sit calida nisi calefacta ab igne, tamer 
+      <lb ed="#L" n="85"/>esse calefacta quod praecise sonat in ratione producti nullo mo 
+      <lb ed="#L" n="86"/>do est ei ratio per se calefaciendi aliud, quia cessante calefactio 
+      <lb ed="#L" n="87"/>ne &amp; remanente calore certe adhuc potest calefacere, &amp; si aqua 
+      <lb ed="#L" n="88"/>haberet calorem ex se &amp; non ab alio calefaceret: eodem mode 
+      <lb ed="#L" n="89"/>est in proposito, quia eidem supposito filij conuenit ratio produ 
+      <lb ed="#L" n="90"/>cti &amp; producentis respectu diuersorum, tamen esse productum, ve 
+      <lb ed="#L" n="91"/>genitum non est esse producentem vol spirantem, nec esse 
+      geni<lb ed="#L" n="92" break="no"/>tum per se est ei ratio spirandi alterum, sed vis spiratiua. Et 
+      qua<lb ed="#L" n="93" break="no"/>uis haec non sit in filio nisi per generationem, tamen ipsa 
+      gene<lb ed="#L" n="94" break="no"/>ratio per accidens se habet ad spirationem, quia si in filio esse: 
+      <lb ed="#L" n="95"/>vis spiratiua non per generationem habita sicut est in patre 
+      <lb ed="#L" n="96"/>adhuc filius spiraret, non spirat, ergo inquantum genitus. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e396">
+               <lb ed="#L" n="97"/>
+               <!--7.--> Item nec pater spirat inquantum generans, quia hoc esset. 
+      <lb ed="#L" n="98"/>aut quia generare &amp; spirare sunt idem sicut superius &amp; inferius 
+      <lb ed="#L" n="99"/>&amp; tunc ista verificaretur pater inquantum generans est spiras 
+      <lb ed="#L" n="100"/>sicut ista sortes inquantum albus est coloratus, aut quia actus g. 
+      <lb ed="#L" n="101"/>nerandi esset patri ratio spirandi, sicut calor est igni ratio 
+      cale<lb ed="#L" n="102" break="no"/>faciendi. Primum non potest dici quod scilicet spirare sit superius 
+      <lb ed="#L" n="103"/>ad generare, licet hoc dicant quidam quod spirare in patre est 
+      rea<lb ed="#L" n="104" break="no"/>liter idem quod generare, &amp; in filio est idem realiter quod gr 
+      <lb ed="#L" n="105"/>nerari, ita quod spirare in sua communitate acceptum est superius 
+      <lb ed="#L" n="106"/>ad generare &amp; generari. Hoc enim non est verum sicut infra 
+      pro<lb ed="#L" n="107" break="no"/>babitur. Et nunc supponitur. Nec secundum potest dici, quia fi 
+      <lb ed="#L" n="108"/>generare paeri esset ratio spirandi, cum generare non conuenia 
+      <lb ed="#L" n="109"/>filio, aut filius non spiraret, aut in patre &amp; filio non esset idem 
+      <lb ed="#L" n="110"/>principium &amp; ratio spirandi, quorum vtrumque est falsum, 
+      qui<lb ed="#L" n="111" break="no"/>&amp; filius spirat, &amp; idem principium &amp; ratio spirandi est in 
+      patr<lb ed="#L" n="112" break="no"/>&amp; filio, nullo modo ergo generans inquantum generans est sp 
+      <lb ed="#L" n="113"/>rans, nec genitus inquantum genitus est spirans, vt prius oste 
+      <lb ed="#L" n="114"/>sum est, ergo spiritus non est per se a genito, nec a generant. 
+      <lb ed="#L" n="115"/>inquantum huiusmodi, quare nec spirare est per se a generari 
+      <lb ed="#L" n="116"/>Item impossibile est quod eadem actio secundum numerum sit 
+      <lb ed="#L" n="117"/>a pluribus vt pluribus vt plura sunt, &amp; vt in nullo conueniunt, 
+      <lb ed="#L" n="118"/>sed spirare Spiritumsanctum est vna actio secundum numerum 
+      <lb ed="#L" n="119"/>generans autem &amp; genitum inquantum huiusmodi sunt plura, 
+      <lb ed="#L" n="120"/>&amp; vt plura sunt nec in aliquo vno secundum numerum 
+      con<lb ed="#L" n="121" break="no"/>ueniunt inquantum generans &amp; genitum, ergo spirare non est 
+      <lb ed="#L" n="122"/>per se a generante nec a genito, vt illi dicunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e457">
+               <lb ed="#L" n="123"/>
+               <!--8.--> Quod concedimus dicentes quod inter generationem filij &amp; 
+      <lb ed="#L" n="124"/>spirationem Spiritussancti est quidem ordo originis; sed non pe 
+      <lb ed="#L" n="125"/>se &amp; directe, sed indirecte &amp; concomitatiue &amp; quasi per accidens, 
+      <lb ed="#L" n="126"/>eo modo quo per accidens potest reperiri in diuinis. Ad quod 
+      <lb ed="#L" n="127"/>sciendum notanda sunt tria. Primum est quod nulla actio dependet ex 
+      <lb ed="#L" n="128"/>praecedente passione nisi quia terminus passionis est principium 
+      <lb ed="#L" n="129"/>actionis. Sic enim aqua calefacit prius calefacta, inquantum 
+      ca<lb ed="#L" n="130" break="no"/>lor terminans calefieri aquae est principium calefaciendi alterum. Sic 
+      <lb ed="#L" n="131"/>etiam passio dependet a passione vt moueri ipsius grauis 
+      de<lb ed="#L" n="132" break="no"/>penderet a suo generari inquantum forma grauis quae est 
+      ter<lb ed="#L" n="133" break="no"/>minus generationis est principium motus sequentis. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e487">
+               <lb ed="#L" n="134"/>9.-Secundum est quod principium sequentis actionis potest 
+      <lb ed="#L" n="135"/>esse terminus praecedentis passionis dupliciter, scilicet per se vel 
+      <lb ed="#L" n="136"/>per accidens. Per se sicut calor aquae est terminus calefactioni 
+      <lb ed="#L" n="137"/>suae passiuae. Per accidens vero &amp; concomitatiue sicut calefieri 
+      <lb ed="#L" n="138"/>ossium terminatur ad albedinem, scilicet per accidens ratione 
+      <lb ed="#L" n="139"/>materiae, nam quaedam ossa calefacta rubescunt, quaedam 
+      ni<lb ed="#L" n="140" break="no"/>grescunt. Albedo autem est per se principium disgregandi. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e505">
+               <lb ed="#L" n="141"/>
+               <!--10--> Tertium est quod passio praecedens quae terminatur ad 
+      <lb ed="#L" n="142"/>principium actionis sequentis potest se habere ad ipsum dupli 
+      <lb ed="#L" n="143"/>citer, vno modo sicut fieri transiens manente termino, &amp; sic se 
+      <lb ed="#L" n="144"/>habet calefieri aquae ad calorem suum (manet enim aqua 
+      ali<lb ed="#L" n="145" break="no"/>quo tempore calida postquam cessauit calefactio.) Alio modo 
+      <lb ed="#L" n="146"/>sicut fieri permanens necessario cum termino, sicut 
+      illumina<lb ed="#L" n="147" break="no"/>ri aeris manet quandiu manet lumen in aere. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e525">
+               <lb ed="#L" n="148"/>
+               <!--11--> His suppositis patet quod vbi principium sequentis actionis est si 
+      <lb ed="#L" n="149"/>lum terminus per accidens praecedentis actionis, vel passionis (sicu 
+      <lb ed="#L" n="150"/>albedo ossis quae est per se principium disgregandi est terminu: 
+      <lb ed="#L" n="151"/>per accidens calefactionis ossis) ibi sequens actio est solum per acci 
+      <lb ed="#L" n="152"/>dens ex praecedente actione vel passione: sicut in exemplo de osse 
+      <lb ed="#L" n="153"/>disgregatio est solum per accidens ex calefactione. Cuius ratio est. 
+      <lb ed="#L" n="154"/>quia sequens actio non est ex praecedente actione vel passioni 
+      <lb ed="#L" n="155"/>nisi propter habitudinem vnius &amp; eiusdem respectu vtriusque in 
+      <lb ed="#L" n="156"/>ratione termini &amp; principij, vbi ergo illud vnum quod est 
+      me<lb ed="#L" n="157" break="no"/>dium se habet ad alterum excremorum per accidens tota habitudo es 
+      <lb ed="#L" n="158"/>tremorum est per accidens inter se, vbi vero passio praecedens si 
+      <lb ed="#L" n="159"/>habet ad terminum suum sicut fieri transiens manente termino 
+      <lb ed="#L" n="160"/>ibi sequens actio est ex praecedente actione vel passione solum 
+      <lb ed="#L" n="161"/>per accidens: Cuius ratio est, quia effectus in actu requirit cat 
+      <lb ed="#L" n="162"/>sam in actu &amp; maxime effectus qui est in fieri, sed sequens 
+      acti<lb ed="#L" n="163" break="no"/>quae est actu, est secundum fieri cessante priore passione, sicut aqui 
+      <lb ed="#L" n="164"/>calida calefacit manum postquam desiit calefieri, ergo sequens 
+      <!--00143.xml-->
+      <pb ed="#L" n="39-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>actio non est per se ex praecedente actione. Et forte causa est, 
+      <lb ed="#L" n="2"/>quia praecedens actio vel passio est causa termini solum in fieri, &amp; 
+      <lb ed="#L" n="3"/>ille terminus secundum suum esse est causa sequentis actionis 
+      pro<lb ed="#L" n="4" break="no"/>pter quod praecedens actio vel passio non est causa per se, sed 
+      pe<lb ed="#L" n="5" break="no"/>accidens. Vbi aut illa duo concurrunt, scilicet quod principium actionis 
+      <lb ed="#L" n="6"/>esset per accidens terminus praecedentis vel passionis. Et actio 
+      <lb ed="#L" n="7"/>vel passio praecedens se haberec ad terminum suum sicut fieri 
+      <lb ed="#L" n="8"/>transiens manente termino, ibi sequens actio esset ex 
+      praeceden<lb ed="#L" n="9" break="no"/>te actione vel passione per accidens duplici de causa, vt dictum 
+      <lb ed="#L" n="10"/>est. Vbi vero principium sequentis actionis esset per se terminus 
+      <lb ed="#L" n="11"/>praecedentis actionis vel passionis &amp; ad ipsum se haberet 
+      prae<lb ed="#L" n="12" break="no"/>cedens actio vel passio vt fieri necessario permanens cum 
+      termi<lb ed="#L" n="13" break="no"/>no, ibi sequens actio esset ex praecedente actione vel passione per 
+      <lb ed="#L" n="14"/>se, maxime si principia praecedentis actionis vel passionis, &amp; 
+      se<lb ed="#L" n="15" break="no"/>quentis actionis sint ordinata per se, quod pro tanto dicitur qui 
+      <lb ed="#L" n="16"/>non est ordo originis inter actiones &amp; passiones nisi secundum 
+      <lb ed="#L" n="17"/>ordinem principiorum, nec est proprius modus loquendi dicere qui 
+      <lb ed="#L" n="18"/>actio sit ex actione vel passione secundum quod principium sequen 
+      <lb ed="#L" n="19"/>tis actionis est a principio praecedentis actionis vel passionis 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e614">
+               <lb ed="#L" n="20"/>
+               <!--12--> Ex hoc ad propositum, certum est quod filio conuenit per si 
+      <lb ed="#L" n="21"/>spirare in quantum habet vim spiratiuam per quam est per se prin 
+      <lb ed="#L" n="22"/>cipium Spiritu sancti. Hanc autem habet per suum generari, 
+      <lb ed="#L" n="23"/>sed absque dubio generatio filij non terminatur per se &amp; 
+      dire<lb ed="#L" n="24" break="no"/>cte ad vim spiratiuam, sed solum concomitatiue, quia per 
+      gene<lb ed="#L" n="25" break="no"/>rationem concomitatur. Per se enim terminatur generatio tan 
+      <lb ed="#L" n="26"/>quam ad terminum ad illud solum quod per generationem est 
+      <lb ed="#L" n="27"/>productum ingenito, &amp; illud est sola relatio filiationis vt dictum 
+      <lb ed="#L" n="28"/>fuit supra distinctione septima, filiatio autem nec est vis 
+      spirati<lb ed="#L" n="29" break="no"/>ua, nec in ea per se includitur, ergo principium spirationis non 
+      <lb ed="#L" n="30"/>est per se terminus generationis, sed solum concomitatiue. Et 
+      <lb ed="#L" n="31"/>quasi per accidens. Igitur spirari non a generari per se &amp; dire 
+      <lb ed="#L" n="32"/>cte, sed quasi per accidens &amp; concomitatiue. Item per 
+      generatio<lb ed="#L" n="33" break="no"/>nem qualitercunque acceptam vis spiratiua non habet esse, sec 
+      <lb ed="#L" n="34"/>tantum habet esse in filio. Est enim in patre &amp; non per 
+      genera<lb ed="#L" n="35" break="no"/>tionem, sed spiratio non est a generatione qualitercunque 
+      ac<lb ed="#L" n="36" break="no"/>cepta actiue vel passiue nisi ratione virtutis spiratiuae, ergo sp 
+      <lb ed="#L" n="37"/>ratio non est a generatione nisi prout est in filio, non auten 
+      <lb ed="#L" n="38"/>prout est a parte immediate, quia pater non habet vim 
+      spirati<lb ed="#L" n="39" break="no"/>uam per aliquam generationem, ergo spiratio per se &amp; simpl 
+      <lb ed="#L" n="40"/>citer non est a generatione, sed solum secundum quid. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e664">
+               <lb ed="#L" n="41"/>
+               <!--13--> Quod autem arguunt alij quod de ratione spirati est quod sit 
+      <lb ed="#L" n="42"/>ab aliquo prius producto. Dicendum quod non est verum, sed 
+      so<lb ed="#L" n="43" break="no"/>lum quod sit ab aliquo habente vim spiratiuam. Nec est de 
+      ratio<lb ed="#L" n="44" break="no"/>ne virtutis spiratiuae quod sit in aliquo producto, nec de rationi 
+      <lb ed="#L" n="45"/>producti per generationem est per se &amp; directe quod habeat vim 
+      <lb ed="#L" n="46"/>spiratiuam, sed solum concomitatiue, in quantum generans 
+      <lb ed="#L" n="47"/>concomitatiue communicat genito omne illud in quo ei non 
+      <lb ed="#L" n="48"/>opponitur, per se autem non habet genitum inquantum 
+      geni<lb ed="#L" n="49" break="no"/>tum a generante nisi illud tantum secundum quod conuenit e 
+      <lb ed="#L" n="50"/>esse productum, &amp; haec est filiatio &amp; illud in quo est productum 
+      <lb ed="#L" n="51"/>scilicet essentia, in cuius indentitate producitur vt dictum fuit. 
+      <lb ed="#L" n="52"/>Et si dicatur quod de ratione spirati est quod procedat per 
+      mo<lb ed="#L" n="53" break="no"/>dum voluntatis qui modus supponit aliquod productum per 
+      <lb ed="#L" n="54"/>modum intellectus a quo est illud quod procedit per modum 
+      <lb ed="#L" n="55"/>voluntatis. Et ita spiratum per se est ab aliquo producto. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e701">
+               <lb ed="#L" n="56"/>
+               <!--14--> Dicendum quod hic est duplex defectus. Primus est quia 
+      <lb ed="#L" n="57"/>non est de ratione spirationis quod sit per modum voluntatis, 
+      <lb ed="#L" n="58"/>Sed competit ei haec denominatio per habitudinem ad creati 
+      <lb ed="#L" n="59"/>ras ex hoc quod supponitur esse a duobus vt prius dictum fuit 
+      <lb ed="#L" n="60"/>vnde dummodo spiratio sit a duobus, aut supponat aliquam 
+      <lb ed="#L" n="61"/>priorem emanationem qualitercunque hoc sit per se vel per 
+      <lb ed="#L" n="62"/>accidens semper potest dici per modum voluntaris. Secundu 
+      <lb ed="#L" n="63"/>defectus est, quia licet emanatio per modum voluntatis 
+      suppo<lb ed="#L" n="64" break="no"/>nat quandam aliam, tamen non est de ratione producti per 
+      mo<lb ed="#L" n="65" break="no"/>dum voluntatis que sit a producto per priorem emanationem 
+      <lb ed="#L" n="66"/>sicut patet in creaturis, ex quo hoc nomen tractum est. (Amo 
+      <lb ed="#L" n="67"/>enim quamuis supponat verbum, tamen non est a verbo 
+      tan<lb ed="#L" n="68" break="no"/>quam a principio producente ipsum.) Et similiter potest dici 
+      <lb ed="#L" n="69"/>quod Spiritus supponit aliquid productum per generationem, sed 
+      <lb ed="#L" n="70"/>non probatur quod sit ab illo per se tanquam a principio 
+      produ<lb ed="#L" n="71" break="no"/>ctiuo. Et ideo ratio illa magis arguit ordinem 
+      praesuppositio<lb ed="#L" n="72" break="no"/>nis quam principiationis vel originis. Sic ergo patet primum, 
+      <lb ed="#L" n="73"/>scilicet qualiter inter generari &amp; spirari est ordo originis. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e746">
+               <lb ed="#L" n="74"/>
+               <!--15--> Secundum patet scilicet quod inter generationem &amp; processionem 
+      <lb ed="#L" n="75"/>non est ordo prioris &amp; posterioris secundum rem vel 
+      vniuersali<lb ed="#L" n="76" break="no"/>ter in diuinis, quod probatur sic: Si in diuinis esset ordo 
+      prio<lb ed="#L" n="77" break="no"/>ris &amp; posterioris secundum rem hoc esset comparando absoluta 
+      <lb ed="#L" n="78"/>inter se, vel absoluta ad relationem, vel relationes adinuicem. Non 
+      <lb ed="#L" n="79"/>primo modo scilicet comparando absoluta inter se, quia in 
+      diui<lb ed="#L" n="80" break="no"/>nis non est realis pluralitas absolutorum, prius autem &amp; posterius: 
+      <lb ed="#L" n="81"/>secundum ie necessa rio requirunt realem pluralitatem, quia idem 
+      <lb ed="#L" n="82"/>respectu sui ipsiuss. o est prius &amp; posterius, quare &amp;c. Nec se¬ 
+      <!--00143.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>cundo modo scilicet comparando absoluta ad relationem, quia vel 
+      <lb ed="#L" n="84"/>esset ibi prius &amp; posterius natura vel duratione. Haec enim 
+      vi<lb ed="#L" n="85" break="no"/>dentur sufficienter prius, &amp; posterius diuidere secundum rem 
+      <lb ed="#L" n="86"/>non natura. Non enim est ibi pluralitas naturarum. Relatio enim 
+      <lb ed="#L" n="87"/>non est alia natura ab essentia. Nec duratione, quia quicquid es 
+      <lb ed="#L" n="88"/>in diuinis absolutum vel relatum est aeternum, quare &amp;c. Nec 
+      ter<lb ed="#L" n="89" break="no"/>tio modo videlicet comparando vnam relationem ad aliam, quia 
+      <lb ed="#L" n="90"/>vel hoc esset comparando relationes oppositas adinuicem ve 
+      <lb ed="#L" n="91"/>comparando relationes disparatas, non primo modo quia 
+      rela<lb ed="#L" n="92" break="no"/>tiones oppositae sunt simul omni modo simultatis nacura &amp; in 
+      <lb ed="#L" n="93"/>tellectu, adeo quod contradictionem implicat esse vel intelliger 
+      <lb ed="#L" n="94"/>vnam alteri. Propter quod satis est intelligibile illud quod 
+      ali<lb ed="#L" n="95" break="no"/>qui dicunt scilicet quod pater est prior filio non quidem natu 
+      <lb ed="#L" n="96"/>ra vel duratione sed origine, quia filius originatur a patre &amp; 
+      <lb ed="#L" n="97"/>non econuerso, hoc enim contradicit rationi, &amp; dicto beati Ai 
+      <lb ed="#L" n="98"/>gustini. Rationi quidem quia vbi producens constituitur in ess. 
+      <lb ed="#L" n="99"/>personali per suum producere, vel per relationem 
+      producen<lb ed="#L" n="100" break="no"/>tis, &amp; productum constituitur in esse personali per suum 
+      produ<lb ed="#L" n="101" break="no"/>ci, vel per relationem producti, ibi vnum non potest esse priu 
+      <lb ed="#L" n="102"/>altero, secundum originem. Sed pater in diuinis constituitur in esse 
+      <lb ed="#L" n="103"/>personali per generare, vel per paternitatem quae est relatio 
+      ge<lb ed="#L" n="104" break="no"/>nerantis. &amp; vtrunque est idem. Et filius consimiliter constituitu 
+      <lb ed="#L" n="105"/>in esse personali per generari, vel per filiationem quae est relatio 
+      <lb ed="#L" n="106"/>geniti, ergo pater nullo modo est prior filio per origine mino 
+      <lb ed="#L" n="107"/>de se patet. Sed ma. probatur, quia productio neque re neque 
+      in<lb ed="#L" n="108" break="no"/>tellectu potest praecedere produci, nec vniuersaliter aliqua ori 
+      <lb ed="#L" n="109"/>go actiue accepta originem passine acceptam, alioquin in ille 
+      <lb ed="#L" n="110"/>priori aliquis posset esse &amp; intelligi actu producens &amp; quod nihil 
+      <lb ed="#L" n="111"/>produceretur quod est intelligibile, &amp; incompossibile, quamuis 
+      er<lb ed="#L" n="112" break="no"/>go persona producens possit prius esse persona producta quando 
+      <lb ed="#L" n="113"/>neutra formaliter constituitur in esse personali per producere 
+      <lb ed="#L" n="114"/>&amp; produci, sicut est in creaturis, tamen in diuinis vbi 
+      person<lb ed="#L" n="115" break="no"/>constituuntur in esse personali per originem, impossibile est vlle 
+      <lb ed="#L" n="116"/>modo intelligere aliquam prioritatem, maxime originis quae 
+      prio<lb ed="#L" n="117" break="no"/>ritas originis quamuis possit esse inter duas origines passiue 
+      ac<lb ed="#L" n="118" break="no"/>ceptas, vt patet in creaturis, prius enim originatur flos quam fri 
+      <lb ed="#L" n="119"/>ctus, tamen talis prioritas non potest esse inter originem passius 
+      <lb ed="#L" n="120"/>sumptam, &amp; actiue, neque in Deo, neque in creaturis, quia sempe 
+      <lb ed="#L" n="121"/>simul sunt re &amp; intellectu, sicut relationes eis correspondentes 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e859">
+               <lb ed="#L" n="122"/>
+               <!--16.--> Item ponere talem prioritatem in diuinis expresse 
+      contradi<lb ed="#L" n="123" break="no"/>cit dicto Beati Augustini contra maximum, quod recitatur in 
+      <lb ed="#L" n="124"/>primo libro sententiarim distinct. 2. vbi dicitur sic, cum dicitui 
+      <lb ed="#L" n="125"/>filius a patre genitus non ostenditur inaequalitas substantiae sed 
+      <lb ed="#L" n="126"/>ordo naturae, non quo alter prior sit altero, sed quo alter est e 
+      <lb ed="#L" n="127"/>altero, ecce quod expresse ponit originis ordinem quo alter est 
+      <lb ed="#L" n="128"/>ab altero, &amp; quod negat prioritatem originis qua vnus sit prior 
+      <lb ed="#L" n="129"/>altero, &amp; sic patet quod inter relationes oppositas &amp; 
+      perso<lb ed="#L" n="130" break="no"/>nas per eas constitutas &amp; sic non est aliqua prioritas realis. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e883">
+               <lb ed="#L" n="131"/>
+               <!--17--> De rationibus autem disparatis &amp; realiter differentibus vi 
+      <lb ed="#L" n="132"/>sunt paternitas &amp; filiatio ex vna parte, &amp; processio &amp; spiratio 
+      <lb ed="#L" n="133"/>passiua ex altera, difficilius est probare quod non sit inter eas 
+      <lb ed="#L" n="134"/>aliqua prioritas realis seu ex natura rei. Veruntamen ad hoc 
+      <lb ed="#L" n="135"/>probandum, potest applicari ratio prius posita de substantia &amp; 
+      <lb ed="#L" n="136"/>relatione, quia omnis prioritas realis videtur esse secundum 
+      na<lb ed="#L" n="137" break="no"/>turam vel secundum durationem, sed vna relationum 
+      dispara<lb ed="#L" n="138" break="no"/>tarum non est prior altera natura, quia non sunt diuersae 
+      natu<lb ed="#L" n="139" break="no"/>rae, nec duratione, quia quaelibet est aeterna, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e907">
+               <lb ed="#L" n="140"/>
+               <!--18--> Contra rationem istam, &amp; contra conclusiones ad quas 
+      ad<lb ed="#L" n="141" break="no"/>ducta est, instatur ab aliquibus. Contra rationem sic, non 
+      om<lb ed="#L" n="142" break="no"/>nis pluralitas realis requirit differentiam naturae, vel 
+      duratio<lb ed="#L" n="143" break="no"/>nis, ergo non omnis prioritas realis: Consequentia tenet per 
+      <lb ed="#L" n="144"/>simile, quia non minus requirit pluralitas differentiam quam 
+      <lb ed="#L" n="145"/>prioritas. antecedens probatur, quia oppositae relationis in 
+      di<lb ed="#L" n="146" break="no"/>uinis necnon disparatae saltem filiatio &amp; processio sunt plure: 
+      <lb ed="#L" n="147"/>res, &amp; tamen non differunt natura, quia sunt vna natura, nec 
+      <lb ed="#L" n="148"/>duratione, quia sunt aeternae, ergo non omnis realis 
+      pluralita<lb ed="#L" n="149" break="no"/>requirit pluralitatem naturarum, nec successione durationis, 
+      <lb ed="#L" n="150"/>ergo nec realis prioritas hoc requirit. Super hoc tamen 
+      funda<lb ed="#L" n="151" break="no"/>tur totaliter praedicta ratio, ergo male. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e938">
+               <lb ed="#L" n="152"/>
+               <!--16--> Contra conclusiones autem instatur sic. Et primo contra 
+      <lb ed="#L" n="153"/>primam, probando quod essentia diuina prior est quacunque relatio 
+      <lb ed="#L" n="154"/>ne prioritate naturalis praesuppositionis. Et hoc sic, tantum 
+      dif<lb ed="#L" n="155" break="no"/>ferunt essentia &amp; relatio in diuinis quantum in creaturis, 
+      maxi<lb ed="#L" n="156" break="no"/>me secundum opinionem illorum qui dicunt quod in creaturis 
+      fun<lb ed="#L" n="157" break="no"/>damentum &amp; relatio non faciunt compositionem sicut nec in di 
+      <lb ed="#L" n="158"/>uinis. Vtrobique enim inuenitur absolutum &amp; relatiuum, vel ) 
+      <lb ed="#L" n="159"/>latio &amp; simplicitas ex quibus non est compositio, nec hic, nec 
+      <lb ed="#L" n="160"/>ibi, sed in creaturis inter fundamentum &amp; respectum est orde 
+      <lb ed="#L" n="161"/>naturalis praesuppositionis non obstante quod non sunt diuersae 
+      na<lb ed="#L" n="162" break="no"/>turae facientes compositionem, ergo idem est in diuinis. 
+      mi<lb ed="#L" n="163" break="no"/>nor probatur, quia respectus praesupponit naturaliter suum 
+      fun<lb ed="#L" n="164" break="no"/>damentum, fundamentum autem non praesupponit respectum.
+</p>
+            <p xml:id="jsnvu6-d1e754-d1e971">
+      <!--00144.xml-->
+               <pb ed="#L" n="39-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>20 Contra secundam conclusionem instatur sic. Illud quod 
+      ad<lb ed="#L" n="2" break="no"/>uenit personae diuinae iam constitutae, supponit illud quod est 
+      <lb ed="#L" n="3"/>constitutiuum personae &amp; non econuerso: Sed communis 
+      spi<lb ed="#L" n="4" break="no"/>ratio non constituit aliquam personam, sed aduenit persona 
+      <lb ed="#L" n="5"/>iam per aliud constitutae scilicet per paternitatem vel 
+      filiatio<lb ed="#L" n="6" break="no"/>nem: ergo ipsa praesupponit naturaliter tam paternitatem 
+      <lb ed="#L" n="7"/>quam filiationem, &amp; non econuerso, quare vt videtur ipsa est 
+      <lb ed="#L" n="8"/>posterior eis naturali praesuppositione. Et confirinatur, quia 
+      <lb ed="#L" n="9"/>productum praesupponit producens quod non constituit 
+      pe<lb ed="#L" n="10" break="no"/>producere, sed pater &amp; filius producunt. Spiritum sanctum 
+      <lb ed="#L" n="11"/>ipsum spirando, nec constituuntur in esse personali per actum 
+      <lb ed="#L" n="12"/>spirandi: ergo pater &amp; filius praesupponuntur a Spiritu sancto 
+      <lb ed="#L" n="13"/>Haec autem praesuppositio non solum est secundum intellectu 
+      <lb ed="#L" n="14"/>sed ex natura rei. ergo. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e1011">
+               <lb ed="#L" n="15"/>
+               <!--21.--> Quicquid sit de ratione illa an valeat an non (difficile enim 
+      <lb ed="#L" n="16"/>est efficacem rationem adducere ad ea quae tagunt materiam 
+      <lb ed="#L" n="17"/>fidei) conclusiones tamen ad quas probandas adducta est 
+      pos<lb ed="#L" n="18" break="no"/>sunt rationabiliter sustineri &amp; defendi: nec non &amp; ipsa ratio 
+      <lb ed="#L" n="19"/>dicendo quod realis pluralitas &amp; realis prioritas requirunt 
+      rea<lb ed="#L" n="20" break="no"/>lem differentiam, sed prioritas super hoc addit antecessionem 
+      <lb ed="#L" n="21"/>ratione cuius non potest inueniri in diuinis, in quibus cum vni 
+      <lb ed="#L" n="22"/>tate essentiae est pluralitas sola relationum originis inter quas 
+      <lb ed="#L" n="23"/>sint oppositae nulla est prioritas nec realis, nec secundum 
+      inte<lb ed="#L" n="24" break="no"/>lectum, vt dictum fuit. De disparatis autem patet. idem sic nihil 
+      <lb ed="#L" n="25"/>quod sit in filio praecedit quodcunque eorum quae sunt in patre 
+      <lb ed="#L" n="26"/>quia quicquid habet filius habet a patre: pater autem nihil 
+      <lb ed="#L" n="27"/>habet a filio, nec a quocunque alio, sed a seipso: Sed spiratio 
+      <lb ed="#L" n="28"/>actiua est in patre, ergo filiatio non procedit ipsam, sed 
+      proces<lb ed="#L" n="29" break="no"/>sio seu spiratio passiua simul est omni modo simultatis cum 
+      spi<lb ed="#L" n="30" break="no"/>ratione actiua cum sint relationes oppositae, ergo filiatio nullo 
+      <lb ed="#L" n="31"/>modo praecedit secundum rem spirationem passiuam seu 
+      pro<lb ed="#L" n="32" break="no"/>cessionem, nec per consequens paternitas quae simul est cum 
+      <lb ed="#L" n="33"/>filiatione: &amp; sic patet quod nulla relatio diuina praecedit 
+      reali<lb ed="#L" n="34" break="no"/>ter aliam, neque oppositam, neque disparatam. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e1059">
+               <lb ed="#L" n="35"/>
+               <!--22--> Ad primam rationem qua probatur quod essentia prior est 
+      <lb ed="#L" n="36"/>relatione secundum ordinem naturalis praesuppositionis. 
+      Di<lb ed="#L" n="37" break="no"/>cendum quod non est simile de essentia &amp; relatione in diuinis 
+      <lb ed="#L" n="38"/>&amp; in creaturis, quia in creaturis omnis relatio realis connota 
+      <lb ed="#L" n="39"/>vel requirit aliam naturam a natura fundamenti ratione 
+      cu<lb ed="#L" n="40" break="no"/>ius potest esse posterior natura fundamenti sui: Sed in diuinis 
+      <lb ed="#L" n="41"/>relatio non requirit nec connotat aliam naturam a natura sui 
+      <lb ed="#L" n="42"/>fundamenti ratione cuius possit esse posterior realiter natura 
+      <lb ed="#L" n="43"/>sui fundamenti. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e1083">
+               <lb ed="#L" n="44"/>
+               <!--23--> Ad secundam rationem quam nititur probare quod 
+      pater<lb ed="#L" n="45" break="no"/>nitas &amp; filiatio praesupponitur spirationi actiuae dicendum per 
+      <lb ed="#L" n="46"/>interemptionam minoris quod realiter loquendo pater 
+      gene<lb ed="#L" n="47" break="no"/>rat filium de sua essentia &amp; in sua essentia communicando ei 
+      <lb ed="#L" n="48"/>essentiam suam cum omnium proprietatem non opposita 
+      filia<lb ed="#L" n="49" break="no"/>tioni. Et ideo sicut filius non est realiter prius, filius quam 
+      ha<lb ed="#L" n="50" break="no"/>bens essentiam diuinam in qua &amp; ex qua genitus est a patre, sic 
+      <lb ed="#L" n="51"/>non est realiter prius filius quam habens essentiam diuinam 
+      <lb ed="#L" n="52"/>cum spiratione, quia talis est a patre, &amp; talis communicatur ei 
+      <lb ed="#L" n="53"/>a patre. Sicut ergo realiter loquendo diuinitas non aduenit 
+      fi<lb ed="#L" n="54" break="no"/>lio constituto in esse personali sed est de constitutione eius 
+      pe<lb ed="#L" n="55" break="no"/>quam est Deus sicut pater, &amp; differt ab omni eo quod non est 
+      <lb ed="#L" n="56"/>Deus sicut pater. Sic spiratio loquendo realiter non aduenit filio 
+      <lb ed="#L" n="57"/>iam constituto in esse personali sed est de constitutione eius, &amp; 
+      <lb ed="#L" n="58"/>per eam est spirans vt patet,; &amp; differt ab omni non spirante 
+      si<lb ed="#L" n="59" break="no"/>cut &amp; pater: vnde quamuis pater &amp; filius constituantur in esse 
+      <lb ed="#L" n="60"/>personali solum per paternitatem &amp; filiationem prout pater 
+      so<lb ed="#L" n="61" break="no"/>lum distinguitur a filio &amp; econuerso, tamen non prout 
+      distingui<lb ed="#L" n="62" break="no"/>tur personaliter a Spiritu sancto, imo de personali 
+      constitu<lb ed="#L" n="63" break="no"/>tione eorum est communis spiratio. Quod ergo dicitur quod 
+      <lb ed="#L" n="64"/>communis spiratio non constituit aliquam personam, verum 
+      <lb ed="#L" n="65"/>est de vnica tantum, sed constituit duas scilicet personam patris 
+      <lb ed="#L" n="66"/>&amp; filij quantum ad distinctionem personalem quam habent ad 
+      <lb ed="#L" n="67"/>Spiritum fanctum: ita quod pater vt est persona distincta ab 
+      <lb ed="#L" n="68"/>omni alia persona diuina non constituitur in esse personali 
+      prae<lb ed="#L" n="69" break="no"/>cise per solam paternitatem, imo cum ea per spirationem: Et 
+      <lb ed="#L" n="70"/>idem est de filio &amp; filiatione, communi spiratione. Et haec est 
+      <lb ed="#L" n="71"/>sententia Anselmi de processione Spiritus sancti in fine. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e1148">
+               <lb ed="#L" n="72"/>
+               <!--24--> Per idem patet responsio ad aliam rationem quod pater &amp; 
+      fi<lb ed="#L" n="73" break="no"/>lius vt distincti personaliter a Spiritu sancto constituuntur in esse 
+      <lb ed="#L" n="74"/>personali per actum spirandi quo producunt Spiritum sanctum 
+      <lb ed="#L" n="75"/>quamuis pater vt praecise distinctus a filio conllituatur a sola 
+      pater<lb ed="#L" n="76" break="no"/>nitate, &amp; filius vt distinctus solum a patre constituatur sola 
+      fi<lb ed="#L" n="77" break="no"/>Rione. Et ob hoc pater &amp; filius secundum rationem intelligendi 
+      <lb ed="#L" n="78"/>sunt priores Spiritu sancto: quia distinctio eorum inter se non 
+      <lb ed="#L" n="79"/>iucludit spirationem: sed secundum rem pater simul est pater &amp; 
+      <lb ed="#L" n="80"/>spirans, &amp; filius simul est filius &amp; spiras: nec est ibi realis 
+      prio<lb ed="#L" n="81" break="no"/>ritas aliqua. Si vero quaeratur de priori &amp; posteriori secundum 
+      ra<lb ed="#L" n="82" break="no"/>tionem intelligendi, sic dicendum est quod in diuinis est ordo 
+      <!--00144.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>prioris &amp; posterioris secundum rationem comparando 
+      ab<lb ed="#L" n="84" break="no"/>soluta inter se, &amp; essentiam ad relationes &amp; vnam relationem 
+      <lb ed="#L" n="85"/>disparatam ad aliam, &amp; personas per eas constitutas. Constat 
+      <lb ed="#L" n="86"/>enim quod in diuinis praeintelligimus intellectum voluntati 
+      quo<lb ed="#L" n="87" break="no"/>rum vtrunque est absolutum: nam sicut in nobis intellectus 
+      rea<lb ed="#L" n="88" break="no"/>liter prior est voluntate: sic in Deo prior est secundum 
+      ratio<lb ed="#L" n="89" break="no"/>nem, quia qualem ordinem realem habent aliqua vbi differunt 
+      <lb ed="#L" n="90"/>realiter, talem ordinem rationis habent vbi differunt solum 
+      se<lb ed="#L" n="91" break="no"/>cundum rationem. Essentia autem diuina praeintelligitur 
+      cuili<lb ed="#L" n="92" break="no"/>bet relationi, quia cum ipsa sit communis omnibus personis, rela 
+      <lb ed="#L" n="93"/>tiones autem non, intellectus eius prior est intellectu 
+      relatio<lb ed="#L" n="94" break="no"/>num. Similiter cum paternitas sit in patre proprietas constituti. 
+      <lb ed="#L" n="95"/>ua eius, spiratio autem non (saltem vt distinguitur a filio) 
+      qui<lb ed="#L" n="96" break="no"/>si poneretur per impossibile quod non esse persona tertia in di 
+      <lb ed="#L" n="97"/>uinis, adhuc pater esset pater &amp; non esset spirans, patet quod 
+      <lb ed="#L" n="98"/>paternitas praeintelligitur in patre spirationi. &amp; idem de 
+      filia<lb ed="#L" n="99" break="no"/>tione in filio respectu eiusdem spirationis, &amp; per eandem 
+      ra<lb ed="#L" n="100" break="no"/>tionem pater &amp; filius vt sic, praeintelliguntur Spirituisancto. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e1220">
+               <lb ed="#L" n="101"/>
+               <!--25--> Est tamen hic aduertendum quod ordo rationis non ex 
+      eo<lb ed="#L" n="102" break="no"/>dem sumitur inter omnia dicta, quia ordo rationis qui est in di 
+      <lb ed="#L" n="103"/>uinis inter absoluta (puta intellectum voluntatem consimilia) non 
+      <lb ed="#L" n="104"/>sumitur ab intellectu nisi comparando Deum ad creaturas in 
+      <lb ed="#L" n="105"/>quibus quia talia differunt realiter &amp; vnum est realiter prius 
+      <lb ed="#L" n="106"/>altero, intellectus concipit quod similia differant in Deo saltem 
+      <lb ed="#L" n="107"/>secundum rationem. Et quod habeant consimilem ordinem 
+      ratio<lb ed="#L" n="108" break="no"/>nis, vt aliâs declaratum fuit, sed differentia &amp; ordo rationis 
+      in<lb ed="#L" n="109" break="no"/>ter essentiam diuinam &amp; relationes &amp; inter relationes 
+      dispara<lb ed="#L" n="110" break="no"/>tas nec non &amp; personas per eas constitutas non oportet quod su 
+      <lb ed="#L" n="111"/>matur ex aliqua comparatione diuinorum ad creaturas, quin 
+      <lb ed="#L" n="112"/>imo in ipsis diuinis secundum se &amp; ex natura rei est sufficiens 
+      <lb ed="#L" n="113"/>fundamentum concipiendi talem ordinem. Ob hanc causam quidam 
+      <lb ed="#L" n="114"/>vocauerunt hunc ordinem, ordinem naturalis praesuppositionis non 
+      <lb ed="#L" n="115"/>quod sint ibi diuersae naturae quarum vna praesupponat aliam, 
+      <lb ed="#L" n="116"/>(quia in diuinis non est nisi vna natura quae est essentia diuina 
+      <lb ed="#L" n="117"/>sed quia ex sola natura rei non comparando diuinam naturam 
+      <lb ed="#L" n="118"/>creaturis praestatur sufficiens fundamentum quod vnum 
+      prae<lb ed="#L" n="119" break="no"/>concipiatur alteri: non sic est autem de pure absolutis, vt dictum 
+      <lb ed="#L" n="120"/>fuit. De relationibus autem oppositis, &amp; de personis per eas 
+      con<lb ed="#L" n="121" break="no"/>stitutis vt sic non est idem iudicium, quia inter talia nullus est 
+      <lb ed="#L" n="122"/>ordo prioris aut posterioris etiam secundum intellectum, eo 
+      <lb ed="#L" n="123"/>quod talia simul sunt intellectu, quia vnum includitur in intel 
+      <lb ed="#L" n="124"/>lectu alterius, ratio enim relatiuorum est esse ad aliud quod est 
+      <lb ed="#L" n="125"/>correlatiuum, &amp; sic patet qualis ordo prioris &amp; posterioris 
+      se<lb ed="#L" n="126" break="no"/>cundum intellectum est in diuinis. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e1281">
+               <lb ed="#L" n="127"/>
+               <!--26--> AD PRIMVM argumentum dicendum quod non 
+      <lb ed="#L" n="128"/>oportet sic esse per omnia in trinitate increata sicut est in 
+      tri<lb ed="#L" n="129" break="no"/>nitate creata, quia vna non perfecte representat aliam, imo in 
+      <lb ed="#L" n="130"/>pluribus deficit quam assimiletur: propter quod licet in 
+      trini<lb ed="#L" n="131" break="no"/>tate creata sit prius &amp; posterius secundum rem propter diuersita 
+      <lb ed="#L" n="132"/>tem naturae: tamen non est sic in trinitate increata in qua est 
+      <lb ed="#L" n="133"/>vnica natura. Ad secundum dicendum quod generatus ex hoc 
+      <lb ed="#L" n="134"/>quod est principium spirati non est prior spirato. Principium 
+      <lb ed="#L" n="135"/>enim est ex quo aliud: nec est de ratione principij quod post 
+      <lb ed="#L" n="136"/>ipsum sit aliud: nec duratione, nec natura nisi in quibus 
+      princi<lb ed="#L" n="137" break="no"/>pium differt essentialiter a principiato quod non est in diuinis. 
+      </p>
+            <p xml:id="jsnvu6-d1e754-d1e1311">
+               <lb ed="#L" n="138"/>
+               <!--27--> Ad argumentum in oppositum quamuis concludat verum 
+      <lb ed="#L" n="139"/>de prioritate secundum rem, tamen de prioritate secundum 
+      ra<lb ed="#L" n="140" break="no"/>tionem non est simile de patre ad filium &amp; de vtroque ad Spiritum 
+      <lb ed="#L" n="141"/>sanctum, quia pater &amp; filius distinguntur inter se relationibus 
+      <lb ed="#L" n="142"/>oppositis quae sunt simul natura, &amp; intellectu, sed pater &amp; filius 
+      <lb ed="#L" n="143"/>respectu Spiritus sancti constituuntur relationibus disparatis 
+      <lb ed="#L" n="144"/>quarum vna potest alteri praeintelligi (vt declaratum fuit) quae 
+      <lb ed="#L" n="145"/>prioritas secundum intellectum sumitur sufficienter ex 
+      natu<lb ed="#L" n="146" break="no"/>ra rei absque comparatione ad creaturas, &amp; ob hoc vocata est 
+      <lb ed="#L" n="147"/>a quibusdam prioritas naturalis praesuppositionis quamuis aliis 
+      <lb ed="#L" n="148"/>videatur &amp; non irrationabiliter quod iste modus loquendi in 
+      <lb ed="#L" n="149"/>hac materia sit improprius &amp; nimis extensus. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

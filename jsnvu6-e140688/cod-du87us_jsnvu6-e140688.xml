@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="170-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e140688"><!-- l2d40prae -->
+            <head xml:id="jsnvu6-e140688-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e140688-d1e103">
+               <lb ed="#L" n="42"/>Sententia huius distinctionis XL. in 
+      <lb ed="#L" n="43"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e140688-d1e110">
+               <lb ed="#L" n="44"/>O Thoc de actibus adiciedum est. Superius de 
+      <lb ed="#L" n="45"/>terminauit magister de peccato prout respicit 
+      a<lb ed="#L" n="46" break="no"/>ctum voluntatis interiorem. Hic vero determinat 
+      <lb ed="#L" n="47"/>de eo secundum quod est in actibus exterioribus 
+      <lb ed="#L" n="48"/>Et diuiditur in partes duas. Primo determinat in 
+      <lb ed="#L" n="49"/>tentum. Secundo mouet quasdam quaestiones circa 
+      determi<lb ed="#L" n="50" break="no"/>nata. Secunda in principio 41.di. vbicunque intentio. Prima es 
+      <lb ed="#L" n="51"/>principalis lectionis. Et diuiditur in duas. Primo ostendit quod 
+      <lb ed="#L" n="52"/>actus a voluntate bonitatem &amp; malitiam habent. Secundo 
+      in<lb ed="#L" n="53" break="no"/>quirit vtrum hoc vniuersaliter sit in omnibus verum. Secunda 
+      <lb ed="#L" n="54"/>ibi, sed quaeratur vtrum omnia opera. Haec secunda diuiditur in 
+      <lb ed="#L" n="55"/>tres. Primo mouet quaestionum, &amp; tangit circa hoc diuersas opi 
+      <lb ed="#L" n="56"/>niones. Secundo determinat veritatem. Tertio ostendit 
+      quo<lb ed="#L" n="57" break="no"/>modo secundum alteram opinionem possit aliter responderi. 
+      <lb ed="#L" n="58"/>Secunda ibi, sed August. euidentissime docet. Tertia ibi, quae 
+      <lb ed="#L" n="59"/>tamen quidam contendunt. Haec est sententia &amp; diuisio 
+      lectio<lb ed="#L" n="60" break="no"/>nis in generali. 
+      </p>
+            <p xml:id="jsnvu6-e140688-d1e149">
+               <lb ed="#L" n="61"/>
+               <!--2--> IN SPECIALI se procedi. Et proponitprimo quod 
+      <lb ed="#L" n="62"/>licet omnes actus sint boni inquantum sunt &amp; a deo sunt dicun 
+      <lb ed="#L" n="63"/>tur tamen boni &amp; mali simpliciter inquantum ex bona &amp; mala 
+      <lb ed="#L" n="64"/>voluntate, vel intentione procedunt. Postea quaerit vtrum hoc 
+      <lb ed="#L" n="65"/>sit vniuersaliter verum, quod actus omnes a voluntate bonita 
+      <lb ed="#L" n="66"/>tem vel malitiam habeant. Et respondet ad hanc quaestionem 
+      <lb ed="#L" n="67"/>quod quidam hoc concedunt quod omnes actus dicuntur de se 
+      <lb ed="#L" n="68"/>indifferentes, &amp; sola voluntate bonitatem habent vel malitiam. 
+      <lb ed="#L" n="69"/>Alij autem dicunt quod quidam sunt actus in se boni, qui 
+      ne<lb ed="#L" n="70" break="no"/>sunt nec recipere possunt malitiam a voluntate. Similiter 
+      qui<lb ed="#L" n="71" break="no"/>dam actus de se sunt mali, nec possunt fieri boni per bonam 
+      vo<lb ed="#L" n="72" break="no"/>luntatem, alij sunt actus qui sunt indifferentes, &amp; illi bonitatem 
+      <lb ed="#L" n="73"/>&amp; malitiam a voluntate, vel a fine recipiunt. Postea magister 
+      ali<lb ed="#L" n="74" break="no"/>ter dicit per Augu. dicendum quod omnes actus possunt a 
+      vo<lb ed="#L" n="75" break="no"/>luntate bonitatem &amp; malitiam habere praeter illos actus qui de 
+      <lb ed="#L" n="76"/>se, sunt mali, &amp; illi per voluntatem nullo modo possunt fieri bo 
+      <lb ed="#L" n="77"/>ni, sicut declarat per exempla. Veruntamen dicit quod aliqu 
+      <lb ed="#L" n="78"/>sunt actus aliis minus vel magis mali, ex quo concludit magiste 
+      <lb ed="#L" n="79"/>quod bonitas in actione est a voluntate, malitia autem ex actio¬ 
+      <!--00408.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>ne venit multotiens in voluntatem: vnde quod dicitur 
+      confir<lb ed="#L" n="81" break="no"/>mat per actionem Iudaeorum crucifigentium Iesum. Quod 
+      au<lb ed="#L" n="82" break="no"/>tem dicit Ambrosius in bonis intelligendum est, &amp; non in per 
+      <lb ed="#L" n="83"/>se malis. Viltimo dicit quod secundum quosdam, si peccata 
+      pos<lb ed="#L" n="84" break="no"/>sunt fieri bono fine, vel bonam causam habere, reciperent 
+      bo<lb ed="#L" n="85" break="no"/>nitatem a voluntate, sed quia non possunt habere talem 
+      cau<lb ed="#L" n="86" break="no"/>sam, vel talem finem, ideo dicit Angustinus ea bonitatem nor 
+      <lb ed="#L" n="87"/>recipere a voluntate. Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="143-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3317"><!-- l2d22q3 -->
+            <head xml:id="jsnvu6-d1e3317-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e3317-Hd1e103" type="question-title">Utrum ignorantia sit peccatum</head>
+            <p xml:id="jsnvu6-d1e3317-d1e106">
+      <!--00354.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>QVISTIO TIIT. 
+      <lb ed="#L" n="81"/>Vtrum ignorantia sit peccatum. 
+      <lb ed="#L" n="82"/>Thom. l. 2. 4. 76. ar. 2. 
+    </p>
+            <p xml:id="jsnvu6-d1e3317-d1e119">
+               <lb ed="#L" n="83"/>POSTEA quaeritur vtrum ignorantia sit 
+      pecca<lb ed="#L" n="84" break="no"/>tum. Et videtur quod sic, quia quando actus non est ma 
+      <lb ed="#L" n="85"/>lus, voluntas de illo non est mala: sed voluntas 
+      igno<lb ed="#L" n="86" break="no"/>randi ea quae homo tenetur scire mala est, ergo &amp; 
+      <lb ed="#L" n="87"/>ipsa ignorantia est mala, sed non poena, ergo est culpa. 
+      </p>
+            <p xml:id="jsnvu6-d1e3317-d1e132">
+               <lb ed="#L" n="88"/>
+               <!--2--> Item 1. Corinth. 14. Si quis ignorat ignorabitur, id est, 
+      re<lb ed="#L" n="89" break="no"/>probabitur secundum glo. Sed nullus reprobabitur nisi 
+      pro<lb ed="#L" n="90" break="no"/>pter peccatum, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3317-d1e144">
+               <lb ed="#L" n="91"/>
+               <!--3--> IN CONTRARIVM est, quia peccatum directius 
+      <lb ed="#L" n="92"/>opponitur gratiae quam scientiae, sed priuatio gratiae non ess 
+      <lb ed="#L" n="93"/>culpa, sed poena consequens peccatum, ergo ignorantia quae 
+      <lb ed="#L" n="94"/>est priuatio scientiae non est peccatum. Responsio. Ignorantia 
+      <lb ed="#L" n="95"/>eorum quae quis non tenetur scire, vel non potest, nullo modo 
+      <lb ed="#L" n="96"/>est peccatum, de ignorantia vero eorum quae aliquis tenetui 
+      <lb ed="#L" n="97"/>scire &amp; potest: Dicendum quod nunquam est peccatum secun 
+      <lb ed="#L" n="98"/>dum se, sed ratione adiuncti quod est negligentia addiscendi 
+      <lb ed="#L" n="99"/>vel voluntas non addiscendi. Quod patet dupliciter. Primo 
+      com<lb ed="#L" n="100" break="no"/>siderando peccatum secundum seipsum. In hoc enim differunt 
+      <lb ed="#L" n="101"/>malum &amp; peccatum: quia priuatio cuiuscunque perfectioni 
+      <lb ed="#L" n="102"/>debirae est malum, sed peccatum dicit solam priuationem 
+      se<lb ed="#L" n="103" break="no"/>cundae perfectionis, quae est operatio vel debitae rectitudinis in 
+      <lb ed="#L" n="104"/>operatione, vt plenius patebit inferius, sed ignorantia 
+      secun<lb ed="#L" n="105" break="no"/>dum se dicit priuationem scientiae, &amp; non priuationem operis, 
+      <lb ed="#L" n="106"/>vel perfectionis in operatione, nisi concomitatiue, inquantum 
+      <lb ed="#L" n="107"/>ignorantia concomitatur negligentiam addiscendi, vel 
+      volun<lb ed="#L" n="108" break="no"/>tatem non addiscendi, ergo, &amp;c. Secundo patet idem 
+      compa<lb ed="#L" n="109" break="no"/>rando culpam ad meritum, quia circa idem sunt. Sed constat 
+      <lb ed="#L" n="110"/>quod meritum per se consistit in actu &amp; non in habitu, ergo &amp; 
+      <lb ed="#L" n="111"/>culpa seu peccatum. Ignorantia autem dicit priuationem 
+      habi<lb ed="#L" n="112" break="no"/>tus &amp; non actus, nisi concomitatiue, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3317-d1e196">
+               <lb ed="#L" n="113"/>
+               <!--4--> Item &amp; illa ratio est bona quae communiter ponitur, quod 
+      <lb ed="#L" n="114"/>si ignorantia esset peccatum, tandiu peccaret homo, quandiu 
+      <lb ed="#L" n="115"/>ignoraret; consequens est falsum, ergo &amp; antecedens. Neque 
+      <lb ed="#L" n="116"/>valet solutio quae datur, scilicet quod ignorantia sicut &amp; alia 
+      <lb ed="#L" n="117"/>peccata omissionis solum est peccatum pro illo tempore pro 
+      <lb ed="#L" n="118"/>quo praeceptum affirmatiuum cui opponitur obligat, praeceptum 
+      <lb ed="#L" n="119"/>autem affirmatiuum non obligat ad semper, sed pro loco &amp; 
+      tem<lb ed="#L" n="120" break="no"/>pore quo occurrit materia praecepti facienda, propter quod 
+      <lb ed="#L" n="121"/>ignorans non semper actu peccat, sed pro tempore quo quis per 
+      <lb ed="#L" n="122"/>praeceptum obligatur ad aliquid faciendum, quod per 
+      ignoran<lb ed="#L" n="123" break="no"/>tiam dimittitur. 
+      </p>
+            <p xml:id="jsnvu6-d1e3317-d1e225">
+               <lb ed="#L" n="124"/>
+               <!--5--> Sed istud non valet, quia licet praeceptum affirmatiuum non 
+      <lb ed="#L" n="125"/>obliget ad semper, ita vt semper actu impleatur, vel actu de eo 
+      <lb ed="#L" n="126"/>cogitetur, obligat tamen ad semper secundum habitum, ita scilicet 
+      <lb ed="#L" n="127"/>vt homo semper fit ita dispositus, quod semper sit paratus 
+      im<lb ed="#L" n="128" break="no"/>plere praeceptum quotiens occurrit faciendum. Haec autem 
+      dispo<lb ed="#L" n="129" break="no"/>sitio tollitur per ignorantiam eorum quae quis tenetur scire. Ei 
+      <lb ed="#L" n="130"/>ideo si ignorantia secundum se esset culpa, quandiu quis 
+      igno<lb ed="#L" n="131" break="no"/>raret, tandiu peccaret. Non sic autem si ponatur culpa, non 
+      <lb ed="#L" n="132"/>quidem secundum se, sed ratione adiuncti, scilicet negligentia 
+      <lb ed="#L" n="133"/>addiscendi, tunc enim non semper est peccatum, sed solum 
+      quan<lb ed="#L" n="134" break="no"/>do est tempus acquirendi scientiam quam habere tenetur. 
+      </p>
+            <p xml:id="jsnvu6-d1e3317-d1e254">
+               <lb ed="#L" n="135"/>
+               <!--6--> AD PRIMVM argumentum dicendum quod non 
+      so<lb ed="#L" n="136" break="no"/>lum voluntas est culpabilis qua volumus malum culpae, sed etiam 
+      <lb ed="#L" n="137"/>qua volumus aliquid quo proni sumus ad culpam, &amp; cuius 
+      op<lb ed="#L" n="138" break="no"/>positum retraheret a culpa, &amp; sic est cum quis vult ignorare ea 
+      <lb ed="#L" n="139"/>quae tenetur scire. 
+</p>
+            <p xml:id="jsnvu6-d1e3317-d1e270">
+               <lb ed="#L" n="140"/>Ad secundum dicendum quod illud intelligitur de 
+      ignoran<lb ed="#L" n="141" break="no"/>tia non ratione adiuncti, scilicet negligentiae addiscendi, &amp; 
+      eo<lb ed="#L" n="142" break="no"/>dem modo exponendae sunt similes auctoritates Canonis, seu 
+      <lb ed="#L" n="143"/>sanctorum si quae tales inueniantur. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

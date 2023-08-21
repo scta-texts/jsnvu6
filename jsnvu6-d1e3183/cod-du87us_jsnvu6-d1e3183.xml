@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="140-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3183"><!-- l2d20q1 -->
+            <head xml:id="jsnvu6-d1e3183-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e3183-Hd1e103" type="question-title">Utrum in statu innocentiae fuisset generatio</head>
+            <p xml:id="jsnvu6-d1e3183-d1e106">
+               <lb ed="#L" n="36"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="37"/>Vtrum in statu innocentiae fuisset 
+      <lb ed="#L" n="38"/>generatio. 
+      <lb ed="#L" n="39"/>Thom. 1. q. 98. ar. 1.
+    </p>
+            <p xml:id="jsnvu6-d1e3183-d1e117">
+               <lb ed="#L" n="40"/>CIRCA distinctionem vigesimam quaeritur primo, 
+      <lb ed="#L" n="41"/>vtrum in statu innocentiae fuisset generatio. Et 
+      <lb ed="#L" n="42"/>videtur quod non, quia delectatio actus carnalis 
+      <lb ed="#L" n="43"/>generationis absorbet iudicium rationis, &amp; istud 
+      <lb ed="#L" n="44"/>" non potuit esse in statu innocentiae, quia 
+      impor<lb ed="#L" n="45" break="no"/>tat peruersitatem ordinis virium animae, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3183-d1e133">
+               <lb ed="#L" n="46"/>
+               <!--2--> Item semen est superfluum alimenti, sed in statu illo non fuit 
+      <lb ed="#L" n="47"/>aliqua superfluitas, quae sonat in malum, ergo non fuisset 
+      se<lb ed="#L" n="48" break="no"/>men, nec per consequens generatio, quae fit per 
+      commixtio<lb ed="#L" n="49" break="no"/>nem seminum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3183-d1e147">
+               <lb ed="#L" n="50"/>
+               <!--3--> IN CONTRARIVM est quod dicitur Gen. I. 
+      Cre<lb ed="#L" n="51" break="no"/>scite &amp; multiplicamini: sed multiplicatio per eos esse non potuit 
+      <lb ed="#L" n="52"/>absque generatione, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3183-d1e158">
+               <lb ed="#L" n="53"/>
+               <!--4.--> Item mulier facta est in adiutorium viri (vt dicitur Genes 
+      <lb ed="#L" n="54"/>secundo sed non ad aliud opus, nisi ad generationem, quae ess 
+      <lb ed="#L" n="55"/>per coitum: ad quodlibet enim aliud opus conuenientius iuuari 
+      <lb ed="#L" n="56"/>potest vir per virum, quam per mulierem, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3183-d1e171">
+               <lb ed="#L" n="57"/>
+               <!--5--> RESPONSIO. Dicenda sunt duo: primum est, quod in 
+      <lb ed="#L" n="58"/>statu innocentiae fuisset generatio sicut nunc per 
+      commixtio<lb ed="#L" n="59" break="no"/>nem sexuum &amp; seminum. Secundum est quod quotiens 
+      con<lb ed="#L" n="60" break="no"/>uenissent, totiens genuissent. 
+      </p>
+            <p xml:id="jsnvu6-d1e3183-d1e184">
+               <lb ed="#L" n="61"/>
+               <!--6.--> Primum patet, quia in quibuscunque inuenitur generatio 
+      <lb ed="#L" n="62"/>similis ex simili secundum speciem hoc competit perfectis in ill. 
+      <lb ed="#L" n="63"/>specie, vt apparet ex quarto Metheo, &amp; ex secundo de anima, 
+      <lb ed="#L" n="64"/>Sed in humana specie videmus generationem similis ex simili 
+      <lb ed="#L" n="65"/>ergo hoc maxime competebat statui innocentiae, in quo natura 
+      <lb ed="#L" n="66"/>fuit, &amp; fuisset si durasset in maxima perfectione. Item agens &amp; 
+      <lb ed="#L" n="67"/>passum oportet esset approximata ad hoc vt agant; Sed in 
+      ha<lb ed="#L" n="68" break="no"/>bentibus distinctionem sexuum masculus habet rationem 
+      agen<lb ed="#L" n="69" break="no"/>tis in generatione: foemina vero rationem patientis secundum 
+      <lb ed="#L" n="70"/>aliquid ab vtroque decisum, quod generali nomine vocamus 
+      <lb ed="#L" n="71"/>semen, ergo ad generandum oportebat esse approximationem 
+      <lb ed="#L" n="72"/>secundum coniunctionem sexuum, &amp; commixtionem seminum, 
+      <lb ed="#L" n="73"/>Alioquin in operibus diuinis fuisset aliquid frustra, qui 
+      mascu<lb ed="#L" n="74" break="no"/>lum &amp; foeminam fecit eos, vt dicitur Gen. I. &amp; 2. distinctio enim 
+      <lb ed="#L" n="75"/>sexuum ad illud solum ordinatur. 
+      </p>
+            <p xml:id="jsnvu6-d1e3183-d1e221">
+               <lb ed="#L" n="76"/>
+               <!--7.--> Secundum patet, vbi agens non caret debita intentione, 
+      ne<lb ed="#L" n="77" break="no"/>que actus debet carere debito fine. Sed in statu innocentiae non 
+      <lb ed="#L" n="78"/>conuenissent nisi intentione generandi &amp; haec sola intentio pro 
+      <lb ed="#L" n="79"/>statu illo fuisset debita, ergo nunquam actus copulae eorum 
+      <!--00348.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>fuisset frustratus suo fine scilicet prole. Minor probatur, quia 
+      <lb ed="#L" n="81"/>intentio debita absque omni culpa ex parte vtriusque coniugis 
+      <lb ed="#L" n="82"/>non potest esse in actu matrimonij nisi pro generatione 
+      pro<lb ed="#L" n="83" break="no"/>lis, vel pro remedio concupiscentiae contra alterius lapsum qui 
+      <lb ed="#L" n="84"/>posset exurgente concupiscentia contingere, de quo si 
+      timere<lb ed="#L" n="85" break="no"/>tur deberet alter alteri reddere debitum etiam non perenti, 
+      ne<lb ed="#L" n="86" break="no"/>que esset ex aliqua parte culpa. His autem duobus exclusis sem 
+      <lb ed="#L" n="87"/>per in petente debitum est aliqua culpa saltem venialis. In 
+      sta<lb ed="#L" n="88" break="no"/>tu autem innocentiae non erat vrgens concupiscentia propter 
+      <lb ed="#L" n="89"/>quam deberet vnus timere de lapsu alterius. Omnes enim 
+      mo<lb ed="#L" n="90" break="no"/>tus appetitus sensitiui plene obedissent rationi, ergo non 
+      pote<lb ed="#L" n="91" break="no"/>rat tunc esse debita intentio conueniendi ad actum matrimoni 
+      <lb ed="#L" n="92"/>nisi intentio generandae prolis. Et ideo dicit August. quod illud 
+      <lb ed="#L" n="93"/>quod est infirmis in remedium fuisset sanis in officium. 
+      Vide<lb ed="#L" n="94" break="no"/>mus etiam in brutis quod non coeunt nisi certis temporibus, 
+      <lb ed="#L" n="95"/>&amp; tunc ad generandum &amp; multo amplius fuisset in hominibus 
+      <lb ed="#L" n="96"/>natura optime ordinata. 
+      </p>
+            <p xml:id="jsnvu6-d1e3183-d1e275">
+               <lb ed="#L" n="97"/>
+               <!--8--> Ad primum argumentum dicendum quod in statu 
+      innocen<lb ed="#L" n="98" break="no"/>tiae fuisset maior delectatio in actu carnali quam modo 
+      com<lb ed="#L" n="99" break="no"/>parando delectationem delectationi secundum se, sed secundum 
+      <lb ed="#L" n="100"/>proportionem ad rationem fuisset minor, quia ratio fortior in 
+      <lb ed="#L" n="101"/>suo actu persistens delectationi penitus dominaretur. 
+      Super<lb ed="#L" n="102" break="no"/>abundantia autem &amp; defectus in actibus moralibus sumuntur 
+      <lb ed="#L" n="103"/>secundum proportionem ad rationem, &amp; non secundum 
+      quan<lb ed="#L" n="104" break="no"/>titatem absolutam, sicut fit in naturalibus secundum 
+      proportio<lb ed="#L" n="105" break="no"/>nem ad vim naturalem. Vnde cibus qui esset moderatus vni 
+      es<lb ed="#L" n="106" break="no"/>set superfluus aliis, vt patet ex 2. Ethi. 
+      </p>
+            <p xml:id="jsnvu6-d1e3183-d1e302">
+               <lb ed="#L" n="107"/>
+               <!--9--> Ad secundum dicendum quod semen, vt dicitur 15. de 
+      ani<lb ed="#L" n="108" break="no"/>malib. est superfluum sed quo indigetur. Superfluit quidem quo 
+      <lb ed="#L" n="109"/>ad actum nutritiuae. Sed natura indiget eo ad actum 
+      generati<lb ed="#L" n="110" break="no"/>uae. Et ad vtrunque poterat sumi sine vicio quantum 
+      necessa<lb ed="#L" n="111" break="no"/>rium erat. De aliis autem superfluitatibus notandum quod 
+      quae<lb ed="#L" n="112" break="no"/>dam attestantur defectum naturae vt putredines &amp; sudores, &amp; 
+      <lb ed="#L" n="113"/>huiusmodi quae non fuissent in statu innocentiae. Quaedam vero 
+      <lb ed="#L" n="114"/>ostendunt perfectionem naturae vt semen, &amp; egestiones quae 
+      se<lb ed="#L" n="115" break="no"/>cundum cursum naturalem tanto melius fuissent quanto 
+      per<lb ed="#L" n="116" break="no"/>fectior &amp; robustior est natura, &amp; tales fuissent in primo statu 
+      <lb ed="#L" n="117"/>absque vlla inordinatione &amp; foeditate.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="327-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e269726"><!-- l4d34q2 -->
+            <head xml:id="jsnvu6-e269726-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e269726-Hd1e103" type="question-title">
+      Utrum impotentia ad actum matrimonii 
+      impediat matrimonium
+    </head>
+            <p xml:id="jsnvu6-e269726-d1e106">
+               <lb ed="#L" n="68"/>QVAESTIO SECVNDA 
+      <lb ed="#L" n="69"/>Vtrum impotentia ad actum matrimonij 
+      <lb ed="#L" n="70"/>impediat matrimonium. 
+    </p>
+            <p xml:id="jsnvu6-e269726-d1e115">
+               <lb ed="#L" n="71"/>SEcundo quaeritur vtrum impotentia ad actum ma 
+      <lb ed="#L" n="72"/>trimonij impediat matrimonium. Et videtur quod 
+      <lb ed="#L" n="73"/>non: quia matrimonium est perfectum, dato quod non 
+      <lb ed="#L" n="74"/>d sequatur actus matrimonialis, ergo illud quod non 
+      <lb ed="#L" n="75"/>solum impedit actum, non habet impedire matrimonium, sed 
+      <lb ed="#L" n="76"/>impotentia de qua loquimur solum respicit actum, ergo non 
+      <lb ed="#L" n="77"/>impedit matrimonium. 
+      </p>
+            <p xml:id="jsnvu6-e269726-d1e133">
+               <lb ed="#L" n="78"/>
+               <!--2--> Item sicut impotentia impedit actum matrimonij, ita vo 
+      <lb ed="#L" n="79"/>luntas continendi, sed voluntas continendi non impedit 
+      ma<lb ed="#L" n="80" break="no"/>trimonium, patet inter Mariam &amp; Ioseph, ergo nec impotentia 
+      </p>
+            <p xml:id="jsnvu6-e269726-d1e145">
+               <lb ed="#L" n="81"/>
+               <!--3--> IN CONTRARIVM arguitur sic: quia nullus potest 
+      <!--00727.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>se obligare ad impossibile, sed per matrimonium quilibet 
+      conju<lb ed="#L" n="83" break="no"/>gunr, obligatur ad reddendum alteri debitum, ergo qui non 
+      pos<lb ed="#L" n="84" break="no"/>sunt reddere debitum, non possunt se obligare ad matrimonium 
+      </p>
+            <p xml:id="jsnvu6-e269726-d1e163">
+               <lb ed="#L" n="85"/>
+               <!--4.--> Ad idem dicitur extra de frigidis &amp; maleficiatis, ca. 1. quod ficu 
+      <lb ed="#L" n="86"/>puer qui non potest reddere debitum non est aptus coniugio, sic 
+      im<lb ed="#L" n="87" break="no"/>potentes minime apti ad contrahenda matrimonia reputantur. 
+      </p>
+            <p xml:id="jsnvu6-e269726-d1e174">
+               <lb ed="#L" n="88"/>
+               <!--5--> RESPONSID. Distinguendum est de impotentia, quia est 
+      <lb ed="#L" n="89"/>vna naturalis, alia accidentalis: &amp; quaelibet istarum vel est perpe 
+      <lb ed="#L" n="90"/>tua vel temporalis. Naturalis impotentia est triplex. Vnam in viro 
+      <lb ed="#L" n="91"/>scilicet frigiditas, alia in muliere, scilicet arctatio vel aliud im 
+      <lb ed="#L" n="92"/>pedimentum naturalis membri, vt habetur de frigsdis &amp; 
+      ma<lb ed="#L" n="93" break="no"/>Ief. I. cap. ex literis. Tertia est defectus aetatis in vtroque, vt in 
+      <lb ed="#L" n="94"/>puaeris. Accidentalis vero impotentia contingit ex duobus, sci 
+      <lb ed="#L" n="95"/>licet ex maleficio vel ex sectione seu castratione, quae locum 
+      <lb ed="#L" n="96"/>habet solum in viris: horum autem impedimentorum 
+      frigidi<lb ed="#L" n="97" break="no"/>tas &amp; arctatio quibus non potest subueniri opere medicorum 
+      <lb ed="#L" n="98"/>sunt perpetua impedimenta, vt habetur in praeallegato cap. 
+      si<lb ed="#L" n="99" break="no"/>militer sectio, castratio, &amp; maleficium quod deleri non potest: 
+      tem<lb ed="#L" n="100" break="no"/>poralia vero impedimenta sunt frigiditas &amp; arctatio, quibus 
+      po<lb ed="#L" n="101" break="no"/>test subueniri, &amp; maleficium quod potest deleri. His suppositis 
+      <lb ed="#L" n="102"/>dicendum est primo quod omnis impotentia naturalis vel 
+      acci<lb ed="#L" n="103" break="no"/>dentalis, si sit perpetua &amp; antecedens matrimonium, impedit 
+      <lb ed="#L" n="104"/>ipsum contrahendum, &amp; dirimit contractum, non autem si sit 
+      <lb ed="#L" n="105"/>temporalis. Secundo videndum qualiter cognoscatur 
+      impedi<lb ed="#L" n="106" break="no"/>mentum esse perpetuum, &amp; qualiter sit procedendum ad diuortium. 
+      </p>
+            <p xml:id="jsnvu6-e269726-d1e220">
+               <lb ed="#L" n="107"/>
+               <!--6--> RATIO primi est, quia per matrimonium transfertur 
+      po<lb ed="#L" n="108" break="no"/>testas vnius corporis eoniugis in alterum quo ad reddendum 
+      debi<lb ed="#L" n="109" break="no"/>tum, vt habetur 1. ad Cor. 7. sed nullus potest transferre in 
+      alte<lb ed="#L" n="110" break="no"/>rum illud quod non habet, ergo qui non habet potestatem red 
+      <lb ed="#L" n="111"/>dendi debitum, non potest cum altero contrahere matrimonium. 
+      <lb ed="#L" n="112"/>quod est intelligendum quando impotentia praecedit: si enim 
+      se<lb ed="#L" n="113" break="no"/>quatur matrimonium prius rite contractum, non dirimit ipsum, si 
+      <lb ed="#L" n="114"/>etiam impotentia esset temporalis, cui posset medicinae 
+      benefi<lb ed="#L" n="115" break="no"/>cio subueniri, non dirimeret ipsum. 
+      </p>
+            <p xml:id="jsnvu6-e269726-d1e244">
+               <lb ed="#L" n="116"/>
+               <!--7.--> Quantum ad secundum, scilicet qua liter probatur 
+      impo<lb ed="#L" n="117" break="no"/>tentia, sciendum est quod quandoque cognoscitur probatione vera 
+      <lb ed="#L" n="118"/>per aspectum corporis, vt in castratione viri, vel arctatione 
+      mu<lb ed="#L" n="119" break="no"/>lieris: vel probatione praesumpta quando triennio cohabirantes 
+      <lb ed="#L" n="120"/>&amp; bona fide actui carnali operam dantes non potuerunt se 
+      co<lb ed="#L" n="121" break="no"/>gnoscere, &amp; tunc aut vterque proclamat ad iudicium, &amp; 
+      profi<lb ed="#L" n="122" break="no"/>tetur impedimentum, &amp; in hoc casu propter periculum 
+      collusio<lb ed="#L" n="123" break="no"/>nis vterque iurabit quod bona fide operam dederunt, nec conuenire 
+      <lb ed="#L" n="124"/>potuerunt cum septima manu propinquorum eorum statum &amp; 
+      <lb ed="#L" n="125"/>personas cognoscentium, vt habetur 33. q. 1. ca. Quod autem 
+      in<lb ed="#L" n="126" break="no"/>terrogasti de his requisiti. aut alter confiretur, &amp; alier negat, &amp; 
+      <lb ed="#L" n="127"/>tunc aut vir prouocat ad separationem, aut muliet, si vir incumbit 
+      <lb ed="#L" n="128"/>ei probatio vxore negante, quo a vir actor est, &amp; actore non probante 
+      <lb ed="#L" n="129"/>reus est absoluendus, &amp; si nihil praestiterit obtinebit: si mulie 
+      <lb ed="#L" n="130"/>prouocat viro contrarium asserente, creditur viro, quia carut est mu 
+      <lb ed="#L" n="131"/>lieris 33. q. 1. si quis acceperit. nisi mulier aspectu corporis velit 
+      <lb ed="#L" n="132"/>pbare virum mentitum: separatione vero facta causa frigiditati 
+      <lb ed="#L" n="133"/>datur vxori licentia contrahendi, frigidus vero sine spe coniugi 
+      <lb ed="#L" n="134"/>remaneat: quod si contrahat &amp; secundam cognouerit, cogatur redire 
+      <lb ed="#L" n="135"/>ad primam, quia constat ecelesiam fuisse deceptam in iudicando 
+      <lb ed="#L" n="136"/>perpetuum impedimentum quod fuit temporale, vt habetur ex 
+      <lb ed="#L" n="137"/>tra de frigidis &amp; maleficiatis, cap. laudabilem. 
+      </p>
+            <p xml:id="jsnvu6-e269726-d1e296">
+               <lb ed="#L" n="138"/>
+               <!--8--> Quando vero fit diuortium ratione maleficij datur vtrio 
+      <lb ed="#L" n="139"/>licentia contrahendi, vt habetur 33. quaestione prima, capitulo 
+      <lb ed="#L" n="140"/>super sortiarias, in fine. Et causa est, quia frigiditas est 
+      impedi<lb ed="#L" n="141" break="no"/>mentum generale respectu cuiuslibet, propter hoc qui impotemm 
+      <lb ed="#L" n="142"/>est ratione frigiditatis respectu vnius, imporens est respectu 
+      cu<lb ed="#L" n="143" break="no"/>iussibet alterius, sed maleficium est impedimentum particulare 
+      re<lb ed="#L" n="144" break="no"/>spectu vnius, &amp; ideo conceditur quod possit alteri nubere, sed si 
+      <lb ed="#L" n="145"/>redierit potentia postea cognoscendi primam redin tegrabit 
+      ma<lb ed="#L" n="146" break="no"/>trimonium, quia constat ecclesiam fuisse deceptam quando vero nro 
+      <lb ed="#L" n="147"/>pter arctationem mulieris separatur matrimonium, mulier 
+      de<lb ed="#L" n="148" break="no"/>bet remanere sine coniugio, si vero nubat alteri a quo 
+      cogno<lb ed="#L" n="149" break="no"/>scatur, nunquid integrabitur primum matrimonium Dicendum 
+      <lb ed="#L" n="150"/>est quod sic, si primus vir &amp; secundus sunt similis naturae, &amp; 
+      com<lb ed="#L" n="151" break="no"/>plexionis: quia sicut mulier est cognoscibilis a secundo, sic fuit 
+      <lb ed="#L" n="152"/>cognoscibilis a primo, &amp; sic loquitur decretalis titulo 
+      praeal<lb ed="#L" n="153" break="no"/>legato, capitulo, fraternitatis. si vero sunt complexionis 
+      notabi<lb ed="#L" n="154" break="no"/>liter distantis ratione cuius mulier nunquam fuisset 
+      cognoscibi<lb ed="#L" n="155" break="no"/>lis a primo immediate per ipsum, licet efficiatur ei cognosci 
+      <lb ed="#L" n="156"/>bilis per vsum secundi, non debet primum matrimonium 
+      redintegra<lb ed="#L" n="157" break="no"/>ri, quia mulier arcta simpliciter inepta est ad contrahemlum cum 
+      <lb ed="#L" n="158"/>illo a quo immediate non potest cognosci: non enim est 
+      lici<lb ed="#L" n="159" break="no"/>tum vt fiat ei cognoscibilis per alterum. 
+</p>
+            <p xml:id="jsnvu6-e269726-d1e349">
+               <lb ed="#L" n="160"/>Ad primum argumentum dicendum quod impotentia 
+      per<lb ed="#L" n="161" break="no"/>petua non solum impedit actum, sed &amp; obligationem in qua 
+      <lb ed="#L" n="162"/>consistit essentialiter matrimonium, quia nullus potest 
+      trans<lb ed="#L" n="163" break="no"/>ferre in alterum, id quod non habet, nec habere potest.
+    </p>
+            <p xml:id="jsnvu6-e269726-d1e360">
+      <!--00728.xml-->
+               <pb ed="#L" n="327-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>10. Per idem patet ad secundum, quia voluntas continendi im 
+      <lb ed="#L" n="2"/>pedit solum actum, &amp; non obligationem, impotentia vero 
+      <lb ed="#L" n="3"/>impedit vtrunque. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

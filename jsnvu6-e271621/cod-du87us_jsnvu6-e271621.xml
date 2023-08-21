@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="329-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e271621"><!-- l4d37q2 -->
+            <head xml:id="jsnvu6-e271621-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e271621-Hd1e103" type="question-title">
+      Utrum occisio vxoris impediat matrimonium
+    </head>
+            <p xml:id="jsnvu6-e271621-d1e106">
+               <lb ed="#L" n="146"/>QVAISTIO II. 
+      <lb ed="#L" n="147"/>Vtrum occisio vxoris impediat matrimonium. 
+    </p>
+            <p xml:id="jsnvu6-e271621-d1e113">
+               <lb ed="#L" n="148"/>SECVNDO quaeritur vtrum occisio vxoris 
+      im<lb ed="#L" n="149" break="no"/>pediat matrimonium. Et videtur quod non: quia 
+      <lb ed="#L" n="150"/>magis peccat qui occidit matrem quam qui 
+      oc<lb ed="#L" n="151" break="no"/>cidit vxorem, sed primus non impeditur a 
+      ma<lb ed="#L" n="152" break="no"/>trimonio, ergo nec secundus. 
+      </p>
+            <p xml:id="jsnvu6-e271621-d1e126">
+               <lb ed="#L" n="153"/>
+               <!--2--> Item occisio vxoris non impedit matrimonium, nisi 
+      ra<lb ed="#L" n="154" break="no"/>tione criminis, sed occidere vxorem in adulterio 
+      deprehen<lb ed="#L" n="155" break="no"/>sam non est erimen, vt probabitur, ergo tale vxoricidium non 
+      <lb ed="#L" n="156"/>debet impedire matrimonium. Probatio minoris quia qui 
+      <lb ed="#L" n="157"/>occidit vxorem actu in adulterio deprehensam nihil 
+      insu<lb ed="#L" n="158" break="no"/>stum facit, nec contra personam quae mortem meruit, nec 
+      <lb ed="#L" n="159"/>contra iustitiam publicam, quia lex ciuilis hoc permittit, 
+      <lb ed="#L" n="160"/>ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e271621-d1e149">
+               <lb ed="#L" n="161"/>
+               <!--3--> IN CONTRARIVM est qud dicitur 33 quaest. . ci 
+      <!--00732.xml-->
+      <pb ed="#L" n="329-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Interfectores suarum chiugum. vbi dicitur, quod tales habendi 
+      <lb ed="#L" n="2"/>sunt tanquam homicidae, ac per hoc ad poenitentiam redigen 
+      <lb ed="#L" n="3"/>di quibus conjugium tetaliter denegatur. 
+      </p>
+            <p xml:id="jsnvu6-e271621-d1e169">
+               <lb ed="#L" n="4"/>
+               <!--4--> Responsio. Dicenda sunt duo. Primum est an liceat viro 
+      <lb ed="#L" n="5"/>vxorem deprehensam in adulterio occidere. Secundum est v. 
+      <lb ed="#L" n="6"/>trum talis occisio impediat eum a matrimonio contrahendo 
+      </p>
+            <p xml:id="jsnvu6-e271621-d1e180">
+               <lb ed="#L" n="7"/>
+               <!--5--> Quantum ad primum sciendum est quod virum interfice 
+      <lb ed="#L" n="8"/>re vxotem contingit dupliciter. Vno modo per iudicium eiu 
+      <lb ed="#L" n="9"/>le, accusando eam criminaliter de adulterio, &amp; per tesses legi 
+      <lb ed="#L" n="10"/>timos congincendo, &amp; petendo poenam mortis a lege vel con 
+      <lb ed="#L" n="11"/>suetudine statutam, &amp; hoc licitum est si fiat zelo iustitiae, non vio 
+      <lb ed="#L" n="12"/>dictae, sicut licitum est aliquem de furto vel homicidio crimina 
+      <lb ed="#L" n="13"/>liter accu sare, sed talis accusatio non pos fieri in iudicioecele 
+      <lb ed="#L" n="14"/>fiastico, quia ecclesia non habet gladium materialem, vt infra di 
+      <lb ed="#L" n="15"/>citur, &amp; in prae allegato cap. Alio modo concingit occidere pe 
+      <lb ed="#L" n="16"/>seipsum, non in iudicio, conuinctam, &amp; sic eam accidere extra 
+      <lb ed="#L" n="17"/>actum adulterij quantumcunque sciat eam adulteram non licei 
+      <lb ed="#L" n="18"/>neque secundum leges ciulles, neque secundum legem 
+      conscien<lb ed="#L" n="19" break="no"/>tiae: sed quando actu deprehenditur in adulterio, permittit ler 
+      <lb ed="#L" n="20"/>ciuilis viro eam interficere, non tanquam aliquid licitum, sed quia 
+      <lb ed="#L" n="21"/>non infligit poenam quae homicidis debetur, propter maximum 
+      <lb ed="#L" n="22"/>incitamentum quod habet vir in tali facto ad occisionem vxoris 
+      <lb ed="#L" n="23"/>Sed secundum iudicium ecclesiae &amp; conscientiae non est immu 
+      <lb ed="#L" n="24"/>nis a reatu poenae aeternae. Cuius ratio est: quia nulli licet quer 
+      <lb ed="#L" n="25"/>quam interficere, nisi ei qui fungitur auctoritate publica, sed 
+      <lb ed="#L" n="26"/>vir respectuvxoris non fungitur auctoritate publica, ergo vire 
+      <lb ed="#L" n="27"/>non licet vxorem interficere. Maior patet: quia cum quaeliber 
+      <lb ed="#L" n="28"/>persona singularis sit pars communitatis, sicut membrum est pari 
+      <lb ed="#L" n="29"/>corporis, quemadmodum incumbit praescindere membrum qud 
+      <lb ed="#L" n="30"/>est putridum &amp; infectiuum corporis soli illi cui commissa est cu 
+      <lb ed="#L" n="31"/>ra corporis. (s. medico) sic occidere personam quantuncunque sin 
+      <lb ed="#L" n="32"/>gularem quae est membrum communitatis quantuncunque sit noc 
+      <lb ed="#L" n="33"/>ua communitati, non licet nisi illi cui commissa est cura commu 
+      <lb ed="#L" n="34"/>nitatis, hic autem est princeps vel ille qui fungitur auctoritate pu 
+      <lb ed="#L" n="35"/>blica, quare &amp;c. Minor similiter declaratur, quia cum sit duplex 
+      <lb ed="#L" n="36"/>congregatio: quaedam oeconomica sicut in familia, &amp; quaedam 
+      poli<lb ed="#L" n="37" break="no"/>tica sicut in eiuitate vel regno, ille qui praeest primae congrega 
+      <lb ed="#L" n="38"/>tioni non dicitur praeesse communitati, nec fungi auctoritate 
+      pu<lb ed="#L" n="39" break="no"/>blica, &amp; ideo ad eum non pertinet infligere poenam exterminantem 
+      <lb ed="#L" n="40"/>sed solum poenam corrigenmem. &amp; sic se habet vir in domo respectu 
+      <lb ed="#L" n="41"/>vxoris &amp; familiae. Ilie autem qui praeest secundae congregationi 
+      <lb ed="#L" n="42"/>potest infligere poenam exterminantem. &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e271621-d1e263">
+               <lb ed="#L" n="43"/>
+               <!--6--> QUANTVM ad secundum sciendum est quod vir po 
+      <lb ed="#L" n="44"/>test occidere vxorem triplici de causa. Vno modo persequendo 
+      <lb ed="#L" n="45"/>culpam propter adulterium. Secundo modo persequendo naturam. 
+      <lb ed="#L" n="46"/>s. propter odium. Tertio modo persequendo matrimonium. s. quam 
+      <lb ed="#L" n="47"/>do vir interficit vxorem vt contrahat cum aduliera cum qua 
+      commi<lb ed="#L" n="48" break="no"/>sit adulterium. Iu primis duobus casibus vxoricidium 
+      impedi<lb ed="#L" n="49" break="no"/>matrimonium contrahendum, sed non dirimit contractum, simili 
+      <lb ed="#L" n="50"/>ter in tertio casu respectu aliarum personarum ab adultera, &amp; fi ti 
+      <lb ed="#L" n="51"/>metur probabiliter de incontinentia, potest dispensari vt concrahat. 
+      <lb ed="#L" n="52"/>respectu vero adulterae impedit &amp; dirimit: sunt &amp; aliqua crimi 
+      <lb ed="#L" n="53"/>na quae impediunt matrimonium contrahendum sed non dirimuni 
+      <lb ed="#L" n="54"/>contractum, sicut incestus, vt 32. q. 7. si quis viduam., si quis cum nouei 
+      <lb ed="#L" n="55"/>ca. &amp; raptus sponsae alienae, vt 27. q. 2. c. raptor. &amp; ca statutum. Iti 
+      <lb ed="#L" n="56"/>susceptio proprij filij de sacro fonte ad insidiandum matrimonio 
+      <lb ed="#L" n="57"/>vt 30. q. 1. Deo. Item qui preabyterum occidit: vt extra de poe &amp; 
+      re<lb ed="#L" n="58" break="no"/>mis. qui presbyterum. Item solennis poenitentia: vt 33. q. 2. de his &amp; 
+      <lb ed="#L" n="59"/>ca. antiqui. quod est intelligendum quandiu solennis poenitentia durat 
+</p>
+            <p xml:id="jsnvu6-e271621-d1e305">
+               <lb ed="#L" n="60"/>AD PRIMVM argumentum dicendum quod vxoricidium 
+      <lb ed="#L" n="61"/>non impedit matrimonium solum ratione criminis, sed 
+      qui<lb ed="#L" n="62" break="no"/>est contra foedus matrimonij &amp; quamuis occidere matrem si 
+      <lb ed="#L" n="63"/>grauius peccatum quan occidere vxorem, tamen occisio vxo 
+      <lb ed="#L" n="64"/>ris est magis contra foedus matrimonij quam occisio matris 
+      <lb ed="#L" n="65"/>&amp;ndeo magis impedit matrimonium. 
+      </p>
+            <p xml:id="jsnvu6-e271621-d1e321">
+               <lb ed="#L" n="66"/>
+               <!--8--> Ad secundum dicendum que occisio vxoris actu deprehensa 
+      <lb ed="#L" n="67"/>in adulterio si fiat extra iudiciu semper est peccatum, &amp; iniustum 
+      <lb ed="#L" n="68"/>quia praeiudicat personae &amp; reipublicae: personae quae non debet 
+      <lb ed="#L" n="69"/>mori nisi confessa &amp; conuicta in loco iudicij, praeiudicat etiam pu 
+      <lb ed="#L" n="70"/>blicae iustitiae, quia non per publicum iudicium occiditur, &amp; quam 
+      <lb ed="#L" n="71"/>uis lex ciuilis hoc permittat, non tamen vt licitum, sed non infligi 
+      <lb ed="#L" n="72"/>poenam propter maximum incitamentum quod habet in tali opere.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

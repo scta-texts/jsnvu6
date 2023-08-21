@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="153-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3575"><!-- l2d28q1 -->
+            <head xml:id="jsnvu6-d1e3575-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e3575-Hd1e103" type="question-title">Utrum sine gratia possit homo cognoscere aliquam veritatem</head>
+            <p xml:id="jsnvu6-d1e3575-d1e106">
+               <lb ed="#L" n="23"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="24"/>Vtrum sine gratia possit homo 
+      co<lb ed="#L" n="25" break="no"/>gnoscere aliquam 
+      veri<lb ed="#L" n="26" break="no"/>tatem. 
+      <lb ed="#L" n="27"/>Thom. 1. 2. 5. 109. ar. 1. 
+    </p>
+            <p xml:id="jsnvu6-d1e3575-d1e119">
+               <lb ed="#L" n="28"/>CIRCA distinctionem istam primo quaeritur, vtrun 
+      <lb ed="#L" n="29"/>sine gratia possit homo cognoscere aliquam ve 
+      <lb ed="#L" n="30"/>ritatem. Et videtur quod non, quia sicut se habe 
+      <lb ed="#L" n="31"/>sensus ad sensibilia, sic intellectus ad intelligibilia 
+      <lb ed="#L" n="32"/>i Sed sensus visus qui inter omnes est nobilissimus 
+      <lb ed="#L" n="33"/>nihu potest videre sine extrinseco lumine, ergo nec intellectu. 
+      <lb ed="#L" n="34"/>pontest aliquid intelligere sine aliquo lumine superaddito, quod 
+      <lb ed="#L" n="35"/>est gratis datum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3575-d1e139">
+               <lb ed="#L" n="36"/>
+               <!--2--> Item facilior est via cognoscendi aliquid per doctrinam quam 
+      <lb ed="#L" n="37"/>per inuentionem, sed nullus potest acquirere scientiam 
+      verita<lb ed="#L" n="38" break="no"/>tis per doctrinam exterius, nisi deus doceat interius (vt dici 
+      <lb ed="#L" n="39"/>Augustinus lib. de magistro) ergo multo minus per 
+      inuentio<lb ed="#L" n="40" break="no"/>nem, &amp; sic nullo modo. 
+</p>
+            <p xml:id="jsnvu6-d1e3575-d1e156">
+               <lb ed="#L" n="41"/>IN CONTRARIVM est, quia si absque gratia non 
+      <lb ed="#L" n="42"/>possemus aliquod verum intelligere nullum nostrum 
+      intellige<lb ed="#L" n="43" break="no"/>re esset pure naturale, &amp; ita intellectus secundum se careret 
+      <lb ed="#L" n="44"/>propria operatione quod est inconueniens, ergo, &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-d1e3575-d1e167">
+               <lb ed="#L" n="45"/>RESPONSIO. gratia dupliciter accipitur, vno modo 
+      <lb ed="#L" n="46"/>pro gratia dei prouidentia, qua gratis omnibus rebus impendi 
+      <lb ed="#L" n="47"/>ea quae ipsis conueniunt. Alio modo accipitur gratia pro 
+      habi<lb ed="#L" n="48" break="no"/>tuali dono recepto in anima. Primo modo nulli est dubium quod 
+      <lb ed="#L" n="49"/>sine gratia dei non possumus quicquam verum intelligere, quia 
+      <lb ed="#L" n="50"/>sine intellectu quem deus hamini dedit ex sua prouidentia 
+      tan<lb ed="#L" n="51" break="no"/>quam aliquid necessarium ad finem suum nihil intelligere 
+      possu<lb ed="#L" n="52" break="no"/>mus, si autem accipiatur gratia pro dono habituali aut illud erii 
+      <lb ed="#L" n="53"/>gratum faciens vel solum gratis datum. Si primo modo sic 
+      di<lb ed="#L" n="54" break="no"/>cendum est quod sine gratia possumus quodcunque verum 
+      intel<lb ed="#L" n="55" break="no"/>ligere, quia talis gratia vel est idem quod charitas vel non est sint 
+      <lb ed="#L" n="56"/>charitate: sed sine charitate possumus quodcunque verum 
+      in<lb ed="#L" n="57" break="no"/>telligere, ergo &amp; sine tali gratia. Minor probatur, quia perfectio 
+      <lb ed="#L" n="58"/>prioris non dependet a perfectione posterioris, propter quod 
+      <lb ed="#L" n="59"/>intellectus ad intelligendum verum non requirit gratiam quae 
+      <lb ed="#L" n="60"/>perfectio voluntatis ponitur. Et hoc est quod dicit Augustinus 
+      <lb ed="#L" n="61"/>primolibro retractionum non approbo quod in oratione dixi 
+      <lb ed="#L" n="62"/>deus qui non nisi mundos scire verum voluisti. Responderi enim 
+      <lb ed="#L" n="63"/>potest multos etiam non mundos multa vera scire, sed per 
+      gra<lb ed="#L" n="64" break="no"/>tiam homo mundus efficitur. 
+    </p>
+            <p xml:id="jsnvu6-d1e3575-d1e213">
+               <lb ed="#L" n="65"/>Si autem gratia vocetur quodcuque habituale donum 
+      gra<lb ed="#L" n="66" break="no"/>tis datum quod potest esse commune bonis &amp; malis, sic 
+      distin<lb ed="#L" n="67" break="no"/>guendum est de veritate, quia quaedam veritas est de 
+      sensibili<lb ed="#L" n="68" break="no"/>bus &amp; ex sensibilibus deducto, quaedam vero quae nec est in 
+      sen<lb ed="#L" n="69" break="no"/>sibilibus, nec ex sensibilibus deduci potest. Primam veritatem 
+      <lb ed="#L" n="70"/>potest intellectus intelligere absque dono quocunque 
+      superna<lb ed="#L" n="71" break="no"/>turali gratis dato, quia quaelibet potentia potest in obiectum sib 
+      <lb ed="#L" n="72"/>proportionatum absque quocunque extrinseco, sed obiectum 
+      <lb ed="#L" n="73"/>proportionatum nostro intellectui est veritas in sensibilibus 8 
+      <lb ed="#L" n="74"/>ab eis deducta, sicut intellectus noster est quoddam intellectiu 
+      <lb ed="#L" n="75"/>cum sensitiuo, ergo talem veritatem potest intelligere intellectu 
+      <lb ed="#L" n="76"/>noster sinae quocuque addito. Si autem sit veritas quae nec sit in 
+      <lb ed="#L" n="77"/>sensibilis, nec ab eis possit deduci vt sunt multa quae fide tene 
+      <lb ed="#L" n="78"/>mus, sic talis veritas potest coguosci dupliciter. Vno modo co- 
+      <!--00374.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>gnitione intuitiua vel scientifica. Alio modo cognitione 
+      conie<lb ed="#L" n="80" break="no"/>cturali, vel per modum qualiscunque assensus. Primam 
+      cogni<lb ed="#L" n="81" break="no"/>tionem non potest habere intellectus viatoris ex se de veritat, 
+      <lb ed="#L" n="82"/>supernaturali, cuius ratio est, quia omnis talis cognitio, vel es 
+      <lb ed="#L" n="83"/>alicuius per se, &amp; in se notio, &amp; est cognitio intuitiua, vel deduci 
+      <lb ed="#L" n="84"/>potest ex per se notis, si sit cognitio scientifica: sed talis veritas 
+      <lb ed="#L" n="85"/>supernaturalis non est intellectui viatoris quantum ad modum 
+      <lb ed="#L" n="86"/>cognitionis naturalis de se &amp; in se nota, nec ex per se notis 
+      no<lb ed="#L" n="87" break="no"/>bis potest deduci, vt plenius declaratum fuit in primo libro: 
+      er<lb ed="#L" n="88" break="no"/>go de tali veritate non potest intellectus viatoris de se habere 
+      <lb ed="#L" n="89"/>cognitionem intuitiuam vel scientificam. 
+      </p>
+            <p xml:id="jsnvu6-d1e3575-d1e274">
+               <lb ed="#L" n="90"/>
+               <!--6--> Si autem loquamur de cognitione quae est qualiscunque 
+      as<lb ed="#L" n="91" break="no"/>sensus ex coniectura vel auctoritate dicentis, sic videtur esse 
+      <lb ed="#L" n="92"/>dicendum, quod sine quocunque habitu supernaturali potest 
+      in<lb ed="#L" n="93" break="no"/>tellectus noster veritati articulorum assentire. Quod patet pr 
+      <lb ed="#L" n="94"/>mo, quia illi veritati potest intellectus noster assentire, ad cuiu 
+      <lb ed="#L" n="95"/>obiectum habet motiuum, &amp; si non necessarium, tamen 
+      pro<lb ed="#L" n="96" break="no"/>babile &amp; persuasiuum. Assentimus enim multis, de quibus no 
+      <lb ed="#L" n="97"/>habemus necessariam rationem, sed valde tenuem coniectu 
+      <lb ed="#L" n="98"/>ram, sed ad assentiendum veritati supernaturali sine quocunc 
+      <lb ed="#L" n="99"/>habitu habemus motiuum probabile &amp; persuasiuum, verb 
+      <lb ed="#L" n="100"/>gratia, quum Christus doceret se esse verum deum, &amp; ad 
+      con<lb ed="#L" n="101" break="no"/>firmationem suae doctrinae facere signa quae solus Deus potest 
+      <lb ed="#L" n="102"/>facere, sicut ipse dixit, si mihi non vultis credere, operibus 
+      cre<lb ed="#L" n="103" break="no"/>dite: talia signa poterant inclinare intellectum ad credendun 
+      <lb ed="#L" n="104"/>ipsum esse Deum. Vnde &amp; Doctores dicunt quod 
+      daemone<lb ed="#L" n="105" break="no"/>crediderunt Christum esse Deum, non per habitum infusum, sed 
+      <lb ed="#L" n="106"/>ex apparentia signorum: quare, &amp;c.
+</p>
+            <p xml:id="jsnvu6-d1e3575-d1e316">
+               <lb ed="#L" n="107"/>Item credere est assentire alicui vero non propter se, 
+      se<lb ed="#L" n="108" break="no"/>propter auctoritatem dicentis: sed ad hoc non videtur aliqui 
+      <lb ed="#L" n="109"/>necessarius habitus, credo enim pluuiam futuram, quia ita 
+      di<lb ed="#L" n="110" break="no"/>cit Astrologus, &amp; credo Deum incarnatum, quia ita dicit 
+      scri<lb ed="#L" n="111" break="no"/>ptura, quam puto secundum auctoritatem ecclesiae a Deo 
+      in<lb ed="#L" n="112" break="no"/>spiratam: quare &amp;c. Item non requireretur habitus, nisi v 
+      <lb ed="#L" n="113"/>eleuaret potentiam, sed istud non est necessarium, quia 
+      quam<lb ed="#L" n="114" break="no"/>uis sit super facultatem naturalem intellectus nostri clare 
+      inte<lb ed="#L" n="115" break="no"/>ligere veritatem articulorum, tamen non est super facultatem 
+      <lb ed="#L" n="116"/>eius assentire ei ex auctoritate alterius. Multis enim assentimus 
+      <lb ed="#L" n="117"/>ex dictis sapientium quae non clare intelligimus. Item 
+      secun<lb ed="#L" n="118" break="no"/>dum Doctores, haereticus discredens solum vnum articulum 
+      <lb ed="#L" n="119"/>caret habitu fidei infusae, &amp; tamen assentit aliis articulis: erge 
+      <lb ed="#L" n="120"/>non videtur necessarium quod ponamus habitum infusum ac 
+      <lb ed="#L" n="121"/>assentiendum veritati articulorum. Et si dicatur, ergo fides su 
+      <lb ed="#L" n="122"/>perfluit. Dicendum quod non, quia etsi non sit necessaria 
+      pro<lb ed="#L" n="123" break="no"/>pter assensum absolute acceptum: est tamen necessaria ad hoc 
+      <lb ed="#L" n="124"/>vt intellectus veritati articulorum, &amp; assentiat faciliter 
+      contr<lb ed="#L" n="125" break="no"/>intellectus duritiam, &amp; firmiter ac discrete contra intellectu: 
+      <lb ed="#L" n="126"/>errorem, quia vnusquisque habitus, sicut inclinat ad propriun 
+      <lb ed="#L" n="127"/>obiectum, sic facit refutare contraria. 
+      </p>
+            <p xml:id="jsnvu6-d1e3575-d1e364">
+               <lb ed="#L" n="128"/>
+               <!--8--> Ad primum argumentum dicendum quod lumen 
+      extrin<lb ed="#L" n="129" break="no"/>secum non requiritur ad visionem corporalem ex parte visus 
+      <lb ed="#L" n="130"/>tanquam aliquid cooperans visui ad videndum, sed requiritur 
+      <lb ed="#L" n="131"/>tanquam dispositio medij &amp; organi ad recipiendum speciem 
+      <lb ed="#L" n="132"/>coloris vel ipsam visionem, quae non potest esse nisi diaphano 
+      <lb ed="#L" n="133"/>actu illuminato. Vnde &amp; alij sensus lumen non requirunt ad 
+      <lb ed="#L" n="134"/>cognoscendum proprium obiectum, quod sine lumine 
+      ex<lb ed="#L" n="135" break="no"/>trinseco praesentialiter habere possent. Et similiter est circa 
+      <lb ed="#L" n="136"/>intellectum, cui suum obiectum potest praesens esse sine 
+      quo<lb ed="#L" n="137" break="no"/>cunque dono habituali superaddito. 
+      </p>
+            <p xml:id="jsnvu6-d1e3575-d1e391">
+               <lb ed="#L" n="138"/>
+               <!--9--> Ad secundum dicendum quod secundum August. ibidem, ille 
+      <lb ed="#L" n="139"/>qui docet similis est illi qui mouet digitum ad ostendendum 
+      vi<lb ed="#L" n="140" break="no"/>sui, qui tamen virtutem visiuam non confert videnti, &amp; homo 
+      <lb ed="#L" n="141"/>potest exterius verba proferre, quae sunt signa veritatis, non 
+      <lb ed="#L" n="142"/>tamen vim intelligendi veritatem praebet, sed est a solo Deo 
+      <lb ed="#L" n="143"/>pro tanto ergo Deus dicitur interius docere quod vim 
+      intel<lb ed="#L" n="144" break="no"/>ligendi in nobis causat, &amp; non ex hoc quod in cognitione 
+      cu<lb ed="#L" n="145" break="no"/>iuslibet veritatis nouum lumen infundat. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

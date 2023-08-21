@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="192-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e157753"><!-- l3d6prae -->
+            <head xml:id="jsnvu6-e157753-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e157753-d1e103">
+               <lb ed="#L" n="4"/>Sententia huius distinctionis VI. in 
+      <lb ed="#L" n="5"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e157753-d1e110">
+               <lb ed="#L" n="6"/>EX praemissis autem emergit. Superius magister 
+      de<lb ed="#L" n="7" break="no"/>terminauit de incarnatione filij dei. hic incipit die 
+      <lb ed="#L" n="8"/>terminare conditiones dei incarnati. Et diuiditur 
+      <lb ed="#L" n="9"/>in duas. Primo determinat de his quae conueniunt 
+      <lb ed="#L" n="10"/>Iincarnato deo ratione vnionis. Secundo de 
+      hi<lb ed="#L" n="11" break="no"/>quae pertinent absolute ad naturam assumptam, distinct. 13. 
+      Pri<lb ed="#L" n="12" break="no"/>ma ibi, sciendum est Christum, &amp;c. Prima in duas. Primo deter 
+      <lb ed="#L" n="13"/>minat de his quae dicuntur de deo incarnato exprimentia 
+      vnio<lb ed="#L" n="14" break="no"/>nem, sicut cum dicitur filius dei est filius hominis, &amp; deus factus 
+      <lb ed="#L" n="15"/>est homo, &amp; homo est deus. Secundo determinat quae ei 
+      con<lb ed="#L" n="16" break="no"/>ueniunt consequentia ad vnionem dist. 8. Post praedicta inquiri 
+      <lb ed="#L" n="17"/>debet. Prima in tres. Primo mouet quaestionem de 
+      propositio<lb ed="#L" n="18" break="no"/>nibus exprimentibus vnionem. Secundo ponit diuersas 
+      opinio<lb ed="#L" n="19" break="no"/>nes diuinae vnionis ibi, Alij tamen dicunt. Tertio ostendit 
+      quo<lb ed="#L" n="20" break="no"/>modo intelliguntur diuersimode praedictae locutiones secundum 
+      <lb ed="#L" n="21"/>diuersas opiniones, distin. 7. secundum personam dicitur vero 
+      <lb ed="#L" n="22"/>Prima vero pars cum secunda est principium lectionis, quarum 
+      <lb ed="#L" n="23"/>prima remanet indiuisa. Sed secunda diuiditur in sex. Prime 
+      <lb ed="#L" n="24"/>ponit vnam opinionem. Secundo eius confirmationem, ibi, 8 
+      <lb ed="#L" n="25"/>ne suo sensu. Tertio ponit opinionem secundam: Sunt tamer 
+      <lb ed="#L" n="26"/>alij. Quarto subdit eius confirmationem ibi, de hoc enim 
+      Au<lb ed="#L" n="27" break="no"/>Quinto ponit tertiam opinionem ibi, sunt autem &amp; alij. Sexte 
+      <lb ed="#L" n="28"/>subdit confirmationem eius ibi, ne aut illi de suo. Haec est 
+      sen<lb ed="#L" n="29" break="no"/>tentia &amp; diuisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-e157753-d1e165">
+               <lb ed="#L" n="30"/>
+               <!--2.--> Sententia autem in speciali est ista, non secundum ordinem 
+      <lb ed="#L" n="31"/>literae, sed vt planius intelligantur opiniones quas Magister re 
+      <lb ed="#L" n="32"/>citat in litera, procedemus sic. Primo narrabimus tres 
+      opinio<lb ed="#L" n="33" break="no"/>nes quae ponuntur in litera, ostendendo quid vnaquaeque opinie 
+      <lb ed="#L" n="34"/>ponit. Et secundo in quibus conueniunt. Et tertio in quibus diffe 
+      <lb ed="#L" n="35"/>runt. Ponit ergo prima opiniones quatuor. Prima est, quod &amp; ani 
+      <lb ed="#L" n="36"/>ma &amp; corpus prius ordine naturae, non temporis fuerunt adinui 
+      <lb ed="#L" n="37"/>cem sibi vnita ad constituendum hominem, ac deinde hom 
+      <lb ed="#L" n="38"/>constitutus ex eis fuit a verbo assumptus, &amp; quia homo nomen 
+      <lb ed="#L" n="39"/>est suppositi, ideo secundo ponit haec opinio, quod in Christo fue 
+      <lb ed="#L" n="40"/>runt duo supposita, vnum creatum, quod est homo quod 
+      sub<lb ed="#L" n="41" break="no"/>sistit solum ex duabus substantiis (ex anima scilicet &amp; corpo 
+      <lb ed="#L" n="42"/>re, non ex deitate.) Et aliud increatum, quod est filius Dei quod 
+      <lb ed="#L" n="43"/>subsistit solum in natura diuina. Et isti quamuis ponant in Chri 
+      <lb ed="#L" n="44"/>sto duo supposita, non ponunt tamen duas personas, sed vnam 
+      <lb ed="#L" n="45"/>tantum (scilicet personam verbi) quia suppositum hominis non 
+      <lb ed="#L" n="46"/>dicunt esse personam, quia vnitum est digniori (scilicet suppo 
+      <lb ed="#L" n="47"/>sito diuino.) Persona autem dicit suppositum ad dignitatem per 
+      <lb ed="#L" n="48"/>tinens. Quia etiam ponunt distinctionem suppositorum. Ideo di 
+      <lb ed="#L" n="49"/>cunt terio, quod proprietates vnius non competunt alteri ab 
+      <lb ed="#L" n="50"/>solute, sed cum reduplicatione, sicut non est dicendum quod ist. 
+      <lb ed="#L" n="51"/>homo demonstrato Christo est aeternus, vel filius Dei incepit 
+      <lb ed="#L" n="52"/>esse, vel est mortuus nisi sub hoc sensu iste homo qui dicitur 
+      filiu<lb ed="#L" n="53" break="no"/>Dei, est aeternus, vel filius Dei, qui dicitur iste homo incepit esse 
+      <lb ed="#L" n="54"/>vel est mortuus. Dicunt enim quod non obstante distinctione sup. 
+      <lb ed="#L" n="55"/>positorum: vnum dicitur de altero, non propter vnitatem suppositi 
+      <lb ed="#L" n="56"/>sed propter maximam vnitatem gratiae &amp; affectus, secundum 
+      <lb ed="#L" n="57"/>quem modum quem dicitur in Psal. Ego dixi, dij estis. Quarti 
+      <lb ed="#L" n="58"/>ponit haec opinio quod persona verbi non fuit magis composita 
+      <lb ed="#L" n="59"/>post assumptionem quam ante, quia homo assumptus no 
+      per<lb ed="#L" n="60" break="no"/>tinet ad vnitatem suppositi vel personae diuinae: &amp; ideo per 
+      eiu<lb ed="#L" n="61" break="no"/>assumptionem persona diuina non est magis composita, sed 
+      aequ<lb ed="#L" n="62" break="no"/>simplex, vt prius. Secunda opinio ponit quatuor. Primum est qi 
+      <lb ed="#L" n="63"/>corpus &amp; anima fuerunt prius natura vnita ad constitutionem 
+      <lb ed="#L" n="64"/>humanae naturae, &amp; non alicuius suppositi: &amp; sic a verbo fuerunt 
+      <lb ed="#L" n="65"/>assumpta. Secundum est, quod in Christo non est nisi vnum 
+      suppo<lb ed="#L" n="66" break="no"/>situm, &amp; vna persona subsistens in duabus naturis (diuina 
+      scili<lb ed="#L" n="67" break="no"/>cet, &amp; humana.) Tertium est, quod propter vnitatem suppositi ir 
+      <lb ed="#L" n="68"/>duplici natura, de illo possunt proprie dici adiectiua significan 
+      <lb ed="#L" n="69"/>tia proprietates vtriusque naturae, siue suppositum importetu 
+      <lb ed="#L" n="70"/>per concretum vnius naturae, siue alterius, vt dicendo, Deus es 
+      <lb ed="#L" n="71"/>passus, vel iste puer est aeternus. Quartum est, quod persona verb. 
+      <lb ed="#L" n="72"/>per incarnationem facta est composita, quae prius erat simples 
+      <lb ed="#L" n="73"/>sub hoc sensu, quod persona verbi ante incarnationem subsistebat 
+      <lb ed="#L" n="74"/>tantum in vna natura: post incarnationem vero subsistit in 
+      dua<lb ed="#L" n="75" break="no"/>bus. Tertia opinio similiter ponit quatuor. Primum est, quod 
+      <lb ed="#L" n="76"/>anima &amp; corpus diuisa ab inuicem &amp; sine vlla compositione 
+      <lb ed="#L" n="77"/>inter se fuerunt a verbo assumpta. Vnde cum dicitur qued filiu 
+      <lb ed="#L" n="78"/>Dei assumpsit humanam naturam intelligendum est secundun 
+      <lb ed="#L" n="79"/>ipsos materialiter (id est, partes humanae naturae) sicut parte 
+      <lb ed="#L" n="80"/>domus dicuntur domus. Secundum est quod haec duo, scilicet ani¬ 
+      <!--00458.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>ma &amp; corpus fuerunt vnita verbo solum accidentaliter per 
+      mo<lb ed="#L" n="82" break="no"/>dum extrinseci habitus, sicut vestis vnitur homini, &amp; sicut 
+      an<lb ed="#L" n="83" break="no"/>gelus assumit corpus in quo apparet. Tertium est quod istae duae 
+      <lb ed="#L" n="84"/>substantiae non pertinent ad personalitatem verbi, sed 
+      extrin<lb ed="#L" n="85" break="no"/>sece se habent ad ipsam, vt indumentum ad hominem. Ex quo 
+      <lb ed="#L" n="86"/>sequitur quartum quod cum neutra harum substantiarum non sit 
+      <lb ed="#L" n="87"/>persona secundum se, &amp; vtraque se habeat extrinsece ad 
+      perso<lb ed="#L" n="88" break="no"/>nalitatem verbi, in Christo non est nisi vna persona tantum, &amp; 
+      <lb ed="#L" n="89"/>illa est aeque simplex sicut ante assumptionem. Haec ergo sunt 
+      <lb ed="#L" n="90"/>quae ponunt praedictae opiniones. Secundo videndum est in 
+      qui<lb ed="#L" n="91" break="no"/>bus conueniunt, &amp; sunt quatuor in quorum quibusdam 
+      conuo<lb ed="#L" n="92" break="no"/>niunt re &amp; nomine, in aliis autem nomine solum. Primum 
+      isto<lb ed="#L" n="93" break="no"/>rum est q omnes opiniones dicunt in Christo tantum esse vnam 
+      <lb ed="#L" n="94"/>personam, in quo se credunt recedere ab errore Nestorij, qui 
+      <lb ed="#L" n="95"/>ponit duas personas &amp; haec est conuenientia voce, quia ei (vi 
+      <lb ed="#L" n="96"/>postea patebit) prima opinio ponit in Christo pluralitatem sup. 
+      <lb ed="#L" n="97"/>positorum ponit realiter pluralitatem personarum. Secundum est 
+      <lb ed="#L" n="98"/>quod omnes opiniones ponunt in Christo duplicem naturam 
+      di<lb ed="#L" n="99" break="no"/>uinam &amp; humanam, &amp; tres substantias deitatem, animam, &amp; 
+      car<lb ed="#L" n="100" break="no"/>nem, &amp; haec remansisse post assumptionem in quo recedunt ab 
+      <lb ed="#L" n="101"/>opinione Apollinaris, qui non ponit animam assumptam, sed 
+      dei<lb ed="#L" n="102" break="no"/>tatem fuisse in Christo pro anima, &amp; ab opinione Euticetis, qu 
+      <lb ed="#L" n="103"/>dicit post assumptionem in Christo fuisse tantum vnam 
+      natu<lb ed="#L" n="104" break="no"/>ram. Et haec similiter est conuenientia in voce, quo ad tertiam 
+      <lb ed="#L" n="105"/>opinionem quae dicit corpus &amp; animam non fuisse ad inuicem 
+      <lb ed="#L" n="106"/>vnita in Christo, ex hoc enim ponit realiter quod humana natura 
+      <lb ed="#L" n="107"/>non fuit in Christo cum humana natura dicat quid compositum 
+      <lb ed="#L" n="108"/>ex anima &amp; corpore. Tertium est quod omnes istae substantiae 
+      fue<lb ed="#L" n="109" break="no"/>runt in Christo realiter non secundum apparentiam contra 
+      erro<lb ed="#L" n="110" break="no"/>rem Manichei qui posuit filium Dei carnem fantasticam assumpsisse 
+      <lb ed="#L" n="111"/>Quartum est quod corpus &amp; anima siue coniuncta, siue diuisa, ni 
+      <lb ed="#L" n="112"/>fuerunt prius tempore quam essent assumpta. Sed solum ordine 
+      <lb ed="#L" n="113"/>naturae, &amp; in his duobus vltimis conueniunt omnes opiniones 
+      <lb ed="#L" n="114"/>&amp; re, &amp; voce. Et sic patet secundum. Tertio videndum est in qui 
+      <lb ed="#L" n="115"/>bus differunt, &amp; sunt quatuor. Primum est de vnitate supposit 
+      <lb ed="#L" n="116"/>in Christo: quia prima opinio ponit supposita duo. Secunda 
+      <lb ed="#L" n="117"/>vnum tantum. Tertia nec vnum praecise, nec duo simpliciter 
+      <lb ed="#L" n="118"/>vnum praecise, quia suppositum diuinum quod ponitur ibi esse 
+      <lb ed="#L" n="119"/>tantum non compraehendit secundum illam opinionem quicquid 
+      <lb ed="#L" n="120"/>pertiner ad rationem Christi, quia corpus &amp; anima diuisa, &amp; 
+      si<lb ed="#L" n="121" break="no"/>ab illo supposito assumpta non subsistunt in illo supposito, sed se 
+      <lb ed="#L" n="122"/>habent extrinsece ad modum vestis, vel habitus, &amp; ideo plus est in 
+      <lb ed="#L" n="123"/>Christo quam illud suppositum, nec tamen sunt ibi plura 
+      supposi<lb ed="#L" n="124" break="no"/>ta simpliciter, quia nec corpus nec anima ab inuicem diuisa 
+      per<lb ed="#L" n="125" break="no"/>fecte habent rationem suppositi quam importat id quod est con 
+      <lb ed="#L" n="126"/>pletum in natura. Secundum in quo differunt est ex parte 
+      assum<lb ed="#L" n="127" break="no"/>pti, quia prima opinio dicit suppositum humanum fuisse assum 
+      <lb ed="#L" n="128"/>ptum, &amp; non suppositum. Tertia dicit suppositum non fuisse 
+      as<lb ed="#L" n="129" break="no"/>sumptum, nec naturam in se, sed solum in suis partibus. Tertio 
+      <lb ed="#L" n="130"/>differunt ex parte assumptionis, vel vnionis, quia prima opinio 
+      <lb ed="#L" n="131"/>ponit illam vnionem esse secundum inhabitationem inquantum 
+      <lb ed="#L" n="132"/>filius Dei habitat in illo homine sicut in templo, &amp; secundum 
+      vni<lb ed="#L" n="133" break="no"/>tatem affectus inquantum voluntas illius hominis semper est 
+      <lb ed="#L" n="134"/>conformis voluntati Dei. Et secundum operationem quia dicunt 
+      <lb ed="#L" n="135"/>illum hominem esse instrumentum verbi dei. Secunda vero 
+      opi<lb ed="#L" n="136" break="no"/>nio ponit illam vnionem, vel assumptionem esse secundum realem 
+      <lb ed="#L" n="137"/>inexistentiam, quia humana natura realiter existit in persona 
+      di<lb ed="#L" n="138" break="no"/>uina. Tertia vero opinio ponit quod Christus est aliquid secundum 
+      <lb ed="#L" n="139"/>quod homo, quia est quoddam suppositum sibi vnitum, quamuis 
+      <lb ed="#L" n="140"/>hoc sit male intelligibile (vt postea patebit) Secunda opinio 
+      si<lb ed="#L" n="141" break="no"/>militer ponit quod Christus est aliquid secundum quod homo, quia 
+      <lb ed="#L" n="142"/>praedicatur de eo natura humana concretiue. Sed tertia opinio 
+      <lb ed="#L" n="143"/>ponit quod Christus secundum quod homo solum est aliquo modo 
+      <lb ed="#L" n="144"/>se habens sicut se habet homo aliter indutus, &amp; nudus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

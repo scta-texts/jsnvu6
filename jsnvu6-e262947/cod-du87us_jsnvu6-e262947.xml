@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="319-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e262947"><!-- l4d27q4 -->
+            <head xml:id="jsnvu6-e262947-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e262947-Hd1e103" type="question-title">Utrum cum bigamo liceat dispensare</head>
+            <p xml:id="jsnvu6-e262947-d1e106">
+               <lb ed="#L" n="18"/>QVAISTIO QVARTA. 
+      <lb ed="#L" n="19"/>Vtrum cum bigamo liceat dispensare. 
+    </p>
+            <p xml:id="jsnvu6-e262947-d1e113">
+               <lb ed="#L" n="20"/>VARTo quaeritur vtrum cum bigamo liceat 
+      di<lb ed="#L" n="21" break="no"/>spensare. Et videtur quod non: quia contra ius 
+      diui<lb ed="#L" n="22" break="no"/>num non licet dispensare, sed de iure diuino est, 
+      <lb ed="#L" n="23"/>quod bigamus non promoueatur ad ordines cum 
+      <lb ed="#L" n="24"/>hoc contineatur in Canone Bibliae, 1. Timoth. 3. 
+      <lb ed="#L" n="25"/>Oportet Episcopum irreprehensibilem esse, vnius vxoris 
+      vi<lb ed="#L" n="26" break="no"/>rum, ergo nulli in hoc licitum est dispensare. 
+      </p>
+            <p xml:id="jsnvu6-e262947-d1e131">
+               <lb ed="#L" n="27"/>
+               <!--2--> Item extra de bigamis dicitur, quod cum clericis qui quantum 
+      <lb ed="#L" n="28"/>est in ipsis secundas mulieres matrimonialiter sibi 
+      coniunxe<lb ed="#L" n="29" break="no"/>runt, tanquam cum bigamis dispensare non licet. 
+</p>
+            <p xml:id="jsnvu6-e262947-d1e143">
+               <lb ed="#L" n="30"/>IN CONTRARIVM est, quia Lucius Papa dispen 
+      <lb ed="#L" n="31"/>sauit cum Panormitano episcopo, qui erat bigamus, vt dicit 
+      <lb ed="#L" n="32"/>Gaufridus in sua summa. 
+      </p>
+            <p xml:id="jsnvu6-e262947-d1e152">
+               <lb ed="#L" n="33"/>
+               <!--4--> RESPONSIO. Videnda sunt tria. Primum est qualiter 
+      <lb ed="#L" n="34"/>bigamiae sit annexa irregularitas. Secundum est quot modis biga 
+      <lb ed="#L" n="35"/>mia contrahatur. Tertium est vtrum cum bigamis liceat dispensare. 
+      </p>
+            <p xml:id="jsnvu6-e262947-d1e163">
+               <lb ed="#L" n="36"/>
+               <!--5--> Quantum ad primum dicitur sic communiter, quod causa quare 
+      <lb ed="#L" n="37"/>bigamiae est annexa irregularitas est defectus sacramenti: decet 
+      <lb ed="#L" n="38"/>enim illum qui constituitur minister sacramenti, nullum pati in 
+      <lb ed="#L" n="39"/>sacramentis defectum, sed per sacramentum ordinis 
+      constitui<lb ed="#L" n="40" break="no"/>tur quis minister sacramentorum, ergo non debet in 
+      sacramen<lb ed="#L" n="41" break="no"/>tis habere aliquem defectum. Bigamus autem patitur defectum in 
+      sa<lb ed="#L" n="42" break="no"/>cramento matrimonij. Cum enim matrimonium ex hoc sit 
+      sacra<lb ed="#L" n="43" break="no"/>mentum quod significat coniunctionem Christi &amp; ecclesiae, quae 
+      coniun<lb ed="#L" n="44" break="no"/>ctio est vnius ad vnam, ideo bigamia quae hoc tollit cum sit vnius 
+      <lb ed="#L" n="45"/>ad plures inducit defectum sacramenti, &amp; per consequens irregulari. 
+      <lb ed="#L" n="46"/>tatem. Sed nescio an ista fuerit intentio Apostoli quando inhibuit 
+      <lb ed="#L" n="47"/>bigamum ordinari, quia bigamiam numerauit cum aliis quae non sonam 
+      <lb ed="#L" n="48"/>in defectum sacramenti, sed magis in notam criminis, dicens: 
+      opor<lb ed="#L" n="49" break="no"/>tet episcopum irreprehensibilem esse, vnius vxoris virum, non 
+      <lb ed="#L" n="50"/>vinolentum, non percussorem, non litigiosum, non cupidum. 
+      </p>
+            <p xml:id="jsnvu6-e262947-d1e200">
+               <lb ed="#L" n="51"/>
+               <!--6--> Et ideo alij dicunt quod causa prohibitionis est, quia in 
+      mini<lb ed="#L" n="52" break="no"/>stris ecclesiae debet maxima spiritualitas apparere, ex eo quod 
+      <lb ed="#L" n="53"/>spiritualia administrant &amp; spiritualia docent, &amp; in spiritualibus 
+      <lb ed="#L" n="54"/>occupari debent: vnde cum concupiscentia maxime spiritualitat 
+      <lb ed="#L" n="55"/>repugnet per quam totus homo caro efficitur, non debet aliquod 
+      <lb ed="#L" n="56"/>signum concupiscentiae permanentis in eis apparere, quod 
+      qui<lb ed="#L" n="57" break="no"/>dem apparet in pigamis, quia vna vxore contenti esse noluerunt. 
+      <lb ed="#L" n="58"/>Primum tamen tenetur communius. 
+      </p>
+            <p xml:id="jsnvu6-e262947-d1e222">
+               <lb ed="#L" n="59"/>
+               <!--7--> Quantum ad secundum sciendum est quod bigamia 
+      contrahi<lb ed="#L" n="60" break="no"/>tur in sex casibus. Primus est quando quis diuersis temporibus 
+      <lb ed="#L" n="61"/>habet diuersas vxores legitimas &amp; quamlibet earum cognoscit 
+      <lb ed="#L" n="62"/>28. quaest. vlti. ca. vlti. Secundus est quando diuersis temporibus 
+      <lb ed="#L" n="63"/>habet plures vxores alteram de iure, alteram de facto, extra de 
+      <lb ed="#L" n="64"/>bigamis, nuper. Tertius est quando eodem tempore habet plures 
+      <lb ed="#L" n="65"/>vxores alteram de iure, alteram de facto, &amp; cognoscit omnes. 
+      Quar<lb ed="#L" n="66" break="no"/>tus est quando contrahit cum vidua vel corrupta ab aliquo. 33. di. 
+      <lb ed="#L" n="67"/>maritum. &amp; extra de bigamis, cap. debitum. Quintus est quand 
+      <lb ed="#L" n="68"/>cognoscit vxorem propriam postquam ab altero fuerit cognita 34. 
+      <lb ed="#L" n="69"/>dist. si cuius. Sextus est quando post solenne votum continentiae 
+      <lb ed="#L" n="70"/>contrahit de facto licet de iure non possit, 21. q. 1. quotquot. 
+      </p>
+            <p xml:id="jsnvu6-e262947-d1e253">
+               <lb ed="#L" n="71"/>
+               <!--8--> Quantum ad tertium dicendum est quod Papa potest 
+      dispensa<lb ed="#L" n="72" break="no"/>re cum omni bigamo quod promoueatur ad omnes ordines non 
+      <lb ed="#L" n="73"/>solum minores, sed quoscunque maiores. Cuius ratio est, quia in 
+      <lb ed="#L" n="74"/>omnibus poenis vel defectibus qui non sunt de iure naturali vel 
+      <lb ed="#L" n="75"/>diuino, sed solum de statuto iuris positiui Papa potest 
+      dispen<lb ed="#L" n="76" break="no"/>sare pro libito voluntatis, sed irregularitas annexa bigamiae non 
+      <lb ed="#L" n="77"/>est de iure naturali vel diuino, sed solum de iure positiuo, ergo 
+      <lb ed="#L" n="78"/>potest in ea plenarie dispensare. Maior de se patet: quia super 
+      <lb ed="#L" n="79"/>poenas quae mere infliguntur a iure positiuo Papa habet 
+      ple<lb ed="#L" n="80" break="no"/>nariam potestatem. Minor declaratur: quia illud quod non est con 
+      <!--00711.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>tra dictamen rationis naturalis, nec contra veritatem articulorum 
+      <lb ed="#L" n="82"/>fidei, nec contra effentialia sacramentorum non est contrarius 
+      <lb ed="#L" n="83"/>naturale vel diuinum: ius enim naturale innititur rationi 
+      na<lb ed="#L" n="84" break="no"/>turali, diuinum vero articulis fidei &amp; sacramentis, quod autem 
+      bi<lb ed="#L" n="85" break="no"/>gamus ordinetur non est contra dictamen rationis naturalis (vi 
+      <lb ed="#L" n="86"/>de se patet) nec contra aliquem articulum fidei, nec contra essen 
+      <lb ed="#L" n="87"/>tialia sacramenti ordinis: quia si de facto bigamus ordinetur; 
+      re<lb ed="#L" n="88" break="no"/>cipit essentialia ordinis, ergo irregularitas bigamiae non est de 
+      <lb ed="#L" n="89"/>iure naturali vel diuino, sed solum de iure positiuo, licet ergo 
+      <lb ed="#L" n="90"/>Papae in ea prout voluerit dispensare. Sed episcopus potest 
+      qua<lb ed="#L" n="91" break="no"/>tum ad minores ordines, &amp; quidam dicunt quod etiam quoad 
+      ma<lb ed="#L" n="92" break="no"/>iores in illis qui volunt Deo seruire in religione propter 
+      vitan<lb ed="#L" n="93" break="no"/>dum religiosorum discursum. 
+      </p>
+            <p xml:id="jsnvu6-e262947-d1e313">
+               <lb ed="#L" n="94"/>
+               <!--9--> Ad primum argu. dicendum quod non licet dispensare in his qui 
+      <lb ed="#L" n="95"/>continentur in Canone quae sunt de iure naturali, &amp; de 
+      necessi<lb ed="#L" n="96" break="no"/>tate sacramentorum vel fidei, sed in aliis quae sunt de institutione 
+      <lb ed="#L" n="97"/>Apostolorum licet: cum ecclesia eandem potestatem habeat nunc 
+      <lb ed="#L" n="98"/>instituendi &amp; destituendi quam tempore Apostolorum habuit. 
+      </p>
+            <p xml:id="jsnvu6-e262947-d1e329">
+               <lb ed="#L" n="99"/>
+               <!--10.--> Ad secundum dicendum quod per illud verbum non licet cum 
+      bi<lb ed="#L" n="100" break="no"/>gamis dispensare notatur difficultas dispensandi, non 
+      impossibili<lb ed="#L" n="101" break="no"/>tas, &amp; sic glossandum est vbicunque verbum simile inuenitur. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

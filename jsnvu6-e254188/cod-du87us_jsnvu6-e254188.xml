@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="308-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e254188"><!-- l4d22q2 -->
+            <head xml:id="jsnvu6-e254188-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e254188-Hd1e103" type="question-title">Utrum haec forma sit conueniens sacramento 
+      poenitentiae, Ego te absoluo, etc.</head>
+            <p xml:id="jsnvu6-e254188-d1e106">
+               <lb ed="#L" n="12"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="13"/>Vtrum haec forma sit conueniens sacramento 
+      <lb ed="#L" n="14"/>poenitentiae, Ego te absoluo, &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-e254188-d1e115">
+               <lb ed="#L" n="15"/>SECVNDO quaeritur de forma poenitentiae, vtri 
+      <lb ed="#L" n="16"/>haec sit conueniens, Ego te absoluo. Et videtur quod 
+      <lb ed="#L" n="17"/>non: quia haec forma est indicatiua, sed forma 
+      po<lb ed="#L" n="18" break="no"/>nitentiae debet esse optatiua, vt probabitur, 
+      er<lb ed="#L" n="19" break="no"/>go &amp;c. Probatio minoris, Leo papa dicit, quod 
+      in<lb ed="#L" n="20" break="no"/>dulgentia Dei nisi precibus sacerdotis obtineri nequit: loquitur 
+      <lb ed="#L" n="21"/>autem de indulgentia quae impetratur poenitentibus: sed illa fit 
+      <lb ed="#L" n="22"/>instrumentaliter virtute verborum absolutionis, ergo illa 
+      ver<lb ed="#L" n="23" break="no"/>ba debent esse supplicatiua. 
+      </p>
+            <p xml:id="jsnvu6-e254188-d1e137">
+               <lb ed="#L" n="24"/>
+               <!--2--> Item verba sacerdotis in hoc sacramento non sunt minori 
+      <lb ed="#L" n="25"/>efficaciae quam in aliis, sed in aliis sacramentis non sufficiunt 
+      <lb ed="#L" n="26"/>verba ministri, nisi exerceat aliquem actum circa poenitentem, 
+      <lb ed="#L" n="27"/>sicut in baptismo, cum hoc quod dicit baptizans, Ego baptiz 
+      <lb ed="#L" n="28"/>te &amp;c. requiritur corporalis ablutio, ergo similiter quuin 
+      ho<lb ed="#L" n="29" break="no"/>dicit sacerdos, Ego absoluo te, requiritur quod exerceat ali 
+      <lb ed="#L" n="30"/>quem actum circa poenitentem, vel imponendo manus ad 
+      re<lb ed="#L" n="31" break="no"/>cipiendum spiritum sanctum ad remissionem peccatorum, ve 
+      <lb ed="#L" n="32"/>aliquid aliud faciendo: non ergo in illis verbis praecise 
+      consi<lb ed="#L" n="33" break="no"/>stit forma sacramenti. 
+      </p>
+            <p xml:id="jsnvu6-e254188-d1e164">
+               <lb ed="#L" n="34"/>
+               <!--3--> IN CONTRARIVM est. quia sicut Dominus dixit 
+      <lb ed="#L" n="35"/>discipulis, Matt. vlti. Docete omnes gentes, &amp;c. ita dixit Petre 
+      <lb ed="#L" n="36"/>Matt. 16. Quodcunque solueris, &amp;c. Sed sacerdos auctoritate 
+      illo<lb ed="#L" n="37" break="no"/>rum verborum Christi fretus dicit, Ego baptizo te, nec oporte 
+      <lb ed="#L" n="38"/>quod imponat manus, ergo simili auctoritate debet dicere in 
+      <lb ed="#L" n="39"/>sacramento poenitentiae, Ego absoluo te¬ 
+      </p>
+            <p xml:id="jsnvu6-e254188-d1e182">
+               <lb ed="#L" n="40"/>
+               <!--4--> RESPONSIO. Videnda sunt duo. Primum est an illa 
+      <lb ed="#L" n="41"/>verba, absoluo te, sint de forma sacramenti. Secundum, est an pra 
+      <lb ed="#L" n="42"/>cise consistat in eis, an oporteat aliquid plus addere. 
+      </p>
+            <p xml:id="jsnvu6-e254188-d1e193">
+               <lb ed="#L" n="43"/>
+               <!--5--> Quantum ad primum dicendum est, quod praemissa 
+      verb<lb ed="#L" n="44" break="no"/>sunt de forma sacramenti. Cuius ratio est, quia illa verba per se 
+      <lb ed="#L" n="45"/>pertinent ad formam sacramenti, quae directe significant eius 
+      <lb ed="#L" n="46"/>effectum: sed praemissa verba directe significant effectum 
+      sa<lb ed="#L" n="47" break="no"/>cramenti poenitentiae, ergo &amp;c. Maior patet, quia sicut in 
+      natu<lb ed="#L" n="48" break="no"/>ralibus efficientia attribuitur formae, sic &amp; in sacramentis: sunt 
+      <lb ed="#L" n="49"/>autem efficientia &amp; significantia, quum sacramenta significent 
+      <lb ed="#L" n="50"/>quod efficiunt, &amp; ideo forma verborum principaliter significa 
+      <lb ed="#L" n="51"/>effectum sacramenti quem efficit. Minor manifesta est: quuin enim 
+      <lb ed="#L" n="52"/>effectus sacramenti poenitentiae fit remissio peccatorum, directe 
+      <lb ed="#L" n="53"/>significatur per haec verba, absoluo te a peccatis tuis, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e254188-d1e222">
+               <lb ed="#L" n="54"/>
+               <!--6--> QUANTVM ad secundum dici potest probabiliter quo 
+      <lb ed="#L" n="55"/>praedictis verbis oportet aliquid addere antecedenter vel con 
+      <lb ed="#L" n="56"/>sequenter quod pertineat ad inuocationem diuini nominis. 
+      Cu<lb ed="#L" n="57" break="no"/>ius ratio est, quia in omni sacramento in cuius forma 
+      exprimi<lb ed="#L" n="58" break="no"/>tur actus ministri, debet fieri aliqua expressio principalis 
+      agen<lb ed="#L" n="59" break="no"/>tis, sed in forma absolutionis exprimitur actus ministri, 
+      ergi<lb ed="#L" n="60" break="no"/>debet apponi aliqua expressio principalis agentis. Maior 
+      pa<lb ed="#L" n="61" break="no"/>tet ratione &amp; inductione: ratione, quia actus non attribuitur 
+      <lb ed="#L" n="62"/>ministro, sed principali agenti, &amp; potissime in sacramentis in 
+      <lb ed="#L" n="63"/>aquibus secundum vnam opinionem, nec minister, nec forma 
+      <lb ed="#L" n="64"/>vel materia sint causa effectus, nisi per accidens, &amp; sicut 
+      cau<lb ed="#L" n="65" break="no"/>sa sine qua non. Idem patet inducendo in baptisino, 
+      confir<lb ed="#L" n="66" break="no"/>matione, ordine, extrema vnctione, in quibus quum actus 
+      mi<lb ed="#L" n="67" break="no"/>nistri exprimitur, additur inuocatio nominis Christi, vel trini 
+      <lb ed="#L" n="68"/>tatis. Minor patet de se. Videtur ergo quod praedictis verbi: 
+      <lb ed="#L" n="69"/>vel praemittendum sit absoluo te auctoritate Dei vel Christi, 
+      <lb ed="#L" n="70"/>vel quod addendum in fine, in nomine patris, &amp;c. vel Christi 
+      <lb ed="#L" n="71"/>vel aliquid huiusmodi, sicut in caeteris sacramentis, sicut dicii 
+      <lb ed="#L" n="72"/>Dionysius 3. cap. Ecclesiasticae Hierarchiae: quia tamen non est 
+      <lb ed="#L" n="73"/>determinatum qualis debeat esse illa appositio, ideo 
+      relinqui<lb ed="#L" n="74" break="no"/>tur arbitrio sacerdotis. 
+</p>
+            <p xml:id="jsnvu6-e254188-d1e272">
+               <lb ed="#L" n="75"/>AD PRIMVM argumentum dicendum est quod ve 
+      <lb ed="#L" n="76"/>bum Leonis papae intelligendum est non de forma 
+      absolutio<lb ed="#L" n="77" break="no"/>nis quae est indicatiua, sed de verbis deprecatiuis quae sacerdos 
+      <lb ed="#L" n="78"/>fectus sacramenti impediatur. Illa enim sunt supplicatoria, vte: 
+      <lb ed="#L" n="79"/>praemittit, ne propter aliquam indispositionem poenitentis 
+      ef<lb ed="#L" n="80" break="no"/>quum praemittitur, misereatur tui, &amp;c. 
+      <!--00690.xml-->
+      <cb ed="#L" n="b"/>
+            </p>
+            <p xml:id="jsnvu6-e254188-d1e292">
+               <lb ed="#L" n="81"/>
+               <!--8--> Ad secundum dicendum quod ad hoc sacramentum non est 
+      <lb ed="#L" n="82"/>necessaria manuum impositio: talis enim impositio fit solum in 
+      <lb ed="#L" n="83"/>illis sacramentis per quae suscipiens deputatur ad solennem actum, 
+      <lb ed="#L" n="84"/>eo quod manus est potissimum organum operationis, illa autem 
+      <lb ed="#L" n="85"/>sacramenta sunt tantum duo scilicet confirmatio per quam aliquis 
+      <lb ed="#L" n="86"/>efficitur quasi miles fidei, audacter confitens fidem coram 
+      per<lb ed="#L" n="87" break="no"/>secutore: &amp; ordo maxime diaconatus, &amp; supra, per quos homo 
+      <lb ed="#L" n="88"/>efficitur quasi dux &amp; rector populi Christiani. Et ideo in his 
+      <lb ed="#L" n="89"/>duobus sacramentis fit impositio manuum: per susceptionem 
+      <lb ed="#L" n="90"/>autem baptismi, poenitentiae, eucharistiae, seu extremae 
+      vnctio<lb ed="#L" n="91" break="no"/>nis, non acquiritur aliquis gradus super communem populum, 
+      <lb ed="#L" n="92"/>&amp; ideo ad hoc sacramentum non requiritur impositio manuum. 
+      <lb ed="#L" n="93"/>Veruntamen in duobus eorum scilicet baptismo &amp; extrema 
+      vnctio<lb ed="#L" n="94" break="no"/>ne praeter verba sacramentalia requiritur aliquis actus 
+      mini<lb ed="#L" n="95" break="no"/>stri ratione materiae extrinsecus adiunctae, quam oportet 
+      ap<lb ed="#L" n="96" break="no"/>plicari suscipienti per actum ministri. Sed quia in sacramento 
+      <lb ed="#L" n="97"/>poenitentiae nulla est talis poenitentia materia, sed sola verba 
+      <lb ed="#L" n="98"/>poenitentis, ideo non requiritur aliquis talis actus: nec similiter 
+      <lb ed="#L" n="99"/>in saeramento Eucharistiae, quia non consistit in applicatione 
+      <lb ed="#L" n="100"/>materiae ad suscipientem, sed in sola consecratione materis 
+      <lb ed="#L" n="101"/>per verba prolata super materiam eucharistiae
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

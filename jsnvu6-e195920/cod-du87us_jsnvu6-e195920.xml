@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="238-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e195920"><!-- l3d34q5 -->
+            <head xml:id="jsnvu6-e195920-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e195920-Hd1e103" type="question-title">Quomodo differunt timor seruilis, initialis, 
+      et castus inter se</head>
+            <p xml:id="jsnvu6-e195920-d1e106">
+               <lb ed="#L" n="157"/>QUAESTIO QVINTA. 
+      <lb ed="#L" n="158"/>Quomodo differunt timor seruilis, initialis, 
+      <lb ed="#L" n="159"/>&amp; castus inter se. 
+      <lb ed="#L" n="160"/>Thom. 2. 2. 4.19. ar. 8. 
+    </p>
+            <p xml:id="jsnvu6-e195920-d1e117">
+      <!--00550.xml-->
+               <pb ed="#L" n="238-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>VINTO quaeritur de differentia praedictorum 
+      <lb ed="#L" n="2"/>timorum adinuicem. Et videtur quod timor 
+      ser<lb ed="#L" n="3" break="no"/>quilis non differt a timore casto secundum essentiam, 
+      <lb ed="#L" n="4"/>quia sicut se habet fides informis ad finem 
+      forma<lb ed="#L" n="5" break="no"/>qui tam, sic se habet (vt videtur) timor seruilis, qui est 
+      <lb ed="#L" n="6"/>informis ad timorem castum, qui est per charitatem formatus 
+      <lb ed="#L" n="7"/>sed fides informis &amp; formata est eadem fides per essentiam. erge 
+      <lb ed="#L" n="8"/>similiter timor seruilis &amp; castus est idem timor per essentiam. 
+      </p>
+            <p xml:id="jsnvu6-e195920-d1e143">
+               <lb ed="#L" n="9"/>
+               <!--2--> Item videtur quod timor initialis &amp; castus non differani 
+      <lb ed="#L" n="10"/>per essentiam, quia perfectum &amp; imperfectum non variant 
+      es<lb ed="#L" n="11" break="no"/>sentiam, sed timor castus &amp; initialis differunt sicut perfectum 
+      <lb ed="#L" n="12"/>&amp; imperfectum seu sicut remissum &amp; intensum, ergo non 
+      dif<lb ed="#L" n="13" break="no"/>ferunt per essentiam. 
+      </p>
+            <p xml:id="jsnvu6-e195920-d1e160">
+               <lb ed="#L" n="14"/>
+               <!--3--> IN CONTRARIVM arguitur, quia idem non 
+      distin<lb ed="#L" n="15" break="no"/>guitur contra seipsum, sed isti timores distinguuntur abinuicem 
+      <lb ed="#L" n="16"/>per magistrum in litera, ergo non sunt idem, sed differunt. 
+      </p>
+            <p xml:id="jsnvu6-e195920-d1e171">
+               <lb ed="#L" n="17"/>
+               <!--4--> RESPONSIO. circa quaestionem aliquid est satis clarum, 
+      <lb ed="#L" n="18"/>aliquid vero dubium, satis clarum est quod timor castus seu 
+      fi<lb ed="#L" n="19" break="no"/>lialis differat per essentiam a timore seruili, quia illi actus realiter 
+      <lb ed="#L" n="20"/>differunt qui tendunt in obiecta principalia realiter distincta, sed 
+      <lb ed="#L" n="21"/>timor castus &amp; seruilis sunt huiusmodi, ergo realiter differunt. 
+      <lb ed="#L" n="22"/>Maior patet: quia differentia actuum est secundum differentiam 
+      <lb ed="#L" n="23"/>obiectorum. Minor probatur, quia obiectum timoris casti vel es 
+      <lb ed="#L" n="24"/>malum culpae vel malum separationis a deo quem ex charitate 
+      dili<lb ed="#L" n="25" break="no"/>gimus. Obiectum vero timoris seruilis est poena gehennae &amp; haec 
+      <lb ed="#L" n="26"/>sunt diuersa, ergo &amp;c. Radix etiam casti timoris per quem odimu 
+      <lb ed="#L" n="27"/>culpam &amp; timemus separationem a deo est charitas per quam 
+      <lb ed="#L" n="28"/>diligimus deum &amp; odimus peccatum per quod meremur 
+      sepa<lb ed="#L" n="29" break="no"/>rari a deo. Radix autem timoris seruilis non est charitas, ideo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-e195920-d1e204">
+               <lb ed="#L" n="30"/>
+               <!--5--> Dubium autem est vtrum timor castus &amp; initialis differant per 
+      <lb ed="#L" n="31"/>essentiam. Et dicunt quidam quod non quia in quolibet 
+      dicto<lb ed="#L" n="32" break="no"/>rum timorum est considerare duos actus, vnum principalem quem 
+      <lb ed="#L" n="33"/>timor elicit scilicet refugere hoc malum vel illud. Alius est 
+      secun<lb ed="#L" n="34" break="no"/>darius quem timor importat, scilicet facere, aut dimittere 
+      ho<lb ed="#L" n="35" break="no"/>vel illud propter fugam mali illius cuius est timor. Timor igitur 
+      <lb ed="#L" n="36"/>initialis quantum ad primum actum non differt a timore casto 
+      <lb ed="#L" n="37"/>quia timere poenas aeternas non est actus timoris initialis, sed 
+      <lb ed="#L" n="38"/>compatitur secum actum istum sicut etiam timor castus, sed actu 
+      <lb ed="#L" n="39"/>timoris initialis est timere separationem ficut et casti, quamuis 
+      <lb ed="#L" n="40"/>non ita perfecte, sed in secundo actu differt timor castus ab 
+      ini<lb ed="#L" n="41" break="no"/>tiali, quia initialis non solum importat actum vel dimissionem 
+      <lb ed="#L" n="42"/>propter separationem, sed etiam propter poenam. Quod non 
+      con<lb ed="#L" n="43" break="no"/>tingit in timore casto qui ad solam separationem oculum dirigit 
+      <lb ed="#L" n="44"/>actus autem imperati pet accidens comparantur ad habitus 
+      im<lb ed="#L" n="45" break="no"/>perantes, &amp; ideo timor initialis &amp; castus sunt idem in substantia 
+      ha<lb ed="#L" n="46" break="no"/>bitus, differunt autem accidentaliter vt ex dictis patet. Sed istur 
+      <lb ed="#L" n="47"/>le non videtur bene dictum propter duo. Primum est, quia dicun 
+      <lb ed="#L" n="48"/>qued timere poenas aeternas non est actus timoris initialis, sed 
+      com<lb ed="#L" n="49" break="no"/>patitur secum istum actum, sicut etiam timor castus, quia sicu 
+      <lb ed="#L" n="50"/>duo actus cognoscendi non possunt simul esse in eadem 
+      potenti<lb ed="#L" n="51" break="no"/>cognitiua sicut alibi probatum est, sic duo actus appetendi nor 
+      <lb ed="#L" n="52"/>possunt simul esse in eadem potentia appetitiua, impossibile est 
+      <lb ed="#L" n="53"/>ergo quod actus timoris initialis vel casti compatiatur secum actum 
+      <lb ed="#L" n="54"/>timoris seruilis qui est timere poenas aeternas, si sint duo actus, si 
+      <lb ed="#L" n="55"/>vero sit vnicus actus quo timetur separari a deo &amp; poena 
+      aeter<lb ed="#L" n="56" break="no"/>na cum talis actus non sit praecise a timore casto nec a timore 
+      <lb ed="#L" n="57"/>seruili, restat quod sit a timore initiali, ergo timor initialis respicit 
+      <lb ed="#L" n="58"/>vtrumque, scilicet separationem a deo &amp; poenam gehennae 
+      tan<lb ed="#L" n="59" break="no"/>quam sua propria obiecta. Secundo quia in eorum dictis videtur 
+      <lb ed="#L" n="60"/>esse repugnantia, dicunt enim quod timor initialis non solum 
+      im<lb ed="#L" n="61" break="no"/>perat actum vel dimissionem propter separationem, sed etiam 
+      <lb ed="#L" n="62"/>propter poenam quod non contingit in timore casto. Potenti? 
+      <lb ed="#L" n="63"/>enim nullum actum imperat nisi mediante actu illicito, si 
+      ergi<lb ed="#L" n="64" break="no"/>timor initialis imperat dimissionem culpae non solum propter 
+      <lb ed="#L" n="65"/>separationem a deo, sed etiam propter poenam aeternam, ergo per 
+      <lb ed="#L" n="66"/>actum elicitum a timore initiali non solum timetur separatio a 
+      <lb ed="#L" n="67"/>deo, sed etiam poena aeterna. Quod est contrarium priori dicto 
+      </p>
+            <p xml:id="jsnvu6-e195920-d1e291">
+               <lb ed="#L" n="68"/>
+               <!--6--> Et ideo dicendum est aliterque quamuis secundum vim 
+      voca<lb ed="#L" n="69" break="no"/>buli timor initialis possit vocari timor castus, prout de nouo 
+      in<lb ed="#L" n="70" break="no"/>cepit esse in aliquo, &amp; simili modo posset dici timor seruilis esse 
+      <lb ed="#L" n="71"/>timor initialis, prout de nouo incepit esse in aliquo. Hoc enin 
+      <lb ed="#L" n="72"/>vtrobique importat nomen initij, tamen timor initialis prout cadi 
+      <lb ed="#L" n="73"/>in distinctione timorum posita per magistrum in litera, differt reali 
+      <lb ed="#L" n="74"/>ter a timore seruili &amp; a timore casto, secundum differentiam obie 
+      <lb ed="#L" n="75"/>ctorum, quia sicut timor castus habet praecise pro obiecto malun 
+      <lb ed="#L" n="76"/>culpae vel separationem a deo, timor autem seruilis habet 
+      praecis<lb ed="#L" n="77" break="no"/>pro obiecto poenam gehennae, sic timor initialis habet pro 
+      obie<lb ed="#L" n="78" break="no"/>cto vtrumque &amp; non alterum solum, &amp; tamem est vnus timor per 
+      <lb ed="#L" n="79"/>essentiam simplicem non compositus ex timore casto &amp; seruili, 
+      qui<lb ed="#L" n="80" break="no"/>sicut potentia cognitiua vno actu simplici potest ex duplici moti 
+      <lb ed="#L" n="81"/>uo iudicare aliquid esse fugiendum sic appetitus vno actu simplic 
+      <lb ed="#L" n="82"/>potest illud fugere ex duplici motiuo, &amp; isto modo timor initia 
+      <!--00550.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>lis importat fugam peccati timore separationis &amp; gehennae. 
+      </p>
+            <p xml:id="jsnvu6-e195920-d1e335">
+               <lb ed="#L" n="84"/>
+               <!--7--> AD PRIMVM argumentum in oppositum dicendum 
+      <lb ed="#L" n="85"/>quod non est simile de fide formata &amp; informata, &amp; de timore 
+      ta<lb ed="#L" n="86" break="no"/>sto &amp; seruili, quia fidei informis &amp; formatae est idem obiectum 
+      <lb ed="#L" n="87"/>formale, &amp; ideo est idem habitus, sed timoris casti &amp; seruilis 
+      ti<lb ed="#L" n="88" break="no"/>moris non est idem obiectum formale, vt dictum fuit prius: &amp; 
+      <lb ed="#L" n="89"/>ideo non est idem habitus, nec idem actus. 
+      </p>
+            <p xml:id="jsnvu6-e195920-d1e353">
+               <lb ed="#L" n="90"/>
+               <!--8--> Ad secundum dicendum est quod perfectum &amp; imperfectum 
+      se<lb ed="#L" n="91" break="no"/>cundum solam intentionem non variant speciem, sicut minus 
+      <lb ed="#L" n="92"/>album, &amp; magis album, sed perfectum &amp; imperfectum in 
+      habi<lb ed="#L" n="93" break="no"/>tibus &amp; actibus quae habent obiecta diuersa formalia variant 
+      <lb ed="#L" n="94"/>essentiam habituum &amp; actuum, sic est de timore initiali &amp; casto
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

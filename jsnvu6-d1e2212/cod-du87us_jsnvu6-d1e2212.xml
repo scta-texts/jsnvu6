@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="102-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2212"><!-- l1d46q2 -->
+            <head xml:id="jsnvu6-d1e2212-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e2212-Hd1e103" type="question-title">Utrum Deus velit mala fieri</head>
+            <p xml:id="jsnvu6-d1e2212-d1e106">
+               <lb ed="#L" n="153"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="154"/>Vtrum Deus velit mala fieri. 
+      <lb ed="#L" n="155"/>Thom. 1. 9. 19. art. 9.
+    </p>
+            <p xml:id="jsnvu6-d1e2212-d1e115">
+               <lb ed="#L" n="156"/>SECVNDVM quaeritur vtrum Deus velit 
+      ma<lb ed="#L" n="157" break="no"/>la fieri. Et videtur quod sic, quia Deus vult 
+      <lb ed="#L" n="158"/>omne bonum, &amp; omne quod confert ad 
+      perfe<lb ed="#L" n="159" break="no"/>ctionem vniuersi quam principaliter intendit. 
+      <lb ed="#L" n="160"/>sed mala fieri est bonum, confert etiam ad 
+      per<lb ed="#L" n="161" break="no"/>fectionem vniuersi, ergo &amp;c. Minor probatur per August. in 
+      <lb ed="#L" n="162"/>enchiridio vbi dicit sic, Quamuis ea quae mala sunt inquantum 
+      <!--00270.xml-->
+      <pb ed="#L" n="102-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>mala sunt non sint bona, tamen vt non solum bona, sed etiam 
+      <lb ed="#L" n="2"/>sint mala: bonum est. Et rursus Aug. in Enchir. dicit quod illud 
+      <lb ed="#L" n="3"/>quod dicitur malum bene ordinatum &amp; loco suo positum emi 
+      <lb ed="#L" n="4"/>nentius commendat bona vt magis placeant &amp; laudabiliora 
+      <lb ed="#L" n="5"/>existant. Malum etiam confert ad perfectionem vniuersi (
+      di<lb ed="#L" n="6" break="no"/>cente Dionys. 3. de diui. no.) malum erit ad omnes, id est, quod 
+      <lb ed="#L" n="7"/>vniuersi perfectionem conferens. 
+      </p>
+            <p xml:id="jsnvu6-d1e2212-d1e154">
+               <lb ed="#L" n="8"/>
+               <!--2--> Item sicut deus est auctor gratiae ita &amp; naturae, sed deus vult 
+      <lb ed="#L" n="9"/>mala poenae fieri, quae tamen priuant bonum naturae, ergo vuli 
+      <lb ed="#L" n="10"/>similiter fieri mala culpae, quae priuant bonum gratiae. 
+      </p>
+            <p xml:id="jsnvu6-d1e2212-d1e166">
+               <lb ed="#L" n="11"/>
+               <!--3--> IN CONTRARIVM est, quia voluntas Dei 
+      se<lb ed="#L" n="12" break="no"/>quitur solam notitiam approbationis, sed per notitiam 
+      ap<lb ed="#L" n="13" break="no"/>probationis Deus nescit mala fieri, iuxta illud Abachuc I. 
+      <lb ed="#L" n="14"/>Mundi sunt oculi tui, ne videant malum, &amp; ad iniquitatem 
+      <lb ed="#L" n="15"/>respicere non poteris, ergo voluntas Dei non potest esse 
+      ma<lb ed="#L" n="16" break="no"/>lorum, vt fiant. 
+      </p>
+            <p xml:id="jsnvu6-d1e2212-d1e184">
+               <lb ed="#L" n="17"/>
+               <!--4--> RESPONSIO. Quum omnis motus &amp; actio 
+      sortia<lb ed="#L" n="18" break="no"/>tur rationem ex termino, mala autem facere vel fieri nominet 
+      <lb ed="#L" n="19"/>actionem, vel motum seu passionem tendentem in malum 
+      tan<lb ed="#L" n="20" break="no"/>quam in terminum, clarum est quod mala facere vel fieri est 
+      ma<lb ed="#L" n="21" break="no"/>lum, ppter quod sicut mala possunt esse a Deo volita, sic 
+      mal<lb ed="#L" n="22" break="no"/>fieri potest esse volitum a Deo, aliter non. Dicenda sunt ergi 
+      <lb ed="#L" n="23"/>tria ad quaestionem propositam. Primum est, quod nullum malum 
+      <lb ed="#L" n="24"/>culpae vel poenae, potest esse per se volitum a Deo seu quocunqu 
+      <lb ed="#L" n="25"/>alio. Secundum est, quod mala poenae vel naturae possunt esse 
+      <lb ed="#L" n="26"/>volita a Deo per accidens. Tertium est, quod mala culpae non 
+      <lb ed="#L" n="27"/>possunt esse volita a Deo, nec per se, nec per accidens. 
+      </p>
+            <p xml:id="jsnvu6-d1e2212-d1e213">
+               <lb ed="#L" n="28"/>
+               <!--5--> PRIMVM patet, scilicet quod mala culpae vel poenae 
+      <lb ed="#L" n="29"/>non possunt esse per se volita a quocunque, quia malum esse 
+      <lb ed="#L" n="30"/>per se volitum, est malum esse volitum sub ratione mali, sic 
+      <lb ed="#L" n="31"/>enim malum per se sumitur, &amp; non aliter, sed malum esse 
+      vo<lb ed="#L" n="32" break="no"/>litum sub ratione mali implicat contradictionem, quum omne 
+      <lb ed="#L" n="33"/>volitum sit volitum sub ratione boni quae est communis &amp; for 
+      <lb ed="#L" n="34"/>malis ratio obiecti voluntatis, ergo nullum malum potest esse 
+      <lb ed="#L" n="35"/>a quocunque per se volitum. Huic concordat dictum Dionys. 4 
+      <lb ed="#L" n="36"/>de diui. nomi. quod nullus aspiciens ad malum operatur, quod 
+      <lb ed="#L" n="37"/>tamen esset possibile, si malum posset esse volitum per se, quia 
+      <lb ed="#L" n="38"/>ad velle sequitur operari. 
+      </p>
+            <p xml:id="jsnvu6-d1e2212-d1e242">
+               <lb ed="#L" n="39"/>
+               <!--6--> Secundum patet, scilicet quod mala poenae vel naturae possum 
+      <lb ed="#L" n="40"/>esse volita a Deo per accidens, quia omne quod potest habere 
+      <lb ed="#L" n="41"/>rationem boni secundum iudicium rectae rationis potest habere 
+      <lb ed="#L" n="42"/>rationem recte voliti, sed malum naturae &amp; poenae potest 
+      ha<lb ed="#L" n="43" break="no"/>bere rationem boni per accidens secundum iudicium recti 
+      <lb ed="#L" n="44"/>rationis, ergo talia possunt per accidens esse volita. Maior 
+      <lb ed="#L" n="45"/>patet, sed minor declaratur, quia malum ex quo majus 
+      bo<lb ed="#L" n="46" break="no"/>num sequitur quam sit bonum, quod per ipsum priuatur, habet 
+      <lb ed="#L" n="47"/>rationem boni saltem per accidens, si tamen vtrunque bonum 
+      <lb ed="#L" n="48"/>non possit simul haberi, bonum enim est propter majus bonum 
+      <lb ed="#L" n="49"/>dimittere minus bonum, quando simul vtrunque haberi non 
+      <lb ed="#L" n="50"/>potest, sed ex malo naturae &amp; poenae, sequitur majus bonum, 
+      <lb ed="#L" n="51"/>quam sit illud quod per talia mala priuatur: ergo malum 
+      na<lb ed="#L" n="52" break="no"/>turae vel poenae habet vel habere potest rationem boni. 
+      Adhu<lb ed="#L" n="53" break="no"/>minor istius prosyllogismi probatur, quia nisi elementa 
+      quan<lb ed="#L" n="54" break="no"/>tum ad aliquid corrumperentur mixta non generarentur, &amp; 
+      <lb ed="#L" n="55"/>sic periret multae species vniuersi, nisi etiam multa ex mixtis 
+      <lb ed="#L" n="56"/>corrumperentur viuentia (vt iumenta &amp; homines) non 
+      per<lb ed="#L" n="57" break="no"/>manerent, nutriuntur enim ex eis, &amp; sic ex corruptione talium 
+      <lb ed="#L" n="58"/>sequitur majus bonum quam priuetur. Similiter per malum 
+      <lb ed="#L" n="59"/>poenae puniuntur culpae, &amp; sic ordinantur ad bonum iustitiae, 
+      <lb ed="#L" n="60"/>multo autem magis bonum est bonum iustitiae communis, 
+      <lb ed="#L" n="61"/>quod resultat ex malo poenae, quo culpa punitur, quam sit 
+      bo<lb ed="#L" n="62" break="no"/>num naturae in persona singulari quod per poenam priuatur, 
+      <lb ed="#L" n="63"/>&amp; sic patet minor: sequitur ergo conclusio, scilicet, quod mala 
+      <lb ed="#L" n="64"/>naturae &amp; poenae possunt esse volita a Deo per accidens. 
+      </p>
+            <p xml:id="jsnvu6-d1e2212-d1e303">
+               <lb ed="#L" n="65"/>
+               <!--7--> TERTIVM patet, scilicet quod mala culpae non possunt 
+      <lb ed="#L" n="66"/>esse a Deo volita, nec per se, nec per accidens, &amp; idem est de 
+      qua<lb ed="#L" n="67" break="no"/>cunque voluntate sequente rectam rationem: Quod non per se, 
+      <lb ed="#L" n="68"/>patet iam ex dictis: Quod nec per accidens probatur sic, sicut 
+      <lb ed="#L" n="69"/>se habet appetitus sensitiuus ad malum, quod non est conueniens 
+      <lb ed="#L" n="70"/>secundum sensum, sic se habet voluntas ad malum, quod non 
+      <lb ed="#L" n="71"/>est conueniens secundum intellectum, &amp; voluntas recta ad ma 
+      <lb ed="#L" n="72"/>lum, quod non est conueniens secundum intellectum rectum 
+      <lb ed="#L" n="73"/>sed appetitus sensitiuus nullo modo potest appetere illud quod 
+      <lb ed="#L" n="74"/>non iudicatur conueniens secundum sensum, nec voluntas 
+      ab<lb ed="#L" n="75" break="no"/>solute potest velle illud quod ab intellectu non iudicatur 
+      con<lb ed="#L" n="76" break="no"/>ueniens: ergo nec voluntas recta potest recte velle illud quod 
+      <lb ed="#L" n="77"/>non iudicatur conueniens secundum intellectum rectum, sec 
+      <lb ed="#L" n="78"/>malum culpae non potest iudicari conueniens intellectui recto 
+      <lb ed="#L" n="79"/>quia sicut malum poenae sensibilis consistit in hoc quod est ess. 
+      <lb ed="#L" n="80"/>repugnans sensui, ita malum culpae consistit in hoc quod est ess 
+      <lb ed="#L" n="81"/>repugnans rectae rationi, propter quod impossibile est &amp; 
+      con<lb ed="#L" n="82" break="no"/>rradictionem implicans quod malum culpae sit consonum recta 
+      <!--00270.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>rationi, quum oppositum sit de ratione eius, ergo voluntas bo 
+      <lb ed="#L" n="84"/>na non potest velle malum culpae, &amp; sic patet tertium. 
+      </p>
+            <p xml:id="jsnvu6-d1e2212-d1e355">
+               <lb ed="#L" n="85"/>
+               <!--8--> AD RATIONES in oppositum dicendum. Ad 
+      pri<lb ed="#L" n="86" break="no"/>mam concedendo maiorem, sed negando minorem, &amp; quum 
+      <lb ed="#L" n="87"/>probatur per Augustinum in Enchiridio, qui videtur innuere 
+      <lb ed="#L" n="88"/>quod mala esse vel fieri sit bonum: &amp; pertinet ad perfectionem 
+      <lb ed="#L" n="89"/>vniuersi. Dicendum quod illud primum est intelligendum per 
+      <lb ed="#L" n="90"/>accidens, &amp; non per se, &amp; solum de malo naturae &amp; poenae, non 
+      <lb ed="#L" n="91"/>autem de malis culpae: Quod autem mala posita iuxta bona 
+      <lb ed="#L" n="92"/>reddant ea commendabiliora, verum est secundum 
+      apparen<lb ed="#L" n="93" break="no"/>tiam, non autem secundum existentiam, &amp; illud non est tantum 
+      <lb ed="#L" n="94"/>bonum sicut est illud quod per culpam priuatur: &amp; ideo 
+      pro<lb ed="#L" n="95" break="no"/>pter illud bonum apparens malum culpae non est licitum, nec 
+      <lb ed="#L" n="96"/>eligendum. Quod autem dicit Dionys. quod malum erit ad 
+      <lb ed="#L" n="97"/>omnes, id est, ad vniuersi perfectionem conferens, non dici 
+      <lb ed="#L" n="98"/>asserendo, sed ducendo ad inconueniens, vnde &amp; habet pro 
+      in<lb ed="#L" n="99" break="no"/>conuenienti, quod malum sit de perfectione vniuersi. 
+      </p>
+            <p xml:id="jsnvu6-d1e2212-d1e393">
+               <lb ed="#L" n="100"/>
+               <!--9--> Ad secundum dicendum quod non est simile de malo poenae 
+      <lb ed="#L" n="101"/>quod priuat bonum naturae, &amp; de malo culpae quod priuat 
+      bo<lb ed="#L" n="102" break="no"/>num gratiae, quia bonum naturae, quod priuatur per malum 
+      <lb ed="#L" n="103"/>poenae, potest recompensari per majus bonum naturae vel 
+      gra<lb ed="#L" n="104" break="no"/>tiae: potest etiam esse consonum rectae rationi, &amp; sic habere 
+      ra<lb ed="#L" n="105" break="no"/>tionem boni, sed bonum gratiae quod priuatur per malum cul 
+      <lb ed="#L" n="106"/>pae non potest recompensari per majus bonum naturae, nec po 
+      <lb ed="#L" n="107"/>test esse consonum rectae rationi (vt declaratum est) propter 
+      <lb ed="#L" n="108"/>quod nunquam potest habere rationem boni, nec recte voliti.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

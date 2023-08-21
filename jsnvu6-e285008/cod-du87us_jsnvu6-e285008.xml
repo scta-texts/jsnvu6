@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="346-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e285008"><!-- l4d44p2prae -->
+            <head xml:id="jsnvu6-e285008-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e285008-d1e103">
+               <lb ed="#L" n="143"/>Sententia huius secundae partis distinctionis. 
+      <lb ed="#L" n="144"/>xliiij. in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e285008-d1e110">
+               <lb ed="#L" n="145"/>ETHAMINATO de resurrectione bonori 
+      <lb ed="#L" n="146"/>phic determinat de resurrectione malorum, &amp; 
+      <lb ed="#L" n="147"/>cum hoc sequitur illa pars superius diuisa, in qua 
+      <lb ed="#L" n="148"/>determinatie urrectionem monstrorum ibi, illud 
+      <lb ed="#L" n="149"/>etiam, &amp; sic sunt duae partes principales quarum 
+      <lb ed="#L" n="150"/>prma habet duas partes. Primo enim de erminat de resurre 
+      <lb ed="#L" n="151"/>ctione malorum quantum ad naturam. Secundo quantum ad 
+      poe<lb ed="#L" n="152" break="no"/>nam ibi, quaeri solet. &amp; illa habet duas partes secundum quod 
+      di<lb ed="#L" n="153" break="no"/>quaestiones incidentes mouet. Secunda ibi, cum autem constet 
+      </p>
+            <p xml:id="jsnvu6-e285008-d1e132">
+               <lb ed="#L" n="154"/>
+               <!--2.--> Proponit ergo magister quod damnati cum membris suis 
+      felur<lb ed="#L" n="155" break="no"/>gent, sed cum Aug. relinquit sub dubio, vtrum resurgant cum de 
+      <lb ed="#L" n="156"/>formitatibus: patientur tamen damnati in corporibus poenam 
+      <lb ed="#L" n="157"/>non tamen consumentur, sicut animus dolorem sentit &amp; non 
+      cor<lb ed="#L" n="158" break="no"/>pus. Deinde quaerit vtrum daemones corporali igne crucientur. 
+      <lb ed="#L" n="159"/>Et respondet quod ille ignis corporalis erit, &amp; miro modo 
+      alliga<lb ed="#L" n="160" break="no"/>bitur spiritibus daemonum, sicut spiritus nostri miro modo alli¬ 
+      <!--00766.xml-->
+      <pb ed="#L" n="346-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>gantur corporibus, &amp; erueiabit ille ignis aerea corpora demo 
+      <lb ed="#L" n="2"/>num, &amp; ponit vnum modum quem tangit Aug. super Gen quod 
+      <lb ed="#L" n="3"/>animae separatae gerunt similitudinem corporum &amp; corporalium 
+      <lb ed="#L" n="4"/>membrorum: &amp; sic patiuntur sicut patimur in somnis dum som 
+      <lb ed="#L" n="5"/>niat homo se ambulare, vel sedere, vel videre aliquod 
+      terribi<lb ed="#L" n="6" break="no"/>le. In fine dicit, quod foecus abortiui qui vixerunt in vtero ma 
+      <lb ed="#L" n="7"/>tris, &amp; monstra resurgent natura in melius reparata.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

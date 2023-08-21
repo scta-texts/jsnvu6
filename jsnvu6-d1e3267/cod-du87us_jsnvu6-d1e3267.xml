@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="142-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3267"><!-- l2d21q3 -->
+            <head xml:id="jsnvu6-d1e3267-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e3267-Hd1e103" type="question-title">Utrum peccatum primorum parentum fuerit gravissimum</head>
+            <p xml:id="jsnvu6-d1e3267-d1e106">
+               <lb ed="#L" n="73"/>YASTIO TIITIA 
+      <lb ed="#L" n="74"/>Vtrum peccatum primorum parentum 
+      <lb ed="#L" n="75"/>fuerit grauissimum. 
+      <lb ed="#L" n="76"/>Thom. 1. g. 163. 4r. 3.
+    </p>
+            <p xml:id="jsnvu6-d1e3267-d1e117">
+      <!--00352.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="77"/>TERTIO quaeritur, vtrum peccatum primorum 
+      <lb ed="#L" n="78"/>parentum fuerit grauissimum. Et videtur quod 
+      <lb ed="#L" n="79"/>sic: quia secundum Aug. in Ench. Non est malum 
+      <lb ed="#L" n="80"/>nisi quia nocet, neque nocet, nisi quia adimit: sed 
+      <lb ed="#L" n="81"/>Ipeccatum primorum parentum plus de bono 
+      ade<lb ed="#L" n="82" break="no"/>mit totam naturam corrumpens, quam quodcunque aliud 
+      <lb ed="#L" n="83"/>peccatorum sequentium, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3267-d1e139">
+               <lb ed="#L" n="84"/>
+               <!--2--> Item maiori culpae debetur maior poena, sed peccatum pri 
+      <lb ed="#L" n="85"/>morum parentum maxima poena punitum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e3267-d1e149">
+               <lb ed="#L" n="86"/>
+               <!--3--> IN CONTRARIVM est, quia majus est 
+      transgre<lb ed="#L" n="87" break="no"/>di praeceptum legis naturalis &amp; diuinae, quam praeceptum 
+      so<lb ed="#L" n="88" break="no"/>lius disciplinae, sed multi transgrediuntur praecepta legis 
+      natu<lb ed="#L" n="89" break="no"/>ralis &amp; diuinae (vt blasphemantes) Primi autem parentes 
+      trans<lb ed="#L" n="90" break="no"/>gressi sunt solum praeceptum disciplinae, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3267-d1e165">
+               <lb ed="#L" n="91"/>
+               <!--4--> RESPONSIO. Peccatum potest comparari peccato 
+      <lb ed="#L" n="92"/>dupliciter. Vno modo comparando species diuersorum 
+      pecca<lb ed="#L" n="93" break="no"/>torum secundum grauitatem, vt comparatur furtum 
+      homici<lb ed="#L" n="94" break="no"/>dio: alio modo comparando, diuersa peccata eiusdem speciei 
+      <lb ed="#L" n="95"/>vt comparando furtum furto, vel homicidium homicidio, &amp; in 
+      <lb ed="#L" n="96"/>prima comparatione videndum est de grauitate peccatorum 
+      <lb ed="#L" n="97"/>secundum ea ex quibus peccata sortiuntur speciem, sed in 
+      se<lb ed="#L" n="98" break="no"/>cunda videndum est de grauitate peccatorum secundum 
+      cir<lb ed="#L" n="99" break="no"/>cunstantias alleuiantes vel aggrauantes. Dicendum ergo quod 
+      <lb ed="#L" n="100"/>peccatum primorum parentum comparatum ad peccata 
+      alte<lb ed="#L" n="101" break="no"/>rius speciei, non fuit grauissimum, sed comparando tamen ad 
+      <lb ed="#L" n="102"/>peccata eiusdem speciei fuit quo ad aliquid grauissimum. 
+      Pri<lb ed="#L" n="103" break="no"/>mum patet, quia peccatum tanto est grauius secundum 
+      spe<lb ed="#L" n="104" break="no"/>ciem peccati, quanto actus cadit super materiam magis 
+      inde<lb ed="#L" n="105" break="no"/>bitam, sicut homicidium est grauius furto secundum speciem 
+      <lb ed="#L" n="106"/>peccati, quia &amp; plus est diligenda persona proximi, &amp; minus 
+      lae<lb ed="#L" n="107" break="no"/>denda, quam res extrinseca. Sed peccata multorum cadunt 
+      su<lb ed="#L" n="108" break="no"/>per materiam magis indebitam, quam peccatum primorum 
+      pa<lb ed="#L" n="109" break="no"/>rentum, vt peccatum idololatriae vel blasphemiae, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3267-d1e211">
+               <lb ed="#L" n="110"/>
+               <!--5--> Secundum apparet, quia secundum Augu. de ci. Dei. Vbi est 
+      <lb ed="#L" n="111"/>maior in non peccando facilitas, ibi est major in peccando 
+      ini<lb ed="#L" n="112" break="no"/>quitas. Sed in primis parentibus fuit maxima in non peccando 
+      <lb ed="#L" n="113"/>facilitas, tum quia in eis vigebat magis ratio, tum quia nihil erat 
+      <lb ed="#L" n="114"/>intrinsecum quod impelleret ad praue concupiscendum sicu 
+      <lb ed="#L" n="115"/>in nobis, ergo quo ad hoc peccatum fuit grauissimum. Dico 
+      au<lb ed="#L" n="116" break="no"/>tem quo ad hoc, quia nihil prohibet in peccato disciplinae alia 
+      <lb ed="#L" n="117"/>circunstantias esse secundum quas multo grauiora peccata 
+      <lb ed="#L" n="118"/>eiusdem speciei (scilicet superbiae vel inobedientiae) sequu 
+      <lb ed="#L" n="119"/>ta sunt. 
+</p>
+            <p xml:id="jsnvu6-d1e3267-d1e237">
+               <lb ed="#L" n="120"/>AD PRIMVM arg. dicendum quod illud peccatum es 
+      <lb ed="#L" n="121"/>grauius secundum se, quod per se &amp; directe majus bonum, ve 
+      <lb ed="#L" n="122"/>plura bona adimit, non autem si hoc fiat per accidens, quia al 
+      <lb ed="#L" n="123"/>eo quod est per accidens non debet sumi iudicium. Nunc est ita 
+      <lb ed="#L" n="124"/>quod per peccatum primorum parentum non est majus bonum 
+      <lb ed="#L" n="125"/>ademptum per se, sed per accidens solum: per se autem non adi 
+      <lb ed="#L" n="126"/>mit peccatum nisi suum oppositum, &amp; ea quae ex necessitate sup. 
+      <lb ed="#L" n="127"/>ponuntm ipsum, sicut infidelitas adimit fidem primo &amp; per se, om 
+      <lb ed="#L" n="128"/>nia vero quae supponunt fidem, adimit quidem per se, sed nor 
+      <lb ed="#L" n="129"/>primo. Similiter peccatum primorum parentum siue fuerit 
+      pec<lb ed="#L" n="130" break="no"/>catum superbiae, siue gulae, non adimit per se nisi suum 
+      opposi<lb ed="#L" n="131" break="no"/>tum, scilicet humilitatem vel temperantiam, vel ea quae ista ei 
+      <lb ed="#L" n="132"/>necessitate supponunt. quod autem adempta est a tota natura 
+      <lb ed="#L" n="133"/>iustitia originalis, hoc ademit deus a nobis ex demerito 
+      pecca<lb ed="#L" n="134" break="no"/>ti, &amp; est poena inflicta pro peccato, non autem peccatum ipsum 
+      <lb ed="#L" n="135"/>ademit hoc formaliter, de qua ademptione loquitur Augustinus 
+      </p>
+            <p xml:id="jsnvu6-d1e3267-d1e274">
+               <lb ed="#L" n="136"/>
+               <!--7--> Ad secundum dicendum quod poena damni non 
+      proportio<lb ed="#L" n="137" break="no"/>natur quantitati culpae, quia pro modica culpa potest quis 
+      red<lb ed="#L" n="138" break="no"/>dere se ingratum alteri, &amp; indignum bono collato vel 
+      conferen<lb ed="#L" n="139" break="no"/>do. Sed proportionatur ei poena sensus. Peccatum autem 
+      primo<lb ed="#L" n="140" break="no"/>rum parentum punitum est maxima poena damni, inquantum 
+      <lb ed="#L" n="141"/>per illud reddidit se &amp; totam posseritatem indignam dono 
+      ori<lb ed="#L" n="142" break="no"/>ginalis iustitiae, sed non est punitum maxima poena sensus. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

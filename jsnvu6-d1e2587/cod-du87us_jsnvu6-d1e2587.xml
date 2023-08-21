@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="121-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2587"><!-- l2d4q3 -->
+            <head xml:id="jsnvu6-d1e2587-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e2587-Hd1e103" type="question-title">Utrum boni angeli fuerint praescii suae confirmationis et mali sui casus</head>
+            <p xml:id="jsnvu6-d1e2587-d1e106">
+               <lb ed="#L" n="49"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="50"/>rum boni Angeli fuerunt praescij suae 
+      confir<lb ed="#L" n="51" break="no"/>mationis, &amp; mali sui casus. 
+      <lb ed="#L" n="52"/>Adam in 346. 
+    </p>
+            <p xml:id="jsnvu6-d1e2587-d1e117">
+               <lb ed="#L" n="53"/>TERTIO quaeritur, vtrum boni Angeli fuerint 
+      <lb ed="#L" n="54"/>praescij suae confirmationis, &amp; mali sui casus. 
+    </p>
+            <p xml:id="jsnvu6-d1e2587-d1e124">
+               <lb ed="#L" n="55"/>RESPONSIO. Dicenda sunt duo. 
+      Pri<lb ed="#L" n="56" break="no"/>mum est, quod tam boni, quam mali angeli 
+      po<lb ed="#L" n="57" break="no"/>tuerunt per coniecturam credere se habituros 
+      <lb ed="#L" n="58"/>beatitudinem, sed non per certitudinem. Secundum est, quod 
+      <lb ed="#L" n="59"/>mali nullo modo potuerunt casum suum praescire, neque per 
+      <lb ed="#L" n="60"/>coniecturam, neque per certitudinem. 
+    </p>
+            <p xml:id="jsnvu6-d1e2587-d1e141">
+               <lb ed="#L" n="61"/>PRIMVM patet, quia effectus qui non prouenit a 
+      cau<lb ed="#L" n="62" break="no"/>sa necessaria, sed contingente, determinata tamen ad 
+      produ<lb ed="#L" n="63" break="no"/>cendum effectum magis quam ad oppositum potest in ea scir 
+      <lb ed="#L" n="64"/>per probabilem coniecturam, sed non per certitudinem, sed 
+      <lb ed="#L" n="65"/>beatitudo est huiusmodi, quia non dependet a causa 
+      necessa<lb ed="#L" n="66" break="no"/>ria, sed contingente scilicet lib. arb. determinato, tamen 
+      magi<lb ed="#L" n="67" break="no"/>ad consequendum beatitudinem, quam ad oppositum. Tum 
+      <lb ed="#L" n="68"/>quia natura angeli est ad hoc creata, &amp; inclinationem habet 
+      <lb ed="#L" n="69"/>tum quia inerat adiutrix gratia, quare &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-d1e2587-d1e163">
+               <lb ed="#L" n="70"/>Secundum patet, quia malum praecognitum aut complacet 
+      <lb ed="#L" n="71"/>voluntati, aut non: Si complaceat iam culpa inest, si non 
+      com<lb ed="#L" n="72" break="no"/>placeat, poena inest. Sed impossibile est ante primum peccatum 
+      <lb ed="#L" n="73"/>angeli infuisse culpam aut poenam, quia primum implicat 
+      con<lb ed="#L" n="74" break="no"/>tradictionem. Secundum videtur importare iniustitiam (
+      scili<lb ed="#L" n="75" break="no"/>cet quod poena praecedat culpam) quare &amp;c. Si autem 
+      reuela<lb ed="#L" n="76" break="no"/>tus fuisset eis casus suus accepissent vtique dictum secundum 
+      <lb ed="#L" n="77"/>comminationem, &amp; non secundum praescientiam.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

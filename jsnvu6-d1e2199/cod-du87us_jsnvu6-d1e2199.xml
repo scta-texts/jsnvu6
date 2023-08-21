@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="101-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2199"><!-- l1d46prae -->
+            <head xml:id="jsnvu6-d1e2199-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2199-d1e103">
+               <lb ed="#L" n="70"/>DISTINCTIO XLVI. 
+      <lb ed="#L" n="71"/>Sententia literae huius distinctionis in 
+      <lb ed="#L" n="72"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e2199-d1e112">
+               <lb ed="#L" n="73"/>HIC ORITVR quaestio. Superius 
+      determina<lb ed="#L" n="74" break="no"/>duit magister de voluntate diuina in se, hic 
+      deter<lb ed="#L" n="75" break="no"/>minat de eius impletione. Et diuiditur in duas 
+      <lb ed="#L" n="76"/>partes. Primo determinat de quibusdam qua 
+      <lb ed="#L" n="77"/>qi videntur impedire impletionem diuinae 
+      volun<lb ed="#L" n="78" break="no"/>tatis. Secundo probat eam efficacem in omnibus. Secunda 
+      in<lb ed="#L" n="79" break="no"/>cipit in principio 47. dist. voluntas quippe Dei. prima est 
+      prin<lb ed="#L" n="80" break="no"/>cipalis lectionis. Et diuiditur in duas secundum duas quaestio¬ 
+      <!--00268.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>nes quas mouet. Primo enim quaerit vtrum omne quod vult 
+      <lb ed="#L" n="82"/>Deus, fiat. Secundo vtrum aliquid fiat quod Deus non vult 
+      fie<lb ed="#L" n="83" break="no"/>ri. Secunda ibi, Ideóque cum constet. Secunda istarum diuiditur 
+      <lb ed="#L" n="84"/>in tres partes. Primo mouet quaestionem. Secundo tangit super 
+      <lb ed="#L" n="85"/>hoc diuersas opiniones. Tertio prosequitur. Secunda ibi, Supe 
+      <lb ed="#L" n="86"/>hoc diuersi. Tertia ibi, Qui enim dicunt Deum. Haec vltima di 
+      <lb ed="#L" n="87"/>uiditur in tres partes. Primo enim prosequitur opinionem 
+      pri<lb ed="#L" n="88" break="no"/>mam. Secundo istam. Tertio elicit alteram istarum. Secunda 
+      <lb ed="#L" n="89"/>ibi, Illi vero. Tertia ibi. Haec igitur &amp; alia. Secunda istarum 
+      di<lb ed="#L" n="90" break="no"/>uiditur in tres partes. Primo enim secundum opinionem illam 
+      <lb ed="#L" n="91"/>respondet ad rationes alterius partis. Secundo confirmat 
+      opi<lb ed="#L" n="92" break="no"/>nionem istam. Tertio determinat quoddam dubium. Secunda 
+      <lb ed="#L" n="93"/>ibi, Si quis igitur diligenter. Tertia ibi, Iam sufficienter dictum 
+      <lb ed="#L" n="94"/>est. Et haec est diuisio lectionis &amp; sententia in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2199-d1e167">
+               <lb ed="#L" n="95"/>
+               <!--2--> IN SPECIALI vero sic procedit. Et proponit 
+      pri<lb ed="#L" n="96" break="no"/>mo quod voluntas beneplaciti cassari non potest. Deinde quaerit vtrum 
+      <lb ed="#L" n="97"/>Deus aliquid voluerit quod factum non fuerit, &amp; probat quod sic, 
+      <lb ed="#L" n="98"/>quia vult omnes homines saluos fieri non tamen saluantur. 
+      Vo<lb ed="#L" n="99" break="no"/>luitque congregare omnes filios Hierusalem, qui tamen non 
+      fue<lb ed="#L" n="100" break="no"/>runt congregati. Et respondet magister quod omnino 
+      quaecun<lb ed="#L" n="101" break="no"/>que vult fiunt: illa autem de quibus obiectum est non 
+      simpli<lb ed="#L" n="102" break="no"/>citer voluit, sed magis quod verba illa proferantur ad denotam 
+      <lb ed="#L" n="103"/>dum o quicunque saluantur &amp; congregantur sola Dei 
+      volun<lb ed="#L" n="104" break="no"/>tate saluantur &amp; congregantur sicut dicitur Ioan. 1. Illuminat 
+      <lb ed="#L" n="105"/>omnem hominem venientem in hunc mundum, non quia omne 
+      <lb ed="#L" n="106"/>illuminentur a vero lumine gratiae, sed quia non illuminantur 
+      <lb ed="#L" n="107"/>nisi ab ipso. Postea quaerit vtrum mala fiant ipso volente. 
+      Poste<lb ed="#L" n="108" break="no"/>ponit opiniones iuxta hoc dicens, quod quidam dicunt quod sic 
+      <lb ed="#L" n="109"/>vult Deus mala esse vel fieri, quidam vero dicunt contrarium, 
+      vtri<lb ed="#L" n="110" break="no"/>que tamen in hoc concordant quod Deus non vult mala. 
+      Poste<lb ed="#L" n="111" break="no"/>inducit tres rationes per quas prima opinio confirmatur. 
+      Qua<lb ed="#L" n="112" break="no"/>rum prima est potentiae omnipotentis resisti non potest, sed si 
+      <lb ed="#L" n="113"/>deus vellet mala non fieri cum tamen fiant, voluntas dei non im 
+      <lb ed="#L" n="114"/>pleretur, sed ei resisteretur, quod est inconueniens: vult ergo deus 
+      <lb ed="#L" n="115"/>mala fieri. Secunda ratio talis est, aut deus vult mala fieri aut non 
+      <lb ed="#L" n="116"/>fieri, sed non vult non fieri, ergo fieri vult. Minor patet, scilicet 
+      <lb ed="#L" n="117"/>hoc quod non vult non fieri, quia si vellet non fieri, nunquam 
+      <lb ed="#L" n="118"/>fierent, voluntati enim eius nihil resistit. Tertia ratio talis est, 
+      <lb ed="#L" n="119"/>deus vult omne bonum, sed bonum est mala fieri, nisi enim esset 
+      <lb ed="#L" n="120"/>bonum, non permitterentur fieri, ergo deus vult fieri mala. Post. 
+      <lb ed="#L" n="121"/>ea ponit responsiones eorum quae sunt de altera opinione. Ad 
+      <lb ed="#L" n="122"/>istas rationes, respondet autem ad duas primas, quia non est con 
+      <lb ed="#L" n="123"/>cedendum quod deus velit fieri mala, quia sic esset iniquus, nec 
+      <lb ed="#L" n="124"/>quod vult non fieri, quia sic nunquam fierent: sed est dicendum 
+      <lb ed="#L" n="125"/>quod non vult ea fieri, &amp; quod arguitur tertio, quod mala fiern 
+      <lb ed="#L" n="126"/>est bonum. Dicendum quod non est bonum simpliciter, sed est 
+      <lb ed="#L" n="127"/>bonum inquantum ex malis possunt elici bona: &amp; etiam 
+      incidem<lb ed="#L" n="128" break="no"/>ter dicitur quod aliquid est bonum in se, &amp; facienti, &amp; ei cui fit, 
+      <lb ed="#L" n="129"/>vt praedicare fidelibus veritatem propter deum. Aliud est bonum 
+      <lb ed="#L" n="130"/>in se &amp; ei cui fit, sed non facienti, vt dare eleemosynam pauperi, 
+      <lb ed="#L" n="131"/>non propter deum. Aliquid est in se malum &amp; facienti, sed ex et 
+      <lb ed="#L" n="132"/>proueniunt aliqua bona, vt mala quae faciunt ad pulchritudine 
+      <lb ed="#L" n="133"/>vniuersi &amp; perfectum peccantis, ex malis enim pene multa 
+      bo<lb ed="#L" n="134" break="no"/>na proueniunt. Postea confirmat hanc opinionem, scilicet quod 
+      <lb ed="#L" n="135"/>deus non velit mala fieri, quod probat per hoc quod si deo volenti 
+      <lb ed="#L" n="136"/>fierent mala, fierent deo auctore: ergo deus est auctor, quod 
+      <lb ed="#L" n="137"/>homo fit deterior, quod incoueniens esset de quolibet 
+      sapien<lb ed="#L" n="138" break="no"/>te. Item probat expresse per auctoritate Augustini, quod deus 
+      <lb ed="#L" n="139"/>non est auctor, quod homo sit deterior vel peccator. Item deus 
+      <lb ed="#L" n="140"/>non est causa tendendi in non esse, malum tendit ad non esse, 
+      er<lb ed="#L" n="141" break="no"/>go deo auctore non fiunt mala. Postea secundo arguit quod 
+      se<lb ed="#L" n="142" break="no"/>cundum quosdam verum est a deo, sed mala fieri est verum, 
+      er<lb ed="#L" n="143" break="no"/>go ipso facto malum est a deo. Et respondet quod ipsa res dicta 
+      <lb ed="#L" n="144"/>(scilicet malum) non est a deo, sed locutio quae est vera. Vitimo 
+      <lb ed="#L" n="145"/>probat magister primum, scilicet quod deus non vult mala fieri. 
+      <lb ed="#L" n="146"/>Et in hoc terminatur sententia in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

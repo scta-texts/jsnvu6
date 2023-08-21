@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="42-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e830"><!-- l1d14prae -->
+            <head xml:id="jsnvu6-d1e830-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e830-d1e103">
+               <lb ed="#L" n="94"/>ELDISTINCTIO XIIII. 
+      <lb ed="#L" n="95"/>Sententia distinctionis. XIIII. 
+    </p>
+            <p xml:id="jsnvu6-d1e830-d1e110">
+               <lb ed="#L" n="96"/>PRATEREA diligenter superius determinauit 
+      <lb ed="#L" n="97"/>magister de aeterna processione spiritus sancti. 
+      <lb ed="#L" n="98"/>Hic vero determinat de temporali eius 
+      processio<lb ed="#L" n="99" break="no"/>ne. Et primo determinat de ea. Secundo 
+      determi<lb ed="#L" n="100" break="no"/>nat nomen quod proprium est spir. san. Secunda 
+      <lb ed="#L" n="101"/>incipit dist. 18. ibi, praeterea diligenter. Prima diuiditur in duas. 
+      <lb ed="#L" n="102"/>Primo determinat de processione eius in generali. Secundo pro 
+      <lb ed="#L" n="103"/>sequitur modos in speciali processionis suae. Secunda incipit in 
+      <lb ed="#L" n="104"/>principio. 16. dist. ibi. Nunc de spiritu sancto. Prima diuiditur i 
+      <lb ed="#L" n="105"/>duas. Primo ostendit quod spir. san. procedit a patre &amp; filio 
+      tem<lb ed="#L" n="106" break="no"/>poraliter. Secunda inquirit vtrum detur a seipso. Secunda 
+      inci<lb ed="#L" n="107" break="no"/>pit in 15. dist. ibi, hic considerandum. Prima pars est praesentis 
+      le<lb ed="#L" n="108" break="no"/>ctionis. Et diuiditur in tres. Primo enim determinat intentum 
+      <lb ed="#L" n="109"/>Secundo excludit errorem. Tertio remouet quandam 
+      obiectio<lb ed="#L" n="110" break="no"/>nem. Secunda ibi. Sunt autem alij. Tertia ibi, Hic quaeritur vtrum. 
+      <lb ed="#L" n="111"/>Et haec est diuisio &amp; sententia in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e830-d1e147">
+               <lb ed="#L" n="112"/>
+               <!--2.--> In speciali sic procedit magister. Et proponit primo quod 
+      <lb ed="#L" n="113"/>gemina est processio spir. san. vna qua procedit aeternaliter a 
+      <lb ed="#L" n="114"/>patre &amp; filio, alia qua procedit temporaliter ad sanctificandum 
+      <lb ed="#L" n="115"/>creaturam, vnde subdit quod spit. sanct. non a patre procendit in 
+      <lb ed="#L" n="116"/>filium &amp; a filio in creatura, sed ab vtroque procedit ad 
+      sanctifi<lb ed="#L" n="117" break="no"/>cationem creaturae. Et hoc confirmat autoritate August. Haec 
+      <lb ed="#L" n="118"/>autem processio aliquando nominatur processio, aliquando 
+      <lb ed="#L" n="119"/>datio, aliquando missio. Et hoc ostendit autoritate Bedae &amp; 
+      <lb ed="#L" n="120"/>etiam Augustini. Postea excludit errorem dicentium quod in 
+      <lb ed="#L" n="121"/>spir. sanct. missione ipse spiritus sanctus non datur, sed tantum 
+      <lb ed="#L" n="122"/>eius dona. Et hoc dicunt sensisse Bedam qui dicit spir. sanct. pro 
+      <lb ed="#L" n="123"/>cedere, tamen ipsius gratia datur, sed quod spiritus sanctus qui 
+      <lb ed="#L" n="124"/>est vna in trinitate persona detur patet, spiritus enim sanctu 
+      <lb ed="#L" n="125"/>indiuisus simul plures mentes discipulorum infudit quod no 
+      <lb ed="#L" n="126"/>potuisset si esset creatura. Idem etiam probatur autoritate Aug 
+      <lb ed="#L" n="127"/>ex parte dei dantis qui dat donum aequale sibi &amp; addit quod spi. san 
+      <lb ed="#L" n="128"/>non est minor patre &amp; filio sicut a quibusdam dicitur. Vitimo 
+      <lb ed="#L" n="129"/>quaerit vtrum viri sancti dent spiritu san. &amp; dicit quod non, quia f 
+      <lb ed="#L" n="130"/>spir. san. a creatura daretur, ab illa procederet, vnde in 
+      primiti<lb ed="#L" n="131" break="no"/>ua ecclesia non legitur sanctos dedisse spi. san. sed ad eorum 
+      ora<lb ed="#L" n="132" break="no"/>tionem &amp; manuum impositionem dabatur sanctus spir. &amp; 
+      sub<lb ed="#L" n="133" break="no"/>dit quod Christus secundum quod homo non dedit spir. san. Et excludi 
+      <lb ed="#L" n="134"/>quandam obiectionem. Quod enim Apostolus dicit ad Galat. sae 
+      <lb ed="#L" n="135"/>dedisse spiritum sanctum, intelligendum est quod per eius 
+      praedi<lb ed="#L" n="136" break="no"/>cationem dabatur spir. san. Et hoc confirmat autoritate Aug 
+      <lb ed="#L" n="137"/>Et haec est sententia lectionis in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="332-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e274549"><!-- l4d40q1 -->
+            <head xml:id="jsnvu6-e274549-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e274549-Hd1e103" type="question-title">Utrum consanguinitas impediat matrimonium.</head>
+            <p xml:id="jsnvu6-e274549-d1e106">
+               <lb ed="#L" n="151"/>QVALSTIO I. 
+      <lb ed="#L" n="152"/>Vtrum consanguinitas impediat matrimonium. 
+    </p>
+            <p xml:id="jsnvu6-e274549-d1e113">
+               <lb ed="#L" n="153"/>CIRCA distinctionem istam quaeritur de 
+      con<lb ed="#L" n="154" break="no"/>sanguinitate: vtrum impediat matrimonium. E 
+      <lb ed="#L" n="155"/>videtur quod non: quia eorum quae sunt magis 
+      si<lb ed="#L" n="156" break="no"/>milia, conuenientior est coniunctio. Omne enim 
+      <lb ed="#L" n="157"/>animal diligit sibi simile, &amp; omnis caro ad sibi 
+      si<lb ed="#L" n="158" break="no"/>milem coniungitur Eccles. 13. sed consanguinei sunt 
+      propin<lb ed="#L" n="159" break="no"/>quiores, &amp; similiores, ergo sibi conuenientius per matrimo 
+      <lb ed="#L" n="160"/>nium coniunguntur. 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e133">
+               <lb ed="#L" n="161"/>
+               <!--2--> Item nulla mulier potest esse propinquior viro quam 
+      Eu<lb ed="#L" n="162" break="no"/>Adae, de cuius costa fuit formata, vt habetur Genesis secundo 
+      <!--00739.xml-->
+      <pb ed="#L" n="333-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Sed Eua fuit coniuncta Adae matrimonialiter, ergo &amp; caeterae 
+      <lb ed="#L" n="2"/>possunt coniungi quantumcunque propinquae. 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e154">
+               <lb ed="#L" n="3"/>
+               <!--3--> IN CONTRARIVM arguitur sic, illud qued 
+      impedi<lb ed="#L" n="4" break="no"/>bonum prolis debet impedire matrimonium. Sed 
+      consanguini<lb ed="#L" n="5" break="no"/>tas est huiusmodi, dicit enim Greg. in litera experimento 
+      didi<lb ed="#L" n="6" break="no"/>cimus ex tali coniugio sobolem non posse succrescere, ergo 
+      con<lb ed="#L" n="7" break="no"/>sanguinitas impedit matrimonium. Item Leuit. 18. omnis hom 
+      <lb ed="#L" n="8"/>ad proximam sui generis non accedet. 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e172">
+               <lb ed="#L" n="9"/>
+               <!--4--> RESPONSIO. Videndum est primo quid sit 
+      consan<lb ed="#L" n="10" break="no"/>guinitas. Et qualiter distinguatur per lineas &amp; gradus. 
+      Secun<lb ed="#L" n="11" break="no"/>do quo iure consanguinitas impedit matrimonium, &amp; vsque 
+      <lb ed="#L" n="12"/>ad quotum gradum. 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e185">
+               <lb ed="#L" n="13"/>
+               <!--5--> Quantum ad primum sciendum est quod consanguinitas es 
+      <lb ed="#L" n="14"/>vinculum personarum ab eodem stipite descendentium carnal 
+      <lb ed="#L" n="15"/>propagatione contractum, hoc autem vinculum, seu 
+      propinqui<lb ed="#L" n="16" break="no"/>tas sicut &amp; omnis amicitia fundatur in communicatione triplici 
+      <lb ed="#L" n="17"/>scilicet naturae, curae, &amp; disciplinae. naturae, quia omnes 
+      consan<lb ed="#L" n="18" break="no"/>guinei descendunt per carnis propagationem ab vno stipite, qui 
+      <lb ed="#L" n="19"/>est communis eorum parens: curae quia parentum cura 
+      proten<lb ed="#L" n="20" break="no"/>ditur ad filios, non solum immediatos, sed etiam ad filios 
+      filio<lb ed="#L" n="21" break="no"/>rum quotquot videre possunt, &amp; disciplinae, quia proles sub 
+      pa<lb ed="#L" n="22" break="no"/>tris potestate &amp; subiectione debet esse. Linea vero 
+      consanguini<lb ed="#L" n="23" break="no"/>tatis est ordinata collectio personarum consanguinitate 
+      coniun<lb ed="#L" n="24" break="no"/>ctarum. Et haec est triplex secundum triplicem habitudinem quam 
+      <lb ed="#L" n="25"/>habent consanguinei adinuicem. Vna est principiati ad 
+      princi<lb ed="#L" n="26" break="no"/>pium, vt filij ad patrem, auum proauum, &amp; supra, &amp; secundum 
+      <lb ed="#L" n="27"/>hanc accipitur linea ascendentium. Alia est principij ad 
+      princi<lb ed="#L" n="28" break="no"/>piatum, vt patris ad filium, nepotem, pronepotem &amp; infra, &amp; se 
+      <lb ed="#L" n="29"/>cundum hanc accipitur linea descendentium quae non est 
+      rea<lb ed="#L" n="30" break="no"/>liter alia a linea ascendentium, sed eadem accepta secundum alium 
+      <lb ed="#L" n="31"/>&amp; alium modum computandi, quia secundum vnam fit inceptio a 
+      <lb ed="#L" n="32"/>superiore descendendo, &amp; secundum aliam ab inferiori 
+      ascenden<lb ed="#L" n="33" break="no"/>do. Tertia habitudo est eorum qui sunt ab vno principio, sicut 
+      <lb ed="#L" n="34"/>fratrum qui sunt ab eodem patre &amp; matre, &amp; nepotum, qui sunt 
+      <lb ed="#L" n="35"/>ex duobus fratribus vel sororibus, &amp; sic deinceps, &amp; secundum 
+      <lb ed="#L" n="36"/>hanc accipitur linea collateralium. 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e242">
+               <lb ed="#L" n="37"/>
+               <!--6--> Gradus vero est habitudo determinatae distantiae personae a 
+      <lb ed="#L" n="38"/>persona, computantur autem gradus consanguinitatis hoc modi 
+      <lb ed="#L" n="39"/>in linea enim ascendentium &amp; descendentium computandae sun 
+      <lb ed="#L" n="40"/>personae mediae inter illos, de quibus quaeritur, quod si nulla 
+      si<lb ed="#L" n="41" break="no"/>media tunc sunt in primo gradu, vt pater &amp; filius descendendo 
+      <lb ed="#L" n="42"/>vel filius &amp; pater ascendendo. Si vero sint aliquae mediae 
+      computa<lb ed="#L" n="43" break="no"/>tis eis cum extremis quot sunt personae, vna minus tot sunt 
+      gra<lb ed="#L" n="44" break="no"/>dus, verbi gratia, si quaeratur per quot gradus distat a sorore 
+      <lb ed="#L" n="45"/>pronepos eius, computentur personae mediae, scilicet soror, filius 
+      <lb ed="#L" n="46"/>eius, nepos, pronepos, qui cum sint quatuor per tres gradus 
+      di<lb ed="#L" n="47" break="no"/>stat soror a pronepote. Ratio huius est, quia cum gradus sit certa 
+      <lb ed="#L" n="48"/>distantia propinquitatis, gradus non potest esse eiusdem ad se 
+      <lb ed="#L" n="49"/>ipsum sicut nec propinquitas, &amp; ideo gradus semper supponi 
+      <lb ed="#L" n="50"/>personam aliquam, cui secunda addita facit gradum, &amp; per 
+      ra<lb ed="#L" n="51" break="no"/>tionem eandem tertia addita secundae, &amp; quarta tertiae, &amp; sic sem 
+      <lb ed="#L" n="52"/>per, vt fit numerus graduum iuxta numerum personarum, vna 
+      <lb ed="#L" n="53"/>excepta, &amp; haec computatio graduum in linea ascendentium &amp; 
+      <lb ed="#L" n="54"/>descendentium communis est apud omnes. 
+</p>
+            <p xml:id="jsnvu6-e274549-d1e286">
+               <lb ed="#L" n="55"/>In linea vero collaterali quae non est eorum, quorum vnus 
+      <lb ed="#L" n="56"/>descendit ab alio, sed eorum qui descendunt a communi 
+      princi<lb ed="#L" n="57" break="no"/>pio, aliter computantur gradus secundum canones, &amp; aliter secum 
+      <lb ed="#L" n="58"/>dum leges, secundum canones enim computatur hoc modo, 
+      vi<lb ed="#L" n="59" break="no"/>dendum est vtrum personae de quibus quaeritur, aequaliter 
+      di<lb ed="#L" n="60" break="no"/>stent a communi stipite aut inaequaliter, si aequaliter quoto 
+      gra<lb ed="#L" n="61" break="no"/>du distat quaelibet earum a communi stipite, toto gradu distan 
+      <lb ed="#L" n="62"/>inter se, verbi gratia, filij duorum fratrum, ita se habent quod 
+      <lb ed="#L" n="63"/>quilibet eorum distat a communi stipite in secundo gradu 
+      secun<lb ed="#L" n="64" break="no"/>dum lineam rectam, &amp; in eodem gradu distant inter se secundum 
+      <lb ed="#L" n="65"/>lineam collateralem. Si autem distent inaequaliter, tunc quote 
+      <lb ed="#L" n="66"/>gradu remotior illorum distat a stipite communi, toto gradu 
+      di<lb ed="#L" n="67" break="no"/>stant inter se, verbi gratia, sit soror communis parens vel stipes 
+      <lb ed="#L" n="68"/>ego nepos secundum vnam lineam, tu vero pronepos secundum 
+      <lb ed="#L" n="69"/>aliam, si quaeritur quoto gradu ego disto a te? debet respondern 
+      <lb ed="#L" n="70"/>quod tribus, quia toto gradu tu qui es remotior distas a communi 
+      <lb ed="#L" n="71"/>parente a quo ego non disto nisi in gradu secundo. 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e325">
+               <lb ed="#L" n="72"/>
+               <!--8--> Secundum vero leges aliter computantur gradus, quia 
+      secun<lb ed="#L" n="73" break="no"/>dum eas duo fratres sunt in secundo gradu, filij duorum fratrum 
+      <lb ed="#L" n="74"/>in quarto, nepotes eorum in sexto, &amp; sic duplantur gradus 
+      se<lb ed="#L" n="75" break="no"/>cundum computationem legalem supra computationem 
+      cano<lb ed="#L" n="76" break="no"/>nicam. Ratio diuersitatis est, quia leges attendunt descensum: 
+      <lb ed="#L" n="77"/>communi patre ex vtraque parte. Et quia quilibet filius distat: 
+      <lb ed="#L" n="78"/>patre vno gradu, ideo dicuntur distare inter se duobus 
+      gradi<lb ed="#L" n="79" break="no"/>bus. Canones vero non attendunt naturam personarum descen 
+      <lb ed="#L" n="80"/>dentium. Sed quantitatem descensus quae cum sit vna in duobus 
+      <lb ed="#L" n="81"/>fratribus respectu patris, non dicuntur distare inter se nisi vnc 
+      <lb ed="#L" n="82"/>gradu, &amp; sic patet primum scilicet quid sit consanguinitas, qui¬ 
+      <!--00739.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>sit linea consanguinitatis, quid gradus &amp; qualiter in linea 
+      com<lb ed="#L" n="84" break="no"/>putentur. 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e363">
+               <lb ed="#L" n="85"/>
+               <!--9--> Quantum ad secundum dicendum est quod consanguinitas 
+      <lb ed="#L" n="86"/>secundum lineam ascendentium &amp; descendentium impedit de 
+      <lb ed="#L" n="87"/>iure naturali matrimonium quo ad omnem gradum. 
+      Consan<lb ed="#L" n="88" break="no"/>guinitas vero secundum lineam collateralem impedit de iure 
+      <lb ed="#L" n="89"/>diuino matrimonium in primo gradu, puta inter fratrem &amp; 
+      so<lb ed="#L" n="90" break="no"/>rorem, &amp; caeteros primi gradus, vt patet Leuit. 18. sed de iure 
+      <lb ed="#L" n="91"/>positiuo impedit vsque ad quartum gradum inclusiue. Ratio 
+      <lb ed="#L" n="92"/>primi est duplex. Prima, quia secundum dictamen rationis 
+      na<lb ed="#L" n="93" break="no"/>turalis maior reuerentia debetur patri vel matri quam 
+      debea<lb ed="#L" n="94" break="no"/>tur coniugi. Sed quicunque sunt in linea ascendentium vel 
+      de<lb ed="#L" n="95" break="no"/>scendentium se habent, vt parentes ad prolem, vel proles ad pi 
+      <lb ed="#L" n="96"/>rentem mediate vel immediate, vtraque enim linea est eorum 
+      <lb ed="#L" n="97"/>tantum quorum vnus descendit originaliter ab alio, ergo si iun 
+      <lb ed="#L" n="98"/>gerentur matrimonialiter, iungeretur pater fillae, vel mater 
+      fi<lb ed="#L" n="99" break="no"/>lio, mediato vel immediato, &amp; sic superioritas parentum 
+      respe<lb ed="#L" n="100" break="no"/>ctu filiorum periret transiens in societatem connugum, quod est 
+      <lb ed="#L" n="101"/>contra ius naturale. Magis est enim contra instinctum naturae 
+      <lb ed="#L" n="102"/>si filius ducat matrem in vxorem, quam si pater ducat filiam, 
+      <lb ed="#L" n="103"/>quia plus derogatur reuerentiae matris, eo quod vxor in nullo 
+      <lb ed="#L" n="104"/>debet esse superior viro, sed est ei par solum quoad carnale 
+      de<lb ed="#L" n="105" break="no"/>bitum, &amp; in omnibus aliis est subiecta viro, qui est caput mulic 
+      <lb ed="#L" n="106"/>ris, vt habetur I. Cor. II. propter hoc dominus a principio 
+      insti<lb ed="#L" n="107" break="no"/>tuendo matrimonium exclusit patrem &amp; matrem. Genes. 2. 
+      di<lb ed="#L" n="108" break="no"/>cens propter hoc relinquet homo patrem &amp; matrem, quia ha 
+      <lb ed="#L" n="109"/>copulam horrent quaedam bruta animalia, quamdiu cognoscant 
+      <lb ed="#L" n="110"/>parentes suos, vt recitat Philosophus 8. de animalibus, de 
+      ca<lb ed="#L" n="111" break="no"/>melo &amp; equo. Secunda ratio est, quia series generationis 
+      de<lb ed="#L" n="112" break="no"/>bet procedere &amp; non retrocedere. Sed aliquo modo 
+      retroce<lb ed="#L" n="113" break="no"/>detet si proles iungeretur parenti ad opus generationis, esset. 
+      <lb ed="#L" n="114"/>etiam confusio consanguinitatis, quia proles genita ex filio &amp; 
+      <lb ed="#L" n="115"/>matre esset patri frater, aut soror, quia ex eadem matre, &amp; 
+      ge<lb ed="#L" n="116" break="no"/>nita ex patre, &amp; filia esset matri frater vel soror, quia ex eodem 
+      <lb ed="#L" n="117"/>patre, &amp; simul cum hoc filius eius, aut filia quod est inconueniens, 
+      <lb ed="#L" n="118"/>quia secundum vnum deberetur ei paritas, secundum aliud 
+      sub<lb ed="#L" n="119" break="no"/>iectio &amp; inferioritas: quare inconueniens est ex solo dictamine 
+      <lb ed="#L" n="120"/>rationis naturalis quod iungantur per matrimonium pater &amp; 
+      <lb ed="#L" n="121"/>filia, filius &amp; mater, &amp; omnes quotquot sunt in recta linea ascen 
+      <lb ed="#L" n="122"/>dentium &amp; descendentium. 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e450">
+               <lb ed="#L" n="123"/>
+               <!--10--> Propter quod bene dicunt quidam, quod si Adam &amp; 
+      Eu<lb ed="#L" n="124" break="no"/>viuerent non haberent in posteris cui nuberent. Praeter istas per 
+      <lb ed="#L" n="125"/>sonas aliae exclusae sunt a matrimonio de iure diuino veteris 
+      le<lb ed="#L" n="126" break="no"/>gis. Illae scilicet quae sunt in primo gradu consanguinitatis in 
+      li<lb ed="#L" n="127" break="no"/>nea collaterali. Ratio huius est, quia secundarius finis matrimo 
+      <lb ed="#L" n="128"/>nij est confoederatio hominum, &amp; multiplicatio amicitiae dum 
+      <lb ed="#L" n="129"/>homo se habet ad consanguineos vxoris aliquo modo sicut ac 
+      <lb ed="#L" n="130"/>suos. Sed inter illos qui attinent sibi in primo gradu consangui 
+      <lb ed="#L" n="131"/>nitatis est sufficiens amicitia naturalis, quae etiam conseruatur 
+      <lb ed="#L" n="132"/>&amp; augetur per cohabitationem mutuam, tales enim quamdiu 
+      <lb ed="#L" n="133"/>sunt sub cura parentum simul habitant, &amp; ideo si iungerentur 
+      <lb ed="#L" n="134"/>per matrimonium nulla noua amicitia accresceret, propter quod 
+      <lb ed="#L" n="135"/>rationabiliter prohibetur talium coniunctio. Aliam rationem 
+      <lb ed="#L" n="136"/>quidam assignant, scilicet quod matrimonium ordinatur ad 
+      re<lb ed="#L" n="137" break="no"/>pressionem concupiscentiae. Sed concupiscentia non 
+      reprimere<lb ed="#L" n="138" break="no"/>tur, sed potius augeretur, si inter illas personas quas oportet in 
+      <lb ed="#L" n="139"/>eadem domo conuersari esset concessa copula matrimonij, 
+      qua<lb ed="#L" n="140" break="no"/>re lex diuina rationabiliter prohibet talem copulam. 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e494">
+               <lb ed="#L" n="141"/>
+               <!--11.--> Sed istud non videtur, quia matrimonium non ordinatur ad 
+      <lb ed="#L" n="142"/>repressionem concupiscentiae, nisi quatenus per actum 
+      matri<lb ed="#L" n="143" break="no"/>monij satisfit ei, vt non incitet vel minus incitet ad illicitam cor 
+      <lb ed="#L" n="144"/>ruptelam. Sed hoc modo aeque reprimeretur concupiscentia per 
+      <lb ed="#L" n="145"/>matrimonium contractum inter consanguineos primi gradu 
+      <lb ed="#L" n="146"/>sicut per matrimonium contractum inter quosque extraneos, 
+      <lb ed="#L" n="147"/>quare &amp;c. Item quid hoc est dictu quod augeretur 
+      concupiscen<lb ed="#L" n="148" break="no"/>tia si carnalis copula esset licita inter personas quae 
+      consueue<lb ed="#L" n="149" break="no"/>runt in eadem domo manere? quia per omne matrimonium 
+      obli<lb ed="#L" n="150" break="no"/>gantur coniuges ad simul manendum, etiam qui alias 
+      comma<lb ed="#L" n="151" break="no"/>nere non debuerint, si ergo commanere simul est argumentum 
+      <lb ed="#L" n="152"/>concupiscentiae, sequeretur quod per omne matrimonium 
+      au<lb ed="#L" n="153" break="no"/>geretur concupiscentia. Tenenda est ergo prima ratio, quia illa 
+      <lb ed="#L" n="154"/>est conuenientior. Et per eandem rationem de iure positiuo 
+      pro<lb ed="#L" n="155" break="no"/>hibiti sunt secundum antiqua iura copulari matrimonialite 
+      <lb ed="#L" n="156"/>vsque ad septimum gradum, imo quandiu maneret notitia 
+      c6<lb ed="#L" n="157" break="no"/>sanguinitatis, vt habetur 35. q. 3. cap. progeniem suam, &amp; 
+      duo<lb ed="#L" n="158" break="no"/>bus capitulis sequentibus. Sed tres vltimi gradus reucnati sunt 
+      <lb ed="#L" n="159"/>per concilium generale, vt habetur extra de consanguinitate, 
+      <lb ed="#L" n="160"/>&amp; affinitate, capitulo non debet, prohibitio enim in tribus 
+      vlti<lb ed="#L" n="161" break="no"/>mis gradibus erat inutilis &amp; periculosa, inutilis, quia 
+      refrige<lb ed="#L" n="162" break="no"/>scente charitate iam ad alios tres gradus parum extendebat se 
+      <lb ed="#L" n="163"/>vinculum naturalis amicitiae, erat etiam periculosa, quia 
+      pro<lb ed="#L" n="164" break="no"/>pter multiplicationem consanguineorum &amp; obliuionem vix po¬ 
+      <!--00740.xml-->
+      <pb ed="#L" n="333-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>terat obseruari prohibitio sine multa transgressione, vsque vero 
+      <lb ed="#L" n="2"/>ad quartum gradum mansit prohibitio, quia memoria 
+      consan<lb ed="#L" n="3" break="no"/>guinitatis vsque ad illum gradum satis tenetur per certitudi 
+      <lb ed="#L" n="4"/>nem, quia complures viuunt vsque ad quartam generationem 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e566">
+               <lb ed="#L" n="5"/>
+               <!--12--> Ad primum argumentum dicendum quod quamuis simili 
+      <lb ed="#L" n="6"/>tudo &amp; propinquitas valeat ad coniunctionem, non tamen ad 
+      <lb ed="#L" n="7"/>omnem modum coniunctionis, melius namque coniungitur 
+      <lb ed="#L" n="8"/>forma materiae, quam materia materiae, &amp; forma formae, sic 
+      si<lb ed="#L" n="9" break="no"/>militudo propinquorum quamuis valeat ad coniunctionem na 
+      <!--00740.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="10"/>turalis amicitiae, non tamen ad coniunctionem matrimonialem, 
+      <lb ed="#L" n="11"/>per quam habet amicitia ad extraneos dilatari. 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e590">
+               <lb ed="#L" n="12"/>
+               <!--13--> Ad secundum dicendum quod Eua non attinebat Adae in 
+      <lb ed="#L" n="13"/>aliquo gradu consanguinitatis, quia non fuit formata ex eo pe 
+      <lb ed="#L" n="14"/>viam naturalis generationis, sed miraculose, per quem modum 
+      <lb ed="#L" n="15"/>potuit de costa fieri equus sicut Eua, &amp; ideo non est simile de 
+      <lb ed="#L" n="16"/>ea et de aliis propinquis secundum gradum consanguinitatis. 
+      </p>
+            <p xml:id="jsnvu6-e274549-d1e606">
+               <lb ed="#L" n="17"/>
+               <!--14--> AD ARGVMENTA alterius partis patet 
+      respon<lb ed="#L" n="18" break="no"/>sio ex dictis.
+  <!-- figure with tree of sanguinity could be added here -->
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

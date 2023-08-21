@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="242-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e199611"><!-- l3d37q2 -->
+            <head xml:id="jsnvu6-e199611-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e199611-Hd1e103" type="question-title">Utrum tradere mutuum sub vsura sit licitum</head>
+            <p xml:id="jsnvu6-e199611-d1e106">
+               <lb ed="#L" n="132"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="133"/>Vtrum tradere mutuum sub vsura sit licitum.
+      <lb ed="#L" n="134"/>Thom. 2. 2. q. 78. ar. 1. 
+    </p>
+            <p xml:id="jsnvu6-e199611-d1e115">
+               <lb ed="#L" n="135"/>DEINDE quaeritur de vsura. Et primo vtrum tra 
+      <lb ed="#L" n="136"/>dere mutuum sub vsura sit licitum. Et videtur quod 
+      <lb ed="#L" n="137"/>sic, quia cuilibet licitum est consulere indemnitati 
+      <lb ed="#L" n="138"/>suae, contingit autem quod aliquis concedens 
+      mu<lb ed="#L" n="139" break="no"/>Ql tuum alteri recipit ex hoc damnum quatenus ex 
+      <lb ed="#L" n="140"/>pecunia sua lucratus fuisset si eam habuisset, ergo videtur quod 
+      <lb ed="#L" n="141"/>talis possit pro indemnitate sua aliquid recipere vltra sortem. 
+      </p>
+            <p xml:id="jsnvu6-e199611-d1e133">
+               <lb ed="#L" n="142"/>
+               <!--2.--> Item vnusquisque tenetur de debito honestatis aliquid 
+      com<lb ed="#L" n="143" break="no"/>pensare ei qui sibi gratiam facit vt dicitur 5. Eth. sed illae qui pre 
+      <lb ed="#L" n="144"/>cium, aut mutuum dat, gratiam facit ei, ergo recipiens mutuum, 
+      <lb ed="#L" n="145"/>tenetur tradenti aliquid recompensare. Sed non videtur esse 
+      il<lb ed="#L" n="146" break="no"/>licitum obligare aliquem ad illud ad quod ex iure naturali 
+      te<lb ed="#L" n="147" break="no"/>netur, ergo non videtur esse illicitum, si aliquis mutuans alteri 
+      <lb ed="#L" n="148"/>pecuniam deducat in obligatione aliquem recompensationem, 
+      </p>
+            <p xml:id="jsnvu6-e199611-d1e154">
+               <lb ed="#L" n="149"/>
+               <!--3--> IN CONTRARIVM est quod dicitur Luc. II. date 
+      <lb ed="#L" n="150"/>mutuum nihil inde sperantes, quarto etiam Ethic. dicitur hoc 
+      <lb ed="#L" n="151"/>esse turpe lucrum. Et primo Politi. dicitur quod vsura est 
+      prae<lb ed="#L" n="152" break="no"/>ter naturam. 
+      </p>
+            <p xml:id="jsnvu6-e199611-d1e167">
+               <lb ed="#L" n="153"/>
+               <!--4--> RESPONSIO. Circa quaestionem istam videnda sunt 
+      <lb ed="#L" n="154"/>duo. Primum est vtrum accipere vsuram pro quocunque mutuo 
+      <lb ed="#L" n="155"/>sit licitum. Secundum est vtrum aliquo modo possit esse licitum 
+      <lb ed="#L" n="156"/>in mutuis aliquid recipere vltra sortem. 
+      </p>
+            <p xml:id="jsnvu6-e199611-d1e180">
+               <lb ed="#L" n="157"/>
+               <!--5.--> QUANTVM ad primum dicendum quod accipere 
+      vsu<lb ed="#L" n="158" break="no"/>ram pro pecunia mutuata est secundum se iustum; quod patei 
+      <lb ed="#L" n="159"/>sic, quia vendere vnum vt duo, &amp; recipere duo propter vnum 
+      <!--00559.xml-->
+      <pb ed="#L" n="243-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>est illicitum. Sed hoc fit in vsura, ergo &amp;c. Maior patet, quia cun 
+      <lb ed="#L" n="2"/>iustitia consistat in quadam aequalitate (vt patet ex 5. Ethi.) 
+      vende<lb ed="#L" n="3" break="no"/>re ea quae sunt vnum tanquam duo &amp; recipere pro eis precium 
+      <lb ed="#L" n="4"/>quasi pro duobus distinctis est contra aequalitatem, &amp; per con 
+      <lb ed="#L" n="5"/>sequens contra iustitiam propter quod est illicitum. Minor enin 
+      <lb ed="#L" n="6"/>sic declaratur. Quaedam enim res sunt quarum vsus est ipsarun 
+      <lb ed="#L" n="7"/>consumptio, sicut vinum consumitur bibendo, &amp; cibus 
+      come<lb ed="#L" n="8" break="no"/>dendo. Et in talibus res vel vsus quo ad transsationem in 
+      alte<lb ed="#L" n="9" break="no"/>rum non possunt seorsum computari, quia vnum non potest 
+      fi<lb ed="#L" n="10" break="no"/>ne altero transferri. Siergo quis velit seorsum talem rem 
+      ven<lb ed="#L" n="11" break="no"/>dere &amp; seorsum vsum rei, vendit eandem rem bis: vel vendit 
+      ei<lb ed="#L" n="12" break="no"/>dem id quod est iam suum quod idem est. Quia per vnam 
+      ven<lb ed="#L" n="13" break="no"/>ditionem totum transfertur. Et ideo talis manifeste peccat 
+      con<lb ed="#L" n="14" break="no"/>tra iustitiam. Hoc autem fit in vsura in qua aliquis vltra 
+      pecu<lb ed="#L" n="15" break="no"/>niam mutuam, vel vinum seu bladum, petit sibi duas recompen 
+      <lb ed="#L" n="16"/>sationes, vnam quidem recompensationem aequalem. Aliam 
+      <lb ed="#L" n="17"/>vero quasi precium vsus quod vsura dicitur. Alia vero sunt 
+      quo<lb ed="#L" n="18" break="no"/>rum vsus non est ipsius rei consumptio sicut in domo, equo, &amp; 
+      <lb ed="#L" n="19"/>huiusmodi. Et in talibus seorsum potest vtrumque concedi pro 
+      <lb ed="#L" n="20"/>determinato precio, vt cum aliquis donat alicui domum 
+      reser<lb ed="#L" n="21" break="no"/>uato sibi vsu, vel econuerso quando concedit vsum rei 
+      reserua<lb ed="#L" n="22" break="no"/>to sibi dominio, &amp; in talibus recipere aliquid vltra rem 
+      tradi<lb ed="#L" n="23" break="no"/>tam propter vsum rei non est illicitum nec in talibus est vsura 
+      <lb ed="#L" n="24"/>Et sic patet primum scilicet quod vsura est illicita de se, etiam 
+      <lb ed="#L" n="25"/>secundum philosophos morales. Prohibetur etiam iure diuino 
+      <lb ed="#L" n="26"/>in veteri, &amp; nouo testamento, propter quod Clemens quintur 
+      <lb ed="#L" n="27"/>in concilio Vien. decreuit omnes dicentes vsuras esse licitas, 
+      <lb ed="#L" n="28"/>tanquam haereticos puniendos. Cap. ex graui. 
+      </p>
+            <p xml:id="jsnvu6-e199611-d1e258">
+               <lb ed="#L" n="29"/>
+               <!--6--> QUANTVM ad secundum aduertendum est quod 
+      acci<lb ed="#L" n="30" break="no"/>pere aliquid in mutuis vltra sortem potest esse dupliciter. Vno 
+      <lb ed="#L" n="31"/>modo tanquam precium mutui, vel rei mutuatae &amp; sic nunquam 
+      <lb ed="#L" n="32"/>est licitum, sed est vsura vt patet ex his quae dicta sunt statim 
+      <lb ed="#L" n="33"/>Alio modo tanquam stipendium laboris seu seruitij ipsius 
+      mu<lb ed="#L" n="34" break="no"/>tuantis, &amp; sic istud posset esse in casu licitum. Verbi gratia si 
+      ali<lb ed="#L" n="35" break="no"/>quis auctoritate illius qui praeest rei publicae ordinaretur seu 
+      <lb ed="#L" n="36"/>statueretur ad tradendum mutuum indigentibus, &amp; de hoc 
+      ser<lb ed="#L" n="37" break="no"/>uiret rei publicae in qua sunt quam plures qui mutuis indigen 
+      <lb ed="#L" n="38"/>&amp; nisi inuenirent qui eis mutuum traderent notabiliter 
+      dam<lb ed="#L" n="39" break="no"/>nificarentur, &amp; per consequens res publica in eis, si talis inqui 
+      <lb ed="#L" n="40"/>tradens gratis mutuum reciperet pro seruitio quod 
+      commu<lb ed="#L" n="41" break="no"/>nitati exhibet aliquod certum salarium annuatim taxandum 
+      au<lb ed="#L" n="42" break="no"/>ctoritate illius qui praeest rei publicae non videretur esse illici 
+      <lb ed="#L" n="43"/>tum, quia quilibet seruiens rei publicae de seruitio licito &amp; rei 
+      <lb ed="#L" n="44"/>publicae necessario meretur mercedem seu remunerationem 
+      <lb ed="#L" n="45"/>Sed talis de quo statim dictum est seruiret rei publicae de 
+      serui<lb ed="#L" n="46" break="no"/>tio licito ex quo gratis mutuum traderet nec vltra sortem 
+      ali<lb ed="#L" n="47" break="no"/>quid peteret, seruitium etiam tale est rei publicae necessarium 
+      <lb ed="#L" n="48"/>quia sine mutuis multum deperiret de bono regimine &amp; 
+      vtili<lb ed="#L" n="49" break="no"/>tate ciuitatis, quia non solum singulares personae notabiles, sed 
+      <lb ed="#L" n="50"/>etiam ipsa communitas in quam plurimis partibus indigeni 
+      <lb ed="#L" n="51"/>mutuis pro certis &amp; arduis, ac necessariis negociis expediendis 
+      <lb ed="#L" n="52"/>ergo seruientes &amp; se ac sua exponentes pro tali seruitio exhibende 
+      <lb ed="#L" n="53"/>rei publicae a singularibus personis merentur mercedem ex tali 
+      la<lb ed="#L" n="54" break="no"/>bore &amp; seruitio. Et si eis taxetur merces huiusmodi auctoritat. 
+      <lb ed="#L" n="55"/>rei publicae non videtur illicitum: quin potius iustum &amp; debitum, sed 
+      <lb ed="#L" n="56"/>istum modum non legi nec audiui alicubi statutum vel ordinatum 
+      </p>
+            <p xml:id="jsnvu6-e199611-d1e323">
+               <lb ed="#L" n="57"/>
+               <!--7--> AD PRIMVM argumentum dicendum, quod ille qui dat 
+      <lb ed="#L" n="58"/>mutuum potest absque peccato in pactum deducere 
+      recompesa<lb ed="#L" n="59" break="no"/>tionem damni per quod sibi subtrahitur aliquid quod debet habe 
+      <lb ed="#L" n="60"/>re, hoc enim non est vendere vsum pecuniae, sed dannum vitare 
+      <lb ed="#L" n="61"/>vt si aliquis mutuans pecuniam diceret se teneri alteri intra certum 
+      <lb ed="#L" n="62"/>tempus ad illam summam pecuniae quam si non solueret perdere 
+      <lb ed="#L" n="63"/>pignus maioris valoris, talis posset sine peccato ducere in 
+      pa<lb ed="#L" n="64" break="no"/>ctum quod recipiens ab ipso mutuo talem pecuniam teneretur ei de 
+      <lb ed="#L" n="65"/>damno nisi solueret intra determinatum tempus, sed 
+      recompensa<lb ed="#L" n="66" break="no"/>tionem damni quod posset prouenire ex eo quod de pecunia sua 
+      <lb ed="#L" n="67"/>mercaretur non potst licite in pactum deduci, quia non debet 
+      ven<lb ed="#L" n="68" break="no"/>dere id quod non habet &amp; quod potest multipliciter impediri 
+      </p>
+            <p xml:id="jsnvu6-e199611-d1e354">
+               <lb ed="#L" n="69"/>
+               <!--8--> Ad secundum dicendum per interemptionem minoris, ille 
+      <lb ed="#L" n="70"/>enim qui tradit alteri mutuum sub vsura non facit ei gratiam 
+      <lb ed="#L" n="71"/>nec ex effectu beneficentiae hoc procedit, sed ex affectu priuate 
+      <lb ed="#L" n="72"/>quo quis quaerit lucrum suum cum damno alterius propter 
+      <lb ed="#L" n="73"/>quod recipiens non tenetur ad aliquam recompensationem 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

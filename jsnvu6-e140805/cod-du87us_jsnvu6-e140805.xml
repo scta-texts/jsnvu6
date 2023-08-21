@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="170-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e140805"><!-- l2d40q1 -->
+            <head xml:id="jsnvu6-e140805-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e140805-Hd1e103" type="question-title">
+      Utrum aliqua actio possit esse indifferens 
+      ad bonum et ad malum
+    </head>
+            <p xml:id="jsnvu6-e140805-d1e106">
+               <lb ed="#L" n="88"/>QVAESTIO. PRINA. 
+      <lb ed="#L" n="89"/>Vtrum aliqua actio possit esse indifferens 
+      <lb ed="#L" n="90"/>ad bonum &amp; ad malum. 
+      <lb ed="#L" n="91"/>ricur Thom. 1. 2. q. 18. art. 8. &amp; 9.
+    </p>
+            <p xml:id="jsnvu6-e140805-d1e117">
+               <lb ed="#L" n="92"/>CIRCA distinctionem istam quaeruntur tria. 
+      Pri<lb ed="#L" n="93" break="no"/>mum est, vtrum aliqua actio possit esse indifferens, 
+      <lb ed="#L" n="94"/>ita quod nec sit bona, nec mala bonitate vel 
+      ma<lb ed="#L" n="95" break="no"/>litia morali, quam considerat moralis 
+      Philoso<lb ed="#L" n="96" break="no"/>phus. Secundum est, vtrum aliqua actio possit esse 
+      <lb ed="#L" n="97"/>indifferens, ita quod nec sit bona, nec mala bonitate vel 
+      mali<lb ed="#L" n="98" break="no"/>tia meriti vel demeriti vitae aeternae, quam considerat 
+      Theolo<lb ed="#L" n="99" break="no"/>gus. Tertium est, vtrum eadem actio possit esse bona &amp; mala 
+      <lb ed="#L" n="100"/>simul vel successiue. Ad primum sic proceditur. Et videtur quod 
+      <lb ed="#L" n="101"/>aliqua actio possit esse indifferens ad bonum &amp; malum morale, 
+      <lb ed="#L" n="102"/>quia nulla species est, quae sub se non contineat, vel continere 
+      <lb ed="#L" n="103"/>possit aliquod indiuiduum, sed aliquis actus est indifferens 
+      se<lb ed="#L" n="104" break="no"/>cundum suam speciem, vt leuare festucam: &amp; beatus August. in 
+      <lb ed="#L" n="105"/>lib. de sermone domini in monte, quod sunt facta media quae 
+      <lb ed="#L" n="106"/>possunt bono &amp; malo fieri animo, de quibus temerarium est 
+      <lb ed="#L" n="107"/>iudicare, ergo sub his speciebus poterit inueniri aliquis actus 
+      <lb ed="#L" n="108"/>indiuidualis indifferens. 
+      </p>
+            <p xml:id="jsnvu6-e140805-d1e156">
+               <lb ed="#L" n="109"/>
+               <!--2.--> Ad idem est quod dicitur in praedicamentis quod bonum &amp; 
+      <lb ed="#L" n="110"/>malum sunt contraria mediata, ergo non est necesse alterum 
+      eo<lb ed="#L" n="111" break="no"/>rum cuilibet actui inesse. 
+      </p>
+            <p xml:id="jsnvu6-e140805-d1e168">
+               <lb ed="#L" n="112"/>
+               <!--3--> IN CONTRARIVM est, quia priuatiue opposita sic 
+      <lb ed="#L" n="113"/>se habent circa subiectum aptum natum, quod alterum eorum 
+      <lb ed="#L" n="114"/>inest ex necessitate. Sed bonum &amp; malum opponuntur 
+      priua<lb ed="#L" n="115" break="no"/>tiue, vt visum fuit supra, dist. 34. Actus autem moralis 
+      suscepti<lb ed="#L" n="116" break="no"/>uus est bonitatis &amp; malitiae, ergo omni actui morali necesse est 
+      <lb ed="#L" n="117"/>alterum inesse. 
+      </p>
+            <p xml:id="jsnvu6-e140805-d1e186">
+               <lb ed="#L" n="118"/>
+               <!--4--> RESPONSIO. Sciendum est quod de actu morali 
+      contin<lb ed="#L" n="119" break="no"/>git loqui dupliciter, scilicet secundum rationem quam sortitur 
+      <lb ed="#L" n="120"/>ex solo obiecto absque circunstantiis, vel secundum rationem quam 
+      <lb ed="#L" n="121"/>sortitur ex obiecto cum omnibus circunstantiis finis, loci &amp; 
+      tem<lb ed="#L" n="122" break="no"/>poris &amp; huiusmodi. Et prima quidem consideratio actus moralis 
+      <lb ed="#L" n="123"/>respectu secundae est generalis vel vniuersalis, quam quidam 
+      vo<lb ed="#L" n="124" break="no"/>cant considerationem actus secundum speciem. Secunda autem 
+      <lb ed="#L" n="125"/>consideratio respectu primae est particularis, vel singularis, qu 
+      <lb ed="#L" n="126"/>potest dici consideratio actus secundum indiuiduum, &amp; 
+      actua<lb ed="#L" n="127" break="no"/>lem existentiam quae est cuiuslibet rei secundum esse singulare, 
+      <lb ed="#L" n="128"/>&amp; cum omnibus circunstantiis suis. Primo modo contingit dare 
+      <lb ed="#L" n="129"/>actum indifferentem, qui nec est bonus, nec malus, quod patet sic 
+      <lb ed="#L" n="130"/>ille actus est nec bonus nec malus, qui non includit aliquid 
+      con<lb ed="#L" n="131" break="no"/>sonum vel dissonum rationi: sed multi actus sunt, qui considerati 
+      <lb ed="#L" n="132"/>solum secundum rationem quam sortiuntur ex obiecto suo non 
+      <lb ed="#L" n="133"/>includunt aliquid consonum aut dissonum rationi, ergo 
+      tale<lb ed="#L" n="134" break="no"/>actus secundum rationem sui obiecti non sunt boni vel mali, sed 
+      <lb ed="#L" n="135"/>indifferentes. Maior patet ex eo, quod bonitas vel malitia actu: 
+      <lb ed="#L" n="136"/>moralis consistit in conformitate vel difformitate ad rationem 
+      <lb ed="#L" n="137"/>vt patuit supra, distinctione trigesimaoctaua. Minor 
+      declara<lb ed="#L" n="138" break="no"/>tur, sunt enim aliqui actus qui secundum rationem sui obiecti 
+      <lb ed="#L" n="139"/>includunt aliquid consonum rationi, sicut reuereri deum, ali 
+      <lb ed="#L" n="140"/>qui includunt aliquid dissonum rationi, vt odire deum, vel non 
+      <lb ed="#L" n="141"/>honorare patrem, alij qui neutrum includunt, sicut leuare 
+      fe<lb ed="#L" n="142" break="no"/>stucam. Primi sunt boni, secundi mali, tertij vero nec boni nec 
+      <lb ed="#L" n="143"/>mali, quantum est ex ratione sui obiecti. 
+      </p>
+            <p xml:id="jsnvu6-e140805-d1e247">
+               <lb ed="#L" n="144"/>
+               <!--5--> Sed contra rationem istam sic arguitur? Malum opponitur 
+      <lb ed="#L" n="145"/>bono priuatiue non contrarie, ergo ad hoc quod actus sit 
+      malu<lb ed="#L" n="146" break="no"/>sufficit quod careat conformitate ad rationem, in qua consistit 
+      <lb ed="#L" n="147"/>bonitas actus, nec oportet quod includat difformitatem 
+      contra<lb ed="#L" n="148" break="no"/>riam: propter quod maior propositio praecedentis rationis vide 
+      <lb ed="#L" n="149"/>tur falsa, scilicet quod actus ille nec sit bonus nec malus, qui no 
+      <lb ed="#L" n="150"/>includit aliquid consonum aut dissonum rationi, quia ex 
+      ho<lb ed="#L" n="151" break="no"/>solo videtur actus esse malus quod non includit aliquid 
+      confo<lb ed="#L" n="152" break="no"/>num rationi, dato quod nihil dissonum rationi includat. Et 
+      di<lb ed="#L" n="153" break="no"/>cendum quod cum malum consistat in priuatione non 
+      quacun<lb ed="#L" n="154" break="no"/>que, sed in priuatione boni debiti inesse, nunquam est actus 
+      ma<lb ed="#L" n="155" break="no"/>lus, ex hoc quod caret conformitate ad rationem, nisi careat 
+      <lb ed="#L" n="156"/>conformitate debita. Vbi autem ratio non debet esse magis re¬ 
+      <!--00409.xml-->
+      <pb ed="#L" n="171-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cta affirmando quam negando, ibi voluntas non debet magis 
+      <lb ed="#L" n="2"/>conformari rationi affirmatiuae quam negatiuae: vnde potest sic 
+      <lb ed="#L" n="3"/>argui, &amp; redit in idem. Ille actus nec est bonus, nec est malus, 
+      <lb ed="#L" n="4"/>circa quem ratio non potest esse magis recta in affirmando 
+      <lb ed="#L" n="5"/>quam in negando, sed leuare festucam quantum est praecise ex 
+      <lb ed="#L" n="6"/>ratione quam sortitur actus ex obiecto est huiusmodi, quia 
+      ra<lb ed="#L" n="7" break="no"/>tio neque affirmando quod leuanda est, neque negando leuandam esse 
+      <lb ed="#L" n="8"/>magis recta est, ergo actus de se neque bonus est, neque malus. Ma 
+      <lb ed="#L" n="9"/>ior patet, quia persecutio &amp; fuga actus voluntatis quoad 
+      boni<lb ed="#L" n="10" break="no"/>tatem vel malitiam correspondent affirmationi &amp; negationi 
+      <lb ed="#L" n="11"/>rationis practicae quoad veritatem &amp; falsitatem, &amp; ideo vbi est 
+      <lb ed="#L" n="12"/>ratio aeque indifferens quoad veritatem &amp; falsitatem in 
+      affirman<lb ed="#L" n="13" break="no"/>do &amp; negando, ibi est actus indifferens quoad malitiam &amp; 
+      boni<lb ed="#L" n="14" break="no"/>tatem in prosequendo &amp; fugiendo. Minor probatur, quia 
+      recti<lb ed="#L" n="15" break="no"/>tudo rationis consistit in conformitate ad aliquem legem 
+      na<lb ed="#L" n="16" break="no"/>turalem vel diuinam, vel ex his deriuatam, circa autem tales 
+      <lb ed="#L" n="17"/>actus, vt leuare festucam, vel huiusmodi, nulla lex aliquid deter 
+      <lb ed="#L" n="18"/>minat, nec diuina, nec naturalis, nec ex his deriuata, ergo circa 
+      <lb ed="#L" n="19"/>eos sic acceptos ratio non potest habere aliquam rectitudinem, 
+      <lb ed="#L" n="20"/>vel obliquitatem magis in affirmando quam in negando, &amp; hoc 
+      <lb ed="#L" n="21"/>fuit minor. Sequitur ergo conclusio. 
+</p>
+            <p xml:id="jsnvu6-e140805-d1e332">
+               <lb ed="#L" n="22"/>
+               <!--6.--> Si autem considerentur secundum rationem quam 
+      sortiun<lb ed="#L" n="23" break="no"/>tur, non solum ex obiecto, sed ex omnibus circunstantiis loci, 
+      <lb ed="#L" n="24"/>temporis &amp; finis, quae est consideratio secundum indiuiduum 
+      <lb ed="#L" n="25"/>&amp; actualem eius existentiam: distinguendum est, quia talis 
+      a<lb ed="#L" n="26" break="no"/>ctus aut procedit ex sola imaginatione, vt confricatio barbae, 
+      <lb ed="#L" n="27"/>aut sequitur rationem deliberantem. Si sequatur rationem 
+      de<lb ed="#L" n="28" break="no"/>liberantem, sic impossibile est aliquem actum esse 
+      indifferen<lb ed="#L" n="29" break="no"/>tem, sed necessario quilibet est bonus vel malus moraliter, 
+      cu<lb ed="#L" n="30" break="no"/>ius ratio est duplex. Prima, quia ratio deliberans sicut in 
+      deli<lb ed="#L" n="31" break="no"/>berando procedit ex fine ad consiliandum de his quae sunt ad 
+      <lb ed="#L" n="32"/>finem, sic voluntas imperando executionem eius quod 
+      delibe<lb ed="#L" n="33" break="no"/>ratum est, ordinat actum imperatum ad aliquem finem. Ex hoc 
+      <lb ed="#L" n="34"/>sic arguitur, Omnis actus imperatus a ratione ordinatur ad fi 
+      <lb ed="#L" n="35"/>nem debitum, vel non, si ordinatur non est indifferens, sed 
+      sor<lb ed="#L" n="36" break="no"/>titur bonitatem ex fine, si autem non ordinatur ad finem 
+      de<lb ed="#L" n="37" break="no"/>bitum, malus est, quia repugnat rationi cuius est ordinare ir 
+      <lb ed="#L" n="38"/>finem debitum, ergo, &amp;c. Nec potest dici quod ordinatur ad 
+      <lb ed="#L" n="39"/>finem indifferentem, quia impossibile est rationem boni non 
+      in<lb ed="#L" n="40" break="no"/>cludi in ratione finis, propter quod oportet finem esse vel 
+      ve<lb ed="#L" n="41" break="no"/>rum bonum, vel apparens bonum. Et primo modo actus est bo 
+      <lb ed="#L" n="42"/>nus. Secundo modo malus. 
+      </p>
+            <p xml:id="jsnvu6-e140805-d1e382">
+               <lb ed="#L" n="43"/>
+               <!--7--> Secunda ratio talis est, Si esset aliquis actus indifferens, 
+      <lb ed="#L" n="44"/>oporteret dare habitum indifferentem, consequens est falsum 
+      <lb ed="#L" n="45"/>ergo &amp; antecedens, falsitas consequentis patet, quia habitur 
+      <lb ed="#L" n="46"/>determinat potentiam, nam vt dicitur secundo Ethicorum 
+      <lb ed="#L" n="47"/>Potentia est qua possumus, habitus autem quo bene vel male 
+      <lb ed="#L" n="48"/>possumus: &amp; quinto Metaphysicae dicitur, quod habitus est quo 
+      <lb ed="#L" n="49"/>quis bene vel male disponitur ad se vel ad alterum, ergo per 
+      <lb ed="#L" n="50"/>habitum potentia determinatur ad bene &amp; ad male. Nullus 
+      <lb ed="#L" n="51"/>ergo habitus potest esse indifferens. Consequentia 
+      proba<lb ed="#L" n="52" break="no"/>tur, quia ex actibus generatur habitus, sicut ergo ex 
+      acti<lb ed="#L" n="53" break="no"/>bus bonis frequenter generatur habitus bonus, &amp; ex malis 
+      ma<lb ed="#L" n="54" break="no"/>lus, sic ex indifferentibus si essent, generaretur indifferens, 
+      <lb ed="#L" n="55"/>quod est inconueniens. 
+      </p>
+            <p xml:id="jsnvu6-e140805-d1e415">
+               <lb ed="#L" n="56"/>
+               <!--8--> Si autem procedat ex sola imaginatione, sic dicunt quidam 
+      <lb ed="#L" n="57"/>quod talis actus est indifferens. Cuius ratio est, quia actus, qui est 
+      <lb ed="#L" n="58"/>extra genus moris, non est susceptiuus bonitatis, aut malitiae 
+      <lb ed="#L" n="59"/>moralis, quia bonitas supponit entitatem, &amp; talis talem, sed 
+      <lb ed="#L" n="60"/>actus qui procedit ex sola imaginatione, vt confricatio barbae, 
+      <lb ed="#L" n="61"/>est extra genus moris, quum actus habeat quod sit moralis, ex 
+      <lb ed="#L" n="62"/>hoc quod aliqualiter a ratione deducitur mediate vel 
+      imme<lb ed="#L" n="63" break="no"/>diate, ergo talis actus nec est bonus, nec est malus, sed 
+      indiffe<lb ed="#L" n="64" break="no"/>rens. Sed contra hoc instatur, quia vbi inuenitur dominium 
+      ra<lb ed="#L" n="65" break="no"/>tionis, vel voluntatis, ibi inuenitur genus moris, sed dominium 
+      <lb ed="#L" n="66"/>rationis vel voluntatis inuenitur, non solum in actibus qui 
+      se<lb ed="#L" n="67" break="no"/>quuntur rationem deliberantem, sed etiam qui praecedunt, 
+      in<lb ed="#L" n="68" break="no"/>quantum a ratione praeueniri potuerunt, vt dictum fuit suprâ, 
+      <lb ed="#L" n="69"/>"distinctione vigesimaquarta (alioquin in sensualitate nullum 
+      <lb ed="#L" n="70"/>posset esse peccatum) ergo actus procedentes a sola 
+      imagina<lb ed="#L" n="71" break="no"/>tione pertinent ad genus moris, quia subsunt imperio rationis, 
+      <lb ed="#L" n="72"/>inquantum ab ea possunt praeueniri, &amp; sic per consequens sunt 
+      <lb ed="#L" n="73"/>susceptiui bonitatis, &amp; malitiae moralis, cuius oppositum 
+      assu<lb ed="#L" n="74" break="no"/>mebatur pro fundamento. 
+</p>
+            <p xml:id="jsnvu6-e140805-d1e462">
+               <lb ed="#L" n="75"/>Et ad hoc potest dici quod aliqui actus procedentes ab 
+      imagi<lb ed="#L" n="76" break="no"/>natione, &amp; praeuenientes deliberationem rationis sunt tales, 
+      <lb ed="#L" n="77"/>circa quos ratio debet esse peruigil ne insurgant, &amp; tales sunt 
+      <lb ed="#L" n="78"/>actus appetitus sensitiui circa materiam peccati mortalis: &amp; 
+      <lb ed="#L" n="79"/>respectu talium actuum quantumcunque deliberationem 
+      prae<lb ed="#L" n="80" break="no"/>ueniant, potest esse negligens ratio in reprimendo, &amp; peccare 
+      <lb ed="#L" n="81"/>saltem venialiter. Et de his procedit ratio, scilicet quod sut 
+      ali<lb ed="#L" n="82" break="no"/>quo modo in genere moris, nec sunt indifferentes. Alij autem 
+      <!--00409.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>sunt circa quos ratio nullo modo tenetur esse peruigil, nisi in 
+      <lb ed="#L" n="84"/>casu ratione alicuius adiuncti, quia obiecta talium secundum 
+      <lb ed="#L" n="85"/>se non sunt materia alicuius peccari mortalis vel venialis, vt 
+      le<lb ed="#L" n="86" break="no"/>uare festucam, vel fricare barbam: &amp; tales actus vt sic 
+      peruenien<lb ed="#L" n="87" break="no"/>tes, quos non tenetur praeuenire ratio, nisi in casu sunt pure 
+      <lb ed="#L" n="88"/>extra genus moris, &amp; indifferentes ad bonum &amp; malum, de 
+      qui<lb ed="#L" n="89" break="no"/>bus intelligenda est praedicta opinio. 
+      </p>
+            <p xml:id="jsnvu6-e140805-d1e501">
+               <lb ed="#L" n="90"/>
+               <!--10--> Ad argumenta vtriusque partis respondendum est. Ad 
+      pri<lb ed="#L" n="91" break="no"/>mum, quum dicitur, nulla est species quae sub se non continea 
+      <lb ed="#L" n="92"/>aliquod indiuiduum, &amp;c. Dicendum est quod actum esse 
+      in<lb ed="#L" n="93" break="no"/>differentem secundum speciem suam potest intelligi dupliciter, 
+      <lb ed="#L" n="94"/>scilicet secundum quod negatio importata per hoc quod est 
+      <lb ed="#L" n="95"/>indifferens potest dupliciter ordinari ad copulam verbalem. 
+      <lb ed="#L" n="96"/>Vno enim modo potest postponi, &amp; sic est sensus, quod de 
+      ra<lb ed="#L" n="97" break="no"/>tione specifica actus est quod sit indifferens, &amp; si isto modo 
+      ali<lb ed="#L" n="98" break="no"/>quis actus secundum speciem esset indifferens, non solum esset 
+      <lb ed="#L" n="99"/>impossibile dare sub tali specie actum indiuidualem 
+      indifferen<lb ed="#L" n="100" break="no"/>tem, imo impossibile esset sub tali specie dare actum, nisi 
+      in<lb ed="#L" n="101" break="no"/>differentem, quia ea quae sunt de ratione speciei conueniunt 
+      <lb ed="#L" n="102"/>omni indiuiduo sub tali specie, sed sic nullus est actus 
+      indiffe<lb ed="#L" n="103" break="no"/>rens secundum speciem suam: sub quo tamen sensu 
+      argumen<lb ed="#L" n="104" break="no"/>tum procedit. Alio modo potest negatio importata per hoc qui 
+      <lb ed="#L" n="105"/>est indifferens praeponi copulae verbali sub hoc sensu, quod de 
+      <lb ed="#L" n="106"/>ratione specifica actus non est, quod sit differenter vel 
+      deter<lb ed="#L" n="107" break="no"/>minate bonus vel malus, sed tamen vtrumque potest ipsi per 
+      <lb ed="#L" n="108"/>aliud conuenire, sicut homo ex sua specie non habet quod sit 
+      <lb ed="#L" n="109"/>determinate albus, vel determinate niger: &amp; tamen per aliud ei 
+      <lb ed="#L" n="110"/>vtrumque istorum conuenit. Et hoc modo sunt multi actus qui 
+      <lb ed="#L" n="111"/>sunt indifferentes secundum suam speciem: nullus tamen 
+      secun<lb ed="#L" n="112" break="no"/>dum indiuiduum, quia indiuiduum multa includit quoad 
+      exi<lb ed="#L" n="113" break="no"/>stentiam suam quae ad rationem speciei non pertinent. 
+      </p>
+            <p xml:id="jsnvu6-e140805-d1e558">
+               <lb ed="#L" n="114"/>
+               <!--11--> Et ad aliud quod dicitur postea, quod bonum &amp; malum 
+      <lb ed="#L" n="115"/>sunt contraria mediata, vt dicitur in praedicamentis. 
+      Dicen<lb ed="#L" n="116" break="no"/>dum quod Philosophus accipit ita malum strictius, quam nos 
+      <lb ed="#L" n="117"/>accipit enim malum non pro omni actu inordinato, sicut nunc 
+      <lb ed="#L" n="118"/>accipimus, sed solum qui est alteri nociuus, sicut in quarto 
+      <lb ed="#L" n="119"/>Ethicorum dicit quod prodigus, qui causa iactantiae sua 
+      ex<lb ed="#L" n="120" break="no"/>ponit, non est malus, sed vanus, &amp; isto modo nihil prohibet 
+      <lb ed="#L" n="121"/>inter bonum &amp; malum esse medium per abnegationem, sed 
+      <lb ed="#L" n="122"/>non sicut nunc accipimus. 
+      </p>
+            <p xml:id="jsnvu6-e140805-d1e582">
+               <lb ed="#L" n="123"/>
+               <!--12--> ARGVMENTVM alterius partis bene probat 
+      <lb ed="#L" n="124"/>quod neque in dictis, neque in factis est aliquid indifferens, 
+      <lb ed="#L" n="125"/>sed quodlibet secundum suam existentiam est bonum vel 
+      ma<lb ed="#L" n="126" break="no"/>lum, licet secundum considerationem vniuersalem actus, quae 
+      <lb ed="#L" n="127"/>est eius consideratio secundum solam rationem obiecti fit 
+      da<lb ed="#L" n="128" break="no"/>re aliquem actum, qui vt sic non includit aliquam 
+      bonita<lb ed="#L" n="129" break="no"/>tem, vel malitiam moralem. Priuatio enim &amp; habitus 
+      im<lb ed="#L" n="130" break="no"/>mediationem habent circa subiectum, vt existens, non vt 
+      <lb ed="#L" n="131"/>consideratum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="185-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e151626"><!-- l3d2prae -->
+            <head xml:id="jsnvu6-e151626-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e151626-d1e103">
+               <lb ed="#L" n="26"/>
+               <!--3.--> Sententia huius distinctionis Secundae 
+      <lb ed="#L" n="27"/>uui: in generali &amp; speciali¬ 
+      </p>
+            <p xml:id="jsnvu6-e151626-d1e112">
+               <lb ed="#L" n="28"/>
+               <!--6372-->
+               <lb ed="#L" n="29"/>QVIa in homine Superius dereminmaui 
+      <lb ed="#L" n="30"/>magister de incarnatione ex parte personae 
+      as<lb ed="#L" n="31" break="no"/>sumentis. Hic determinat de ipsa ex parte 
+      natu<lb ed="#L" n="32" break="no"/>rae assumptae. Et diuiditur in tres. Primo 
+      osten<lb ed="#L" n="33" break="no"/>dit quid sit assumptum. Secundo quale fuit quod 
+      <lb ed="#L" n="34"/>rassumptum est. Et tertio quo agente factum fuerit id quod 
+      as<lb ed="#L" n="35" break="no"/>sumptum est. Secunda distinct. 3. ibi, quaeritur etiam de 
+      incar<lb ed="#L" n="36" break="no"/>natione verbi. Tertia disf. 4. ibi, Cum vero incarnatio. Prima 
+      <lb ed="#L" n="37"/>est principalis lectio. Et diuiditur in duas. Primo ostendit quid 
+      <lb ed="#L" n="38"/>sit assumptum quia natura humana integra ex suis partibus, 
+      <lb ed="#L" n="39"/>coniunctis. In secunda determinat ordinem assumptionis. 
+      Se<lb ed="#L" n="40" break="no"/>cunda ibi, assumpsit igitur filius Dei. Et ista diuiditur in duas 
+      <lb ed="#L" n="41"/>Primo ostendit ordinem naturae. Secundo ordinem temporis. 
+      <lb ed="#L" n="42"/>Secunda ibi, si autem quaeritur vtrum verbum. Haec est diuisio 
+      <lb ed="#L" n="43"/>&amp; sententia lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-e151626-d1e151">
+               <lb ed="#L" n="44"/>
+               <!--2--> IN SPECIALI sic procedit, &amp; primo proponit q 
+      <lb ed="#L" n="45"/>quia primus homo totam naturam humanam corruperat (
+      scili<lb ed="#L" n="46" break="no"/>cet corpus &amp; animam) ideo filius Dei carne &amp; animam 
+      assum<lb ed="#L" n="47" break="no"/>psit vt totam curaret &amp; sanctificaret. In Christo enim est vna 
+      <lb ed="#L" n="48"/>persona &amp; duae substantiae scilicet diuina &amp; humana, ergo se ha 
+      <lb ed="#L" n="49"/>buit humanam, habuit vnionem animae &amp; corpus, quia nomine 
+      <lb ed="#L" n="50"/>humanitatis anima &amp; corpus intelligitur. Postea vero excludii 
+      <lb ed="#L" n="51"/>errorem quorundam dicentium quod filius Dei carnem 
+      huma<lb ed="#L" n="52" break="no"/>nam vel humanitatem non assumpsit; sed secundum quosdam 
+      <lb ed="#L" n="53"/>proprietatem siue habitum nomine humanitatis intelligentes 
+      <lb ed="#L" n="54"/>non substantiam, sed proprietatem quandam qua homo 
+      no<lb ed="#L" n="55" break="no"/>minatur, occasionem sumentes ex dictis Dama. qui dicit quod in 
+      <lb ed="#L" n="56"/>domino Iesu Christo non est communem speciem accipere, ex 
+      <lb ed="#L" n="57"/>quo videtur quod non assumpsit vere corpus &amp; animam 
+      adinui<lb ed="#L" n="58" break="no"/>cem coniuncta, quia sic fuisset eiusdem &amp; communis specie 
+      <lb ed="#L" n="59"/>cum aliis. Sed istud non valet, quia intentio Ioan. Dam. non fui 
+      <lb ed="#L" n="60"/>quod Christus non vere assumpserit corpus &amp; animam 
+      adinui<lb ed="#L" n="61" break="no"/>cem, vnita, sed fuit intentio sua quod Christus prout nomina 
+      <lb ed="#L" n="62"/>suppositum constitutum ex humanitate &amp; diuinitate non fuit 
+      <lb ed="#L" n="63"/>sub aliqua specie communi, quia nec sunt, nec fuerunt, nec erunt 
+      <lb ed="#L" n="64"/>plures Christi habentes communem speciem, sicut sunt plures 
+      <lb ed="#L" n="65"/>nomines habentes vnam humanitatem communem secundum 
+      <lb ed="#L" n="66"/>speciem, assumpsit tamen filius Dei veram humanitatem non 
+      <lb ed="#L" n="67"/>in vniuersali (sicut Platonici posuerunt ydeam hominis) sed in 
+      <lb ed="#L" n="68"/>singulari constitutam ex hoc corpore &amp; hac anima quae cum 
+      <lb ed="#L" n="69"/>diuinitate non habet communem speciem cum quocunque alio 
+      <lb ed="#L" n="70"/>supposito. Deinde dicit. quod filius Dei assumpsit carnem 8 
+      <lb ed="#L" n="71"/>animam, &amp; omnem proprietatem ipsum dicentem. Praetere. 
+      <lb ed="#L" n="72"/>dicit quod quamuis vtrunque (scilicet corpus &amp; animam assum. 
+      <lb ed="#L" n="73"/>serit) tamen assumpsit carnem mediante anima, quia tantae 
+      <lb ed="#L" n="74"/>simplicitatis est diuina natura quod non debuit immediate 
+      vni<lb ed="#L" n="75" break="no"/>ri carni de limo formatae, sed mediante spiritu creato (scilicet 
+      <lb ed="#L" n="76"/>anima) quae quidem vnio ab intellectu humano inuestigari non 
+      <lb ed="#L" n="77"/>potest. Nec corpus fantasticum, sed corpus verum de muliere 
+      <lb ed="#L" n="78"/>natum assumpsit quod quidam haeretici negant, vnde error 
+      eo<lb ed="#L" n="79" break="no"/>rum patet per simile de radio solis. Vltimo dicit quod 
+      Chri<lb ed="#L" n="80" break="no"/>stus carnem simul tempore &amp; animam assumpsit, &amp; quod non 
+      <lb ed="#L" n="81"/>suit caro prus concepta quam Deo vnita &amp;c 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

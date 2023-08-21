@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="292-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e240643"><!-- l4d17q1 -->
+            <head xml:id="jsnvu6-e240643-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e240643-Hd1e103" type="question-title">Utrum illa quae concurrunt ad iustificationem 
+      impii sint simul vel habeant ordinem 
+      quo vnum praecedat alium</head>
+            <p xml:id="jsnvu6-e240643-d1e106">
+               <lb ed="#L" n="70"/>QVARSTIO PRIMA 
+      <lb ed="#L" n="71"/>Vtrum illa quae concurrunt ad iustificationem 
+      <lb ed="#L" n="72"/>impii sint simul vel habeant ordinem 
+      <lb ed="#L" n="73"/>quo vnum praecedat alium. 
+      <lb ed="#L" n="74"/>Them. 2. 2. 4113. art. 7. &amp; 8.
+    </p>
+            <p xml:id="jsnvu6-e240643-d1e119">
+               <lb ed="#L" n="75"/>CIRCA distinctionem istam quaeruntur tria in 
+      ge<lb ed="#L" n="76" break="no"/>nerali. Primum est de iustificatione impij. 
+      Secun<lb ed="#L" n="77" break="no"/>dum est de contritione. Tertium est de 
+      confessio<lb ed="#L" n="78" break="no"/>ne: de satisfactione enim dictum est prius. 
+      Quan<lb ed="#L" n="79" break="no"/>tum ad primum quaeritur vtrum illa quae concu 
+      <lb ed="#L" n="80"/>runt ad iustificationem impij sint simul vel habeant ordinem 
+      <lb ed="#L" n="81"/>quo vnum praecedat alterum. Et arguitur sic quod sunt simul 
+      <!--00657.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>quia quae sunt in eodem instanti sunt simul, sed omnia quae 
+      con<lb ed="#L" n="83" break="no"/>turrunt ad iustificationem impij sunt in eodem instanti, ergo 
+      <lb ed="#L" n="84"/>sunt simul. Maior de se patet. Minor probatur, quia iustificatio 
+      <lb ed="#L" n="85"/>impij est per gratiam, sed gratia infunditur in instanti, ergo illa 
+      <lb ed="#L" n="86"/>quae concurrunt ad iustificationem impij sunt in eodem 
+      in<lb ed="#L" n="87" break="no"/>stanti, &amp; sic sunt simul. 
+      </p>
+            <p xml:id="jsnvu6-e240643-d1e154">
+               <lb ed="#L" n="88"/>
+               <!--2--> Item ad iustificationem non requiritur ex parte homini 
+      <lb ed="#L" n="89"/>nifi contritio, nec ex parte Dei nisi infusio gratiae, sed ista necel 
+      <lb ed="#L" n="90"/>sario sunt simul: quia non est vera contritio nisi informata 
+      gra<lb ed="#L" n="91" break="no"/>tia, nec gratia datur peccatori nisi fit contritus, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e240643-d1e168">
+               <lb ed="#L" n="92"/>
+               <!--3--> IN CONTRARIVM arguitur, quia ad 
+      iustifica<lb ed="#L" n="93" break="no"/>tionem requiritur motus liberi arbitrij in peccatum detestando 
+      <lb ed="#L" n="94"/>ipsum, &amp; in Deum diligendo eum: haec autem frequenter 
+      prae<lb ed="#L" n="95" break="no"/>cedunt gratiae infusionem &amp; peccati remissionem, ergo non 
+      <lb ed="#L" n="96"/>omnia quae concurrunt ad iustificationem impij sunt simul. 
+      </p>
+            <p xml:id="jsnvu6-e240643-d1e184">
+               <lb ed="#L" n="97"/>
+               <!--4--> Item qui est debitor pro peccato non est perfecte 
+      iustifica<lb ed="#L" n="98" break="no"/>tus a peccato, sed peccator ante satisfactionem semper est 
+      de<lb ed="#L" n="99" break="no"/>bitor poenae pro peccato, ergo non est perfecte iustificatus a 
+      <lb ed="#L" n="100"/>peccato, sed satisfactio raro est simul cum aliis quae concurrunt 
+      <lb ed="#L" n="101"/>ad iustificationem, ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-e240643-d1e200">
+               <lb ed="#L" n="102"/>PRESPONSIO. Circa quaestionem istam videnda sunt 
+      <lb ed="#L" n="103"/>ctria. Primum est quid sit iustificatio impij. Secundum est quae 
+      <lb ed="#L" n="104"/>&amp; quot requiruntur ad ipsam. Tertium est de ordine, vel 
+      si<lb ed="#L" n="105" break="no"/>multate ipsorum. 
+    </p>
+            <p xml:id="jsnvu6-e240643-d1e211">
+               <lb ed="#L" n="106"/>
+               <!--6--> QUANTVM ad primum sciendum est, quod sicut impius 
+      <lb ed="#L" n="107"/>seu peccator dicitur iniustus inquantum peccando subtrahit 
+      <lb ed="#L" n="108"/>Deo obedientiam ad quam tenebatur, sic cum redit ad veram 
+      <lb ed="#L" n="109"/>obedientiam dicitur iustificari. Et cum haec facta sunt siue 
+      si<lb ed="#L" n="110" break="no"/>mul siue successiue dicitur peccator vel impius iustificatus. Et 
+      <lb ed="#L" n="111"/>ideo bene dicit glossa Romano. octauo, quod iustificatio est 
+      re<lb ed="#L" n="112" break="no"/>missio peccatorum. 
+      </p>
+            <p xml:id="jsnvu6-e240643-d1e231">
+               <lb ed="#L" n="113"/>
+               <!--7--> QUANTVM ad secundum sciendum est quod cum actus 
+      <lb ed="#L" n="114"/>actiuorum sint in patiente &amp; disposito, iustificatio impij cum fi 
+      <lb ed="#L" n="115"/>remissio peccati per eum commissi requirit ex parte 
+      peccato<lb ed="#L" n="116" break="no"/>ris detestationem peccati quarenus est commissum contra diuinum 
+      <lb ed="#L" n="117"/>praeceptum. Alioquin non esset dispositus quod peccatum sibi a 
+      <lb ed="#L" n="118"/>Deo remitteretur, dicente beato Augustino, quod nullus suae 
+      vo<lb ed="#L" n="119" break="no"/>luntatis arbiter constitutus nouam vitam inchoare potest nisi 
+      poe<lb ed="#L" n="120" break="no"/>nituerit eum vitae praeteritae inconueniens enim esset quod volun 
+      <lb ed="#L" n="121"/>tate peccatoris a peccato non auersa remitteretur ei culpa, pro 
+      <lb ed="#L" n="122"/>pter quod in peccatore vt sit ad iustificationem recipiendam 
+      di<lb ed="#L" n="123" break="no"/>spositus requiritur duplex motus liberi arbitrij, vel vnus 
+      mo<lb ed="#L" n="124" break="no"/>tus in duo scilicet in Deum &amp; in peccatum qualiter est contra 
+      reue<lb ed="#L" n="125" break="no"/>rentiam &amp; obedientiam diuinam commissum. Ex parte autem 
+      <lb ed="#L" n="126"/>Dei requiritur infusio gratiae iustificantis. Et haec duo sufficient 
+      <lb ed="#L" n="127"/>ad iustificationem impij quo ad culpam qua formaliter dicitu 
+      <lb ed="#L" n="128"/>impius. Et si plura concurrant, accidit: hoc autem est intelligen 
+      <lb ed="#L" n="129"/>dum de iustificatione illorum qui per proprium actum facti sunt 
+      <lb ed="#L" n="130"/>impij seu peccatores, &amp; non de paruulis qui per actum 
+      alie<lb ed="#L" n="131" break="no"/>num nascuntur filij irae: tales enim iustificantur sine actu 
+      pro<lb ed="#L" n="132" break="no"/>prio per solam gratiam Dei sine sacramento, vt illi qui 
+      iustifi<lb ed="#L" n="133" break="no"/>cati fuerunt in vtero, vel cum sacramento vt paruuli baptizati. 
+      </p>
+            <p xml:id="jsnvu6-e240643-d1e281">
+               <lb ed="#L" n="134"/>
+               <!--8--> EX QVO patet quod teruum quod est principale 
+      quaesi<lb ed="#L" n="135" break="no"/>tum non habet locum in eis, quia cum ad iustificationem eorum 
+      ni<lb ed="#L" n="136" break="no"/>hil per se concurrit nisi sola infusio gratiae, &amp; eiusdem ad 
+      se<lb ed="#L" n="137" break="no"/>ipsum non est ordo saltem realis, ideo quicquid est ibi, totum est 
+      <lb ed="#L" n="138"/>simul absque ordine reali. De ordine autem rationis dicetur 
+      <lb ed="#L" n="139"/>postea. Restat ergo solum inquirere de simultate, vel ordine 
+      <lb ed="#L" n="140"/>eorum quae concurrunt ad iustificationem impij qui per actum 
+      pro<lb ed="#L" n="141" break="no"/>prium delinquit, &amp; haec reducuntur ad duo (vt dictum est) scilicet 
+      <lb ed="#L" n="142"/>ad dispositionem hominis, &amp; ad infusionem gratiae ex parte Dei 
+      <lb ed="#L" n="143"/>dispontio autem ex parte hominis est aliquando &amp; vt plurimum 
+      <lb ed="#L" n="144"/>imperfecta a principio quando homo timore poenae incipit poe 
+      <lb ed="#L" n="145"/>nitere de peccato, poenitentia enim timore concipitur, solus 
+      au<lb ed="#L" n="146" break="no"/>tem timor non disponit sufficienter hominem ad salutem seu 
+      <lb ed="#L" n="147"/>ad iustificationem. Et ideo talis dispositio praecedit 
+      iustificatio<lb ed="#L" n="148" break="no"/>nem non solum ratione, sed natura &amp; tempore. Et vocatur talis 
+      <lb ed="#L" n="149"/>dispositio attributio: dispositio vero perfecta est quando homo 
+      <lb ed="#L" n="150"/>detestatur peccatum non solum timore poenae sed quia est con 
+      <lb ed="#L" n="151"/>tra reuerentiam &amp; obedientiam Deo debitam, &amp; quia separat a 
+      <lb ed="#L" n="152"/>consortio Dei quem summe debemus diligere, &amp; vocatur 
+      contri<lb ed="#L" n="153" break="no"/>tio, sed talis dispositio simul est cum in eodem instanti. Sed ordine 
+      <lb ed="#L" n="154"/>naturae talis dispositio praecedit gratiam. quod autem duratione 
+      fi<lb ed="#L" n="155" break="no"/>mul sint talis dispositio &amp; gratia, patet sic: sicut est in operibu 
+      <lb ed="#L" n="156"/>naturae in quibus Deus principaliter operatur dando formam 
+      <lb ed="#L" n="157"/>licet agens naturale cooperetur disponendo materiam, sic es 
+      <lb ed="#L" n="158"/>in operibus gratiae, in quibus Deus principaliter operatur dan 
+      <lb ed="#L" n="159"/>do gratiam, licet liberum arbitrium cooperetur disponendo 
+      sub<lb ed="#L" n="160" break="no"/>iectum, vel materiam, sed in praedictis operibus naturae videmu: 
+      <lb ed="#L" n="161"/>quod disposira materia per agens naturale vltimata dispositione 
+      <lb ed="#L" n="162"/>statim a Deo introducitur forma, vt patet in generatione 
+      ho<lb ed="#L" n="163" break="no"/>minis, ergo in iustificatione peccatoris quod est opus gratiae, 
+      <!--00658.xml-->
+      <pb ed="#L" n="292-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in quo liberum arbitrium cooperatur Deo (dicente Augu. qui 
+      <lb ed="#L" n="2"/>creauit te sine te, non te, &amp;c.) posita vltima dispositione per actum 
+      <lb ed="#L" n="3"/>liberi arbitrij statim a Deo infunditur gratia quae est forma 
+      iu<lb ed="#L" n="4" break="no"/>suficationis: vitimata autem dispositio quam potest facere 
+      libe<lb ed="#L" n="5" break="no"/>rum arbitrium est motus contritionis quantum ad essentiam 
+      <lb ed="#L" n="6"/>actus, ergo ad ipsum mox sequitur gratia iustificans. Et hoc est 
+      <lb ed="#L" n="7"/>quod dicunt auctori:ates Ambrosij &amp; August. positae in litera. 
+      <lb ed="#L" n="8"/>Quod autem talis dispositio praecedat gratiam ordine natura 
+      <lb ed="#L" n="9"/>patet sic: quia dispositio per quam subiectum redditur aptum ad 
+      <lb ed="#L" n="10"/>susceptionem formae, &amp; sine qua non esset aptum praecedit 
+      for<lb ed="#L" n="11" break="no"/>mam in subiecto, sic natura vel tempore. Reducitur enim ad g 
+      <lb ed="#L" n="12"/>nus causae materialis: &amp; ideo si cut forma accidentalis praesuppo 
+      <lb ed="#L" n="13"/>nit subiectum actu ens, inta praesupponit ipsum actu dispositum 
+      <lb ed="#L" n="14"/>propter quod cum contritio sit dispositio necessaria ad 
+      receptio<lb ed="#L" n="15" break="no"/>nem gratiae, oportet quod praecedat ipsam saltem ordine naturae 
+      <lb ed="#L" n="16"/>quamuis sint simul duratione. His autem concurrentibus 
+      iusti<lb ed="#L" n="17" break="no"/>ficatur homo prius peccator. Quum enim in peccato mortal 
+      <lb ed="#L" n="18"/>sint tria (vt dictum est supra) videlicet deordinatio actus, 
+      priuati<lb ed="#L" n="19" break="no"/>gratiae, ratione cuius Deus dicitur peccatori offensus, quia 
+      sub<lb ed="#L" n="20" break="no"/>trahit ei gratiam, quae est ad solum amicum, &amp; reatus poena 
+      <lb ed="#L" n="21"/>aeternae, per contritionem reordinatur voluntas in actu, per gra 
+      <lb ed="#L" n="22"/>tiam remittitur offensa, &amp; per consequens poena aeterna quae est 
+      <lb ed="#L" n="23"/>ad umicum, commutatur in temporalem quae potest esse ad 
+      ami<lb ed="#L" n="24" break="no"/>cum &amp; ad conciuem: &amp; sic licet sit debitor poenae, non est tamen, 
+      <lb ed="#L" n="25"/>debitor poenae impij, sed poenitentis &amp; iusuficati. 
+      </p>
+            <p xml:id="jsnvu6-e240643-d1e412">
+               <lb ed="#L" n="26"/>
+               <!--9--> Ad duo prima argumenta patet responsio: quia solum 
+      pro<lb ed="#L" n="27" break="no"/>bant quod illa quae necessario concurrunt ad iustificationem 
+      <lb ed="#L" n="28"/>&amp; quae ad eam sufficiunt sunt simul, scilicet contritio &amp; infusic 
+      <lb ed="#L" n="29"/>gratiae, quod concessum est. 
+      </p>
+            <p xml:id="jsnvu6-e240643-d1e425">
+               <lb ed="#L" n="30"/>
+               <!--10--> Primum autem argumentum alterius partis probat, 
+      quo<lb ed="#L" n="31" break="no"/>motus liberi arbitrij ad detestationem peccati frequenter prae 
+      <lb ed="#L" n="32"/>cedit infusionem gratiae, &amp; temissionem culpae: quod est verum, 
+      <lb ed="#L" n="33"/>maxime quando detestatio peccati est insufficiens, &amp; fit metu 
+      <lb ed="#L" n="34"/>sosius poenae, quod concessum est. 
+</p>
+            <p xml:id="jsnvu6-e240643-d1e441">
+               <lb ed="#L" n="35"/>Ad aliud dicendum quod plena &amp; pertecta iustificatio impi 
+      <lb ed="#L" n="36"/>quoad culpam &amp; quo ad poenam culpae debitam, requirit 
+      satisfa<lb ed="#L" n="37" break="no"/>ctionem quae frequenter sequitur infusionem gratiae: tamen 
+      qui<lb ed="#L" n="38" break="no"/>poena debita post infusionem gratiae non est aeterna quae 
+      debe<lb ed="#L" n="39" break="no"/>tur impiis secundum illud Esaiae 26. In terra sanctorum iniqua 
+      <lb ed="#L" n="40"/>gessit, &amp; non videbit gloriam Domini. sed est temporalis, cuius 
+      <lb ed="#L" n="41"/>iustificatus potest esse debitor: ideo non obstante tali debito pec 
+      <lb ed="#L" n="42"/>cator dicitur ex solis praecedentibus iustificatus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

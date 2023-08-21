@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="190-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e155670"><!-- l3d4q1 -->
+            <head xml:id="jsnvu6-e155670-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e155670-Hd1e103" type="question-title">Utrum Christus debeat dici filius 
+      spiritus sancti</head>
+            <p xml:id="jsnvu6-e155670-d1e106">
+               <lb ed="#L" n="18"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="19"/>Vtrum Christus debeat dici filius 
+      <lb ed="#L" n="20"/>spiritus sancti. 
+      <lb ed="#L" n="21"/>Thom. 1. 3. 4. 32. ar. 3.
+    </p>
+            <p xml:id="jsnvu6-e155670-d1e117">
+               <lb ed="#L" n="22"/>CIRCA distinctionem istam primo quaeritur 
+      <lb ed="#L" n="23"/>vtrum Christus debeat dici filius spiritus sancti 
+      <lb ed="#L" n="24"/>Et videtur quod sic, quia ille de quo actiue alius 
+      <lb ed="#L" n="25"/>est conceptus &amp; genitus dicitur pater eius, sed 
+      <lb ed="#L" n="26"/>a Christus secundum humanitatem fuit de spiritu 
+      <lb ed="#L" n="27"/>sancto conceptus, vt patet ex symbolo Apostolorum: fuit etiam 
+      <lb ed="#L" n="28"/>ab eo genitus, sicut dicit glossa Matth. 3. quod Deus de Sara gi 
+      <lb ed="#L" n="29"/>nuit filium, &amp; multo magis genuit Christum de Maria spiritus 
+      <lb ed="#L" n="30"/>sanctus: ergo spiritussanctus potest dici pater Christi, &amp; 
+      Chri<lb ed="#L" n="31" break="no"/>stus filius spiritussancti. 
+      </p>
+            <p xml:id="jsnvu6-e155670-d1e141">
+               <lb ed="#L" n="32"/>
+               <!--2--> Item secundum Philosop. lib. 3. de generatione animalium, 
+      <lb ed="#L" n="33"/>pater est principium actiuum in generatione, mater vero mini 
+      <lb ed="#L" n="34"/>strat materiam solum. Sed beata virgo dicitur fuisse mater 
+      Chri<lb ed="#L" n="35" break="no"/>sti propter materiam quam ministrauit: ergo spiritussanctus dici 
+      <lb ed="#L" n="36"/>potest pater eius, quia fuit principium actiuum eius conceptioni
+</p>
+            <p xml:id="jsnvu6-e155670-d1e158">
+               <lb ed="#L" n="37"/>IN CONTRARIVM est quod dicit beatus Aug 
+      <lb ed="#L" n="38"/>in Enchirid. 24. cap. quod Christus natus est de spiritusancto, non 
+      <lb ed="#L" n="39"/>sicut de patre. Sic autem de illa, scilicet beata virgine, sicut de 
+      <lb ed="#L" n="40"/>matre. Et arguitur per rationem, quia generatio est opus 
+      natu<lb ed="#L" n="41" break="no"/>rae. Sed conceptio Christi non est facta a spiritusancto per 
+      natu<lb ed="#L" n="42" break="no"/>ram, sed per beneplacitum voluntatis: ergo Christus non debuit 
+      <lb ed="#L" n="43"/>dici genitus a spiritusancto, nec per consequens filius. 
+      </p>
+            <p xml:id="jsnvu6-e155670-d1e176">
+               <lb ed="#L" n="44"/>
+               <!--4--> RESPONSIO. Nomen filij non dicitur tantum vno 
+      <lb ed="#L" n="45"/>modo, sed multipliciter, scilicet de filio per generationem, &amp; de 
+      fi<lb ed="#L" n="46" break="no"/>lio per creationem &amp; adoptionem. De his autem non dicitur 
+      <lb ed="#L" n="47"/>vniuoce, sed analogice, hoc est, secundum prius &amp; posterius, 
+      scili<lb ed="#L" n="48" break="no"/>cet secundum quid, &amp; simpliciter, per prius enim &amp; simplicite 
+      <lb ed="#L" n="49"/>dicitur aliquis filius per generationem: posterius autem &amp; 
+      secun<lb ed="#L" n="50" break="no"/>dum quid secundum creationem &amp; adoptionem. Dicendum 
+      erg<lb ed="#L" n="51" break="no"/>quod Christus non potest dici filius spiritussancti absolute: 
+      po<lb ed="#L" n="52" break="no"/>test tamen dici filius cum determinatione non simpla, sed 
+      dupla<lb ed="#L" n="53" break="no"/>Primum patet sic, quando aliquod nomen dicitur de pluribus 
+      <lb ed="#L" n="54"/>non ex aequo, sed secundum prius &amp; posterius, si per se sumatur, 
+      <lb ed="#L" n="55"/>tenetur pro illo de quo per prius dicitur, &amp; hoc vel ex vi nominis 
+      <lb ed="#L" n="56"/>vel saltem ex vsu loquendi, sed filiatio dicitur de filiatione per 
+      <lb ed="#L" n="57"/>generationem &amp; creationem, &amp; adoptionem, sed non ex aequo 
+      <lb ed="#L" n="58"/>sed per prius, &amp; simpliciter de filiatione quae est per 
+      generatio<lb ed="#L" n="59" break="no"/>nem, de filiatione autem quae est per creationem &amp; adoptionem, 
+      <lb ed="#L" n="60"/>per posterius, &amp; secundum quid, quum, aliquis absolute dicitu 
+      <lb ed="#L" n="61"/>filius, intelligitur per generationem, sed hoc modo non potes 
+      <lb ed="#L" n="62"/>dici Christus filius spiricussancti, ergo Christus non potest dic 
+      <lb ed="#L" n="63"/>filius eius absolute &amp; sine determinatione. Quod autem Christus 
+      <lb ed="#L" n="64"/>non possit dici filius spiritussancti per generationem, patet, quia 
+      <lb ed="#L" n="65"/>filius procedit a patre modo naturae, vt dictum fuit in primo 
+      <lb ed="#L" n="66"/>libro, sed Christus non procedit a spiritu sancto modo naturae 
+      <lb ed="#L" n="67"/>nec in similitudinem naturae, ergo non est filius eius per 
+      gene<lb ed="#L" n="68" break="no"/>rationem. Probatio minoris, quia in Christo non est nisi 
+      duple<lb ed="#L" n="69" break="no"/>natura, scilicet diuina &amp; humana: secundum autem diuinam na 
+      <lb ed="#L" n="70"/>turam non procedit a spiritusancto, sed a solo patre, secundum 
+      <lb ed="#L" n="71"/>humanam autem procedit ab eo, sed non actione naturae, nec 
+      <lb ed="#L" n="72"/>modo naturae, sed actione voluntatis, nec in similitudinem 
+      na<lb ed="#L" n="73" break="no"/>turae, vt de se patet, ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-e155670-d1e246">
+               <lb ed="#L" n="74"/>Secundum patet, scilicet quod Christus possit dici filius 
+      spiri<lb ed="#L" n="75" break="no"/>tussancti cum determinatione non simpla, sed dupla: ita vt vna 
+      <lb ed="#L" n="76"/>sit a parte subiecti, altera a parte praedicati, vt dicendo quod Chri 
+      <lb ed="#L" n="77"/>stus inquantum homo, est filius spiritussancti per creationem, 
+      <lb ed="#L" n="78"/>vel adoptionem, &amp; de filio per creationem, patet sic. Creatio est 
+      <lb ed="#L" n="79"/>productio alicuius, nullo praesupposito: sed Christus secundum 
+      <!--00453.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>quod homo est productus a spiritu sancto, nullo praesupposito 
+      <lb ed="#L" n="81"/>in eo, inquantum homo quamuis praesupposita fit in eo persona 
+      <lb ed="#L" n="82"/>subsistens in natura diuina, ergo Christus secundum quod 
+      ho<lb ed="#L" n="83" break="no"/>mo, potest dici filius spiritussancti per creationem, non autem 
+      <lb ed="#L" n="84"/>nisi ex parte subiecti ponatur illa determinatio, secundum quod 
+      <lb ed="#L" n="85"/>homo, quia Christus non est secundum se totum de nihilo, sed 
+      <lb ed="#L" n="86"/>solum quoad humanam naturam. 
+      </p>
+            <p xml:id="jsnvu6-e155670-d1e281">
+               <lb ed="#L" n="87"/>
+               <!--6--> De filio autem per adoptionem patet idem, quia adoptio 
+      fa<lb ed="#L" n="88" break="no"/>cit de eo qui non est filius per naturam, vel naturalem 
+      genera<lb ed="#L" n="89" break="no"/>tionem, filium per gratiam: Christus autem secundum quod 
+      <lb ed="#L" n="90"/>homo, non est filius spiritus sancti per generationem, vt 
+      proba<lb ed="#L" n="91" break="no"/>tum est supra, &amp; habet secundum humanam naturam, gratiam 
+      <lb ed="#L" n="92"/>a spiritu sancto, per quam fit adoptio filiorum dei, ergo Christus 
+      <lb ed="#L" n="93"/>secundum quod homo potest dici filius spiritus sancti per 
+      adoptio<lb ed="#L" n="94" break="no"/>nem. Non magis tamen potest dici spiritus sanctus pater 
+      Chri<lb ed="#L" n="95" break="no"/>sti praedictis modis, quam pater in diuinis, vel tota trinitas si ad 
+      <lb ed="#L" n="96"/>rem inspiciatur, quia opus creationis, &amp; infusio gratiae sunt 
+      in<lb ed="#L" n="97" break="no"/>distinctae a tota trinitate, &amp; a qualibet persona: secundum 
+      ratio<lb ed="#L" n="98" break="no"/>nem tamen magis dicitur hoc de spiritu sancto, quia opus incar 
+      <lb ed="#L" n="99"/>nationis specialiter spiritui sancto attribuitur, sicut dona 
+      gra<lb ed="#L" n="100" break="no"/>tiae ei attribuuntur. Inter dona autem gratiae illud videtur esse 
+      <lb ed="#L" n="101"/>potissimum. Augustinus autem negat Christum esse filium 
+      spi<lb ed="#L" n="102" break="no"/>ritus sancti per creationem, vel adoptionem, non quin possit 
+      in<lb ed="#L" n="103" break="no"/>telligi cum praedictis determinationibus. Multa enim verificar 
+      <lb ed="#L" n="104"/>tur de aliquo termino adiuncta determinatione, quae negantur 
+      <lb ed="#L" n="105"/>de eo absolute. Aequiuocationes enim &amp; analogiae 
+      terminan<lb ed="#L" n="106" break="no"/>tur per adiuncta, sed quia praedicta verba praestabant 
+      simplici<lb ed="#L" n="107" break="no"/>bus occasionem erroris Arriani &amp; Nestorij, quorum primus, 
+      sci<lb ed="#L" n="108" break="no"/>licet Arrianus dicit Christum esse purâ creaturam: ideo nolui 
+      <lb ed="#L" n="109"/>August. dicere Christum esse filium per creationem. Alius autem, 
+      <lb ed="#L" n="110"/>scilicet Nestorius posuit in Christo duas personas, &amp; vnionem 
+      <lb ed="#L" n="111"/>earum esse solum per gratiam adoptionis, propter quod noluit 
+      <lb ed="#L" n="112"/>beatus August. dicere Christum esse filium adoptiuum.
+</p>
+            <p xml:id="jsnvu6-e155670-d1e342">
+               <lb ed="#L" n="113"/>Ad argumenta dicendum ad primum quod ille, qui actiue de 
+      ali<lb ed="#L" n="114" break="no"/>quo concipitur &amp; gignitur est filius eius, si hoc fiat modo naturae 
+      <lb ed="#L" n="115"/>hoc autem non fuit in conceptione Christi, quia illas actiones 
+      <lb ed="#L" n="116"/>non fecit spiritussanctus mediante semine ex se deciso, quod 
+      per<lb ed="#L" n="117" break="no"/>tinet ad ordinem naturalis generationis, sed quasi artifex ope 
+      <lb ed="#L" n="118"/>rando in exteriorem naturam. Propter quod nec proprie 
+      dici<lb ed="#L" n="119" break="no"/>tur genitus de spiritus sancto, cum secundum Damasc. generare 
+      <lb ed="#L" n="120"/>sit ex sua substantia producere alium. Glossa autem illa sic 
+      expo<lb ed="#L" n="121" break="no"/>nenda est, genuit, id est, fecit quod nasceretur. 
+      </p>
+            <p xml:id="jsnvu6-e155670-d1e364">
+               <lb ed="#L" n="122"/>
+               <!--8--> Ad secundum dicendum quod Christus conceptus est de 
+      vir<lb ed="#L" n="123" break="no"/>gine ministrante materiam naturalem, quod solum pertinet ad 
+      <lb ed="#L" n="124"/>matrem, &amp; natus est ex ea in similitudinem naturae. Et ideo 
+      di<lb ed="#L" n="125" break="no"/>citur vera mater eius. Sed actio spiritussancti non fuit actio 
+      na<lb ed="#L" n="126" break="no"/>turae, nec modo naturae, nec productus est in similitudinem 
+      <lb ed="#L" n="127"/>naturae cum spiritu sancto, sicut &amp; homo producitur ex parte 
+      <lb ed="#L" n="128"/>suo: quod ideo Christus non debet dici filius spiritussancti 
+      abso<lb ed="#L" n="129" break="no"/>lute loquendo, licet possit dici filius eius, cum praedictis deter 
+      <lb ed="#L" n="130"/>minationibus. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

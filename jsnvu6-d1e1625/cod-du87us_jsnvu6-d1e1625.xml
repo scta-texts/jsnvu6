@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="76-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1625"><!-- l1d33q1 -->
+            <head xml:id="jsnvu6-d1e1625-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e1625-Hd1e103" type="question-title">Utrum in divinis essentia et relatio differant aliquo modo realiter</head>
+            <p xml:id="jsnvu6-d1e1625-d1e106">
+               <lb ed="#L" n="75"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="76"/>Vtrum in diuinis essentia &amp; relatio 
+      diffe<lb ed="#L" n="77" break="no"/>rant aliquo modo realiter. 
+      <lb ed="#L" n="78"/>Thom. l.q. 28. artic. 2. Caiet. 1. 4. 39. artic. 1. 
+      <lb ed="#L" n="79"/>Dur. 3.d. 1. 4. 2.nume. 14. 
+    </p>
+            <p xml:id="jsnvu6-d1e1625-d1e119">
+      <!--00217.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>CIRCA distinctionem istam primo quaeritur, vtrum 
+      <lb ed="#L" n="81"/>in diuinis essentia &amp; relatio differant aliquo modo 
+      <lb ed="#L" n="82"/>realiter. Et arguitur quod sic, quia illa quorum 
+      quod<lb ed="#L" n="83" break="no"/>libet est vera res, &amp; vnum inuenitur in aliquo sup. 
+      <lb ed="#L" n="84"/>posito sine alio differunt aliquo modo realiter, sed 
+      <lb ed="#L" n="85"/>essentia diuina &amp; quaelibet relatio sunt huiusmodi, quia 
+      essen<lb ed="#L" n="86" break="no"/>tia diuina est in quolibet supposito diuino, nulla autem relatio 
+      <lb ed="#L" n="87"/>est in quolibet eorum, quia paternitas non est in filio, nec 
+      filia<lb ed="#L" n="88" break="no"/>tio in patre, nec aliqua earum in spiritu sancto, quare &amp;c. Sic 
+      <lb ed="#L" n="89"/>dicatur quod illa quorum vnum inuenitur in aliquo supposito 
+      si<lb ed="#L" n="90" break="no"/>ne alio non oportet quod differant aliquo modo realiter, sed 
+      suffi<lb ed="#L" n="91" break="no"/>cit quod non sint idem adaequate &amp; conuertibiliter, &amp; sic est de 
+      <lb ed="#L" n="92"/>essentia &amp; qualibet relatione. Contra, illa quae non sunt idem 
+      <lb ed="#L" n="93"/>realiter omnibus modis aliquo modo differunt realiter, sed 
+      es<lb ed="#L" n="94" break="no"/>sentia &amp; relatio secundum istam responsionem non sunt idem 
+      <lb ed="#L" n="95"/>realiter omnibus modis, quia esse idem adaequate &amp; 
+      conuerti<lb ed="#L" n="96" break="no"/>biliter est quidam modus identitatis realis, qui non est inter 
+      <lb ed="#L" n="97"/>essentiam, &amp; relationem, ergo ex hoc quod non sunt idem 
+      adae<lb ed="#L" n="98" break="no"/>quate &amp; conuertibiliter sequitur necessario, vt videtur quod 
+      <lb ed="#L" n="99"/>differant aliquo modo realiter. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e169">
+               <lb ed="#L" n="100"/>
+               <!--2--> Item arguitur ad principale. Secundo sic per syllogismum 
+      <lb ed="#L" n="101"/>expositorium. Haec essentia est paternitas, &amp; nullo modo ab ea 
+      <lb ed="#L" n="102"/>realiter differens. Haec essentia est filiatio, &amp; nullo modo ab ea 
+      <lb ed="#L" n="103"/>realiter differens, ergo paternitas est filiatio nullo modo ab ea 
+      <lb ed="#L" n="104"/>realiter differens, conclusio est falsa, ergo aliqua praemissarum 
+      <lb ed="#L" n="105"/>&amp; qua ratione vna &amp; altera, igitur dicere oportet quod 
+      quaeli<lb ed="#L" n="106" break="no"/>bet relatio differat aliquo modo realiter ab essentia. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e190">
+               <lb ed="#L" n="107"/>
+               <!--3--> Item pater &amp; filius differunt realiter, aut ergo sola realitate 
+      <lb ed="#L" n="108"/>essentiae, aut alia, non sola raealitate essentiae, quia tunc 
+      differ<lb ed="#L" n="109" break="no"/>rent diuinitate, &amp; sic essent plures dij: quod est haereticum, ergo 
+      <lb ed="#L" n="110"/>differunt alia realitate, sed illa non est nisi paternitas &amp; 
+      filia<lb ed="#L" n="111" break="no"/>tio, ergo paternitas &amp; filiatio dicunt aliam realitatem a 
+      reali<lb ed="#L" n="112" break="no"/>tate essentiae, &amp; ita differunt aliquo modo realiter. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e208">
+               <lb ed="#L" n="113"/>
+               <!--4.--> Item id quod secundum se totum est respectus secundum 
+      <lb ed="#L" n="114"/>nihil sui est absolutum, sed quaelibet relatio realis, secundum se 
+      <lb ed="#L" n="115"/>totum est respectus, vt patet ex eius diffinitione, ergo secundum 
+      <lb ed="#L" n="116"/>nihil sui est absolutum, ergo non est essentia. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e221">
+               <lb ed="#L" n="117"/>
+               <!--5--> IN CONTRARIVM arguitur sic primo, quia illa 
+      <lb ed="#L" n="118"/>quae de se inuicem praedicantur in abstracto sunt idem realiter 
+      <lb ed="#L" n="119"/>sed essentia &amp; quaelibet relatio sunt huiusmodi, quia haec est 
+      <lb ed="#L" n="120"/>vera, paternitas est essentia, &amp; essentia est paternitas, &amp; idem 
+      <lb ed="#L" n="121"/>est de qualibet relatione diuina, ergo sunt idem realiter. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e237">
+               <lb ed="#L" n="122"/>
+               <!--6--> Item omnis res vel est diuinitas vel creatura, sed relatio 
+      di<lb ed="#L" n="123" break="no"/>uina non est creatura, ergo est diuinitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e246">
+               <lb ed="#L" n="124"/>
+               <!--7--> Item si essentia differt realiter a relatione in diuinis erit 
+      qua<lb ed="#L" n="125" break="no"/>ternitas rerum, quia omnis res ponit in numerum cum alia re, 
+      <lb ed="#L" n="126"/>sed illud est error condemnatus in concilio generali extra de 
+      <lb ed="#L" n="127"/>sum. trin. &amp; fid. cath. cap. damnamus, ergo idem quod prius. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e259">
+               <lb ed="#L" n="128"/>
+               <!--8--> Item vbicunque sunt plura realiter differentia in eodem 
+      <lb ed="#L" n="129"/>supposito, ibi est vera compositio, sed in diuinis non est 
+      com<lb ed="#L" n="130" break="no"/>positio aliqua, ergo essentia &amp; relatio quae concurrunt ad 
+      quod<lb ed="#L" n="131" break="no"/>libet suppositum non differunt realiter. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e273">
+               <lb ed="#L" n="132"/>
+               <!--9--> RESPONSIO. Circa quaestionem istam facienda sunt 
+      <lb ed="#L" n="133"/>tria per ordinem, quia primo videbitur quid sit differre 
+      secun<lb ed="#L" n="134" break="no"/>dum rationem. Et quid sit differre realiter. Et secundo 
+      pone<lb ed="#L" n="135" break="no"/>tur quaedam distinctio vtilis ad propositum declarandum. Et 
+      <lb ed="#L" n="136"/>tertio respondebitur ad principale quaesitum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e289">
+               <lb ed="#L" n="137"/>
+               <!--10.--> Quantum ad primu sciendum est quod cum idem &amp; differens 
+      <lb ed="#L" n="138"/>diuidentes, sicut ens dupliciter accipitur, sic identitas &amp; 
+      diffe<lb ed="#L" n="139" break="no"/>rentia. Ens autem vno modo accipitur pro omni illo quod habe 
+      <lb ed="#L" n="140"/>esse in re extra circunscripta omni operatione animae vel 
+      in<lb ed="#L" n="141" break="no"/>tellectus, &amp; istud vocatur ens reale. Alio modo accipitur ens 
+      <lb ed="#L" n="142"/>pro eo quod non habet aliquam entitatem nisi per operationem 
+      <lb ed="#L" n="143"/>intellectus, quia sic concipitur, ita quod sic concipi est totum suum 
+      <lb ed="#L" n="144"/>esse sicut genus, &amp; species, &amp; omnes intentiones logicae, &amp; istud 
+      <lb ed="#L" n="145"/>est ens in anima, seu ens rationis. Et proportionaliter est 
+      quae<lb ed="#L" n="146" break="no"/>dam identitas &amp; differentia realis, &amp; quaedam solum secundum 
+      <lb ed="#L" n="147"/>rationem, quia illa differunt realiter quae differunt ex natura rei 
+      <lb ed="#L" n="148"/>existentis extra animam circunscripta omni operatione 
+      intelle<lb ed="#L" n="149" break="no"/>ctus. &amp; per oppositum illa quae sunt in re extra &amp; praedicto modo 
+      <lb ed="#L" n="150"/>non differunt, sunt idem realiter, ratione vero differunt illa qua 
+      <lb ed="#L" n="151"/>sunt plura entia rationis sicut intentio generis, vel speciei, vel 
+      <lb ed="#L" n="152"/>vnum &amp; idem re cui competunt diuersae rationes, sicut eadem 
+      <lb ed="#L" n="153"/>res concepta indefinite &amp; concepta diffinitiuo modo differt: 
+      <lb ed="#L" n="154"/>seipsa ratione, &amp; per oppositum illa sunt idem ratione quae nec 
+      <lb ed="#L" n="155"/>sunt diuersae rationes, nec diuersa entia rationis, nec 
+      concipiun<lb ed="#L" n="156" break="no"/>tur sub diuersis rationibus, &amp; sic patet primum, scilicet quid sit 
+      <lb ed="#L" n="157"/>differre realiter, &amp; quid sit differre secundum rationem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e339">
+               <lb ed="#L" n="158"/>
+               <!--11--> Quidam tamen dicunt quod ad illud quod dictum est de 
+      <lb ed="#L" n="159"/>differentia reali addendum est quod quicunque differunt 
+      reali<lb ed="#L" n="160" break="no"/>ter vnum non est alterum, siue termini differentiae se habeant 
+      <lb ed="#L" n="161"/>positiue ex vna parte, &amp; negatiue ex alia, sicut ens &amp; non ens, 
+      <!--00218.xml-->
+      <pb ed="#L" n="76-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>visio &amp; caecitas, siue se habeant ex vtraque parte positiue, sicui 
+      <lb ed="#L" n="2"/>quantitas &amp; qualitas, quia non ens non est realiter ens, nec 
+      cae<lb ed="#L" n="3" break="no"/>citas est realiter visio, nec quantitas qualitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e365">
+               <lb ed="#L" n="4"/>
+               <!--12.--> Hanc conclusionem probant dupliciter. Primo sic, Illa quae 
+      di<lb ed="#L" n="5" break="no"/>cuntur differre realiter, aut vnum est realiter alterum, aut non, si 
+      si<lb ed="#L" n="6" break="no"/>ergo talia in eo quod talia, sunt realiter idem, ergo si sint cum hoc 
+      di<lb ed="#L" n="7" break="no"/>uersa realiter, sequitur quod sunt eadem realiter &amp; diuersa realiter, 
+      <lb ed="#L" n="8"/>sed idem &amp; diuersum respectu eiusdem, &amp; eodem modo sunt 
+      opposi<lb ed="#L" n="9" break="no"/>ta, inerunt ergo opposita eidem quod est impossibile, si non, 
+      habe<lb ed="#L" n="10" break="no"/>tur propositum, scilicet quod illa quae differunt realiter vnum 
+      <lb ed="#L" n="11"/>eorum non est realiter alterum. Secundo sic, quia sicut differre 
+      <lb ed="#L" n="12"/>ratione se habet ad non esse idem ratione, ita differre realiter ad 
+      <lb ed="#L" n="13"/>non esse idem re, vel sic, sicut differre ratione se habet ad ea 
+      <lb ed="#L" n="14"/>quae differunt ratione, ita differre realiter ad ea quae differunt re, 
+      <lb ed="#L" n="15"/>sed ea quae differunt ratione vnum non est eiusdem rationis 
+      <lb ed="#L" n="16"/>cum altero, ergo illa quae differunt re, vnum non est idem re 
+      <lb ed="#L" n="17"/>cum altero, &amp; per consequens vnum non est realiter alterum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e400">
+               <lb ed="#L" n="18"/>
+               <!--13.--> Sed istud non videtur bene dictum, quia vel primum non sufficit sine 
+      <lb ed="#L" n="19"/>illo addito, vel quamuis primum sufficiat tamen ad ipsum 
+      necessa<lb ed="#L" n="20" break="no"/>rio sequitur illud additum. Non potest dici quod primum non sufficit sine 
+      <lb ed="#L" n="21"/>quocunque addito, quia omnis differentia quae ex natura rei 
+      circum<lb ed="#L" n="22" break="no"/>scripto omni actu rationis est realis, quia sicut non est medium 
+      in<lb ed="#L" n="23" break="no"/>ter ens reale &amp; rationis, sic non est medium inter differentiam realem &amp; 
+      <lb ed="#L" n="24"/>differentiam rationis, &amp; ideo illa differentia quae non est rationis, sed 
+      <lb ed="#L" n="25"/>est circunscripto omni actu rationis, necessario est realis. Cum 
+      <lb ed="#L" n="26"/>igitur illa differentia quae est ex natura rei circunscripto omni 
+      a<lb ed="#L" n="27" break="no"/>ctu rationis sit huiusmodi, patet quod ad differentiam realem sufficit 
+      <lb ed="#L" n="28"/>hoc solum quod sit ex natura rei circumscripto omni actu rationis, nec 
+      <lb ed="#L" n="29"/>requiritur aliud additum. Si vero dicatur quod illud additum 
+      necessa<lb ed="#L" n="30" break="no"/>rio sequitur ad primum sicut isti videntur sentire vt patet ex ratio 
+      <lb ed="#L" n="31"/>nibus eorum. Contra, quia si in ete reali inuenitur talis differentia, 
+      <lb ed="#L" n="32"/>quod aliquando in suo reali &amp; singulari entitate accepta sic se habent 
+      <lb ed="#L" n="33"/>quod sint idem realiter, sed non adaequate, &amp; conuertibiliter, de talibus 
+      <lb ed="#L" n="34"/>est verum quod vnum est alterum, quia sunt idem realiter, &amp; 
+      ta<lb ed="#L" n="35" break="no"/>men differunt in hoc realiter, quod non sunt idem adaequate &amp; 
+      con<lb ed="#L" n="36" break="no"/>uertibiliter cum haec differentia sit ex parte rei circumscripto omni 
+      <lb ed="#L" n="37"/>actu rationis, sic autem est in diuinis etiam secundum istos, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e448">
+               <lb ed="#L" n="38"/>
+               <!--14.--> Ad primam rationem eorum patet responsio ex iam dictis, quia esse 
+      <lb ed="#L" n="39"/>idem realiter vno modo &amp; differre realiter alio modo non sunt o 
+      <lb ed="#L" n="40"/>posita, &amp; sic est de illis quae sunt idem realiter, &amp; non adaequate, 
+      <lb ed="#L" n="41"/>quia sunt idem realiter inquantum vnum praedicatur de altero realiter 
+      <lb ed="#L" n="42"/>sed in hoc sunt diuersa realiter, quia vnum eorum praedicatur reali 
+      <lb ed="#L" n="43"/>ter de aliquo de quo alterum non praedicatur, sicut magis patebit 
+      <lb ed="#L" n="44"/>inferius. Ad secundam rationem dicendum quod in creaturis non inuenitur 
+      <lb ed="#L" n="45"/>quod illa quae differunt ratione sint vnum ratione saltem secundum ill. 
+      <lb ed="#L" n="46"/>ratione, nec quod illa quae differunt realiter sint idem realiter, secundum 
+      <lb ed="#L" n="47"/>vnam rem singulariter acceptam, &amp; ideo in illis tenet comparatio quan 
+      <lb ed="#L" n="48"/>illi faciunt, quia quae sunt idem re vel ratione sunt idem secundum illi 
+      <lb ed="#L" n="49"/>rem vel rationem adaequate, sed in diuinis inuenitur identitas 
+      rea<lb ed="#L" n="50" break="no"/>lis non adaequate, &amp; ideo secundum illam est realis identitas vno me 
+      <lb ed="#L" n="51"/>do, &amp; aliqua realis differentia alio modo sicut prius dictum est 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e484">
+               <lb ed="#L" n="52"/>
+               <!--15--> QVANTVM ad secundum notandum est quod cum reale 
+      di<lb ed="#L" n="53" break="no"/>catur a re, gradus est in reali sicut est in re, res autem non dicitur vni 
+      <lb ed="#L" n="54"/>uoce de omnibus de quibus dicitur, sed aequiuoce, vel 
+      analogi<lb ed="#L" n="55" break="no"/>ce, hoc est, secundum plures rationes quarum vna attributionem 
+      ha<lb ed="#L" n="56" break="no"/>bet ad alteram. Cum enim rerum quaedam sint absolutae, &amp; quaedam 
+      <lb ed="#L" n="57"/>fiunt puri respectus, res dicitur per prius, &amp; simpliciter de re 
+      <lb ed="#L" n="58"/>absoluta de qua dicitur formaliter praedicatione dicente, hoc es 
+      <lb ed="#L" n="59"/>hoc, sicut dicimus quod albedo vel quantitas est res, &amp; fortiori ratio 
+      <lb ed="#L" n="60"/>ne substantia est res, vel ens reale, per posterius autem, &amp; 
+      secun<lb ed="#L" n="61" break="no"/>dum quid solum dicitur de respectu, qui non est res, vel ens reale, 
+      <lb ed="#L" n="62"/>nisi quia est rei tanquam modus essendi eius, &amp; idem est de omni 
+      <lb ed="#L" n="63"/>modo essendi, puta de modo subsistendi per se, &amp; de modo essen 
+      <lb ed="#L" n="64"/>di in alio, &amp; de eo quod est tangere &amp; tangi in corporibus, quia 
+      <lb ed="#L" n="65"/>nihil talium est secundum se entitas, nisi quia formaliter est 
+      mo<lb ed="#L" n="66" break="no"/>dus entitatis, &amp; totus conceptus essentialis &amp; formalis talium, 
+      <lb ed="#L" n="67"/>est esse alterius. Nam quamuis omne accidens sit ens, quia entis 
+      <lb ed="#L" n="68"/>vt dicitur 4. meta. tamen aliter &amp; aliter conuenit hoc absolutis 
+      <lb ed="#L" n="69"/>&amp; respectibus, &amp; vniuersaliter omnibus modis essendi, quia 
+      ab<lb ed="#L" n="70" break="no"/>soluta sunt entia, quia entis, non quidem essentialiter &amp; forma 
+      <lb ed="#L" n="71"/>liter, sed solum * concomitatiue, quia non essent naturaliter nisi 
+      <lb ed="#L" n="72"/>essent in alio, scilicet in substantia, tamen sua quidditas non est 
+      <lb ed="#L" n="73"/>esse in alio, imo praeter hoc habent suam formalem entitatem 
+      <lb ed="#L" n="74"/>&amp; quidditatem, sicut quantitas in sacramento altaris habet sui 
+      <lb ed="#L" n="75"/>formalem entitatem, &amp; quidditatem absque hoc quod sit in alio vel 
+      <lb ed="#L" n="76"/>sit alterius vt subiecti, &amp; idem est de albedine &amp; huiusmodi. 
+      re<lb ed="#L" n="77" break="no"/>spectus autem, &amp; vniuersaliter omnes modi essendi sunt entia, qui 
+      <lb ed="#L" n="78"/>entis non solum concomitatiue, sed quidditatiue, &amp; formaliter 
+      <lb ed="#L" n="79"/>quia nullam entitatem habent, nisi hanc quae est esse huius. Verbi 
+      <lb ed="#L" n="80"/>gratia, albedo quae est esse huius, vt subiecti puta cygni, est 
+      ali<lb ed="#L" n="81" break="no"/>quid essentialiter praeter esse huius, quia esse huius non est eius 
+      <lb ed="#L" n="82"/>essentia, sed modus essendi, sed iste modus essendi qui est esse 
+      <!--00218.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>huius non est quidditatiue &amp; formaliter aliqua natura vel 
+      enti<lb ed="#L" n="84" break="no"/>tas nisi esse huius, &amp; totus conceptus eius quidditatiuus &amp; 
+      for<lb ed="#L" n="85" break="no"/>malis est concipi non vt hoc vel quid, sed huius vel eius, &amp; qui 
+      <lb ed="#L" n="86"/>aliter concipit, non concipit modum essendi: sed rem cuius est 
+      <lb ed="#L" n="87"/>modus denominatiue. Verbi gratia, componi &amp; tangi sunt modi 
+      <lb ed="#L" n="88"/>essendi reales rerum componentium &amp; tangentium 
+      importa<lb ed="#L" n="89" break="no"/>tes solam realem hab itudinem talium, partes ergo compositi, 
+      <lb ed="#L" n="90"/>scilicet materia &amp; forma, vel etiam subiectum &amp; accidens sunt 
+      <lb ed="#L" n="91"/>res quarum sunt illae habitudines seu modi essendi qui 
+      impor<lb ed="#L" n="92" break="no"/>tantur per componi, vel per compositionem qui modi sunt in alio, 
+      <lb ed="#L" n="93"/>&amp; in quo aliud, &amp; eis denominatiue conueniunt, forma enim 
+      di<lb ed="#L" n="94" break="no"/>citur esse in materia, &amp; materia in qua est forma, &amp; vtrumque 
+      <lb ed="#L" n="95"/>est verum denominatiue &amp; non essentialiter, quia essentia 
+      par<lb ed="#L" n="96" break="no"/>tium compositi non est sic esse, sed essentia vel quidditas seu en 
+      <lb ed="#L" n="97"/>titas horum modorum tota consistit in hoc quod est esse huius, 
+      <lb ed="#L" n="98"/>quia compositio non est aliud quam formam inesse materiae, &amp; 
+      <lb ed="#L" n="99"/>materiam subesse formae, propter quod exclusa materia &amp; forma 
+      <lb ed="#L" n="100"/>quorum neutrum, nec vtrumque est formaliter &amp; quidditatiue 
+      <lb ed="#L" n="101"/>compositio, compositio non est aliud quam esse huius, &amp; idem est 
+      <lb ed="#L" n="102"/>de tactu respectu tangentium, &amp; ideo impossibile est 
+      conciper<lb ed="#L" n="103" break="no"/>compositionem vel tactum, vt quandam rem vel entitatem 
+      se<lb ed="#L" n="104" break="no"/>cundum se essentialiter &amp; formaliter nisi huius ad hoc puta 
+      ma<lb ed="#L" n="105" break="no"/>teriae ad formam quo ad compositionem, vel corporis ad corpus 
+      <lb ed="#L" n="106"/>quo ad contactum, &amp; idem est de omni modo essendi. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e612">
+               <lb ed="#L" n="107"/>
+               <!--16--> Ex hoc sequuntur duo, vnum est quod nulli modo essendi 
+      compe<lb ed="#L" n="108" break="no"/>tit per se esse subsistens, vel esse alteri inhaerens, quia omne tale 
+      <lb ed="#L" n="109"/>est res habens modum essendi competentem ei denominatiue, sed 
+      <lb ed="#L" n="110"/>nihil quod sit purus modus essendi habet modum essendi compe 
+      <lb ed="#L" n="111"/>tentem ei denominatiue, quia tunc vnius modi esset alius modus, 
+      <lb ed="#L" n="112"/>&amp; sic in infinitum, ergo nihil quod sit purus modus essendi est pe 
+      <lb ed="#L" n="113"/>se subsistens, vel inhaerens, sed essentialiter ipse modus essendi per 
+      <lb ed="#L" n="114"/>se vel inhaerendi aliorum quibus haec de nominatiue competunt 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e634">
+               <lb ed="#L" n="115"/>
+               <!--17--> Secundum est, quia nullus modus essendi facit compositioni 
+      <lb ed="#L" n="116"/>cum re cui conuenit denominatiue, vnde compositio quae 
+      inclu<lb ed="#L" n="117" break="no"/>dit duos modos essendi, scilicet modum essendi vt in alio, &amp; 
+      mo<lb ed="#L" n="118" break="no"/>dum essendi vt in quo aliud quorum primus denominatiue comp 
+      <lb ed="#L" n="119"/>tit formae &amp; secundus materiae, non facit cum aliqua dictarum 
+      par<lb ed="#L" n="120" break="no"/>tium compositionem, quamuis differat aliquo modo realiter al 
+      <lb ed="#L" n="121"/>vtraque, quinimo tota compositio est illarum rerum quibus 
+      hu<lb ed="#L" n="122" break="no"/>iusmodi conueniunt denominatiue, scilicet materiae &amp; formae 
+      <lb ed="#L" n="123"/>Cuius ratio est quia omnis talis compositio est per hoc quod 
+      <lb ed="#L" n="124"/>vna res inhaeret alteri. Modus autem essendi nec per se subsistit 
+      <lb ed="#L" n="125"/>nec inhaeret vt statim probatum est, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e663">
+               <lb ed="#L" n="126"/>
+               <!--18--> Hoc etiam patet ex alio, quia si humanitas Christi 
+      dimitte<lb ed="#L" n="127" break="no"/>retur a diuino supposito &amp; per se subsisteret ipsa quidem habe 
+      <lb ed="#L" n="128"/>ret alium modum realem essendi quam prius, sed non aliam 
+      compositio<lb ed="#L" n="129" break="no"/>nem. Clarissimum etiam est in tactu, quia nullum tangentium est se 
+      <lb ed="#L" n="130"/>cundum se compositius quam si non tangeret aliud, &amp; tamen tange. 
+      <lb ed="#L" n="131"/>re vel tangi est realis modus essendi differens aliquo modo reali 
+      <lb ed="#L" n="132"/>ter ab vtroque tangentium, cum illa possint manere soluto tactu. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e683">
+               <lb ed="#L" n="133"/>
+               <!--19--> Ex his ergo patet quod res &amp; ens dicuntur per prius &amp; 
+      simpli<lb ed="#L" n="134" break="no"/>citer de essentiis &amp; naturis quae sunt secundum se quaedam entia 
+      <lb ed="#L" n="135"/>vel quaedam res formaliter, &amp; non quia sunt rei vel entis nisi in 
+      <lb ed="#L" n="136"/>quibusdam, &amp; tunc denominatiue &amp; non essentialiter. De modi 
+      <lb ed="#L" n="137"/>autem essendi cuiusmodi sunt respectus, &amp; alij modi siqui sint, d 
+      <lb ed="#L" n="138"/>cuntur ens &amp; res per posterius, &amp; secundum quid, quia non sunt res 
+      <lb ed="#L" n="139"/>vel entia nisi quia sunt entis &amp; rei non solum denominatiue seu ci 
+      <lb ed="#L" n="140"/>comitatiue, sed essentialiter, quia esse eorum est habitudo aliorum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e705">
+               <lb ed="#L" n="141"/>
+               <!--20--> Veruntamen contra ista instatur dupliciter. Primo contra 
+      <lb ed="#L" n="142"/>illud quod dictum est quod nec respectus, nec aliquis 
+      modu<lb ed="#L" n="143" break="no"/>essendi habet aliquam entitatem nisi hanc quae est esse huius ve 
+      <lb ed="#L" n="144"/>illius, quia illud quod est solum huius vel illius, &amp; non hoc vel illud 
+      <lb ed="#L" n="145"/>cum nullo construitur in recto, sed in obliquo, sed respectu est ve 
+      <lb ed="#L" n="146"/>rum dicere quod sit respectus, &amp; de modo est verum dicere quod 
+      <lb ed="#L" n="147"/>est modus, ergo tota entitas istorum non est esse huius. Secundi 
+      <lb ed="#L" n="148"/>instatur contra illud quod dictum est quod nulli modo essendi 
+      <lb ed="#L" n="149"/>competit quod sit per se subsistens vel alteri inhaerens, quia 
+      om<lb ed="#L" n="150" break="no"/>ne quod est, vel innititur alteri vel non innititur, sed quod non 
+      <lb ed="#L" n="151"/>innititur alteri subsistit per se, quod autem innititur alteri ei 
+      in<lb ed="#L" n="152" break="no"/>haeret, ergo omne quod est, oportet quod sit per se subsistens, 
+      <lb ed="#L" n="153"/>vel alteri inhaerens, cuius oppositum dictum est de modis essendi. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e739">
+               <lb ed="#L" n="154"/>
+               <!--21--> Ad primum istorum dicendum est per interemptionem 
+      maio<lb ed="#L" n="155" break="no"/>ris, quia constructio vel praedicatio in recto non arguit aliquam 
+      <lb ed="#L" n="156"/>entitatem, alioquin non esset verum dicere caecitas est priuatio, 
+      <lb ed="#L" n="157"/>vel quod in oculo sit caecitas: quia caecitas &amp; priuatio &amp; vniuer 
+      <lb ed="#L" n="158"/>saliter omnis negatio non sunt entitates secundum se. Et 
+      con<lb ed="#L" n="159" break="no"/>similiter potest dici quod respectus est modus essendi, quamuis 
+      <lb ed="#L" n="160"/>non fit aliqua realitas, nisi quae est essentialiter alterius, &amp; non 
+      <lb ed="#L" n="161"/>solum concomitatiue modo prius exposito. Oportet enim de 
+      <lb ed="#L" n="162"/>entibus &amp; non entibus, de absolutis &amp; respectibus loqui in om 
+      <lb ed="#L" n="163"/>ni casu, &amp; qui vellet variare naturas rerum secundum casus 
+      <lb ed="#L" n="164"/>grammaticales, multum erraret.2 
+      <!--00219.xml-->
+      <pb ed="#L" n="77-r"/>
+               <cb ed="#L" n="a"/>
+            </p>
+            <p xml:id="jsnvu6-d1e1625-d1e774">
+               <lb ed="#L" n="1"/>
+               <!--22--> Ad secundum dicendum quod non omne quod innititur 
+      <lb ed="#L" n="2"/>alteri est inhaerens, omnis enim res innititur suae causae 
+      conser<lb ed="#L" n="3" break="no"/>uanti, quia desineret esse substracta influentia suae causae 
+      con<lb ed="#L" n="4" break="no"/>seruantis, &amp; tamen non omnis res habens causam 
+      conseruan<lb ed="#L" n="5" break="no"/>tem est inhaerens, imo multae sunt per se subsistentes. Alio 
+      mo<lb ed="#L" n="6" break="no"/>do innititur vna res alteri vt suo subiecto, &amp; sic omne 
+      acci<lb ed="#L" n="7" break="no"/>dens absolutum innititur alteri, &amp; omne tale inhaeret &amp; solum 
+      <lb ed="#L" n="8"/>tale. Alio modo innititur aliquid alteri sicut suo fundamente 
+      <lb ed="#L" n="9"/>sicut omnes modi essendi, &amp; tale non inhaeret, quia modus 
+      es<lb ed="#L" n="10" break="no"/>sendi per se innititur suo fundamento sicut modus essendi 
+      a<lb ed="#L" n="11" break="no"/>aliud, vel in alio &amp; tamen non inhaeret, quia per modum essendi 
+      <lb ed="#L" n="12"/>inhaerentem res non diceretur formaliter per se subsistens, &amp; 
+      <lb ed="#L" n="13"/>idem est de aliis modis. &amp; causa dicta fuit prius, quia omnis res 
+      <lb ed="#L" n="14"/>per subsistens, vel inhaerens est res habens modum essendi &amp; 
+      <lb ed="#L" n="15"/>non est modus essendi solum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e811">
+               <lb ed="#L" n="16"/>
+               <!--23--> QVANTVM ad tertium quod est principale 
+      quaesi<lb ed="#L" n="17" break="no"/>tum dicenda sunt tria. Primum est quod differentia essentiae &amp; 
+      <lb ed="#L" n="18"/>relationis in diuinis non est pure &amp; praecise secundum 
+      ratio<lb ed="#L" n="19" break="no"/>nem. Secundum est quod non est dicendum simpliciter &amp; 
+      ab<lb ed="#L" n="20" break="no"/>solute quod differant realiter. Tertium est quod necessarium est 
+      <lb ed="#L" n="21"/>dicere quod differant aliquo modo realiter saltem secundum 
+      <lb ed="#L" n="22"/>quid &amp; cum determinatione. Primum patet sic, differentia quae 
+      <lb ed="#L" n="23"/>est ex natura rei circunscripta omni operatione intellectus nio 
+      <lb ed="#L" n="24"/>est pure &amp; praecise secundum rationem, sed differentia 
+      essenti<lb ed="#L" n="25" break="no"/>&amp; relationis est ex natura rei circunscripta omni operatione 
+      <lb ed="#L" n="26"/>intellectus, ergo talis differentia non est pure &amp; praecise 
+      secun<lb ed="#L" n="27" break="no"/>dum rationem. maior patet ex dictis de differentia reali &amp; 
+      se<lb ed="#L" n="28" break="no"/>cundum rationem. Minor probatur: quia circunscripta omni 
+      <lb ed="#L" n="29"/>operatione intellectus nostri adhuc in diuinis est talis differen 
+      <lb ed="#L" n="30"/>tia ex natura rei inter essentiam &amp; relationem, quia essentia di 
+      <lb ed="#L" n="31"/>uina est in aliquo supposito formaliter in quo non est quaelibet 
+      <lb ed="#L" n="32"/>relatio formaliter, verbi gratia in patre est essentia diuina 
+      for<lb ed="#L" n="33" break="no"/>maliter in quo tamen non est filiatio eodem modo realiter; 
+      <lb ed="#L" n="34"/>alioquin sicut pater formaliter est Deus per diuinam essentiam 
+      <lb ed="#L" n="35"/>existentem in eo, sic pater esset formaliter filius per 
+      filiatio<lb ed="#L" n="36" break="no"/>nem formaliter existentem in eo, &amp; sic periret personalis 
+      di<lb ed="#L" n="37" break="no"/>stinctio inter patrem &amp; filium quod est haeresis sabelliana. Et 
+      <lb ed="#L" n="38"/>idem potest deduci de vtraque proprietate quae non est in 
+      spi<lb ed="#L" n="39" break="no"/>ritu san. sicut essentia: &amp; sic patet minor. Sequitur ergo conclu 
+      <lb ed="#L" n="40"/>sio, scilicet quod essentia. &amp; relatio in diuinis non differunt 
+      pu<lb ed="#L" n="41" break="no"/>re &amp; praecise secundum rationem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e872">
+               <lb ed="#L" n="42"/>
+               <!--24--> Secundum sic patet, quaecunque differunt realiter 
+      simpli<lb ed="#L" n="43" break="no"/>citer &amp; absolute, sunt diuersae res quarum vna nullo modo est 
+      <lb ed="#L" n="44"/>altera, sed essentia &amp; relatio diuina non sunt tales duae res 
+      qua<lb ed="#L" n="45" break="no"/>rum vna nullo modo sit altera, ergo non differunt realiter 
+      sim<lb ed="#L" n="46" break="no"/>pliciter &amp; absolute. Maior patet, quia cum identitas &amp; 
+      diuersi<lb ed="#L" n="47" break="no"/>tas opponantur, illa quae sunt simpliciter &amp; omnino diuersa 
+      <lb ed="#L" n="48"/>seu differentia realiter non sunt aliquo modo idem realiter. 
+      <lb ed="#L" n="49"/>minor similiter patet secundum illud commune dictum quo 
+      <lb ed="#L" n="50"/>dicitur quod essentia &amp; relatio sunt idem realiter quamuis non 
+      <lb ed="#L" n="51"/>adaequate &amp; conuertibiliter, &amp; sic patet secundum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e898">
+               <lb ed="#L" n="52"/>
+               <!--25--> Tertium autem necessario concluditur ex praedictis 
+      duo<lb ed="#L" n="53" break="no"/>bus sic, omnis differentia quae non est pure &amp; praecise 
+      secun<lb ed="#L" n="54" break="no"/>dum rationem sed est ex natura rei excluso omni actu 
+      ratio<lb ed="#L" n="55" break="no"/>nis est aliquo modo realis, sed differentia essentiae &amp; relationi: 
+      <lb ed="#L" n="56"/>in diuinis non est pure &amp; praecise secundum rationem, sed est 
+      <lb ed="#L" n="57"/>ex natura rei exciuso omni actu rationis, ergo talis differentia 
+      <lb ed="#L" n="58"/>est aliquo modo realis. vtraque praemissarum patet ex 
+      praece<lb ed="#L" n="59" break="no"/>dentibus. Viterius cum differentia talis non sit dicenda realis 
+      <lb ed="#L" n="60"/>simpliciter &amp; absolute (vt supra probatum fuit) sequitur neces. 
+      <lb ed="#L" n="61"/>sario quod fit dicenda realis secundum quid, &amp; cum 
+      determina<lb ed="#L" n="62" break="no"/>tione. Illa autem determinatio diuersimode ponitur a diuersis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e927">
+               <lb ed="#L" n="63"/>
+               <!--26.--> Quidam enim dicunt quod essentia &amp; relatio differunt quia 
+      <lb ed="#L" n="64"/>non sunt idem adaequate &amp; conuertibiliter, nam paternitas est 
+      <lb ed="#L" n="65"/>essentia &amp; nihil aliud, sed essentia diuina est paternitas &amp; 
+      ali<lb ed="#L" n="66" break="no"/>qua res quae non est paternitas: quia est filiatio quae non est pa 
+      <lb ed="#L" n="67"/>ternitas, &amp; sic essentia est in plus quam paternitas, &amp; idem de 
+      <lb ed="#L" n="68"/>essentia respectu filiationis &amp; cuiuscunque alterius relationis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e946">
+               <lb ed="#L" n="69"/>
+               <!--27.--> Alij dicunt quod essentia &amp; relatio differunt sicut res &amp; mo 
+      <lb ed="#L" n="70"/>dus habendi rem illam, cuius modi essendi vel habendi entitas &amp; 
+      <lb ed="#L" n="71"/>conceptus quidditatiuus non est quod sit res alia ab essentia neque 
+      <lb ed="#L" n="72"/>subsistens neque inhaerens, sed quod sit huius, &amp; differt hic mo 
+      <lb ed="#L" n="73"/>dus ab essentia ex natura rei, non solum quod essentia est in 
+      ali<lb ed="#L" n="74" break="no"/>quo supposito in quo non est quilibet modus habendi eam, sed 
+      <lb ed="#L" n="75"/>etiam quia formaliter loquendo non ita proprie dicitur, quod 
+      pa<lb ed="#L" n="76" break="no"/>ternitas sit essentia vel econuerso, sicut si diceretur quod 
+      paterni<lb ed="#L" n="77" break="no"/>tas est modus essendi vel habendi essentiam diuinam vt a quo 
+      <lb ed="#L" n="78"/>est alius per generationem, &amp; hoc videtur dicere 
+      Damasce<lb ed="#L" n="79" break="no"/>nus libro primo capitulo nono vbi dicit sic, Omnia 
+      quaecun<lb ed="#L" n="80" break="no"/>que habet pater filij sunt praeter non generationem quae non 
+      <lb ed="#L" n="81"/>significat substantiae differentiam, neque dignitatem sed 
+      mo<lb ed="#L" n="82" break="no"/>dum existentiae. &amp; capitulo 13. dicit clarius sic ingenitum &amp; ge¬ 
+      <!--00219.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>nitum &amp; processibile non substantiae sunt significatiua, sed eius 
+      <lb ed="#L" n="84"/>quae adinuicem est habitudinis &amp; existentiae modi. &amp; 
+      Augusti<lb ed="#L" n="85" break="no"/>nus 7. de Trinitate reputat absurdum dicere in Deo quod 
+      sub<lb ed="#L" n="86" break="no"/>stantia sit relatio, vt infra dicetur, quare relatio proprie es 
+      <lb ed="#L" n="87"/>modus habendi essentiam. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e996">
+               <lb ed="#L" n="88"/>
+               <!--28--> Alij dicunt quod relatio &amp; essentia differunt formaliter 
+      <lb ed="#L" n="89"/>ex natura rei, quamuis sint idem identice. Vnde concedunt. 
+      <lb ed="#L" n="90"/>quod haec est vera paternitas &amp; essentia identice, sed haec est a 
+      <lb ed="#L" n="91"/>salsa, paternitas est essentia formaliter, quia differunt 
+      formali<lb ed="#L" n="92" break="no"/>ter ex natura rei, &amp; hac formalitatem non intelligo nisi 
+      coin<lb ed="#L" n="93" break="no"/>cidat cum altero dictorum modorum, vel includat vtrunque 
+      <lb ed="#L" n="94"/>quod verius credo, quia in hoc quod dicunt quod essentia &amp; 
+      <lb ed="#L" n="95"/>relatio sunt idem identice &amp; quod vnum verificatur realiter 
+      <lb ed="#L" n="96"/>de alio includut primum modum quo alij dicunt quod sunt 
+      <lb ed="#L" n="97"/>idem realiter. In hoc autem quod dicunt quod non sunt idem 
+      <lb ed="#L" n="98"/>formaliter, sed differunt formaliter ex natura rei includunt 
+      il<lb ed="#L" n="99" break="no"/>lud quod primi dicunt quod non sunt idem adaequate &amp; illud 
+      <lb ed="#L" n="100"/>quod dicunt secundi, scilicet quod differunt sicut res &amp; 
+      mo<lb ed="#L" n="101" break="no"/>dus habendi rem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e1031">
+               <lb ed="#L" n="102"/>
+               <!--29--> Ad cuius declarationem est aduertendum quod illa 
+      inad<lb ed="#L" n="103" break="no"/>aequatio quae est inter paternitatem &amp; essentiam non est sicut 
+      <lb ed="#L" n="104"/>inadaequatio quae est vel esset inter sortem &amp; hominem, dato 
+      <lb ed="#L" n="105"/>quod homo esset aliquid singulare sicut sortes in plus se habens 
+      <lb ed="#L" n="106"/>quam sortes, quemadmodum dicimus in diuinis de essentia &amp; 
+      <lb ed="#L" n="107"/>paternitate, quia inadaequatio quae esset inter hominem &amp; sor 
+      <lb ed="#L" n="108"/>tem stante praedicta hypothesi non faceret differentiam 
+      for<lb ed="#L" n="109" break="no"/>malem, de qua loquimur, quia sortes continetur per se sub ho 
+      <lb ed="#L" n="110"/>mine, &amp; formalitas eius sub formalitate hominis, &amp; ob hoc sor 
+      <lb ed="#L" n="111"/>tes esset formaliter homo, &amp; per idem esset formaliter sortes, 
+      <lb ed="#L" n="112"/>&amp; formaliter homo. Sed in proposito de essentia diuina &amp; 
+      pa<lb ed="#L" n="113" break="no"/>ternitate non est sic, quia dato quod paternitas sit in minus quam 
+      <lb ed="#L" n="114"/>essentia, tamen non continetur sic per se sub essentia sicut 
+      sor<lb ed="#L" n="115" break="no"/>tes sub homine sumpto vniuersaliter, vel singulariter secundum 
+      <lb ed="#L" n="116"/>supradictum hypothesim, quia conceptus vnius puta 
+      relatio<lb ed="#L" n="117" break="no"/>nis non includitur in conceptu alterius puta essentiae. vel 
+      econ<lb ed="#L" n="118" break="no"/>uerso sicut conceptus hominis includitur in conceptu sortis, sed 
+      <lb ed="#L" n="119"/>sunt conceptus formaliter separati, &amp; hoc prouenit ex natura 
+      <lb ed="#L" n="120"/>rei secundum se, &amp; non per solam negociationem nostri intel 
+      <lb ed="#L" n="121"/>lectus, quia pater est formaliter pater per paternitatem &amp; non 
+      <lb ed="#L" n="122"/>per essentiam: alioquin non distingueretur formaliter a filio, &amp; 
+      <lb ed="#L" n="123"/>per paternitatem refertur realiter ad filium, &amp; non per 
+      essen<lb ed="#L" n="124" break="no"/>tiam, &amp; totum hoc est ex natura rei propter quod licet pater. 
+      <lb ed="#L" n="125"/>nitas sit in minus quam essentia, quia est specialis modus 
+      haben<lb ed="#L" n="126" break="no"/>di essentiam videlicet vt a quo est alius per generationem, 
+      ta<lb ed="#L" n="127" break="no"/>men non sic continetur per se sub essentia sicut sortes sub 
+      ho<lb ed="#L" n="128" break="no"/>mine, ita vt sit eadem formalitas vtriusque etiam ex natura rei, 
+      <lb ed="#L" n="129"/>sed alia &amp; alia &amp; ideo haec non est concedenda, paternitas est 
+      <lb ed="#L" n="130"/>formaliter essentia vel econuerso, sicut conceditur quod sortes 
+      <lb ed="#L" n="131"/>est formaliter homo. Et causa est, quia paternitas vt paterni 
+      <lb ed="#L" n="132"/>tas, &amp; vt relatiue opposita filiationi, in quo etiam differt ex 
+      na<lb ed="#L" n="133" break="no"/>tura rei ab essentia quae eidem filiationi relatiue non 
+      opponi<lb ed="#L" n="134" break="no"/>tur, est mere relatio siue relatiuus modus essendi, essentia autem 
+      <lb ed="#L" n="135"/>quid mere absolutum, &amp; ideo formalitas paternitatis vt 
+      pater<lb ed="#L" n="136" break="no"/>nitas est non est formalitas essentiae vt essentia est, nec sub ea 
+      <lb ed="#L" n="137"/>continetur, vt inferius sub suo per se superiori, sed sunt 
+      forma<lb ed="#L" n="138" break="no"/>litates ex natura rei differentes sicut absolutum a relatione &amp; 
+      <lb ed="#L" n="139"/>econuerso. Quocunque autem praedictorum modorum dicatur 
+      <lb ed="#L" n="140"/>quod essentia &amp; relatio diuina differrent, siue quia non sunt 
+      <lb ed="#L" n="141"/>idem adaequate, siue quia differunt vt res &amp; modus habendi 
+      <lb ed="#L" n="142"/>rem, siue quia differunt formaliter, semper sequitur necessario 
+      <lb ed="#L" n="143"/>quod differunt aliquo modo realiter, cum quaelibet 
+      praedicta<lb ed="#L" n="144" break="no"/>rum differentiarum sit ex natura rei circunscripto omni actu 
+      ra<lb ed="#L" n="145" break="no"/>tionis &amp; intellectus: quamuis non sit simpliciter &amp; absolute 
+      di<lb ed="#L" n="146" break="no"/>cendum quod differant realiter propter causam prius assignatam. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e1133">
+               <lb ed="#L" n="147"/>
+               <!--30--> AD RATIONES vtriusque partis respondendum 
+      <lb ed="#L" n="148"/>est prout possibile est in materia tangente fidem quae non 
+      po<lb ed="#L" n="149" break="no"/>test ad plenum nota esse viatori. Cum enim primo dicitur quod illa 
+      <lb ed="#L" n="150"/>quorum vnum inuenitur in aliquo supposito sine alio differunt 
+      <lb ed="#L" n="151"/>aliquo modo realiter. Dicendum est quod istud argumentum 
+      <lb ed="#L" n="152"/>non probat quod talia differant realiter simpliciter, &amp; 
+      absolu<lb ed="#L" n="153" break="no"/>te, sed solum secundum quid, &amp; cum deterninatione, aut quia 
+      <lb ed="#L" n="154"/>non sunt idem adaequate &amp; conuertibiliter vt ibidem 
+      respon<lb ed="#L" n="155" break="no"/>detur, aut quia differunt ficut res modus &amp; rei, aut quia 
+      diffe<lb ed="#L" n="156" break="no"/>runt formaliter ex natura rei. Obiectio autem quae 
+      subiungi<lb ed="#L" n="157" break="no"/>tur nihil aliud concludit quam illud quod concessum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e1162">
+               <lb ed="#L" n="158"/>
+               <!--31.--> Ad secundum dicendum est quod quaelibet praemissarum illius 
+      <lb ed="#L" n="159"/>syllogismi expositorij neganda est pro quanto dicit quod essen 
+      <lb ed="#L" n="160"/>tia nullo modo est realiter differens a paternitate &amp; filiatione, 
+      <lb ed="#L" n="161"/>quia saltem differunt secundum quid, &amp; cum determinatione 
+      <lb ed="#L" n="162"/>quae est secundum alterum trium praedictorum modorum. Si autem 
+      <lb ed="#L" n="163"/>argueretur sine alio addito sic, haec essentia est paternitas, haec 
+      <lb ed="#L" n="164"/>essentia est filiatio, ergo filiatio est paternitas. Dicendum esset 
+      <!--00220.xml-->
+      <pb ed="#L" n="77-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>aliter, vno modo quod argumentum non includit quia essentia 
+      di<lb ed="#L" n="2" break="no"/>uina licet fit quaedam simplex natura, est tamen propter suam 
+      <lb ed="#L" n="3"/>infinitatem communis communitate reali pluribus inter se 
+      diffe<lb ed="#L" n="4" break="no"/>rentibus scilicet cuilibet relationi diuinae: propter quod sicut 
+      <lb ed="#L" n="5"/>in creaturis, si in subiecto poneretur terminus communis 
+      respe<lb ed="#L" n="6" break="no"/>ctu suorum singularium non teneret consequentia, vt dicende 
+      <lb ed="#L" n="7"/>homo est sortes, homo est Plato, ergo est sortes. Sic in 
+      propo<lb ed="#L" n="8" break="no"/>sito propter communitatem realem essentiae ad relationes non 
+      <lb ed="#L" n="9"/>tenet consequentia, &amp; hoc est singulare in diuinis propter 
+      in<lb ed="#L" n="10" break="no"/>finitatem essentiae diuinae. Vel posset dici aliter quod non 
+      pro<lb ed="#L" n="11" break="no"/>prie dicitur essentia est paternitas vel econuerso proprietate 
+      <lb ed="#L" n="12"/>formali, quia non sunt idem formaliter, sed paternitas est 
+      mo<lb ed="#L" n="13" break="no"/>dus essendi vel habendi essentiam, quia quidditas, &amp; conceptus 
+      <lb ed="#L" n="14"/>paternitatis vt paternitas est, non est esse hoc sed huius. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e1219">
+               <lb ed="#L" n="15"/>
+               <!--32--> Ad tertium dicendum quod non concludit plus nisi quod 
+      <lb ed="#L" n="16"/>paternitas &amp; filiatio dicunt realitatem aliquo modo 
+      differen<lb ed="#L" n="17" break="no"/>tem ab essentia quod potest intelligi. Aut quia non sunt idem 
+      <lb ed="#L" n="18"/>adaequate &amp; conuertibiliter, aut quia differunt ex natura rei, 
+      <lb ed="#L" n="19"/>sicut res &amp; modus, aut quia non sunt idem formaliter. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e1236">
+               <lb ed="#L" n="20"/>
+               <!--33--> Ad quartum dicendum quod maior propositio habet 
+      verita<lb ed="#L" n="21" break="no"/>tem in creaturis in quibus propter earum limitationem res 
+      <lb ed="#L" n="22"/>vnius praedicamenti non continet rem alterius, sed in diuinis 
+      <lb ed="#L" n="23"/>essentia vel substantia propter suam illimitationem contine 
+      <lb ed="#L" n="24"/>omnem rem quae in diuinis reperiri potest. Vel aliter potest dici 
+      <lb ed="#L" n="25"/>quod relatio cum sit quidditatiue &amp; formaliter respectûs non 
+      <lb ed="#L" n="26"/>est quidditatiue &amp; formaliter essentia, quamuis non sit alia res 
+      <lb ed="#L" n="27"/>neque subsistens neque inhaerens, sed solus modus essendi vel ha 
+      <lb ed="#L" n="28"/>bedi essentiam: quae non est formaliter hoc vel illud sed huius 
+      <lb ed="#L" n="29"/>vel illius. Exemplum potest poni de pomo quod si quis haberet 
+      <lb ed="#L" n="30"/>ex se: &amp; pomum idem daret alteri, habere ex se, &amp; habere ex alio 
+      <lb ed="#L" n="31"/>non sunt alia res a pomo habito. neque subsistens, neque 
+      inhae<lb ed="#L" n="32" break="no"/>rens, nec tamen proprie diceretur quod modus habendi pomum 
+      <lb ed="#L" n="33"/>ex se vel ab alio sit ipsum pomum, sed est modus habendi 
+      po<lb ed="#L" n="34" break="no"/>mum. Et similiter relatio quae est modus habendi essentiam 
+      diui<lb ed="#L" n="35" break="no"/>nam &amp; pluries dictum est, non est proprie essentia &amp; formaliter, 
+      <lb ed="#L" n="36"/>quamuis non sit alia res ab ea neque subsistens, neque inhaerens, 
+      <lb ed="#L" n="37"/>quia entitas eius vel quidditas non est esse hoc vel illud, sed esse 
+      <lb ed="#L" n="38"/>huius vel illius: seu ad hoc vel ad illud, seu quomodolibet aliter 
+      <lb ed="#L" n="39"/>nam diffinitio eius quae indicat quidditatem est ad aliud se habere. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e1284">
+               <lb ed="#L" n="40"/>
+               <!--34--> Ad rationes alterius partis similiter respondendum est. Ad 
+      <lb ed="#L" n="41"/>primam cum dicitur quod illa quae praedicantur de se inuicem in 
+      <lb ed="#L" n="42"/>abstracto sunt idem realiter, potest responderi ad hoc quod talia 
+      <lb ed="#L" n="43"/>sunt penitus idem realiter si praedicantur de se inuicem &amp; de 
+      <lb ed="#L" n="44"/>aliis adaequate conuertibiliter: Si autem non est sic sed de aliquo 
+      <lb ed="#L" n="45"/>reali praedicatur vnum de quo non praedicatur aliud, tunc vnum 
+      <lb ed="#L" n="46"/>eorum differt ab altero realiter hoc modo scilicet quod non sunt 
+      <lb ed="#L" n="47"/>idem adaequate, &amp; conuertibiliter, &amp; sic est de essentia &amp; 
+      pater<lb ed="#L" n="48" break="no"/>nitate, quia essentia aequaliter praedicatur de paternitate &amp; 
+      fi<lb ed="#L" n="49" break="no"/>liatione, &amp; tamen vnum eorum non praedicatur de altero, &amp; sic non 
+      <lb ed="#L" n="50"/>excluditur omnimoda realis differentia inter essentiam &amp; 
+      rela<lb ed="#L" n="51" break="no"/>tionem. Ad minorem etiam propositionem dicunt illi qui tenent 
+      <lb ed="#L" n="52"/>tertium modum prius tactum, quod licet paternitas sit essentia 
+      <lb ed="#L" n="53"/>identice, non tamen formaliter, &amp; ideo formaliter differt ab ea &amp; 
+      <lb ed="#L" n="54"/>ex natura rei. Et idem intelligunt illi qui ponunt secundum 
+      mo<lb ed="#L" n="55" break="no"/>dum, scilicet quod relatio non est formaliter &amp; proprie essentia 
+      <lb ed="#L" n="56"/>sed modus habendi eam, quamuis non sit alia res neque subsisten 
+      <lb ed="#L" n="57"/>neque inhaerés, quod videtur insinuare beatus Augustins 7. de 
+      <lb ed="#L" n="58"/>trin. cap. primo, vbi dicit quod omnis res quae relatiue dicitur est 
+      <lb ed="#L" n="59"/>aliquid excepto relatiuo seu relatione, &amp; ex hoc concludit quod 
+      <lb ed="#L" n="60"/>in patre praeter paternitatem est aliquid, scilicet essentia. Item 
+      <lb ed="#L" n="61"/>eodem 7. capi. 4. dicit quod non est idem deum esse &amp; patrem 
+      <lb ed="#L" n="62"/>esse, constat autem quod deus deitate est deus, &amp; paternitate pa 
+      <lb ed="#L" n="63"/>ter, ergo secundum eum paternitas &amp; deitas non sunt idem peni 
+      <lb ed="#L" n="64"/>tus. Item idem habet August. pro inconuenienti, vt dictum fuit 
+      <lb ed="#L" n="65"/>quod substantia sit relatio &amp; tamen necessario sequitur, essentia 
+      <lb ed="#L" n="66"/>est paternitas &amp; paternitas est relatio, ergo essentia est 
+      relatio<lb ed="#L" n="67" break="no"/>&amp; sic Aug. videtur non admittere hanc praedicationem 
+      paterni<lb ed="#L" n="68" break="no"/>tas est essentia vel econuerso, &amp; videtur se fundare in hoc quod 
+      <lb ed="#L" n="69"/>paternitas non est hoc vel illud, sed huius vel illius, vnde quod 
+      <lb ed="#L" n="70"/>aliquid dicitur pater dicitur hoc vel illud sed huius vel illius, pa 
+      <lb ed="#L" n="71"/>ter enim dicitur pater filij &amp; nihil plus ratione paternitatis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e1358">
+               <lb ed="#L" n="72"/>
+               <!--35--> Ad secundam rationes dicendum est quod omnis res vel est 
+      <lb ed="#L" n="73"/>deitas vel creatura, potest dici primo quod concessa tota ratione 
+      <lb ed="#L" n="74"/>scilicet quod paternitas sit diuina essentia, adhuc non sequitur 
+      <lb ed="#L" n="75"/>quin differant aliquo modo realiter, quia licet vnum sit idem quod 
+      <lb ed="#L" n="76"/>a aliud, non tamen adaequate &amp; conuertibiliter. Secundo potest 
+      <lb ed="#L" n="77"/>dici quod sub hac distributione qua dicitur omnis res non cadit pa 
+      <lb ed="#L" n="78"/>ternitas vt relatio quae vt sic non est res sed rei &amp; tota sua 
+      quid<lb ed="#L" n="79" break="no"/>ditas est vt huius vel cuius, &amp; non vt hoc vel vt quid. vnde Aug 
+      <lb ed="#L" n="80"/>in sermone de tri. dicit quod pater est id quod filius, non tamen filius 
+      <lb ed="#L" n="81"/>ecce quod sub id &amp; quod, non comprehenditur paternitas &amp; 
+      filia<lb ed="#L" n="82" break="no"/>tio, &amp; eodem modo in proposito, &amp; sicut sub id &amp; quod &amp; sub re 
+      <!--00220.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>simpliciter non cadit relatio ita nec sub oppositis, nec dicatur 
+      <lb ed="#L" n="84"/>aliud vel alia res. Patet ergo quod sumere vnum sub alio est fallacia 
+      <lb ed="#L" n="85"/>figurae dictionis mutando quod in cuius, vel hoc in huius &amp; 
+      <lb ed="#L" n="86"/>rem in modum rei: veruntamen quantum ad esse creatu vel 
+      increa<lb ed="#L" n="87" break="no"/>tum iudicandum est de modo rei secundum rem cuius est mo 
+      <lb ed="#L" n="88"/>dus, essentia enim diuina cum omni suo modo vel relatione est 
+      <lb ed="#L" n="89"/>increata, &amp; omnis creatura cum omni modo suo est creata. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e1406">
+               <lb ed="#L" n="90"/>
+               <!--36--> Ad tertiam rationem dicendum est quod in illa decretali 
+      dam<lb ed="#L" n="91" break="no"/>namus. Reprobatur &amp; condemnatur opinio Ioachim quantum 
+      <lb ed="#L" n="92"/>ad duo. Quorum vnum ipse ponebat, &amp; aliud imponebat magistro 
+      <lb ed="#L" n="93"/>sententiarum. Ioachim enim sicut verissimus arrianus, ponebat 
+      <lb ed="#L" n="94"/>quod pater &amp; filius &amp; spiritus sanctus non sunt vnum in essenti: 
+      <lb ed="#L" n="95"/>&amp; natura nisi collectiue sicut multi homines sunt vnus 
+      popu<lb ed="#L" n="96" break="no"/>lus, vel multi fideles sunt vna ecclesia, quod nitebatur probare 
+      <lb ed="#L" n="97"/>per multas auctoritates sacrae scripturae, vt patet clare intuenti 
+      <lb ed="#L" n="98"/>textum illius decretalis. Item imponebat magistro sententiarum quo 
+      <lb ed="#L" n="99"/>ipse ponebat quaternitatem, quia dicebat patrem generantem &amp; 
+      <lb ed="#L" n="100"/>filium genitum: &amp; spiritum sanctum procedentem. Et cum hoc 
+      <lb ed="#L" n="101"/>dicebat essentiam diuinam esse quandam summam rem non 
+      ge<lb ed="#L" n="102" break="no"/>nerantem nec genitam nec procedentem, &amp; ita vt recitat decre 
+      <lb ed="#L" n="103"/>talis dicebat quod magister Papae non tam trinitatem quam 
+      quater<lb ed="#L" n="104" break="no"/>nitatem astruebat in Deo, videlicet tres personas, &amp; illa 
+      com<lb ed="#L" n="105" break="no"/>munem essentiam, quasi quartam, haec sunt verba decretalis. Con. 
+      <lb ed="#L" n="106"/>demnatur autem ibidem dictum eius quantum ad vtrunque 
+      prae<lb ed="#L" n="107" break="no"/>dictorum, videlicet quantum ad id quod ponebat personas 
+      diui<lb ed="#L" n="108" break="no"/>nas differre essentialiter, &amp; in nulla essentia secundum numeri 
+      <lb ed="#L" n="109"/>conuenire, &amp; quantum ad hoc quod dicebat M. P. posuisse 
+      qua<lb ed="#L" n="110" break="no"/>ternitatem &amp; non solum trinitatem, excusando magistrum P. 
+      <lb ed="#L" n="111"/>non posuit nisi trinitatem personarum, scilicet patrem filium &amp; 
+      <lb ed="#L" n="112"/>spiritum sanctum, quarum quaelibet per se &amp; omnes simul sunt il 
+      <lb ed="#L" n="113"/>la summa res &amp; econuerso. Ex quo patet quod ibi non negatur 
+      <lb ed="#L" n="114"/>quaelibet quaternitas, cum omnes doctores catholici ponant 
+      qua<lb ed="#L" n="115" break="no"/>ternitatem relationum realium in diuinis, sed solum negatur 
+      ta<lb ed="#L" n="116" break="no"/>lis quaternitas qualem imponebat Ioachim magistro 
+      sententia<lb ed="#L" n="117" break="no"/>rum, &amp; illa erat quaternitas personarum, quia nec aliam 
+      intelli<lb ed="#L" n="118" break="no"/>gebat, nec intelligere poterat secundum principia quae tenebat 
+      <lb ed="#L" n="119"/>&amp; hic est clarus sensus decretalis qui in nullo tangit quaestionem 
+      <lb ed="#L" n="120"/>propositam cum in ea nihil penitus dicatur de differentia 
+      essen<lb ed="#L" n="121" break="no"/>tiae &amp; relationis de qua quaesitum est, sed solum ibi agitur de 
+      nu<lb ed="#L" n="122" break="no"/>mero personarum &amp; consubstantialitate earum. Item si 
+      condem<lb ed="#L" n="123" break="no"/>naretur quaternitas rerum (quod tamen nusquam legitur) non 
+      com<lb ed="#L" n="124" break="no"/>dennaretur nisi quod tres personae &amp; essentia sunt quatuor res, 
+      <lb ed="#L" n="125"/>quia de hoc solum agitur ibi, &amp; hoc non esset contra concessa 
+      <lb ed="#L" n="126"/>quia non ponitur quod essentia ponat innumerum rerum cum 
+      per<lb ed="#L" n="127" break="no"/>sonis ita quod sit quarta res: essentia enim cum includatur 
+      intrin<lb ed="#L" n="128" break="no"/>sece in qualibet persona non ponit innumerum cum aliqua earum 
+      <lb ed="#L" n="129"/>alioquin idem numero numeraretur bis, scilicet se cundum se 
+      <lb ed="#L" n="130"/>&amp; vt in alio quod est inconueniens, &amp; ideo tres personae, &amp; vna 
+      <lb ed="#L" n="131"/>essentia non sunt quatuor res ad quem sensum potest ad plus 
+      ex<lb ed="#L" n="132" break="no"/>tendi decretalis illa. Et si dicatur quod essentia non posset 
+      pr<lb ed="#L" n="133" break="no"/>dicare de persona si relatio differret quoquo modo ab essentia, 
+      <lb ed="#L" n="134"/>quia persona includit relationem quam non includit essentia 
+      <lb ed="#L" n="135"/>Dicendum est quod imo, quia cum relatio quam includit 
+      per<lb ed="#L" n="136" break="no"/>sona non sit aliud quam realis modus habendi essentiam non 
+      <lb ed="#L" n="137"/>impedit praedicationem vnius de altero, nam sicut verum est 
+      di<lb ed="#L" n="138" break="no"/>cere quod essentia habita sub tali modo est essentia &amp; 
+      econuer<lb ed="#L" n="139" break="no"/>so, essentia est essentia sub tali modo habita ita verum est 
+      dice<lb ed="#L" n="140" break="no"/>re quod essentia est persona &amp; persona est essentia. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e1521">
+               <lb ed="#L" n="141"/>
+               <!--37--> Ad quartam rationem dicendum est, quod pluralitas illorum quorum 
+      <lb ed="#L" n="142"/>quodlibet est res proprie &amp; simpliciter facit compositionem, sed i 
+      <lb ed="#L" n="143"/>lud quod est modus essendi solum cum nullo facit compositionem 
+      ne<lb ed="#L" n="144" break="no"/>tollit simplicitatem, vt prius declaratum fuit quamuis non sit idem 
+      con<lb ed="#L" n="145" break="no"/>uertibiliter vel quidditatiue, &amp; formaliter cum re cuius est 
+      mo<lb ed="#L" n="146" break="no"/>dus, &amp; sic est de essentia quae est verissime res &amp; de relationit 
+      <lb ed="#L" n="147"/>quae est modus habendi essentiam. Et quod ita sit patet speciali 
+      <lb ed="#L" n="148"/>ratione quia nullus fidelis dubitat quin paternitas &amp; filiatio &amp; 
+      <lb ed="#L" n="149"/>processio in diuinis differant realiter, &amp; tamen non solum in 
+      eo<lb ed="#L" n="150" break="no"/>dem supposito non est compositio, sed totaliter a deo &amp; a diuinis 
+      <lb ed="#L" n="151"/>secundum totum suum ambitum tollitur compositio, ergo non omnis 
+      <lb ed="#L" n="152"/>realis differentia semper facit compositionem. Et si dicatur quod 
+      <lb ed="#L" n="153"/>non omnis realis differentia facit compositionem, sed tantum illa qu 
+      <lb ed="#L" n="154"/>est plurium in eodem supposito quod non est in diuinis. Contra, 
+      plu<lb ed="#L" n="155" break="no"/>ralitas realis non facit compositionem in aliquo supposito, nisi quia 
+      <lb ed="#L" n="156"/>talis pluralitas est in vna subsistentia, sed in diuinis non est nisi vni 
+      <lb ed="#L" n="157"/>ca subsistentia, ergo qua ratione realis pluralitas faceret 
+      conpo<lb ed="#L" n="158" break="no"/>sitionem in eodem supposito, eadem ratione faceret in diuinis 
+      secun<lb ed="#L" n="159" break="no"/>dum totum ambitum diuinorum, maior patet, quia omnis 
+      composi<lb ed="#L" n="160" break="no"/>tio est duorum vel plurium quorum vnum est per se subsistens &amp; 
+      <lb ed="#L" n="161"/>omnia alia sunt ei inhaerentia, ita quod in omni compositioni 
+      <lb ed="#L" n="162"/>de qua loquimur est dare vnum per se subsistens respectu euiu 
+      <lb ed="#L" n="163"/>alia quae inhaerent faciunt compositionem cum eo &amp; inter se. 
+      mi<lb ed="#L" n="164" break="no"/>nor probatur per Aug. 5. de tri, cap. 4. vbi dicit quod omnis res 
+      <!--00221.xml-->
+      <pb ed="#L" n="78-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ad se subsistit quanto magis Deus, &amp; cap. 5. in fine dicit quod 
+      <lb ed="#L" n="2"/>hoc est Deo esse quod subsistere, &amp; ita subsistere est absolutum 
+      <lb ed="#L" n="3"/>quod non plurificatur in diuinis, &amp; sic in diuinis non est nisi 
+      <lb ed="#L" n="4"/>vna subsistentia, &amp; haec fuit minor, sequitur ergo conclusio, sci 
+      <lb ed="#L" n="5"/>licet quod si quaecunque realis differentia faceret 
+      compositio<lb ed="#L" n="6" break="no"/>nem in eodem supposito, eadem ratione faceret in diuinis 
+      se<lb ed="#L" n="7" break="no"/>cundum totum ambitum diuinorum, quod nullus ponit. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e1599">
+               <lb ed="#L" n="8"/>
+               <!--38--> Contra praedicta tamen videntur esse quaedam 
+      autorita<lb ed="#L" n="9" break="no"/>tes sanctorum. Dicit enim Hilarius 8. de Trinit. quod non 
+      hu<lb ed="#L" n="10" break="no"/>mano modo ex compositis Deus est vt in eo aliud sit quod al 
+      <lb ed="#L" n="11"/>eo habetur, &amp; aliud sit ipse qui habet. Item Boetius primo de 
+      <lb ed="#L" n="12"/>Trin. ait, Nihil in Deo aliud praeter illud quod est, neque enim 
+      <lb ed="#L" n="13"/>subiectum fieri potest. Item August. 15. de trinit. dicit quod 
+      si<lb ed="#L" n="14" break="no"/>habetur in natura vniuscuiusque trium, vt qui habet, hoc sit 
+      <lb ed="#L" n="15"/>quod habet. Et Isidorus dicit quod Deus simpliciter dicitur, 
+      <lb ed="#L" n="16"/>quia non aliud est ipse, &amp; aliud quod in ipso est, ex quibus 
+      au<lb ed="#L" n="17" break="no"/>ctoritatibus videtur haberi quod nulla sit realis differentia 
+      in<lb ed="#L" n="18" break="no"/>ter essentiam &amp; relationes quas habet. 
+      </p>
+            <p xml:id="jsnvu6-d1e1625-d1e1629">
+               <lb ed="#L" n="19"/>
+               <!--39--> Ad haec omnia &amp; consimilia dicendum quod omnes ista 
+      <lb ed="#L" n="20"/>auctoritates intelliguntur de absolutis quae nullo modo 
+      diffe<lb ed="#L" n="21" break="no"/>runt ab essentia nisi secundum rationes, relationes autem 
+      dif<lb ed="#L" n="22" break="no"/>ferunt ex natura rei saltem secundum quid &amp; cum 
+      determina<lb ed="#L" n="23" break="no"/>tione alicuius trium praedictorum modorum, vnde August. 
+      <lb ed="#L" n="24"/>exponens I1. de Trini. illud quod ipse &amp; alij sancti dicunt ait in 
+      <lb ed="#L" n="25"/>quo ad semetipsum dicitur Deus &amp; non ad alterum, hoc est 
+      <lb ed="#L" n="26"/>quod habet sicut ad semetipsum dicitur vnius habendo vitam, 
+      <lb ed="#L" n="27"/>&amp; eadem vita ipse est. Illa autem sunt absoluta in quibus ad 
+      <lb ed="#L" n="28"/>semetipsum dicitur Deus &amp; non ad alterum, &amp; haec expositio 
+      <lb ed="#L" n="29"/>non solum habetur expresse ex dicto iam allegato, sed etiam 
+      <lb ed="#L" n="30"/>concordat his quae dicta sunt prius; videlicet quod relatio vi 
+      <lb ed="#L" n="31"/>relatio est non est quod habetur vel quod inhaeret, quia non est 
+      <lb ed="#L" n="32"/>quod sed cuius, vnde pater inquantum pater non est quod nec 
+      <lb ed="#L" n="33"/>qualis nec quantus sed cuius, pater enim inquantum pater 
+      <lb ed="#L" n="34"/>non est nisi filij, quia non est pater nisi filij, &amp; ideo praedictae 
+      <lb ed="#L" n="35"/>auctoritates non intelliguntur de relationibus. Et si dictae 
+      au<lb ed="#L" n="36" break="no"/>ctoritates intelliguntur de relationibus, nihilominus non 
+      <lb ed="#L" n="37"/>sunt contra praedeterminata, quia dato quod essentia sit idem 
+      <lb ed="#L" n="38"/>quod relatio ab eis habita, non tamen sunt idem adaequate &amp; 
+      <lb ed="#L" n="39"/>conuertibiliter, aut si sunt idem identice non tamen idem sunt 
+      <lb ed="#L" n="40"/>formaliter, quia differunt sicut res &amp; modus habendi rem 
+      <lb ed="#L" n="41"/>prout in praecedentibus extitit declaratum &amp; cum haec 
+      diffe<lb ed="#L" n="42" break="no"/>rentia sit ex natura rei circunscripto omni actus rationis 
+      ne<lb ed="#L" n="43" break="no"/>cesse est dicere quod sit aliquo modo realiter, &amp; qui negant 
+      <lb ed="#L" n="44"/>hoc videntur clare incidere in haeresim sabellianam, quia 
+      im<lb ed="#L" n="45" break="no"/>possibile est saluare quod paternitas &amp; filiatio differant 
+      reali<lb ed="#L" n="46" break="no"/>ter inter se &amp; non differant ab essentia ex natura rei, &amp; sic 
+      <lb ed="#L" n="47"/>realiter, in hoc quod essentia est formaliter in qualibet 
+      perso<lb ed="#L" n="48" break="no"/>a per quam quaelibet est Deus formaliter, &amp; paternitas ve 
+      <lb ed="#L" n="49"/>filiatio non est in qualibet persona formaliter, alioquin 
+      quaeli<lb ed="#L" n="50" break="no"/>bet persona esset formaliter pater &amp; filius, &amp; sic periret 
+      distin<lb ed="#L" n="51" break="no"/>ctio personarum sicut posuit Sabellius. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

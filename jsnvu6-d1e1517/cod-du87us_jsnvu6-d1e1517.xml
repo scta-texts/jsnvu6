@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="71-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1517"><!-- l1d30prae -->
+            <head xml:id="jsnvu6-d1e1517-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1517-d1e103">
+               <lb ed="#L" n="147"/>ISTINCTIO XXX. 
+      <lb ed="#L" n="148"/>Sententia in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e1517-d1e110">
+               <lb ed="#L" n="149"/>SVNT enim quaedam &amp;c. Superius 
+      determina<lb ed="#L" n="150" break="no"/>uit magister quomodo diuinae personae sint prin 
+      <lb ed="#L" n="151"/>cipium creaturarum. Hic vero determinare 
+      in<lb ed="#L" n="152" break="no"/>tendit de his quae de Deo dicuntur ex tempore 
+      </p>
+            <p xml:id="jsnvu6-d1e1517-d1e121">
+               <lb ed="#L" n="153"/>
+               <!--2--> Vnde ista pars diuiditur in duas. Primo 
+      determi<lb ed="#L" n="154" break="no"/>nat suum intentum. Secundo incidentaliter soluit quandam 
+      <lb ed="#L" n="155"/>quaestionem superius dictam, ibi, potest hic solui. Prima 
+      diui<lb ed="#L" n="156" break="no"/>ditur in tres. Primo ostendit quaedam de Deo dici ex 
+      tempo<lb ed="#L" n="157" break="no"/>re. Secundo ostendit modum quo de Deo dicuntur. Tertio de¬ 
+      <!--00208.xml-->
+      <pb ed="#L" n="71-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>claratum includit. Secunda ibi, Quomodo ergo obtinebit. 
+      Ter<lb ed="#L" n="2" break="no"/>tia ibi, Ex his aperte ostenditur. Prima diuiditur in tres. 
+      Pri<lb ed="#L" n="3" break="no"/>mo proponit intentum. Secundo circa hoc mouet 
+      obiectio<lb ed="#L" n="4" break="no"/>nem. Tertio soluit. Secunda ibi, Sed hic aliquis diceret. Tertia 
+      <lb ed="#L" n="5"/>ibi, adduci potest. Haec est sententia lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e1517-d1e154">
+               <lb ed="#L" n="6"/>
+               <!--2--> In speciali vero sic procedit. Et proponit quod quaedam 
+      tem<lb ed="#L" n="7" break="no"/>poraliter &amp; relatiue, &amp; secundum accidens de deo dicuntur non 
+      <lb ed="#L" n="8"/>secundum accidens quod sit in deo, sed quod est in creaturis vi 
+      <lb ed="#L" n="9"/>creator, refugium, dominus, &amp; similia. Non enim deus potest al 
+      <lb ed="#L" n="10"/>aeterno esse dominus, quia seruum non semper habuit, sed coepit 
+      <lb ed="#L" n="11"/>habere ex tempore. Postea obiicit quod non videtur ex quo tem 
+      <lb ed="#L" n="12"/>pore coeperit esse deus, cum deus sit dominus temporis quod non 
+      <lb ed="#L" n="13"/>esse coepit in tempore nec ex tempore. Ad quod respondetc 
+      <lb ed="#L" n="14"/>dominus temporis coepit esse deus quando coepit tempus esse, 
+      <lb ed="#L" n="15"/>vnde sicut tempus non coepit esse in tempore vel ex tempore 
+      <lb ed="#L" n="16"/>ita nec deus dicitur dominus temporis vel in tempore vel ex ten 
+      <lb ed="#L" n="17"/>pore. Postea declarat modum qualiter ista de deo dicuntur, &amp; di 
+      <lb ed="#L" n="18"/>cit quod deus potest ex noua relatione referri ad creaturam 
+      <lb ed="#L" n="19"/>sine sui mutatione, quia ipsa relatio est realis in creatura, sed 
+      <lb ed="#L" n="20"/>tantum appellatio relatiua est in diuinis respectu 
+      creatura<lb ed="#L" n="21" break="no"/>rum, &amp; ponit exemplum, sicut nummus sine sui mutatione fit 
+      <lb ed="#L" n="22"/>precium, ita deus sine sui mutatione fit creator. Postea 
+      con<lb ed="#L" n="23" break="no"/>cludit propositum dicens, Ex dictis manifestum est quod 
+      hae<lb ed="#L" n="24" break="no"/>quae dicuntur de deo ex tempore dicuntur sine sui mutatione 
+      <lb ed="#L" n="25"/>&amp; sine aliquo accidente sibi adueniente &amp; sine aliqua reali 
+      ha<lb ed="#L" n="26" break="no"/>bitudine. vnde solum nomen relatiuum est. Vitimo soluit 
+      quae<lb ed="#L" n="27" break="no"/>stionem quam supra reliquerat insolutam, scilicet quo modi 
+      <lb ed="#L" n="28"/>spiritus sanctus datus a se possit referri ad se, &amp; respodet quod 
+      <lb ed="#L" n="29"/>cum Spiritussanctus dicitur datur vel missus a se relatiue 
+      dici<lb ed="#L" n="30" break="no"/>tur ad eum cui datur, &amp; est relatio secundum nomen &amp; non 
+      <lb ed="#L" n="31"/>secundum esse, sed sic est mutatio in illo cui datur nulla 
+      muta<lb ed="#L" n="32" break="no"/>tione facta in dante. Et in hoc &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

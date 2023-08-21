@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="150-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3469"><!-- l2d25q2 -->
+            <head xml:id="jsnvu6-d1e3469-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e3469-Hd1e103" type="question-title">Utrum liberum arbitrium sit solum in habentibus intellectum</head>
+            <p xml:id="jsnvu6-d1e3469-d1e106">
+               <lb ed="#L" n="15"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="16"/>Vtrum liberum arbitrium sit solum in 
+      ha<lb ed="#L" n="17" break="no"/>bentibus intellectum. 
+      <lb ed="#L" n="18"/>Thom. 1. g. 83. ar. 1. 
+    </p>
+            <p xml:id="jsnvu6-d1e3469-d1e117">
+               <lb ed="#L" n="19"/>SECVNDO quaeritur vtrum liberum arbitrium 
+      <lb ed="#L" n="20"/>sit solum in habentibus intellectum. Et videtur
+      <lb ed="#L" n="21"/>quod non, quia quae agunt voluntarie, agunt 
+      li<lb ed="#L" n="22" break="no"/>bere (vt videtur) sed bruta agunt voluntarie vt 
+      <lb ed="#L" n="23"/>ij habetur 3. Ethico. ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3469-d1e130">
+               <lb ed="#L" n="24"/>
+               <!--2.--> Item in illis est lib. ar. quorum est acceptare vnum altero 
+      re<lb ed="#L" n="25" break="no"/>futato, sed bruta quaedam acceptant &amp; alia refutant, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3469-d1e140">
+               <lb ed="#L" n="26"/>
+               <!--3--> IN CONTRARIVM est quia lib. arb. est quo recte 
+      <lb ed="#L" n="27"/>viuitur &amp; peccatur, sed peccare &amp; recte viuere non conueniunt 
+      <lb ed="#L" n="28"/>nisi habentibus intellectum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3469-d1e151">
+               <lb ed="#L" n="29"/>
+               <!--4--> RESPONSIO. Dicendum est quod solum in 
+      haben<lb ed="#L" n="30" break="no"/>tibus intellectum est liber. arbi. scilicet in Deo hominibus &amp; 
+      <lb ed="#L" n="31"/>angelis. Cuius ratio est quia solum in illis est libe. arbit. in 
+      qui<lb ed="#L" n="32" break="no"/>bus est iudicium de propria operatione vtrum sit bona an 
+      ma<lb ed="#L" n="33" break="no"/>la, expediens ad finem, an impediens a fine, sed tale iudicium 
+      <lb ed="#L" n="34"/>solum est in habentibus intellectum, ergo &amp;c. Maior patet quia 
+      <lb ed="#L" n="35"/>ficut ostensum est in praecedente quaestione electio quae est 
+      <lb ed="#L" n="36"/>actus liberi arbitrij solum est de actibus nostris vt ordinantur 
+      <lb ed="#L" n="37"/>in finem propter quod cum electio voluntatis sequatur 
+      iu<lb ed="#L" n="38" break="no"/>dicium rationis, oportet quod illa quae habent electionem, 
+      ha<lb ed="#L" n="39" break="no"/>beant etiam de suis operationibus iudicium quale dictum est 
+      <lb ed="#L" n="40"/>scilicet an operatio sit bona, &amp; expediens ad consecutionem fi 
+      <lb ed="#L" n="41"/>nis, vel mala &amp; impeditiua finis quod esse non potest, nisi in 
+      il<lb ed="#L" n="42" break="no"/>lis quae cognoscunt finem sub ratione finis, &amp; habitudinem 
+      <lb ed="#L" n="43"/>finis ad ea quae sunt ad finem. Et talia sunt soluin quae ratione 
+      <lb ed="#L" n="44"/>&amp; intellectu participant, ideo &amp;c. Item patet per 
+      diffinitio<lb ed="#L" n="45" break="no"/>nem libe. arbi. in litera positam quod liberum arbitrium est 
+      fa<lb ed="#L" n="46" break="no"/>cultas voluntatis, &amp; rationis.
+</p>
+            <p xml:id="jsnvu6-d1e3469-d1e195">
+               <lb ed="#L" n="47"/>AD PRIMVM argumentum dicendum quod 
+      Philo<lb ed="#L" n="48" break="no"/>sophus accipit large voluntatem pro omni eo quod fit sponte 
+      <lb ed="#L" n="49"/>&amp; non per coactionem ab habente cognitionem, non autem 
+      <lb ed="#L" n="50"/>proprie prout dicit motum voluntatis sequentis 
+      deliberatio<lb ed="#L" n="51" break="no"/>nem qui proprie est actus lib. ar. 
+      </p>
+            <p xml:id="jsnvu6-d1e3469-d1e208">
+               <lb ed="#L" n="52"/>
+               <!--6.--> Ad secundum dicendum quod acceptare vnum altero 
+      re<lb ed="#L" n="53" break="no"/>futato ex collatione eorum ad finem pertinet ab lib. arbi. quo 
+      <lb ed="#L" n="54"/>modo bruta nihil acceptant vel refutant, sed solum ex 
+      simpli<lb ed="#L" n="55" break="no"/>ci apprehensione conuenientis acceptant ipsum. Et ex 
+      simpli<lb ed="#L" n="56" break="no"/>ci apprehensione disconueniens ipsum refutant.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

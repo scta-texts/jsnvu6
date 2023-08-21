@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="99-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2123"><!-- l1d44q2 -->
+            <head xml:id="jsnvu6-d1e2123-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e2123-Hd1e103" type="question-title">
+      Utrum data quacunque creatura Deus possit facere aliam perfectiorem secundum speciem, 
+      ita quod non sit status in perfectionibus specificis sed sit processus in infinitum
+    </head>
+            <p xml:id="jsnvu6-d1e2123-d1e106">
+               <lb ed="#L" n="19"/>QUAESTTO SECVNDA. 
+      <lb ed="#L" n="20"/>Vtrum data quacunque creatura deus possit facere 
+      <lb ed="#L" n="21"/>aliam perfectiorem secundum speciem, ita vt 
+      <lb ed="#L" n="22"/>non sit status imperfectionibus 
+      specifi<lb ed="#L" n="23" break="no"/>cis, sed sit processus in infinitum. 
+      <lb ed="#L" n="24"/>Thom. Sbi supra.
+    </p>
+            <p xml:id="jsnvu6-d1e2123-d1e122">
+               <lb ed="#L" n="25"/>AD secundum sic proceditur. Et videtur quod Deus 
+      <lb ed="#L" n="26"/>possit facere quacunque specie data perfectiorem 
+      <lb ed="#L" n="27"/>quia res procedunt a Deo sicut numeri ab 
+      vni<lb ed="#L" n="28" break="no"/>tate (secundum Dionysium) sed ab vnitate 
+      pro<lb ed="#L" n="29" break="no"/>cedunt numeri in infinitum, ita quod data 
+      quan<lb ed="#L" n="30" break="no"/>tacunque specie numeri adhuc potest maior dari, ergo 
+      simili<lb ed="#L" n="31" break="no"/>ter res procedunt sic a Deo quod nata quacunque specie, 
+      quan<lb ed="#L" n="32" break="no"/>tumcunque perfecta, adhuc poterit perfectior inueniri, &amp; sic 
+      <lb ed="#L" n="33"/>semper: igitur Deus potest facere creaturam meliorem quam 
+      <lb ed="#L" n="34"/>fecerit procedendo in infinitum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e146">
+               <lb ed="#L" n="35"/>
+               <!--2--> Item Deus potest facere omne illud quod non implicat 
+      con<lb ed="#L" n="36" break="no"/>tradictionem, sed infinitas species esse (saltem in potentia &amp; 
+      <lb ed="#L" n="37"/>successiue) non implicat contradictionem, sicut dictum fuit 
+      <lb ed="#L" n="38"/>prius de speciebus figurarum, ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e2123-d1e160">
+               <lb ed="#L" n="39"/>IN CONTRARIVM arguitur, quia Deus fecit 
+      <lb ed="#L" n="40"/>aliquam rem qua nulla potest esse vilior, vel inferior (vt est materia 
+      <lb ed="#L" n="41"/>prima) ergo fecit aliquam aliam qua nulla potest esse nobilior, vel 
+      <lb ed="#L" n="42"/>superior, non potest ergo facere aliquam meliorem quam illa sit. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e171">
+               <lb ed="#L" n="43"/>
+               <!--4--> RESPONSIO. Circa quaestionem istam duplex est 
+      <lb ed="#L" n="44"/>opinio. Vna quorundam dicentium quod talis processus in 
+      in<lb ed="#L" n="45" break="no"/>finitum est possibilis, non sic quod sit quandoque deuentum, 
+      <lb ed="#L" n="46"/>ad infinitas species actu, sed quia nunquam est dare ita 
+      perfe<lb ed="#L" n="47" break="no"/>ctam quin possibile sit dare perfectiorem. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e187">
+               <lb ed="#L" n="48"/>
+               <!--5--> Confirmatur haec opinio. Primo, quia potentia dei est infinita, 
+      <lb ed="#L" n="49"/>non solum vt essentia, sed vt potentia: sed non esset infinita vt 
+      poten<lb ed="#L" n="50" break="no"/>tia, nisi posset producere infinita secundum perfectiones specificas 
+      <lb ed="#L" n="51"/>. ergo, &amp;c. Maior conceditur ab omnibus, minor probatur, quia po 
+      <lb ed="#L" n="52"/>tentia vt potentia includit respectum ad obiectu possibile, &amp; ideo 
+      <lb ed="#L" n="53"/>non est infinita sub ratione potentiae, nisi possit in infinita obiecta 
+      <lb ed="#L" n="54"/>nec sufficit quod illa sint infinita secundum multitudinem numeralem 
+      <lb ed="#L" n="55"/>quia sicut essentia non esset infinita simpliciter secundum rationi 
+      <lb ed="#L" n="56"/>essentiae, si esset determinata ad aliquam speciem, dato quod esset 
+      infi<lb ed="#L" n="57" break="no"/>nite intensa in illa specie (vt si poneremus calorem infinite inten 
+      <lb ed="#L" n="58"/>sum) sic nulla potentia est infinita simpliciter secundum ratione 
+      <lb ed="#L" n="59"/>potentiae, si obiectum eius sit infinitum solum secundum numerim 
+      <lb ed="#L" n="60"/>&amp; limitatum ad speciem, sed oportet quod sit infinitum secundum 
+      per<lb ed="#L" n="61" break="no"/>fectiones specificas: &amp; haec fuit minor, sequitur ergo conclusio 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e222">
+               <lb ed="#L" n="62"/>
+               <!--6--> Secundo confirmatur eadem conclusio sic: deus potest quicquid 
+      <lb ed="#L" n="63"/>non implicat contradictionem. sed posse fieri nobiliorem creaturam 
+      <lb ed="#L" n="64"/>(quacunque data) non implicat contradictionem, ergo &amp;c. Mino 
+      <lb ed="#L" n="65"/>probatur, quia illud quod non ponit infinitatem in rebus creatis 
+      <lb ed="#L" n="66"/>non implicat contradictionem, sed ponere quod data quacunque crea 
+      <lb ed="#L" n="67"/>tura adhuc possit dari nobilior, non ponit aliquam infinitatem, quia 
+      <lb ed="#L" n="68"/>cum illa quam tu das sic finita poterit excedi ab alia finita, ergo 
+      <lb ed="#L" n="69"/>istud non implicat aliquam contradictionem, est ergo deo possibile 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e244">
+               <lb ed="#L" n="70"/>
+               <!--7--> Tertio probatur idem sic: deus producit species rerum 
+      secun<lb ed="#L" n="71" break="no"/>dum rationes ideales, sed infinitae ideae sunt in deo, ergo deus 
+      <lb ed="#L" n="72"/>potest producere infinitas species: minor probatur, qa essentia 
+      <lb ed="#L" n="73"/>diuina vt imitabilis a creatura habet rationem ideae, sed cum 
+      <lb ed="#L" n="74"/>ipsa sit infinitae perfectionis, est etiam infinitae imitabilitatis 
+      <lb ed="#L" n="75"/>ergo habet rationem infinitarum idearum, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e262">
+               <lb ed="#L" n="76"/>
+               <!--8.--> Quicquid sit de conclusione, rationes tamen istae non 
+      co<lb ed="#L" n="77" break="no"/>gunt, cum enim primo dicitur quod potentia Dei est infinita, non 
+      <lb ed="#L" n="78"/>solum sub ratione essentiae, sed sub ratione potentiae, posset di 
+      <lb ed="#L" n="79"/>ci probabiliter quod non, quia licet ea quae insunt Deo secundum 
+      <lb ed="#L" n="80"/>se &amp; absolute, sint infinita saltem intensiue non solum sub ra¬ 
+      <!--00263.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>tione essentiae, sed sub ratione propria, tamen illa quae non 
+      in<lb ed="#L" n="82" break="no"/>sunt Deo, nisi in habitudine ad creaturas, &amp; quibus correspondet 
+      <lb ed="#L" n="83"/>correlatiue aliquid in creaturis non possunt esse infinita sub sua 
+      <lb ed="#L" n="84"/>propria ratione, sicut dicimus de ideis, quia enim essentia 
+      diui<lb ed="#L" n="85" break="no"/>na non habet rationem ideae, nisi prout est imitabilis a 
+      creatu<lb ed="#L" n="86" break="no"/>ris: ideo sicut nulla creatura est infinita, sic nulla idea in Deo est 
+      <lb ed="#L" n="87"/>infinita sub propria ratione ideae, correspondent enim sibi 
+      inui<lb ed="#L" n="88" break="no"/>cem imitabile &amp; imitatu, &amp; vnum ponitur in ratione alterius, 
+      <lb ed="#L" n="89"/>cum igitur potentia proprie dicta, de qua loquimur non insit 
+      <lb ed="#L" n="90"/>deo, nisi in habitudine ad creaturas, quae solae propriae dicuntur 
+      <lb ed="#L" n="91"/>possibiles (personae enim diuinae sunt necessariae) ideo non 
+      opor<lb ed="#L" n="92" break="no"/>tet dato que essentia diuina fit infinita, quod potentia sub ratione 
+      <lb ed="#L" n="93"/>potentiae sit infinita, cum nec aliqua creatura, nec omnes simul 
+      <lb ed="#L" n="94"/>sint infinitae, vel esto quod maior propositio concedatur, tunc 
+      di<lb ed="#L" n="95" break="no"/>cendum est ad minorem per interemptionem, quia non 
+      opor<lb ed="#L" n="96" break="no"/>tet ad hoc quod potentia sub ratione potentiae sit infinita quod 
+      pos<lb ed="#L" n="97" break="no"/>sit producere infinita secundum perfectiones specificas. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e320">
+               <lb ed="#L" n="98"/>
+               <!--9--> Quod patet contrario medio illius quod illi faciunt, quia 
+      si<lb ed="#L" n="99" break="no"/>cut se habet infinitas essentiae diuinae ad pfectiones absolutas, 
+      <lb ed="#L" n="100"/>sic se habet infinitas potentiae ad infinitatem possibilium (vt 
+      ipsi<lb ed="#L" n="101" break="no"/>met accipiunt) sed infinitas essentiae diuinae non requirit quod 
+      <lb ed="#L" n="102"/>includat infinitas perfectiones absolutas secundum rationem 
+      <lb ed="#L" n="103"/>specificam differentes, imo perfectiones quae sunt in deo (scilice 
+      <lb ed="#L" n="104"/>quas simpliciter melius est habere quam eis carere) sunt finita 
+      <lb ed="#L" n="105"/>multitudine, sed ex hoc solo sola essentia diuina dicitur infinita, 
+      <lb ed="#L" n="106"/>quia continet infinite secundum intensionem, vt sic loquar, omnes 
+      <lb ed="#L" n="107"/>perfectiones absolutas possibiles, quamuis illae sint multitudine 
+      <lb ed="#L" n="108"/>finitae, ergo similiter infinitas potentiae diuinae non requirit qui 
+      <lb ed="#L" n="109"/>possit in infinita possibilia specie differentia, sed sufficit quod 
+      pos<lb ed="#L" n="110" break="no"/>fit in omnia possibilia dato quod sint finita multitudine formali, 
+      <lb ed="#L" n="111"/>&amp; specifice dum tamen possit in ea infinito modo, quod fit dum 
+      <lb ed="#L" n="112"/>sub singulis speciebus multiplicabilibus, &amp; non tantum in vna 
+      <lb ed="#L" n="113"/>vt arguebatur, potest infinita indiuidua successiue producere, 
+      <lb ed="#L" n="114"/>sic quod aduenientibus posterioribus priora non recedant ab eius 
+      <lb ed="#L" n="115"/>causalitate, vt dictum fuit in praecedente distinct. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e364">
+               <lb ed="#L" n="116"/>
+               <!--10--> Ad secundam rationem dicendum quod ipsa pecit principium 
+      <lb ed="#L" n="117"/>cum assumit quod omne finitum potest excedi a finito, quia 
+      ho<lb ed="#L" n="118" break="no"/>non est verum, nisi ponatur possibilis processus in infinitum, si 
+      <lb ed="#L" n="119"/>enim est status, tunc est dare supremum finitum quod non pote 
+      <lb ed="#L" n="120"/>rit excedi, nisi ab infinito, &amp; quia de processu in infinitum 
+      quae<lb ed="#L" n="121" break="no"/>ritur, ideo illud assumere est petere quod erat in principio. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e382">
+               <lb ed="#L" n="122"/>
+               <!--11--> Vel dicendum clarius quod dicere quodlibet finitum ratione 
+      <lb ed="#L" n="123"/>qua finitum absolute possit excedi a finito non implicat 
+      contra<lb ed="#L" n="124" break="no"/>dictionem, sed dicere quod supremum finitum possit excedi al 
+      <lb ed="#L" n="125"/>aliquo finito implicat contradictionem, quia si excederetur ab 
+      <lb ed="#L" n="126"/>alio finito iam non esset supremum inter finita, qui autem 
+      po<lb ed="#L" n="127" break="no"/>nit statum in gradibus rerum ponit supremum, &amp; ideo secundum 
+      <lb ed="#L" n="128"/>ipsum est clara contradictio dicere qued quodlibet finitum possit 
+      <lb ed="#L" n="129"/>excedi ab alio finito. &amp; praeter hoc petitio principij, quia 
+      quae<lb ed="#L" n="130" break="no"/>stio de processu rerum in infinitum est quaestio, an sit in eis dare 
+      <lb ed="#L" n="131"/>supremum an non, propter quod assumere quod non sit dare 
+      supre<lb ed="#L" n="132" break="no"/>mum, sicut recte assumitur cum dicitur quod quodlibet finitum 
+      <lb ed="#L" n="133"/>potest excedit ab alio finito, est assumere quod petitur. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e413">
+               <lb ed="#L" n="134"/>
+               <!--12--> Ad tertium dicendum quod licet essentia diuina sit infinitae 
+      per<lb ed="#L" n="135" break="no"/>fectionis in se, tamen non est infinitae imitabilitatis a creaturis 
+      <lb ed="#L" n="136"/>quia secundum se totam, &amp; totaliter non est imitabilis, nisi 
+      pone<lb ed="#L" n="137" break="no"/>retur quod deus posset facere alium Deum, quod est impossibile. Vnde 
+      <lb ed="#L" n="138"/>nullo modo sunt in deo infinitae ideae specierum, vt magis patebit, 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e429">
+               <lb ed="#L" n="139"/>
+               <!--13--> Alius modus dicendi est quod in perfectionibus specificis crea 
+      <lb ed="#L" n="140"/>turarum non est possibilis processus in infinitum, sed est data ve 
+      <lb ed="#L" n="141"/>dari potest creatura, ita perfecta quod non potest dari perfectior. 
+      <lb ed="#L" n="142"/>Hoc autem probatur primo sic: cuilibet speciei possibili in 
+      re<lb ed="#L" n="143" break="no"/>bus creatis respondet aliqua idea in deo, sed in deo nec sunt, 
+      <lb ed="#L" n="144"/>nec esse possunt infinitae ideae simul, nec simulnec successiue, 
+      <lb ed="#L" n="145"/>ergo in rebus creatis, nec sunt nec esse possunt infinitae species, nec 
+      <lb ed="#L" n="146"/>successiue. Maior patet: sed minor probatur dupliciter. Primo, 
+      <lb ed="#L" n="147"/>quia in habentibus per se ordinem, in superiori continetur 
+      perfe<lb ed="#L" n="148" break="no"/>ctio inferioris (vt in sensitiuo vegetatiuum, &amp; in intellectiuo 
+      sen<lb ed="#L" n="149" break="no"/>sitiuum) sed inter ideas specierum est per se ordo secundum 
+      ratio<lb ed="#L" n="150" break="no"/>nem, sicut est ordo secundum rem inter species rerum, ergo omnium 
+      <lb ed="#L" n="151"/>idearum quae sunt actu in deo vna continet omnium aliarum 
+      per<lb ed="#L" n="152" break="no"/>fectiones, si ergo essent actu infinitae ideae vna earum esset infinitae 
+      <lb ed="#L" n="153"/>perfectionis, quod est impossibile, quia secundum talem ideam 
+      <lb ed="#L" n="154"/>posset producere aliquam speciem infinitae perfectionis (etiam aliis 
+      <lb ed="#L" n="155"/>non productis) non enim est necessarium quod deus prius producat 
+      spe<lb ed="#L" n="156" break="no"/>ciem minus perfectam, quam magis perfectam, potuisset enim 
+      produ<lb ed="#L" n="157" break="no"/>xisse angelum ante mundum corporeum, esse aut in rebus creatis 
+      ali<lb ed="#L" n="158" break="no"/>quam speciem infinitae perfectionis est impossibile, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e477">
+               <lb ed="#L" n="159"/>
+               <!--14--> Secundo probatur eadem minor sic, in per se ordinatis in 
+      <lb ed="#L" n="160"/>quibus est dare perfectissimum &amp; imperfectissimum tanquam termi 
+      <lb ed="#L" n="161"/>nos omnia claudentes impossibile est esse processum in infinitum, 
+      <lb ed="#L" n="162"/>sed in idaeis diuinis quae sunt actu in deo est per se ordo rationis 
+      <!--00264.xml-->
+      <pb ed="#L" n="99-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>(vt dictum est) est etiam in eisdare perfectissimam, &amp; 
+      imperfe<lb ed="#L" n="2" break="no"/>ctissimam tanquam terminos omnes alias claudentes ergo 
+      im<lb ed="#L" n="3" break="no"/>possibile est quod sint infinitae. Maior patet, quia contra rationem infi 
+      <lb ed="#L" n="4"/>niti est claudi terminis. Minor probatur, quia ideae sicut &amp; 
+      spe<lb ed="#L" n="5" break="no"/>cies rerum differunt secundum gradum maioris &amp; minoris 
+      perfe<lb ed="#L" n="6" break="no"/>ctionis, ita quod nunquam duae possunt esse in eodem gradu 
+      perfe<lb ed="#L" n="7" break="no"/>ctionis ergo inter ideas quae sunt actu in deo est aliqua 
+      imper<lb ed="#L" n="8" break="no"/>fectissima respectu omnium aliarum, &amp; aliqua perfectissima 
+      respe<lb ed="#L" n="9" break="no"/>ctu omnium, semper enim in datis est aliqua quae continet omnii 
+      <lb ed="#L" n="10"/>perfectiones, &amp; haec est perfectissima, &amp; aliaque deficit ab 
+      om<lb ed="#L" n="11" break="no"/>nium aliarum perfectionibus, &amp; haec est imperfectissima, &amp; inter ha 
+      <lb ed="#L" n="12"/>omnes aliae continentur tanquam mediae inter terminos, quare &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e524">
+               <lb ed="#L" n="13"/>
+               <!--14.--> Sed diceret aliquis quod licet inter duos terminos finite di 
+      <lb ed="#L" n="14"/>stantes non possunt esse media infinita, tamen bene possunt, es 
+      <lb ed="#L" n="15"/>se inter terminos infinite distantes, idea autem imperfectissima 
+      <lb ed="#L" n="16"/>distat in infinitum ab idea perfectissima, cum illa ponatur 
+      in<lb ed="#L" n="17" break="no"/>finita, &amp; finitum distat ab infinito infinite, quare inter illas 
+      du<lb ed="#L" n="18" break="no"/>as ideas possunt esse mediae infinitae. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e542">
+               <lb ed="#L" n="19"/>
+               <!--15--> Et dicendum quod hoc non valet. Primo modo, quia si 
+      po<lb ed="#L" n="20" break="no"/>neretur idea infinita possibile esset dare in rebs speciem infinitam. 
+      <lb ed="#L" n="21"/>Sed illa dari non potest multominus in substantia quam in quan 
+      <lb ed="#L" n="22"/>titate continua, vel discreta, quare &amp;c. Secundo, quia dato quod 
+      <lb ed="#L" n="23"/>illa esset infinita, tamen inter alias aliqua esset immediata 
+      secun<lb ed="#L" n="24" break="no"/>dum actum, quia inter omnes est ordo, tunc quaererem de illa s 
+      <lb ed="#L" n="25"/>est finita, an infinita, si finita inter ipsam &amp; imperfectissimam est 
+      <lb ed="#L" n="26"/>finita distantia, &amp; sic inter ipsas non poterunt esse infinita 
+      me<lb ed="#L" n="27" break="no"/>dia, nec per consequens prius erant infinita inter perfectissimi 
+      <lb ed="#L" n="28"/>&amp; imperfectissimam, quia quicquid continetur actu intra primam 
+      <lb ed="#L" n="29"/>distantiam continetur intra secundam, excepta vna quae ponitur 
+      <lb ed="#L" n="30"/>terminus, cuius additio non potest facere de finito infinitum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e573">
+               <lb ed="#L" n="31"/>
+               <!--16--> Si vero dicatur esse infinita: Contra. sicut infinito 
+      secun<lb ed="#L" n="32" break="no"/>dum quantitatem non potest esse majus quantum, &amp; infinite 
+      <lb ed="#L" n="33"/>secundum multitudinem non potest esse major multitudo, si 
+      <lb ed="#L" n="34"/>infinito in genere substantiae non potest esse aliquid maius vel 
+      <lb ed="#L" n="35"/>perfectius intra genus substantiae, sed suprema species est 
+      per<lb ed="#L" n="36" break="no"/>fectior quam illa quae ponitur ei immediata, ergo illa non 
+      po<lb ed="#L" n="37" break="no"/>test esse infinita, quod autem dictum est de speciebus rerum si 
+      <lb ed="#L" n="38"/>essent, intelligendum est de ideis specierum quae sunt in deo 
+      <lb ed="#L" n="39"/>non sunt ergo ideae specierum actu infinitae, &amp; fimul. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e597">
+               <lb ed="#L" n="40"/>
+               <!--17--> Item nec possunt esse infinitae successiue &amp; in potentia, quia 
+      <lb ed="#L" n="41"/>ideae quae actu sunt in deo non solum sunt specierum quae nunc 
+      <lb ed="#L" n="42"/>sunt, sed omnium quae esse possunt, vt enim patuit supra, distin 
+      <lb ed="#L" n="43"/>39. deus scit ex necessitate naturae habitudines rerum inter se &amp; 
+      <lb ed="#L" n="44"/>ad deum secundum omnem compositionem &amp; diuisionem pos 
+      <lb ed="#L" n="45"/>sibilem, &amp; ideo scit ab aeterno necessario necessitate absoluta, 
+      <lb ed="#L" n="46"/>&amp; non solum ex suppositione quae &amp; quot species possunt 
+      imi<lb ed="#L" n="47" break="no"/>tari essentiam suam sub ratione ideae, propter quod necessario 
+      <lb ed="#L" n="48"/>habet omnes ideas quas aliquo modo potest habere: probata 
+      <lb ed="#L" n="49"/>est ergo perfecte minor, sequitur ergo conclusio. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e623">
+               <lb ed="#L" n="50"/>
+               <!--18--> Item sicut deus probatur esse prima causa ex ordine causarum 
+      <lb ed="#L" n="51"/>per se, ita probatur esse primum &amp; summe perfectum ex ordine 
+      <lb ed="#L" n="52"/>perfectionum specificarum: sed prima probatio nulla esset, si in 
+      <lb ed="#L" n="53"/>causis efficientibus esset processus in infinitum: ergo nec 
+      secun<lb ed="#L" n="54" break="no"/>da si sit imperfectionibus specificis possibilis processus in 
+      infini<lb ed="#L" n="55" break="no"/>tum, &amp; ita videtur quod non possunt esse species rerum 
+      infi<lb ed="#L" n="56" break="no"/>nitae, etiam successiue. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e643">
+               <lb ed="#L" n="57"/>
+               <!--19--> AD RATIONES in oppositum respondendum est 
+      <lb ed="#L" n="58"/>Et ad primum argumentum quod probat processum in infinitum 
+      <lb ed="#L" n="59"/>esse possibilem in gradibus specierum, quia species sunt sicut 
+      nu<lb ed="#L" n="60" break="no"/>meri. Dicendum quod similitudo non est ad propositum, quia proce 
+      <lb ed="#L" n="61"/>sus in infinitum in numeris non est per accessum ad vnitatem cum 
+      <lb ed="#L" n="62"/>fit dare numerum propinquissimum vnitati (scilicet dualitatem, 
+      <lb ed="#L" n="63"/>sed est per recessum a dualitate, econtrario processus qui 
+      poni<lb ed="#L" n="64" break="no"/>tur in infinitum in speciebus rerum non est per recessum eorum 
+      <lb ed="#L" n="65"/>a deo, cum sit dare infimam speciem maxime distantem a deo 
+      <lb ed="#L" n="66"/>sed ponitur per accessum ad deum. Propter quod in nullo est 
+      <lb ed="#L" n="67"/>propositum. Dictum ergo Dionysi j non est intelligendum 
+      quan<lb ed="#L" n="68" break="no"/>tum ad infinitatem, sed quantum ad compositionem, quia sicut 
+      nu<lb ed="#L" n="69" break="no"/>meri quanto plus distant ab vnitate, tanto incidunt in maiore 
+      <lb ed="#L" n="70"/>compositionem. Si vero ex alio sumeretur argumentum (scilicet qui 
+      <lb ed="#L" n="71"/>quia species numerorum &amp; figurarum procedunt in infinitum, sic 
+      <lb ed="#L" n="72"/>potest esse in speciebus substantiae, &amp; aliorum generum (non valet, 
+      <lb ed="#L" n="73"/>quia figurae &amp; numeri non dicunt secundum se aliquam naturam, 
+      <lb ed="#L" n="74"/>sed modos rerum qui variari possunt in infinitum absque 
+      varia<lb ed="#L" n="75" break="no"/>tione rerum secundum speciem, vt numeri variantur per solan 
+      <lb ed="#L" n="76"/>plurificationem indiuiduorum sub specie &amp; figurae per variam 
+      <lb ed="#L" n="77"/>positionem partium. Figura enim non est aliud quam talis ve 
+      <lb ed="#L" n="78"/>talis positio partium in toto, nec dicit aliquam rem secundum se, nisi 
+      <lb ed="#L" n="79"/>modum rei qui est ordo partium qui variari potest in infinitum 
+      <lb ed="#L" n="80"/>nulla natura specifica variata. &amp; ideo processus figurarum in 
+      infi<lb ed="#L" n="81" break="no"/>nitum non arguit processum naturarum specificarum in infinitum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2123-d1e703">
+               <lb ed="#L" n="82"/>
+               <!--20--> Et per hoc patet ad secundum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

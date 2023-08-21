@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="284-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e234244"><!-- l4d14q5 -->
+            <head xml:id="jsnvu6-e234244-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e234244-Hd1e103" type="question-title">Utrum effectus poenitentiae bene assignentur</head>
+            <p xml:id="jsnvu6-e234244-d1e106">
+               <lb ed="#L" n="12"/>QVAESTIO QVINTA. 
+      <lb ed="#L" n="13"/>Vtrum effectus poenitentiae bene assignentur. 
+      <lb ed="#L" n="14"/>Thom. 3. 4.86. 
+    </p>
+            <p xml:id="jsnvu6-e234244-d1e115">
+               <lb ed="#L" n="15"/>AD tertium sic proceditur, &amp; arguitur quod non 
+      <lb ed="#L" n="16"/>bene assignantur effectus poenitentiae: quia 
+      v<lb ed="#L" n="17" break="no"/>nius sacramenti debet esse vnus effectus, sed 
+      poe<lb ed="#L" n="18" break="no"/>nitentia vnum est sacramentum. Et tamen 
+      Magi<lb ed="#L" n="19" break="no"/>ster in litera assignat ei plures effectus, videlicet 
+      <lb ed="#L" n="20"/>remissionem peccatorum, &amp; viuificationem bonorum operum 
+      <lb ed="#L" n="21"/>prius mortificatorum, ergo male. 
+      </p>
+            <p xml:id="jsnvu6-e234244-d1e133">
+               <lb ed="#L" n="22"/>
+               <!--2--> Item peccatum non potest dimitti quantum ad culpam 
+      <lb ed="#L" n="23"/>quae transit, sed solum quantum ad reatum qui remanet. Sed 
+      <lb ed="#L" n="24"/>reatus per sacramentum poenitentiae non remittitur, cum 
+      poe<lb ed="#L" n="25" break="no"/>na pro eo iniungatur, ergo effectus poenitentiae non est 
+      remis<lb ed="#L" n="26" break="no"/>sio peccatorum. 
+      </p>
+            <p xml:id="jsnvu6-e234244-d1e150">
+               <lb ed="#L" n="27"/>
+               <!--3--> Item quod non est, viuificari non potest, sed bona opera 
+      fa<lb ed="#L" n="28" break="no"/>cta in gratia desinunt esse succedente peccato: non enim sunt de 
+      <lb ed="#L" n="29"/>numero rerum permanentium, sed transeuntium, ergo ex 
+      tun<lb ed="#L" n="30" break="no"/>viuificari non possunt per quamcunque poenitentiam subsequentem 
+      </p>
+            <p xml:id="jsnvu6-e234244-d1e163">
+               <lb ed="#L" n="31"/>
+               <!--4--> IN CONTRARIVM est quod dicit Petr. Act. 3. Poe 
+      <lb ed="#L" n="32"/>nitemini &amp; conuertimini vt deleantur peccata vestra: igitur effe 
+      <lb ed="#L" n="33"/>ctus poenitentiae est deletio peccatorum. Item secundum 
+      Am<lb ed="#L" n="34" break="no"/>brosi. poenitentia res optima est quae omnes defectus reuocat ad 
+      <lb ed="#L" n="35"/>perfectum, sed maximus defectus est quod bona opera facta ex 
+      cha<lb ed="#L" n="36" break="no"/>ritate non perducant facientem ad gloriam, qui defectus 
+      con<lb ed="#L" n="37" break="no"/>tingit mortificante ea ex peccato: ergo iste defectus tollitur per 
+      <lb ed="#L" n="38"/>poenitentiam, &amp; sic opera mortificata reuiuiscunt. 
+      </p>
+            <p xml:id="jsnvu6-e234244-d1e185">
+               <lb ed="#L" n="39"/>
+               <!--5--> RESPONSIO. Circa quaestionem istam dicenda sunt 
+      <lb ed="#L" n="40"/>duo. Primum est quod per poenitentiam remittuntur peccata 
+      mor<lb ed="#L" n="41" break="no"/>talia. Secundum est quod per ipsam viuificantur bona opera pe 
+      <lb ed="#L" n="42"/>sequens peccatum mortificata. Primum patet sic: ille est primus 
+      <lb ed="#L" n="43"/>&amp; principalis effectus huius sacramenti, qui principaliter impor 
+      <lb ed="#L" n="44"/>tatur per formam verborum: istud autem est remissio 
+      peccato<lb ed="#L" n="45" break="no"/>rum, cum forma huius sacramenti sit, ego absoluo te, ergo est 
+      <lb ed="#L" n="46"/>principalis effectus huius sacramenti. 
+      </p>
+            <p xml:id="jsnvu6-e234244-d1e207">
+               <lb ed="#L" n="47"/>
+               <!--6.--> Quantum ad secundum sciendum est quod opera nostra 
+      dicun<lb ed="#L" n="48" break="no"/>tur viua &amp; mortua, viuificata &amp; mortificata per comparationem 
+      <lb ed="#L" n="49"/>ad ea quae videmus in rebus naturalibus: illa enim dicuntur 
+      vi<lb ed="#L" n="50" break="no"/>ua, quae habent in se principium vitae &amp; operationem: vt oculus 
+      <lb ed="#L" n="51"/>videndo, pes ambulando, &amp; sic de aliis: mortua vero dicuntur 
+      <lb ed="#L" n="52"/>quae neutrum istorum habent, habere tamen potuerunt: sicu 
+      <lb ed="#L" n="53"/>dicitur homo mortuus non solum quia vitam habuit &amp; priuatus 
+      <lb ed="#L" n="54"/>est, sed etiam foetus qui nunquam vixit dicitur nasci mortuus, 
+      <lb ed="#L" n="55"/>mortificata autem dicuntur quae habent in se principium vitae 
+      <lb ed="#L" n="56"/>sed non operationem, propter aliquod impedimentum, vt 
+      mem<lb ed="#L" n="57" break="no"/>brum stupidum vel paralyticum. viuificata autem dicuntur 
+      <lb ed="#L" n="58"/>quae a mortificatione impediente operationem vitae redeunt ac 
+      <lb ed="#L" n="59"/>suas operationes. Similiter opera nostra dicuntur viua quandc 
+      <lb ed="#L" n="60"/>procedunt ex charitate quae est principium vitae spiritualis, 8 
+      <lb ed="#L" n="61"/>per meritum possunt perducere ad vitam gloriae quae est vera 
+      <lb ed="#L" n="62"/>avita. Iste est enim finalis effectus operum nostrorum, mortu: 
+      <lb ed="#L" n="63"/>vero dicuntur opera bona quae fiunt extra charitatem, quae lice 
+      <lb ed="#L" n="64"/>non fuerunt viua, potuerunt tamen esse viua si charitas 
+      affuis<lb ed="#L" n="65" break="no"/>set. Mortificata vero dicuntur opera quae sunt ex charitate qua 
+      <lb ed="#L" n="66"/>est principium vitae, sed per meritum non possunt efficaciter per 
+      <lb ed="#L" n="67"/>ducere ad vitam gloriae propter impedimentum peccati 
+      super<lb ed="#L" n="68" break="no"/>uenientis, viuificantur autem cum impedimentum mortificans 
+      <lb ed="#L" n="69"/>ea amouetur, &amp; hoc est peccatum mortale sequens cum quo nul 
+      <lb ed="#L" n="70"/>lus venire potest ad vitam gloriae. Ex hoc sic arguitur ad 
+      propo<lb ed="#L" n="71" break="no"/>situm: illud viuificat opus mortificatum per quod amouetur 
+      <lb ed="#L" n="72"/>impedimentum mortificans ipsum, sed per poenitentiam amoue 
+      <lb ed="#L" n="73"/>Eur peceatum mortale quod mortificat praecedens opus merito. 
+      <lb ed="#L" n="74"/>rium, ergo per poenitentiam viuificatur opus mortificatum prius 
+      </p>
+            <p xml:id="jsnvu6-e234244-d1e272">
+               <lb ed="#L" n="75"/>
+               <!--7.--> Et si quis haesitaret quomodo viuificantur opera bona prae 
+      <lb ed="#L" n="76"/>cedentia quae non sunt in se, nec illa charitas ex qua facta 
+      fueru<lb ed="#L" n="77" break="no"/>remansit. Et ideo videntur fuisse mortua, quia perdiderunt 
+      prin<lb ed="#L" n="78" break="no"/>cipium vitae. Dicendum est quod licet illa opera non remanse. 
+      <lb ed="#L" n="79"/>rint in se, nec charitas ex qua facta fuerunt remaneat, tamen di 
+      <lb ed="#L" n="80"/>cuntur viuificari non quidem quia redeant eadem opera nume¬ 
+      <!--00642.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>ro, nec eadem numero charitas quae per peccatum fuit amissa, 
+      <lb ed="#L" n="82"/>sed quia bona opera dum fiebant in charitate fuerunt a Deo 
+      acce<lb ed="#L" n="83" break="no"/>pta vt meritoria vitae aeternae. Et in illa acceptatione diuina 
+      re<lb ed="#L" n="84" break="no"/>manserunt si impedimentum ea mortificas cessaret: quod fit per 
+      <lb ed="#L" n="85"/>veram poenitentiam. Sic enim bona opera quae transeunt manent 
+      <lb ed="#L" n="86"/>in diuina acceptatione per modum meriti, &amp; sic possunt 
+      viuifica<lb ed="#L" n="87" break="no"/>ri, sicut opera mala transeunt actu &amp; remanent reatu vt puniatur. 
+      </p>
+            <p xml:id="jsnvu6-e234244-d1e309">
+               <lb ed="#L" n="88"/>
+               <!--8--> Ad primum argumentum dicendum que vnius sacramenti pos 
+      <lb ed="#L" n="89"/>sunt esse plures effectus dum tamen sint subordinati, sicut 
+      vi<lb ed="#L" n="90" break="no"/>demus in naturalibus quod lux solis illuminatur &amp; calefacit. Et 
+      simi<lb ed="#L" n="91" break="no"/>liter per poenitentiam primo &amp; per se remittuntur peccata, &amp; 
+      <lb ed="#L" n="92"/>secundario viuificantur opera bona prius facta mortificata. 
+      </p>
+            <p xml:id="jsnvu6-e234244-d1e326">
+               <lb ed="#L" n="93"/>
+               <!--9--> Ad secundum dicendum quod peccatum mortale dicitur 
+      <lb ed="#L" n="94"/>dimitti per poenitentiam quantum ad reatum poenae aeternae 
+      <lb ed="#L" n="95"/>quae est ad inimicos pro exterminatione, quamuis remaneat 
+      <lb ed="#L" n="96"/>quantum ad poenam reatus temporalem, quae est pro 
+      corre<lb ed="#L" n="97" break="no"/>ctione &amp; emendatione filiorum. 
+      </p>
+            <p xml:id="jsnvu6-e234244-d1e342">
+               <lb ed="#L" n="98"/>
+               <!--10.--> Ad tertium patet solutio ex praedictis, quia quamuis 
+      ope<lb ed="#L" n="99" break="no"/>ra facta in charitate non remaneant in se, remanent tamen in 
+      <lb ed="#L" n="100"/>diuina acceptione vt sint meritoria vitae aeternae amoto 
+      impe<lb ed="#L" n="101" break="no"/>dimento ea mortificante. non enim potest affumi omnimoda 
+      <lb ed="#L" n="102"/>similitudo rerum spiritualium ad corporalia, sed sufficit quod 
+      as<lb ed="#L" n="103" break="no"/>sumatur quantum pertinet ad propositum, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

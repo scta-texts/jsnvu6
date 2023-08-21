@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="245-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e202159"><!-- l3d39q4 -->
+            <head xml:id="jsnvu6-e202159-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e202159-Hd1e103" type="question-title">Utrum iuramentum promissotium factum sub 
+      conditione inhonesta sit obligatorium</head>
+            <p xml:id="jsnvu6-e202159-d1e106">
+               <lb ed="#L" n="148"/>QUAESTIO QUARTA. 
+      <lb ed="#L" n="149"/>Vtrum iuramentum promissotium factum sub 
+      <lb ed="#L" n="150"/>conditione inhonesta sit obligatorium. 
+      <lb ed="#L" n="151"/>Thom. 2. 2. q. 84. ar 7. ad. 3. 
+    </p>
+            <p xml:id="jsnvu6-e202159-d1e117">
+               <lb ed="#L" n="152"/>QVARTO quaeritur, vtrum iuramentum 
+      pro<lb ed="#L" n="153" break="no"/>missorium factum sub conditione inhonesta si 
+      <lb ed="#L" n="154"/>obligatorium, verbi gratia, aliquis iurauit se pe 
+      <lb ed="#L" n="155"/>regrinaturum ad sanctum Iacobum si prospe 
+      <lb ed="#L" n="156"/>retur in furto vel homicidio, quaeritur postquam 
+      <lb ed="#L" n="157"/>Afurtum commisit vel homicidium vtrum 
+      tenea<lb ed="#L" n="158" break="no"/>grinari ad sanctum lacobum. Et videtur quod sic, quia 
+      <!--00565.xml-->
+      <pb ed="#L" n="246-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>iuramentum quod potest impleri sine detrimento salutis, est 
+      <lb ed="#L" n="2"/>obligatorium, sed tale iuramentum est huiusmodi, ergo &amp;c. 
+      Mi<lb ed="#L" n="3" break="no"/>nor probatur, quia peregrinari ad sanctum lacobum postquam 
+      <lb ed="#L" n="4"/>aliquis furtum commisit, non est contra salutem nec contra pro 
+      <lb ed="#L" n="5"/>motionem salutis, imo est magis promotiuum salutis. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e152">
+               <lb ed="#L" n="6"/>
+               <!--2.--> Item illud quod de se est bonum, nec impeditur a sua boni 
+      <lb ed="#L" n="7"/>tate dum impletur si sit promissum est soluendum, sed ire ad san 
+      <lb ed="#L" n="8"/>ctum lacobum de se est bonum, si sit promissum sub conditioni 
+      <lb ed="#L" n="9"/>inhonesta. Illa tamen conditio quando iam est impleta non tol 
+      <lb ed="#L" n="10"/>lit bonitatem actus sequentis, quia iam transiit malitia condi 
+      <lb ed="#L" n="11"/>tionis sicut &amp; ipsa, ergo tale promissum est soluendum. Et 
+      con<lb ed="#L" n="12" break="no"/>firmatur, quia canon dicit decima quaestione prima, capitulo 
+      se<lb ed="#L" n="13" break="no"/>cundo, quod ille qui dotauit ecclesiam &amp; fecit consecrari appo 
+      <lb ed="#L" n="14"/>sita conditione quod res ecclesiae non essent sub ordinationi 
+      <lb ed="#L" n="15"/>episcopi tenetur reddere quod promisit, quia promissum fuit 
+      <lb ed="#L" n="16"/>bonum, licet conditio non esset bona. nec illud quod est bonum 
+      <lb ed="#L" n="17"/>vitiatur per malam conditionem appositam. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e184">
+               <lb ed="#L" n="18"/>
+               <!--3.--> Item inhonesta conditio habetur pro non adiecta in legatis 
+      <lb ed="#L" n="19"/>&amp; matrimonio, vt habetur institutione, de legatis. §. vlti. &amp; 
+      ex<lb ed="#L" n="20" break="no"/>tra de conditionibus appositis in matrimonio cap. vltim. erg. 
+      <lb ed="#L" n="21"/>eodem modo in proposito conditio inhonesta debet haberi pro 
+      <lb ed="#L" n="22"/>non adiecta, &amp; valebit votum sicut ibi stat matrimonium vel 
+      <lb ed="#L" n="23"/>legatum. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e202">
+               <lb ed="#L" n="24"/>
+               <!--4--> IN CONTRARIVM arguitur per Isidorum qui 
+      di<lb ed="#L" n="25" break="no"/>cit &amp; habetur in canone vigesimasecunda quaestione quarta. in 
+      <lb ed="#L" n="26"/>malis promissis rescinde fidem, &amp; in turpi voto muta decretum, 
+      <lb ed="#L" n="27"/>sed votum sub conditione inhonesta est turpe, ergo est 
+      mutan<lb ed="#L" n="28" break="no"/>dum &amp; non implendum. 
+</p>
+            <p xml:id="jsnvu6-e202159-d1e218">
+               <lb ed="#L" n="29"/>RESPONSIO. Quaestio ista similem dubitationem 
+      ha<lb ed="#L" n="30" break="no"/>bet in voto &amp; in iuramento promissorio, &amp; ideo in eius processi 
+      <lb ed="#L" n="31"/>quicquid praedictorum exprimatur non est vis, quia quod de vno 
+      <lb ed="#L" n="32"/>dicetur, de alio similiter debet intelligi. Circa quaestionem 
+      pro<lb ed="#L" n="33" break="no"/>cedetur sic, quia primo ponetur quaedam opinio quae non vide 
+      <lb ed="#L" n="34"/>tur vera, &amp; secundo ponetur illud quod credo verius. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e234">
+               <lb ed="#L" n="35"/>
+               <!--6--> QUANTVM ad primum sciendum est quod quidam 
+      di<lb ed="#L" n="36" break="no"/>cunt quoe votum vel iuramentum promissorium factum ex motius 
+      <lb ed="#L" n="37"/>illicito, quod est conditio inhonesta, sicut in proposita quaestio 
+      <lb ed="#L" n="38"/>ne, stante conditione est obligatorium &amp; implendum, licet an 
+      <lb ed="#L" n="39"/>tequam conditio extet ille qui vouit vel iurauit debet mutare 
+      <lb ed="#L" n="40"/>propositum &amp; velle conditionem non impleri, qua non imple 
+      <lb ed="#L" n="41"/>ta non tenetur ad votum, quia non simpliciter vouit, sed sub con 
+      <lb ed="#L" n="42"/>ditione. Probant autem conclusionem principalem sic promit 
+      <lb ed="#L" n="43"/>tens aliquid bonum &amp; licitum sub conditione, illa conditioni 
+      <lb ed="#L" n="44"/>stante tenetur promissum implere, &amp; sic est in proposito, quia 
+      <lb ed="#L" n="45"/>promittitur peregrinatio quae est de se bona &amp; licita &amp; 
+      nat<lb ed="#L" n="46" break="no"/>fieri ad honorem dei, nec ad aliud promittitur, quia illa 
+      con<lb ed="#L" n="47" break="no"/>ditio inhonesta quae apponitur non cadit sub voto, nec sub 
+      iura<lb ed="#L" n="48" break="no"/>mento, quia non promittitur, nec iuratur, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e269">
+               <lb ed="#L" n="49"/>
+               <!--7--> Notandum tamen est (vt dicunt) quod in implendo tale 
+      vo<lb ed="#L" n="50" break="no"/>tum vel iuramentum est duo considerare, scilicet illud quod im 
+      <lb ed="#L" n="51"/>pletur &amp; causam seu motiuum quare impletur, modo in propo 
+      <lb ed="#L" n="52"/>sito illud quod impletur est bonum in se. Causa autem vel mo 
+      <lb ed="#L" n="53"/>tiuum quare impletur, non debet esse illa conditio inhonesta, 
+      sci<lb ed="#L" n="54" break="no"/>licet quia furtum commisit vel adulterium, vel homicidium per 
+      <lb ed="#L" n="55"/>petrauit, quia nullum tale obtinetur a deo, eo quod deus non es 
+      <lb ed="#L" n="56"/>author mali culpae, sed solum debet impleri, quia obligauit si 
+      <lb ed="#L" n="57"/>ad id quod de se est bonum &amp; natum fieri ad honorem dei, quam 
+      <lb ed="#L" n="58"/>uis conditio adiecta fuit inhonesta. Et per hoc respondent ac 
+      <lb ed="#L" n="59"/>argumentum in oppositum dicentes quod turpe votum est mu 
+      <lb ed="#L" n="60"/>tandum, quia si sit turpe ex eo quod promittitur nullo modo 
+      <lb ed="#L" n="61"/>est implendum, vt si quis voueret se facturum adulterium, nullo modo 
+      <lb ed="#L" n="62"/>deberet implere, si autem sit turpe ex conditione apposita, tuna 
+      <lb ed="#L" n="63"/>mutandum est, sic quod antequam conditio impleatur, homo de 
+      <lb ed="#L" n="64"/>bet velle &amp; dare operam quod non impleatur. Et si impleta fue 
+      <lb ed="#L" n="65"/>rit non debet complere votum ex illo motiuo inhonesto, quia 
+      <lb ed="#L" n="66"/>illud quod vouit est licitum &amp; ordinabile ad honorem dei. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e313">
+               <lb ed="#L" n="67"/>
+               <!--8--> Ista autem responsio videtur implicare opposita &amp; 
+      repugnan<lb ed="#L" n="68" break="no"/>tia sibi inuicem in hoc quod dicunt quod tale votum non est obli 
+      <lb ed="#L" n="69"/>gatorium non extante conditione, sed solum ea extante, &amp; quod 
+      <lb ed="#L" n="70"/>impleta conditione votum non est implendum ex illo motiuo 
+      <lb ed="#L" n="71"/>scilicet quia conditio extitit, haec enim duo non stant simul, vi 
+      <lb ed="#L" n="72"/>videtur. Quod patet dupliciter. Primo, quia illud propter quod 
+      <lb ed="#L" n="73"/>in nullo debet impleri votum nihil penitus facit ad hoc quod 
+      <lb ed="#L" n="74"/>votum sit obligatorium, sed propter conditionem inhonestam 
+      <lb ed="#L" n="75"/>quod extitit, nullo modo debet impleri votum, vt dicunt isti, 
+      erg<lb ed="#L" n="76" break="no"/>illa conditio extans nihil facit ad hoc quod votum esset obliga 
+      <lb ed="#L" n="77"/>torium, cuius oppositum ipsi dicebant. Item refert facere 
+      pere<lb ed="#L" n="78" break="no"/>grinationem &amp; teneri ad eam faciendam ex praecedenti obliga 
+      <lb ed="#L" n="79"/>tione. Primum enim, scilicet facere gratis peregrinationem 
+      ali<lb ed="#L" n="80" break="no"/>quam licitum est ei qui prius fecit tale votum sub conditione 
+      in<lb ed="#L" n="81" break="no"/>honesta, quia impleta conditione potest, si vult gratis vel ex 
+      no<lb ed="#L" n="82" break="no"/>uo voto facere peregrinationem ad honorem dei, Sed hoc non 
+      <!--00565.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>quaeritur, sed solum quaeritur vtrum ad eam faciendam 
+      tenea<lb ed="#L" n="84" break="no"/>tur ex obligatione praecedentis voti facti sub conditione 
+      inho<lb ed="#L" n="85" break="no"/>nesta. Et si tenetur (vt isti dicunt) impossibile est quod implea 
+      <lb ed="#L" n="86"/>votum nisi faciat peregrinationem ex malo motiuo, scilicet quia 
+      <lb ed="#L" n="87"/>prosperatus est in furto vel in aliquo tali. Quod patet, quia secum 
+      <lb ed="#L" n="88"/>dum istos tale votum non obligat nisi extante conditione, erg. 
+      <lb ed="#L" n="89"/>non fit ex obligatione, nisi quia conditio extitit, si ergo talis fa 
+      <lb ed="#L" n="90"/>cit peregrinationem, quia obligatus est, sequitur quod faciat eam 
+      <lb ed="#L" n="91"/>quia conditio extitit, videlicet quia prosperatus est in furto ex 
+      <lb ed="#L" n="92"/>cuius furti euentu tota obligatio consurgit in promissione, &amp; 
+      <lb ed="#L" n="93"/>sic patet quod illa duo dicta non stant simul. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e381">
+               <lb ed="#L" n="94"/>
+               <!--9--> NVNC RESTAT dicendum illud quod videtur 
+      ve<lb ed="#L" n="95" break="no"/>rius de quaestione. Circa quod fient tria, quia probabitur prime 
+      <lb ed="#L" n="96"/>quod nullum votum conditionatum, nulla etiam promissio con 
+      <lb ed="#L" n="97"/>ditionata est obligatoria nisi stante conditione, quantum est ex 
+      <lb ed="#L" n="98"/>natura voti vel promissionis. Secundo ponetur quaedam condi 
+      <lb ed="#L" n="99"/>tio de conditione apposita in promissione vel voto, &amp; tertio re 
+      <lb ed="#L" n="100"/>spondebitur ad quaestionem. Primum patet, sic promissio vel 
+      <lb ed="#L" n="101"/>obligatio quae totaliter consurgit ex mera voluntate promit 
+      <lb ed="#L" n="102"/>tentis, non excedit limites voluntatis, sed votum &amp; quaecunque 
+      <lb ed="#L" n="103"/>promissio mere voluntaria in obligatione consurgit totaliter 
+      <lb ed="#L" n="104"/>ex mera voluntate promittentis, ergo non excedit limites 
+      vo<lb ed="#L" n="105" break="no"/>luntatis. Excederet autem si obligaret non extante conditione, 
+      <lb ed="#L" n="106"/>quia non fuit voluntas promittentis se obligare nisi extante 
+      <lb ed="#L" n="107"/>conditione, quare &amp;c. Dico autem ex natura promissionis, quia 
+      <lb ed="#L" n="108"/>in promissionibus, obligationibus, legatis, contractibus, quae 
+      <lb ed="#L" n="109"/>sunt hominis ad hominem iura possunt ponere vel tollere obli 
+      <lb ed="#L" n="110"/>gationem in poenam delinquentis, &amp; in fauorem innocentis seu 
+      <lb ed="#L" n="111"/>in fauorem status vel contractus, verbi gratia de conditione 
+      im<lb ed="#L" n="112" break="no"/>possibili vel inhonesta quae non est contra naturam matrimo 
+      <lb ed="#L" n="113"/>nij, quae habetur pro non adiecta, &amp;t stat matrimonium, vt ex 
+      <lb ed="#L" n="114"/>tra de conditionibus appositis in matrimonio capit. vltimo. Ei 
+      <lb ed="#L" n="115"/>similiter in legatis conditio mala habetur pro non adiecta, vi 
+      <lb ed="#L" n="116"/>allegatum est in arguendo. Sed hic occurrit vnum magnum 
+      <lb ed="#L" n="117"/>dubium circa matrimonium, quia secundum iura matrimonium 
+      <lb ed="#L" n="118"/>est nullum vbi deficit consensus, si ergo volens contrahere 
+      ma<lb ed="#L" n="119" break="no"/>trimonium cum aliqua addit conditionem inhonestam, nec 
+      ali<lb ed="#L" n="120" break="no"/>quo modo intendit consentire nisi conditione extante, tunc con 
+      <lb ed="#L" n="121"/>ditione non extante nullus est consensus, &amp; si nullus est 
+      consen<lb ed="#L" n="122" break="no"/>sus nullum est matrimonium. Qualiter ergo potuit per ius 
+      po<lb ed="#L" n="123" break="no"/>sitiuum determinari quod talis conditio haberetur pro non ad 
+      <lb ed="#L" n="124"/>iecta, &amp; nihilominus quod staret matrimonium? Item conditio 
+      <lb ed="#L" n="125"/>impossibilis adiecta secundum communem modum loquendi 
+      <lb ed="#L" n="126"/>consueuit magis exprimere dissensum quam consensum, sicul 
+      <lb ed="#L" n="127"/>volens negare alicui quod petit dicit dabo tibi quod petis, si 
+      <lb ed="#L" n="128"/>caelum tetigeris in quo magis innuit suum dissensum ad 
+      dan<lb ed="#L" n="129" break="no"/>dum quam consensum, qualiter ergo contrahens cum aliqua 
+      <lb ed="#L" n="130"/>conditione impossibili adiecta consentit, &amp; si non consentis 
+      <lb ed="#L" n="131"/>qualiter stabit vel valebit contractus matrimonij, ego non 
+      vi<lb ed="#L" n="132" break="no"/>deo. Et ideo peritioribus solutionem harum dubitationum 
+      di<lb ed="#L" n="133" break="no"/>mitto, &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e472">
+               <lb ed="#L" n="134"/>
+               <!--10--> Quantum ad secundum notandum est quod in quaestione 
+      <lb ed="#L" n="135"/>proposita non est opus distinguendi inter votum simplex &amp; vo 
+      <lb ed="#L" n="136"/>tum conditionatum, quia termini quaestionis hoc excludunt, eo 
+      <lb ed="#L" n="137"/>quod quaestio solum procedit de voto conditionato, nec est opu 
+      <lb ed="#L" n="138"/>distinguendi de conditione honesta, &amp; inhonesta propter 
+      ean<lb ed="#L" n="139" break="no"/>dem causam, sed de conditione inhonesta distinguendum est, 
+      <lb ed="#L" n="140"/>quia quaedam est contra naturam contractus, quaedam vero 
+      <lb ed="#L" n="141"/>non, sicut contra naturam matrimonij est quod aliqua sit 
+      vxo<lb ed="#L" n="142" break="no"/>ad tempus &amp; non semper, eo quod matrimonium est vinculum 
+      <lb ed="#L" n="143"/>perpetuum viri &amp; vxoris quamdiu viuunt, furtum autem vel ali 
+      <lb ed="#L" n="144"/>quid huiusmodi non est contra naturam matrimonij, &amp; ideo 
+      <lb ed="#L" n="145"/>contrahens cum aliqua sub conditione, vel modo quod possit 
+      <lb ed="#L" n="146"/>eam dimittere quando voluerit, addit conditionem vel modum 
+      <lb ed="#L" n="147"/>contra naturam matrimonij, qui autem contrahit cum aliqua 
+      <lb ed="#L" n="148"/>sub conditione si furto eius consentiat addit conditionem 
+      in<lb ed="#L" n="149" break="no"/>honestam quae tamen non est contra naturam matrimonij. Hoc 
+      <lb ed="#L" n="150"/>autem generaliter est verum quod conditio quae est contra 
+      na<lb ed="#L" n="151" break="no"/>turam contractus tollit contractum &amp; facit ipsum esse nullum, 
+      <lb ed="#L" n="152"/>quia includit oppositionem ad contractum. Conditio autem 
+      <lb ed="#L" n="153"/>inhonesta quae est contra naturam contractus promissionis vel 
+      <lb ed="#L" n="154"/>obligationis potest esse inhonesta dupliciter. Quia quandoque 
+      <lb ed="#L" n="155"/>est inhonesta &amp; illicita, non solum in se, sed etiam in 
+      habitudi<lb ed="#L" n="156" break="no"/>ne ad illud quod promittitur, verbi gratia, si quis dicit sic, pro 
+      <lb ed="#L" n="157"/>mitto deo quod si possum perpetrare adulterium vel 
+      homici<lb ed="#L" n="158" break="no"/>dium, ego in gratiarum actionem, faciam dici missam 
+      solen<lb ed="#L" n="159" break="no"/>nem, quandoque vero est inhonesta in se, sed non in 
+      habitu<lb ed="#L" n="160" break="no"/>dine ad promissum, vt si quis dicat sic, promitto deo quod sij 
+      <lb ed="#L" n="161"/>contingat me peccare ieiunabo, vt dimittatur mihi peccatum; 
+      <lb ed="#L" n="162"/>commissum. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e540">
+               <lb ed="#L" n="163"/>
+               <!--11--> His visis dicendum est quantum ad secundum de 
+      quaestio<lb ed="#L" n="164" break="no"/>ne proposita quod si conditio inhonesta adiecta voto sit contra 
+      <!--00566.xml-->
+      <pb ed="#L" n="246-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>naturam ei us quod per votum promittitur votum non est 
+      obli<lb ed="#L" n="2" break="no"/>gatorium, quia vt dictum fuit, conditio quae est contra naturam 
+      <lb ed="#L" n="3"/>promissionis vel contractus tollit obligationem propter 
+      oppo<lb ed="#L" n="4" break="no"/>sitionem quam habet ad contractum, si autem conditio inhone 
+      <lb ed="#L" n="5"/>sta non sit contra naturam contractus si sit illicita &amp; inhonesta 
+      <lb ed="#L" n="6"/>non solum in se, sed in habitudine ad promissum tunc votum 
+      <lb ed="#L" n="7"/>non est obligatorium, si vero sit honesta &amp; illicita in se &amp; non in 
+      <lb ed="#L" n="8"/>habitudine ad promissum tunc extante conditione votum est 
+      <lb ed="#L" n="9"/>obligatorium. Et haec duo patent duabus rationibus. Prima ta 
+      <lb ed="#L" n="10"/>lis est, votum vel iuramentum non potest obligare ad aliquid il 
+      <lb ed="#L" n="11"/>licitum, quia nec votum, nec iuramentum possunt esse vinculum 
+      <lb ed="#L" n="12"/>iniquitatis, nec aliquis potest obligari ad id quod est contra bo 
+      <lb ed="#L" n="13"/>nos mores, sed vbi est conditio inhonesta &amp; illicita in se &amp; in ha 
+      <lb ed="#L" n="14"/>bitudine ad id quod promittitur tunc promissum est illicitum, 
+      <lb ed="#L" n="15"/>quando autem conditio est inhonesta in se non tamen in 
+      habitu<lb ed="#L" n="16" break="no"/>dine ad illud quod promittitur tunc promissum non est illicitum 
+      <lb ed="#L" n="17"/>ergo in primo casu votum non est obligatorium, sed solum in 
+      <lb ed="#L" n="18"/>secundo. Maior de se patet. probatio minoris, quia actus quamuis 
+      <lb ed="#L" n="19"/>de se sit bonus redditur tamem illicitus &amp; vitiosus ex mala circum 
+      <lb ed="#L" n="20"/>stantia ipsum informante, si autem sit mala conditio, non tame 
+      <lb ed="#L" n="21"/>informet propter eam non redditur actus vitiosus si alias de si 
+      <lb ed="#L" n="22"/>sit bonus, verbi gratia dare eleemosynam propter vanam glo 
+      <lb ed="#L" n="23"/>riam est actus malus propter malam circunstantiam informantem 
+      <lb ed="#L" n="24"/>scilicet propter malum finem propter quem fit, sed dare eleemo 
+      <lb ed="#L" n="25"/>synam supposito quod homo sit in peccato mortali non est malum 
+      <lb ed="#L" n="26"/>quia ista circunstantia est concomitans, sed non est informani 
+      <lb ed="#L" n="27"/>actum, quia ex peccato mortali in quo est non mouetur ad dan 
+      <lb ed="#L" n="28"/>dum eleemosynam vt amplius peccet, sed ex pietate. Quando 
+      <lb ed="#L" n="29"/>autem circunstantia est mala in se &amp; in ordine ad illud quod pro 
+      <lb ed="#L" n="30"/>mittitur tunc est mala &amp; informat vt mala, si autem sit mala in 
+      <lb ed="#L" n="31"/>se &amp; ordo eius ad promissum non sit malus tunc est solum 
+      ma<lb ed="#L" n="32" break="no"/>la in se, sed non informat actum, quia ordo eius ad actum est in 
+      <lb ed="#L" n="33"/>formatio actus, ergo in primo casu actus est illicitus non autem 
+      <lb ed="#L" n="34"/>in secundo, &amp; sic patet minor, sequitur ergo conclusio. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e629">
+               <lb ed="#L" n="35"/>
+               <!--12--> Secunda ratio talis est, nulla promissio obligat nisi ille cu 
+      <lb ed="#L" n="36"/>fit promissio eam acceptet, quia obligatio cuiuslibet contractus 
+      <lb ed="#L" n="37"/>promissorij dependet ex mutua voluntate sicut habetur ff. 
+      ver<lb ed="#L" n="38" break="no"/>bo. obliga. &amp; in pluribus aliis locis, vbi autem est conditio illicit. 
+      <lb ed="#L" n="39"/>&amp; ordo eius ad promissum illicitus certum est quod non 
+      acce<lb ed="#L" n="40" break="no"/>ptatur a deo cui fit votum, deus enim odit iniquitatem vt habe 
+      <lb ed="#L" n="41"/>tur Iudith quinto capitulo, tale autem votum si sit 
+      conditiona<lb ed="#L" n="42" break="no"/>tum iniquum est, &amp; ideo tale votum deus non acceptat, sed 
+      po<lb ed="#L" n="43" break="no"/>tius detestatur, ergo tale votum non est obligatorium, si autem 
+      <lb ed="#L" n="44"/>ordo conditionis inhonestae ad illud quod promittitur non sit 
+      <lb ed="#L" n="45"/>malus non reddit promissum illicitum, nec inacceptabile a dec 
+      <lb ed="#L" n="46"/>in suo genere &amp; ideo manet obligatorium. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e660">
+               <lb ed="#L" n="47"/>
+               <!--13--> AD RATIONES in oppositum dicendum est quod 
+      <lb ed="#L" n="48"/>votum factum sub conditione inhonesta in se &amp; in ordine 
+      a<lb ed="#L" n="49" break="no"/>promissum non potest impleri sine detrimento salutis, quia id 
+      <lb ed="#L" n="50"/>quod promissum est reddit illicitum ex circunstantia informar 
+      <lb ed="#L" n="51"/>te in vouendo &amp; soluendo, quia si quis soluat vt obligatus ei 
+      <lb ed="#L" n="52"/>conditione, &amp; conditio vt informat sit illicita oportet quod 
+      sol<lb ed="#L" n="53" break="no"/>uat ex motiuo illicito sicut patet in proposita quaestione, si qui 
+      <lb ed="#L" n="54"/>voueat se peregrinaturum ad sanctum Iacobum hoc motiuo v 
+      <lb ed="#L" n="55"/>prosperetur in furto, adulterio, vel homicidio &amp; hoc motiuum 
+      <lb ed="#L" n="56"/>ponit sub conditione qua extante vult obligari &amp; non alias, si 
+      <lb ed="#L" n="57"/>faciat quod promisit ex vi promissionis oportet quod faciat ex 
+      <lb ed="#L" n="58"/>motiuo illicito, &amp; istud est illicitum &amp; contra salutem, &amp; ideo 
+      <lb ed="#L" n="59"/>non est faciendum. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e693">
+               <lb ed="#L" n="60"/>
+               <!--14--> Ad secundum dicendum per interemptionem minoris, quia 
+      <lb ed="#L" n="61"/>vbi est conditio inhonesta in se &amp; in habitudine ad promissum 
+      <lb ed="#L" n="62"/>quamuis promissum sit de se bonum, vitiatur tamen per 
+      con<lb ed="#L" n="63" break="no"/>ditionem inhonestam informantem modo quo dictum est. Ei 
+      <lb ed="#L" n="64"/>cum dicitur quod ipsa transit &amp; malitia eius antequam votum 
+      <lb ed="#L" n="65"/>impleatur, non valet, quia dato quod transierit in actu exteriore 
+      <lb ed="#L" n="66"/>dexercito, remanet tamen in voluntate si ex ea tanquam ex mo 
+      <lb ed="#L" n="67"/>tiuo fiat actus sequens, sicut necesse est si solum ea extante vo 
+      <lb ed="#L" n="68"/>tum sit obligatorium, &amp; ideo causat in actu malitiam moralem. 
+      </p>
+            <p xml:id="jsnvu6-e202159-d1e718">
+               <lb ed="#L" n="69"/>
+               <!--15--> Quod autem additur tertio loco quod conditio inhonest. 
+      <lb ed="#L" n="70"/>habetur pro non adiecta in donationibus &amp; in matrimonio, &amp; 
+      <lb ed="#L" n="71"/>in legatis, illud est contra opinionem primam quae dicit quod 
+      <lb ed="#L" n="72"/>eonditione non extante votum non est obligatorium, nisi ipsi respon 
+      <lb ed="#L" n="73"/>deant, sicut dictum est in corpore solutionis, scilicet quod ex natur: 
+      <lb ed="#L" n="74"/>voti vel promissionis nullum votum conditionatum est 
+      obli<lb ed="#L" n="75" break="no"/>gatorium nisi extante conditione, quamuis in contractibus qui 
+      <lb ed="#L" n="76"/>dunt inter homines iura sua auctoritate possint tollere vel po 
+      <lb ed="#L" n="77"/>nere obligationem in fauorem ceclesiae matrimonij &amp; statu 
+      <lb ed="#L" n="78"/>quamuis de matrimonio suprâ motae sint aliquae dubitationes 
+      <lb ed="#L" n="79"/>nos autem querimus de obligatione promissionis vel voti qua 
+      <lb ed="#L" n="80"/>fit deo quantum ad ea quae pertinent ad meram naturam pro 
+      <lb ed="#L" n="81"/>missionis, &amp; ideo nihil ad propositum de his quae iura inter 
+      ho<lb ed="#L" n="82" break="no"/>mines voluntarie statuunt. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

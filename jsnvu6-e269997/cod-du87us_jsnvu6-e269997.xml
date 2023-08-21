@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="327-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e269997"><!-- l4d35prae -->
+            <head xml:id="jsnvu6-e269997-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e269997-d1e103">
+               <lb ed="#L" n="4"/>Sententia huius distinctionis XXXV. in 
+      <lb ed="#L" n="5"/>generali &amp; speciali. 
+      
+      <lb ed="#L" n="6"/>HOc etiam notandum. Superius determinauit ma 
+      <lb ed="#L" n="7"/>gister de impotentia coeundi quae actum 
+      matri<lb ed="#L" n="8" break="no"/>monij impedit: hic determinat de separatione 
+      <lb ed="#L" n="9"/>thori propter fornicationem quae similiter actum 
+      <lb ed="#L" n="10"/>matrimonij tollit vinculo matrimonij durante. 
+      <lb ed="#L" n="11"/>S 
+      <lb ed="#L" n="12"/>Et, diuiditur in duas. Primo ostendit quo modo adulterium 
+      <lb ed="#L" n="13"/>sequens, actum matrimonij tollit, vinculo matrimonij 
+      duran<lb ed="#L" n="14" break="no"/>te. Secundo inquirit an adulterium praecedens matrimonium, 
+      <lb ed="#L" n="15"/>&amp; matrimoniale vinculum tollat. Secunda ibi, Solet etiam 
+      <lb ed="#L" n="16"/>quaeri. Prima in quatuor. Primo ostendit quod vterque coniugum 
+      <lb ed="#L" n="17"/>potest alterum dimittere propter fornicationem quando ipsie 
+      <lb ed="#L" n="18"/>est a fornicatione immunis. Secundo ostendit quod hoc non 
+      <lb ed="#L" n="19"/>potest fieri quando ipse simili sententiae subiacet. Tertio osten 
+      <lb ed="#L" n="20"/>dit quod neutri coniugum post separationem factam licet alteri 
+      <lb ed="#L" n="21"/>nubere propter matrimonij vinculum remanens. Quarro 
+      in<lb ed="#L" n="22" break="no"/>quirit vtrum propter fornicationem dimittere vxorem fit 
+      ne<lb ed="#L" n="23" break="no"/>cessitas, an liceat eam sibi retinere. Secunda ibi, Si vero 
+      quae<lb ed="#L" n="24" break="no"/>ritur. Tertia ibi, Si quis autem fornicationis. Quarta ibi, dicit 
+      <lb ed="#L" n="25"/>tamen Ioannes Chrysostomus. 
+      </p>
+            <p xml:id="jsnvu6-e269997-d1e153">
+               <lb ed="#L" n="26"/>
+               <!--2--> IN SPECIALI autem sic procedit magister, &amp; 
+      pro<lb ed="#L" n="27" break="no"/>ponit primo quod sicut licet viro causa fornicationis vxorem 
+      di<lb ed="#L" n="28" break="no"/>mittere, ita eadem causa licet vxori virum dimittere, quod 
+      au<lb ed="#L" n="29" break="no"/>ctoritatibus probat. Postea dicit quod illud dictum sic 
+      intelligi<lb ed="#L" n="30" break="no"/>tur, quod ille qui dimittit simili crimini non subiaceat, adultera 
+      <lb ed="#L" n="31"/>autem adulterum dimittere non potest causa fornicationis 
+      <lb ed="#L" n="32"/>quod auctoritatibus probat. Postea dicit quod si causa fornicatio 
+      <lb ed="#L" n="33"/>nis fuerit facta separatio, non potest mulier ad aliam copulam 
+      <lb ed="#L" n="34"/>coniugalem transire: potest autem reconciliari &amp; cohabitare 
+      fi<lb ed="#L" n="35" break="no"/>cut prius, si vir dimissam reuocare voluerit, quod 
+      auctorirati<lb ed="#L" n="36" break="no"/>bus probat. Postea inducit plures auctoritates quae dicunt quod si 
+      <lb ed="#L" n="37"/>vir sciat vxorem suam deliquisse, &amp; non agat mulier poenitentiam 
+      <lb ed="#L" n="38"/>sed in fornicatione permaneat, &amp; hoc patiatur vir cum ipsa 
+      <lb ed="#L" n="39"/>manems &amp; cohabitans, reus est &amp; particeps husus peccati, &amp; ideo 
+      <lb ed="#L" n="40"/>eam retinere non debet. Si vero muller a peccato recesserit, &amp; 
+      <lb ed="#L" n="41"/>per poenirentiam illud purgauerit, poterit viro reconciliari, &amp; 
+      <lb ed="#L" n="42"/>vir etiam videtur talem recipere debere, sed non saepe¬ Vltimo 
+      <lb ed="#L" n="43"/>dicit quod non potest aliquis in coniugium copulare quam prius 
+      <lb ed="#L" n="44"/>per adulterium polluit, quod auctoritatibus probat. Oblicit 
+      <lb ed="#L" n="45"/>tamen contra hoc auctoritates Augustini, &amp; soluit dans 
+      illa<lb ed="#L" n="46" break="no"/>rum auctoritatum sanam intelligentiam. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

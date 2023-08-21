@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="195-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e160420"><!-- l3d7q2 -->
+            <head xml:id="jsnvu6-e160420-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e160420-Hd1e103" type="question-title">Utrum haec propositio si vera, homo fa-
+      ctus est Deus</head>
+            <p xml:id="jsnvu6-e160420-d1e106">
+      <!--00464.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>QVAISTIO 11 
+      <lb ed="#L" n="84"/>a, hon 
+      <lb ed="#L" n="85"/>Vtrum haec propositio si vera, homo 
+      fa<lb ed="#L" n="86" break="no"/>ctus est Deus. 
+      <lb ed="#L" n="87"/>Thom. 3. q. 16. ar. 7. 
+    </p>
+            <p xml:id="jsnvu6-e160420-d1e124">
+               <lb ed="#L" n="88"/>SECVNDO quaeritur, vtrum haec propositio sit 
+      <lb ed="#L" n="89"/>vera, homo est factus Deus. Et videtur quod sic: 
+      <lb ed="#L" n="90"/>quia ista Deus factus est homo conuertitur in 
+      <lb ed="#L" n="91"/>hanc homo factus est Deus, sed prima est vera. 
+      <lb ed="#L" n="92"/>vt patet ex praecedenti quaestione, ergo &amp; secun 
+      <lb ed="#L" n="93"/>da haec, scilicet homo factus est Deus. 
+      </p>
+            <p xml:id="jsnvu6-e160420-d1e140">
+               <lb ed="#L" n="94"/>
+               <!--2--> Item omne quod nunc est aliquid quod non fuit prius 
+      po<lb ed="#L" n="95" break="no"/>test dici factum illud. Sed homo nunc est Deus, &amp; non semper 
+      <lb ed="#L" n="96"/>fuit Deus, ergo vere potest dici quod homo factus est Deus. 
+      </p>
+            <p xml:id="jsnvu6-e160420-d1e152">
+               <lb ed="#L" n="97"/>
+               <!--3--> Item in incarnatione factio, vel mutatio magis attribuitur 
+      <lb ed="#L" n="98"/>naturae humanae quam diuinae. Si ergo illa verificatur Deus 
+      <lb ed="#L" n="99"/>factus est homo, multo magis (vt videtur) potest ista verificari 
+      <lb ed="#L" n="100"/>homo factus est Deus. 
+      </p>
+            <p xml:id="jsnvu6-e160420-d1e165">
+               <lb ed="#L" n="101"/>
+               <!--4--> IN CONTRARIVM arguitur: quia aut homo 
+      <lb ed="#L" n="102"/>tenetur pro natura, aut pro persona. Si pro natura non potest 
+      <lb ed="#L" n="103"/>verificari: quia illa non est facta Deus, Si pro persona idem 
+      se<lb ed="#L" n="104" break="no"/>quitur: quia persona Christi hominis non est facta Deus, sed 
+      <lb ed="#L" n="105"/>semper fuit Deus, igitur &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e160420-d1e181">
+               <lb ed="#L" n="106"/>
+               <!--5--> RESPONSIO. Si ly factus esset proprie determinatio 
+      <lb ed="#L" n="107"/>compositionis, tunc ista esset vera &amp; propria homo est factus Deus 
+      <lb ed="#L" n="108"/>quia per incarnationem factum est quod haec sit vera homo est Deus, 
+      <lb ed="#L" n="109"/>sicut ista Deus est homo. Item si lyfactus est diuideretur, ita vt 
+      <lb ed="#L" n="110"/>ly factus esset determinatio subiecti, &amp; ly est esset copula 
+      ver<lb ed="#L" n="111" break="no"/>balis, adhuc ista posset magis verificari homo factus est Deus 
+      <lb ed="#L" n="112"/>quam ista Deus factus est homo sub hoc sensu, homo factus est 
+      <lb ed="#L" n="113"/>deus, id est, ille qui factus est homo, est deus quod est verum, quia 
+      <lb ed="#L" n="114"/>filius dei qui factus est homo est deus, ita o esset praedicta 
+      im<lb ed="#L" n="115" break="no"/>plicatio circa subiectum, sed illa deus factus est homo, non posset 
+      <lb ed="#L" n="116"/>isto modo verificari: quia sensus esset, ille qui factus est deus est 
+      <lb ed="#L" n="117"/>homo, &amp; haec est falsa propter falsam implicationem circa 
+      subie<lb ed="#L" n="118" break="no"/>ctum. Sed quia neuter istorum modorum est proprius; vt dictum 
+      <lb ed="#L" n="119"/>fuit in praeced. quaest. ideo &amp; si secundum praedictos modos ista 
+      <lb ed="#L" n="120"/>homo factus est deus posset dici vera, non tamen propria. 
+      </p>
+            <p xml:id="jsnvu6-e160420-d1e218">
+               <lb ed="#L" n="121"/>
+               <!--6--> Secundum autem tertium modum, qui solus est proprius 
+      prae<lb ed="#L" n="122" break="no"/>dicta propositio non potest verificari propter duo. Primum est, 
+      <lb ed="#L" n="123"/>quia quando alicui attribuitur fieri non absolute, sed cum 
+      deter<lb ed="#L" n="124" break="no"/>minatione oportet quod illud praeexistat saltem secundum 
+      natu<lb ed="#L" n="125" break="no"/>ram factioni, vel determinationi: vt patet in ambobus modis 
+      im<lb ed="#L" n="126" break="no"/>mediate dictis. Sed homo non praeexistit, nec natura, nec 
+      tem<lb ed="#L" n="127" break="no"/>pore ei quod est hominem fieri, vel esse deum: quia licet 
+      humani<lb ed="#L" n="128" break="no"/>tas fuerit prius ordine naturae, quam vnita verbo, tamen non prius 
+      <lb ed="#L" n="129"/>fuit homo quod est nomen suppositi, quam fuerit hominem esse 
+      <lb ed="#L" n="130"/>deum, sed simul: propter quod ista est falsa homo factus est deus 
+      <lb ed="#L" n="131"/>Item omnis propositio vera de praeterito fuit aliquando vera de 
+      <lb ed="#L" n="132"/>praesenti. Sed ista homo factus est deus, est de praeterito, cui 
+      re<lb ed="#L" n="133" break="no"/>spondet ista homo fit deus tanquam de praesenti. Sed ista nunquam 
+      <lb ed="#L" n="134"/>fuit vera pro aliquo praesenti homo fit deus: ergo ista quae est de 
+      <lb ed="#L" n="135"/>praeterito homo factus est deus non est vera, quod autem ista nur 
+      <lb ed="#L" n="136"/>quam fuerit vera homo fit deus: patet quia quod homo est nomen 
+      <lb ed="#L" n="137"/>suppositi, sed nullum suppositum factum est deus, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e160420-d1e260">
+               <lb ed="#L" n="138"/>
+               <!--7--> Ad primum argumentum dicendum qud ista Deus factus est 
+      <lb ed="#L" n="139"/>homo non conuertitur in hanc homo factus est Deus, sed in hanc 
+      <lb ed="#L" n="140"/>ille qui factus est homo est Deus, quae est vera sicut &amp; prima. 
+      </p>
+            <p xml:id="jsnvu6-e160420-d1e271">
+               <lb ed="#L" n="141"/>
+               <!--8--> Ad secundum dicendum per interemptionem minoris: quia 
+      <lb ed="#L" n="142"/>homo de quo verificatur nuc quod sit Deus, semper fuit Deus 
+      <lb ed="#L" n="143"/>quia, hoc est suppositum filij. 
+      </p>
+            <p xml:id="jsnvu6-e160420-d1e283">
+               <lb ed="#L" n="144"/>
+               <!--9--> Ad tertium dicendum quod licet in incarnatione non sit 
+      mu<lb ed="#L" n="145" break="no"/>tata natura diuina, sed humana, tamen quia nomen hominis 
+      <lb ed="#L" n="146"/>importat suppositum habens naturam humanam, &amp; illud non 
+      <lb ed="#L" n="147"/>praeexistit ei quod est fierideum; sicut esse Deum praeexisti ei 
+      <lb ed="#L" n="148"/>quod est fieri hominem ideo ista verificatur deus factus est h 
+      <lb ed="#L" n="149"/>mo, &amp; non illa homo factus est deus. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

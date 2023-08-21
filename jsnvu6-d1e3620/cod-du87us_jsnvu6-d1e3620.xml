@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="155-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3620"><!-- l2d28q5 -->
+            <head xml:id="jsnvu6-d1e3620-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-d1e3620-Hd1e103" type="question-title">Utrum sine speciali motione spiritus sancti potest homo se ad gratiam praeparare</head>
+            <p xml:id="jsnvu6-d1e3620-d1e106">
+               <lb ed="#L" n="35"/>QVAIITIO QVINTA. 
+      <lb ed="#L" n="36"/>Vtrum sine dono supernaturali ac 
+      motio<lb ed="#L" n="37" break="no"/>de speciali spiritus sancti, homo 
+      <lb ed="#L" n="38"/>possit se ad gratiam 
+      <lb ed="#L" n="39"/>praeparare. 
+      <lb ed="#L" n="40"/>Thom. 1. 2. 4. 109. ar. 6.
+    </p>
+            <p xml:id="jsnvu6-d1e3620-d1e122">
+               <lb ed="#L" n="41"/>QVINTO quaeritur, vtrum sine aliquo dono 
+      su<lb ed="#L" n="42" break="no"/>pernaturali, ac speciali motione spiritussancti 
+      <lb ed="#L" n="43"/>Thomo possit se ad gratiam praeparare: &amp; videtur 
+      <lb ed="#L" n="44"/>(quod non, quia deterior est mors spiritualis quam 
+      <lb ed="#L" n="45"/>i corporalis, sed homo mortuus corporaliter non 
+      <lb ed="#L" n="46"/>potest se praeparare ad vitam corporalem recuperandam, 
+      er<lb ed="#L" n="47" break="no"/>go nec mortuus spiritualiter per culpam potest se praeparare 
+      <lb ed="#L" n="48"/>ad spiritualem vitam, quae est per gratiam. 
+      </p>
+            <p xml:id="jsnvu6-d1e3620-d1e142">
+               <lb ed="#L" n="49"/>
+               <!--2--> Item Ioannis sexto dicitur, nemo potest venire ad me, 
+      <lb ed="#L" n="50"/>nisi Pater qui me misit, traxerit eum: si autem homo seipsum 
+      <lb ed="#L" n="51"/>praeparare posset, non oporteret quod ab alio traheretur, 
+      <lb ed="#L" n="52"/>quare, &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e3620-d1e156">
+               <lb ed="#L" n="53"/>
+               <!--3.--> CONTRA. Prouerbiorum 12. cap. dicitur, hominis est 
+      <lb ed="#L" n="54"/>animum praeparare, sed illud dicitur esse hominis, quod per se 
+      <lb ed="#L" n="55"/>metipsum potest: ergo videtur quod homo per seipsum possit 
+      <lb ed="#L" n="56"/>se ad aliquam gratiam praeparare. 
+      </p>
+            <p xml:id="jsnvu6-d1e3620-d1e169">
+               <lb ed="#L" n="57"/>
+               <!--4--> RESPONSIO. Quod homo possit se praeparare ad 
+      <lb ed="#L" n="58"/>gratiam sine nouo dono habituali sibi diuinitus infuso, omnes 
+      <lb ed="#L" n="59"/>concedunt, &amp; merito, quia si homo indigeret tali dono ad 
+      prae<lb ed="#L" n="60" break="no"/>parandum se ad gratiam per eandem rationem indigeret 
+      quo<lb ed="#L" n="61" break="no"/>dam alio dono ad praeparandum se ad iam dictum donum: 
+      nul<lb ed="#L" n="62" break="no"/>lum enim donum supernaturale datur, nisi praeparatis in 
+      ha<lb ed="#L" n="63" break="no"/>bentibus vsum liberi arbitrij, alioquin daretur omnibus, quod 
+      <lb ed="#L" n="64"/>non est verum. Hoc autem posito procederetur in infinitum 
+      <lb ed="#L" n="65"/>quum non sit maior ratio sistendi in vno quam in alio: erge 
+      <lb ed="#L" n="66"/>praeparatio ad gratiam non requirit aliquod habituale 
+      do<lb ed="#L" n="67" break="no"/>num, &amp; hoc omnes concedunt. 
+</p>
+            <p xml:id="jsnvu6-d1e3620-d1e198">
+               <lb ed="#L" n="68"/>Vtrum autem praeparatio ad gratiam requirat speciale ad 
+      <lb ed="#L" n="69"/>iutorium Dei animum mouentis &amp; inspirantis bonum 
+      propo<lb ed="#L" n="70" break="no"/>situm. Dicunt quidam quod sic, quia ordo finium est secun 
+      <lb ed="#L" n="71"/>dum ordinem agentium, semper enim supremum agens 
+      mo<lb ed="#L" n="72" break="no"/>uet ad vltimum finem. Inferius autem agens mouet ad finem 
+      <lb ed="#L" n="73"/>sub sine, sicut animus militis conuertitur ad quaerendam victo 
+      <lb ed="#L" n="74"/>rlam ex motione ducis exercitus: ad sequendum autem 
+      spe<lb ed="#L" n="75" break="no"/>ciale vexillum ex motione tribuni; sed supremum quod 
+      pos<lb ed="#L" n="76" break="no"/>sit esse in anima pro statu praesentis vitae est quod vniatur 
+      <lb ed="#L" n="77"/>Deo per gratiam, ergo ad hoc necessaria est specialis motio 
+      <lb ed="#L" n="78"/>Dei tanquam supremi agentis.
+    </p>
+            <p xml:id="jsnvu6-d1e3620-d1e224">
+      <!--00377.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>6. Sed istud non videtur, quia licet supremo agenti 
+      conue<lb ed="#L" n="80" break="no"/>niat ad vltimum finem perducere: nihil tamen prohibet 
+      infi<lb ed="#L" n="81" break="no"/>mum agens ad vltimum finem disponere, sicut videmus in 
+      <lb ed="#L" n="82"/>generationem hominis, in qua licet Deus introducat forman 
+      <lb ed="#L" n="83"/>vltimam, natura tamen ex propria virtute disponit 
+      mate<lb ed="#L" n="84" break="no"/>riam, similiter licet ad consequutionem gratiae 
+      requira<lb ed="#L" n="85" break="no"/>tur specialis motio Dei gratiam infundentis: si tamen 
+      gra<lb ed="#L" n="86" break="no"/>tia sit habituale donum, tamen ad eam potest homo se 
+      dispo<lb ed="#L" n="87" break="no"/>nere pure, vt videtur per liberum arbitrium absque tali 
+      spe<lb ed="#L" n="88" break="no"/>ciali motione. 
+      </p>
+            <p xml:id="jsnvu6-d1e3620-d1e253">
+               <lb ed="#L" n="89"/>
+               <!--7--> Ideo videtur aliter esse dicendum, quod si speciale 
+      adiu<lb ed="#L" n="90" break="no"/>torium vocetur immediata motio voluntatis a Deo, sine tal 
+      <lb ed="#L" n="91"/>potest homo se praeparare ad gratiam, quia illud bonum quod 
+      <lb ed="#L" n="92"/>habet ad gratiam immediatum ordinem videtur esse 
+      praepa<lb ed="#L" n="93" break="no"/>ratorium ad ipsam, sed bonum morale est huiusmodi. Quum 
+      <lb ed="#L" n="94"/>ergo in tale bonum possit homo sine immediata motione vo 
+      <lb ed="#L" n="95"/>luntatis a Deo, patet quod absque tali adiutorio potest se 
+      ho<lb ed="#L" n="96" break="no"/>mo ad gratiam praeparare. Si autem speciale adiutorium 
+      vo<lb ed="#L" n="97" break="no"/>cetur speciali prouidentia, quam Deus habet de his qui 
+      hae<lb ed="#L" n="98" break="no"/>reditatem capiunt salutis, sic praedestinati quandoque 
+      caden<lb ed="#L" n="99" break="no"/>tes a gratia per culpam, non possunt se ad gratiam 
+      prae<lb ed="#L" n="100" break="no"/>parare sine speciali Dei adiutorio, quia sicut sub ordine 
+      ge<lb ed="#L" n="101" break="no"/>neralis prouidentiae quam Deus habet de rebus, cadit 
+      quic<lb ed="#L" n="102" break="no"/>quid rem ipsam in finem promouet, sic sub ordine special 
+      <lb ed="#L" n="103"/>prouidentiae quam habet de electis, cadit quicquid eos 
+      pro<lb ed="#L" n="104" break="no"/>mouet ad salutem, siue si: exterior admonitio hominis, siue 
+      <lb ed="#L" n="105"/>aegritudo corporis, vel quicquid voluntatem excitat ad 
+      bo<lb ed="#L" n="106" break="no"/>num: &amp; si hoc vocetur gratia, sine tali gratia non potest 
+      ho<lb ed="#L" n="107" break="no"/>mo se praeparare ad gratiam. 
+      </p>
+            <p xml:id="jsnvu6-d1e3620-d1e299">
+               <lb ed="#L" n="108"/>
+               <!--8--> Ad primum argumentum dicendum quod mors spiritualis 
+      <lb ed="#L" n="109"/>peior est quam corporalis, quoad actum quem priuat, sed 
+      <lb ed="#L" n="110"/>melior est secundum aptitudinem quam in subiecto 
+      relin<lb ed="#L" n="111" break="no"/>quit, ratione cuius potest se disponere ad recuperandum 
+      vi<lb ed="#L" n="112" break="no"/>tam gratiae, non autem naturae. 
+      </p>
+            <p xml:id="jsnvu6-d1e3620-d1e316">
+               <lb ed="#L" n="113"/>
+               <!--9--> Ad secundum dicendum quod nullus venit vsque ad Deum, nisi 
+      <lb ed="#L" n="114"/>per gratiam quam solus Deus infundit si sit habituale donum: 
+      <lb ed="#L" n="115"/>tamen potest homo ad Deum tendere; praeparando seipsum 
+      <lb ed="#L" n="116"/>absque alio speciali adiutorio quam quod dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

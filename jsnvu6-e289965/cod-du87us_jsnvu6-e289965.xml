@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="352-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e289965"><!-- l4d47q1 -->
+            <head xml:id="jsnvu6-e289965-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e289965-Hd1e103" type="question-title">Utrum generale iudicium sit futurum</head>
+            <p xml:id="jsnvu6-e289965-d1e106">
+               <lb ed="#L" n="134"/>QJAISTIO PRIMA. 
+      <lb ed="#L" n="135"/>Vtrum generale iudicium sit futurum. 
+    </p>
+            <p xml:id="jsnvu6-e289965-d1e113">
+               <lb ed="#L" n="136"/>CIRCA istam distinctionem primo quaeritur, vtrum 
+      <lb ed="#L" n="137"/>generale iudicium sit futurum. Et videtur quod 
+      <lb ed="#L" n="138"/>non, quia executio sententiae non praecedit 
+      iudi<lb ed="#L" n="139" break="no"/>i cium, sed sententia omnium tam bonorum quam 
+      <lb ed="#L" n="140"/>malorum decedentium statim mandatur 
+      exe<lb ed="#L" n="141" break="no"/>E 
+      <lb ed="#L" n="142"/>cutioni, ergo isti amplius non iudicabuntur. 
+      </p>
+            <p xml:id="jsnvu6-e289965-d1e131">
+               <lb ed="#L" n="143"/>
+               <!--2.--> Item Naum primo dicitur quod non iudicabit deus bis in 
+      <lb ed="#L" n="144"/>idipsum, sed deus iudicat quemlibet in morte infligendo ei pro 
+      <lb ed="#L" n="145"/>meritis poenas vel praemia, ergo post hoc nullum erit iudicium. 
+      </p>
+            <p xml:id="jsnvu6-e289965-d1e143">
+               <lb ed="#L" n="146"/>
+               <!--3--> Item si iudicium generale esset futurum, tunc in eo omnes 
+      iudica<lb ed="#L" n="147" break="no"/>rentur alioquin non essent generale, sed non omnes, neque boni neq 
+      <lb ed="#L" n="148"/>mali iudicabuntur, ergo &amp;c. Minor probatur, &amp; primo de bonis 
+      <lb ed="#L" n="149"/>qa Mat. 19. dicit Christus Apostolis. Sedebitis super se. iudi. &amp;c. Ipsi 
+      <lb ed="#L" n="150"/>ergo iudicabunt, non ergo iudicabuntur. De malis autem dicitur in 
+      <lb ed="#L" n="151"/>Psalmo. Non resurgent impij in iudicio, neque peccatores &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e289965-d1e161">
+               <lb ed="#L" n="152"/>
+               <!--4.--> IN CONTRARIVM est quod dicitur Ioan. 5. Pro 
+      <lb ed="#L" n="153"/>cedent hi qui bona fecerunt in resurrectionem vitae, qui vero mala 
+      <lb ed="#L" n="154"/>egerunt, in resurrectionem iudicij. 
+      </p>
+            <p xml:id="jsnvu6-e289965-d1e172">
+               <lb ed="#L" n="155"/>
+               <!--5--> Ad idem est quod dicit Aug. 20. de ciu. dei quod tota ecclesia expecta 
+      <lb ed="#L" n="156"/>generale iudicium futurum, &amp; est articulus fidei, vt patet in symbo. 
+      </p>
+            <p xml:id="jsnvu6-e289965-d1e181">
+               <lb ed="#L" n="157"/>
+               <!--6--> RESPONSIO. Circa quaestionem istam videnda sunt 
+      <lb ed="#L" n="158"/>tria. Primum est principaliter quaerere, scilicet an generale iu 
+      <lb ed="#L" n="159"/>dicium est futurum. Secundum est qualiter fiet mentaliter an 
+      <lb ed="#L" n="160"/>vocaliter. Tertium est quando fiet et vbi.
+</p>
+            <p xml:id="jsnvu6-e289965-d1e194">
+      <!--00778.xml-->
+               <pb ed="#L" n="352-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QVANTVM ad primum tenendum est quod generale iu 
+      <lb ed="#L" n="2"/>dicium est futurum &amp; hoc magis propter authoritatem sacrae scriptu 
+      <lb ed="#L" n="3"/>rae quam propter aliam rationem, &amp; nihilominus potest hoc persuaderi 
+      <lb ed="#L" n="4"/>dupliciter. Primo sic, congruum est fieri finalem separationem 
+      bono<lb ed="#L" n="5" break="no"/>rum a malis &amp; ita fiet per generale iudicium, vt apparet Mat. 25. 
+      <lb ed="#L" n="6"/>vbi dicitur quod separabunt bonos a malis sicut separat pastor oues 
+      <lb ed="#L" n="7"/>ab hoedis, ergo congruum est quod tale iudicium fiat. Minor iam patet, 
+      <lb ed="#L" n="8"/>sed maior declaratur, nam secundum Aug. ratio quare mali 
+      permit<lb ed="#L" n="9" break="no"/>tuntur esse cum bonis est vel vt mali conuertantur per exempla bo 
+      <lb ed="#L" n="10"/>norum vel vt boni exerceantur in operibus patientiae &amp; aliarum 
+      vir<lb ed="#L" n="11" break="no"/>tutum per ee quae habent pati a malis, sed post iudicium non erit tem 
+      <lb ed="#L" n="12"/>pus exercitationis iustorum in operibus patientiae &amp; caeterarum vi 
+      <lb ed="#L" n="13"/>tutum, quia tunc habebunt coronam, nec mali erunt corrigibiles 
+      <lb ed="#L" n="14"/>ergo congruum est quod separentur abinuicem. Secundo, quia boni re 
+      <lb ed="#L" n="15"/>munerabuntur &amp; mali punientur non solum in anima, sed etiam in 
+      <lb ed="#L" n="16"/>corpore, sed resurrectio omnium quo ad corpus erit in fine 
+      mun<lb ed="#L" n="17" break="no"/>di, ergo tunc erit aliquod finale iudicium quo finaliter boni remu 
+      <lb ed="#L" n="18"/>nerabuntur, &amp; mali punientur quo ad corpus, &amp; sic patet primum 
+      </p>
+            <p xml:id="jsnvu6-e289965-d1e242">
+               <lb ed="#L" n="19"/>
+               <!--8--> QUANTVM ad secundum est duplex opinio. Vna est o 
+      <lb ed="#L" n="20"/>totum illud quod fiet in iudicio fiet mentaliter &amp; non vocaliter. Cu 
+      <lb ed="#L" n="21"/>ius ratio est, quia sententia debet correspondere testimoniis ex 
+      qui<lb ed="#L" n="22" break="no"/>bus proceditur ad sententiandum, sed testimonia &amp; accusationes 
+      <lb ed="#L" n="23"/>malorum erunt solum mentalia secundum illud Ro. secundo, 
+      te<lb ed="#L" n="24" break="no"/>stimonium redde: illis conscientia ipsorum: &amp; inter seinuicem 
+      co<lb ed="#L" n="25" break="no"/>gitationum accusantium, aut defendentium in die quo indicabit 
+      <lb ed="#L" n="26"/>deus occulta cordium, ergo sententia erit mentalis tantum. Ad ide 
+      <lb ed="#L" n="27"/>est quod dicit beatus Aug. 20. de ciuitate dei quod liber ille de quo 
+      <lb ed="#L" n="28"/>Apocal. 20. dicitur. intelligendus est quaedam vis diuina quae fiet 
+      <lb ed="#L" n="29"/>vt cuique opera sua bona rel mala in memoriam reuocentur &amp; 
+      <lb ed="#L" n="30"/>mentis intuitu mira celeritate cernantur vt accuset vel excuset 
+      <lb ed="#L" n="31"/>scientia conscientiam, itaque omnes simul &amp; singuli iudicentur. 
+      </p>
+            <p xml:id="jsnvu6-e289965-d1e276">
+               <lb ed="#L" n="32"/>
+               <!--9--> Alia opinio est quod licet discretio meritorum &amp; 
+      demerito<lb ed="#L" n="33" break="no"/>rum fiat tantum mentaliter sicut satis expresse dicit auctoritas 
+      <lb ed="#L" n="34"/>statim allegata, tamen scientia proferetur vocaliter. Quod 
+      pro<lb ed="#L" n="35" break="no"/>batur, quia Christus iudicabit vt deus &amp; vt homo, ergo iudicii 
+      <lb ed="#L" n="36"/>eius fiet non solum diuino modo, sed etiam humano, fiet auten 
+      <lb ed="#L" n="37"/>diuino modo per hoc quod merita &amp; demerita, vniuscuiusque ad 
+      <lb ed="#L" n="38"/>memoriam imperceptibiliter reuocabuntur, &amp; sic discussio 
+      eo<lb ed="#L" n="39" break="no"/>rum erit mentalis. Modo autem humano fiet si sententia sit vocalis 
+      <lb ed="#L" n="40"/>ergo vtroque modo fiet iudicium, scilicet mentaliter &amp; vocaliter. Ite 
+      <lb ed="#L" n="41"/>sententia debet aptari his contra quos fertur, ergo sicut nunc in 
+      <lb ed="#L" n="42"/>iudicio particulari fertur sententia mentaliter vel spiritualiter con 
+      <lb ed="#L" n="43"/>tra animas exutas corporibus quae vt sic sunt mere spiritus, ita in 
+      <lb ed="#L" n="44"/>iudicio generali debet ferri sententia contra animas resumptis 
+      <lb ed="#L" n="45"/>corporibus partim spiritualiter, partim corporaliter, quod fiet si 
+      <lb ed="#L" n="46"/>discussio meritorum sit mentalis (sicut omnino est probabile, 
+      <lb ed="#L" n="47"/>quia si esset vocalis requireret longissimum tempus) Prolatio vero 
+      <lb ed="#L" n="48"/>sententiae sit vocalis quae poterit ferri valde modico tempore, &amp; 
+      <lb ed="#L" n="49"/>haec opinio videtur satis probabilis, &amp; sic patet secundum. 
+      </p>
+            <p xml:id="jsnvu6-e289965-d1e320">
+               <lb ed="#L" n="50"/>
+               <!--10--> QUANTVM ad tertium dicendum est quod tempus iudici 
+      <lb ed="#L" n="51"/>non potest esse alicui notum per certitudinem cum dependeat ex me 
+      <lb ed="#L" n="52"/>ra dei voluntate, de cuius expressione scriptura nihil loquitur. 
+      <lb ed="#L" n="53"/>Nec est probabile quod deus alicui reuelauerit cum reuelationem eius 
+      <lb ed="#L" n="54"/>filius negauerit apostolis vt habetur Act. 1. Ratio autem quare deus 
+      <lb ed="#L" n="55"/>voluit hominibus esse occultum potest esse, quia illudquod respicit 
+      <lb ed="#L" n="56"/>immutationem totius vniuersi debet soli deo qui vniuerso praeest, 
+      <lb ed="#L" n="57"/>esse notum, sed finis mundi sicut eius inceptio respicit immutationi 
+      <lb ed="#L" n="58"/>cotius vniuersi, &amp; ideo congruum est, vt finis mundi seu cessatio 
+      <lb ed="#L" n="59"/>motus coeli, quo cessante statim erit iudicium, sit deo soli 
+      praeco<lb ed="#L" n="60" break="no"/>gnita. De loco autem iudicij tenetur quod dominus descendet super 
+      <lb ed="#L" n="61"/>vallem Iosaphat, qui est inter montem syon &amp; oliueti posita, non 
+      <lb ed="#L" n="62"/>quidem vsque ad terram, nec prope terram, sed vsque ad locum vbi 
+      apo<lb ed="#L" n="63" break="no"/>stoli amiserunt aspectum suum quando ascendit ad coelum, &amp; 
+      <lb ed="#L" n="64"/>nubes suscepit eum ab oculis eorum, vt dicitur Act. primo. 
+      </p>
+            <p xml:id="jsnvu6-e289965-d1e357">
+               <lb ed="#L" n="65"/>
+               <!--11--> AD PRIMVM arg. dicendum quod scientia generalis iudicij 
+      <lb ed="#L" n="66"/>erit vniuersalis separatio bonorum a malis &amp; remuneratio bono 
+      <lb ed="#L" n="67"/>rum, &amp; punitio malorum non solum in anima, sed etiam in corpore, &amp; exe 
+      <lb ed="#L" n="68"/>cutio huius scientiae non fit modo, sed fiet post generale iudicium, nunc 
+      <lb ed="#L" n="69"/>tantum fit executio particularis iudicij quo quilibet iudicatur in 
+      <lb ed="#L" n="70"/>morte per praemium, vel poenam pertinentem ad solam animam. 
+      </p>
+            <p xml:id="jsnvu6-e289965-d1e375">
+               <lb ed="#L" n="71"/>
+               <!--12--> Ad secundum dicendum, quod deus neminem iudicabit bis in idipsum 
+      <lb ed="#L" n="72"/>quia non infliget pro vno peccato duas poenas, quarum quaelibet sit 
+      <lb ed="#L" n="73"/>proportionata culpae, poena enim quae infertur in iudicio parti 
+      <lb ed="#L" n="74"/>culari non est aequata culpae, sed est pars poenae totalis quae postea 
+      <lb ed="#L" n="75"/>erit in anima &amp; corpore, quamuis in duplici iudicio hae poeng 
+      deter<lb ed="#L" n="76" break="no"/>roinentur &amp; rationabiliter, quia quilibet homo &amp; est quaedam singula 
+      <lb ed="#L" n="77"/>ris persona &amp; est pars communitatis, &amp; ob hoc debet ei duplex iudi 
+      <lb ed="#L" n="78"/>cium, vnum singulare quod de quolibet fit in morte, aliud vniuersale 
+      <lb ed="#L" n="79"/>quani finaliter totum genus humanum, cuius quilibet est pars iudicabit. 
+      </p>
+            <p xml:id="jsnvu6-e289965-d1e399">
+               <lb ed="#L" n="80"/>
+               <!--13.--> Ad tertium dicendum quod ad iudicium duo pertinent, scilicet discus 
+      <lb ed="#L" n="81"/>sio meritorum &amp; retributio praemiorum, vel poenarum, &amp; secundum hoc 
+      <lb ed="#L" n="82"/>duplex dicitur esse iudicium, scilicet disceptationis &amp; retributio 
+      <!--00778.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>nis, iudicio retributionis omnes iudicabuntur, quia omnes 
+      pu<lb ed="#L" n="84" break="no"/>nientur vel praemiabuntur, sed iudicio discussionis non omnes 
+      iu<lb ed="#L" n="85" break="no"/>dicabuntur, sed solum illi quorum merita sunt permixta demeritis, 
+      <lb ed="#L" n="86"/>vel econuerso. Propter quod sic dicitur communiter quod quidam sunt 
+      <lb ed="#L" n="87"/>quorum mala sunt impermixta bonis meritoriis, sicut sunt illi qui 
+      <lb ed="#L" n="88"/>caruerunt fide sine qua non est meritum, &amp; ideo isti non 
+      iudicabun<lb ed="#L" n="89" break="no"/>tur iudicio discussionis, sed sine discussione damnabuntur. De 
+      <lb ed="#L" n="90"/>quibus intelligitur illud Psal. non resurgunt impij in iudicio, 
+      scili<lb ed="#L" n="91" break="no"/>cet disceptationis. Alij sunt, quorum bona merita sunt impemixta 
+      <lb ed="#L" n="92"/>malis vt sancti perfecti, quemadmodum fuerunt perfecti apostoli 
+      <lb ed="#L" n="93"/>&amp; pauperes eorum imitatores, &amp; isti non iudicabuntur, sed regnabunt 
+      <lb ed="#L" n="94"/>&amp; alios iudicabunt aliquo modo, vt infra dicetur, &amp; de his procedit 
+      <lb ed="#L" n="95"/>argumentum in hoc sensu. Alij vero sunt quorum merita permixta 
+      <lb ed="#L" n="96"/>sunt cum demeritis, quia quandoque peccauerunt mortaliter, vel 
+      <lb ed="#L" n="97"/>venialiter, &amp; tamen in charitate decesserunt, &amp; isti iudicabuntur 
+      <lb ed="#L" n="98"/>propter permixtionem bonorum cum malis, veruntamen 
+      saluabun<lb ed="#L" n="99" break="no"/>tur. Alij vero sunt quorum mala pexmixta sunt cum bonis, sed 
+      de<lb ed="#L" n="100" break="no"/>cesserunt cum malis &amp; extra charitatem, &amp; hi iudicabuntur propter 
+      <lb ed="#L" n="101"/>eandem rationem, sed damnabuntur propter defectum charitaris, &amp; 
+      <lb ed="#L" n="102"/>haec est quadrimembris distinctio quam ponit magister in littera. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

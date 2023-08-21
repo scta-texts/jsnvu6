@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="171-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e141751"><!-- l2d40q3 -->
+            <head xml:id="jsnvu6-e141751-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-e141751-Hd1e103" type="question-title">
+      Utrum idem actus possit esse bonus 
+      et malus
+    </head>
+            <p xml:id="jsnvu6-e141751-d1e106">
+               <lb ed="#L" n="147"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="148"/>Vtrum idem actus possit esse bonus 
+      <lb ed="#L" n="149"/>&amp; malus. 
+      <lb ed="#L" n="150"/>Thom. 1. 2 q. 10. art. 6. 
+    </p>
+            <p xml:id="jsnvu6-e141751-d1e117">
+               <lb ed="#L" n="151"/>AD tertium sic proceditur. Et arguitur quod idem 
+      <lb ed="#L" n="152"/>actus non possit esse bonus &amp; malus, quia si hoc 
+      <lb ed="#L" n="153"/>esset possibile, hoc esset vel simul, vel successiue. 
+      <lb ed="#L" n="154"/>Non simul, quia bonum &amp; malum quum 
+      oppo<lb ed="#L" n="155" break="no"/>nantur priuatiue habent vim contradictionis 
+      cir<lb ed="#L" n="156" break="no"/>ca proprium subiectum. Contradictoria autem non possunt 
+      si<lb ed="#L" n="157" break="no"/>mul verificari de eodem. Nec successiue, quia actus 
+      correspon<lb ed="#L" n="158" break="no"/>dent habitibus, sed idem habitus non potest esse bonus &amp; 
+      ma<lb ed="#L" n="159" break="no"/>lus etiam successiue, ergo nec actus, 
+      </p>
+            <p xml:id="jsnvu6-e141751-d1e139">
+               <lb ed="#L" n="160"/>
+               <!--2--> IN CONTRARIVM est, quia bonitas &amp; malicia 
+      <!--00411.xml-->
+      <pb ed="#L" n="172-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>actus non habent solum esse ex obiecto, sed etiam ex 
+      circunstan<lb ed="#L" n="2" break="no"/>tiis, nunc est ita quod contingit eundem actum numero vestiri 
+      <lb ed="#L" n="3"/>simul &amp; successiue bona &amp; mala circunstantia, simul vt cum 
+      ali<lb ed="#L" n="4" break="no"/>quis dat eleemosynam pauperi, vt alij prouocentur ad fimile 
+      <lb ed="#L" n="5"/>quod est bonum. Et cum hoc intendit vanam gloriam, quae est 
+      <lb ed="#L" n="6"/>mala. Successiue vero, vt cum aliquis vadit ad ecclesiam inten 
+      <lb ed="#L" n="7"/>tione orandi, deinde actu eundi non interrupto mutat 
+      inten<lb ed="#L" n="8" break="no"/>tionem in malum, ergo idem actus potest esse bonus &amp; malus, 
+      <lb ed="#L" n="9"/>non solum successiue, sed simul. 
+      </p>
+            <p xml:id="jsnvu6-e141751-d1e173">
+               <lb ed="#L" n="10"/>
+               <!--3--> RESPONSIO. Bonum &amp; malum possunt sumi 
+      dupli<lb ed="#L" n="11" break="no"/>citer, scilicet in diuersis generibus, vel in eodem genere. Si in 
+      <lb ed="#L" n="12"/>diuersis generibus, vt bonum in genere naturae, malum 
+      ver<lb ed="#L" n="13" break="no"/>in genere moris, vel econuerso, sic malum &amp; bonum possum 
+      <lb ed="#L" n="14"/>simul esse in eodem actu. Cuius ratio est, quia illa quae nullan 
+      <lb ed="#L" n="15"/>habent inter se oppositionem, compatiuntur se in eodem, sec 
+      <lb ed="#L" n="16"/>bonum naturae, &amp; malum moris vel econuerso, non habene 
+      <lb ed="#L" n="17"/>inter se aliquam oppositionem, ergo, &amp;c. Et sic actio claudican 
+      <lb ed="#L" n="18"/>tis ad ecclesiam est mala in genere naturae, bona vero in 
+      gene<lb ed="#L" n="19" break="no"/>re moris. Actio vero recte incedentis ad lupanar, est bona in 
+      <lb ed="#L" n="20"/>genere naturae, mala autem in genere moris. Si vero bonum &amp; 
+      <lb ed="#L" n="21"/>malum sumantur in eodem genere, puta vtrumque in genere 
+      <lb ed="#L" n="22"/>moris, de quo ad praesens loquimur, vel quaeritur an possin 
+      <lb ed="#L" n="23"/>simul esse in eodem actu, an successiue. Si simul, constat quod 
+      <lb ed="#L" n="24"/>non, quia opposita non compatiuntur se simul in eodem, &amp; 
+      <lb ed="#L" n="25"/>secundum idem, licet possint se compati in eodem secundum 
+      <lb ed="#L" n="26"/>diuersas partes, vt in ligno, cuius est vna pars alba, alia nigra 
+      <lb ed="#L" n="27"/>nunc est ita, quod bonum &amp; malum in eodem genere accepta 
+      <lb ed="#L" n="28"/>opponuntur privatiue, ergo non compatiuntur se simul in 
+      <lb ed="#L" n="29"/>eodem actu, nisi forte secundum diuersas partes, sed actus 
+      in<lb ed="#L" n="30" break="no"/>terior partes non habet, sed consistit in indiuisibili. Actus 
+      au<lb ed="#L" n="31" break="no"/>tem exterior habet partes, sed illae non possunt simul esse, quum 
+      <lb ed="#L" n="32"/>totus actus sit successiuus, ergo bonum &amp; malum nullo modo 
+      <lb ed="#L" n="33"/>possunt esse simul in eodem actu. 
+</p>
+            <p xml:id="jsnvu6-e141751-d1e230">
+               <lb ed="#L" n="34"/>Si vero quaeritur, vtrum possint esse in eodem actu succes 
+      <lb ed="#L" n="35"/>siue, sic dicunt quidam quod duplex est actio, quaedam est sim 
+      <lb ed="#L" n="36"/>plex &amp; indiuisibilis, vt actio interior voluntatis, &amp; haec non po 
+      <lb ed="#L" n="37"/>test eadem esse bona &amp; mala, nec simul quum non habeat 
+      par<lb ed="#L" n="38" break="no"/>tes diuersas, nec successiue, quum non habeat successionem 
+      <lb ed="#L" n="39"/>Alia est actio successiua &amp; diuisibilis, vt actio exterior, puta ire 
+      <lb ed="#L" n="40"/>ad ecclesiam: &amp; haec actio potest esse bona &amp; mala, sed non se 
+      <lb ed="#L" n="41"/>cundum eandem partem, sicut ire ad ecclesiam potest ex 
+      cha<lb ed="#L" n="42" break="no"/>ritate inchoari, &amp; in vanitate terminari. Sed istud non est 
+      beni<lb ed="#L" n="43" break="no"/>dictum quantum ad primum, quia sicut se habet intellectus 
+      a<lb ed="#L" n="44" break="no"/>verum &amp; falsum, sic se habet voluntas ad bonum &amp; malum. Sed 
+      <lb ed="#L" n="45"/>idem actus intellectus, licet sit simplex &amp; indiuisibilis, potes 
+      <lb ed="#L" n="46"/>tamen successiue esse verus &amp; falsus, vt quum aliquis 
+      credi<lb ed="#L" n="47" break="no"/>sortem sedere, qui in veritate sedet, &amp; in eadem actuali 
+      credu<lb ed="#L" n="48" break="no"/>litate perseuerat sorte surgente falsum credit, ergo idem actu 
+      <lb ed="#L" n="49"/>voluntatis simplex &amp; indiuisibilis potest successiue esse bonus &amp; 
+      <lb ed="#L" n="50"/>malus. Nec valet quod dicitur quod actus non habet successionem, 
+      <lb ed="#L" n="51"/>quia idem secundum idem potest successiue opposita recipere 
+      <lb ed="#L" n="52"/>non per successionem sui, sed per successionem oppositorum 
+      <lb ed="#L" n="53"/>circa ipsum, dummodo ipsum sit tale, quod contingat pluries ipsum 
+      <lb ed="#L" n="54"/>sumere. Sicut idem corpus secundum eandem partem potes 
+      <lb ed="#L" n="55"/>successiue esse calidum &amp; frigidum: actus autem voluntatis 
+      quam<lb ed="#L" n="56" break="no"/>uis sit simplex &amp; indiuisibilis, potest tamen pluries sumi, quia 
+      <lb ed="#L" n="57"/>non solum habet esse per instans temporis, sed potest pluribus 
+      <lb ed="#L" n="58"/>partibus temporis coexistere. Et ideo idem actus voluntatis 
+      po<lb ed="#L" n="59" break="no"/>test successiue esse bonus &amp; malus, vel saltem ratio praedicta no 
+      <lb ed="#L" n="60"/>probat oppositum. Potest etiam hoc (vt videtur) 
+      contingere<lb ed="#L" n="61" break="no"/>de facto, sicut quum aliquis vult bona voluntate dicere missam 
+      <lb ed="#L" n="62"/>&amp; ipso perseuerante in eodem actu volendi, interdicitur ecclesia 
+      <lb ed="#L" n="63"/>ipso ignorante, ignorantia quae eum non excusat, quia non 
+      ad<lb ed="#L" n="64" break="no"/>hibet diligentiam quae in talibus adhiberi debet. In isto casu illa 
+      <lb ed="#L" n="65"/>idem actus volendi, qui prius fuit bonus, postea est malus. 
+      Se<lb ed="#L" n="66" break="no"/>cus autem esset si interdum innotesceret ei: tunc enim sicut 
+      <lb ed="#L" n="67"/>mutaretur cognitio sic et volitio. 
+      </p>
+            <p xml:id="jsnvu6-e141751-d1e306">
+               <lb ed="#L" n="68"/>
+               <!--5--> Ad argumentum in oppositum dicendum quod sicut iden 
+      <lb ed="#L" n="69"/>actus potest esse successiue verus &amp; falsus, bonus &amp; malus, 
+      si<lb ed="#L" n="70" break="no"/>&amp; habitus. de habitu pertinente ad intellectum, quod possi 
+      <lb ed="#L" n="71"/>esse verus &amp; falsus clare dicit Philosophus 6. Ethic. quod opi 
+      <lb ed="#L" n="72"/>nione &amp; suspitione contingit dicere verum &amp; falsum: de 
+      habi<lb ed="#L" n="73" break="no"/>tu autem perficiente appetitum idem dicendum est, si 
+      sequa<lb ed="#L" n="74" break="no"/>tur vel correspondeat habitui intellectus, quo contingit 
+      dice<lb ed="#L" n="75" break="no"/>re verum &amp; falsum: vnde si sit aliquis habitus in appetitu 
+      se<lb ed="#L" n="76" break="no"/>quens opinionem vel suspitionem, ille potest esse bonus &amp; 
+      ma<lb ed="#L" n="77" break="no"/>lus successiue, sicut opinio &amp; suspitio possunt esse verae &amp; 
+      fal<lb ed="#L" n="78" break="no"/>sae. Habitus autem virtuosi, qui respondent prudentiae, non 
+      pos<lb ed="#L" n="79" break="no"/>sunt esse mali, quia prudentia non potest esse falsa, quum sit 
+      <lb ed="#L" n="80"/>recta ratio rerum agibilium. 
+      </p>
+            <p xml:id="jsnvu6-e141751-d1e339">
+               <lb ed="#L" n="81"/>
+               <!--6--> Argumentum in oppositum quantum ad partem sui non 
+      <lb ed="#L" n="82"/>concludit, ad hoc enim quod actus sit simul bonus &amp; malus, 
+      <!--00411.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>non sufficit quod actus informetur simul vna bona 
+      circunstan<lb ed="#L" n="84" break="no"/>tia, &amp; alia mala, quia bonum est ex tota causa, malum vero ex 
+      <lb ed="#L" n="85"/>particularibus defectibus. Et ideo vbi est circunstantia vna 
+      <lb ed="#L" n="86"/>mala (licet omnes aliae sint bonae) actus est simpliciter malus, 
+      <lb ed="#L" n="87"/>&amp; non simul bonus &amp; malus, ideo &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

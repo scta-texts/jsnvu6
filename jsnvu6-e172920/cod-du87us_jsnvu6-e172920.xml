@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="210-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e172920"><!-- l3d18q3 -->
+            <head xml:id="jsnvu6-e172920-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-e172920-Hd1e103" type="question-title">
+      Utrum Christus per passionem suam 
+      aliquid meruerit
+    </head>
+            <p xml:id="jsnvu6-e172920-d1e106">
+               <lb ed="#L" n="72"/>QVAESTIO. TERTIA. 
+      <lb ed="#L" n="73"/>Vtrum Christus per passionem suam 
+      <lb ed="#L" n="74"/>aliquid meruerit. 
+      <lb ed="#L" n="75"/>Thom. 3. q. 48. ar. 1. &amp; 2. q. 49. ar. 6.
+    </p>
+            <p xml:id="jsnvu6-e172920-d1e117">
+               <lb ed="#L" n="76"/>TERTIO quaeritur, vtrum Christus per 
+      passio<lb ed="#L" n="77" break="no"/>nem suam aliquid meruerit. Et videtur quod non, 
+      <lb ed="#L" n="78"/>quia aut meruisset sibi, aut nobis, non sibi, quia 
+      <lb ed="#L" n="79"/>superfluum est, aliquem mereri, illud idem quod 
+      <lb ed="#L" n="80"/>prius meruerat, sed Christus meruit ante pas¬ 
+      <!--00494.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>sionem suam quicquid vnquam possea habuit, ergo per 
+      passio<lb ed="#L" n="82" break="no"/>nem suam nihil sibi meruit. Item nec nobis, quia ex eadem 
+      ra<lb ed="#L" n="83" break="no"/>dice procedit laus &amp; meritum, sed opus vnius non est alteri lau 
+      <lb ed="#L" n="84"/>dabile, ergo nec meritorium. 
+      </p>
+            <p xml:id="jsnvu6-e172920-d1e143">
+               <lb ed="#L" n="85"/>
+               <!--2.--> Item charitas est principium merendi, sed Christus 
+      tempo<lb ed="#L" n="86" break="no"/>re passionis non habuit maiorem charitatem vel aliam quam 
+      <lb ed="#L" n="87"/>prius: ergo nihil meruit, vel magis quod prius non meruisset.
+</p>
+            <p xml:id="jsnvu6-e172920-d1e155">
+               <lb ed="#L" n="88"/>IN CONTRARIVM arguitur, quia omnis actus 
+      <lb ed="#L" n="89"/>viatoris existens in potestate eius &amp; charitate informatus, est 
+      <lb ed="#L" n="90"/>meritorius, sed passio Christi vt acceptata ab ipso fuit actus 
+      <lb ed="#L" n="91"/>viatoris, &amp; in potestate Christi. Oblatus est enim quia voluit, 
+      <lb ed="#L" n="92"/>&amp; etiam a maxima charitate processit, quia charitatem maiorem 
+      <lb ed="#L" n="93"/>nemo habet quam vt animam suam ponat quis pro amicis suis, 
+      <lb ed="#L" n="94"/>vt dicitur Ioan. 15. ergo passio Christi fuit maxime meritoria. 
+      </p>
+            <p xml:id="jsnvu6-e172920-d1e173">
+               <lb ed="#L" n="95"/>
+               <!--4--> Ad idem est quod dicitur Phil. 2. factus est obediens vsque 
+      <lb ed="#L" n="96"/>ad mortem, propter quod &amp; Deus exaltauit illum, vbi dicit 
+      <lb ed="#L" n="97"/>glossa Aug. quod humilitas passionis claritatis est meritum, cla 
+      <lb ed="#L" n="98"/>ritas autem humilitatis est praemium. 
+</p>
+            <p xml:id="jsnvu6-e172920-d1e186">
+               <lb ed="#L" n="99"/>RESPONSIO. quod Christus per passionem suam 
+      <lb ed="#L" n="100"/>meruit, satis efficaciter probat ratio adducta ad hanc partem, 
+      <lb ed="#L" n="101"/>&amp; ideo restant solum alia duo videnda. Vnum est quid sibi 
+      me<lb ed="#L" n="102" break="no"/>ruerit secundum est an nobis meruerit. 
+    </p>
+            <p xml:id="jsnvu6-e172920-d1e197">
+               <lb ed="#L" n="103"/>QUANTVM ad primum sciendum est quod illud quod 
+      <lb ed="#L" n="104"/>cadit sub merito prout de ipso loquuntur theologi, oportet? 
+      <lb ed="#L" n="105"/>sit de pertinentibus ad beatitudinem primo vel consequenter, 
+      <lb ed="#L" n="106"/>oportet etiam quod non sit naturae debitum, quia naturalia sub 
+      <lb ed="#L" n="107"/>merito non cadunt, requiritur etiam quod sequatur meritum 
+      <lb ed="#L" n="108"/>tempore vel natura, &amp; forte necessarium est quod sequatur 
+      tem<lb ed="#L" n="109" break="no"/>pore, ex quo patet quod Christus meruit sibi per passionem suam 
+      <lb ed="#L" n="110"/>impassibilitatem corporis cum caeteris dotibus corporis, &amp; exa 
+      <lb ed="#L" n="111"/>tationem nominis sui, cuius ratio est, quia Christus meruit sibi 
+      <lb ed="#L" n="112"/>per passionem omne illud quod pertinet ad beatitudinem, &amp;g 
+      <lb ed="#L" n="113"/>ante passionem non fuit ab eo habitum, nec naturae debitum, 
+      <lb ed="#L" n="114"/>sed impassibilitas corporis cum caeteris dotibus eius pertinet ad 
+      <lb ed="#L" n="115"/>beatitudinem saltem secundario, &amp; similiter exaltatio, sed 
+      ma<lb ed="#L" n="116" break="no"/>nifestatio beatitudinis, quia gloria est clara cum laude noritia vt 
+      <lb ed="#L" n="117"/>dicit glo. Rom. vltimo, &amp; quia vt dicit philosophus I. Ethicorum 
+      <lb ed="#L" n="118"/>de bene esse foelicitatis est vt foelix non solum viuns, sed etiam 
+      <lb ed="#L" n="119"/>mortuus viuat in memoriis hominum. Hoc etiam Christus ante 
+      <lb ed="#L" n="120"/>passionem suam, aut non habuit vt fuerunt dotes corporis, aut 
+      <lb ed="#L" n="121"/>non complete vt exaltationem sui nominis. Neutrum enim 
+      isto<lb ed="#L" n="122" break="no"/>rum fuit debitum naturae humanae in Christo, ergo Christus in 
+      <lb ed="#L" n="123"/>quo debuit esse completissima beatitudo per passionem suam 
+      <lb ed="#L" n="124"/>meruit sibi omnes dotes corporis, &amp; exaltationem seu 
+      manife<lb ed="#L" n="125" break="no"/>stationem suae beatitudinis. Quae exaltatio consistit in tribus, in 
+      <lb ed="#L" n="126"/>notitia cordis vt cognoscatur esse verus deus, &amp; verus homo, in 
+      <lb ed="#L" n="127"/>reuerentia corporis quoad genuflexiones, &amp; similia, in oris 
+      con<lb ed="#L" n="128" break="no"/>fessione, quae tria tangit apostolus ad Phil. 2. dicit, propter quod 
+      <lb ed="#L" n="129"/>&amp; deus exaltauit illum &amp; dedit illi nomen quod est super omne 
+      <lb ed="#L" n="130"/>nomen, scilicet vt credatur deus, nomen enim facit de re 
+      noti<lb ed="#L" n="131" break="no"/>tiam, vt in nomine Iesu omne genu flectatur, quantum ad 
+      re<lb ed="#L" n="132" break="no"/>uerentiam corporis, &amp; omnis lingua confiteatur quantum ad 
+      <lb ed="#L" n="133"/>confessionem oris, &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e172920-d1e267">
+               <lb ed="#L" n="134"/>
+               <!--7--> Quantum ad secundum aduertendum est quod aliquem merer 
+      <lb ed="#L" n="135"/>alteri vel pro altero potest intelligi dupliciter. Vno modo quod 
+      <lb ed="#L" n="136"/>meritum vnius cedat alteri ad meritum. Alio modo quod fructus 
+      <lb ed="#L" n="137"/>meriti vnius redundet in alterum. Primo modo nullus potest 
+      me<lb ed="#L" n="138" break="no"/>reri pro altero, nec Christus sic meruit pro nobis quia sicut 
+      di<lb ed="#L" n="139" break="no"/>ctum fuit in praecedenti quaestione. Operatio bona, vel mala ex 
+      <lb ed="#L" n="140"/>hoc habet rationem imputabilis ad meritum vel demeritum, 
+      <lb ed="#L" n="141"/>ipsa est in potestate operantis, sed operatio vnius nunquam es 
+      <lb ed="#L" n="142"/>in potestate alterius, ergo operatio vnius bona vel mala nulli ali 
+      <lb ed="#L" n="143"/>potest imputari ad meritum vel demeritum, nullo igitur modo 
+      <lb ed="#L" n="144"/>Christus sic nobis meruit. Secundo autem modo vnus potest alteri 
+      <lb ed="#L" n="145"/>mereri vel demereri, ita scilicet quod fructus vel damnum meriti vel 
+      <lb ed="#L" n="146"/>demeriti redundet in alterum, &amp; de demerito quidem declaratum 
+      <lb ed="#L" n="147"/>fuit in secundo lib. agendo de peccato originali. De merito autemem 
+      <lb ed="#L" n="148"/>patet idem sic, quia non minus apud deum potest amicitia 
+      cha<lb ed="#L" n="149" break="no"/>ritatis quam apud homines amicitia ciuilis, sed apud homines 
+      <lb ed="#L" n="150"/>ratione amicitiae ciuilis vnus potest fructum operis sui in alterum 
+      <lb ed="#L" n="151"/>transferre, verbi gratia, vt cum aliquis seruit diuiti vt pauper ei 
+      <lb ed="#L" n="152"/>in aliquo obligatus a debito liberetur, vel vt habeat mercedem 
+      <lb ed="#L" n="153"/>operis in toto vel in parte prout placet operanti transferre, 
+      er<lb ed="#L" n="154" break="no"/>go apud deum ratione charitatis mutuae vnus potest alteri 
+      fru<lb ed="#L" n="155" break="no"/>ctum sui meriti communicare, &amp; hoc concordat ei quod in quarto 
+      <lb ed="#L" n="156"/>libro dicetur, scilicet quod vnus potest pro alio satisfacere, quod non 
+      <lb ed="#L" n="157"/>intelligendum est quod actus satisfaciendi sit meritorius alteri 
+      <lb ed="#L" n="158"/>quam satisfacienti, sed solum propter fructum meriti. Hoc 
+      au<lb ed="#L" n="159" break="no"/>tem modo Christus meruit nobis per passionem suam 
+      quate<lb ed="#L" n="160" break="no"/>nus multipliciter fructus passionis eius in nos redundat, vt pate 
+      <lb ed="#L" n="161"/>bit in sequenti distinctione. Nec in hoc quod dictum est prius est 
+      <lb ed="#L" n="162"/>differentia inter meritum quo vnus purus homo mereretur al¬ 
+      <!--00495.xml-->
+      <pb ed="#L" n="211-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>teri &amp; quo Christus meruit hobis. Quid autem meruit nobis 
+      <lb ed="#L" n="2"/>dicetur postea. 
+</p>
+            <p xml:id="jsnvu6-e172920-d1e345">
+               <lb ed="#L" n="3"/>
+               <!--8--> AD PRIMVM argumentum dicendum qg Christus per 
+      <lb ed="#L" n="4"/>passionem suam meruit sibi &amp; nobis, &amp; quod dicitur quod frustra 
+      <lb ed="#L" n="5"/>meretur aliquid illud quod prius meruerat. Dicendum quod non 
+      <lb ed="#L" n="6"/>meretur enim aliquis non solum faciendo per operationem 
+      <lb ed="#L" n="7"/>suam aliquid sibi debitum quod prius non fuit sibi debitum, sed 
+      <lb ed="#L" n="8"/>illud faciendo amplius sibi debitum vel alio modo debitum. Ei 
+      <lb ed="#L" n="9"/>his vltimis duobus modis Christus meruit sibi dotes corporis 
+      <lb ed="#L" n="10"/>&amp; exaltationem, quia haec fuerunt sibi magis, &amp; aliter per 
+      passio<lb ed="#L" n="11" break="no"/>nem debita quam per praecedentia merita, nec tamen propter hoc fru 
+      <lb ed="#L" n="12"/>stra passus est, quia actio charitatis qua quis meretur non es 
+      <lb ed="#L" n="13"/>principaliter propter praemium, sed propter bonum charitatis 
+      <lb ed="#L" n="14"/>qua Deus summe diligitur, vnde homo habens charitatem 
+      ope<lb ed="#L" n="15" break="no"/>raretur quae sunt Dei etiam si nulla retributio sequeretur, 
+      <lb ed="#L" n="16"/>meruit ergo Christus sibiipsi. Meruit etiam nobis quo ad 
+      par<lb ed="#L" n="17" break="no"/>ticipationem fructus sui meriti, sed non ita vt actus eius 
+      meri<lb ed="#L" n="18" break="no"/>torius imputaretur nobis ad meritum: sed solum fructus 
+      com<lb ed="#L" n="19" break="no"/>municaretur. Argumentum autem procedit de imputatione 
+      </p>
+            <p xml:id="jsnvu6-e172920-d1e388">
+               <lb ed="#L" n="20"/>
+               <!--9--> Ad secundum dicendum est quod cum meritum non consista 
+      <lb ed="#L" n="21"/>in habitu, sed in actu, ideo licet Christus tempore passionis non 
+      <lb ed="#L" n="22"/>habuerit aliam vel maiorem charitatem quam prius, quando 
+      ta<lb ed="#L" n="23" break="no"/>men habuit actum potuit aliud mereri &amp; alio modo &amp; forte 
+      <lb ed="#L" n="24"/>ampliori modo, quia satis durum videtur quod 
+      multiplicati<lb ed="#L" n="25" break="no"/>actuum meritoriorum supposita aequali charitate non sit 
+      am<lb ed="#L" n="26" break="no"/>plius meritoria quam vnus solus actus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="360-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e296171"><!-- l4d49q5 -->
+            <head xml:id="jsnvu6-e296171-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e296171-Hd1e103" type="question-title">Utrum deus posset esse immediatum 
+      obiectum delectationis</head>
+            <p xml:id="jsnvu6-e296171-d1e106">
+               <lb ed="#L" n="14"/>QUAESTIO QVINTA. 
+      <lb ed="#L" n="15"/>Vtrum deus posset esse immediatum 
+      ob<lb ed="#L" n="16" break="no"/>iectum delectationis. 
+    </p>
+            <p xml:id="jsnvu6-e296171-d1e115">
+               <lb ed="#L" n="17"/>QVINTo quaeritur de hoc quod suppositum es 
+      <lb ed="#L" n="18"/>in quae stione immediate praecedente, vtrum deus 
+      <lb ed="#L" n="19"/>posset esse immediatum objectum delectationis 
+      <lb ed="#L" n="20"/>Et arguitur quod sic, quia si immediatum obiecti 
+      <lb ed="#L" n="21"/>delectationis non esset deus, sed visio dei 
+      sequer<lb ed="#L" n="22" break="no"/>tur quod inter visionem &amp; delectationem caderet actus medius 
+      <lb ed="#L" n="23"/>reflexus, hoc autem est falsum vt probabitur, eigo &amp;c. Maior 
+      <lb ed="#L" n="24"/>patet, quia delectatio non est nisi de obiecto cognito, si ergo 
+      vi<lb ed="#L" n="25" break="no"/>sio dei esset immediatum obiectum delectationis sequeretur. 
+      <lb ed="#L" n="26"/>ipsa esset cognita, sed visio non potest esse cognira, nisi per actum 
+      <lb ed="#L" n="27"/>reflexum quo videmus nos videre, ergo &amp;c. Minor probatur, 
+      <lb ed="#L" n="28"/>quia bonitas dei summa &amp; infinita est prius visa a beato quam be 
+      <lb ed="#L" n="29"/>nitas visionis quae est finita, sed voluntas non potest non ferri acti 
+      <lb ed="#L" n="30"/>desiderij in summum bonum sibi praesentatum per modum al 
+      <lb ed="#L" n="31"/>sentis in via, ergo similiter ipsa non potest non ferri actu delecta 
+      <lb ed="#L" n="32"/>tionis in summum bonum sibi praesens in parria, prius ergo dek 
+      <lb ed="#L" n="33"/>ctatur voluntas in deo quam cognoscatur ipsa visio, ergo cogni 
+      <lb ed="#L" n="34"/>tio visionis non cadit media inter visionem dei &amp; 
+      delectatio<lb ed="#L" n="35" break="no"/>nem sequentem, &amp; haec fuit minor. 
+      </p>
+            <p xml:id="jsnvu6-e296171-d1e159">
+               <lb ed="#L" n="36"/>
+               <!--2--> Item in omni actu dilectionis &amp; delectationis alicuius 
+      ha<lb ed="#L" n="37" break="no"/>biti &amp; habitionis quando habitum est magis dilectum quam eiu 
+      <lb ed="#L" n="38"/>habitio tunc ipsum habitum est obiectu immediatum tam 
+      di<lb ed="#L" n="39" break="no"/>lectionis quam delectationis &amp; non habitio eius, sed in 
+      delecta<lb ed="#L" n="40" break="no"/>tione &amp; dilectione patriae quae sunt de deo habito ipsum habitum 
+      <lb ed="#L" n="41"/>(scilicet deus) est magis diectus quam habitio eius scilicet visio 
+      <lb ed="#L" n="42"/>eigo est immediatum obiectum dilectionis &amp; delectationis &amp; non 
+      <lb ed="#L" n="43"/>viio per quam habetur. Maior probatur dupliciter, scilicet 
+      ratio<lb ed="#L" n="44" break="no"/>ne &amp; exemplo. Ratione sic illud quod magis amatur immediatius 
+      <lb ed="#L" n="45"/>amatur sicut finis magis amatur quam ea quae sunt ad finem, ideo 
+      <lb ed="#L" n="46"/>immediatius amatur quamuis in assecutione sit omissum. Idem 
+      pa<lb ed="#L" n="47" break="no"/>tet per exemplum, quia enim magis diligo gustum vini quam ipsum 
+      <lb ed="#L" n="48"/>vinum, quia non diligo vinum nisi vt gustem, ideo immediarum 
+      <lb ed="#L" n="49"/>obiectum huius dilectionis est gustus vini &amp; non vimum, econtrario 
+      <lb ed="#L" n="50"/>quando habeo amicum prae sentem ipse amicus est magis 
+      dile<lb ed="#L" n="51" break="no"/>&amp; quam eius habitio vel praesentia, &amp; ideo immediatum 
+      obie<lb ed="#L" n="52" break="no"/>ctum dilectionis &amp; delectationis &amp; sic patet major, minor etiam 
+      <lb ed="#L" n="53"/>patet, quia nisi deus habitus magis amaretur quam habirio eius 
+      <lb ed="#L" n="54"/>talis amor esset peruersus qui in patria locum non habet, in deo &amp;c
+</p>
+            <p xml:id="jsnvu6-e296171-d1e206">
+               <lb ed="#L" n="55"/>Item illud quod est immediatum objectum summae 
+      cogni<lb ed="#L" n="56" break="no"/>tionis &amp; summae dilectionis est immediatum obiectum summa 
+      <lb ed="#L" n="57"/>delectationis, sed deus est huiusmodi &amp; non aliquod causa tum, 
+      <lb ed="#L" n="58"/>ergo &amp;c. Maior patet, quia voluntas &amp; omnis appetitus delecta 
+      <lb ed="#L" n="59"/>tur in eo quod amat &amp; summe in eo quod summe amat. Mino 
+      <lb ed="#L" n="60"/>similiter patet, scilicet quod deus fit immediarum obiectum sum 
+      <lb ed="#L" n="61"/>mae cognitionis scilicet beatae &amp; summae dilectionis. 
+      <lb ed="#L" n="62"/>Item illud est immdiatum obiectum fruitionis quod est 
+      im<lb ed="#L" n="63" break="no"/>mediatum obiectum charitatis a qua fruitio elicitur cum idem 
+      <lb ed="#L" n="64"/>sit obiectum mediatum vel immediatum habitus &amp; actus, sed 
+      <lb ed="#L" n="65"/>immediatum obiectum charitatis est solus deus &amp; hon aliquid 
+      <lb ed="#L" n="66"/>treatum tam in via quam in patria, ergo immediatum obiectum 
+      <lb ed="#L" n="67"/>fruitionis vel delectationis est solus deus. 
+</p>
+            <p xml:id="jsnvu6-e296171-d1e237">
+               <lb ed="#L" n="68"/>IN CONTRARIVM arguitur, quia actus ille quo 
+      <lb ed="#L" n="69"/>axtinnitur finis extra videtur esse immediatum obiectum 
+      fruitio<lb ed="#L" n="70" break="no"/>tis vel delectationis, sicut enim finis est obiectum fruitionis sic si 
+      <lb ed="#L" n="71"/>nis extra qui est finis mediatus est obiectum mediatum, finis 
+      ver<lb ed="#L" n="72" break="no"/>intra qui est nobis immediatius est obiectum immediatum; tali 
+      <lb ed="#L" n="73"/>autem finis est actus quo finis exra attingitur, ergo ipse est in 
+      <lb ed="#L" n="74"/>mediatum obiectum fruitionis sen delectationis, sed visio dei est 
+      <lb ed="#L" n="75"/>actus quo actingitur finis extra, scilicet ipse deus; ergo visio est 
+      <lb ed="#L" n="76"/>immediatum obiectum delectarionis &amp; non ipse deus.
+    </p>
+            <p xml:id="jsnvu6-e296171-d1e259">
+               <lb ed="#L" n="77"/>RESPONDENDVM est ad quaestionem istam quod 
+<lb ed="#L" n="78"/>immediatum obiectum delectationis quam habent beati de dec 
+<lb ed="#L" n="79"/>viso non est ipse deus secundum se, sed est visio, &amp; vniuersaliter 
+      im<lb ed="#L" n="80" break="no"/>mediatum obiectum cuiuscunque delectationis est operatio ali- 
+      <!--00793.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>qua vel perectio sormalis peroperatione acquitti, &amp;lodus 
+      <lb ed="#L" n="82"/>de delectatione quae est de re actualiter habita, quamuis etiam prae 
+      <lb ed="#L" n="83"/>portionabiliter sit verum de dele ctatione quae sequitur spem ve 
+      <lb ed="#L" n="84"/>memoriam, &amp; quamuis illud aliâs fuerit probatum, adhuc tamen pont 
+      <lb ed="#L" n="85"/>probari aliis rationibus quarum prima talis est. Ad delectationem 
+      <lb ed="#L" n="86"/>duo requiruntur scilicet consecutio proprij boni &amp; cognitio boni 
+      <lb ed="#L" n="87"/>consecuri. Ex hoc sit arguitur, illud solum potest esset proprium bonum 
+      <lb ed="#L" n="88"/>&amp; inmmediatu obiectum delectationis quod est vel potest esse 
+      pro<lb ed="#L" n="89" break="no"/>prium bonum illius qui delectatur, sed de? &amp; quaecunque res supposito 
+      <lb ed="#L" n="90"/>distincta ab homine non potest esse proprium bonum eius, imo non 
+      <lb ed="#L" n="91"/>potest esse aliquod bonum eius nisi ratione operantis per qua 
+      attin<lb ed="#L" n="92" break="no"/>gitur, ergo nec deus nec aliqua res subiecto distincta ab homine, 
+      <lb ed="#L" n="93"/>potest esse immediatum obiectum delectationis humanaz. Maior 
+      <lb ed="#L" n="94"/>patet, quia nullus delectatur in quocunque bono nisi quatenus 
+      <lb ed="#L" n="95"/>existimat ipsum esse aliquo modo suum, vnde Philosoph. 8. Ethic. 
+      <lb ed="#L" n="96"/>dicit quod amabile quidem bonum vnicuique autem proprium, ad 
+      <lb ed="#L" n="97"/>cognitionem autem boni secundum se quae est speculatiua nulla 
+      <lb ed="#L" n="98"/>affectio sequitur. Hanc etiam positcionem omnes doctores tenent 
+      <lb ed="#L" n="99"/>&amp; scribunt. Minor probatur, quia quando aliquis dicitur talis 
+      pe<lb ed="#L" n="100" break="no"/>denominationem extrinsecam, &amp; alius dicitur talis per 
+      denomina<lb ed="#L" n="101" break="no"/>tionem formalem, illud quod dicitur tale per denominationem 
+      ex<lb ed="#L" n="102" break="no"/>trinsecam nullo modo potest conuenire alicui nisi ratione formalis 
+      <lb ed="#L" n="103"/>denominationis, verbi gratia, sanum dicitur de medicina &amp; dieta 
+      <lb ed="#L" n="104"/>per denominationem extrinsecam, de animali vero per 
+      praedica<lb ed="#L" n="105" break="no"/>tionem formalem, &amp; ideo nec medicina nec dieta potest dici sana 
+      <lb ed="#L" n="106"/>homini nisi ratione sanitatis quae in ipso est formaliter, similiter 
+      <lb ed="#L" n="107"/>aliquod potest dici bonum homini per denominationem extrinsecam, 
+      <lb ed="#L" n="108"/>quia est causa alicuius bonitatis in homine, sicut sol est bonus 
+      <lb ed="#L" n="109"/>frigescenti quia causat in eo calorem qui formaliter est ei bonus 
+      <lb ed="#L" n="110"/>nec vnquam posset dici sol bonus frigescenti nisi ratione caloris qui 
+      <lb ed="#L" n="111"/>est ei bonus formaliter. nunc est ita quod deus non potest dici esse 
+      <lb ed="#L" n="112"/>bonum hominis formaliter, neque quaecunque res ab homine 
+      subie<lb ed="#L" n="113" break="no"/>cto distincta, sed solum perdenominationem extrinsecam qualiscunque 
+      <lb ed="#L" n="114"/>sit illa, ergo esse bonum hominis non potest competere deo nisi ratio 
+      <lb ed="#L" n="115"/>ne bonitatis formalis quae est in homine formaliter, imo plus 
+      <lb ed="#L" n="116"/>quod sicut est alia sanitas numero sanitas quae est in homine 
+      for<lb ed="#L" n="117" break="no"/>maliter &amp; sanitas a qua denominatur medicina sana, sed est vna 
+      <lb ed="#L" n="118"/>&amp; eadem, sic non est alia bonitas qua deus dicitur bonus beato 
+      ho<lb ed="#L" n="119" break="no"/>mini, vel ignis bonus frigescenti quam bonitas per quam beatus 
+      <lb ed="#L" n="120"/>est bonus formaliter &amp; boniras qua frigescens dicitur bene se 
+      ha<lb ed="#L" n="121" break="no"/>bere formaliter, &amp; sic patet minor, sequitur ergo conclusio 
+      prin<lb ed="#L" n="122" break="no"/>cipalis,s. quod deus secundum se non est immediatum obiectu 
+      dele<lb ed="#L" n="123" break="no"/>ctationis &amp; in hoc confirmatur prima ratio posita ad hoc primo 
+      <lb ed="#L" n="124"/>libro prima dist. quae erat quod immediatu obiectum amoris 
+      con<lb ed="#L" n="125" break="no"/>cupiscentiae ad quam pertinet delectatio non potest esse res 
+      subie<lb ed="#L" n="126" break="no"/>cto distincta a concupiscente. Contra tamen rationem ista 
+      oppo<lb ed="#L" n="127" break="no"/>nuntur multa quae sunt soluta in primo. libi dist. prima. Item quod 
+      <lb ed="#L" n="128"/>delectatio pertineat ad amorem concupiscentiae probatur sic, amor. 
+      <lb ed="#L" n="129"/>habens pro formali ratione obiecti bonum delectabile vel vtile 
+      <lb ed="#L" n="130"/>est amor concupiscentiae, sed delectatio est huiusmodi, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e296171-d1e383">
+               <lb ed="#L" n="131"/>Contra hoc instatur quia delectatio non solum habent pro 
+      ob<lb ed="#L" n="132" break="no"/>iecto bonum vtile vel delectabile imo etiam bonum honestum; sed 
+      <lb ed="#L" n="133"/>haec instantia nulla est quia sufficit ad propositum nostrum quod 
+      <lb ed="#L" n="134"/>ille amor qui habet bonum delectabile vel vtile pro obiecto si 
+      <lb ed="#L" n="135"/>amor concupiscentiae, &amp; voco bonum delectabile non quod de 
+      <lb ed="#L" n="136"/>lectat formal. ter, quia hoc est delectatio, sed illud quod delecta 
+      <lb ed="#L" n="137"/>vt immediatum obiectum de quo habetur delectatio siue ips 
+      <lb ed="#L" n="138"/>efficiatur ab obiecto siue non. Item dato quod obiectum delecta 
+      <lb ed="#L" n="139"/>tionis esset bonum honestum adhuc habemus propositum, quia 
+      bo<lb ed="#L" n="140" break="no"/>num honestum non est aliquid bonum per se subsistens, sed est 
+      bo<lb ed="#L" n="141" break="no"/>num &amp; perfectio alteri inhaerens si cut virtus vel aliquid tale, 
+      <lb ed="#L" n="142"/>sic redibit quod res subiecto distincta concupiscente &amp; maximi 
+      <lb ed="#L" n="143"/>subsistens non potest esse immediatum obiectum delectationis 
+      <lb ed="#L" n="144"/>bonum enim vtile, delectabile, &amp; honestum sunt obiectum 
+      coci<lb ed="#L" n="145" break="no"/>piscentiae secundum vnam communem rationem repertam ixeis 
+      <lb ed="#L" n="146"/>quae est ratio commodi, &amp; quia nihil extrinsecum &amp; maxime per 
+      <lb ed="#L" n="147"/>se subsistens potest esse commodum alteris nisi ratione aliculus 
+      <lb ed="#L" n="148"/>actus per quem attingitur qui est commodum nostrum 
+      formali<lb ed="#L" n="149" break="no"/>ter, ideo nohil extrinsecum &amp; maxime per se absistens potest esse 
+      <lb ed="#L" n="150"/>immediate bonum nostrum vtile, delectabile vel honestum 
+      </p>
+            <p xml:id="jsnvu6-e296171-d1e429">
+               <lb ed="#L" n="151"/>
+               <!--10--> AD RATIONES principales. Ad primam dicendum 
+      <lb ed="#L" n="152"/>est per interemptionem minoris, &amp; cum probatur, quia bonitas 
+      <lb ed="#L" n="153"/>dei est prius visa quam bonitas visionis, concedatur, sed non est prius 
+      <lb ed="#L" n="154"/>visa vt bona nobis in patria quam bonitas visiois ratione 
+      cuij<lb ed="#L" n="155" break="no"/>deus est primo bonus beatis, &amp; quia bonitas dei absolute nec de 
+      <lb ed="#L" n="156"/>sideratur a nobis nec in ea delectamur, nec in via, nec in patria 
+      <lb ed="#L" n="157"/>ideo visio bonitatis diuinae absolute in patria vel cognitio eius 
+      <lb ed="#L" n="158"/>in via non sufficit ad desiderium vel delectationem 
+      </p>
+            <p xml:id="jsnvu6-e296171-d1e451">
+               <lb ed="#L" n="159"/>
+               <!--11--> Ad secundam dicendum quod maior propositio est falsa, quia 
+      <lb ed="#L" n="160"/>quando bonum habitum est magis dilectum quam eius habitiom ulud 
+      <lb ed="#L" n="161"/>quidem bonum potest esse immediatum obiectum amoris amicinae ficunt 
+      <lb ed="#L" n="162"/>est de deo vel de amico cui bonum volumus, sed eius habitio t 
+      <!--00794.xml-->
+      <pb ed="#L" n="360-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>non ipsam habitum est immediatum obiectum amoris 
+      concu<lb ed="#L" n="2" break="no"/>piscentiae siue quantum ad desiderium siue quantum ad delecta 
+      <lb ed="#L" n="3"/>tionem, verbi gratia in exemplo eorum amicus praesens est 
+      im<lb ed="#L" n="4" break="no"/>mediatum obiectum amicitiae, sed eius praesentia quam 
+      deside<lb ed="#L" n="5" break="no"/>raui dum esset absens &amp; in qua delector dum est praesens est 
+      im<lb ed="#L" n="6" break="no"/>mediatum obiectum concupiscentiae &amp; non ipse amicus qui es 
+      <lb ed="#L" n="7"/>amic? siue sit praesens siue sit absens, &amp; quia quod amatur amo 
+      <lb ed="#L" n="8"/>re amicitiae magis amatur quam illud quod amatur amore 
+      con<lb ed="#L" n="9" break="no"/>cupiscentiae, ideo tale amatum quamuis sit illud simpliciter 
+      ma<lb ed="#L" n="10" break="no"/>gis quod amatur quam eius habitio, tamen non est immediatius 
+      <lb ed="#L" n="11"/>amatum amore concupiscentiae, sed eius habitio, si autem tam 
+      <lb ed="#L" n="12"/>habitum quam habitio pertineant solum ad amorem concupiscentiae, tunc 
+      <lb ed="#L" n="13"/>est vniuersaliter verum quod dicunt, quia illud quod est plus amatum, 
+      <lb ed="#L" n="14"/>est immediatius amatu, vt patet in cibo &amp; in potu, non autem 
+      quan<lb ed="#L" n="15" break="no"/>do alterum pertinet ad amorem amicitiae scilicet bonum habitum 
+      <lb ed="#L" n="16"/>alterum vero ad amorem concupiscentiae scilicet habitio eius. 
+      </p>
+            <p xml:id="jsnvu6-e296171-d1e506">
+               <lb ed="#L" n="17"/>
+               <!--12.--> Ad tertiam patet responsio, quia illud quod est obiectum 
+      <lb ed="#L" n="18"/>summae cognitionis &amp; dilectionis non est immediatum obiectum 
+      <lb ed="#L" n="19"/>summae delectationis, quia obiectum summae dilectionis 8 
+      <lb ed="#L" n="20"/>summae delectationis quae est dilectio amicitiae est summum 
+      bo<lb ed="#L" n="21" break="no"/>num secundum se, sed obiectum summae delectationis est illud 
+      <lb ed="#L" n="22"/>quod est summum bonum ei qui delectatur, illud autem non est 
+      <lb ed="#L" n="23"/>deus secundum se vt probatum fuit, sed visio eius quae est 
+      sum<lb ed="#L" n="24" break="no"/>me bona inter ea quae sunt nobis bona formaliter. 
+      </p>
+            <p xml:id="jsnvu6-e296171-d1e528">
+               <lb ed="#L" n="25"/>
+               <!--13--> Ad quartam dicendum quod maior propositio est falsa, quia cum 
+      <lb ed="#L" n="26"/>charitas pertineat ad amorem amicitiae obiectum ejus est deus 
+      se<lb ed="#L" n="27" break="no"/>cundum se inquantum deum diligimus propter se, fruitio autem non 
+      per<lb ed="#L" n="28" break="no"/>tinet ad amorem amicitiae sed concupiscentiae cuius deus non potest 
+      <lb ed="#L" n="29"/>esse immediatum obiectum cum non sit immediate bonum 
+      no<lb ed="#L" n="30" break="no"/>strum, &amp; tamen fruitio beata dicitur elici mediante habitu 
+      cha<lb ed="#L" n="31" break="no"/>ritatis, quia &amp; visionem dei quae erit immediatum obiectum fruitio 
+      <lb ed="#L" n="32"/>nis &amp; nosipsos referemus in deum tanquam in finem vltimum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

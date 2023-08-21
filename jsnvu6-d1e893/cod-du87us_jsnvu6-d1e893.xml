@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="44-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e893"><!-- l1d15q2 -->
+            <head xml:id="jsnvu6-d1e893-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e893-Hd1e103" type="question-title">Utrum missio dicat aliquid notionale an essentiale</head>
+            <p xml:id="jsnvu6-d1e893-d1e106">
+               <lb ed="#L" n="17"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="18"/>Vtrum missio dicat aliquid notionale 
+      <lb ed="#L" n="19"/>an essentiale. 
+      <lb ed="#L" n="20"/>Thom. 1. 9. 43. artic. 4.
+    </p>
+            <p xml:id="jsnvu6-d1e893-d1e117">
+               <lb ed="#L" n="21"/>SECVNDO quaeritur, vtrum missio dicat aliquic 
+      <lb ed="#L" n="22"/>notionale an essentiale. Et videtur quod dicat 
+      <lb ed="#L" n="23"/>aliquid notionale, quia id quod in diuinis sic con 
+      <lb ed="#L" n="24"/>uenit vni vel duabus personis, quod non 
+      omni<lb ed="#L" n="25" break="no"/>Ibus est notionale, sed missio conuenit duabus 
+      per<lb ed="#L" n="26" break="no"/>sonis, scilicet filio &amp; spiritui sancto, ita quod non omnibus, 
+      pa<lb ed="#L" n="27" break="no"/>ter enim non legitur missus vt supra dictum est, ergo missio 
+      <lb ed="#L" n="28"/>dicit aliquid notionale. 
+      </p>
+            <p xml:id="jsnvu6-d1e893-d1e137">
+               <lb ed="#L" n="29"/>
+               <!--2--> Item Beda dicit in quadam Homilia quod missio spiritus 
+      <lb ed="#L" n="30"/>sancti est eius processio, sed processio eius est quid notionale 
+      <lb ed="#L" n="31"/>ergo &amp; missio. 
+      </p>
+            <p xml:id="jsnvu6-d1e893-d1e149">
+               <lb ed="#L" n="32"/>
+               <!--3--> IN CONTRARIVM arguitur, quia nulla notio est 
+      <lb ed="#L" n="33"/>communis filio &amp; spiritui sancto, sed missio communis est vtriqui 
+      <lb ed="#L" n="34"/>vterque enim legitur missus, ergo missio non est aliquid notionale 
+      </p>
+            <p xml:id="jsnvu6-d1e893-d1e160">
+               <lb ed="#L" n="35"/>
+               <!--4--> RESPONSIO. Videndum est primo quid dicitur ess. 
+      <lb ed="#L" n="36"/>notionale, &amp; quid essentiale vt per hoc appareat quod quaeri 
+      <lb ed="#L" n="37"/>tur. Sciendum ergo quod notionale est id quod includit proprium 
+      <lb ed="#L" n="38"/>alicuius vnius personae vel duarum ita quod non conueniat 
+      omni<lb ed="#L" n="39" break="no"/>bus. Et dicitur notionale, quia notitiam facit de persona 
+      quan<lb ed="#L" n="40" break="no"/>tum ad aliquid pertinens ad distinctionem personarum. 
+      </p>
+            <p xml:id="jsnvu6-d1e893-d1e178">
+               <lb ed="#L" n="41"/>
+               <!--5--> Essentiale autem dicitur quod conuenit omnibus personis 
+      <lb ed="#L" n="42"/>ratione essentiae absolutae vel alicuius attributi absoluti. 
+      Ho<lb ed="#L" n="43" break="no"/>supposito, dicendum quod quaedam sunt nomina in diuinis pure 
+      <lb ed="#L" n="44"/>essentialia, quaedam pure notionalia, quaedam partim 
+      essen<lb ed="#L" n="45" break="no"/>tialia, &amp; partim notionalia. Pure esse ntialia sunt sicut bonu: 
+      <lb ed="#L" n="46"/>sapiens &amp; huiusmodi. Pure notionalia sunt sicut generatio, 
+      <lb ed="#L" n="47"/>spiratio &amp; similia partim notionalia &amp; essentialia sunt quae 
+      in<lb ed="#L" n="48" break="no"/>cludunt vtrumque sine pluribus nominibus, vt potentia 
+      ge<lb ed="#L" n="49" break="no"/>nerandi secundum illos qui dicunt quod potentia generand 
+      <lb ed="#L" n="50"/>includit essentiam &amp; respectum, vt sapientia genita: siue vnico 
+      <lb ed="#L" n="51"/>nomine vt incarnatum quod dicit opus commune trinitati &amp; 
+      <lb ed="#L" n="52"/>includit singulariter suppositum filij. 
+      </p>
+            <p xml:id="jsnvu6-d1e893-d1e209">
+               <lb ed="#L" n="53"/>
+               <!--6--> Qualitercunque hoc sit de numero talium est missio, includit 
+      <lb ed="#L" n="54"/>enim notionale &amp; essentiale, quod apparet primo de notiona 
+      <lb ed="#L" n="55"/>li sic, missio est exitus personae a persona vt apparet ex 
+      praec<lb ed="#L" n="56" break="no"/>dente quaestione, sed exitus personae a persona est per origine 
+      <lb ed="#L" n="57"/>quae ad notitiam pertinet, ergo missio includit aliquod notionale
+</p>
+            <p xml:id="jsnvu6-d1e893-d1e225">
+               <lb ed="#L" n="58"/>Item includit aliquid essentiale, quia missio importat 
+      effe<lb ed="#L" n="59" break="no"/>ctum in creatura, sed effectus in creatura est opus commune toti 
+      <lb ed="#L" n="60"/>rrinitati ratione communis essentiae &amp; potentiae, ergo missio 
+      <lb ed="#L" n="61"/>includit aliquid essentiale, includit ergo vtrunque. 
+      </p>
+            <p xml:id="jsnvu6-d1e893-d1e236">
+               <lb ed="#L" n="62"/>
+               <!--8--> Quid autem includit principalius, credo quod illud quod 
+      <lb ed="#L" n="63"/>est essentiale. Quod patet sic, quando duo includuntur in 
+      ali<lb ed="#L" n="64" break="no"/>quo &amp; vnum est quasi ratio completiua &amp; formalis respectu 
+      <lb ed="#L" n="65"/>alterius &amp; aliud quasi materiale praesuppositum, illud quod es 
+      <lb ed="#L" n="66"/>formale est principalius, sed in missione illud quod est essentiale 
+      <lb ed="#L" n="67"/>est quasi completiuum &amp; formale respectu eius quod est 
+      notio<lb ed="#L" n="68" break="no"/>nale, ergo in missione principalius includitur essentiale quam 
+      <lb ed="#L" n="69"/>notionale. maior de se patet, sed minor probatur per Aug. qui 
+      <lb ed="#L" n="70"/>dicit 10. de Trini. quod filius non eo quod filius est a patre missus, sed 
+      <lb ed="#L" n="71"/>vel ex eo quod visibilis apparuit, vel ex eo quod mentem cuiuscunc 
+      <lb ed="#L" n="72"/>sanctificat. Sanctificatio autem mentis nostrae est quoddam es 
+      <lb ed="#L" n="73"/>sentiale cum fit a tota Trinit. vt dictum est, ergo formale &amp; con 
+      <lb ed="#L" n="74"/>pletiuum in missione est aliquid essentiale, &amp; haec fuit minor. 
+      <lb ed="#L" n="75"/>sequitur ergo conclusio, scilicet quod principalius quod importa 
+      <lb ed="#L" n="76"/>tur per missionem est essentiale, dico autem principalius non, 
+      <lb ed="#L" n="77"/>quia praedicetur in recto de missione, sed quia complet 
+      ratio<lb ed="#L" n="78" break="no"/>nem missionis respectu notionalis quod est praesuppositum ve 
+      <lb ed="#L" n="79"/>quasi materiale, vel posset dici quod etiam in recto illud quod es 
+      <lb ed="#L" n="80"/>essentiale includitur in ratione missionis transformando 
+      mis<lb ed="#L" n="81" break="no"/>sionis rationem prius dictam, &amp; forte magis proprie, sic missio 
+      <!--00153.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>est apparitio personae diuinae procedentis in natura creata 
+      qua<lb ed="#L" n="83" break="no"/>tum ad missionem visibilem vel sanctificatio creaturae per 
+      do<lb ed="#L" n="84" break="no"/>na appropriata personis procedentibus. 
+      </p>
+            <p xml:id="jsnvu6-d1e893-d1e296">
+               <lb ed="#L" n="85"/>
+               <!--9--> Ad primum argumentum dicendum quod illud quod 
+      conue<lb ed="#L" n="86" break="no"/>nit vni personae vel duabus ita quod non omnibus oportet quod 
+      im<lb ed="#L" n="87" break="no"/>portet aliquid notionale. Et nihilominus potest cum hoc impor 
+      <lb ed="#L" n="88"/>tare aliquid essentiale vt sapientia genita, quia per id quod est 
+      <lb ed="#L" n="89"/>notionale totum contrahitur vt non possit dici de omnibus, sed 
+      <lb ed="#L" n="90"/>tantum de vna vel duabus, &amp; sic est de missione vt dictum est, 
+      </p>
+            <p xml:id="jsnvu6-d1e893-d1e314">
+               <lb ed="#L" n="91"/>
+               <!--10.--> Ad secundum dicendum quod missio spir. san. est processio 
+      <lb ed="#L" n="92"/>eius, sed praeter hoc includit aliquid aliud, scilicet effectum 
+      ali<lb ed="#L" n="93" break="no"/>quem in creatura &amp; illud est quoddam essentiale. 
+      </p>
+            <p xml:id="jsnvu6-d1e893-d1e325">
+               <lb ed="#L" n="94"/>
+               <!--11--> Ad tertium, quod est pro altera parte dicendum est, quod 
+      <lb ed="#L" n="95"/>notio potest significari dupliciter. Vno modo in speciali, vi 
+      <lb ed="#L" n="96"/>paternitas vel filiatio, vel spiratio, &amp; sic nulla notio est 
+      com<lb ed="#L" n="97" break="no"/>munis filio &amp; spir sanct. vel potest significari in communi sicut 
+      <lb ed="#L" n="98"/>esse ab alio. Et hoc modo filius &amp; spiritus sanct. habent 
+      com<lb ed="#L" n="99" break="no"/>munem notionem quae includitur in missione, quia quilibet 
+      <lb ed="#L" n="100"/>eorum est ab alio a quo mittitur. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="156-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3677"><!-- l2d30q1 -->
+            <head xml:id="jsnvu6-d1e3677-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e3677-Hd1e103" type="question-title">Utrum defectus quos sentimus in nobis scilicet mors et fames 
+      aegritudines et huiusmodi insint nobis a natura, an sint poena alicuius culpae</head>
+            <p xml:id="jsnvu6-d1e3677-d1e106">
+               <lb ed="#L" n="91"/>QUAESTIO. PRIMA. 
+      <lb ed="#L" n="92"/>Vtrum defectus quos sentimus in nobis, 
+      <lb ed="#L" n="93"/>insint nobis a nobis. 
+      <lb ed="#L" n="94"/>Vide Caiet. 11. q. 109. ar.2. 
+    </p>
+            <p xml:id="jsnvu6-d1e3677-d1e117">
+               <lb ed="#L" n="95"/>CIRCA distinctionem istam quaeritur primo, vtrum 
+      <lb ed="#L" n="96"/>defectus quos sentimus in nobis, scilicet mors, 
+      fa<lb ed="#L" n="97" break="no"/>mes, sitis, aegritudines, &amp; huiusmodi insint nobis a 
+      <lb ed="#L" n="98"/>natura, an sint nobis poena alicuius culpae. Et 
+      vi<lb ed="#L" n="99" break="no"/>detur quod insit nobis a natura, quia quae sunt vnius 
+      <lb ed="#L" n="100"/>rationis, causantur ex principiis vnius rationis, sed mors &amp; cae 
+      <lb ed="#L" n="101"/>teri defectus sunt vnius rationis in nobis &amp; in brutis: ergo quum 
+      <lb ed="#L" n="102"/>in brutis sint a natura, &amp; non ex culpa, videtur quod similiter 
+      <lb ed="#L" n="103"/>sunt in nobis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3677-d1e139">
+               <lb ed="#L" n="104"/>
+               <!--2.--> Item in daemonibus naturalia remanserunt integra post 
+      pec<lb ed="#L" n="105" break="no"/>catum, ergo &amp; in homine: cum igitur homo post peccatum sit 
+      <lb ed="#L" n="106"/>immortalis, patet quod immortalitas eius non fuit naturae, sed 
+      <lb ed="#L" n="107"/>gratiae, sed in viuentibus qui non est immortalis per naturam, 
+      <lb ed="#L" n="108"/>est mortalis per naturam, ergo, &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e3677-d1e156">
+               <lb ed="#L" n="109"/>
+               <!--3.--> IN CONTRARIVM est, qa omnis passio inflicta 
+      <lb ed="#L" n="110"/>ppter culpam est poena, non natura, sed mors est huiusmodi (vnde 
+      <lb ed="#L" n="111"/>Gen. 2. quocunmque die ex eo comederis morte morieris) ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3677-d1e167">
+               <lb ed="#L" n="112"/>
+               <!--4--> RESPONSIO. Dicendum quod mors &amp; caeteri 
+      de<lb ed="#L" n="113" break="no"/>fectus sunt in nobis a natura tanquam a causa per se, a culpa 
+      <lb ed="#L" n="114"/>vero, sicut a causa remouente prohibens. Primum 
+      communi<lb ed="#L" n="115" break="no"/>ter probatur tali ratione, omne compositum ex contrariis, 
+      <lb ed="#L" n="116"/>quorum vnum natum est agere in aliud est natura sua 
+      corru<lb ed="#L" n="117" break="no"/>ptibile, sed corpus humanum &amp; omne mixtum est huiusmodi, 
+      <lb ed="#L" n="118"/>est enim compositum ex elementis, quae ratione suae 
+      contra<lb ed="#L" n="119" break="no"/>nosatis agunt inuicem ergo ic. 
+</p>
+            <p xml:id="jsnvu6-d1e3677-d1e189">
+               <lb ed="#L" n="120"/>Secundum probatur sic, per donum originalis iustitiae 
+      pro<lb ed="#L" n="121" break="no"/>sed illud donum est ablatum propter peccatum parentum, ergo 
+      <lb ed="#L" n="122"/>hibebatur omne laesiuum inducens corruptionem in corpore, 
+      <lb ed="#L" n="123"/>peccatum est causa corruptionis, sicut remouens prohibens. 
+      <lb ed="#L" n="124"/>Horum autem duorum secundum communiter conceditur. 
+      Pri<lb ed="#L" n="125" break="no"/>mum autem insufficienter probatur, scilicet quod omne mixtum 
+      <lb ed="#L" n="126"/>sit corruptibile, per hoc quod elementa ex quibus componitur 
+      ra<lb ed="#L" n="127" break="no"/>tione suae contrarietatis agunt inuicem. Quod patet, quia actio 
+      <lb ed="#L" n="128"/>elementorum in mixto non potest intelligi nisi dupliciter. Vno 
+      <lb ed="#L" n="129"/>modo, quia vnum elementum secundum illud quod est, agat in 
+      <lb ed="#L" n="130"/>aliud, quod esse non potest, quia elementa non manent actu in 
+      <lb ed="#L" n="131"/>mix to: omne autem quod agit, agit secundum quod est ens in actu. 
+      <lb ed="#L" n="132"/>Alio modo sic, quod vna qualitas elementaris agat in aliam, quod 
+      <lb ed="#L" n="133"/>potest esse adhuc dupliciter. Vno modo, quia vna qualitas agat 
+      <lb ed="#L" n="134"/>in aliam sibi contrariam, puta calidum in frigidum, &amp; humidum 
+      <lb ed="#L" n="135"/>in siccum, &amp; econuerso. Alio modo, quod vna qualitas agat in aliam 
+      <lb ed="#L" n="136"/>non sibi contrariam, puta calidum in humidum. Primum non 
+      <lb ed="#L" n="137"/>potest esse, quia idem secundum idem non agit in seipsum, sed 
+      <lb ed="#L" n="138"/>calidum &amp; frigidum sunt vna &amp; eadem qualitas in mixto, 
+      simi<lb ed="#L" n="139" break="no"/>liter humidum &amp; siccum, ergo, &amp;c. Maior patet: minor probatur, 
+      <lb ed="#L" n="140"/>quia si calidum &amp; frigidum essent duae qualitates in mixto, aut 
+      <lb ed="#L" n="141"/>distinguerentur secundum subiectum, aut solum secundum 
+      <lb ed="#L" n="142"/>essentiam, non secundum subiectum, quia non quaelibet pars 
+      <lb ed="#L" n="143"/>mixti esset mixta, nec secundum essentiam solum, quia tunc 
+      <lb ed="#L" n="144"/>contraria essent in eodem subiecto, quod est impossibile: sit 
+      <lb ed="#L" n="145"/>ergo in mixto ex calido &amp; frigido vna qualitas media, &amp; 
+      simi<lb ed="#L" n="146" break="no"/>liter ex humido &amp; sicco, per hoc quod: reducuntur ad medium: 
+      <lb ed="#L" n="147"/>cum igitur idem non agat in seipsum, nec calidum agit in 
+      frigi<lb ed="#L" n="148" break="no"/>dum, nec humidum in siccum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3677-d1e254">
+               <lb ed="#L" n="149"/>
+               <!--6--> Item non potest dici quod vna qualitas agat in aliam non 
+      <lb ed="#L" n="150"/>sibi contrariam, puta calidum in humidum, quia si calidum 
+      age<lb ed="#L" n="151" break="no"/>ret in humidum, ageret in ipsum vel tanquam in contrarium, 
+      <lb ed="#L" n="152"/>vel tanquam in subiectum. Non tanquam in contrarium, vt de 
+      <lb ed="#L" n="153"/>se patet, nec tanquam in subiectum, tum quia licet calidum &amp; 
+      <lb ed="#L" n="154"/>humidum sint in eodem subiecto, vnum tamen non est 
+      subie<lb ed="#L" n="155" break="no"/>ctum alterius, neque econuerso, tum quia illud quod est ratio 
+      <lb ed="#L" n="156"/>agendi actione vniuoca, non potest esse forma subiecti, in quod 
+      <lb ed="#L" n="157"/>agit, alioquin idem esset simul in actu formali &amp; in potentia 
+      for<lb ed="#L" n="158" break="no"/>mali, quia subiectum habens talem formam, puta calorem 
+      ca<lb ed="#L" n="159" break="no"/>lidum est formaliter, &amp; quia transmutaretur ad similem secun¬ 
+      <!--00380.xml-->
+      <pb ed="#L" n="156-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dum speciem esset in potentia ad calorem formaliter, &amp; sic esse 
+      <lb ed="#L" n="2"/>simul actu, &amp; formaliter calidum &amp; in potentia calidum &amp; 
+      for<lb ed="#L" n="3" break="no"/>maliter, quod omnes negant cum contradictionem implicet, sed 
+      <lb ed="#L" n="4"/>calor est principium &amp; ratio agendi vniuoca, quia habens calo. 
+      <lb ed="#L" n="5"/>rem peripsum causat similem, ergo non potest agere in 
+      subie<lb ed="#L" n="6" break="no"/>ctum quod perficit. 
+      </p>
+            <p xml:id="jsnvu6-d1e3677-d1e302">
+               <lb ed="#L" n="7"/>
+               <!--7--> Item agens non corrumpit subiectum in quod agit nisi per 
+      <lb ed="#L" n="8"/>accidens corrumpatur aliquid quod requirebatur ad subiecti 
+      <lb ed="#L" n="9"/>existentiam, si ergo calidum ageret in humidum sibi subiectum 
+      <lb ed="#L" n="10"/>non corrumperet ipsum directe, nisi corrumpendo aliquid, sine 
+      <lb ed="#L" n="11"/>quo non posset humidum esse, illud autem non datur: quare &amp;c 
+      <lb ed="#L" n="12"/>Nullo ergo modo corrumpitur mixtum, per hoc quod elementa 
+      <lb ed="#L" n="13"/>ex quibus componitur, agunt &amp; patiuntur adinuicem ratione 
+      <lb ed="#L" n="14"/>contrarietatis, sicut dicebatur, in mixto enim non est principium 
+      <lb ed="#L" n="15"/>actiuum suae corruptionis, sed passiuum loquendo generaliter 
+      <lb ed="#L" n="16"/>principium vero actiuum est extrinsecum, scilicet continens 
+      con<lb ed="#L" n="17" break="no"/>trariae qualitatis, quod immutat contentum a sua naturali 
+      dispo<lb ed="#L" n="18" break="no"/>sitione ad innaturalem, &amp; per hoc tandem corrumpitur. Vndi 
+      <lb ed="#L" n="19"/>philosophus diffiniens putrefactionem quae est via ad corruptio 
+      <lb ed="#L" n="20"/>nem naturalem, quarto Metheororum dicit sic, Putrefactio es 
+      <lb ed="#L" n="21"/>corruptio quaedam in vnoquoque humido proprie secundum na 
+      <lb ed="#L" n="22"/>turam caliditatis ab aliena caliditate, hoc autem est quid 
+      am<lb ed="#L" n="23" break="no"/>bientis. Ex quo possumus assignare veram rationem 
+      corruptio<lb ed="#L" n="24" break="no"/>nis in omnibus corporibus sic, omne quod per alterius actioni 
+      <lb ed="#L" n="25"/>est alterabile a sua naturali dispositione ad contrariam per 
+      na<lb ed="#L" n="26" break="no"/>turam corruptibile est, sed corpus humanum &amp; omne mixtum, 
+      <lb ed="#L" n="27"/>necnon &amp; omne aliud quod qualitatibus elementaribus 
+      effici<lb ed="#L" n="28" break="no"/>tur, est huiusmodi, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3677-d1e354">
+               <lb ed="#L" n="29"/>
+               <!--8--> Ex quo sequitur quod quum corrumpens sit qualitas 
+      ex<lb ed="#L" n="30" break="no"/>tranea continentis, vel alterius corporis, si esset aliquod 
+      corpu<lb ed="#L" n="31" break="no"/>homogeneum simpliciter, &amp; non esset aliqua qualitas alterius 
+      <lb ed="#L" n="32"/>corporis ab eo dissona ei praesens, nunquam tale corrumperetur. 
+      <lb ed="#L" n="33"/>forte aliud esset de corpore heterogeneo, cuius partes non sunt 
+      <lb ed="#L" n="34"/>eiusdem complexionis, sicut est corpus hominis, cuius etiam 
+      par<lb ed="#L" n="35" break="no"/>tes habent distinctionem secundum situm, quia complexio vnius 
+      <lb ed="#L" n="36"/>partis non competit alteri, &amp; ideo vna potest aliam 
+      transmuta<lb ed="#L" n="37" break="no"/>re a sua naturali dispositione, &amp; econuerso, &amp; per consequen 
+      <lb ed="#L" n="38"/>corrumpere. 
+      </p>
+            <p xml:id="jsnvu6-d1e3677-d1e381">
+               <lb ed="#L" n="39"/>
+               <!--9--> AD PRIMVM argumentum dicendum quod mors &amp; 
+      <lb ed="#L" n="40"/>caeteri defectus in homine &amp; in brutis, quum sint vnius 
+      ratio<lb ed="#L" n="41" break="no"/>nis causantur ab eisdem principiis per se scilicet a natura, &amp; sic 
+      <lb ed="#L" n="42"/>mors in homine est a natura, non poena: praeter hoc autem 
+      spe<lb ed="#L" n="43" break="no"/>cialiter in homine causatur a culpa primorum parentum, non pe 
+      <lb ed="#L" n="44"/>se, sed sicut a remouente prohibens vt dictum est, &amp; quantum ad 
+      <lb ed="#L" n="45"/>hoc habet rationem poenae. Seneca autem solum attendens ad 
+      <lb ed="#L" n="46"/>primum dicit quod mors non est hominis poena, sed natura. 
+      </p>
+            <p xml:id="jsnvu6-d1e3677-d1e403">
+               <lb ed="#L" n="47"/>
+               <!--10--> Ad secundum dicendum quod immortalitas illius status non 
+      <lb ed="#L" n="48"/>fuit naturalis simpliciter, sed gratiae collatae naturae in sua 
+      insti<lb ed="#L" n="49" break="no"/>tutione saltem quoad hoc quod per diuinam prouidentiam 
+      con<lb ed="#L" n="50" break="no"/>seruabatur ab exterioribus laesiuis, &amp; positus fuit in loco 
+      tem<lb ed="#L" n="51" break="no"/>peratissimo, &amp; nutriebatur cibis confortatiuis &amp; purissimis, v 
+      <lb ed="#L" n="52"/>dictum fuit supra, decimanona distinctione, quibus per peccatum 
+      <lb ed="#L" n="53"/>amissis incidit in necessitatem moriendi, ratione cuius mors &amp; 
+      <lb ed="#L" n="54"/>caeteri defectus sunt homini poenales, &amp; hoc ei pro poena fuerat 
+      <lb ed="#L" n="55"/>connumeratum, vt tangitur in argumento ad oppositum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

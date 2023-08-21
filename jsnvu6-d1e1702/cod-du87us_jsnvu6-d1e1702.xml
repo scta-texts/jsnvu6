@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="80-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1702"><!-- l1d35prae -->
+            <head xml:id="jsnvu6-d1e1702-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1702-d1e103">
+               <lb ed="#L" n="124"/>DISTINCTIO XXXV. 
+      <lb ed="#L" n="125"/>Sententia huius distinctionis in 
+      gene<lb ed="#L" n="126" break="no"/>rali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e1702-d1e112">
+               <lb ed="#L" n="127"/>VMQVE supra. Superius inquisiuit magister 
+      <lb ed="#L" n="128"/>i vnitatem diuinae essentiae &amp; trinitatem 
+      perso<lb ed="#L" n="129" break="no"/>narum, hic vero determinat de attributis 
+      essen<lb ed="#L" n="130" break="no"/>Itialibus quibus attribuitur vel ascribitur 
+      crea<lb ed="#L" n="131" break="no"/>turarum causalitas. Et diuiditur ista pars in tres 
+      <lb ed="#L" n="132"/>secundum tria attributa diuinae essentiae quae ipse 
+      prosequi<lb ed="#L" n="133" break="no"/>tur ad quae reducitur causalitas creaturarum. Primo enim 
+      pro<lb ed="#L" n="134" break="no"/>sequitur de scientia. Secundo de potentia 42. dist. ibi, nunc de 
+      <lb ed="#L" n="135"/>omnipotentia. Tertio de bonitate 45. dist. ibi, iam de 
+      volunta<lb ed="#L" n="136" break="no"/>te. Ratio autem huius ordinis est, quia scientia ad plura se 
+      ex<lb ed="#L" n="137" break="no"/>tendit quam potentia, est enim tam bonorum quam malorum 
+      <lb ed="#L" n="138"/>quorum non est potentia, potentia etiam ad plura se extendit 
+      <lb ed="#L" n="139"/>quam voluntas, voluntas est tantum respectu illorum quae sunt 
+      <lb ed="#L" n="140"/>quae fuerunt vel erunt, sed potentia vlterius est infinitorum ali 
+      <lb ed="#L" n="141"/>quorum quae fieri possunt. Prima pars istarum diuiditur in 
+      <lb ed="#L" n="142"/>duas. Primo enim determinat de scientia Dei in generali. 
+      Se<lb ed="#L" n="143" break="no"/>cundo de quadam specie scientiae Dei quae specialem 
+      difficul<lb ed="#L" n="144" break="no"/>tatem affert 40. distin. ibi: Praedestinatio vero de bonis. Prima 
+      <lb ed="#L" n="145"/>in tres. Primo enim ostendit quorum est scientia Dei. 
+      Secun<lb ed="#L" n="146" break="no"/>do ostendit quo modo ea quae scit in Deo esse dicunt distin. 36 
+      <lb ed="#L" n="147"/>ibi: Solet hic quaeri. Tertio quomodo scientia Dei se habet ad 
+      <lb ed="#L" n="148"/>res scitas 37. distinct. ibi, nunc ergo ad propositum. Prima in 
+      <lb ed="#L" n="149"/>quatuor. Primo notificat necessitatem tractatus Secundo osten 
+      <lb ed="#L" n="150"/>dit in generali quorum sit scientia Dei ibi: Sciendum est ergo 
+      <lb ed="#L" n="151"/>Tertio mouet incidentem quaestionem &amp; soluit ibi: Hic 
+      con<lb ed="#L" n="152" break="no"/>siderari oportet. Quarto ex determinatione concludit quasdam 
+      <lb ed="#L" n="153"/>quaestiones ibi: Praeterea omnia esse dicuntur de Deo. Haec 
+      <lb ed="#L" n="154"/>est diuisio in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e1702-d1e175">
+               <lb ed="#L" n="155"/>
+               <!--2--> INSPECIALI sic procedit. Primo proponit quod die 
+      <lb ed="#L" n="156"/>attributis diuinis &amp; scientia praedestinationis cum caeteris qui 
+      <lb ed="#L" n="157"/>enumerat specialem oportuit facere tractatum. Postea dicit c 
+      <lb ed="#L" n="158"/>scientia est respectu omnium siue praesentium siue futurorum 
+      <!--00226.xml-->
+      <pb ed="#L" n="80-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>siue temporalium siue aeternorum, praescientia vero dicitur fu 
+      <lb ed="#L" n="2"/>turorum omnium. Dispositio vero dicitur respectu faciendorum 
+      <lb ed="#L" n="3"/>prouidentia respectu gubernandorum. Praedestinatio respectu 
+      <lb ed="#L" n="4"/>saluandorum, vbi dicit quod praedestinantur homines ad futuram 
+      <lb ed="#L" n="5"/>gloriam, &amp; praedestinantur hominibus bona gratiae &amp; gloriae 
+      <lb ed="#L" n="6"/>Deinde quaerit vtrum (si nulla fuissent futura) praedestinatio 8 
+      <lb ed="#L" n="7"/>praescientia vel dispositio in deo fuissent. Et videtur quod non, qui 
+      <lb ed="#L" n="8"/>omnia ista relatiue dicuntur per respectum ad futura, ergo si 
+      nul<lb ed="#L" n="9" break="no"/>la fuissent futura ista in deo non fuissent. Sed in contrarium 
+      vide<lb ed="#L" n="10" break="no"/>tur quod praescientia idem est quod scientia, &amp; scientia dei idem est 
+      <lb ed="#L" n="11"/>quod essentia ipsius, &amp; praescire idem est quod esse in diuinis 
+      <lb ed="#L" n="12"/>Idem enim est deum praescientem esse &amp; deum esse, ergo si absque 
+      <lb ed="#L" n="13"/>futuris non est scientia in deo, a futuris ergo dependebit 
+      eiu<lb ed="#L" n="14" break="no"/>essentia vel diuinitas quod est inconueniens, &amp; respondet quod s 
+      <lb ed="#L" n="15"/>nulla fuissent futura tolleretur praescientia dei quantum ad 
+      re<lb ed="#L" n="16" break="no"/>spectum &amp; ante cessionem quam importat ad futura, sed non 
+      <lb ed="#L" n="17"/>quantum ad essentiam quod subiacet tali respectui, praescientia 
+      <lb ed="#L" n="18"/>vero dicit essentiam cum tali respectu. Scientia vero competit 
+      <lb ed="#L" n="19"/>ab aeterno &amp; praeter creaturarum existentiam. Vitimo conclu 
+      <lb ed="#L" n="20"/>dit duas conclusiones. Quarum prima talis est quod pi opter 
+      scien<lb ed="#L" n="21" break="no"/>tiam omnia dicuntur esse in deo, &amp; ab aeterno fuerunt etiam 
+      <lb ed="#L" n="22"/>antequam fierent, quia deus nihil facit ignorans. Secunda est? 
+      <lb ed="#L" n="23"/>propter istam scientiam omnia dicuntur esse in dei praesentis 
+      <lb ed="#L" n="24"/>secundum cognitionem. Haec est sententia huius in speciali.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

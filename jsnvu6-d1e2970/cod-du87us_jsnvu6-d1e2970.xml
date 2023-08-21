@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="133-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2970"><!-- l2d14q2 -->
+            <head xml:id="jsnvu6-d1e2970-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e2970-Hd1e103" type="question-title">Utrum motus coeli sit naturalis</head>
+            <p xml:id="jsnvu6-d1e2970-d1e106">
+               <lb ed="#L" n="117"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="118"/>Vtrum motus coeli sit naturalis. 
+      <lb ed="#L" n="119"/>Thom. 1. 9. 70. ar. 3. ad. 4. 
+    </p>
+            <p xml:id="jsnvu6-d1e2970-d1e115">
+               <lb ed="#L" n="120"/>SECVNDO quaeritur, vtrum motus coeli 
+      natu<lb ed="#L" n="121" break="no"/>ralis fit. Et videtur quod sic per philosophum 2 
+      <lb ed="#L" n="122"/>coeli &amp; mundi, qui dicit quod cuiuslibet corpori 
+      <lb ed="#L" n="123"/>naturalis est aliquis motus naturalis. Sed coelum 
+      <lb ed="#L" n="124"/>est corpus naturale, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2970-d1e128">
+               <lb ed="#L" n="125"/>
+               <!--2--> Item secundo physicorum dicitur quod natura est 
+      princi<lb ed="#L" n="126" break="no"/>pium motus, in eo in quo est, sed corpus coeleste naturam 
+      ali<lb ed="#L" n="127" break="no"/>quam habet, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2970-d1e140">
+               <lb ed="#L" n="128"/>
+               <!--3--> IN CONTRARIVM est, quia motus naturalis non 
+      <lb ed="#L" n="129"/>est nisi corporis extra locum suum existentis naturalem, &amp; 
+      ter<lb ed="#L" n="130" break="no"/>minatur ad quietem naturalem in loco suo, sed coelum non ess 
+      <lb ed="#L" n="131"/>extra locum suum, ergo &amp;c.
+</p>
+            <p xml:id="jsnvu6-d1e2970-d1e153">
+               <lb ed="#L" n="132"/>RESPONSIO. Dicendum quod motus coeli non est 
+      <lb ed="#L" n="133"/>natura, nec ab anima, prout anima dicit substantiam viuentem 
+      <lb ed="#L" n="134"/>vnitam materiae in ratione formae, sed est ab intelligentia. Pri 
+      <lb ed="#L" n="135"/>mum patet, quia natura corporis simplicis inclinat ad vnum mo 
+      <lb ed="#L" n="136"/>tum &amp; simplicem, sed in coelo non est vnus motus tantum, sec 
+      <lb ed="#L" n="137"/>plures non solum in diuersis spheris, sed in eadem, etiam in 
+      eo<lb ed="#L" n="138" break="no"/>dem planeta: &amp; tamen coelum est simplex corpus, ergo &amp;c. Maio 
+      <lb ed="#L" n="139"/>patet, motus enim naturalis correspondet formae mobilis, qua 
+      <lb ed="#L" n="140"/>inclinat ad motum: &amp; ideo licet forma mixti, quae virtute con 
+      <lb ed="#L" n="141"/>tinet formas mixtibilium possit inclinare ad motum secundum 
+      <lb ed="#L" n="142"/>omnem differentiam loci (propter quod &amp; motus augmenti noi 
+      <lb ed="#L" n="143"/>est solum sursum, quia non est solum a virtute ignis, vt aliqu 
+      <lb ed="#L" n="144"/>crediderunt, sed est ad omnem differentiam positionis, quia est 
+      <lb ed="#L" n="145"/>forma planetae, quae est forma mixti) tamen forma corporis 
+      <lb ed="#L" n="146"/>simplicis ad vnum solum inclinat. Minor patet, quia spherae pla 
+      <lb ed="#L" n="147"/>netarum non solum mouentur ab Oriente in Occidentem 
+      mo<lb ed="#L" n="148" break="no"/>tu diurno, sed econtrario vt patet ad sensum, praecipue in sole 
+      <lb ed="#L" n="149"/>&amp; luna: in eodem etiam planeta praeter motum spherae suae 
+      po<lb ed="#L" n="150" break="no"/>nitur motus secundum ecentricum &amp; epiciclum, vt magis 
+      pa<lb ed="#L" n="151" break="no"/>tebit in quaestione sequenti. Nec potest dici quod spherae 
+      diffe<lb ed="#L" n="152" break="no"/>rant specie, sicut elementa, &amp; ideo mouentur diuersis motibus, 
+      <lb ed="#L" n="153"/>quia sequeretur quod essent plura corpora simplicia, quam 
+      <lb ed="#L" n="154"/>quinque. Et iterum planeta est de natura suae spherae, vt dicitu 
+      <lb ed="#L" n="155"/>secundo coeli, &amp; tamen habet alium motum a motu spherae. E 
+      <lb ed="#L" n="156"/>iterum omnes spherae aliqualiter ad inuicem conueniunt, sec 
+      <lb ed="#L" n="157"/>spherae planetarum conueniunt secundum speciem (saltem 
+      mo<lb ed="#L" n="158" break="no"/>tus eorum non arguit diuersitatem speciei) cum omnes 
+      moue<lb ed="#L" n="159" break="no"/>antur ad eandem partem, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2970-d1e216">
+               <lb ed="#L" n="160"/>
+               <!--5--> Secundo patet idem sic, motus est naturalis ex 
+      connaturali<lb ed="#L" n="161" break="no"/>tate mobilis ad terminum, sed connaturalitas mobilis ad locum no 
+      <lb ed="#L" n="162"/>potest causare motum in loco, ergo &amp;c. Minor probatur, quia 
+      <!--00335.xml-->
+      <pb ed="#L" n="134-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sicut est in actibus animae, sic suo modo in actibus naturae, sed 
+      <lb ed="#L" n="2"/>in actibus animae sic est quod bonum conueniens si sit praesens causat 
+      <lb ed="#L" n="3"/>delectationem, quae est quasi quies animae, &amp; non desiderium, 
+      <lb ed="#L" n="4"/>quod est quasi motus, ergo similiter in actibus naturae 
+      conue<lb ed="#L" n="5" break="no"/>nientia locati cum loco causat quietem in loco, &amp; non morum, 
+      </p>
+            <p xml:id="jsnvu6-d1e2970-d1e245">
+               <lb ed="#L" n="6"/>
+               <!--6.--> Tertio, quia si motus coeli esset naturalis quies in eodem lo 
+      <lb ed="#L" n="7"/>co esset violenta, &amp; ita quum coelum in fine mundi cesset a mo 
+      <lb ed="#L" n="8"/>tu, quies illa esset violenta, quod est inconueniens, quia tunc 
+      <lb ed="#L" n="9"/>coelum non erit in deteriori conditione, sed meliori. Item 
+      mo<lb ed="#L" n="10" break="no"/>tus naturalis est a dante formam, qua conseruata non oportet 
+      <lb ed="#L" n="11"/>dare alium motorem per se, sed solum quod remoueat 
+      prohi<lb ed="#L" n="12" break="no"/>bens, si sit impedimentum, sed coelo datur alius motor per se 
+      <lb ed="#L" n="13"/>(scilicet intelligentia) ergo &amp;c. Non est ergo motus a natura 
+      <lb ed="#L" n="14"/>coeli proprie, neque tamen est contra naturam, quia non est 
+      <lb ed="#L" n="15"/>in oppositum inclinationis naturae, quum natura eius ad 
+      nul<lb ed="#L" n="16" break="no"/>lum motum inclinet. Exemplum de corpore mathematico, po 
+      <lb ed="#L" n="17"/>test tamen dici naturalis, secundum quandam adaptationem 
+      <lb ed="#L" n="18"/>&amp; conuenientiam. Congruum est enim vt corpus coeleste, quod 
+      <lb ed="#L" n="19"/>neque est graue, neque leue moueatur tali motu, per quem 
+      <lb ed="#L" n="20"/>non accedit ad medium, vt grauia, nec recedit a medio vt 
+      le<lb ed="#L" n="21" break="no"/>uia, &amp; talis est motus circularis. 
+</p>
+            <p xml:id="jsnvu6-d1e2970-d1e284">
+               <lb ed="#L" n="22"/>SECVNDVM patet, quod scilicet coelum non mouetui 
+      <lb ed="#L" n="23"/>ab anima sibi vnita in ratione formae, quia secundum vnam 
+      opi<lb ed="#L" n="24" break="no"/>nionem prius tactam dist. 12. In coelo non est compositio mate 
+      <lb ed="#L" n="25"/>riae &amp; formae, sed dato quod esset, &amp; quod illa forma esset anima, 
+      ad<lb ed="#L" n="26" break="no"/>huc probo quod non moueretur ab ipsa. Cum enim idem 
+      secun<lb ed="#L" n="27" break="no"/>dum idem non possit esse mouens &amp; motum, imo oportet mo 
+      <lb ed="#L" n="28"/>tum ex se diuidere in partem, quae mouet &amp; quae mouetur (vt di 
+      <lb ed="#L" n="29"/>citur 8. Physic.) Pars quae moueret aut esset forma, &amp; quae mo 
+      <lb ed="#L" n="30"/>ueretur esset materia, aut pars vna quantitatiua composita es 
+      <lb ed="#L" n="31"/>materia &amp; forma moueret aliam partem quantitatiuam ad im 
+      <lb ed="#L" n="32"/>perium animae, sicut fit in animalibus. Primum non potest dici, 
+      <lb ed="#L" n="33"/>quia materia secundum se non potest habere rationem 
+      mobi<lb ed="#L" n="34" break="no"/>lis, cum secundum se non sit quanta vt secundum se sit 
+      subie<lb ed="#L" n="35" break="no"/>ctum actu ens, quod requiritur ad motum praecipue localem, 
+      <lb ed="#L" n="36"/>neque forma respectu materiae potest habere rationem 
+      moto<lb ed="#L" n="37" break="no"/>ris, quia forma &amp; agens non coincidunt in idem secundum 
+      nu<lb ed="#L" n="38" break="no"/>merum respectu eiusdem, &amp; ideo cum coeli anima respectu ma 
+      <lb ed="#L" n="39"/>teriae ipsius se habeat vt forma, &amp; quicquid erat esse nullo 
+      mo<lb ed="#L" n="40" break="no"/>do potest habere rationem agentis, quae est vnum principium 
+      <lb ed="#L" n="41"/>motus. Nec secundum potest dici, quia mouens &amp; motum sunt 
+      <lb ed="#L" n="42"/>contacta, &amp; non continua (vt dicitur 8. Physicorum) Sed 
+      par<lb ed="#L" n="43" break="no"/>tes quantitatiuae coeli (exceptis forte corporibus planetarum, 
+      <lb ed="#L" n="44"/>sunt continuae, &amp; non contactae, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2970-d1e336">
+               <lb ed="#L" n="45"/>
+               <!--8--> EX HIS patet tertium, quod coelum mouetur ab 
+      intel<lb ed="#L" n="46" break="no"/>ligentia, quia omne quod mouetur, ab alio mouetur, sed 
+      coe<lb ed="#L" n="47" break="no"/>lum mouetur, &amp; non a natura, vel a dante naturam (vt 
+      proba<lb ed="#L" n="48" break="no"/>tum est in primo articulo) neque ab anima coniuncta (vt 
+      pro<lb ed="#L" n="49" break="no"/>batum est in secundo) relinquitur ergo quod ab intelligentia. 
+      <lb ed="#L" n="50"/>Et probatur consequentia. Quia quum motus coeli non sit 
+      vio<lb ed="#L" n="51" break="no"/>lentus, nec naturalis, oportet quod sit voluntarius voluntate 
+      <lb ed="#L" n="52"/>intellectus coniuncti vel separati. 
+      </p>
+            <p xml:id="jsnvu6-d1e2970-d1e359">
+               <lb ed="#L" n="53"/>
+               <!--9--> AD ARGVMENTA patet solutio, Non enim 
+      cu<lb ed="#L" n="54" break="no"/>iuslibet corporis naturalis oportet esse aliquem motum 
+      natu<lb ed="#L" n="55" break="no"/>ralem, nisi habeat quietem naturalem, vtrunque enim ponitu 
+      <lb ed="#L" n="56"/>in diffinitione naturae, scilicet quod est principium motus &amp; 
+      <lb ed="#L" n="57"/>quietis, &amp; haec duo solum competunt corruptibilibus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

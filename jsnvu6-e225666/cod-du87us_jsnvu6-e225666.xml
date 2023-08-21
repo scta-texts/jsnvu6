@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="274-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e225666"><!-- l4d11prae -->
+            <head xml:id="jsnvu6-e225666-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e225666-d1e103">
+               <lb ed="#L" n="50"/>Sententia huius distinctionis XI. 
+      <lb ed="#L" n="51"/>in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e225666-d1e110">
+               <lb ed="#L" n="52"/>IAVTEM quaeritur qualis sit. Superius 
+      magi<lb ed="#L" n="53" break="no"/>ster determinauit de sacramento eucharistiae 
+      quan<lb ed="#L" n="54" break="no"/>tum ad esse: hic determinat de eo quantum ad fieri. 
+      <lb ed="#L" n="55"/>Et diuiditur in duas, quia primo determinat ea 
+      <lb ed="#L" n="56"/>squae ad consecrationem huius sacramenti 
+      perti<lb ed="#L" n="57" break="no"/>nent. Secundo de consequentibus huiusmodi, di 
+      <lb ed="#L" n="58"/>consecra. dist. 12. Si autem quaeritur de accidentibus. Prima est 
+      <lb ed="#L" n="59"/>principalis lectio. Et diuiditur in duas. Primo determinat mo 
+      <lb ed="#L" n="60"/>dum quo sacramentum conficitur. Secundo explanat ibi: Sub 
+      <lb ed="#L" n="61"/>alia autem specie. Prima diuiditur in duas. Primo determinat 
+      <lb ed="#L" n="62"/>veritatem. Secundo tangit circa hoc aliorum opiniones ibi, 
+      qui<lb ed="#L" n="63" break="no"/>busdam videtur esse substantialis. Haec secunda diuiditur in tres 
+      <lb ed="#L" n="64"/>secundum tres opiniones quas tangit. Secunda ibi, quidam 
+      ve<lb ed="#L" n="65" break="no"/>ro sic dicunt. Tertia ibi, Alij vero putant. Primo diuiditur in 
+      <lb ed="#L" n="66"/>tres. Quia primo proponit primam opinionem. Secundo obii 
+      <lb ed="#L" n="67"/>cit in contrarium &amp; soluit. Tertio ostendit quae locutiones sunt 
+      <lb ed="#L" n="68"/>concedendae vel negandae secundum hanc opinionem. Secunda 
+      <lb ed="#L" n="69"/>ibi, sed huic sententiae. Tertia ibi, non tamen concedunt 
+      qui<lb ed="#L" n="70" break="no"/>dam. Secunda pars principalis in qua determinat de speciebus 
+      <lb ed="#L" n="71"/>sub quibus fit conuersio diuiditur in quatuor. Primo 
+      determi<lb ed="#L" n="72" break="no"/>nat quaedam de speciebus, Secundo incidenter determinat de 
+      <lb ed="#L" n="73"/>admissione aquae. Tertio ostendit qualiter aqua apponitur. 
+      <lb ed="#L" n="74"/>Quarto concludit quaedam correlaria. Secunda ibi, sed quare 
+      <lb ed="#L" n="75"/>sub duplici specie. Tertia ibi, aqua vero eis admiscenda est. 
+      <lb ed="#L" n="76"/>Quarta ibi, Colligitur vero ex praedictis. 
+      </p>
+            <p xml:id="jsnvu6-e225666-d1e167">
+               <lb ed="#L" n="77"/>
+               <!--2--> IN SPECIALI sic proceditur. Et quaerit primo 
+      <lb ed="#L" n="78"/>qualis sit illa conuersio panis &amp; vini in corpus Christi verum scilicet 
+      <lb ed="#L" n="79"/>an sit conuersio substantialis, an formalis, an alterius generis. 
+      <lb ed="#L" n="80"/>Et dicit quod non est formalis, quia species quae prius erani 
+      <!--00621.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>manent: postea dicit quod quibusdam videtur quod 
+      conuersi<lb ed="#L" n="82" break="no"/>sit secundum substantiam vel substantialis, hoc modo dicentibus 
+      <lb ed="#L" n="83"/>in substantias conuerti substantiam, quia substantia panis &amp; vini 
+      <lb ed="#L" n="84"/>totaliter fit substantia corporis &amp; sanguinis Christi. Postea 
+      po<lb ed="#L" n="85" break="no"/>nit circa hoc quorundam obiectionem: si enim sic intelligatur 
+      <lb ed="#L" n="86"/>conuersio, tunc quotidie fit aliqua substantia corpus Christi, &amp; 
+      <lb ed="#L" n="87"/>sanguis Christi quae ante non fuerat, &amp; sic corpus Christi 
+      quo<lb ed="#L" n="88" break="no"/>tidie augetur, &amp; ex materia aliqua formatur quae in conceptio. 
+      <lb ed="#L" n="89"/>ne non fuit, &amp; dicit magister ad hoc responderi posse quod 
+      pa<lb ed="#L" n="90" break="no"/>nis fit corpus Christi, nec tamen propter hoc corpus Christi au 
+      <lb ed="#L" n="91"/>getur, nec fit ex noua materia, praeter eam ex qua in 
+      conceptio<lb ed="#L" n="92" break="no"/>ne fuit formatum, quia non fit ex pane tanquam ex materia, sed 
+      <lb ed="#L" n="93"/>per transsubstantiationem miraculosam: &amp; sic eonceditur quod 
+      pa<lb ed="#L" n="94" break="no"/>nis fit corpus Christi, sicut farina fit panis. Vnde bene 
+      concedi<lb ed="#L" n="95" break="no"/>tur quod illud quod erat panis est corpus Christi, non tamen 
+      ma<lb ed="#L" n="96" break="no"/>nens panis, sed mutatus. Postea dicit quod alia opinio est hanc 
+      <lb ed="#L" n="97"/>conuersionem sic esse intelligendam, quod sub accidentibus sub 
+      <lb ed="#L" n="98"/>quibus erat prius substantia panis &amp; vini post consecrationem 
+      <lb ed="#L" n="99"/>est substantia corporis Christi, &amp; prior substantia panis &amp; vini 
+      <lb ed="#L" n="100"/>resoluitur in praeiacentem materiam vel annihilatur. Tertia 
+      opi<lb ed="#L" n="101" break="no"/>nio est, quod substantia panis &amp; vini remanet cum substantia 
+      cor<lb ed="#L" n="102" break="no"/>poris &amp; sanguinis Christi. Et verba consecrationis ex hoc solo 
+      <lb ed="#L" n="103"/>verificantur, quia vbi est vna substantia est &amp; alia. Magister 
+      au<lb ed="#L" n="104" break="no"/>tem probat per aliquas auctoritates quod post consecrationem 
+      <lb ed="#L" n="105"/>non remanent nisi species vini &amp; panis, sub quibus est corpus 
+      <lb ed="#L" n="106"/>&amp; sanguis Christi. Postea assignat triplicem rationem, quare cor 
+      <lb ed="#L" n="107"/>pus Christi sub aliena specie sumitur. Prima est ad augendum 
+      <lb ed="#L" n="108"/>meritum fidei quae est de visis. Secunda ad vitandum horrorem. 
+      <lb ed="#L" n="109"/>Tertia ne detur infidelibus occasio irridendi, sumitur etiam hoc 
+      <lb ed="#L" n="110"/>sacramentum sub duplici specie, quia Christus duplicem 
+      natu<lb ed="#L" n="111" break="no"/>ram assumpsit animam &amp; carnem, &amp; hoc sacramentum est ad 
+      <lb ed="#L" n="112"/>tuitionem vtriusque, &amp; quamuis sit duplex species, vnum 
+      ta<lb ed="#L" n="113" break="no"/>men est sacramentum &amp; sub vtraque specie vnus Christus: nec 
+      <lb ed="#L" n="114"/>dicitur benedictio iterari, quia virtute conuersionis non est sub 
+      <lb ed="#L" n="115"/>specie panis, nisi corpus, nec sub specie vini, nisi sanguis, nec 
+      <lb ed="#L" n="116"/>sunt eadem verba super vtramque speciem prolata. Postea dicit 
+      <lb ed="#L" n="117"/>quod hoc sacramentum non potest in aliis rebus confici, nisi in 
+      <lb ed="#L" n="118"/>pane &amp; vino, etiam admiscenda est aqua si tamen per 
+      ignoran<lb ed="#L" n="119" break="no"/>tiam vel negligentiam omittatur, verum est sacramentum, sed 
+      <lb ed="#L" n="120"/>ille qui omisit est puniendus. Vitimo dicit quod Christus dedit di 
+      <lb ed="#L" n="121"/>scipulis suis tale corpus, quale tunc habuit. Spassibile &amp; 
+      mor<lb ed="#L" n="122" break="no"/>tale: nos autem sumimus tale corpus quale nunc habet, &amp; 
+      ad<lb ed="#L" n="123" break="no"/>dit quod eucharistia intincta non est danda populo, quia soli 
+      <lb ed="#L" n="124"/>Iudae dedit buccellam intinctam, nec tunc dedit ei corpus suum 
+      <lb ed="#L" n="125"/>sed prius dederat cum aliis discipulis. Et in hoc terminatur 
+      sen<lb ed="#L" n="126" break="no"/>tentia lectionis &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

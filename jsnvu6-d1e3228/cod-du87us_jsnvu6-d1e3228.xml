@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="141-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3228"><!-- l2d20q5 -->
+            <head xml:id="jsnvu6-d1e3228-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-d1e3228-Hd1e103" type="question-title">Utrum fuissent nati in iustitia originali</head>
+            <p xml:id="jsnvu6-d1e3228-d1e106">
+               <lb ed="#L" n="72"/>QVAESTIO QVINTA. 
+      <lb ed="#L" n="73"/>Vtrum filij in statu innocentiae fuissent 
+      <lb ed="#L" n="74"/>nati in iustitia originali. 
+      <lb ed="#L" n="75"/>Tium 1 4 100. a .a.
+    </p>
+            <p xml:id="jsnvu6-d1e3228-d1e117">
+      <!--00350.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>QVINTO quaeritur, vtrum fuissent nati in 
+      iusti<lb ed="#L" n="77" break="no"/>tia originali. Videtur quod non quia iustitia ori 
+      <lb ed="#L" n="78"/>ginalis videtur fuisse per gratiam: quia non 
+      po<lb ed="#L" n="79" break="no"/>tuit amitti nisi per culpam: sed gratia non est per 
+      <lb ed="#L" n="80"/>a transfusionem a parente in prolem, sed est a 
+      <lb ed="#L" n="81"/>Deo per infusionem, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3228-d1e137">
+               <lb ed="#L" n="82"/>
+               <!--2--> Item Hugo de sancto Victore dicit quod homo ante 
+      pec<lb ed="#L" n="83" break="no"/>catum genuisset, quidem filios sine peccato, sed non paterna 
+      <lb ed="#L" n="84"/>iustitiae haeredes, &amp; sic idem quod prius. 
+      </p>
+            <p xml:id="jsnvu6-d1e3228-d1e149">
+               <lb ed="#L" n="85"/>
+               <!--3--> IN CONTRARIVM est, quia secundum Anselmum, qua 
+      <lb ed="#L" n="86"/>lis ipse fuit, tales filios genuisset: sed Adam iustitiam originalem 
+      si<lb ed="#L" n="87" break="no"/>mul &amp; gratuitam habuit, ergo vtramque pueri geniti habuissent. 
+</p>
+            <p xml:id="jsnvu6-d1e3228-d1e160">
+               <lb ed="#L" n="88"/>ARC SNONOTO. Onginalis ustitia accipitur dupici 
+      <lb ed="#L" n="89"/>ter. Vno modo large, prout comprehendit rectitudinem 
+      vo<lb ed="#L" n="90" break="no"/>luntatis ad Deum, &amp; debitam subiectionem corporis, &amp; virium 
+      <lb ed="#L" n="91"/>sensitiuarum ad animam, siue ad rationem. Alio modo 
+      accipi<lb ed="#L" n="92" break="no"/>tur magis stricte: videlicet pro sola subiectione corporis ad ani 
+      <lb ed="#L" n="93"/>mam, &amp; debito ordine virium sensitiuarum ad rationem: 
+      re<lb ed="#L" n="94" break="no"/>ctitudo enim voluntatis ad Deum (in qua consistit meritum 
+      ho<lb ed="#L" n="95" break="no"/>minis, quod est cum gratia) magis pertinet ad iustitiam 
+      gratui<lb ed="#L" n="96" break="no"/>tam, quam ad originalem. Et fuit in primo homine quasi radix 
+      <lb ed="#L" n="97"/>originalis iustitiae, ex eo enim quod ei inerat rectitudo 
+      volun<lb ed="#L" n="98" break="no"/>tatis ad Deum, inerat etiam ipsi debita subiectio corporis ad 
+      <lb ed="#L" n="99"/>animam, &amp; virium sensitiuarum ad rationem: vnde amissa 
+      pri<lb ed="#L" n="100" break="no"/>ma rectitudine, amissa fuit &amp; secunda tanquam ex ea dependens. 
+      </p>
+            <p xml:id="jsnvu6-d1e3228-d1e191">
+               <lb ed="#L" n="101"/>
+               <!--5--> Hoc supposito videnda sunt tria. Primum est, an in statu 
+      <lb ed="#L" n="102"/>innocentiae pueri fuissent nati in iustitia originali transfusa 
+      <lb ed="#L" n="103"/>Secundum est, an fuissent nati cum iustitia gratuita. Tertium 
+      <lb ed="#L" n="104"/>est, vtrum fuissent confirmati in vtraque, an non 
+      </p>
+            <p xml:id="jsnvu6-d1e3228-d1e204">
+               <lb ed="#L" n="105"/>
+               <!--6--> QVANTVM ad primum dicunt quidam quod pueri 
+      fuis<lb ed="#L" n="106" break="no"/>sent nati in iustitia originali transfusa, quod probant sic: omnis 
+      <lb ed="#L" n="107"/>proprietas corporalis consequens totam speciem transfunditur a 
+      pa<lb ed="#L" n="108" break="no"/>rente in prolem, sed iustitia originalis erat huiusmodi, ergo, &amp;c. 
+      Ma<lb ed="#L" n="109" break="no"/>ior patet, quia proprietas consequens speciem si non sit corporalis 
+      <lb ed="#L" n="110"/>non oportet quod transfundatur: sed quandoque infunditur vel 
+      <lb ed="#L" n="111"/>communicatur, sicut patet de intellectu qui est potentia animae 
+      <lb ed="#L" n="112"/>consequens tamen totam speciem humanam ipsum enim non 
+      trans<lb ed="#L" n="113" break="no"/>fundunt, nec generant parentes. Item si sit corporalis sed non 
+      com<lb ed="#L" n="114" break="no"/>sequens totam speciem, non necessario transfunditur. Non enim 
+      <lb ed="#L" n="115"/>semper leprosus generat leprosum, sed accidit: sed proprietas 
+      <lb ed="#L" n="116"/>corporalis consequens totam speciem transfunditur. Minor patet, 
+      <lb ed="#L" n="117"/>quia iustitia originalis fuit subiectio corporis respectu animae, 
+      <lb ed="#L" n="118"/>&amp; obedientia virium inferiorum ad rationem, &amp; ita fuit proprie 
+      <lb ed="#L" n="119"/>tas corporalis, fuit etiam communis toti speciei: quia fuit collata 
+      <lb ed="#L" n="120"/>Adae pro se &amp; toti posteritati, cuius signum est quia eius 
+      oppo<lb ed="#L" n="121" break="no"/>situm scilicet peccatum originale redundat in omnes, ideo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3228-d1e246">
+               <lb ed="#L" n="122"/>
+               <!--7--> Sed illud non valet: quia proprietas corporalis etiam totam 
+      <lb ed="#L" n="123"/>speciem concomitans non transfunditur si sit mere donum dei, &amp; 
+      <lb ed="#L" n="124"/>non proprietas naturalis, quia donum dei non est ex transfusio 
+      <lb ed="#L" n="125"/>ne naturae: sed iustitia originalis quamnis esset conditio 
+      corpo<lb ed="#L" n="126" break="no"/>ralis, erat tamen mere donum dei, &amp; non proprietas naturalis 
+      <lb ed="#L" n="127"/>alioquin mansisset post peccatum, sicut natura mansit cum suis 
+      <lb ed="#L" n="128"/>naturalibus proprietatibus, ergo iustitia originalis non fuisset 
+      <lb ed="#L" n="129"/>transfusa a parente in prolem, sed fuisset proli a deo infusa, sicut 
+      <lb ed="#L" n="130"/>parentibus fuit a deo gratis collata. 
+      </p>
+            <p xml:id="jsnvu6-d1e3228-d1e270">
+               <lb ed="#L" n="131"/>
+               <!--8.--> QUANTVM ad secundum dicendum quod pueri 
+      fuis<lb ed="#L" n="132" break="no"/>sent nati cum iustitia gratuita, non quidem transfusa per origi 
+      <lb ed="#L" n="133"/>nem, sed a deo gratis infusa. Quod enim non fuisset transfusa 
+      <lb ed="#L" n="134"/>per originem, patet: quia non potest esse conditio naturalis vt 
+      <lb ed="#L" n="135"/>cum natura transfundatur, sed semper donum dei est (vt ipsum 
+      <lb ed="#L" n="136"/>nomen sonat) fuisset tamen omnibus infasa, quia effectus non 
+      <lb ed="#L" n="137"/>ponitur: nisi posita sua causa conseruatiua, sed iustitia gratuita 
+      <lb ed="#L" n="138"/>fuit causa conseruatiua iustitiae originalis: ex rectitudine enim 
+      <lb ed="#L" n="139"/>voluntatis ad deum in qua consistebat iustitia gratuita, 
+      emana<lb ed="#L" n="140" break="no"/>bat rectitudo virium sensitiuarum inferiorum ad rationem, in 
+      <lb ed="#L" n="141"/>qua consistebat originalis iustitia, ergo, &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e3228-d1e300">
+               <lb ed="#L" n="142"/>Tertium patet, quia effectus non est potior sua causa: sed 
+      <lb ed="#L" n="143"/>filij comparantur ad parentes, vt effectus ad causam: ergo cum 
+      <lb ed="#L" n="144"/>parentes quandiu genuissent filios, non fuissent confirmati quin 
+      <lb ed="#L" n="145"/>potuissent peccare, &amp; vtramque iustitiam amittere, fortiori 
+      ra<lb ed="#L" n="146" break="no"/>tione nec filij. Quod autem parentes quandiu genuissent, non 
+      <lb ed="#L" n="147"/>fuissent confirmati, patet: quia status confirmationis est in visione 
+      <lb ed="#L" n="148"/>dei per essentiam, &amp; eorum quae ad videntem pertinent, ad quem 
+      <lb ed="#L" n="149"/>statu sequitur immortalitas corporis, qua non potest moii, qui 
+      <lb ed="#L" n="150"/>non fuissent in statu innocentiae pro tempore quo genuissent 
+      <lb ed="#L" n="151"/>sed fuissent pro tempore quo translati fuissent ad gloriam, vbi 
+      <lb ed="#L" n="152"/>non nubent neque nubentur, sed erunt sicut angeli dei in coelis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3228-d1e326">
+               <lb ed="#L" n="153"/>
+               <!--10--> AD PRIMVM argumentum dicendum est quod 
+      iusti<lb ed="#L" n="154" break="no"/>tia originalis fuit per gratiam causaliter, quia gratis data fuit 
+      pri<lb ed="#L" n="155" break="no"/>mo homini pro se &amp; sua posteritate, &amp; conseruare eam potuit sibi 
+      <lb ed="#L" n="156"/>&amp; aliis, conseruando rectitudinem iustitiae gratuitae non fuit 
+      ta<lb ed="#L" n="157" break="no"/>men essentialiter ipsa gratia gratum faciens: quia illam recupe¬ 
+      <!--00351.xml-->
+      <pb ed="#L" n="142-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>rauit homo per poenitentiam: non autem originalem iustitiam:) 
+      <lb ed="#L" n="2"/>vtraque tamen fuit donum Dei infusum a Deo, non 
+      transfu<lb ed="#L" n="3" break="no"/>sum per hominem. 
+      </p>
+            <p xml:id="jsnvu6-d1e3228-d1e355">
+               <lb ed="#L" n="4"/>
+               <!--11--> Per idem patet solutio ad secundum, quia licet paruuli 
+      ha<lb ed="#L" n="5" break="no"/>buissent iustitiam originalem sicut &amp; parentes, non tamen 
+      ha<lb ed="#L" n="6" break="no"/>buissent eam per transfusionem, sed per infusionem: &amp; sic non 
+      <lb ed="#L" n="7"/>fuissent paternae iustitiae haeredes. 
+      </p>
+            <p xml:id="jsnvu6-d1e3228-d1e368">
+               <lb ed="#L" n="8"/>
+               <!--12--> ARGVMENTVM in oppositum solum concludit 
+      <lb ed="#L" n="9"/>quod paruuli nati fuissent cum iustitia originali, quod 
+      con<lb ed="#L" n="10" break="no"/>cessum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

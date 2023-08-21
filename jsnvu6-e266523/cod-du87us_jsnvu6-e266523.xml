@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="323-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e266523"><!-- l4d32prae -->
+            <head xml:id="jsnvu6-e266523-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e266523-d1e103">
+               <lb ed="#L" n="105"/>Sententia huius distinctionis XXXII. 
+      <lb ed="#L" n="106"/>in generali &amp; 
+      <lb ed="#L" n="107"/>speciali. 
+</p>
+            <p xml:id="jsnvu6-e266523-d1e112">
+               <lb ed="#L" n="108"/>CIINDVM est eriam, quia cuminomibus. 
+      <lb ed="#L" n="109"/>Superius de terminauit magister de illis in quibus 
+      <lb ed="#L" n="110"/>actus matrimonialis excusatur: hic determinat 
+      <lb ed="#L" n="111"/>de ipso actu secundum quod accipit rationem 
+      de<lb ed="#L" n="112" break="no"/>biti. Et diuiditur in duas. Primo determinat de 
+      <lb ed="#L" n="113"/>necessitate reddendi debitum. Secundo de tempore exigendi 
+      <lb ed="#L" n="114"/>ibi, Et licet debitum poscenti. Prima in tres. Primo ostendit 
+      <lb ed="#L" n="115"/>quod vir et vxor sunt aequales in debiti redditione. Secundo 
+      <lb ed="#L" n="116"/>probat quod supposuerat, scilicet quod non potest coniunx 
+      <lb ed="#L" n="117"/>sine licentia coniugis continentiam vouere. Tertio inquirit 
+      an<lb ed="#L" n="118" break="no"/>data licentia posset reuocari. Secunda ibi, Quod vero sine 
+      con<lb ed="#L" n="119" break="no"/>sensu. Tertia ibi, Si vero quilibet eorum. Secunda pars 
+      princi<lb ed="#L" n="120" break="no"/>palis in qua determinat de tempore exigendi debitum, 
+      diuidi<lb ed="#L" n="121" break="no"/>tur in tres. Primo ostendit quod aliquando cessandum est a 
+      de<lb ed="#L" n="122" break="no"/>biti exactione. Secundo inquirit an aliquando cessandum sit a 
+      <lb ed="#L" n="123"/>redditione. Tertio ostendit quod cessandum est quandoque 
+      <lb ed="#L" n="124"/>a nuptiarum celebratione. Secunda ibi, Illud autem quod 
+      di<lb ed="#L" n="125" break="no"/>ctum est. Tertia ibi, Nec solum in opere carnali.
+    </p>
+            <p xml:id="jsnvu6-e266523-d1e154">
+               <lb ed="#L" n="126"/>IN SPECIALI sic procedit, &amp; proponit primo 
+      <lb ed="#L" n="127"/>quod quum vir praesit in omnibus mulieri, sicut caput 
+      corpo<lb ed="#L" n="128" break="no"/>ri, in redditione tamen debiti sunt pares, quia alter alterius 
+      ha<lb ed="#L" n="129" break="no"/>bet potestatem, nec altero poscente, licet alteri denegare 
+      debi<lb ed="#L" n="130" break="no"/>tum, siue hoc poscat causa prolis generandae, siue 
+      incontinen<lb ed="#L" n="131" break="no"/>tiae animorum, quod auctoritatibus confirmat: vbi etiam 
+      di<lb ed="#L" n="132" break="no"/>cit quod sicut alter alterius habet potestatem, ita quod nec mu 
+      <lb ed="#L" n="133"/>lier ad alium maritum: nec vir ad aliam mulierem habet 
+      pote<lb ed="#L" n="134" break="no"/>statem accedendi, ita etiam nec vir ad continendum habet sui 
+      <lb ed="#L" n="135"/>corporis potestatem, nec mulier nisi de mutuo consensu: vbi 
+      <lb ed="#L" n="136"/>etiam subdit quod reddere coniugale debitum nullius est crimi 
+      <lb ed="#L" n="137"/>nis, exigere vero vltra generandi necessitatem venialis est 
+      cul<lb ed="#L" n="138" break="no"/>pae, sed fornicari vel moechari poenitendi est criminis. Postea 
+      <lb ed="#L" n="139"/>pluribus auctoritatibus confirmat quod nec coniuges 
+      aper<lb ed="#L" n="140" break="no"/>te nec fraudulenter a carnali debito ad inuicem sine communi 
+      <lb ed="#L" n="141"/>consensu continere possunt, quod supra supposuerat. Postea 
+      <lb ed="#L" n="142"/>quaerit si vir vxori consentiat quod continentiam Deo offerat 
+      <lb ed="#L" n="143"/>&amp; a suo iure eam absoluit, vtrum possit post datam licentiam 
+      <lb ed="#L" n="144"/>reuocare? Et respondet quod sic, in hoc scilicet casu si ei conces 
+      <lb ed="#L" n="145"/>serat vouere continentiam, &amp; ante votum prohibet implere, si 
+      <lb ed="#L" n="146"/>autem post, reuocare non potest. Postea dicit quod quilibet de 
+      <lb ed="#L" n="147"/>bet debitum poscenti reddere, non tamen licet quolibet die po 
+      <lb ed="#L" n="148"/>scere, sicut in diebus festiuis, &amp; ieiuniorum, &amp; processionis, 
+      <lb ed="#L" n="149"/>quod auctoritatibus probat. Postea dicit quod Heronymus 
+      <lb ed="#L" n="150"/>vult quod reddere debitum quandoque est peccatum, quod est 
+      <lb ed="#L" n="151"/>contra supradicta. Hieronymus enim dicit quod qui vxori 
+      de<lb ed="#L" n="152" break="no"/>bitum reddit non potest orationibus vacare, nec carnes agni co 
+      <lb ed="#L" n="153"/>medere, nec sumere eucharistiam. Dicit etiam quod non semper 
+      <lb ed="#L" n="154"/>est reddendum debitum, vt diebus quibus est orationi vacandum, 
+      <lb ed="#L" n="155"/>&amp; eucharistia sumenda: &amp; respondet quod dictum illod 
+      referen<lb ed="#L" n="156" break="no"/>dum est ad ecclesiae ministros quibus non licet sacra offerre vel 
+      <lb ed="#L" n="157"/>missam celebrare tempore coniugalis amplexus. Vitimo dicit 
+      <lb ed="#L" n="158"/>quod sicut in carnali commistione, sic etiam in celebrandis 
+      nu<lb ed="#L" n="159" break="no"/>ptiis sunt tempora obseruanda: quia non quibuscunque tempo 
+      <lb ed="#L" n="160"/>ribus sunt nuptiae celebrandae, sicut auctoritatibus 
+      concilio<lb ed="#L" n="161" break="no"/>rum declarat. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

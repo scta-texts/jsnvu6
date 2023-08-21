@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="173-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e143140"><!-- l2d42q2 -->
+            <head xml:id="jsnvu6-e143140-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e143140-Hd1e103" type="question-title">
+      Utrum actus interior et exterior in bonis 
+      sint duo merita
+    </head>
+            <p xml:id="jsnvu6-e143140-d1e106">
+               <lb ed="#L" n="46"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="47"/>Vtrum actus interior &amp; exterior in bonis 
+      <lb ed="#L" n="48"/>sint duo merita.
+    </p>
+            <p xml:id="jsnvu6-e143140-d1e115">
+               <lb ed="#L" n="49"/>SECVNDO quaeritur, vtrum actus interior 8 
+      <lb ed="#L" n="50"/>exterior in bonis sint duo merita. Et arguitur 
+      <lb ed="#L" n="51"/>quod sic, quia praemium respondet merito, sed 
+      <lb ed="#L" n="52"/>voluntati bonae sine exteriore opere debetur prae 
+      <lb ed="#L" n="53"/>amium essentiale, voluntati autem cum opere 
+      de<lb ed="#L" n="54" break="no"/>betur praemium non solum essentiale, sed accidentale, sicut pa 
+      <lb ed="#L" n="55"/>tet de aureola quae debetur martyribus pro opere &amp; non pro 
+      <lb ed="#L" n="56"/>sola voluntate, ergo aliquid meriti addit opus exterius ad 
+      me<lb ed="#L" n="57" break="no"/>ritum interioris voluntatis. 
+      </p>
+            <p xml:id="jsnvu6-e143140-d1e137">
+               <lb ed="#L" n="58"/>
+               <!--2--> Item frustra fit per duo quod potest fieri per vnum aeque 
+      <lb ed="#L" n="59"/>bene. Sed si aequale meritum est in actu interiore sicut in actu 
+      <lb ed="#L" n="60"/>exteriore &amp; interiore simul, tunc quicquid meriti est in 
+      duo<lb ed="#L" n="61" break="no"/>bus totum est in vno, habenti ergo bonam voluntatem actus 
+      <lb ed="#L" n="62"/>exterior superfluit, quod non videtur conueniens. 
+      </p>
+            <p xml:id="jsnvu6-e143140-d1e154">
+               <lb ed="#L" n="63"/>
+               <!--3--> IN CONTRARIVM arguitur, quia beatus Bernai 
+      <lb ed="#L" n="64"/>dus dicit quod bona voluntas sufficit ad merirum &amp; bona actio requi 
+      <lb ed="#L" n="65"/>ritur ad exemplum. Et Chrys. dicit super Matthaeum, quod voluntas es 
+      <lb ed="#L" n="66"/>quae remuneratur pro bono, aut condemnatur pro malo, opera 
+      <lb ed="#L" n="67"/>autem sunt testimonia voluntatis, ex quibus videtur quod totum meri 
+      <lb ed="#L" n="68"/>tum consistat in actu voluntatis, &amp; nullo modo in actu exteriori. 
+</p>
+            <p xml:id="jsnvu6-e143140-d1e172">
+               <lb ed="#L" n="69"/>RESPONSIO. Dicendum quod voluntas sine actu, licet 
+      <lb ed="#L" n="70"/>sit aeque bona vel mala moraliter sicut voluntas cum actu (
+      suppo<lb ed="#L" n="71" break="no"/>sito quod sit aeque perfecta) tamen non est aeque meritoria, vel 
+      de<lb ed="#L" n="72" break="no"/>meritoria. Ad quod videndum est sciendum quod ex eo solo qui 
+      <lb ed="#L" n="73"/>aliquis est bonus in se non meretur apud alium mercedem 
+      quam<lb ed="#L" n="74" break="no"/>cunque nisi forte laudem, virtuti enim debetur laus vt dicitur I. Eth. 
+      <lb ed="#L" n="75"/>Sed ex hoc meretur vel demeretur aliquis apud alium, qa est ei 
+      <lb ed="#L" n="76"/>vtilis vel nociuus. Cuius ratio est, qa reddere praemium pro 
+      me<lb ed="#L" n="77" break="no"/>rito est actus iustitiae commutatiuae, vt declaratum fuit supra dist 
+      <lb ed="#L" n="78"/>27. iniustitia autem commutatiua est mutua translatio, qui enim 
+      e<lb ed="#L" n="79" break="no"/>iustitia commutatiua alteri aliquid reddit, illud reddit pro eo 
+      <lb ed="#L" n="80"/>quod ab altero accepit, &amp; sic fit commutatio, per illud ergo pe¬ 
+      <!--00414.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>quod aliquis non ordinatur ad alterum, ita vt aliquid eius redun 
+      <lb ed="#L" n="82"/>det in ipsum non meretur, nec demeretur apud ipsunt, sed per 
+      <lb ed="#L" n="83"/>hoc quod aliquis est bonus in se per voluntatem interiorem non 
+      ordi<lb ed="#L" n="84" break="no"/>natur ad alterum, sed solum per opus exterius per quod efficitur 
+      <lb ed="#L" n="85"/>ei vtilis, vel nociuus, &amp; per quod aliquid sui transfert in alterum, 
+      <lb ed="#L" n="86"/>ergo sola bona voluntas exclusa facultate operandi sufficit homi 
+      <lb ed="#L" n="87"/>ni ad bonitatem, sed per eam solam non meretur apud alium 
+      ali<lb ed="#L" n="88" break="no"/>quam mercedem, sed requiritur opus exterius. Item nec 
+      quodcun<lb ed="#L" n="89" break="no"/>que ops sufficit, quia si homo sit debitor operis exhibendo 
+      qui<lb ed="#L" n="90" break="no"/>dem opus bene facit, &amp; laudandus est tanquam iustus, sed non meretur 
+      <lb ed="#L" n="91"/>vlteriorem mercedem sicut qui reddit mutuum tempore quo 
+      de<lb ed="#L" n="92" break="no"/>bet bene facit, sed nunquid meretur aliquam mercedem apud eum 
+      <lb ed="#L" n="93"/>qui gratis ei mutuum tradidi certe non, quia nihil suum in eum 
+      trans<lb ed="#L" n="94" break="no"/>fert siue transtulit, sed quod ab eo acceperat reddit, &amp;t sic quanti 
+      <lb ed="#L" n="95"/>est de merito hominis ad hominem inter quos est proprie 
+      meri<lb ed="#L" n="96" break="no"/>tum, &amp; iustum, solus actus interior non est meritorius de condigno. 
+      </p>
+            <p xml:id="jsnvu6-e143140-d1e240">
+               <lb ed="#L" n="97"/>
+               <!--5--> Ex quo apparet quod cum homo sit quo ad Deum debitor re 
+      <lb ed="#L" n="98"/>ctitudinis seruandae in voluntate &amp; in exteriori opere, &amp; multo 
+      <lb ed="#L" n="99"/>amplius quam homo possit esse debitor hominis ratione cuiuscunque 
+      <lb ed="#L" n="100"/>accepti ab eo, quod homo non potest apud Deum aliquid mereri 
+      <lb ed="#L" n="101"/>de condigno loquendo proprie de merito condigni quod 
+      innui<lb ed="#L" n="102" break="no"/>tur Luc. 17. vbi dicitur, Cum feceritis omnia quae praecepta sunt 
+      <lb ed="#L" n="103"/>vobis, dicite serui inutiles sumus, quod debuimus facere 
+      feci<lb ed="#L" n="104" break="no"/>mus, vt sit sensus sicut &amp; est, serui inutiles sumus, quia 
+      quan<lb ed="#L" n="105" break="no"/>tumcumque bene seruiamus Deo nihil nostrum ei damus, sed suum 
+      <lb ed="#L" n="106"/>ipsi debitum ei reddimus, nec plene. sed adhuc potest cuilibet di 
+      <lb ed="#L" n="107"/>cere illud ad Phylemonem teipsum mihi debes, &amp; ideo nihil 
+      pos<lb ed="#L" n="108" break="no"/>sumus apud ipsum mereri condigne, sicut dictum fuit suprâ dist. 
+      <lb ed="#L" n="109"/>27. sed quia Deus ex liberalitate sua bona opera tam interiora q 
+      <lb ed="#L" n="110"/>quam exteriora remunerat, congruum est vt amplius 
+      remunere<lb ed="#L" n="111" break="no"/>tur voluntas cum opere, quam sine. Cuius ratio est, quia sicut est 
+      <lb ed="#L" n="112"/>in merito condigni hominis ad hominem, sic est in merito 
+      con<lb ed="#L" n="113" break="no"/>grui hominis ad deum, sed in merito condigni hominis ad 
+      homi<lb ed="#L" n="114" break="no"/>nem, sic est quod per illud meretur quis apud alium, per quod 
+      trans<lb ed="#L" n="115" break="no"/>fert aliquid sui in ipsum quod natum est cedere in aliquam 
+      vtili<lb ed="#L" n="116" break="no"/>tatem eius in quam transfertur, ergo proportionabiliter per illud 
+      <lb ed="#L" n="117"/>meretur quis apud deum de condigno per quod transfert aliquid 
+      <lb ed="#L" n="118"/>sui in deum quod natu est cedere aliquo modo in bonum 
+      diui<lb ed="#L" n="119" break="no"/>num. illud autem est exterius opus voluntarium &amp; non volunta 
+      <lb ed="#L" n="120"/>sine opere (vt clare patet in praedicatione &amp; martyrio) in 
+      hi<lb ed="#L" n="121" break="no"/>enim homo aliquid quod est suum, licet non a se, sed a deo 
+      trans<lb ed="#L" n="122" break="no"/>fert in deum, quod etiam cedit in bonum diuinum non quo ad deum 
+      <lb ed="#L" n="123"/>in seipso qui bonorum nostrorum non indiget, sed secundum illam 
+      <lb ed="#L" n="124"/>interpretationem, qua dicitur quod defensio causae alicuius cedit 
+      <lb ed="#L" n="125"/>in bonum illius cuius est causa, sic enim fides Christi defenditur 
+      <lb ed="#L" n="126"/>per praedicationem verbo, &amp; per martyrium facto quod non 
+      fie<lb ed="#L" n="127" break="no"/>ret sola voluntate, erga per voluntatem cum opere meretur 
+      qui<lb ed="#L" n="128" break="no"/>apud deum (saltem de congruo) quod non meretur sola voluntate 
+      <lb ed="#L" n="129"/>bona autem voluntas remuneratur a deo praemio essentiali, quod 
+      <lb ed="#L" n="130"/>cum sit excellentissimum, &amp; sola bona voluntas vnius parum 
+      obli<lb ed="#L" n="131" break="no"/>get alterum, patet quod hic est multum de liberalitate ex parte dei 
+      <lb ed="#L" n="132"/>minimum autem de merito etiam congrui ex parte hominis: opus 
+      <lb ed="#L" n="133"/>autem exterius quod natum est magis obligare alterum 
+      remune<lb ed="#L" n="134" break="no"/>ratur praemio accidnetali quod est minus essentiali; propter q 
+      <lb ed="#L" n="135"/>hic est minus de liberalitate ex parte dei quam in collatione pri 
+      <lb ed="#L" n="136"/>mij essentialis, &amp; plus de merito congrui ex parte hominis. Et ra 
+      <lb ed="#L" n="137"/>tionabile est quod praemium accidentale plus possit cadere sub 
+      <lb ed="#L" n="138"/>merito quam essentiale, quod oculus non vidit, nec auris audiuit 
+      <lb ed="#L" n="139"/>nec in cor hominis ascendit, quia quanto aliquid est excellentius 
+      <lb ed="#L" n="140"/>tanto difficilius est mereri ipsum, patet ergo quod voluntas sine 
+      <lb ed="#L" n="141"/>actu licet sit aeque nota vel bona sicut cum actu, tamen non ess 
+      <lb ed="#L" n="142"/>aeque meritoria. Et proportionabiliter idem intelligendum est in 
+      <lb ed="#L" n="143"/>malis. Per hoc patet ad quaestionem, quia in bonis actus interior 
+      <lb ed="#L" n="144"/>&amp; exterior sibi coniunctus non sunt duo merita, sed vnum tantum 
+      <lb ed="#L" n="145"/>quod consistit in actu interiori, sicut in causa, &amp; in exteriori 
+      for<lb ed="#L" n="146" break="no"/>maliter, sicut econtrario bonitas moralis consistit in actu interiori 
+      <lb ed="#L" n="147"/>formaliter, &amp; in exteriori obiectiue, vt declaratum fuit in 
+      prae<lb ed="#L" n="148" break="no"/>cedente quaestione, meritum enim addit super bonitatem actus 
+      <lb ed="#L" n="149"/>debitum seu vim obligandi alterum ad reddendum praemium pro 
+      <lb ed="#L" n="150"/>merito quod fit per actum exteriorem &amp; non per interiorem nisi 
+      <lb ed="#L" n="151"/>causaliter, patet etiam qued homo non potest apud deum sic 
+      me<lb ed="#L" n="152" break="no"/>reri de condigno proprie sicut meretur vnus homo apud alium: 
+      <lb ed="#L" n="153"/>&amp; maxime remuneratio qua remuneratur a deo sola bona 
+      vo<lb ed="#L" n="154" break="no"/>luntas hominis sine actu exteriori est sic de congruo ex gratuita 
+      <lb ed="#L" n="155"/>dei ordinatione quod minimum videtur habere de merito 
+      con<lb ed="#L" n="156" break="no"/>digni, &amp; in merito quod est hominis ad hominem per solum 
+      <lb ed="#L" n="157"/>actuum interiorem nullus meretur aliquid de condigno. 
+      </p>
+            <p xml:id="jsnvu6-e143140-d1e377">
+               <lb ed="#L" n="158"/>
+               <!--6--> Ad primum argumentum dicendum quod actus interior &amp; 
+      <lb ed="#L" n="159"/>exterior sibi coniunctus remunerantur vnica remuneratione, 
+      <lb ed="#L" n="160"/>sicut sunt vnum meritum quod consistit causaliter, &amp; radicaliter 
+      <lb ed="#L" n="161"/>in actu interiori &amp; formaliter in actu exteriori. Actus autem 
+      inte<lb ed="#L" n="162" break="no"/>rior sine exteriori remuneratur, a deo magis ex suo beneplacito 
+      <!--00415.xml-->
+      <pb ed="#L" n="174-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quam ex aliquo merito de condigno. 
+      </p>
+            <p xml:id="jsnvu6-e143140-d1e401">
+               <lb ed="#L" n="2"/>
+               <!--7--> Secundum argumentum bene probat quod in solo actu 
+      in<lb ed="#L" n="3" break="no"/>teriori non consistit totum meritum, aliâs superflueret actus 
+      <lb ed="#L" n="4"/>exterior, imo totum meritum formaliter consistit in actu 
+      exte<lb ed="#L" n="5" break="no"/>riori licet dependeat radicaliter &amp; causaliter ab actu interiori 
+      <lb ed="#L" n="6"/>cum autem solus actus interior remuneratur a Deo magis est 
+      <lb ed="#L" n="7"/>ex benignitate quam ex merito actus. Quod autem dicit 
+      bea<lb ed="#L" n="8" break="no"/>tus Bernardus quod bona voluntas sufficit ad meritum, 
+      intel<lb ed="#L" n="9" break="no"/>ligendum est de merito praemij essentialis, &amp; de benignitate 
+      <lb ed="#L" n="10"/>Dei magis quam ex condigno interioris actus, bona autem 
+      <lb ed="#L" n="11"/>actio requintur non solum ad exemplum, sed etiam ad 
+      meri<lb ed="#L" n="12" break="no"/>tum accidentale. Quod autem dicit Crisostom. quod sola bo 
+      <lb ed="#L" n="13"/>na voluntas &amp;c. pro tanto dicit, quia ipsa est radix &amp; causa 
+      me<lb ed="#L" n="14" break="no"/>rendi respectu cuiuscunque operis. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

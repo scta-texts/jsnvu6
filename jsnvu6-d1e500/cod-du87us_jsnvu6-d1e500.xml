@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="27-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e500"><!-- l1d7prae -->
+            <head xml:id="jsnvu6-d1e500-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e500-d1e103">
+               <lb ed="#L" n="58"/>Sententia septimae distinctionis. 
+    </p>
+            <p xml:id="jsnvu6-d1e500-d1e108">
+               <lb ed="#L" n="59"/>Ic solet quaeri a quibusdam. Superius magiste 
+      <lb ed="#L" n="60"/>mouit quaestiones circa generationis subiectum 
+      <lb ed="#L" n="61"/>&amp; terminum; &amp; circa modum generationis. 
+      Hi<lb ed="#L" n="62" break="no"/>jmouet quasdam quaestiones circa generationis 
+      <lb ed="#L" n="63"/>qi principium quod est potentia generandi, &amp; circa 
+      <lb ed="#L" n="64"/>loc duo facit, primo mouet quaestionem &amp; eam determinat 
+      <lb ed="#L" n="65"/>secundo obiicit in contrarium &amp; soluit. Secunda ibi. Sed vehe 
+      <lb ed="#L" n="66"/>menter nos mouet. Secunda pars in qua mouet quaestionem 
+      <lb ed="#L" n="67"/>diuiditur in duas. Primo enim mouet quaestionem &amp; 
+      deter<lb ed="#L" n="68" break="no"/>minat &amp; adiungit quasdam alias obiectiones, secundo 
+      deter<lb ed="#L" n="69" break="no"/>minat. Secunda ibi. Ita etiam cum dicitur. Et haec est 
+      senten<lb ed="#L" n="70" break="no"/>tia lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e500-d1e137">
+               <lb ed="#L" n="71"/>
+               <!--2--> In speciali procedit sic magister &amp; quaerit primo si 
+      filiu<lb ed="#L" n="72" break="no"/>possit generare. Et arguitur sic primo quod sic, quia si patei 
+      <lb ed="#L" n="73"/>potuit generare &amp; filius non: ergo pater potest aliquid quod 
+      <lb ed="#L" n="74"/>filius non potest. Et respondet magister quod posset generare, vel 
+      <lb ed="#L" n="75"/>posse esse patrem non est aliquid eorum quae subiecta sunt 
+      di<lb ed="#L" n="76" break="no"/>uinae potestati, sed est ad aliquid. Postea arguit per Augustinum 
+      <lb ed="#L" n="77"/>in contrarium qui videtur dicere quod potuit generare, sed 
+      <lb ed="#L" n="78"/>non oportuit quia immoderata esset diuina generatio. Et 
+      re<lb ed="#L" n="79" break="no"/>spondet quod Augustinus dicere intendit quod non est 
+      impo<lb ed="#L" n="80" break="no"/>tentia in filio non posse generare, sed ex proprietate relatiua 
+      <lb ed="#L" n="81"/>sibi conuenit hoc. Postea quaerit vtrum pater si sit potens gene 
+      <!--00119.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>rare an hoc sit aliqua potentia quae non fit in filio. Et 
+      respon<lb ed="#L" n="83" break="no"/>det quod pater est potens natura generare filium, &amp; quod 
+      filiu<lb ed="#L" n="84" break="no"/>habet eandem potentiam qua potest gigni, quam habet pate 
+      <lb ed="#L" n="85"/>qua potest generare. Et quaerit vtrum potentia generandi qui 
+      <lb ed="#L" n="86"/>est in patre sit in filio. Et respondet magister quod potentia 
+      <lb ed="#L" n="87"/>generandi non tantum dicit naturam, sed proprietatem, 
+      refe<lb ed="#L" n="88" break="no"/>rendo ergo intellectum ad proprietatem non est potentia 
+      ge<lb ed="#L" n="89" break="no"/>nerandi in filio, quia aliud est posse generare &amp; aliud posse ge 
+      <lb ed="#L" n="90"/>nerari. Referendo vero ad naturam idem sunt. Vitimo hoc idem 
+      <lb ed="#L" n="91"/>declarat vlterius, scilicet quo modo potentia generandi fit in 
+      <lb ed="#L" n="92"/>filio, quia in eo est potentia qua potest generari. Et in hoc 
+      ter<lb ed="#L" n="93" break="no"/>minatur sententia in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

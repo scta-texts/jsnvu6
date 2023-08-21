@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="299-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e246590"><!-- l4d18q2 -->
+            <head xml:id="jsnvu6-e246590-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e246590-Hd1e103" type="question-title">Utrum potestas clauium se extendat ad culpam 
+      et poenam culpae debitam clauium</head>
+            <p xml:id="jsnvu6-e246590-d1e106">
+               <lb ed="#L" n="102"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="103"/>Vtrum potestas clauium se extendat ad culpam 
+      <lb ed="#L" n="104"/>&amp; poenam culpae debitam clauium. 
+    </p>
+            <p xml:id="jsnvu6-e246590-d1e115">
+               <lb ed="#L" n="105"/>DEECYNDVM sic proceditur, &amp; arguitu 
+      <lb ed="#L" n="106"/>quod vsus clauium extendat se ad dimissionem cul 
+      <lb ed="#L" n="107"/>pae &amp; poenae: quia primus vsus clauium est 
+      discer<lb ed="#L" n="108" break="no"/>nere quis sit dignus, vel indignus regno coelorum. 
+      <lb ed="#L" n="109"/>Secundus est dignos recipere &amp; indignos 
+      exclu<lb ed="#L" n="110" break="no"/>dere. Sed nullus est indignus regno caelorum nisi propter culpam 
+      <lb ed="#L" n="111"/>vel propter poenam culpae debitam, ergo primus vsus clauium 
+      <lb ed="#L" n="112"/>respicit culpam, &amp; poenam culpae debitam. Et si primus vsu 
+      <lb ed="#L" n="113"/>hoc respicit, eadem ratione &amp; secundus qui dependet a primo. 
+      </p>
+            <p xml:id="jsnvu6-e246590-d1e137">
+               <lb ed="#L" n="114"/>
+               <!--2--> Item Christus loquens discipulis de vsu clauium Ioan. 20 
+      <lb ed="#L" n="115"/>dixit: Quorum remiseritis peccata remittuntur eis, sed 
+      perfe<lb ed="#L" n="116" break="no"/>cta remissio peccati non est nisi remittantur quantum ad 
+      poe<lb ed="#L" n="117" break="no"/>nam &amp; quantum ad culpam, ergo ad vtrunque se extendit 
+      po<lb ed="#L" n="118" break="no"/>testas clauium. 
+      </p>
+            <p xml:id="jsnvu6-e246590-d1e154">
+               <lb ed="#L" n="119"/>
+               <!--3--> IN CONTRARIVM arguitur: quia peccatum non 
+      <lb ed="#L" n="120"/>remittitur nisi per gratiam, sed solus Deus potest dare gratiam 
+      <lb ed="#L" n="121"/>ergo solus Deus potest remittere peccata quoad culpam. 
+      </p>
+            <p xml:id="jsnvu6-e246590-d1e165">
+               <lb ed="#L" n="122"/>
+               <!--4--> Item sacerdos non potest praeiudicare iustitiae diuinae, sed 
+      <lb ed="#L" n="123"/>ex iustitia diuina taxata est poena paenitenti, ergo sacerdos per 
+      <lb ed="#L" n="124"/>virtutem clauium non potest de ea aliquid remittere. 
+      </p>
+            <p xml:id="jsnvu6-e246590-d1e176">
+               <lb ed="#L" n="125"/>
+               <!--5--> RESPONSIO. Circa quaestionem istam videndum 
+      <lb ed="#L" n="126"/>est primo quid operentur claues ad dismissionem culpae, &amp; 
+      se<lb ed="#L" n="127" break="no"/>cundo quid operentur quantum ad dimissionem poenae. 
+      </p>
+            <p xml:id="jsnvu6-e246590-d1e187">
+               <lb ed="#L" n="128"/>
+               <!--6--> QUANTVM ad primum resumendum est illud quod 
+      <lb ed="#L" n="129"/>dictum est supra, videlicet quod in peccato actuali mortali contra 
+      <lb ed="#L" n="130"/>quod ordinatur directe sacramentum poenitentiae ad quod 
+      per<lb ed="#L" n="131" break="no"/>tinent claues sunt tria. Primum est deordinatio actus in qua 
+      for<lb ed="#L" n="132" break="no"/>maliter consistit culpa, potest etiam dici macula, sicut per oppe 
+      <lb ed="#L" n="133"/>situm ordinatio actus potest dici decor. Secundum est carentia 
+      <lb ed="#L" n="134"/>gratiae quae dicitur offensa quatenus gratia est solum ad amicum 
+      <lb ed="#L" n="135"/>potest etiam dici macula, sicut gratia est quidam decor. Tertii 
+      <lb ed="#L" n="136"/>est reatus poenae. Quantum ad primum claues nihil operantur 
+      <lb ed="#L" n="137"/>ad dimissionem culpae, vel maculae: quia deordinatio actus 
+      tol<lb ed="#L" n="138" break="no"/>litur per eius ordinationem dum bene displicet quod male pla 
+      <lb ed="#L" n="139"/>cuit: haec autem displicentia praecedit tempore, vel natura, vel 
+      <lb ed="#L" n="140"/>praecedere debet absolutionem quae fit virtute clauium. 
+      Poste<lb ed="#L" n="141" break="no"/>rius autem non est causa aliquo modo factiua prioris. Quantum 
+      <lb ed="#L" n="142"/>ad secundum quod est carentia gratiae, dicendum est quod 
+      au<lb ed="#L" n="143" break="no"/>ctoritas clauium se extendit ad dimissionem culpae, &amp; 
+      collatio<lb ed="#L" n="144" break="no"/>nem gratiae per modum ministerij, quod patet sic: sicut se habet 
+      <lb ed="#L" n="145"/>sacramentum baptismi ad peccatum originale, sic se habet 
+      sacra<lb ed="#L" n="146" break="no"/>mentum poenitentiae ad peccatum actuale, sed per sacramentum 
+      <lb ed="#L" n="147"/>baptismi dimittitur ministerialiter culpa originalis, ergo pe 
+      <lb ed="#L" n="148"/>sacramentum poenitentiae remittitur ministerialiter culpa actua 
+      <lb ed="#L" n="149"/>lis: sed virtus sacramenti poenitentiae maxime dependet ex 
+      vir<lb ed="#L" n="150" break="no"/>tute clauium, vt patet ex forma absolutionis qua (sacerdos 
+      ha<lb ed="#L" n="151" break="no"/>bens clauem) vtitur, ergo &amp;c. Veruntamen est intelligendum 
+      <lb ed="#L" n="152"/>quod inter baptismum &amp; poenitentiam est differentia quo ad 19 
+      <lb ed="#L" n="153"/>missionem culpae per vtrumque: quia regulariter baptismus inue 
+      <lb ed="#L" n="154"/>nit culpam in eo qui baptizatur. Quia communiter poo statu 
+      <lb ed="#L" n="155"/>moderno baptizantur paruuli, qui propter carentiam vsus 
+      ratio<lb ed="#L" n="156" break="no"/>nis non possunt ante baptismum se praeparare intantum, vt 
+      di<lb ed="#L" n="157" break="no"/>mittatur eis culpa originalis. Et ideo baptismus semper inuenit 
+      <lb ed="#L" n="158"/>in eis culpam originalem quam delet, sed sacramentum 
+      poeni<lb ed="#L" n="159" break="no"/>tentiae non confertur nisi adultis in quibus praecedit praeparatio 
+      <lb ed="#L" n="160"/>per displicentiam peccati commissi quae quandoque sufficiens est 
+      <!--00672.xml-->
+      <pb ed="#L" n="299-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ad peccati deletionem cum proposito confitendi. Et in tali, 
+      sacra<lb ed="#L" n="2" break="no"/>mentum poenitentiae non dimittit peccatum cum sit prius 
+      dimis<lb ed="#L" n="3" break="no"/>sum: sed si non baptizarentur nisi adulti, sicut non confitentur nis 
+      <lb ed="#L" n="4"/>adulti, penitus esset simile de dimissione culpae per vtrunque 
+      <lb ed="#L" n="5"/>Quia sicut in adulto antequam baptizetur posset praecedere 
+      suf<lb ed="#L" n="6" break="no"/>ficiens praeparatio per quam cum voto baptismi remitteretu 
+      <lb ed="#L" n="7"/>omnis culpa &amp; conferretur gratia, &amp; tunc sequens baptismus cul 
+      <lb ed="#L" n="8"/>pam non auferret nec gratiam conferret, sed prius collatam auge 
+      <lb ed="#L" n="9"/>ret: quandoque vero praecederet dispositio non omnino sufficien 
+      <lb ed="#L" n="10"/>ad deletionem culpae, &amp; tunc virtute baptismi actualiter 
+      susce<lb ed="#L" n="11" break="no"/>pti deleretur culpa, sic in poenitente antequam actualiter susci 
+      <lb ed="#L" n="12"/>piat sacramentum poenitentiae: quandoque praecedit 
+      sufficien<lb ed="#L" n="13" break="no"/>dispositio delens culpam &amp; conferens gratiam, &amp; tunc sacrame 
+      <lb ed="#L" n="14"/>tum superueniens culpam non aufert, quia non inuenit, nec 
+      gra<lb ed="#L" n="15" break="no"/>tiam confert, sed prius collatam auget: quandoque vero non praecedi 
+      <lb ed="#L" n="16"/>sufficiens contritio quae culpam deleat, sed attritio quae superueniem 
+      <lb ed="#L" n="17"/>te sacramento virtute clauium efficitur sufficiens, &amp; tunc per 
+      sa<lb ed="#L" n="18" break="no"/>cramentum poenitentiae actu susceptum &amp; deletur culpa &amp; 
+      con<lb ed="#L" n="19" break="no"/>fertur gratia. Et ita virtus clauium extendit se ad dimissionem 
+      <lb ed="#L" n="20"/>culpae quando eam inuenit, sicut &amp; baptismus. Parum enim esse 
+      <lb ed="#L" n="21"/>dicere quod sacerdos euangelicus virtute clauium solum ostendat 
+      <lb ed="#L" n="22"/>culpam a Deo esse dimissam, &amp; nullo modo ad eius dimissionem 
+      <lb ed="#L" n="23"/>operaretur: sicut sacerdos legalis solum ostendebat in aliquo 
+      le<lb ed="#L" n="24" break="no"/>pram esse mundatam, quam tamen nullo modo mundabat. Istud 
+      <lb ed="#L" n="25"/>enim est contra dignitatem sacramentorum nouae legis, qua 
+      <lb ed="#L" n="26"/>efficiunt quod figurant per modum pactionis: ipsa autem forma 
+      <lb ed="#L" n="27"/>absolutionis significat dimissionem peccati. 
+      </p>
+            <p xml:id="jsnvu6-e246590-d1e328">
+               <lb ed="#L" n="28"/>
+               <!--7--> Quantum ad secundum dicendum est quod virtute clauium 
+      <lb ed="#L" n="29"/>non dimittitur aliquid de poena aeterna peccato mortali debita 
+      <lb ed="#L" n="30"/>quia in contritione poena aeterna peccato mortali debita, quae est 
+      <lb ed="#L" n="31"/>poena gehennae, &amp; carentia visionis diuinae, &amp; vermis conscienti 
+      <lb ed="#L" n="32"/>totaliter remittitur, vel commutatur in poenam temporalem. Cor 
+      <lb ed="#L" n="33"/>tritio autem praecedit tempore vel natura absolutionem quae 
+      <lb ed="#L" n="34"/>fit virtute clauium, nisi quando in absolutione attritio 
+      praece<lb ed="#L" n="35" break="no"/>dens fit contritio: tunc enim operatur virtus clauium ad commu 
+      <lb ed="#L" n="36"/>tationem poenae aeternae in temporalem, sicut operatur ad hoc 
+      <lb ed="#L" n="37"/>attritio fiat contritio. De poena autem temporali contrito 
+      de<lb ed="#L" n="38" break="no"/>bita remittitur aliquid virtute clauium. Cuius ratio est: quia 
+      si<lb ed="#L" n="39" break="no"/>cut dictum fuit lib. 3. dist. 19. Christus per prnam &amp; meritum 
+      <lb ed="#L" n="40"/>passionis suae satisfecit pro peccatis totius mundi quantum ad 
+      <lb ed="#L" n="41"/>sufficientiam: praedicta autem satisfactio communicatur nobis pe 
+      <lb ed="#L" n="42"/>susceptionem sacramentorum quae ordinantur ad remissionem cu 
+      <lb ed="#L" n="43"/>pae, vt sunt baptismus &amp; poenitentia: &amp; ideo per vtrunque 
+      dimit<lb ed="#L" n="44" break="no"/>titur aliquid de poena peccatis debita, sed differenter: quia pe 
+      <lb ed="#L" n="45"/>baptismum tollitur omnis poena cuicunque peccato debita, quia 
+      <lb ed="#L" n="46"/>baptismus est sacramentu intrantium statum ecclesiae, propte 
+      <lb ed="#L" n="47"/>quod non imputatur eis ad poenam quicquid in statu pristino 
+      eg<lb ed="#L" n="48" break="no"/>rint (vt tactum fuit prius, cum ageretur de sacramento baptismi 
+      <lb ed="#L" n="49"/>sed poenitentia non est status intrantium, sed est iudicium &amp; 
+      corre<lb ed="#L" n="50" break="no"/>ctio delinquentium in ecclesia, &amp; ideo per eam dimittitur 
+      poen<lb ed="#L" n="51" break="no"/>aeternam quae non est ad correctionem ciuis, sed ad extermination 
+      <lb ed="#L" n="52"/>hostis: sed non semper dimittitur poena temporalis, quae potes 
+      <lb ed="#L" n="53"/>esse ad correctionem, de qua tamen virtute clauium aliquid dimit 
+      <lb ed="#L" n="54"/>titur ratione meriti Christi, quod virtute clauium nobis 
+      communi<lb ed="#L" n="55" break="no"/>catur: &amp; ideo totiens potest homo confiteri de peccatis suis,( 
+      <lb ed="#L" n="56"/>non solum propter poenam verecundiae quae est in confitendo, &amp; in 
+      <lb ed="#L" n="57"/>tercessionem sacerdotis qui absolutioni praemittit orationem, sed 
+      <lb ed="#L" n="58"/>propter communicationem meritorum passionis Christi virtute 
+      ab<lb ed="#L" n="59" break="no"/>solutionis communicatorum tota poena temporalis peccato 
+      de<lb ed="#L" n="60" break="no"/>bita remitteretur, nec culpa propter hoc remaneret impunita 
+      <lb ed="#L" n="61"/>pro qua poena passionis Christi nobis communicata satisfecit. 
+      </p>
+            <p xml:id="jsnvu6-e246590-d1e406">
+               <lb ed="#L" n="62"/>
+               <!--8--> AD PRIMVM argumentum dicendum est quod non est 
+      si<lb ed="#L" n="63" break="no"/>enile de actu discernendi culpam &amp; de actu remittendi eam: 
+      mul<lb ed="#L" n="64" break="no"/>ta enim possumus cognoscere quae non possumus facere, &amp; ideo 
+      <lb ed="#L" n="65"/>ad ministrum pertinet cognoscere culpam quantum ei 
+      manife<lb ed="#L" n="66" break="no"/>statur per confitentem, sed remittere eam non competit ei nisi 
+      <lb ed="#L" n="67"/>per modum ministerij, quod ministerium (vt prius diximus) es 
+      <lb ed="#L" n="68"/>per modum pactionis, ita videlicet vt minister exhibeat quod 
+      <lb ed="#L" n="69"/>exterius geritur: Deus autem faciat quicquid interius agitur 
+      </p>
+            <p xml:id="jsnvu6-e246590-d1e429">
+               <lb ed="#L" n="70"/>
+               <!--9--> Ad secundum patet per idem, quia Deus non dedit 
+      disci<lb ed="#L" n="71" break="no"/>pulis respectu remissionis peccatorum potestatem 
+      auctorita<lb ed="#L" n="72" break="no"/>tis, vel excellentiae, sed simplici ministerij qualis dicta est. 
+      </p>
+            <p xml:id="jsnvu6-e246590-d1e440">
+               <lb ed="#L" n="73"/>
+               <!--10--> Ad primum argu. alterius partis patet responsio ex iam 
+      di<lb ed="#L" n="74" break="no"/>ctis, quia solus Deus dat gratiam &amp; remittit culpam. Sacerdos 
+      <lb ed="#L" n="75"/>autem est minister eorum quae aguntur exterius. 
+      </p>
+            <p xml:id="jsnvu6-e246590-d1e451">
+               <lb ed="#L" n="76"/>
+               <!--11--> Ad aliud dicendum est quod non praeiudicatur iustitiae diuina 
+      <lb ed="#L" n="77"/>quantum ad poenam peccatori taxatae si de ea aliquid dimittitur per sa 
+      <lb ed="#L" n="78"/>tisfactionem passionis Christi nobis communicatam virtute clauium. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

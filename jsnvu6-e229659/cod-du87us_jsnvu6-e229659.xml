@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="279-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e229659"><!-- l4d12q3 -->
+            <head xml:id="jsnvu6-e229659-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-e229659-Hd1e103" type="question-title">
+      Utrum desinat esse sanguis Christi per 
+      admistionem noui vini speciebus vini consecrati
+    </head>
+            <p xml:id="jsnvu6-e229659-d1e106">
+               <lb ed="#L" n="5"/>aiario Tiaria 
+      <lb ed="#L" n="6"/>Vtrum desinat esse sanguis Christi per 
+      admistio<lb ed="#L" n="7" break="no"/>nem noui vini speciebus vini consecrati. 
+      <lb ed="#L" n="8"/>Tv. 3 47722.8. 
+    </p>
+            <p xml:id="jsnvu6-e229659-d1e117">
+               <lb ed="#L" n="9"/>SECVNDO quaeritur si speciebus vini 
+      consecra<lb ed="#L" n="10" break="no"/>ti admisceatur alius liquor an desinat ibi esse 
+      san<lb ed="#L" n="11" break="no"/>guis Christi. Et videtur quod sic: quia idem accidens 
+      <lb ed="#L" n="12"/>in numero non potest simul esse in subiecto &amp; 
+      si<lb ed="#L" n="13" break="no"/>ne subiecto, sed hoc sequeretur si post 
+      admistio<lb ed="#L" n="14" break="no"/>nem alicuius liquoris ad species vim consecrati remaneret ibi 
+      <lb ed="#L" n="15"/>sanguis Christi, ergo &amp;c. Maior patet, quia esse in subiecto, &amp; 
+      <lb ed="#L" n="16"/>non in subiecto contradicunt. Et ideo simul esse non possunt 
+      <lb ed="#L" n="17"/>Minor probatur, quia admisto vino speciebus vini consecrati 
+      <lb ed="#L" n="18"/>effiicitur vna quantitas continua vtriusque, scilicet vini admisti 
+      <lb ed="#L" n="19"/>&amp; specierum praeexistentium. Si igitur sub speciebus 
+      praeexi<lb ed="#L" n="20" break="no"/>stentibus maneret sanguis Christi cum non afficiatur eis tunc 
+      <lb ed="#L" n="21"/>sunt sine subiecto. Species autem vini admisti sunt in subiecto 
+      <lb ed="#L" n="22"/>Cum ergo fit vna quantitas huius &amp; illius, sequitur quod sit 
+      si<lb ed="#L" n="23" break="no"/>ne subiecto &amp; in subiecto. 
+      </p>
+            <p xml:id="jsnvu6-e229659-d1e152">
+               <lb ed="#L" n="24"/>
+               <!--2--> Item quaelibet pars misti est misti. Si ergo aliquis liquor 
+      mi<lb ed="#L" n="25" break="no"/>sceatur speciebus vini consecrati, quaelibet pars totius misti eri 
+      <lb ed="#L" n="26"/>mista. Non ergo erit seorsum signare liquorem appositum &amp; 
+      <lb ed="#L" n="27"/>species praeexistentes, ergo per totum mistum est substantia 
+      li<lb ed="#L" n="28" break="no"/>quoris appositi, sed sanguis non est in hoc sacramento cum 
+      sub<lb ed="#L" n="29" break="no"/>stantia alterius corporis, ergo per talem admistionem desinit 
+      <lb ed="#L" n="30"/>ibi esse sanguis Christi. 
+</p>
+            <p xml:id="jsnvu6-e229659-d1e173">
+               <lb ed="#L" n="31"/>IN CONTRARIVM arguitur, quia manentibus 
+      <lb ed="#L" n="32"/>speciebus consecratis manet sanguis Christi sub eis. Sed non 
+      <lb ed="#L" n="33"/>per quamcunque admistionem alterius liquoris desinunt ibi esse 
+      <lb ed="#L" n="34"/>species vini consecrati, vtpote si admisceatur modicum de 
+      vi<lb ed="#L" n="35" break="no"/>no, vel modicum de aqua, ergo per talem admistionem non 
+      de<lb ed="#L" n="36" break="no"/>finit ibi esse sanguis Christi. 
+    </p>
+            <p xml:id="jsnvu6-e229659-d1e189">
+               <lb ed="#L" n="37"/>RESPONSIO. Circa materiam istam oportet 
+      proce<lb ed="#L" n="38" break="no"/>dere ex vno principio, scilicet quod sangnis Christi manet in 
+      ho<lb ed="#L" n="39" break="no"/>sacramento quandiu manent species consecratae. Et 
+      rationabili<lb ed="#L" n="40" break="no"/>ter, quia cum sanguis Christi non sit ibi nisi ratione 
+      consecratio<lb ed="#L" n="41" break="no"/>nis, manente consecratione quae semper manet stante materia 
+      <lb ed="#L" n="42"/>consecrata, manet ibi &amp; sanguis Christi. Quo supposito 
+      dicen<lb ed="#L" n="43" break="no"/>dum est ad quaestionem quod liquor appositus speciebus sacramenti 
+      <lb ed="#L" n="44"/>aut est alterius speciei aut eiusdem: si alterius vtpote cum aqua 
+      <lb ed="#L" n="45"/>admiscetur vino consecrato, aut appositum est majus illo cui 
+      ap<lb ed="#L" n="46" break="no"/>ponitur vel aequale, aut minus: si sit majus vel aequale non solum 
+      <lb ed="#L" n="47"/>quantitate, sed virtute corrumpitur species vini &amp; desinit sul 
+      <lb ed="#L" n="48"/>his sanguis Christi secundum principium praeassumptum: quod 
+      <lb ed="#L" n="49"/>autem desinat ibi esse species quantum ad qualitatem 
+      sapo<lb ed="#L" n="50" break="no"/>ris, coloris &amp; huiusmodi non est difficile videre, quia vt dicitur 
+      <lb ed="#L" n="51"/>1. Physic. ad agendum sufficiunt duo contraria, vnum vero 
+      sub<lb ed="#L" n="52" break="no"/>iectum ad patiendum. Sed hic est dare contrarietate inter 
+      qua<lb ed="#L" n="53" break="no"/>litates eius quod apponitur, puta aquae vel illius cui apponitur, 
+      <lb ed="#L" n="54"/>subiectum vero passibile sub vtraque qualitate contraria est 
+      quan<lb ed="#L" n="55" break="no"/>titas quae de se nata est subiici contrariis, ergo ista sufficiunt ad 
+      <lb ed="#L" n="56"/>hoc vt qualitates specierum vini per admistionem contrarij 
+      <lb ed="#L" n="57"/>puta qualitatis aquae corrumpantur. 
+      </p>
+            <p xml:id="jsnvu6-e229659-d1e237">
+               <lb ed="#L" n="58"/>
+               <!--5.--> De quantitate autem eis subiecta qualiter corrumpatur per 
+      <lb ed="#L" n="59"/>admistionem cuiuslibet liquoris non clare patet. Non enim 
+      cor<lb ed="#L" n="60" break="no"/>rumpi potest per actionem contrarij, nec per corruptionem sub. 
+      <lb ed="#L" n="61"/>iecti, nec per diuisionem vt deductum est in praecedente 
+      quaestio<lb ed="#L" n="62" break="no"/>ne. Et ideo si corrumpitur diuina virtute, corrumpitur modis qui 
+      <lb ed="#L" n="63"/>bus dictum fuit prius, sed esto quod non corrumperetur, corruptio 
+      <lb ed="#L" n="64"/>tamen qualitatum sufficeret ad hoc vt sanguis Christi defineret 
+      <lb ed="#L" n="65"/>esse ibi propter duo. Primum est quia species vini pertinet ac 
+      <lb ed="#L" n="66"/>sacramentu quatenus repraesentat substantiam vini quae 
+      conuer<lb ed="#L" n="67" break="no"/>sa est, sed substantiam vini magis demonstrant &amp; repraesentant 
+      <lb ed="#L" n="68"/>qualitates quam quantitates, quia quantitas est omnibus 
+      com<lb ed="#L" n="69" break="no"/>munis. Qualitates autem aliquae sunt propriae secundum 
+      natu<lb ed="#L" n="70" break="no"/>ram formae specificae, ergo qualitates vini magis pertinent ad 
+      sa<lb ed="#L" n="71" break="no"/>cramentum quam quantutas, ipsis ergo corruptis desinit 
+      sacramen<lb ed="#L" n="72" break="no"/>tum. Secundum est, quia sacramentum est signum sensibile vt 
+      pa<lb ed="#L" n="73" break="no"/>tet ex eius diffinitione. Est enim inuisibilis gratiae visibilis 
+      for<lb ed="#L" n="74" break="no"/>ma. Sed species sunt magis sensibiles ratione qualitatum quam 
+      ratio<lb ed="#L" n="75" break="no"/>ne quatitatis, ergo magis pertinent ad sacramentum quam quantitas 
+      <lb ed="#L" n="76"/>vt eorum corruptio sufficiat ad corruptionem sacramenti. 
+      vn<lb ed="#L" n="77" break="no"/>de Innocentius tertius dicit quod vbi similitudo deficeret, sacrame 
+      <lb ed="#L" n="78"/>tum non esset: similitudo autem attenditur secundum qualitates 
+      </p>
+            <p xml:id="jsnvu6-e229659-d1e287">
+               <lb ed="#L" n="79"/>
+               <!--6.--> Si autem quod apponeretur esset minus, puta parua aqua, 
+      <lb ed="#L" n="80"/>sic dicendum est quod corrumperetur a speciebus vini quae possunt 
+      <!--00631.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>alterare totaliter aquam, ad quam alterationem sequeretur 
+      cor<lb ed="#L" n="82" break="no"/>ruptio aquae, vt dictum est in praecedenti quaestione. Et quia 
+      ma<lb ed="#L" n="83" break="no"/>teria aquae non maneret sine forma aliqua, oportet qued virture 
+      <lb ed="#L" n="84"/>diuina in materia aquae corruptae introduceretur forma 
+      sub<lb ed="#L" n="85" break="no"/>stantialis non alia quam vini, quia illa est magis concors 
+      quali<lb ed="#L" n="86" break="no"/>tatibus quae corrupunt aquam, &amp; sic aqua facta vinum 
+      admi<lb ed="#L" n="87" break="no"/>sceretur speciebus vini. Et haec admistio esset similis secundum 
+      <lb ed="#L" n="88"/>speciem, propter quod concidet cum secundo membro, de 
+      <lb ed="#L" n="89"/>quo dicendum est, quod aut liquor appositus speciebus vini est 
+      <lb ed="#L" n="90"/>eiusdem speciei quo ad naturam substantiae &amp; qualitatum, 
+      vepo<lb ed="#L" n="91" break="no"/>te si de eodem dolio primo consecraretur vinum &amp; postea 
+      conse<lb ed="#L" n="92" break="no"/>crato apponeretur simile non consecratum, aut est eiusdem 
+      spe<lb ed="#L" n="93" break="no"/>ciei quo ad substantiam, sed non quo ad aliquas qualitates vt si vi 
+      <lb ed="#L" n="94"/>no rubeo consecrato apponeretur vinum album non consecratum 
+      <lb ed="#L" n="95"/>In primo casu dicendum est quod siue illud quod apponitur 
+      spe<lb ed="#L" n="96" break="no"/>ciebus vini consecrati fit majus, siue aequale, siue minus species 
+      <lb ed="#L" n="97"/>vini praeexistentis non desinunt esse, nec sanguis Christi sub eis 
+      <lb ed="#L" n="98"/>Cuius ratio est, quia simile non corrumpit simile. Sed contingic: 
+      <lb ed="#L" n="99"/>liquor appositus speciebus vini fit per omnia similis ei, &amp; sic 
+      po<lb ed="#L" n="100" break="no"/>nitur in proposito vt cum de eodem dolio vtrunque vinum 
+      ac<lb ed="#L" n="101" break="no"/>cipitur, ergo per appositionem talis liquoris species 
+      praeexisten<lb ed="#L" n="102" break="no"/>tes non corrumpuntur. Viterius ex hoc arguitur sic, 
+      quotiens<lb ed="#L" n="103" break="no"/>cunque quantum additur quanto manente quantitate vtriusque 
+      quan<lb ed="#L" n="104" break="no"/>tumcunque fiant vnum continuum, semper tamen distinguuntur 
+      <lb ed="#L" n="105"/>secundum positionem &amp; situm: quia duae quantitates etiam si sint 
+      <lb ed="#L" n="106"/>partes vnius quantitatis continuae necessario distinguuntur situ 
+      <lb ed="#L" n="107"/>&amp; positione. Sed sic est in proposito vt ostensum est, quia vnum 
+      <lb ed="#L" n="108"/>appositum &amp; species quibus apponitur manent quo ad 
+      quantita<lb ed="#L" n="109" break="no"/>tem suam &amp; quo ad qualitates, orgo quantumcunque faciant vnum 
+      <lb ed="#L" n="110"/>secundum continuitatem, eo quod sunt sensibilia secundum 
+      spe<lb ed="#L" n="111" break="no"/>ciem &amp; vtrunque liquidum propter quod de facili 
+      continuan<lb ed="#L" n="112" break="no"/>tur, semper tamen distinguuntur secundum situm. Hanc autem 
+      <lb ed="#L" n="113"/>continuationem quantitatis &amp; nihilominus distinctionem secundum 
+      <lb ed="#L" n="114"/>situm non sic incelligo o cotum vinum appositum sit ex vna 
+      par<lb ed="#L" n="115" break="no"/>te, &amp; species vini consecrati ex alia, &amp; continuentur solum 
+      se<lb ed="#L" n="116" break="no"/>cundum vnum latus in quo applicentur, quemadmodum in 
+      in<lb ed="#L" n="117" break="no"/>sitione ramus appositus trunco continuatur ei solum secundum 
+      <lb ed="#L" n="118"/>extremitatem vnam, si tamem sit ibi vera continuatio. Quia talis 
+      <lb ed="#L" n="119"/>modus continuationis est contra naturam liquidorum, sed subi 
+      <lb ed="#L" n="120"/>intrat vnum alterum secundum paruas partes porosas, &amp; cedit 
+      <lb ed="#L" n="121"/>vnum alteri. Semper tamen distinguuntur situ partes vtriusque 
+      <lb ed="#L" n="122"/>vini licet imperceptibiliter propter paruitatem partium &amp; simil 
+      <lb ed="#L" n="123"/>tudinem earum, &amp; ideo sub partibus specierum vini praeexisten 
+      <lb ed="#L" n="124"/>tis manet sanguis Christi &amp; non sub partibus vini appositi. Et con 
+      <lb ed="#L" n="125"/>firmatur, quia omnes doctores communiter dicunt que 
+      sangui<lb ed="#L" n="126" break="no"/>Christi non desinit esse sub speciebus vini consecrati nisi per tale 
+      <lb ed="#L" n="127"/>alteratione seu immutatione per quam desineret ibi esse 
+      sub<lb ed="#L" n="128" break="no"/>stantia vini si subesset. Sed constat quod per appositionem vini 
+      <lb ed="#L" n="129"/>omnino similis, substantia vini praecedens nullo modo definere 
+      <lb ed="#L" n="130"/>ibi esse, ergo per appositionem vini similis in substantia &amp; qua 
+      <lb ed="#L" n="131"/>litate vino consecrato &amp; speciebus eius non desinit corpus Chri 
+      <lb ed="#L" n="132"/>sti esse sub speciebus prioribus vini consecrati. 
+      </p>
+            <p xml:id="jsnvu6-e229659-d1e413">
+               <lb ed="#L" n="133"/>
+               <!--7--> Si autem liquor appositus sit eiusdem speciei quo ad substantiam 
+      <lb ed="#L" n="134"/>non autem quo ad aliquas qualitates, sicut si vino rubeo consecrate 
+      <lb ed="#L" n="135"/>apponeretur vinum album non consecratum, tuno videtur per 
+      ta<lb ed="#L" n="136" break="no"/>lem appositionem si fiat in notabili quantitate quod quantitates vini 
+      <lb ed="#L" n="137"/>consecrati corrumpantur: sensus enim docet od color mutatur. 
+      <lb ed="#L" n="138"/>Sed nunquid propter hoc desinit ibi esse sanguis Christi? Videtur 
+      <lb ed="#L" n="139"/>quod sic per rationem prius factam, quia desinunt ibi esse qualitate 
+      <lb ed="#L" n="140"/>quae demonstrabant vinum prius consecratum. Illud enim fuit 
+      vi<lb ed="#L" n="141" break="no"/>num tubeum, sed hoc non obstante probabiliter potest teneri u 
+      <lb ed="#L" n="142"/>adhuc remaneat sanguis Christi ac si fuisset appositum vinum te 
+      <lb ed="#L" n="143"/>taliter simile. Quia praecedens color non est corruptus nec nouus 
+      <lb ed="#L" n="144"/>generatus secundum rem, sed solum secundum apparentiam per 4 
+      <lb ed="#L" n="145"/>secuspositionem paruarum partium vtriusque liquoris qod ex eo 
+      <lb ed="#L" n="146"/>posset hoc aliquis credere, quia color qui resultat ex 
+      appositio<lb ed="#L" n="147" break="no"/>ne vini albi cum rubeo nunquam apparet ita purus, nec ita 
+      vni<lb ed="#L" n="148" break="no"/>formis in suis partibus, sicut si esset naturalis, vel dato quod praece 
+      <lb ed="#L" n="149"/>dens color corrumpatur non obstat quo ad propositum, quia corru 
+      <lb ed="#L" n="150"/>ptio vel variatio illarum specierum quae se habent per accidens 
+      <lb ed="#L" n="151"/>ad sacramentum non immutat ipsum. Sed variatio albi &amp; nigri 
+      cir<lb ed="#L" n="152" break="no"/>ca vinum se habet per accidens ad sacrametum, potest enim con 
+      <lb ed="#L" n="153"/>fici de vno sicut de alio. Istae etiam qualitates non proprie demon 
+      <lb ed="#L" n="154"/>strant speciem vini cum possint in aiis rebus inuenin. Non sic aum 
+      <lb ed="#L" n="155"/>est de sapore vel aliquo tali, ergo corruptio vel mutatio talium 
+      <lb ed="#L" n="156"/>o alitatum non mutat sacramentt. &amp; potest confirmari per 
+      ra<lb ed="#L" n="157" break="no"/>cionem immediate prius factam, quia substantia vini non 
+      define<lb ed="#L" n="158" break="no"/>ret esse per solam alterationem de colore in colorem, &amp; eodem 
+      <lb ed="#L" n="159"/>modo nec sanguis Christi secundum principium praesumptum. 
+      </p>
+            <p xml:id="jsnvu6-e229659-d1e476">
+               <lb ed="#L" n="160"/>
+               <!--8--> Ad primum argu. dicendum qud nihil prohibet quin accidems 
+      <lb ed="#L" n="161"/>quod habet partes extensas, vt est quantitas, secundum vnam 
+      <lb ed="#L" n="162"/>partem sit in subiecto &amp; secundum aliam non fit in subiecto, 
+      <!--00632.xml-->
+      <pb ed="#L" n="279-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nec est hic aliqua contradictio, quia licet idem sit in subiecto &amp; 
+      <lb ed="#L" n="2"/>non fit in subiecto, non tamen secundum idem: &amp; sic est in hoc 
+      sa<lb ed="#L" n="3" break="no"/>cramento quando apponitur ei liquor similis secundum speciem 
+      </p>
+            <p xml:id="jsnvu6-e229659-d1e501">
+               <lb ed="#L" n="4"/>
+               <!--9--> Ad secundum dicendum est quod in appositione similium 
+      <lb ed="#L" n="5"/>non est mistio proprie dicta secundum quem quaelibet pars misti 
+      <lb ed="#L" n="6"/>est mista, de qua loquitur Ari. primo de generatione. Illa enim 
+      <lb ed="#L" n="7"/>mistio diffinitur secundum ipsum quod est miscibilium 
+      alterato<lb ed="#L" n="8" break="no"/>rum vnio. Et loquitur de alteratione quae inducit corruptionem 
+      <lb ed="#L" n="9"/>sic enim alterantur elementa quando veniunt in compositionem 
+      <lb ed="#L" n="10"/>misti, quia non manent actu, neque secundum suas formas substam 
+      <lb ed="#L" n="11"/>tiales, neque secundum suas qualitates actiuas &amp; passiuas, sed 
+      vir<lb ed="#L" n="12" break="no"/>tute tantum quatenus forma misti &amp; qualitates eius vircuali 
+      per<lb ed="#L" n="13" break="no"/>fectione continent formam miscibilium, &amp; qualitates eorum. Si 
+      <lb ed="#L" n="14"/>milia autem secundum speciem si sint quoad omnia similia nullo 
+      <lb ed="#L" n="15"/>modo se alterant: si vero sint similia secundum speciem 
+      substan<lb ed="#L" n="16" break="no"/>tiae, &amp; dissimilia secundum qualitates aliquas, sicut vinum album 
+      <lb ed="#L" n="17"/>est dissimileruber, sic possunt se alterare aliquo modo, sed non 
+      <lb ed="#L" n="18"/>corrumpere. mistio ergo talium est per secuspositionem 
+      par<lb ed="#L" n="19" break="no"/>tium, ita quod nulla pars est ibi mista; sed totum dicitur mistun 
+      <lb ed="#L" n="20"/>quatenus continet partes diuersorum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

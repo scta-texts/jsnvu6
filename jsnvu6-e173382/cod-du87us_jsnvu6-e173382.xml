@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="211-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e173382"><!-- l3d19q1 -->
+            <head xml:id="jsnvu6-e173382-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e173382-Hd1e103" type="question-title">Utrum per passionem Christi simus liberati 
+      ab omni peccato</head>
+            <p xml:id="jsnvu6-e173382-d1e106">
+               <lb ed="#L" n="91"/>QVAISTIO PRIMA. 
+      <lb ed="#L" n="92"/>Vtrum per passionem Christi simus liberati 
+      <lb ed="#L" n="93"/>ab omni peccato. 
+      <lb ed="#L" n="94"/>Thom. 3. 9. 49. ar.1. 
+    </p>
+            <p xml:id="jsnvu6-e173382-d1e117">
+               <lb ed="#L" n="95"/>CIRCA distinctionem istam primo quaeritur, 
+      <lb ed="#L" n="96"/>vtrum per passionem Christi simus liberati ab 
+      <lb ed="#L" n="97"/>omni peccato. Et videtur quod non, quia nullus est 
+      <lb ed="#L" n="98"/>damnatus nisi pro peccato mortali, sed post 
+      pa<lb ed="#L" n="99" break="no"/>Isionem Christi multi damnati sunt, igiturper 
+      pa<lb ed="#L" n="100" break="no"/>sionem Christi non omnes sunt ab omni peccato liberati. 
+      </p>
+            <p xml:id="jsnvu6-e173382-d1e133">
+               <lb ed="#L" n="101"/>
+               <!--2--> Item quod non est, deleri non potest, sed peccata 
+      mortuo<lb ed="#L" n="102" break="no"/>rum praecedentium non erant tempore passionis Christi, sed 
+      <lb ed="#L" n="103"/>iam transierant, peccata etiam multorum sequentium nondum 
+      <lb ed="#L" n="104"/>erant, ergo talia non fuerunt per passionem Christi deleta. 
+      </p>
+            <p xml:id="jsnvu6-e173382-d1e147">
+               <lb ed="#L" n="105"/>
+               <!--3--> Item posita causa sufficienti, nihil aliud requiritur ad 
+      effe<lb ed="#L" n="106" break="no"/>ctum inducendum, sed post passionem Christi adhuc multa 
+      <lb ed="#L" n="107"/>alia requiruntur ad remissionem peccatorum, ergo passio 
+      Chri<lb ed="#L" n="108" break="no"/>sti non fuit causa sufficiens remissionis eorum. 
+      </p>
+            <p xml:id="jsnvu6-e173382-d1e160">
+               <lb ed="#L" n="109"/>
+               <!--4--> IN CONTRARIVM est quod dicitur Col. 2. 
+      vi<lb ed="#L" n="110" break="no"/>uificauit nos in illo donans nobis omnia delicta, &amp; Apocal. 1 
+      <lb ed="#L" n="111"/>dilexit nos, &amp; lauit nos a peccatis nostris in sanguine suo. 
+      </p>
+            <p xml:id="jsnvu6-e173382-d1e171">
+               <lb ed="#L" n="112"/>
+               <!--5--> RESPONSIO. Circa quaestionem istam duo sunt 
+      vi<lb ed="#L" n="113" break="no"/>denda. Primum est an per passionem Christi liberemur ab 
+      <lb ed="#L" n="114"/>omni peccato quo ad culpam. Secundum est, an liberemur, al 
+      <lb ed="#L" n="115"/>omni peccato quo ad poenam. Circa primum sunt adhuc duc 
+      <lb ed="#L" n="116"/>videnda. Cum enim liberare a culpa vel delere culpam dicatur 
+      <lb ed="#L" n="117"/>aliquid dupliciter . s. formaliter &amp; effectiue sicut tenebra delet 
+      <lb ed="#L" n="118"/>lumen &amp; sol, ideo primo videbitur per quid formaliter 
+      delea<lb ed="#L" n="119" break="no"/>tur peccatum, &amp; secundo per quid effectiue. 
+      </p>
+            <p xml:id="jsnvu6-e173382-d1e193">
+               <lb ed="#L" n="120"/>
+               <!--6--> QUANTVM ad primum dicitur communiter quod 
+      pec<lb ed="#L" n="121" break="no"/>catum mortale deletur formaliter per gratiam, cuius ratio est, 
+      <lb ed="#L" n="122"/>quia priuatio deletur formaliter per habitum oppositum sicut 
+      <lb ed="#L" n="123"/>te nebra per lumen, sed gratia opponitur peccato mortali sicu 
+      <lb ed="#L" n="124"/>habitus priuationi, ergo peccatum mortale deletur formalite 
+      <lb ed="#L" n="125"/>per gratiam, hoc autem dictum commune si intelligatur sic c 
+      <lb ed="#L" n="126"/>peccatum &amp; gratia opponantur directe &amp; per se sicut 
+      priuatio<lb ed="#L" n="127" break="no"/>&amp; habitus non habet veritatem, si autem intelligatur quod o 
+      <lb ed="#L" n="128"/>ponantur concomitatiue veritatem habet. Primum patet 
+      qua<lb ed="#L" n="129" break="no"/>drupliciter. Primo sic, habitus &amp; priuatio respiciunt idem 
+      sub<lb ed="#L" n="130" break="no"/>iectum immediatum, sed gratia &amp; culpa saltem actualis 
+      mor<lb ed="#L" n="131" break="no"/>talis non respiciunt idem subiectum immediatum, ergo non se 
+      <lb ed="#L" n="132"/>habent per se &amp; directe vt habitus &amp; priuatio. Minor 
+      proba<lb ed="#L" n="133" break="no"/>tur: quia gratia habet pro immediato subiecto vel essentiam 
+      <lb ed="#L" n="134"/>animae vel voluntatem, culpa autem actualis mortalis habet pro 
+      im<lb ed="#L" n="135" break="no"/>mediato subiecto actum voluntatis quare &amp;c. Secundo sic, pri 
+      <lb ed="#L" n="136"/>mae perfectionis habet rationem poenae &amp; non culpae vt dictum 
+      <lb ed="#L" n="137"/>fuit in secundo libro, sed priuatio gratiae cum sit quaedam 
+      fo<lb ed="#L" n="138" break="no"/>ma &amp; habitus &amp; priuatio primae perfectionis, ergo talis 
+      pri<lb ed="#L" n="139" break="no"/>uatio non est culpa, sed poena. Tertio sic, habitus &amp; priuatio 
+      <lb ed="#L" n="140"/>contradicunt sibi circa propositum subiectum, ita vt necesse si 
+      <lb ed="#L" n="141"/>alterum eorum semper inesse subiecto, sed non est necesse per 
+      <lb ed="#L" n="142"/>gratiam vel culpam semper inesse nobis, ergo gratia &amp; culpi 
+      <lb ed="#L" n="143"/>non opponuntur vt habitus &amp; priuatio. Minor declaratur, 
+      <lb ed="#L" n="144"/>quia si homo crearetur in puris naturalibus non haberet 
+      gra<lb ed="#L" n="145" break="no"/>tiam neque culpam. Quarto sic, vni habitui secundum speciem 
+      <lb ed="#L" n="146"/>non opponitur nisi vna priuatio secundum speciem, quia ratic 
+      <lb ed="#L" n="147"/>priuationis sumitur ab habitu, sed gratia gratum faciens est 
+      <lb ed="#L" n="148"/>habitus vnus secundum speciem, peccata autem mortalia sunt 
+      <lb ed="#L" n="149"/>plura &amp; plurium rationum, ergo non omne peccatum 
+      morta<lb ed="#L" n="150" break="no"/>le opponitur gratiae sicut priuatio habitui, qua autem ration 
+      <lb ed="#L" n="151"/>vnum non opponitur, ratione nec quodcunque aliud, cum onm 
+      <lb ed="#L" n="152"/>nia sunt aeque incompassibilia gratiae, ergo peccatum mortale 
+      <lb ed="#L" n="153"/>non opponitur gratiae per se &amp; directe sicut priuatio &amp; 
+      habi<lb ed="#L" n="154" break="no"/>tus, nec per consequens gratia debet culpam formaliter &amp; 
+      di<lb ed="#L" n="155" break="no"/>recte. Si autem ista oppositio intelligatur concomitatiue 
+      si<lb ed="#L" n="156" break="no"/>veritatem habet dictum commune 
+      </p>
+            <p xml:id="jsnvu6-e173382-d1e278">
+               <lb ed="#L" n="157"/>
+               <!--7--> Ad cuius euidentiam sciendum est quod circa peccatum 
+      mortal<lb ed="#L" n="158" break="no"/>actuale est tria considerare, scilicet culpam quae est voluntaria 
+      <!--00496.xml-->
+      <pb ed="#L" n="211-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>inordinatio actus: saltem quantum ad peccatum commissionis,ae 
+      <lb ed="#L" n="2"/>macula quae est carentia gratiae quae ea ratione dicitur macula 
+      <lb ed="#L" n="3"/>animae qua gratia dicitur eius pulchritudo, dicitur etiam 
+      offen<lb ed="#L" n="4" break="no"/>sa: quia gratia solum est ad amicum propter quod 
+      subtracti<lb ed="#L" n="5" break="no"/>gratiae dicitur offensa quasi subtractio amicitiae, est etiam ib 
+      <lb ed="#L" n="6"/>tertio considerare reatum qui nihil aliud est quam debitum ser 
+      <lb ed="#L" n="7"/>obligatio ad poenam aeternam. In peccato autem originali nor 
+      <lb ed="#L" n="8"/>contingit inuenire primum istorum, quia non consistit in aliquo 
+      <lb ed="#L" n="9"/>actu nostro, ramen est ibi inuenire secundum &amp; tertium scilice 
+      <lb ed="#L" n="10"/>carentiam gratiae, &amp; debitum poenae damni. In peccato autem vt 
+      <lb ed="#L" n="11"/>niali est inuenire primum scilicet deordinationem actus, &amp; ter 
+      <lb ed="#L" n="12"/>tium scilicet debitum poenae temporalis, sed non est ibi inuenire 
+      <lb ed="#L" n="13"/>secundum: quia culpa venialis stat cum gratia, cum ergo nunc 
+      lo<lb ed="#L" n="14" break="no"/>quamur de remissione peccati quo ad culpam per gratiam, non 
+      <lb ed="#L" n="15"/>loquuntur de remissione peccati venialis, quia cum eo stat gratia 
+      <lb ed="#L" n="16"/>nec peccati originalis: quia in eo non est culpa prout nunc loqui 
+      <lb ed="#L" n="17"/>mur de culpa, scilicet, qua est deordinatio actus, sed loquimur 
+      <lb ed="#L" n="18"/>de remissione peccati actualis mortalis. Constat autem quod culpa 
+      <lb ed="#L" n="19"/>acceptae pro in ordinatione actus opponitur formaliter 
+      ordina<lb ed="#L" n="20" break="no"/>tio actus, inordinatio autem actus non deletur per ordinationem 
+      su<lb ed="#L" n="21" break="no"/>peruenientem eidem actui, quia idem actus voluntatis nunquam est pr 
+      <lb ed="#L" n="22"/>mo deordinarus, &amp; postea ordinatus, si enim actus voluntatis es 
+      <lb ed="#L" n="23"/>deordinatus per hoc quod aliquid illicitum placet voluntati, non reor 
+      <lb ed="#L" n="24"/>dinatur nisi per hoc quod illud quod male placuit postmodum 
+      beni<lb ed="#L" n="25" break="no"/>displicet. Non potest autem esse idem actus quo aliquid prime 
+      <lb ed="#L" n="26"/>placet &amp; postea displicet, propter que non potest esse idem actu 
+      <lb ed="#L" n="27"/>primum ordinatus &amp; postea deordinatus, cessat autem talis deordi 
+      <lb ed="#L" n="28"/>natio per cessationem actus, sed propter hoc non dicitur culpa 
+      di<lb ed="#L" n="29" break="no"/>missa vel deleta, alioquin omnis cessans peccare esset liberat? 
+      <lb ed="#L" n="30"/>culpa praecedenti quod non dicimus, sed dicimus tunc culpam 
+      di<lb ed="#L" n="31" break="no"/>missam quando voluntas prius deordinata per malum complacer 
+      <lb ed="#L" n="32"/>tiam reordinatur per bonam displicentiam quod fit in contritione 
+      <lb ed="#L" n="33"/>Et quia talem contritionem seu displicentiam concomitatur gratia 
+      <lb ed="#L" n="34"/>ideo culpa dicitur deleri formaliter per gratiam non per se &amp; 
+      dire<lb ed="#L" n="35" break="no"/>cte, quia hoc modo deletur culpa pro nihil, sed solum 
+      concomitati<lb ed="#L" n="36" break="no"/>ue, &amp; sic patet primum scilicet per quid deletur formaliter culpa 
+      </p>
+            <p xml:id="jsnvu6-e173382-d1e372">
+               <lb ed="#L" n="37"/>
+               <!--8--> Per quid autem deleatur effectiue, aduertendum est quod causa 
+      <lb ed="#L" n="38"/>efficiens est triplex. Vna principalis &amp; perficiens quae 
+      introdu<lb ed="#L" n="39" break="no"/>cit principalem effectum ex virtute propria. Alia disponens ma 
+      <lb ed="#L" n="40"/>teriam. Tertia instrumentalis quae quandoque similiter disponit 
+      <lb ed="#L" n="41"/>si ergo loquamur de principali causa efficiente deletionem 
+      cul<lb ed="#L" n="42" break="no"/>pae, sic solus deus delet culpam: Quia ipse solus est qui infundit 
+      <lb ed="#L" n="43"/>gratiam per quam culpa deletui formaliter modo quo dictum est, ips 
+      <lb ed="#L" n="44"/>etiam mouet principaliter voluntatem ad hoc vt bene ei displiceat 
+      <lb ed="#L" n="45"/>quod ei male prius placuit, quod est praeuium ad deletionem culpae &amp; 
+      <lb ed="#L" n="46"/>gratiae infusionem. Si autem loquamur de causa disponente, sic pal 
+      <lb ed="#L" n="47"/>sio Christi est causa remissionis peccati. Quod patet, quia illud 
+      <lb ed="#L" n="48"/>disponit hominem ad deletionem culpae &amp; receptionem gratiae quod 
+      <lb ed="#L" n="49"/>natum est inclinare voluntatem ad dilectionem dei &amp; detestationem 
+      pe<lb ed="#L" n="50" break="no"/>cati, sed passio Christi est huiusmodi, quia Christus ex maxim 
+      <lb ed="#L" n="51"/>charitate pro nobis passus est, propter quod maxime tenemui 
+      <lb ed="#L" n="52"/>eum diligere, &amp; per passionem liberauit nos a debito mortis aeterna 
+      <lb ed="#L" n="53"/>ratione cuius debiti peccatum est maxime odibile, ergo passie 
+      <lb ed="#L" n="54"/>Christi est causa disponens ad remissionem peccatorum. Si autem lo 
+      <lb ed="#L" n="55"/>quamur de causa instrumentali, sic saciamenta maxime baptism 
+      <lb ed="#L" n="56"/>&amp; poenitentia sunt causa remissionis peccati, quia sunt instrumenta 
+      <lb ed="#L" n="57"/>diuinae misericordiae iustificantis, &amp; sic patet primum principale 
+      <lb ed="#L" n="58"/>qualiter passio Christi sit causa remissionis peccati quo ad culpam 
+</p>
+            <p xml:id="jsnvu6-e173382-d1e425">
+               <lb ed="#L" n="59"/>QUANTVM ad secundum principale scilicet de remissione 
+      <lb ed="#L" n="60"/>peccati quo ad poenam. Dicendum est quod per passionem Christi 
+      <lb ed="#L" n="61"/>fuerunt omnes liberanti ab omni poena peccati quo ad sufficien 
+      <lb ed="#L" n="62"/>tiam, sed non quo ad efficientiam, hoc est autem quod passio Christ 
+      <lb ed="#L" n="63"/>fuit sufficiens ad liberandum omnes ab omni poena peccati, sed 
+      <lb ed="#L" n="64"/>non habuit hunc effectum in omnibus. Primum patet, quia 
+      <lb ed="#L" n="65"/>exhibita sufficienti satisfactione tollitur reatus poenae, sed 
+      pas<lb ed="#L" n="66" break="no"/>sio Christi fuit sufficiens &amp; superabundans satisfactio pro 
+      pec<lb ed="#L" n="67" break="no"/>cato totius generis humani, ergo per passionem Christi 
+      suffi<lb ed="#L" n="68" break="no"/>cienter sublatus est omnis reatus poenae cuicunque 
+      pecca<lb ed="#L" n="69" break="no"/>to debitae. Maior patet. Minor declaratur, quia ille proprie 
+      sa<lb ed="#L" n="70" break="no"/>tisfacit pro offensa qui exhibet offenso illud quod aeque vel 
+      <lb ed="#L" n="71"/>magis diligit quam odiat offensam, sed Christus ex charitate 
+      <lb ed="#L" n="72"/>&amp; obedientia patiendo exhibuit Deo aliquid magis gratum 
+      <lb ed="#L" n="73"/>quam exigeret recompensatio offensae totius humani generis. 
+      <lb ed="#L" n="74"/>Primo quidem propter magnitudinem charitatis ex qua 
+      patie<lb ed="#L" n="75" break="no"/>batur. Secundo propter dignitatem vitae suae quam pro 
+      satisfactio<lb ed="#L" n="76" break="no"/>ne ponebat quae erat vita Dei &amp; hominis. Tertio propter gene 
+      <lb ed="#L" n="77"/>ralitatem passionis &amp; magnitudinem doloris, vt supra dictum fuit 
+      <lb ed="#L" n="78"/>&amp; ideo passio Christi fuit sufficiens, imo superabundans 
+      satis<lb ed="#L" n="79" break="no"/>factio pro peccatis totius humani generis secundum illud prima 
+      <lb ed="#L" n="80"/>Ioan. 2. Ipse est propitiatio pro peccatis nostris non pro nostri 
+      <lb ed="#L" n="81"/>tantum, sed etiam pro totius mundi, &amp; sic patet, quod per passio. 
+      <lb ed="#L" n="82"/>nem Christi liberamur a poena peccati quantum ad sufficientiam
+    </p>
+            <p xml:id="jsnvu6-e173382-d1e480">
+      <!--00496.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>10 Secundum patet quod non omnes liberamur quantum ad effi 
+      <lb ed="#L" n="84"/>cientiam. Primo, quia Christus satisfecit pro nobis tanquam caput 
+      <lb ed="#L" n="85"/>pro membris, ergo illis solum est passio Christi satisfactoria qui 
+      <lb ed="#L" n="86"/>vniuntur ei tanquam membra capiti, hoc autem fit per fidem, &amp; 
+      <lb ed="#L" n="87"/>charitatem, &amp; sacramentorum susceptionem, per quem modum non 
+      <lb ed="#L" n="88"/>omnes vniuntur Christo, sed pauci, ergo passio Christi non 
+      <lb ed="#L" n="89"/>est pro omnibus satis/ actoria quantum ad efficientiam. Secundo, quia 
+      <lb ed="#L" n="90"/>manente culpa non tollitar reatus poenae, sed culpa manet in 
+      <lb ed="#L" n="91"/>omnibus qui non vniuntur Christo vt membra capiti, quare in om 
+      <lb ed="#L" n="92"/>nibus talibus remanet reatus poenae, qui autem vniuntur ei vt 
+      men<lb ed="#L" n="93" break="no"/>bra capiri percipiunt remissionem poenae aeternae ex vi passionis 
+      <lb ed="#L" n="94"/>Christi secundum modum vnionis qui est duplex. Vnus per sacram? 
+      <lb ed="#L" n="95"/>talem conformitatem in susceptione baptisini in quo consepulti sum 
+      <lb ed="#L" n="96"/>cum illo per mortem, Ro. 6. Et quia hoc solum operatur virtus 
+      diui<lb ed="#L" n="97" break="no"/>na quae inefficaciam nescit, ideo in baptismo ex vi passionis Chri 
+      <lb ed="#L" n="98"/>sti cui sacramentaliter confirmamur, remittitur omnis poena 
+      de<lb ed="#L" n="99" break="no"/>bita cuicunque peccato originali actuali mortali, &amp; veniali¬ 
+      </p>
+            <p xml:id="jsnvu6-e173382-d1e524">
+               <lb ed="#L" n="100"/>
+               <!--11--> Alius autem modus vnionis est per realem imitationem 
+      quan<lb ed="#L" n="101" break="no"/>do . s. ad similitudinem Christi patimur, &amp; haec imitatio, vel 
+      po<lb ed="#L" n="102" break="no"/>test esse perfecta quantum ad genus poenae vt in martyrio, &amp; 
+      si<lb ed="#L" n="103" break="no"/>adhuc remittitur omnis poena, non solum ex vi martyrij, sed pe 
+      <lb ed="#L" n="104"/>tius ex communicatione passionis Christi. Nam multi meruerunm 
+      <lb ed="#L" n="105"/>multo maiorem poenam quam sustinuerunt in vno martyrio, vel potes 
+      <lb ed="#L" n="106"/>esse perfecta non quidem per comparationem ad passionem Chr 
+      <lb ed="#L" n="107"/>sti, &amp; quo ad genus poenae, sed per comparationem ad culpam 
+      com<lb ed="#L" n="108" break="no"/>missam, &amp; tunc adhuc totaliter tollitur reatus siue hoc fit in ci 
+      <lb ed="#L" n="109"/>tritione, siue in exteriori passione quae tamen multo minus suffi 
+      <lb ed="#L" n="110"/>cit cooperante satisfactione passionis Christi quam esset condigna 
+      <lb ed="#L" n="111"/>peccato secundum se. Quando autem non est perfecta imitatio 
+      ali<lb ed="#L" n="112" break="no"/>quorum dictorum modorum, remanet obligatio ad aliquam poenan 
+      <lb ed="#L" n="113"/>siue hic, siue in purgatorio, quia non tollitur totus reatus poen 
+      <lb ed="#L" n="114"/>propter defectu conformitatis perfectae, semper tamen per 
+      quam<lb ed="#L" n="115" break="no"/>libet conformitatem tollitur reatus poenae debitus peccato 
+      ori<lb ed="#L" n="116" break="no"/>ginali, non quidem vt statim natura reparetur nisi quoad gratiam 
+      <lb ed="#L" n="117"/>quae est necessaria ad salutem, sed in generali resurrectione 
+      quan<lb ed="#L" n="118" break="no"/>do creatura liberabitur a seruitute corruptionis in libertatem 
+      <lb ed="#L" n="119"/>gloriae filiorum dei vt dicitur Ro. 8. ergo per passionem Christi 
+      <lb ed="#L" n="120"/>liberamur a peccato quo ad culpam &amp; quo ad poenam omnes quidi 
+      <lb ed="#L" n="121"/>secundum sufficientiam, sed non secundum efficientiam. Et quia ingres 
+      <lb ed="#L" n="122"/>sum regni coelorum nihil prohibet nisi peccatum propter quod 
+      dici<lb ed="#L" n="123" break="no"/>tur claudi hominibus ianua regni coelorum, ideo sicut per 
+      passio<lb ed="#L" n="124" break="no"/>nem Christi liberamur ab omni peccato sic per eandem dicitur 
+      <lb ed="#L" n="125"/>nobis aperiri ianua regni coelorum quod figuratum fuit in lege 
+      <lb ed="#L" n="126"/>veteri, quia sine sanguine non fiebat remissio peccatorum, nec 
+      <lb ed="#L" n="127"/>erat ingressus in sancta sanctorum vt dicit apostolus ad Heb. 9 
+      </p>
+            <p xml:id="jsnvu6-e173382-d1e589">
+               <lb ed="#L" n="128"/>
+               <!--12--> AD PRIMVM argumentum dicendum quod nulli 
+      dam<lb ed="#L" n="129" break="no"/>nantur nisi illi qui non sunt participes passionis Christi, quia 
+      <lb ed="#L" n="130"/>non vniuntur Christo per fidem &amp; charitatem, nec illud arguit 
+      <lb ed="#L" n="131"/>inefficaciam passionis Christi, sed indispositionem peccantis. 
+      </p>
+            <p xml:id="jsnvu6-e173382-d1e602">
+               <lb ed="#L" n="132"/>
+               <!--13--> Ad secundum dicendum quod peccata parrum praecedentium passionem 
+      <lb ed="#L" n="133"/>Christi fuerunt remissa virtute passionis Christi, non quidem 
+      exhi<lb ed="#L" n="134" break="no"/>bitae, sed creditae, sicut enim dictum fuit passio Christi est causa 
+      <lb ed="#L" n="135"/>remissionis peccati quo ad culpam inquantum inclinat animum ad 
+      <lb ed="#L" n="136"/>dilectionem dei &amp; detestationem peccati, quod potest facere 
+      cre<lb ed="#L" n="137" break="no"/>dita, sicut &amp; exhibita, sed dimissio peccati quoad poenam totale 
+      <lb ed="#L" n="138"/>fuit per passionem Christi actu exhibitam, &amp; ideo talem 
+      remis<lb ed="#L" n="139" break="no"/>sionem non receperunt ante passionem Christi, vnde omnes 
+      de<lb ed="#L" n="140" break="no"/>scendebant in lymbum, vel in purgatorium. Peccata autem sequentium 
+      <lb ed="#L" n="141"/>passionem Christi per eam fuerunt dimissa quoad sufficientiam 
+      <lb ed="#L" n="142"/>in omnibus non autem quoad efficientiam, &amp; hoc modo potest 
+      <lb ed="#L" n="143"/>peccatum dimitti antequam sit, sicut potest parari medicina quae 
+      <lb ed="#L" n="144"/>sufficiens est expellere vel sanare morbum etiam in futurum. 
+      </p>
+            <p xml:id="jsnvu6-e173382-d1e635">
+               <lb ed="#L" n="145"/>
+               <!--14--> Ad tertium dicendum quod passio Christi fuit vniuersalis 
+      <lb ed="#L" n="146"/>causa remissionis peccatorum quam oportet applicare ad 
+      singu<lb ed="#L" n="147" break="no"/>los ad hoc vt in eis sortiatur suum effectum, quae applicatio fit 
+      <lb ed="#L" n="148"/>per fidem, &amp; charitatem, &amp; sacramentorum susceptionem, 
+      pro<lb ed="#L" n="149" break="no"/>pter quod talia non superfluunt. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

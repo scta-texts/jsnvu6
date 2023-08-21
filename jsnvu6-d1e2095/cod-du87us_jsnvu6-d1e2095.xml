@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="98-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2095"><!-- l1d43q5 -->
+            <head xml:id="jsnvu6-d1e2095-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-d1e2095-Hd1e103" type="question-title">Utrum Deus agat ex necessitate iustitiae</head>
+            <p xml:id="jsnvu6-d1e2095-d1e106">
+               <lb ed="#L" n="157"/>QVAESTIO QVINTA. 
+      <lb ed="#L" n="158"/>Vtrum Deus agat ex necessitate iustitiae. 
+      <lb ed="#L" n="159"/>Thom. 1. 4. 21. artic. 1. 
+    </p>
+            <p xml:id="jsnvu6-d1e2095-d1e115">
+      <!--00262.xml-->
+               <pb ed="#L" n="98-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>POSTEA quaeritur, vtrum deus agat ex 
+      necessi<lb ed="#L" n="2" break="no"/>tate iustitiae. Et videtur quod sic, quia vt dicitur 
+      <lb ed="#L" n="3"/>primae Timoth. 2. deus seipsum negare non potest, 
+      <lb ed="#L" n="4"/>sed seipsum negaret si secundum iustitiam non 
+      a<lb ed="#L" n="5" break="no"/>Ageret cum ipse sit iustitia, ergo solum potest ager 
+      <lb ed="#L" n="6"/>quod iustum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e2095-d1e137">
+               <lb ed="#L" n="7"/>
+               <!--2--> INCONTRARIVM est, quia si deus ageret ex 
+      ne<lb ed="#L" n="8" break="no"/>cessitate iustitiae non posset gratis ex misericordia alicui 
+      con<lb ed="#L" n="9" break="no"/>donare totam poenam ei debitam. Hoc autem est 
+      inconueni<lb ed="#L" n="10" break="no"/>ens, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2095-d1e151">
+               <lb ed="#L" n="11"/>
+               <!--3--> RESPONSIO. Deum agere ex necessitate iustitiae po 
+      <lb ed="#L" n="12"/>test dupliciter intelligi. Vno modo quod nihil possit fieri quin si 
+      <lb ed="#L" n="13"/>factum esset, iustum esset, vel potest intelligi quod ex iustitia sua 
+      <lb ed="#L" n="14"/>sic determinetur ad aliquid faciendum quod non possit illud omit. 
+      <lb ed="#L" n="15"/>tere, vel facere oppositum. Si primo modo, adhuc 
+      distinguen<lb ed="#L" n="16" break="no"/>dum est de iustitia, quia vel sumitur large pro condecentia, &amp; 
+      <lb ed="#L" n="17"/>iustum pro eo quod decet, vel stricte prout respicit debitum 
+      obli<lb ed="#L" n="18" break="no"/>gationis. Si primo modo sic deus operatur ex necessitate 
+      iusti<lb ed="#L" n="19" break="no"/>tiae, quia nihil potest facere quin si faceret, esset iustum (hoc est 
+      <lb ed="#L" n="20"/>condecens.) Cuius ratio est quia illud quod fit secundum 
+      con<lb ed="#L" n="21" break="no"/>uenientiam finis ad quem est, fit iuste (id est, decenter) sed quicquid 
+      <lb ed="#L" n="22"/>deus potest facere si fieret, secundum quod fieret congruit 
+      bo<lb ed="#L" n="23" break="no"/>nitati diuinae ad quam ordinaretur vt ad finem, nam bonitas 
+      <lb ed="#L" n="24"/>diuina est regula omnium quae deus agit sicut in omnibus 
+      opera<lb ed="#L" n="25" break="no"/>bilibus finis est principium (vt dicitur 2. Phy.) ergo quicquid deus 
+      <lb ed="#L" n="26"/>potest facere si fieret iustum esset, hoc est condecens. Si vero 
+      iu<lb ed="#L" n="27" break="no"/>stitia accipiatur stricte prout includit debitum obligationis, sic 
+      <lb ed="#L" n="28"/>deus nihil agit ex necessitate iustitiae, qua in deo nulla est 
+      obli<lb ed="#L" n="29" break="no"/>gatio ad creaturas, neque ad producendum eas (vt essent) 
+      ne<lb ed="#L" n="30" break="no"/>que ad conseruandum eas. 
+      </p>
+            <p xml:id="jsnvu6-d1e2095-d1e199">
+               <lb ed="#L" n="31"/>
+               <!--4.--> Si autem quaestio intelligatur secundo modo scilicet quod 
+      <lb ed="#L" n="32"/>deus ex iustitia sic determinetur ad aliquid faciendum quod ni 
+      <lb ed="#L" n="33"/>possit illud omittere, vel facere oppositum, sic dicendum est quod 
+      <lb ed="#L" n="34"/>de? non operatur ex necessitate iustitiae, quia vt prius visum est 
+      <lb ed="#L" n="35"/>vel iustitia accipitur stricte prout includit debitum 
+      obligatio<lb ed="#L" n="36" break="no"/>nis, &amp; sic constat quod deus non determinatur ex iustitia ad ali 
+      <lb ed="#L" n="37"/>quid faciendum, imo nihil facit hoc modo iustum, quia non est 
+      <lb ed="#L" n="38"/>obligatus ad aliquid faciendum. Vel accipiatur iustitia pro 
+      con<lb ed="#L" n="39" break="no"/>decentia, &amp; iustum pro eo quod decet, &amp; sic quicquid deus potes 
+      <lb ed="#L" n="40"/>facere si fieret esset iustum (hoc est condecens) tamen ex iustitia 
+      <lb ed="#L" n="41"/>sic accepta non necessitatur ad aliquid faciendum quin possit 
+      il<lb ed="#L" n="42" break="no"/>lud omittere. Cuius ratio est quia ista decentia attenditur ex 
+      <lb ed="#L" n="43"/>conuenientia rei ad suum finem vt dictum est, sed deus volendo 
+      <lb ed="#L" n="44"/>bonitatem suam non necessario vult alia quae ordinantur ad 
+      ip<lb ed="#L" n="45" break="no"/>sam tanquam ad finem vt probatum fuit supra, ergo decentia rei 
+      <lb ed="#L" n="46"/>ad finem non necessitat deum ad aliquid volendum, vel 
+      facien<lb ed="#L" n="47" break="no"/>dum, quin possit illud nolle &amp; omittere. Similiter pro parte 
+      re<lb ed="#L" n="48" break="no"/>spondendum est ad illud vtrum deus possit facere quae non 
+      fa<lb ed="#L" n="49" break="no"/>cit, vel quae non vult, quia deus nihil potest facere quin si 
+      face<lb ed="#L" n="50" break="no"/>ret, esset ab eo factum &amp; volitum, deus tamen potest facere 
+      mul<lb ed="#L" n="51" break="no"/>to plura quam sint illa quae facit aut quae vult facere, &amp; 
+      intelli<lb ed="#L" n="52" break="no"/>go illud de potentia absoluta qua deus potest facere 
+      quaecun<lb ed="#L" n="53" break="no"/>que contradictionem non implicant. 
+</p>
+            <p xml:id="jsnvu6-d1e2095-d1e254">
+               <lb ed="#L" n="54"/>AD ARGVMENTVM in oppositum dicendum quod 
+      <lb ed="#L" n="55"/>quicquid deus facit totum facit secundum iustitiam, quae est 
+      <lb ed="#L" n="56"/>quaedam condecentia, &amp; hoc modo iustus est, quia non facit nisi 
+      <lb ed="#L" n="57"/>quod condecet, &amp; sic seipsum non negat, sed nihil facit 
+      secun<lb ed="#L" n="58" break="no"/>dum iustitiam quae importat debitum obligationis, quia vt 
+      si<lb ed="#L" n="59" break="no"/>iustus non est, eo quod nulli est obligatus, neutro ergo modo 
+      <lb ed="#L" n="60"/>necessitatur ad agendum secundum iustitiam. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

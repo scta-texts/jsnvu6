@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="70-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1491"><!-- l1d29q2 -->
+            <head xml:id="jsnvu6-d1e1491-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e1491-Hd1e103" type="question-title">Utrum pater et filius sint unum principium spiritus sancti</head>
+            <p xml:id="jsnvu6-d1e1491-d1e106">
+               <lb ed="#L" n="62"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="63"/>Vtrum pater &amp; filius sint vnum principium 
+      <lb ed="#L" n="64"/>spiritus sancti. 
+      <lb ed="#L" n="65"/>Tho. 1. 4. 36. art. 4.
+    </p>
+            <p xml:id="jsnvu6-d1e1491-d1e117">
+               <lb ed="#L" n="66"/>SECVNDO quaeritur, vtrum pater &amp; filius 
+      sin<lb ed="#L" n="67" break="no"/>vnum principium spiritus sancti. Et videtur quod 
+      <lb ed="#L" n="68"/>i non, quia non possunt esse vnum principium, nisi 
+      <lb ed="#L" n="69"/>Ei ratione essentiae vel proprietatis: non ratione essen 
+      <lb ed="#L" n="70"/>tiae, quia eodem modo spiritus sanctus posset dici principium 
+      <lb ed="#L" n="71"/>suiipsius cum sic vnum essentia cum patre &amp; filio, nec ratione 
+      <lb ed="#L" n="72"/>proprietatis puta communis spirationis, quia cum proprietas 
+      <lb ed="#L" n="73"/>fit suppositi sicut subiecti non videtur possibile quod duorum 
+      <lb ed="#L" n="74"/>suppositorum sit vna numero proprietas. 
+      </p>
+            <p xml:id="jsnvu6-d1e1491-d1e139">
+               <lb ed="#L" n="75"/>
+               <!--2--> Item si propter vnitatem proprietatis pater &amp; filius 
+      dican<lb ed="#L" n="76" break="no"/>tur principium, per oppositum vbi erunt plures proprietates 
+      <lb ed="#L" n="77"/>realiter distinctae ibi erunt plura principia, sed in patre sunt 
+      <lb ed="#L" n="78"/>plures proprietates realiter differentes, scilicet paternitas, &amp; 
+      <lb ed="#L" n="79"/>spiratio actiua vt prius ostensum fuit, ergo pater posset dici plu 
+      <!--00206.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>ra principia, sed hoc non dicimus, ergo nec aliud.
+</p>
+            <p xml:id="jsnvu6-d1e1491-d1e162">
+               <lb ed="#L" n="81"/>IN CONTRARIVM est quod dicit Aug. 6. de Trin. que 
+      <lb ed="#L" n="82"/>pater &amp; filius non sunt duo principia spiritus sancti, sed vnum 
+      </p>
+            <p xml:id="jsnvu6-d1e1491-d1e169">
+               <lb ed="#L" n="83"/>
+               <!--4--> RESPONSIO. Omne agens agit per aliquam formam 
+      <lb ed="#L" n="84"/>per quam est actu, &amp; quae est sibi ratio agendi. Et ideo omne 
+      <lb ed="#L" n="85"/>productum comparatur ad duo, scilicet ad agentem &amp; ad formam 
+      <lb ed="#L" n="86"/>etiam quae est principium actionis. Et vtrunque censetur 
+      nomi<lb ed="#L" n="87" break="no"/>ne principij. Principium enim quandoque vocatur ipsum 
+      agen<lb ed="#L" n="88" break="no"/>testante Philosopho 5. Metaphysi. quod principatus &amp; potestates 
+      <lb ed="#L" n="89"/>principia dicuntur, &amp; pater &amp; mater dicuntur principia filij, 
+      <lb ed="#L" n="90"/>forma etiam per quam agens agit dicitur principium, sicut in 
+      <lb ed="#L" n="91"/>eodem 5. lib. dicitur quod potentia est principium transmutandi 
+      <lb ed="#L" n="92"/>alterum. Ob hanc ergo nominis multiplicitatem oportet vario 
+      <lb ed="#L" n="93"/>modo dicere. Si enim nomen principij accipiatur primo modo 
+      <lb ed="#L" n="94"/>pro eo quod agit, quum illud sit suppositum (pater autem &amp; 
+      fi<lb ed="#L" n="95" break="no"/>lius non sunt vnum suppositum, sed plura) necesse est dicere o 
+      <lb ed="#L" n="96"/>pater &amp; filius sint plura principia spiritus sancti, sed quia agen 
+      <lb ed="#L" n="97"/>magis proprie dicitur principians quam principium, ideo licet 
+      <lb ed="#L" n="98"/>communiter dicatur quod patet &amp; filius sint duo 
+      principian<lb ed="#L" n="99" break="no"/>tes, vsus tamen communis non recipit quod dicantur duo prin 
+      <lb ed="#L" n="100"/>cipia. Si autem nomen principij fumatur non pro agente, 
+      se<lb ed="#L" n="101" break="no"/>pro eo quo agens agit. Sic proprie loquendo debet dici quod 
+      <lb ed="#L" n="102"/>in patre &amp; filio est vnum principium quo spirant spiritum 
+      san<lb ed="#L" n="103" break="no"/>ctum &amp; nihilominus vere dicitur quod pater &amp; filius sunt vnum 
+      <lb ed="#L" n="104"/>principium spiritus sancti, sed non aeque proprie sicut primum 
+      <lb ed="#L" n="105"/>Primum patet, quia principium quo pater &amp; filius spirant 
+      spi<lb ed="#L" n="106" break="no"/>ritum sanctum est vis spiratiua, sed illa est vnica in patre &amp; in 
+      <lb ed="#L" n="107"/>filio, ergo proprie dicitur quod in patre &amp; filio est vnum 
+      princi<lb ed="#L" n="108" break="no"/>pium, quo spirant spiritum sanctum, minor patet, quia siue essen 
+      <lb ed="#L" n="109"/>tia siue relatio communis spirationis sit principium spirandi, 
+      vtri<lb ed="#L" n="110" break="no"/>que est vnica tantum in patre &amp; filio, &amp; ideo proprie dicitur quo 
+      <lb ed="#L" n="111"/>in patre &amp; filio est vnum principium quo spirant spiritum 
+      san<lb ed="#L" n="112" break="no"/>ctum, &amp; hoc est secundum omnem consuetudinem loquentium 
+      <lb ed="#L" n="113"/>magis proprius modus loquendi quam si dicatur quod pater &amp; 
+      <lb ed="#L" n="114"/>filius sunt vnum principium spiritus sancti accipiendo principi 
+      <lb ed="#L" n="115"/>pro eo quo spirant. Cum enim illud principium sit vis spiratiua 
+      <lb ed="#L" n="116"/>nec dubium sit quod non aeque proprie dicitur quod pater &amp; filius sunt 
+      <lb ed="#L" n="117"/>vna vis spiratiua, sicut dicitur quod in ipsis est vna vis spiratiua, p 
+      <lb ed="#L" n="118"/>tet quod ille modus loquendi deficit a proprietate alterius &amp; nihil 
+      <lb ed="#L" n="119"/>minus est verus, quia omne productum directius respicit princ 
+      <lb ed="#L" n="120"/>pium quo agens agit quam suppositum quod agit, nam si diuersa 
+      <lb ed="#L" n="121"/>sunt formae in vno supposito diuersae erunt actiones &amp; effectus 
+      <lb ed="#L" n="122"/>non obstante vnitate suppositi, vis autem spiratiua quae est 
+      r<lb ed="#L" n="123" break="no"/>tio producendi spiritum sanctum est vna in patre &amp; filio, ideo co 
+      <lb ed="#L" n="124"/>cedendum est patrem &amp; filium esse vnum principium spiritus san 
+      <lb ed="#L" n="125"/>cti non obstante pluralitate suppositorum propter vnitatem prin 
+      <lb ed="#L" n="126"/>cipij quo spirant, haec tamen locutio deficit a proprietate 
+      prim<lb ed="#L" n="127" break="no"/>vt dictum est. Sub eodem sensu concedendum est quod pater S 
+      <lb ed="#L" n="128"/>filius sunt idem principium spiritus sancti. Relatiuum enim fa 
+      <lb ed="#L" n="129"/>cit de re secundam notitiam respectu eius quod significat antec 
+      <lb ed="#L" n="130"/>dens, sed haec pater &amp; filius sunt vnum principium spir. san an 
+      <lb ed="#L" n="131"/>tecedit ad hanc, pater &amp; filius sunt idem principium spiritu 
+      <lb ed="#L" n="132"/>sancti, ergo per ly idem, non significatur identitas in suppositi 
+      <lb ed="#L" n="133"/>vt quidam dixerunt, sed in ratione principij quod est verum 
+      </p>
+            <p xml:id="jsnvu6-d1e1491-d1e284">
+               <lb ed="#L" n="134"/>
+               <!--5--> AD PRIMVM argumentum dicendum quod pater. 
+      <lb ed="#L" n="135"/>filius dicuntur vnum principium spiritus sancti ratione vniu 
+      <lb ed="#L" n="136"/>virtutis spiratiuae existentis in ambobus. Vis autem spiratiu 
+      <lb ed="#L" n="137"/>vel est sola essentia vt foecunda ad producendum vnam personam 
+      <lb ed="#L" n="138"/>tantum, quae vt sic non est in spiritu sancto, vel est essentia cum 
+      <lb ed="#L" n="139"/>proprietate relatiua, vel sola proprietas quae est vna numero in 
+      <lb ed="#L" n="140"/>patre &amp; filio non obstante pluralitate suppositum, 
+      quand<lb ed="#L" n="141" break="no"/>enim supposita distinguuntur per naturas absolutas impossibi 
+      <lb ed="#L" n="142"/>le est aliquid vnum numero absolutum vel relatum esse in 
+      plu<lb ed="#L" n="143" break="no"/>ribus suppositis, vbi autem distinguuntur solum relationibu 
+      <lb ed="#L" n="144"/>possibile est in diuersis suppositis esse aliquid vnum numerc 
+      <lb ed="#L" n="145"/>non solum absolutum, sed relatum, exceptis duntaxat 
+      relatio<lb ed="#L" n="146" break="no"/>nibus quibus distinguuntur: sic autem est in diuinis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1491-d1e317">
+               <lb ed="#L" n="147"/>
+               <!--6--> Ad aliud dicunt quidam quod licet pater &amp; filius dicantur vnum 
+      <lb ed="#L" n="148"/>principium propter vnitatem virtutis spiratiuae, pater tamen ni 
+      <lb ed="#L" n="149"/>dicitur duo principia, ex hoc quod in ipso est vis spiratius a 
+      <lb ed="#L" n="150"/>neratiua quia implicaretur pluralitas suppositorum in patre, 
+      Se<lb ed="#L" n="151" break="no"/>istud non valet, quia si dicendo patrem esse duo principia, impli 
+      <lb ed="#L" n="152"/>catur pluralitas suppositorum, ita dicendo patrem &amp; filium est 
+      <lb ed="#L" n="153"/>vnum principium implicatur vnitas suppositi, quare si vnum 
+      no<lb ed="#L" n="154" break="no"/>dicitur nec aliud. Ideo dicunt alij quod pater non potest dici 
+      du<lb ed="#L" n="155" break="no"/>principia, quia vis generatiua &amp; spiratiua in patre non sunt duc 
+      <lb ed="#L" n="156"/>principia realiter distincta, quia potentia generandi, &amp; similite 
+      <lb ed="#L" n="157"/>potentia spirandi dicit essentiam cum proprietate, ergo cum in 
+      patr<lb ed="#L" n="158" break="no"/>non sint duae essentiae cum duabus proprietatibus, non possumu 
+      <lb ed="#L" n="159"/>dicere quod illa sint in patre duo principia, &amp; multominus quod 
+      <lb ed="#L" n="160"/>pater sit duo principia. Sed ista responsio minus valet quam pr 
+      <lb ed="#L" n="161"/>ma, quia sicut secundum istos vis generatiua includit essentiam 
+      <!--00207.xml-->
+      <pb ed="#L" n="71-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>&amp; proprietatem sic, &amp; persona, sed per solam realem 
+      differen<lb ed="#L" n="2" break="no"/>tiam relationum dato quod sit vna numero essentia dicimu 
+      <lb ed="#L" n="3"/>personas differre realiter, ergo similiter ex sola diuersitate 
+      re<lb ed="#L" n="4" break="no"/>lationum non obstante vnitate essentiae debemus dicere ha 
+      <lb ed="#L" n="5"/>vires, scilicet vim spiratiuam &amp; vim generatiuam differre 
+      rea<lb ed="#L" n="6" break="no"/>liter, &amp; esse principia diuersa. 
+      </p>
+            <p xml:id="jsnvu6-d1e1491-d1e374">
+               <lb ed="#L" n="7"/>
+               <!--7--> Dicendum ergo aliter, quod si nomen principij accipiatur 
+      <lb ed="#L" n="8"/>pro eo quod agit sic pater est vnum principium, pater auten 
+      <lb ed="#L" n="9"/>&amp; filius sunt duo principia. Si autem accipiatur principium pr 
+      <lb ed="#L" n="10"/>eo quo agens, agit sicut dictum est proprie loquendo debet d 
+      <lb ed="#L" n="11"/>ci quod in patre &amp; filio respectu spiritus sancti est vnum 
+      princi<lb ed="#L" n="12" break="no"/>pium scilicet vis spiratiua, in patre autem respectu filij &amp; spiri 
+      <lb ed="#L" n="13"/>tus sancti sunt duo principia, scilicet vis generatiua &amp; 
+      spirati<lb ed="#L" n="14" break="no"/>ua, si tamen haec includant intrinsece relationem. Si autem 
+      di<lb ed="#L" n="15" break="no"/>catur quod pater &amp; filius respectu spiritus sancti sunt vnum 
+      prin<lb ed="#L" n="16" break="no"/>cipium vere dicitur, sed deficit a proprietate alterius modi 
+      lo<lb ed="#L" n="17" break="no"/>quendi, &amp; non video qualiter eodem modo non possit dicic 
+      <lb ed="#L" n="18"/>pater sit duo principia respectu filij &amp; spiritus sancti, nisi 
+      tene<lb ed="#L" n="19" break="no"/>retur alia opinio, scilicet quod vis generatiua &amp; spiratiua 
+      di<lb ed="#L" n="20" break="no"/>cant solam essentiam intrinsece, quia tunc vis generatiua &amp; 
+      <lb ed="#L" n="21"/>spiratiua non essent duo principia, sed vnum tantum quo pro 
+      <lb ed="#L" n="22"/>ducerentur filius &amp; spiritus sanctus ordine quodam propte 
+      <lb ed="#L" n="23"/>quod sortitur diuersa nomina, vt plene deductum fuit supra di 
+      <lb ed="#L" n="24"/>stin. 7. Et tunc pater nullo modo posset dici plura principia 
+      <lb ed="#L" n="25"/>qualitercunque sumeretur principium. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

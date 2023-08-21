@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="18-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e316"><!-- l1d3p1q3 -->
+            <head xml:id="jsnvu6-d1e316-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e316-Hd1e103" type="question-title">Utrum Deum esse sit per se notum</head>
+            <p xml:id="jsnvu6-d1e316-d1e106">
+               <lb ed="#L" n="52"/>QVAESTIO TERTIA. 
+      <lb ed="#L" n="53"/>vtrum Deum esse sit per se notum. 
+      <lb ed="#L" n="54"/>Tho. 1. p. 4. 2. ar. 1.
+    </p>
+            <p xml:id="jsnvu6-d1e316-d1e115">
+               <lb ed="#L" n="55"/>AD tertium sic proceditur. Et videtur quod Dei 
+      <lb ed="#L" n="56"/>esse sit per se notum. Quia illa propositio est per 
+      <lb ed="#L" n="57"/>se nota in qua praedicatum includitur in ratione 
+      <lb ed="#L" n="58"/>subiecti. Tunc enim impossibile est intelligere 
+      <lb ed="#L" n="59"/>a subiectum quin intelligatur praedicatum. Sed in 
+      <lb ed="#L" n="60"/>hac propositione Deus est, praedicatum est de ratione subiecti, 
+      <lb ed="#L" n="61"/>imo sunt omnino idem, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e133">
+               <lb ed="#L" n="62"/>
+               <!--2--> Item illud est per se notu esse quod non potest cogitari non 
+      <lb ed="#L" n="63"/>esse, sed nullus potest cogitare Deum non esse, ergo per se 
+      no<lb ed="#L" n="64" break="no"/>tum est Deum esse. maior patet, quia illa propositio est per se 
+      no<lb ed="#L" n="65" break="no"/>ta quam nullus potest mente negare, &amp; quam auditam statim 
+      <lb ed="#L" n="66"/>approbat, minor probatur tripliciter, scilicet quod nullus 
+      pos<lb ed="#L" n="67" break="no"/>sit cogitare Deum non esse, primo quia nulla res potest 
+      intel<lb ed="#L" n="68" break="no"/>ligi cum opposito eius quod est de sua quidditate. Esse autem 
+      <lb ed="#L" n="69"/>est de quidditate Dei. Secundo quia nullus potest negare Deum 
+      <lb ed="#L" n="70"/>esse nisi ignoret significatum vocabuli scilicet quid 
+      inporte<lb ed="#L" n="71" break="no"/>tur per hoc nomen Deus, dicit enim Anselmus proso. 4. quod 
+      <lb ed="#L" n="72"/>nullus potest cogitare quod Deus non est, licet haec verba Deui 
+      <lb ed="#L" n="73"/>non est dicere potest aliquis in corde, aut sine vlla 
+      significatio<lb ed="#L" n="74" break="no"/>nem ut cum extranea. Ex quo patet secundum eum quod haec 
+      <lb ed="#L" n="75"/>proponsitio Deus est negari non potest, si accipiatur in 
+      propri<lb ed="#L" n="76" break="no"/>significatione, ignorando autem proprium significatum 
+      voca<lb ed="#L" n="77" break="no"/>bulorum potest quaelibet propositio negari. Tertio, quia 
+      Deu<lb ed="#L" n="78" break="no"/>est quo majus cogitari non potest secundum Anselmum, sed 
+      <lb ed="#L" n="79"/>illud est majus quod non potest cogitari non esse quam illud 
+      <lb ed="#L" n="80"/>quod potest cogitari non esse, ergo Deus non potest cogitari 
+      <lb ed="#L" n="81"/>non esse, &amp; haec fuit minor, sequitur ergo conclusio.
+</p>
+            <p xml:id="jsnvu6-d1e316-d1e182">
+      <!--00102.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>2 IN CONTRARIUM aeguitur conuertendo 
+      ratio<lb ed="#L" n="83" break="no"/>nem factam sic. Illa propositio non est per se nota quam potes 
+      <lb ed="#L" n="84"/>aliquis negare, sed Deum esse multi negauerunt etiam 
+      philo<lb ed="#L" n="85" break="no"/>sophi quidam qui negauerunt omnem causam agentem: &amp; in 
+      <lb ed="#L" n="86"/>Psalmo dicitur quod dicit insipiens in corde suo non est Deus 
+      <lb ed="#L" n="87"/>ergo, &amp;c. maior patet ex 4. Metaphysicae: minor declarata est. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e202">
+               <lb ed="#L" n="88"/>
+               <!--4--> RESPONSIO, ad euidentiam huius quaestionis 
+      prae<lb ed="#L" n="89" break="no"/>mittenda sunt duo. Primum est quid sit propositionem esse pe 
+      <lb ed="#L" n="90"/>se notam. Circa quod aduertendum est, quod per se &amp; per aliud 
+      <lb ed="#L" n="91"/>opponuntur. Et ideo propositio quae est nota per aliud, non est 
+      <lb ed="#L" n="92"/>nota per se: dico autem per aliud complexum, &amp; non per aliud 
+      <lb ed="#L" n="93"/>incomplexum, quia omnis propositio fit nota ex notitia 
+      ter<lb ed="#L" n="94" break="no"/>minorum suorum: etiam principia prima, quia principia 
+      co<lb ed="#L" n="95" break="no"/>gnoscimus inquantum terminos cognoscimus, propter quod 
+      <lb ed="#L" n="96"/>nulla propositio potest esse per se nota, hisi per aliud prius 
+      no<lb ed="#L" n="97" break="no"/>tum quod est incomplexum: non excluditur ergo a 
+      propositio<lb ed="#L" n="98" break="no"/>ne per se nota necessaria praecognitio incomplexit, sed complexi, 
+      <lb ed="#L" n="99"/>quia illa est per se nota cui assentitur absque hoc quod probi 
+      <lb ed="#L" n="100"/>tur per aliam propositionem prius &amp; magis notam. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e235">
+               <lb ed="#L" n="101"/>
+               <!--5--> Secundo notandum quod sicut communiter dicitur aliqua 
+      <lb ed="#L" n="102"/>propositio potest dicit per se nota dupliciter. Vno modo 
+      secun<lb ed="#L" n="103" break="no"/>dum se &amp; secundum naturam rei: alio modo quoad nos. Secun 
+      <lb ed="#L" n="104"/>dum se &amp; secundum naturam rei dicitur propositio per se nota 
+      <lb ed="#L" n="105"/>quando praedicatum est de ratione subiecti secundum rei 
+      vori<lb ed="#L" n="106" break="no"/>tatem, quia natura rei hoc habet vt nihil ei conueniat per prius, 
+      <lb ed="#L" n="107"/>aut verius quam id quod est ei essentialiter intrinsecum: vnde 
+      <lb ed="#L" n="108"/>quod hoc non statim appareat non est ex defectu rei, sed ex 
+      de<lb ed="#L" n="109" break="no"/>fectu intellectus non potentis immediate &amp; perfecte talem rem 
+      <lb ed="#L" n="110"/>cogitare, quoad nos autem dicitur propositio per se nota, 
+      quan<lb ed="#L" n="111" break="no"/>do statim apparet connexio terminorum cognitis terminis 
+      quan<lb ed="#L" n="112" break="no"/>tum ad id quod primo occurrit intellectui de significato eorum 
+      <lb ed="#L" n="113"/>ita quod eam prolatam statim quilibet approbat, nec potest 
+      <lb ed="#L" n="114"/>mente contradicere. Et hoc prouenit ex go quod talis 
+      proposi<lb ed="#L" n="115" break="no"/>tio formatur in terminis notis omnibus, sicut de quolibet 
+      es<lb ed="#L" n="116" break="no"/>se, vel non esse, &amp; omne totum est majus sua parte. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e274">
+               <lb ed="#L" n="117"/>
+               <!--6--> His visis dicendum est ad quaestionem quod Deum esse est 
+      <lb ed="#L" n="118"/>per se notum secundum se &amp; secundum naturam rei, sed non est 
+      <lb ed="#L" n="119"/>per se notum nobis. Primum patet, quia illa propositio est per 
+      <lb ed="#L" n="120"/>se nota secundum se &amp; secundum naturam rei, in qua 
+      praedica<lb ed="#L" n="121" break="no"/>tum est de natura subiecti, &amp; visa natura subiecti, statim 
+      appa<lb ed="#L" n="122" break="no"/>ret inhaerentia praedicati cum subiecto, sod talis est haec 
+      pro<lb ed="#L" n="123" break="no"/>positio Deus est: ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e294">
+               <lb ed="#L" n="124"/>
+               <!--7.--> Secundum patet primo sic, illa propositio non est per se 
+      no<lb ed="#L" n="125" break="no"/>ta nobis quae non formatur in terminis per se notis nobis, sed 
+      <lb ed="#L" n="126"/>ista Deus est, est huiusmodi: ergo, &amp;c. vtraque praemissarum 
+      ap<lb ed="#L" n="127" break="no"/>paret ex praecedentibus. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e307">
+               <lb ed="#L" n="128"/>
+               <!--8--> Secundo sic, sicut de ratione Dei est suum esse, ita sua 
+      scien<lb ed="#L" n="129" break="no"/>tia &amp; sua immaterialitas &amp; omnia quae dicunt aliquid 
+      absolu<lb ed="#L" n="130" break="no"/>tum, sed non est per se notum nobis Deum esse scientem &amp; 
+      im<lb ed="#L" n="131" break="no"/>materialem &amp; huiusmodi, cum multi hoc negauerint: ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e321">
+               <lb ed="#L" n="132"/>
+               <!--9.--> Tertio, quia illa propositio non est per se nota quo ad nos 
+      <lb ed="#L" n="133"/>in qua non statim apparet connexio terminorum cognitis 
+      ter<lb ed="#L" n="134" break="no"/>minis quantum ad illud quod primo occurrit intellectui de 
+      si<lb ed="#L" n="135" break="no"/>gnificatis eorum, licet forte appareat cognita plene natura 
+      re<lb ed="#L" n="136" break="no"/>rum significatarum per terminos. Si enim hoc secundum 
+      suf<lb ed="#L" n="137" break="no"/>ficeret ad hoc quod propositio esset per se nota nobis, tunc 
+      ea<lb ed="#L" n="138" break="no"/>dem propositio esset per se nota nobis &amp; per aliud nota nobis, 
+      <lb ed="#L" n="139"/>cum non cognoscamus plene &amp; perfecte res significatas per 
+      ter<lb ed="#L" n="140" break="no"/>minos aliquarum propositionum, nisi cum multa 
+      inuestiga<lb ed="#L" n="141" break="no"/>tione &amp; multo discursu rationis: &amp; sic talia cognoscimus per 
+      <lb ed="#L" n="142"/>aliud prius notum nobis. Hoc autem est inconuenions (scilicet 
+      <lb ed="#L" n="143"/>quod illa propositio sit per se nota nobis quae &amp; cuius termini 
+      <lb ed="#L" n="144"/>fhiunt nobis noti per aliud). 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e354">
+               <lb ed="#L" n="145"/>
+               <!--10--> Relinquitur ergo quod propositio non est per se nota quoad 
+      <lb ed="#L" n="146"/>nos, quando non statim apparet connexio terminorum 
+      cogni<lb ed="#L" n="147" break="no"/>tis terminis quantum ad illud quod primo occurrit intellectu 
+      <lb ed="#L" n="148"/>de significatis eorum, sed cognito eo quod primo occurrit 
+      no<lb ed="#L" n="149" break="no"/>bis de significato huius termini Deus, &amp; de significato 
+      huiu<lb ed="#L" n="150" break="no"/>termini qui est esse, non statim apparet connexio terminorum 
+      <lb ed="#L" n="151"/>Si enim per hoc nomen Deus primo occurrat intellectui 
+      pri<lb ed="#L" n="152" break="no"/>ma causa vel primum principium, non statim apparet cuilibe 
+      <lb ed="#L" n="153"/>quod talis res sit in rerum natura, quia si esset processus in 
+      infi<lb ed="#L" n="154" break="no"/>nitum in causis, aut circulatio in causis &amp; effectibus, non esse. 
+      <lb ed="#L" n="155"/>dare primam causam, non est autem per se notum cuilibet quod 
+      <lb ed="#L" n="156"/>non sit processus in infinitum in causis aut circulatio, sed cum 
+      <lb ed="#L" n="157"/>multa deductione probatum est a philosopho, quod non 
+      opor<lb ed="#L" n="158" break="no"/>tet si fuisset per se notum: ergo nec est per so notum esse aliquam 
+      <lb ed="#L" n="159"/>primam causam vel primum principium. Idem est 
+      intelligen<lb ed="#L" n="160" break="no"/>dum si per hoc nomen Deus primo occurrat intellectui illud 
+      <lb ed="#L" n="161"/>quo majus excogitari non potest (vt accipit Anselmus.) Et hoc 
+      <lb ed="#L" n="162"/>magis patebit in solutione cuiusdam argumenti. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e398">
+               <lb ed="#L" n="163"/>
+               <!--11--> Ad primum argumentum in contrarnum patet solutio ex 
+      <!--00103.xml-->
+      <pb ed="#L" n="19-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>praedictis, licet enim sufficiat ad hoc quod propositio sit per si 
+      <lb ed="#L" n="2"/>nota ex natura rei quod praedicatum sit de ratione subiecti 
+      <lb ed="#L" n="3"/>ramen non sufficit ad hoc quod sit per se nota nobis, alioquin 
+      <lb ed="#L" n="4"/>nulla esset distinctio qua distinguimus inter propositionem 
+      se<lb ed="#L" n="5" break="no"/>cundum se notam &amp; notam nobis, quia omnis propositio nota 
+      <lb ed="#L" n="6"/>secundum se esset nota nobis &amp; econuerso, sed requiritur cum 
+      <lb ed="#L" n="7"/>hoc quod formetur in terminis per se notis nobis, sicut sunt 
+      <lb ed="#L" n="8"/>communissimi termini, vt ens totum &amp; pars, quibus prolati: 
+      <lb ed="#L" n="9"/>statim apparet eorum habitudo &amp; connexio, vt de quolibet esse 
+      <lb ed="#L" n="10"/>vel non esse, &amp; omne totum est majus sua parte, talis autem non 
+      <lb ed="#L" n="11"/>est ista Deus est, vt patet ex prius dictis, ideo dicit Auic. I. 
+      Me<lb ed="#L" n="12" break="no"/>taphysi. suae quod Deum esse non est per se notum. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e437">
+               <lb ed="#L" n="13"/>
+               <!--12--> Ad secundum dicendum per interemptionem minoris, po 
+      <lb ed="#L" n="14"/>test enim cogitari quod Deus non sit &amp; mente opinari. Et quod 
+      <lb ed="#L" n="15"/>contra hoc primo dicitur, quia nihil potest cogitari cum 
+      oppo<lb ed="#L" n="16" break="no"/>sito eius quod est de sua quidditate, dicendum ost quod 
+      suppo<lb ed="#L" n="17" break="no"/>sito que per se notum sit hoc nomen Deus significare 
+      quiddita<lb ed="#L" n="18" break="no"/>tem entem, vel possibilem, impossibile est quod cogitetur non esse 
+      <lb ed="#L" n="19"/>subiectiue hoc est, quod illa quidditas cogitetur, vt quaedam res 
+      <lb ed="#L" n="20"/>quae sit actu subiectum ipsius non esse, siue esse sit de 
+      quiddi<lb ed="#L" n="21" break="no"/>tate rei, siue non, quia si cogitatur esse actu subiectum, 
+      cogita<lb ed="#L" n="22" break="no"/>tur esse actu aliquid in so. Et si cogitatur subiici ipsi non esse co 
+      <lb ed="#L" n="23"/>gitatur non esse. Et ideo simul cogitaretur non esse &amp; esse. quod 
+      <lb ed="#L" n="24"/>est impossibile. Sed si non est per se notum nomen illud 
+      signi<lb ed="#L" n="25" break="no"/>ficare quidditatem entem vel possibilem, per consequens non 
+      <lb ed="#L" n="26"/>est per se notum quod esse sit de eius quidditate, propter quod 
+      po<lb ed="#L" n="27" break="no"/>test cogitari non esse, non quidem subiectiue modo prius dicto 
+      <lb ed="#L" n="28"/>(scilicet quod cogitetur esse subiectum ipsius non esse) sed quasi 
+      ob<lb ed="#L" n="29" break="no"/>iectiue, vt cogitetur non esse actu res aliqua vel quidditas. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e479">
+               <lb ed="#L" n="30"/>
+               <!--13--> Adhuc supposito quod sit notum nomen significare 
+      quiddita<lb ed="#L" n="31" break="no"/>tem entem vel possibilem, vt hoc nomen rosa, &amp; quod esse sit de 
+      <lb ed="#L" n="32"/>quidditate rosae vel floris: adhuc potest cogitari rosa non essi 
+      <lb ed="#L" n="33"/>actu vel non esse flos: non quidem que rosa maneat quantum ad 
+      <lb ed="#L" n="34"/>suam quidditatem extra animam, &amp; non habeat actu esse, vel no 
+      <lb ed="#L" n="35"/>sit actu flos, sed cogiturando quod huic nomini non subest actu 
+      ali<lb ed="#L" n="36" break="no"/>qua quidditas. Ex hoc ad propositum dicendum quod non est pe 
+      <lb ed="#L" n="37"/>se notum quod hoc nomen Deus significet quidditatem intem vel 
+      <lb ed="#L" n="38"/>possibilem, sed cum multa deductione probatum est a 
+      Philo<lb ed="#L" n="39" break="no"/>sopho (vt dictum fuit.) Et si esset per se notum (vt de rosa) 
+      ad<lb ed="#L" n="40" break="no"/>huc posset cogitari non esse actu modo quo dictum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e508">
+               <lb ed="#L" n="41"/>
+               <!--14--> Quia autem subditur de Anselmo, qui dicit, quod nullus potest 
+      <lb ed="#L" n="42"/>cogitare quod Deus non est, licet haec verba dicat in corde, aut 
+      sini<lb ed="#L" n="43" break="no"/>vlla aut cum aliqua extranea significatione, dicendum quod Ansel. 
+      <lb ed="#L" n="44"/>non dicit hoc absolute, vt ibidem patet: sed supposito quod 
+      hae<lb ed="#L" n="45" break="no"/>fit ratio huius nominis Deus: Deus est quo maius cogitar 
+      <lb ed="#L" n="46"/>non potest. Et supposita illa deductione quod illud cogitetur esse 
+      <lb ed="#L" n="47"/>majus quod non potest cogitari non esse quam illud quod po 
+      <lb ed="#L" n="48"/>test cogitari non esse. His enim duobus concessis, &amp; facta 
+      de<lb ed="#L" n="49" break="no"/>ductione, sequitur quod Deus non potest cogitari non esse, non 
+      <lb ed="#L" n="50"/>autem absolute, quia non concedens alteram praemissarum aui 
+      <lb ed="#L" n="51"/>non deducens conclusionem ex praemissis potest secundum se 
+      <lb ed="#L" n="52"/>cogitare, &amp; mente concipere Deum non esse: propter quod 
+      op<lb ed="#L" n="53" break="no"/>positum eius, scilicet Deum esse non est per se notum nobis, sed fit 
+      <lb ed="#L" n="54"/>notum deductione facta ex notioribus quo ad nos. 
+      </p>
+            <p xml:id="jsnvu6-d1e316-d1e544">
+               <lb ed="#L" n="55"/>
+               <!--15--> Ad illud quod tertio subditur dicendum quod non est per se 
+      <lb ed="#L" n="56"/>notum quod haec sit ratio nominis quod est Deus: Deus est quo 
+      <lb ed="#L" n="57"/>nihil majus excogitari potest, nec Anselmus accipit hoc vt 
+      pe<lb ed="#L" n="58" break="no"/>se notum, sed tantum vt creditum, dicens, credimus te esse aliquid 
+      <lb ed="#L" n="59"/>quo nihil majus cogitari potest, nec de omni cogitatione 
+      veri<lb ed="#L" n="60" break="no"/>tatem habet, quia licet Deus fit quo nihil majus esse possit &amp; 
+      <lb ed="#L" n="61"/>quo nihil majus vere cogitari possit, potest tamen (quamui 
+      <lb ed="#L" n="62"/>falso) cogitari aliquid majus Deo. Ex quo sequitur quod licet Deum 
+      <lb ed="#L" n="63"/>esse sit verum, non tamen est per se notum, quia oppositum per 
+      <lb ed="#L" n="64"/>se noti quoad nos non potest, nec vere nec false opinari. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

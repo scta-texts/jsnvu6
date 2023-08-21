@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="88-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1851"><!-- l1d38prae -->
+            <head xml:id="jsnvu6-d1e1851-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1851-d1e103">
+               <lb ed="#L" n="123"/>Sententia distinctionis XXXVIII. 
+      <lb ed="#L" n="124"/>in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e1851-d1e110">
+               <lb ed="#L" n="125"/>NVNc vero ad propositum. Superius ostendii 
+      <lb ed="#L" n="126"/>j magister quorum sit scientia Dei. Hic vero 
+      in<lb ed="#L" n="127" break="no"/>tendit inquirere quomodo se habeat scientia ad 
+      <lb ed="#L" n="128"/>res scitas, &amp; diuiditur in duas. Primo inquirit 
+      <lb ed="#L" n="129"/>Avtrum scientia Dei sit causa scitorum. Secundo 
+      <lb ed="#L" n="130"/>ostendit qualiter causa sit. Secunda ibi. Praeterea quaeri solet. 
+      <lb ed="#L" n="131"/>Prima pars est principalis lectionis, &amp; diuiditur in duas. Primo 
+      <lb ed="#L" n="132"/>inquirit de causalitate diuinae essentiae, secundo de 
+      infallibili<lb ed="#L" n="133" break="no"/>tate. Secunda ibi, adhuc autem quod supra dictum est. Prima 
+      <lb ed="#L" n="134"/>diuiditur in duas. Primo mouet quaestionem, &amp; obiicit ad 
+      al<lb ed="#L" n="135" break="no"/>teram partem. Secundo obiicit ad partem contrariam. Tertio 
+      <lb ed="#L" n="136"/>soluit. Secunda ibi, quod si ita est. Tertia ibi, hanc igitur quae 
+      <lb ed="#L" n="137"/>videtur. Secunda vero pars principalis in qua inquirit de 
+      infal<lb ed="#L" n="138" break="no"/>libilitate diuinae scientiae diuiditur in duas. Primo ponit 
+      ob<lb ed="#L" n="139" break="no"/>iectionem probantem fallibilitatem diuinae scientiae. Secundo 
+      <lb ed="#L" n="140"/>soluit. Secunda ibi, ad quod dicimus. 
+      </p>
+            <p xml:id="jsnvu6-d1e1851-d1e147">
+               <lb ed="#L" n="141"/>
+               <!--2--> IN SPECIALI vero sic procedit, &amp; quaerit primo 
+      <lb ed="#L" n="142"/>vtrum scientia Dei sit causa rerum, an econuerso, &amp; probat primo 
+      <lb ed="#L" n="143"/>quod praescientia Dei sit causa rerum etiam necessaria, quia nec aliqua 
+      <lb ed="#L" n="144"/>futura essent, nisi ea Deus praesciuisset, &amp; impossibile est ea non 
+      <lb ed="#L" n="145"/>euenire, &amp; ad hoc adducit multas auctoritates Augusti. postea 
+      <lb ed="#L" n="146"/>obiicit in contrarium. Probat enim primo, quod scientia Dei non 
+      <lb ed="#L" n="147"/>est causa rerum, quia sic esset causa malorum, quia scientia Dei est 
+      <lb ed="#L" n="148"/>tam malorum quam bonorum, nec res sunt causae scientiae Dei, quia 
+      <lb ed="#L" n="149"/>sic temporale &amp; creatum esset causa aeterni. Inducit etiam aucto 
+      <lb ed="#L" n="150"/>ritates Origenis ad probandum quod res scitae sunt causa scientiae, 
+      <lb ed="#L" n="151"/>postea soluit &amp; dicit quod scientia simplicis notitiae non est 
+      caus<lb ed="#L" n="152" break="no"/>rerum, nisi forte causa sine qua non, non enim Deus quenquam 
+      co<lb ed="#L" n="153" break="no"/>git peccare, quia scit eum peccatorum, sed scientia beneplaciti be 
+      <lb ed="#L" n="154"/>ne est causa rerum, &amp; quod dicit Origenes res esse causam scier 
+      <lb ed="#L" n="155"/>tiae Dei, intelligendum est de causa sine qua non. Postea ostendi 
+      <lb ed="#L" n="156"/>quod scientia est fallibilis, quia res potest euenire aliter. Vnde 
+      <lb ed="#L" n="157"/>quamuis Deus sciat aliquem lecturum, potest non legere. Item si 
+      <lb ed="#L" n="158"/>non potest aliter euenire quam Deus praesciuit, necessario cuncta 
+      <!--00242.xml-->
+      <pb ed="#L" n="88-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>eueniunt, &amp; si posset aliter euenire scientia dei falleretur. Postea 
+      <lb ed="#L" n="2"/>soluit &amp; dicit quod quum dicitur impossibile est quod deus praesciui 
+      <lb ed="#L" n="3"/>non euenire, quod in omnibus similibus distinguedum est, si enin 
+      <lb ed="#L" n="4"/>intelligatur coniunctim, impossibile est quod sit scientia dei simul 
+      <lb ed="#L" n="5"/>&amp; contrarius euentus rerum, si vero diuisim, possibile est quod id 
+      <lb ed="#L" n="6"/>quod scitur posset non euenire, &amp; per hoc possunt solui omne 
+      <lb ed="#L" n="7"/>propositiones. Et in hoc terminatur &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

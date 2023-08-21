@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="299-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e246355"><!-- l4d18q1 -->
+            <head xml:id="jsnvu6-e246355-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e246355-Hd1e103" type="question-title">Utrum claues sint in ecclesia</head>
+            <p xml:id="jsnvu6-e246355-d1e106">
+               <lb ed="#L" n="13"/>QVAISTIO PRIMA. 
+      <lb ed="#L" n="14"/>Vtrum claues sint in ecclesia. 
+      <lb ed="#L" n="15"/>Tham. in additionibus qg. 17. ar. 2. Conradm. u.1.libu. 
+      <lb ed="#L" n="16"/>primi de contractibus. 
+    </p>
+            <p xml:id="jsnvu6-e246355-d1e117">
+               <lb ed="#L" n="17"/>CIRCA distinctionem istam primo quaeritur de 
+      <lb ed="#L" n="18"/>duobus. Primum est de clauibus. Secundum est de 
+      <lb ed="#L" n="19"/>excommunicatione. Circa primum primo 
+      quae<lb ed="#L" n="20" break="no"/>ritur de clauibus vtrum sint in ecclesia. Secundo 
+      <lb ed="#L" n="21"/>quis fit vsus clauium. Ad primum sic proceditur 
+      <lb ed="#L" n="22"/>&amp; arguitur sic, quod ministri ecclesiae non habent claues regni 
+      <lb ed="#L" n="23"/>coelorum: quia quod conuenit soli Christo non est 
+      communi<lb ed="#L" n="24" break="no"/>catiuum ministris ecclesiae, sed habere claues regni coelorum 
+      <lb ed="#L" n="25"/>conuenit soli Christo, vt dicitur Apoc. 3. qui habet clauem 
+      Da<lb ed="#L" n="26" break="no"/>uid aperit &amp; nemo claudit, &amp;c. ergo istud non est 
+      communica<lb ed="#L" n="27" break="no"/>tiuum ministris ecclesiae. 
+      </p>
+            <p xml:id="jsnvu6-e246355-d1e143">
+               <lb ed="#L" n="28"/>
+               <!--2--> Item ad aperiendam vnam seram, vel clausuram sufficit vna 
+      <lb ed="#L" n="29"/>clauis. Sed vna est clausura qua clauditur nobis regnum 
+      coe<lb ed="#L" n="30" break="no"/>lorum (scilicet peccatum) ergo ad aperiendum regnum 
+      coelo<lb ed="#L" n="31" break="no"/>rum sufficit vna clauis. 
+      </p>
+            <p xml:id="jsnvu6-e246355-d1e157">
+               <lb ed="#L" n="32"/>
+               <!--3--> IN CONTRARIVM est quod dominus dixit 
+      Pe<lb ed="#L" n="33" break="no"/>tro. Matth. 16. Tibi dabo claues regni coeorum. 
+</p>
+            <p xml:id="jsnvu6-e246355-d1e166">
+               <lb ed="#L" n="34"/>RESPONSIO. Videnda sunt duo. Primum est quid 
+      <lb ed="#L" n="35"/>sit clauis prout de ipsa loquuntur theologi, &amp; vtrum ecclesia 
+      <lb ed="#L" n="36"/>habeat claues. Secundum est, si sit tantum vna clauis an plures, 
+      </p>
+            <p xml:id="jsnvu6-e246355-d1e175">
+               <lb ed="#L" n="37"/>
+               <!--5--> QUANTVM ad primum sciendum est, quod sicut in 
+      cor<lb ed="#L" n="38" break="no"/>poralibus clauis dicitur instrumentum quo hostium clausum 
+      aperi<lb ed="#L" n="39" break="no"/>tur, sic spiritualiter clauis vocatur potestas, vel auctoritas qua 
+      <lb ed="#L" n="40"/>ostium regni caelestis quod per peccatum nobis clauditur aperitur: 
+      <lb ed="#L" n="41"/>&amp; quia non clauditur nisi per peccatum &amp; poenam peccato debitam 
+      <lb ed="#L" n="42"/>ideo potestas remittendi peccata quo ad culpam vel poenam 
+      dici<lb ed="#L" n="43" break="no"/>tur clauis: haec autem potestas est in Deo principaliter &amp; per au 
+      <lb ed="#L" n="44"/>ctoritatem, &amp; ideo solus Deus dicitur habere clauem 
+      auctorita<lb ed="#L" n="45" break="no"/>tis, in Christo autem homine fuit haec potestas per meritum 
+      pas<lb ed="#L" n="46" break="no"/>sionis, &amp; ideo dicitur habere clauem excellentiae, &amp; quia in 
+      sa<lb ed="#L" n="47" break="no"/>cramentis ecclesiasticis communicatur nobis meritum 
+      passio<lb ed="#L" n="48" break="no"/>nis Christi, ideo ministris ecclesiae ex eo quod sunt dispensatore 
+      <lb ed="#L" n="49"/>sacramentorum competit potestas remittendi peccatum, saltem 
+      <lb ed="#L" n="50"/>per modum ministerij, &amp; per consequens aperire regnum 
+      coelo<lb ed="#L" n="51" break="no"/>rum, &amp; talis potestas vocatur clauis ministerij. Et diffinitur 
+      si<lb ed="#L" n="52" break="no"/>a quibusdam, &amp; habetur in litera, quod clauis est potestas ligandi 
+      <lb ed="#L" n="53"/>&amp; soluendi qua ecclesiasticus iudex dignos recipere &amp; indignos 
+      <lb ed="#L" n="54"/>excludere debet a regno. Cum igitur talis potestas sit a 
+      Chri<lb ed="#L" n="55" break="no"/>sto collata ministris ecclesiae, patet quod ecclesia claues habet 
+      </p>
+            <p xml:id="jsnvu6-e246355-d1e221">
+               <lb ed="#L" n="56"/>
+               <!--6--> QUANTVM ad secundum sciendum est, quod est tantum 
+      <lb ed="#L" n="57"/>vna clauis quo ad essentiam, licet sint duae quo ad actus &amp; off 
+      <lb ed="#L" n="58"/>cia, quod patet sic: ad plures actus subordinatos sufficit vna vir 
+      <lb ed="#L" n="59"/>tus &amp; potestas, sed actus clauium licet sint plures sunt tamen 
+      <lb ed="#L" n="60"/>subordinati, ergo ad eos causandos sufficit vna virtus &amp; vni 
+      <lb ed="#L" n="61"/>potestas. Maior patet, sol enim per eandem virtutem, puta 
+      <lb ed="#L" n="62"/>per lumen illuminat &amp; calefacit aerem, &amp; isti sunt actus subor. 
+      <lb ed="#L" n="63"/>dinati, &amp; vnus praesupponit alium. Minor declaratur: cum enim 
+      <lb ed="#L" n="64"/>actus clauium sit dignos recipere, &amp; indignos a regno 
+      exclu<lb ed="#L" n="65" break="no"/>dere, oportet quod duo ad hoc concurrant. Primum est iudi 
+      <lb ed="#L" n="66"/>care quis fit dignus vel indignus. Secundum est dignum 
+      reci<lb ed="#L" n="67" break="no"/>pere &amp; indignum excludere. Et iste secundus actus 
+      praesuppo<lb ed="#L" n="68" break="no"/>nit primum, vt de se patet. Et ideo ad eandem potestatem per 
+      <lb ed="#L" n="69"/>tinet vterque actus ordine quodam, sicut &amp; videmus in iudiciis se 
+      <lb ed="#L" n="70"/>cularibus, quia eadem auctoritate competit iudici merita partium 
+      <lb ed="#L" n="71"/>cognoscere, &amp; sententiare, contra vnam, &amp; absoluere alteram: 
+      qui<lb ed="#L" n="72" break="no"/>tamen principia denominantur ex actibus, licet sit vna &amp; eadem 
+      <lb ed="#L" n="73"/>auctoritas vel potestas qua iudex ecclesiasticus iudicat de 
+      di<lb ed="#L" n="74" break="no"/>gnitate vel indignitate alicuius, vel qua dignum absoluit, indigni 
+      <lb ed="#L" n="75"/>vero non absoluit, ideo illa potestas dupliciter nominatur: 
+      qui<lb ed="#L" n="76" break="no"/>ratione primi actus vocatur clauis scientiae, ratione secundi vi 
+      <lb ed="#L" n="77"/>catur clauis potestatis: clauis autem scientiae non est habitus scien 
+      <lb ed="#L" n="78"/>tiae qui in ordinatione infundatur, vel habitus prius acquisitu, 
+      <lb ed="#L" n="79"/>seu industria naturalis quae inordinato rationem clauis 
+      sortia<lb ed="#L" n="80" break="no"/>tur, cum in multis ordinatis contingat neutrum horum inueniri, sed 
+      <!--00671.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>est auctoritas discernendi in iudicio animae. Hanc autem potest 
+      <lb ed="#L" n="82"/>habere ignorans &amp; potest carere sciens, sicut in iudiciis 
+      seculari<lb ed="#L" n="83" break="no"/>bus aliquis habet auctoritatem iudicandi qui non habet 
+      scien<lb ed="#L" n="84" break="no"/>tiam iuris. Et econtrario aliquis habet scientiam iuris qui non 
+      ha<lb ed="#L" n="85" break="no"/>bet auctoritatem iudicandi, sed cum actus iudicandi non possit re 
+      <lb ed="#L" n="86"/>cte exerceri sine vtroque, scientia videlicet, &amp; auctoritate, &amp; ad 
+      <lb ed="#L" n="87"/>actum iudicandi obligatur quis ex auctoritate suscepta, non 
+      aut<lb ed="#L" n="88" break="no"/>ex sola scientia, ideo scientia sine auctoritate potest sine pecca 
+      <lb ed="#L" n="89"/>to haberi. Sed auctoritas iudicandi quae clauis dicitur, non 
+      po<lb ed="#L" n="90" break="no"/>test sine scientia absque peccato haberi ab illis qui se ad hoc 
+      inge<lb ed="#L" n="91" break="no"/>runt, quamuis illi qui compelluntur auctoritatem praedictam 
+      <lb ed="#L" n="92"/>recipere, possunt in aliquo excusari. &amp; sic patet secundum.
+</p>
+            <p xml:id="jsnvu6-e246355-d1e310">
+               <lb ed="#L" n="93"/>Ad argumenta in oppositum. Ad primum argumentum 
+      di<lb ed="#L" n="94" break="no"/>cendum quod solus Christus habet clauem excellentiae qua meri 
+      <lb ed="#L" n="95"/>to passionis suae clausit limbum parrum, ne aliquis in illum 
+      descen<lb ed="#L" n="96" break="no"/>dat, &amp; aperuit paradisum remoto generali impedimento 
+      natu<lb ed="#L" n="97" break="no"/>rae: sacerdotes tamen habent clauem ministerij ad 
+      remouen<lb ed="#L" n="98" break="no"/>dum impedimenta personalia (quae sunt peccata actualia quae 
+      <lb ed="#L" n="99"/>committimus) per sacramentum poenitentiae quod ministrant. 
+      </p>
+            <p xml:id="jsnvu6-e246355-d1e328">
+               <lb ed="#L" n="100"/>
+               <!--8--> Ad secundum dicendum quod est tantum vna clauis secundum 
+      <lb ed="#L" n="101"/>essentiam, licet dicantur plures quo ad nomina propter officia. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

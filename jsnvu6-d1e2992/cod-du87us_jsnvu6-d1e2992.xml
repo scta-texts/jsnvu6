@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="134-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2992"><!-- l2d14q4 -->
+            <head xml:id="jsnvu6-d1e2992-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e2992-Hd1e103" type="question-title">Utrum coelum sit figurae sphericae</head>
+            <p xml:id="jsnvu6-d1e2992-d1e106">
+               <lb ed="#L" n="135"/>QVAESTIO QVARTA. 
+      <lb ed="#L" n="136"/>Vtrum coelum sit figurae sphericae. 
+      </p>
+            <p xml:id="jsnvu6-d1e2992-d1e113">
+               <lb ed="#L" n="137"/>QVARTO quaeritur vtrum coelum sit figurae 
+      sphe<lb ed="#L" n="138" break="no"/>ricae. Et videtur quod non quia figura 
+      quadra<lb ed="#L" n="139" break="no"/>ta magis congruit firmitati quam rotunda, sed 
+      <lb ed="#L" n="140"/>coelum est corpus firmissimum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2992-d1e124">
+               <lb ed="#L" n="141"/>
+               <!--2--> IN CONTRARIVM est 
+      Philoso<lb ed="#L" n="142" break="no"/>phus 2. coeli &amp; mundi. 
+      </p>
+            <p xml:id="jsnvu6-d1e2992-d1e134">
+               <lb ed="#L" n="143"/>
+               <!--3--> RESPONSIO. Quidam dixerunt quod coelum est 
+      fi<lb ed="#L" n="144" break="no"/>gurae semicircularis, quia nunquam apparet nobis nisi dimidis 
+      <lb ed="#L" n="145"/>sphera. Sed istud non valet quia cum coelum moueatur al 
+      <lb ed="#L" n="146"/>oriente in occidentem rediens in orientem (vt ex motu 
+      astro<lb ed="#L" n="147" break="no"/>rum apparet) sequeretur quod quandoque totaliter 
+      dispare<lb ed="#L" n="148" break="no"/>ret, hoc autem est falsum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2992-d1e152">
+               <lb ed="#L" n="149"/>
+               <!--4--> Dicendum ergo quod est figurae sphericae. Quod patet 
+      triplici<lb ed="#L" n="150" break="no"/>ter. Primo quia prima figura debetur primo corpori, sed inter 
+      <lb ed="#L" n="151"/>omnes figuras solidas prima est spherica, coelum autem est primum 
+      <lb ed="#L" n="152"/>corpus, ergo &amp;c. Minor probatur quia naturaliter vnum est prius 
+      <lb ed="#L" n="153"/>multitudine &amp; simplex compositis, sed sola figura spherica inter 
+      <lb ed="#L" n="154"/>figuras solidas continetur vna superficie ficut inter figuras 
+      super<lb ed="#L" n="155" break="no"/>ficiales solus circulus continetur vna linea caeterae autem 
+      pluri<lb ed="#L" n="156" break="no"/>bus, igitur &amp;c. Secundo quia figura capacissima congruit coelo 
+      <lb ed="#L" n="157"/>quod continet omnia. Sed figura circularis siue spherica plus con¬ 
+      <!--00336.xml-->
+      <pb ed="#L" n="134-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tinet quam quaecunque alia figura ex rectis lineis, vel superficie 
+      <lb ed="#L" n="2"/>bus, ergo &amp;c. Et haec ratio solum concludit quod coelum sit figura 
+      <lb ed="#L" n="3"/>sphericae secundum suum concauum, secundum quod contine 
+      <lb ed="#L" n="4"/>omnia infra se posita, &amp; non secundum suum conuexum. 
+      Terti<lb ed="#L" n="5" break="no"/>quia si coelum esset alterius figurae quam sphericae, contingere 
+      <lb ed="#L" n="6"/>quandoque corpus esse sine loco, &amp; locum sine corpore, quia quum 
+      <lb ed="#L" n="7"/>extra coelum nihil sit, nec corpus, nec locus, &amp; coelum continue 
+      <lb ed="#L" n="8"/>moueatur, si esset figurae angularis, &amp; angeli praeemineant 
+      cae<lb ed="#L" n="9" break="no"/>teris partibus contingeret, per motum coeli partes planas 
+      ve<lb ed="#L" n="10" break="no"/>nire ad locum angulorum, &amp; tunc remaneret aliquid vacuum 
+      <lb ed="#L" n="11"/>&amp; iterum anguli venientes ad loca planarum partium vltra 
+      <lb ed="#L" n="12"/>procederent in vacuum. Haec autem ratio quantum ad 
+      posi<lb ed="#L" n="13" break="no"/>tionem theologorum locum non habet, quia ponunt vltimum 
+      <lb ed="#L" n="14"/>coelum (scilicet empyreum) non moueri: caeterae autem 
+      ra<lb ed="#L" n="15" break="no"/>tiones sunt probabiles, &amp; non necessariae. 
+</p>
+            <p xml:id="jsnvu6-d1e2992-d1e215">
+               <lb ed="#L" n="16"/>Ad argumentum in oppositum dicendum, quod figura 
+      qua<lb ed="#L" n="17" break="no"/>drata magis congruit firmitati status, &amp; hoc praecipue in 
+      gra<lb ed="#L" n="18" break="no"/>uibus, non autem firmitati naturae: coelum autem vel 
+      firmamen<lb ed="#L" n="19" break="no"/>tum habet firmitatem naturae, non status, nisi coelum empyreum. 
+      <lb ed="#L" n="20"/>Et illam habet non a figura, sed a natura, quae ad nullum motum 
+      <lb ed="#L" n="21"/>inclinat, nec habet motorem sibi deputatum, vt aliae spherae. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

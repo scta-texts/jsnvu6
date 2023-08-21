@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="282-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e232663"><!-- l4d14prae -->
+            <head xml:id="jsnvu6-e232663-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e232663-d1e103">
+               <lb ed="#L" n="45"/>Sententia huius distinctionis xiiij. in 
+      <lb ed="#L" n="46"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-e232663-d1e110">
+               <lb ed="#L" n="47"/>POST haec de poenitentia agendum est. Superius 
+      <lb ed="#L" n="48"/>determinauit Magister de confirmatione &amp; 
+      Eu<lb ed="#L" n="49" break="no"/>charistia quae sunt sacramenta ordinata ad 
+      perfe<lb ed="#L" n="50" break="no"/>Ictionem in bono: hic determinat de poenitentis 
+      <lb ed="#L" n="51"/>Aquae ordinatur ad amotionem mali. Vnde iste 
+      tra<lb ed="#L" n="52" break="no"/>ctatus diuiditur in quatuor partes. Primo determinat de 
+      poe<lb ed="#L" n="53" break="no"/>nitentia secundum se. Secundo de poenitentiae partibus. 
+      Terti<lb ed="#L" n="54" break="no"/>determinat de ministro. Quarto de tenpore. Secunda. 16. distin 
+      <lb ed="#L" n="55"/>ibi, in perfectione autem poenitentiae. Tertia, distinct. 18. ibi, 1b 
+      <lb ed="#L" n="56"/>hic quaeri solet. Quarta, 20. distinct. ibi, sciendum etiam quod 
+      tem<lb ed="#L" n="57" break="no"/>pus poenitentiae. Prima diuiditur in duas. Primo determina 
+      <lb ed="#L" n="58"/>quid est poenitentia &amp; excludit quorundam errorem. Secundi 
+      <lb ed="#L" n="59"/>determinat de eius integritate. Secunda, 15. distinct. ibi, Et sicu 
+      <lb ed="#L" n="60"/>ex praedictis auctoritatibus. Prima est principalis lectionis &amp; d 
+      <lb ed="#L" n="61"/>uiditur in tres. Primo determinat poenitentiae necessitatem 
+      <lb ed="#L" n="62"/>Secundo inquirit eius quidditatem. Tertio excludit errorem, 
+      <lb ed="#L" n="63"/>Secunda ibi, baptismus tamen est facramentum. Tertia ibi, His 
+      <lb ed="#L" n="64"/>verbis quidem vehementius. Haec tertia in duas. Primo tangi 
+      <lb ed="#L" n="65"/>errorem &amp; erroris confirmationem per auctoritatem Isido &amp; 
+      <lb ed="#L" n="66"/>Grego. &amp; Ambrosij. Secundo excludit errorem &amp; auctoritate. 
+      <lb ed="#L" n="67"/>soluit. Secunda ibi, Sed Ambrosij supra ad epistolam prima 
+      <lb ed="#L" n="68"/>Corin. Haec secunda diuiditur in quatuor. Primo excludit 
+      er<lb ed="#L" n="69" break="no"/>rorem &amp; soluit diffinitionem prius positam, ex qua praedictus 
+      <lb ed="#L" n="70"/>error sequi videbatur ex auctoritate Ifidori. Secundo soluit 
+      <lb ed="#L" n="71"/>auctoritatem Augustini supra positam &amp; inducit aliam ad idem 
+      <lb ed="#L" n="72"/>&amp; eandem solutionem. Tertio ad auctoritatem Ambro. 
+      Quar<lb ed="#L" n="73" break="no"/>co probat auctoritatibus &amp; exemplis quod poenitentia posset ite 
+      <lb ed="#L" n="74"/>rari cuius oppositum secunda auctoritas Ambro. dicere vide 
+      <lb ed="#L" n="75"/>batur. Secunda ibi, Inter illud inanis est poenitentia. Tertia ibi 
+      <lb ed="#L" n="76"/>Illud autem quod Ambro ait, Quarta ibi, quod vero 
+      poeniten<lb ed="#L" n="77" break="no"/>tia non semel. Ad auctoritatem autem Gregor. non respondet 
+      <lb ed="#L" n="78"/>quia solutionem similem caeteris habet 
+      </p>
+            <p xml:id="jsnvu6-e232663-d1e182">
+               <lb ed="#L" n="79"/>
+               <!--2--> IN SPECIALI autem sic procedit. Et proponit pr 
+      <lb ed="#L" n="80"/>mo poenitentiam necessariam esse, est enim secundum Hieron. se 
+      <!--00638.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>cunda tabula post naufragium, ex eo quod qui vestem innocentiae 
+      <lb ed="#L" n="82"/>in baptismo susceptam peccando corruperit, potest eam poeni 
+      <lb ed="#L" n="83"/>tentiae remedio reparare. Baptismus autem dicitur prima tabiu 
+      <lb ed="#L" n="84"/>la, vnde poenitentia iterari potest, non autem baptismus. 
+      Poste<lb ed="#L" n="85" break="no"/>volens poenitentiam diffinire praemittit tria. Primo eius genus 
+      <lb ed="#L" n="86"/>quia est sacramentum &amp; virtus mentis. Est enim duplex 
+      poeaitem<lb ed="#L" n="87" break="no"/>tia. s.interior &amp; exterior. Interior est virtus, exterior est 
+      iacra<lb ed="#L" n="88" break="no"/>mentum. Secundo eius doctrinam, propter enim ipsius 
+      vtilita<lb ed="#L" n="89" break="no"/>tem tam Christus quam Io. baptista praedicationem a 
+      poenitenti<lb ed="#L" n="90" break="no"/>incepit. Tertio eius actum. dicitur enim poenitentia a 
+      poeniten<lb ed="#L" n="91" break="no"/>do vel a puniendo, quia eius actus interior timore concipitur. 
+      <lb ed="#L" n="92"/>quibus praemissis diffinit poenitentiam secundum Ambro 
+      dicen<lb ed="#L" n="93" break="no"/>tem quod poenitentia est praeterita mala plangere &amp; plagenda ite 
+      <lb ed="#L" n="94"/>rum non committere. &amp; similem diffinitionem ponit Gregor 
+      <lb ed="#L" n="95"/>Postea dicit quod ex hac diffinitione quidam moti fuerun 
+      <lb ed="#L" n="96"/>ad dicendum quod non est vera poenitentia quae pecrato 
+      se<lb ed="#L" n="97" break="no"/>quenti maculatur, quia vere poenitentem dicunt vltra 
+      damna<lb ed="#L" n="98" break="no"/>biliter non peccare, quod etiam auctoritate Isido. confirmae 
+      <lb ed="#L" n="99"/>dicentis talem poenitentiam irrisoriam. Secundo auctoritate 
+      Au<lb ed="#L" n="100" break="no"/>gu. qui dicit eam esse inanem. Tertio auctoritate Grego. qui dici 
+      <lb ed="#L" n="101"/>eam esse meritoriam grauioris poenae. Quarto auctoritate Am 
+      <lb ed="#L" n="102"/>bro dicentis veram poenitentiam non esse iterandam. multa 
+      <lb ed="#L" n="103"/>etiam auctoritates in litera ad hoc ponuntur Postea 
+      determi<lb ed="#L" n="104" break="no"/>nat veritatem, &amp; excludit dictum errorem dicens, quod cessatio a 
+      <lb ed="#L" n="105"/>peccatis praeteritis &amp; dolor de eis cum proposico cauendi futuri 
+      <lb ed="#L" n="106"/>ad veram poenitentiam sufficit. Et ex hoc soluit diffinitionem 
+      poe<lb ed="#L" n="107" break="no"/>nitentiae supra dicta in qua dicitur, quod ad veram poenitentiam 
+      <lb ed="#L" n="108"/>pertinet plagenda iterum non committere sufficit enim ad veram 
+      <lb ed="#L" n="109"/>poenitentiam quod plangenda iterum non committat, id est quod 
+      <lb ed="#L" n="110"/>habeat propositum non committendi, &amp; per hoc etiam soluit 
+      <lb ed="#L" n="111"/>auctoritatem Isido. Ille enim irrisor est qui sine proposito non 
+      <lb ed="#L" n="112"/>committendi poenitet. Postea soluit auctoritatem. Aug. qui dicit, 
+      <lb ed="#L" n="113"/>inanis est poenitentia quam sequens culpa coinquinat: dicitur enim 
+      <lb ed="#L" n="114"/>inanis, quia fructu poenitentiae caret quae est vitatio gehennae &amp; 
+      <lb ed="#L" n="115"/>adeptio gloriae. caret autem fructu poenitentiae, quia per sequens 
+      <lb ed="#L" n="116"/>peccatum illa poenitentia, &amp; etiam alia acta bona mortificantur. 
+      <lb ed="#L" n="117"/>vt. s. non sortiantur mercedem quam meruerunt cum fierent 
+      <lb ed="#L" n="118"/>Sed si de peccato succedente agatur poenitentia, bona quae 
+      prae<lb ed="#L" n="119" break="no"/>cesserunt reuiuiscunt, duntaxat illa quae ex charitate prodierant 
+      <lb ed="#L" n="120"/>quae autem viua non fuerunt reuiuiscere non possunt, quae 
+      au<lb ed="#L" n="121" break="no"/>tem fuerunt viua reuiuiscere possunt, quod etiam dicit August. 
+      <lb ed="#L" n="122"/>quod nihil prosunt lamenta si replicantur peccata, sic 
+      intelligen<lb ed="#L" n="123" break="no"/>dum est, quia peccata remissa redeunt, vt quidam dicunt. Et 
+      si<lb ed="#L" n="124" break="no"/>nihil relinquitur de venia, vel si non redeunt peccata, saltem 
+      pro<lb ed="#L" n="125" break="no"/>pter ingratitudinem, ita reus &amp; immundus constituitur ac si 
+      di<lb ed="#L" n="126" break="no"/>missa peccata redirent. addit etiam duo ab Augustino quae 
+      viden<lb ed="#L" n="127" break="no"/>tur facere ad confirmationem dicti erroris, vnum est quia 
+      Au<lb ed="#L" n="128" break="no"/>gustinus dicit, quod poenitens semper debet poenam tenere, ita 
+      <lb ed="#L" n="129"/>tamen quod de dolore gaudeat. Aliud est quod Aug. dicit, quod 
+      ni<lb ed="#L" n="130" break="no"/>hil de venia relinquitur quando homo post poenitentiam in 
+      pec<lb ed="#L" n="131" break="no"/>catum relabitur. Soluit autem ad ista duo dicens: quod primum 
+      <lb ed="#L" n="132"/>intelligitur de poenitentia perfectorum, id est qui poenicentiam 
+      <lb ed="#L" n="133"/>vsque ad finem vitae continuant. Secundum vero intelligitu 
+      <lb ed="#L" n="134"/>quantum ad reditum peccatorum vel simpliciter vel quantum ad 
+      <lb ed="#L" n="135"/>ingratitudinem, vt iam dictum est. Postea soluit auctoritatem 
+      <lb ed="#L" n="136"/>Ambr. cum enim dicit poenitentiam non esse iterandam, 
+      intelli<lb ed="#L" n="137" break="no"/>gendum est de poenitentia solenni quae pro grauibus culpis infer 
+      <lb ed="#L" n="138"/>tur, quae non iteratur ne vilis reputetur. Quod auctoritatibus 
+      <lb ed="#L" n="139"/>confirmat. Viterius, quia quidam dixerunt quod non debent 
+      poeni<lb ed="#L" n="140" break="no"/>tentiae iterari, quia facilitas veniae esset incentiuum ad peccata 
+      <lb ed="#L" n="141"/>probat per plures auctoritates quod poenitentia semper iterari 
+      <lb ed="#L" n="142"/>potest, quod etiam confirmat exemplo Dauid qui veniam 
+      impe<lb ed="#L" n="143" break="no"/>trauit de commissione adulterij &amp; homicidij, &amp; postea de 
+      nu<lb ed="#L" n="144" break="no"/>meratione populi. Ex quibus patet sic veram poenitentiam 
+      se<lb ed="#L" n="145" break="no"/>pius agi posse. Et quia praedicti qui sic errauerunt circa 
+      poeni<lb ed="#L" n="146" break="no"/>tentiam innitebantur quibusdam verbis Apostoli in epistola ad 
+      <lb ed="#L" n="147"/>Hebrae. ideo dicit magister quod a postolus non negat ibi secui 
+      <lb ed="#L" n="148"/>dam poenitentiam, sed secundum baptismum, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="123-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2655"><!-- l2d6q2 -->
+            <head xml:id="jsnvu6-d1e2655-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e2655-Hd1e103" type="question-title">Utrum peccatum primi angeli fuerit aliis causa vel occasio peccandi</head>
+            <p xml:id="jsnvu6-d1e2655-d1e106">
+               <lb ed="#L" n="46"/>QVAESTIO. SECVNDA. 
+      <lb ed="#L" n="47"/>Vtrum peccatum primi angeli, fuerit aliis 
+      <lb ed="#L" n="48"/>causa vel occasio peccandi. 
+      <lb ed="#L" n="49"/>Thom. 1. q. 63. ar. 8.
+    </p>
+            <p xml:id="jsnvu6-d1e2655-d1e117">
+               <lb ed="#L" n="50"/>SECVNDO vero quaeritur vtrum peccatum pr 
+      <lb ed="#L" n="51"/>imi angeli fuerit aliis causa vel occasio peccandi 
+      <lb ed="#L" n="52"/>Et videtur quod non, quia sicut mali per auersionem 
+      <lb ed="#L" n="53"/>ceciderunt, ita boni per conuersionem 
+      confirma<lb ed="#L" n="54" break="no"/>Dti sunt. Sed in bonis angelis non ponitur vnus causa 
+      <lb ed="#L" n="55"/>vel occasio fuisse conuersionis alterius, ergo nec in malis 
+      de<lb ed="#L" n="56" break="no"/>bet poni vnus fuisse causa vel occasio auersionis alterius. 
+      </p>
+            <p xml:id="jsnvu6-d1e2655-d1e135">
+               <lb ed="#L" n="57"/>
+               <!--2.--> Item causa prior est causato: sed omnes mali angeli simul 
+      <lb ed="#L" n="58"/>peccauerunt (vt dicit Damas.) ergo vnus non fuit causa vel 
+      oc<lb ed="#L" n="59" break="no"/>casio peccandi aliis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2655-d1e147">
+               <lb ed="#L" n="60"/>
+               <!--3--> CONTRA. Apoc. 12. dicitur quod dracho traxit secum 
+      <lb ed="#L" n="61"/>tertiam partem stellarum, sed non dicitur traxisse de loco ad locum, 
+      <lb ed="#L" n="62"/>sed de statu ad statum (scilicet de gratia ad culpam) ergo &amp;c. 
+      <lb ed="#L" n="63"/>RESPONSIO. Cum haec quaestio sit de facto, sicut &amp; 
+      <lb ed="#L" n="64"/>praecedens: Cum etiam scriptura nihil dicat de hoc, quin satis ex 
+      <lb ed="#L" n="65"/>poni possit ab eo qui vellet tenere oppositum. Ideo non potes 
+      <lb ed="#L" n="66"/>plene per certitudinem determinari quid tenendum sit. 
+      Com<lb ed="#L" n="67" break="no"/>muniter tamen dicitur quod inter peccatum primi angeli &amp; 
+      alio<lb ed="#L" n="68" break="no"/>rum, non fuit solum ordo secundum quantitatem culpae (vt qui 
+      <lb ed="#L" n="69"/>dam voluerunt) sed etiam in causalitate (ita scilicet quod 
+      pec<lb ed="#L" n="70" break="no"/>catum primi angeli fuit aliorum causa exemplaris non 
+      praece<lb ed="#L" n="71" break="no"/>dens tempore, sed natura. Quod enim tempore non 
+      praecesse<lb ed="#L" n="72" break="no"/>rit patet, quia nullus aspiciens ad malum operatur: Sed 
+      pec<lb ed="#L" n="73" break="no"/>catum primi angeli mox vt fuit consummatum apparuit malum, 
+      <lb ed="#L" n="74"/>ergo non potuit esse motiuum appetitus aliorum. Minor patet, 
+      <lb ed="#L" n="75"/>quia secudum Damasc. quo est hominibus mors, hoc est 
+      ange<lb ed="#L" n="76" break="no"/>lis casus: &amp; ideo sicut homo in morte recipit pro peccato 
+      con<lb ed="#L" n="77" break="no"/>demnationem, sic recipit angelus statim post peccatum (
+      pro<lb ed="#L" n="78" break="no"/>pter quod apparuit) statim malum. 
+</p>
+            <p xml:id="jsnvu6-d1e2655-d1e193">
+               <lb ed="#L" n="79"/>Quod vero natura praecesserit patet sic, quia plures opera¬ 
+      <!--00313.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>tiones instantaneae possunt simul esse in tempore, licet vna 
+      prae<lb ed="#L" n="81" break="no"/>cedat aliam causalitate, sicut dum est ignis videtur, &amp; videnti 
+      <lb ed="#L" n="82"/>complacet: Sed electio &amp; cognitio angeli sunt operationes 
+      in<lb ed="#L" n="83" break="no"/>stantaneae, ergo dum elegit illicite primus angelus potuit hoc 
+      <lb ed="#L" n="84"/>simul inferior angelus cognoscere &amp; electioni eius, vel simili 
+      <lb ed="#L" n="85"/>consentire, &amp; sic peccare ad eius exemplaritatem. 
+      </p>
+            <p xml:id="jsnvu6-d1e2655-d1e215">
+               <lb ed="#L" n="86"/>
+               <!--6--> Ad primum argumentum dicendum quod sicut peccatum 
+      <lb ed="#L" n="87"/>primi angeli fuit occasio peccati aliorum, Sic conuersio primi 
+      <lb ed="#L" n="88"/>angeli inter bonos potuit, &amp; forte fuit occasio conuersionis 
+      a<lb ed="#L" n="89" break="no"/>liorum. Similis est ratio in his &amp; in illis. Et simili modo loquitur 
+      <lb ed="#L" n="90"/>de eis scriptura. Sicut enim de malis dicitur Matth. 25. Ite 
+      <lb ed="#L" n="91"/>maledicti in ignem aeternum, qui paratus est diabolo &amp; angelis 
+      <lb ed="#L" n="92"/>eius: Sic de bonis dicitur Apoc. 12. Michael &amp; angeli eius. 
+      </p>
+            <p xml:id="jsnvu6-d1e2655-d1e235">
+               <lb ed="#L" n="93"/>
+               <!--7--> Ad secundum dicendum quod causa non semper praecedii 
+      <lb ed="#L" n="94"/>effectum tempore, sed sufficit quod praecedit natura, quod &amp; 
+      <lb ed="#L" n="95"/>fuit in peccato angelorum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

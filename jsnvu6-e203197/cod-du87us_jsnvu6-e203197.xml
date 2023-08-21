@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="247-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e203197"><!-- l3d40q1 -->
+            <head xml:id="jsnvu6-e203197-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e203197-Hd1e103" type="question-title">
+      Utrum haec duo praecepta non concupisces vxorem 
+      et non desiderabis rem proximi tui, 
+      conuenienter distinguantur ab illis non 
+      moechaberis, et non furtum facies
+    </head>
+            <p xml:id="jsnvu6-e203197-d1e106">
+               <lb ed="#L" n="70"/>LVIISTIS IINA. 
+      <lb ed="#L" n="71"/>Vtrum haec duo praecepta non concupisces vxorem 
+      <lb ed="#L" n="72"/>&amp; non desiderabis rem proximi tui, 
+      conue<lb ed="#L" n="73" break="no"/>nienter distinguantur ab illis non 
+      moe<lb ed="#L" n="74" break="no"/>chaberis, &amp; non furtum facies. 
+      <lb ed="#L" n="75"/>Tbm. ὸ δ ιδδr. 4. 
+    </p>
+            <p xml:id="jsnvu6-e203197-d1e122">
+      <!--00567.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>INCA distir cdtione itam quaeritur de duobus 
+      <lb ed="#L" n="77"/>Primum est de distinctione illorum duorum pra 
+      <lb ed="#L" n="78"/>ceptorum. Secundum est de differentiam legis &amp; 
+      <lb ed="#L" n="79"/>euangelij. Ad primum sic proceditur, &amp; arguitur 
+      <lb ed="#L" n="80"/>I quod illa piaecepta non bene distinguantur, quia 
+      <lb ed="#L" n="81"/>prae cepta negatiua ordinantur ad prohibitionem peccatorum, 
+      <lb ed="#L" n="82"/>sed vnum est peccatum cordis &amp; operis sicut in 2. lib. dist. 42. di 
+      <lb ed="#L" n="83"/>ctum est, ergo non debuit alio praecepto prohiberi concupiscen 
+      <lb ed="#L" n="84"/>tia moechandi vel furandi quam ipsa moechia, vel furtum. 
+      </p>
+            <p xml:id="jsnvu6-e203197-d1e148">
+               <lb ed="#L" n="85"/>
+               <!--2--> Praeterea sicut in furto, &amp; moechia contingit peccare corde 
+      <lb ed="#L" n="86"/>&amp; opere, ita in homicidio &amp; in aliis peccatis, sed alia praecepta 
+      <lb ed="#L" n="87"/>non variatur per concupiscentiam &amp; opus, nec affirmatiua nec 
+      <lb ed="#L" n="88"/>negatiua, ergo nec praeceptum de furto &amp; moechia debuit hoc 
+      <lb ed="#L" n="89"/>modo variari 
+      </p>
+            <p xml:id="jsnvu6-e203197-d1e165">
+               <lb ed="#L" n="90"/>
+               <!--3--> In contrarium est sacra scriptura Exod. a0. 
+      </p>
+            <p xml:id="jsnvu6-e203197-d1e172">
+               <lb ed="#L" n="91"/>
+               <!--4--> RESPONSIO. Circa quaestionem istam videnda sunt 
+      <lb ed="#L" n="92"/>duo. Primum est quod illis duobus praeceptis non moechaberis &amp; 
+      <lb ed="#L" n="93"/>non furtum facies conuenienter superaddita sunt alia duo, 
+      sci<lb ed="#L" n="94" break="no"/>licet non concupisces vxorem proximi tui, &amp; illud, non 
+      deside<lb ed="#L" n="95" break="no"/>rabis rem proximi tui. Secundum est quod non secundum 
+      ean<lb ed="#L" n="96" break="no"/>dem rationem distinguuntur haec duo praecepta vltima a duo 
+      <lb ed="#L" n="97"/>bus aliis, &amp; alia praecepta abinuicem. 
+</p>
+            <p xml:id="jsnvu6-e203197-d1e192">
+               <lb ed="#L" n="98"/>Primum persuadetur sici vbi est maior pronitas ad peccandur 
+      <lb ed="#L" n="99"/>ibi requiritur amplius retractatiuum, sed maior est pronitas in 
+      h<lb ed="#L" n="100" break="no"/>minibus ad peccandum peccato luxuriae &amp; auaritiae quam i 
+      <lb ed="#L" n="101"/>materia aliorum praeceptorum, quia venerea &amp; bona exteriora 
+      <lb ed="#L" n="102"/>circa quae sunt illa praecepta non moechaberis, non furtum facie 
+      <lb ed="#L" n="103"/>habent secundum se apparentem quandam bonitatem natam ve 
+      <lb ed="#L" n="104"/>hementer mouere concupiscentiam ad illicita, non sic autem est de 
+      <lb ed="#L" n="105"/>homicidio quod secundum se habet quendam horrorem, &amp; 
+      irreue<lb ed="#L" n="106" break="no"/>rentia etiam erga parentes habet quandam indecentiam quas 
+      <lb ed="#L" n="107"/>contrariam inclinationi naturae, &amp; suo modo est in aliis, ergo 
+      re<lb ed="#L" n="108" break="no"/>spectu primorum praeceptorum debet esse amplior 
+      prohibitio<lb ed="#L" n="109" break="no"/>retractatiua: hoc autem fit cum per aliud piaeceptum prohibetu 
+      <lb ed="#L" n="110"/>interior concupiscentia etiam sine exteriore opere, per aliud 
+      <lb ed="#L" n="111"/>autem prohibetur concupiscentia prorumpens in opus exterius 
+      </p>
+            <p xml:id="jsnvu6-e203197-d1e225">
+               <lb ed="#L" n="112"/>
+               <!--6--> Ex hoc patet secundum, quia alia praecepta distinguuntu 
+      <lb ed="#L" n="113"/>secundum distinctionem specificam actuum qui praecipiuntur ve 
+      <lb ed="#L" n="114"/>prohibentur, haec autem distinguuntur solum secundum 
+      mino<lb ed="#L" n="115" break="no"/>rem vel maiorem progressum in idem peccatu: quamuis enim 
+      <lb ed="#L" n="116"/>interior actus per se solus &amp; alius exterior coniunctus differant 
+      <lb ed="#L" n="117"/>specie in esse naturae ratione actus exterioris, tamen in esse 
+      mo<lb ed="#L" n="118" break="no"/>rali &amp; secundum rationem peccati sunt eiusdem speciei, &amp; idec 
+      <lb ed="#L" n="119"/>prohibitio eorum non est prohibitio diuersorum peccatorum se 
+      <lb ed="#L" n="120"/>cundum speciem, sed eiusdem peccati secundum maiorem ve 
+      <lb ed="#L" n="121"/>minorem progressum propter maiorem pronitatem ad 
+      peccau<lb ed="#L" n="122" break="no"/>dum tam in materia istorum peccatorum quam aliorum. 
+      </p>
+            <p xml:id="jsnvu6-e203197-d1e254">
+               <lb ed="#L" n="123"/>
+               <!--7--> Ad primum argumentum dicendum quod actus interio 
+      <lb ed="#L" n="124"/>coniunctus exteriori est vnum peccatum cum ipso secundun 
+      <lb ed="#L" n="125"/>genus moris, &amp; prohibetur vnico praecepto, scilicet non 
+      moe<lb ed="#L" n="126" break="no"/>chaberis vel non furtum facies &amp; sic de aliis: actus autem 
+      into<lb ed="#L" n="127" break="no"/>rior separatus ab exteriore est secundum se peccatum aliud a 
+      <lb ed="#L" n="128"/>priore, &amp; ideo prohibetur alio praecepto in illa materia in qua 
+      <lb ed="#L" n="129"/>est maior pronitas ad peccandum. 
+      </p>
+            <p xml:id="jsnvu6-e203197-d1e274">
+               <lb ed="#L" n="130"/>
+               <!--8--> Per idem patet ranesio ad secundum argumentum, quia licet in aris 
+      <lb ed="#L" n="131"/>contingat peccare quandoque solo consensu interiore, tamen 
+      ni<lb ed="#L" n="132" break="no"/>est in nobis tanta pronitas ad illa sicut ad moechiam &amp; furtum 
+      <lb ed="#L" n="133"/>&amp; ideo non oportuit dati speciale praeceptum de prohibitione 
+      <lb ed="#L" n="134"/>concupiscentiae, sed vnico praecepto prohibetur vtrunque, 
+      scili<lb ed="#L" n="135" break="no"/>cet concupiscentia &amp; opus exterius. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

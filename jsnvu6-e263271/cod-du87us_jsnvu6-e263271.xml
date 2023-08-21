@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="319-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e263271"><!-- l4d28q1 -->
+            <head xml:id="jsnvu6-e263271-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e263271-Hd1e103" type="question-title">Utrum consensus de futuro cum carnali copula 
+      sequente sufficiat ad matrimonium</head>
+            <p xml:id="jsnvu6-e263271-d1e106">
+               <lb ed="#L" n="138"/>QUAESTIO PRIMA 
+      <lb ed="#L" n="139"/>Vtrum consensus de futuro cum carnali copula 
+      <lb ed="#L" n="140"/>sequente sufficiat ad matrimonium. 
+    </p>
+            <p xml:id="jsnvu6-e263271-d1e115">
+               <lb ed="#L" n="141"/>CIRCA distinctionem istam quaeritur de duobus 
+      <lb ed="#L" n="142"/>Primum est vtrum consensus de futuro cum car 
+      <lb ed="#L" n="143"/>nali copula sequente sufficiat ad matrimonium. 
+      Se<lb ed="#L" n="144" break="no"/>cundum est vtrum consensus de praesenti 
+      condi<lb ed="#L" n="145" break="no"/>tionatus faciat matrimonium. De tertio enim quod 
+      <lb ed="#L" n="146"/>tangitur in hac distinctione videlicet qualis sit consensus qui 
+      fa<lb ed="#L" n="147" break="no"/>cit matrimonium, vtrum videlicet sit in carnalem copulam, an 
+      <lb ed="#L" n="148"/>societatem coniugalem, an in aliquid aliud, dicetur inferius ¬ 
+      <lb ed="#L" n="149"/>quando agetur de matrimonio beatae Virginis. Ad primum sic 
+      <lb ed="#L" n="150"/>proceditur &amp; arguitur quod consensus de futuro carnali 
+      copu<lb ed="#L" n="151" break="no"/>la subsequente faciat matrimonium: quia consensus expressus 
+      <lb ed="#L" n="152"/>non solum verbis, sed quibusdam euidentibus signis, facit 
+      ma<lb ed="#L" n="153" break="no"/>trimonium, sed per carnalem copulam exprimitur consensus 
+      <lb ed="#L" n="154"/>tanquam per euidentissimum signum, ergo per hoc fit verum 
+      <lb ed="#L" n="155"/>matrimonium 
+      </p>
+            <p xml:id="jsnvu6-e263271-d1e150">
+               <lb ed="#L" n="156"/>
+               <!--2--> Item matrimonium quod de se nullum est non praestat 
+      im<lb ed="#L" n="157" break="no"/>pedimentum matrimonio sequenti, cum sit firmum &amp; 
+      legiti<lb ed="#L" n="158" break="no"/>mum: sed consensus per verba de futuro cum copula carnali se¬ 
+      <!--00712.xml-->
+      <pb ed="#L" n="319-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quente praestat impedimentum sequenti matrimonio, vt 
+      appa<lb ed="#L" n="2" break="no"/>ret extra de sponsalibus, ca. is qui fidem ergo est verum 
+      matri<lb ed="#L" n="3" break="no"/>monium. 
+      </p>
+            <p xml:id="jsnvu6-e263271-d1e175">
+               <lb ed="#L" n="4"/>
+               <!--3--> IN CONTRARIVM arguitur sic: quia posterius 
+      <lb ed="#L" n="5"/>non est causa prioris, sed carnalis copula posterior est 
+      obligatio<lb ed="#L" n="6" break="no"/>ne matrimonij, ergo non facit matrimonium, nec consensus 
+      ex<lb ed="#L" n="7" break="no"/>pressus per verba de futuro facit ipsum vt patet ex 
+      praecedenti<lb ed="#L" n="8" break="no"/>bus, ergo tale matrimonium nullum est. 
+      </p>
+            <p xml:id="jsnvu6-e263271-d1e191">
+               <lb ed="#L" n="9"/>
+               <!--4--> RESPONSIO. Videnda sunt duo. Primum est vtrum 
+      <lb ed="#L" n="10"/>carnalis compula sequens sponsalia faciat matrimonium. 
+      Secun<lb ed="#L" n="11" break="no"/>dum est supposito quod non in aliquo casu, vtrum tunc 
+      impe<lb ed="#L" n="12" break="no"/>diat sequens matrimonium. 
+</p>
+            <p xml:id="jsnvu6-e263271-d1e204">
+               <lb ed="#L" n="13"/>Quantum ad primum sciendum est quod post contracta 
+      spon<lb ed="#L" n="14" break="no"/>salia vir &amp; mulier, aut conueniunt intentione exhibendi, quod in 
+      <lb ed="#L" n="15"/>sponsalibus promiserunt, aut non: si primo modo sic est verum 
+      <lb ed="#L" n="16"/>matrimonium, &amp; secundum iudicium ecclesiae, &amp; secundum 
+      in<lb ed="#L" n="17" break="no"/>dicium conscientiae. Cuius ratio est: quia consensus de praesenti 
+      <lb ed="#L" n="18"/>sufficienter expressus facit verum matrimonium, sed quando poss 
+      <lb ed="#L" n="19"/>sponsalia vir vel mulier conueniunt intentione exhibendi quod 
+      <lb ed="#L" n="20"/>in sponsalibus promiserunt est ibi verus consensus de praesenti, 
+      <lb ed="#L" n="21"/>qui sufficienter exprimitur ex opere subsequuto quoad forum 
+      <lb ed="#L" n="22"/>conscientiae consensu supposito, &amp; quoad forum ecclesiae ex 
+      pro<lb ed="#L" n="23" break="no"/>missione praecedente, ergo est ibi verum matrimonium non 
+      so<lb ed="#L" n="24" break="no"/>lum secundum iudicium ecclesiae, sed etiam secundum forum 
+      conscien<lb ed="#L" n="25" break="no"/>tiae. Si autem non conueniunt ex intentione exhibendi quod in 
+      <lb ed="#L" n="26"/>sponsalibus promiserunt, sed affectu fornicario ex parte vtriusque 
+      <lb ed="#L" n="27"/>vel alterius tantum: sic adhuc secundum iudicium ecclesiae est ibi 
+      <lb ed="#L" n="28"/>praesumptum matrimonium, non autem secundum forum 
+      con<lb ed="#L" n="29" break="no"/>scientiae. Ratio primi est: quia ex quo praecesserunt sponsalia qua 
+      <lb ed="#L" n="30"/>sunt promissio futuri matrimonij, per quod vir accepit potesta 
+      <lb ed="#L" n="31"/>tem corporis mulieris &amp; econuerso, cum sequitur carnalis 
+      co<lb ed="#L" n="32" break="no"/>pula praesumitur de iure quod sit in exhibitionem rei promissae, 
+      <lb ed="#L" n="33"/>&amp; haec praesumptio est iuris &amp; de iure, contra quam non 
+      admit<lb ed="#L" n="34" break="no"/>titur probatio, &amp; satis rationabiliter: quia magis licet post 
+      initia<lb ed="#L" n="35" break="no"/>tum matrimonium intrare religionem quam post contracta 
+      spon<lb ed="#L" n="36" break="no"/>salia contrahere aliud matrimonium. Primum enim licet, &amp; 
+      fa<lb ed="#L" n="37" break="no"/>ctum tenet, sed secundum quamuis factum teneat, non tamen licet 
+      <lb ed="#L" n="38"/>facere secundum conscientiam: sed in primo casu si mulier volens 
+      <lb ed="#L" n="39"/>transire ad religionem inuita cognoscatur a viro, praesumitur 
+      <lb ed="#L" n="40"/>verum matrimonium consummatum: quia ex praecedente 
+      con<lb ed="#L" n="41" break="no"/>sensu iudicatur sequens copula non simpliciter, vt extorta, 
+      ne<lb ed="#L" n="42" break="no"/>iniuriosa (vt patet ex praecedentibus) ergo in casu nostro sequens 
+      <lb ed="#L" n="43"/>copula cum non sit vi extorta, sed voluntaria multo fortius 
+      de<lb ed="#L" n="44" break="no"/>bet praesumi, vt exhibitio praecedentis promissionis. Ratio 
+      se<lb ed="#L" n="45" break="no"/>cundi est: quia matrimonium non solum est quidam contractus, 
+      <lb ed="#L" n="46"/>sed sacramentum inquantum est signum sacrae rei (scilicet 
+      con<lb ed="#L" n="47" break="no"/>iunctionis Christi &amp; ecclesiae) coniunctio autem Christi &amp; 
+      eccle<lb ed="#L" n="48" break="no"/>siae siue per charitatem, siue per naturae conformitatem nec est, 
+      <lb ed="#L" n="49"/>nec fuit nisi per liberum consensum, &amp; de coniunctione quidem quae 
+      <lb ed="#L" n="50"/>est per charitatem de se patet. De ea autem quae est per naturae 
+      con<lb ed="#L" n="51" break="no"/>formitatem similiter patet ex eo quod Christus nostram naturam non 
+      <lb ed="#L" n="52"/>assumpsit, nisi quando virgo consensit, quando scilicet dixit: 
+      fia<lb ed="#L" n="53" break="no"/>mihi secundum verbum tuu, ergo similiter matrimonium, vt sacra 
+      <lb ed="#L" n="54"/>mentum non potest verum esse nisi per verum consensum vtriusquei 
+      <lb ed="#L" n="55"/>propter quod vbi consensus deest, vel ex parte vtriusque, vt 
+      quan<lb ed="#L" n="56" break="no"/>do conueniunt affectu fornicario, vel ex parte alterius, vt cum 
+      <lb ed="#L" n="57"/>alter dolo vult extorquere carnalem copulam ab altero nullum es 
+      <lb ed="#L" n="58"/>matrimonium, &amp; hoc est quod dicitur extra de sponsalibus, tua 
+      <lb ed="#L" n="59"/>nos, in fine, quod vbi dolus affuit consensus defuit sine quo 
+      cae<lb ed="#L" n="60" break="no"/>tera foedus perficere nequeunt coniugale, &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e263271-d1e311">
+               <lb ed="#L" n="61"/>
+               <!--6--> QUANTVM ad secundum dicendum est, quod sicut ec 
+      <lb ed="#L" n="62"/>clesia iudicat primum matrimonium verum esse, sic secundum 
+      iu<lb ed="#L" n="63" break="no"/>dicat non valere: sed quoad forum conscientiae est duplex 
+      opi<lb ed="#L" n="64" break="no"/>nio. Quidam dicunt quod licet primum matrimonium nullum fi 
+      <lb ed="#L" n="65"/>quando consensus deest et carnalis copula dolo extorqueretur. 
+      <lb ed="#L" n="66"/>tamen sequens matrimonium non tenet, non quidem ex vi prae 
+      <lb ed="#L" n="67"/>cedentis matrimonij quod nullum fuit, sed propter statutum 
+      iu<lb ed="#L" n="68" break="no"/>ris: potest enim ecclesia ex causa facere personas illegitimas ac 
+      <lb ed="#L" n="69"/>contrahendum, &amp; sic fecit (vt dicunt) in casu nostro, &amp; pro 
+      hi<lb ed="#L" n="70" break="no"/>videntur facere verba decretalis allegatae vbi dicitur, quod nec 
+      <lb ed="#L" n="71"/>verum, nec aliquod censetur matrimonium quod de facto es 
+      <lb ed="#L" n="72"/>postmodum subsequutum. 
+</p>
+            <p xml:id="jsnvu6-e263271-d1e342">
+               <lb ed="#L" n="73"/>
+               <!--7--> Alij dicunt communius &amp; verius quod secundum matrimonium 
+      <lb ed="#L" n="74"/>non impeditur per primum quoad forum conscientiae, cum pri 
+      <lb ed="#L" n="75"/>mum nullum fuerit. Nec valet quod alij dicunt quod ecclesia potes 
+      <lb ed="#L" n="76"/>facere personas illegitimas ad contrahendum: quia quamuis hoc 
+      <lb ed="#L" n="77"/>sit verum En proposito tamen casu non fecit illegitimas per 
+      ali<lb ed="#L" n="78" break="no"/>quod statutum expressum, nec verba decretalis quae allegata sunt, 
+      <lb ed="#L" n="79"/>intelligenda sunt, nisi quoad praesumptionem ecclesiae. 
+      </p>
+            <p xml:id="jsnvu6-e263271-d1e362">
+               <lb ed="#L" n="80"/>
+               <!--8--> Ad primum argumentum dicendum quod vbi post 
+      sponsa<lb ed="#L" n="81" break="no"/>lia vir &amp; mulier conueniunt intentione exhibendi quod 
+      promi<lb ed="#L" n="82" break="no"/>serunt, ibi est consensus sufficienter expressus, &amp; verum matri¬ 
+      <!--00712.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>monium secundum iudicium conscientiae &amp; ecclesiae, a 
+      <lb ed="#L" n="84"/>secundum iudicium conscientiae: licet semper sit secundum 
+      iu<lb ed="#L" n="85" break="no"/>dicium praesumptum ecclesiae. 
+      </p>
+            <p xml:id="jsnvu6-e263271-d1e385">
+               <lb ed="#L" n="86"/>
+               <!--9--> Ad secundum dicendum quod patet solutio ex praedictis in 
+      <lb ed="#L" n="87"/>secundo articulo quaestionis. 
+      </p>
+            <p xml:id="jsnvu6-e263271-d1e394">
+               <lb ed="#L" n="88"/>
+               <!--10--> AD ARGVMENTVM in oppositum dicendum 
+      <lb ed="#L" n="89"/>quod sequens copula non facit matrimonium, nisi quatenus est 
+      <lb ed="#L" n="90"/>signum praesentis consensus, quae &amp; si sequatur consensum 
+      na<lb ed="#L" n="91" break="no"/>tura, vt eius effectus, concomitatur tamen tempore: nec 
+      intelli<lb ed="#L" n="92" break="no"/>gendum est quod praecedens consensus sponsalium cum carnali 
+      <lb ed="#L" n="93"/>copula faciat matrimonium, sed consensus nouus &amp; praesens 
+      <lb ed="#L" n="94"/>quem carnis copula concomitatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

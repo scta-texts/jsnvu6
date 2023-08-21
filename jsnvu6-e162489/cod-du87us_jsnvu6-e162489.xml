@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="198-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e162489"><!-- l3d9q2 -->
+            <head xml:id="jsnvu6-e162489-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e162489-Hd1e103" type="question-title">Utrum latria sit soli Deo exhibenda</head>
+            <p xml:id="jsnvu6-e162489-d1e106">
+               <lb ed="#L" n="55"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="56"/>Vtrum latria sit soli Deo exhibenda. 
+      <lb ed="#L" n="57"/>Tham. 3. 42. &amp; 2. 2.83.
+    </p>
+            <p xml:id="jsnvu6-e162489-d1e115">
+               <lb ed="#L" n="58"/>SECVNDO quaeritur vtrum latria sit soli Dec 
+      <lb ed="#L" n="59"/>sTexhibenda. Et arguitur qu non, quia non mino 
+      <lb ed="#L" n="60"/>honor debetur matri quam filio, sed aequalis vel 
+      <lb ed="#L" n="61"/>maior, cum secundum, praeceptum dominicum 
+      fi<lb ed="#L" n="62" break="no"/>Alius teneatur honorare matrem, &amp; non 
+      econuer<lb ed="#L" n="63" break="no"/>so: sed beata virgo est mater Dei, ergo sibi debetur 
+      aequali<lb ed="#L" n="64" break="no"/>honor latriae sicut Deo. 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e133">
+               <lb ed="#L" n="65"/>
+               <!--2.--> Item caro Christi nec est Deus, nec deitas, &amp; tamen 
+      ado<lb ed="#L" n="66" break="no"/>ratur adoratione latriae secundum Damasc. lib. 3. cap. 8. vbi 
+      di<lb ed="#L" n="67" break="no"/>cit sic. Vnus est Christus, Deus perfectus, &amp; homo perfectus 
+      <lb ed="#L" n="68"/>quem adoramus cum patre &amp; filio, &amp; sancto spiritu vna adora 
+      <lb ed="#L" n="69"/>tione, cum incontaminata carne eius, ergo honor latriae 
+      debe<lb ed="#L" n="70" break="no"/>tur carni Christi, &amp; non solum deitati. 
+</p>
+            <p xml:id="jsnvu6-e162489-d1e152">
+               <lb ed="#L" n="71"/>Item illud adoratur adoratione latriae, in quo ponitur spe 
+      <lb ed="#L" n="72"/>salutis, sed in cruce ponitur spes salutis cum cantet ecclesia: C 
+      <lb ed="#L" n="73"/>crux aue spes vnica, ergo ipsa adoratur adoratione latriae. 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e161">
+               <lb ed="#L" n="74"/>
+               <!--4--> Item secundum Basilium honor imaginis refertur ad 
+      protho<lb ed="#L" n="75" break="no"/>typum, hoc est, exemplar, sed Christus adoratur adoratione 
+      la<lb ed="#L" n="76" break="no"/>tnae, ergo &amp; imago Christi, sed imago Christi non est imago 
+      <lb ed="#L" n="77"/>Dei inquantum Deus, quia nulla est imago Dei, secundum 
+      dei<lb ed="#L" n="78" break="no"/>tatem, ergo non soli Deo debetur latria. 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e177">
+               <lb ed="#L" n="79"/>
+               <!--4--> IN CONTRARIVM arguitur, quia latria debetu 
+      <lb ed="#L" n="80"/>creatori ratione creationis, sed solus Deus ratione diuinitatis 
+      <!--00469.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>est creator, ergo soli Deo ratione diuinitatis debetur latria. 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e193">
+               <lb ed="#L" n="82"/>
+               <!--6.--> RESPONSIO. Circa quaestionem istam videnda 
+      <lb ed="#L" n="83"/>sunt duo. Primo videndum est, cui exhibenda sit latria, 
+      secun<lb ed="#L" n="84" break="no"/>dum est, quibus actibus sit exhibenda. 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e204">
+               <lb ed="#L" n="85"/>
+               <!--7.--> Quantum ad primum sciendum quod honor latriae, vel 
+      cuius<lb ed="#L" n="86" break="no"/>cunque alterius reuerentiae potest exhiberi alicui dupliciter, 
+      sci<lb ed="#L" n="87" break="no"/>licet per se, &amp; per accidens. Per se exhibetur illi in quo est 
+      cau<lb ed="#L" n="88" break="no"/>sa talis honoris, per accidens autem exhibetur, in quo non est 
+      cau<lb ed="#L" n="89" break="no"/>sa talis honoris, sed habet aliquam habitudinem ad illud, in quo est 
+      <lb ed="#L" n="90"/>causa. In eo etiam cui debetur honor per se, est duo considerare, 
+      <lb ed="#L" n="91"/>scilicet illum cui honor debetur, &amp; causa honoris, ille cui honor 
+      <lb ed="#L" n="92"/>debetur est suppositum subsistens. Proprie enim &amp; per se honor 
+      de<lb ed="#L" n="93" break="no"/>betur rei subsistenti, &amp; non parti. Non enim dicimus quod pes papae 
+      <lb ed="#L" n="94"/>vel manus episcopi dum a quoquam osculantur, honorentur, sed 
+      <lb ed="#L" n="95"/>papa vel episcopus in huiusmodi partibus. Per quem etiam 
+      mo<lb ed="#L" n="96" break="no"/>dum aliquis potest honorari in aliquo exteriori, puta in veste, 
+      <lb ed="#L" n="97"/>vel imagine, vel in nuncio. Causa enim honoris est illud ex que 
+      <lb ed="#L" n="98"/>ille qui honoratur habet aliquam excellentiam personae. His 
+      sup<lb ed="#L" n="99" break="no"/>positis dicendum est quod honor latriae debetur per se soli Deo 
+      ra<lb ed="#L" n="100" break="no"/>tione diuinitatis, per accidens autem debetur aliis. Primum patet. 
+      <lb ed="#L" n="101"/>quia illi per se debetur aliquis honor, in quo est per se causa 
+      il<lb ed="#L" n="102" break="no"/>lius honoris, sed in solo Deo ratione deitatis est per se causa 
+      ho<lb ed="#L" n="103" break="no"/>noris latriae, ergo solus Deus ratione deitatis est honore latriae 
+      <lb ed="#L" n="104"/>honorandus. Maior patet ex dictis. Minor similiter manifesta est, 
+      <lb ed="#L" n="105"/>quia honor latriae debetur creatori iure creationis, creare auti 
+      <lb ed="#L" n="106"/>competit Deo ratione diuinitatis, quare &amp;c. Secundum patet,  
+      <lb ed="#L" n="107"/>scilicet aliis debetur honor latriae per accidens. Sed aduertendum 
+      <lb ed="#L" n="108"/>est, primo quod aliquis potest habere habitudinem ad Deum cui 
+      <lb ed="#L" n="109"/>per se debetur honor latriae dupliciter. Vno modo, quia incidit 
+      <lb ed="#L" n="110"/>in idem, secundum suppositum, sicut est humanitas Christi. Alio 
+      <lb ed="#L" n="111"/>modo, quia non tendit in idem, secundum suppositum, sed habe 
+      <lb ed="#L" n="112"/>solam habitudinem extrinsecam ad Christum vt mater, crux &amp; 
+      <lb ed="#L" n="113"/>imago. Primo modo adoratur humanitas Christi per accidens 
+      <lb ed="#L" n="114"/>adoratione latriae, quia quando suppositum per se honoratur, ho 
+      <lb ed="#L" n="115"/>noratur per accidens qcquid est in supposito. Sed filius Dei 
+      ado<lb ed="#L" n="116" break="no"/>ratur adoratione latriae per se, ergo humanitas Christi per acci 
+      <lb ed="#L" n="117"/>dens honoratur eadem ratione. Dico autem per accidens quia nec ipsa 
+      <lb ed="#L" n="118"/>humanitas est proprie illud quod adoratur cum non sit suppositum 
+      <lb ed="#L" n="119"/>subsistens: nec est causa seu ratio talis adorationis quamuis sit 
+      <lb ed="#L" n="120"/>causa cuiusdam alterius adorationis, scilicet hyperduliae quae 
+      de<lb ed="#L" n="121" break="no"/>betur Christo ratione humanae naturae, de qua postea dicetur 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e289">
+               <lb ed="#L" n="122"/>
+               <!--8.--> De illis autem quae habent solam extrinsecam habitudinem 
+      <lb ed="#L" n="123"/>ad Deum hoc generaliter tenendum est, quod si considerentur secundum 
+      <lb ed="#L" n="124"/>se, sic aut eis non debetur aliquis honor puta cruci vel imagini, 
+      <lb ed="#L" n="125"/>&amp; caeteris rebus inanimatis. Aut si debetur (sicut beatae virgini 
+      <lb ed="#L" n="126"/>nunquam tamen debetur eis honor latriae, cuius ratio est, 
+      qui<lb ed="#L" n="127" break="no"/>honor latriae debetur solum excellentiae diuinae, sed talia secundum se 
+      <lb ed="#L" n="128"/>considerata, aut nullam excellentiam habent vt inanimata, aut si ha 
+      <lb ed="#L" n="129"/>bent, illa tamen est infra excellentiam diuinam, quare isto modo 
+      <lb ed="#L" n="130"/>non debetur eis honor latriae. Si autem considerentur secundum habi 
+      <lb ed="#L" n="131"/>tudinem quam habent ad Deum, sic dicitur communiter quod debetur eis 
+      <lb ed="#L" n="132"/>idem honor qui &amp; Deo, quia sicut dicit Philosop. lib. de memo. 
+      <lb ed="#L" n="133"/>ria &amp; reminiscentia, duplex est motus animae in imaginem, vnus 
+      <lb ed="#L" n="134"/>secundum quod ipsa est quaedam res. Alius inquantum ipsa est imago 
+      <lb ed="#L" n="135"/>Primus motus in imaginem alius est a motu qui est in rem, sed 
+      <lb ed="#L" n="136"/>secundus qui est in imaginem inquantum est imago idem est cum 
+      mo<lb ed="#L" n="137" break="no"/>tu qui est in rem imaginatam. Et similiter vt dicunt reuerentia qua 
+      <lb ed="#L" n="138"/>defertur imaginiinquantum imago est, defertur rei cuius est ima 
+      <lb ed="#L" n="139"/>go, vt sic sit vna reuerentia quae debetur imagini &amp; exemplari. 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e334">
+               <lb ed="#L" n="140"/>
+               <!--9--> Sed istud non videtur proprie dictum, quia quantumcunque 
+      <lb ed="#L" n="141"/>sit vnus &amp; idem motus animae quo fertur in imaginem, vt 
+      ima<lb ed="#L" n="142" break="no"/>go est, &amp; in rem, nunquam tamen anima dicit imaginem 
+      inquan<lb ed="#L" n="143" break="no"/>tum est imago esse idem cum exemplari, neque signum 
+      inquan<lb ed="#L" n="144" break="no"/>tum signum esse idem cum signato, sed semper inter ista est 
+      distin<lb ed="#L" n="145" break="no"/>ctio in re, &amp; in conceptione animae, habitudo enim eorum 
+      adinui<lb ed="#L" n="146" break="no"/>cem est relatiua, relatiui autem esse est ad aliud esse, &amp; ideo c 
+      <lb ed="#L" n="147"/>attribuitur exemplari vel signato, nunquam est attribuendum 
+      <lb ed="#L" n="148"/>imagini vel signo quantumcunque consideretur sub ratione 
+      ima<lb ed="#L" n="149" break="no"/>ginis vel signi. Propter quod proprie loquendo nunquam 
+      re<lb ed="#L" n="150" break="no"/>uerentia exemplaris, vel signati debetur signo, vel imagini. 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e363">
+               <lb ed="#L" n="151"/>
+               <!--10.--> Sed quia loquendum est vt plures, ideo commune dictum sic expe 
+      <lb ed="#L" n="152"/>nendum est, quod pro tanto dicitur imago sub ratione imaginis adorari 
+      <lb ed="#L" n="153"/>eadem adoratione cum re cuius est imago, quia ad praesentiam imag 
+      <lb ed="#L" n="154"/>nis seu signi fit rememoratio rei quam rememoratam adoramus 
+      <lb ed="#L" n="155"/>eadem adoratione ac si praesens esset in se, &amp; pro tanto concedi potest 
+      <lb ed="#L" n="156"/>quod signa &amp; imagines adorantur eadem adoratione cum rebus 
+      signa<lb ed="#L" n="157" break="no"/>tis, &amp; imaginatis, quia res vt cognitae per signa, &amp; imagines simil 
+      <lb ed="#L" n="158"/>modo adorantur, ac si essent praesentes secundum se. Et quod dictum 
+      <lb ed="#L" n="159"/>est de signo, vel de imagine, intelligendum est de omnibus aliis qua 
+      <lb ed="#L" n="160"/>habent solum habitudinem extrinsecam ad Deum, quia ratione talis habi 
+      <lb ed="#L" n="161"/>tudinis seu relationis nullo modo debetur eis honor diuinu? quae est 
+      <lb ed="#L" n="162"/>honor latriae, &amp; sic patet primum, scilicet quibus sit latria exhibenda.
+</p>
+            <p xml:id="jsnvu6-e162489-d1e394">
+      <!--00470.xml-->
+               <pb ed="#L" n="198-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>11 Quantum ad secundum scilicet per quos actus debeat 
+      ex<lb ed="#L" n="2" break="no"/>hiberi. Dicendum est quod tribus actibus, scilicet, actu animae &amp; actu 
+      <lb ed="#L" n="3"/>corporis, &amp; exhibitione rerum exteriorum. Cuius ratio est, quia per 
+      <lb ed="#L" n="4"/>latriam exhibemus reuerentiam deo in recognitionem vniuer 
+      <lb ed="#L" n="5"/>salis dominij quia creauit nos, igitur secundum omnia quae 
+      habe<lb ed="#L" n="6" break="no"/>mus a deo debemus ei exhibere cultum latriae, sed a deo creatori 
+      <lb ed="#L" n="7"/>habemus quicquid simpliciter est in nobis, bona animae, boni 
+      <lb ed="#L" n="8"/>corporis &amp; bona exteriora, propter quod secundum haec 
+      omni<lb ed="#L" n="9" break="no"/>debemus ei reuerentiam exhibere, hoc autem fit quando secundum 
+      <lb ed="#L" n="10"/>animam vel secundum spiritum exhibemus ei debitam dilectionem, 
+      se<lb ed="#L" n="11" break="no"/>eundum corpus prostrationes &amp; cantus, secundum autem exteriora 
+      <lb ed="#L" n="12"/>oblationes, &amp; luminaria, &amp; huiusmodi quae deo exhibemus nor 
+      <lb ed="#L" n="13"/>propter eius indigentiam, sed propter recognitionem quod omnia al 
+      <lb ed="#L" n="14"/>ipso habemus, &amp; secundum haec tria nominatur latria tribus nom 
+      <lb ed="#L" n="15"/>nibus. Dicitur enim pietas quantum ad interiorem affectum deuo 
+      <lb ed="#L" n="16"/>tionis &amp; dilectionis, dicitur etiam Theosebia.i.diuinus cultus vel 
+      <lb ed="#L" n="17"/>eusebia, id est, bonus cultus quantum ad attentionem quam ad 
+      <lb ed="#L" n="18"/>hoc habere debemus, illud enim coli dicitur cui studiose 
+      inten<lb ed="#L" n="19" break="no"/>ditur. Dicitur etiam religio quantum ad determinationem 
+      ope<lb ed="#L" n="20" break="no"/>rum quae in cultu dei exhibentur. Latria autem generali 
+      nomini<lb ed="#L" n="21" break="no"/>solum importat seruitutem qua deo obligamur iure creationis. 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e449">
+               <lb ed="#L" n="22"/>
+               <!--12.--> Ad primum arg. dicendum est quod vbi mater &amp; filius includunt 
+      <lb ed="#L" n="23"/>praecise eandem naturam specificam, maiorem honorem quantum ad 
+      <lb ed="#L" n="24"/>hoc debet filius matri quam mater filio, quia mater se habet 
+      a<lb ed="#L" n="25" break="no"/>filium, vt principium &amp; sie excellentius habet natura quam filius 
+      <lb ed="#L" n="26"/>Dico autem quantum ad hoc, quia alia excellentia posset esse in 
+      fi<lb ed="#L" n="27" break="no"/>lio puta, quia esset papa vel episcopus ratione cuius etiam mate 
+      <lb ed="#L" n="28"/>teneretur ad tantam vel maiorem reuerentiam exhibendam si 
+      <lb ed="#L" n="29"/>lio sicut econuerso, extraneae autem personae ab vtroque hon 
+      te<lb ed="#L" n="30" break="no"/>nentur semper plus honorare matrem quam filium, sed illum 
+      plu<lb ed="#L" n="31" break="no"/>in quo est maior excellentia. Modo ad propositum de Christi 
+      <lb ed="#L" n="32"/>matre constat quod ipsa non fuit praecise eiusdem naturae cum 
+      Chri<lb ed="#L" n="33" break="no"/>sto filio cum ipsa sit pura creatura, filius autem deus &amp; homo; 
+      <lb ed="#L" n="34"/>vnde sicut ipsa fuit mater Christi quo ad humanam naturam sic 
+      <lb ed="#L" n="35"/>ipsa fuit filia eius iure creationis ratione diuinae naturae in filio, 
+      <lb ed="#L" n="36"/>&amp; quia perfectior ratio principij est in creante qui totum 
+      produ<lb ed="#L" n="37" break="no"/>cit quam in generante qui aliquid supponit, ideo plus tenetur 
+      <lb ed="#L" n="38"/>beata virgo honorare filium (quia deus est) quam fili? (quatenus 
+      <lb ed="#L" n="39"/>homo) teneatur honorare ipsam, &amp; si mater tenetur ad hoc 
+      fo<lb ed="#L" n="40" break="no"/>tiori ratione &amp; nos. Alio ergo honore debemus honorare filii 
+      <lb ed="#L" n="41"/>quatenus deus est (scilicet honore latriae, &amp; alio matrem quae es 
+      <lb ed="#L" n="42"/>pura creatura, sed quia inter creaturas ipsa est excellentissima 
+      <lb ed="#L" n="43"/>adeo ipsi debetur sub honore latriae honor excellentissimus scilice 
+      <lb ed="#L" n="44"/>honor hyperduliae, id est, duliae excellentis, de qua postea dicetr. 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e504">
+               <lb ed="#L" n="45"/>
+               <!--13--> Ad secundum dicendum est quod humanitas Christi proprie non 
+      <lb ed="#L" n="46"/>adoratur cum non sit res per se subsistens, nec est ratio per quam 
+      <lb ed="#L" n="47"/>debeatur Christo adoratio latriae cum ratione eius Christo non 
+      <lb ed="#L" n="48"/>competat esse creatorem. Adoratur tamen per accidens adorato sup 
+      <lb ed="#L" n="49"/>posito, &amp; eadem adoratione qua suppositum &amp; sic loquitur Dama 
+      <lb ed="#L" n="50"/>Si autem humanitas Christi realiter esset separata a supposito fili 
+      <lb ed="#L" n="51"/>&amp; subsistens in proprio supposito sicut posuit prima opinio, sic nui 
+      <lb ed="#L" n="52"/>lo modo, nec per se, nec per accidens debetur ei adoratio latriae 
+      <lb ed="#L" n="53"/>sed adoratio hyperduliae. Sed istud est condemnatum in synodis 
+      <lb ed="#L" n="54"/>dicitur enim in capitulis Cirili. Siquis audet dicere assumptum ho 
+      <lb ed="#L" n="55"/>minem coadorari oportere deo verbo, quasi alterum alteri &amp; ne 
+      <lb ed="#L" n="56"/>magis vna adoratione honorificat emanuelem secundum quod facti 
+      <lb ed="#L" n="57"/>est verbum caro, anathema sit. Si vero sola consideratione 
+      separa<lb ed="#L" n="58" break="no"/>retur humanitas a supposito verbi, ita vt consideraretur non con 
+      <lb ed="#L" n="59"/>siderato supposito, sic si deberetur ei aliqua adoratio non esse 
+      <lb ed="#L" n="60"/>adoratio latriae, sed hyperduliae, &amp; sic loquitur glossa super ille 
+      <lb ed="#L" n="61"/>verbo Psal. Adorate scabellum pedum eis quae dicit quod caro Christi 
+      <lb ed="#L" n="62"/>non est adoranda adoratione latriae quae soli creatori debetur 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e548">
+               <lb ed="#L" n="63"/>
+               <!--14.--> Ad tertium dicendum quod crux si consideretur secundum? 
+      <lb ed="#L" n="64"/>est res quaedam in se non debet adorari aliqua adoratione cum 
+      <lb ed="#L" n="65"/>creaturae irrationali non debeatur aliqua reuerentia, si autem cor 
+      <lb ed="#L" n="66"/>sideretur inquantum signum sic dicitur communiter quamuis im 
+      <lb ed="#L" n="67"/>proprie quod debet adorari adotatione eadem cum Christo 
+      crucifi<lb ed="#L" n="68" break="no"/>xo, qualiter autem debeat intelligi expositum fuit. Quidam autem 
+      <lb ed="#L" n="69"/>distinguunt inter crucem, in qua Christus pependit &amp; alias 
+      cru<lb ed="#L" n="70" break="no"/>ces, quia aliis crucibus non debetur aliqua reuerentia nisi vt 
+      si<lb ed="#L" n="71" break="no"/>gno, &amp; ideo non sunt reuerendae nisi sint figuratae, quia aliter non 
+      <lb ed="#L" n="72"/>habent rationem signi. Crux autem Christi propter hoc quod 
+      quan<lb ed="#L" n="73" break="no"/>do est figurata habet rationem signi, &amp; non figurata habet 
+      secun<lb ed="#L" n="74" break="no"/>dum se quandam excellentiam eo modo quo fuit applicata secun 
+      <lb ed="#L" n="75"/>dum contactum membris Christi, &amp; ideo dicunt quod ei debetur 
+      du<lb ed="#L" n="76" break="no"/>plex reuerentia, vna latriae quatenus signum quando est 
+      figura<lb ed="#L" n="77" break="no"/>tum, &amp; alia hyperduliae, inquantum etiam in se non figura 
+      ha<lb ed="#L" n="78" break="no"/>bet quandam excellentiam &amp; contactum membrorum Christi 
+      <lb ed="#L" n="79"/>Sed istud non videtur, quia illud quod non potest esse subiectum su 
+      <lb ed="#L" n="80"/>sceptiuum sanctitatis, vel virtutis non potest esse secundum se 
+      <lb ed="#L" n="81"/>terminus adorationis, sed lignum crucis in qua Christus 
+      pepen<lb ed="#L" n="82" break="no"/>dit non est subiectum susceptiuum sanctitatis &amp; virtutis, ergo se¬ 
+      <!--00470.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>cundum se non potesi esse rerminus adorationis, nunquam ergo 
+      <lb ed="#L" n="84"/>cruci Christi debetur aliquis honor, nisi inquantum reducit in 
+      <lb ed="#L" n="85"/>rememorationem Christisquod facit figurata, vel signata. Alla 
+      <lb ed="#L" n="86"/>autem hoc faciunt solum ratione figurae, &amp; ideo illi idem qui 
+      <lb ed="#L" n="87"/>primo tenuerunt illam responsionem seu opinionem. Postea 
+      <lb ed="#L" n="88"/>plenius considerantes correxerunt se, &amp; tenuerunt secundam. 
+      </p>
+            <p xml:id="jsnvu6-e162489-d1e614">
+               <lb ed="#L" n="89"/>
+               <!--15.--> Ad quartum dicendum quod imago aut repraesentat Christum 
+      <lb ed="#L" n="90"/>secundum quod homo est, aut est facta ad repraesentandum patrem vel 
+      <lb ed="#L" n="91"/>spiritum sanctum quoad deitatem, sicut pinguntur quaedam imagines 
+      <lb ed="#L" n="92"/>quarum vna repraesentat Deum patrem, &amp; alia filium crucifixum, &amp; tertia 
+      <lb ed="#L" n="93"/>spiritum sanctum, quasi columbam procedentem a patre in Christum. 
+      <lb ed="#L" n="94"/>Primo modo debetur idem honor imagini, qui &amp; Christo 
+      secun<lb ed="#L" n="95" break="no"/>dum intellectum tamen prius positum. Secundo autem modo fatuum ei 
+      <lb ed="#L" n="96"/>imagines facere, vel eas venerari: vnde Damas. dicit lib. 4. Quo 
+      <lb ed="#L" n="97"/>insipientiae summae est &amp; impietas figurare quod est diuinum, &amp; si 
+      <lb ed="#L" n="98"/>quis dicat quod spiritus sanctus in columba apparuit; &amp; pater in 
+      ve<lb ed="#L" n="99" break="no"/>teri testamento sub aliquibus corporalibus formis, &amp; sic possunt 
+      <lb ed="#L" n="100"/>per imagines repraesentari, dicendum quie illae formae corporales 
+      <lb ed="#L" n="101"/>non fuerunt a patre, vel a spiritu sancto assumptae, &amp; ideo 
+      reprae<lb ed="#L" n="102" break="no"/>sentatio eorum per imagines non est repraesentatio personae 
+      diui<lb ed="#L" n="103" break="no"/>nae, sed repraesentatio illius formae secundum se, propter quod non 
+      <lb ed="#L" n="104"/>debetur ei aliqua reuerentia, sicut nec illis formis secundum se. E 
+      <lb ed="#L" n="105"/>si dicatur quod illae formae, &amp; si non erant a personis diuinis assumpta 
+      <lb ed="#L" n="106"/>erant tamen repraesentatiuae diuinarum personarum, &amp; eodem modo 
+      <lb ed="#L" n="107"/>vt videtur possunt nunc fieri imagines diuinas personas 
+      reprae<lb ed="#L" n="108" break="no"/>sentantes. Dicendum quod illae formae, in quibus dicuntur diuinae 
+      <lb ed="#L" n="109"/>personae apparuisse non fuerunt formatae ad repraesentandum 
+      di<lb ed="#L" n="110" break="no"/>uinas personas; sed ad repraesentandum effectus quos personae 
+      <lb ed="#L" n="111"/>diuinae faciebant in rebus, sicut columba in qua spiritus sanctu 
+      <lb ed="#L" n="112"/>apparuit super Christum baptizatum significabat spiritualem 
+      <lb ed="#L" n="113"/>foecunditatem quam Christus tactu suae carnis contulit aquis 
+      <lb ed="#L" n="114"/>baptismi, &amp; ideo nihil factum per modum imaginis ad 
+      reprae<lb ed="#L" n="115" break="no"/>sentandum diuinas personas non incarnatas est adorandum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

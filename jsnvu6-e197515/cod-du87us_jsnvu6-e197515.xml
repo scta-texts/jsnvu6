@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="240-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e197515"><!-- l3d36q1 -->
+            <head xml:id="jsnvu6-e197515-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e197515-Hd1e103" type="question-title">
+      Utrum virtutes morales sint connexae 
+      cum Theologicis
+    </head>
+            <p xml:id="jsnvu6-e197515-d1e106">
+               <lb ed="#L" n="121"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="122"/>Vtrum virtutes morales sint connexae 
+      <lb ed="#L" n="123"/>cum Theologicis. 
+      <lb ed="#L" n="124"/>Ttam. . 2 4 65. 
+    </p>
+            <p xml:id="jsnvu6-e197515-d1e117">
+               <lb ed="#L" n="125"/>CIRCA distinct. istam quaeritur de tribus in 
+      genera<lb ed="#L" n="126" break="no"/>li. Primo de connexione virtutum, &amp; secundon de 
+      ea<lb ed="#L" n="127" break="no"/>rum aequalitate. Circa primum primo quaeritur de 
+      com<lb ed="#L" n="128" break="no"/>nexione virtutum, &amp; secundo de connexione vitiorum. 
+      <lb ed="#L" n="129"/>Adhuc circa primum istorum quaeruntur tria. Primum est, vtrum 
+      <lb ed="#L" n="130"/>virtutes morales acquisitae sint connexae cum theologicis. 
+      Secun<lb ed="#L" n="131" break="no"/>dum est, vtrum virtutes morales sint connexae intellectualibus. 
+      <lb ed="#L" n="132"/>Tertium est, vtrum virtutes morales sint connexae sibi inuicem. 
+      <lb ed="#L" n="133"/>Ad primum sic proceditur. Et videtur quod virtutes morales 
+      acqui<lb ed="#L" n="134" break="no"/>sitae sint connexae cum theologicis. Quia virtutes illae sunt 
+      connex<lb ed="#L" n="135" break="no"/>quarum vna non potest esse sine alia. Sed virtutes morales acquesit, 
+      <lb ed="#L" n="136"/>non possunt esse sine theologicis, nec theologicae sine illis: ergo 
+      <lb ed="#L" n="137"/>omnes istae sunt ad inuicem connexae. Maior de se patet, sed 
+      mi<lb ed="#L" n="138" break="no"/>nor probatur, quodo ad duas elus partes. Et primo quod 
+      theologic<lb ed="#L" n="139" break="no"/>(&amp; maxime charitas) non pessint hberi sine moralibus, 
+      qui<lb ed="#L" n="140" break="no"/>tota lex per charitatem impletur, secundum illud Rom. 13. Pli 
+      <lb ed="#L" n="141"/>nitudo legis est dilectio, sed lex non potest impleri sine actibus 
+      <lb ed="#L" n="142"/>virtutum moralium. De illis enim dantur praecepta legis, actus 
+      <lb ed="#L" n="143"/>autem praesupponunt habitus, ergo necesse est quod charitas 
+      <lb ed="#L" n="144"/>coexigat habitus virtutum moralium. 
+      </p>
+            <p xml:id="jsnvu6-e197515-d1e163">
+               <lb ed="#L" n="145"/>
+               <!--2--> Item patet quo ad secundum, scilicet quod virtutes morales 
+      <lb ed="#L" n="146"/>coexigant charitatem, quia ea quae sunt ad finem habent 
+      con<lb ed="#L" n="147" break="no"/>nexionem cum fine, cum ex eo sumant rationem. Sed virtutes 
+      <lb ed="#L" n="148"/>morales, &amp; actus, &amp; obiecta, &amp; fines earum ordinatur ad finem 
+      <lb ed="#L" n="149"/>charitatis, ergo coexigunt charitatem. 
+</p>
+            <p xml:id="jsnvu6-e197515-d1e180">
+               <lb ed="#L" n="150"/>CONTRARIVM arguitur, primo quod charitas 
+      <lb ed="#L" n="151"/>possit haberi sine virtutibus moralibus. Et hoc sic, habens 
+      ha<lb ed="#L" n="152" break="no"/>bitum virtutis moralis acquisitae operatur promptem, &amp; faciliter 
+      <lb ed="#L" n="153"/>secundum illum habitum, praesentato sibi obiecto. Sed habeni 
+      <lb ed="#L" n="154"/>charitatem praesentato sibi obiecto virtutum mortalium non 
+      <lb ed="#L" n="155"/>operatur prompte &amp; faciliter, vt patet in illis qui ex 
+      conluentu<lb ed="#L" n="156" break="no"/>dine malorum actuum de nouo conuertuntur ad Denum, &amp; 
+      ta<lb ed="#L" n="157" break="no"/>men tales habent charitatem, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e197515-d1e200">
+               <lb ed="#L" n="158"/>
+               <!--4--> Item probatur quod aliae virtutes possint esse sine 
+      charita<lb ed="#L" n="159" break="no"/>te, quia virtutes morales acquisitae non amittuntur per vnicum 
+      <lb ed="#L" n="160"/>actum, sicut per vnicum actum non acquiruntur, sed habens cha¬ 
+      <!--00554.xml-->
+      <pb ed="#L" n="240-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ritatem, amittit eam per vnum actum vitiosum: ergo ea amissa 
+      <lb ed="#L" n="2"/>remanent virtutes morales. Et sic necessario non coexigunt 
+      cha<lb ed="#L" n="3" break="no"/>ritatem. 
+      </p>
+            <p xml:id="jsnvu6-e197515-d1e224">
+               <lb ed="#L" n="4"/>
+               <!--5--> RESPONSIO. Ad euidentiam huius quaestionis &amp; 
+      se<lb ed="#L" n="5" break="no"/>quentium, videndum est primo quot modis virtutes sint 
+      adin<lb ed="#L" n="6" break="no"/>uicem connexae. Postea deducendum est in singulis modis quo 
+      <lb ed="#L" n="7"/>modo se habent virtutes theologicae ad morales, &amp; econuerso 
+      </p>
+            <p xml:id="jsnvu6-e197515-d1e237">
+               <lb ed="#L" n="8"/>
+               <!--6.--> Quantum ad primum sciendum est quod duplex est modus 
+      <lb ed="#L" n="9"/>connexionis in generali, scilicet essentialis, &amp; dispositiuus. essen 
+      <lb ed="#L" n="10"/>tialis adhuc duplex est. Primus est, secundum quem vna virtur 
+      <lb ed="#L" n="11"/>dependet ex alia, quantum ad id quod est in sua quidditate &amp; 
+      <lb ed="#L" n="12"/>essentia, sicut omnis virtus moralis acquisita dependet a 
+      pru<lb ed="#L" n="13" break="no"/>dentia, &amp; econuerso. Secundus est quum aliqua connectuntur 
+      <lb ed="#L" n="14"/>inter se, &amp; non immediate, sed mediante tertio, quod est con 
+      <lb ed="#L" n="15"/>nexum cum vtroque, &amp; sic virtutes morales connectuntur inter 
+      <lb ed="#L" n="16"/>se mediante tertio, scilicet prudentia, vt patebit inferius. Alio 
+      <lb ed="#L" n="17"/>modo aliqua connectuntur dispositiue, quae quidem 
+      dispositi<lb ed="#L" n="18" break="no"/>attenditur inquantum subiectum per vnum eorum disponitur 
+      <lb ed="#L" n="19"/>ad melius se habendum in altero, vel in actu alterius. Et istud 
+      <lb ed="#L" n="20"/>quantum ad virtutes contingit dupliciter. Vno modo, quia 
+      sub<lb ed="#L" n="21" break="no"/>iectum dispositum per vnam virtutem potest magis perfecte &amp; 
+      <lb ed="#L" n="22"/>magis pure elicere actum alterius, quam posset facere sine ea 
+      <lb ed="#L" n="23"/>Et sic virtutes morales disponunt ad virtures intellectuales, 
+      qui<lb ed="#L" n="24" break="no"/>homo bene dispositus per virtutes morales quae sedant motus 
+      <lb ed="#L" n="25"/>passionum purius, &amp; perfectius possunt in actum virtutum 
+      in<lb ed="#L" n="26" break="no"/>tellectualium. Alio modo attenditur ista dispositio; secundum 
+      <lb ed="#L" n="27"/>quod vna virtus magis firmatur, &amp; magis resistit actui sibi con 
+      <lb ed="#L" n="28"/>trario per hoc quod coniungitur alij virtuti, sicut temperantia 
+      <lb ed="#L" n="29"/>cum fortitudine magis firmatur ad resistendum actui intempe 
+      <lb ed="#L" n="30"/>rato quam sine fortitudine. Temperatus enim &amp; fortis magis 
+      <lb ed="#L" n="31"/>disponitur vt pen timorem terribilium non committat dictum 
+      <lb ed="#L" n="32"/>turpem intemperatum, quam si non haberet fortitudinem: 8 
+      <lb ed="#L" n="33"/>sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e197515-d1e298">
+               <lb ed="#L" n="34"/>
+               <!--7.--> Quantum ad secundum dicendum est quod virtutes mora 
+      <lb ed="#L" n="35"/>les nou dependent a theologicis primo modo, scilicet, quantum 
+      <lb ed="#L" n="36"/>ad essentiam suam &amp; quidditatem, quia sine eis vere possint 
+      ha<lb ed="#L" n="37" break="no"/>beri. Et hoc patet dupliciter. Primo sicut se habent status 
+      adin<lb ed="#L" n="38" break="no"/>uicem, ita &amp; perfectiones illis statibus conuenientes. Sed statu 
+      <lb ed="#L" n="39"/>naturae potest esse sine statu gratiae, &amp; status gratiae sinae statu 
+      <lb ed="#L" n="40"/>gloriae, ergo perfectiones istis statibus conuenientes possunt essi 
+      <lb ed="#L" n="41"/>sine inuicem, sed perfectio naturalis ad quam potest homo 
+      at<lb ed="#L" n="42" break="no"/>tingere ex naturalibus est virtus moralis acquisita, ergo homo 
+      <lb ed="#L" n="43"/>potest habere virtutes morales acquisitas sine theologicis per 
+      <lb ed="#L" n="44"/>tinentibus ad statum vitae, vitae seu patriae. Et confirmatur, quia 
+      <lb ed="#L" n="45"/>secundum doctores primus homo potuit creari sine gratia in 
+      <lb ed="#L" n="46"/>puris naturalibus, in quo statu potuit habere virtutes 
+      morale<lb ed="#L" n="47" break="no"/>per eas, quamuis non posset in actum meritorium vitae aeterna 
+      <lb ed="#L" n="48"/>Secundo patet idem sic ratione, homo qui potest prompte &amp; 
+      <lb ed="#L" n="49"/>faciliter tendere in obiectum conueniens potentiae tam intelle 
+      <lb ed="#L" n="50"/>ctiuae quam appetitiuae est vere virtuosus secundum virtutes, tan 
+      <lb ed="#L" n="51"/>intellectuales quam morales. Sed sine charitate ex puris natura 
+      <lb ed="#L" n="52"/>libus potest hic homo tendere perfecte &amp; prompte in obiectum 
+      <lb ed="#L" n="53"/>conueniens potentiae intellectiuae &amp; appetitiuae, ergo talis es 
+      <lb ed="#L" n="54"/>vere virtuosus quantum ad virtutes acquisitas. Maior patet 
+      e<lb ed="#L" n="55" break="no"/>secundo Ethic. vbi dicitur quod virtus habentem perficit, &amp; 
+      quo<lb ed="#L" n="56" break="no"/>signum habitus generati est fieri in opere delectationem, 
+      pe<lb ed="#L" n="57" break="no"/>quam homo prompte &amp; faciliter operatur. Minor probatur 
+      <lb ed="#L" n="58"/>quia obiectum conueniens intellectui humano secundum praesen 
+      <lb ed="#L" n="59"/>tem statum est veritas rerum sensibilium, &amp; quae ex sensibilibus 
+      <lb ed="#L" n="60"/>potest concludi. In hanc autem vel in eius cognitionem potes 
+      <lb ed="#L" n="61"/>homo sine charitate, vt de se patet, quia habens talem 
+      cognitio<lb ed="#L" n="62" break="no"/>nem non amittit eam per culpam per quam tantum amittit 
+      cha<lb ed="#L" n="63" break="no"/>ritatem. Obiectum vero virtutis moralis est bonum ex genere, 
+      <lb ed="#L" n="64"/>&amp; circunstantiis ordinatum ad debitum finem, &amp; constat quod 
+      <lb ed="#L" n="65"/>in tale bonum potest appetitus tendere sine charitate, vt si 
+      ali<lb ed="#L" n="66" break="no"/>quis det sustentationem alicui indigenti studenti inquisitioni 
+      <lb ed="#L" n="67"/>veritatis, ergo sine virtutibus theologicis, &amp; maxime sine 
+      cha<lb ed="#L" n="68" break="no"/>ritate potest homo tendere prompte &amp; perfecte in obiectum 
+      <lb ed="#L" n="69"/>conueniens virtuti intellectiuae &amp; appetitiuae, hoc autem non 
+      es<lb ed="#L" n="70" break="no"/>set nisi virtutes acquisitae, tam intellectuales quam morales 
+      pos<lb ed="#L" n="71" break="no"/>sent sine theologicis, &amp; maxime sine charitate, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e197515-d1e385">
+               <lb ed="#L" n="72"/>
+               <!--8--> Sed dicet aliquis quod nullus actus appetitiuae partis est bonu. 
+      <lb ed="#L" n="73"/>&amp; virtuosus nisi ordinetur in fiuem vltimum quem respicit chari 
+      <lb ed="#L" n="74"/>tas, &amp; sic nullus poterit tendere virtuose in bonum morales 
+      sin<lb ed="#L" n="75" break="no"/>charitate. Sed istud non valet, quia si istud totum scilicet bonun 
+      <lb ed="#L" n="76"/>opus ex genere cum fine proximo non esset opus virtuosum, nis 
+      <lb ed="#L" n="77"/>includendo charitatis finem, puta quod hoc totum faciat 
+      pro<lb ed="#L" n="78" break="no"/>pter vitam aeternam. Tunc sic se haberet actus ex genere cum 
+      <lb ed="#L" n="79"/>suo sine proximo ad finem quem principaliter intendit charitas 
+      <lb ed="#L" n="80"/>sicut bonum opus ex genere, puta dare pauperi se habet ad finem 
+      <lb ed="#L" n="81"/>proximum. Sed ita est quod bonum opus ex genere non habet 
+      ali<lb ed="#L" n="82" break="no"/>quam specialem virtutem a qua eliciatur praeter illam quae re¬ 
+      <!--00554.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>spicit finem proximum ergo, similiter totum opus ex genere cum 
+      <lb ed="#L" n="84"/>fine suo proximo non haberet aliquam aliam virtutem a 
+      charita<lb ed="#L" n="85" break="no"/>te a qua eliceretur, quod falsum est, quia tunc sequeretur quod non 
+      <lb ed="#L" n="86"/>esset aliqua virtus alia quam charitas, ergo opus bonum ex 
+      ge<lb ed="#L" n="87" break="no"/>nere includens finem conuenientem proximum ex hoc est 
+      vir<lb ed="#L" n="88" break="no"/>tuosum. Et hoc vt dictum est, potest esse fine charitate, quare &amp;c. 
+      <lb ed="#L" n="89"/>Item virtuosum est attingere ad bonum sibi conueniens 
+      secun<lb ed="#L" n="90" break="no"/>dum suam naturam. Sed bonum conueniens homini secundum 
+      <lb ed="#L" n="91"/>quod est homo, est operari secundum rectam rationem, cuius 
+      re<lb ed="#L" n="92" break="no"/>ctitudo potest esse sine charitate, quantum ad cognoscibilia &amp; 
+      <lb ed="#L" n="93"/>agibilia naturaliter, ergo vera virtus acquisita potest esse in 
+      ho<lb ed="#L" n="94" break="no"/>mine sine charitate. Sic ergo patet quod virtutes acquisitae non 
+      <lb ed="#L" n="95"/>sunt connexae cum theologicis primo modo sic, scilicet quod 
+      <lb ed="#L" n="96"/>essentia vnius dependeat necessario ex essentia aliterius. 
+      </p>
+            <p xml:id="jsnvu6-e197515-d1e449">
+               <lb ed="#L" n="97"/>
+               <!--9--> Item nec secundo modo, scilicet per connexionem earum in 
+      <lb ed="#L" n="98"/>vno tertio, quia praeter virtutes acquisitas &amp; theologicas no 
+      <lb ed="#L" n="99"/>sunt alij habitus nisi dona. Sed ratione donorum non potest esse 
+      <lb ed="#L" n="100"/>connexio virtutum acquisitarum cum theologicis, hec econuerso 
+      <lb ed="#L" n="101"/>ergo virtutes acquisitae non connectuntur cum theologicis 
+      me<lb ed="#L" n="102" break="no"/>diante tertio. Quod autem per dona non possint connecti virtu 
+      <lb ed="#L" n="103"/>tes acquisitae custheologicis patet, quia per easdem rationes, pe 
+      <lb ed="#L" n="104"/>quas probatum est quod virtutes acquisitae non necessario 
+      de<lb ed="#L" n="105" break="no"/>pendent a theologicis potest probari quod non dependent a 
+      do<lb ed="#L" n="106" break="no"/>nis, ergo ratione donorum non habent cum aliquo connexionem. 
+      </p>
+            <p xml:id="jsnvu6-e197515-d1e475">
+               <lb ed="#L" n="107"/>
+               <!--10--> Quantum vero ad tertium modum principalem, scilicet que 
+      <lb ed="#L" n="108"/>virtutes aliquae connectuntur seu exigunt se dispositine. 
+      Dicen<lb ed="#L" n="109" break="no"/>dum est quod virtutes morales acquisitae &amp; virtutes theologicae 
+      <lb ed="#L" n="110"/>sunt adinuicem connexae, sed differenter, quia virtutes 
+      theolo<lb ed="#L" n="111" break="no"/>gicae exigunt morales acquisitas vt purius &amp; feruentius eliciant 
+      <lb ed="#L" n="112"/>actum suum, quia illi in quibus non sunt sedatae passiones 
+      appe<lb ed="#L" n="113" break="no"/>titus sensitiui (quod fit per virtutes morales) non possunt ita pu 
+      <lb ed="#L" n="114"/>re tendere in cognitionem diuinae veritatis, nec ita feruenter 
+      ten<lb ed="#L" n="115" break="no"/>dere in dilectionem diuinae bonitatis sicut si in eis essent 
+      passio<lb ed="#L" n="116" break="no"/>nes sedatae, quia quanto vna potentia est intensius intenta circa 
+      <lb ed="#L" n="117"/>operationem suam, tanto magis alia potentia retrahitur a sua 
+      <lb ed="#L" n="118"/>operatione nisi vna operatio tendat in idem cum alia, vel iuuet 
+      <lb ed="#L" n="119"/>dispositiue ad aliam, sed quantum ad firmitatem in operando &amp; 
+      <lb ed="#L" n="120"/>ad perfectius resistendum omni actui vitioso virtutes morales 
+      <lb ed="#L" n="121"/>exigunt charitatem. Charitas enim quamdiu manet, excludit 
+      <lb ed="#L" n="122"/>omne peccatum mortale &amp; per consequens omnem actum 
+      vi<lb ed="#L" n="123" break="no"/>tiosum in quo posset tale peccatum contingere. De ratione 
+      au<lb ed="#L" n="124" break="no"/>tem virtutis acquisitae non est excludere omnem actum 
+      vitio<lb ed="#L" n="125" break="no"/>sum etiam manente virtute. Sed solum facere quod homo 
+      re<lb ed="#L" n="126" break="no"/>gulariter &amp; communiter resistat actui vitioso. Et ideo aliquis qui 
+      <lb ed="#L" n="127"/>per grauem motum timoris, vel alterius passionis caderet in 
+      <lb ed="#L" n="128"/>peccatum intemperantiae vel alterius generis non obstante 
+      vir<lb ed="#L" n="129" break="no"/>tute morali, per charitatem firmiter stat &amp; repellit omne 
+      pec<lb ed="#L" n="130" break="no"/>catum. Et sic patet quomodo virtutes morales acquisitae, &amp; 
+      theo<lb ed="#L" n="131" break="no"/>logicae coexigunt se dispositiue. 
+      </p>
+            <p xml:id="jsnvu6-e197515-d1e534">
+               <lb ed="#L" n="132"/>
+               <!--11.--> Ad primum argumentum dicendum quod quamuis 
+      chari<lb ed="#L" n="133" break="no"/>tas imperet actus omnium virtutum moralium, non oportet 
+      ta<lb ed="#L" n="134" break="no"/>men quod illi actus procedant ab habitibus acquisitis, &amp; 
+      nihi<lb ed="#L" n="135" break="no"/>lominus per actus tales lex impletur quae solum praecepit actus 
+      <lb ed="#L" n="136"/>quoad essentiam actus &amp; non quoad modum qui est faciliter &amp; 
+      <lb ed="#L" n="137"/>delectabiliter operari quemadmodum ponunt habitus acquisiti. 
+      <lb ed="#L" n="138"/>Quod dicitur postea quod ea quae sunt ad finem dependent a 
+      <lb ed="#L" n="139"/>fine verum est, sed obiectum charitatis non est finis proximus 
+      <lb ed="#L" n="140"/>virtutum moralium, sed solum remotus, &amp; ideo actus virtutum 
+      <lb ed="#L" n="141"/>moralium potest esse bonus bonitate morali ex ordine ad finem 
+      <lb ed="#L" n="142"/>proximum dato quod actu non ordinetur ad finem vltimum 
+      <lb ed="#L" n="143"/>quamuis non possit habere bonitatem meritoriam ad quam 
+      re<lb ed="#L" n="144" break="no"/>quiritur ordinatio eius in finem charitatis. 
+      </p>
+            <p xml:id="jsnvu6-e197515-d1e567">
+               <lb ed="#L" n="145"/>
+               <!--12--> Aliud argumentum probat quod virtutes morales non 
+      de<lb ed="#L" n="146" break="no"/>pendent quoad essentiam suam a theologicis, nec econuerso, 
+      <lb ed="#L" n="147"/>quod est concessum. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="123-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2692"><!-- l2d7prae -->
+            <head xml:id="jsnvu6-d1e2692-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2692-d1e103">
+               <lb ed="#L" n="26"/>Sententia huius septimae distinctionis 2 
+      <lb ed="#L" n="27"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-d1e2692-d1e110">
+               <lb ed="#L" n="28"/>SVPRA dictum est &amp;c. Superius determinaui 
+      <lb ed="#L" n="29"/>mag. de statu angelorum tam peccantium quan 
+      <lb ed="#L" n="30"/>non, siue beatorum &amp; malorum. Hic vero 
+      deter<lb ed="#L" n="31" break="no"/>minat de potestate vtrorumque. Et diuiditur in 
+      <lb ed="#L" n="32"/>gi duas. Primo determinat eorum potestatem 
+      quan<lb ed="#L" n="33" break="no"/>tum ad eorum meritum. Secundo quantum ad eorum 
+      assum<lb ed="#L" n="34" break="no"/>ptionem corporum. Secunda in principio 8. dist. Solet etiam in 
+      <lb ed="#L" n="35"/>quaestione. Prima est praesentis lectionis, &amp; diuiditur in duas. 
+      <lb ed="#L" n="36"/>Primo determinat de potestate vtrorumque scilicet tam 
+      bono<lb ed="#L" n="37" break="no"/>rum quam malorum generaliter. Secundo de potestate malorum 
+      <lb ed="#L" n="38"/>specialiter. Secunda ibi, &amp; licet angeli mali. Prima diuiditur in 
+      <lb ed="#L" n="39"/>quatuor partes. Primo determinat eorum potestatem. Secundo 
+      <lb ed="#L" n="40"/>obiicit contra determinata. Tertio soluit. Quarto concludit 
+      so<lb ed="#L" n="41" break="no"/>lutionem. Secunda ibi, sed &amp; semper nec boni peccare possunt. 
+      <lb ed="#L" n="42"/>Tertia, ad quod dicimus. Quarta, non ergo post 
+      conformatio<lb ed="#L" n="43" break="no"/>nem. Secunda principalis in qua principaliter determinat de 
+      po<lb ed="#L" n="44" break="no"/>testate malorum, &amp; diuiditur in duas. Primo determinat eorum 
+      <lb ed="#L" n="45"/>virtutem in cognoscendo. Secundo in operando. Secunda ibi, 
+      <lb ed="#L" n="46"/>quorum scientia &amp; virtute, haec secunda diuiditur in tres. 
+      Pri<lb ed="#L" n="47" break="no"/>mo determinat ad quid eis data est potestas. Secundo ostendi 
+      <lb ed="#L" n="48"/>quam potestatem habent &amp; quam non. Tertio excusat a 
+      perfe<lb ed="#L" n="49" break="no"/>cta determinatione. Secunda ibi nec putandum est. Tertia, 
+      quo<lb ed="#L" n="50" break="no"/>que sciendum. Secunda istatum diuiditur in tres. Primo ostendit 
+      <lb ed="#L" n="51"/>quod non possunt ad nutum corporalem materiam 
+      transmuta<lb ed="#L" n="52" break="no"/>re. Secundo ostendit quod non possunt creare. Tertio quod 
+      a<lb ed="#L" n="53" break="no"/>liquod ministerium creationis possunt rebus adhibere. Et 
+      decla<lb ed="#L" n="54" break="no"/>rat per exempla. Secunda ibi, nec sane creatores. Tertia ibi 
+      si<lb ed="#L" n="55" break="no"/>cut ergo nec parentes. Haec est diuisio literae in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2692-d1e173">
+               <lb ed="#L" n="56"/>
+               <!--2--> IN SPECIALI sic procedit &amp; proponit primo quod 
+      <lb ed="#L" n="57"/>mali angeli post peccatu non possunt benefacere, licet possinm. 
+      <lb ed="#L" n="58"/>bonum facere, nec etiam boni post confirmationem possunt 
+      <lb ed="#L" n="59"/>peccare. Deinde obiicit dicens quod si boni angeli non possunt 
+      <lb ed="#L" n="60"/>peccare, ergo non habent liberum arbitrium. quia secundum 
+      <lb ed="#L" n="61"/>Hieron. omnis creatura ex lib. arb. est vertibilis. Postea 
+      respon<lb ed="#L" n="62" break="no"/>det dicens quod absque dubio boni peccare non possunt, nec 
+      <lb ed="#L" n="63"/>propter hoc minus habent de lib. arb. quia non coactione 
+      ali<lb ed="#L" n="64" break="no"/>qua, sed spontanea voluntate &amp; immutabiliter bonum diliguni 
+      <lb ed="#L" n="65"/>&amp; eligunt, sicut nec minus habent de libertate qui non possum 
+      <lb ed="#L" n="66"/>seruire peccato, sic nec angeli minus habent quia non possum 
+      <lb ed="#L" n="67"/>peccaret. Haec autem immutabilitas non est eis ex natura, sed 
+      <lb ed="#L" n="68"/>ex gratia confirmante. Deinde concludit suum intentum. Et 
+      sub<lb ed="#L" n="69" break="no"/>dit quod auctoritas Hier. in contrarium intelligitur de lib. arb. 
+      <lb ed="#L" n="70"/>per gratiam non confirmato. Postea determinat de potestate 
+      <lb ed="#L" n="71"/>malorum specialiter, &amp; dicit quod daemones tripliciter aliqua 
+      <lb ed="#L" n="72"/>cognoscunt, vel subtilitate suae naturae, vel experientia 
+      tempo<lb ed="#L" n="73" break="no"/>rum, vel reuelatione superiorum spirituum. Subdit etiam quod 
+      <lb ed="#L" n="74"/>ipsi quae futura sunt aliquando praesciunt. Deinde dicit quod 
+      <lb ed="#L" n="75"/>virtute &amp; scientia daemonum magicae artes fiunt. datur autem 
+      <lb ed="#L" n="76"/>daemonibus potestas, vel ad fallendum fallaces, vel ad monendum 
+      <lb ed="#L" n="77"/>fideles, vel ad exercitium &amp; probationem sanctorum. Deinde 
+      <lb ed="#L" n="78"/>dicit quod daemones neque sunt putandi habere hanc 
+      potesta<lb ed="#L" n="79" break="no"/>tem (scilicet quod materia corporalis eis ad nutum seruiat.) 
+      <lb ed="#L" n="80"/>Deinde dicit quod non possunt aliquid creare, sed quaecunque 
+      <!--00314.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>faciunt non ex sua virtute, sed ex occultis rerum seminibus 
+      pro<lb ed="#L" n="82" break="no"/>ducunt. postea dicit quod aliquod ministerium daemones 
+      adhi<lb ed="#L" n="83" break="no"/>bere possunt, quod probat per simile in exercitiis humanis, sicut 
+      <lb ed="#L" n="84"/>agricola ad productionem fructum, &amp; praedicatores ad 
+      illumi<lb ed="#L" n="85" break="no"/>nationem mentium. Vitimo subdit quod aliqua possunt angeli 
+      <lb ed="#L" n="86"/>mali facere per naturam, quae non permittuntur a deo facere. 
+      <lb ed="#L" n="87"/>Alia multa facere non possunt, quia ad ea natura eorum non 
+      ex<lb ed="#L" n="88" break="no"/>tendit: quae autem possunt, &amp; quae non, homini determinare 
+      <lb ed="#L" n="89"/>difficile est. Et in hoc, &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

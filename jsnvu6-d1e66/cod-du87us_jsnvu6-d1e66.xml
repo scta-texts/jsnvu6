@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="1-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e66"><!-- l1prolprae -->
+            <head xml:id="jsnvu6-d1e66-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e66-d1e103">
+               <lb ed="#L" n="106"/>Incipit breuis, ingeniosa, &amp; perutilis diuisio literae 
+      <lb ed="#L" n="107"/>Magistri Sententiarum, quae ad perfectam 
+      intelle<lb ed="#L" n="108" break="no"/>ctionem eiusdem plurimum confert, edita per 
+      soli<lb ed="#L" n="109" break="no"/>dissimum diuinae veritatis inquisitorem, Magistrum 
+      <lb ed="#L" n="110"/>Durandum de Sancto Porciano. 
+      <lb ed="#L" n="111"/>Diuisio literae Prologi. 
+</p>
+            <p xml:id="jsnvu6-d1e66-d1e119">
+               <lb ed="#L" n="112"/>CVPIENTES aliquid de penuria &amp;c. Huic operi 
+      <lb ed="#L" n="113"/>Magister praemittit Prooemium suum: in quo 
+      prin<lb ed="#L" n="114" break="no"/>cipaliter tria facit: quia primo reddit auditorem 
+      be<lb ed="#L" n="115" break="no"/>neuolum, secundo docilem, tertio attentum. Prima 
+      <lb ed="#L" n="116"/>in principio, Cupientes: secunda ibi, horum igitur Deo 
+      odibi<lb ed="#L" n="117" break="no"/>lem: tertia ibi, non igitur debet hic labor. Primo reddit 
+      audi<lb ed="#L" n="118" break="no"/>torem beneuolum, assignans causas mouentes ipsum ad 
+      com<lb ed="#L" n="119" break="no"/>pilationem huius operis: ex quibus ostenditur affectus eius in 
+      <lb ed="#L" n="120"/>Deum &amp; proximum. Sunt autem tres causae ipsum mouentes. 
+      <lb ed="#L" n="121"/>Prima sumitur ex parte sui, scilicet desiderium proficiendi in 
+      <lb ed="#L" n="122"/>Ecclesia Dei: secunda ex parte Dei, scilicet promissio mercedis, 
+      <lb ed="#L" n="123"/>&amp; confidentia diuini auxilij: tertia ex parte proximi, videlicet 
+      <lb ed="#L" n="124"/>profectus fratrum &amp; sociorum. Quarum primae duae insinuant 
+      <lb ed="#L" n="125"/>charitatem in Deum: tertia vtilitatem in proximum. Econtra 
+      <lb ed="#L" n="126"/>a sunt tres causae ipsum ab hoc opere retrahentes. Prima est ex 
+      <lb ed="#L" n="127"/>parte sui, scilicet defectus ingenij &amp; scientiae: secunda ex parte 
+      <lb ed="#L" n="128"/>operis, scilicet altitudo materiae &amp; magnitudo laboris: tertia 
+      <lb ed="#L" n="129"/>ex parte proximi, scilicet inuidorum contradictio. 
+      </p>
+            <p xml:id="jsnvu6-d1e66-d1e161">
+               <lb ed="#L" n="130"/>
+               <!--2--> Sic igitur in hac parte, vbi reddit auditorem beneuolum, 
+      <lb ed="#L" n="131"/>sex facit per ordinem. Primo enim ponit causam vnam 
+      mouen<lb ed="#L" n="132" break="no"/>tem, &amp; ei annectit statim causam contrariam retrahentem. 
+      Se<lb ed="#L" n="133" break="no"/>cundo, adiungit aliam causam mouentem, cum alia retrahente. 
+      <lb ed="#L" n="134"/>Tertio, has quatuor causas simul colligit per oppositum. 
+      Quar<lb ed="#L" n="135" break="no"/>to ostendit causarum mouentium victoriam ad retrahentes. 
+      Quin<lb ed="#L" n="136" break="no"/>to ponit tantum causam mouentem. Sexto ponit causam 
+      retra<lb ed="#L" n="137" break="no"/>hentem. Secunda pars incipit ibi, Ardua scandere. Tertia ibi, 
+      de<lb ed="#L" n="138" break="no"/>lectat vos veritas. Quarta ibi, quam vincit zelus domus 
+      Domi<lb ed="#L" n="139" break="no"/>ni. Quinta ibi, non valentes studiosorum. Sexta ibi, quamuis non 
+      <lb ed="#L" n="140"/>ambigamus. Item vltima in tres partes diuiditur: quia primo 
+      <lb ed="#L" n="141"/>ponit contradictionis causam. Secundo contradictionis 
+      euiden<lb ed="#L" n="142" break="no"/>tiam. Tertio contradicentium nequitiam. Secunda pars incipit 
+      <lb ed="#L" n="143"/>ibi, quia dissentientibus voluntatum motibus. Tertia ibi, qui non 
+      <lb ed="#L" n="144"/>rationi voluntatem subiiciunt. Et haec vltima diuiditur in tres 
+      <lb ed="#L" n="145"/>partes, quia primo ostendit contradicentium nequitiam ex 
+      inor<lb ed="#L" n="146" break="no"/>dinata affectione. Secundo, ex simulata religione. Tertio, ex 
+      <lb ed="#L" n="147"/>pertinaci contentione. Secunda pars incipit ibi, habent 
+      ratio<lb ed="#L" n="148" break="no"/>nem sapientiae. Tertia ibi, qui contentioni studentes. 
+      </p>
+            <p xml:id="jsnvu6-d1e66-d1e207">
+               <lb ed="#L" n="149"/>
+               <!--3--> Secunda pars principalis, in qua reddit auditorem docilem, 
+      diui<lb ed="#L" n="150" break="no"/>ditur in quatuor partes: secundum quod praemittit quatuor 
+      cau<lb ed="#L" n="151" break="no"/>sas, ex quibus redditur auditor docilis. Primo enim ponit 
+      cau<lb ed="#L" n="152" break="no"/>sam finalem: secundo efficientem: tertio materialem quarto 
+      for<lb ed="#L" n="153" break="no"/>malem. Secunda pars incipit ibi, in labore multo. Tertia ibi, ex 
+      <lb ed="#L" n="154"/>testimoniis veritatis. Quarta ibi, in quatuor libris distinctum. 
+      </p>
+            <p xml:id="jsnvu6-d1e66-d1e226">
+               <lb ed="#L" n="155"/>
+               <!--4--> Illa pars, in qua reddit auditorem attentum, diuiditur in tres 
+      <lb ed="#L" n="156"/>partes, secundum quod ex tribus reddit ipsum attentum. 
+      Pri<lb ed="#L" n="157" break="no"/>mo ex operis vtilitate: secundo ex materiae profunditate: tertio 
+      <lb ed="#L" n="158"/>ex modi procedendi ordinabilitate. Secunda pars incipit ibi, 
+      <lb ed="#L" n="159"/>In hoc autem tractatu. Tertia ibi, vt autem quod quaeritur. Haec 
+      <lb ed="#L" n="160"/>diuisio est, &amp; sententia in generali¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e66-d1e244">
+               <lb ed="#L" n="161"/>
+               <!--5--> In speciali vero sic procedit Magister. Vt enim reddat 
+      audi<lb ed="#L" n="162" break="no"/>torem beneuolum, primo vnam causam ponit mouentem ipsum ad 
+      con<lb ed="#L" n="163" break="no"/>pilationem huius operis, quae est desiderium proficiendi &amp; statim 
+      <!--00067.xml-->
+      <pb ed="#L" n="2-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>adiungit contrariam eausam ipsum retrahentem, quae est defect? ingo 
+      <lb ed="#L" n="2"/>nij &amp; scientiae. Postea ponit aliam causam retrahentem, quae est 
+      alti<lb ed="#L" n="3" break="no"/>tudo materiae huius operis, &amp; magnitudo laboris. Et subiungit 
+      <lb ed="#L" n="4"/>alia causam mouentem, scilicet confidentiam diuini auxilij, &amp; 
+      prae<lb ed="#L" n="5" break="no"/>mium a Christo promissum. Postea has quatuor causas 
+      enumera<lb ed="#L" n="6" break="no"/>tas simul colligit. Deinde ostendit victoriam causarum mouen 
+      <lb ed="#L" n="7"/>tium. Et dicit quod illa duo, quae videntur eum retrahere a 
+      com<lb ed="#L" n="8" break="no"/>pilatione huius operis, vincit ardor intensus, quem habet ad 
+      ec<lb ed="#L" n="9" break="no"/>clesiam, quo inflammatus opus aggreditur. Et suam intensionem 
+      <lb ed="#L" n="10"/>circa tria principaliter dicit versari, scilicet circa fidei defensio 
+      <lb ed="#L" n="11"/>nem: catholicae fidei explanationem: sacramentorum etiam 
+      manife<lb ed="#L" n="12" break="no"/>stationem. Postea ponit aliam causam mouentem, quae est charitas 
+      <lb ed="#L" n="13"/>&amp; instantia fratrum &amp; sociorum. Deinde ponit tertiam causam 
+      re<lb ed="#L" n="14" break="no"/>trahentem praecedenti contrariam, quae est contradictio, &amp; 
+      in<lb ed="#L" n="15" break="no"/>ordinatio inuidorum. Ibidem ponit contradictionis causam, quae 
+      <lb ed="#L" n="16"/>est discordia &amp; inordinatio: ex quibus prouenit error: ex erro. 
+      <lb ed="#L" n="17"/>re autem inuidia: ex inuidia contradictio oritur. Et statim ponit 
+      <lb ed="#L" n="18"/>contradicentium nequitiam ex inordinata affectione: quia scilicet 
+      <lb ed="#L" n="19"/>voluntatem suam non subiiciunt rationi: &amp; rationis rectitudinem 
+      <lb ed="#L" n="20"/>non sequuntur: nec autoritati sacrae doctrinae se subiiciunt: sed 
+      <lb ed="#L" n="21"/>tam rationi, quam scripturae autoritati sensum suum praeponunt. 
+      <lb ed="#L" n="22"/>Deinde tangit eorum nequitiam ex simulata religione: quia 
+      sci<lb ed="#L" n="23" break="no"/>licet quidam superflua &amp; superstitiosa religione, exterius 
+      simu<lb ed="#L" n="24" break="no"/>lata, habent argumentum ad ostendendum sapientiam, quandam 
+      <lb ed="#L" n="25"/>doctrina nouam adinueniendo. Et statim ponit eorum nequitiam 
+      <lb ed="#L" n="26"/>ex pertinaci contentione: quia scilicet clamosa contentione 
+      <lb ed="#L" n="27"/>impugnant pertinaciter veritatem. 
+      </p>
+            <p xml:id="jsnvu6-d1e66-d1e320">
+               <lb ed="#L" n="28"/>
+               <!--6--> Sequitur altera pars, in qua reddit aunditorem docilem, causas 
+      <lb ed="#L" n="29"/>operis assignando: vbi primo ponit causam finalem, quae est 
+      du<lb ed="#L" n="30" break="no"/>piex, scilicet destructio erroris, &amp; manifestatio veritatis. 
+      Dein<lb ed="#L" n="31" break="no"/>de ponit causam efficientem, quae est duplex: principalis, scilicet 
+      <lb ed="#L" n="32"/>Deus: &amp; instrumentalis, vt ipse Magister. Ibidem ponit causam ma 
+      <lb ed="#L" n="33"/>terialem, scilic et &amp; exempla, &amp; autoritates sanctorum. Deinde 
+      po<lb ed="#L" n="34" break="no"/>nit causam formalem, quae est duplex, scilicet forma tractatus. 
+      <lb ed="#L" n="35"/>quae consissit in diuisione operis: &amp; forma tractandi, quae est 
+      qui<lb ed="#L" n="36" break="no"/>dam modus agendi. Deinde reddit auditorem attentum. Et primo 
+      <lb ed="#L" n="37"/>ex operis vtilitate, quia scilicet illa, quae alibi sunt diffusa, hic 
+      <lb ed="#L" n="38"/>breuiter &amp; vtiliter copilantur. Deinde reddit ipsum attentum, 
+      <lb ed="#L" n="39"/>propter materiae profunditatem: quia scilicet hoc opus versatur 
+      <lb ed="#L" n="40"/>circa profundas quaestiones veritatis. Vltimo reddit ipsum 
+      at<lb ed="#L" n="41" break="no"/>tentum ex modi procedendi ordinabilitate: quia scilicet singulorum 
+      <lb ed="#L" n="42"/>librorum praemittit capitula ad facilitatem quaesitorum. Et in hoc 
+      <lb ed="#L" n="43"/>terminatur sententia totius Prooemij in generali, &amp; speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="145-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3368"><!-- l2d23q3 -->
+            <head xml:id="jsnvu6-d1e3368-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e3368-Hd1e103" type="question-title">Utrum homo in statu innocentiae potuerit decipi</head>
+            <p xml:id="jsnvu6-d1e3368-d1e106">
+               <lb ed="#L" n="73"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="74"/>Vtrum homo in statu innocentiae potuit 
+      <lb ed="#L" n="75"/>Thom. 15.94. ar. 4.
+    </p>
+            <p xml:id="jsnvu6-d1e3368-d1e115">
+               <lb ed="#L" n="76"/>OTEA quaeritur vtrum homo in statu 
+      innocen<lb ed="#L" n="77" break="no"/>tiae potuit decipi. Et videtur quod sic, quia quilibet 
+      po<lb ed="#L" n="78" break="no"/>test decipi circa ea quae ignorat, sed homo in statu 
+      <lb ed="#L" n="79"/>innocentiae multa ignorasset, scilicet cogitatione. 
+      <lb ed="#L" n="80"/>adiorum &amp; futura contingentia, ergo circa talia decipi potuit.
+    </p>
+            <p xml:id="jsnvu6-d1e3368-d1e128">
+      <!--00357.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>2 Item Apostolus dicir i ad Timot.. Mulier seducta in 
+      pra<lb ed="#L" n="82" break="no"/>uaricatione fuit, &amp; ipsa confitetur hoc, Genes. 3. Serpens 
+      dece<lb ed="#L" n="83" break="no"/>pit me, ergo similiter alij decipi potuerunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e3368-d1e142">
+               <lb ed="#L" n="84"/>
+               <!--3--> IN CONTRARIVM est qud dicit Aug. Approbare 
+      <lb ed="#L" n="85"/>vera pro falsis non est natura hominis instituti, sed poena damnati. 
+      </p>
+            <p xml:id="jsnvu6-d1e3368-d1e151">
+               <lb ed="#L" n="86"/>
+               <!--4--> RESPONSIO. Videnda sunt duo. Primum est quam 
+      <lb ed="#L" n="87"/>scientiam in statu innocentiae homo habuisset. Secundum erit, 
+      <lb ed="#L" n="88"/>vtrum decipi potuisset. 
+      </p>
+            <p xml:id="jsnvu6-d1e3368-d1e162">
+               <lb ed="#L" n="89"/>
+               <!--5--> Quantum ad primum secus loquendum est de primis 
+      pa<lb ed="#L" n="90" break="no"/>rentibus, &amp; secus de genitis ab eis: de primis autem parentibus. 
+      <lb ed="#L" n="91"/>tenendum est quod mox formati perfecti fuerunt secundum corpus 
+      <lb ed="#L" n="92"/>quantum ad quantitatem &amp; virtutem corporalem, &amp; secundum 
+      <lb ed="#L" n="93"/>animam, quantum ad scientiam speculatiuam &amp; moralem, 
+      nec<lb ed="#L" n="94" break="no"/>non quantum ad notitiam fidei, vt sufficiebat ad debitum regimen 
+      <lb ed="#L" n="95"/>vitae suae &amp; filiorum suorum. Cuius ratio est, quia semper impe 
+      <lb ed="#L" n="96"/>fectum sumit originem a perfecto, &amp; per ens actu reducitur aliquid 
+      <lb ed="#L" n="97"/>de potentia ad actum: sed res sic institutae sunt, vt essent aliorum 
+      <lb ed="#L" n="98"/>principia, &amp; non solum vt subsisterent in se, ergo institutae sunt in 
+      <lb ed="#L" n="99"/>statu perfecto, quantum congruebat eis vt essent aliorum 
+      prin<lb ed="#L" n="100" break="no"/>cipia. Sunt autem primi parentes instiruti principium aliorum, non 
+      <lb ed="#L" n="101"/>solum quo ad generationem carnalem, sed etiam quo ad 
+      disci<lb ed="#L" n="102" break="no"/>plinam &amp; eruditionem in speculabilibus, in moralibus, &amp; his qu 
+      <lb ed="#L" n="103"/>sunt fidei, cum non essent alij a quibus possent instrui: ergo fui 
+      <lb ed="#L" n="104"/>runt perfecti secundum corpus &amp; secundum animam in omnibus 
+      <lb ed="#L" n="105"/>quae dicta sunt. Cuius signum est, quia animalibus nomina 
+      im<lb ed="#L" n="106" break="no"/>posuit, Gen. 2. Nomina autem non imponuntur nisi rebus notis 
+      </p>
+            <p xml:id="jsnvu6-d1e3368-d1e206">
+               <lb ed="#L" n="107"/>
+               <!--6--> De genitis autem ab eis aliud fuisset, quia non statim 
+      fuis<lb ed="#L" n="108" break="no"/>sent perfecti, neque secundum corpus, neque secundum 
+      ani<lb ed="#L" n="109" break="no"/>mam: sed vtramque perfectionem acquisiuissent processu 
+      tem<lb ed="#L" n="110" break="no"/>poris, sicut &amp; nos, licet facilius omni impedimento cessante, 
+      si<lb ed="#L" n="111" break="no"/>cut tactum fuit supra, distinct. 20. 
+      </p>
+            <p xml:id="jsnvu6-d1e3368-d1e222">
+               <lb ed="#L" n="112"/>
+               <!--7--> Nunc restat videre de secundo, scilicet vtrum potuerint 
+      de<lb ed="#L" n="113" break="no"/>cipi. Et dicendum quod licet potuerint aliqua nescire, non 
+      potue<lb ed="#L" n="114" break="no"/>runt tamen errare vel decipi. Et quia de his quae sunt anima 
+      <lb ed="#L" n="115"/>proportionabiliter loquendum est ad ea quae sunt corporis, cum 
+      <lb ed="#L" n="116"/>secudum vtrumque in statu innocentiae homo fuisset perfectus 
+      quan<lb ed="#L" n="117" break="no"/>tum exigebat tempus &amp; status: sed in statu illo licet in corpor 
+      <lb ed="#L" n="118"/>fuisset carentia alicuius perfectionis absolute (puta claritatis) 
+      <lb ed="#L" n="119"/>non tamen aliquod malum inesse poterat, ergo similiter ex 
+      par<lb ed="#L" n="120" break="no"/>te animae, licet potuisset esse carentia alicuius scientiae, non enim 
+      <lb ed="#L" n="121"/>sciuit omnia, quia nec fuit perfectior angelis, in quibus tamen 
+      <lb ed="#L" n="122"/>Dionys. ponit nescientiam. Non fuit tamen in eo aliquod 
+      ma<lb ed="#L" n="123" break="no"/>lum, aestimatio autem falsi semper est malum intellectus, ideo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3368-d1e253">
+               <lb ed="#L" n="124"/>
+               <!--8--> Sed aduertendum est quod sicut in quibusdam praeseruabatur 
+      <lb ed="#L" n="125"/>homo in statu illo a malo corporis, puta a corruptione vel 
+      lae<lb ed="#L" n="126" break="no"/>sione, partim a principio intrinseco, scilicet a vi naturae vel mu 
+      <lb ed="#L" n="127"/>nere originalis iustitiae, partim ab extrinseco, scilicet a 
+      proui<lb ed="#L" n="128" break="no"/>dentia diuina ei assistente, ne quis extrinsecus gladio vel alio 
+      <lb ed="#L" n="129"/>modo mortem vel laesionem inferret, sic ex parte animae a 
+      <lb ed="#L" n="130"/>deceptione praeseruabatur respectu quorundam ? principio 
+      <lb ed="#L" n="131"/>intrinseco, scilicet respectu eorum, quorum scientiam 
+      habuis<lb ed="#L" n="132" break="no"/>set per scientiam suam, respectu vero aliorum quorum 
+      scien<lb ed="#L" n="133" break="no"/>tiam non habuisset praeseruatus fuisset ex diuina prouidentia 
+      <lb ed="#L" n="134"/>sibi assistente, ne falsis assensum praeberet. 
+      </p>
+            <p xml:id="jsnvu6-d1e3368-d1e283">
+               <lb ed="#L" n="135"/>
+               <!--9--> Et per hoc patet responsio ad primum argumentum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3368-d1e290">
+               <lb ed="#L" n="136"/>
+               <!--10--> Ad secundum dicendum, quod seductio mulieris sequuta est 
+      <lb ed="#L" n="137"/>peccatum internae eleuationis: quia peccauit non prius seducta 
+      <lb ed="#L" n="138"/>sed ex inconsideratione alicuius circunstantiae quae fuerat 
+      con<lb ed="#L" n="139" break="no"/>sideranda. vnde August. II. super Genes. dicit quod mulier verbis 
+      <lb ed="#L" n="140"/>serpentis non crederet, scilicet a bono &amp; vtili diuinitus se fuisse 
+      <lb ed="#L" n="141"/>prohibitos, nisi iam inesset menti eius amor propriae 
+      potesta<lb ed="#L" n="142" break="no"/>tis, &amp; quaedam de se superba praesumptio. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

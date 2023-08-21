@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="79-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1675"><!-- l1d34q3 -->
+            <head xml:id="jsnvu6-d1e1675-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e1675-Hd1e103" type="question-title">Utrum convenienter dicatur quod sint tres personae unius essentiae</head>
+            <p xml:id="jsnvu6-d1e1675-d1e106">
+               <lb ed="#L" n="158"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="159"/>Vtrum conuenienter dicatur quod sint tres 
+      <lb ed="#L" n="160"/>personae vnius essentiae. 
+      <lb ed="#L" n="161"/>Thom. 1. q. 39. art. 2. 
+    </p>
+            <p xml:id="jsnvu6-d1e1675-d1e117">
+      <!--00225.xml-->
+               <pb ed="#L" n="80-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>TERTIO quaeritur vtrum conuenienter dica 
+      <lb ed="#L" n="2"/>tur quod sint tres personae vnius essentiae. Ft v 
+      <lb ed="#L" n="3"/>detur que non, quia secundum Aristotelem 
+      pri<lb ed="#L" n="4" break="no"/>mo Elenchorum eadem est ratio vnius soliu 
+      <lb ed="#L" n="5"/>Il &amp; simpliciter vt vnius hominis &amp; hominis, &amp; 
+      <lb ed="#L" n="6"/>similiter videntur quod eadem sit ratio essentiae &amp; vnius esser 
+      <lb ed="#L" n="7"/>tiae, sed non bene dicitur quod sint tres personae essentiae, 
+      er<lb ed="#L" n="8" break="no"/>go nec quod sint tres personae vnius essentiae. 
+      </p>
+            <p xml:id="jsnvu6-d1e1675-d1e143">
+               <lb ed="#L" n="9"/>
+               <!--2--> IN CONTRARIVM est quod habetur in litera. 
+      </p>
+            <p xml:id="jsnvu6-d1e1675-d1e151">
+               <lb ed="#L" n="10"/>
+               <!--3--> RESPONSIO. Dicendum quod bene conuenienter di 
+      <lb ed="#L" n="11"/>citur quod tres personae sint vnius essentiae quod patet sic. II 
+      <lb ed="#L" n="12"/>lud bene &amp; conuenienter dicitur quod vere &amp; congrue, sed q 
+      <lb ed="#L" n="13"/>tres personae dicantur esse vnius essentiae dicitur vere &amp; congrue 
+      <lb ed="#L" n="14"/>ergo &amp;c. Maior patet, quia in propositionibus quae sunt signa 
+      <lb ed="#L" n="15"/>rerum tota bonitas est ex congruitate locutionis quae pertine 
+      <lb ed="#L" n="16"/>ad grammaticum, &amp; ex veritate quae pertinet ad logicum, &amp; idec 
+      <lb ed="#L" n="17"/>illud dicitur conuenienter &amp; bene quod dicitur congrue quo ad 
+      <lb ed="#L" n="18"/>grammaticum, &amp; vere quo ad logicum, &amp; haec fuit maior. Mino 
+      <lb ed="#L" n="19"/>probatur, quia congruitas est in constructione, dicendo quod sunt 
+      <lb ed="#L" n="20"/>tres personae vnius essentiae sicut est congruitas dicendo ista 
+      <lb ed="#L" n="21"/>mulier est egregiae formae &amp; vterque genitiuus construitur ex 
+      <lb ed="#L" n="22"/>vi designationis essentiae secundum grammaticos, quia per 
+      ta<lb ed="#L" n="23" break="no"/>lem constructionem designatur aliqua proprietas secundum 
+      <lb ed="#L" n="24"/>quam essentia vel natura quaecunque habetur a supposito vno 
+      <lb ed="#L" n="25"/>vel pluribus, &amp; ob hoc oportet quod sint plures genitiui quorum 
+      <lb ed="#L" n="26"/>vnus dicat naturam &amp; alius proprietatem naturae nisi ex 
+      ali<lb ed="#L" n="27" break="no"/>quo vsu vnus genitiuus habeat vim plurium, ficut dicitur iste 
+      <lb ed="#L" n="28"/>est homo consilij intelligitur magni consilij vel virtutis, id est, 
+      <lb ed="#L" n="29"/>magnae virtutis &amp; sic de aliis. Et etiam veritas in 
+      propositio<lb ed="#L" n="30" break="no"/>ne, quia per talem enunciationem significatur quod essentia 
+      diui<lb ed="#L" n="31" break="no"/>na habeatur a tribus vt indiuisa. hoc autem est verum, ergo &amp;c 
+      <lb ed="#L" n="32"/>Patet ergo quod bene dicitur quod tres personae sunt vnius 
+      <lb ed="#L" n="33"/>essentiae non autem vnius Dei, quia concretum non potest 
+      con<lb ed="#L" n="34" break="no"/>strui in ratione naturae vel formae sed potius in ratione suppo 
+      <lb ed="#L" n="35"/>siti, &amp; quia tres personae non conueniunt in vnitate suppositi, 
+      <lb ed="#L" n="36"/>ideo non bene dicitur quod tres personae sunt vnius Dei. 
+      </p>
+            <p xml:id="jsnvu6-d1e1675-d1e214">
+               <lb ed="#L" n="37"/>
+               <!--4--> AD ARGVMENTVM in oppositum dicendum? 
+      <lb ed="#L" n="38"/>licet sit eadem ratio essentiae &amp; vnius essentiae, tamen quidam 
+      <lb ed="#L" n="39"/>modus habendi essentiam designatur cum additur vnius qui non 
+      <lb ed="#L" n="40"/>defignatur absque eius additione, &amp; quia talis modus 
+      construen<lb ed="#L" n="41" break="no"/>di est ad designandum proprietatem essentiae habitae, ideo pri
+      <lb ed="#L" n="42"/>mus modus recipitur cum additione vnius non autem secundus. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

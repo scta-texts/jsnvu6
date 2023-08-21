@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="253-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e208765"><!-- l4d2q1 -->
+            <head xml:id="jsnvu6-e208765-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e208765-Hd1e103" type="question-title">Utrum omnia sacramenta nouae legis 
+      fuerint immediate a Deo instituta</head>
+            <p xml:id="jsnvu6-e208765-d1e106">
+               <lb ed="#L" n="122"/>QVAISTIO FRIMA 
+      <lb ed="#L" n="123"/>Vtrum omnia sacramenta nouae legis 
+      fue<lb ed="#L" n="124" break="no"/>rint immediate a Deo instituta. 
+      <lb ed="#L" n="125"/>Thom. 3. q 64. art. 2. 
+    </p>
+            <p xml:id="jsnvu6-e208765-d1e117">
+               <lb ed="#L" n="126"/>CIRCA distinctionem istam quaeritur de duobus. 
+      <lb ed="#L" n="127"/>Primum est de sacramentis no. le. in generali. 
+      Se<lb ed="#L" n="128" break="no"/>cundum est de baptismo Io. qui fuit praeparatiuus 
+      <lb ed="#L" n="129"/>ad baptismum Christi. Circa primum quaeruntur 
+      <lb ed="#L" n="130"/>duo. Primum de sacramentorum no. le. 
+      institutio<lb ed="#L" n="131" break="no"/>ne. Secundum est de eorum sufficientia, &amp; ordine. Quantum ad 
+      <lb ed="#L" n="132"/>primum quaeritur vtrum omnia sacramenta no. le. fuerint a Deo 
+      <lb ed="#L" n="133"/>immediate instituta. Et videtur quod non, quia ea quae instituta 
+      <lb ed="#L" n="134"/>sunt a Christo expresse traduntur in scriptura, quia per nihil aliud 
+      <lb ed="#L" n="135"/>scimus aliquid de factis Christi, sed de institutione multorum 
+      <lb ed="#L" n="136"/>sacramentorum nihil legitur in scriptura Christus dixisse, vt de 
+      <lb ed="#L" n="137"/>confirmatione &amp; extrema vnctione, ergo videtur quod talia non 
+      <lb ed="#L" n="138"/>fuerunt a Christo instituta. 
+      </p>
+            <p xml:id="jsnvu6-e208765-d1e148">
+               <lb ed="#L" n="139"/>
+               <!--2--> Item apostoli gesserunt vicem Christi in terris: sicut ergo 
+      <lb ed="#L" n="140"/>Christus potuit aliqua sacramenta instituere (vt dominus) ita 
+      <lb ed="#L" n="141"/>apostoli vt vicarij. 
+</p>
+            <p xml:id="jsnvu6-e208765-d1e160">
+               <lb ed="#L" n="142"/>IN CONTRARIVM arguitur, quia digniora sunt 
+      <lb ed="#L" n="143"/>sacramenta nouae legis quam veteris, sed sacramenta ve le 
+      fue<lb ed="#L" n="144" break="no"/>runt instituta a Deo, ergo fortiori ratione sacramenta no. le. 
+      </p>
+            <p xml:id="jsnvu6-e208765-d1e169">
+               <lb ed="#L" n="145"/>
+               <!--4--> RESPONSIO. Sciendum est quod si quaestio ista esset 
+      <lb ed="#L" n="146"/>de possibili, videlicet quis potuerit sacramenta instituere, 
+      dicen<lb ed="#L" n="147" break="no"/>dum esset quod solus Deus per primariam auctoritatem, sed per 
+      au<lb ed="#L" n="148" break="no"/>ctoritatem commissam potuissent homines quantum ad aliquid 
+      <lb ed="#L" n="149"/>si eis commissum fuisset. Primum apparet, quia sicut per 
+      prima<lb ed="#L" n="150" break="no"/>riam auctoritatem nullus potest legem condere nisi qui potest 
+      <lb ed="#L" n="151"/>tribuere legi virtutem subditos obligandi, sic ille solus potest 
+      sa<lb ed="#L" n="152" break="no"/>cramenta instituere qui pontest ipsis dare virtutem iustificandi: 
+      <lb ed="#L" n="153"/>quia sicut lex auctoritate legissatoris obligat, sic sacramentum ex 
+      <lb ed="#L" n="154"/>virtute instituentis non ex se iustificat, sed solus Deus potest 
+      tri<lb ed="#L" n="155" break="no"/>buere virtutem sacramentis iustificandi, ergo solus Deus per 
+      <lb ed="#L" n="156"/>primariam auctoritatem sacramenta instituere potest. 
+      </p>
+            <p xml:id="jsnvu6-e208765-d1e200">
+               <lb ed="#L" n="157"/>
+               <!--5--> Secundum patet quia omne illud potest Deus conferre 
+      ho<lb ed="#L" n="158" break="no"/>minibus cuius homines sunt capaces, quia Deus potest facere 
+      <lb ed="#L" n="159"/>quicquid creatura potest suscipere: sed homines sunt capaces hu 
+      <lb ed="#L" n="160"/>iusmodi auctoritatis instituendi sacramenta per potestatem 
+      <lb ed="#L" n="161"/>commissam vt vicarij, ergo &amp;c. Minor declaratur, quia sicut 
+      <!--00581.xml-->
+      <pb ed="#L" n="254-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nihil repugnat naturae rei quod homo sit minister dispensationis 
+      <lb ed="#L" n="2"/>sacramenti, sic etiam non repugnat quod sit minister institutioni: 
+      <lb ed="#L" n="3"/>quantum ad aliquid, s. quantum ad determinationem rerum, &amp; 
+      ver<lb ed="#L" n="4" break="no"/>borum, in quibus sacramenta consistunt (potuisset enim Deus 
+      <lb ed="#L" n="5"/>committere homini quod eligeret res &amp; verba in quibus 
+      sacramen<lb ed="#L" n="6" break="no"/>tum baptismi vel aliud quodcunque consisteret) sed quantum ad 
+      <lb ed="#L" n="7"/>virtutem sacramentorum siue eis inhaeretem, siue per pactionem 
+      <lb ed="#L" n="8"/>Dei assistentem non potuit homo esse capax institutionis 
+      sacra<lb ed="#L" n="9" break="no"/>mentorum, quia nec poterat talem virtutem sacramentis conferre 
+      <lb ed="#L" n="10"/>nec per pactionem diuinam eis adhibere quamuis posset 
+      promul<lb ed="#L" n="11" break="no"/>gare. Et ideo quantum ad hoc non potuit purus homo esse 
+      in<lb ed="#L" n="12" break="no"/>stitutor sacramentorum euam vt vicarius, sed solum quo ad 
+      pri<lb ed="#L" n="13" break="no"/>mum. Et quia vicarius vel minister non habet potestatem nisi 
+      <lb ed="#L" n="14"/>secundum formam sibi traditam, hinc est quod potuit committi homini 
+      <lb ed="#L" n="15"/>psacramenta institueret absque hoc quod instituta mutaret vel in 
+      <lb ed="#L" n="16"/>eis dispensaret, sicut &amp; nunc ministri qui sunt solum 
+      dispensa<lb ed="#L" n="17" break="no"/>tores sacramentorum mediantibus sacramentis spiritualem 
+      effe<lb ed="#L" n="18" break="no"/>ctum conferunt quem auferre non possunt, posset nihilominu: 
+      <lb ed="#L" n="19"/>Deum conferre vtramque auctoritatem homini . s. vt sactamenta 
+      <lb ed="#L" n="20"/>institueret, &amp; instituta mutaret, vel in institutis dispensaret. 
+      <lb ed="#L" n="21"/>Si vero quaestio sit de facto. s. an omnia sacramenta fuerint 
+      <lb ed="#L" n="22"/>a Deo immediate instituta, quamuis aliqui censuerint quod non, sec 
+      <lb ed="#L" n="23"/>solum illa quae sunt maioris necessitatis, aut dignitatis, vt 
+      ba<lb ed="#L" n="24" break="no"/>ptismus, poenitentia, eucharistia, &amp; ordo, de quorum 
+      institutio<lb ed="#L" n="25" break="no"/>ne expresse habetur in euangelio. Confirmatio vero &amp; 
+      extre<lb ed="#L" n="26" break="no"/>ma vnctio instituta fuerunt ab ipsis Apostolis (vt dicunt) eo ae 
+      <lb ed="#L" n="27"/>sunt minoris auctoritatis &amp; necessitatis. 
+</p>
+            <p xml:id="jsnvu6-e208765-d1e281">
+               <lb ed="#L" n="28"/>Tamen probabiliter tenetur, quod omnia fuerunt a Dec 
+      <lb ed="#L" n="29"/>immediate instituta. Cuius ratio est, quia fundamentum ecclesia 
+      <lb ed="#L" n="30"/>sunt fides &amp;t sacramenta, vnde Aug. tractans illud Io. 19. Vnu 
+      <lb ed="#L" n="31"/>militum lancea latus eius aperuit &amp; continuo exiuit sangui 
+      <lb ed="#L" n="32"/>&amp; aqua. Dicit quod sicut de latere Adam dormientis formata es 
+      <lb ed="#L" n="33"/>Eua, sic de latere Christi in cruce morientis formata est 
+      eccle<lb ed="#L" n="34" break="no"/>sia, quia inde fluxerunt ecclesiae sacramenta. Cum ergo nullum 
+      <lb ed="#L" n="35"/>sacramentorum fit quod non pertineat ad fundamentum 
+      eccli<lb ed="#L" n="36" break="no"/>siae, probabile est quod non solum quaedam, sed omnia fuerunt: 
+      <lb ed="#L" n="37"/>Christo fundatore ecclesiae instituta. In hoc tamen vera est 
+      pri<lb ed="#L" n="38" break="no"/>ma opinio quod si institutio sacramentorum vocetur 
+      promulgatis<lb ed="#L" n="39" break="no"/>eorum, sic illa quae sunt maioris necessitatis, vel dignitatis 
+      fue<lb ed="#L" n="40" break="no"/>runt a Christo instituta &amp; immediate promulgata. Quae veri 
+      <lb ed="#L" n="41"/>non sunt tantae dignitatis aut necessitatis, fuerunt promulgata 
+      <lb ed="#L" n="42"/>ab Apostolis processu temporis. 
+      </p>
+            <p xml:id="jsnvu6-e208765-d1e316">
+               <lb ed="#L" n="43"/>
+               <!--8--> Ex dictis sequitur quod omnia quae per ecclesiam post 
+      Chri<lb ed="#L" n="44" break="no"/>stum instituta sunt non sunt sacramenta, sed sacramentalia, v 
+      <lb ed="#L" n="45"/>benedictiones abbatum, abbatissarum, virginum, vestimentori 
+      <lb ed="#L" n="46"/>&amp; aquae benedictae, vnctiones regum, consecrationes altarium 
+      <lb ed="#L" n="47"/>ecclesiarum, vasorum, &amp; huiusmodi, in quibus sicut ecclesia pr 
+      <lb ed="#L" n="48"/>tuit instituere, sic potest destituere, &amp; dispensare, &amp; mutare. 
+      Vn<lb ed="#L" n="49" break="no"/>de Papa qui praeest toti ecclesiae potest de plenitudine potesta 
+      <lb ed="#L" n="50"/>tis suae committere consecrationem altaris, virginum vel 
+      abba<lb ed="#L" n="51" break="no"/>tum, &amp; alia quae praedicta sunt simplici sacerdoti, licet non 
+      de<lb ed="#L" n="52" break="no"/>ceat, nec forte fieri posset sine scandalo. Probabile est enimae 
+      <lb ed="#L" n="53"/>ea quae per ecclesiam maxime tempore apostolorum &amp; discipu 
+      <lb ed="#L" n="54"/>lorum ordinata sunt, processerunt a spiritu sancto 
+</p>
+            <p xml:id="jsnvu6-e208765-d1e347">
+               <lb ed="#L" n="55"/>Ad rationes in oppositum. Ad primam dicendum quod sicul 
+      <lb ed="#L" n="56"/>dicitur Io. 20. multa signa fecit Iesus quae non sunt scripta in li 
+      <lb ed="#L" n="57"/>bro hoc. vnde esto qued nihil legeretur expresse in scriptura de 
+      <lb ed="#L" n="58"/>institutione aliquorum sacramentorum, tamen non sequitur 
+      <lb ed="#L" n="59"/>quin ea Christus instituerit, &amp; quia multa fecit quae non scripta 
+      <lb ed="#L" n="60"/>sunt, sed deriuata sunt ad posteros ex familiari traditione 
+      Apo<lb ed="#L" n="61" break="no"/>stolorum, sicut dicit Apost. I. Cor. 11. Caetera cum venero dispe 
+      <lb ed="#L" n="62"/>nam. Posset tamen dici quod Christus sacramentum 
+      confirmatio<lb ed="#L" n="63" break="no"/>nis instituit quando manus imposuit pueris. Extremam vero 
+      <lb ed="#L" n="64"/>vnctionem quando Apostolos misit ad praedicandum qui 
+      vn<lb ed="#L" n="65" break="no"/>gebant oleo infirmos, vt legitur Mar. 6. 
+      </p>
+            <p xml:id="jsnvu6-e208765-d1e374">
+               <lb ed="#L" n="66"/>
+               <!--10--> Ad secundum dicendum qued Apostoli &amp; eorum successore 
+      <lb ed="#L" n="67"/>sunt vicarij Dei quantum ad regnum &amp; regimen institutae 
+      ec<lb ed="#L" n="68" break="no"/>clesiae per fidem &amp; sacramenta: vnde ficut eis non licet 
+      consti<lb ed="#L" n="69" break="no"/>tuere aliam ecclesiam, ita non licet eis tradere aliam fidem, nec 
+      <lb ed="#L" n="70"/>instituere alia sacramenta. Sunt enim ministri &amp; dispensatores 
+      <lb ed="#L" n="71"/>Christi, vt dicitur I. Cor. 4. Sic nos existimet homo vt ministro 
+      <lb ed="#L" n="72"/>Christi &amp; dispensatores ministeriorum Dei. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

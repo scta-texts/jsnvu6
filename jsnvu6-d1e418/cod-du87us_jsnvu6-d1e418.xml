@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="24-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e418"><!-- l1d4a1 -->
+            <head xml:id="jsnvu6-d1e418-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e418-Hd1e103" type="question-title">Utrum in divinis sit generatio</head>
+            <p xml:id="jsnvu6-d1e418-d1e106">
+               <lb ed="#L" n="28"/>Vtrum in diuinis sit generatio. 
+      <lb ed="#L" n="29"/>Them. 2. 9. p. 27. ar. 1.
+    </p>
+            <p xml:id="jsnvu6-d1e418-d1e113">
+               <lb ed="#L" n="30"/>CIRCA distinctionem istam quaeritur primo, vtri 
+      <lb ed="#L" n="31"/>in diuinis sit generatio. Et secundo de propositio. 
+      <lb ed="#L" n="32"/>nibus exprimentibus diuinam generationem. Ac 
+      <lb ed="#L" n="33"/>primam sic proceditur. Et arguitur quod in 
+      diui<lb ed="#L" n="34" break="no"/>nis non sit generatio, quia a quo remouetur 
+      supe<lb ed="#L" n="35" break="no"/>rius &amp; inferius, sed mutatio superior est ad genorationem, 
+      er<lb ed="#L" n="36" break="no"/>go cum in diuinis non sit mutatio, videtur quod nec 
+      genera<lb ed="#L" n="37" break="no"/>tio. Item si in diuinis esset generatio, illa esset aequiuoca, vel 
+      <lb ed="#L" n="38"/>vniuoca, sed non est aequiuoca nec vniuoca, ergo &amp;c. probatio 
+      <lb ed="#L" n="39"/>minoris. Et primo quod non sit generatio aequiuoca, quia 
+      se<lb ed="#L" n="40" break="no"/>eundum August. in filio est perfecta ratio imaginis, quia in eo 
+      <lb ed="#L" n="41"/>nulla est dissimilitudo, sed generatio aequiuoca excludit 
+      per<lb ed="#L" n="42" break="no"/>fectam similitudinem, ergo &amp;c. Item nec vniuoca quia tantum 
+      <lb ed="#L" n="43"/>differunt gignens &amp; genitum quantum proprietates eorum 
+      <lb ed="#L" n="44"/>constitutiuae, sed paternitas, &amp; filiatio quae constituunt patrem 
+      <lb ed="#L" n="45"/>gnentem, &amp; filium genitum sunt diuersarum rationum, 
+      er<lb ed="#L" n="46" break="no"/>gignens &amp; genitus sunt diuersarum rationum, sed tunc 
+      <lb ed="#L" n="47"/>non est generatio vniuoca, ergo &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-d1e418-d1e155">
+               <lb ed="#L" n="48"/>IN CONTRARIVM: est quod dicitur Isaiae 
+      vlti<lb ed="#L" n="49" break="no"/>mo. Ego qui aliis generationem tribuo, nunquid sterilis ero 
+      <lb ed="#L" n="50"/>Et arguitur per rationem. Paternitas &amp; filiatio sequuntur 
+      <lb ed="#L" n="51"/>generationem; sed in diuinis est paternitas &amp; filiatio vt pate 
+      <lb ed="#L" n="52"/>ex multis locis scripturae. ergo in diuinis est generatio. 
+    </p>
+            <p xml:id="jsnvu6-d1e418-d1e169">
+               <lb ed="#L" n="53"/>RESPONSIO. tenendum est simpliciter quod in 
+      diui<lb ed="#L" n="54" break="no"/>nis est generatio quamuis per rationem humanam non possit. 
+      <lb ed="#L" n="55"/>hoc efficaciter probari, licet dicant quidam oppositum sicu 
+      <lb ed="#L" n="56"/>de pluralitate personarum quorum opinio prius recitata fuit 
+      <lb ed="#L" n="57"/>distinctione secunda cum rationibus eorum in quaestione. Vtrum 
+      <lb ed="#L" n="58"/>cum vnitate essentiae possit realiter esse pluralitas 
+      persona<lb ed="#L" n="59" break="no"/>rum, &amp; ostensum fuit quod rationes non concludunt. Nunc 
+      <lb ed="#L" n="60"/>autem persuadebitur propositum scilicet quod generatio sit 
+      <lb ed="#L" n="61"/>in diuinis facta quadam suppositione fidei videlicet quod in 
+      <lb ed="#L" n="62"/>diuinis sint plures personae, quo supposito potest satis 
+      effica<lb ed="#L" n="63" break="no"/>citer probari quod generatio sit in diuinis. 
+      </p>
+            <p xml:id="jsnvu6-d1e418-d1e195">
+               <lb ed="#L" n="64"/>
+               <!--6--> Ad quod probandum ostendetur primo quod personae 
+      di<lb ed="#L" n="65" break="no"/>uinae distinguntur relationibus originis. Et secundo ostende. 
+      <lb ed="#L" n="66"/>tur quod aliqua origo habet in diuinis rationem generationis 
+      <lb ed="#L" n="67"/>Primum patet sic, quia si sint plures personae in diuinis aut 
+      di<lb ed="#L" n="68" break="no"/>ferunt in absolutis, aut solum relationibus. Non in absolutis 
+      <lb ed="#L" n="69"/>quia cum illud absolutum non sit essentia quae in diuinis est 
+      <lb ed="#L" n="70"/>vna, nec distinguit nec distinguitur, oporteret quod esset ad 
+      <lb ed="#L" n="71"/>ditum essentiae diuinae, sed absolutum additum alij 
+      absolut<lb ed="#L" n="72" break="no"/>facit compositionem. ergo in diuinis esset compositio. 
+      quo<lb ed="#L" n="73" break="no"/>est impossibile, quare impossibile est distinctionem diuinarum 
+      <lb ed="#L" n="74"/>personarum fieri per absoluta, fit ergo per relationes &amp; 
+      qui<lb ed="#L" n="75" break="no"/>dem per relationes reales, quia relationes rationis non 
+      distin<lb ed="#L" n="76" break="no"/>guerent nisi secundum rationem. 
+</p>
+            <p xml:id="jsnvu6-d1e418-d1e228">
+               <lb ed="#L" n="77"/>Relationum autem triplex est genus vt patet. 5. 
+      Metaphy<lb ed="#L" n="78" break="no"/>sicae. Quaedam enim fundantur supervnum &amp; multa vt 
+      aequa<lb ed="#L" n="79" break="no"/>litas, similitudo. Quaedam super rationem mensurae &amp; 
+      mensu<lb ed="#L" n="80" break="no"/>rati vt scientia, &amp; icibile. Quaedam super actionem &amp; 
+      passio<lb ed="#L" n="81" break="no"/>nem siue super originem vt paternitas &amp; filiatio. Oportet erg 
+      <!--00113.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>quod personae diuinae distinguantur per aliquod genus 
+      rela<lb ed="#L" n="83" break="no"/>tionum, sed non possunt distingui per relationes fundatas 
+      su<lb ed="#L" n="84" break="no"/>per vnum in quantitate, vel qualitate, vt sunt similitudo &amp; 
+      ae<lb ed="#L" n="85" break="no"/>qualitas. Primo quia tales relationes aut non sunt reales 
+      omni<lb ed="#L" n="86" break="no"/>no; aut saltem in diuinis vt patebit infra dist. 31. Secundo quia 
+      <lb ed="#L" n="87"/>relatio non distinguit personas nisi includat oppositionem 
+      <lb ed="#L" n="88"/>sed oppositio relationum aequalitatis &amp; similitudinis supponis 
+      <lb ed="#L" n="89"/>distinctionem suppositorum, aequale enim praesupponit aliquid 
+      <lb ed="#L" n="90"/>iam constitutum cui aequalitas attribuitur. ergo talis 
+      opposi<lb ed="#L" n="91" break="no"/>tio non fa cit distinctionem. Item nec distinguuntur per 
+      secun<lb ed="#L" n="92" break="no"/>dum genus relationum, quia ratio mensurae &amp; 
+      mensuratrom<lb ed="#L" n="93" break="no"/>nino non sunt in diuinis. Et si essent, relatio tamen mensura 
+      <lb ed="#L" n="94"/>ad mensurabile non est realis, sed solum secundum rationem 
+      <lb ed="#L" n="95"/>relatio autem rationis non distinguit realiter. Relinquitur 
+      er<lb ed="#L" n="96" break="no"/>go quod distinguantur per tertium genus relationum quae sun 
+      <lb ed="#L" n="97"/>relationes originis, &amp; hoc est primum. 
+      </p>
+            <p xml:id="jsnvu6-d1e418-d1e280">
+               <lb ed="#L" n="98"/>
+               <!--8--> Secundum patet sic. illud quod accipit ab alio esse, &amp; 
+      natu<lb ed="#L" n="99" break="no"/>ram, &amp; modo uaturae dicitur ab eo generari, sed prima persom 
+      <lb ed="#L" n="100"/>producta in diuinis accipit a persona producente esse &amp; 
+      natu<lb ed="#L" n="101" break="no"/>ram &amp; modo naturae, ergo generatur ab ea. maior patet, quia 
+      <lb ed="#L" n="102"/>generatio terminatur ad aliquod esse sicut corruptio ad non es 
+      <lb ed="#L" n="103"/>se est etia via ad naturam, &amp; dicitur a Demasceno naturae opus, 
+      <lb ed="#L" n="104"/>&amp; ideo vbi aliquid accipit ab alio esse, &amp; naturam, &amp; modo 
+      natu<lb ed="#L" n="105" break="no"/>rae dicitur vero ab illo generari. minor declaratur quia 
+      prim<lb ed="#L" n="106" break="no"/>persona diuina producta ab alia accipit ab eadem esse &amp; 
+      natu<lb ed="#L" n="107" break="no"/>ram non solum eandem genere sicut in generatione aequiuoca 
+      <lb ed="#L" n="108"/>aut specie sicut in generatione vniuoca, sed eandem numero 
+      <lb ed="#L" n="109"/>prima etiam persona producta hoc accipit modo naturae vt in 
+      <lb ed="#L" n="110"/>fra dicetur, quia procedit ab vna persona tantum. Hic aurem 
+      <lb ed="#L" n="111"/>est modus naturae, vt infra dicetur quod vnum fit ab vno 
+      tan<lb ed="#L" n="112" break="no"/>tum modo quo exponetur. Est ergo generatio in diumi? 
+      </p>
+            <p xml:id="jsnvu6-d1e418-d1e317">
+               <lb ed="#L" n="113"/>
+               <!--9--> Ad primum argumentum dicendum est quod mutatio 
+      no<lb ed="#L" n="114" break="no"/>est de ratione generationis sicut superius est de ratione 
+      infe<lb ed="#L" n="115" break="no"/>rioris, loquendo absolute de generatione formali, solum enim 
+      <lb ed="#L" n="116"/>de ratione generationis est acceptio esse, &amp; naturae ab alio 
+      m<lb ed="#L" n="117" break="no"/>do quo dictum est, ita tamen quod fit ibi aliquid 
+      communica<lb ed="#L" n="118" break="no"/>tum, non productum de quo dicitur genitum generari, 
+      alio<lb ed="#L" n="119" break="no"/>quin non esset generatio proprie, quia si homo produceret ho 
+      <lb ed="#L" n="120"/>minem de nihilo, non esset generatio sed creatio, semper enim 
+      <lb ed="#L" n="121"/>in generatione aliquid supponitur quod per generationem no 
+      <lb ed="#L" n="122"/>producitur sed communicatur, sed quia in creaturis illud quod 
+      <lb ed="#L" n="123"/>communicatur &amp; non producitur; est sola materia, quae tum 
+      <lb ed="#L" n="124"/>sit pura potentia omni forma carere non potest; nec plurei 
+      <lb ed="#L" n="125"/>specificas simul habere, ideo generans non potest 
+      communi<lb ed="#L" n="126" break="no"/>care eam genito sine omni forma, nec cum forma 
+      praeexisten<lb ed="#L" n="127" break="no"/>te, quia super illam generans non habet aliquam actionem 
+      ni<lb ed="#L" n="128" break="no"/>si forte in corrumpendo, ideo generans communicat eam cun 
+      <lb ed="#L" n="129"/>forma noua per ipsum introducta &amp; praecedente expulsa in 
+      <lb ed="#L" n="130"/>quo est vera mutatio. Omnis ergo generatio in creaturis 
+      in<lb ed="#L" n="131" break="no"/>cludit veram mutationem, sed hoc non est de absoluta 
+      ratio<lb ed="#L" n="132" break="no"/>ne generationis, sed contingit ex imperfectione eius quod 
+      <lb ed="#L" n="133"/>communicatur, &amp; modi communicandi. In diuinis autem non 
+      <lb ed="#L" n="134"/>sic est, quia essentia diuina quae communicatur per generatio 
+      <lb ed="#L" n="135"/>nem; &amp; non producitur, est secundum se actus ens &amp; potes 
+      <lb ed="#L" n="136"/>communicari nihil absolutum amittens, vel acquirens, 
+      pro<lb ed="#L" n="137" break="no"/>pter quod non est ibi mutatio, nec credo quod generatio dica 
+      <lb ed="#L" n="138"/>tur vniuoce in Deo &amp; in creaturis, sed analogice. 
+      </p>
+            <p xml:id="jsnvu6-d1e418-d1e378">
+               <lb ed="#L" n="139"/>
+               <!--10.--> Ad secundum dicendum, quod in diuinis est generatio 
+      vniuo<lb ed="#L" n="140" break="no"/>ca propter vnitatem naturae in generante &amp; genito non 
+      obstan<lb ed="#L" n="141" break="no"/>te diuersitate proprietatum constituentium supposita; quia 
+      <lb ed="#L" n="142"/>aequiuocatio &amp; vniuocatio generationis respiciunt naturam 
+      <lb ed="#L" n="143"/>generantis &amp; geniti magis quam proprietates sub quibus est 
+      <lb ed="#L" n="144"/>natura. Et cum dicitur quod generans &amp; genitum sunt 
+      diuer<lb ed="#L" n="145" break="no"/>sarum rationum secundum speciem, dicendum quod falsum 
+      <lb ed="#L" n="146"/>est, quia? concurrunt vnum &amp; idem in numero quod est 
+      reali<lb ed="#L" n="147" break="no"/>ter eius communc. Istud autem non inuenitur in suppositis. 
+      <lb ed="#L" n="148"/>differentibus specie, nec sequitur, relationes differunt specie 
+      <lb ed="#L" n="149"/>ergo &amp; supposita per relationes constituta, quia aliquid aliud 
+      <lb ed="#L" n="150"/>actuale, quam relatio pertinet ad rationem suppositi scilicet 
+      <lb ed="#L" n="151"/>essentia, propter quod non tantum differunt supposita diuina 
+      <lb ed="#L" n="152"/>secundum esse, quod ad rationem suppositi pertinet, quantum 
+      <lb ed="#L" n="153"/>differunt solae relationes, in creaturis autem tantum differunt 
+      <lb ed="#L" n="154"/>supposita quantum ea quae formaliter supposita constituunt, 
+      <lb ed="#L" n="155"/>quia suppolita nihil aliud actuale per se includunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e418-d1e421">
+               <lb ed="#L" n="156"/>
+               <!--11--> Vel dicendum aliter quod sicut in diuinis non dicitur 
+      e<lb ed="#L" n="157" break="no"/>neratio vniuoce cum generatione quae est in creaturis, sic quo 
+      <lb ed="#L" n="158"/>ad naturam per generationem communicatum est ibi 
+      plus<lb ed="#L" n="159" break="no"/>quam vniuocatio, sed quo ad proprietatem personam 
+      consti<lb ed="#L" n="160" break="no"/>tuenteni formaliter est ibi quasi aequiuocatio, nec oportet 
+      al<lb ed="#L" n="161" break="no"/>terum tantum dare sicut in creaturis, quia altera ratio est in 
+      <lb ed="#L" n="162"/>diuinis, altera in creaturis, quantum ad ea quae intrinsece 
+      sup<lb ed="#L" n="163" break="no"/>posita constituunt vt statim dictum est. 
+      <!--00114.xml-->
+      <pb ed="#L" n="24-v"/>
+               <cb ed="#L" n="a"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

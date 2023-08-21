@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="98-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2072"><!-- l1d43q3 -->
+            <head xml:id="jsnvu6-d1e2072-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e2072-Hd1e103" type="question-title">Utrum omnipotentia possit communicari creaturae</head>
+            <p xml:id="jsnvu6-d1e2072-d1e106">
+      <!--00261.xml-->
+               <pb ed="#L" n="98-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QVALSTIO TERTIA. 
+      <lb ed="#L" n="2"/>Vttum omnipotentia possit 
+      commu<lb ed="#L" n="3" break="no"/>nicari creaturae. 
+    </p>
+            <p xml:id="jsnvu6-d1e2072-d1e122">
+               <lb ed="#L" n="4"/>DEINDE quaeritur, vtrum omnipotentia possit 
+      <lb ed="#L" n="5"/>communicari creaturae. Et videtur quod sic, quia 
+      <lb ed="#L" n="6"/>ad plura se extendit scientia quam potentia (deu 
+      <lb ed="#L" n="7"/>enim aliqua scit quae non potest, puta mala) sed 
+      <lb ed="#L" n="8"/>Jomnis scientia potest communicari creaturae. Et 
+      <lb ed="#L" n="9"/>videtur fuisse communicata animae Christi: ergo &amp; 
+      omnipoten<lb ed="#L" n="10" break="no"/>tia potest communicari. 
+      </p>
+            <p xml:id="jsnvu6-d1e2072-d1e140">
+               <lb ed="#L" n="11"/>
+               <!--2--> IN CONTRARIVM arguitur quasi ex simili, qa 
+      <lb ed="#L" n="12"/>animae Christi communicatum fuit quicquid ei potuit 
+      communi<lb ed="#L" n="13" break="no"/>j. cari, sed omnipotentia non fuit ei communicata, vt dicitur 3. lib. 
+      <lb ed="#L" n="14"/>ergo omnipotentia non est communicabilis creaturae. 
+      </p>
+            <p xml:id="jsnvu6-d1e2072-d1e154">
+               <lb ed="#L" n="15"/>
+               <!--3--> RESPONSIO. Absolute dicendum est quod 
+      omnipo<lb ed="#L" n="16" break="no"/>tentia non potest creaturae communicari, quod patet primo 
+      <lb ed="#L" n="17"/>quia virtus quae innititur alteri, &amp; ab ea dependet non potes 
+      <lb ed="#L" n="18"/>habere rationem omnipotentiae, in hoc enim quod innititur 
+      al<lb ed="#L" n="19" break="no"/>teri potentiae, &amp; ab ea dependet deficit ab omnipotentia; 
+      om<lb ed="#L" n="20" break="no"/>nipotentia enim non est quae deficere potest, quod autem alteri 
+      <lb ed="#L" n="21"/>innititur, &amp; ab eo dependet, deficere potest per 
+      substractio<lb ed="#L" n="22" break="no"/>nem influentiae eius. Omnis autem virtus communicabilis 
+      crea<lb ed="#L" n="23" break="no"/>turae innititur alteri virtuti saltem diuinae, &amp; ab ea dependet 
+      <lb ed="#L" n="24"/>ergo non potest habere rationem omnipotentiae. Secundo 
+      pa<lb ed="#L" n="25" break="no"/>tetidem sic, omnipotentia se extendit ad producendum omni 
+      <lb ed="#L" n="26"/>possibile, sed nulla virtus creaturae potest se extendere ad pro 
+      <lb ed="#L" n="27"/>ducendum omne possibile. Alioquin cum omnis creatura si 
+      <lb ed="#L" n="28"/>de numero possibiliu (solus enim deus est necesse esse sequere. 
+      <lb ed="#L" n="29"/>tur quod creatura posset super se ipsam in producendo se, quod 
+      <lb ed="#L" n="30"/>est impossibile, vt dicitur I. de Trinit. quare &amp;c.
+</p>
+            <p xml:id="jsnvu6-d1e2072-d1e193">
+               <lb ed="#L" n="31"/>
+               <!--4--> Ad argumentum in oppositum dicendum quod minor est falsa 
+      <lb ed="#L" n="32"/>scientia enim animae Christi non aequiparatur scientiae dei, nec 
+      <lb ed="#L" n="33"/>quo ad limpiditatem sciendi, nec quo ad multitudinem scitorum 
+      <lb ed="#L" n="34"/>(saltem illorum quae pertinent ad scientiam simplicis 
+      intelli<lb ed="#L" n="35" break="no"/>gentiae) dato etiam quod omnis scientia quo ad numerum 
+      scito<lb ed="#L" n="36" break="no"/>rum esset communicabilis, non tamen omnipotentia, quia 
+      scien<lb ed="#L" n="37" break="no"/>tia habetur per solam praesentiam scibilis ad scientem (siue 
+      <lb ed="#L" n="38"/>secundum se, siue secundum aliquid ipsum repraesentans) 
+      nul<lb ed="#L" n="39" break="no"/>lum autem inconueniens est, si intellectui beato videnti 
+      diui<lb ed="#L" n="40" break="no"/>nam essentiam repraesententur in ea omnia creata, &amp; creabilia, 
+      <lb ed="#L" n="41"/>&amp; ideo non omnino videtur impossibile quin intellectus 
+      crea<lb ed="#L" n="42" break="no"/>tus habeat scientiam omnium, sed potentia dicit excessum 
+      su<lb ed="#L" n="43" break="no"/>per possibile, &amp; omnipotentia super omne possibile, &amp; ideo 
+      <lb ed="#L" n="44"/>nihil possibile (qualis est omnis creatura) potest habere 
+      om<lb ed="#L" n="45" break="no"/>nipotentiam: Alioquin excederet seipsam.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

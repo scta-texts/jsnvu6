@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="156-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3675"><!-- l2d30prae -->
+            <head xml:id="jsnvu6-d1e3675-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3675-d1e103">
+               <lb ed="#L" n="32"/>Sententia huius distinctionis XXX. in 
+      <lb ed="#L" n="33"/>generali &amp; speciali
+    </p>
+            <p xml:id="jsnvu6-d1e3675-d1e110">
+               <lb ed="#L" n="34"/>IN superioribus insinuatum est. Superius 
+      deter<lb ed="#L" n="35" break="no"/>minat Magister corruptionem humanae natura 
+      <lb ed="#L" n="36"/>per peccatum in primo homine. Hic vero deter 
+      <lb ed="#L" n="37"/>qi minat qualiter peccatum cum ista corruptione 
+      <lb ed="#L" n="38"/>in posteros deuenit. Et diuiditur in quatuor. Pri 
+      <lb ed="#L" n="39"/>mo inquirit peccati ordinem &amp; quidditatem. Secundo eius tra 
+      <lb ed="#L" n="40"/>ductionem. Tertio ipsius remissionem. Quarto eius aggraua 
+      <lb ed="#L" n="41"/>tionem, scilicet an peccatum primorum parentum 
+      aggrauare<lb ed="#L" n="42" break="no"/>tur. Secunda ibi, in princip. dist. 31. nunc superest inuenire. 
+      Ter<lb ed="#L" n="43" break="no"/>tia ibi in princip. 32. dist. quoniam supra dictum. Quarta ibi, in 
+      <lb ed="#L" n="44"/>princip. 33. dist. ibi praedictis adiiciendum. Prima est praesentis 
+      <lb ed="#L" n="45"/>lectionis, &amp; diuiditur in duas. Primo determinat suum 
+      inten<lb ed="#L" n="46" break="no"/>tum. Secundo excludit obiectiones contrarias. Secunda ibi, vnde 
+      <lb ed="#L" n="47"/>Augustinus Iuliano. Prima in tres. Primo inquirit, an sit 
+      ori<lb ed="#L" n="48" break="no"/>ginale peccatum. Secundo quid sit quantum ad genus moris 
+      <lb ed="#L" n="49"/>vtrum scilicet culpa an poena. Tertio quid est quantum ad 
+      ge<lb ed="#L" n="50" break="no"/>nus naturae. Secunda ibi, quod diligenter inuestigandum. 
+      Ter<lb ed="#L" n="51" break="no"/>tia ibi, nunc superest videre. Secunda principalis, in qua 
+      ex<lb ed="#L" n="52" break="no"/>cludit quasdam obiectiones, diuiditur in tres, secundum tres 
+      <lb ed="#L" n="53"/>obiectiones quas excludit. Secunda ibi, Item inquit Iulianus. 
+      <lb ed="#L" n="54"/>Tertia ibi, ad hoc autem quod diximus. Et haec est sententia &amp; 
+      <lb ed="#L" n="55"/>diuisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3675-d1e160">
+               <lb ed="#L" n="56"/>
+               <!--2--> In speciali sic procedit, &amp; proponit primo, quod ex peccate 
+      <lb ed="#L" n="57"/>primi hominis poena &amp; peccatum in posteros transit, &amp; hoc ess 
+      <lb ed="#L" n="58"/>originale peccatum: quidam autem intelligunt peccatum al 
+      <lb ed="#L" n="59"/>Adam transisse in posteros, non quod educatur ab eo per 
+      ori<lb ed="#L" n="60" break="no"/>ginem, sed per imitationem: circa quod dicit in hoc Magister 
+      <lb ed="#L" n="61"/>errare Pelagium: si enim per solam imitationem diceretur 
+      pec<lb ed="#L" n="62" break="no"/>catum eius in nos transisse, multo magis debet in nos 
+      pecca<lb ed="#L" n="63" break="no"/>tum transisse a daemone, quem primo peccantem postea 
+      imi<lb ed="#L" n="64" break="no"/>tamur. Postea quaerit quid sit originale peccatum, &amp; dicit quod 
+      <lb ed="#L" n="65"/>secundum quosdam originale peccatum nihil aliud est, quam 
+      <lb ed="#L" n="66"/>reatus quidam, quo homines sunt obligati ad poenam pro 
+      pec<lb ed="#L" n="67" break="no"/>cato primi parentis: secundum tamen veritatem, originale 
+      pec<lb ed="#L" n="68" break="no"/>catum ponendum est esse originalem culpam a principio per 
+      <lb ed="#L" n="69"/>originem traductam. Postea dicit quod ista culpa non est 
+      a<lb ed="#L" n="70" break="no"/>ctus hominis, sed est quaedam concupiscentia vitiosa mala de 
+      <lb ed="#L" n="71"/>sideria in nobis excitans, quae aliquando languor naturae 
+      dici<lb ed="#L" n="72" break="no"/>tur, &amp; aliquando lex membrorum, vel tyrannus vel lex carni; 
+      <lb ed="#L" n="73"/>nominatur, &amp; ex inobedientia dicimur omnes traxisse 
+      pecca<lb ed="#L" n="74" break="no"/>tum, id est, malam habilitatem. Postea dicit quod Iulianus 
+      hae<lb ed="#L" n="75" break="no"/>reticus quaerit per quam viam tale peccatum subintrat patre 
+      <lb ed="#L" n="76"/>non peccante, nec genito, nec etiam conditore. Et respondet 
+      <lb ed="#L" n="77"/>Augu. quod per inobedientiam primi parentis. Vitimo quaeri 
+      <lb ed="#L" n="78"/>quomodo potuimus omnes esse in Adam secundum carnem, 
+      <lb ed="#L" n="79"/>in quo non fuerunt tot athomi quot homines ab eo processerunt 
+      <lb ed="#L" n="80"/>Et respondet Aug. quod materialiter vel carnaliter in eo fuimus: ali¬ 
+      <!--00379.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>quid autem ab eo decisum est, ex quo sine alterius materiae 
+      addi<lb ed="#L" n="82" break="no"/>tione per solam multiplicationem in ipso generatum est corpus 
+      <lb ed="#L" n="83"/>filij. Et sic per similem decisionem factam a parentibus 
+      multi<lb ed="#L" n="84" break="no"/>plicatum est genus humanum vel hominum, &amp; nihil omnino 
+      exte<lb ed="#L" n="85" break="no"/>rius adueniens transit in veritatem humanae naturae, quod probat 
+      <lb ed="#L" n="86"/>per auctoritatem euangelij, &amp; etiam per rationem, quia in 
+      resur<lb ed="#L" n="87" break="no"/>rectione habebunt homines perfectam quantitatem sine 
+      alicu<lb ed="#L" n="88" break="no"/>ius materiae additione, ergo &amp; modo: non negat tamen 
+      Magi<lb ed="#L" n="89" break="no"/>ster, quin alimentum transeat in veram carnem &amp; ossa, sed non 
+      <lb ed="#L" n="90"/>in veritatem humanae naturae. Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

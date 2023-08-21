@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="234-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e192241"><!-- l3d32q1 -->
+            <head xml:id="jsnvu6-e192241-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e192241-Hd1e103" type="question-title">Utrum Deus aequaliter omnia diligat</head>
+            <p xml:id="jsnvu6-e192241-d1e106">
+               <lb ed="#L" n="12"/>CTALSTIOPTIKI. 
+      <lb ed="#L" n="13"/>Vtrum Deus aequaliter omnia diligat. 
+<lb ed="#L" n="14"/>15. Thom. 12. 2. 4.92. ar. 18. ad3. &amp; q. 30.ar. 2.ad 1.
+    </p>
+            <p xml:id="jsnvu6-e192241-d1e115">
+               <lb ed="#L" n="15"/>CIRCA distinctionem istam quaeritur prime 
+      <lb ed="#L" n="16"/>vnum tantum, scilicet vtrum Deus aequaliter 
+      <lb ed="#L" n="17"/>omnia diligat. Et videtur quod sic, quia ille diligit 
+      <lb ed="#L" n="18"/>aequaliter omnia illa de quibus est sibi aequaliter 
+      <lb ed="#L" n="19"/>cura, sed Deo est aequaliter cura de omnibus 
+      <lb ed="#L" n="20"/>Sapientiae quinto, ergo Deus aequaliter omnia diligitus). 
+      </p>
+            <p xml:id="jsnvu6-e192241-d1e131">
+               <lb ed="#L" n="21"/>
+               <!--2.--> Item dilectio sequitur cognitionem, sed Deus aequaliter 
+      <lb ed="#L" n="22"/>omnia cognoscit, ergo aequaliter omnia diligit. 
+      </p>
+            <p xml:id="jsnvu6-e192241-d1e141">
+               <lb ed="#L" n="23"/>
+               <!--3--> IN CONTRARIVM est, quia majus bonum est 
+      <lb ed="#L" n="24"/>magis diligendum, sed in rebus est dare magis &amp; minus 
+      bo<lb ed="#L" n="25" break="no"/>num, ergo in rebus creatis est dare aliqua quae Deus magis di 
+      <lb ed="#L" n="26"/>ligit, &amp; aliqua quae minus. 
+</p>
+            <p xml:id="jsnvu6-e192241-d1e154">
+               <lb ed="#L" n="27"/>
+               <!--4--> RESPONSIO. Videnda sunt tria. Primum est, an 
+      <lb ed="#L" n="28"/>Deus diligat creaturam. Secundum est, an diligat omnem. 
+      Ter<lb ed="#L" n="29" break="no"/>tium est, an aequaliter. 
+      </p>
+            <p xml:id="jsnvu6-e192241-d1e165">
+               <lb ed="#L" n="30"/>
+               <!--5.--> QVANTVM ad primum sciendum est quod Deus creatu 
+      <lb ed="#L" n="31"/>ram diligit. Cuius ratio est, quia vbicumque est bonitas bene 
+      ordi<lb ed="#L" n="32" break="no"/>nata ad apprehensionem boni sequitur eius dilectio, sed in Deo 
+      <lb ed="#L" n="33"/>est bonitas optime ordinata, ergo quum Deus apprehenda 
+      <lb ed="#L" n="34"/>non solum bonum increatum, sed etiam creatum, patet quod 
+      <lb ed="#L" n="35"/>Deus diligit non solum se, sed &amp; alia a se, scilicet creaturas. 
+      </p>
+            <p xml:id="jsnvu6-e192241-d1e183">
+               <lb ed="#L" n="36"/>
+               <!--6--> QVANTVM ad secundum aduertendum est quod duplex 
+      <lb ed="#L" n="37"/>est dilectio, vna qua quis diligit alium volendo ei bonu aequale 
+      <lb ed="#L" n="38"/>sibiipsi: &amp; haec est dilectio amicitiae. Alia est dilectio, qua quis 
+      <lb ed="#L" n="39"/>vult bonum alteri, qualecunque bonum illud fit. Et haec duplex 
+      di<lb ed="#L" n="40" break="no"/>lectio non est distincta a Deo secundum rem, sed secundum ra 
+      <lb ed="#L" n="41"/>tionem. Prima ergo dilectione Deus non diligit omnem 
+      creatu<lb ed="#L" n="42" break="no"/>ram, sed tantum intellectualem. Cuius ratio est, quia Deus non 
+      <lb ed="#L" n="43"/>vult creaturae aliquod bonum, nisi illud tantum, cuius ipsa est 
+      <lb ed="#L" n="44"/>capax, sed sola creatura intellectualis est capax boni diuini scilicet 
+      <lb ed="#L" n="45"/>beatitudinis: ergo Deus non diligit omnem creaturam 
+      dilectio<lb ed="#L" n="46" break="no"/>ne amicitiae, sed solum intellectualem, nec omnem talem sic dili 
+      <lb ed="#L" n="47"/>git, nisi dilectione pertinente ad voluntatem antecedentem qua 
+      <lb ed="#L" n="48"/>l. vult omnes homines saluos fieri, vt expositum fuit in primo 
+      li<lb ed="#L" n="49" break="no"/>bro: dilectione autem pertinente ad voluntatem consequentem 
+      di<lb ed="#L" n="50" break="no"/>ligit solum praedestinatos &amp; electos. Si vero loquamur de 
+      dile<lb ed="#L" n="51" break="no"/>ctione qua quis vult alteri bonum quodcunque sit illud, sic Deus 
+      <lb ed="#L" n="52"/>diligit omnem creaturam, quia Deus est caussa omnis bonitatis ir 
+      <lb ed="#L" n="53"/>creaturis: non est autem causa per necessitatem, sed per voluntatem 
+      <lb ed="#L" n="54"/>ergo omne bonum quod est in creaturis est a Deo volitum, sed 
+      <lb ed="#L" n="55"/>velle alicui bonum, non est aliud quam diligere ipsum, igitur, &amp;c.
+</p>
+            <p xml:id="jsnvu6-e192241-d1e231">
+               <lb ed="#L" n="56"/>
+               <!--7--> QUANTVM ad tertium aduertendum est quod quum 
+      di<lb ed="#L" n="57" break="no"/>ligere non fit aliud quam alicui velle bonum, aequalitas, vel 
+      gradu<lb ed="#L" n="58" break="no"/>in dilectione potest attendi, vel ex parte actus volendi, vel ex 
+      <lb ed="#L" n="59"/>parte boni voliti, si ex parte actus volendi, sic Deus diligit 
+      aequa<lb ed="#L" n="60" break="no"/>liter se, &amp; omnem creaturam, nec plus vel intensius diligit se, 
+      <lb ed="#L" n="61"/>quam creaturam, nec vnam creaturam quam aliam. Cuius ratio est, 
+      qui<lb ed="#L" n="62" break="no"/>idem actus simplex non potest esse simul magis &amp; minus inten 
+      <lb ed="#L" n="63"/>sus: si enim in eodem actu possit esse intensio &amp; remissio, opos 
+      <lb ed="#L" n="64"/>tet quod hoc sit vel secundum diuersas partes illius actus (sicut 
+      <lb ed="#L" n="65"/>vna albedo continua potest in vna parte esse intensior, in alia 
+      <lb ed="#L" n="66"/>parte remissior) &amp; tunc talis actus non est simplex, sed habet 
+      pa<lb ed="#L" n="67" break="no"/>tem &amp; partem, vel oportet quod sit intensio &amp; remissio secundum 
+      <lb ed="#L" n="68"/>idem simplex, quod hoc non sit simul, sed successiue, sicut a 
+      qui<lb ed="#L" n="69" break="no"/>busdam ponitur quod vna &amp; eadem forma numero nullo addito 
+      <lb ed="#L" n="70"/>vel remoto est quandoque intensior &amp; quandoque remissior, sed 
+      <lb ed="#L" n="71"/>nunquam simul. His ergo duobus exclusis scilicet quod actus non habeat 
+      <lb ed="#L" n="72"/>partem &amp; partem, sed sit simplex, &amp; quod in plura simul feratur 
+      im<lb ed="#L" n="73" break="no"/>possibile est quod respectu illorum plurium sit in tali actu 
+      inten<lb ed="#L" n="74" break="no"/>sio &amp; remissio. Sed dilectio qua Deus diligit se &amp; omnem 
+      crea<lb ed="#L" n="75" break="no"/>turam est actus simplex, &amp; ab aeterno fertur in bonum 
+      increa<lb ed="#L" n="76" break="no"/>tum &amp; creatum, ergo impossibile est ex parte talis actus 
+      inue<lb ed="#L" n="77" break="no"/>nire inaequalitatem seu intensionem &amp; remissionem. Si veri 
+      <lb ed="#L" n="78"/>inaequalitas vel gradus attendatur ex parte boni voliti, sic Deu¬ 
+      <!--00541.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>non aequaliter diligit se &amp; creaturas, sed plus se quam creaturas, nec 
+      <lb ed="#L" n="80"/>creaturas omnes aequaliter. Sed plus diligit rationalem quam 
+      irra<lb ed="#L" n="81" break="no"/>tionalem. Cuius ratio est, quia secundum hunc modum illud diligi 
+      <lb ed="#L" n="82"/>plus Deus cul vult majus bonum, sed Deus vult sibiipsi maius 
+      <lb ed="#L" n="83"/>bonum quam creaturis, quia nullum bonum creatum potest 
+      aequa<lb ed="#L" n="84" break="no"/>ri bono diuino quod Deus vult sibi soli: majus etiam bonum vult 
+      <lb ed="#L" n="85"/>Deus ereaturis rationalibus, quam irrationalibus, &amp; quantum ad 
+      <lb ed="#L" n="86"/>bonum naturae, quia sunt superioris gradus, &amp; quantum ad bo 
+      <lb ed="#L" n="87"/>num gratiae, cuius sunt capaces, non autem creaturae 
+      irrationa<lb ed="#L" n="88" break="no"/>les, ergo Deus diligit se plusquam creaturas, &amp; inter creaturas 
+      <lb ed="#L" n="89"/>plus rationales quam irrationales: secundum hunc modum Deus 
+      <lb ed="#L" n="90"/>plus diligit peccatorem praedestinatum quam iustum praescitum, 
+      <lb ed="#L" n="91"/>quia majus bonum est sinalis gratia, &amp; gloria quam vult &amp; 
+      praep<lb ed="#L" n="92" break="no"/>rat peccatori praedestinato, quam sit praesens gratia quam vult 
+      <lb ed="#L" n="93"/>praesentialiter iusto, quem scit casurum a gratia, &amp; finaliter 
+      <lb ed="#L" n="94"/>damnandum? simili modo considerandum est in omnibus, de 
+      <lb ed="#L" n="95"/>quibus quaeritur, an a Deo plus diligantur, quia secundum gra 
+      <lb ed="#L" n="96"/>dum boni voliti attendenda est tota inaequalitas dilectionis. 
+      </p>
+            <p xml:id="jsnvu6-e192241-d1e329">
+               <lb ed="#L" n="97"/>
+               <!--8--> AD PRIMVM argumentum dicendum quod Deo 
+      <lb ed="#L" n="98"/>aequaliter cura est de omnibus, quantum ad aequalitatem 
+      soli<lb ed="#L" n="99" break="no"/>citudinis ex parte sui, sed non quantum ad gradus bonorum, 
+      <lb ed="#L" n="100"/>de quibus prouidet diuersis creaturis. 
+      </p>
+            <p xml:id="jsnvu6-e192241-d1e343">
+               <lb ed="#L" n="101"/>
+               <!--9--> Ad secundum dicendum quod non est simile de cognitione &amp; 
+      <lb ed="#L" n="102"/>de dilectione, quia cognitio vt sic nihil ponit in re cognita: 
+      di<lb ed="#L" n="103" break="no"/>lectio autem ponit aliquid, aut praeparat: &amp; ideo in dilectione 
+      <lb ed="#L" n="104"/>potest attendi gradus, non solum ex parte diligentis, sed etiam ex parte 
+      <lb ed="#L" n="105"/>rei quam alteri diligimus, sed in cognitione non potest poni 
+      gra<lb ed="#L" n="106" break="no"/>dus nisi ex parte ipsius cognoscentis, qui gradus non possunt 
+      re<lb ed="#L" n="107" break="no"/>periri in Deo, nec quo ad cognitionem nec quo ad dilectionem, 
+      <lb ed="#L" n="108"/>quamuis posset dici si esset consuetum proportionabiliter de 
+      cogni<lb ed="#L" n="109" break="no"/>tione, &amp; de dilectione scilicet quod sicut Deus aequaliter omnia diligi 
+      <lb ed="#L" n="110"/>ex parte sui, &amp; inaequaliter ex parte boni voliti propter 
+      diuer<lb ed="#L" n="111" break="no"/>sos gradus bonitatis, sic aequaliter cognoscit omnia ex parti 
+      <lb ed="#L" n="112"/>sui, sed inaequaliter ex parte veri cogniti propter diuersos gr. 
+      <lb ed="#L" n="113"/>dus veritatis. Non enim omnia vera sunt aequaliter vera. 
+      </p>
+            <p xml:id="jsnvu6-e192241-d1e376">
+               <lb ed="#L" n="114"/>
+               <!--10--> AD ARGVMENTVM alterius partis dicendum 
+      <lb ed="#L" n="115"/>quod majus bonum est magis diligendum intensiue a 
+      volunta<lb ed="#L" n="116" break="no"/>te quae mouetur ab obiecto, sed voluntas diuina quae ab 
+      obie<lb ed="#L" n="117" break="no"/>cto non mouetur, sed bonitatem rerum causat, hanc 
+      impressio<lb ed="#L" n="118" break="no"/>nem non recipit ab obiectis, sed vno actu inuariabili vult vni 
+      <lb ed="#L" n="119"/>bonum quod alteri non vult, &amp; quibus vult bona, siue aequalia, 
+      <lb ed="#L" n="120"/>siue inaequalia vult aequali voluntate. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

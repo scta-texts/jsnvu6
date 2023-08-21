@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="60-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1298"><!-- l1d23prae -->
+            <head xml:id="jsnvu6-d1e1298-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1298-d1e103">
+               <lb ed="#L" n="63"/>DISTINCTIO XXIII. 
+      <lb ed="#L" n="64"/>Sententia literae magistri in generali 
+      <lb ed="#L" n="65"/>&amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e1298-d1e112">
+               <lb ed="#L" n="66"/>PRARDICTIS adiciendum, &amp;c. Superius 
+      po<lb ed="#L" n="67" break="no"/>suit magister diuisionem diuinorum nominum 
+      <lb ed="#L" n="68"/>&amp; assignauit quasdam regulas circa ipsa: In ist. 
+      <lb ed="#L" n="69"/>parte determinat de quodam speciali, scilicet de 
+      <lb ed="#L" n="70"/>nomine personae quod a praedictis regulis excipitur 
+      <lb ed="#L" n="71"/>&amp; diuiditur in tres. Primo enim excipit hoc nomen 
+      perso<lb ed="#L" n="72" break="no"/>na ab aliis nominibus quae substantiam dicunt: Et quia nihil 
+      <lb ed="#L" n="73"/>potest excipi ab aliquibus, nisi in illis contineatur: Ideo 
+      se<lb ed="#L" n="74" break="no"/>cundo ostendit hoc nomen persona substantiam significare. 
+      <lb ed="#L" n="75"/>Tertio inquirit huius exceptionis rationem. Secunda ibi 
+      <lb ed="#L" n="76"/>quod autem persona. Tertia ibi. Ideo oritur quaestio. Et haec 
+      <lb ed="#L" n="77"/>vltima diuiditur in tres. Primo enim causam exceptionis 
+      du<lb ed="#L" n="78" break="no"/>bitando inquirit. Secundo dubitationem soluit siue rationem 
+      <lb ed="#L" n="79"/>reddit, tam secundum Latinam quam secundum Graecam lo 
+      <!--00185.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>cutionem. Tertio mouet alias quaestiones incidentes. 
+      Secun<lb ed="#L" n="81" break="no"/>da ibi: quia nolumus. Tertia ibi: sed quaeritur. Haec vltima 
+      <lb ed="#L" n="82"/>diuiditur in duas, secundum duas dubitationes, quas mouei 
+      <lb ed="#L" n="83"/>&amp; soluit. Secunda ibi: verum est hoc, &amp;c. Et haec in duas 
+      <lb ed="#L" n="84"/>Primo mouet quaestionem. Secundo declarat quoddam quod 
+      <lb ed="#L" n="85"/>in ratione posuerat, scilicet quod in Deo non sit diuersitas, 
+      <lb ed="#L" n="86"/>propter quod essentia pluraliter non praedicatur. Secunda 
+      <lb ed="#L" n="87"/>ibi: Nam sufficienter vt puto. Haec est sententia lectionis 
+      <lb ed="#L" n="88"/>in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e1298-d1e169">
+               <lb ed="#L" n="89"/>
+               <!--2--> In speciali vero sic procedit &amp; proponit primo, cum alia 
+      <lb ed="#L" n="90"/>nomina substantialia in singulari praedicentur de pluribus per 
+      <lb ed="#L" n="91"/>sonis, hoc tamen nomen quod est persona a praedicta regula 
+      <lb ed="#L" n="92"/>nominum quae secundum substantiam dicuntur de Deo 
+      exci<lb ed="#L" n="93" break="no"/>piendum est, quia secundum substantiam dicitur, &amp; tamen non 
+      <lb ed="#L" n="94"/>in singulari, sed in plurali de pluribus personis praedicatur. 
+      <lb ed="#L" n="95"/>Deinde ostendit per Augustinum quod persona 
+      substantiali<lb ed="#L" n="96" break="no"/>ter dicatur, qui dicit quod persona in diuinis dicit substantiam, 
+      <lb ed="#L" n="97"/>&amp; absolute dicitur, &amp; non est aliud Deum esse quam 
+      perso<lb ed="#L" n="98" break="no"/>nam. Postea inquirit causam quare persona quae 
+      substantia<lb ed="#L" n="99" break="no"/>liter dicitur in plurali praedicatur. Deinde respondet dicens 
+      <lb ed="#L" n="100"/>quod hoc fecit penuria vocabulorum, res enim sunt tres in 
+      di<lb ed="#L" n="101" break="no"/>uinis, &amp; quando quaeritur quid est, non possumus 
+      responde<lb ed="#L" n="102" break="no"/>re per nomina essentialia in quibus non est distinctio, nec per 
+      <lb ed="#L" n="103"/>relatiua, quia non conueniunt pluribus: Et ideo ex 
+      necessita<lb ed="#L" n="104" break="no"/>te dicti tantum dicimus quod sola relatio in diuinis habet 
+      per<lb ed="#L" n="105" break="no"/>sonas distinguere. 
+      </p>
+            <p xml:id="jsnvu6-d1e1298-d1e211">
+               <lb ed="#L" n="106"/>
+               <!--3--> Vnde dicit quod verborum penuria apparet tam in 
+      Graec<lb ed="#L" n="107" break="no"/>sermone, quam in Latino. tamen Graeci tres substantias in 
+      di<lb ed="#L" n="108" break="no"/>uinis dicunt, nos autem vnam, quia substantia apud nos idem 
+      <lb ed="#L" n="109"/>significat quod essentia. Deinde quaerit, si propter 
+      communita<lb ed="#L" n="110" break="no"/>tem nominis personae dicimus tres personas; quare non 
+      dici<lb ed="#L" n="111" break="no"/>mus tres deos, quum nomen diuinitatis sit comune? Et 
+      respon<lb ed="#L" n="112" break="no"/>det quod hoc ideo est, quia scriptura contradicit, sed non 
+      con<lb ed="#L" n="113" break="no"/>tradicit trinitati personarum. Postea quaerit, quare non dicimus 
+      <lb ed="#L" n="114"/>tres essentias cum scriptura non contrarium dicat: Et dicit o 
+      <lb ed="#L" n="115"/>hoc ideo est, ne intelligatur diuersitas in diuinis. Concludit 
+      <lb ed="#L" n="116"/>etiam quod sola penuria vocabulorum facit distinctionem in 
+      <lb ed="#L" n="117"/>tribus personis, vnde etiam subdit quod loco huius nominis 
+      <lb ed="#L" n="118"/>persona Graeci vtuntur hoc nomine substantia licet possint di 
+      <lb ed="#L" n="119"/>cere tres hypostases, sicut nos dicimus tres personas. Vitime 
+      <lb ed="#L" n="120"/>declarat quod in diuinis nulla est diuersitas, &amp; nulla 
+      multipli<lb ed="#L" n="121" break="no"/>citas, propter essentiae vnitatem. Et ideo licet dicatur Deus 
+      <lb ed="#L" n="122"/>trinus, non tamen est multiplex, &amp; nulla est ibi simplicitas siue 
+      <lb ed="#L" n="123"/>solitudo propter personarum pluralitatem. Et in hoc 
+      termi<lb ed="#L" n="124" break="no"/>natur sententia lectionis speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

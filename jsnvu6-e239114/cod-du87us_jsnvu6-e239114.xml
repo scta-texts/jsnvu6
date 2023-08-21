@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="290-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e239114"><!-- l4d16q1 -->
+            <head xml:id="jsnvu6-e239114-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e239114-Hd1e103" type="question-title">Utrum contritio, confessio, et 
+      satisfactio sint partes poenitentiae</head>
+            <p xml:id="jsnvu6-e239114-d1e106">
+               <lb ed="#L" n="123"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="124"/>Vtrum contritio, confessio, &amp; 
+      satisfa<lb ed="#L" n="125" break="no"/>ctio sint partes poenitentiae. 
+      <lb ed="#L" n="126"/>Them. 3. 4. 90. art. 2. &amp; 3. 
+    </p>
+            <p xml:id="jsnvu6-e239114-d1e117">
+               <lb ed="#L" n="127"/>CIRCA distinctionem istam quaeritur de quatuor. 
+      <lb ed="#L" n="128"/>Primum est de partibus poenitentiae, Secundum 
+      <lb ed="#L" n="129"/>est de remissione venialium. Tertium est de 
+      circun<lb ed="#L" n="130" break="no"/>stantiis peccati. Quartum est de impedimentis 
+      ve<lb ed="#L" n="131" break="no"/>rae poenitentiae. Primo ergo quaeritur vtrum 
+      con<lb ed="#L" n="132" break="no"/>tritio, confessio, &amp; satisfactio sint partes poenitentiae. Et 
+      argui<lb ed="#L" n="133" break="no"/>tur quod non, quia omne sacramentum dispensatur a 
+      mini<lb ed="#L" n="134" break="no"/>stris secundum quamlibet sui partem. Sed contritio non 
+      confer<lb ed="#L" n="135" break="no"/>tur poenitenti a ministris ecclesiae, ergo ipsa non est pars saci 
+      a<lb ed="#L" n="136" break="no"/>mentis poenitentiae. 
+      </p>
+            <p xml:id="jsnvu6-e239114-d1e141">
+               <lb ed="#L" n="137"/>
+               <!--2--> Item quia si istae essent partes sacramenti poenitentiae, aut 
+      <lb ed="#L" n="138"/>essent partes subiectiuae, aut integrales: non subiectiuae, quia to 
+      <lb ed="#L" n="139"/>tum perfecte saluatur in qualibet parte subiectiua, sed 
+      sacra<lb ed="#L" n="140" break="no"/>mentum poenitentiae non saluatur perfecte in aliqua illarum 
+      <lb ed="#L" n="141"/>trium partium, quia sacramentum poenitentiae non saluatur in 
+      <lb ed="#L" n="142"/>sola contritione &amp; sic de caeteris, ergo nec sunt partes 
+      subiecti<lb ed="#L" n="143" break="no"/>uae, nec integrales, quia totum integrale requirit actualiter 
+      <lb ed="#L" n="144"/>quamlibet sui partem, sed sacramentum paenitentiae dum 
+      exhi<lb ed="#L" n="145" break="no"/>betur non requirit actualiter satisfactionem: ergo satisfactio 
+      <lb ed="#L" n="146"/>non est de eius integritate. 
+      </p>
+            <p xml:id="jsnvu6-e239114-d1e168">
+               <lb ed="#L" n="147"/>
+               <!--3--> IN CONTRARIVM arguitur, quia per 
+      poeniten<lb ed="#L" n="148" break="no"/>tiam exhibetur paena pro satisfactione culpae, sed culpae in Deum 
+      <lb ed="#L" n="149"/>commissae debetur poena interior &amp; exterior (vt patet in illis 
+      <lb ed="#L" n="150"/>qui sunt in inferno) &amp; ad integritatem poenitentiae pertinet poe 
+      <lb ed="#L" n="151"/>na interioris contritionis &amp; exterioris satisfactionis, non est 
+      au<lb ed="#L" n="152" break="no"/>tem dubium quin confessio pertineat ad sacramentum 
+      poe<lb ed="#L" n="153" break="no"/>nitentiae, ergo illa tria sunt de integritate poenitentiae. 
+      </p>
+            <p xml:id="jsnvu6-e239114-d1e188">
+               <lb ed="#L" n="154"/>
+               <!--4--> RESPONSIO. Poenitentia vt patet ex praecedentibus 
+      <lb ed="#L" n="155"/>dupliciter accipitur, scilicet pro virtute &amp; pro sacramento, si 
+      lo<lb ed="#L" n="156" break="no"/>quamur de poenitentia prout est virtus sic dicendum est, quod 
+      con<lb ed="#L" n="157" break="no"/>tritio, confessio, &amp; satisfactio non sunt partes eius, sed contritio 
+      <lb ed="#L" n="158"/>est actus ab ea elicitus, confessio autem &amp; satisfactio sunt actus 
+      <lb ed="#L" n="159"/>imperati. Quod non sunt partes eius patet, quia nullum simplex ha 
+      <!--00654.xml-->
+      <pb ed="#L" n="290-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>bet partes, sed poenitentia prout est virtus, est quidam simplex 
+      <lb ed="#L" n="2"/>habitus, ergo non habet partes. Quod autem contritio sit actu 
+      <lb ed="#L" n="3"/>ab ea elicitus patet sic: actus poenitentiae est actualis displicentia 
+      <lb ed="#L" n="4"/>de peccato commisso, sed talis displicentia est contritio, ergo &amp;c 
+      <lb ed="#L" n="5"/>Confessio autem &amp; satisfactio sunt actus imperati ab ipsa, 
+      pr<lb ed="#L" n="6" break="no"/>nia tamen fide &amp; spe, quae ostendunt per hoc reconciliationem 
+      <lb ed="#L" n="7"/>fieri apud Deum. Poenitentia autem vt est sacramentum parte 
+      <lb ed="#L" n="8"/>habet, sed illae non sunt contritio &amp; satisfactio proprie 
+      loquen<lb ed="#L" n="9" break="no"/>do de partibus. Quod patet primo quadam communi ratione ac 
+      <lb ed="#L" n="10"/>vtrunque sic: praeter materiam &amp; formam in sacramentis nor 
+      <lb ed="#L" n="11"/>est dare alias partes proprie dictas, sed contritio &amp; 
+      satisfacti<lb ed="#L" n="12" break="no"/>non sunt materia neque forma sacramenti poenitentiae. Forma 
+      <lb ed="#L" n="13"/>enim consistit in verbis absolutionis. Materia vero si qua sit in 
+      <lb ed="#L" n="14"/>verbis confessionis quibus poenitens suam conscientiam 
+      ape<lb ed="#L" n="15" break="no"/>rit sacerdoti, ergo contritio &amp; satisfactio non sunt partes 
+      sa<lb ed="#L" n="16" break="no"/>cramenti poenitentiae, proprie loquendo. Specialiter patet 
+      ho<lb ed="#L" n="17" break="no"/>de contritione: quia quicquid est de integritate sacramenti 
+      <lb ed="#L" n="18"/>oportet quod sit aliquod sensibile extrinsecum adhibitum: vi 
+      <lb ed="#L" n="19"/>patet ex his quae dicta sunt supra, distinctione prima. 
+      Loqui<lb ed="#L" n="20" break="no"/>mur enim modo de eo quod est sacramentum tantum, sed 
+      con<lb ed="#L" n="21" break="no"/>tritio non est huiusinodi, ergo non est de integritate sacramen 
+      <lb ed="#L" n="22"/>ti: non est ergo pars intrinseca sacramenti poenitentiae, sec 
+      <lb ed="#L" n="23"/>praeexigitur necessario ad hoc quod poenitens sit dispositus ad 
+      <lb ed="#L" n="24"/>suscipiendum effectus sacramenti, qui sunt gratia &amp; remissic 
+      <lb ed="#L" n="25"/>peccati mortalis: quia nullum peccatum potest remitti quan 
+      <lb ed="#L" n="26"/>diu voluntas manet in eo, voluntatem autem recedere ab eo 
+      <lb ed="#L" n="27"/>quod prius volebat, est displicere ei quod prius placebat, in 
+      <lb ed="#L" n="28"/>qua displicentia dolor contritionis consistit. Et ideo contritio 
+      <lb ed="#L" n="29"/>requiritur tanquam necessaria dispositio poenitentis, &amp; non 
+      tan<lb ed="#L" n="30" break="no"/>quam pars intrinseca sacramenti. Idem patet de satiffactione, 
+      <lb ed="#L" n="31"/>quia deficiente aliquo quod est de necessitate sacramenti 
+      fru<lb ed="#L" n="32" break="no"/>stratur totum sacramentum: sed si aliqui non exoluant poenam 
+      <lb ed="#L" n="33"/>in confessione sibi iniunctam, nihilominus fuit prius verum 
+      sa<lb ed="#L" n="34" break="no"/>cramentum, ergo satisfactio non est de intraneitate 
+      sacramen<lb ed="#L" n="35" break="no"/>ti poenitentiae tanquam pars: sed sicut contritio praeexigitur 
+      <lb ed="#L" n="36"/>tanquam dispositio poenitentis, sine qua effectum 
+      sacramen<lb ed="#L" n="37" break="no"/>ti non reciperet, sic satisfactio communicatur tanquam 
+      ope<lb ed="#L" n="38" break="no"/>ratio sine qua fructus sacramenti in impoenitente non 
+      rema<lb ed="#L" n="39" break="no"/>neret. Patet ergo quod contritio &amp; satisfactio non sunt 
+      par<lb ed="#L" n="40" break="no"/>tes poenitentiae proprie loquendo. Si vero pars sumatur largi 
+      <lb ed="#L" n="41"/>pro omni eo quod requiritur ad debitam confessionem, siue 
+      <lb ed="#L" n="42"/>antecedenter, siue consequenter, sic contritio &amp; satisfactio 
+      <lb ed="#L" n="43"/>possunt dici partes poenitentiae 
+</p>
+            <p xml:id="jsnvu6-e239114-d1e305">
+               <lb ed="#L" n="44"/>Et secundum hoc argumenta ad vtramque partem procedunt 
+      <lb ed="#L" n="45"/>viis suis: quia duo prima probant quod contritio &amp; satisfactio non 
+      <lb ed="#L" n="46"/>sunt partes poenitentiae, proprie loquendo de parte. 
+      </p>
+            <p xml:id="jsnvu6-e239114-d1e314">
+               <lb ed="#L" n="47"/>
+               <!--6--> ARGVMENTVM vero in oppositum probat quod 
+      <lb ed="#L" n="48"/>sunt partes: accipiendo partem pro quocunque quod 
+      requiri<lb ed="#L" n="49" break="no"/>tur ad poenitentiam antecedenter, vel consequenter, quorum 
+      <lb ed="#L" n="50"/>vtrumque concessum est. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

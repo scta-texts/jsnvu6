@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="88-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1865"><!-- l1d38q2 -->
+            <head xml:id="jsnvu6-d1e1865-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e1865-Hd1e103" type="question-title">Utrum deus sciat enunciabilia</head>
+            <p xml:id="jsnvu6-d1e1865-d1e106">
+               <lb ed="#L" n="117"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="118"/>Vtrum deus sciat enunciabilia. 
+      <lb ed="#L" n="119"/>Thom. l. g. 14. art. 14.
+    </p>
+            <p xml:id="jsnvu6-d1e1865-d1e115">
+               <lb ed="#L" n="120"/>SECVNDO quaeritur vtrum deus sciat 
+      enuncia<lb ed="#L" n="121" break="no"/>bilia. Et videtur quod non, quia intellectus com 
+      <lb ed="#L" n="122"/>ponendo &amp; diuidendo format enunciationem 
+      <lb ed="#L" n="123"/>sed deus non intelligit componendo aut diuiden 
+      <lb ed="#L" n="124"/>do, ergo non intelligit enunciabilia. 
+      </p>
+            <p xml:id="jsnvu6-d1e1865-d1e128">
+               <lb ed="#L" n="125"/>
+               <!--2--> Item illa sola cognitio est attribuenda deo, in qua non es 
+      <lb ed="#L" n="126"/>possibilis error, sed circa cognitionem enunciabilium est possi 
+      <lb ed="#L" n="127"/>bilis error, non autem circa cognitionem simplicem 
+      quiddita<lb ed="#L" n="128" break="no"/>tum (vt patet ex tertio de anima) ergo sola cognitio 
+      simpli<lb ed="#L" n="129" break="no"/>cium quidditatum est deo attribuenda. 
+      </p>
+            <p xml:id="jsnvu6-d1e1865-d1e145">
+               <lb ed="#L" n="130"/>
+               <!--3--> IN CONTRARIVM est quod dicitur in psalmo, 
+      <lb ed="#L" n="131"/>deus scit cogitationes hominum, quoniam vanae, &amp;c. Sed in co 
+      <lb ed="#L" n="132"/>gitationibus hominum continentur multae enunciationes, &amp; 
+      <lb ed="#L" n="133"/>multi syllogismi, ergo deus omnia talia nouit. 
+      </p>
+            <p xml:id="jsnvu6-d1e1865-d1e158">
+               <lb ed="#L" n="134"/>
+               <!--4--> RESPONSIO. Dicenda sunt tria. Primum est, quod deus 
+      <lb ed="#L" n="135"/>habet cognitionem enunciabilium. Secundum est quod non ha 
+      <lb ed="#L" n="136"/>bet eam componendo &amp; diuidendo sicut nos, &amp; ex hoc tertio 
+      <lb ed="#L" n="137"/>ostendetur quod scientia dei non est discursiua. Primum patet 
+      <lb ed="#L" n="138"/>dupliciter. Primo sic, deus perfectissime nouit omnes res &amp; om 
+      <lb ed="#L" n="139"/>nium rerum habitudines, sed in habitudinibus rerum consistit 
+      <lb ed="#L" n="140"/>ratio enunciabilium, ex hoc enim quod res est eadem rei per se 
+      <lb ed="#L" n="141"/>vel per accidens consistit ratio enunciabilis secundum 
+      affirma<lb ed="#L" n="142" break="no"/>tionem, &amp; ex eo quod res est diuersa a re, &amp; nullo modo eadem 
+      <lb ed="#L" n="143"/>consistit ratio enunciabilis secundum negationem, ergo deus 
+      <lb ed="#L" n="144"/>nouit omnia enunciabilia tam affirmatiua, quam negatiua. Se 
+      <lb ed="#L" n="145"/>cundo sic, deus scit quicquid est in potestate intellectus nostri, 
+      <lb ed="#L" n="146"/>sed formare enunciationem de enunciabilibus est in potestate 
+      <lb ed="#L" n="147"/>intellectus nostri, ergo deus scit vtrunque, (scilicet, enunciatio 
+      <lb ed="#L" n="148"/>nes &amp; enunciabilia.). 
+      </p>
+            <p xml:id="jsnvu6-d1e1865-d1e195">
+               <lb ed="#L" n="149"/>
+               <!--5--> QUANTVM ad secundum considerandum est quid est 
+      <lb ed="#L" n="150"/>intelligere componendo &amp; diuidendo, &amp; quae est causa sic intel 
+      <lb ed="#L" n="151"/>ligendi, intelligere enim componendo &amp; diuidendo non est solum 
+      <lb ed="#L" n="152"/>intelligere composita, aut diuisa, quia haec deus intelligit, tame 
+      <lb ed="#L" n="153"/>non intelligit per compositionem, aut diuisionem, oportet ergi 
+      <lb ed="#L" n="154"/>hanc compositionem, aut diuisionem accipere ex parte intellectu 
+      <lb ed="#L" n="155"/>ex quo non accipitur ex parte rei intellectae: ex parte autem 
+      in<lb ed="#L" n="156" break="no"/>tellectus possumus hanc compositionem dupliciter intelligere 
+      <lb ed="#L" n="157"/>vno modo vt intellectus componens aliqua duo, vt animal cum 
+      <lb ed="#L" n="158"/>asino, vel diuidens asinum ab homine vt hoc faciat duabus intelle 
+      <lb ed="#L" n="159"/>ctionibus realiter a se differentibus, quae per sui aggregationi 
+      <lb ed="#L" n="160"/>constituant tertiam, sicut dicitur quod totum scutum habens varios 
+      <lb ed="#L" n="161"/>colores in suis partibus simul videtur per vnam speciem aggrega¬ 
+      <!--00243.xml-->
+      <pb ed="#L" n="89-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tam ex multis, &amp; hunc modum non credo esse verum, quia plures 
+      <lb ed="#L" n="2"/>visiones non possunt simul esse in oculo, nec plures 
+      intellectio<lb ed="#L" n="3" break="no"/>nes simul in intellectu nostro naturaliter, &amp; si essent non 
+      suffice<lb ed="#L" n="4" break="no"/>rent ad componendum vel diuidendum inter aliqua, quia vt 
+      appa<lb ed="#L" n="5" break="no"/>ret ex 2. de anima cap. de sensu communi oportet quod comparatio 
+      <lb ed="#L" n="6"/>quorumcunque secundum conuenientiam, aut differentiam fiat 
+      <lb ed="#L" n="7"/>per indiuisibile animae, &amp; indiuisibili operatione, &amp; indiuisibili 
+      <lb ed="#L" n="8"/>tempore. Alio modo &amp; probabilius potest intelligi compositio 
+      <lb ed="#L" n="9"/>&amp; diuisio ex parte intellectus, vt non ponamus plures actus 
+      si<lb ed="#L" n="10" break="no"/>mul in intellectu facientes vnum per aggregationem, sed dicemus 
+      <lb ed="#L" n="11"/>uo intellectus intelligens, componendo &amp; diuidendo intelligi ea 
+      <lb ed="#L" n="12"/>quae componit aut diuidit vno actu simplici per essentiam, qui 
+      <lb ed="#L" n="13"/>tamen virtute continet duos actus praecedentes, quibus 
+      seor<lb ed="#L" n="14" break="no"/>sum intelligebamus hominem &amp; seorsum animal vel asinum, 
+      <lb ed="#L" n="15"/>propter quod talis actus dicitur compositus aut diuisus. Et 
+      po<lb ed="#L" n="16" break="no"/>nitur simile. nos enim dicimus humidum &amp; siccum esse 
+      qualita<lb ed="#L" n="17" break="no"/>tes simplices, molle autem qualitatem compositam, quae tamen in 
+      <lb ed="#L" n="18"/>essentia sua est aeque simplex vt sunt aliae, sed pro tanto 
+      dici<lb ed="#L" n="19" break="no"/>tur composita, quia aliquo modo continet virtualiter humidum 
+      <lb ed="#L" n="20"/>&amp; siccum. inquantum enim molle facile cedit, retinet naturam 
+      <lb ed="#L" n="21"/>humidi, inquantum autem terminatur termino proprio 
+      reti<lb ed="#L" n="22" break="no"/>net naturam sicci, &amp; similiter in proposito, quia tertius actus 
+      <lb ed="#L" n="23"/>continet virtualiter duos praecedentes, ideo dicitur compositus, 
+      <lb ed="#L" n="24"/>quamuis sit simplex in essentia sua. Quocunque autem horum 
+      <lb ed="#L" n="25"/>modorum dicatur intellectus intelligere componendo &amp; diuiden 
+      <lb ed="#L" n="26"/>do, constat quod causa sic intelligendi est debilitas &amp; imperfectio 
+      <lb ed="#L" n="27"/>virrutis intellectualis, ex qua prouenit quod intellectus non 
+      intel<lb ed="#L" n="28" break="no"/>ligit vno actu, &amp; simul quaecunque rei conueniunt aut 
+      discon<lb ed="#L" n="29" break="no"/>ueniunt, sed intelligit diuersa intelligibilia diuersis actibus qui 
+      <lb ed="#L" n="30"/>aggregantur ad constitutionem tertij, si ponantur primus mo 
+      <lb ed="#L" n="31"/>dus intelligendi per compositionem &amp; diuisionem, vel ex 
+      neces<lb ed="#L" n="32" break="no"/>sitate supponuntur tertio actui, qui eos virtualiter continet, &amp; 
+      <lb ed="#L" n="33"/>nisi illi praecessissent, iste tertius non esset. Ex hoc sic arguitur, 
+      <lb ed="#L" n="34"/>intellectus qui vno actu &amp; simul omnia intelligit, impossibil. 
+      <lb ed="#L" n="35"/>est quod intelligat componendo &amp; diuidendo, sed talis est 
+      intelle<lb ed="#L" n="36" break="no"/>ctus diuinus, ergo &amp;c. &amp; sic patet secundum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1865-d1e312">
+               <lb ed="#L" n="37"/>
+               <!--6--> Ex eodem apparet tertium, scilicet quod deus non intelligi 
+      <lb ed="#L" n="38"/>discurrendo, quia intellectus discurrens non simul omnia 
+      intel<lb ed="#L" n="39" break="no"/>ligit, sed ex noto venit in cognitionem ignoti. Omnis enim 
+      di<lb ed="#L" n="40" break="no"/>scursus est propter non habitum, sed intellectus diuinus simul 
+      <lb ed="#L" n="41"/>omnia intelligit, ergo non discurrit. Item actus intelligendi 
+      di<lb ed="#L" n="42" break="no"/>scursiuus supponit actum intelligendi componentem &amp; 
+      diui<lb ed="#L" n="43" break="no"/>dentem, sicut compositio &amp; diuisio supponunt indiuisibilium 
+      <lb ed="#L" n="44"/>intelligentiam, cui ergo non conuenit intelligere 
+      componen<lb ed="#L" n="45" break="no"/>do &amp; diuidendo, ei non conuenit intelligere discurrendo, sed 
+      <lb ed="#L" n="46"/>deo non conuenit intelligere componendo &amp; diuidendo, vt 
+      <lb ed="#L" n="47"/>probatum est, ergo &amp;c. 
+</p>
+            <p xml:id="jsnvu6-d1e1865-d1e341">
+               <lb ed="#L" n="48"/>Ad primum argumentum patet solutio, solum enim 
+      pro<lb ed="#L" n="49" break="no"/>batur quod deus non intelligit enunciabilia componendo &amp; 
+      diui<lb ed="#L" n="50" break="no"/>dendo, sicut intellectus noster, quod conuenit ei propter suam 
+      <lb ed="#L" n="51"/>imperfectionem quae a deo longe relegata est. 
+      </p>
+            <p xml:id="jsnvu6-d1e1865-d1e352">
+               <lb ed="#L" n="52"/>
+               <!--3--> Ad secundum dicendum qued omnium cognitio tam 
+      simpli<lb ed="#L" n="53" break="no"/>cium, quam enunciabilium est deo attribuenda, quum hoc sit 
+      <lb ed="#L" n="54"/>perfectionis, sed modi includentes imperfectionem sunt ab eo 
+      <lb ed="#L" n="55"/>relegandi, &amp; ille circa enunciabilia est intelligere componendo 
+      <lb ed="#L" n="56"/>&amp; diuidendo, ex quo prouenit error, quum hoc fit ex 
+      imperfe<lb ed="#L" n="57" break="no"/>ctione virtutis intellectualis, quae non statim perfecte attingit 
+      <lb ed="#L" n="58"/>ad omnia quae possunt conuenire rei, vel disconuenire, propter 
+      <lb ed="#L" n="59"/>quod hic modus deo non conuenit. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

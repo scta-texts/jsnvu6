@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="264-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e217767"><!-- l4d7q1 -->
+            <head xml:id="jsnvu6-e217767-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e217767-Hd1e103" type="question-title">Utrum confirmatio sit sacramentum</head>
+            <p xml:id="jsnvu6-e217767-d1e106">
+               <lb ed="#L" n="57"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="58"/>Vtrum confirmatio sit sacramentum. 
+      <lb ed="#L" n="59"/>Thom. 3. q. 72. art. 1. 
+    </p>
+            <p xml:id="jsnvu6-e217767-d1e115">
+               <lb ed="#L" n="60"/>CIRCA distinctionem illam quaeritur primo vtrum 
+      <lb ed="#L" n="61"/>confirmatio sit sacramentum. Et videtur quod non 
+      <lb ed="#L" n="62"/>quia eiusdem virtutis (scilicet fidei) actus sunt cre 
+      <lb ed="#L" n="63"/>"dere &amp; confiteri. Actus enim exterior &amp; interior 
+      <lb ed="#L" n="64"/>in idem principium reducuntur ordine quodam. 
+      <lb ed="#L" n="65"/>Sed sacramento baptismi attribuitur actus credendi, quum 
+      ba<lb ed="#L" n="66" break="no"/>ptismus sit sacramentum fidei, ergo eidem debet attribui 
+      con<lb ed="#L" n="67" break="no"/>fessio fidei, sed ad hoc ponitur confirmatio, ergo ipsa non est 
+      sa<lb ed="#L" n="68" break="no"/>cramentum per se a baptismo distinctum. 
+      </p>
+            <p xml:id="jsnvu6-e217767-d1e137">
+               <lb ed="#L" n="69"/>
+               <!--2.--> Item sacramenta habent virtutem ab institutione diuina. 
+      <lb ed="#L" n="70"/>Sed confirmatio non legitur a Deo instituta, ergo non est 
+      sa<lb ed="#L" n="71" break="no"/>cramentum. 
+</p>
+            <p xml:id="jsnvu6-e217767-d1e149">
+               <lb ed="#L" n="72"/>IN CONTRARIVM ed quod dici Melchiades: 
+      pa<lb ed="#L" n="73" break="no"/>pa. &amp; habetur de consecratione, distin. 4. can. De his vero. 
+      Sci<lb ed="#L" n="74" break="no"/>tote vtrunque esse magnum sacramentum, scilicet baptismum 
+      <lb ed="#L" n="75"/>&amp; confirmationem.
+    </p>
+            <p xml:id="jsnvu6-e217767-d1e160">
+               <lb ed="#L" n="76"/>
+               <!--4--> RESPONSIO. Videnda sunt duo. Primum est an 
+      con<lb ed="#L" n="77" break="no"/>firmatio sit sacramentum. Secundum est vtrum sit necessarium 
+      <!--00602.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="78"/>ad salutem. 
+      </p>
+            <p xml:id="jsnvu6-e217767-d1e176">
+               <lb ed="#L" n="79"/>
+               <!--5--> Quo ad primum dicendum est quod confirmatio est 
+      sacra<lb ed="#L" n="80" break="no"/>mentum a baptismo distinctum, quod potest probari tripliciter. 
+      <lb ed="#L" n="81"/>Primo ex conuenientia vitae corporalis ad spiritualem sic: Sicut 
+      <lb ed="#L" n="82"/>est in vita naturali sic suo modo est in vita spirituali, sed in vita 
+      <lb ed="#L" n="83"/>naturali sic est quod praeter generationem per quam vita acquiritur, 
+      <lb ed="#L" n="84"/>requiritur alia actio per quam homo ad perfectam quantitatem &amp; 
+      <lb ed="#L" n="85"/>virtutem producitur, scilicet augmentum, ergo similiter in vita 
+      <lb ed="#L" n="86"/>spirituali praeter generationem spiritualem quae fit in baptismo, 
+      <lb ed="#L" n="87"/>per quam vita acquiritur, requiritur alia actio sacramentalis per 
+      <lb ed="#L" n="88"/>quam vita spiritualis ad perfectam virtutem deducitur, hoc 
+      au<lb ed="#L" n="89" break="no"/>tem fit per confirmationem in qua datur spiritus san. ad 
+      perfe<lb ed="#L" n="90" break="no"/>ctum robur, igitur &amp;c. Et hoc est quod dicitur de consecr. di. 5 
+      <lb ed="#L" n="91"/>can. 1. Omnes fideles per manus impositionem episcoporum 
+      spir<lb ed="#L" n="92" break="no"/>sanct. accipere debent vt pleni Christiani inueniantur. Secunde 
+      <lb ed="#L" n="93"/>patet idem ex effectu ad quem ordinatur sic: Ad actum qui 
+      ha<lb ed="#L" n="94" break="no"/>bet spiritualem difficultatem opus est spirituali adiutorio. Sed 
+      <lb ed="#L" n="95"/>praeter difficultatem quae est in credendo est spiritualis 
+      difficul<lb ed="#L" n="96" break="no"/>tas in confitendo fidem tempore persecurionis, &amp; quando es 
+      <lb ed="#L" n="97"/>persecutione imminet periculum mortis. Licet enim ad 
+      simpli<lb ed="#L" n="98" break="no"/>cem confessionem fidei tempore pacis sufficiat virtus fidei, 
+      ta<lb ed="#L" n="99" break="no"/>men ad confessionem fidei coram persecutore vbi est periculum 
+      <lb ed="#L" n="100"/>mortis, non sufficit fides, sed cum fide requiritur virtus 
+      fortitu<lb ed="#L" n="101" break="no"/>dinis quae est circa pericula mortem inferentia, vt dicitur 3. 
+      Ethi<lb ed="#L" n="102" break="no"/>corum, ergo praeter sacramentum baptismi quod est in 
+      adiuto<lb ed="#L" n="103" break="no"/>rium fidei ad credendum, requiritur aliud sacramentum quod 
+      <lb ed="#L" n="104"/>fit in adiutorium fortitudinis ad audacter confitendum, &amp; 
+      ho<lb ed="#L" n="105" break="no"/>est sacramentum confirmationis. Ad hoc enim ordinatur vt 
+      ho<lb ed="#L" n="106" break="no"/>mo coram persecutore audacter fidem confireatur. Et hoc ess 
+      <lb ed="#L" n="107"/>quod dicit Melchiades papa de consecra. disti. 5. canon. Spiritu. 
+      <lb ed="#L" n="108"/>san. dicens sic: In baptismo regeneramur ad vitam, post 
+      baptis<lb ed="#L" n="109" break="no"/>mum confirmamur ad pugnam. Et ibidem, confirmatio armat &amp; 
+      <lb ed="#L" n="110"/>instruit ad agones huius mundi. Tertio apparet idem ex causa 
+      <lb ed="#L" n="111"/>cui conformamur sic, Per sacramentum vnimur &amp; 
+      conforma<lb ed="#L" n="112" break="no"/>mur Christo, Christus autem non solum est pater noster sed 
+      sa<lb ed="#L" n="113" break="no"/>cerdos, &amp; rex, sicut ergo per baptismum conformamur ei vt 
+      mi<lb ed="#L" n="114" break="no"/>nistri summo sacerdoti, sic oportet quod per aliquod 
+      sacramen<lb ed="#L" n="115" break="no"/>tum conformemur ei vt milites suo regi. Et hoc fit per 
+      confir<lb ed="#L" n="116" break="no"/>mationem per quam asscribimur ei vt milites ad pugnam 
+      spiri<lb ed="#L" n="117" break="no"/>tualem contra aduersarios fidei, quare &amp;c. Et sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e217767-d1e265">
+               <lb ed="#L" n="118"/>
+               <!--6.--> Quantum ad secundum dicendum quod non est sacramen¬2 
+      <lb ed="#L" n="119"/>tum simpliciter necessarium ad salutem. Est tamen necessarium 
+      <lb ed="#L" n="120"/>in casu, scilicet quando imminet persecutor coram quo fides est 
+      <lb ed="#L" n="121"/>confitenda, &amp; habetur copia ministri confirmare volentis &amp; 
+      va<lb ed="#L" n="122" break="no"/>lentis. Quod autem non sit necessarium simpliciter ad salutem 
+      <lb ed="#L" n="123"/>patet: quia paruuli baptizati si ante confirmationem decedant 
+      <lb ed="#L" n="124"/>saluantur. Quod autem sit necessarium in easu persecutionis 
+      po<lb ed="#L" n="125" break="no"/>test probari sic, quando effectus est necessarius, &amp; causa est 
+      ne<lb ed="#L" n="126" break="no"/>cessaria, sed effectus confirmationis scilicet confiteri fidem 
+      tem<lb ed="#L" n="127" break="no"/>pore persecutionis est necessarius ad salutem cuilibet fideli, erge 
+      <lb ed="#L" n="128"/>&amp; sacramentum confirmationis est necessarium ad salutem ii 
+      <lb ed="#L" n="129"/>tali casu si habeatur opportunitas conferentis. Qui enim in tali 
+      <lb ed="#L" n="130"/>casu renueret sacramentum confirmationis accipere, peccaret 
+      <lb ed="#L" n="131"/>mortaliter, propter quod dicit Melchiades vbi supra: quamuis 
+      <lb ed="#L" n="132"/>continuo transituris sufficiant regenerationis beneficia, 
+      victu<lb ed="#L" n="133" break="no"/>ris tamen necessaria sunt confirmationis auxilia. 
+      </p>
+            <p xml:id="jsnvu6-e217767-d1e304">
+               <lb ed="#L" n="134"/>
+               <!--7.--> Ad primum argumentum dicendum quod confiteri fide 
+      ab<lb ed="#L" n="135" break="no"/>soluta tempore pacis est actus fidei, sed confiteri tempore 
+      per<lb ed="#L" n="136" break="no"/>secutionis quando ex confessione imminet periculum mortis 
+      <lb ed="#L" n="137"/>pertinet ad virtutem fortitudinis supposita fide. Et ad illud 
+      suffi<lb ed="#L" n="138" break="no"/>cit confirmatio post baptismum. 
+      </p>
+            <p xml:id="jsnvu6-e217767-d1e320">
+               <lb ed="#L" n="139"/>
+               <!--8--> Ad secundum dicendum quod hoc sacram etum institutum 
+      <lb ed="#L" n="140"/>fuit a Christo nec obstat quod non legitur eius institutio, 
+      qui<lb ed="#L" n="141" break="no"/>multa fecit quae non sunt scripta, vt dicitur Io. 20. Forte tamen 
+      <lb ed="#L" n="142"/>eius institutio fuit per apostolos primitus promulgata publice, 
+      <lb ed="#L" n="143"/>praecis e post missionem spiritus sancti in die Pentecostes. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="90-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1887"><!-- l1d39prae -->
+            <head xml:id="jsnvu6-d1e1887-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1887-d1e103">
+               <lb ed="#L" n="34"/>Sententia huius distintionis XXXIX. 
+      <lb ed="#L" n="35"/>in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e1887-d1e110">
+               <lb ed="#L" n="36"/>RAETERRA quaeri solet. Superius 
+      determina<lb ed="#L" n="37" break="no"/>(uit magister de causalitate diuinae scientiae. Hic 
+      <lb ed="#L" n="38"/>intendit aliqua inquire re circa modum 
+      causalita<lb ed="#L" n="39" break="no"/>Itis. Et diuiditur in duas. Primo enim determinat 
+      <lb ed="#L" n="40"/>de ipsius scientiae inuariabilitate. Secundo de eiu 
+      <lb ed="#L" n="41"/>vniuersalitate. Secunda ibi, Si vero quod praedictum est. Prima 
+      <lb ed="#L" n="42"/>diuiditur in tres. Primo mouet quaestionem &amp; soluit. Secundo 
+      <lb ed="#L" n="43"/>obiicit in contrarium &amp; soluit. Tertio ponit quorundam 
+      opi<lb ed="#L" n="44" break="no"/>nionem circa varietatem diuinae scientiae. Secunda ibi, Hic 
+      op<lb ed="#L" n="45" break="no"/>ponitur a quibusdam. Tertia ibi, Item a quibusdam. Secunda 
+      <lb ed="#L" n="46"/>vero pars principalis, in qua inquirit de diuinae scientiae 
+      vniuer<lb ed="#L" n="47" break="no"/>salitate, diuiditur in tres partes. Primo obiicit contra intentum. 
+      <lb ed="#L" n="48"/>Secundo soluit. Tertio recapitulat determinata. Secunda ibi, Ex 
+      <lb ed="#L" n="49"/>tali nanque. Tertia ibi, Simul itaque. Et haec est diuisio literae &amp; 
+      <lb ed="#L" n="50"/>sententia in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e1887-d1e145">
+               <lb ed="#L" n="51"/>
+               <!--2--> INSPECIALI vero sic procedit magister. Et quaerit 
+      <lb ed="#L" n="52"/>primo vtrum scientia dei possit augeri vel minui, vel mutari, &amp; 
+      <lb ed="#L" n="53"/>probat quod sic, quia poterit deus facere multa quae non faciet, 
+      <lb ed="#L" n="54"/>&amp; multa futura possunt non fieri quae de? faciet, sed sicut possumt 
+      <lb ed="#L" n="55"/>res non fieri vel fieri, ita deus potest scire vel non scire, ergo scii 
+      <lb ed="#L" n="56"/>tia dei potest variari, &amp; sic augeri vel minui. Postea responde 
+      <lb ed="#L" n="57"/>dicens quod scientia dei idem est quod sua essentia quae variari non 
+      <lb ed="#L" n="58"/>potest: potest tamen aliquid variabile esse subiectum scientiae 
+      <lb ed="#L" n="59"/>dei sine aliqua mutatione facta in sciente: &amp; sic potest deus scire 
+      <lb ed="#L" n="60"/>quae non scit, &amp; nescire quae scit. Deinde obiicit &amp; dicit quod si 
+      <lb ed="#L" n="61"/>deus potest aliquid scire de nouo, ergo potest aliquid scire ex 
+      <lb ed="#L" n="62"/>tempore. Et respondet quod deus potest scire quae nescit, &amp; velle 
+      <lb ed="#L" n="63"/>quae non vult, non tamen quod aliqua nouitas in eo fiat. Vnde 
+      <lb ed="#L" n="64"/>propositio dicta potest dupliciter exponi vel intelligi, scilicet 
+      <lb ed="#L" n="65"/>coniunctim &amp; diuisim. non enim potest esse simul quod deus 
+      ali<lb ed="#L" n="66" break="no"/>quid prius nesciat &amp; postea sciat, sed diuisim intelligendo, &amp; sic 
+      <lb ed="#L" n="67"/>vera est quod deus libertatem habet sicut habuit ab aeterno 
+      sci<lb ed="#L" n="68" break="no"/>endi vel non sciendi omnia, loquendo de notitia approbationis. 
+      <lb ed="#L" n="69"/>Item res ipsa quantum est de se potest sciri vel non sciri. Postea 
+      <lb ed="#L" n="70"/>subiungit quod secundum quosdam deus potest plura scire quam 
+      <lb ed="#L" n="71"/>sciat, non tamen aliqua mutatio fit in eius scientia, sed solum in 
+      <lb ed="#L" n="72"/>O rebus suis. Postea probat per auctoritatem Hieronymi, quod 
+      <lb ed="#L" n="73"/>deus non sciat omnia, &amp; quod sua prouidentia non sit omnium 
+      <lb ed="#L" n="74"/>respondet quod imo, non enim vult dicere Hieronymus quod 
+      <lb ed="#L" n="75"/>deus aliquid nesciat, sed quod non sciat particulatim &amp; per 
+      in<lb ed="#L" n="76" break="no"/>terualla temporum, sicut res per interualla temporum oriuntur 
+      <lb ed="#L" n="77"/>&amp; desinut, nec aequaliter prouidet rationabilibus &amp; 
+      irrationa<lb ed="#L" n="78" break="no"/>bilibus. Vltimo concludit quod scientia dei extenditur ad 
+      plura<lb ed="#L" n="79" break="no"/>Et in hoc terminatur sententia in speciali.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

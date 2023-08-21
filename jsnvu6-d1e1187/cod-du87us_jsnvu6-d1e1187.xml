@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="56-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1187"><!-- l1d19q5 -->
+            <head xml:id="jsnvu6-d1e1187-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-d1e1187-Hd1e103" type="question-title">Utrum veritas sit ens reale an rationis</head>
+            <p xml:id="jsnvu6-d1e1187-d1e106">
+               <lb ed="#L" n="91"/>QUAESTIO QUINTA. 
+      <lb ed="#L" n="92"/>Vtrum veritas sit ens reale an rationis. 
+      <lb ed="#L" n="93"/>Thom. 1. 9. 19. 
+    </p>
+            <p xml:id="jsnvu6-d1e1187-d1e115">
+               <lb ed="#L" n="94"/>CIRCA veritatem quaeruntur duo. Primum est 
+      <lb ed="#L" n="95"/>vtrum veritas sit ens reale an ens rationis solum. 
+      <lb ed="#L" n="96"/>Secundum est in quo sit veritas, vtrum sit in 
+      re<lb ed="#L" n="97" break="no"/>aabus an in anima. Ad primum sic proceditur. Et 
+      <lb ed="#L" n="98"/>Aarguitur quod veritas sit ens reale, quia bonum 
+      <lb ed="#L" n="99"/>vniuscuiusque rei est ens reale, sed veritas est bonum 
+      intelle<lb ed="#L" n="100" break="no"/>ctus, ergo veritas est aliquid reale. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e133">
+               <lb ed="#L" n="101"/>
+               <!--2--> Item illud quod non est aliquid reale est nihil simpliciter 8 
+      <lb ed="#L" n="102"/>absolute, sed veritas non est nihil, alioquin laborantes ad 
+      scien<lb ed="#L" n="103" break="no"/>dum veritatem laborarent ad sciendum nihil quod est inconue 
+      <lb ed="#L" n="104"/>niens: ergo &amp;c. Minor patet, probatio maioris, quia aliquid &amp; 
+      <lb ed="#L" n="105"/>res conuertuntur. Et ideo quod non est res non est aliquid &amp; 
+      <lb ed="#L" n="106"/>per consequens nihil, aequipollent enim non aliquid &amp; nihil 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e152">
+               <lb ed="#L" n="107"/>
+               <!--3--> IN CONTRARIVM arguitur, quia illud quod di 
+      <lb ed="#L" n="108"/>stinguitur contra ens, reale, generaliter dictum est ens 
+      ratio<lb ed="#L" n="109" break="no"/>nis solum, sod ens verum distinguitur 6. Metaphisicae contra 
+      <lb ed="#L" n="110"/>ens realiter dictum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e165">
+               <lb ed="#L" n="111"/>
+               <!--4--> RESPONSIO. Circa quaestionem istam videndum 
+      <lb ed="#L" n="112"/>est primo quod importatur per ens rationis, &amp; secundo 
+      inqui<lb ed="#L" n="113" break="no"/>retur de principali quaesito. Quantum ad primum sunt duae 
+      <lb ed="#L" n="114"/>opiniones de ente rationis. Prima est quod ens rationis vocatur 
+      <lb ed="#L" n="115"/>illud quod est subiectiue in anima siue in intellectu vel in 
+      ra<lb ed="#L" n="116" break="no"/>tione. Et motiuum huius opinionis forte est quia ens rationis 
+      <lb ed="#L" n="117"/>consueuit appellari ens in anima. Sed vt videtur sic opinantibus 
+      <lb ed="#L" n="118"/>nihil est in anima nisi sit in ea subiectiue &amp; non obiectiue solum 
+      <lb ed="#L" n="119"/>vnde 3. de anima dicitur quod lapis non est in anima sed species la 
+      <lb ed="#L" n="120"/>pidis quia quamuis lapis se habeat ad animam obiectiue, non 
+      <lb ed="#L" n="121"/>tamen subiectiue, sed solum eius species, ervo vt videtur en 
+      <lb ed="#L" n="122"/>rationis non dicitur in anima esse nisi quia est in ea subiectiue 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e196">
+               <lb ed="#L" n="123"/>
+               <!--5--> Istud autem non potest esse verum, quia quod est ons reale 
+      <lb ed="#L" n="124"/>non est ens rationis, quia distinguuntur ex opposito, sed omne 
+      <lb ed="#L" n="125"/>quod est subiectiue in anima siue sit species actus siue 
+      habi<lb ed="#L" n="126" break="no"/>tus, est ens reale, ergo non est eiis rationis, minor probatur 
+      <lb ed="#L" n="127"/>quia aeque vera res est quae est in anima, &amp; perfectior &amp; 
+      nobi<lb ed="#L" n="128" break="no"/>lior quam res corporea. Et ideo si illud quod est 
+      subiecti<lb ed="#L" n="129" break="no"/>ue in re corporea, vt calor vel quantitas, est ens reale, fortiori 
+      <lb ed="#L" n="130"/>ratione illud quod est subiectiue in anima siue sit species siue 
+      <lb ed="#L" n="131"/>actus, siue habitus est ens reale &amp; non rationis. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e220">
+               <lb ed="#L" n="132"/>
+               <!--6--> Ad rationem illorum dicendum est quod effentia rationis 
+      di<lb ed="#L" n="133" break="no"/>cuntur esse in anima non subiectiue sed obiectiue, sicut postea 
+      <lb ed="#L" n="134"/>declarabitur. Quod autem dicit Philosophus 3. de Anima qu 
+      <lb ed="#L" n="135"/>lapis non est in anima, sed species lapidis non fuit intentio 
+      Ari<lb ed="#L" n="136" break="no"/>stotelis quod lapis &amp; omne cognitum non possit dici alique 
+      <lb ed="#L" n="137"/>modo esse in cognoscente, sed voluit excludere illum modum 
+      <lb ed="#L" n="138"/>quem ponebat Empedocles, qui dicebat quod oportebat 
+      ani<lb ed="#L" n="139" break="no"/>mam esse compositam ex omnibus ad hoc vt omnia 
+      cogno<lb ed="#L" n="140" break="no"/>sceret. Dicebat enim quod terra terram cognoscimus, &amp; sic 
+      di<lb ed="#L" n="141" break="no"/>aliis, contra quod dicit Aristoteles quod lapis non est sic in 
+      <lb ed="#L" n="142"/>anima quamuis fit in ea sicut cognitum in cognoscente. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e249">
+               <lb ed="#L" n="143"/>
+               <!--7--> Alia est opinio quam credo veriorem quod ens rationis 
+      ni<lb ed="#L" n="144" break="no"/>est aliud quam denominatio obiecti ab actu rationis, secundum 
+      <lb ed="#L" n="145"/>ea quae attribuuntur rei solum vt cognita est, verbi gratia esse 
+      <lb ed="#L" n="146"/>vniuersale, esse genus, vel speciem dicuntur esse entia rationis 
+      <lb ed="#L" n="147"/>quia talia dicuntur de re tantum vt est obiectiue cognita ita 
+      <lb ed="#L" n="148"/>quod ens rationis non est penitus nihil, nec dicitur ens ratio. 
+      <lb ed="#L" n="149"/>nis, quia sit in anima subiectiue, sed quia est denominatio re 
+      <lb ed="#L" n="150"/>ab actu rationis secundum ea quae conueniunt ei solum vt est 
+      <lb ed="#L" n="151"/>cognita. Et quamuis idem re sit hominem intelligere lapiden 
+      <lb ed="#L" n="152"/>in vniuersali, &amp; per indifferentiam ad singulares lapides &amp; 
+      la<lb ed="#L" n="153" break="no"/>pidem sic intelligi. Non enim lapis est sic intellectus nisi quia 
+      <lb ed="#L" n="154"/>homo intelligit eum sic, tamen intelligere in homine est 
+      ver<lb ed="#L" n="155" break="no"/>res &amp; denominatio qua homo esse dicitur intelligens est reali: 
+      <lb ed="#L" n="156"/>in homine, intelligi autem non est vera res in lapide, nec 
+      deno<lb ed="#L" n="157" break="no"/>minatio qua lapis dicitur sic intellectus est realis in lapide, sed 
+      <lb ed="#L" n="158"/>dicitur ens rationis, quia nullo modo competit rei nisi per acti 
+      <lb ed="#L" n="159"/>rationis tendentis vt in ipsum in obiectu, &amp; sit patet primum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e291">
+               <lb ed="#L" n="160"/>
+               <!--8--> QUANTVM ad secundum dicendum est quod sit veri¬ 
+      <!--00178.xml-->
+      <pb ed="#L" n="56-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tas, &amp; ex hoc apparebit an sit ens rationis, an non. Quantum 
+      <lb ed="#L" n="2"/>ad primum sciendum est quod sicut communiter dicitur veritas 
+      <lb ed="#L" n="3"/>est conformitas vel adaequatio intellectus ad rem. Qualiter au 
+      <lb ed="#L" n="4"/>tem hoc sit intelligendum aduertendum est, quod non est 
+      intel<lb ed="#L" n="5" break="no"/>ligendum de aequatione vel conformatione intellectus &amp; rei se 
+      <lb ed="#L" n="6"/>cundum illud quod sunt essentialiter, quia intellectus secundum 
+      <lb ed="#L" n="7"/>illud quod est essentialiter non habet aliquam conformitatem, 
+      <lb ed="#L" n="8"/>vel adaequationem cum re extra, imo magnam difformitatem 
+      <lb ed="#L" n="9"/>cum res extra sit quandoque corpus, intellectus autem non, sed 
+      <lb ed="#L" n="10"/>spiritus, aut si aliqua sit conformitas non consistit in illa 
+      veri<lb ed="#L" n="11" break="no"/>tas, quia cum illa attendatur secundum naturam rerum aequa 
+      <lb ed="#L" n="12"/>liter potest esse inter intellectu &amp; res quas nunquam intelliger 
+      <lb ed="#L" n="13"/>vel intellexit, sicut inter intellectum &amp; res quas intelligit, 
+      veri<lb ed="#L" n="14" break="no"/>tas autem non est sine cognitione, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e336">
+               <lb ed="#L" n="15"/>
+               <!--9--> Restat ergo quod talis conformitas attendatur secundum 
+      ali<lb ed="#L" n="16" break="no"/>quid quod est in intellectu subiectiue vel obiectiue. Et primi 
+      <lb ed="#L" n="17"/>quidem dicunt aliqui, scilicet, quod conformitas intellectus ac 
+      <lb ed="#L" n="18"/>rem attenditur secundum id quod est subiectiue in intellectu quod 
+      <lb ed="#L" n="19"/>est species rei quae est similitudo eius, vel secundum negantes 
+      <lb ed="#L" n="20"/>species ipse est actus intelligendi, qui est etiam similitudo rei 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e354">
+               <lb ed="#L" n="21"/>
+               <!--10.--> Sed istud non videtur verum, quia talis conformitas ve 
+      <lb ed="#L" n="22"/>esset in essendo vel in repraesentando, non in essendo, quia omnie 
+      <lb ed="#L" n="23"/>quod est subiectiue in intellectu est accidens, res autem exterio 
+      <lb ed="#L" n="24"/>est quandoque substantia materialis, vel si sit accidens est 
+      acci<lb ed="#L" n="25" break="no"/>dens corporeum. Inter haec non potest esse similitudo vel 
+      con<lb ed="#L" n="26" break="no"/>formitas in essendo cum sint diuersorum generum, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e372">
+               <lb ed="#L" n="27"/>
+               <!--11--> Nec potest attendi conformitas in qua consistit veritas in 
+      <lb ed="#L" n="28"/>repraesentando, quia repraesentatio rei per speciem apud intel 
+      <lb ed="#L" n="29"/>lectum praecedit saltem ordine naturae actum intelligendi, prius 
+      <lb ed="#L" n="30"/>enim est ordine naturae obiectum praesens potentiae per specii 
+      <lb ed="#L" n="31"/>si qua sit quam sequatur cognitio, veritas autem aut simul est 
+      <lb ed="#L" n="32"/>secundum natura cum actu intelligendi aut posterior, ergo ve 
+      <lb ed="#L" n="33"/>ritas non consistit in adaequatione vel conformitate quae ess 
+      <lb ed="#L" n="34"/>inter speciem &amp; rem secundum repraesentationem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e394">
+               <lb ed="#L" n="35"/>
+               <!--12--> Item dato quod res repraesentetur secundum actum 
+      intel<lb ed="#L" n="36" break="no"/>ligendi solum, &amp; non per aliquid prius, &amp; quod repraesentatio sit 
+      <lb ed="#L" n="37"/>ipsamet cognitio, adhuc conformitas in repraesentando vel in 
+      <lb ed="#L" n="38"/>agnoscendo non attenditur secundum aliquid quod sit 
+      subiecti<lb ed="#L" n="39" break="no"/>ue in intellectu, sed potius obiectiue, quia conformitas in repra 
+      <lb ed="#L" n="40"/>sentando vel cognoscendo praecise consistit in hoc quod reprae 
+      <lb ed="#L" n="41"/>sentans vel cognoscens repraesentat vel cognoscit rem sic esse 
+      <lb ed="#L" n="42"/>sicut ipsa est, sed talis conformitas attenditur solum secundum id 
+      <lb ed="#L" n="43"/>quod se habet obiectiue ad intellectum: ergo &amp;c. maior de se patet 
+      <lb ed="#L" n="44"/>probatio minoris, quia cum dicitur quod intellectus intelligit ren 
+      <lb ed="#L" n="45"/>sic esse sicut ipsa est. Sic &amp; sicut notae sunt conformitatis 
+      prae<lb ed="#L" n="46" break="no"/>dictae in qua formaliter consistit veritas, sed sic &amp; sicut sunt ibi 
+      <lb ed="#L" n="47"/>"conditiones obiecti &amp; non ipsius actus intelligendi, non enim est 
+      <lb ed="#L" n="48"/>sensus quod actus intelligendi sic se habeat ad intellectum in que 
+      <lb ed="#L" n="49"/>est subiectiue sicut se habet res intellecta ad suum esse reale, quia 
+      <lb ed="#L" n="50"/>hoc esset falsum, sed est sensus, quod res intelligitur sic esse sicut 
+      <lb ed="#L" n="51"/>ipsa est ita quod conformitas est inter esse appraehensum &amp; esse 
+      <lb ed="#L" n="52"/>in re, quia quale esse habet res tale appraehensum &amp; non aliud 
+      <lb ed="#L" n="53"/>Et licet res non sit appraehensa nisi per actum qui est in intelle 
+      <lb ed="#L" n="54"/>ctu subiectiue, tamen esse appraehensum dicit conditionem 
+      de<lb ed="#L" n="55" break="no"/>nominantem obiectum &amp; non intellectum, nec actum 
+      intelli<lb ed="#L" n="56" break="no"/>gendi, quia intellectus vt sic non est appraehensus, sed 
+      appraehen<lb ed="#L" n="57" break="no"/>dens, nec intelligere est appraehensum, sed appraehensio. Et ita 
+      <lb ed="#L" n="58"/>conformitas in qua consistit veritas attenditur secundum id 
+      <lb ed="#L" n="59"/>quod habet se ad intellectum obiectiue &amp; non subiectiue. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e453">
+               <lb ed="#L" n="60"/>
+               <!--13--> EST. ENIM veritas conformitas eiusdem ad seipsun 
+      <lb ed="#L" n="61"/>secundum aliud &amp; aliud esse, scilicet, esse intellectum &amp; esse 
+      <lb ed="#L" n="62"/>reale, quod etiam patet ex alio sic, illud est verum formaliter 
+      <lb ed="#L" n="63"/>quod significatur per propositionem veram, sed obiectum 
+      in<lb ed="#L" n="64" break="no"/>tellectus enunciatiue sumptum significatur per propositionem 
+      <lb ed="#L" n="65"/>veram, ergo veritas est formaliter conditio obiecti intellectus, 
+      <lb ed="#L" n="66"/>&amp; non alicuius existentis subiectiue in intellectu, maior patet, 
+      <lb ed="#L" n="67"/>quia signum non dicitur tale, nisi quia significat illud quod est 
+      <lb ed="#L" n="68"/>tale formaliter, sicut vrina non dicitur sana, nisi quia significat 
+      <lb ed="#L" n="69"/>sanitatem animalis quae est formaliter sanitas. Et idem dicitur 
+      <lb ed="#L" n="70"/>de propositione quae non dicitur vera, nisi quia significat illud 
+      <lb ed="#L" n="71"/>quod est formaliter verum, minor de se patet: quia propositio 
+      <lb ed="#L" n="72"/>vera non significat nisi illud quod est enunciatiue 
+      appraehen<lb ed="#L" n="73" break="no"/>sum per intellectum tanquam eius obiectum, &amp; sic patet quod 
+      <lb ed="#L" n="74"/>veritas est conformitas intellectus ad rem intellectam, 
+      inquan<lb ed="#L" n="75" break="no"/>tum id quod de re enunciatiue appraehenditur est conformi 
+      <lb ed="#L" n="76"/>vel potius idem cum entitate rei, &amp; sic est relatio eiusdem ad 
+      <lb ed="#L" n="77"/>Eipsum secundum esse intellectum &amp; esse reale. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e497">
+               <lb ed="#L" n="78"/>
+               <!--14.--> Iuxta quod est intelligendum quod cum veritas dicatur de 
+      <lb ed="#L" n="79"/>re (sicut dicimus illud esse de veritate rei, quod est de eius 
+      enti<lb ed="#L" n="80" break="no"/>tate &amp; quidditate) dicatur etiam de propositione &amp; de intellectu 
+      <lb ed="#L" n="81"/>dicimus enim propositionem veram &amp; intellectum verum) &amp; 
+      vlte<lb ed="#L" n="82" break="no"/>rius dicacur de obiecto enunciatiuo tam affirmatiuo quam negi 
+      <!--00178.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>tiuo (dicimus enim hominem esse animal est verum, &amp; hominem 
+      <lb ed="#L" n="84"/>non esse asinum est verum) Veritas primo modo dicta non est ve 
+      <lb ed="#L" n="85"/>ritas formaliter, sed quasi materialiter vel fundamentaliter, 
+      <lb ed="#L" n="86"/>quod patet, quia vox significans eam sicut sunt voces 
+      signifi<lb ed="#L" n="87" break="no"/>cantes simplicia non dicuntur significare verum nec falsum. 
+      <lb ed="#L" n="88"/>Sed hoc esset si entitas rei esset formaliter veritas. Veritas 
+      au<lb ed="#L" n="89" break="no"/>tem propositionis non est nisi veritas signi. Veritas autem 
+      in<lb ed="#L" n="90" break="no"/>tellectus vel actus intelligendi, vt est quaedam res in intellectu 
+      <lb ed="#L" n="91"/>subiectiue existens non est nisi sua entitas, qua veritate omnis 
+      <lb ed="#L" n="92"/>actus intelligendi est verus. Sed in comparatione obiectum di 
+      <lb ed="#L" n="93"/>citur intellectus verus, quia apprehendit rem sic esse sicut ipsa 
+      <lb ed="#L" n="94"/>est: ergo rem esse apprehensam sic esse sicut ipsa est, est verum 
+      <lb ed="#L" n="95"/>ad quod tam veritas rei quam vocis &amp; intellectus habent 
+      attributio<lb ed="#L" n="96" break="no"/>nom. Est ergo primum verum, &amp; cui primo competit veritas, 
+      <lb ed="#L" n="97"/>sed rem esse apprehensam, sic esse sicut ipsa est, est conditio 
+      ob<lb ed="#L" n="98" break="no"/>iecti conformiter se habentis secundum esse intellectum ad suum 
+      <lb ed="#L" n="99"/>esse reale, ergo talis conformitas est veritas, hoc autem non es 
+      <lb ed="#L" n="100"/>aliud quam relatio eiusdem ad seipsum secundum esse 
+      apprehen<lb ed="#L" n="101" break="no"/>sum &amp; secundum esse reale. Ex quo concluditur quod veritas est 
+      <lb ed="#L" n="102"/>ens rationis, quia illud quod attribuitur rei solum secundum 
+      <lb ed="#L" n="103"/>esse intellectum, est ens rationis, sed veritas est huiusmodi, erge 
+      <lb ed="#L" n="104"/>&amp;c. vtraque praemissarum patet ex praecedentibus. Ad cuiu 
+      <lb ed="#L" n="105"/>maiorem euidentiam sciendum est, quod sicut est duplex actus 
+      <lb ed="#L" n="106"/>intelligendi simplex, scilicet, &amp; componens, siue diuidens, sic 
+      <lb ed="#L" n="107"/>sunt duo genera entium rationis, vnum quod sequitur actum 
+      <lb ed="#L" n="108"/>intelligendi simplicem sicut vniuersale genus, species, &amp; 
+      huius<lb ed="#L" n="109" break="no"/>modi. Aliud quod sequitur actum intelligendi componentem 
+      <lb ed="#L" n="110"/>vel diuidentem, &amp; illud est verum vel falsum, vnde verum &amp; 
+      fal<lb ed="#L" n="111" break="no"/>sum non sunt aliud quam rem intelligi sicut est &amp; sic est 
+      veri<lb ed="#L" n="112" break="no"/>tas, vel intelligi esse vel non esse aliter quam sit, &amp; tunc est falsitas. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e583">
+               <lb ed="#L" n="113"/>
+               <!--15--> AD PRIMVM argumentum in oppositum dicendum 
+      <lb ed="#L" n="114"/>quod verum dicitur esse perfectio intellectus, quia actus quo 
+      <lb ed="#L" n="115"/>intellectus intelligit rem sic esse sicut est, est actus summe 
+      con<lb ed="#L" n="116" break="no"/>ueniens intellectui cuius natura est cognitiua rerum, sed ipsum 
+      <lb ed="#L" n="117"/>verum formaliter acceptum non est perfectio intellectus, sed 
+      <lb ed="#L" n="118"/>est denominatio obiecti conformiter se habentis secundum 
+      es<lb ed="#L" n="119" break="no"/>se intellectum, &amp; socundum esse reale. 
+      </p>
+            <p xml:id="jsnvu6-d1e1187-d1e603">
+               <lb ed="#L" n="120"/>
+               <!--16--> Ad secundum dicendum quod illud quod non est ens reale 
+      <lb ed="#L" n="121"/>est nihil realiter, est tamen ens rationis. Nam ens diuiditur in 
+      <lb ed="#L" n="122"/>ens rationis &amp; ens reale. Quod autem vlterius dicitur quod 
+      homi<lb ed="#L" n="123" break="no"/>nes nituntur ad sciendum veritate contra arguentes, quia si 
+      veri<lb ed="#L" n="124" break="no"/>tas sit aliquid reale non est aliud quam relatio conformitatis 
+      in<lb ed="#L" n="125" break="no"/>tellectus ad rem intellectam. Constat autem quod non omnes 
+      nitun<lb ed="#L" n="126" break="no"/>tur ad sciendum istam relationem, ergo nec ad sciendum veritate 
+      <lb ed="#L" n="127"/>si acceptam. Qualiter ergo intelligendum est quod homines 
+      <lb ed="#L" n="128"/>nituntur ad sciendum veritatem sic vtique non quod veritas 
+      <lb ed="#L" n="129"/>quantum ad id quod dicit formaliter sit obiectum &amp; 
+      principali<lb ed="#L" n="130" break="no"/>ter cognitum, sed quia homines nituntur scire naturas rerum, &amp; 
+      <lb ed="#L" n="131"/>habitudines earum quae cum cognoscuntur sic esse &amp; sic se 
+      ha<lb ed="#L" n="132" break="no"/>bere, prout est in naturis earum, tunc est veritas quae est 
+      confor<lb ed="#L" n="133" break="no"/>mitas rerum, vt intellectae sunt ad seipsas vt existunt. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

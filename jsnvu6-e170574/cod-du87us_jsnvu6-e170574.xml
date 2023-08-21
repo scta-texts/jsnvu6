@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="207-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e170574"><!-- l3d16prae -->
+            <head xml:id="jsnvu6-e170574-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e170574-d1e103">
+               <lb ed="#L" n="132"/>Sententia huius distinctionis XVI. in 
+      <lb ed="#L" n="133"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-e170574-d1e110">
+               <lb ed="#L" n="134"/>Ic oritur quaestio. Superius determinauit magi 
+      <lb ed="#L" n="135"/>ster de defectibus quos Christus cum natura 
+      hu<lb ed="#L" n="136" break="no"/>mana assumpsit. Hic inquirit per quem modum illi 
+      <lb ed="#L" n="137"/>defectus in Chiisto fuerunt, vtrum. s. fuerit in eo 
+      <lb ed="#L" n="138"/>necessitas patiendi, vel moriendi: &amp; diuiditur ista 
+      <lb ed="#L" n="139"/>pars in duas. Primo ostendit quod Christus necessitatem 
+      mo<lb ed="#L" n="140" break="no"/>riendi voluntarie assumpsit. Et quia talis necessitas ad statum 
+      <lb ed="#L" n="141"/>hominis pertinet, ideo secundo dicit quod Christus de singuli 
+      <lb ed="#L" n="142"/>statibus hominis, qui sunt quatuor, aliquid accepit ibi. Et 
+      no<lb ed="#L" n="143" break="no"/>tandum est hic Christum. Prima in duas. Primo mouet quaestio 
+      <lb ed="#L" n="144"/>&amp; arguit. Secundo eam soluit &amp; solutionem confirmat ibi, ac 
+      <lb ed="#L" n="145"/>quod dici potest. Haec est distinctio &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e170574-d1e139">
+               <lb ed="#L" n="146"/>
+               <!--2--> INSPECIALI sic procedit, &amp; proponit primo quod 
+      <lb ed="#L" n="147"/>Christus omnes defectus nostros praeter culpam suscepit, &amp; ne 
+      <lb ed="#L" n="148"/>cessitas moriendi non sit peccatum, sed defectus: oritur ex 
+      ho<lb ed="#L" n="149" break="no"/>quaestio, vtrum in corpore Christifuerit necessitas moriendi: 
+      <lb ed="#L" n="150"/>enim fuerit in eo aptitudo moriendi, non est dubium, quia fui 
+      <lb ed="#L" n="151"/>in homine ante peccatum, quando in eo nullus erat defectus 
+      <lb ed="#L" n="152"/>Vnde mortalitas &amp; aptitudo moriendi non fuit in eo defectus 
+      <lb ed="#L" n="153"/>sed nunc est in nobis moriendi necessitas, quae etiam dici potes 
+      <lb ed="#L" n="154"/>defectus. Et dicitur homo passibilis &amp; mortalis, non solam pro 
+      <lb ed="#L" n="155"/>pter moriendi aptitudinem, sed etiam propter moriendi 
+      neces<lb ed="#L" n="156" break="no"/>sitatem. De huiusmodi igitur mortalitate quaeritur, vtrum li 
+      <lb ed="#L" n="157"/>defectus, qui est necessarius moriendi &amp; patiendi, fuerit in 
+      Chri<lb ed="#L" n="158" break="no"/>sto. Et videtur quod non, quia si in Christo fuit talis 
+      necessi<lb ed="#L" n="159" break="no"/>tas, videtur sequi quod ipse non voluntarie, sed necessario 
+      no<lb ed="#L" n="160" break="no"/>stros defectus suscepit. Postea soluit, &amp; dicit quod Christus hor 
+      <lb ed="#L" n="161"/>defectus, scilicet necessitatem patiendi &amp; moriendi susc 
+      <!--00489.xml-->
+      <pb ed="#L" n="208-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>non quidem necessitate peccati, quia a peccato immunis fuit. Sed 
+      <lb ed="#L" n="2"/>sola voluntate. Talis enim defectus non competebat Chiisto ratio 
+      <lb ed="#L" n="3"/>ne suae conditionis, quia nec nobis inest ex natura primitus 
+      in<lb ed="#L" n="4" break="no"/>stututa, sed ex ea postmodum vitiata, Vitimo distinguit quadri 
+      <lb ed="#L" n="5"/>plicem hominis statum. Primus fuit ante peccatum. Secundus post 
+      <lb ed="#L" n="6"/>peccatum, &amp; ante gratiam. Tertius post peccatum &amp; sub gratia. Qua 
+      <lb ed="#L" n="7"/>tus vero in gloria, de quorum quolibet Christus accepit. 
+      Qui<lb ed="#L" n="8" break="no"/>omnes saluare venit. De primo quidem peccati immunitatem. De 
+      <lb ed="#L" n="9"/>secundo poenales defect?. De tertio gratiae plenitudinem. De qua 
+      <lb ed="#L" n="10"/>to non posse peccare, &amp; deum perfecte contemplari. Et in hoc, &amp;c 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

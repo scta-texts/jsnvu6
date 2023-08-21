@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="223-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e183235"><!-- l3d25q1 -->
+            <head xml:id="jsnvu6-e183235-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e183235-Hd1e103" type="question-title">
+      Utrum necessarium sit ad salutem, et 
+      semper fuerit habere fidem 
+      explicitam
+    </head>
+            <p xml:id="jsnvu6-e183235-d1e106">
+               <lb ed="#L" n="73"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="74"/>vtrum necessarium sit ad salutem, &amp; 
+      sem<lb ed="#L" n="75" break="no"/>per fuerit habere fidem 
+      <lb ed="#L" n="76"/>explicitam. 
+      <lb ed="#L" n="77"/>Tha. 2. 2. 4.2. ar. 5. 6. 7. &amp;8.
+    </p>
+            <p xml:id="jsnvu6-e183235-d1e119">
+      <!--00519.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="78"/>CIRCA distinctionem istam primo quaeritur, vtrum 
+      <lb ed="#L" n="79"/>necessarium sit ad salutem, &amp; semper fuerit 
+      habe<lb ed="#L" n="80" break="no"/>re fidem explicitam. Et videtur quod sic, quia sicui 
+      <lb ed="#L" n="81"/>cognitio praeceptorum iuuat ad vitandum 
+      pecca<lb ed="#L" n="82" break="no"/>Il ta morum, sic cognitio articulorum iuuat ad 
+      vitan<lb ed="#L" n="83" break="no"/>dum errores vel haeresim. Sed propter primum necessaria est, 
+      <lb ed="#L" n="84"/>explicita cognitio praeceptorum: ergo propter secundum 
+      ne<lb ed="#L" n="85" break="no"/>cessaria est, cognitio explicita articulorum. 
+      </p>
+            <p xml:id="jsnvu6-e183235-d1e143">
+               <lb ed="#L" n="86"/>
+               <!--2.--> Item si non requiratur fides explicita in omnibus, hoc esset, 
+      <lb ed="#L" n="87"/>quia sufficeret minoribus habere fidem implicitam in fide 
+      ma<lb ed="#L" n="88" break="no"/>iorum, sed istud non valet. Primo quia nullus potest habere 
+      scien<lb ed="#L" n="89" break="no"/>tiam implicitam in scientia alterius, ergo nec fidem implicitam 
+      <lb ed="#L" n="90"/>in fide alterius. Secundo quia si sufficeret minoribus credere im 
+      <lb ed="#L" n="91"/>plicite illud quod credunt maiores explicite, non imputaretur 
+      <lb ed="#L" n="92"/>eis, si conformarent se erroribus maiorum, quia maiores essent. 
+      <lb ed="#L" n="93"/>regula minorum: hoc autem est falsum, igitur, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e183235-d1e166">
+               <lb ed="#L" n="94"/>
+               <!--3.--> IN: CONTRARIVM est, quia explicatio 
+      articu<lb ed="#L" n="95" break="no"/>lorum est per sacram scripturam: sed scire sacram scripturam 
+      <lb ed="#L" n="96"/>non est de necessitate salutis, alioquin pauci saluarentur: ergo 
+      <lb ed="#L" n="97"/>fides explicita non est de necessitate salutis. 
+</p>
+            <p xml:id="jsnvu6-e183235-d1e179">
+               <lb ed="#L" n="98"/>
+               <!--4.--> RESPONSIO. Circa qua sionem itam viueda lunt 
+      <lb ed="#L" n="99"/>duo. Primum est, quid vocetur implicitum, quod quid explicitum, 
+      <lb ed="#L" n="100"/>Secundum est principale quaesitum. 
+      </p>
+            <p xml:id="jsnvu6-e183235-d1e190">
+               <lb ed="#L" n="101"/>
+               <!--5.--> Quantum ad primum sciendum est quod dupliciter 
+      dici<lb ed="#L" n="102" break="no"/>tur aliquid implicitum. Vno modo sicut actus continetur 
+      im<lb ed="#L" n="103" break="no"/>plicite in potentia vel in habitu, qui enim habet potentiam 
+      <lb ed="#L" n="104"/>vel habitum, habet in his implicite actum. Alio modo sicut par 
+      <lb ed="#L" n="105"/>ticulare in vniuersali: cognito enim vniuersali, cognoscitur in 
+      <lb ed="#L" n="106"/>ipso particulare implicite, sicut in animali implicite 
+      cognosci<lb ed="#L" n="107" break="no"/>tur homo. Primo ergo modo dicitur aliquis credere implicite 
+      <lb ed="#L" n="108"/>quando habet habitum, sed non exit in actum. Secundo autem 
+      <lb ed="#L" n="109"/>modo, quando credit, tantum in vniuersali non descendendo in 
+      <lb ed="#L" n="110"/>aliquod creditum, vel ad aliquem articulum in speciali. Et per 
+      <lb ed="#L" n="111"/>oppositum aliquis dicitur habere fidem explicitam dupliciter? 
+      <lb ed="#L" n="112"/>Primo quando habet fidem non solum in habitu, sed quando 
+      <lb ed="#L" n="113"/>secundum habitum exit in actum credendi. Secundo quando 
+      <lb ed="#L" n="114"/>credendo non solum stat in generalibus terminis, sed descendit 
+      <lb ed="#L" n="115"/>ad specialia credita, puta quod Deus est trinus &amp; vnus, quod 
+      <lb ed="#L" n="116"/>Deus est incarnatus, &amp; sic de caetetis. 
+      </p>
+            <p xml:id="jsnvu6-e183235-d1e229">
+               <lb ed="#L" n="117"/>
+               <!--6--> Quantum ad secundum dicendum est quod si quaestio 
+      intelliga<lb ed="#L" n="118" break="no"/>tur de implicito &amp; explicito primo modo, sic adultis necessaria 
+      <lb ed="#L" n="119"/>est ad salutem fides explicita &amp; semper fuit: &amp; haec est fides non 
+      <lb ed="#L" n="120"/>solum habitualis, sed exiens in actum, quod patet sic, Adultis non 
+      <lb ed="#L" n="121"/>est salus sine merito proprio, quamuis enim paruulis qui 
+      non<lb ed="#L" n="122" break="no"/>dum habent vsum libe. arbi. sufficiat ad salutem meritum Christi, c 
+      <lb ed="#L" n="123"/>communicatur eis in praeceptione baptismi, tamen adultis non 
+      suf<lb ed="#L" n="124" break="no"/>ficit, sed oportet quod ad meritum Christi addant proprium meritum 
+      <lb ed="#L" n="125"/>in eis: fides enim in eis sine operibus ociosa est lac. 2. omne autme 
+      <lb ed="#L" n="126"/>meritum consistit in actu: ergo cum fides sit necessaria ad salutem quia 
+      <lb ed="#L" n="127"/>sine fine impossibile est placere deo, vt dicitur Heb. 11. Necesse 
+      <lb ed="#L" n="128"/>est in adultis qui non saluantur sine merito proprio fidem exire 
+      <lb ed="#L" n="129"/>in actum, quod est habere fidem explicitam primo modo. 
+      </p>
+            <p xml:id="jsnvu6-e183235-d1e262">
+               <lb ed="#L" n="130"/>
+               <!--7--> Si autem loquamur de implicito &amp; explicito secundo 
+      mo<lb ed="#L" n="131" break="no"/>do, sic dicendum quod nunquam suffecit adultis ad salutem fides 
+      <lb ed="#L" n="132"/>implicita totaliter, sed semper oportuit quod quantum ad aliquid 
+      <lb ed="#L" n="133"/>specialiter explicaretur: illud autem pro omni statu fuit &amp; est, 
+      <lb ed="#L" n="134"/>credere Deum esse remuneratorem bonorum credentium in 
+      <lb ed="#L" n="135"/>ipsum. Quod patet ratione &amp; auctoritate. Ratio talis est, nullus 
+      <lb ed="#L" n="136"/>potest meritorie dirigere actus suos in finem ignotum, sed finis 
+      <lb ed="#L" n="137"/>meriti est remuneratio quae datur pro merito: ergo oportet 
+      <lb ed="#L" n="138"/>hunc finem non esse ignotum ad hoc, vt actus nostri meritorij di 
+      <lb ed="#L" n="139"/>rigantur in ipsum, cognoscitur autem inquantum credimus 
+      <lb ed="#L" n="140"/>Deum bonorum remuneratorem: quare semper necessarium 
+      <lb ed="#L" n="141"/>fuit ad salutem habere de hoc explicitam fidem. Ad idem est 
+      ex<lb ed="#L" n="142" break="no"/>pressa auctoritas Apost. ad Hebr. II. vbi dicit sic. Credere enim 
+      <lb ed="#L" n="143"/>oportet accedentem ad Deum, quia est, &amp; quod inquirentibus 
+      <lb ed="#L" n="144"/>se remunerator sit. Hoc igitur credere explicite necessarium fuit 
+      <lb ed="#L" n="145"/>ad salutem omni tempore etiam ante peccatum. 
+      </p>
+            <p xml:id="jsnvu6-e183235-d1e301">
+               <lb ed="#L" n="146"/>
+               <!--8--> De ampliori autem &amp; specialiori explicatione articulorum 
+      <lb ed="#L" n="147"/>differenter est dicendum secundum differentiam statuum &amp; ti 
+      <lb ed="#L" n="148"/>porum. Quia quum prima explicatio articulorum non 
+      potue<lb ed="#L" n="149" break="no"/>rit esse nisi a Deo reuelante: secundaria autem cognitio, &amp; qui 
+      <lb ed="#L" n="150"/>deinceps fuerunt habitae, sunt ab aliis quibus primo facta est 
+      re<lb ed="#L" n="151" break="no"/>uelatio: ideo tam in istis quam in illis considerandum est quid 
+      <lb ed="#L" n="152"/>congruit: &amp; primo de illis quibus facta est reuelatio, deinde de 
+      <lb ed="#L" n="153"/>aliis. Quantum ad illos quibus primo facta est reuelatio, 
+      con<lb ed="#L" n="154" break="no"/>stat quod tenebantur explicite credere quicquid fuit eis reuelatum 
+      <lb ed="#L" n="155"/>explicite, &amp; nihil aliud. Quod patet quantum ad partem 
+      affir<lb ed="#L" n="156" break="no"/>matiuam &amp; quantum ad negatiuam: quantum ad affirmatiuam 
+      <lb ed="#L" n="157"/>sic, non acquiescere Deo reuelanti est peccatum infidelitatis 
+      <lb ed="#L" n="158"/>sed illud non stat cum salute: ergo necessarium fuit his quibus 
+      <lb ed="#L" n="159"/>facta est reuelatio assentire omnibus sibi reuelatis. Negatiua 
+      <!--00520.xml-->
+      <pb ed="#L" n="223-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>bars etiam patet de se, quia cum prima reuelatio credibilium sit 
+      <lb ed="#L" n="2"/>a deo, non fuit possibile aliquid eorum cognoscere primo nisi 
+      se<lb ed="#L" n="3" break="no"/>cundum quod reuelata fuerunt a deo, quare &amp;c. In aliis autem 
+      <lb ed="#L" n="4"/>qui fuerunt &amp; modo sunt, est triplex gradus, quia quidam sunt 
+      <lb ed="#L" n="5"/>supremi vt papa, &amp; episcopi, quidam medij, &amp; quidam infimi, vi 
+      <lb ed="#L" n="6"/>communis populus. Supremi scilicet papa, episcopi tenentur scire 
+      <lb ed="#L" n="7"/>omnes articulos explicite &amp; non solum hoc, sed etiam qualite 
+      <lb ed="#L" n="8"/>contra haereticos defendantur (&amp; paratis credere) declaranture 
+      <lb ed="#L" n="9"/>persuadeantur. Quod patet sic, ad pastores ecclesiae pertineni 
+      <lb ed="#L" n="10"/>gregem nutrire &amp; multiplicare &amp; a lupis defendere, sed papa &amp; 
+      <lb ed="#L" n="11"/>episcopi sunt ex officio summi pastores ecclesiae, ergo ad eos 
+      <lb ed="#L" n="12"/>pertinet ex officio gregem fidelium nutrire in doctrina fidei 
+      qua<lb ed="#L" n="13" break="no"/>tum ad credentes, &amp; multiplicare quantum ad dispositos ad 
+      cre<lb ed="#L" n="14" break="no"/>dendum, &amp; defendere a lupis, id est a subuersione haereticorum, 
+      <lb ed="#L" n="15"/>&amp; pro his si necesse esset tenerentur mortem subire: sed hoc non 
+      <lb ed="#L" n="16"/>possent facere nisi explicite scirent omnes articulos quos 
+      de<lb ed="#L" n="17" break="no"/>pent docere, &amp; scirent eos persuadere ex dictis scripturae ad 
+      tra<lb ed="#L" n="18" break="no"/>hendum efficacius illos qui dispositi sunt credere, &amp; scirent de 
+      <lb ed="#L" n="19"/>fendere contra impugnationem haereticorum &amp; sacram scriptu 
+      <lb ed="#L" n="20"/>ram peruertentium, ergo &amp;c. Et quia hoc fit per scientiam sacrae 
+      <lb ed="#L" n="21"/>scripturae ideo tenentur scire sacram scripturam. Item consta 
+      <lb ed="#L" n="22"/>quod aliqui de ecclesia tenentur ex officio ad praedicta alioquir 
+      <lb ed="#L" n="23"/>ecclesia non fuisset a Christo sufficienter instituta, sed nulli ali 
+      <lb ed="#L" n="24"/>magis vel etiam aeque tenentur ad hoc ex officio quam papa &amp; 
+      <lb ed="#L" n="25"/>episcopi qui tenent locum Petri &amp; Apostolorum qui ad hoc 
+      te<lb ed="#L" n="26" break="no"/>nebantur, ergo &amp;c. Item vnusquisque tenetur scire illud de quo 
+      <lb ed="#L" n="27"/>ex officio suo habet iudicare (quia vnusquisque bene iudicat di 
+      <lb ed="#L" n="28"/>his quae nouit &amp;c. primo Eth.) sed papa &amp; episcopi habent 
+      iudi<lb ed="#L" n="29" break="no"/>care de quibuscunque subtilissimis tangentibus fidem, concilium 
+      <lb ed="#L" n="30"/>enim talia determinat, ergo &amp;c. Propter quod dicit Apost. ad 
+      <lb ed="#L" n="31"/>Titu I. cap. quo oportet Episcopum sine crimine esse amplectentem 
+      <lb ed="#L" n="32"/>cum qui secudum doctrinam est fidelem sermonem vt potens sit 
+      <lb ed="#L" n="33"/>exhortari in doctrina sana &amp; eos qui contradicunt arguere. 
+      </p>
+            <p xml:id="jsnvu6-e183235-d1e415">
+               <lb ed="#L" n="34"/>
+               <!--9--> Medij autem sunt in ecclesia curati simplices &amp; qui ex 
+      offici<lb ed="#L" n="35" break="no"/>vel ministerio habent alios docere, vt praedicatores &amp; doctores 
+      <lb ed="#L" n="36"/>&amp; hi tenentur scire explicite quantum pertinet ad suum officum 
+      <lb ed="#L" n="37"/>hoc est articulos quantum ad substantiam eorum. In 
+      difficulta<lb ed="#L" n="38" break="no"/>tibus autem vel haereticorum impugnationibus debent 
+      recurre<lb ed="#L" n="39" break="no"/>re ad superiores. Infimi autem (vt communis populus) non 
+      te<lb ed="#L" n="40" break="no"/>nentur explicite credere vel scire nisi quantum eis traditum ess 
+      <lb ed="#L" n="41"/>ex maiorum doctrina &amp; communi ritu ecclesiae qui neminem later 
+      <lb ed="#L" n="42"/>nisi ob culpam suam ab hoc impediatur. Puto autem quod pro mo 
+      <lb ed="#L" n="43"/>derno tempore nullus potest excusari si ignoret articulum 
+      tri<lb ed="#L" n="44" break="no"/>nitatis, incarnationis, resurrectionis, ascensionis &amp; aduentus ad 
+      <lb ed="#L" n="45"/>iudicium, cum ex publico ritu Ecclesiae, &amp; festiuitatum celebri 
+      <lb ed="#L" n="46"/>solennisatione vt vulgata praedicatione omnibus haec 
+      innote<lb ed="#L" n="47" break="no"/>scant. Cui autem nulla essent explicita, sicut nato &amp; nutrito in 
+      <lb ed="#L" n="48"/>deserto tenetur (quod sufficeret ex parte eius) bene viuere 
+      se<lb ed="#L" n="49" break="no"/>cundum legem naturae, quo facto Deus subueniret ei in necessa 
+      <lb ed="#L" n="50"/>riis ad salutem reuelando ea quae credere debet, vel per seipsum 
+      <lb ed="#L" n="51"/>vel per angelum vel per praedicatorem missum. 
+      </p>
+            <p xml:id="jsnvu6-e183235-d1e459">
+               <lb ed="#L" n="52"/>
+               <!--10--> Ad primum arg. dicendum quod non est simile de praeceptis &amp; 
+      <lb ed="#L" n="53"/>articulis, quia praecepta sunt de jure naturali, &amp; nota in lumine 
+      <lb ed="#L" n="54"/>naturali, &amp; ideo nullus excusatur si per ignorantiam faciat 
+      con<lb ed="#L" n="55" break="no"/>tra ea, cum recta ratio naturalis dictet ea. Articuli autem sunt 
+      <lb ed="#L" n="56"/>supra rationem, nec habentur nisi ex alterius reuelatione seu do 
+      <lb ed="#L" n="57"/>ctrina, propter quod ignorantia eorum est in toto excusabilis quo ad 
+      <lb ed="#L" n="58"/>illos quibus non fuissent per aliquem modum expliciti, si per 
+      eo<lb ed="#L" n="59" break="no"/>non stetisset, &amp; nihilominus tales possent vitare errores &amp; 
+      hae<lb ed="#L" n="60" break="no"/>resim, non recipiendo statim audita, sed discutiendo per se &amp; 
+      in<lb ed="#L" n="61" break="no"/>terrogando ab aliis &amp; suspendendo assensum quousque pleniu: 
+      <lb ed="#L" n="62"/>certificarentur. In talibus enim non est credendum omni 
+      spiri<lb ed="#L" n="63" break="no"/>tui, qui enim cito credit, leuis est corde. 
+      </p>
+            <p xml:id="jsnvu6-e183235-d1e490">
+               <lb ed="#L" n="64"/>
+               <!--11--> Ad secundum dicendum quod non est simile de scientia, &amp; 
+      <lb ed="#L" n="65"/>de fide, quia scire est cognoscere effectum per causam, vel 
+      cau<lb ed="#L" n="66" break="no"/>sam per effectum, &amp; quia haec sunt in rebus, ideo nullus 
+      po<lb ed="#L" n="67" break="no"/>test habere scientiam nisi cognoscat causam vel effectum in re, 
+      <lb ed="#L" n="68"/>&amp; quia ex hoc quod vnus nouit causam alicuius effectus non 
+      <lb ed="#L" n="69"/>propter hoc alius nouit ideo lynus dicitur habere scientiam 
+      <lb ed="#L" n="70"/>implicitam in scientia alterius, sed fides innititur 
+      auctorita<lb ed="#L" n="71" break="no"/>ti diuinae reuelanti credibilia, quibus omnibus assentit 
+      qui<lb ed="#L" n="72" break="no"/>libet fidelis saltem in generali, &amp; aliqua horum sunt 
+      explici<lb ed="#L" n="73" break="no"/>ta maioribus in Ecclesia scientibus sacram scripturam. Non 
+      <lb ed="#L" n="74"/>autem minoribus, ideo minores innitentes auctoritati 
+      supe<lb ed="#L" n="75" break="no"/>riorum, vt superiores sunt in Ecclesia (quae vere est 
+      auctori<lb ed="#L" n="76" break="no"/>tas diuina, secundum illud Lucae 10. qui vos audit, me audit) 
+      <lb ed="#L" n="77"/>dicuntur habere fidem implicitam in fide eorum. Et ex hoc 
+      se<lb ed="#L" n="78" break="no"/>quitur quod ex errore aliquorum maiorum nullum periculum 
+      <lb ed="#L" n="79"/>minoribus imminet, quia non innituntur fidei personali huius 
+      <lb ed="#L" n="80"/>vel alius qui potest deficere, sed eorum fidei, quatenus sunt 
+      re<lb ed="#L" n="81" break="no"/>ctores Ecclesiae, quam impossibile est in omnibus deficere cun 
+      <lb ed="#L" n="82"/>sit regimen spiritussancti, ideo &amp;c. 3 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

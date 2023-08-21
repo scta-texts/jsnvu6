@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="31-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e583"><!-- l1d8p2prae -->
+            <head xml:id="jsnvu6-d1e583-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e583-d1e103">
+               <lb ed="#L" n="119"/>Secunda pars distinctionis octauae, 
+      senten<lb ed="#L" n="120" break="no"/>tia generali &amp; speciali secundae 
+      par<lb ed="#L" n="121" break="no"/>tis octauae distinctionis. 
+</p>
+            <p xml:id="jsnvu6-d1e583-d1e112">
+               <lb ed="#L" n="122"/>ADEM quae sola proprietas. Superius 
+      deter<lb ed="#L" n="123" break="no"/>iminauit magister de diuina immutabilitate 
+      <lb ed="#L" n="124"/>Hic determinat de diuina simplicitate. Et diui 
+      <lb ed="#L" n="125"/>ditur in duas partes. Primo enim proponit 
+      <lb ed="#L" n="126"/>quid intendit. Secundo probatur intentum. 
+      Se<lb ed="#L" n="127" break="no"/>cunda ibi, vt autem scias. Et haec secunda diui 
+      <lb ed="#L" n="128"/>ditur in duas. Primo ostendit multiplicitatem. Secundo diuina 
+      <lb ed="#L" n="129"/>simplicitatem. Secunda ibi. Deus vero &amp;c. Prima istarum 
+      diui<lb ed="#L" n="130" break="no"/>ditur in duas. Primo excludit simplicitatem a creatura 
+      corpo<lb ed="#L" n="131" break="no"/>rali. Secundo a creatura spirituali. Secunda ibi. Creatura 
+      spiri<lb ed="#L" n="132" break="no"/>tualis. Et cum hoc sequatur illa pars in qua ostendit diuinam fim 
+      <lb ed="#L" n="133"/>plicitatem, quae diuiditur in duas partes. Primo ostendit 
+      diuini<lb ed="#L" n="134" break="no"/>simplicitatem. Secundo excludit omnia ab eo composita. Secun 
+      <lb ed="#L" n="135"/>da ibi, quod autem in natura diuinitatis. Haec autem diuiditur in 
+      <lb ed="#L" n="136"/>tres. Primo separat a Deo accidentium praedicationem, per 
+      <lb ed="#L" n="137"/>quod habetur quod non est in ipso compositio accidentis &amp; 
+      sub<lb ed="#L" n="138" break="no"/>iecti. Secundo excludit quod nec substantia de ipso proprie 
+      <lb ed="#L" n="139"/>praedicatur. Tertio ostendit quod in eo nulla est compositio. 
+      Se<lb ed="#L" n="140" break="no"/>cunda ibi, vnde non proprie dicitur. Tertia ibi, huius autem 
+      es<lb ed="#L" n="141" break="no"/>sentiae multiplicitas. Haec est diuisio &amp; sententia in generali 
+      </p>
+            <p xml:id="jsnvu6-d1e583-d1e158">
+               <lb ed="#L" n="142"/>
+               <!--2--> In speciali vero sic procedit magister &amp; proponit. Primo 
+      <lb ed="#L" n="143"/>quod essentia Dei simplex est, quia in Deo nulla est diuersitas 
+      <lb ed="#L" n="144"/>siue accidentium siue formarum. Postea ostendit creaturae 
+      cor<lb ed="#L" n="145" break="no"/>poralis multiplicitatem. Et dicit quod in creatura corporali 
+      <lb ed="#L" n="146"/>est vtraque diuersitas, secundum partium &amp; accidentium siu 
+      <lb ed="#L" n="147"/>formarum. Et ostendit postea quod creatura spiritualis est 
+      <lb ed="#L" n="148"/>multiplex, licet enim in ea non fit diuersitas partium sicut in 
+      <lb ed="#L" n="149"/>corporalibus, quantum ad hoc simplex dicatur, vnde anima ess 
+      <lb ed="#L" n="150"/>tota in toto &amp; tota in qualibet parte corporis, est tamen in ea 
+      <lb ed="#L" n="151"/>diuersitas accidentium, sicut determinat per exempla. Postea 
+      <lb ed="#L" n="152"/>ostendit diuinam simplicitatem. Et dicit quod Deus est sum. 
+      <lb ed="#L" n="153"/>me simplex, nec obstat huic simplicitati pluralitas nominum 
+      <lb ed="#L" n="154"/>quae de Deo dicuntur, quia omnia vnum significant, ab eadem 
+      <lb ed="#L" n="155"/>enim natura &amp; simplici habet Deus quod sub multiplicibus 
+      <lb ed="#L" n="156"/>nominibus ei attribuantur. Postea ostendit quod in Dec lon 
+      <lb ed="#L" n="157"/>sunt alia accidentia distrahendo per singula praedicamenta 
+      <lb ed="#L" n="158"/>accidentis. Postea dicit quod substantia dicitur de Deo 
+      im<lb ed="#L" n="159" break="no"/>proprie, quia Deus nulli accidenti substat, &amp; sic patet quod 
+      <lb ed="#L" n="160"/>Deus propter suam simplicitatem in nullo genere. Postea 
+      di<lb ed="#L" n="161" break="no"/>cit Deum summe &amp; omnino simplicem &amp; ab eo omnem 
+      com<lb ed="#L" n="162" break="no"/>positionem remoueri, quod ex hoc ostendit quod Deus est 
+      <lb ed="#L" n="163"/>quicquid habet. Addit etiam vlterius quod haec simplicitas plu¬ 
+      <!--00128.xml-->
+      <pb ed="#L" n="31-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ralitatem personarum non excludit cum dicitur deus est 
+      quic<lb ed="#L" n="2" break="no"/>quid hic intelligendum est, excepto eo quod relatiue dicitur, 
+      <lb ed="#L" n="3"/>&amp; in hoc terminatur sententia in speciali, &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

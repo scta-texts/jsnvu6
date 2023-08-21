@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="145-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3383"><!-- l2d24p1prae -->
+            <head xml:id="jsnvu6-d1e3383-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3383-d1e103">
+               <lb ed="#L" n="143"/>Sententia huius distinctionis xxiiij. in 
+      <lb ed="#L" n="144"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-d1e3383-d1e110">
+               <lb ed="#L" n="145"/>VN c diligenter inuestigati oportet. Superius 
+      <lb ed="#L" n="146"/>determinauit Magister de peccato primi 
+      homi<lb ed="#L" n="147" break="no"/>nis, hic vero determinat de auxilio eius quod ha 
+      <lb ed="#L" n="148"/>buit contra peccatum. Et diuiditur in tres, quia 
+      <lb ed="#L" n="149"/>enim hoc adiutorium fuit libe. arb. primo 
+      deter<lb ed="#L" n="150" break="no"/>minat de libe. arb. per comparationem ad alias animae potentias. 
+      <lb ed="#L" n="151"/>Secundo determinat de eo quantum ad propriam sui rationem, quae 
+      <lb ed="#L" n="152"/>est ratio libe. arb. Tertio determinat de ipso per comparationem 
+      <lb ed="#L" n="153"/>ad gratiam. Secunda incipit in principio 25. dist. ibi iam vero ad 
+      <lb ed="#L" n="154"/>propositum redeamus. Tertia, in principio 26. dist. ibi haec est 
+      <lb ed="#L" n="155"/>gratia operans. Prima diuiditur in duas. Primo determinat de 
+      <lb ed="#L" n="156"/>sibe, arbit. &amp; de aliis potentiis. Secundo, ostendit quomodo in 
+      <lb ed="#L" n="157"/>eis habet esse peccatum. Secunda ibi, illud quoque 
+      praetereun<lb ed="#L" n="158" break="no"/>dum non est. Prima est in principio lectionis &amp; diuiditur in duas. 
+      <lb ed="#L" n="159"/>Primo determinat de auxilio dato in generali. Secundo magis 
+      <lb ed="#L" n="160"/>in speciali ostendendo quod fuit illud auxilium. Secunda ibi, hic 
+      <!--00358.xml-->
+      <pb ed="#L" n="145-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>considerandum est quod fuerit illud adiutorium homini. Prima 
+      <lb ed="#L" n="2"/>in duas. Primo determinat suum intentum. Secundo opponi 
+      <lb ed="#L" n="3"/>contra determinata. Secunda ibi, sed quomodo rectam &amp; bo 
+      <lb ed="#L" n="4"/>nam. Secunda in qua determinat specialiter de auxilio, diuiditu 
+      <lb ed="#L" n="5"/>in tres. Primo proponit quod illud auxilium fuit liberum. Se 
+      <lb ed="#L" n="6"/>cundo determinat de libero arbitrio. Tertio de aliis potentij 
+      <lb ed="#L" n="7"/>animae. Secunda incipit ibi, liberum vero arbitrium. Tertia ibi 
+      <lb ed="#L" n="8"/>est enim sensualitas. Haec est sententia lectionis &amp;c. 
+      <lb ed="#L" n="9"/>In speciali sic procedit &amp; proponit primo quod homo in sua 
+      <lb ed="#L" n="10"/>prima creatione liberam &amp; rectam voluntatem accepit &amp; 
+      au<lb ed="#L" n="11" break="no"/>xilium per quod posset stare, non tamen perficere ad gloriae me 
+      <lb ed="#L" n="12"/>ritum, si tamen tale adiutorium non recepisset propter 
+      pecca<lb ed="#L" n="13" break="no"/>tum puniendus non esset. Postea obucit in contrarium quomo 
+      <lb ed="#L" n="14"/>do inquit erat recta voluntas hominis per quam non meruit. 
+      ne<lb ed="#L" n="15" break="no"/>steut &amp; respondet quod recta erat per carentiam culpae, &amp; quia 
+      <lb ed="#L" n="16"/>ad tempus stare valuit. Ideon obiuncit cum resistere malo sit meri, 
+      <lb ed="#L" n="17"/>torium, si poterat in primo statu resistere malo, ergo potuit 
+      me<lb ed="#L" n="18" break="no"/>reri. Et respondet quod resillere malo non est meritorium nisi in 
+      <lb ed="#L" n="19"/>natura corrupta vbi est aliquid ad malum impellens. Postea dici 
+      <lb ed="#L" n="20"/>quod illud auxilium fuit libertas arbitrij sine omni corruptione. 
+      <lb ed="#L" n="21"/>Postea dicit quod liberum arbitium est facultas rationis &amp; 
+      vo<lb ed="#L" n="22" break="no"/>luntatis quia bonum eligitur per gratiam vel malum sine gratia 
+      <lb ed="#L" n="23"/>Et dicitur liberum arbitrium quo ad voluntatem, arbitrium ve 
+      <lb ed="#L" n="24"/>ro quo ad rationem in quo est potentia discernendi, potest 
+      ta<lb ed="#L" n="25" break="no"/>men liberum arbitriu velle naturaliter bonum &amp; malum vtrum, 
+      <lb ed="#L" n="26"/>que discernendo quod quaedam bruta animalia ratione 
+      caren<lb ed="#L" n="27" break="no"/>tia non habent sed sensittuum &amp; appetitiuum quae sensualitas 
+      <lb ed="#L" n="28"/>dicitur. Postea dicit quod sensualitas est quaedam vis animae es 
+      <lb ed="#L" n="29"/>qua est motus in corporis sensus &amp; appetitus pertinentium ac 
+      <lb ed="#L" n="30"/>corpus, ratio vero animae pars superior excedens omne quod 
+      <lb ed="#L" n="31"/>commune habemus cum brutis, cuius duplex est portio, vna 
+      in<lb ed="#L" n="32" break="no"/>p ferior quae temporalia disponit. Alia superior quae aeternis 
+      con<lb ed="#L" n="33" break="no"/>spicientibus intendit. Et haec duo non diuersas naturas 
+      nomi<lb ed="#L" n="34" break="no"/>nant, sed diuersa officia. Et in hoc terminatur, &amp;c.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

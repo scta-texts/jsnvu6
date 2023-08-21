@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="203-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e167291"><!-- l3d14prae -->
+            <head xml:id="jsnvu6-e167291-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e167291-d1e103">
+               <lb ed="#L" n="136"/>Sententia huius distinctionis XIIII. in 
+      <lb ed="#L" n="137"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-e167291-d1e110">
+               <lb ed="#L" n="138"/>Ic quaeri opus est. Superius determinauit 
+      magi<lb ed="#L" n="139" break="no"/>Vster de plenitudine perfectionis Christi, quantum 
+      <lb ed="#L" n="140"/>ad gratiam. Hic vero comparat perfectionem quam 
+      <lb ed="#L" n="141"/>habet secundum quod homo ad perfectionem 
+      <lb ed="#L" n="142"/>dei. Et diuiditur in duas. Primo comparat animan 
+      <lb ed="#L" n="143"/>Christi ad perfectionem dei quantum ad scientiam. Secundo 
+      <lb ed="#L" n="144"/>quantum ad potentiam, ibi, Si vero quaeritur. Prima in duas. 
+      <lb ed="#L" n="145"/>Primo mouet quaestionem. Secundo determinat eam 
+      secun<lb ed="#L" n="146" break="no"/>dum alios, ibi, quibusdam placet. Tertio ponit propriam 
+      de<lb ed="#L" n="147" break="no"/>terminationem, &amp; rationem aliorum soluit ibi, quidam 
+      respon<lb ed="#L" n="148" break="no"/>dentes. Tertia pars principalis ibi, si vero quaeratur, diuiditur 
+      <lb ed="#L" n="149"/>in duas. Primo determinat veritatem. Secundo obiicit in 
+      con<lb ed="#L" n="150" break="no"/>trarium, &amp; soluit ibi, Sed si anima illa non habet. Haec est 
+      di<lb ed="#L" n="151" break="no"/>uisio, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e167291-d1e143">
+               <lb ed="#L" n="152"/>
+               <!--2--> IN SPECIALI sic procedit. Et primo quaerit vtrum 
+      <lb ed="#L" n="153"/>Christus habuerit sapientiam aequalem deo. Et vtrum omnis 
+      <lb ed="#L" n="154"/>sciat quae scit deus. Et respondet secundum quorundam 
+      opinio<lb ed="#L" n="155" break="no"/>nem, quod anima Christi non habuit aequalem scientiam deo, 
+      <lb ed="#L" n="156"/>nescit enim omnia quae scit deus, quia ipsa est creatura, nulla 
+      au<lb ed="#L" n="157" break="no"/>tem creatura aequatur suo creatori. Et hoc confirmat 
+      auctorita<lb ed="#L" n="158" break="no"/>te Cassiodori. Si ergo anima Christi non scit omnia quae des scit, 
+      <lb ed="#L" n="159"/>non habet scientiam aequalem deo. Si enim Christi anima sciret 
+      <!--00481.xml-->
+      <pb ed="#L" n="204-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>omnia, sequeretur impossibile. Sicut enim Deus scit creare mi 
+      <lb ed="#L" n="2"/>dum, &amp; animam ita &amp; anima Christi sciret creare mundum, &amp; 
+      <lb ed="#L" n="3"/>etiam seipsam. Postea ponit circa hoc opinionem propriam, 
+      <lb ed="#L" n="4"/>anima Christi per sapientiam sibi gratis collatam a verbo cu 
+      <lb ed="#L" n="5"/>vnita est, intelligit omnia, &amp; scit omnia quae scit Deus, sed no 
+      <lb ed="#L" n="6"/>potest omnia quae potest Deus, nec scit omnia ita plene, sicu 
+      <lb ed="#L" n="7"/>Deus scit. Et ita non aequatur creatura creatori suo, quia lice 
+      <lb ed="#L" n="8"/>aequatur in numero scitorum, non tamen in modo sciendi. Quo 
+      <lb ed="#L" n="9"/>autem Apost. dicit, Nemo nouit quae Dei sunt, non obstat prae 
+      <lb ed="#L" n="10"/>dictis de numero scitorum. Et arguit ad oppositum exponende 
+      <lb ed="#L" n="11"/>Apostol. que spiritus datus est Christo non ad mensuram: &amp; idec 
+      <lb ed="#L" n="12"/>anima Chrilti habuit omnem scientiam. Et hoc confirmat 
+      au<lb ed="#L" n="13" break="no"/>ctoritate Fulventij. Inducit etiam ad hoc rationem quae tali 
+      <lb ed="#L" n="14"/>est, nihil scit auquis quae eius anima ignorat, sed Christus 
+      om<lb ed="#L" n="15" break="no"/>nia scit (vt concedunt omnes) ergo &amp;c. Et quod obiicitur? 
+      <lb ed="#L" n="16"/>tunc sciret creare mundum, &amp; seipsum, dicitur quod habuit 
+      scien<lb ed="#L" n="17" break="no"/>tiam, sed non potentiam, scit enim quod mundus creatus est: scii 
+      <lb ed="#L" n="18"/>etiam se esse creaturam, sed non creandam. Postea quaerit 
+      quali<lb ed="#L" n="19" break="no"/>ter anima Christi non habet potentiam alia creandi, sicut 
+      om<lb ed="#L" n="20" break="no"/>nia sciendi. Et respondet quod naturaliter fuit capax sciendi omnia 
+      <lb ed="#L" n="21"/>non tamen posse omnia. Et subdit quod forte Deus non potuit e 
+      <lb ed="#L" n="22"/>dare potentiam faciendi omnia, licet potuerit ei dare potentiam 
+      <lb ed="#L" n="23"/>faciendi aliqua quae de natura sua facere non potuisset. Postea 
+      <lb ed="#L" n="24"/>opponit per Ambrosium; qui dicit quod potentiam quam 
+      <lb ed="#L" n="25"/>Dei filius naturaliter habet homo accepturus erat ex 
+      tempo<lb ed="#L" n="26" break="no"/>re. Et respondet quod hoc non dicitur, pro eo quod Christus 
+      se<lb ed="#L" n="27" break="no"/>cundum humanam naturam habuit omnipotentiam ex 
+      tem<lb ed="#L" n="28" break="no"/>pore, sicut habuit secundum diuinam naturam ab aeterno. Sec 
+      <lb ed="#L" n="29"/>quia filius Dei ab aeterno omnipotens futurus erat homo in 
+      <lb ed="#L" n="30"/>tempore habens omnipotentiam non secundum humanam na 
+      <lb ed="#L" n="31"/>turam, sed secundum diuinam. Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

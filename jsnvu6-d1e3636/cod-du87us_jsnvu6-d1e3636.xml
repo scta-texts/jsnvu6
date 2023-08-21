@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="155-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3636"><!-- l2d29prae -->
+            <head xml:id="jsnvu6-d1e3636-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3636-d1e103">
+               <lb ed="#L" n="117"/>Sententia huius distinctionis <unclear>XXX</unclear>. in 
+      <lb ed="#L" n="118"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e3636-d1e112">
+               <lb ed="#L" n="119"/>OT hoc considerandum est. Superius 
+      Magi<lb ed="#L" n="120" break="no"/>ster determinauit de gratia absolute. Hic 
+      deter<lb ed="#L" n="121" break="no"/>minauit de ea in comparatione ad statum primi 
+      <lb ed="#L" n="122"/>hominis. Et primo determinat statum primi 
+      ho<lb ed="#L" n="123" break="no"/>minis quoad gratiam &amp; virtutem. Secundo 
+      de<lb ed="#L" n="124" break="no"/>terminat poenam peccati ipsius. Tertio mouet quandam inci, 
+      <lb ed="#L" n="125"/>dentem dubitationem. Secunda ibi, in illius quoque 
+      pecca<lb ed="#L" n="126" break="no"/>ti. Tertia ibi, potest autem quaerit vtrum de ligno, haec est 
+      <lb ed="#L" n="127"/>sententia in generali, &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e3636-d1e134">
+               <lb ed="#L" n="128"/>
+               <!--2--> IN SPECIALI sic procedit. Et proponit prime 
+      <lb ed="#L" n="129"/>quaerendo primo, vtrum homo in statu primo indigeret 
+      gra<lb ed="#L" n="130" break="no"/>tia. Et respondet quod indiguit homo gratia non per quam 
+      li<lb ed="#L" n="131" break="no"/>beraretur a malo, quia peccatum non habebat, sed habebat 
+      <lb ed="#L" n="132"/>vnde stare poterat, sed gratiam per quam efficaciter 
+      mouere<lb ed="#L" n="133" break="no"/>tur in bonum non habebat, nec vnde posset proficere. 
+      Quae<lb ed="#L" n="134" break="no"/>rit etiam vtrum haberet virtutes, &amp; licet quidam dicant quod 
+      <lb ed="#L" n="135"/>non, tamen dicit Magister quod habuit, quod ostendit per 
+      au<lb ed="#L" n="136" break="no"/>ctoritates. Post dicit quod in poenam peccati ipsius exclusus 
+      <lb ed="#L" n="137"/>est homo a loco deliciarum, &amp; a ligno vitae, per quod poterat 
+      <lb ed="#L" n="138"/>inaeternum viuere, non post peccatum sumendo, sed tantum 
+      <lb ed="#L" n="139"/>ante. Et soluit quandam auctoritatem quae videtur facere in 
+      <lb ed="#L" n="140"/>contrarium, scilicet, quod si etiam post peccatum sumpsisset 
+      <lb ed="#L" n="141"/>viueret inaeternum. Subdit etiam quod ad impediendum 
+      re<lb ed="#L" n="142" break="no"/>ditum hominis in paradisum apposita est angelica &amp; ignea 
+      cu<lb ed="#L" n="143" break="no"/>stodia, scilicet Cherubin &amp; flammeus gladius, atque versatilis 
+      <lb ed="#L" n="144"/>per quae significatur quod homo ad vitam non debebat redire 
+      <lb ed="#L" n="145"/>nisi per Cherubin, id est, per plenitudinem scientiae, scilicet cha 
+      <lb ed="#L" n="146"/>ritatem, &amp; per gladium versatilem, id est, per tolerantiam tem 
+      <lb ed="#L" n="147"/>poralium passionum. Vitimo quaerit vtrum ante peccatum 
+      <lb ed="#L" n="148"/>deligno vitae comederit, &amp; si comedit, quare non fuit factus 
+      <lb ed="#L" n="149"/>immortalis. Et respondet Magister quod comedit, sed 
+      immor<lb ed="#L" n="150" break="no"/>talitas non conferebatur, nisi per frequentem ligni esum. Et in 
+      <lb ed="#L" n="151"/>hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

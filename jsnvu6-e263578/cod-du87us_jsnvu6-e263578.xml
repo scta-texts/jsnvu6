@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="319-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e263578"><!-- l4d28q2 -->
+            <head xml:id="jsnvu6-e263578-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e263578-Hd1e103" type="question-title">Utrum consensus de praesenti conditiona 
+      faciat matrimonium</head>
+            <p xml:id="jsnvu6-e263578-d1e106">
+               <lb ed="#L" n="95"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="96"/>Vtrum consensus de praesenti conditiona 
+      <lb ed="#L" n="97"/>faciat matrimonium. 
+      <lb ed="#L" n="98"/>In 3. d. 39. 4. 4. 
+    </p>
+            <p xml:id="jsnvu6-e263578-d1e117">
+               <lb ed="#L" n="99"/>SECVNDO quaeritur vtrum consensus de praesenti 
+      <lb ed="#L" n="100"/>conditionatus faciat matrimonium. Et videtur quod 
+      <lb ed="#L" n="101"/>non: quia consensus faciens matrimonium debet esse 
+      <lb ed="#L" n="102"/>certus, sed consensus conditionatus non est 
+      cer<lb ed="#L" n="103" break="no"/>gi tus, cum innitatur dubio conditionis, ergo non 
+      fa<lb ed="#L" n="104" break="no"/>cit matrimonium. 
+      </p>
+            <p xml:id="jsnvu6-e263578-d1e133">
+               <lb ed="#L" n="105"/>
+               <!--2--> Item consensus simplex de futuro cum iuramentum certior 
+      <lb ed="#L" n="106"/>est quam consensus de praesenti conditionatus, sed consensus 
+      <lb ed="#L" n="107"/>simplex de futuro quantumcunque vallatus iuramento non 
+      fa<lb ed="#L" n="108" break="no"/>cit matrimonium: vt patet per magistrum in litera, ergo nec 
+      con<lb ed="#L" n="109" break="no"/>sensus de praesenti conditionatus. 
+</p>
+            <p xml:id="jsnvu6-e263578-d1e150">
+               <lb ed="#L" n="110"/>IN OPPOSITVM est, quia alij contractus fiunt cum 
+      <lb ed="#L" n="111"/>conditione, ergo &amp; matrimonium. 
+      </p>
+            <p xml:id="jsnvu6-e263578-d1e157">
+               <lb ed="#L" n="112"/>
+               <!--4--> RESPONSIO. Consensus potest conditionari 
+      dupli<lb ed="#L" n="113" break="no"/>citer. Vno modo limitatione temporis: vt si dicatur, accipio te 
+      <lb ed="#L" n="114"/>in meam vsque ad duos annos, vel expressione alterius 
+      condi<lb ed="#L" n="115" break="no"/>tionis. Si primo modo non est matrimonium: quia consensus qui 
+      <lb ed="#L" n="116"/>est contra naturam contractus vitiat contractum, sed consensus 
+      <lb ed="#L" n="117"/>vsque ad tempus est contra naturam matrimonij, ergo vitiat &amp; 
+      <lb ed="#L" n="118"/>tollit matrimonium. Minor patet: quia de natura matrimonij, vt 
+      <lb ed="#L" n="119"/>pertinet ad ius naturale &amp; quatenus est ad educationem prolis, 
+      <lb ed="#L" n="120"/>&amp; vt pertinet ad ius diuinum, &amp; quatenus est sacramentum est 
+      <lb ed="#L" n="121"/>inseparabilitas, contra quam est consensus ad tempus. 
+</p>
+            <p xml:id="jsnvu6-e263578-d1e183">
+               <lb ed="#L" n="122"/>De aliis autem conditionibus intelligendum est, quod aut 
+      <lb ed="#L" n="123"/>conditio est de praesenti, aut de futuro: si de praesenti sic 
+      extan<lb ed="#L" n="124" break="no"/>te conditione stat matrimonium, non extante vero non extat, nisi 
+      <lb ed="#L" n="125"/>si forte sit conditio impossibilis quae in fauorem matrimonij 
+      <lb ed="#L" n="126"/>debet semper haberi pro non adiecta, &amp; idem est si conditio sit 
+      <lb ed="#L" n="127"/>de praeterito. Si vero sit conditio de futuro: aut est necessaria, &amp; 
+      <lb ed="#L" n="128"/>tunc habetur pro completa, et stat matrimonium: vt si dicatur, 
+      <lb ed="#L" n="129"/>contraho tecum si sol oriatur cras. aut impossibilis, &amp; tunc 
+      ha<lb ed="#L" n="130" break="no"/>betur pro non adiecta, &amp; stat matrimonium: aut contingens, &amp; 
+      <lb ed="#L" n="131"/>tunc si est contra bona matrimonij nullum est matrimonium, 
+      <lb ed="#L" n="132"/>neque sponsalia, vt si dicatur contraho tecum si generationem 
+      <lb ed="#L" n="133"/>prolis euites: aut si pro quaestu ad adulterandum te tradas, per 
+      <lb ed="#L" n="134"/>eandem rationem quae dicta est de consensu ad tempus. Si vero 
+      <lb ed="#L" n="135"/>non sit contra bona matrimonij, si sit honesta, non contrahitur 
+      <lb ed="#L" n="136"/>matrimonium, sed sponsalia tantum extante conditione, non 
+      <lb ed="#L" n="137"/>extante vero non. Cuius ratio est, quia consensus 
+      conditiona<lb ed="#L" n="138" break="no"/>tus sequitur naturam conditionis licitae &amp; honestae: sed conditio 
+      <lb ed="#L" n="139"/>est de futuro &amp; potest non euenire, ergo consensus de futuro 
+      po<lb ed="#L" n="140" break="no"/>test deficere: talis autem consensus non est sufficiens ad 
+      contra<lb ed="#L" n="141" break="no"/>hendum matrimonium, quod est indissolubile, nisi per mortem 
+      <lb ed="#L" n="142"/>corporalem vel ciuilem postquam est rite contractum: si autem 
+      <lb ed="#L" n="143"/>sit turpis, debet haberi pro non adiecta. De hoc autem dicetui 
+      <lb ed="#L" n="144"/>plus in sequenti distinctione. 
+      </p>
+            <p xml:id="jsnvu6-e263578-d1e235">
+               <lb ed="#L" n="145"/>
+               <!--6--> AD PRIMVM argumentum dicendum, quod consensus 
+      <lb ed="#L" n="146"/>conditionatus conditione praeterita vel praesente vel lutura 
+      ne<lb ed="#L" n="147" break="no"/>cessaria certus est, sicut non conditionatus: quia conditio 
+      appo<lb ed="#L" n="148" break="no"/>sita certa est nec tollit a consensu aliquam certitudinem, nec 
+      tur<lb ed="#L" n="149" break="no"/>pis, nec impossibilis, cum habeantur pro non adiectis. 
+      Consensu<lb ed="#L" n="150" break="no"/>vero conditionatus conditione contingente &amp; futura honesta, 
+      <lb ed="#L" n="151"/>incertitudinem habet, sicut &amp; conditio, ideo non causat 
+      matri<lb ed="#L" n="152" break="no"/>monium, sed sponsalia, si conditio eueniat, aliter non¬ 
+      </p>
+            <p xml:id="jsnvu6-e263578-d1e257">
+               <lb ed="#L" n="153"/>
+               <!--7--> Ad secundum dicendum qued consensus de futuro addito 
+      iura<lb ed="#L" n="154" break="no"/>mento non est certior quam consensus de praesenti conditionatus 
+      <lb ed="#L" n="155"/>conditionibus praesentibus, vel praeteritis, vel futuris 
+      necessa<lb ed="#L" n="156" break="no"/>rio, imo consensus sic conditionatus est certior, sicut certior est 
+      ex<lb ed="#L" n="157" break="no"/>hibitio rei quam eius promissio quantuncunque vallata iuramento: per 
+      <lb ed="#L" n="158"/>consensum enim de praesenti praedictis modis conditionatum 
+      fi<lb ed="#L" n="159" break="no"/>actualis exhibitio rei per sponsalia autem iuramento firmata non 
+      <lb ed="#L" n="160"/>fit, nisi promissio: quia iuramentum cum adhibeatur ad 
+      confirma<lb ed="#L" n="161" break="no"/>tionem dictorum illud tantum confirmat, quod in dictis significatur, 
+      <!--00713.xml-->
+      <pb ed="#L" n="320-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nec significatum mutat. Et ideo cum verba de futuro, ex sua signi 
+      <lb ed="#L" n="2"/>ficatione habeant quod non faciant matrimonium, sed solum spon 
+      <lb ed="#L" n="3"/>sionem matrimonij, ideo iuramentum adueniens solum confir 
+      <lb ed="#L" n="4"/>mat sponsalia, sed non transfert ea in matrimonium. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="349-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e287285"><!-- l4d45prae -->
+            <head xml:id="jsnvu6-e287285-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e287285-d1e103">
+               <lb ed="#L" n="66"/>Sententia huius distinctionis XLV. in 
+      <lb ed="#L" n="67"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e287285-d1e110">
+               <lb ed="#L" n="68"/>PRAETEREA sciendum est. Determinat. 
+      <lb ed="#L" n="69"/>in praecedentibus de resurrectione, hic 
+      determi<lb ed="#L" n="70" break="no"/>nat de finiali omnium remuneratione. Et 
+      pri<lb ed="#L" n="71" break="no"/>mo de remuneratione iudicium praecedente. 
+      Se<lb ed="#L" n="72" break="no"/>cundo de praecedentibus ipsum iudicium 
+      distin<lb ed="#L" n="73" break="no"/>ctione quadragesimasexta ibi, Sed quaeritur hic 
+      <lb ed="#L" n="74"/>Prima pars est principalis lectio, &amp; habet duas partes. Primo 
+      <lb ed="#L" n="75"/>enim proponit intentum. Secundo agit de suffragiis mortuo 
+      <lb ed="#L" n="76"/>rum ibi. Sed forte quaerit. Prima habet tres. Primo enim 
+      osten<lb ed="#L" n="77" break="no"/>dit mortuos suffragiis adiuuari. Secundo incidenter agit ad quid 
+      <lb ed="#L" n="78"/>prosunt exequiarum pompae. Tertio mouet incidentes 
+      quae<lb ed="#L" n="79" break="no"/>stiones, circa modos sepultorum. Secunda ibi, De pompis vero 
+      <!--00771.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>Tertia ibi, solet moueri, &amp; ista habet duas, secundum duas 
+      quae<lb ed="#L" n="81" break="no"/>stiones mouet duas. Secunda pars principalis in qua agit de 
+      suf<lb ed="#L" n="82" break="no"/>fragiis viuorum habet tres. Primo enim proponit intentum. 
+      Se<lb ed="#L" n="83" break="no"/>cundo confirmat. Tertio confirmationem ad propositum 
+      appli<lb ed="#L" n="84" break="no"/>cat. Prima ibi, Sed forte quaeris. Secunda ibi, Sicut enim 
+      ange<lb ed="#L" n="85" break="no"/>lis Tertia ibi. Si autem angeli. 
+      </p>
+            <p xml:id="jsnvu6-e287285-d1e156">
+               <lb ed="#L" n="86"/>
+               <!--2.--> PROPONIT ergo primo magister quod animae 
+      pos<lb ed="#L" n="87" break="no"/>mortem diuersa receptacula habent iuxta meritum vsque ad 
+      <lb ed="#L" n="88"/>diem iudicij, post etiam iudicium earum poena vel gloria 
+      auge<lb ed="#L" n="89" break="no"/>bitur. Deinde subdit mortuos viuorum suffragiis posse adiuuari 
+      <lb ed="#L" n="90"/>Si tamen hoc dumvixerunt meruerunt. Et subdit quod summe 
+      mal<lb ed="#L" n="91" break="no"/>non iuuantur, pompae autem quae fiunt ad viuorum sunt solatium 
+      <lb ed="#L" n="92"/>non autem ad suffragium mortuorum. Deinde quaeritur vtrum 
+      <lb ed="#L" n="93"/>suffragia communia &amp; spiritualia facta pro bono diuitis plus 
+      pro<lb ed="#L" n="94" break="no"/>sint ei quam suffragia communia quae fiunt pro paupere. Et 
+      respon<lb ed="#L" n="95" break="no"/>det dupliciter. Primo quod tantum prosunt sola generalia pauperi 
+      <lb ed="#L" n="96"/>quantum generalia &amp; spiritualia diuiti, quia ex pluribus causis 
+      iu<lb ed="#L" n="97" break="no"/>uatur diues quam pauper. Secundo dicit quod diues citius liberatur 
+      <lb ed="#L" n="98"/>sed non plenius. Deinde quaerit de illo qui suffragiis indiget &amp; 
+      <lb ed="#L" n="99"/>morietur in consummatione seculi, &amp; respondet quod talis per ignem 
+      <lb ed="#L" n="100"/>futurum &amp; suffragia ecclesiae saluabitur. Deinde quaerit vtrum 
+      <lb ed="#L" n="101"/>sancti preces nostres audiant. Et respondet quod sancti angeli 
+      di<lb ed="#L" n="102" break="no"/>uinam faciem videntes ea quae apud nos aguntur cognoscun 
+      <lb ed="#L" n="103"/>quantum ad eorum gaudium pertinet &amp; nostrum auxilium, &amp; 
+      an<lb ed="#L" n="104" break="no"/>geli dicuntur orationes deo offerre, non quod deum instruant, quid 
+      <lb ed="#L" n="105"/>circa nos agendum sit, sed preces offerunt, ideo preces nostrae 
+      di<lb ed="#L" n="106" break="no"/>cuntur exaudiri, quia curiae coelesti innotescit eorum exauditia. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="59-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1269"><!-- l1d22prae -->
+            <head xml:id="jsnvu6-d1e1269-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1269-d1e103">
+               <lb ed="#L" n="41"/>DISTINCTIO XXII. 
+      <lb ed="#L" n="42"/>Sententia literae magistri in generali 
+      <lb ed="#L" n="43"/>&amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e1269-d1e112">
+               <lb ed="#L" n="44"/>POST praedicta disserendum nobis videtur. 
+      Su<lb ed="#L" n="45" break="no"/>perius determinauit magister de his quae 
+      perti<lb ed="#L" n="46" break="no"/>nent ad essentiae vnitatem &amp; trinitatem 
+      perso<lb ed="#L" n="47" break="no"/>uarum. Hic autem determinat de nominibus 
+      qui<lb ed="#L" n="48" break="no"/>Abus &amp; essentiae vnitas &amp; personarum pluralitas 
+      <lb ed="#L" n="49"/>designatur. Et diuiditur in duas partes. Primo, determinat 
+      <lb ed="#L" n="50"/>intentum. Secundo, inquirit quid nomina numeralia ponant 
+      <lb ed="#L" n="51"/>in diuinis. Secunda incipit in principio 24. distinctionis ibi 
+      <lb ed="#L" n="52"/>Haec diligenter inquiri oportet. Prima in duas, Primo 
+      poni<lb ed="#L" n="53" break="no"/>ediuisionem diuinorum nominum, &amp; assignat quasdam 
+      regu<lb ed="#L" n="54" break="no"/>las circa ipsa. Secundo determinat de quadam in speciali, 
+      sci<lb ed="#L" n="55" break="no"/>licet de nomine personae quod a praedictis relatiuis excipitur. 
+      <lb ed="#L" n="56"/>Secunda in principio 23. distinctionis ibi, praedictis, &amp;c. Pri 
+      <lb ed="#L" n="57"/>ma pars est praesentis lectionis, &amp; diuiditur in duas, quia 
+      <lb ed="#L" n="58"/>primo ponit quasdam diuisiones diuinorum nominum. 
+      Secun<lb ed="#L" n="59" break="no"/>i do ponit quasdam regulas ex quibus apparet quod secundum 
+      <lb ed="#L" n="60"/>diuersa nomina diuersus modus in diuinis inuenitur. Secunda 
+      <lb ed="#L" n="61"/>incipit ibi, Sciendum est ergo. Prima istarum diuiditur in 
+      <lb ed="#L" n="62"/>duas. Primo proponit principalem diuisionem nominum 
+      <lb ed="#L" n="63"/>secundum Ambrosium &amp; Augustinum. Secundo subiungi 
+      <lb ed="#L" n="64"/>quosdam modos ibi, addendum his. Haec est diuisio lectio 
+      <lb ed="#L" n="65"/>nis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e1269-d1e162">
+               <lb ed="#L" n="66"/>
+               <!--2--> IN SPECIALI vero sic procedit: quia primo 
+      de<lb ed="#L" n="67" break="no"/>terminat de diuinis nominibus quae deo conueniunt, quorum 
+      <lb ed="#L" n="68"/>ponit sex differentia: quia quaedam distinctae pertinent ad sin 
+      <lb ed="#L" n="69"/>gulas personas, alia signant vnitatem essentiae, alia dicuntur 
+      <lb ed="#L" n="70"/>translatiue, vt splendor, character: alia sunt quae relatiue 
+      di<lb ed="#L" n="71" break="no"/>cuntur ad creaturas, vt creator, dominus &amp; huiusmodi. Quae 
+      <lb ed="#L" n="72"/>dam vero relatiue non dicuntur vt incarnatus, humanatus. 
+      <lb ed="#L" n="73"/>Eorum autem quae ad creaturas relatiue dicuntur, horum 
+      quae<lb ed="#L" n="74" break="no"/>dam omnibus personis conueniunt, vt haec omnia creator &amp; 
+      <lb ed="#L" n="75"/>dominus: quaedam vero non omnibus, vt hoc nomen 
+      dona<lb ed="#L" n="76" break="no"/>tus vel mistus. Est &amp; aliud quod non secundum substantiam 
+      <lb ed="#L" n="77"/>dicitur &amp; in diuinis, sed pluralitatem personarum includit, v 
+      <lb ed="#L" n="78"/>hoc nomen trinitas, &amp; tunc excludit differentiam diuinorum 
+      <lb ed="#L" n="79"/>nominum. Postea ponit duas regulas. Quarum prima talis est 
+      <!--00183.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>quod nomina quae proprie pertinent ad singulas personas 
+      re<lb ed="#L" n="81" break="no"/>latiue dicuntur. Et ponit exemplum, sicut pater &amp; filius, &amp; 
+      <lb ed="#L" n="82"/>vtriusque donum spiritus sanctus: nomina vero quae signifi 
+      <lb ed="#L" n="83"/>cant vnitatem essentiae dicuntur ad se, id est, absolute, &amp; si 
+      <lb ed="#L" n="84"/>gnificant substantiam. Secunda regula talis est, quod nomin? 
+      <lb ed="#L" n="85"/>quae dicunt ad se dicuntur substantialiter &amp; de omnibus 
+      per<lb ed="#L" n="86" break="no"/>sonis, &amp; de qualibet persona diuisim &amp; sigillatim in singulari 
+      <lb ed="#L" n="87"/>numero: &amp; non in plurali de omnibus in summa sicut illa deus 
+      <lb ed="#L" n="88"/>potens, magnus. Non enim dicimus dij vel boni in plurali 
+      <lb ed="#L" n="89"/>persona autem accipitur singulariter &amp; pluraliter, illa vero 
+      <lb ed="#L" n="90"/>quae relatiue dicuntur ad se inuicem substantialiter non dicun 
+      <lb ed="#L" n="91"/>tur. Declarat autem quod dictum est, scilicet quod magnitu. 
+      <lb ed="#L" n="92"/>do in diuinis dicatur substantialiter vel essentialiter per 
+      ho<lb ed="#L" n="93" break="no"/>quod deus, si per participationem diceretur magnus, 
+      seque<lb ed="#L" n="94" break="no"/>retur quod malor esset illa magnitudo quam deus, hoc autem 
+      <lb ed="#L" n="95"/>est falsum: ergo &amp;c. In fine autem recitat determinata. Haec 
+      <lb ed="#L" n="96"/>est sententia in speciali, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

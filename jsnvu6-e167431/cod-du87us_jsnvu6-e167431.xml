@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="204-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e167431"><!-- l3d14q1 -->
+            <head xml:id="jsnvu6-e167431-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e167431-Hd1e103" type="question-title">
+      Utrum anima Christi perfectius videat 
+      essentiam diuinam, quam quaecunque 
+      alia creatura
+    </head>
+            <p xml:id="jsnvu6-e167431-d1e106">
+               <lb ed="#L" n="32"/>QVARSTIO PRIMA. 
+      <lb ed="#L" n="33"/>Vtrum anima Christi perfectius videat 
+      essen<lb ed="#L" n="34" break="no"/>tiam diuinam, quam quaecunque 
+      <lb ed="#L" n="35"/>alia creatura. 
+      <lb ed="#L" n="36"/>Thom. g. 4. 10. ar. 4.
+    </p>
+            <p xml:id="jsnvu6-e167431-d1e119">
+               <lb ed="#L" n="37"/>CIRCA distinctionem istam primo quaeritur de 
+      <lb ed="#L" n="38"/>i scientia Christi. Secundo de potentia. Et quia 
+      qui<lb ed="#L" n="39" break="no"/>dam ponunt in Christo triplicem scientiam 
+      prae<lb ed="#L" n="40" break="no"/>ter scientiam diuinam beatam, &amp; infusam, &amp; 
+      ex<lb ed="#L" n="41" break="no"/>perimentalem, seu acquisitam, ideo de istis quae 
+      <lb ed="#L" n="42"/>retur per ordinem. Et primo de scientia beata, de qua 
+      quaerum<lb ed="#L" n="43" break="no"/>tur duo. Primum est, vtrum anima Christi perfectius videat di 
+      <lb ed="#L" n="44"/>ninam essentiam, quam quaecunque alia creatura. Secundum est, 
+      <lb ed="#L" n="45"/>vtrum anima Christi videndo diuinam essentiam cognosca 
+      <lb ed="#L" n="46"/>in ipsa omnia. Ad primum sic proceditur. Et videtur quod ani 
+      <lb ed="#L" n="47"/>ma Christi non videat perfectius Deum, quam angeli beati, 
+      <lb ed="#L" n="48"/>quia idem obiectum, &amp; eodem modo repraesentatum 
+      perfe<lb ed="#L" n="49" break="no"/>ctius apprehenditur a perfectiore potentia, sed idem est 
+      obie<lb ed="#L" n="50" break="no"/>ctum, &amp; eodem modo repraesentatum angelo beato, &amp; anima 
+      <lb ed="#L" n="51"/>Christi, scilicet essentia diuina per semetipsam repraesentata 
+      <lb ed="#L" n="52"/>Potentia autem intellectiua angeli perfectior est quam poten 
+      <lb ed="#L" n="53"/>tia intellectiua animae Christi: ergo diuina essentia perfectius 
+      <lb ed="#L" n="54"/>apprehenditur ab angelo, quam a Christo. 
+      </p>
+            <p xml:id="jsnvu6-e167431-d1e161">
+               <lb ed="#L" n="55"/>
+               <!--2--> Item natura quae magis est ad imaginem Dei magis capas 
+      <lb ed="#L" n="56"/>est maioris beatitudinis, sed natura angelica est perfectius ad 
+      <lb ed="#L" n="57"/>imaginem Dei, quam anima humana in Christo, vel in 
+      quocun<lb ed="#L" n="58" break="no"/>que alio, ergo est capax maioris beatitudinis, ergo angelus ve 
+      <lb ed="#L" n="59"/>est, vel esse potest, saltem posset esse beatior Christo. Maior pa 
+      <lb ed="#L" n="60"/>tet per Augustinum decimo quarto de Trinitate, qui dicit( 
+      <lb ed="#L" n="61"/>anima eo est ad imaginem Dei, quo eius capax est, ergo quod 
+      <lb ed="#L" n="62"/>magis est ad imaginem, magis est capax eius. Minor patet, quia 
+      <lb ed="#L" n="63"/>imago Dei reperitur in sola intellectuali natura, ergo 
+      perfe<lb ed="#L" n="64" break="no"/>ctior est imperfectiori, sed natura intellectualis perfectior est 
+      <lb ed="#L" n="65"/>in angelo, quam in homine, ergo &amp; imago. 
+      </p>
+            <p xml:id="jsnvu6-e167431-d1e191">
+               <lb ed="#L" n="66"/>
+               <!--3--> INCONTRARIVM arguitur, quia in beatitudine 
+      <lb ed="#L" n="67"/>quanto aliquis est superior, tanto perfectius videt Deum, sed 
+      <lb ed="#L" n="68"/>Christus est superior in beatitudine omni creatura etiam 
+      an<lb ed="#L" n="69" break="no"/>gelica, ergo perfectius videt Deum. Maior de se patet. Minor 
+      <lb ed="#L" n="70"/>probatur dicitur enim Ephesiorum primo, quod Deus patet 
+      <lb ed="#L" n="71"/>constituit Christum in coelestibus super omnem principatum, 
+      <lb ed="#L" n="72"/>potestatem, &amp; virtutem, &amp; dominationem, &amp; omne nomen 
+      <lb ed="#L" n="73"/>quod nominatur non solum in hoc seculo, sed in futuro. 
+</p>
+            <p xml:id="jsnvu6-e167431-d1e213">
+               <lb ed="#L" n="74"/>RESPONSIO. Videnda sunt tria. Primum est, an in 
+      <lb ed="#L" n="75"/>Christo fuerit cognitio beata. Secundum est, vtrum fuerit 
+      per<lb ed="#L" n="76" break="no"/>sectior cognitione existente in quacunque creatura. Tertium 
+      <lb ed="#L" n="77"/>est, vtrum comprehenderit diuinam essentiam. 
+      </p>
+            <p xml:id="jsnvu6-e167431-d1e224">
+               <lb ed="#L" n="78"/>
+               <!--5--> QUANTVM ad primum dicendum est quod rationaliter 
+      <!--00481.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>ponitur in Christo fuisse cognitio beata etiam ab instanti suae 
+      <lb ed="#L" n="80"/>conceptionis. Primo, quia quamuis persona diuina de potentia 
+      <lb ed="#L" n="81"/>absoluta potuerit assumere creaturam irrationalem non 
+      beati<lb ed="#L" n="82" break="no"/>ficabilem, tamen non decuit, ex quo sic porest argui. Natur. 
+      <lb ed="#L" n="83"/>quae est assumpta ad supremum esse, debuit eleuari ad summum 
+      <lb ed="#L" n="84"/>operari sibi possibile, sed natura humana in Christo fuit 
+      assum<lb ed="#L" n="85" break="no"/>pta ad summum esse, ergo decuit quod eleuaretur ad summum 
+      ope<lb ed="#L" n="86" break="no"/>rari sibi possibile. Sed beatitudo quae consistit in visione diuinae 
+      <lb ed="#L" n="87"/>essentiae est summa operatio possibilis naturae humanae, ergo 
+      <lb ed="#L" n="88"/>&amp;c. Secundo quia sicut dictum fuit prius in Christo fuit ple¬a 
+      <lb ed="#L" n="89"/>nitudo gratiae intensiue; &amp; extensiue quia data fuit gratia vt 
+      <lb ed="#L" n="90"/>vniuersali principio, sed sub plenitudine extensiua continetur 
+      <lb ed="#L" n="91"/>gloria quae est quaedam gratia, vel gratum faciens, vel saltem 
+      <lb ed="#L" n="92"/>gratis data, ergo Christus a principio habuit gloriam, sed 
+      glo<lb ed="#L" n="93" break="no"/>ria non est sine visione beata, quare &amp;c. &amp; sic patet primum 
+      </p>
+            <p xml:id="jsnvu6-e167431-d1e268">
+               <lb ed="#L" n="94"/>
+               <!--6--> QUANTVM ad secundum sciendum est quod cum visio 
+      <lb ed="#L" n="95"/>beata dependeat ex duobus scilicet ex potentia intellectiua, &amp; 
+      <lb ed="#L" n="96"/>ex lumine gloriae, non est difficile videre quo modo anima 
+      Chri<lb ed="#L" n="97" break="no"/>sti videat perfectius Deum quam animae caeterorum hominum 
+      <lb ed="#L" n="98"/>beatorum, quia cum anima Christi aequeturanimabus 
+      caetero<lb ed="#L" n="99" break="no"/>rum hominum in naturali lumine intellectus, excedat autem in 
+      <lb ed="#L" n="100"/>lumine gloriae, non est mirum si excedit in claritate visionis 
+      essen<lb ed="#L" n="101" break="no"/>tiae diuinae, quod autem excedat alias animas quo ad lumen 
+      glo<lb ed="#L" n="102" break="no"/>riae, patet: quia gratia &amp; gloria sibi inuicem correspondent, sed 
+      <lb ed="#L" n="103"/>Christus habuit tantam plenitudinem gratiae quod nullus purus 
+      <lb ed="#L" n="104"/>homo habuit aequalem sicut in praecedente distinctione 
+      pro<lb ed="#L" n="105" break="no"/>batum est; ergo habuit tantam plenitudinem gloriae quod nullus 
+      <lb ed="#L" n="106"/>purus habuit aequalem. Et sic propter excessum luminis gloria 
+      <lb ed="#L" n="107"/>&amp; puritatem in lumine naturali facile est videre quo modo 
+      <lb ed="#L" n="108"/>anima Christi excedat omnem animam in vldendo Deum. 
+      </p>
+            <p xml:id="jsnvu6-e167431-d1e305">
+               <lb ed="#L" n="109"/>
+               <!--7--> De angelis autem secus est, quia &amp; si anima Christi excedat 
+      <lb ed="#L" n="110"/>angelos quo ad lumen gloriae: exceditur tamen ab angelis quo 
+      <lb ed="#L" n="111"/>ad lumen naturale intellectus, propter quod non est ita facile vi 
+      <lb ed="#L" n="112"/>dere quo modo anima Christi perfectius videat Deum quam 
+      <lb ed="#L" n="113"/>angeli. Imo posset alicui videri quod angeli perfectius videant 
+      ip<lb ed="#L" n="114" break="no"/>sum, quia perfectior est visio secundum perfectiorem excessum 
+      <lb ed="#L" n="115"/>luminis requisiti ad visionem, sed angeli plus excedunt ammam 
+      <lb ed="#L" n="116"/>Christi quantum ad lumen naturale quam anima Christi 
+      exce<lb ed="#L" n="117" break="no"/>dat angelos quantum ad lumen gloriae, quare &amp;c. Maior videtur 
+      <lb ed="#L" n="118"/>manifesta, minor probatur, quia maior est excessus secundum 
+      <lb ed="#L" n="119"/>speciem quam secundum intensionem in eadem specie, sed 
+      an<lb ed="#L" n="120" break="no"/>gelus excedit animam Christi in lumine naturali secundum 
+      spe<lb ed="#L" n="121" break="no"/>ciem, quia alterius speciei videtur esse intellectus angelicus &amp; 
+      <lb ed="#L" n="122"/>humanus. Anima autem Christi excedit angelos in lumine glo 
+      <lb ed="#L" n="123"/>riae secundum intentionem in eadem specie, quia lumen gloria 
+      <lb ed="#L" n="124"/>videtur esse vnius speciei in quocunque beato, quare &amp;c. Et sic 
+      <lb ed="#L" n="125"/>posset alicui videri quod angeli perfectius videant Deum quam 
+      <lb ed="#L" n="126"/>anima Christi, &amp; fortiori ratione quam anima cuiuscumque 
+      alte<lb ed="#L" n="127" break="no"/>rius hominis, hoc igitur est quod facit difficultatem in proposito. 
+      </p>
+            <p xml:id="jsnvu6-e167431-d1e351">
+               <lb ed="#L" n="128"/>
+               <!--8--> Hoc autem non obstante tenendum est quod anima Christi 
+      <lb ed="#L" n="129"/>perfectius videat Deum quam quicunque angelus loquendo de 
+      <lb ed="#L" n="130"/>visione beata. Ad cuius declarationem sciendum est uod si cogni 
+      <lb ed="#L" n="131"/>tio beata in homine &amp; in angelo esset alterius &amp; alterius 
+      spe<lb ed="#L" n="132" break="no"/>ciei sicut nonnulli credunt de cognitione naturali huius &amp; illius 
+      <lb ed="#L" n="133"/>impossibile esset vnam aequari alteri, quia duae species non 
+      pos<lb ed="#L" n="134" break="no"/>sunt esse aequalis gradus. Et fortiori ratione non esset possibile 
+      <lb ed="#L" n="135"/>cognitionem inferioris speciei puta hominis, excedere 
+      cogni<lb ed="#L" n="136" break="no"/>tionem perfectioris speciei scilicet angeli, nunc autem non est 
+      <lb ed="#L" n="137"/>sic, imo cognitio beata cuiuslibet creaturae angelicae &amp; humanae 
+      <lb ed="#L" n="138"/>est vna secundum speciem. Cuius ratio est quia gratia &amp; gloria, 
+      <lb ed="#L" n="139"/>praemium &amp; meritum sibi inuicem correspondent. Gratia autem 
+      <lb ed="#L" n="140"/>gratum faciens est vnius speciei in hominibus &amp; angelis cum sit 
+      <lb ed="#L" n="141"/>gratia per quam tam homines quam angeli adoptantur in filios 
+      <lb ed="#L" n="142"/>Dei similiter meritum, vt meritum cum sit per gratiam &amp; chari 
+      <lb ed="#L" n="143"/>tatem informantem est in omnibus vnius rationis specifica 
+      <lb ed="#L" n="144"/>quamuis opera meritoria sint diuersarum rationum in genere 
+      <lb ed="#L" n="145"/>naturae, ergo cum similiter gloria &amp; visio beata, quae est homi 
+      <lb ed="#L" n="146"/>num &amp; angelorum praemium, sint vnius rationis in eis, &amp; cum 
+      re<lb ed="#L" n="147" break="no"/>cipiant magis &amp; minus, possibile est lumen gloriae &amp; gratiae, &amp; 
+      <lb ed="#L" n="148"/>visionem beatam adeo intendi in homine quod excedet vtrumque 
+      <lb ed="#L" n="149"/>in quocunque angelo sicut factum est de Christo propter assum 
+      <lb ed="#L" n="150"/>ptionem naturae humanae ad diuinum suppositum, quae assum 
+      <lb ed="#L" n="151"/>ptio non est communicata naturae angelicae. Nusquam enim 
+      ange<lb ed="#L" n="152" break="no"/>los appraehendit, sed semen Abrahae, vt dicit Apost. ad Hebr. 2 
+      <lb ed="#L" n="153"/>capit. Per idem patet quod etiam puri homines possunt aequari 
+      <lb ed="#L" n="154"/>&amp; parificari angelis in beatitudine &amp; aliqui homines aliquos 
+      <lb ed="#L" n="155"/>angelos possunt excedere vt dicit beatus Gregutius quod ad 
+      <lb ed="#L" n="156"/>singulos ordines angelorum assumuntur aliqui ex hominibus, 
+      <lb ed="#L" n="157"/>quod non est intelligendum de aequalitate officij vt quidam 
+      <lb ed="#L" n="158"/>male exponunt sed de aequalitate praemij, quia actus &amp; efficia 
+      <lb ed="#L" n="159"/>ordinum angelorum sunt purgare, illuminare, perficere, 
+      custo<lb ed="#L" n="160" break="no"/>dire, &amp; nunciare qui non competent aninabus sanctis post re¬ 
+      <!--00482.xml-->
+      <pb ed="#L" n="204-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>surrectionem, nec modo competunt eis secundum communem 
+      <lb ed="#L" n="2"/>legem, quamuis aliquae ex diuina dispensatione aliquando 
+      reue<lb ed="#L" n="3" break="no"/>lauerint, &amp; nuntiauerint aliqua viuentibus. Sed priuilegia 
+      pau<lb ed="#L" n="4" break="no"/>corum non faciunt legem communem, &amp; ideo aequalitas 
+      homi<lb ed="#L" n="5" break="no"/>num cum angelis non potest intelligi quoad ista quae pertinen 
+      <lb ed="#L" n="6"/>ad cognitionem reuelationis, sed solum quoad visionem diuina 
+      <lb ed="#L" n="7"/>essentiae. Quia sicut homines possunt parificari angelis in 
+      meri<lb ed="#L" n="8" break="no"/>to ratione gratiae, quae est radix merendi, &amp; propter 
+      multiplica<lb ed="#L" n="9" break="no"/>tionem meritorum ex parte hominis, &amp; quia meritum homini 
+      <lb ed="#L" n="10"/>innititur merito Christi: sic possunt parificari in praemio, quod 
+      <lb ed="#L" n="11"/>est visio beata, vt plenius habet videri 2. lib. dist. 9. 
+      </p>
+            <p xml:id="jsnvu6-e167431-d1e459">
+               <lb ed="#L" n="12"/>
+               <!--9--> Ad rationem dubitationis suprapositae dicendum est quod 
+      <lb ed="#L" n="13"/>maior propositio habet veritatem, quando lumina duo se haben 
+      <lb ed="#L" n="14"/>de pari &amp; aeque immediate ad cognitionem, &amp; agens, vel influen 
+      <lb ed="#L" n="15"/>cognitionem agit vel influit ex necessitate naturae. Tunc enim 
+      <lb ed="#L" n="16"/>secundum maiorem excessum luminis est perfectior cognitio, si 
+      <lb ed="#L" n="17"/>potentia non laeditur ab excessu. Nunc est ita quod lumen 
+      natura<lb ed="#L" n="18" break="no"/>le intellectus, &amp; lumen gloriae non se habent aeque immediat 
+      <lb ed="#L" n="19"/>ad visionem beatam, quia quamuis vtrumque se habeat passiue ad 
+      <lb ed="#L" n="20"/>visionem beatam, tamen non aeque immediate, quia lumen 
+      natu<lb ed="#L" n="21" break="no"/>rale, intellectus est ratio recipiendi remota, lumen vero gloria 
+      <lb ed="#L" n="22"/>est dispositio propinqua &amp; immediata. Actus autem recipit va 
+      <lb ed="#L" n="23"/>riationem per illud quod se habet immediatius ad ipsum: &amp; 
+      ide<lb ed="#L" n="24" break="no"/>actus beatitudinis magis variatur secundum variationem lumini 
+      <lb ed="#L" n="25"/>gloriae, quam secundum variationem luminis naturalis. Item deui 
+      <lb ed="#L" n="26"/>influens visionem beatam, non influit eam ex necessitate 
+      natu<lb ed="#L" n="27" break="no"/>rae, sed libere. Et ideo prout placet, potest eam influere intensius: 
+      <lb ed="#L" n="28"/>vel remissius non obstante dispositione maiori vel minori huius 
+      <lb ed="#L" n="29"/>vel illius luminis, propter quod dato quod lumen gloriae requireretur, 
+      <lb ed="#L" n="30"/>ex necessitate ad visionem beatâ, adhuc Deus posset influere 
+      <lb ed="#L" n="31"/>perfectiorem visionem homini quam angelo non obstante 
+      ma<lb ed="#L" n="32" break="no"/>iori perfectione luminis naturalis angelici quam humani. 
+      </p>
+            <p xml:id="jsnvu6-e167431-d1e509">
+               <lb ed="#L" n="33"/>
+               <!--10--> Quantum ad tertium dicendum est breuiter, quod anima 
+      Chri<lb ed="#L" n="34" break="no"/>sti diuinam videndo essentiam non comprehendit ipsam. 
+      Cuiu<lb ed="#L" n="35" break="no"/>ratio est, quia vbi perfectio obiecti in actuali entitate, excedit 
+      <lb ed="#L" n="36"/>perfectionem potentiae in intellectualitate, ibi obiectum non 
+      <lb ed="#L" n="37"/>comprehenditur a potentia, sed perfectio diuinae essentiae in 
+      en<lb ed="#L" n="38" break="no"/>titate excedit perfectionem potentiae intellectualis creatae 
+      ergi<lb ed="#L" n="39" break="no"/>nulla potentia creata potest comprehendere diuinam essentiam 
+      <lb ed="#L" n="40"/>Maior patet, quia illud comprehenditur, cuius finis attingitur, 
+      <lb ed="#L" n="41"/>vel positiue ponendo terminum, vel negatiue remouendo ex 
+      <lb ed="#L" n="42"/>cessum (ita scilicet vt actualitas obiecti non excedat intellectua 
+      <lb ed="#L" n="43"/>litatem potentiae) minor manifesta est, scilicet quod essentia diuina 
+      <lb ed="#L" n="44"/>perfectior sit in entitate, quam potentia quaecunque creata i 
+      <lb ed="#L" n="45"/>intellectualitate, sicut infinitum perfectius est finito. 
+      </p>
+            <p xml:id="jsnvu6-e167431-d1e542">
+               <lb ed="#L" n="46"/>
+               <!--11--> Ad primum argumentum dicendum quod licet potentia 
+      in<lb ed="#L" n="47" break="no"/>tellectiua angeli sit perfectior in naturalibus, quam potentia 
+      <lb ed="#L" n="48"/>intellectiua animae Christi, tamen non ad lumen gloriae anima 
+      <lb ed="#L" n="49"/>Christi perfectior est angelo: lumen autem gloriae secundum vnam 
+      <lb ed="#L" n="50"/>opinionem plus facit ad visionem beatam, quam naturalis 
+      per<lb ed="#L" n="51" break="no"/>fectio potentiae. Et ideo anima Christi ratione maioris luminis 
+      <lb ed="#L" n="52"/>gloriae potest esse beatior angelo. 
+      </p>
+            <p xml:id="jsnvu6-e167431-d1e562">
+               <lb ed="#L" n="53"/>
+               <!--12--> Argumentum secundum probat quod angelus potest esse 
+      <lb ed="#L" n="54"/>beatior homine quocunque, etiam Christo: &amp; illud non 
+      vide<lb ed="#L" n="55" break="no"/>tur inconueniens. Si enim Deus daret tantum lumen gloria 
+      <lb ed="#L" n="56"/>angelo, quantum dedit animae Christi, angelus esset beatior 
+      <lb ed="#L" n="57"/>anima Christi, quia aequaretur in lumine gloriae, &amp; excedere 
+      <lb ed="#L" n="58"/>in lumine naturae. Non decuit tamen quod daret angelo 
+      tan<lb ed="#L" n="59" break="no"/>tum lumen, sicut Christo, ne natura non assumpta 
+      aequare<lb ed="#L" n="60" break="no"/>tur, imo excederet naturam assumptam. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

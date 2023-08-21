@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="270-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e222957"><!-- l4d9q5 -->
+            <head xml:id="jsnvu6-e222957-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e222957-Hd1e103" type="question-title">Utrum liceat sacerdoti dare Eucharistiam illi quem 
+      scit esse in peccato mortali</head>
+            <p xml:id="jsnvu6-e222957-d1e106">
+               <lb ed="#L" n="127"/>QVAESTIO QVINTA. 
+      <lb ed="#L" n="128"/>Vtrum liceat sacerdoti dare Eucharistiam illi quem 
+      <lb ed="#L" n="129"/>scit esse in peccato mortali. 
+      <lb ed="#L" n="130"/>Thom. 3. 9. 80. art. 6. &amp; q. 81. art. 2.
+    </p>
+            <p xml:id="jsnvu6-e222957-d1e117">
+               <lb ed="#L" n="131"/>AD tertium sic proceditur. Et arguitur quod no 
+      i<lb ed="#L" n="132" break="no"/>liceat sacerdoti dare hoc sacramentum illi quem scit 
+      <lb ed="#L" n="133"/>si esse in peccato mortali, quia in nullo casu licitum 
+      <lb ed="#L" n="134"/>est medico corporali dare infirmo medicinam 
+      cor<lb ed="#L" n="135" break="no"/>poralem quam scit esse mortiferam: sed sacerdos 
+      <lb ed="#L" n="136"/>scit sacramentum eucharistiae peccatori esse mortiferum, ergo 
+      <lb ed="#L" n="137"/>nullo modo licitum est ei peccatori dare hoc sacramentum. 
+      </p>
+            <p xml:id="jsnvu6-e222957-d1e135">
+               <lb ed="#L" n="138"/>
+               <!--2--> Item de duobus malis minus malum est eligendum; sed 
+      mi<lb ed="#L" n="139" break="no"/>nus malum est peccatori si infametur ex reuelatione criminis, 
+      <lb ed="#L" n="140"/>vel si detur ei hostia non consecrata pro consecrata, quam si 
+      su<lb ed="#L" n="141" break="no"/>mat hoc sacramentum cum proposito peccandi, vel cum 
+      con<lb ed="#L" n="142" break="no"/>scientia peccati mortalis, ergo debet ei prius dari hostia non 
+      con<lb ed="#L" n="143" break="no"/>secrata pro consecrata, vel culpa eius reuelari negando 
+      commu<lb ed="#L" n="144" break="no"/>nionem, quam sacramentum ministrari. 
+      </p>
+            <p xml:id="jsnvu6-e222957-d1e156">
+               <lb ed="#L" n="145"/>
+               <!--3.--> IN CONTRARIVM tamen est, quod Christus hoc 
+      <lb ed="#L" n="146"/>sacramentum dedit Iudae quem sciebat esse in peccato mortali. 
+      </p>
+            <p xml:id="jsnvu6-e222957-d1e165">
+               <lb ed="#L" n="147"/>
+               <!--4.--> Item Augustinus super illud Psal. Manducauerunt &amp; 
+      adora<lb ed="#L" n="148" break="no"/>uerunt omnes pingues terrae. Et habetur de consecratione 
+      di<lb ed="#L" n="149" break="no"/>ftinctione 2. Non prohibeat dispensator pingue terrae, id est 
+      pec<lb ed="#L" n="150" break="no"/>catores mensam domini manducare. 
+      </p>
+            <p xml:id="jsnvu6-e222957-d1e178">
+               <lb ed="#L" n="151"/>
+               <!--5--> RESPONSIO. Haec quaestio intelligitur de peccatore 
+      <lb ed="#L" n="152"/>perseuerante in peccato, quia quantuncunque aliquis fuerit 
+      pecca<lb ed="#L" n="153" break="no"/>tor occultus vel notorius, si eu poenituerit vitae praeteritae 
+      secun<lb ed="#L" n="154" break="no"/>dum iudicium ecclesiae, &amp; nouam inchoauerit, non est ei negandi 
+      <lb ed="#L" n="155"/>sacramentum eucharistiae nisi aliud esset impedimetum. 
+      Pecca<lb ed="#L" n="156" break="no"/>tor igitur, aut est occultus aut notorius seu manifestus. Si sit ma 
+      <lb ed="#L" n="157"/>nifestus debet ei negari hoc sacramentum qualitercunque petat 
+      si<lb ed="#L" n="158" break="no"/>ue in occulto siue in manifesto. Cuius ratio est, quia 
+      quandocun<lb ed="#L" n="159" break="no"/>que aliquis habet legitimam causam negandi quod petitur, si dat 
+      <lb ed="#L" n="160"/>communicat voluntarie accipienti in ipsa acceptione, &amp; per 
+      <!--00615.xml-->
+      <pb ed="#L" n="271-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>consequens peccat sicut accipiens, sed sacerdos habet 
+      legiti<lb ed="#L" n="2" break="no"/>mam causam negandi sacramentum Eucharistiae peccatori no 
+      <lb ed="#L" n="3"/>torio petenti illud sibi dari. Ipsa enim euidentia facti repellis 
+      <lb ed="#L" n="4"/>eum, ergo nullo modo peccatori notorio siue petenti in 
+      occul<lb ed="#L" n="5" break="no"/>to siue in manifesto dandum est hoc sacramentum. Alioquiu 
+      <lb ed="#L" n="6"/>sacerdos peccaret mortaliter. 
+      </p>
+            <p xml:id="jsnvu6-e222957-d1e224">
+               <lb ed="#L" n="7"/>
+               <!--6.--> Si vero peccator sit occultus, peccatum tamen eius nouit 
+      sa<lb ed="#L" n="8" break="no"/>cerdos per confessionem vel alium modum secretum, aut tali 
+      <lb ed="#L" n="9"/>perit in occulto, aut in manifesto: si in occulto debet ei negar 
+      <lb ed="#L" n="10"/>hoc sacramentum &amp; moneri ne in publico petat, hoc enim 
+      po<lb ed="#L" n="11" break="no"/>test fieri sine reuelatione criminis, &amp; in hoc omnes concordant 
+      <lb ed="#L" n="12"/>Si vero petat in manifesto, sic dicunt quidam absolute quod est ei 
+      <lb ed="#L" n="13"/>dandum. Sed puto quod est opus distinctione. Sacerdos enim a quo 
+      <lb ed="#L" n="14"/>petitur aut est curatus, aut seruiens ecclesiae loco praelati ve 
+      <lb ed="#L" n="15"/>curati in omnibus vel in administrationem huius sacramenti, ve 
+      <lb ed="#L" n="16"/>non, nouit tamen peccatum huius vel per modum secreti vel per 
+      <lb ed="#L" n="17"/>confessionem, quia forte habet auctoritatem absoluendi vel es 
+      <lb ed="#L" n="18"/>priuilegio, vel ex commissione episcopi vel aliquo tali modo. Si 
+      <lb ed="#L" n="19"/>non sit curatus vel vicarius curati, praedicto modo debet 
+      nega<lb ed="#L" n="20" break="no"/>re quod petitur. Habet enim contra publicam petitionem 
+      publi<lb ed="#L" n="21" break="no"/>cam excusationem, scilicet quod suum non est hoc sacramentum 
+      <lb ed="#L" n="22"/>ministrare, q&amp; si a curato detur haec licentia, non tenetur 
+      recipe<lb ed="#L" n="23" break="no"/>re. Si autem fit curatus, aut vicarius eius, aut ille petit hoc 
+      sacra<lb ed="#L" n="24" break="no"/>mentum extra tempus generalis communionis, &amp; sic est ei 
+      negan<lb ed="#L" n="25" break="no"/>dum per verba persuasoria petendo quare vult communicare 
+      ta<lb ed="#L" n="26" break="no"/>li tempore insolito &amp; absque infirmitate vel periculo imminente 
+      <lb ed="#L" n="27"/>&amp; si quidem possit repelli sine scandalo, bene. 
+      </p>
+            <p xml:id="jsnvu6-e222957-d1e274">
+               <lb ed="#L" n="28"/>
+               <!--7--> Si autem perat tempore generalis communionis dandum es 
+      <lb ed="#L" n="29"/>ei, quia inferens poenam publicam pro occulta culpa est 
+      reuela<lb ed="#L" n="30" break="no"/>tor confessionis vel proditor criminis, sed sacerdos curatus 
+      ne<lb ed="#L" n="31" break="no"/>gans peccatori occulto petenti hoc sacramentum in manifesto 
+      <lb ed="#L" n="32"/>tempore consuetae communionis infert ei poenam publicam pro 
+      <lb ed="#L" n="33"/>culpa occulta, ergo est reuelator confessionis vel proditor 
+      cri<lb ed="#L" n="34" break="no"/>minis. Item hulli potest negari ius suum nisi possit proponi 
+      le<lb ed="#L" n="35" break="no"/>gitima exceptio contra eum, sed subditus fidelis ius habet 
+      peten<lb ed="#L" n="36" break="no"/>di communionem sacramentorum a curato suo, ergo curatus suus 
+      <lb ed="#L" n="37"/>non potest negare nisi habeat exceptionem quam possit 
+      con<lb ed="#L" n="38" break="no"/>tra eum proponere, quod non est in proposito. Vnde August 
+      <lb ed="#L" n="39"/>super illo verbo 1. Cor. 5. Si is qui inter vos frater nominatur 
+      <lb ed="#L" n="40"/>dicit sic: a communione vos prohibere quanquam non possumus 
+      <lb ed="#L" n="41"/>nisi aut sponte confessum, aut in aliquo iudicio seculari vel 
+      ec<lb ed="#L" n="42" break="no"/>clesiastico nominatum atque conuictum, potest tamen sacerdos 
+      <lb ed="#L" n="43"/>monere in generali &amp; prohibere ne aliquis ad mensam domin 
+      <lb ed="#L" n="44"/>accedat antequam poeniteat &amp; ecclesiae reconcilietur. 
+      </p>
+            <p xml:id="jsnvu6-e222957-d1e316">
+               <lb ed="#L" n="45"/>
+               <!--8--> Ex quo publicae meretrices &amp; publici vlurarij sunt a 
+      perce<lb ed="#L" n="46" break="no"/>ptione Eucharistiae arcendi quousque egerint poenitentiam 
+      publi<lb ed="#L" n="47" break="no"/>cam: vt sicut alij sunt scandalizati de culpa sic aedificentur de po 
+      <lb ed="#L" n="48"/>nitentia, quia publica crimina non sunt occulte corrigenda: vel 
+      <lb ed="#L" n="49"/>si tales per semetipsos correcti sint, eorum tamen correctio est 
+      <lb ed="#L" n="50"/>publicanda antequam detur eis communio propter causam 
+      prae<lb ed="#L" n="51" break="no"/>dictam. similiter mimis &amp; histrionibus est deneganda communic 
+      <lb ed="#L" n="52"/>secundum Canones, sed hoc est intelligendum de illis quorum ars 
+      <lb ed="#L" n="53"/>non potest exerceri sine peccato mortali. Propter venialia enim 
+      <lb ed="#L" n="54"/>non est aliquis arcendus a communione. Et ideo si in arte 
+      mimo<lb ed="#L" n="55" break="no"/>rum &amp; histrionum non est aliud peccatum nisi vanitas venialis &amp; 
+      <lb ed="#L" n="56"/>curiositas, non apparet quare debeat communio negari. 
+      </p>
+            <p xml:id="jsnvu6-e222957-d1e348">
+               <lb ed="#L" n="57"/>
+               <!--9--> Ad primum argumentum dicendum quod medico 
+      corpo<lb ed="#L" n="58" break="no"/>rali non incumbit necessitas dandi medicinam mortifera aegro 
+      <lb ed="#L" n="59"/>to, potest enim licite manifestare morbum corporalem 
+      occul<lb ed="#L" n="60" break="no"/>tum propter quem aegroto fieret medicina mortifera, sed 
+      sacer<lb ed="#L" n="61" break="no"/>dos peccatum occultum sibi dictum in confessione nullo modo 
+      <lb ed="#L" n="62"/>debet manifestare, &amp; ideo non habet causam quare publice 
+      de<lb ed="#L" n="63" break="no"/>beat negare sacramentum communionis huic petenti, propter 
+      <lb ed="#L" n="64"/>quod muste faceret si negaret. 
+      </p>
+            <p xml:id="jsnvu6-e222957-d1e370">
+               <lb ed="#L" n="65"/>
+               <!--10--> Ad secundum dicendum, quod de duobrs malis neutrum 
+      <lb ed="#L" n="66"/>est eligendum, sed vtrunque vitandum. Potest enim peccator di 
+      <lb ed="#L" n="67"/>vtroque conteri vel dolere quantum in se &amp; confiteri, &amp; ita non 
+      <lb ed="#L" n="68"/>infamabitur, nec recipiet sacramentum contra salutem suam, &amp; 
+      <lb ed="#L" n="69"/>ideo neutrum praedictorum est a peccatore eligendum, si tamen 
+      <lb ed="#L" n="70"/>alterum eligeret minus malum esset ei eligere quod infamaretur 
+      <lb ed="#L" n="71"/>quam sumere sacramentum cum conscientia peccati: sacerdoti 
+      <lb ed="#L" n="72"/>tamen minus malun est dare Eucharistiam peccatori occulto 
+      <lb ed="#L" n="73"/>petenti in publico quam negare, quia dando facit quod iustum 
+      <lb ed="#L" n="74"/>est cum non habeat causam negandi, negando, iniuste facit, 
+      ne<lb ed="#L" n="75" break="no"/>gando quod debitum est &amp; non habet exceptionem. Et iterum 
+      <lb ed="#L" n="76"/>reuelat peccatum occultum interpretatiue negando ei 
+      commu<lb ed="#L" n="77" break="no"/>nionem qui ius habet in communione, nec debet dare hostiam 
+      <lb ed="#L" n="78"/>non consecratam, quia in his quae sunt virtutis fidei (vt in 
+      sa<lb ed="#L" n="79" break="no"/>cramentis) nihil fictionis est faciendum. Et iterum ei nihil pro 
+      <lb ed="#L" n="80"/>desset, quia tantum peccaret sumens non consecratam ac si esset 
+      <lb ed="#L" n="81"/>consecrata: quia crederet eam esse consecratam, extra de 
+      ce<lb ed="#L" n="82" break="no"/>lebratione missarum, cap. de homine. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

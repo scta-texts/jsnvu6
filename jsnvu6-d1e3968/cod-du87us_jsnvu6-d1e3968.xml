@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="165-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3968"><!-- l2d36q3 -->
+            <head xml:id="jsnvu6-d1e3968-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e3968-Hd1e103" type="question-title">Utrum omnis poena insit nobis propter aliquam culpam</head>
+            <p xml:id="jsnvu6-d1e3968-d1e106">
+               <lb ed="#L" n="24"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="25"/>Vtrum omnis poena insit propter 
+      ali<lb ed="#L" n="26" break="no"/>quam culpam. 
+      <lb ed="#L" n="27"/>S. Thom. l. d. 4. 87. ar. 7. 
+    </p>
+            <p xml:id="jsnvu6-d1e3968-d1e117">
+               <lb ed="#L" n="28"/>TERTIO quaeritur, vtrum omnis poena 
+      insi<lb ed="#L" n="29" break="no"/>propter aliquam culpam. Et videtur quod non, 
+      <lb ed="#L" n="30"/>quia eiusdem rationis videtur esse, quod 
+      pecca<lb ed="#L" n="31" break="no"/>tores prosperentur &amp; quod innocentes 
+      punian<lb ed="#L" n="32" break="no"/>tur, sed primum frequenter reperitur. Hierem. 12. 
+      <lb ed="#L" n="33"/>via impiorum prosperatur: bene est omnibus qui praeuarican 
+      <lb ed="#L" n="34"/>tur &amp; inique agunt, ergo videtur quod reliquum possit 
+      inue<lb ed="#L" n="35" break="no"/>niri, scilicet, quod innocens puniatur, ergo poena quandoque 
+      <lb ed="#L" n="36"/>infligitur sine culpa. 
+      </p>
+            <p xml:id="jsnvu6-d1e3968-d1e139">
+               <lb ed="#L" n="37"/>
+               <!--2.--> Item de Christo dicitur primae Petri secundo, quod pecca 
+      <lb ed="#L" n="38"/>tum non fecit, neque dolus inuentus est in ore eius. Et tamen 
+      <lb ed="#L" n="39"/>ibidem dicitur quod passus est pro nobis: ergo poena non sem 
+      <lb ed="#L" n="40"/>per dispensatur a Deo pro culpa. 
+      </p>
+            <p xml:id="jsnvu6-d1e3968-d1e153">
+               <lb ed="#L" n="41"/>
+               <!--3--> IN CONTRARIVM est quod dicit Hieronymus 
+      <lb ed="#L" n="42"/>quod quicquid patimur peccata nostra meruerunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e3968-d1e162">
+               <lb ed="#L" n="43"/>
+               <!--4--> RESPONSIO. Dicenda sunt duo. Primum est, quod 
+      <lb ed="#L" n="44"/>omnis passibilitas poenae est in nobis a culpa. Secundum est, 
+      <lb ed="#L" n="45"/>quod non omnis poena quam patimur, infligitur nobis neque 
+      <lb ed="#L" n="46"/>a Deo, neque ab homine pro aliqua culpa. Primum patet ex 
+      <lb ed="#L" n="47"/>his quae dicta sunt supra distinct. 30. quod mors &amp; aliqui 
+      defe<lb ed="#L" n="48" break="no"/>ctus poenales sunt in nobis a peccato, saltem sicut a causa 
+      re<lb ed="#L" n="49" break="no"/>mouente prohibens. Secundum patet, quia si poena semper 
+      infli<lb ed="#L" n="50" break="no"/>geretur pro aliqua culpa, vel hoc esset pro aliquo actuali, vel pro 
+      <lb ed="#L" n="51"/>originali. Non pro actuali, quia in multis inueniuntur graue: 
+      <lb ed="#L" n="52"/>poenae, in quibus nulla est culpa actualis, sicut in pueris nuper 
+      <lb ed="#L" n="53"/>baptizatis, in quibus sunt aegritudines, vexationes daemonum, 
+      <lb ed="#L" n="54"/>&amp; similia. Item nec pro originali, quia culpae originali non 
+      de<lb ed="#L" n="55" break="no"/>betur poena sensus, sed damni, licet ipsa passibilitas poenae 
+      sen<lb ed="#L" n="56" break="no"/>sus insint propter peccatum originale modo quo dictum est si 
+      <lb ed="#L" n="57"/>pra. Sed multae poenae sensus insunt hominibus, vt de se patet 
+      <lb ed="#L" n="58"/>ergo non omnis poena infligitur pro culpa, quod concedendunm 
+      <lb ed="#L" n="59"/>est. Sed infligitur quandoque ab homine simpliciter iniust. 
+      <lb ed="#L" n="60"/>absque aliqua culpa patientis, &amp; a Deo, non quidem iniuste, 
+      <lb ed="#L" n="61"/>quum sit dominus vitae &amp; mortis, sed praeter iustitiam, quod 
+      <lb ed="#L" n="62"/>contingit multis modis, sicut tractat beatus Augustinus super 
+      <lb ed="#L" n="63"/>canticum Deuteron. dicens quod quinque modis flagella 
+      con<lb ed="#L" n="64" break="no"/>tingunt, vel vt iustis merita per flagella augeantur: vt Iob, vel 
+      <lb ed="#L" n="65"/>ad custodiam virtutum ne superbia tentet, vt Paulo, vel ad 
+      cor<lb ed="#L" n="66" break="no"/>rigenda peccata, vt Mariae lepra, vel ad initium poenae, vt 
+      hi<lb ed="#L" n="67" break="no"/>videatur quid in infernum sequatur, vt Herodi, vel ad gloriam 
+      <lb ed="#L" n="68"/>Dei manifestandam, vt caeco nato. In aliquibus autem istorum 
+      <lb ed="#L" n="69"/>modorum poena non infligitur pro aliqua culpa, maxime in pri 
+      <lb ed="#L" n="70"/>mo &amp; vltimo, vt de se patet, ideo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3968-d1e227">
+               <lb ed="#L" n="71"/>
+               <!--5--> AD PRIMVM argumentum dicendum quod quum 
+      <lb ed="#L" n="72"/>malum nullum sit integrum, vt dicitur 4. Ethicorum, Nullus est 
+      <lb ed="#L" n="73"/>adeo malus, quin aliquid boni habeat, quod a Deo hic 
+      remu<lb ed="#L" n="74" break="no"/>neratur, in minimis bonis, scilicet in temporalibus, sed bonum 
+      <lb ed="#L" n="75"/>potest esse integrum absque omni malo. Et in tali nihil est 
+      pu<lb ed="#L" n="76" break="no"/>niendum: quod si aliquid patiatur hoc est vel ex conditione na 
+      <lb ed="#L" n="77"/>turae sibi derelictae, si cut in aegritudinibus, &amp; aliis passionibus 
+      <lb ed="#L" n="78"/>vel quia ab alio infligitur: iniuste, sicut fit in illatis iniuriis, ve 
+      <!--00398.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>quia a Deo immittitur dispensatiue, modis quibus dictum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e3968-d1e256">
+               <lb ed="#L" n="80"/>
+               <!--6--> Ad secundum dicendum quod poena quam Christus passus, 
+      <lb ed="#L" n="81"/>fuit, ordinem habuit ad culpam, non quidem Christi, sed primi 
+      <lb ed="#L" n="82"/>parentis, cuius debitum existens in nobis, Christus per poenam 
+      <lb ed="#L" n="83"/>quam pertulit exsoluit. Dictum autem Hieronymi adductum 
+      <lb ed="#L" n="84"/>in contrarium est intelligendum vt in pluribus. Raro enim 
+      con<lb ed="#L" n="85" break="no"/>tingit aliquem adeo esse innocentem, quin plus peccet quam 
+      <lb ed="#L" n="86"/>patiatur: vel intelligendum est non de actuali passione, sed de 
+      <lb ed="#L" n="87"/>passibilitate quam omnes (excepto Christo) contraximus ex 
+      <lb ed="#L" n="88"/>peccato primo, sicut dictum est. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

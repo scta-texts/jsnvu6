@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="65-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1410"><!-- l1d27prae -->
+            <head xml:id="jsnvu6-d1e1410-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1410-d1e103">
+               <lb ed="#L" n="89"/>DISTINCTIO XXVII. 
+      <lb ed="#L" n="90"/>Sententia huius distinctionis primo 
+      <lb ed="#L" n="91"/>in generali. 
+    </p>
+            <p xml:id="jsnvu6-d1e1410-d1e112">
+               <lb ed="#L" n="92"/>HIc potest quaeri &amp;c. Superius determinauit 
+      ma<lb ed="#L" n="93" break="no"/>gister de proprietatibus personalibus secundum se. Hic 
+      <lb ed="#L" n="94"/>determinat de eis in comparatione ad personas. Et 
+      <lb ed="#L" n="95"/>diuiditur in tres. Primo enim ostendit quid 
+      nomi<lb ed="#L" n="96" break="no"/>na personalia praedicta designant. Secundo ostendit 
+      <lb ed="#L" n="97"/>quod inueniuntur alia nomina praedictas proprietates designantiam. 
+      Ter<lb ed="#L" n="98" break="no"/>tio subiungit regulam generalem ad cognoscendum nomina personalia.
+    </p>
+            <p xml:id="jsnvu6-d1e1410-d1e130">
+               <lb ed="#L" n="99"/>Secunda ibi, hic enim praetermittendum. Tertia ibi, Et hic est 
+      aduer<lb ed="#L" n="100" break="no"/>tendum. Prima diuiditur in tres. Primo mouet dubitationem suam 
+      <lb ed="#L" n="101"/>circa principale intentum. Secundo opponit ad alteram partem. Tertio 
+      <lb ed="#L" n="102"/>soluit. Secuda ibi, videtur quod non sint eaedem. Tertia ibi, Ad quod sine 
+      <lb ed="#L" n="103"/>praeiudicio. Tertia vero pars principia. in qua ponit regulam diui 
+      <lb ed="#L" n="104"/>ditur in tres. Primo proponit regulam quam intendit. Secundo circa illam 
+      <lb ed="#L" n="105"/>mouet dubitationem suam &amp; soluit. Tertio ex solutione dubitationis 
+      <lb ed="#L" n="106"/>elicit quandam aliam conclusionem. Secunda ibi, hic quaeriur cum dicitur. 
+      <lb ed="#L" n="107"/>Tertia ibi, Et sciendum est quod haec est diuisio communis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e1410-d1e152">
+               <lb ed="#L" n="108"/>
+               <!--2--> In speciali vero sic procedit magister. Et primo quaerit vtrum 
+      <lb ed="#L" n="109"/>eadem sit proprietas quae importatur nomine filij &amp; filiationis &amp; 
+      <lb ed="#L" n="110"/>generationis quod ipse pioponit sub his verbis vtrum idem sit patrem 
+      <lb ed="#L" n="111"/>esse &amp; genuisse filium, &amp; vtrum sit idem filium esse &amp; natum esse a 
+      pa<lb ed="#L" n="112" break="no"/>tre. Postea opponit quod non, quia essentia diuina est pater &amp; tamen 
+      <lb ed="#L" n="113"/>non genuit filium: ergo non idem est esse patrem &amp; genuisse filium. Dein 
+      <lb ed="#L" n="114"/>de respondet &amp; dicit quod eadem proprietas omnibus nominibus 
+      de<lb ed="#L" n="115" break="no"/>signatur sub diuersis tamen rationibus, nominibus vero proprie 
+      <lb ed="#L" n="116"/>tatum designantur vel ipsae proprietates secundum se, vt nomine 
+      <lb ed="#L" n="117"/>paternitatis &amp; filiationis, vel actus ipsarum proprietatum, vt nomine 
+      <lb ed="#L" n="118"/>generationis propter quam diuersitatem nominis potest pater de 
+      es<lb ed="#L" n="119" break="no"/>sentia diuina praedicari, non tamen generare. Subdit etiam quod 
+      pro<lb ed="#L" n="120" break="no"/>prietates singulis personis conueniunt, &amp; per easdem personae 
+      de<lb ed="#L" n="121" break="no"/>terminantur &amp; diffiniuntur manente tamen omnino vnitate natu 
+      <lb ed="#L" n="122"/>rae sine confusione personarum, quia proprietates modum quendam 
+      <lb ed="#L" n="123"/>essentiae dicunt. Postea dicit quod quaedam sunt alia nomina a 
+      praedi<lb ed="#L" n="124" break="no"/>ctis quae ad proprietates pertinent personarum, vt genitor genit 
+      <lb ed="#L" n="125"/>verbum &amp; filius quae omnia relatiue dicuntur. Et poste a ponit re 
+      <lb ed="#L" n="126"/>gulam dicens quod nomina quae ad substantiam pertinent in diuinis non 
+      com<lb ed="#L" n="127" break="no"/>ueniunt vni soli. Deinde ex hoc mouet quandam dubitationem di 
+      <lb ed="#L" n="128"/>cens. Cum enim nomen deitatis ad substantiam pertineat, quare esse 
+      <lb ed="#L" n="129"/>deum de deo non praedicatur de omnibus personis. Et respondet qui 
+      <lb ed="#L" n="130"/>locutio est falsa, quia ibi nomen substantiâ significans stat pro 
+      re<lb ed="#L" n="131" break="no"/>latiuo, s. persona filij. Vitimo dicit quod licet nomen substantiale stet 
+      <lb ed="#L" n="132"/>pro persona, tamen talis modus praedicandi non recipitur nisi in 
+      no<lb ed="#L" n="133" break="no"/>minibus ab substantiam pertinentibus, vnde non dicitur verbum de 
+      <lb ed="#L" n="134"/>verbo, sed deus de deo. Et in hoc terminatur sententia in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

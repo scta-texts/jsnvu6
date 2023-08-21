@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="252-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e207181"><!-- l4d1p2prae -->
+            <head xml:id="jsnvu6-e207181-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e207181-d1e103">
+      <!--00577.xml-->
+               <pb ed="#L" n="252-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Sententia seu diuisio secundae partis 
+      distin<lb ed="#L" n="2" break="no"/>ctionis primae in generali 
+      <lb ed="#L" n="3"/>&amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e207181-d1e119">
+               <lb ed="#L" n="4"/>VIT autem inter sacramenta. Superius 
+      deter<lb ed="#L" n="5" break="no"/>minauit magister de sacramentis in communi 
+      <lb ed="#L" n="6"/>Hic determinat specialiter de quodam 
+      sacra<lb ed="#L" n="7" break="no"/>mento veteris legis, scilicet de circucisione, qua 
+      <lb ed="#L" n="8"/>"cum sacramentis no. le. aliquam similitudinem 
+      <lb ed="#L" n="9"/>habebat. Et diuiditur in duas partes. Quia 
+      pri<lb ed="#L" n="10" break="no"/>mo determinat de circuncisione quae fiebat octaua die. Et secundo 
+      <lb ed="#L" n="11"/>mouet quaestionem de pueris qui moriebantur ante octauam diem. 
+      <lb ed="#L" n="12"/>Secunda ibi, Si vero quaeratur. Prima diuiditur in partes quatuor 
+      <lb ed="#L" n="13"/>Primo ostendit eius efficaciam. Secundo, institutionem. Tertio 
+      <lb ed="#L" n="14"/>institutionis rationem. Quarto, mutationem. Secunda ibi, Hic 
+      <lb ed="#L" n="15"/>est dicendum. Tertia ibi, Data autem fuit. Quarta ibi, Ideo autem 
+      <lb ed="#L" n="16"/>mutata est. Prima in duas. Primo tangit efficaciam circuncisionis. 
+      <lb ed="#L" n="17"/>Secundo ostendit quod iidem habebant quaedam remedia ante 
+      <lb ed="#L" n="18"/>praeceptum de circuncisione datum ibi, Quaeritur autem de viris 
+      <lb ed="#L" n="19"/>qui fuerunt. Et haec est sententia &amp; diuisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-e207181-d1e156">
+               <lb ed="#L" n="20"/>
+               <!--2--> IN SPECIALI autem sic procedit magister, &amp; 
+      propo<lb ed="#L" n="21" break="no"/>nit quod sacramentum circuncisionis, quamuis sit de 
+      sacramen<lb ed="#L" n="22" break="no"/>tis veteris legis, tamen antiquis idem remedium conferebat 
+      con<lb ed="#L" n="23" break="no"/>tra peccata quod modo baptismus, tamen non aperiebat ianuam 
+      <lb ed="#L" n="24"/>regni caelestis, quod auctoritatibus confirmat. Postea quaeri 
+      <lb ed="#L" n="25"/>quod remedium habebant contra peccatum viri ante 
+      circunci<lb ed="#L" n="26" break="no"/>sionem, &amp; foeminae ante &amp; post. Et respondet quod illi qui ei 
+      <lb ed="#L" n="27"/>stirpe Abrahae descendebant, per circuncisionem iustificabantur. 
+      <lb ed="#L" n="28"/>Qui vero ante circuncisionem fuerunt paruuli quidam in fide 
+      pa<lb ed="#L" n="29" break="no"/>rentum, parentes vero virtute sacrificiorum, mulieres vero ante 
+      <lb ed="#L" n="30"/>circuncisionem &amp; post, per fidem &amp; operationem bonam, vel suam, 
+      <lb ed="#L" n="31"/>si erant adultae, vel parentum si erant paruulae: quod auctorita 
+      <lb ed="#L" n="32"/>tibus confirmat. Postea determinat de institutione circuncisionis 
+      <lb ed="#L" n="33"/>quantum ad quatuor, ostendens primocui data sit, scilicet Abrah 
+      <lb ed="#L" n="34"/>primo, &amp; consequenter semini eius. Secundo quare data est ipsi 
+      <lb ed="#L" n="35"/>s. propter duo. Primo propter meritum obedientiae in signum 
+      <lb ed="#L" n="36"/>fidei magnae. Et in distinctionem populi Iudaici a caeteris populis 
+      <lb ed="#L" n="37"/>Secundo in qua parte fiebat, quia in carne praeputij, &amp; hoc 
+      du<lb ed="#L" n="38" break="no"/>plici ratione. Primo quia concupiscentia per quam peccatum 
+      ori<lb ed="#L" n="39" break="no"/>ginale contrahitur a parentibus, in cuius remedium instituta est 
+      <lb ed="#L" n="40"/>circuncisio, dominatur in illa parte magis. Secundo vt in illa par 
+      <lb ed="#L" n="41"/>te homo signum obedientiae reciperet, in qua primus homo primo 
+      <lb ed="#L" n="42"/>inobedientiam sensit. Quarto dicit quo tempore, &amp; quo 
+      instrumen<lb ed="#L" n="43" break="no"/>to, quia octauo die, &amp; cultro lapideo. Et hoc ad designandum 
+      duo<lb ed="#L" n="44" break="no"/>Primo resurrectionem carnis octaua aetate facienda, in qua 
+      cor<lb ed="#L" n="45" break="no"/>ruptio carnis ab electis tolletur. Secundo ostendit resurrectioni 
+      <lb ed="#L" n="46"/>Christi tertia die factam, per quam anima cuiuslibet in ipsum cre 
+      <lb ed="#L" n="47"/>dentis circuncidetur a peccatis. Postea dicit quod ideo per 
+      ba<lb ed="#L" n="48" break="no"/>ptismum circuncisio fuit mutata, quia sacramentum baptismi 
+      <lb ed="#L" n="49"/>communius est &amp; perfectius: in circuncisione enim solum peccata 
+      <lb ed="#L" n="50"/>remittebantur, sed gratia non conferebatur. In baptismo vero 
+      <lb ed="#L" n="51"/>gratia non habenti confertur, &amp; habenti augetur. Vltimo 
+      quaeri<lb ed="#L" n="52" break="no"/>tur vtrum paruuli qui moriebantur ante octauam diem, qua se 
+      <lb ed="#L" n="53"/>cundum legem debebat fieri circuncisio saluarentur. Et dicit quod 
+      <lb ed="#L" n="54"/>non, sicut modo non saluantur pueri qui moriuntur ante baptismum 
+      <lb ed="#L" n="55"/>Subdit tamen quod propter necessitatem licebat pueros 
+      circum<lb ed="#L" n="56" break="no"/>cidere ante octauam diem. Et in hoc terminatur sententia, &amp;c
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="225-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e185173"><!-- l3d27prae -->
+            <head xml:id="jsnvu6-e185173-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e185173-d1e103">
+               <lb ed="#L" n="15"/>Sententia huius distinctionis xxxvij 
+      <lb ed="#L" n="16"/>in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e185173-d1e110">
+               <lb ed="#L" n="17"/>CVVM autem Christus. Superius determinaui 
+      <lb ed="#L" n="18"/>Magister de fide &amp; spe. Hic determinat de 
+      cha<lb ed="#L" n="19" break="no"/>ritate. Et diuiditur in duas. Primo determinat 
+      <lb ed="#L" n="20"/>de charitate humana qua nos diligimus Deum. 
+      <lb ed="#L" n="21"/>Secundo determinat de charitate qua Deus 
+      dili<lb ed="#L" n="22" break="no"/>git nos dist. 32. Praemissis adiiciendum. Prima in quatuor. 
+      Pri<lb ed="#L" n="23" break="no"/>mo determinat de habitu charitatis. Secundo de numero 
+      dili<lb ed="#L" n="24" break="no"/>gendotum ex charitate dist. 28. Hic potest quaeri. Tertio de 
+      or<lb ed="#L" n="25" break="no"/>dine diligendi dist. 29. ibi, post praedicta de ordine. Quarto 
+      di<lb ed="#L" n="26" break="no"/>charitatis duratione ibi, illud quoque non est praetermittendun? 
+      <lb ed="#L" n="27"/>Prima est principalis lectionis. Et diuiditur in tres. Primo 
+      con<lb ed="#L" n="28" break="no"/>tinuat se ad praecedentia. Secundo prosequitur suam 
+      intentio<lb ed="#L" n="29" break="no"/>nem ibi, charitas est dilectio. Tertio continuat se ad sequentia 
+      <lb ed="#L" n="30"/>ibi, sed quia hac dilectione. Haec est diuisio &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e185173-d1e143">
+               <lb ed="#L" n="31"/>
+               <!--2--> In speciali sic procedit. Et primo proponit quod licet Christus 
+      <lb ed="#L" n="32"/>? fidem &amp; spem non habuerit, tamen inquantum homo tantam 
+      <lb ed="#L" n="33"/>habuit charitatem quod maior esse non potest, quia pro nobis ani 
+      <lb ed="#L" n="34"/>mam suam posuit, &amp; ad diligendum nos inuicem nobis 
+      exem<lb ed="#L" n="35" break="no"/>plum dedit. Deinde de charitate, de modo, de ordine diligend 
+      <lb ed="#L" n="36"/>Deum, &amp; proximum proponit esse inquirendum. Postea 
+      diffi<lb ed="#L" n="37" break="no"/>nit charitatem dicens. Quod charitas est dilectio qua Deus 
+      pro<lb ed="#L" n="38" break="no"/>pter se, &amp; proximus propter Deum diligitur, &amp; sic continet duc 
+      <lb ed="#L" n="39"/>mandata. Primum est diligere Deum, deinde proximum in qui 
+      <lb ed="#L" n="40"/>bus duobus praeceptis tota lex pendet &amp; prophetae. Postea quae 
+      <lb ed="#L" n="41"/>rit vtrum eadem sit dilectio qua diligimus Deum &amp; proximu, 
+      <lb ed="#L" n="42"/>an diuersae. Et respondet quod eadem est dilectio, sed distinguitur 
+      <lb ed="#L" n="43"/>quoad hoc, quia Deum diligimus propter se, proximum autem 
+      <lb ed="#L" n="44"/>propter Deum, &amp; hoc auctoritate Aug. confirmat, subdit autem 
+      <lb ed="#L" n="45"/>quod quamuis fit vna dilectio Dei &amp; proximi differt tamen 
+      pro<lb ed="#L" n="46" break="no"/>pter duo dilecta scilicet propter Deum &amp; proximum, propter 
+      <lb ed="#L" n="47"/>quod sunt duo mandata, quia quamuis sit dilectio vna tamen 
+      di<lb ed="#L" n="48" break="no"/>ligi praecipiuntur, vel dicitur gemina propter duos motus qui 
+      <lb ed="#L" n="49"/>in mente geruntur ad Deum &amp; proximum diligendum. Postea 
+      <lb ed="#L" n="50"/>ponit modum dilectionis qua diligimus Deum propter se, 
+      pro<lb ed="#L" n="51" break="no"/>ximum autem propter Deum, hic autem modus dilectionis 
+      <lb ed="#L" n="52"/>tangitur cum dicitur, Diliges proximum tuum sicut teipsum, ic 
+      <lb ed="#L" n="53"/>est, propter quem teipsum diligis, proximum diligere debes, 
+      <lb ed="#L" n="54"/>quod confirmat auctoritate August. Postea ostendit modum 
+      di<lb ed="#L" n="55" break="no"/>ligendi Deum, quia ex toto corde id est intellectu, ex tota ani 
+      <lb ed="#L" n="56"/>ma id est voluntate, ex tota mente id est memoria, vt omnem 
+      <lb ed="#L" n="57"/>cogitatum vitam &amp; omnem intellectum in eum referas a quo 
+      om<lb ed="#L" n="58" break="no"/>nia praedicta habes. Postea dicit quod ille modus dilectionis De 
+      <lb ed="#L" n="59"/>non potest impleri in via ex toto, sed ex parte, quia imperfecti 
+      <lb ed="#L" n="60"/>diligimus, quod probat per hoc quod caro hic semper est 
+      rebelli<lb ed="#L" n="61" break="no"/>spiritui quae impedit a perfecta dilectione, sed in patria vbi tol 
+      <lb ed="#L" n="62"/>letur imperfectum, diligimus perfecte. Postea quaerit quare da 
+      <lb ed="#L" n="63"/>tur hoc praeceptum de dilectione Dei cum in via impleri nor 
+      <lb ed="#L" n="64"/>possit, &amp; respondet quod hullus scit recte curere nisi sciat quo est 
+      <lb ed="#L" n="65"/>currendum, similiter nec Deus diligi sciretur nisi per aliquod 
+      <lb ed="#L" n="66"/>praeceptum ostenderetur, &amp; quamuis hoc praeceptum in vi: 
+      <lb ed="#L" n="67"/>totaliter non impletur, tame impleatur ex parte, quia secundim 
+      <lb ed="#L" n="68"/>perfectionem cognitionis viae non comprehensionis. 
+      Poste<lb ed="#L" n="69" break="no"/>dicit praedicta duo praecepta charitatis sic esse connexa quod 
+      <lb ed="#L" n="70"/>vnum eorum pro vtroque ponitur, nec immerito, quia 
+      ne<lb ed="#L" n="71" break="no"/>Deus sine proximo, nec proximus sine Deo diligi potest, &amp; qui 
+      <lb ed="#L" n="72"/>Deum diligit non contennit proximum quem Deus diligit, 
+      ne<lb ed="#L" n="73" break="no"/>in eo diligit nisi Deum quod multis exemplis confirmat. 
+      Viti<lb ed="#L" n="74" break="no"/>mo continuat se ad dicenda, dicens inquirendum esse post qua 
+      <lb ed="#L" n="75"/>ex charitate diligenda sunt. Et in hoc terminatur &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

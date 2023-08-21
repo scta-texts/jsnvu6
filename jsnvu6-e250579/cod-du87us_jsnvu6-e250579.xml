@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="304-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e250579"><!-- l4d20q2 -->
+            <head xml:id="jsnvu6-e250579-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e250579-Hd1e103" type="question-title">Utrum vnus posset pro alio satisfacere</head>
+            <p xml:id="jsnvu6-e250579-d1e106">
+               <lb ed="#L" n="47"/>QUAESTIO SECVNDA. 
+      <lb ed="#L" n="48"/>Vtrum vnus posset pro alio satisfacere. 
+    </p>
+            <p xml:id="jsnvu6-e250579-d1e113">
+               <lb ed="#L" n="49"/>SECVNDO quaeritur vtrum vnus posset pro alio 
+      <lb ed="#L" n="50"/>satisfacere. Et arguitur quod non, quia contritio, cor 
+      <lb ed="#L" n="51"/>fessio, &amp; satisfactio, ad se inuicem ordinantur, &amp; 
+      sib<lb ed="#L" n="52" break="no"/>i inuicem correspondent: sed vnus non potest pre 
+      <lb ed="#L" n="53"/>alio conteri, aut confiteri, ergo nec satisfacere. 
+      </p>
+            <p xml:id="jsnvu6-e250579-d1e126">
+               <lb ed="#L" n="54"/>
+               <!--2--> Item quando aliquis suscipit satisfactionem pro altero, si ille 
+      <lb ed="#L" n="55"/>decedens moriatur antequam ille satisfactionem expleat, aut 
+      <lb ed="#L" n="56"/>punitur pro peccato illo aut non. Si non, ergo ante 
+      satisfactio<lb ed="#L" n="57" break="no"/>nem debitam glorificatur; si sic, cum alius postea satisfaciat. 
+      <lb ed="#L" n="58"/>idem peccatum bis punitur: vtrunque autem istorum est 
+      in<lb ed="#L" n="59" break="no"/>conueniens, ergo illud ex quo sequitur, scilicet quod aliquis 
+      <lb ed="#L" n="60"/>possit pro alio satisfacere. 
+      </p>
+            <p xml:id="jsnvu6-e250579-d1e147">
+               <lb ed="#L" n="61"/>
+               <!--3--> IN CONTRARIVM arguitur, quia plus valet cha 
+      <lb ed="#L" n="62"/>ritas apud Deum quam apud homines: sed apud homines vnus 
+      <lb ed="#L" n="63"/>potest ex amore pro alio debitum soluere, ergo fortiori ratione 
+      <lb ed="#L" n="64"/>apud Deum potest vnus ex charitate pro alio satisfacere. 
+      </p>
+            <p xml:id="jsnvu6-e250579-d1e160">
+               <lb ed="#L" n="65"/>
+               <!--4--> RESPONSIO. Quaestio ista non intelligitur de 
+      qua<lb ed="#L" n="66" break="no"/>cunque satisfactione poenae peccato debitae, sed solum de 
+      satisfa<lb ed="#L" n="67" break="no"/>ctione, vel solutione poenitentiae iniunctae a sacerdote: circa quam 
+      <lb ed="#L" n="68"/>sciendum est quod sicut patet ex praecedenti quaest. poena 
+      satisfa<lb ed="#L" n="69" break="no"/>ctoria quae imponitur poenitenti valet ad duo, scilicet ad 
+      solu<lb ed="#L" n="70" break="no"/>tionem debiti, &amp; ad praestandum remedium contra recidiuum. Si 
+      er<lb ed="#L" n="71" break="no"/>go poena consideretur prout praestat remedium contra recidiuum 
+      <lb ed="#L" n="72"/>sic impossibile est quod vnus exoluat poenam pro altero. Cuius ra 
+      <lb ed="#L" n="73"/>tio est, quia poena non praestat remedium contra recidiuum nisi 
+      qui<lb ed="#L" n="74" break="no"/>bene disponit hominem ad bene resistendum occasionibus 
+      reci<lb ed="#L" n="75" break="no"/>diui, sed ex hoc quod vnus sustinet poenam pro alio ille alius in nulle 
+      <lb ed="#L" n="76"/>melius disponitur, sicut ex ieiunio vnius non maceratur care 
+      <lb ed="#L" n="77"/>alterius ad melius resistendum concupiscentiis carnis, &amp; sic es 
+      <lb ed="#L" n="78"/>in omnibus aliis: quilibet enim bene vel male disponitur, actu 
+      <lb ed="#L" n="79"/>proprio &amp; non alieno, ergo poena quae sustinetur ab vno, in 
+      nul<lb ed="#L" n="80" break="no"/>lo praestat remedium contra recidiuum alterius.
+</p>
+            <p xml:id="jsnvu6-e250579-d1e199">
+      <!--00681.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>4 Si autem poena consideretur vt est solutio debiti, sic circa 
+      ma<lb ed="#L" n="82" break="no"/>teriam istam sunt quaedam clara, quaedam vero dubia. Primo 
+      cla<lb ed="#L" n="83" break="no"/>rum est quod si satisfactio quam quis facit pro alio procedat ex au 
+      <lb ed="#L" n="84"/>ctoritate sacerdotis imponentis poenitentiam, certum est quod vnus 
+      <lb ed="#L" n="85"/>potest satisfacere pro alio siue ille sit potens ad satisfaciendum 
+      <lb ed="#L" n="86"/>siue impotens. Cuius ratio est: quia nullus tenetur ad 
+      poeniten<lb ed="#L" n="87" break="no"/>tiam sibi impositam, nisi secundum modum quo est sibi 
+      imposi<lb ed="#L" n="88" break="no"/>ta. Si ergo imponens determinet quod poenitentia fiat per illum 
+      <lb ed="#L" n="89"/>qui peccauit, vel per alium, liberatus est a poenitentia quae fit per 
+      <lb ed="#L" n="90"/>alium, siue illud sit ieiunium, siue peregrinatio, siue quodcunque 
+      <lb ed="#L" n="91"/>aliud. In tota enim ista quaestione non loquimur de 
+      satisfactio<lb ed="#L" n="92" break="no"/>ne absolute an vnus posset pro alio satisfacere, sed solum de 
+      sa<lb ed="#L" n="93" break="no"/>tisfactione imposita confitenti per sacerdotem absoluentem 
+      <lb ed="#L" n="94"/>Secundo clarum est, vel saltem est multum probabile quod si ille cui 
+      <lb ed="#L" n="95"/>imponitur poenitentia a sacerdote fiat impotens ad faciendum 
+      <lb ed="#L" n="96"/>eam, alius potest pro eo poenitentiam facere, quia nec Deus nec 
+      <lb ed="#L" n="97"/>minister eius intendunt aliquem obligare ad illud quod est ipsi 
+      <lb ed="#L" n="98"/>impossibile. propter quod quia illa aliquo modo possumus quae 
+      <lb ed="#L" n="99"/>per amicos possumus, ideo ille qui est impotens per semetipsum 
+      <lb ed="#L" n="100"/>ad faciendam poenitentiam sibi iniunctam potest eam facere per amicum. 
+      </p>
+            <p xml:id="jsnvu6-e250579-d1e249">
+               <lb ed="#L" n="101"/>
+               <!--6--> Dubium autem est vtrum ille cui iniuncta est poenitentia &amp; 
+      <lb ed="#L" n="102"/>potest eam per semetipsum facere liberetur si faciat eam fieri per 
+      <lb ed="#L" n="103"/>alium absque voluntate &amp; licentia sacerdotis poenitentiam impe 
+      <lb ed="#L" n="104"/>nentis. Et videtur probabiliter quod non, quia condemnatus iuste 
+      <lb ed="#L" n="105"/>&amp; iudicialiter non potest circa condemnationem aliquid 
+      immu<lb ed="#L" n="106" break="no"/>tare nisi de voluntate indicis expressa vel praesumpta: sed ille cui 
+      <lb ed="#L" n="107"/>in foro poenitentiae imponitur aliqua poena sustinenda, vel 
+      ali<lb ed="#L" n="108" break="no"/>qua poenitentia facienda condemnatur iudicialiter per 
+      sacerdo<lb ed="#L" n="109" break="no"/>tem, &amp; supponitur quod iuste, ergo circa poenitentiam sibi iniuncta 
+      <lb ed="#L" n="110"/>nihil potest immutare nisi de voluntate sacerdotis expressa vel 
+      <lb ed="#L" n="111"/>praesumpta: expressa quando dicet, facies talem poenitentiam per 
+      <lb ed="#L" n="112"/>te vel alium: praeassumpta quando casus necessitatis incurritur 
+      <lb ed="#L" n="113"/>qui reddit eum impotentem ad faciendam poenitentiam ipsi 
+      in<lb ed="#L" n="114" break="no"/>iunctam, imo videtur qud ille qui sola voluntate sua poenitentiam 
+      <lb ed="#L" n="115"/>sibi iniunctam facit fieri per alterum nisi in casibus praedictis, sit 
+      <lb ed="#L" n="116"/>temerarius contemptor iudicij poenitentiae, nec poenitentia sic 
+      <lb ed="#L" n="117"/>facta per alium credenda est Deo esse accepta ad liberationem 
+      <lb ed="#L" n="118"/>ipsius, quando iudicium sacerdotis qui est in absolutione vicarius 
+      <lb ed="#L" n="119"/>Christi temerarie contemnitur. In casu autem in quo de 
+      volun<lb ed="#L" n="120" break="no"/>tate sacerdotis fieret poenitentia per alium, videtur quod per eam 
+      <lb ed="#L" n="121"/>non tantum soluatur de poena peccato debita, quantum si fieret 
+      <lb ed="#L" n="122"/>per illum qui deliquit, quia poena per poenam recompensatur, 
+      <lb ed="#L" n="123"/>sed magis est vnicuique poenale illud quod facit per semetipsum 
+      <lb ed="#L" n="124"/>quam illud quod fit per alterum, ergo plus recompensatur: de 
+      <lb ed="#L" n="125"/>poena peccato debita quando ille qui peccauit facit poenitentiam 
+      <lb ed="#L" n="126"/>iniunctam per semetipsum quam quando fit per alterum. 
+      </p>
+            <p xml:id="jsnvu6-e250579-d1e310">
+               <lb ed="#L" n="127"/>
+               <!--7--> Ad primum argumentum dicendum quod non est simile de 
+      <lb ed="#L" n="128"/>contritione, &amp; confessione, &amp; satisfactione: quia contritio 
+      or<lb ed="#L" n="129" break="no"/>dinatur ad dimissionem culpae quae pertinet ad dispositionem 
+      <lb ed="#L" n="130"/>hominis, &amp; quia vnus non disponitur ex actu alterius, vt dictum est 
+      <lb ed="#L" n="131"/>prius, ideo vnus non potest conteri pro alio. Similiter confessio 
+      <lb ed="#L" n="132"/>fit per absolutionem per quam gratia datur, vel data augetur 
+      <lb ed="#L" n="133"/>ipsi confitenti, &amp; ideo confessio facta ab vno non valet alij: sed 
+      <lb ed="#L" n="134"/>satisfactio ordinatur ad solutionem poenae debitae quam vnus 
+      <lb ed="#L" n="135"/>potest pro alio soluere in certis casibus, &amp; ideo vnus potest pro 
+      <lb ed="#L" n="136"/>alio satisfacere modis quibus dictum est prius. 
+      </p>
+            <p xml:id="jsnvu6-e250579-d1e336">
+               <lb ed="#L" n="137"/>
+               <!--8--> Ad secundum dicendum qu ille qui decedit antequam 
+      satisfa<lb ed="#L" n="138" break="no"/>ctio, quam alius pro suscepit, sit completa, punietur in purgatorio 
+      <lb ed="#L" n="139"/>pro eo quod non est completum, nec tamen vnum peccatum 
+      pu<lb ed="#L" n="140" break="no"/>nietur bis: quia si iste puniatur in purgatorio plene antequam 
+      <lb ed="#L" n="141"/>satisfactio quae pro eo debuit fieri fit inchoata, tunc si ille qui 
+      <lb ed="#L" n="142"/>eam faciendam suscepit postea eam faciat, cedet ad satisfactionem 
+      <lb ed="#L" n="143"/>propriorum delictorum, &amp; non illius qui iam expeditus est. Si vero 
+      <lb ed="#L" n="144"/>eam non faciat punietur pro ea tanquam pro promisso non expleto. 
+      <lb ed="#L" n="145"/>Et sic pro alio punietur quum principalis sit punit? in purgatorio 
+      </p>
+            <p xml:id="jsnvu6-e250579-d1e361">
+               <lb ed="#L" n="146"/>
+               <!--9--> Argumentum alterius partis non concludit vniuersaliter, 
+      <lb ed="#L" n="147"/>quia &amp; si apud homines vnus posset pro altero potente vel 
+      im<lb ed="#L" n="148" break="no"/>potente satisfacere quoad rem debitam, non tamen quoad 
+      in<lb ed="#L" n="149" break="no"/>iuriam illatam nisi procedat de voluntate iudicis, vel partis: &amp; 
+      <lb ed="#L" n="150"/>similiter est in proposito cum agatur de poenitentia quae 
+      impo<lb ed="#L" n="151" break="no"/>nitur pro offensa diuina. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

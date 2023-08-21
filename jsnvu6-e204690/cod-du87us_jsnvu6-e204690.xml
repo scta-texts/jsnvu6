@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="248-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e204690"><!-- l4d1q2 -->
+            <head xml:id="jsnvu6-e204690-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e204690-Hd1e103" type="question-title">Utrum genus humanum indiguerit sacramentis</head>
+            <p xml:id="jsnvu6-e204690-d1e106">
+               <lb ed="#L" n="161"/>QVAESTIO IOSECVNVA 
+      <lb ed="#L" n="162"/>Vtrum genus humanum indiguerit sacramentis. 
+      <lb ed="#L" n="163"/>Thom. 3. q. 61.
+    </p>
+            <p xml:id="jsnvu6-e204690-d1e115">
+      <!--00571.xml-->
+               <pb ed="#L" n="249-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>SECVNDO quaeritur, vtrum genu humanum 
+      in<lb ed="#L" n="2" break="no"/>diguerit sacramentis. Et arguitur qued non quia 
+      secun<lb ed="#L" n="3" break="no"/>it dum Apostolum 1. ad Tim. 4. Corporalis 
+      exercita<lb ed="#L" n="4" break="no"/>Itio ad modicum est vtilis, sed vsus sacramentorum 
+      <lb ed="#L" n="5"/>consistit in corporali exercitatione, ergo ad modicum est vti 
+      <lb ed="#L" n="6"/>lis, &amp; talibus nullus indiget, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e204690-d1e137">
+               <lb ed="#L" n="7"/>
+               <!--2.--> Item obseruatio mandatorum quae sunt de dictamine 
+      ra<lb ed="#L" n="8" break="no"/>tionis naturalis sufficit (vt videtur) ad salutem 
+      consequen<lb ed="#L" n="9" break="no"/>dam? vnde cuidam perenti a Christo, quid faciendo vitam 
+      <lb ed="#L" n="10"/>aeternam habebo? Respondit: si vis ad vitam ingredi seru: 
+      <lb ed="#L" n="11"/>mandata, ergo praeter obseruantiam mandatorum frustra 
+      po<lb ed="#L" n="12" break="no"/>nitur institutio sacramentorum. 
+      </p>
+            <p xml:id="jsnvu6-e204690-d1e156">
+               <lb ed="#L" n="13"/>
+               <!--3.--> Item si genus humanum indiguit sacramentis, aut hoc fuit 
+      <lb ed="#L" n="14"/>pro statu innocentiae, aut legis: &amp; si pro statu legis aut naturalis 
+      <lb ed="#L" n="15"/>vel scriptae, aut euangelij, sed in nullo istorum temporum 
+      indi<lb ed="#L" n="16" break="no"/>guit sacramentis genus humanum, ergo nunquam: Minor 
+      pro<lb ed="#L" n="17" break="no"/>batur, quod enim non indiguerit in statu innocentiae clarum est 
+      <lb ed="#L" n="18"/>quia pro illo statu homo fuit praeuentus gratia, vt dictum fuit 
+      se<lb ed="#L" n="19" break="no"/>cundo libro, fuit etiam praeditus originali iustitia per quam 
+      pote<lb ed="#L" n="20" break="no"/>rat facillime vitare omne peecati, sed ad salutem haec sufficiunt. 
+      <lb ed="#L" n="21"/>ergo &amp;c. Item nec pro statu legis naturalis vel scriptae indiguit 
+      <lb ed="#L" n="22"/>homo sacramentis, vt videtur, quia infirmis pauciora sunt im. 
+      <lb ed="#L" n="23"/>ponenda onera quam sanis, quia pauciora possunt portare, sed 
+      <lb ed="#L" n="24"/>post peccatum tempore legis naturalis vel scriptae, homines fuerum 
+      <lb ed="#L" n="25"/>infirmiores quam tempore innocentiae, ergo pauciora fuerunt tune 
+      <lb ed="#L" n="26"/>hominibus imponenda, sed in statu innocentiae non fuerunt 
+      sa<lb ed="#L" n="27" break="no"/>cramenta, vt probatum est, ergo multominus post. Item nec in 
+      <lb ed="#L" n="28"/>statu euangelij, vt videtur, quia secundum Apostolum lex noua seu 
+      <lb ed="#L" n="29"/>euangelium liberat nos ab oneribus ve. le. ergo non debet imponere 
+      <lb ed="#L" n="30"/>noua onera sacramentorum, alioquin oneraret sicut lex vetus. 
+      </p>
+            <p xml:id="jsnvu6-e204690-d1e200">
+               <lb ed="#L" n="31"/>
+               <!--4.--> IN. contrarium arguitur, quia secundum Aug. 19. contra Faustum: 
+      <lb ed="#L" n="32"/>in nullum nomen religionis seu verum seu falsum coadiuuari 
+      homi<lb ed="#L" n="33" break="no"/>nes possunt nisi aliquo signaculorum vel sacramentorum 
+      visibi<lb ed="#L" n="34" break="no"/>lium consortio colligentur, sed in ecclesia Dei est verissima religio 
+      <lb ed="#L" n="35"/>ergo oportet in ea esse huiusmodi signa, &amp; haec sunt sacramenta.
+</p>
+            <p xml:id="jsnvu6-e204690-d1e216">
+               <lb ed="#L" n="36"/>
+               <!--5.--> Item secundum Hug. de sacramentis: quandocunque 
+      mor<lb ed="#L" n="37" break="no"/>bus fuit, fuit remedium contra morbum, sed post peccatum 
+      <lb ed="#L" n="38"/>semper fuit morbus peccati: ergo &amp; sacramenta quae sunt re 
+      <lb ed="#L" n="39"/>medium contra peccatum. 
+      </p>
+            <p xml:id="jsnvu6-e204690-d1e229">
+               <lb ed="#L" n="40"/>
+               <!--6--> RESPONSIO. Circa quaestionem istam videnda sunt 
+      <lb ed="#L" n="41"/>duo. Primum est an genus humanum indiguerit sacramentis 
+      <lb ed="#L" n="42"/>Secundum est pro quo tempore indiguerit 
+</p>
+            <p xml:id="jsnvu6-e204690-d1e240">
+               <lb ed="#L" n="43"/>QUANTVM ad primum dicendum quod genus humanum 
+      <lb ed="#L" n="44"/>nunquam indiguit sic sacramentis quod sine sacramentis non 
+      pos<lb ed="#L" n="45" break="no"/>set esse vel saluari: quia Deus virtutem suam qua nos conseruat &amp; 
+      <lb ed="#L" n="46"/>saluat in esse naturae &amp; gratiae &amp; perducit ad statum gloriae non al 
+      <lb ed="#L" n="47"/>ligauit sacramentis, quin sine eis posset facere quicqud facit 
+      me<lb ed="#L" n="48" break="no"/>diantibus illis. Congruum tamen fuit &amp; expediens humano 
+      gene<lb ed="#L" n="49" break="no"/>ri ad salutem sacramenta institui, quod patet ex duobus. 
+      Pri<lb ed="#L" n="50" break="no"/>mo, quia omni tempore fuerunt necessaria ad salutem fides &amp; 
+      ope<lb ed="#L" n="51" break="no"/>ra protestantia fidem in his saltem in quibus inerat facultas 
+      ope<lb ed="#L" n="52" break="no"/>randi: &amp; de fide quidem patet hoc, quia sola cognitio naturalis 
+      <lb ed="#L" n="53"/>non potest hominem sufficienter dirigere respectu finis super 
+      <lb ed="#L" n="54"/>naturalis in quo salus eius consistit, propter quod requiritur 
+      fi<lb ed="#L" n="55" break="no"/>des sine qua impossibile est placere Deo Heb. II. De operibus 
+      <lb ed="#L" n="56"/>etiam patet, quia fides sine operibus mortua est Ia 2. ca. ergo 
+      sem<lb ed="#L" n="57" break="no"/>per necessaria fuit fides de saluatore, &amp; remuneratore, &amp; 
+      oper<lb ed="#L" n="58" break="no"/>protestantia talem fidem, &amp; hoc expresse dicit Apost. ad Heb 
+</p>
+            <p xml:id="jsnvu6-e204690-d1e277">
+               <lb ed="#L" n="59"/>II. Credere oportet accedentem ad Deum quia est, &amp; quod 
+      inqui<lb ed="#L" n="60" break="no"/>rentibus se remunerator sit, Opera autem protestantia talem fidem 
+      <lb ed="#L" n="61"/>siue essent sacrificia, siue oblationes potuerunt dici sacramenta 
+      <lb ed="#L" n="62"/>secundum largam acceptionem sacramenti, secundum quam 
+      <lb ed="#L" n="63"/>omne signum rei sacrae potest dici sacramentum, quare &amp;c. 
+      <lb ed="#L" n="64"/>Secundo, quia congruum fuit &amp; expediens ad salutem illa 
+      in<lb ed="#L" n="65" break="no"/>stitui per quae homo dirigitur in Deum quantum ad incellectu 
+      <lb ed="#L" n="66"/>&amp; affectum, &amp; exteriorem effectum: non enim est via ad salutem 
+      <lb ed="#L" n="67"/>saltem adultis nisi per illa tria vel aliqua ex illis, sed per sacramen 
+      <lb ed="#L" n="68"/>ta dirigitur homo in Deum quantum ad illa tria, ergo &amp;c. Minoi 
+      <lb ed="#L" n="69"/>declaratur. Primo quantum ad erudicionem intellectus, quia sicu 
+      <lb ed="#L" n="70"/>ex creaturis naturalibus ducimur in cognitionem creatoris quam 
+      <lb ed="#L" n="71"/>tum ad conditiones quae ex creaturis concluduntur necessarii 
+      <lb ed="#L" n="72"/>de creatore, sic ex sacramentis quatenus sunt opera protestar 
+      <lb ed="#L" n="73"/>tia fidem erudimur de creatore quantum ad conditiones 
+      super<lb ed="#L" n="74" break="no"/>naturales, videlicet quod est saluator, redemptor, remunerator &amp; 
+      <lb ed="#L" n="75"/>huiusmodi, quamuis haec eruditio? uostri intellectus indigeat 
+      re<lb ed="#L" n="76" break="no"/>Fuelatione seu doctrina ficut caetera quae sunt fidei. Quantum 
+      ve<lb ed="#L" n="77" break="no"/>ro ad affectum dirigimur in Deum cum ob reuerentiam diui 
+      <lb ed="#L" n="78"/>nam eis subiicimur: quantum autem ad exteriorem actum, cun 
+      <lb ed="#L" n="79"/>circa ea ad honorem Dei exercitamur. Et istae sunt tres causa 
+      <lb ed="#L" n="80"/>quas ponit magister in litera, quare sacramenta fuerunt 
+      insti<lb ed="#L" n="81" break="no"/>tura, scilicet causa erudiuonis quo ad intellectum, causa 
+      humi<lb ed="#L" n="82" break="no"/>liationis quo ad affectum, &amp; exercitationis quo ad exteriorem 
+      <!--00571.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>actum, &amp; sumuntur hae causae ab Hugone, libro primo de 
+      sa<lb ed="#L" n="84" break="no"/>cramentis, par. 9, cap. 3. Et sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e204690-d1e341">
+               <lb ed="#L" n="85"/>
+               <!--9--> QVANTVM ad secundum, videlicet pro quo 
+      tempo<lb ed="#L" n="86" break="no"/>re humanum genus sacramentis indiguerit: dicendum est quod s 
+      <lb ed="#L" n="87"/>saciamenta vocentur quaeque sacra signa protestantia fidem de 
+      <lb ed="#L" n="88"/>Deo saluatore &amp; remuneratore conferente in praesenti 
+      san<lb ed="#L" n="89" break="no"/>ctitatem, &amp; in futuro salutem; sic sacramenta fuerunt homin 
+      <lb ed="#L" n="90"/>expedientia pro omni tempore tam innocentiae quam naturae la 
+      <lb ed="#L" n="91"/>psae, sicut sufficienter declaratum est per duas praedictas 
+      ratio<lb ed="#L" n="92" break="no"/>nes: si autem sacramenta solum vocentur sacra signa curationis 
+      <lb ed="#L" n="93"/>spir itualis, sic homo non indiguit sacramentis in statu 
+      innocen<lb ed="#L" n="94" break="no"/>tiae, sed solum post peccatum, quod patet: quia vbi non est timen 
+      <lb ed="#L" n="95"/>dum de morbo, non est opus medicamento, non est enim opus va 
+      <lb ed="#L" n="96"/>lentibus medicus, sed male habentibus, vt habetur Matt. 9. sed 
+      <lb ed="#L" n="97"/>ante peccatum non erat morbus, nec erat timendum de 
+      mor<lb ed="#L" n="98" break="no"/>bo, quin sufficienter &amp; faciliter posset ei resisti absque 
+      admini<lb ed="#L" n="99" break="no"/>culo exteriori: sic enim secundum omnes fuit instituta natura 
+      <lb ed="#L" n="100"/>in statu innocentiae, quod poterat non solum sufficienter, imo 
+      <lb ed="#L" n="101"/>faciliter vitare quodcunque peccatum, ergo tunc non fuit opu 
+      <lb ed="#L" n="102"/>aliquo medicamento, sed sacramenta sic accepta sunt quaedan 
+      <lb ed="#L" n="103"/>medicamenta, vt dictum est, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e204690-d1e387">
+               <lb ed="#L" n="104"/>
+               <!--10--> Nec obstat de matrimonio quod tunc institutum fuit, 
+      qui<lb ed="#L" n="105" break="no"/>quum tunc non fuisset durante statu illo in remedium 
+      concu<lb ed="#L" n="106" break="no"/>piscentiae, quia nulla fuisset, sed solum in officium, non fuisset 
+      <lb ed="#L" n="107"/>medicamentum, quare nec sacramentum. Et si dicatur quod 
+      <lb ed="#L" n="108"/>erat signum sacrae rei, ergo sacramentum, dicendum quod si 
+      <lb ed="#L" n="109"/>status ille semper durasset, matrimonium non fuisset signum 
+      <lb ed="#L" n="110"/>coniunctionis Christi &amp; ecclesiae per assumptam 
+      humanita<lb ed="#L" n="111" break="no"/>tem: quia si homo non peccasset filius Dei incarnatus non 
+      <lb ed="#L" n="112"/>fuisset, vt communius tenetur. 
+      </p>
+            <p xml:id="jsnvu6-e204690-d1e411">
+               <lb ed="#L" n="113"/>
+               <!--11--> Iuxta quod notandum est, quod quum sacramenta sint 
+      quae<lb ed="#L" n="114" break="no"/>dam opera protestantia fidem de reparatore, vt dictum est, 
+      se<lb ed="#L" n="115" break="no"/>cundum incrementa fidei creuerut sacramenta. Creuit autem 
+      <lb ed="#L" n="116"/>fides processu temporum quantum ad explicationem 
+      articu<lb ed="#L" n="117" break="no"/>lorum, &amp; primo tempore Abrahae, qui &amp; pater fidei dicitur, &amp; 
+      <lb ed="#L" n="118"/>hic adhuc existens in tempore legis naturae accepit 
+      sacramen<lb ed="#L" n="119" break="no"/>tum nouum, siue signaculum fidei, scilicet circuncisionem, v 
+      <lb ed="#L" n="120"/>patet Gene. 17. Et hoc fuit necessitatis quantum ad masculo: 
+      <lb ed="#L" n="121"/>post octauum diem. Caetera autem quae praecesserunt, vt 
+      sa<lb ed="#L" n="122" break="no"/>crificia, decimae, &amp; oblationes, fuerunt voluntatis &amp; 
+      necessita<lb ed="#L" n="123" break="no"/>tis: necessitatis in communi, vt scilicet aliquid facerent in pro 
+      <lb ed="#L" n="124"/>testationem fidei suae, sed in speciali erant voluntatis. Poteran 
+      <lb ed="#L" n="125"/>enim eligere hoc vel illud pro libito suo, Deinde tempore Moys 
+      <lb ed="#L" n="126"/>fides tantum creuit, vt non solum in vna familia esset, sed in to 
+      <lb ed="#L" n="127"/>ta vna gente cui data fuit lex, quae non nisi populo dari potest 
+      <lb ed="#L" n="128"/>quia lex positiua pars est politicae, propter quod tunc addita 
+      <lb ed="#L" n="129"/>sunt multa sacramenta, vt patet in Exo. Leui. in libro. 
+      Nume<lb ed="#L" n="130" break="no"/>rorum vltimo. Post aduentum Christi fides perfecte declarata 
+      <lb ed="#L" n="131"/>est, &amp; exhibitum est per Christum quod in lege fuerat 
+      pro<lb ed="#L" n="132" break="no"/>missum: &amp; quia aliis signis oportet signari praesentia, 
+      praeteri<lb ed="#L" n="133" break="no"/>ta, &amp; futura, vt dicit Augustinus contra Faustum 19. ideo 
+      prae<lb ed="#L" n="134" break="no"/>ter sacramenta veteris legis, quibus pronunciabantur futura 
+      <lb ed="#L" n="135"/>de Christo, oportuit quod essent alia quibus significarentur 
+      <lb ed="#L" n="136"/>illa quae fuerunt exhibita per Christum. Et haec euacuauerumt 
+      <lb ed="#L" n="137"/>alia, sicut euacuatur vnibra per veritatem. 
+      </p>
+            <p xml:id="jsnvu6-e204690-d1e470">
+               <lb ed="#L" n="138"/>
+               <!--12--> ADDPRIMVM argumentum dicendum quod 
+      Apo<lb ed="#L" n="139" break="no"/>stolus loquitur de exercitatione, quae est pure corporalis. 
+      Exer<lb ed="#L" n="140" break="no"/>citatio autem quae est in facramentis non est pure corporalis 
+      <lb ed="#L" n="141"/>quum requirat spiritualem praeparationem, &amp; in eis quaeratur 
+      <lb ed="#L" n="142"/>spiritualis effectus. 
+      </p>
+            <p xml:id="jsnvu6-e204690-d1e486">
+               <lb ed="#L" n="143"/>
+               <!--13--> Ad secundum dicendum quod obseruatio mandatorum 
+      <lb ed="#L" n="144"/>sufficit ad salutem, praesupposita tamen fide &amp; gratia: &amp; 
+      siclo<lb ed="#L" n="145" break="no"/>quitur Christus Matth. 19. sed ex quo homo incurrit 
+      pecca<lb ed="#L" n="146" break="no"/>tum quod priuat gratiam, requiritur sacramenta quae eam 
+      re<lb ed="#L" n="147" break="no"/>stituant. 
+      </p>
+            <p xml:id="jsnvu6-e204690-d1e502">
+               <lb ed="#L" n="148"/>
+               <!--14--> Ad tertium dicendum quod si sacramenta sumantur 
+      gene<lb ed="#L" n="149" break="no"/>raliter pro signis sacris protestantibus fidem, sic omni 
+      tempo<lb ed="#L" n="150" break="no"/>re indiguit homo sacramentis etiam in statu innocentiae. Si 
+      au<lb ed="#L" n="151" break="no"/>tem sacramenta vocentur solum signa sacrae curationis 
+      morbi<lb ed="#L" n="152" break="no"/>peccati, sic homo non indiguit facramentis in statu 
+      innocen<lb ed="#L" n="153" break="no"/>tiae, sed solum post peccatum tempore legis naturalis, scriptae 
+      <lb ed="#L" n="154"/>&amp; euangelij. Et quando arguitur quod infirmioribus pauciora 
+      <lb ed="#L" n="155"/>onera sunt imponenda quam sanis: verum est, nisi percmeant 
+      <lb ed="#L" n="156"/>ad eorum curationem, sicut sunt sacramenta, quae sunt 
+      medi<lb ed="#L" n="157" break="no"/>cina peccati. Quod arguitur vltimo, quod lex aqua liberat ab 
+      one<lb ed="#L" n="158" break="no"/>ribus veteris legis, verum est: tum quia imponitionera 
+      paucio<lb ed="#L" n="159" break="no"/>ra, tum etiam leuiora, &amp; quae pertinent ad curationem morbi 
+      <lb ed="#L" n="160"/>peceati, &amp; ad conseruationem sanitatis spiritualis. 
+      <lb ed="#L" n="161"/>A. De fiuma sacramenturum, Side infia distinctimer nu. 
+      <lb ed="#L" n="162"/>L Sigesimasecunda quastiono 
+      <lb ed="#L" n="163"/>secunda. '
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

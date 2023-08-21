@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="354-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e291429"><!-- l4d48q2 -->
+            <head xml:id="jsnvu6-e291429-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e291429-Hd1e103" type="question-title">Utrum diuinitas possit videri a malis sine gaudio</head>
+            <p xml:id="jsnvu6-e291429-d1e106">
+               <lb ed="#L" n="53"/>QUAISTIO SICVNDA. 
+      <lb ed="#L" n="54"/>Vtrum diuinitas possit videri a malis sine gaudio 
+    </p>
+            <p xml:id="jsnvu6-e291429-d1e113">
+               <lb ed="#L" n="55"/>SECVNDO quaeritur vtrum diuinitas possit 
+      <lb ed="#L" n="56"/>videri a malis sine gaudio. Et arguitur quod sic 
+      <lb ed="#L" n="57"/>quia peruersa voluntas damnatorum non magis 
+      <lb ed="#L" n="58"/>aduersatur humanitati Christi quam eius 
+      diui<lb ed="#L" n="59" break="no"/>nitati: sed visio humanitatis cedet eis magis ad 
+      <lb ed="#L" n="60"/>supplicium quam ad gaudium vt dictum est in 
+      <lb ed="#L" n="61"/>quaestione praecedente, ergo &amp; visio diuinitatis magis cedet eis 
+      <lb ed="#L" n="62"/>ad tristitiam quam ad gaudium. 
+      </p>
+            <p xml:id="jsnvu6-e291429-d1e133">
+               <lb ed="#L" n="63"/>
+               <!--2--> Item sicut se habet delectatio ad tristitiam, ita econuerso 
+      tristi<lb ed="#L" n="64" break="no"/>tia ad delectationem, sed superabundans delectatio excludit 
+      tri<lb ed="#L" n="65" break="no"/>stitiam non solum oppositam, sed contingentem, vt patet per phi 
+      <lb ed="#L" n="66"/>losophum 4. Ethic ergo sequitur similiter quod superabundani 
+      <lb ed="#L" n="67"/>tristitia excludit omnem delectationem non solum oppositam 
+      <lb ed="#L" n="68"/>sed contingentem, sed tristitsa damnatorum erit maxima, ergi 
+      <lb ed="#L" n="69"/>excludet delectationem de visione diuina si deum viderent. 
+      </p>
+            <p xml:id="jsnvu6-e291429-d1e154">
+               <lb ed="#L" n="70"/>
+               <!--3--> IN CONTRARIVM est quod dicitur Io. 17. haec est 
+      <lb ed="#L" n="71"/>vita aeterna vt cognoscant te. Ex quo patet quod essentia 
+      beati<lb ed="#L" n="72" break="no"/>tudinis consistit in visione, sed gaudium est de essentia 
+      beatitu<lb ed="#L" n="73" break="no"/>dinis vel ad ipsam necessario sequitur, ergo impossibile est quod 
+      <lb ed="#L" n="74"/>videns deum non delectetur in ipso. 
+      </p>
+            <p xml:id="jsnvu6-e291429-d1e170">
+               <lb ed="#L" n="75"/>
+               <!--4--> RESPONSIO. Cum quaeritur an diuinitas possit vide 
+      <lb ed="#L" n="76"/>ri sine gaudio vel sine delectatione, aut quaeritur de potestate dei 
+      <lb ed="#L" n="77"/>aut dei natura rei. si quaeritur de potestate dei sic dicendum est quod 
+      <lb ed="#L" n="78"/>deus de spotentia absoluta posset facere quod intellectus creatus 
+      <lb ed="#L" n="79"/>videret ipsum nude &amp; aperte, &amp; tamen non delectaretur, nec 
+      gau<lb ed="#L" n="80" break="no"/>deret. Cuius ratio est, quia quando duo actus sunt subordinati in 
+      <!--00781.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>ratione prioris &amp; posterioris, priot actus potest esse sine poste 
+      <lb ed="#L" n="82"/>riore absque aliqua conditione, sed visio diuinae essentiae, &amp; quiae 
+      <lb ed="#L" n="83"/>cunque cognitio se habet ad gaudium vel delectationem volun 
+      <lb ed="#L" n="84"/>tatis vt prior, qui a voluntas non potest gaudere vel delectari in 
+      <lb ed="#L" n="85"/>aliquo nisi praecognito, ergo non implicat contradictionem po 
+      <lb ed="#L" n="86"/>nere visionem sine gaudio vel delectatione, sed deus potest face 
+      <lb ed="#L" n="87"/>re quicquid contradictionem non implicat, quare &amp;c. 
+      <lb ed="#L" n="88"/>Si autem quaeratur de natura rei, sic dicendum est quod im 
+      <lb ed="#L" n="89"/>possibile est quod ad visionem diuinae essentiae nudam &amp; apertan 
+      <lb ed="#L" n="90"/>non sequatur gaudium vel delectatio. Cuius ratio est, quia sum 
+      <lb ed="#L" n="91"/>mum bonum praesens &amp; cognitum, &amp; nihil habens admixtum d 
+      <lb ed="#L" n="92"/>ratione mali, necessario delectat, loquendo de necessitate rei siue 
+      <lb ed="#L" n="93"/>ordinis naturalis in rebus creatis, vnde &amp; diffinitur 
+      delectati<lb ed="#L" n="94" break="no"/>per causam suam quod est coniunctio conuenientis cum conuenient 
+      <lb ed="#L" n="95"/>cum eius perceptione, sed deus visus est summum bonum nihil 
+      ha<lb ed="#L" n="96" break="no"/>bens de admixtione mali, cum ipse in essentia sua sit bonitas e 
+      <lb ed="#L" n="97"/>eius visio sit summa &amp; conuenientissima hominis perfectio vt in 
+      <lb ed="#L" n="98"/>fra patebit, ergo ipse sic cognitus necessario causat delectationi 
+      <lb ed="#L" n="99"/>in cognoscente. Et ad hanc intentionem procedit argumentum 
+      <lb ed="#L" n="100"/>factum in contrarium, scilicet quod visio dei est beatitudo ad qua 
+      <lb ed="#L" n="101"/>necessario sequitur gaudium vel delectatio, quamuis quidam dican 
+      <lb ed="#L" n="102"/>quod per illud verbum lo. 17. allegatum, haec est vita aeterna, no 
+      <lb ed="#L" n="103"/>intelligitur quod visio dei sit beatitudo, vel pertinens ad 
+      beatitu<lb ed="#L" n="104" break="no"/>dinem, sed sicut dicunt, actio &amp; intellectus est quaedam vita ve 
+      di<lb ed="#L" n="105" break="no"/>citur 12. Metaph. &amp; per consequens actio intellectus si sit aeterna 
+      <lb ed="#L" n="106"/>est vita aeterna, sed non oportet quod sit beatitudo, quia nomine 
+      <lb ed="#L" n="107"/>vitae aeternae, solum designatur ibi operatio vit alis aeterna, sed illud 
+      <lb ed="#L" n="108"/>non solum est absurdum, sed valde periculosum, si enim nomine 
+      <lb ed="#L" n="109"/>vitae aeternae non designasur nisi actio viralis aeterna, &amp; non bea 
+      <lb ed="#L" n="110"/>titudo ipsa tunc potest dici quod damnati habebunt vitam aeter 
+      <lb ed="#L" n="111"/>nam, quia habebunt aliquam operationem vitalem aeternam, put. 
+      <lb ed="#L" n="112"/>dolorem, vel tristitiam mentalem de amissione beatitudinis, &amp; 
+      <lb ed="#L" n="113"/>dolorem sensualem de afflictione corporis per ignem, quod nul 
+      <lb ed="#L" n="114"/>lus dicit, scriptura etiam contradicit, quae vitam aeterna 
+      promit<lb ed="#L" n="115" break="no"/>tit solum bonis Matt. 25. Ibunt hi (scilicet mali) in supplicium aeter 
+      <lb ed="#L" n="116"/>num, iusti vero in vitam aeternam, in loco etiam praeallegato 
+      <lb ed="#L" n="117"/>(scilicet lo. 17.) aeterna vita promittitur iustis in praemium, vnde 
+      <lb ed="#L" n="118"/>ante verba praedicta praemittitur, dedisti ei potestatem omnis 
+      car<lb ed="#L" n="119" break="no"/>nis, vt omne quod dedisti ei det eis vitam aeternam Et statim 
+      sub<lb ed="#L" n="120" break="no"/>iungitur, haec est autem vita aeterna, &amp;c. Constat autem quod 
+      <lb ed="#L" n="121"/>praemium bonorum est beatitudo, ergo visio dei vel est 
+      beatitu<lb ed="#L" n="122" break="no"/>do, vel pertinet ad beatitudinem. 
+</p>
+            <p xml:id="jsnvu6-e291429-d1e283">
+               <lb ed="#L" n="123"/>
+               <!--5--> AD PRIMVM argumentum dicendum quod non est simile 
+      <lb ed="#L" n="124"/>de visione humanitatis &amp; diuinitatis, quia visio humanitatis non 
+      <lb ed="#L" n="125"/>est summa hominis perfectio, potest etiam secundum se habere 
+      ali<lb ed="#L" n="126" break="no"/>quod adiunctum ratione cuius sit magis tristabilis quam delectabi 
+      <lb ed="#L" n="127"/>lis, sicut quum videtur aliquod excellens sensibile quod laedit 
+      orga<lb ed="#L" n="128" break="no"/>num, &amp; illo modo nihil prohibet visionem humanitatis Christi ess. 
+      <lb ed="#L" n="129"/>damnatis tristabilem inquantum excellens eius claritatis esset 
+      <lb ed="#L" n="130"/>laesiua dispositionis organi, sed visio deitatis est summa perfectio 
+      <lb ed="#L" n="131"/>hominis, nec habet aliquod adiunctum quod causet tristitiam 
+      pro<lb ed="#L" n="132" break="no"/>pter quod impossibile est quod talem visionem non sequatur delectatio 
+      <lb ed="#L" n="133"/>Ad secundum dicendum quod inter delectationes &amp; 
+      tristi<lb ed="#L" n="134" break="no"/>tias illa quae est maior expellit aliam, vel saltem minuit. 
+      Dele<lb ed="#L" n="135" break="no"/>ctatio autem quae sequitur diuinam visionem maior est quam 
+      <lb ed="#L" n="136"/>quaecunque tristitia damnatorum, propter quod si viderent deum 
+      <lb ed="#L" n="137"/>tristitia non excluderet delectationem, sed delectatio tanquam 
+      <lb ed="#L" n="138"/>maior absorberet tristitiam.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

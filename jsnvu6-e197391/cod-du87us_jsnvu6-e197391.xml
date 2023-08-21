@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="240-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e197391"><!-- l3d36prae -->
+            <head xml:id="jsnvu6-e197391-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e197391-d1e103">
+               <lb ed="#L" n="73"/>Sententia huius distinctionis XXX Vj. in 
+      <lb ed="#L" n="74"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e197391-d1e110">
+               <lb ed="#L" n="75"/>OLET etiam quaeri, vtrum virtutes. Prius agit Ma 
+      <lb ed="#L" n="76"/>gister de habitus virtutum &amp; donorum. Hic agit de 
+      <lb ed="#L" n="77"/>connexione eorum. Et diuiditur in tres, quia primo 
+      <lb ed="#L" n="78"/>A ostendit virtutum connexionem. Et secundo earum 
+      <lb ed="#L" n="79"/>aequalitatem, ibi, vtrum pariter. Tertio ostendit charitatis 
+      excel<lb ed="#L" n="80" break="no"/>lentiam specialem ibi, quum duo sint praecepta. Secunda 
+      diui<lb ed="#L" n="81" break="no"/>ditur in duas partes. Primo ponit opinionem vnam. Et secundo 
+      <!--00553.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>ponit aliam, quam reputat magis veram, &amp; respondet ad 
+      ratio<lb ed="#L" n="83" break="no"/>nem primae opinionis. Secunda ibi, alij verius dicunt. Haec est 
+      <lb ed="#L" n="84"/>diuisio &amp; sententia generaliter 
+      </p>
+            <p xml:id="jsnvu6-e197391-d1e139">
+               <lb ed="#L" n="85"/>
+               <!--2--> In speciali sic procedit. Et primo quaerit vtrum virtutes sint 
+      <lb ed="#L" n="86"/>adeo connexae, quod separari non possint, sed qui habeat vnam, 
+      ha<lb ed="#L" n="87" break="no"/>beat omnes. Et respondet secundum Hieron. quod sic, quia charita 
+      <lb ed="#L" n="88"/>est mater omnium virtutum. Et ideo in quocunque est charitas, in 
+      <lb ed="#L" n="89"/>eo sunt omnes virtutes, &amp; vbi non est charitas, nulla virtus est, 
+      <lb ed="#L" n="90"/>quod iterum confirmat per Aug. vt patet in litera. Secundo 
+      quae<lb ed="#L" n="91" break="no"/>rit, vtrum omnes virtutes sint aequales. Et ponit opinionem 
+      quo<lb ed="#L" n="92" break="no"/>rundam dicentium quod non, quia quidam sancti commendantur 
+      <lb ed="#L" n="93"/>excellenter ab vna virtute, &amp; non ab alia, si cut Iob commendatur 
+      <lb ed="#L" n="94"/>a patientia, Dauid ab humilitate, Moyses a mansuetudine, quod 
+      <lb ed="#L" n="95"/>non esset si ille qui excellit in vna virtute, excelleret in 
+      omni<lb ed="#L" n="96" break="no"/>bus. Vnde dicunt quod vna virtus habetur excellentius, quam alia 
+      <lb ed="#L" n="97"/>nulla tamen aeque sicut charitas, quae est mater omnium. Tunc 
+      <lb ed="#L" n="98"/>ponit aliam opinionem quam dicit veriorem, quod omnes 
+      vir<lb ed="#L" n="99" break="no"/>tutes sunt pares, sic tamen intelligendo, quod ille qui excellit alium 
+      <lb ed="#L" n="100"/>in vna virtute vel est ei par, simili modo se habet ad Deum in 
+      <lb ed="#L" n="101"/>caeteris virtutibus, vt si aliquis sit aequalis alij in fortitudine 
+      <lb ed="#L" n="102"/>oportet quod sit aequalis in prudentia, alioquin fortitudo vnius 
+      <lb ed="#L" n="103"/>esset minus prudens quam fortitudo alterius: &amp; sic non esset 
+      aequa<lb ed="#L" n="104" break="no"/>lis fortitudo, &amp; idem potest deduci in aliis virtutibus. Et respon 
+      <lb ed="#L" n="105"/>det ad rationes primae opinionis, quia cum dicitur aliquis 
+      prae<lb ed="#L" n="106" break="no"/>eminere in aliqua virtute, vt Abraham in fide, hoc intelligitur 
+      <lb ed="#L" n="107"/>non quantum ad habitum virtutis, sed quantum ad vsum eius, vel 
+      <lb ed="#L" n="108"/>in comparatione ad alios homines qui non aequantur ei in aliqua 
+      <lb ed="#L" n="109"/>virtute, &amp; secundum hunc modum dicuntur esse intelligenda 
+      <lb ed="#L" n="110"/>quaedam verba Aug. quae ponuntur in litera, per quae videtur 
+      <lb ed="#L" n="111"/>insinuare quod vna virtus perfectius habeatur quam alia, Vitimo 
+      <lb ed="#L" n="112"/>quaerit cum in duobus praeceptis charitatis tota lex pendeat, &amp; 
+      <lb ed="#L" n="113"/>prophetae secundum dictum saluatoris in euangelio, qualite 
+      <lb ed="#L" n="114"/>praecepta cerimonialia quae cessauerunt continentur sub 
+      prae<lb ed="#L" n="115" break="no"/>ceptis charitaris quae semper durant. Et respondet quod praecepta 
+      <lb ed="#L" n="116"/>cerimonialia inquantum fuerunt figuratiuo, cessauerunt; sed 
+      se<lb ed="#L" n="117" break="no"/>cundum spiritualem intellectum remanent: omnia enim 
+      prae<lb ed="#L" n="118" break="no"/>cepta reducuntur ad decem, &amp; illa decem reducuntur ad duo 
+      <lb ed="#L" n="119"/>praecepta, quae sunt dilectio Dei &amp; proximi. In his enim 
+      conti<lb ed="#L" n="120" break="no"/>netur plenitudo legis. Et in hoc terminatur distinctio, &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

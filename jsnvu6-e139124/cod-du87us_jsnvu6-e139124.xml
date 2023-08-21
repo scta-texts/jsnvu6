@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="168-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e139124"><!-- l2d39q2 -->
+            <head xml:id="jsnvu6-e139124-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e139124-Hd1e103" type="question-title">
+      Utrum considerare mala sit malum 
+      ut eligere mala est 
+      malum
+    </head>
+            <p xml:id="jsnvu6-e139124-d1e106">
+               <lb ed="#L" n="75"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="76"/>Vtrum considerare mala sit malum 
+      <lb ed="#L" n="77"/>ut eligere mala est 
+      ma<lb ed="#L" n="78" break="no"/>lum. 
+      <lb ed="#L" n="79"/>Thom. vbi supra. 
+      <!--00404.xml-->
+      <cb ed="#L" n="b"/>
+            </p>
+            <p xml:id="jsnvu6-e139124-d1e124">
+               <lb ed="#L" n="80"/>10TIA quaeritur, verum considerare mala sit 
+      <lb ed="#L" n="81"/>malum, sicut eligere mala est malum. Et videtur qui 
+      <lb ed="#L" n="82"/>sic, quia forma denominat suum subiectum, sed 
+      ra<lb ed="#L" n="83" break="no"/>tio mali verius est, in intellectu considerante 
+      ma<lb ed="#L" n="84" break="no"/>lum quam in voluntate eligente, quia intellectus intelligit 
+      re<lb ed="#L" n="85" break="no"/>cipiendo, voluntas autem nihil recipit, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e139124-d1e140">
+               <lb ed="#L" n="86"/>
+               <!--2--> INCONTRARIVM est quia non euitatur malum ni 
+      <lb ed="#L" n="87"/>si cognitum, si ergo considerare mala sit malum impossibile esse 
+      <lb ed="#L" n="88"/>euitare malum: quia dum consideraretur, incurreretur: si non consi 
+      <lb ed="#L" n="89"/>deraretur non euitaretur, hoc autem est inconueniens, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e139124-d1e154">
+               <lb ed="#L" n="90"/>
+               <!--3--> RESPONSIO. dicendum quod scire malum non est malum, 
+      <lb ed="#L" n="91"/>cuius rationem quidam assignant sic, obiectum voluntatis est bonum, 
+      <lb ed="#L" n="92"/>sed obiectum intellectus est verum, bonum autem &amp; malum sunt in 
+      <lb ed="#L" n="93"/>rebus (vt dicitur 6. Metaphy.) verum autem &amp; falsum sunt in 
+      ani<lb ed="#L" n="94" break="no"/>ma, cum ergo voluntas per actum suum tendat in obiectum suum 
+      <lb ed="#L" n="95"/>secundum quod est in re, ideo ex bonitate, vel malitia rei volitae 
+      <lb ed="#L" n="96"/>actus voluntatis est bonus vel malus, sed intellectus tendit in rem 
+      <lb ed="#L" n="97"/>secundum quod est in anima, ratio autem tam boni quam mali in anima 
+      <lb ed="#L" n="98"/>bonum est, &amp; ideo cognoscere malum non est malum sed bonum. 
+      </p>
+            <p xml:id="jsnvu6-e139124-d1e178">
+               <lb ed="#L" n="99"/>
+               <!--4--> Sed illud non videtur sufficere, quia sicut obiectum volun 
+      <lb ed="#L" n="100"/>tatis est res extra animam, sic ipsamet vt est extra animam est 
+      <lb ed="#L" n="101"/>obiectum intellectus vt est practicus, &amp; sicut ratio rei intellecta 
+      <lb ed="#L" n="102"/>est in anima quae ratio non est illud quod intelligitur sed 
+      tan<lb ed="#L" n="103" break="no"/>tum quo aliquid intelligitur, sic ratio rei volitae est in anima 
+      <lb ed="#L" n="104"/>practici secundum opinionem in primo libro positam scilicet 
+      <lb ed="#L" n="105"/>quod intellectus &amp; voluntas sunt vna &amp; eadem natura 
+      absolu<lb ed="#L" n="106" break="no"/>ta quae vocatur mens ab Aug. cui menti oportet praesentem 
+      <lb ed="#L" n="107"/>esse rationem rei quantum ad cognoscere &amp; velle, licet ordine 
+      <lb ed="#L" n="108"/>quodam. Ex hoc sic arguitur, illi actus qui aequaliter tendunt 
+      <lb ed="#L" n="109"/>in obiecta sua vt sunt in re, aequaliter sortiuntur rationem 
+      bo<lb ed="#L" n="110" break="no"/>ni vel mali ex bonitate vel malitia obiecti, sed actus intellectus 
+      <lb ed="#L" n="111"/>practici &amp; voluntatis aequaliter tendunt in sua obiecta vt sunt 
+      <lb ed="#L" n="112"/>in re. Sicut enim quod est volitum, est volitum secundum esse 
+      <lb ed="#L" n="113"/>quod habet in re &amp; non secundum esse quod habet in anima, sic 
+      <lb ed="#L" n="114"/>illud idem est cognitum secundum esse quod est in re &amp; non 
+      se<lb ed="#L" n="115" break="no"/>cundum esse quod habet in anima, imo si non esset cognitum 
+      secun<lb ed="#L" n="116" break="no"/>dum esse quod habet in re non esset volitum secundum illud esse, 
+      <lb ed="#L" n="117"/>cum voluntas non possit ferri nisi in cognitum, ergo si actus vo 
+      <lb ed="#L" n="118"/>luntatis sortitur propter hanc causam bonitatem vel malitiam ex 
+      <lb ed="#L" n="119"/>bonitate vel malitia rei volitae, per eandem rationem actus 
+      in<lb ed="#L" n="120" break="no"/>tellectus sortitur bonitatem &amp; malitiam ex bonitate vel malitia 
+      <lb ed="#L" n="121"/>rei intellectae quod est contra rationem assignatam. Qualiter 
+      <lb ed="#L" n="122"/>autem intelligatur illud 6. metaphilicae bonum &amp; malum sunt 
+      <lb ed="#L" n="123"/>in rebus, verum autem &amp; falsum in anima. dictum est in primo lib. 
+      <lb ed="#L" n="124"/>dist. 19. quod verum &amp; falsum non sunt obiectum intellectus, vt isti 
+      <lb ed="#L" n="125"/>accipiunt, sed sunt conditiones seu denominationes obiecti 
+      in<lb ed="#L" n="126" break="no"/>tellecti conformiter vel difformiter ad entitatem rei. Item si 
+      ra<lb ed="#L" n="127" break="no"/>tio tam boni quam mali in anima est bonum &amp; propter hoc 
+      co<lb ed="#L" n="128" break="no"/>gnoscere malum est bonum cum illa ratio aequaliter se habea 
+      <lb ed="#L" n="129"/>ad cognitionem veram &amp; falsam sequeretur quod cognitio 
+      fal<lb ed="#L" n="130" break="no"/>sa sit aeque bona sicut vera quod est inconueniens. Item quae est, 
+      <lb ed="#L" n="131"/>illa ratio mali apud intellectum, non species, tum quia nulla estI 
+      <lb ed="#L" n="132"/>vt ostensum fuit supra, tum quia malum cum sit priuatio 
+      pro<lb ed="#L" n="133" break="no"/>priam speciem habere non potest, tum quia species si qua sit non 
+      <lb ed="#L" n="134"/>est illud quod cognoscitur. Et ideo ex ea cognitio non potest 
+      <lb ed="#L" n="135"/>habere bonitatem vel malitiam. 
+      </p>
+            <p xml:id="jsnvu6-e139124-d1e263">
+               <lb ed="#L" n="136"/>
+               <!--5--> Et ideo dicendum est aliter resumendo breuiter quod supra 
+      posi<lb ed="#L" n="137" break="no"/>tum est scilicet quod malum siue defectus in operatione generaliter 
+      <lb ed="#L" n="138"/>dicitur culpa. Ex hoc arguitur sic ad propositum quando nullus 
+      <lb ed="#L" n="139"/>est defectus in operatione aliqua ibi nec est peccatum, nec culpa 
+      <lb ed="#L" n="140"/>vt nec ibi est ratio mali quae consistit formaliter in defectu, sed 
+      <lb ed="#L" n="141"/>in sciendo malum nullus est defectus in operatione intellectus, 
+      er<lb ed="#L" n="142" break="no"/>go &amp;c. Minor probatur, quia cum obiectum intellectus sit ens, 
+      <lb ed="#L" n="143"/>perfectio operationis intellectus consistit in attingendo rem sicui 
+      <lb ed="#L" n="144"/>est. Et ideo in omni materia intellectus sic attingens ad rei 
+      enti<lb ed="#L" n="145" break="no"/>tatem quod dicit esse quod est, vel non esse quod non est, perfectus est 
+      <lb ed="#L" n="146"/>in sua operatione, nec est ibi malum, neque defectus, in sciendo erge 
+      <lb ed="#L" n="147"/>malum esse malum nullum est peccatum, nec culpa quamuis etiam de 
+      <lb ed="#L" n="148"/>culpa posset esse ibi specialis ratio quia quandoque non est in 
+      po<lb ed="#L" n="149" break="no"/>testate vel libertate nostra scire mala, sed necessario scimus, 
+      si<lb ed="#L" n="150" break="no"/>cut cum occurrit factum homicidij vel dicitur verbum 
+      blasphe<lb ed="#L" n="151" break="no"/>miae, vel horum fantasmata obiiciuntur intellectui, &amp; per 
+      opposi<lb ed="#L" n="152" break="no"/>tum nescire aliquod malum esse malum, vel existimare ponum esse 
+      <lb ed="#L" n="153"/>malum, vel malum bonum quod est errare circa cognitionem mali 
+      <lb ed="#L" n="154"/>est peccatum vel culpa in his praesertim quae possumus &amp; tenemui 
+      <lb ed="#L" n="155"/>Escire. Cuius ratio est quia defectus voluntarius debitae 
+      opera<lb ed="#L" n="156" break="no"/>tionis, vel perfectionis in operatione habet rationem peccati &amp; 
+      <lb ed="#L" n="157"/>culpae. Sed ignorantia eorum quae aliquis tenetur scire, &amp; 
+      incon<lb ed="#L" n="158" break="no"/>sideratio eorum quae tenemur considerare sunt vel proueniunt ex 
+      <lb ed="#L" n="159"/>defectu voluntario operationis debitae. Error vero est defectu 
+      <lb ed="#L" n="160"/>perfectionis in operatione intellectus, ergo haec omnia habent ra 
+      <lb ed="#L" n="161"/>tionem culpae, velle autem seu eligere malum semper est malum, quia 
+      <!--00405.xml-->
+      <pb ed="#L" n="169-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sicut bonitas actus intelligendi consistit in hoc quod 
+      confor<lb ed="#L" n="2" break="no"/>matur cum entitate rei intelligendo esse quod est, vel non esse 
+      <lb ed="#L" n="3"/>quod non est, &amp; malum eius est in deficiendo vel errando, sic 
+      <lb ed="#L" n="4"/>bonitas actus voluntatis, vel eius malitia consistit in 
+      confor<lb ed="#L" n="5" break="no"/>mitate vel difformitate eius ad rationem rectam; quae deber 
+      <lb ed="#L" n="6"/>esse regula voluntatis, vt dictum fuit prius. Et quia voluntas 
+      <lb ed="#L" n="7"/>eligens malum sequitur rationem erroneam, &amp; deuiat a 
+      ratio<lb ed="#L" n="8" break="no"/>ne recta, idcirco est mala. Vel dicendum quod si electio est ma 
+      <lb ed="#L" n="9"/>la, consideratio intellectus practici ei correspondens est mala, 
+      <lb ed="#L" n="10"/>quia falsa. Quod patet: electio enim &amp; fuga voluntatis 
+      cor<lb ed="#L" n="11" break="no"/>respondent affirmationi &amp; negationi intellectus practici: 
+      ele<lb ed="#L" n="12" break="no"/>ctio quidem seu prosequutio respondet affirmationi, fuga vere 
+      <lb ed="#L" n="13"/>negationi, vt dicitur 6. Ethic. Et ideo si electio seu prosequutic 
+      <lb ed="#L" n="14"/>est mala, affirmatio intellectus practici ei correspondens est 
+      <lb ed="#L" n="15"/>I. mala, quia est falsa, nam sicut ostensum fuit in praecedentibus, 
+      <lb ed="#L" n="16"/>omnem malitiam voluntatis praecedit aliquis defectus 
+      ratio<lb ed="#L" n="17" break="no"/>nis: quum enim voluntas non feratur nisi in cognitum sub 
+      ra<lb ed="#L" n="18" break="no"/>tione boni, si cognitio est vera, ita quod cognitum sit vere bo 
+      <lb ed="#L" n="19"/>num &amp; ex tota causa, electio est bona, &amp; a destructione 
+      conse<lb ed="#L" n="20" break="no"/>quentis, si electio non est bona, cognitio praeuia non fuit 
+      ve<lb ed="#L" n="21" break="no"/>ra quia iudicauit illud esse bonum, quod non fuit bonum ex 
+      <lb ed="#L" n="22"/>rota causa. Sic igitur sicut electio est mala, sic 
+      considerati<lb ed="#L" n="23" break="no"/>malo correspondens est mala, quia falsa: nulla autem alia 
+      con<lb ed="#L" n="24" break="no"/>sideratio mali est mala, nisi sit falsa, quia sola falsitas est malum 
+      <lb ed="#L" n="25"/>in operatione intellectus. 
+      </p>
+            <p xml:id="jsnvu6-e139124-d1e385">
+               <lb ed="#L" n="26"/>
+               <!--6.--> Ad argumentum dicendum quod ratio mali potest accipi 
+      du<lb ed="#L" n="27" break="no"/>pliciter. Vno modo illud quo malum est malum formaliter, &amp; 
+      <lb ed="#L" n="28"/>hic est defectus aliquis, &amp; sic illud est malum, in quo est ratio 
+      <lb ed="#L" n="29"/>mali. Sed tunc minor est falsa, scilicet quod in intellectu 
+      consi<lb ed="#L" n="30" break="no"/>derante malum verius sit ratio mali, quam in voluntate 
+      eligen<lb ed="#L" n="31" break="no"/>te malum, quia vt visum est, nullus defectus est in operationi 
+      <lb ed="#L" n="32"/>intellectus, per hoc quod intelligit malum, quia non deuiat a vero 
+      <lb ed="#L" n="33"/>quod est bonum &amp; perfectio eius, sed in actu voluntatis 
+      eli<lb ed="#L" n="34" break="no"/>gentis malum est defectus, quia deficit ab eo in quod tendere 
+      <lb ed="#L" n="35"/>debet, nec conformatur cui debet, vt dictum est. Alio modo po 
+      <lb ed="#L" n="36"/>test accipi ratio mali id quo malum intelligitur, sicut species la 
+      <lb ed="#L" n="37"/>pidis dicitur eius ratio in anima, &amp; sic vbi est ratio mali non 
+      <lb ed="#L" n="38"/>oportet id esse malum, sicut id in quo est ratio lapidis non opor. 
+      <lb ed="#L" n="39"/>tet esse lapideum, nec illud in quo est species vel ratio coloris, 
+      <lb ed="#L" n="40"/>oportet esse coloratum, &amp; nihilominus etiam minor est falsa 
+      <lb ed="#L" n="41"/>Ratio enim mali sic accepta non est in intellectu considerante 
+      <lb ed="#L" n="42"/>malum, quia malum cum sit priuatio, non intelligitur per 
+      spe<lb ed="#L" n="43" break="no"/>ciem propriam, sed per speciem habitus. Si tamen aliquid 
+      in<lb ed="#L" n="44" break="no"/>telligat per speciem in intellectu existentem. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

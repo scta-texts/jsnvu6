@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="305-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e251944"><!-- l4d20q5 -->
+            <head xml:id="jsnvu6-e251944-Hd1e101">Quaestio 5</head>
+            <head xml:id="jsnvu6-e251944-Hd1e103" type="question-title">Quis potest dare indulgentias</head>
+            <p xml:id="jsnvu6-e251944-d1e106">
+               <lb ed="#L" n="101"/>QVAESTIO QVINTA. 
+      <lb ed="#L" n="102"/>Quis potest dare indulgentias.
+    </p>
+            <p xml:id="jsnvu6-e251944-d1e113">
+               <lb ed="#L" n="103"/>EINDE quaeritur quis potest dare indulgentias. 
+      <lb ed="#L" n="104"/>Et videtur quod quilibet episcopus daro possit 
+      <lb ed="#L" n="105"/>sicut papa, quia ad sponsum pertinet disponere de 
+      <lb ed="#L" n="106"/>rebus sponsae, sed quilibet episcopus est sponsus 
+      <lb ed="#L" n="107"/>Secclesiae. Vnde &amp; in consecratione sua recipit 
+      a<lb ed="#L" n="108" break="no"/>nulum tanquam sponsus, ergo potest dispensare thesaurum 
+      <lb ed="#L" n="109"/>ecclesiae, sed hoc est facere indulgentias, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e251944-d1e131">
+               <lb ed="#L" n="110"/>
+               <!--2--> Item aut papae conuenit facere indulgentias ratione ordi 
+      <lb ed="#L" n="111"/>nis, aut ratione iurisdictionis: non ratione iurisdictionis, quia iu 
+      <lb ed="#L" n="112"/>risdictio pertinet ad forum contentiosum, indulgentiae autem 
+      <lb ed="#L" n="113"/>magis respiciunt forum poenitentiae quum ordinentur ad 
+      rela<lb ed="#L" n="114" break="no"/>xationem poenae satisfactoriae, ergo conuenit ei ratione ordinis, 
+      <lb ed="#L" n="115"/>sed in ordine parificatur quilibet episcopus papae, ergo potest fa 
+      <lb ed="#L" n="116"/>cere indulgentiam sicut papa. 
+      </p>
+            <p xml:id="jsnvu6-e251944-d1e152">
+               <lb ed="#L" n="117"/>
+               <!--3--> IN CONTRARIVM est que ille solus potest 
+      dispensa<lb ed="#L" n="118" break="no"/>re thesaurum communem ecclesiae, qui praeest toti ecclesiae, sed 
+      <lb ed="#L" n="119"/>hic est solus Papa, ergo &amp;c. Pro hoc sunt iura quae dicunt 
+      po<lb ed="#L" n="120" break="no"/>testatem papae illimitatam quoad indulgentiam, potestatem 
+      ve<lb ed="#L" n="121" break="no"/>ro episcoporum limitatam. 
+      </p>
+            <p xml:id="jsnvu6-e251944-d1e168">
+               <lb ed="#L" n="122"/>
+               <!--4--> RESPONSIO. Sicut patet ex praecedentibus 
+      indulgen<lb ed="#L" n="123" break="no"/>tiae valent inquantum merita Christi applicantur per illum qui 
+      <lb ed="#L" n="124"/>dat indulgentias alicui, vt satisfactoria pro poena ipsi debita, quo 
+      <lb ed="#L" n="125"/>supposito est duplex modus dicendi. Vnus est quod duo pertinent 
+      <lb ed="#L" n="126"/>ad illum qui dat indulgentias, vnum est, potestas ordinis saltem 
+      <lb ed="#L" n="127"/>sacerdotalis, per quam est, vel potest esse iudex in foro poenitentiae. 
+      <lb ed="#L" n="128"/>Aliud est cura ecclesiae vniuersalis ratione cuius pertinet ad 
+      ip<lb ed="#L" n="129" break="no"/>sum dispensatio thesauri ecclesiae. Ratio primi est, quia poenam 
+      <lb ed="#L" n="130"/>impositam per iudicem &amp; iudicialiter, nullus potest remittere, 
+      <lb ed="#L" n="131"/>vel relaxare nisi iudex qui eam imponit, vel superior eius qui 
+      po<lb ed="#L" n="132" break="no"/>test de ea iudicare, &amp; iudicialiter cognoscere. Sed per 
+      indulgen<lb ed="#L" n="133" break="no"/>tiam remittitur seu relaxatur poenam per sacerdotem iniuncta in 
+      <lb ed="#L" n="134"/>foro poenitentiae, sicut patet ex forma expresse contenta in 
+      in<lb ed="#L" n="135" break="no"/>dulgentiis vbi dicitur, tantum de iniunctis poenitentiis 
+      miseri<lb ed="#L" n="136" break="no"/>corditer relaxamus: ergo talem indulgentiam nullus potest 
+      fa<lb ed="#L" n="137" break="no"/>cere, nisi ille qui potest de poena praedicta iudicare, &amp; iudicialiter 
+      <lb ed="#L" n="138"/>cognoscere. Sed talis non est aliquis nisi sacerdos, ergo oportet 
+      <lb ed="#L" n="139"/>illum qui facit indulgentiam per quam poena iniuncta in foro 
+      <lb ed="#L" n="140"/>poenitentiae relaxatur esse sacerdotem. 
+      </p>
+            <p xml:id="jsnvu6-e251944-d1e214">
+               <lb ed="#L" n="141"/>
+               <!--5--> Ratio secundi est, quia thesaurus ecclesiae quem Christus 
+      spon<lb ed="#L" n="142" break="no"/>sus eius dimisit ei tanquam sponsae non est diuisus in ecclesia, ita vt in 
+      <lb ed="#L" n="143"/>vna particulari ecclesia sit vna pars illius thesauri, &amp; in alia, alia 
+      <lb ed="#L" n="144"/>pars, sed est vnus &amp; indiuisus in tota ecclesia. Et ideo ad illum 
+      <lb ed="#L" n="145"/>vnum qui loco Christi sponsi ecclesiae vniuersalis praesidet 
+      to<lb ed="#L" n="146" break="no"/>ti ecclesiae pertinet dispensare praedictum thesaurum. Et 
+      secun<lb ed="#L" n="147" break="no"/>dum hanc opinionem solus Papa iam consecratus, vel saltem in 
+      <lb ed="#L" n="148"/>lacerdotem ordinatus potest auctoritate sua indulgentiam 
+      face<lb ed="#L" n="149" break="no"/>re, cum ipse solus habeat curam vniuersalis ecelesiae. Episcop 
+      <lb ed="#L" n="150"/>autem quum habeant ordinem parem, sed non curam (quia solum 
+      <lb ed="#L" n="151"/>sunt assumpti in partem solicitudinis) ex se non possunt facere 
+      <lb ed="#L" n="152"/>indulgentias, nisi inquantum eis a Papa committitur. Caeteri 
+      ve<lb ed="#L" n="153" break="no"/>ro maxime non sacerdotes non possunt indulgentias facere etiam 
+      <lb ed="#L" n="154"/>ex commissione, quum collatio indulgentiarum requirat 
+      ordi<lb ed="#L" n="155" break="no"/>nem qui ex commissione non potest haberi. Quod ergo cardina 
+      <lb ed="#L" n="156"/>les non sacerdotes vel electi in episcopos nondum ad sacerdotium 
+      <lb ed="#L" n="157"/>promoti dicuntur ex commissione Papae, &amp; iure facere 
+      indul<lb ed="#L" n="158" break="no"/>gentias, exponendum est quod faciunt (id est) denunciant facta 
+      <lb ed="#L" n="159"/>per papam, vt sint potius denunciatores quamdatores. 
+      </p>
+            <p xml:id="jsnvu6-e251944-d1e260">
+               <lb ed="#L" n="160"/>
+               <!--6--> Alius modus est tenens eandem conclusionem, scilicet quod 
+      <lb ed="#L" n="161"/>soli. Papae competit facere indulgentias ex auctoritate, &amp; 
+      <lb ed="#L" n="162"/>non ratione alicuius ordinis, sed ratione solius iurisdictionis. 
+      <!--00685.xml-->
+      <pb ed="#L" n="306-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Vnde papa electus antequam fit sacerdos potest conferre indul 
+      <lb ed="#L" n="2"/>gentias, &amp; iste modus si poneret quod papa ratione vniuersalis 
+      <lb ed="#L" n="3"/>curae quam habet super totam ecclesiam potest facere indulgen 
+      <lb ed="#L" n="4"/>tias esset tolerabilior: sed quia dicit quod ratione iurisdictionis 
+      <lb ed="#L" n="5"/>hoc ei competit, non videtur rationabile, quia dare indulgentias 
+      <lb ed="#L" n="6"/>non est actus iuridicus, nec per modum iurisdictionis 
+      exorce<lb ed="#L" n="7" break="no"/>tur, vt prius dictum fuit: alioqui cum iurisdictio transeat in 
+      in<lb ed="#L" n="8" break="no"/>uitum, nec aliquis potest vti iurisdictione in seipsum, 
+      sequere<lb ed="#L" n="9" break="no"/>tur quod inuitus possit habere indulgentias, &amp; quod dans 
+      in<lb ed="#L" n="10" break="no"/>dulgentias non posset eas habere faciendo illud pro quo dantur 
+      <lb ed="#L" n="11"/>indulgentiae, quorum vtrunque est falsum. Veruntamen quacu 
+      <lb ed="#L" n="12"/>que ratione competat papae facere indulgentias, non est dubia 
+      <lb ed="#L" n="13"/>quin competat ei ratione curae vniuersalis ecclesiae: vsus tame 
+      <lb ed="#L" n="14"/>habet quod papa non consecratus, nec in sacerdotem promotus 
+      <lb ed="#L" n="15"/>potest indulgentias facere. Aduertendum tamen est, quod licet 
+      <lb ed="#L" n="16"/>sic sentiendum sit de indulgentiis, tamen vnaquaeque persona 
+      <lb ed="#L" n="17"/>singularis potest merita sua alteri applicare ad satisfaciendum 
+      <lb ed="#L" n="18"/>pro eo. Et eodem modo videtur quibusdam quod ille qui praees 
+      <lb ed="#L" n="19"/>alicui congregationi (vt abbas in monasterio suo) potest bona 
+      <lb ed="#L" n="20"/>suae congregationis alteri applicare: &amp; forte idem est de 
+      episco<lb ed="#L" n="21" break="no"/>po in sua dioecesi, &amp; de papa in tota ecclesia, quod non assero nisi 
+      <lb ed="#L" n="22"/>procedat de voluntate personarum singularium: si tamen hoc 
+      <lb ed="#L" n="23"/>fit possibile, talis applicatio non habet rationem indulgentiae 
+      <lb ed="#L" n="24"/>proprie loquendo, quia nec in vna persona, nec in 
+      congregati<lb ed="#L" n="25" break="no"/>ne aliqua, nec in tota ecclesia est tanta copia meritorium 
+      exce<lb ed="#L" n="26" break="no"/>pto merito Christi, vt sufficiant ad satisfaciendum pro poenis 
+      <lb ed="#L" n="27"/>debitis omnibus quibus applicari possunt, propter quod nun 
+      <lb ed="#L" n="28"/>quam est certum quantum valent sicut de indulgentiis
+</p>
+            <p xml:id="jsnvu6-e251944-d1e338">
+               <lb ed="#L" n="29"/>AD PRIMVM argumentum dicendum est quod 
+      epi<lb ed="#L" n="30" break="no"/>scopus est sponsus ecclesiae sibi commissae, non autem 
+      vniuersa<lb ed="#L" n="31" break="no"/>lis ecclesiae, sed solus papa. 
+      </p>
+            <p xml:id="jsnvu6-e251944-d1e347">
+               <lb ed="#L" n="32"/>
+               <!--8--> Ad secundum dicendum quod papae conuenit dare indulge 
+      <lb ed="#L" n="33"/>tias ratione curae vniuersalis quam solus habet super totam 
+      ec<lb ed="#L" n="34" break="no"/>clesiam, &amp; ratione ordinis saltem sacerdotalis secundum 
+      opinio<lb ed="#L" n="35" break="no"/>nem primam, vel ratione solius curae vniuersalis, sicut dicit 
+      se<lb ed="#L" n="36" break="no"/>cunda opinio, &amp; vsus ecclesiae hoc tenet: &amp; quia nullus 
+      episco<lb ed="#L" n="37" break="no"/>pus habet curam vniuersalis ecclesiae praeterquam papa, ideo 
+      <lb ed="#L" n="38"/>nullus alius a papa potest dare indulgentias auctoritate sua 
+      <lb ed="#L" n="39"/>ideo &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

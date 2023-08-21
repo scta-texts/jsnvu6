@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="7-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e121"><!-- l1prolq4 -->
+            <head xml:id="jsnvu6-d1e121-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e121-Hd1e103" type="question-title">Utrum theologia sit una scientia</head>
+            <p xml:id="jsnvu6-d1e121-d1e106">
+               <lb ed="#L" n="32"/>QVAESTIO QVARTA. 
+      <lb ed="#L" n="33"/>De vnitate scientiae. 
+      <lb ed="#L" n="34"/>Thom. 1.p q. I. ur. 3. 
+    </p>
+            <p xml:id="jsnvu6-d1e121-d1e115">
+               <lb ed="#L" n="35"/>ISO QTATITFA Theologia habet rationem 
+      <lb ed="#L" n="36"/>scientiae, &amp; qualiter non: nunc quaerendum est de 
+      <lb ed="#L" n="37"/>eius vnitate. Et arguitur, quod sit vna: quia scriptura 
+      <lb ed="#L" n="38"/>Aloquitur de ipsa, vt de vna scientia, Sapientiae 10. 
+      <lb ed="#L" n="39"/>Dedit illi scientiam sanctorum. Quod videtur intelligi de 
+      <lb ed="#L" n="40"/>Theologia. Ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e121-d1e131">
+               <lb ed="#L" n="41"/>
+               <!--2--> Item illa, quae participant vnam rationem 
+      cognoscibilita<lb ed="#L" n="42" break="no"/>tis, pertinent ad vnum habitum cognitiuum: sed omnia, de 
+      qui<lb ed="#L" n="43" break="no"/>bus tractat Theologia, sunt huiusinodi: quia participant 
+      ratio<lb ed="#L" n="44" break="no"/>nem reuelabilem: &amp; sic videntur pertinere ad Theologiam 
+      <lb ed="#L" n="45"/>ergo ipsa est vnus habitus cognitiuus, vel vna scientia. 
+      <lb ed="#L" n="46"/>Item illa pertinent ad vnam scientiam, quae habent 
+      attribu<lb ed="#L" n="47" break="no"/>tionem ad vnum, quod est in ea principaliter consideratum: 
+      <lb ed="#L" n="48"/>sed omnia, de quibus tractatur in Theologia habent 
+      attribu<lb ed="#L" n="49" break="no"/>tionem ad Deum de quo principaliter in ea tractatur: ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e121-d1e156">
+               <lb ed="#L" n="50"/>
+               <!--4--> In contrarium arguitur, quia supernaturalia debent 
+      proportio<lb ed="#L" n="51" break="no"/>nari naturalibus: sed creator, &amp; creaturae, speculabilia, &amp; practi 
+      <lb ed="#L" n="52"/>ca, de quibus tractatur in Theologia, prout cognoscuntur ductu 
+      <lb ed="#L" n="53"/>rationis naturalis, pertinent necessario ad diuersas scientias: ergo 
+      <lb ed="#L" n="54"/>haec eadem, prout cognoscuntur lumine fidei, vel per 
+      reuelatio<lb ed="#L" n="55" break="no"/>nem, pertinet ad diuersas scientias: sed omnis talis cognitio perti 
+      <lb ed="#L" n="56"/>net ad Theologia: ergo ipsa non est vna scientia. Responsio, Non 
+      <lb ed="#L" n="57"/>fiat vis in hac quaestione de nomine scientiae, vtrum proprie 
+      con<lb ed="#L" n="58" break="no"/>ueniat Theologiae vel non: quia de hoc satis dictum est in praecede 
+      <lb ed="#L" n="59"/>tibus: sed vocetur nuc scientia, omnis habitus Theologicus 
+      co<lb ed="#L" n="60" break="no"/>mitius: &amp; sic fides est scientia, modo, quo loquitur Augustinus 
+      <lb ed="#L" n="61"/>de Videndo Deum, dicens, Illud dicimur scire, quod credimus testi 
+      <lb ed="#L" n="62"/>monio aliorum. Quo supposito, dicendum est, quod Theologia non est 
+      <lb ed="#L" n="63"/>vna scientia, sed plures. Patet sic: quia illi habitus sunt plures, &amp; 
+      <lb ed="#L" n="64"/>distincti, qui sunt de pluribus &amp; distinctis obiectis: vel de 
+      eisd<lb ed="#L" n="65" break="no"/>obiectis, consideratis per distincta media. Sed Theologia est de 
+      <lb ed="#L" n="66"/>pluribus, &amp; distinctis obiectis, vel de eisdem obiectis consideratis 
+      <lb ed="#L" n="67"/>per distincta media. Ergo ipsa est plures habitus, &amp; non vnus. 
+      Ma<lb ed="#L" n="68" break="no"/>ior patet, quia distinctio habituum cognitiuorum non est solum ex 
+      <lb ed="#L" n="69"/>parte obiectorum, de quibus sunt (sicut distinguntur inter se scien 
+      <lb ed="#L" n="70"/>tiae proprie dictae) sed etiam ex parte mediorum, (supposita identita 
+      <lb ed="#L" n="71"/>te obiectorum) sicut scientia &amp; opinio de eodem, differunt, quia non 
+      <lb ed="#L" n="72"/>sunt per idem medium: qa scientia est per mediâ necessariu, opinio 
+      <lb ed="#L" n="73"/>vero per medium contingens. Et haec distinctio est major &amp; forma 
+      <lb ed="#L" n="74"/>lior quam prima. Quod sit maior, de se patet. Plus eiim differt 
+      opi<lb ed="#L" n="75" break="no"/>a scientia, (dato quod sint eiusdem obiecti) ppter diuersitatem 
+      medio<lb ed="#L" n="76" break="no"/>rum quam differat scientia vna ab alia, vel opinio ab opinione, ex 
+      <lb ed="#L" n="77"/>diuersitate obiectorum. Quod etiam sit formalior, patet, quia 
+      ha<lb ed="#L" n="78" break="no"/>bitus requiritur propter modum, quo tendit potentia in obiectum: &amp; 
+      <lb ed="#L" n="79"/>ideo habitus dissinguutur forinaliter ex diuerso modo tendendi 
+      <lb ed="#L" n="80"/>in obiecta. Vnde quia alio modo tendit intellectus in prima 
+      prin<lb ed="#L" n="81" break="no"/>cipia, quam uon cognoscit per discursum, &amp; alio modo in conclusio¬ 
+      <!--00077.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>nes, quae cognoscuntur per discursum ox principiis ideo aliu 
+      <lb ed="#L" n="83"/>est habitus principiorum, qui dicitur inte llectus ab habitibus 
+      con<lb ed="#L" n="84" break="no"/>clusionum. Rursus, quia in quasda coclusione, tendit, cu formidi 
+      <lb ed="#L" n="85"/>ne, propter medium contingens, in quasda vero sine togmidine, 
+      <lb ed="#L" n="86"/>propter necessitatem medij, &amp; eius euidentiam. ideo differt opiuo 
+      <lb ed="#L" n="87"/>a scientia. Omnes autem scientiae conueniunt intor se in formali 
+      <lb ed="#L" n="88"/>modo tendendi in obiecta sua, quia omnis tendit in suij 
+      obie<lb ed="#L" n="89" break="no"/>ctum sine formidine, &amp; necessario Propter quod differentia, 
+      <lb ed="#L" n="90"/>quam habent scientiae ex parte oblectorum, non est ade formalis, 
+      <lb ed="#L" n="91"/>sicut prima, Alia tamen habere non possunt. Et ideo dicuntur 
+      dif<lb ed="#L" n="92" break="no"/>ferre formaiter per sua obiecta. Quae tamen differentia migis 
+      assi<lb ed="#L" n="93" break="no"/>milatur differentiae partium in modo sub suo toto, quam differentiae 
+      <lb ed="#L" n="94"/>spetierum sub genere. Et istud sit dictum gratis de disserenta 
+      <lb ed="#L" n="95"/>habituum, ad praebendum aliis occasionem amplius cogitandi. 
+      </p>
+            <p xml:id="jsnvu6-d1e121-d1e265">
+               <lb ed="#L" n="96"/>
+               <!--5--> Ad propositum enim sufficit, quod distinguantur habitus, tam 
+      <lb ed="#L" n="97"/>ex parte mediorum, quam ex parte obiectorum: quod satis 
+      decla<lb ed="#L" n="98" break="no"/>ratum est. Et sic patet maior propositio. Minor autem patet? 
+      <lb ed="#L" n="99"/>ex his, quae dicta sunt prius in prima quaestiono, videlicet, quod 
+      <lb ed="#L" n="100"/>Theologia accipitur tripliciter. vno modo pro habitu, quo 
+      as<lb ed="#L" n="101" break="no"/>sentimus his, quae in sacra scriptura traduntur, &amp; modo, quo in 
+      <lb ed="#L" n="102"/>aea traduntur: &amp; sic non differt a fide: secundo modo, pro 
+      habi<lb ed="#L" n="103" break="no"/>tu desensiuo fidei: tertio modo, pro habitu, quo practice dedu 
+      <lb ed="#L" n="104"/>cuntur aliqua ex articulis fidei, &amp; ex dictis sacrae scripturae. Hi 
+      <lb ed="#L" n="105"/>autem habitus sunt de diuersis obiectis, vel per diuersa media, vt 
+      <lb ed="#L" n="106"/>infra patebit, quodi quaeretur de subiecto Theologiae. Quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e121-d1e294">
+               <lb ed="#L" n="107"/>
+               <!--6.--> Manifestum etia est ex alio, hos habitus esse diuersos: quia 
+      <lb ed="#L" n="108"/>primus est infusus, &amp; per hoc differt ab aliis duobus, qui sunt 
+      <lb ed="#L" n="109"/>acquisiti. Et illi incer se differunt: quia secundus est 
+      declarati<lb ed="#L" n="110" break="no"/>uus articulorum, &amp; defensiuus fidei, ita quod articuli sunt con 
+      <lb ed="#L" n="111"/>lusiones in ilo habitu, sed in tertio habitu sae habent, vt 
+      prin<lb ed="#L" n="112" break="no"/>cipia, ex quibus quaedam alia deducuntur. 
+      </p>
+            <p xml:id="jsnvu6-d1e121-d1e312">
+               <lb ed="#L" n="113"/>
+               <!--7.--> Contra hoc autem dicunt quidam, quod dato quod Theologia 
+      in<lb ed="#L" n="114" break="no"/>cluderet praedictos tres habitus, non propter hoc sequeretur, quod 
+      <lb ed="#L" n="115"/>ipsa non esset scientia vna, quod vt isti digunt, ad vnam scientiam 
+      <lb ed="#L" n="116"/>plures habitus concurrunt, videlicet habitus principiorum, ex 
+      <lb ed="#L" n="117"/>quibus scieutia procedit, &amp; plures habitus plurium conclusionum. 
+      <lb ed="#L" n="118"/>Non enim oportet in vna scientia esse vnam conclusionem 
+      tan<lb ed="#L" n="119" break="no"/>tum, imo sunt plures, secundum pluralitatem passionum 
+      subie<lb ed="#L" n="120" break="no"/>cti. Et ita pluralitas habituum non excludit vnitatem scientiae. 
+      </p>
+            <p xml:id="jsnvu6-d1e121-d1e334">
+               <lb ed="#L" n="121"/>
+               <!--8.--> Istud enim nihil valet, nec in se nec in proposito. In se 
+      qui<lb ed="#L" n="122" break="no"/>dem, quia licet plures habitus possint ad vnam scientiam 
+      concur<lb ed="#L" n="123" break="no"/>rere extrinsece per modum cuiusdam antecedentis, vt habitus 
+      prin<lb ed="#L" n="124" break="no"/>cipiorum: seu per modum comitantis, vt habitus opinatiuus circa 
+      <lb ed="#L" n="125"/>vnuquodque scibilium impossibile est tamen, quod intrinsece &amp; 
+      essep<lb ed="#L" n="126" break="no"/>tialiter plures habitus concurrant ad vnam scientiam. Quia 
+      impos<lb ed="#L" n="127" break="no"/>sibile est, &amp; contradictionem implieans, quod superius multa 
+      <lb ed="#L" n="128"/>plicatum pertineat intrinsece ad naturam vnius sui inferioris, 
+      <lb ed="#L" n="129"/>sicut impossinile est, quod plura animalia pertineant, 
+      essentia<lb ed="#L" n="130" break="no"/>liter ad natura vnius hominis: sed habitus est superius ad scien 
+      <lb ed="#L" n="131"/>tiam: ergo impossibile est, quod plures habitus pertineant 
+      intrin<lb ed="#L" n="132" break="no"/>sece, &amp; essentialiter ad vna scientiam. Imo hoc modo, sicut vnum 
+      <lb ed="#L" n="133"/>plurificatur, &amp; reliquum: vt sicut animalia intrinsece pertinentis 
+      <lb ed="#L" n="134"/>ad hominem, plurificatur plurificatis hominibus, &amp; econtrario: 
+      <lb ed="#L" n="135"/>sic habitus intrinsece pertinentes ad scientiam, plurificantur plu 
+      <lb ed="#L" n="136"/>rificatis scientiis, &amp; econtrario. Item in proposito instantia illa 
+      <lb ed="#L" n="137"/>non valet, qua dictum fuit, quod in hac quaestione accipitur scien 
+      <lb ed="#L" n="138"/>tia large pro omni habitu cognitiuo, &amp; ideo idem iudicium 
+      <lb ed="#L" n="139"/>est, quo ad vnitatem &amp; pluralitatem in scientia sic accepta, &amp; de 
+      <lb ed="#L" n="140"/>habitu cognitiuo: quia idem sunt, &amp; pro eodem accipiuntur 
+      </p>
+            <p xml:id="jsnvu6-d1e121-d1e382">
+               <lb ed="#L" n="141"/>
+               <!--9.--> Ad primum argumentum in oppositum, dicendum quod scriptu 
+      <lb ed="#L" n="142"/>ra loquitur ibi de sola cognitione fidei quantum ad illa, quae 
+      suf<lb ed="#L" n="143" break="no"/>ficiunt ad sancte viuendum. Theologia autem pluribus modis 
+      <lb ed="#L" n="144"/>accipitur, quam pro cognitione solius fidei, vt prius dictum fuit. Item 
+      <lb ed="#L" n="145"/>licet scriptura loquatur ibi in singulari, hoc tamen non fuit ad 
+      <lb ed="#L" n="146"/>insinuandam vnitatem scientiae Theologicae, aut ad 
+      excluden<lb ed="#L" n="147" break="no"/>dum pluralitatem, de quibus lacra scriptura nunquam se 
+      intro<lb ed="#L" n="148" break="no"/>misit: quia in eodem lib. Sapietiae, 7, cap. signanter dixit idem 
+      Sa<lb ed="#L" n="149" break="no"/>piens Deus dedit sapientiam horum quae sunt, &amp; enumerantur, 
+      <lb ed="#L" n="150"/>multa, quae non pertinent ad vnam scientiam, sed ad multas. 
+      <lb ed="#L" n="151"/>Nos etiam consueuimus dicere, aliquem esso magnae scientiae, 
+      <lb ed="#L" n="152"/>quamuis sit habituatus in pluribus scientiis, &amp; non in ypa tantum. 
+      </p>
+            <p xml:id="jsnvu6-d1e121-d1e414">
+               <lb ed="#L" n="153"/>
+               <!--10--> Ad secundum dicendum, quod habere vnam rationem 
+      cogno<lb ed="#L" n="154" break="no"/>scibilitatis. potest accipi tripliciter: duobus modis ex parte 
+      <lb ed="#L" n="155"/>obiecti, &amp; vno modo ex parte medij, vel modi cognoscendi. 
+      <lb ed="#L" n="156"/>Ex parte obiecti possunt aliqua habere vnam rationem 
+      cogno<lb ed="#L" n="157" break="no"/>scibuitatis per praedicationem, vel attributionem. Per praed. 
+      Ratio<lb ed="#L" n="158" break="no"/>nem, sicut omnia entia naturalia conueniunt in ratione mobilis, 
+      <lb ed="#L" n="159"/>quae praedicatur de eis: &amp; secundum istam rationem pertinent 
+      <lb ed="#L" n="160"/>ad vnam scientiam, quae traditur in libris Physicorum. Sed per 
+      <lb ed="#L" n="161"/>illam nesciuntur passiones propriae singulorum entium 
+      natu<lb ed="#L" n="162" break="no"/>ralium, sed solum communcs, quae conueniunt eis, inquantum 
+      <lb ed="#L" n="163"/>mobilia sunt, &amp; de hac non procedit argumentum nec de ill¬ 
+      <!--00078.xml-->
+      <pb ed="#L" n="7-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>communi ratione, quae est per attributionam ad aliquid vnum, 
+      <lb ed="#L" n="2"/>principaliter in scientia consideratum. De hac enim procedit 
+      ter<lb ed="#L" n="3" break="no"/>tium argumentum: sed tantum procedit de illa communi ratione 
+      <lb ed="#L" n="4"/>cognoscibilitatis, quae est ex parte modi cognoscendi, vel medi 
+      <lb ed="#L" n="5"/>per quod fit cognitio, videlicet de ratione reuelabilis. Esse enim 
+      <lb ed="#L" n="6"/>reuelabile, non est aliud, quam esse cognoscibile ex dicto 
+      alte<lb ed="#L" n="7" break="no"/>rius, seu per autoritatem: &amp; talis communis ratio non sufficit 
+      <lb ed="#L" n="8"/>ad hoc, quod omnia, quibus ipsa est communis, pertineant ad 
+      <lb ed="#L" n="9"/>vnum habitum: alioquin si omnia, quibus assentiretur per 
+      autori<lb ed="#L" n="10" break="no"/>tatem, pertineret ad vnum habitum, pari ratione omnia, quibus 
+      <lb ed="#L" n="11"/>assentiretur per demonstrationem, pertinerent ad vnam scien 
+      <lb ed="#L" n="12"/>tiam, &amp; omnia, quibus assentiretur per medium Dialecticum, 
+      per<lb ed="#L" n="13" break="no"/>tinerent ad vnam opinionem: &amp; sic non esset: nisi vna scientia, 
+      <lb ed="#L" n="14"/>&amp; vna opinio: quod est inconueniens. Vnitas ergo reuelabilis 
+      <lb ed="#L" n="15"/>nullo modo sufficit ad vnitatem Theologiae. 
+      </p>
+            <p xml:id="jsnvu6-d1e121-d1e482">
+               <lb ed="#L" n="16"/>
+               <!--11--> Ad tertium dicendum, quod attributio aliquorum ad subiectum 
+      <lb ed="#L" n="17"/>scientiae, facit quod illa cadunt sub eadem scientia cum subiecto. 
+      <lb ed="#L" n="18"/>Deus autem non est subiectum, nisi in Theologia secundo modo 
+      <lb ed="#L" n="19"/>dicta, vt postea patebit. In Theologia autem primo &amp; tertio mo 
+      <lb ed="#L" n="20"/>do sumpta, subiectum est idem, scilicet opus meritorium: sed 
+      qui<lb ed="#L" n="21" break="no"/>procedunt per diuersa media, videlicet per diuinam 
+      autorita<lb ed="#L" n="22" break="no"/>tem, &amp; per humanam persuasionem: ideo sunt diuersi habitus. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

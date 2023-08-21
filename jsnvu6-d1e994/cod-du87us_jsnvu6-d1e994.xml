@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="47-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e994"><!-- l1d17q2 -->
+            <head xml:id="jsnvu6-d1e994-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e994-Hd1e103" type="question-title">
+      Utrum necessarium sit ponere caritatem habitualem ad hoc ut possimus aliquid mereri apud Deum
+    </head>
+            <p xml:id="jsnvu6-d1e994-d1e106">
+               <lb ed="#L" n="14"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="15"/>Vtrum necesse sit ponere gratiam 
+      <lb ed="#L" n="16"/>habitualem ad merendum. 
+      <lb ed="#L" n="17"/>Tho. 1. 2. 9. 109. ar. 2. &amp; 114. ar. 2.
+    </p>
+            <p xml:id="jsnvu6-d1e994-d1e117">
+               <lb ed="#L" n="18"/>DSICVNDVM sic proceditur. Et arguitur 
+      <lb ed="#L" n="19"/>quod non sit necessarium ponere gratiam vel 
+      <lb ed="#L" n="20"/>charitatem habitualem ad hoc vt mereamu 
+      <lb ed="#L" n="21"/>saliquid apud Deum, quia sicut se habet fides ad 
+      <lb ed="#L" n="22"/>Jactum credendi sic charitas ad actum merendi, 
+      <lb ed="#L" n="23"/>sed sine fide habituali &amp; infusa potest homo omnia credere: ei 
+      <lb ed="#L" n="24"/>go fine charitate habituali &amp; infusa potest homo in actum 
+      <lb ed="#L" n="25"/>merendi. Maior patet per simile. minor patet, quia haereticus 
+      <lb ed="#L" n="26"/>carens fide infusa credit multos ex articulis, &amp; eadem ratione 
+      <lb ed="#L" n="27"/>posset omnia credere. 
+    </p>
+            <p xml:id="jsnvu6-d1e994-d1e141">
+               <lb ed="#L" n="28"/>Item actus qui sunt eiusdem speciei in essendo sunt eiusdem 
+      <lb ed="#L" n="29"/>efficaciae in agendo, sed actus diligendi Deum ex charitate &amp; 
+      <lb ed="#L" n="30"/>actus diligendi Deum sine charitate sunt eiusdem speciei in 
+      es<lb ed="#L" n="31" break="no"/>sendo vt probabitur: ergo sunt eiusdem efficaciae in agendo: ergo 
+      <lb ed="#L" n="32"/>si vnus est meritorius &amp; alius, &amp; ita charitas non est necessaria 
+      <lb ed="#L" n="33"/>ad merendum, probatio minoris primo, quia actus praecedentes 
+      <lb ed="#L" n="34"/>habitus acquisitos sunt similes (&amp; per consequens eiusdem 
+      spe<lb ed="#L" n="35" break="no"/>ciei) cum actibus sequentibus, vt patet ex secundo Ethi. Et 
+      vi<lb ed="#L" n="36" break="no"/>detur idem esse de actibus praecedentibus habitus infusos &amp; de 
+      <lb ed="#L" n="37"/>sequentibus cum tales habitus minus dependeant ex actibus 
+      <lb ed="#L" n="38"/>raecedentibus: nec plus faciant ad actus sequentes, quare, &amp;c. 
+      <lb ed="#L" n="39"/>Secundo, quia si actus diligendi Deum ex charitate &amp; sine 
+      cha<lb ed="#L" n="40" break="no"/>ritate differrent specie, homo posset inter eos clare 
+      distingue<lb ed="#L" n="41" break="no"/>re, quia non essent similes, &amp; sic homo posset scire per certitu 
+      <lb ed="#L" n="42"/>dinem vtrum diligeret Deum ex charitate vel non. &amp; per 
+      con<lb ed="#L" n="43" break="no"/>sequens vtrum haberet charitatem vel non. quod nullus dicit. 
+      <lb ed="#L" n="44"/>Item si charitas requireretur propter meritum aut hoc esset 
+      <lb ed="#L" n="45"/>propter mentum de congruo vel de condigno, non propter 
+      <lb ed="#L" n="46"/>meritum de congruo, qua tali merito peccator qui caret 
+      gra<lb ed="#L" n="47" break="no"/>tia meretur suam iustificationem, nec propter meritum de 
+      con<lb ed="#L" n="48" break="no"/>digno, quia nonnulli dicunt quod nihil potest apud Deum mereri 
+      <lb ed="#L" n="49"/>de condigno, ergo secundum istos videtur quod gratia vel charitas 
+      <lb ed="#L" n="50"/>habitualis non est ponenda in nobis propter aliquod meritum. 
+    </p>
+            <p xml:id="jsnvu6-d1e994-d1e194">
+               <lb ed="#L" n="51"/>IN CONTRARIVM arguitur, quia omnis actus 
+      <lb ed="#L" n="52"/>voluntatis sine gratia vel charitate est pure naturalis. Si ergi 
+      <lb ed="#L" n="53"/>gratia non sit necessaria ad merendum sequitur vel que ex puris 
+      <lb ed="#L" n="54"/>naturalibus possumus mereri quod est haeresis Pelagiana: vel q 
+      <lb ed="#L" n="55"/>nihil omnino possumus mereri. quod iterum est contra fidem. 
+    </p>
+            <p xml:id="jsnvu6-d1e994-d1e207">
+               <lb ed="#L" n="56"/>RESPONSIO, omnes ponunt charitatem 
+      increa<lb ed="#L" n="57" break="no"/>tam quae est Deus secundum illud I. Ioan. 4. Deus charitas est 
+      <lb ed="#L" n="58"/>Item ponunt aliquam charitatem creatam quae potest sumi 
+      <lb ed="#L" n="59"/>dupliciter, vno modo pro actu quo diligimus &amp; hanc omnes 
+      <lb ed="#L" n="60"/>concedunt: vel pro habitu informante voluntatem &amp; ei inhaeren 
+      <lb ed="#L" n="61"/>te: &amp; hanc negat magister in litera: ponit enim quod gratia 
+      existen<lb ed="#L" n="62" break="no"/>te in essentia animae non est necesse aliquem habitum esse in 
+      vo<lb ed="#L" n="63" break="no"/>luntate quo eliciatur actus dilectionis meritorie, sed ipsum im 
+      <lb ed="#L" n="64"/>mediate elicit Spiritus sanctus: Et quia aliqui videntur fulcir 
+      <lb ed="#L" n="65"/>hanc opinionem: ideo procedetur sic: quia primo ponetur 
+      ful<lb ed="#L" n="66" break="no"/>cimentum quo isti fulciunt opinionem magistri sententiarum, 
+      <lb ed="#L" n="67"/>&amp; reprobabitur, &amp; secundo respondebitur ad quaestionem. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e236">
+               <lb ed="#L" n="68"/>
+               <!--6--> QUANTVM ad primum sciendum est quod quidam 
+      <lb ed="#L" n="69"/>defendunt opinionem magistri sic, dicunt enim quod actus cha 
+      <lb ed="#L" n="70"/>ritatis differt ab actu fidei &amp; spei in duobus: primum est, quia 
+      <lb ed="#L" n="71"/>actus fidei &amp; spei includunt imperfectionem in sua essentia, 
+      <lb ed="#L" n="72"/>actus autem charitatis non, licet habeat imperfectionem adiun 
+      <lb ed="#L" n="73"/>ctam pro statu viae. Illa enim imperfectio non est de essentia 
+      <lb ed="#L" n="74"/>charitatis. Secunda differentia est quae sequitur ex prima, 
+      sci<lb ed="#L" n="75" break="no"/>licet quod actus fidei &amp; spei non manent in patria, quia inclu 
+      <lb ed="#L" n="76"/>dunt imperfectionem: Cum autem venerit quod perfectum 
+      <lb ed="#L" n="77"/>est euacuabitur quod ex parte est, primae ad Corin. decimoter 
+      <lb ed="#L" n="78"/>tio, sed actus charitatis manet in patria: quia nullam 
+      imperfe<lb ed="#L" n="79" break="no"/>ctionem includit. 
+</p>
+            <p xml:id="jsnvu6-d1e994-d1e267">
+               <lb ed="#L" n="80"/>Ex hoc arguitur sic, perfectus actus elicitur a perfecto agen¬ 
+      <!--00159.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>te sine medio, sed imperfe ctus non elicitur a perfecto agente 
+      <lb ed="#L" n="82"/>nisi mediante alio, sed actus charitatis est perfectior quam actu 
+      <lb ed="#L" n="83"/>fidei &amp; spei qui sunt imperfecti, ergo actus charitatis immedia 
+      <lb ed="#L" n="84"/>te elicitur a Spi. san. qui est agens perfectissimum, sed actus 
+      fi<lb ed="#L" n="85" break="no"/>dei &amp; spei tanquam imperfecti non eliciuntur a Spiri. san. nisi 
+      <lb ed="#L" n="86"/>mediantibus habitibus creatis scilicet fide &amp; spe¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e289">
+               <lb ed="#L" n="87"/>
+               <!--8--> Secundo sic, actus visionis in patria qui est perfectus elici 
+      <lb ed="#L" n="88"/>tur immediate a Deo absque specie, in via autem non propter 
+      <lb ed="#L" n="89"/>suam imperfectionem. Cum ergo charitatis tam viae quam 
+      pa<lb ed="#L" n="90" break="no"/>triae sit actus perfectus videtur quod absque medio habitu 
+      elicia<lb ed="#L" n="91" break="no"/>tur in nobis a Deo vel a Spiri. san. tam in via quam in patria. Et 
+      it<lb ed="#L" n="92" break="no"/>magister negat omnem habitum in voluntate necessarium ad 
+      <lb ed="#L" n="93"/>eliciendum actum dilecti onis meritoriae. Supponit tamen 
+      gra<lb ed="#L" n="94" break="no"/>tiam esse in anima. Sine gratia autem non est meritum. Et licet 
+      <lb ed="#L" n="95"/>de hoc non faciat mentionem expressam in loco isto, in 
+      secun<lb ed="#L" n="96" break="no"/>do tamen libro hoc expresse dicit in pluribus locis. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e315">
+               <lb ed="#L" n="97"/>
+               <!--9--> Quicquid autem sit de conclusione, rationes ramen ista 
+      <lb ed="#L" n="98"/>non valent. Primo quia effectus qui dependet ex pluribus cau 
+      <lb ed="#L" n="99"/>sis necessario est perfectior quanto vnaquaeque earum est 
+      per<lb ed="#L" n="100" break="no"/>fectior, sed velle meritorium secundum istos dependet a Deo 
+      <lb ed="#L" n="101"/>sicut a principio effectiuo immediate, constat etiam quod 
+      de<lb ed="#L" n="102" break="no"/>pendet ex nostra voluntate saltem sicut a causa subiectiua &amp; 
+      <lb ed="#L" n="103"/>recipiente, ergo tanto velle nostrum est perfectius quanto 
+      vnum<lb ed="#L" n="104" break="no"/>quodque principiorum est perfectius, sed voluntas est 
+      perfe<lb ed="#L" n="105" break="no"/>ctior cum habitu bono &amp; virtuoso quam sine habitu a 
+      quo<lb ed="#L" n="106" break="no"/>cunque ipsa mouetur; ergo propter perfectionem actus non 
+      <lb ed="#L" n="107"/>est tollendus habitus a voluntate sed potius ponendus. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e345">
+               <lb ed="#L" n="108"/>
+               <!--10--> SECVNDO quia secundum istos visio patriae qua 
+      <lb ed="#L" n="109"/>est perfectissimus actus, licet eliciatur sine specie 
+      representan<lb ed="#L" n="110" break="no"/>te, non tamen sine habitu luminis gloriae eleuante 
+      intelle<lb ed="#L" n="111" break="no"/>ctum &amp; confortante, ergo perfectio actus non excludit omnem 
+      <lb ed="#L" n="112"/>habitum imo potius ponit &amp; re vera sic est, nullus enim 
+      dubi<lb ed="#L" n="113" break="no"/>tat quando habitus virtuosus requiratur vt perficiat 
+      poten<lb ed="#L" n="114" break="no"/>tiam in relatione ad actum: virtus enim est quae habentem 
+      per<lb ed="#L" n="115" break="no"/>ficit &amp; eius opus bonum reddit. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e367">
+               <lb ed="#L" n="116"/>
+               <!--11--> Tertio quia Deus immediate ita est causa imperfectorum. 
+      <lb ed="#L" n="117"/>Causat enim ita immediate materiam primam sicut angelum 
+      <lb ed="#L" n="118"/>ergo differentiam actu charitatis secundum rationem perfecti 
+      <lb ed="#L" n="119"/>&amp; imperfecti non facit quod actus fidei, &amp; spei eliciantur a Dec 
+      <lb ed="#L" n="120"/>mediantibus habitibus, actus autem charitatis sine habitu. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e383">
+               <lb ed="#L" n="121"/>
+               <!--12--> Quarto, quia rationes istae concludunt quod ad 
+      merito<lb ed="#L" n="122" break="no"/>riam dilectionem non oportet ponere gratiam in voluntate, 
+      <lb ed="#L" n="123"/>sed quod faciat totum spiritus sanctus immediate: cum ergo 
+      <lb ed="#L" n="124"/>gratiam ponant &amp; charitatem negent, videtur quod male, &amp; 
+      <lb ed="#L" n="125"/>sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e399">
+               <lb ed="#L" n="126"/>
+               <!--13--> Quantum ad secundum primo ponetur quaedam distinctio 
+      <lb ed="#L" n="127"/>de merito &amp; deinde pertractabitur quaestio secundum membr: 
+      <lb ed="#L" n="128"/>distinctionis. Quantum ad primum notandum est quod cum 
+      <lb ed="#L" n="129"/>meritum dicatur actio per quam ei qui agit efficitur debitum 
+      <lb ed="#L" n="130"/>aliquid dari, sicut est duplex debitum, ita est duplex meritum, 
+      <lb ed="#L" n="131"/>quoddam est debitum de condigno quando ex natura &amp; 
+      con<lb ed="#L" n="132" break="no"/>ditione operis efficitur homo dignus vt ex iustitia sibi 
+      red<lb ed="#L" n="133" break="no"/>datur talis merces propter aequalitatem inter opus &amp; 
+      merce<lb ed="#L" n="134" break="no"/>dem secundum iustam aestimationem. Aliud est debitum de 
+      <lb ed="#L" n="135"/>congruo quando non debetur talis merces ex natura operis 
+      <lb ed="#L" n="136"/>sed redditur solum ex liberalitate dantis, aliud aliquid enim 
+      <lb ed="#L" n="137"/>congruum est liberalem dare quod alius non meruit ex 
+      con<lb ed="#L" n="138" break="no"/>digno recipiente meritum ergo de condigno respicit debitun 
+      <lb ed="#L" n="139"/>primo modo dictum, meritum autem de congruo respicit 
+      de<lb ed="#L" n="140" break="no"/>bitum secundo modo dictum. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e436">
+               <lb ed="#L" n="141"/>
+               <!--14--> Hoc supposito dicendum est quod ad merendum solum 
+      <lb ed="#L" n="142"/>de congruo non est necessarium ponere in nobis gratiam vel 
+      <lb ed="#L" n="143"/>charitatem habitualem quod patet quia secundum omnes 
+      pec<lb ed="#L" n="144" break="no"/>cator carens gratia poenitendo meretur de congruo gratiâ 
+      iu<lb ed="#L" n="145" break="no"/>stificantem, vt tangebatur in arguendo ad quaestionem. 
+      Con<lb ed="#L" n="146" break="no"/>gruum enim est vt bene vtenti bonis naturae propter Deum 
+      <lb ed="#L" n="147"/>det Deus bona gratiae. Idem patet de gloriosa, posset enim Deus 
+      <lb ed="#L" n="148"/>de potentia absoluta facere quod gloria vel beatitudo caderet sub 
+      <lb ed="#L" n="149"/>tali merito. Si enim Christo data est beatitudo animae sine 
+      vl<lb ed="#L" n="150" break="no"/>lo merito, fortiori ratione posset Deus gloriam dare cuicunque 
+      <lb ed="#L" n="151"/>homini pro solo opere bono gratia non informato, vt sicut 
+      me<lb ed="#L" n="152" break="no"/>remur gratiam per opus non informatum gratia, sic meremur 
+      glo<lb ed="#L" n="153" break="no"/>riam per opus consimile. Quemadmodum enim pro consimili 
+      <lb ed="#L" n="154"/>actu rex militi quandoque dat equum. Sic Deus pro eodem 
+      ope<lb ed="#L" n="155" break="no"/>re bono ex genere &amp; circunstantiis posset absque gratia de po 
+      <lb ed="#L" n="156"/>tentia absoluta dare gloriam siue paradisum tanquam 
+      ca<lb ed="#L" n="157" break="no"/>strum quo nunc dat gratiam, vel charitatem tanquam equudi 
+      <lb ed="#L" n="158"/>quae nunquam excidit &amp; vtrobique esset meritum, solum 
+      <lb ed="#L" n="159"/>de congruo. Ratio autem omnium istorum est, quia 
+      meri<lb ed="#L" n="160" break="no"/>tum de congruo plus innititur liberalitati dantis quam 
+      valo<lb ed="#L" n="161" break="no"/>ri operis. Dare autem gloriam pro opere bono ex genere &amp; 
+      cir<lb ed="#L" n="162" break="no"/>cunstantiis pro quo nunc datur gratia iustificans non excedit 
+      <!--00160.xml-->
+      <pb ed="#L" n="47-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>imo non adaequat liberalitatem diuinam: ergo beatitudo vel gloria 
+      <lb ed="#L" n="2"/>posset de potentia Dei absoluta cadere sub merito talis operis 
+      <lb ed="#L" n="3"/>sicut nunc cadit gratia &amp; sic propter tale meritum non est 
+      neces<lb ed="#L" n="4" break="no"/>se ponere gratiâ vel charitatem esse habitum creatum in anima 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e503">
+               <lb ed="#L" n="5"/>
+               <!--15--> De merito autem de condigno est subdistinguendum, 
+      qui<lb ed="#L" n="6" break="no"/>quoddam est meritum de condigno dictum proprie &amp; stricte &amp; aliud 
+      <lb ed="#L" n="7"/>large. Primum meritum de condigno stricte &amp; proprie sumptum ess 
+      <lb ed="#L" n="8"/>actio voluntaria, propter quam alicui merces debetur ex iustitia 
+      <lb ed="#L" n="9"/>sicique si non reddatur ille, ad quem pertinet reddere, iniuste 
+      fa<lb ed="#L" n="10" break="no"/>cit &amp; est simpliciter &amp; proprie iniustus. Et tale meritum de 
+      con<lb ed="#L" n="11" break="no"/>digno inuenitur inter homines, sed nec est nec esse potest 
+      ho<lb ed="#L" n="12" break="no"/>minis ad Deum, sicut probabitur lib. 2.di. 26. &amp; nunc supponatur 
+      <lb ed="#L" n="13"/>Et ideo propter meritum de condigno (cum sit homini 
+      simplici<lb ed="#L" n="14" break="no"/>ter impossibile) non est ponendu in nobis gratiâ vel charitat. 
+      <lb ed="#L" n="15"/>habitualem. Aliud est meritum de condigno large sumptum pro 
+      <lb ed="#L" n="16"/>quadam dignitate quam Deus ex sua ordinatione rationabili 
+      re<lb ed="#L" n="17" break="no"/>quirit in nobis ad hoc vt opera nostra acceptentur a Deo, &amp;c 
+      <lb ed="#L" n="18"/>dem vt remunerabilia vita aeterna: &amp; propter tale meritum 
+      ne<lb ed="#L" n="19" break="no"/>cessarium est ponere in nobis gratiam vel charitatem habitualem 
+      <lb ed="#L" n="20"/>quod patet autoritate sacrae scripturae &amp; probabili persuasione 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e543">
+               <lb ed="#L" n="21"/>
+               <!--16--> Autoritates sacrae scripturae, quamuis plures sint, ad praese 
+      <lb ed="#L" n="22"/>tamen adducentur duae tantum: Prima est vete. testa, in psal. vbi 
+      <lb ed="#L" n="23"/>dicitur quod gratiam &amp; gloriam dabit Dominus: Secunda est 
+      <lb ed="#L" n="24"/>Rom. 6. vbi dicitur quod gratia Dei vita aeterna. ex quarum 
+      qua<lb ed="#L" n="25" break="no"/>libet apparet secundum rationabilem intellectum quod gratia 
+      <lb ed="#L" n="26"/>praeit gloriam secundum ordinationem diuinam, nec 
+      confer<lb ed="#L" n="27" break="no"/>tur gloria nisi prius habenti gratiam quae tamen datur 
+      princi<lb ed="#L" n="28" break="no"/>paliter ad merendum secundum illud Apost. 1. ad Cor. 15. plus 
+      <lb ed="#L" n="29"/>omnibus laboraui non ego, sed gratia Dei mecum. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e567">
+               <lb ed="#L" n="30"/>
+               <!--17.--> Idem patet probabli persuasione quae talis est. sicut se ha 
+      <lb ed="#L" n="31"/>bet beatitudo supernaturalis ad naturalem sic se hapent 
+      adin<lb ed="#L" n="32" break="no"/>uicem illa quae perducunt ad vtramque beatitudinem: sed 
+      bea<lb ed="#L" n="33" break="no"/>titudo supernaturalis excedit naturalem quia est per habitum 
+      <lb ed="#L" n="34"/>diuinitus infusum, &amp; non ex nostris actibus acquisitum sicut 
+      bea<lb ed="#L" n="35" break="no"/>titudo naturalis, ergo similiter actus perducentes ad 
+      beatitudi<lb ed="#L" n="36" break="no"/>nem supernaturalem, vt sunt actus meritorij differunt ab 
+      acti<lb ed="#L" n="37" break="no"/>bus perducentibus nos ad beatitudinem naturalem, quia proce 
+      <lb ed="#L" n="38"/>dunt a potentiis informatis per aliquem habitum 
+      supernatura<lb ed="#L" n="39" break="no"/>lem: hic autem habitus est gratia vel charitas, quare requiritu 
+      <lb ed="#L" n="40"/>ad merendum gloriam vel beatitudinem ex diuina ordinatione 
+      <lb ed="#L" n="41"/>rationabili gratia siue charitas informans animam. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e598">
+               <lb ed="#L" n="42"/>
+               <!--18--> Et sic patent tria. Primum est quod propter meritum quod es 
+      <lb ed="#L" n="43"/>pure de congruo non est necessarium ponere de necessitate 
+      ab<lb ed="#L" n="44" break="no"/>soluta gratiam vel charitatem habitualem, quia sine eis posse 
+      <lb ed="#L" n="45"/>Deus de potentia absoluta acceptare opera nostra bona ex ge 
+      <lb ed="#L" n="46"/>nere &amp; circunstantiis vt remuneranda vita aeterna. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e614">
+               <lb ed="#L" n="47"/>
+               <!--19.--> Item patet secundo quod propter meritum quod est stricte 
+      <lb ed="#L" n="48"/>&amp; proprie de condigno modo quo expositum est non est 
+      possi<lb ed="#L" n="49" break="no"/>bile ponere gratiam vel charitatem habitualem in nobis, quia 
+      <lb ed="#L" n="50"/>homo non potest illo modo mereri aliquid apud Deum. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e627">
+               <lb ed="#L" n="51"/>
+               <!--20.--> Tertio patet, quod propter meritum de condigno non 
+      simpli<lb ed="#L" n="52" break="no"/>citer &amp; stricte accepto (modo quo supra expositum est) sed pre 
+      <lb ed="#L" n="53"/>quadam dignitate quam Deus ex sua ordinatione rationali 
+      re<lb ed="#L" n="54" break="no"/>quirit in operibus nostris ad hoc vt remunerentur vita aeterna 
+      <lb ed="#L" n="55"/>oportet ponere gratiam vel charitatem habitualem: &amp; illud 
+      me<lb ed="#L" n="56" break="no"/>ritum est de condigno secundum quid: &amp; non simpliciter: Est 
+      <lb ed="#L" n="57"/>enim tale condignum ex suppositione diuinae ordinationis &amp; 
+      <lb ed="#L" n="58"/>non absolute. Huic autem sententiae concordat communis de 
+      <lb ed="#L" n="59"/>ctrina quae ponit quod sicut reddere iustum precium pro re acce 
+      <lb ed="#L" n="60"/>pta ab aliquo est actus iustitiae, ita recompesare mercedem vel 
+      <lb ed="#L" n="61"/>praemium alicuius laboris vel operis est actus iustitiae: &amp; idec 
+      <lb ed="#L" n="62"/>in illis in quibus est simpliciter iustum: est etiam simpliciter 
+      ra<lb ed="#L" n="63" break="no"/>tio meriti &amp; praemij siue mercedis, in quibus autem non est 
+      sim<lb ed="#L" n="64" break="no"/>pliciter iustum, sed secundum quid in his non est ratio meriti 
+      <lb ed="#L" n="65"/>simpliciter sed secundum quid inquantum saluator ibi iustitia 
+      <lb ed="#L" n="66"/>ratio. Inter hominem autem &amp; Deum non potest esse simplicite 
+      <lb ed="#L" n="67"/>iustum, sicut nec aequale, sed solum iustum secundum quid, scilicet 
+      <lb ed="#L" n="68"/>dominatiuum, quia totum quod est hominis bonum est Dei &amp; a 
+      <lb ed="#L" n="69"/>Deo &amp; multo amplius quam actiones serui sunt domini sui in 
+      <lb ed="#L" n="70"/>humanis, propter quod meritum hominis apud Deum non potest 
+      <lb ed="#L" n="71"/>esse simpliciter meritum de condigno, sed solum secundum 
+      <lb ed="#L" n="72"/>praesuppositionem diuinae ordinationis, ita scilicet vt homo id 
+      <lb ed="#L" n="73"/>consequatur a Deo per suam operationem quasi praemium 
+      <lb ed="#L" n="74"/>vel mercedem, ad quod Deus ei virtutem operandi deputauit, 
+      <lb ed="#L" n="75"/>quae virtus operandi ad merendum beatitudinem est non 
+      so<lb ed="#L" n="76" break="no"/>lum potentia voluntatis, sed habitus gratiae vel charitatis. 
+</p>
+            <p xml:id="jsnvu6-d1e994-d1e688">
+               <lb ed="#L" n="77"/>AD PRIMVM argumentum dicendum quod maior 
+      <lb ed="#L" n="78"/>propositio debet sic sumi, quod sicut se habet fides ad actum 
+      <lb ed="#L" n="79"/>credendi sic charitas ad actum diligendi. Et tunc bene 
+      conclu<lb ed="#L" n="80" break="no"/>ditur quod sicut sine fide infusa potest homo in Deum 
+      crede<lb ed="#L" n="81" break="no"/>re, sic sine charitate infusa potest homo Deum diligere: sed 
+      neu<lb ed="#L" n="82" break="no"/>ter actus est meritorius de condigno, quia tale meritum ex di 
+      <!--00160.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>uina ordinatione supponit gratiam vel charitatem. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e711">
+               <lb ed="#L" n="84"/>
+               <!--22--> Ad secundum dicendum quod actus nostri possunt 
+      consi<lb ed="#L" n="85" break="no"/>derari tripliciter. vno modo secundum esse naturae. Alio modo 
+      <lb ed="#L" n="86"/>secundum esse moris quo sunt boni vel mali moraliter. Tertio 
+      <lb ed="#L" n="87"/>modo secundum esse meritorium de quo nunc agitur, &amp; 
+      secun<lb ed="#L" n="88" break="no"/>dum quemlibet istorum modorum actus similes habent 
+      ean<lb ed="#L" n="89" break="no"/>dem efficaciam sibi proportionatam, actus enim similes secun 
+      <lb ed="#L" n="90"/>dum esse naturae quantumcunque sint dissimiles secundum esse 
+      <lb ed="#L" n="91"/>moris (vt actus matrimonij &amp; adulterij) possunt habere 
+      simi<lb ed="#L" n="92" break="no"/>lem effectum naturalem, puta prolem: actus vero similes 
+      secun<lb ed="#L" n="93" break="no"/>dum esse morum, sed dissimiles secundum esse meriti superna. 
+      <lb ed="#L" n="94"/>turalis (vt diligere Deum in habente charitatem, vel non 
+      ha<lb ed="#L" n="95" break="no"/>bente) habent similem efficaciam moralem, quia consimilite 
+      <lb ed="#L" n="96"/>laudabiles sunt moraliter, sed quia non sunt consimiles in eo qui 
+      <lb ed="#L" n="97"/>secundum diuinam ordinationem reddit opus nostrum Deo 
+      <lb ed="#L" n="98"/>acceptum vt remunerandum vita aeterna, ideo actus habentis 
+      <lb ed="#L" n="99"/>charitatem est meritorius vitae aeternae, &amp; alius non¬ 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e750">
+               <lb ed="#L" n="100"/>
+               <!--23--> Ad secundum dicendum qued nec propter meritum de solo 
+      <lb ed="#L" n="101"/>congruo, nec propter meritum de condigno stricte ac 
+      simpli<lb ed="#L" n="102" break="no"/>citer &amp; proprie sumpto ponenda est gratia vel charitas 
+      habi<lb ed="#L" n="103" break="no"/>tualis: sed propter meritum quod est de condigno non 
+      simpli<lb ed="#L" n="104" break="no"/>citer, sed secundum praesuppositionem ordinationis diuinae. 
+      </p>
+            <p xml:id="jsnvu6-d1e994-d1e766">
+               <lb ed="#L" n="105"/>
+               <!--24--> Ad argumentum alterius partis dicendum est quod gratia non 
+      <lb ed="#L" n="106"/>est necessaria propter meritum quod est de solo congruo, sed 
+      <lb ed="#L" n="107"/>propter meritum quod est de solo condigno, non simpliciter, 
+      <lb ed="#L" n="108"/>quia illud non est homini possibile, sed secundum 
+      praesupposi<lb ed="#L" n="109" break="no"/>tionem ordinationis diuinae: Et ideo non sequitur quod ex pu 
+      <lb ed="#L" n="110"/>ris naturalibus mereamur de condigno, vt dicit Pelagius: 
+      ne<lb ed="#L" n="111" break="no"/>sequitur, quod apud Deum nihil possumus mereri: possumu 
+      <lb ed="#L" n="112"/>enim mereri de solo congruo ante gratiam habitam, &amp; post 
+      <lb ed="#L" n="113"/>habitam de condigno modo prius frequenter exposito.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

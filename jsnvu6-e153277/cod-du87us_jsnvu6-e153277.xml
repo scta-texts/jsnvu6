@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="187-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e153277"><!-- l3d3prae -->
+            <head xml:id="jsnvu6-e153277-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e153277-d1e103">
+               <lb ed="#L" n="35"/>Sententia huius distinctionis Tertiae 
+      <lb ed="#L" n="36"/>in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e153277-d1e110">
+               <lb ed="#L" n="37"/>QVAERITVR etiam de carne verbi &amp;c. 
+      Supe<lb ed="#L" n="38" break="no"/>rius determinauit magister quid de humana na 
+      <lb ed="#L" n="39"/>tura assumpsit Dei filius. Hic vero determinat 
+      <lb ed="#L" n="40"/>conditionem assumpti. Et diuiditur in duas 
+      <lb ed="#L" n="41"/>Q Primo enim determinat veritatem. Secundo cir 
+      <lb ed="#L" n="42"/>ca veritatem determinatam mouet quasdam quaestiones. 
+      Se<lb ed="#L" n="43" break="no"/>cunda ibi, cum autem illa caro. Prima diuiditur in duas. Prime 
+      <lb ed="#L" n="44"/>ostendit conditionem assumptae, vel carnis assumptae, scilicet 
+      <lb ed="#L" n="45"/>quod fuit ab omni contagione peccati immunis opere sancti 
+      <lb ed="#L" n="46"/>spiritus. Secundo ostendit conditionem matris de qua 
+      assum<lb ed="#L" n="47" break="no"/>ptum est ibi, Mariam quoque totam. Haec secunda diuiditur in 
+      <lb ed="#L" n="48"/>tres. Primo ostendit conditionem virginis matris ante 
+      conce<lb ed="#L" n="49" break="no"/>ptionem carnis assumptae. Secundo ostendit conditionem ipsius 
+      <lb ed="#L" n="50"/>in ipsa conceptione. Tertio conditionem eius ponit post 
+      con<lb ed="#L" n="51" break="no"/>ceptionem. Secunda ibi, potentiam vero generandi. Tertia ibi, 
+      <lb ed="#L" n="52"/>Quod autem sacra virgo. Secunda pars in qua mouet 
+      dubita<lb ed="#L" n="53" break="no"/>tionem ibi, cum autem, illacaro diuiditur in duas secundum duas 
+      <lb ed="#L" n="54"/>dubitationes quas mouet, &amp; soluit. Quarum prima est circa 
+      <lb ed="#L" n="55"/>propaginem carnis Christi ex remotis parentibus (scilicet 
+      <lb ed="#L" n="56"/>Adam &amp; Abraham) Secunda est circa conceptionem eius ir 
+      <lb ed="#L" n="57"/>proxima matre ibi, illi autem sententiae. Prima istarum 
+      diuidi<lb ed="#L" n="58" break="no"/>tur in duas. Primo mouet dubitationem &amp; soluit. Secundo ex 
+      <lb ed="#L" n="59"/>solutione quandam conclusionem elicit ibi, Quocirca 
+      primi<lb ed="#L" n="60" break="no"/>tias nostrae massae. Haec est sententia &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e153277-d1e165">
+               <lb ed="#L" n="61"/>
+               <!--2--> IN SPECIALI sic procedit &amp; primo proponit dua 
+      <lb ed="#L" n="62"/>quaestiones. Quarum prima est vtrum caro Christi prius fuerit 
+      <lb ed="#L" n="63"/>obligata peccato quam concepta, &amp; a carne virginis separata. 
+      Se<lb ed="#L" n="64" break="no"/>cunda est vtrum caro a verbo fuit assumpta obligata peccato vel 
+      <lb ed="#L" n="65"/>non. Et respondet ad primam quod caro illa ante conceptionem fuit 
+      <lb ed="#L" n="66"/>peccato obligata sicut &amp; reliqua caro virginis. Similiter ad 
+      se<lb ed="#L" n="67" break="no"/>cundam respondet negatiue scilicet quod caro illa ad hoc quod vniretur 
+      <lb ed="#L" n="68"/>verbo immunis fuit ab omni peccato sancto spiritu operante, 
+      <lb ed="#L" n="69"/>remansit tamen in ea possibilitas peccandi non necessitate, sed 
+      <lb ed="#L" n="70"/>voluntate. Postea dicit quod sanctus spiritus praeueniens virginem 
+      <lb ed="#L" n="71"/>ipsam ab omni peccato purgauit ipsum peccati fomitem, vel 
+      pe<lb ed="#L" n="72" break="no"/>nitus euacuando, vel sic debilitando vt nihil ex tunc posset 
+      existe<lb ed="#L" n="73" break="no"/>re qu eam inclinaret ad malum. Deinde dicit quod habuit 
+      mater<lb ed="#L" n="74" break="no"/>potentiam generandi absque virili semine sine vitio virginitatis, 
+      <lb ed="#L" n="75"/>&amp; nati, non tamen fuit caro Christi alterius naturae quam 
+      alio<lb ed="#L" n="76" break="no"/>rum hominum, sed fuit in eodem excellens gratia singularis, ad 
+      <lb ed="#L" n="77"/>quae probanda inducit primo autoritate Damasc. Secundo au 
+      <lb ed="#L" n="78"/>tem dicit quod mater Christi post carnis Christi 
+      conceptio<lb ed="#L" n="79" break="no"/>nem ab omni peccato fuit immunis &amp; sancta, &amp; omni gratia 
+      <lb ed="#L" n="80"/>repleta. Quod probat auctoritate Aug. Postea quaerit vtrum 
+      <!--00447.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>Christus fuit decimatus in lumbis Abrahae sicut Leui cum 
+      vter<lb ed="#L" n="82" break="no"/>que fuerit in eo. Et dicit quod non, quia Leui fuit in Abraham 
+      se<lb ed="#L" n="83" break="no"/>cundum rationem seminalem, &amp; ab eodem descendit secundum 
+      <lb ed="#L" n="84"/>legem communem,s. per carnis libidinem, Christus vero fuit tan 
+      <lb ed="#L" n="85"/>tum in ipso Abraham secundum causam materialem, &amp; non 
+      se<lb ed="#L" n="86" break="no"/>cundum legem communem, &amp; inde descendit, &amp; ideo omnes 
+      <lb ed="#L" n="87"/>in Adam peccauerunt, non tamen Christus. Postea dicit quod 
+      ta<lb ed="#L" n="88" break="no"/>lis caro fuit in Christo, qualis fuit in statu innocentiae insticuta, 
+      <lb ed="#L" n="89"/>&amp; ideo dicitur assumpsisse praemitias nostras, vnde caro eius 
+      <lb ed="#L" n="90"/>fuit similis nostrae carni, non in culpa, sed in humanis poenis: 
+      vn<lb ed="#L" n="91" break="no"/>de licet sit eadem caro aliquorum hominum secundum naturam, 
+      <lb ed="#L" n="92"/>tamen ista fuit per gratiam concepta, &amp; sanctificata, &amp; nata, 
+      <lb ed="#L" n="93"/>quod alij homines non habent, &amp; propter hoc caro Christi 
+      <lb ed="#L" n="94"/>non fuit obligata peccato. Vitimo mouet aliam dubitationem, 
+      <lb ed="#L" n="95"/>quia enim dixerat carnem Christi non prius conceptam quam 
+      <lb ed="#L" n="96"/>assumptam, tamen obiicit per quaedam verba August. dans 
+      <lb ed="#L" n="97"/>intelligentiam verborum eius. Addit etiam in fine adducens 
+      <lb ed="#L" n="98"/>dictum Damas. ad confirmationem praedictorum, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

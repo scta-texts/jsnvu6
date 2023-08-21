@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="176-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e145305"><!-- l2d43prae -->
+            <head xml:id="jsnvu6-e145305-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e145305-d1e103">
+               <lb ed="#L" n="87"/>Sententia huius distintionis <sic>XLII.</sic>
+               <lb ed="#L" n="88"/>in generali &amp; speciali.κυγο.
+    </p>
+            <p xml:id="jsnvu6-e145305-d1e112">
+               <lb ed="#L" n="89"/>ST. PRABTHREA quoddam genus aliud 
+      <lb ed="#L" n="90"/>peccati. Superius determinauit magister de 
+      pe<lb ed="#L" n="91" break="no"/>cato in generali. Hic determinat de ipso in 
+      spe<lb ed="#L" n="92" break="no"/>ciali. Vnde determinat specialiter de peccato in 
+      <lb ed="#L" n="93"/>spiritum sanctum. Et diuiditur in partes duas 
+      <lb ed="#L" n="94"/>Primo determinat de peccati huius grauitate. Secundo 
+      inqui<lb ed="#L" n="95" break="no"/>rit de eius quidditate. Secunda ibi, sed quaeritur quid sit illud 
+      <lb ed="#L" n="96"/>peccatum. Et haec diuiditur in tres secundum triplicem 
+      descri<lb ed="#L" n="97" break="no"/>ptionem huius peccati, quam ponit. Secunda ibi, est autem 
+      <lb ed="#L" n="98"/>&amp; alia huiusmodi peccati assignatio. Tertia ibi, de hoc quoque 
+      <lb ed="#L" n="99"/>peccato. Prima istarum diuiditur in duas; Primo ponit vnam 
+      <lb ed="#L" n="100"/>assignationem huius peccati. Secundo circa hoc mouet 
+      quae<lb ed="#L" n="101" break="no"/>stionem &amp; soluit. Secunda ibi, sed quaetitur, vtrum omnis 
+      ob<lb ed="#L" n="102" break="no"/>stinatio. Haec est sententia &amp; diuisio lectionis in generali. e¬ 
+      </p>
+            <p xml:id="jsnvu6-e145305-d1e145">
+               <lb ed="#L" n="103"/>
+               <!--2.--> IN SPECIALI primo sic procedit. Et proponit 
+      <lb ed="#L" n="104"/>primo quod peccatum in spiritum sanctum est grauissimum, 
+      <lb ed="#L" n="105"/>quia vt habetur in Euangelio non remittitur in hoc seculo 
+      <lb ed="#L" n="106"/>nec etiam in futuro. Et illud idem est peccatum ad mortem 
+      <lb ed="#L" n="107"/>Postea dicit quod vno modo dicitur peccatum in spiritum san 
+      <lb ed="#L" n="108"/>ctum, scilicet obstinatio, vel induratio, vel desperatio: 
+      obsti<lb ed="#L" n="109" break="no"/>natio autem est obduratio mentis in malitia, desperatio vero 
+      <lb ed="#L" n="110"/>est diffidentia bonitatis diuinae: per primum Dei iustitia 
+      con<lb ed="#L" n="111" break="no"/>temnitur, Per secundum bonitas &amp; misericordia. Postea quae 
+      <lb ed="#L" n="112"/>rit, vtrum omnis obstinatio vel desperatio sit peccatum in spi 
+      <lb ed="#L" n="113"/>ritum sanctum: &amp; respondet quod quidam dicunt quod sic, &amp; 
+      <lb ed="#L" n="114"/>secundum eos dato quod multi obstinati conuertantur 
+      opor<lb ed="#L" n="115" break="no"/>tet ponere quod peccatum in spiritum sanctum non dicatur 
+      <lb ed="#L" n="116"/>irremissibile, ita quod nullo modo remittatur, sed quia vix &amp; 
+      <lb ed="#L" n="117"/>raro remittitur. Alij vero dicunt solam obstinationem &amp; 
+      de<lb ed="#L" n="118" break="no"/>sperationem quam comitatur finalis impoenitentia esse 
+      pecca<lb ed="#L" n="119" break="no"/>tum in spititum sanctum, &amp; secundum istos peccatum in 
+      spi<lb ed="#L" n="120" break="no"/>ritum sanctum nunquam remittitur. Postea dicit quod alio 
+      <lb ed="#L" n="121"/>modo dicitur esse peccatum in spiritum sanctum induratio 8&amp; 
+      <lb ed="#L" n="122"/>oppugnatio supernae gratuiae, quod ideo non dicitur remitti, 
+      <lb ed="#L" n="123"/>quia tales humilitatem petendae veniae subire non possunt. 
+      <lb ed="#L" n="124"/>Subdit, tamen quod talis induratio &amp; oppugnatio non faciun 
+      <lb ed="#L" n="125"/>peccatum in spiritum sauctum, nisi cum finali impoenitentia. 
+      <lb ed="#L" n="126"/>Et vult hic accipere finalem impoenitentiam non solum proui 
+      <lb ed="#L" n="127"/>negat actum, sed &amp; propositum. Vltimo dicit quod alio 
+      mo<lb ed="#L" n="128" break="no"/>do dicitur peccatum in spiritum sanctum peccatum quod fit 
+      <lb ed="#L" n="129"/>contra bonitatem &amp; virtutem spiritus sancti, quod non est 
+      in<lb ed="#L" n="130" break="no"/>telligendum quod sit alia offenia vnius personae diuinae quam 
+      <lb ed="#L" n="131"/>aliarum, sed per quandam appropriatione secundum quam 
+      di<lb ed="#L" n="132" break="no"/>cuntur peccata ex infirmitate committi in patrem, peccata ex 
+      <lb ed="#L" n="133"/>ignoiantia in filium, peccata ex malitia in spiritum sanctum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="336-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e276463"><!-- l4d42q1 -->
+            <head xml:id="jsnvu6-e276463-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e276463-Hd1e103" type="question-title">
+      Utrum spiritualis cognatio impediat 
+      matrimonium
+    </head>
+            <p xml:id="jsnvu6-e276463-d1e106">
+               <lb ed="#L" n="18"/>QVAISTIO PRIMA. 
+      <lb ed="#L" n="19"/>Vtrum spiritualis cognatio impediat 
+      <lb ed="#L" n="20"/>matrimonium. 
+    </p>
+            <p xml:id="jsnvu6-e276463-d1e115">
+               <lb ed="#L" n="21"/>CIRCA distinctionem istam primo quaeritur, vtrum 
+      <lb ed="#L" n="22"/>spiritualis cognatio impediat matrimonium. Et 
+      <lb ed="#L" n="23"/>videtur quod non, quia contrariorum non ess 
+      <lb ed="#L" n="24"/>idem effectus, sed cognatio spiritualis proueniens 
+      <lb ed="#L" n="25"/>ai ex datione sacramenti, vel tentione ad idem 
+      con<lb ed="#L" n="26" break="no"/>trariatur disparitati cultus quae consistit in carentia 
+      communio<lb ed="#L" n="27" break="no"/>nis sacramentalis, ergo cum disparitas cultus impediat 
+      matrimo<lb ed="#L" n="28" break="no"/>nium, videtur qo cognatio spiritualis non impediat ipsum. 
+      </p>
+            <p xml:id="jsnvu6-e276463-d1e135">
+               <lb ed="#L" n="29"/>
+               <!--2.--> Item quando aliquis conuertit aliquem per praedicationem 
+      <lb ed="#L" n="30"/>ipse est pater eius spiritualis secundum illud I. Cor. 4. in Christo 
+      <lb ed="#L" n="31"/>Iesu per euangelium ego vos genui, sed per hoc non impeditur 
+      <lb ed="#L" n="32"/>matrimonium inter conuertentem &amp; conuersam, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e276463-d1e149">
+               <lb ed="#L" n="33"/>
+               <!--3--> IN CONTRARIVM est, quia dignior est 
+      cogna<lb ed="#L" n="34" break="no"/>tio spiritualis quam carnalis, sed illa impedit matrimonium 
+      <lb ed="#L" n="35"/>ergo &amp; ista. 
+      </p>
+            <p xml:id="jsnvu6-e276463-d1e160">
+               <lb ed="#L" n="36"/>
+               <!--4--> RESPONSIO. Videnda sunt tria. Primum est quid sit 
+      <lb ed="#L" n="37"/>spiritualis cognatio. Secundum est per quod contrahitur &amp; inter 
+      <lb ed="#L" n="38"/>quas personas. Tertium est qualiter impediat matrimonium.
+</p>
+            <p xml:id="jsnvu6-e276463-d1e171">
+               <lb ed="#L" n="39"/>Quantum ad primum sciendum est quod spiritualis cognatio est 
+      <lb ed="#L" n="40"/>propinquitas personarum proueniens ex datione sacrament 
+      <lb ed="#L" n="41"/>vel tentione ad illud. Ratio huius est, quia sicut homo accipit 
+      <lb ed="#L" n="42"/>esse naturae per generationem carnalem sic accipit esse gratiae 
+      <lb ed="#L" n="43"/>per generationem spiritualem, sicut ergo per generatione 
+      car<lb ed="#L" n="44" break="no"/>nalem contrahitur vinculum cognationis carnalis inter genitum 
+      <lb ed="#L" n="45"/>&amp; generantes, puta inter filiu &amp; patrem &amp; matrem. Sic per 
+      re<lb ed="#L" n="46" break="no"/>generationem spiritualem quae est per sacramenta ecclesiae 
+      con<lb ed="#L" n="47" break="no"/>trahitur vinculum cognationis spiritualis inter regeneratum &amp; 
+      <lb ed="#L" n="48"/>regenerantes, inter regenerantes autem qui sacramentum dat tenei 
+      <lb ed="#L" n="49"/>vicem patris, qui inquantum est minister Dei regenerat, qui 
+      ve<lb ed="#L" n="50" break="no"/>ro tenet ipsum, tenet vicem matris inquantum gerit personam eccle 
+      <lb ed="#L" n="51"/>siae, intra cuius gremium fit omnis spiritualis regeneratio, quari 
+      <lb ed="#L" n="52"/>spiritualis cognatio inter has personas contrahitur ex hac causa 
+      </p>
+            <p xml:id="jsnvu6-e276463-d1e204">
+               <lb ed="#L" n="53"/>
+               <!--6--> Quantum ad secundum sciendum est quod quidam dicunt quod spiri 
+      <lb ed="#L" n="54"/>tualis cognatio contrahitur per septem quae enumerantur a pri 
+      <lb ed="#L" n="55"/>mo pabulo salis, vsque ad confirmationem quae fit per episcopum, 
+      <lb ed="#L" n="56"/>quia ficut regeneratio spiritualis fit per spiritum sanctum, cuius 
+      <lb ed="#L" n="57"/>sunt septem dona, sic in illis septem quae fiunt a primo pabulc 
+      <lb ed="#L" n="58"/>baptismi, vsque ad confirmationem confertur spiritualis 
+      regene<lb ed="#L" n="59" break="no"/>ratio, &amp; acquiritur spiritualis cognatio, &amp; istud videtur tangi 
+      ex<lb ed="#L" n="60" break="no"/>presse 30. q. 1. ca. peruenit, in fine. Vbi dicitur sic, quomodo sunt 
+      <lb ed="#L" n="61"/>septem dona spiritussancti, sic septem bona baptismi, a primo ergi 
+      <lb ed="#L" n="62"/>pabulo salis vsque ad confirmationem per chrisma, hoc est a primo 
+      <lb ed="#L" n="63"/>vsque ad septimu nullus commatrem suam in coniugium suscipere 
+      <lb ed="#L" n="64"/>debet. Et ita dicunt quod per quodlibet sacramentale 
+      anteceden<lb ed="#L" n="65" break="no"/>ad baptismum contrahitur spiritualis cognatio. 
+      </p>
+            <p xml:id="jsnvu6-e276463-d1e237">
+               <lb ed="#L" n="66"/>
+               <!--7--> Sed istud non videtur rationabile, quia cognatio carnalis non 
+      <lb ed="#L" n="67"/>contrahitur nisi per generationem carnalem, ergo nec spiritualis 
+      <lb ed="#L" n="68"/>nisi per spiritualem, sed spiritualis regeneratio non perficitur nisi 
+      <lb ed="#L" n="69"/>per aliquod sacramentum, ergo per illa sacramentalia quae 
+      an<lb ed="#L" n="70" break="no"/>tecedunt baptismum non contrahitur spiritualis cognatio. Ad 
+      <lb ed="#L" n="71"/>canonem autem potest responderi quod debet intelligi 
+      copula<lb ed="#L" n="72" break="no"/>tiue &amp; non disiunctiue, quia per illa quasi simul iuncta contrahitu 
+      <lb ed="#L" n="73"/>cognatio spiritualis, non autem per quodlibet per se sumptum. 
+      </p>
+            <p xml:id="jsnvu6-e276463-d1e259">
+               <lb ed="#L" n="74"/>
+               <!--8--> Et ideo dicendum est aliter quod spiritualis cognatio 
+      con<lb ed="#L" n="75" break="no"/>trahitur per baptismum &amp; confirmationem. Per cathecismum 
+      <lb ed="#L" n="76"/>vero contrahitur quoddam vinculum cognationi spirituali 
+      si<lb ed="#L" n="77" break="no"/>mile, sed debilis ratio huius est, quia cognatio spiritualis non 
+      con<lb ed="#L" n="78" break="no"/>trahitur nisi per actus pertinentes ad officium regenerationis 
+      <lb ed="#L" n="79"/>spiritualis, ad hoc autem officium tria concurrunt, vnum tanquam 
+      <lb ed="#L" n="80"/>disponens spirituale in quo fit regenerationis inchoatio, scilice 
+      <!--00745.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>instructio cathecismi. Aliud tanquam formaliter dans esse 
+      spiri<lb ed="#L" n="82" break="no"/>tuale in quo fit prolis animatio in vtero ecclesiae, scilicet susce 
+      <lb ed="#L" n="83"/>ptio baptisini. Tertium tanquam complens &amp; manifestans ipsum 
+      <lb ed="#L" n="84"/>esse spirituale in quo fit quasi prolis in publicum productio, quasi 
+      <lb ed="#L" n="85"/>per natiuitatem ex vtero, scilicet susceptio confirmationis per 
+      <lb ed="#L" n="86"/>quam homo fidelis in publicam fidei confessionem exponitur 
+      <lb ed="#L" n="87"/>propter quod spiritualis cognatio contrahitur in baptismo &amp; 
+      <lb ed="#L" n="88"/>confirmatione quae sunt spiritualis regeneratio quasi in vtero &amp; 
+      <lb ed="#L" n="89"/>ex vtero, per cathecismum vero qui est dispositio ad vtrumque 
+      con<lb ed="#L" n="90" break="no"/>trahitur quoddam vinculum spirituali cognatione simile. Et sic 
+      <lb ed="#L" n="91"/>patet per quid contrahitur spiritualis cognatio. 
+      </p>
+            <p xml:id="jsnvu6-e276463-d1e308">
+               <lb ed="#L" n="92"/>
+               <!--9--> Inter quas autem personas contrahatur, sciendum est quod 
+      spi<lb ed="#L" n="93" break="no"/>ritualis cognationis sunt tres species. Vna quae est spiritualis pa 
+      <lb ed="#L" n="94"/>ternitas quae contrahitur inter regenerantem &amp; regeneratum. 
+      <lb ed="#L" n="95"/>Regeneras autem est duplex. Vnus quasi pater dans 
+      sacramen<lb ed="#L" n="96" break="no"/>tum. Alius quasi mater, scilicet tenens puerum in baptisino vel 
+      <lb ed="#L" n="97"/>confirmatione, &amp; ad vtrumque horum cognatio spiritualis 
+      pa<lb ed="#L" n="98" break="no"/>ternitatis extenditur. Alia est quae dicitur spiritualis 
+      compater<lb ed="#L" n="99" break="no"/>nitas quae est inter patrem &amp; matrem spiritualem, vnde versus, 
+      <lb ed="#L" n="100"/>Vnus semper erit compatrum spiritualis. Alter carnalis nec 
+      fal<lb ed="#L" n="101" break="no"/>lit regula talis. Ex quo patet quod inter matrem spiritualem &amp; pa 
+      <lb ed="#L" n="102"/>trem spiritualem non contrahitur aliqua spiritualis 
+      compaterni<lb ed="#L" n="103" break="no"/>tas, quia non coniunguntur in regeneratione spirituali nisi per 
+      <lb ed="#L" n="104"/>accidens, quia vnus ad hoc per se sufficeret, transit autem copa 
+      <lb ed="#L" n="105"/>ternitas a viro in vxorem quandoque &amp; quandoque non, ad 
+      vxo<lb ed="#L" n="106" break="no"/>rem enim nondum carnaliter cognitam non transit, quia nondum 
+      <lb ed="#L" n="107"/>effecti sut vna caro, ad eam vero quae est carnaliter cognita tranfit 
+      <lb ed="#L" n="108"/>spiritualis cognatio quae contrahitur per actum viri sui cum 
+      le<lb ed="#L" n="109" break="no"/>uat filium alterius de sacro fonte, vel tenet in confirmatione. 
+      <lb ed="#L" n="110"/>Sed quando contrahitur per actum alterius tenentis filium viri 
+      <lb ed="#L" n="111"/>sui ex alia muliere, tunc non transit spiritualis cognatio a viro in 
+      <lb ed="#L" n="112"/>vxorem etiam carnaliter cognitam. Et eodem modo transit vel 
+      <lb ed="#L" n="113"/>non transit spiritualis cognatio ab vxore in virum, per vxorem 
+      <lb ed="#L" n="114"/>enim nondum carnaliter cognitam nulla transit ad virum 
+      spiri<lb ed="#L" n="115" break="no"/>tualis cognatio, per eam vero quae est carnaliter cognita transit 
+      <lb ed="#L" n="116"/>ad virum spiritualis cognatio per actum vxoris contracta. Qua 
+      <lb ed="#L" n="117"/>autem contrahitur per actum alterius suscipientis filium eius ex 
+      <lb ed="#L" n="118"/>alio viro non transit ad legitimum virum, vt patet per versus qu 
+      <lb ed="#L" n="119"/>habentur in glossa capituli Martinus, de cognatione spirituali, 
+      <lb ed="#L" n="120"/>lib. 4. Qui tales sunt. Qui mihi vel cuius mea natum fonte leua 
+      <lb ed="#L" n="121"/>uit, Haec mea commater fieri mea non valet vxor. Si qua meae na 
+      <lb ed="#L" n="122"/>tum non ex me fonte leuauit. Hanc post fata meae non inde 
+      ve<lb ed="#L" n="123" break="no"/>tabor habere. Tertia species spiritualis cognationis est 
+      confra<lb ed="#L" n="124" break="no"/>ternitas quae est inter filium spiritualem &amp; filium carnalem 
+      eius<lb ed="#L" n="125" break="no"/>dem patris, haec autem intelligenda sunt secundum quosdam 
+      <lb ed="#L" n="126"/>quando praedictae personae sunt baptizatae, quia ad alias personas 
+      <lb ed="#L" n="127"/>non potest contrahi spiritualis cognatio, quia qui est expers 
+      spi<lb ed="#L" n="128" break="no"/>ritualis vitae, in qua homo per baptismum renascitur non est 
+      ca<lb ed="#L" n="129" break="no"/>pax spiritualis cognationis. Et ideo baptisans filium Iudeae, vel 
+      <lb ed="#L" n="130"/>suscipiens ipsum nullam cognationem contrahit cum ipsa, quin 
+      <lb ed="#L" n="131"/>ipsa postquam fuerit conuersa possit cum eo contrahere. Alij ver? 
+      <lb ed="#L" n="132"/>dicunt contrarium, sed primum videtur probabilius dictum. 
+      </p>
+            <p xml:id="jsnvu6-e276463-d1e402">
+               <lb ed="#L" n="133"/>
+               <!--10--> Quantum ad tertium, scilicet qualiter cognatio spiritualis 
+      <lb ed="#L" n="134"/>impediat matrimonium, sciendum quod aut praecedit, aut sequitur, 
+      <lb ed="#L" n="135"/>si praecedit tunc impedit contrahendum &amp; dirimit contractum, q 
+      <lb ed="#L" n="136"/>intelligendum est de cognatione spirituali, quae contrahitur in 
+      <lb ed="#L" n="137"/>baptismo &amp; confirmatione, quia per cathecismum contrahitur 
+      <lb ed="#L" n="138"/>vinculum debile, per quod impeditur matrimonium contrahen¬. 
+      <lb ed="#L" n="139"/>dum, sed non dirimitur contractu, vt habetur extra de 
+      cognatio<lb ed="#L" n="140" break="no"/>ne spirituali, cap. per cathecismum. lib. 6. Ratio quare spiritualis 
+      <lb ed="#L" n="141"/>cognatio contracta per baptismum &amp; confirmationem impedit 
+      ma<lb ed="#L" n="142" break="no"/>trimonium contrahendum &amp; dirimit contractum est, quia 
+      secun<lb ed="#L" n="143" break="no"/>darius finis matrimonij est dilatatio amicitiae (vt dictum est prius 
+      <lb ed="#L" n="144"/>sed sufficiens amicitia debetur his inter quos est spiritualis 
+      co<lb ed="#L" n="145" break="no"/>gnatio, ergo inter eos non debet esse matrimonium. Minor pate 
+      <lb ed="#L" n="146"/>per illud quod habetur 30. q. 3. can. 1. vbi dicitur sic, ita diligere 
+      <lb ed="#L" n="147"/>debet homo illum qui eum suscepit de sacro fonte sicut &amp; 
+      pa<lb ed="#L" n="148" break="no"/>trem, &amp; simile habetur quaestione per totum, &amp; hoc nullam ha 
+      <lb ed="#L" n="149"/>bet dubitationem de paternitate vel compaternitate spirituali. 
+      </p>
+            <p xml:id="jsnvu6-e276463-d1e444">
+               <lb ed="#L" n="150"/>
+               <!--11--> Sed de confraternitate quandoque fuit dubitatio. Quidam 
+      <lb ed="#L" n="151"/>enim dixerunt quod filij &amp; filiae duorum compatrum vel duarum 
+      <lb ed="#L" n="152"/>commatrum geniti post contractam compaternitatem non possum 
+      <lb ed="#L" n="153"/>inter se contrahere, vt 20. q. 3. post susceptum. Alij dicunt quo 
+      <lb ed="#L" n="154"/>filij &amp; filiae ante siue post compaternitatem geniti possunt simul 
+      <lb ed="#L" n="155"/>contrahere, excepta illa persona per quam peruentum ost ad 
+      <lb ed="#L" n="156"/>compaternitatem, vt habetur 30. q. 3. cap. super quibus, qui canon 
+      <lb ed="#L" n="157"/>corrigit primum. Et hic casus confirmatur extra demognatione 
+      <lb ed="#L" n="158"/>spirituali cap. 1. &amp; cap. super eo. Et istud est rationabilius, quia 
+      <lb ed="#L" n="159"/>sicut duorum compatrum alter est carnalis alter spiritualis (vt di 
+      <lb ed="#L" n="160"/>ctum est) sic duorum confratrum alter est carnalis, alter 
+      spiritua<lb ed="#L" n="161" break="no"/>lis, non enim possunt dici fratres nisi sint eiusdem patris. Istud 
+      <lb ed="#L" n="162"/>autem solum habet locum inter filium spiritualem, &amp; filios car¬ 
+      <!--00746.xml-->
+      <pb ed="#L" n="336-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nales eiusdem patris &amp; non inter alios, &amp; ideo inter ipsos solum 
+      <lb ed="#L" n="2"/>est spiritualis fraternitas quae impedit matrimonium &amp; dirimit. 
+      <lb ed="#L" n="3"/>Veruntamen duo praedicta cap. remittunt ab consuetudinem 
+      <lb ed="#L" n="4"/>quod quidam intelligunt circa matrimonia contrahenda &amp; non 
+      <lb ed="#L" n="5"/>indissoluendo iam contracta, sed siue sic, siue sic intelligatur tale 
+      <lb ed="#L" n="6"/>impedimentum non potest esse ex natura regenerationis 
+      spiri<lb ed="#L" n="7" break="no"/>tualis, sed ex statuto iuris quod non potest impedire matrimonium 
+      <lb ed="#L" n="8"/>contrahendum &amp; dirimere iam contractum secundum variam 
+      <lb ed="#L" n="9"/>formam statuti. Si vero compaternitas sequatur nunquam 
+      impe<lb ed="#L" n="10" break="no"/>dit matrimonium quoad vinculum, sed de actu distinguitur sic, 
+      <lb ed="#L" n="11"/>quia aut contrahitur ex necessitate, vt quando vir&amp; mulier in ar 
+      <lb ed="#L" n="12"/>ticulo necessitatis baptisant proprium filium &amp; tunc non 
+      impe<lb ed="#L" n="13" break="no"/>dit exigere&amp; reddere debitum, aut sine necessitate, &amp; tunc, aut per 
+      <lb ed="#L" n="14"/>ignorantiam, &amp; sic non impedit neque reddere, neque exigere 
+      <lb ed="#L" n="15"/>aut per fraudem ad insidiandum matrimonio, &amp; tunc 
+      fraudulen<lb ed="#L" n="16" break="no"/>tus debet gere poenitentiam de delicto commisso, vt habetur 3 
+      <lb ed="#L" n="17"/>quaest. 1. ca. dictum, &amp; can. ad limina, quidam etiam addunt quos 
+      <lb ed="#L" n="18"/>ille qui fraudulenter hoc fecit, potest reddere debitum, sed non 
+      <lb ed="#L" n="19"/>licet ei exigere, quod quamuis sit probabiliter dictum, non 
+      inue<lb ed="#L" n="20" break="no"/>nitur tamen in iure expressum quod non liceat ei debitum petere 
+      </p>
+            <p xml:id="jsnvu6-e276463-d1e527">
+               <lb ed="#L" n="21"/>
+               <!--12--> Ad primum argumentum dicendum quod contrariorum 
+      <lb ed="#L" n="22"/>non est idem effectus per se &amp; positiuus, sed bene potest esse idem 
+      <lb ed="#L" n="23"/>effectus priuatiuus, quia duo contraria idem possunt opponi 
+      si<lb ed="#L" n="24" break="no"/>cut magnum &amp; paruum opponuntur aequali, &amp; hoc modo 
+      di<lb ed="#L" n="25" break="no"/>sparitas cultus tanquam nimia distantia, &amp; omnis cognatio tam 
+      <lb ed="#L" n="26"/>carnalis quam spiritualis sicut nimia propinquitas opponuntur 
+      <lb ed="#L" n="27"/>matrimonio &amp; impediunt ipsum. 
+      </p>
+            <p xml:id="jsnvu6-e276463-d1e547">
+               <lb ed="#L" n="28"/>
+               <!--13--> Ad secundum dicendum quod instructio aliorum per 
+      Apo<lb ed="#L" n="29" break="no"/>stolum fuit de pertinentibus ad fidem &amp; quodammodo per 
+      mo<lb ed="#L" n="30" break="no"/>dum cathecismi, &amp; sic talis instructio ordinem habebat ad 
+      spiri<lb ed="#L" n="31" break="no"/>tualem regenerationem, propter quod aliquo modo potuit dici 
+      <lb ed="#L" n="32"/>pater eorum spiritualis, non sic autem est de alia praedicationi 
+      <lb ed="#L" n="33"/>quae fit fidelibus de pertinentibus ad fidem &amp; mores, quia non 
+      <lb ed="#L" n="34"/>ordinantur ad regenerationem, sed eam supponit, veruntamen 
+      <lb ed="#L" n="35"/>tales &amp; quidam alij patres dicuntur, quia cum a patre natural 
+      <lb ed="#L" n="36"/>habeamus tria, scilicet esse, nutrimentum, &amp; eruditionem (vt di 
+      <lb ed="#L" n="37"/>citur 8. Ethic.) sic per similitudinem aliquando pater dicitur qui 
+      <lb ed="#L" n="38"/>dat esse spirituale sacramenti, aliquando qui dat alimentum 
+      ver<lb ed="#L" n="39" break="no"/>bi, aliquando qui dat disciplinam, vt praelati. Ex hoc tamen solo 
+      <lb ed="#L" n="40"/>quod spiritualis pater conuenit cum carnali quoad 
+      generatio<lb ed="#L" n="41" break="no"/>nem contrahitur cognatio, &amp; non ex aliis sine isto. Ex quo patei 
+      <lb ed="#L" n="42"/>quod ex collatione aliorum sacramentorum a baptismo &amp; 
+      con<lb ed="#L" n="43" break="no"/>firmatione nulla spiritualis cognatio contrahitur, quia nullum 
+      <lb ed="#L" n="44"/>sacramentum ab his duobus habet rationem regenerationis, 
+      <lb ed="#L" n="45"/>poenitentiae autem magis est resuscitatio quam regeneratio, &amp; 
+      <lb ed="#L" n="46"/>extrema vnctio quaedam medicatio. Caetera ad vero rationem 
+      <lb ed="#L" n="47"/>regenerationis nullo modo appropinquant. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="199-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e163398"><!-- l3d10prae -->
+            <head xml:id="jsnvu6-e163398-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e163398-d1e103">
+               <lb ed="#L" n="88"/>Sententia huius distinctionis X. in 
+      <lb ed="#L" n="89"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e163398-d1e110">
+               <lb ed="#L" n="90"/>OLBT etiam quaeri a quibusdam. Superius deter 
+      <lb ed="#L" n="91"/>minauit Magister qualiter aliquid conueniat vni 
+      <lb ed="#L" n="92"/>naturae ex eo quod est alteri sociata, vel iuncta in 
+      per<lb ed="#L" n="93" break="no"/>sona Christi. Hic determinat quid conueniat 
+      per<lb ed="#L" n="94" break="no"/>sonae Christi ratione humanae naturae, quid enim 
+      <lb ed="#L" n="95"/>sibi conueniat ratione diuinae in primo lib. dictum est. Et diuiditur 
+      <lb ed="#L" n="96"/>in duas. Primo inquirit vtrum naturae humanae in Christo con 
+      <lb ed="#L" n="97"/>ueniant illa, quae ad dignitatem humanae naturae pertinent. 
+      Se<lb ed="#L" n="98" break="no"/>cundo de his quae pertinent ad defectum dist. 11. Solet etiam quaeri. 
+      <lb ed="#L" n="99"/>Prima est praesentis lectionis. Et diuiditur in duas. Primo deter 
+      <lb ed="#L" n="100"/>minat de his quae pertinent ad dignitatem naturalem. Secundo, 
+      <lb ed="#L" n="101"/>de his quae pertinent ad dignitatem gratiae, si vero quaeritur. 
+      <lb ed="#L" n="102"/>Prima diuiditur, quia primo obiicit ad vtramque partem, &amp; secun 
+      <lb ed="#L" n="103"/>do soluit ibi, propter hoc inconuenientia. Secunda similiter 
+      di<lb ed="#L" n="104" break="no"/>uiditur, quia primo quaerit an Christus sit filius adoptiuus, &amp; 
+      <lb ed="#L" n="105"/>secundo vtrum praedestinatio, de qua loquitur Apost. Rom. 1. 
+      <lb ed="#L" n="106"/>Sit de persona an de natura. Secunda ibi, deinde si quaeritur. 
+      Pri<lb ed="#L" n="107" break="no"/>ma diuiditur in tres, quia primo determinat veritatem. 
+      Secun<lb ed="#L" n="108" break="no"/>do opponit contra eam. Tertio soluit. Secunda ibi, Sed ad hoc 
+      <lb ed="#L" n="109"/>opponitur. Tertia ibi, ad quod dici potest. Haec est di. &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e163398-d1e156">
+               <lb ed="#L" n="110"/>
+               <!--2--> In speciali sic procedit, &amp; quaerit primo, vtrum Christus se 
+      <lb ed="#L" n="111"/>cundum quod homo sit persona an sit aliud, &amp; arguit primo quod sic, qui 
+      <lb ed="#L" n="112"/>inquantum est homo est aliquid, aut ergo est substantia, vel aliud, non 
+      <lb ed="#L" n="113"/>aliud: ergo substantia non substantia irrationalis, ergo rationalis. Et 
+      <lb ed="#L" n="114"/>Sc Christus secundum quod homo est substantia rationalis. Sed haec 
+      <lb ed="#L" n="115"/>est diffinitio personae, ergo Christus secundum quod homo est 
+      per<lb ed="#L" n="116" break="no"/>sona. Ad oppositum arguit, quod si Christus inquatum est homo, 
+      <lb ed="#L" n="117"/>est persona erit tertia in Trinitate persona, &amp; non alia: sed 
+      ter<lb ed="#L" n="118" break="no"/>tia in Trinitate persona, &amp; non alia est Deus, ergo Christus 
+      se<lb ed="#L" n="119" break="no"/>cundum quod est homo est Deus, hoc autem est falsum, scilicet quod 
+      <lb ed="#L" n="120"/>Christus secundum quod homo sit Deus, ergo falsum est quod si 
+      <lb ed="#L" n="121"/>persona. Respondet Magister primo secundum quosdam quod si 
+      <lb ed="#L" n="122"/>Christus secundum quod homo esset persona, sequeretur tunc quod 
+      <lb ed="#L" n="123"/>Christus assumpsisset personam non naturam, hoc est falsum, 
+      <lb ed="#L" n="124"/>ergo Christus secundum quod homo non est persona. Dicunt 
+      ta<lb ed="#L" n="125" break="no"/>men hanc loquutionem esse veram. Si haec praepositio secundum 
+      <lb ed="#L" n="126"/>exprimat vnitatem in persona, &amp; hoc patet quod haec praepositio 
+      se<lb ed="#L" n="127" break="no"/>cundum multipliciter accipitur in diuinis secundum quod ipse 
+      de<lb ed="#L" n="128" break="no"/>clarat, secundum tamen quod dicit rationem causalitatis falsa est. Non 
+      <lb ed="#L" n="129"/>enim eo modo est Deus quo homo. Magister tamen ad hoc dac 
+      <lb ed="#L" n="130"/>suum intellectum dicens, qo argumentum praeinductum non sequitur. 
+      <lb ed="#L" n="131"/>Videlicet quod si Christus secundum quod homo sit substantia 
+      ratio<lb ed="#L" n="132" break="no"/>nalis, quod ergo est persona. Nam anima est substantia rationalis, 
+      <lb ed="#L" n="133"/>non tamen est persona, quia persona dicitur quasi per se sonam, 
+      <lb ed="#L" n="134"/>&amp; non alij coniuncta. Dicit etiam quod illa descriptio non datur de 
+      <lb ed="#L" n="135"/>personis increatis. Postea quaerit Magister, vtrum Christus sit 
+      <lb ed="#L" n="136"/>filius adoptiuus secundum quod homo. Et respondet quod non, imo 
+      <lb ed="#L" n="137"/>est filius naturaliter. Tamen filius dicitur natura &amp; Deus, quia 
+      <lb ed="#L" n="138"/>Deus est natura accipiendo naturam pro essentia deitatis, sed 
+      <lb ed="#L" n="139"/>filius est natura, hoc est, natiuitate naturali. Postea opponit q 
+      <lb ed="#L" n="140"/>Christus est filius patris per naturam, &amp; virginis per gratiam, &amp; 
+      <lb ed="#L" n="141"/>sic inquantum est filius virginis, per gratiam est filius adoptiuus. 
+      <lb ed="#L" n="142"/>Et respondet quod potest dici, quod Christus est filius natura, &amp; 
+      <lb ed="#L" n="143"/>per gratiam vnionis. Non tamen sequitur quod sit filius 
+      ado<lb ed="#L" n="144" break="no"/>ptiuus, quod pluribus auctoritatibus probat. Vitimo quaerit de 
+      <lb ed="#L" n="145"/>quo intelligitur praedestinatio, de qua loquitur Apostolus. Et 
+      <lb ed="#L" n="146"/>respondet quod potest intelligi de natura humana quae 
+      praede<lb ed="#L" n="147" break="no"/>stinata fuit vniri verbo, potest etiam intelligi de persona 
+      ratio<lb ed="#L" n="148" break="no"/>ne naturae. Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

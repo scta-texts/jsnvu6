@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="25-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e472"><!-- l1d6prae -->
+            <head xml:id="jsnvu6-d1e472-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e472-d1e103">
+               <lb ed="#L" n="140"/>Sententia distinctionis sextae in 
+      <lb ed="#L" n="141"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-d1e472-d1e110">
+               <lb ed="#L" n="142"/>PRAETEREA quaeri solet &amp;c. Superius magister 
+      <lb ed="#L" n="143"/>mouit quaestiones circa generationis subiectum 
+      <lb ed="#L" n="144"/>vel terminum. Hic mouet quandam quaestionem 
+      <lb ed="#L" n="145"/>circa generationis modum. Et diuiditur ista pars 
+      <lb ed="#L" n="146"/>in tres. Primo mouet quaestionem &amp; determinat 
+      <lb ed="#L" n="147"/>eam. Secundo remouet quandam obiectionem. Tertio exponit 
+      <lb ed="#L" n="148"/>praedictam determinationem. Secunda incipit ibi. Contra hoc 
+      <lb ed="#L" n="149"/>opponitur. Tertia ibi. Praedicta tamen vera. Prima diuiditur 
+      <lb ed="#L" n="150"/>in tres partes. Primo mouet quaestionem. Secundo eam 
+      deter<lb ed="#L" n="151" break="no"/>minat. Tertio ex terminatione quendam errorem excludit. 
+      Se<lb ed="#L" n="152" break="no"/>cunda ibi, nec voluntate nec necessitate. Tertia ibi, quo contra 
+      <lb ed="#L" n="153"/>ait August. Haec est sententia magistri in generali. In speciali 
+      <lb ed="#L" n="154"/>vero sic procedit magister &amp; quaerit primo vtrum pater 
+      ge<lb ed="#L" n="155" break="no"/>nuit filium necessitate, vel voluntate. Et respondet quod 
+      ne<lb ed="#L" n="156" break="no"/>voluntate, nec necessitate. Necessitate non, quia necessitas non 
+      <lb ed="#L" n="157"/>est in Deo, nec voluntate, quia sic voluntas praecederet 
+      sapien<lb ed="#L" n="158" break="no"/>tiam, id est, filium qui est sapientia, generans enim 
+      praecedi<lb ed="#L" n="159" break="no"/>genitum. Deinde errorem Eunomij excludit dicens quod 
+      ma<lb ed="#L" n="160" break="no"/>le dixit Eunomius qui artibus dialecticis deceptus ponit filium 
+      <lb ed="#L" n="161"/>esse genitum voluntate intelligens, &amp; male, voluntatem gene¬ 
+      <!--00117.xml-->
+      <pb ed="#L" n="26-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tandi filium patri accessisse de nouo, quod esse non potest. 
+      Se<lb ed="#L" n="2" break="no"/>uéretur enim Deum esse mutabilam. Confirmat autem 
+      ho<lb ed="#L" n="3" break="no"/>argumentum haereticorum non est efficax. Opponit enim 
+      <lb ed="#L" n="4"/>haereticus, pater aut volens aut nolens genuit filium. Si nolen: 
+      <lb ed="#L" n="5"/>ergo miser est. Si volens ergo voluntate genuit filium. Et dici 
+      <lb ed="#L" n="6"/>magister quod hoc non cogit, quia sic potest opponi pater aui 
+      <lb ed="#L" n="7"/>volens aut nolens est Deus. Si nolens miser est, si volens ergi 
+      <lb ed="#L" n="8"/>voluntate est Deus, non natura quod falsum est. Vnde, 
+      conclu<lb ed="#L" n="9" break="no"/>dit quod pater nec nolens nec volens genuit filium, 
+      Poste<lb ed="#L" n="10" break="no"/>quandam obiectionem remouet. Obiectio talis est, cum in 
+      di<lb ed="#L" n="11" break="no"/>uinis idem sit natura &amp; vbluntas. Si pater genuit natura filium, 
+      <lb ed="#L" n="12"/>ergo &amp; voluntate. Et respondet dicens quod licet in diuinis na 
+      <lb ed="#L" n="13"/>tura &amp; voluntas sint idem re in Deo, differunt tamen ratione, 
+      <lb ed="#L" n="14"/>vel connotato. Vnde sicut scientia Dei se extendit respectu 
+      <lb ed="#L" n="15"/>malorum, voluntas autem non, &amp; tamen scientia &amp; voluntas in 
+      <lb ed="#L" n="16"/>Deo sunt idem, ita etiam aliquid conuenit naturae Dei quod 
+      <lb ed="#L" n="17"/>non conuenit voluntati, licet sint idem in Deo. Vitimo dici 
+      <lb ed="#L" n="18"/>quod pater genuit filium voluntate communicante 
+      genera<lb ed="#L" n="19" break="no"/>tionem non praecedente vel antecedente de nouo. Et in 
+      ho<lb ed="#L" n="20" break="no"/>terminatur sententia lectionis in speciali. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

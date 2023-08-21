@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="95-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2022"><!-- l1d42q1 -->
+            <head xml:id="jsnvu6-d1e2022-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e2022-Hd1e103" type="question-title">Utrum potentia sit in Deo</head>
+            <p xml:id="jsnvu6-d1e2022-d1e106">
+               <lb ed="#L" n="117"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="118"/>Vtrum potentia sit in Deo. 
+      <lb ed="#L" n="119"/>Tesm. i. g. 15. r. 5.
+    </p>
+            <p xml:id="jsnvu6-d1e2022-d1e115">
+               <lb ed="#L" n="120"/>CIRCA distinctionem istam primo quaeritur 
+      <lb ed="#L" n="121"/>vtrum potentia sit in Deo. Et videtur quod non, 
+      <lb ed="#L" n="122"/>quia si in Deo est potentia vel est coniuncta actui, 
+      <lb ed="#L" n="123"/>vel non, si non, cum potentia perficiatur per actum, 
+      <lb ed="#L" n="124"/>qi potentia Dei esset imperfecta quod est inconue 
+      <lb ed="#L" n="125"/>niens. Si autem sic semper est actui coniuncta creaturae 
+      fuis<lb ed="#L" n="126" break="no"/>sent ab aeterno, quod similiter est inconueniens, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2022-d1e133">
+               <lb ed="#L" n="127"/>
+               <!--2--> Item secundum Philo. 9. Metaph. in bonis actus est melio 
+      <lb ed="#L" n="128"/>potentia, sed Deo solum est attribuendum id quod melius est, 
+      <lb ed="#L" n="129"/>ergo Deo debemus attribuere actum &amp; non potentiam. 
+      </p>
+            <p xml:id="jsnvu6-d1e2022-d1e145">
+               <lb ed="#L" n="130"/>
+               <!--3--> IN CONTRARIVM est quod dicitur Lucae 
+      pri<lb ed="#L" n="131" break="no"/>mo, Fecit mihi magna qui potens est. Et arguitur quia omne 
+      <lb ed="#L" n="132"/>quod agit, agit per aliquam potentiam actiuam, sed Deus est 
+      <lb ed="#L" n="133"/>causa agens respectu omnium rerum, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2022-d1e158">
+               <lb ed="#L" n="134"/>
+               <!--4--> RESPONSIO. Potentia diuiditur ab Aristot. 5. 
+      Me<lb ed="#L" n="135" break="no"/>taphysicae in actiuam &amp; passiuam. Actiua est principium 
+      trans<lb ed="#L" n="136" break="no"/>mutandi aliud secundum quod aliud. Passiua vero est principium 
+      <lb ed="#L" n="137"/>transmutandi ab alio secundum quod aliud: &amp; potentia quidem 
+      <lb ed="#L" n="138"/>passiua non potest vniuersalius diffiniri si proprie sumatur, &amp; 
+      <lb ed="#L" n="139"/>positiue vocando transinutationem deductionem alicuius de 
+      <lb ed="#L" n="140"/>esse informi ad formatum: sed potentia actiua potest 
+      vniuersa<lb ed="#L" n="141" break="no"/>lius diffiniri sic quod potentia actiua est principium 
+      producen<lb ed="#L" n="142" break="no"/>di aliud secundum quod aliud. Quae enim producuntur per 
+      <lb ed="#L" n="143"/>simplicem emanationem nullo supposito, producuntur quidem 
+      <lb ed="#L" n="144"/>per potentiam actiuam agentis, sed non per transinutationem 
+      <lb ed="#L" n="145"/>alicuius praesuppositi, vnde in eis non est potentia passiua 
+      pro<lb ed="#L" n="146" break="no"/>prie positiue accepta, sed tantum negatiue, scilicet non 
+      prohi<lb ed="#L" n="147" break="no"/>bitio ad esse, propter quod non omni potentiae actiuae 
+      respon<lb ed="#L" n="148" break="no"/>det potentia passiua proprie accepta, sed tantum potentiae 
+      acti<lb ed="#L" n="149" break="no"/>uae naturali quam solam intendit diffinire Philosophus. Ex quio 
+      <lb ed="#L" n="150"/>patet quod potentia actiua ordinatur ad influendum aliquid 
+      <lb ed="#L" n="151"/>alteri, &amp; non ad recipiendum aliquid in se. Potentia vero 
+      pas<lb ed="#L" n="152" break="no"/>siua econuerso ordinatur ad recipiendum aliquid in se, &amp; non 
+      <lb ed="#L" n="153"/>ad influendum aliquid alteri. 
+      </p>
+            <p xml:id="jsnvu6-d1e2022-d1e206">
+               <lb ed="#L" n="154"/>
+               <!--5--> Hoc supposito dicendum est quod in Deo est potentia actiua 
+      <lb ed="#L" n="155"/>non autem potentia passiua. Primum patet sic, illud quod importa 
+      <lb ed="#L" n="156"/>perfectionem simpliciter in entitate &amp; actualitate est Deo attri 
+      <lb ed="#L" n="157"/>buendum, sed habere potentiam actiuam importat perfectionem 
+      sim<lb ed="#L" n="158" break="no"/>pliciter in entitate &amp; actualitate, ergo &amp;c. Maior de se patet, 
+      <!--00256.xml-->
+      <pb ed="#L" n="95-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>minor declaratur, quia nihil agit nisi secundum quod est in actu, 
+      <lb ed="#L" n="2"/>actus autem ille est perfectior &amp; potior quo aliquid est in se 
+      for<lb ed="#L" n="3" break="no"/>maliter, &amp; continet aliud virtualiter quam ille quo aliquid est 
+      <lb ed="#L" n="4"/>in se formaliter, sed nihil continet virtualiter, habens autem 
+      po<lb ed="#L" n="5" break="no"/>tentiam actiuam per illam est actu in se aliquid formaliter, &amp; 
+      <lb ed="#L" n="6"/>per eam continet aliud virtualiter: ergo habere potentiam acti 
+      <lb ed="#L" n="7"/>uam importat perfectionem in enitate &amp; actualitate, &amp; haec fuit 
+      <lb ed="#L" n="8"/>minor. Item quod mouet nullo modo existens mobile &amp; agi 
+      <lb ed="#L" n="9"/>nullo modo existens agibile purissime habet potentiam actiuam 
+      <lb ed="#L" n="10"/>nam quod mouet motum vel mobile &amp; quod agit ab alio 
+      ta<lb ed="#L" n="11" break="no"/>men actum illud cum potentia actiua per quam mouet &amp; agi 
+      <lb ed="#L" n="12"/>habet potentiam passiuam per quam mouetur &amp; patitur, cun 
+      <lb ed="#L" n="13"/>ergo Deus maneat summe immobilis existens, &amp; agat nihil 
+      <lb ed="#L" n="14"/>omnino patiens, patet quod in eo purissime potentia actiua 
+      </p>
+            <p xml:id="jsnvu6-d1e2022-d1e258">
+               <lb ed="#L" n="15"/>
+               <!--6--> Secundum sic patet, conuertendo primam rationem, illud 
+      <lb ed="#L" n="16"/>quod importat imperfectionem &amp; diminutionem in 
+      actualita<lb ed="#L" n="17" break="no"/>te &amp; entitate non conuenit Deo, sed habere potentiam 
+      passi<lb ed="#L" n="18" break="no"/>uam est huiusmodi, ergo &amp;c. Minor declaratur, quia esse in po 
+      <lb ed="#L" n="19"/>tentia ad recipiendum aliquid in se est ex defectu entitatis o 
+      <lb ed="#L" n="20"/>actualitatis quam dat ei illud quod in ipso recipitur: vnde 
+      tali<lb ed="#L" n="21" break="no"/>potentia siue sit separata ab actu siue coniuncta actui de se est 
+      <lb ed="#L" n="22"/>imperfecta &amp; indigens perfici per aliud: &amp; haec fuit minor: 
+      se<lb ed="#L" n="23" break="no"/>quitur ergo conclusio. Ex quo patet quod respectu actuum 
+      essen<lb ed="#L" n="24" break="no"/>tialium &amp; intramanentium non est in Deo potentia realiter 
+      <lb ed="#L" n="25"/>neque actiua neque passiu i. Non actiua, quia actus eius transis 
+      <lb ed="#L" n="26"/>in materiam exteriorem, intelligere autem &amp; velle non 
+      tran<lb ed="#L" n="27" break="no"/>seunt. Nec passiua, quia illa omnino non est in Deo, vt probati 
+      <lb ed="#L" n="28"/>est. Restat ergo quod in Deo tantum sit in potentia respectu 
+      <lb ed="#L" n="29"/>actuum transeuntium in aliud dico, vel supposito tantum vt sunt 
+      <lb ed="#L" n="30"/>potentia generandi &amp; spirandi, vel aliud supposito &amp; natura 
+      <lb ed="#L" n="31"/>quod est proprie aliud, de qua solum nunc attendimus. 
+</p>
+            <p xml:id="jsnvu6-d1e2022-d1e300">
+               <lb ed="#L" n="32"/>Ad primum argumentum dicendum quod potentia actiua dei 
+      <lb ed="#L" n="33"/>essentialiter accepta ad excludendum potentiam generandi &amp; 
+      <lb ed="#L" n="34"/>spirandi, de quibus nunc non loquimur (quia de eis satis dicti 
+      <lb ed="#L" n="35"/>est in praecedentibus) non semper est coniuncta actui, quia 
+      tun<lb ed="#L" n="36" break="no"/>sequeretur quod res fuissent ab aeterno, vt probatu fuit suprâ dist. 
+      <lb ed="#L" n="37"/>38. Et quod dicitur quod potentia non coniuncta actui est 
+      im<lb ed="#L" n="38" break="no"/>perfecta. Dicendum est quod verum est de potentia passiu: 
+      <lb ed="#L" n="39"/>quae est ad recipiendum actum in se, non autem de potenti: 
+      <lb ed="#L" n="40"/>actiua quae non est ad recipiendum aliquid in se, sed ad 
+      influen<lb ed="#L" n="41" break="no"/>dum aliquid alteri, &amp; ideo actus eius non perficit eam vel agens, 
+      <lb ed="#L" n="42"/>sed actum vel passum, quod non perficitur nec agitur nisi 
+      po<lb ed="#L" n="43" break="no"/>tentia agentis coniungatur suo actui 
+      </p>
+            <p xml:id="jsnvu6-d1e2022-d1e329">
+               <lb ed="#L" n="44"/>
+               <!--8--> Per idem patet ad secundum, quia Philosophus loquitu 
+      <lb ed="#L" n="45"/>ibi de potentia quae se habet ad actum receptiue, &amp; haec est 
+      <lb ed="#L" n="46"/>passiua vel ad ipsam reducitur. Hanc autem non ponimus in 
+      <lb ed="#L" n="47"/>deo, sed actiuam tantum: ideo &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

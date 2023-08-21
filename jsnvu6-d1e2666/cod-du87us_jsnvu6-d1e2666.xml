@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="123-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2666"><!-- l2d6q3 -->
+            <head xml:id="jsnvu6-d1e2666-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e2666-Hd1e103" type="question-title">Utrum in daemonibus sit ordo praelationis</head>
+            <p xml:id="jsnvu6-d1e2666-d1e106">
+               <lb ed="#L" n="96"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="97"/>Vtrum in daemonibus sit ordo praelationis. 
+      <lb ed="#L" n="98"/>Thom. 1. 4. 109. ar.1. 
+    </p>
+            <p xml:id="jsnvu6-d1e2666-d1e115">
+               <lb ed="#L" n="99"/>TERTIO quaeritur vtrum in daemonibus sit 
+      or<lb ed="#L" n="100" break="no"/>do praelationis. Et videtur quod non, quia in 
+      bo<lb ed="#L" n="101" break="no"/>nis angelis, nihil est inordinatum, ergo in malis 
+      <lb ed="#L" n="102"/>nihil est ordinatum. 
+      </p>
+            <p xml:id="jsnvu6-d1e2666-d1e126">
+               <lb ed="#L" n="103"/>
+               <!--2--> Item eadem est damnatio angelorum &amp; 
+      ho<lb ed="#L" n="104" break="no"/>minum, sed in hominibus damnatis non est ordo praelationis: 
+      <lb ed="#L" n="105"/>ergo neque in angelis. 
+      </p>
+            <p xml:id="jsnvu6-d1e2666-d1e138">
+               <lb ed="#L" n="106"/>
+               <!--3--> CONTRA. de primo angelo dicitur Iob 40. Ipse est rex 
+      <lb ed="#L" n="107"/>super omnes filios superbiae, sed regnum sonat in praelationem, 
+      <lb ed="#L" n="108"/>quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2666-d1e149">
+               <lb ed="#L" n="109"/>
+               <!--4--> RESPONSIO. Dicendum quod ordo praelationis est 
+      <lb ed="#L" n="110"/>in daemonibus, hoc enim congruit eorum naturae, &amp; nequitiae 
+      <lb ed="#L" n="111"/>eorum, quod congruit eorum naturae patet, quia sicut se habet 
+      <lb ed="#L" n="112"/>natura ad naturam, sic actio ad actionem, nunc est ita quod in 
+      <lb ed="#L" n="113"/>daemonibus natura vnius subditur naturae alterius, maxime 
+      <lb ed="#L" n="114"/>quoad illos qui differunt specie: ergo &amp; actio actioni. Sed ordo 
+      <lb ed="#L" n="115"/>praelationis consistit in hoc quod actio subditi subest actioni 
+      <lb ed="#L" n="116"/>praelati, &amp; secundum eam regulatur, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2666-d1e171">
+               <lb ed="#L" n="117"/>
+               <!--5--> Item congruit eorum nequitiae, quia plus nocet exercitus 
+      <lb ed="#L" n="118"/>ordinatus, quam inordinatus. Sed multitudo daemonum est 
+      <lb ed="#L" n="119"/>quasi quidam exercitus ad impugnandum homines, ergo 
+      con<lb ed="#L" n="120" break="no"/>gruit eorum nequitiae, quia volunt hominibus nocere, vt 
+      ha<lb ed="#L" n="121" break="no"/>beant inter se ordinem, &amp; hoc dicit glosa super primam 
+      epi<lb ed="#L" n="122" break="no"/>stolam ad Corinth. quod quandiu durat mundus, praesunt 
+      an<lb ed="#L" n="123" break="no"/>geli angelis, daemones daemonibus, &amp; homines hominibus. 
+      </p>
+            <p xml:id="jsnvu6-d1e2666-d1e191">
+               <lb ed="#L" n="124"/>
+               <!--6--> Ad primum argumentum dicendum quod non est simile 
+      <lb ed="#L" n="125"/>de bonis angelis &amp; malis, bonum enim potest esse integrum, &amp; 
+      <lb ed="#L" n="126"/>ideo in angelis bonis non cadit inordinatio. Sed malum non 
+      <lb ed="#L" n="127"/>potest esse integrum, esset enim importabile, &amp; seipsum 
+      destrue<lb ed="#L" n="128" break="no"/>ret, vt dicitur 4. Ethic. 
+      </p>
+            <p xml:id="jsnvu6-d1e2666-d1e207">
+               <lb ed="#L" n="129"/>
+               <!--7.--> Ad secundum dicendum quod non est simile de hominibus 
+      <lb ed="#L" n="130"/>&amp; angelis, quia inter homines non est gradus naturae, nec 
+      ho<lb ed="#L" n="131" break="no"/>mines damnati habent aliquam operationem circa nos, sicut 
+      <lb ed="#L" n="132"/>habent daemones, &amp; ideo daemonibus congruit ordo 
+      praelatio<lb ed="#L" n="133" break="no"/>nis, non autem hominibus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

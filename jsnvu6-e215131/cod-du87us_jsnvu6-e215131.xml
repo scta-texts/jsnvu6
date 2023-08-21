@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="261-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e215131"><!-- l4d5prae -->
+            <head xml:id="jsnvu6-e215131-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e215131-d1e103">
+               <lb ed="#L" n="6"/>Sententia huius distinctionis V. in 
+      <lb ed="#L" n="7"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-e215131-d1e110">
+               <lb ed="#L" n="8"/>
+               <!--1--> POST hoc sciendum est. Superius determinaui 
+      <lb ed="#L" n="9"/>magister de baptismo secundum se, &amp; per 
+      compa<lb ed="#L" n="10" break="no"/>i rationem ad suscipientes, hic determinat de eodem 
+      <lb ed="#L" n="11"/>per comparationem ad ministros conferentos. Et 
+      <lb ed="#L" n="12"/>diuiditur in duas partes. Quia primo determinat 
+      <lb ed="#L" n="13"/>de ministris. Secundo de vsu &amp; solennitate, distinct. 6. Nunc 
+      qui<lb ed="#L" n="14" break="no"/>bus liceat baptizare. Prima diuiditur in tres. Primo enim 
+      osten<lb ed="#L" n="15" break="no"/>dit quando possit a bonis &amp; a malis dari baptismus. Secunde 
+      <lb ed="#L" n="16"/>assignat rationem. Tertio mouet dubium circa potestatem 
+      mi<lb ed="#L" n="17" break="no"/>nistrorum, &amp; soluit. Secunda ibi, quia ministerium tamem habent. 
+      <lb ed="#L" n="18"/>Tertia ibi, hic quaeritur quae fit potestas. Haec est sententia &amp; 
+      <lb ed="#L" n="19"/>diuisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-e215131-d1e141">
+               <lb ed="#L" n="20"/>
+               <!--2--> In speciali autem sic procedit. Et proponit primo quod 
+      ba<lb ed="#L" n="21" break="no"/>ptismus a bonis &amp; malis ministris dari potest, &amp; aeque datur al 
+      <lb ed="#L" n="22"/>vtrisque. Non enim peior baptismus datur a malo quam a 
+      bo<lb ed="#L" n="23" break="no"/>no, nec melior a bono quam a malo, nec majus, nec minus, sed 
+      <lb ed="#L" n="24"/>aequale munus datur in baptismo, &amp; a bono &amp; a malo, quia non 
+      <lb ed="#L" n="25"/>est hominis munus, sed Dei: &amp; id pluribus aucto ritatibus 
+      confir<lb ed="#L" n="26" break="no"/>matur. Postea dicit quod huius tota ratio est, quia baptismus non 
+      <lb ed="#L" n="27"/>est eorum, sed Christi. Christi enim in baptizando ministerium 
+      <lb ed="#L" n="28"/>tantum habent: potestatem autem Chiistus retinuit, vnde non 
+      <lb ed="#L" n="29"/>dicitur baptismus Petri vel Pauli, sed Christi: potuit tamen 
+      po<lb ed="#L" n="30" break="no"/>testatem baptizandi dare hominibus, sed noluit ne tot essent ba 
+      <lb ed="#L" n="31"/>ptismi quot homines &amp; ne homo in homine spem poneret, quod 
+      <lb ed="#L" n="32"/>auctoritatibus confirmat. Vitimo quaerit quae sit illa potestas 
+      <lb ed="#L" n="33"/>quam Christus potuit dare hominibus, &amp; non dedit. Et 
+      respon<lb ed="#L" n="34" break="no"/>det magister secundum quosdam quod potestas dimittendi pec 
+      <lb ed="#L" n="35"/>cata. Contra quod obiicitur, quod potestas qua Deus dimittit 
+      <lb ed="#L" n="36"/>peccatum est idem quod Deus, ergo non potuit creaturae dare 
+      <lb ed="#L" n="37"/>hanc potestatem. Item si potestas dimittendi peccata potuit &amp; 
+      <lb ed="#L" n="38"/>potest communicari creaturae, ergo &amp; potestas creandi. Et 
+      re<lb ed="#L" n="39" break="no"/>spondet magister ad primum quod potestas dimittendi 
+      pecca<lb ed="#L" n="40" break="no"/>ta, quae creaturae posset dari, esset potestas cuiusdam 
+      coopera<lb ed="#L" n="41" break="no"/>tionis, vt sicut creatura cooperatur Deo in exteriori 
+      mundatio<lb ed="#L" n="42" break="no"/>ne per modum ministerij, ita posset cooperari in interiori. Ad 
+      <lb ed="#L" n="43"/>secundum respondet quod potestatem creandi potest creaturae 
+      <lb ed="#L" n="44"/>communicare non ita quod esset per auctoritatem, sed per 
+      mini<lb ed="#L" n="45" break="no"/>sterium, quae tamen opinio a modernis non tenetur. Et in hoc 
+      <lb ed="#L" n="46"/>terminatur sententia lectionis, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

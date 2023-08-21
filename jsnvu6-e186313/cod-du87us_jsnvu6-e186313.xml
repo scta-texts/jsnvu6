@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="226-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e186313"><!-- l3d28q1 -->
+            <head xml:id="jsnvu6-e186313-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e186313-Hd1e103" type="question-title">Utrum omnia ex charitate sint diligenda</head>
+            <p xml:id="jsnvu6-e186313-d1e106">
+               <lb ed="#L" n="137"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="138"/>Vtrum omnia ex charitate sint diligenda. 
+      <lb ed="#L" n="139"/>Thom. 22. 9. 25. 
+    </p>
+            <p xml:id="jsnvu6-e186313-d1e115">
+               <lb ed="#L" n="140"/>CIRCA distinctionem ista primo quaeritur vtrum 
+      <lb ed="#L" n="141"/>omnia ex charitate sint diligenda. Et videtur quod 
+      <lb ed="#L" n="142"/>sic, quia per charitatem conformamur dilectioni 
+      <lb ed="#L" n="143"/>dei. Sed deus diligit omnia quae sunt, vt habetu 
+      <lb ed="#L" n="144"/>A Sapien. 11. ergo nos debemus ex charitate omni 
+      <lb ed="#L" n="145"/>diligere. 
+      </p>
+            <p xml:id="jsnvu6-e186313-d1e131">
+               <lb ed="#L" n="146"/>
+               <!--2--> Item charitas correspondet fidei, sed per fidem cognoscimu 
+      <lb ed="#L" n="147"/>omnia; vel cognoscere possumus prout omnia possunt haber 
+      <lb ed="#L" n="148"/>per reuelationem diuinam cui fides innititur, ergo videtur quod 
+      <lb ed="#L" n="149"/>per charitatem diligenda sunt omnia. 
+      </p>
+            <p xml:id="jsnvu6-e186313-d1e145">
+               <lb ed="#L" n="150"/>
+               <!--3--> IN CONTRARIVM est quod dicit August. in litera 
+      <lb ed="#L" n="151"/>quod illa solum sunt ex charitate diligenda quae nobis consocie 
+      <lb ed="#L" n="152"/>tate quadam referuntur in deum; sed non omnia sunt talia, sed 
+      <lb ed="#L" n="153"/>solum creaturae rationales, ego &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e186313-d1e158">
+               <lb ed="#L" n="154"/>
+               <!--4--> RESPONSIO. Videnda sunt duo. Primum est quod non 
+      <lb ed="#L" n="155"/>omnia sunt ex charitate diligenda, sed solum deus &amp; creatura 
+      <lb ed="#L" n="156"/>rationales. Secundum est quod non omnes creaturae rationales sunt 
+      <lb ed="#L" n="157"/>ex charitate diligendae, quia non damnati, siue angeli siue homine 
+      </p>
+            <p xml:id="jsnvu6-e186313-d1e171">
+               <lb ed="#L" n="158"/>
+               <!--6--> Quantum ad primum aduertendum est qo licet proprium sit 
+      <lb ed="#L" n="159"/>charitatis ponere in actu amoris rationem meriti nihilominus 
+      <lb ed="#L" n="160"/>tamen ipse actus diligendi deum magis respicit amorem amicitia 
+      <lb ed="#L" n="161"/>quam amore concupiscentiae, nec est intelligendum istos amore 
+      <!--00527.xml-->
+      <pb ed="#L" n="227-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>esse duos actus, sed vnicum qui dupliciter nominatur secundum du 
+      <lb ed="#L" n="2"/>plex obiectum. Cum enim amare sit velle bonum alicui, iste actus re 
+      <lb ed="#L" n="3"/>spectu illius cui bonum volumus propter se dicitur amor amici 
+      <lb ed="#L" n="4"/>tiae, bonum autem quod ei volumus dicitur amari amore concup 
+      <lb ed="#L" n="5"/>scentiae. Et quia perfectior est amor quo quis amatur ppter si 
+      <lb ed="#L" n="6"/>quam ille quo quis amatur propter aliud, ideo charitas quae 
+      sum<lb ed="#L" n="7" break="no"/>ma perfectio est in actu diligendi magis respicit amorem amicitia 
+      <lb ed="#L" n="8"/>quam concupiscentiae, imo illum non respicit nisi quia ad alium ordinatur
+</p>
+            <p xml:id="jsnvu6-e186313-d1e208">
+               <lb ed="#L" n="9"/>Ex hoc potest dupliciter argui ad probandum propositum 
+      <lb ed="#L" n="10"/>Primo sic, ad illum non habetur proprie charitas ad quem non po 
+      <lb ed="#L" n="11"/>test haberi amor amicitiae, sed ad irrationales creaturas non po 
+      <lb ed="#L" n="12"/>test haberi pprie amor amicitiae, ergo nec charitas. Minor 
+      pa<lb ed="#L" n="13" break="no"/>tet, quia proprie non habetur amor amicitiae nisi ad illud cui ve 
+      <lb ed="#L" n="14"/>lumus bonum propter se. Creaturis autem irrationalibus nihil tali 
+      <lb ed="#L" n="15"/>volumus, sed totum ad nos referimus, non enim volo bonum esse v 
+      <lb ed="#L" n="16"/>num propter vinum, sed propter me, vel ppter amicum. Et sic est de 
+      <lb ed="#L" n="17"/>omnibus aliis quia nos sumus quodammodo fines omnium, vt 
+      di<lb ed="#L" n="18" break="no"/>citur 2. Physi. ergo &amp;c. Secundo patet idem &amp; ex eadem radice sic, 
+      <lb ed="#L" n="19"/>Amor amicitiae attenditur secundum aliquam communicationem 
+      <lb ed="#L" n="20"/>in vita, sed nulla creatura irrationalis habet nobiscum communica 
+      <lb ed="#L" n="21"/>re proprie in vita, quia talis communicatio consistit in communica 
+      <lb ed="#L" n="22"/>tione operum vitae. Creaturae autem irrationales proprie non agunt 
+      <lb ed="#L" n="23"/>sed magis aguntur, ergo ad ipsas proprie non est amor amicitiae 
+      <lb ed="#L" n="24"/>quare nec charitas. Amor tamen talium includitur in amore charita 
+      <lb ed="#L" n="25"/>tis inquantum ex charitate aliquem diligimus cui talia volumus siue 
+      <lb ed="#L" n="26"/>sint spiritualia bona vt virtutes, siue corpalia vt res exteriores 
+</p>
+            <p xml:id="jsnvu6-e186313-d1e250">
+               <lb ed="#L" n="27"/>
+               <!--8--> SECVNDVM patet scilicet quod ad damnatos homines vel 
+      an<lb ed="#L" n="28" break="no"/>gelos non habetur proprie charitas. Primo quia charitas funda 
+      <lb ed="#L" n="29"/>tur super communicationem vitae beatae habitae vel possibilis 
+      ha<lb ed="#L" n="30" break="no"/>beri. Sed damnati siue homines, siue angeli non possunt nobiscum in 
+      <lb ed="#L" n="31"/>illa vita communicare, ergo non sunt ex Charitate diligendi. Secum 
+      <lb ed="#L" n="32"/>do, qa sicut amor ciuilis fundatur super virtutes acquisitas 
+      si<lb ed="#L" n="33" break="no"/>amor charitatis super virtutes infusas vt natae sunt ad 
+      beatitu<lb ed="#L" n="34" break="no"/>dinem perducere, sed ad illos qui non habent virtutes ciuiles &amp; iam 
+      <lb ed="#L" n="35"/>sunt in malitia obdurati adeo vt sint incurabiles est soluenda 
+      <lb ed="#L" n="36"/>amicitia secundum Arist. 9. Ethi. ergo ad damnatos homines, vel 
+      ange<lb ed="#L" n="37" break="no"/>los qui sunt totaliter obstinati nec reuerti possunt ad statum 
+      vir<lb ed="#L" n="38" break="no"/>tuosae vitae &amp; supernaturalis non est habendus amor charitatis 
+      </p>
+            <p xml:id="jsnvu6-e186313-d1e281">
+               <lb ed="#L" n="39"/>
+               <!--9--> AD PRIMVM argumentum dicendum quod 
+      Deu<lb ed="#L" n="40" break="no"/>diligit omnia volendo omnibus aliquod bonum, sed non 
+      bo<lb ed="#L" n="41" break="no"/>num gratiae vel gloriae in cuius communicatione fundatur amo 
+      <lb ed="#L" n="42"/>charitatis. Et ideo non debemus omnes ex charitate diligere 
+      <lb ed="#L" n="43"/>sed solum illos qui sunt capaces gratiae &amp; gloriae, nec in hoc di 
+      <lb ed="#L" n="44"/>uertimus a forma dilectionis diuinae. 
+      </p>
+            <p xml:id="jsnvu6-e186313-d1e300">
+               <lb ed="#L" n="45"/>
+               <!--10--> Ad secundum dicendum quod non est simile de fide quae perti 
+      <lb ed="#L" n="46"/>net ad cognitionem &amp; de dilectione charitatis, quia 
+      cogniti<lb ed="#L" n="47" break="no"/>porest se extendere ad omnia bona &amp; mala, dilectio autem non 
+      <lb ed="#L" n="48"/>nisi ad bona. Et dilectio charitatis non est nisi ad illos quibus 
+      <lb ed="#L" n="49"/>bona gratiae &amp; gloriae sunt communicabilia. Et hae sunt inter 
+      <lb ed="#L" n="50"/>creaturas, solum rationales beatae, vel in via existentes,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

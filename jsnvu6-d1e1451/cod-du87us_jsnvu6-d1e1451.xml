@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="69-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1451"><!-- l1d28q2 -->
+            <head xml:id="jsnvu6-d1e1451-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e1451-Hd1e103" type="question-title">Utrum sit proprietas constitutiva personae patris</head>
+            <p xml:id="jsnvu6-d1e1451-d1e106">
+               <lb ed="#L" n="6"/>QVAESTIO SECVNDA. 
+      <lb ed="#L" n="7"/>vtrum ingenitum sit proprietas patris 
+      <lb ed="#L" n="8"/>constitutiua. 
+      <lb ed="#L" n="9"/>Tham. l. . 33. ar. 4. 
+    </p>
+            <p xml:id="jsnvu6-d1e1451-d1e117">
+               <lb ed="#L" n="10"/>AD SECVNDVM sic proceditur. Et videtur. 
+      <lb ed="#L" n="11"/>ingenitum, seu innascibilitas sit proprietas 
+      con<lb ed="#L" n="12" break="no"/>stitutiua patris, quia prima persona constituitu 
+      <lb ed="#L" n="13"/>per primam in proprietatem, sed pater est 
+      pri<lb ed="#L" n="14" break="no"/>ma persona, Innascibilitas vero est prima 
+      pro<lb ed="#L" n="15" break="no"/>prietas, ergo &amp;c. Maior patet. Sed minor probatur quantum 
+      <lb ed="#L" n="16"/>ad hanc partem quod innascibilitas sit prima proprietas. Alia enim 
+      <lb ed="#L" n="17"/>pars plana est, scilicet quod pater sit prima persona. Quod autem 
+      <lb ed="#L" n="18"/>innascibilitas sit prima proprietas probatur multipliciter. 
+      Pri<lb ed="#L" n="19" break="no"/>mo sic, illud quod est vltimum in resolutione est primum in 
+      com<lb ed="#L" n="20" break="no"/>positione, sed innascibilitas est vltimum in resolutione, quia 
+      il<lb ed="#L" n="21" break="no"/>lud est vltimum in resolutione in quo statur nec contingit 
+      vlte<lb ed="#L" n="22" break="no"/>rius quaerere, sed perueniendo ad innascibilitatem statur. 
+      In<lb ed="#L" n="23" break="no"/>nascibile enim est quod non est ab alio priore, perueniendo au 
+      <lb ed="#L" n="24"/>tem ad paternitatem non statur, quia dato, quod pater esset al 
+      <lb ed="#L" n="25"/>alio non propter hoc desineret esse pater, ergo innascibilitas es 
+      <lb ed="#L" n="26"/>vltimum in resolutione, quare oportet quod sit primum in 
+      com<lb ed="#L" n="27" break="no"/>positione. Secundo sic, si innascibilitas esset posterior 
+      paterni<lb ed="#L" n="28" break="no"/>tate, esset posterior etiam filiatione, quia paternitas &amp; 
+      filiati<lb ed="#L" n="29" break="no"/>tanquam correlatiua sunt simul natura &amp; intellectu, hoc aut 
+      <lb ed="#L" n="30"/>non potest esse, quia omne quod est posterius filiatione 
+      com<lb ed="#L" n="31" break="no"/>municatur filio, innascibilitas autem non potest communicari 
+      <lb ed="#L" n="32"/>filio, ergo non est posterior filiatione &amp; paternitate, ergo es 
+      <lb ed="#L" n="33"/>prior, &amp; sic idem quod prius. Item si innascibilitas esset 
+      poste<lb ed="#L" n="34" break="no"/>rior filiatione dependeret ab ea, sed hoc est falsum, ergo &amp;c. 
+      <lb ed="#L" n="35"/>Terrio sic, si innascibilitas esset posterior paternitate &amp; 
+      filia<lb ed="#L" n="36" break="no"/>tione, aut esset medium inter filiationem &amp; communem 
+      spiratio<lb ed="#L" n="37" break="no"/>nem, aut in eodem gradu cum spiratione actiua, aut posterior. 
+      <lb ed="#L" n="38"/>Non potest dici quod sit medium, quia tunc communis spiratio 
+      <lb ed="#L" n="39"/>conueniret filio per innascibilitatem, quod falsum est, nec sunt 
+      <lb ed="#L" n="40"/>in eodem gradu cum vnum sit affirmatiuum reliquum 
+      priuati<lb ed="#L" n="41" break="no"/>uum quae non possent esse eiusdem gradus, nec est posterior 
+      spi<lb ed="#L" n="42" break="no"/>ratione actiua, quia esset posterior spiratione passiua cum 
+      dican<lb ed="#L" n="43" break="no"/>tur relatiue, &amp; sint simul. Hoc autem est absurdum, scilicetc 
+      <lb ed="#L" n="44"/>innascibilitas quae est proprietas solius patris sit posterior pro 
+      <lb ed="#L" n="45"/>prietate spiritus sancti, ergo innascibilitas nullo modo sequi 
+      <lb ed="#L" n="46"/>tur filiationem aut paternitatem: praecedit ergo, &amp; sic prima 
+      <lb ed="#L" n="47"/>proprietas &amp;c. Quarto, quia illud est prius quod plus habet de 
+      <lb ed="#L" n="48"/>ratione primi, sed innascibilitas plus habet de ratione primi? 
+      <lb ed="#L" n="49"/>paternitas, ergo &amp;c. Minor probatur quia plus est de rationi 
+      <lb ed="#L" n="50"/>primi quod non sit ab alio quam quod ab ipso sit aliud, quia 
+      <lb ed="#L" n="51"/>Christus dicitur primogenitus matris. Matt. I. &amp; Luc. 2. ex ec 
+      <lb ed="#L" n="52"/>quod ante eum non fuit alius, &amp; non quia post ipsum fuit aliu: 
+      <lb ed="#L" n="53"/>ergo &amp;c. Sic ergo probata est, minor sequitur ergo conclusio. 
+      </p>
+            <p xml:id="jsnvu6-d1e1451-d1e215">
+               <lb ed="#L" n="54"/>
+               <!--2--> IN CONTRARIVM arguitur, quia personae 
+      diui<lb ed="#L" n="55" break="no"/>nae constituuntur per se relationibus, sed paternitas est 
+      rela<lb ed="#L" n="56" break="no"/>tio per se, innascibilitas vero non est relatio nisi per 
+      reductio<lb ed="#L" n="57" break="no"/>nem, sicut reducitur negatio ad affirmatiuam vel priuatio ad 
+      <lb ed="#L" n="58"/>habitum, ergo pater prius &amp; magis per se constituitur per pa 
+      <lb ed="#L" n="59"/>ternitatem quam per innascibilitatem. 
+      </p>
+            <p xml:id="jsnvu6-d1e1451-d1e234">
+               <lb ed="#L" n="60"/>
+               <!--3--> RESPONSIO. Quidam dicunt quod pater per 
+      priu<lb ed="#L" n="61" break="no"/>constituitur in esse personali per innascibilitatem quam per 
+      pater<lb ed="#L" n="62" break="no"/>nitatem. Quorum vna ratio est illa quae posita est in arguendo. 
+      <lb ed="#L" n="63"/>Sunt etiam aliae plures additae ad idem. Quarum prima talis 
+      <lb ed="#L" n="64"/>est. Sicut se habet habere esse ad communicare, ita modus 
+      ha<lb ed="#L" n="65" break="no"/>bendi ad modum communicandi, sed habere esse prius est quam 
+      <lb ed="#L" n="66"/>communicare esse, ergo modus habendi est prior quam modus 
+      <lb ed="#L" n="67"/>communicandi, sed innascibilitas dicit modum quo pater 
+      ha<lb ed="#L" n="68" break="no"/>bet esse, scilicet non ab alio, paternitas vero dicit modum com 
+      <lb ed="#L" n="69"/>municandi esse scilicet per generationem, ergo prius est 
+      inna<lb ed="#L" n="70" break="no"/>scibilitas quam paternitas, sed per primam proprietatem 
+      con<lb ed="#L" n="71" break="no"/>stituitur prima persona, ergo &amp;c. Secunda talis est. Illud quod 
+      <lb ed="#L" n="72"/>est alteri ratio essendi est prius illo, sed innascibilitas est patri 
+      <lb ed="#L" n="73"/>ratio generandi, &amp; per consequens ratio paternitatis, ergo 
+      in<lb ed="#L" n="74" break="no"/>nascibilitas est prior paternitate, &amp; sic idem quod est prius,m 
+      <lb ed="#L" n="75"/>nor probatur dupliciter. Primo quia sicut se habet genitus ad 
+      <lb ed="#L" n="76"/>non generare ita ingenitus ad generare, sed filius, quia genitus 
+      <lb ed="#L" n="77"/>non generat, ergo pater, quia ingenitus generat. Secundo, quia 
+      <lb ed="#L" n="78"/>sicut se habet non spiratus ad spirare, ita ingenitus ad 
+      genera<lb ed="#L" n="79" break="no"/>re, sed filius, quia non spiratus spirat, ergo pater, quia ingenitus 
+      <!--00203.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>generat, &amp; haec fuit minor. Tertia talis est, illa quae sunt in Deo 
+      <lb ed="#L" n="81"/>perfectiora minus possunt communicari creaturis, sed 
+      pater<lb ed="#L" n="82" break="no"/>nitas communicatur creaturis, non autem innascibilitas, erge 
+      <lb ed="#L" n="83"/>innascibilitas est perfectior quam paternitas, sed per 
+      proprie<lb ed="#L" n="84" break="no"/>tatem perfectiorem prima constituitur persona, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1451-d1e297">
+               <lb ed="#L" n="85"/>
+               <!--4--> Alij dicunt, quod innascibilitas non primo constituit 
+      per<lb ed="#L" n="86" break="no"/>sonam patris, imo omnino non constituit. Et hoc mihi videtur 
+      <lb ed="#L" n="87"/>verius. Cuius ratio est, quia illud quod de se nihil ponit, sec 
+      <lb ed="#L" n="88"/>supponit, non potest constituere primam personam in diuinis 
+      <lb ed="#L" n="89"/>sed innascibilitas nihil ponit, sed supponit, ergo &amp;c. Maior 
+      pa<lb ed="#L" n="90" break="no"/>tet, quia positiuum oportet constitui a positiuo aliquo, &amp; 
+      pri<lb ed="#L" n="91" break="no"/>mum a primo, quod autem nihil ponit non est positiuum, 
+      <lb ed="#L" n="92"/>quod vero supponit aliud, non est primum, ergo quod nihil po 
+      <lb ed="#L" n="93"/>nit, sed supponit, non potest constituere primam personam 
+      <lb ed="#L" n="94"/>in diuinis, tum quia positiua est, tum quia prima. Minor 
+      simi<lb ed="#L" n="95" break="no"/>liter clara est ex ratione terminorum, innascibilitas enim vel 
+      <lb ed="#L" n="96"/>est negatio vel priuatio. Neutro autem modo ponit aliquid 
+      <lb ed="#L" n="97"/>sed supponit subiectum, vel aliquam proprietatem per quam 
+      <lb ed="#L" n="98"/>conuenit substantiae, quare &amp;c. Et videtur haec ratio 
+      sufficien<lb ed="#L" n="99" break="no"/>ter concludere q innascibilitas non solum non constituit 
+      pri<lb ed="#L" n="100" break="no"/>mo personam patris, quia non est proprietas prima, imo nihil 
+      <lb ed="#L" n="101"/>facit ad eius constitutionem, quia non est positiua proprietas, 
+      <lb ed="#L" n="102"/>ad constitutionem enim positiui nihil facit nisi quod est 
+      po<lb ed="#L" n="103" break="no"/>sitiuum, vnde sicut ad constitutionem spiritus sancti nihil 
+      fa<lb ed="#L" n="104" break="no"/>cit quod ab ipso non est alius: ita ad constitutionem patris 
+      ni<lb ed="#L" n="105" break="no"/>hil facit quod ipse non est ab alio quod est esse innascibilem 
+      <lb ed="#L" n="106"/>vel ingenitum. Item illa proprietas per quam vna persona non 
+      <lb ed="#L" n="107"/>coexigit aliam non est constitutiua personae, sed 
+      innascibili<lb ed="#L" n="108" break="no"/>tas est huiusmodi, ergo &amp;c. Maior patet, quia cum persona 
+      di<lb ed="#L" n="109" break="no"/>uina sit relatiua necessario coexigit aliam, quod oportet esse 
+      <lb ed="#L" n="110"/>ratione proprietatis constituentis ipsam, minor etiam 
+      mani<lb ed="#L" n="111" break="no"/>festa est, quia pater ratione innascibilitatis solum negat 
+      perso<lb ed="#L" n="112" break="no"/>nam a qua fit, &amp; non ponit aliquam. 
+      </p>
+            <p xml:id="jsnvu6-d1e1451-d1e362">
+               <lb ed="#L" n="113"/>
+               <!--5--> AD PRIMVM argumentum principale est dicendum 
+      <lb ed="#L" n="114"/>per interemptionem minoris, scilicet quia innascibilitas non es 
+      <lb ed="#L" n="115"/>prima proprietas. Et cum probatur, quia illud quod est vltimum 
+      <lb ed="#L" n="116"/>in resolutione est primum in compositione. Concedatur tune 
+      <lb ed="#L" n="117"/>ad minorem per interemptionem, innascibilitas non est vltimi 
+      <lb ed="#L" n="118"/>in resolutione, imo nec est aliquid eorum quae sunt in 
+      resolu<lb ed="#L" n="119" break="no"/>tione, quia nec est aliquid eorum quae sunt in compositione, 
+      ne<lb ed="#L" n="120" break="no"/>gatio enim &amp; priuatio licet possint consequi ad ea quae intrant 
+      <lb ed="#L" n="121"/>compositionem, nunquam tamen sunt de compositione rei, nec 
+      <lb ed="#L" n="122"/>per consequens fit in ea resolutio per se. Et quod probatur 
+      vl<lb ed="#L" n="123" break="no"/>terius, quia illud est vltimum in resolutione in quo statur, nec 
+      <lb ed="#L" n="124"/>contingit vlterius quaerere. Dicendum quod ista resolutio aut 
+      in<lb ed="#L" n="125" break="no"/>telligitur de resolutione primae personae in ea quae ipsam 
+      con<lb ed="#L" n="126" break="no"/>stituunt, aut de resolutione diuinarum personarum in primam, 
+      <lb ed="#L" n="127"/>quae resolutio fit secundum rationem producentis &amp; 
+      produ<lb ed="#L" n="128" break="no"/>cti. In qua resolutione fit status in primo producente, si 
+      intel<lb ed="#L" n="129" break="no"/>ligatur de prima resolutione quae est personae primae in 
+      consti<lb ed="#L" n="130" break="no"/>tuentia ipsam, sic nullo modo fit resolutio in innascibilitatem 
+      <lb ed="#L" n="131"/>nec in ipsa statur, quia non cadit in constitutionem vt prius di 
+      <lb ed="#L" n="132"/>ctum est, sed fit resolutio in paternitatem, &amp; in ipsa statur, quia 
+      <lb ed="#L" n="133"/>licet paternitas secundum communem rationem nominis 
+      di<lb ed="#L" n="134" break="no"/>cat tantum relationem fundatam super potentiam vel actum 
+      <lb ed="#L" n="135"/>generandi, tamen vt in diuinis accipitur dicit plus, scilicet 
+      rela<lb ed="#L" n="136" break="no"/>tionem fundatam super vniuersalitatem principij, vel super pri 
+      <lb ed="#L" n="137"/>mitatem principij omnium originum diuinarum, in primo 
+      au<lb ed="#L" n="138" break="no"/>tem &amp; vniuersali principio semper est status. Non enim esset. 
+      <lb ed="#L" n="139"/>principium omnium, si in eo non staretur, sed esset ab alio, 
+      pro<lb ed="#L" n="140" break="no"/>pter quod in paternitate sic accepta statur sicut in prima 
+      pro<lb ed="#L" n="141" break="no"/>prietate constituente personam patris, non autem in 
+      innasci<lb ed="#L" n="142" break="no"/>bilitate. Si vero fiat reductio vel resolutio personarum 
+      diuina<lb ed="#L" n="143" break="no"/>rum in primam, sic statur in patre. Sed de hoc nihil ad 
+      propo<lb ed="#L" n="144" break="no"/>situm, nisi diceretur quod in patre est status quatenus est 
+      in<lb ed="#L" n="145" break="no"/>nascibilis, &amp; non quatenus pater. Sed hoc exclusum est per hoc 
+      <lb ed="#L" n="146"/>quod dictum est quod paternitas dicit proprietatem 
+      funda<lb ed="#L" n="147" break="no"/>tam super vniuersalitatem principij in qua ratione statur, nec 
+      <lb ed="#L" n="148"/>est vlterius quaerere in diuinis, sed licet in innascibili sit status 
+      <lb ed="#L" n="149"/>non tamen ratione innascibilitatis, quia potest vlterius quaer 
+      <lb ed="#L" n="150"/>quare sit innascibilis, quia omnis priuatio habet causam, 
+      cau<lb ed="#L" n="151" break="no"/>sa enim vel ratio innascibilitatis est vniuersalitas principij &amp; 
+      <lb ed="#L" n="152"/>non econuerso, quia negatio vel priuatio nullius positiui est 
+      <lb ed="#L" n="153"/>per se ratio vel causa, sed econuerso. 
+      </p>
+            <p xml:id="jsnvu6-d1e1451-d1e456">
+               <lb ed="#L" n="154"/>
+               <!--6--> Ad secundam probationem eiusdem minoris, quum dicitur 
+      <lb ed="#L" n="155"/>innascibilitas esset posterior paternitate, &amp;c. Dicendum quod in di 
+      <lb ed="#L" n="156"/>uinis non est prius &amp; posterius secundum rem, licet sit ibi ordo 
+      <lb ed="#L" n="157"/>originis quo vnum est ab alio. Et tamen in diuinis dare prius &amp; 
+      <lb ed="#L" n="158"/>posterius secundum modum intelligendi, &amp; hic ordo est inter illa 
+      <lb ed="#L" n="159"/>quorum intellectus vnius supponit intellectum alterius. Haec ess 
+      <lb ed="#L" n="160"/>enim ratio eorum quae se habet secundum prius &amp; posterius, q 
+      <lb ed="#L" n="161"/>posterius supponit suum prius. Dicendum ergo quod paternitas 
+      <!--00204.xml-->
+      <pb ed="#L" n="69-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>&amp; innascibilitas generaliter sumpta non habent inter se 
+      ordi<lb ed="#L" n="2" break="no"/>nem, ita vt vnum sit prius altero, quia quodlibet potest inueni 
+      <lb ed="#L" n="3"/>ri sine altero. Aliquis enim est pater, qui non est innascibilis, v 
+      <lb ed="#L" n="4"/>est in hominibus. Et innascibile posset alicui conuenire sine pa 
+      <lb ed="#L" n="5"/>ternitate, sicut si esset in diuinis vnum suppositum absolutum 
+      <lb ed="#L" n="6"/>vnde intellectus vnius non supponit intellectum alterius, 
+      pro<lb ed="#L" n="7" break="no"/>pter quod non habent inter se aliquem ordinem prioris &amp; 
+      poste<lb ed="#L" n="8" break="no"/>rioris, tamen ista vt conueniunt diuinis inter se habent 
+      ordin<lb ed="#L" n="9" break="no"/>prioris &amp; posterioris. Paternitas enim hoc modo prior est 
+      in<lb ed="#L" n="10" break="no"/>nascibilitate, quia paternitas dicit primam relationem 
+      funda<lb ed="#L" n="11" break="no"/>tam super auctoritatem principij vniuersalis. Innascibilitas 
+      ve<lb ed="#L" n="12" break="no"/>ro dicit priuationem essendi ab alio, per prius enim &amp; 
+      essentia<lb ed="#L" n="13" break="no"/>lius conuenit vniuersali principio esse principium primi produ 
+      <lb ed="#L" n="14"/>cti, quam non esse ab alio. Et ideo paternitas est prior 
+      innasci<lb ed="#L" n="15" break="no"/>bilitate, &amp; cum dicis, ergo filiatio similiter esse prior, 
+      conceda<lb ed="#L" n="16" break="no"/>tur. Et cum subditur: Omne quod est posterius filiatione ess 
+      <lb ed="#L" n="17"/>communicabile filio, verum est in positiuis, non autem in 
+      nega<lb ed="#L" n="18" break="no"/>tiuis vel priuatiuis, quia negatio &amp; priuatio non possunt 
+      com<lb ed="#L" n="19" break="no"/>municari, nisi ratio per quam inest subiecto sit communicabilis. 
+      <lb ed="#L" n="20"/>Et quia auctoritas principij vniuersalis super quam fundatur 
+      in<lb ed="#L" n="21" break="no"/>nascibilitas non est communicabilis filio, ideo nec innascibilitas 
+      </p>
+            <p xml:id="jsnvu6-d1e1451-d1e530">
+               <lb ed="#L" n="22"/>
+               <!--7--> Quod dicitur tertio si innascibilitas esset posterior 
+      pater<lb ed="#L" n="23" break="no"/>nitate &amp; filiatione, &amp;c. Dicendum quod innascibilitas nec est 
+      <lb ed="#L" n="24"/>media inter filiationem &amp; spirationem, nec est simul cum 
+      spi<lb ed="#L" n="25" break="no"/>ratione, nec posterior est, quia etsi ipsa possit habere aliquen 
+      <lb ed="#L" n="26"/>ordinem ad filiationem ratione paternitatis cum qua filiatio 
+      <lb ed="#L" n="27"/>est simul, tamen nullum omnino ordinem habet ad 
+      spiratio<lb ed="#L" n="28" break="no"/>nem actiuam vel passiuam. 
+      </p>
+            <p xml:id="jsnvu6-d1e1451-d1e550">
+               <lb ed="#L" n="29"/>
+               <!--8--> Et ad illud quod quarto dicitur quod innascibilitas habet plus 
+      <lb ed="#L" n="30"/>de ratione primi quam paternitas. Dicendum quod est falsum, 
+      qui<lb ed="#L" n="31" break="no"/>ratio primi non consistit in non esse ab alio. Tum quia ratio po 
+      <lb ed="#L" n="32"/>sitiui totaliter consistit in eo quod positiuum est. Primum 
+      au<lb ed="#L" n="33" break="no"/>tem dicit quid positiuum: Et ideo non esse ab alio nullo 
+      mod<lb ed="#L" n="34" break="no"/>est intrinsece de ratione primi. Tum quia si esset vnum tantum, 
+      <lb ed="#L" n="35"/>illud esse innascibile vel non ab alio, non tamen primum. In quo 
+      <lb ed="#L" n="36"/>ergo consistit ratio primi: dicendum quod cum primum sit nomi 
+      <lb ed="#L" n="37"/>ordinis. Primum est ex quo, vel post quod omnia alia sunt. Et 
+      <lb ed="#L" n="38"/>verum est quod ad hoc sequitur quod a nullo sit, sed non est hoc 
+      <lb ed="#L" n="39"/>intrinsece de ratione primi, sed est proprietas concomitans. Con 
+      <lb ed="#L" n="40"/>stat autem quod paternitas quae est proprietas originis respecti 
+      <lb ed="#L" n="41"/>alterius magis participat rationem primi iam dictam quam 
+      inn<lb ed="#L" n="42" break="no"/>scibilitas. Et quod dicitur vlterius, quod Christus dicitur 
+      primo<lb ed="#L" n="43" break="no"/>genitus, &amp;c. Dicendum quod scriptura non semper seruat 
+      pro<lb ed="#L" n="44" break="no"/>prium modum loquendi. Et iterum licet non fuerit post ipsum 
+      <lb ed="#L" n="45"/>Christum alius a matre genitus, potuit tamen esse quantu fui 
+      <lb ed="#L" n="46"/>ex cursu naturae. Et hoc minuit improprietatem modi loquendi. 
+      </p>
+            <p xml:id="jsnvu6-d1e1451-d1e595">
+               <lb ed="#L" n="47"/>
+               <!--9--> AD RATIONES contrariae opinionis. Ad primam con 
+      <lb ed="#L" n="48"/>cedo totum vsque ibi, innascibilitas dicit modum habendi esse, 
+      pa<lb ed="#L" n="49" break="no"/>ternitas vero modum communicandi. Et istud est negandum. 
+      In<lb ed="#L" n="50" break="no"/>nascibilitas enim non dicit formaliter modum habendi esse, sed 
+      <lb ed="#L" n="51"/>modum non habendi, paternitas vero modum communicandi 
+      <lb ed="#L" n="52"/>non dicit, sed proprietatem personae communicantis. Sed vniuer 
+      <lb ed="#L" n="53"/>salitas principij dicit modum habendi esse, scilicet vt in fonte. Et 
+      <lb ed="#L" n="54"/>ideo haec secundum modum intelligendi praecedit vtrunque, scilice 
+      <lb ed="#L" n="55"/>paternitatem &amp; innascibilitatem tanquam fundamentum 
+      vtrius<lb ed="#L" n="56" break="no"/>que. Posset etiam dici quod in absolutis prius est habere esse 
+      <lb ed="#L" n="57"/>&amp; modum habendi, quam communicare esse &amp; modum 
+      communi<lb ed="#L" n="58" break="no"/>candi. Sed in his quae constituuntur in esse per communicare 
+      <lb ed="#L" n="59"/>esse sicut sunt personae diuinae, quae constituuntur in esse 
+      per<lb ed="#L" n="60" break="no"/>sonali per dare esse &amp; accipere esse non est verum, sed sunt 
+      si<lb ed="#L" n="61" break="no"/>mul secundum intellectum verum habere esse &amp; 
+      communica<lb ed="#L" n="62" break="no"/>re esse modus habendi, &amp; modus communicandi, vnde praeter 
+      <lb ed="#L" n="63"/>falsitatem minoris maior etiam non est vniuersaliter vera. 
+      </p>
+            <p xml:id="jsnvu6-d1e1451-d1e637">
+               <lb ed="#L" n="64"/>
+               <!--10--> Ad secundum dicendum per interemptionem minoris, 
+      <lb ed="#L" n="65"/>quia innascibilitas non est paternitati ratio essendi. Ad 
+      proba<lb ed="#L" n="66" break="no"/>tionem cum dicitur sicut se habet genitus ad non generare, ita 
+      <lb ed="#L" n="67"/>genitus ad generare. Dicendum quod falsum est, quia 
+      affirma<lb ed="#L" n="68" break="no"/>tio potest esse causa negationis &amp; non econuerso, vnde esse g 
+      <lb ed="#L" n="69"/>nitum potest esse ratio non generandi. Ex eo enim quod est al 
+      <lb ed="#L" n="70"/>quid genitum habet quod non sit vniuersale principium, &amp; 
+      pe<lb ed="#L" n="71" break="no"/>consequens quod non sit pater, prout paternitas sumitur in 
+      <lb ed="#L" n="72"/>diuinis modo superius dicto, sed ingenitum inquantum 
+      huius<lb ed="#L" n="73" break="no"/>modi nullius affirmatiui est causa seu ratio, sed solum 
+      nega<lb ed="#L" n="74" break="no"/>esse ab alio. Et quod dicitur postea filius, quia non spiratus 
+      spi<lb ed="#L" n="75" break="no"/>aet, ergo pater, quia non genitus generat. Dicendum quod 
+      an<lb ed="#L" n="76" break="no"/>tecedens est falsum, filius enim spirat, quia habet virtutem 
+      spi<lb ed="#L" n="77" break="no"/>randi, &amp; non quia non est spiratus, oportet enim positiui esse 
+      <lb ed="#L" n="78"/>causam positiuam &amp; non negatiuam tantum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1451-d1e674">
+               <lb ed="#L" n="79"/>
+               <!--11--> Ad tertium dicendum quod sola positiua directe &amp; formalite 
+      <lb ed="#L" n="80"/>important perfectionem. Et ideo inter positiua quae Deo 
+      con<lb ed="#L" n="81" break="no"/>ueniunt illa sunt perfectiora quae minus possunt communicari 
+      <lb ed="#L" n="82"/>creaturis, sicut omnipotentia perfectior est quam sapientia. Si 
+      <!--00204.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>autem alterum sit positiuum &amp; non communicabile. Alterum 
+      <lb ed="#L" n="84"/>vero priuatiuum &amp; incommunicabile, non propter hoc illud 
+      <lb ed="#L" n="85"/>negatiuum, quantum ad hoc quod dicit formaliter, erit 
+      perfe<lb ed="#L" n="86" break="no"/>ctius positiuo, quia negatio nullam perfectionem ponit, licet 
+      <lb ed="#L" n="87"/>forte aliquid supponat perfectius illo positiuo. Et hoc modo 
+      <lb ed="#L" n="88"/>ingenitum vel innascibilitas supponit vniuersalitatem 
+      princi<lb ed="#L" n="89" break="no"/>pij quae est incommunicabilis &amp; aliquid perfectius vel quasi 
+      <lb ed="#L" n="90"/>perfectius secundum modum intelligendi quam paternitas 
+      absolu<lb ed="#L" n="91" break="no"/>te dicta. Ipsa tamen innascibilitas quantum ad illud quod dicit 
+      <lb ed="#L" n="92"/>formaliter non est perfectior paternitate, sed econuerso. Item 
+      <lb ed="#L" n="93"/>cum dicitur in minori, quod paternitas est communicabilis: 
+      ve<lb ed="#L" n="94" break="no"/>rum est secundum generalem rationem nominis, sed prout est 
+      <lb ed="#L" n="95"/>proprietas fundata super auctoritatem primi principij vniuer 
+      <lb ed="#L" n="96"/>salis non potest communicari sicut nec innascibilitas. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

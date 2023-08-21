@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="262-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e215869"><!-- l4d5q3 -->
+            <head xml:id="jsnvu6-e215869-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-e215869-Hd1e103" type="question-title">Utrum Christus secundum quod homo 
+      habuerit potestatem operandi interiorem 
+      effectum sacramentorum</head>
+            <p xml:id="jsnvu6-e215869-d1e106">
+               <lb ed="#L" n="137"/>QUAESTIO TERTIA. 
+      <lb ed="#L" n="138"/>Vtrum Christus secundum quod homo 
+      habue<lb ed="#L" n="139" break="no"/>rit potestatem operandi interiorem 
+      effe<lb ed="#L" n="140" break="no"/>ctum sacramentorum. 
+      <lb ed="#L" n="141"/>Thom. 3. 4. 64. ar. 3. 
+    </p>
+            <p xml:id="jsnvu6-e215869-d1e119">
+               <lb ed="#L" n="142"/>CIRCA secundum principale quaeruntur 
+      duo<lb ed="#L" n="143" break="no"/>Primum est de poteslate Christi baptismum 
+      in<lb ed="#L" n="144" break="no"/>stituentis. Secundum est de potestate quam 
+      ho<lb ed="#L" n="145" break="no"/>minibus communicare potuit sed non 
+      commu<lb ed="#L" n="146" break="no"/>u nicauit. Quantum ad primum quaeritur, vtrum 
+      <lb ed="#L" n="147"/>Christus secundum quod homo habuerit potestatem 
+      operan<lb ed="#L" n="148" break="no"/>di interiorem effectum sacramentorum. Et videtur quod sic 
+      <lb ed="#L" n="149"/>Primo per illud quod habetur Matth. 9. Filius hominis habe 
+      <lb ed="#L" n="150"/>potestatem in terra dimittendi peccata, sed remissio 
+      peccato<lb ed="#L" n="151" break="no"/>rum est interior effectus sacramenti, ergo Christus secundum 
+      <lb ed="#L" n="152"/>quod filius hominis, habuit potestatem operandi interiorem 
+      <lb ed="#L" n="153"/>effectum sacramenti. 
+    </p>
+            <p xml:id="jsnvu6-e215869-d1e148">
+               <lb ed="#L" n="154"/>
+               <!--2--> Item nullus potest effectum sacramenti conferre sine 
+      sacra<lb ed="#L" n="155" break="no"/>mento, nisi ex se habeat potestatem super effectum 
+      sacramen<lb ed="#L" n="156" break="no"/>ti, sed Christus contulit effectum sacramenti sine sacramento, 
+      <lb ed="#L" n="157"/>vt patet in Magdalena &amp; Petro: ergo videtur quod Christus 
+      <lb ed="#L" n="158"/>secundum quod homo habuit potestatem operandi 
+      interio<lb ed="#L" n="159" break="no"/>rem effectum sacramenti. 
+      </p>
+            <p xml:id="jsnvu6-e215869-d1e167">
+               <lb ed="#L" n="160"/>
+               <!--3--> IN CONTRARIVM est quod dicit Augustinus, c 
+      <lb ed="#L" n="161"/>in sacramentis diuina virtus salutem nostram secretius opera¬ 
+      <!--00598.xml-->
+      <pb ed="#L" n="262-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tur, sed diuina virtus non est Christi secundum quod homo 
+      <lb ed="#L" n="2"/>sed secundum quod Deus, ergo Christus non operatur 
+      interio<lb ed="#L" n="3" break="no"/>rem effectum sacramenti secundum quod homo, sed secundum 
+      <lb ed="#L" n="4"/>quod Deus. 
+      </p>
+            <p xml:id="jsnvu6-e215869-d1e191">
+               <lb ed="#L" n="5"/>
+               <!--4--> RESPONSIO. Sciendum est quod triplex est 
+      potesta<lb ed="#L" n="6" break="no"/>respectu effectus sacramentorum, scilicet auctoritatis, 
+      excellen<lb ed="#L" n="7" break="no"/>tiae, &amp; ministerij. Potestas auctoritatis est, qua aliquis propri 
+      <lb ed="#L" n="8"/>virtute remittit culpam, &amp; confert gratiam. Potestas ministeri 
+      <lb ed="#L" n="9"/>est per quam competit alicui solum sacramenta ministrare. 
+      Po<lb ed="#L" n="10" break="no"/>testas excellentiae est media inter istas duas, quia aliquid 
+      parti<lb ed="#L" n="11" break="no"/>cipat de auctoritatis potestate, licet non plene. Aliquid vero de 
+      <lb ed="#L" n="12"/>potestate ministerij. Et secundum hoc patet quod Christus 
+      se<lb ed="#L" n="13" break="no"/>cundum quod homo non habuit potestatem auctoritatis, 
+      respe<lb ed="#L" n="14" break="no"/>ctu effectus sacramentorum. Cuius ratio est, quia, vt dictum est 
+      <lb ed="#L" n="15"/>nullus habet talem potestatem, nisi propria virtute possit 
+      conferr<lb ed="#L" n="16" break="no"/>gratiam, &amp; remittere culpam, sed hoc non competit nisi Deo 
+      <lb ed="#L" n="17"/>ergo non competit Christo secundum quod homo. Potestas 
+      au<lb ed="#L" n="18" break="no"/>tem excellentiae competit Christo in quantum est homo. Cuiu 
+      <lb ed="#L" n="19"/>ratio est, quia instrumento coniuncto comperit principalius actio 
+      <lb ed="#L" n="20"/>quam instrumento separato. Sed humanitas Christi est quasi 
+      in<lb ed="#L" n="21" break="no"/>strumentum coniunctum diuinitati, inquantum in eodem 
+      sup<lb ed="#L" n="22" break="no"/>posito sunt diuinitas &amp; humanitas, ergo actio Dei in sacramen 
+      <lb ed="#L" n="23"/>tis principalius &amp; excellentius competit Christo secundum quod 
+      <lb ed="#L" n="24"/>homo (quasi instrumento coniuncto) quam cuicunque homini 
+      <lb ed="#L" n="25"/>puro, qui est quasi instrumentum separatum. 
+      </p>
+            <p xml:id="jsnvu6-e215869-d1e241">
+               <lb ed="#L" n="26"/>
+               <!--5--> Haec autem excellentia consistit in quatuor. Primo quia es 
+      <lb ed="#L" n="27"/>passione eius baptismus efficaciam habet, non effectiue, sed 
+      me<lb ed="#L" n="28" break="no"/>ritorie. Secundo quia instrumenta instituit. Tertio quia 
+      quan<lb ed="#L" n="29" break="no"/>doque effectum sacramenti sine sacramento tribuit, Quarto quia 
+      <lb ed="#L" n="30"/>ad inuocationem nominis eius baptismus aliquo tempore colla 
+      <lb ed="#L" n="31"/>tus fuit, vt in primitiua ecclesia ex causa superius dicta. Quod 
+      <lb ed="#L" n="32"/>autem dictum est quod Christus secundum potestatem 
+      excel<lb ed="#L" n="33" break="no"/>lentiae dedit quandoque effectum sacramenti sine sacramento, 
+      <lb ed="#L" n="34"/>intelligendum est per modum meriti, quia potestas auctoritati 
+      <lb ed="#L" n="35"/>non competebat ei inquantum fuit horno. 
+      </p>
+            <p xml:id="jsnvu6-e215869-d1e267">
+               <lb ed="#L" n="36"/>
+               <!--6--> Ad argumenta. Ad primum dicendum quod filius hominis 
+      <lb ed="#L" n="37"/>habuit in terra potestatem dimittendi peccata per auctoritatem 
+      <lb ed="#L" n="38"/>inquantum Deus: quod ostensum est, scilicet Christum esse Deum 
+      <lb ed="#L" n="39"/>per curationem Paralytici, sed potestatem habuit inquantum 
+      <lb ed="#L" n="40"/>homo per ministerium excellentiae, vt dictum est. 
+      </p>
+            <p xml:id="jsnvu6-e215869-d1e283">
+               <lb ed="#L" n="41"/>
+               <!--7--> Per idem patet responsio ad secundum, quia quod Christus 
+      <lb ed="#L" n="42"/>intulit effectum sacramenti sine sacramento, hoc potuit 
+      in<lb ed="#L" n="43" break="no"/>quantum Deus, sed meruit inquantum homo. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

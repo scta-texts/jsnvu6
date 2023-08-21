@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="83-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1752"><!-- l1d36prae -->
+            <head xml:id="jsnvu6-d1e1752-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1752-d1e103">
+               <lb ed="#L" n="14"/>DISTINCTIO XXXVI. 
+      <lb ed="#L" n="15"/>Sententia huius distinctionis XXXVI.
+    </p>
+            <p xml:id="jsnvu6-d1e1752-d1e110">
+               <lb ed="#L" n="16"/>in generali &amp; 
+      speciali<lb ed="#L" n="17" break="no"/>Ic solet quaeri. Superius ostendit magister quod 
+      <lb ed="#L" n="18"/>scientia dei est respectu omnium: &amp; ex hoc res 
+      di<lb ed="#L" n="19" break="no"/>cuntur esse in deo. Nunc vero inquirit 
+      quomo<lb ed="#L" n="20" break="no"/>do res cognita sit in ipso deo cognoscente. Et di 
+      <lb ed="#L" n="21"/>Iuiditur ista pars in duas. Primo ostendit 
+      quomo<lb ed="#L" n="22" break="no"/>do res qua deus cognoscit sunt in ipso deo. Et secundo 
+      osten<lb ed="#L" n="23" break="no"/>dit quomodo deus dicatur esse in ipsis rebus 37. dist. ibi: Et 
+      quo<lb ed="#L" n="24" break="no"/>niam determinatum est. Item prima in duas. Secundum 
+      dua<lb ed="#L" n="25" break="no"/>quaestiones quas specialiter mouet &amp; soluit. Secunda ibi: Post 
+      <lb ed="#L" n="26"/>praedicta, &amp; hic. Secunda diuiditur in tres. Primo enim 
+      propo<lb ed="#L" n="27" break="no"/>nit quaestionem &amp; eius determinationem. Secundo ponit 
+      solu<lb ed="#L" n="28" break="no"/>tionis confirmationem &amp; quaedam incidentia determinat ibi 
+      <lb ed="#L" n="29"/>proinde si diligenter inspiciatur. Tertio determinatum 
+      decla<lb ed="#L" n="30" break="no"/>rat ibi, ex praemissis apertum est. 
+    </p>
+            <p xml:id="jsnvu6-d1e1752-d1e145">
+               <lb ed="#L" n="31"/>In speciali sic procedit. Et quaeritur primo, vtrum illa qua 
+      <lb ed="#L" n="32"/>deus cognoscit possint esse in eius essentia, sicut dicuntur esse 
+      <lb ed="#L" n="33"/>in eius praesentia quae idem est quod eius essentia. Et 
+      responde<lb ed="#L" n="34" break="no"/>p non, quia omnia quae sunt in essentia diuina sunt eiusdem na 
+      <lb ed="#L" n="35"/>turae cum deo, ea autem quae cognoscit deus, non sunt eiusdem 
+      <lb ed="#L" n="36"/>naturae cum illo, &amp; ideo non debent dici esse in eius essentia 
+      <lb ed="#L" n="37"/>nec est simile de praesentia, quia alium respectum habet vel con 
+      <lb ed="#L" n="38"/>notat quam essentia. Postea quaerit, vtrum mala quae 
+      cogno<lb ed="#L" n="39" break="no"/>scuntur a deo, sicut &amp; bona possint dici esse in deo: &amp; 
+      respon<lb ed="#L" n="40" break="no"/>detur quod non, quia illa solum dicuntur esse in deo ad quae deus 
+      <lb ed="#L" n="41"/>se habet in ratione principij: non sic autem se habet ad mala, 
+      <lb ed="#L" n="42"/>sola enim ea quae cognoscuntur a deo per notitiam 
+      approba<lb ed="#L" n="43" break="no"/>rionis, quorum deus est actor siue principium possunt dici esse 
+      <lb ed="#L" n="44"/>in deo, non sic autem deus non cognoscit mala. Deinde 
+      confir<lb ed="#L" n="45" break="no"/>mat hoc, quia secundum Ambr. idem est esse in deo, &amp; esse per 
+      <lb ed="#L" n="46"/>ipsum, &amp; esse ex ipso, mala autem non sunt ex deo, nec per ipsum 
+      <lb ed="#L" n="47"/>ergo non possunt dicit esse in ipso. Vbi incidenter ostendit? 
+      <lb ed="#L" n="48"/>illa verba apostoli ex ipso &amp; per ipsum &amp; in ipso, possunt ap 
+      <lb ed="#L" n="49"/>propriari per intellectum distinctioni personarum, tamen simpliciter 
+      <lb ed="#L" n="50"/>omnibus personis omnia praedicta quae enumerat conueniunt. 
+      <lb ed="#L" n="51"/>Subiunxit etiam quod cum aliquid dicitur esse ex aliquo 
+      efficienti<lb ed="#L" n="52" break="no"/>sola notatur, cum vero dicitur aliquid de aliquo non solum effi 
+      <lb ed="#L" n="53"/>cientia, sed etiam consubstantialitas notatur, &amp; ideo licet creatura 
+      <lb ed="#L" n="54"/>dicantur esse ex deo, non tamen debent dici esse de illo. Vitime 
+      <lb ed="#L" n="55"/>epilogat determinata. Haec est sententia lectionis in speciali.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

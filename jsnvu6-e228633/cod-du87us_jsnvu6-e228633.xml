@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="277-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e228633"><!-- l4d12prae -->
+            <head xml:id="jsnvu6-e228633-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e228633-d1e103">
+               <lb ed="#L" n="87"/>Sententia huius distinctionis XII .n. 
+      <lb ed="#L" n="88"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e228633-d1e110">
+               <lb ed="#L" n="89"/>I autem quaeritur de accidentibus. Superius 
+      de<lb ed="#L" n="90" break="no"/>terminauit magister de confectione huius 
+      sacra<lb ed="#L" n="91" break="no"/>menti. Hic autem determinat de consequentibus 
+      <lb ed="#L" n="92"/>ij ad eius confectionem. Et diuiditur in tres partes. 
+      <lb ed="#L" n="93"/>quia primo inquirit de modo existentiae 
+      acciden<lb ed="#L" n="94" break="no"/>tium in hoc sacramento. Et secundo de actu sacerdotis 
+      conficien<lb ed="#L" n="95" break="no"/>tis hoc sacramentum. Tertio inquirit de effectu huius sacramenti. 
+      <lb ed="#L" n="96"/>Secunda incipit ibi, Post haec quaeritur, si quod gerit sacerdos 
+      <lb ed="#L" n="97"/>Tertia ibi, Institutum autem est hoc sacramentum. Prima 
+      di<lb ed="#L" n="98" break="no"/>uiditur in tres, quia primo inquirit de modo existendi 
+      acciden<lb ed="#L" n="99" break="no"/>tium in hoc sacramento. Secundo inquirit de fractione quae ibi 
+      <lb ed="#L" n="100"/>apparet. Et ponit diuersas opiniones. Tertio de significationi 
+      <lb ed="#L" n="101"/>partium fractionis. Secunda ibi, Solet etiam quaeri de fractione. 
+      <lb ed="#L" n="102"/>Tertia ibi, Quid autem illae partes significent. Tertia autem par 
+      <lb ed="#L" n="103"/>principalis, in qua determinat de effectu huius sacramenti 
+      diui<lb ed="#L" n="104" break="no"/>ditur in duas. Quia primo determinat huius sacramenti effectum. 
+      <lb ed="#L" n="105"/>Et secundo inquirit de modo vtendi ibi, Si autem quaeritur vtrum 
+      <lb ed="#L" n="106"/>quotidie. Haec est sententia &amp; diuisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-e228633-d1e152">
+               <lb ed="#L" n="107"/>
+               <!--2--> In speciali sic procedit, &amp; primo ponit quod in hoc 
+      sacra<lb ed="#L" n="108" break="no"/>mento remanent accidentia sine subiecto, quia ibi non est nisi 
+      <lb ed="#L" n="109"/>substantia corporis &amp; sanguinis Christi, quae non afficitur 
+      ta<lb ed="#L" n="110" break="no"/>libus accidentibus, remanent tamen accidentia ad ministerij 
+      ri<lb ed="#L" n="111" break="no"/>tum, ad fidei suffragium, &amp; etiam propter gustum, qui est vsus 
+      <lb ed="#L" n="112"/>sacramenti. Postea quaerit vtrum in hoc sacramento sit vera 
+      fra<lb ed="#L" n="113" break="no"/>ctio. Et ponit opinionem aliquorum dicentium quod non, licet 
+      <lb ed="#L" n="114"/>videatur ibi fractio esse, non tamen est propter hoc illusio, quia 
+      <lb ed="#L" n="115"/>non fit ad deceptionem, sed ad fidei vtilitatem. Alij vero dicun 
+      <lb ed="#L" n="116"/>quod ibi vere frangitur corpus Christi, &amp; tamen remanet 
+      inte<lb ed="#L" n="117" break="no"/>grum per miraculum. Quod confirmant ex confessione 
+      Beren<lb ed="#L" n="118" break="no"/>garij quae ponitur in litera. Magister tamen tenet, quod est ibi 
+      <lb ed="#L" n="119"/>vera fractio in speciebus sacramenti, &amp; non in substantia 
+      corpo<lb ed="#L" n="120" break="no"/>ris Christi, imo sub qualibet parte fractionis est totus Christus 
+      <lb ed="#L" n="121"/>quod confirmat per auctoritatem Hilarij in litera. Postea dicit 
+      <lb ed="#L" n="122"/>quod partium fractionis vna significat corpus Christi quod iam 
+      <lb ed="#L" n="123"/>resurrexit, &amp; est in coelo. Alia siguificat corpus Christi viuens ir 
+      <lb ed="#L" n="124"/>mundo. Tertia vero significat corpus Christi iacens in 
+      sepul<lb ed="#L" n="125" break="no"/>chro: quae significatio potest adaptari corpori Christi mystico 
+      <lb ed="#L" n="126"/>Deinde quaerit vtrum illud quod gerit sacerdos celebrando 
+      mis<lb ed="#L" n="127" break="no"/>sam possit dici sacrificium, vel immolatio Christi. Et dicit quod 
+      <lb ed="#L" n="128"/>sic sub hoc sensu, quia est memoriale sacrificij &amp; immolationis 
+      <lb ed="#L" n="129"/>quibus Christus fuit immolatus in cruce. Et non quod Christu 
+      <lb ed="#L" n="130"/>singulis diebus occidatur. Quod confirmat multis 
+      auctoritati<lb ed="#L" n="131" break="no"/>bus. Postea dicit quod hoc sacramentum duabus de causis 
+      in<lb ed="#L" n="132" break="no"/>stitutum est, scilicet in augmentum charitatis, &amp; in remedium 
+      <lb ed="#L" n="133"/>nostrae infirmitatis. Quia quum quotidie labimur in peccatum 
+      <lb ed="#L" n="134"/>saltem veniale, indigemus hoc sacramento per quod delentur. 
+      <lb ed="#L" n="135"/>Vltimo inquirit de modo vtendi hoc sacramento, an videlice 
+      <lb ed="#L" n="136"/>sit quotidie communicandum. Et dicit ex sententia August. quod 
+      <lb ed="#L" n="137"/>quotidie communicare, nec est laudabile, nec vituperabile: 
+      di<lb ed="#L" n="138" break="no"/>uersae tamen consuetudines ecclesiae fuerunt circa hoc. Quia pri 
+      <lb ed="#L" n="139"/>mo communicabant fideles singulis diebus dominicis. Postea pro 
+      <lb ed="#L" n="140"/>pter minorem deuotionem statutum fuit quod communicaren 
+      <lb ed="#L" n="141"/>in anno ter, scilicet in paschate, in natali, &amp; in pentecoste. 
+      Vlti<lb ed="#L" n="142" break="no"/>mo refrigescente charitate statutum est saltem quod semel in 
+      an<lb ed="#L" n="143" break="no"/>no communicent omnes fideles, scilicet in paschate, vt habetur 
+      <lb ed="#L" n="144"/>extia de poenit. &amp; re. capi. Omnis vtriusque sexus. Et in hoc 
+      <lb ed="#L" n="145"/>terminatur sententia lectionis in speciali. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="71-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1519"><!-- l1d30q1 -->
+            <head xml:id="jsnvu6-d1e1519-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e1519-Hd1e103" type="question-title">Utrum aliquid dicatur de Deo ex tempore</head>
+            <p xml:id="jsnvu6-d1e1519-d1e106">
+               <lb ed="#L" n="33"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="34"/>Vtrum aliquid dicatur de deo ex 
+      <lb ed="#L" n="35"/>tempore. 
+      <lb ed="#L" n="36"/>Thom. 1. 4. 13. artic. 7. 
+    </p>
+            <p xml:id="jsnvu6-d1e1519-d1e117">
+               <lb ed="#L" n="37"/>CIRCA distinctionem istam quaeruntur duo. Pri 
+      <lb ed="#L" n="38"/>simum est vtrum aliquid dicatur de deo ex 
+      tem<lb ed="#L" n="39" break="no"/>pore. Et videtur quod non, quia voces sunt signa 
+      <lb ed="#L" n="40"/>rerum, sed in deo nihil est ex tempore, sed 
+      to<lb ed="#L" n="41" break="no"/>dtum ab aeterno, ergo nullum nomen potest dici 
+      <lb ed="#L" n="42"/>de deo ex tempore. 
+      </p>
+            <p xml:id="jsnvu6-d1e1519-d1e133">
+               <lb ed="#L" n="43"/>
+               <!--2--> Item de re temporali nihil potest dici ab aeterno, vt 
+      vide<lb ed="#L" n="44" break="no"/>tur, ergo de re aeterna nihil potest dici ex tempore, sed deus 
+      <lb ed="#L" n="45"/>est aeternus, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1519-d1e145">
+               <lb ed="#L" n="46"/>
+               <!--3--> Item si aliquid diceretur de deo ex tempore aut diceretur 
+      <lb ed="#L" n="47"/>necessario aut contingenter, non necessario, quia quae 
+      necessa<lb ed="#L" n="48" break="no"/>rio insunt semper insunt. Quae autem ex tempore insunt, non 
+      <lb ed="#L" n="49"/>semper infuerunt. Nec contingenter, quia quae contingenter 
+      <lb ed="#L" n="50"/>insunt, insunt per accidens, in deo autem nullum est accidens, 
+      <lb ed="#L" n="51"/>quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1519-d1e163">
+               <lb ed="#L" n="52"/>
+               <!--4--> INCONTRARIVM est Aug. &amp; magister in litera 
+      </p>
+            <p xml:id="jsnvu6-d1e1519-d1e170">
+               <lb ed="#L" n="53"/>
+               <!--5--> RESPONSIO. eorum quae praedicantur de aliquo 
+      quae<lb ed="#L" n="54" break="no"/>dam dicuntur absolute, quaedam relatiue: Dicendum est ergo 
+      <lb ed="#L" n="55"/>quod nihil absolute dictum praedicatur de Deo ex tempore, sed 
+      <lb ed="#L" n="56"/>aliqua quae relatiue dicuntur, praedicantur de Deo ex 
+      tempo<lb ed="#L" n="57" break="no"/>re. Primum patet sic, omne quod dicitur de Deo absolute 
+      dici<lb ed="#L" n="58" break="no"/>tur de Deo essentialiter, sicut homo de sorte, &amp; animal de 
+      ho<lb ed="#L" n="59" break="no"/>mine: Cuius ratio est, quia praedicata omnia diuina vertuntur 
+      <lb ed="#L" n="60"/>in substantiam excepta relatione secundum omnes doctores 
+      <lb ed="#L" n="61"/>sed praedicatum essentiale semper dicitur de re (&amp; vt dicatur 
+      <lb ed="#L" n="62"/>sine calumnia saltem re existente) ergo omnia absoluta dicta 
+      <lb ed="#L" n="63"/>de Deo semper &amp; ab aeterno dicuntur de eo, ergo non ex 
+      tem<lb ed="#L" n="64" break="no"/>pore solum vt nunc loquimur. Item nullum absolutum potest 
+      <lb ed="#L" n="65"/>de nouo aduenire alicui sine eius mutatione, sed Deo 
+      repu<lb ed="#L" n="66" break="no"/>gnat omnis mutatio, ergo nihil absolutum potest Deo 
+      conue<lb ed="#L" n="67" break="no"/>nire de nouo siue ex tempore, minor patet de se. probatio 
+      ma<lb ed="#L" n="68" break="no"/>ioris per Philosophum 5. Physi. qui attribuit solum 
+      relationi<lb ed="#L" n="69" break="no"/>bus quod possint alicui aduenire de nouo nulla facta mutatio. 
+      <lb ed="#L" n="70"/>ne in ipso, absoluto ergo nullo modo adueniunt alicui de 
+      no<lb ed="#L" n="71" break="no"/>uo, nisi per mutationem factam in ipso, mutatio autem non 
+      p<lb ed="#L" n="72" break="no"/>test conuenire Deo, ergo &amp;c. &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1519-d1e218">
+               <lb ed="#L" n="73"/>
+               <!--6--> Secundum patet sic, Omnis relatio vel relatiua 
+      denomi<lb ed="#L" n="74" break="no"/>natio requirit duo extrema secundum rem vel secundum 
+      ra<lb ed="#L" n="75" break="no"/>tionem, natura enim relationis est quod sit inter duo, vel acce 
+      <lb ed="#L" n="76"/>pta vt duo, vbi ergo alteri relatiuorum competit solum 
+      refer<lb ed="#L" n="77" break="no"/>ri ex tempore, oportet quod suo correlatiuo competat solum 
+      <lb ed="#L" n="78"/>referri ex tempore. Alias esset dare relationem quae non 
+      habe<lb ed="#L" n="79" break="no"/>ret nisi vnum extremum. Nunc est ita quod aliqua nomina 
+      <!--00208.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>relationem importantia creaturae ad Deum conuensunt 
+      crea<lb ed="#L" n="81" break="no"/>turae ex tempore, vt esse saluum, esse creatum, ergo nomina 
+      <lb ed="#L" n="82"/>praedictis correspondentia conueniunt Deo solum ex 
+      tempo<lb ed="#L" n="83" break="no"/>re, vt esse dominum, esse creantem, &amp; similia. 
+      </p>
+            <p xml:id="jsnvu6-d1e1519-d1e251">
+               <lb ed="#L" n="84"/>
+               <!--7--> AD PRIMVM argumentum dicitur quod voces 
+      ab<lb ed="#L" n="85" break="no"/>solutae significant res quae sunt in Deo, vt bonus, sapiens, &amp; hu 
+      <lb ed="#L" n="86"/>iusmodi, &amp; tales non dicuntur de Deo ex tempore. Voces 
+      au<lb ed="#L" n="87" break="no"/>tem relatiuae non significant res in Deo existentes, sed 
+      habitu<lb ed="#L" n="88" break="no"/>dines eius ad creaturas, habitudines dico non rei, sed rationis, 
+      <lb ed="#L" n="89"/>vt patebit postea, &amp; tales possent dici de Deo ex tempore, 
+      <lb ed="#L" n="90"/>quia non ponunt aliquid reale in ipso. 
+      </p>
+            <p xml:id="jsnvu6-d1e1519-d1e271">
+               <lb ed="#L" n="91"/>
+               <!--8--> Ad secundum dicendum quod de re temporali bene 
+      prae<lb ed="#L" n="92" break="no"/>dicatur vel potest aliquid praedicari ab aeterno, illud, scilicet 
+      <lb ed="#L" n="93"/>quod dicit relationem rationis sicut esse intellectum, vnde 
+      <lb ed="#L" n="94"/>creatura fuit ab aeterno intellecta Deo: Similiter ea quae 
+      di<lb ed="#L" n="95" break="no"/>cunt relationem rationis possunt ex tempore dici de Deo. 
+      </p>
+            <p xml:id="jsnvu6-d1e1519-d1e288">
+               <lb ed="#L" n="96"/>
+               <!--9--> Ad tertium dicitur quod accidens dicitur dupliciter. Vno 
+      <lb ed="#L" n="97"/>modo prout dicit naturam condiuisam substantiae, &amp; sic nihi 
+      <lb ed="#L" n="98"/>dicitur de Deo per accidens. Alio modo dicitur accidens quod 
+      <lb ed="#L" n="99"/>conuenit alicui per aliud: &amp; hoc modo nihil prohibet quin 
+      <lb ed="#L" n="100"/>Deo conueniat per accidens, hoc est, per aliud aliqua 
+      habitu<lb ed="#L" n="101" break="no"/>do rationis. Ex hoc enim quod Deus intelligitur vt terminus 
+      <lb ed="#L" n="102"/>habitudinis realis creaturae ad ipsum consurgit secundum 
+      no<lb ed="#L" n="103" break="no"/>strum modum intelligendi quaedam habitudo saltem rationis 
+      <lb ed="#L" n="104"/>Dei ad creaturam. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

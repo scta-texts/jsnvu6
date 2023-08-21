@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="363-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e298609"><!-- l4d50q1 -->
+            <head xml:id="jsnvu6-e298609-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e298609-Hd1e103" type="question-title">Utrum in inferno sit tantum poena ignis</head>
+            <p xml:id="jsnvu6-e298609-d1e106">
+               <lb ed="#L" n="20"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="21"/>Vtrum in inferno sit tantum poena ignis. 
+    </p>
+            <p xml:id="jsnvu6-e298609-d1e113">
+               <lb ed="#L" n="22"/>CIRCA distinctionem istam primo quaeritur, vtrum 
+      <lb ed="#L" n="23"/>in inferno sit tantum poena ignis. Et arguitur quod 
+      <lb ed="#L" n="24"/>sic, quia varietas poenarum praestat refrigerium, vt 
+      <lb ed="#L" n="25"/>cum aliquis multum aestuans transfertur ad locum 
+      <lb ed="#L" n="26"/>frigidum, sed in inferno non erit aliquod 
+      refrige<lb ed="#L" n="27" break="no"/>rium, ergo non erit ibi varietas poenarum. 
+      </p>
+            <p xml:id="jsnvu6-e298609-d1e129">
+               <lb ed="#L" n="28"/>
+               <!--2--> Item purgatorium dicitur quaedam pars inferni, sed in 
+      pur<lb ed="#L" n="29" break="no"/>gatorio non est nisi ignis, ergo nec in inferno. Minor probatui 
+      <lb ed="#L" n="30"/>per Apost. 1. Cor. 3. Qui dicit omnia peccata venialia per igni 
+      <lb ed="#L" n="31"/>purgari, vniuscuiusque opus qualis sit ignis probabit. 
+      </p>
+            <p xml:id="jsnvu6-e298609-d1e143">
+               <lb ed="#L" n="32"/>
+               <!--3.--> IN CONTRARIVM est qud dicitur Iob 33. 
+      Trans<lb ed="#L" n="33" break="no"/>ibunt ab aquis niuium ad calorem nimium. 
+      </p>
+            <p xml:id="jsnvu6-e298609-d1e152">
+               <lb ed="#L" n="34"/>
+               <!--4--> Item Esaias vltimo dicit de damnatis quod vermis eorum 
+      <lb ed="#L" n="35"/>non morietur &amp; ignis eorum non extinguetur, igitur in 
+      infer<lb ed="#L" n="36" break="no"/>no non solum erit poena ignis sed &amp; vermis. 
+</p>
+            <p xml:id="jsnvu6-e298609-d1e163">
+               <lb ed="#L" n="37"/>RESPONSIO. Circa quaestionem istam sunt duo 
+      vi<lb ed="#L" n="38" break="no"/>denda principaliter. Primum est de pluralitate poenarum 
+      infer<lb ed="#L" n="39" break="no"/>ni. Secundum est de comparatione earum ad inuicem 
+      secun<lb ed="#L" n="40" break="no"/>dum grauitatem vel acerbitatem. 
+      </p>
+            <p xml:id="jsnvu6-e298609-d1e174">
+               <lb ed="#L" n="41"/>
+               <!--6--> Quantum ad primum sciendum est quod quaestio potest 
+      du<lb ed="#L" n="42" break="no"/>pliciter intelligi. Vno modo vtrum in inferno praeter poenam 
+      <lb ed="#L" n="43"/>ignis sit absolute alia poena corporalis vel spiritualis. Alio modo 
+      <lb ed="#L" n="44"/>potest intelligi specialiter de poena corporali, an aliqua talis si 
+      <lb ed="#L" n="45"/>in inferuo praeter poenam ignis, intelligendo primo modo quae 
+      <lb ed="#L" n="46"/>stionem. Dicendum est quod praeter poenam ignis &amp; quamcunque 
+      <lb ed="#L" n="47"/>poenam corporalem est in inferno quaedam poena spiritualis qui 
+      <lb ed="#L" n="48"/>dicitur poena vermis. Quod patet sic, poena debet corresponde 
+      <lb ed="#L" n="49"/>re culpae, sed culpa consistit non solum in actu exteriore vel in 
+      <lb ed="#L" n="50"/>delectatione sensuali, sed potius &amp; principalius consistit in 
+      in<lb ed="#L" n="51" break="no"/>teriore actu voluntatis, vt patuit in 2. lib. ergo poena 
+      damnato<lb ed="#L" n="52" break="no"/>rum debet consistere non solum in afflictione corporali &amp; 
+      sen<lb ed="#L" n="53" break="no"/>sibili, sed etiam in afflictione spirituali seu mentali, qualis autem 
+      <lb ed="#L" n="54"/>sit talis poena, aduertendum est quod poena seu punitio est 
+      perce<lb ed="#L" n="55" break="no"/>ptibilis priuatio boni conuenientis, nam si quis non percipere 
+      <lb ed="#L" n="56"/>priuationem boni conuenientis sibi non esset proprie punitus, 
+      <lb ed="#L" n="57"/>bonum autem conueniens proprie creaturae rationali &amp; 
+      intel<lb ed="#L" n="58" break="no"/>lectuali est duplex in genere, scilicet bonum honestum &amp; 
+      bo<lb ed="#L" n="59" break="no"/>num commodi. Bonum enim honestum intellectualis creatura 
+      <lb ed="#L" n="60"/>est virtus seu gratia. Bonum autem commodi est beatitudo 
+      se<lb ed="#L" n="61" break="no"/>cundum Ansel. qui dicit de casu diaboli 4. cap. quod omnis beatitu 
+      <lb ed="#L" n="62"/>do consistit ex commodis, vtroque autem bono priuatur home 
+      <lb ed="#L" n="63"/>propter peccatum mortale, in praesenti quidem priuatur bonc 
+      <lb ed="#L" n="64"/>honesto quod est gratia, quia gratia non stat cum peccato 
+      mor<lb ed="#L" n="65" break="no"/>tali, in futuro quidem priuabitur bono commodi, quod est beati 
+      <lb ed="#L" n="66"/>tudo quae non datur, nisi habenti gratiam, secundum illud Ro. 6. 
+      <lb ed="#L" n="67"/>gratia Dei vita aeterna, priuatio autem primi boni non est 
+      per<lb ed="#L" n="68" break="no"/>ceptibilis ab eo cui abstrahitur nisi fide, &amp; ideo non habet 
+      pro<lb ed="#L" n="69" break="no"/>prie rationem punitionis, sed priuatio secundi boni, scilicet 
+      pea<lb ed="#L" n="70" break="no"/>titudinis est maxime perceptibilis a damnatis, &amp; ex hoc 
+      sequi<lb ed="#L" n="71" break="no"/>tur in eis maxima tristitia, quia sicut maxime appetunt 
+      beatitu<lb ed="#L" n="72" break="no"/>dinem, ita maxime dolent de carentia eius, vt est bonum commo 
+      <lb ed="#L" n="73"/>di, &amp; quia non priuantur bono diuino nisi propter culpam suam, 
+      <lb ed="#L" n="74"/>ideo valde dolent de culpa sua, non quidem vt fuit actus 
+      deor<lb ed="#L" n="75" break="no"/>dinatus, &amp; contra praeceptum Dei, sed vt est impeditiua sui commo 
+      <lb ed="#L" n="76"/>di, &amp; haec tristitia de carentia visionis diuinae propter culpam 
+      <lb ed="#L" n="77"/>commissam vocatur vermis conscientiae inquantum oritur ex pu 
+      <lb ed="#L" n="78"/>trefactione peccati &amp; animam affligit, sicut vermis corporalis ori 
+      <lb ed="#L" n="79"/>tur ex putrefactione carnis, &amp; carnem affligit, vnde vermis dam¬ 
+      <!--00799.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>natorum non est vermis corporalis sed spiritualis, vt patet per 
+      <lb ed="#L" n="81"/>August. 20. de ciuit. qui dicit sic, in poena malorum 
+      inextingui<lb ed="#L" n="82" break="no"/>bilis ignis &amp; viuacissimus vermis, ab aliis aliter atque aliter est 
+      <lb ed="#L" n="83"/>expositus, alij vtrumque ad corpus, alij vtrumque ad animam 
+      <lb ed="#L" n="84"/>retulerunt, alij proprie ad corporis ignem, tropice autem ad 
+      <lb ed="#L" n="85"/>animam vermem quod est credibilius. 
+      </p>
+            <p xml:id="jsnvu6-e298609-d1e281">
+               <lb ed="#L" n="86"/>
+               <!--7--> Intelligendo autem secundo modo quaestionem, dicendum 
+      <lb ed="#L" n="87"/>est quod praeter poenam ignis erunt in inferno aliae poenae 
+      corpo<lb ed="#L" n="88" break="no"/>rales, quod patet sic, sicut se habet gaudium ad bonos sic poena 
+      <lb ed="#L" n="89"/>&amp; miseria ad damnatos, sed omnis creatura erit baatis materia 
+      <lb ed="#L" n="90"/>gaudij, ergo omnis creatura erit damnatis materia poenae &amp; 
+      af<lb ed="#L" n="91" break="no"/>flictionis, &amp; non solum materia, sed causa aliquo modo effecti. 
+      <lb ed="#L" n="92"/>ua, cui concordat illud Sapi. 5. Pugnabit orbis terrarum contra 
+      <lb ed="#L" n="93"/>insensatos. Poenae autem illae corporales erunt in duplici genere, 
+      <lb ed="#L" n="94"/>quia affligent ab extrinseco &amp; ab intrinseco. Ab extrinseco erit 
+      <lb ed="#L" n="95"/>quadruplex poena, scilicet ignis, aquae, aeris, &amp; terrae, de primi 
+      <lb ed="#L" n="96"/>duabus dicitur in Iob vt allegatum est in arguendo. De tertia 
+      <lb ed="#L" n="97"/>in Euangelio vbi praecipiuntur proiici in tenebras exteriores 
+      <lb ed="#L" n="98"/>tenebra autem est passio aeris, hae autem non sunt intelligenda 
+      <lb ed="#L" n="99"/>per carentiam omnimodam luminis, sed per carentiam vt visio 
+      <lb ed="#L" n="100"/>eius est delectabilis, vnde tales tenebrae erut in inferno, quia ibi 
+      <lb ed="#L" n="101"/>nihil perspicue videbitur, sed solummodo videbunt ibi sub 
+      qua<lb ed="#L" n="102" break="no"/>dam tenebrositate illa quae afflictionem cordi possunt 
+      ingere<lb ed="#L" n="103" break="no"/>re, vnde damnati videbunt poenas suas &amp; illos quos secum per 
+      <lb ed="#L" n="104"/>malum exemplum traxerunt de mundo quod totum cedet eis 
+      <lb ed="#L" n="105"/>ad augmentum supplicij, poenam etiam habebunt ex elemente 
+      <lb ed="#L" n="106"/>terrae ratione situs vbi infernus collocatus est scilicet circa cen 
+      <lb ed="#L" n="107"/>trum terrae vbi est locus infimus &amp; vilissimus. Sufficientia auti 
+      <lb ed="#L" n="108"/>illarum poenarum potest haberi sic, omnis creatura corporalis 
+      <lb ed="#L" n="109"/>erit damnatis ad poenam (vt dictum est) sed post 
+      resurrectio<lb ed="#L" n="110" break="no"/>nem (vt dictum est) non remanebunt creaturae corporales quae 
+      <lb ed="#L" n="111"/>possent hominem contingere &amp; ipsum affligere nisi praedicta 
+      <lb ed="#L" n="112"/>quatuor elementa, ergo solum ab eis patientur homines, 
+      pa<lb ed="#L" n="113" break="no"/>tientur autem secundum praedictas poenas, ergo &amp;c. Minor 
+      de<lb ed="#L" n="114" break="no"/>claratur, quia cum post resurrectionem cesset generatio &amp; cor 
+      <lb ed="#L" n="115"/>ruptio nulla corporalia remanebunt nisi quae habent ordinem 
+      <lb ed="#L" n="116"/>ad incorruptionem, talia autem sunt primo &amp; principaliter cor 
+      <lb ed="#L" n="117"/>pora coelestia, quae secundum quodlibet sui sunt incorporalia 
+      <lb ed="#L" n="118"/>sed ab istis non affligentur damnati poena corporali, quia non 
+      <lb ed="#L" n="119"/>contingentur ab eis, elementa autem sunt incorruptibilia 
+      se<lb ed="#L" n="120" break="no"/>cundum se tota, sic intelligendo quod nunquam aliquod 
+      ele<lb ed="#L" n="121" break="no"/>mentum secundum se totum fuit simul corruptum, nec vnquam 
+      <lb ed="#L" n="122"/>sic corrumpetur quantumcunque mundus duraret, quamuis 
+      <lb ed="#L" n="123"/>quodlibet elementum posset corrumpi &amp; quotidie 
+      corrumpa<lb ed="#L" n="124" break="no"/>tur secundum aliquid sui, scilicet secundum extremitatem qua 
+      <lb ed="#L" n="125"/>contingit alterum elementum sibi contrarium. Omnia auten 
+      <lb ed="#L" n="126"/>mixta praeter hominem sunt secundum se tota. &amp; secundum 
+      quod<lb ed="#L" n="127" break="no"/>libet sui corruptibilia, &amp; ideo nihil eorum remanebit post 
+      re<lb ed="#L" n="128" break="no"/>surrectionem nisi quae dicta sunt scilicet corpora coelestia, 
+      ele<lb ed="#L" n="129" break="no"/>menta, homo, &amp; sic solum ab elementis poterit homo affligi 
+      se<lb ed="#L" n="130" break="no"/>cundum praedictas poenas. 
+      </p>
+            <p xml:id="jsnvu6-e298609-d1e383">
+               <lb ed="#L" n="131"/>
+               <!--8--> Quod autem dicitur in Psalmo, Sulphur &amp; spiritus 
+      procel<lb ed="#L" n="132" break="no"/>larum pertinere ad poenam damnatorum intelligendum est per 
+      <lb ed="#L" n="133"/>adoptationem, quia locus inferni erit foetidus et turbulentus, 
+      af<lb ed="#L" n="134" break="no"/>fligentur nihilominus damnati ab inferiori, quia secundum 
+      Euan<lb ed="#L" n="135" break="no"/>gelium ibi erit fletus &amp; stridor dentium, de stridore dentium 
+      <lb ed="#L" n="136"/>qualiter posset esse ibi non est difficile, sed de fletu 
+      aduerten<lb ed="#L" n="137" break="no"/>dum est quod cum in fletu sint duo, scilicet resolutio lachrymarum 
+      <lb ed="#L" n="138"/>&amp; conturbatio capitis &amp; maxime cerebri &amp; oculorum 
+      propte<lb ed="#L" n="139" break="no"/>humorum commotionem. Quantum ad primum non erit fletus 
+      <lb ed="#L" n="140"/>in damnatis, quia cum corpora eorum sint finita si ab eis 
+      con<lb ed="#L" n="141" break="no"/>tinue resoluerentur lachrymae tandem totaliter 
+      consumeren<lb ed="#L" n="142" break="no"/>tur cum non fiat in eis aliqua restauratio per sumptionem 
+      ali<lb ed="#L" n="143" break="no"/>menti, sed quantum ad secundum erit in eis fletus 
+      perpenu<lb ed="#L" n="144" break="no"/>&amp; perpetua perturbatio capitis, cerebri, &amp; oculorum 
+      exinordi<lb ed="#L" n="145" break="no"/>nata humorum commotione, &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e298609-d1e421">
+               <lb ed="#L" n="146"/>
+               <!--9--> Quantum ad secundum, scilicet de comparatione illarum 
+      <lb ed="#L" n="147"/>poenarum dicendum est quod si comparemus Joenam spiritualem 
+      <lb ed="#L" n="148"/>quae dicitur poena vermis poenis corporalibus sic ipsa est maior 
+      <lb ed="#L" n="149"/>simpliciter &amp; grauior caeteris, quia quanto bonum aliquod est 
+      <lb ed="#L" n="150"/>majus &amp; delectabilius tanto priuatio eius est peior &amp; 
+      tristabi<lb ed="#L" n="151" break="no"/>lior, sed bonum quod priuator per poenam vermis (sulicet, 
+      vi<lb ed="#L" n="152" break="no"/>sio Dei) est majus &amp; delectabilius quocunque bono corpora 
+      <lb ed="#L" n="153"/>&amp; ad hoc sunt auctoritates Chrysostomi prius positae in 
+      quae<lb ed="#L" n="154" break="no"/>stione qua quaeritur de passione animae ab igne quamuis nobis 
+      <lb ed="#L" n="155"/>nunc existentibus in carne contrarium videatur, propter hoc quod 
+      <lb ed="#L" n="156"/>magis nunc iudicamus secundum sensum quam secundum 
+      in<lb ed="#L" n="157" break="no"/>tellectum. Si autem comparemus poenas corporales adinuicem 
+      <lb ed="#L" n="158"/>sic inter eas poena ignis est maior, quia quod est magis actiuum 
+      <lb ed="#L" n="159"/>est magis afflictiuum, sed ignis est maxime actiuus, ergo 
+      maxi<lb ed="#L" n="160" break="no"/>me afflictiuus, &amp; propter hoc caeterae poenae Corporales frequen 
+      <lb ed="#L" n="161"/>ter tacentur in scripturis expressa sola poena ignis, quia in ea 
+      <!--00800.xml-->
+      <pb ed="#L" n="363-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tanquam in grauissima, omnes aliae intelliguntur. 
+      </p>
+            <p xml:id="jsnvu6-e298609-d1e469">
+               <lb ed="#L" n="2"/>
+               <!--10.--> Ad argumenta in oppositum. Ad primum dicendum quod 
+      <lb ed="#L" n="3"/>varietas poenarum corporalium non praestat refrigerium, sed 
+      <lb ed="#L" n="4"/>auget supplicium, &amp; tales sunt omnes poenae damnatorum 
+      ex<lb ed="#L" n="5" break="no"/>cepta poena ignis respectu poenae aquae &amp; econuerso de 
+      quibus<lb ed="#L" n="6" break="no"/>dicendum est quod varietas talium poenarum non praestat refri 
+      <lb ed="#L" n="7"/>gerium nisi quando paulatiue receditur ab vna &amp; transfertur ad 
+      <lb ed="#L" n="8"/>alteram. Si autem subito vel quasi subito transeatur de summe 
+      <lb ed="#L" n="9"/>vnius poenae ad summum alterius poerae tunc non est refrige 
+      <lb ed="#L" n="10"/>rium, sed notatio supplicij in supplicium 
+      </p>
+            <p xml:id="jsnvu6-e298609-d1e493">
+               <lb ed="#L" n="11"/>
+               <!--11--> Ad secundum dicendum quod non est simile de purgatori 
+      <lb ed="#L" n="12"/>&amp; de inferno, quia poena purgatorij ordinatur solum ad purgam 
+      <lb ed="#L" n="13"/>dum per satisfactionem poenae, quae purgatio optime porest fier 
+      <lb ed="#L" n="14"/>per ignem, quia maxim e puigatiuu:, sed poena inserni est ad 
+      af<lb ed="#L" n="15" break="no"/>fligendum camratos propter executionem institiae, qui sicut pec 
+      <lb ed="#L" n="16"/>cauerunt contra dominum omnium nec poenituerunt, ab 
+      omni<lb ed="#L" n="17" break="no"/>bus debent aliquo modo a ffligi quod fit per poenas supradictas 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

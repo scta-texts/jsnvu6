@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="223-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e183106"><!-- l3d25prae -->
+            <head xml:id="jsnvu6-e183106-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e183106-d1e103">
+               <lb ed="#L" n="20"/>Sententia huius distinctionis XXV. in 
+      <lb ed="#L" n="21"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e183106-d1e110">
+               <lb ed="#L" n="22"/>RAIBICTIs adiciendum. Superius deremi 
+      <lb ed="#L" n="23"/>nauit de fide quantum ad suam essentiam, &amp; pe 
+      <lb ed="#L" n="24"/>comparationem ad suum obiectum. Hic 
+      determi<lb ed="#L" n="25" break="no"/>nat de ea per comparationem ad credentes deter 
+      <lb ed="#L" n="26"/>minando de fidei quantitate, quantum ad 
+      sufficien<lb ed="#L" n="27" break="no"/>tiam &amp; salutem. Et diuiditur in duas. Primo determinat de quam 
+      <lb ed="#L" n="28"/>titate fidei extensiua, quam habet ex numero credibilium. Secudo 
+      <lb ed="#L" n="29"/>vero de quantitate intensiua, quam habet ex intensione habitus. 
+      <lb ed="#L" n="30"/>Illud etiam non est praemittendum. Prima diuiditur in 
+      qua<lb ed="#L" n="31" break="no"/>tuor. Primo ostendit quod fides fructifera se extendit ad 
+      co<lb ed="#L" n="32" break="no"/>gnitionem deitatis. Secundo quoad cognitionem 
+      redemptio<lb ed="#L" n="33" break="no"/>nis ibi, sed quaeritur vtrum. Tertio ostendit ad quos articulo: 
+      <lb ed="#L" n="34"/>redemptionis se extendit ibi, sed quaeritur cum sine fide. Quar. 
+      <lb ed="#L" n="35"/>ro mouet circa hoc quandam quaestionem, ibi, solet etiam quae 
+      <lb ed="#L" n="36"/>ri. Haec est diuisio, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e183106-d1e145">
+               <lb ed="#L" n="37"/>
+               <!--2.--> In speciali sic procedit Magister, &amp; dicit quod in his quae prae 
+      <lb ed="#L" n="38"/>cesserunt aduentum Christi fides profecit processu temporis, 
+      <lb ed="#L" n="39"/>sicut &amp; cognitio: nunquam tamen fuit salus nisi credenti, id 
+      <lb ed="#L" n="40"/>quod dixit Apost. Hebr. 11. Accedentem ad Deum oportet cre 
+      <lb ed="#L" n="41"/>dere, quia est, &amp; quod remunerator est sperantium in se: istud 
+      <lb ed="#L" n="42"/>tamen credere non sufficit ad salutem, nisi cum hoc habeatur 
+      <lb ed="#L" n="43"/>fides de mediatore, saltem postquam genus humanum 
+      corru<lb ed="#L" n="44" break="no"/>ptum fuit per peccatum primorum parentum: &amp; hanc fidem 
+      <lb ed="#L" n="45"/>explicite habuerunt maiores, quibus facta est reuelatio de me 
+      <lb ed="#L" n="46"/>diatore nascituro, simplices autem &amp; minores habuerunt 
+      ta<lb ed="#L" n="47" break="no"/>lem fidem implicite. Tunc quaerit Magister an antiqui patres 
+      <lb ed="#L" n="48"/>tenerentur explicite credere omnia quae nunc nos credimus 
+      <lb ed="#L" n="49"/>de mediatore. Et dicit quod quibusdam videtur quod 
+      suffece<lb ed="#L" n="50" break="no"/>rit eis credere quatuor, scilicet, natiuitatem, mortem, &amp; 
+      resur<lb ed="#L" n="51" break="no"/>rectionem, &amp; aduentum ad iudicium, quae nominantur in 
+      <lb ed="#L" n="52"/>quadam auctoritate August. prius posita. Aliis autem videtur 
+      <lb ed="#L" n="53"/>quod sufficiebat eis credere Christum nasciturum &amp; 
+      iudica<lb ed="#L" n="54" break="no"/>turum mundum, nam loannes Baptista videtur dubitasse de 
+      <lb ed="#L" n="55"/>morte Christi, &amp; de descensu ad inferos, quando dicit, Tu e: 
+      <lb ed="#L" n="56"/>qui venturus es, secundum expositionem G regor. quamui 
+      <lb ed="#L" n="57"/>alij dicant quod loannes Baptista hoc non dicit dubitando, sed 
+      <lb ed="#L" n="58"/>admirando humilitatem Christi. Postea quaerit vtrum 
+      Cor<lb ed="#L" n="59" break="no"/>nelius habuerit fidem incarnationis, &amp; arguit quod sic, quia 
+      <lb ed="#L" n="60"/>Actuum 10. Eleemosynae eius &amp; orationes dicuntur Deo fuisse 
+      <lb ed="#L" n="61"/>acceptae, quod sine fide esse non potuit. Sed contrarium est 
+      <lb ed="#L" n="62"/>quia Petrus fuit missus ad eum instruendum de fide. Et respor 
+      <lb ed="#L" n="63"/>det quod ipse habuit fidem incarnationis, sed nesciebat iam 
+      fi<lb ed="#L" n="64" break="no"/>dem esse factam, &amp; de hoc instruxit eum Petrus. Postea dicii 
+      <lb ed="#L" n="65"/>Magister quod fides, spes &amp; charitas &amp; operatio in praesenti vi 
+      <lb ed="#L" n="66"/>ta sunt aequales, quia quantum credit quis, tantum sperat, 
+      tan<lb ed="#L" n="67" break="no"/>tum amat, tantum operatur. Postea ponit duas auctoritates 
+      <lb ed="#L" n="68"/>Quarum vna dicit quod charitas non est ex fide &amp; spe: alia 
+      ve<lb ed="#L" n="69" break="no"/>ro dicit contrarium. Et respondet quod charitas non est ex 
+      fi<lb ed="#L" n="70" break="no"/>de &amp; spe: ponitur tamen post eas, quia charitas in praesenti non 
+      <lb ed="#L" n="71"/>potest esse sine fide &amp; spe: sed fides &amp; spes possunt esse sine chi 
+      <lb ed="#L" n="72"/>ritate. Et in hoc terminatur, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="181-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e148653"><!-- l3d1q1 -->
+            <head xml:id="jsnvu6-e148653-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e148653-Hd1e103" type="question-title">
+      Utrum incarnatio sit possibilis
+    </head>
+            <p xml:id="jsnvu6-e148653-d1e106">
+               <lb ed="#L" n="149"/>QVARSTIO PIIMA. 
+      <lb ed="#L" n="150"/>Vtrum incarnatio sit possibilis. 
+      <lb ed="#L" n="151"/>Thom 3p.4.1. 411. 
+    </p>
+            <p xml:id="jsnvu6-e148653-d1e115">
+      <!--00436.xml-->
+               <pb ed="#L" n="181-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>IA Ca dist. primam tertij libri sententiarum 
+      quae<lb ed="#L" n="2" break="no"/>ritur primo, vtrum incarnatio sit possibilis. Et 
+      vi<lb ed="#L" n="3" break="no"/>detur quod non quia quicquid conuenit deo ex 
+      <lb ed="#L" n="4"/>tempore, conuenit ei ex mutatione sui, vel 
+      crea<lb ed="#L" n="5" break="no"/>Aturae, quia non est nouitas sine mutatione. Sed 
+      in<lb ed="#L" n="6" break="no"/>carnatio temporalis non potest deo conuenire per mutationem 
+      <lb ed="#L" n="7"/>sui, vel creaturae, ergo nullo modo. Minor probatur, quod enim 
+      <lb ed="#L" n="8"/>incarnari non conuenit deo per mutationem sui, planum est, cum 
+      <lb ed="#L" n="9"/>scriptum sit Mal. 3. Ego deus &amp; non mutor. Et Ia. primo apud 
+      <lb ed="#L" n="10"/>quem non est transmutatio &amp;c. Quod autem non conueniat ei 
+      <lb ed="#L" n="11"/>per mutationem creaturae probatur sic, quia illa mutatio esse 
+      <lb ed="#L" n="12"/>secundum locum, vel secundum formam non secundum locum, quia 
+      <lb ed="#L" n="13"/>talis mutatio est ad aliquid distans, secundum locum, quod non 
+      po<lb ed="#L" n="14" break="no"/>test dici de deo respectu creaturae, non enim longe est ab vno 
+      <lb ed="#L" n="15"/>quoque nostrum Act. 17. nec secundum formam, quia natura humana 
+      <lb ed="#L" n="16"/>sibi derelicta, vel assumpta, nihil plus vel minus habet, quare &amp;c 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e159">
+               <lb ed="#L" n="17"/>
+               <!--2--> Item natura spiritualis non vnitur corporali nisi dupliciter 
+      <lb ed="#L" n="18"/>scilicet, per modum formae, vel per modum mouentis, sed natura 
+      <lb ed="#L" n="19"/>diuina non potest vniri alicui naturae creatae per modum 
+      for<lb ed="#L" n="20" break="no"/>mae, quia natura diuina nullus potest esse forma inhaerens de qua 
+      <lb ed="#L" n="21"/>loquimur, ergo vnitur ei per modum mouentis, sed talis vnic 
+      <lb ed="#L" n="22"/>non sufficit ad incarnationem. Alioquin omnis creatura esset 
+      <lb ed="#L" n="23"/>vnita deo, quare &amp;c. 
+</p>
+            <p xml:id="jsnvu6-e148653-d1e180">
+               <lb ed="#L" n="24"/>Item deus non potest esse in creaturis nisi per essentiam, prae 
+      <lb ed="#L" n="25"/>sentiam, &amp; potentiam, sed nullus istorum modorum per se sufficit ad 
+      <lb ed="#L" n="26"/>incarnationem, nec omnes simul sufficiunt, ergo ipsa non est 
+      pos<lb ed="#L" n="27" break="no"/>sibilis: maior probatur, quia deus non potest esse praesens creatu 
+      <lb ed="#L" n="28"/>rae nisi vel secundum se, vel secundum suam operationem, si 
+      secun<lb ed="#L" n="29" break="no"/>dum se sic est praesens secundum essentiam. Si secundum 
+      opera<lb ed="#L" n="30" break="no"/>tionem, aut secundum operationem intra manentem, sicut 
+      intelli<lb ed="#L" n="31" break="no"/>gere, &amp; si dicitur esse in rebus per praesentiam modo quo dici 
+      <lb ed="#L" n="32"/>mus ea quae sunt in prospectu nostro esse nobis praesentia &amp; 
+      no<lb ed="#L" n="33" break="no"/>ipsis, aut secundum operationem transeuntem extra &amp; sic est ir 
+      <lb ed="#L" n="34"/>rebus per potentiam. Et praeter hos modos non videtur alius po 
+      <lb ed="#L" n="35"/>sibilis. minor de se patet, quia his modis dicitur deus esse 
+      prae<lb ed="#L" n="36" break="no"/>sens omnibus creaturis quae tamen non dicuntur assumptae. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e211">
+               <lb ed="#L" n="37"/>
+               <!--4--> Item suppositum se habet ad indiuiduum sicut particulari 
+      <lb ed="#L" n="38"/>sub vniuersali, quia illud idem (vt videtur) dicit indiuiduum in 
+      <lb ed="#L" n="39"/>omni natura &amp; genere quod dicit suppositum in praedicamente 
+      <lb ed="#L" n="40"/>substantiae, sed nulla natura potest carere sua propria indiuidua 
+      <lb ed="#L" n="41"/>tione, ergo nullum suppositum in genere substantiae potest 
+      ca<lb ed="#L" n="42" break="no"/>rere sua suppositione, &amp; ita nullum suppositum in genere sub 
+      <lb ed="#L" n="43"/>stantiae (vt videtur) potest substantificari in supposito diuino, &amp; 
+      <lb ed="#L" n="44"/>sic non est possibilis incarnatio quae dicitur esse vnio humana 
+      <lb ed="#L" n="45"/>naturae cum supposito diuino. 
+</p>
+            <p xml:id="jsnvu6-e148653-d1e235">
+               <lb ed="#L" n="46"/>IN CONTRARIVM est quod habetur Ioh. 1. 
+      ver<lb ed="#L" n="47" break="no"/>bum caro factum est, &amp; ad Phil. a. dicitur de filio quod 
+      exinani<lb ed="#L" n="48" break="no"/>uit semetipsum formam serui accipiens, igitur &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e244">
+               <lb ed="#L" n="49"/>
+               <!--6--> RESPONSIO. circa istam quaestionem videnda sunt 
+      <lb ed="#L" n="50"/>tria. Primum est quid importetur nomine incarnationis 
+      Secun<lb ed="#L" n="51" break="no"/>dum est vtrum ipsa sit possibilis. Tertium est cui modo vnionis 
+      <lb ed="#L" n="52"/>assimiletur incarnatio. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e257">
+               <lb ed="#L" n="53"/>
+               <!--7.--> QVANTVM ad primum sciendum est quod per 
+      incar<lb ed="#L" n="54" break="no"/>nationem nihil aliud intelligimus nisi vnionem humanae natura 
+      <lb ed="#L" n="55"/>cum diuina, ita, scilicet, quod natura humana non constitua 
+      <lb ed="#L" n="56"/>proprium supposium, nec existat in supposito proprij generis, 
+      <lb ed="#L" n="57"/>sed existat in supposito diuino. Quaerimus enim de incarnation 
+      <lb ed="#L" n="58"/>per quam factum est quod homo esset deus &amp; deus homo. Ac 
+      <lb ed="#L" n="59"/>hoc autem requiritur, quod sit vnio naturae humanae cum 
+      diui<lb ed="#L" n="60" break="no"/>na in eodem supposito, quia quae distinguuntur secundum sup. 
+      <lb ed="#L" n="61"/>posita non praedicantur de se inuicem, natura autem diuina non 
+      <lb ed="#L" n="62"/>potest esse in alieno supposito, quare oportet quod natura 
+      hu<lb ed="#L" n="63" break="no"/>mana existat in diuino, si tamen est possibilis incarnatio. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e286">
+               <lb ed="#L" n="64"/>
+               <!--8--> Quantum ad secundum dicendum quod incarnatio est 
+      possibi<lb ed="#L" n="65" break="no"/>lis, &amp; quamuis omnino non possit hoc demonstratiue probari 
+      <lb ed="#L" n="66"/>tamen potest satis probabiliter persuaderi hoc modo. Omne illus 
+      <lb ed="#L" n="67"/>est deo possibile quod non includit contradictionem, vel 
+      repu<lb ed="#L" n="68" break="no"/>gnantiam intellectuum (vt patet ex dictis in I. lib.) Sed deum 
+      in<lb ed="#L" n="69" break="no"/>carnari non includit contradictionem vel repugnantiam 
+      intel<lb ed="#L" n="70" break="no"/>lectuum, ergo hoc est deo possibile. minor probatur, quia si 
+      in<lb ed="#L" n="71" break="no"/>cluderet contradictionem, vel repugnantiam intellectuum, aut 
+      <lb ed="#L" n="72"/>hoc esset ex parte creaturae, aut ex parte dei. Sed ex parte 
+      neu<lb ed="#L" n="73" break="no"/>trius est ibi repugnantia seu contradictio, quare, &amp;c. Quod autem 
+      <lb ed="#L" n="74"/>non sit repugnantia ex parte creaturae dupliciter declaratur. 
+      Pri<lb ed="#L" n="75" break="no"/>mo sic, prius virtute diuina potest absolui a posteriori. Sed 
+      sin<lb ed="#L" n="76" break="no"/>gularitas naturae humanae prior est supputatione sua, ergo 
+      vir<lb ed="#L" n="77" break="no"/>tute diuina ipsa potest habere propriam singularitatem, dato. 
+      <lb ed="#L" n="78"/>non habeat propriam suppositationem, sed si non habet propri 
+      <lb ed="#L" n="79"/>oportet quod habeat alienam, cum nihil existat nisi in aliquo 
+      sup<lb ed="#L" n="80" break="no"/>posito, ergo possibile est naturam humanam non existere in pro 
+      <lb ed="#L" n="81"/>prio supposito, sed in alieno. Quod autem singularitas propria si 
+      <lb ed="#L" n="82"/>prior propria suppositatione, patet quia ex hoc aliquid est sin¬ 
+      <!--00436.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>gulare quia est hoc aliquid, &amp; vnum numero, super hoc autem 
+      <lb ed="#L" n="84"/>addit suppositatio esse in se &amp; per se, &amp; non in alio, quod autem 
+      <lb ed="#L" n="85"/>se habet per additionem ad alterum posterius est illo, quare, &amp;c. 
+      <lb ed="#L" n="86"/>Secundo sic, sicut natura substantiae completae est existere per se, 
+      <lb ed="#L" n="87"/>&amp; in proprio supposito, ita natura accidentis est in alio supposito 
+      <lb ed="#L" n="88"/>existere, sed virtute diuina in sacramento altaris fit quod acci 
+      <lb ed="#L" n="89"/>dens salua sua essentia &amp; natura quantum ad id quod est non 
+      exi<lb ed="#L" n="90" break="no"/>stat in alieno supposito sed in se, ergo similiter diuina virtute 
+      <lb ed="#L" n="91"/>fieri potest quod substantia completa (vt natura humana) 
+      pro<lb ed="#L" n="92" break="no"/>prium suppositum non constituat, sed in alieno existat. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e359">
+               <lb ed="#L" n="93"/>
+               <!--9--> Causa autem huius hinc sumenda est, quia omnis natura actua 
+      <lb ed="#L" n="94"/>lis &amp; absoluta. (Actualis dico propter materiam primam &amp; 
+      abso<lb ed="#L" n="95" break="no"/>luta propter respectus relationis) potest sine contradictione 
+      exi<lb ed="#L" n="96" break="no"/>stere sine omni eo quod non est intrinsece de ratione sua, sed 
+      so<lb ed="#L" n="97" break="no"/>lum exti insece &amp; concomiratiue, quia ibi non est repugnantia 
+      <lb ed="#L" n="98"/>intellectuum, vt in contradictione, esse autem in alio non est 
+      in<lb ed="#L" n="99" break="no"/>trinsece de ratione accidentis, sed extrinsece solum &amp; 
+      concomi<lb ed="#L" n="100" break="no"/>tatiue, quia secundum cursum naturae accidens non esset nisi 
+      in<lb ed="#L" n="101" break="no"/>esset. Similiter esse per se non est intrinsece de ratione 
+      substan<lb ed="#L" n="102" break="no"/>tiae, sicut expresse ponit Auic. sed est realis proprietas, vel 
+      mo<lb ed="#L" n="103" break="no"/>dus substantiae, quia substantia complera sibi derelicta propriun 
+      <lb ed="#L" n="104"/>suppositum constituit, propter quod absque contradictione potes 
+      <lb ed="#L" n="105"/>substantia priuari proprio modo existendi per se, &amp; accidens 
+      mo<lb ed="#L" n="106" break="no"/>do existendi in alio, sic igitur patet quod ex parte creaturae non 
+      <lb ed="#L" n="107"/>est repugnantia, quin possit in alieno supposito substentari. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e396">
+               <lb ed="#L" n="108"/>
+               <!--10--> Quod autem non sit repugnantia ex parte dei, probatur sic, 
+      <lb ed="#L" n="109"/>quia quicquid conuenit creaturis pertinens ad perfectionem, hoc 
+      <lb ed="#L" n="110"/>totum conuenit creatori. Sed posse naturam aliam ab ea qua 
+      <lb ed="#L" n="111"/>suppositum constituit in se substantificare, pertinet ab 
+      perfectio<lb ed="#L" n="112" break="no"/>nem in creaturis: vnde &amp; hoc conuenit soli substantiae, in qua sunt 
+      <lb ed="#L" n="113"/>&amp; de qua dicuntur alia, sicut accidentia: quare &amp; hoc potest Deo 
+      <lb ed="#L" n="114"/>conuenire circunscriptis tamen imperfectionibus, (sicut in 
+      cae<lb ed="#L" n="115" break="no"/>teris quae deo &amp; creaturis conueniunt imperfectiones a deo re 
+      <lb ed="#L" n="116"/>legantur) pertinet autem ad imperfectionem substantiae &amp; ad eiu 
+      <lb ed="#L" n="117"/>potentialitatem quod accidens in ipsa existens ipsam informe 
+      <lb ed="#L" n="118"/>&amp; sit actus eius, &amp; ideo natura assumpta a diuina persona ipsam 
+      <lb ed="#L" n="119"/>non informat, sed absque informatione in ipsa substantificatur 
+      <lb ed="#L" n="120"/>ideo substantificatio naturae humanae a diuina natura nullam 
+      im<lb ed="#L" n="121" break="no"/>perfectionem arguit in ipsa. Ex quo potest formari talis ratio. 
+      <lb ed="#L" n="122"/>Esse in quo aliud, nunquam sonat imperfectionem nec 
+      poten<lb ed="#L" n="123" break="no"/>tiam passiuam, nisi vbi esse in alio est per inhaerentiam, quia ratic 
+      <lb ed="#L" n="124"/>potentiae passiuae reducitur ad subiectum, nihil enim est 
+      subie<lb ed="#L" n="125" break="no"/>ctum nisi per potentiam passiuam, nec potentia passiua est nisi 
+      <lb ed="#L" n="126"/>subiecti vt subiectum est: nihil autem est subiectum nisi per 
+      com<lb ed="#L" n="127" break="no"/>parationem ad illa quae sibi inhaerent. Cum igitur natura 
+      huma<lb ed="#L" n="128" break="no"/>na non ponatur existere in supposito diuino per modum inhae 
+      <lb ed="#L" n="129"/>rentis, sed per modum ordinis &amp; contactus virtualis esse vt in 
+      <lb ed="#L" n="130"/>quo ipsa existit non arguit in persona diuina aliquam potentiam 
+      <lb ed="#L" n="131"/>passiuam, siue imperfectionem: &amp; sic patet secundum. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e453">
+               <lb ed="#L" n="132"/>
+               <!--11--> QVANTVM ad tertium notandum est quod licet in 
+      <lb ed="#L" n="133"/>carnationi ex toto non possit inueniri similis modus vnionis in 
+      <lb ed="#L" n="134"/>creaturis, assimilatur tamen magis insitioni quam alicui vnioni 
+      <lb ed="#L" n="135"/>quod patet discurrendo per singulos modos quibus aliqua i 
+      <lb ed="#L" n="136"/>supposito vniuntur. Quaedam enim vniuntur constituendo vnam 
+      <lb ed="#L" n="137"/>naturam, quaedam vero non constituendo vnam naturam. Pri¬I 
+      <lb ed="#L" n="138"/>mum fit tripliciter. Primo ex corruptione omnium quae 
+      vniun<lb ed="#L" n="139" break="no"/>tur, sicut elementa in mixto. Secundo ex corruptione alteriu 
+      <lb ed="#L" n="140"/>solum, vt cum miscetur modicum de aqua in multo vino. Ter 
+      <lb ed="#L" n="141"/>tio saluatis omnibus his quae vniuntur, vt ex materia &amp; forma 
+      <lb ed="#L" n="142"/>substantiali fit vna natura compositi: neuter autem istorum 
+      mo<lb ed="#L" n="143" break="no"/>dorum competit incarnationi. Non enim natura diuina &amp; 
+      hu<lb ed="#L" n="144" break="no"/>mana transeunt in tertiam sicut elementa in mixto, nec vna in 
+      <lb ed="#L" n="145"/>alteram (vt modica aqua posita in multo vino) sed manet 
+      vtra<lb ed="#L" n="146" break="no"/>que saluata post vnionem alioquin non esset vera incarnatio qua 
+      <lb ed="#L" n="147"/>diceretur homo deus, &amp; deus homo, nisi ambae remanerent 
+      na<lb ed="#L" n="148" break="no"/>turae. Item nec sic vniuntur vt eis saluatis fiat quaedam tertia 
+      na<lb ed="#L" n="149" break="no"/>tura sicut fit ex vnione materiae cum forma natura compositi 
+      <lb ed="#L" n="150"/>quia natura diuina &amp; humana non possunt esse partes cuiusdan 
+      <lb ed="#L" n="151"/>complexionis naturae, quemadmodum materia &amp; forma sunt 
+      <lb ed="#L" n="152"/>partes naturae completae, ideo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e503">
+               <lb ed="#L" n="153"/>
+               <!--12--> Alia vero vniuntur in supposito non constituendo vnam 
+      natu<lb ed="#L" n="154" break="no"/>ram: quod fit dupliciter. Vno modo per inhaerentiam nature 
+      a<lb ed="#L" n="155" break="no"/>naturam, &amp; sic vnitur accidens substantiae, &amp; hic modus differ 
+      <lb ed="#L" n="156"/>"multum ab vnione incarnationis, quia incarnatio est vnio duari 
+      <lb ed="#L" n="157"/>naturarum quarum vtraque nata est constituere vnum supposi 
+      <lb ed="#L" n="158"/>tum, accidens autem non est huiusmodi. Item vnio accidentis ad 
+      <lb ed="#L" n="159"/>subiectum est per inhaerentiam. Hoc autem arguit in subiecte 
+      <lb ed="#L" n="160"/>potentiam passiuam, quod exclusum est ab incarnatione, ideo 
+      <lb ed="#L" n="161"/>&amp;c. Alio modo vniuntur aliqua per insitionem non 
+      constituen<lb ed="#L" n="162" break="no"/>do nouam naturam, sicut inseritur ramus stipiti, non enim 
+      con<lb ed="#L" n="163" break="no"/>stituitur noua natura nisi continuatione praeexistentium, 
+      si<lb ed="#L" n="164" break="no"/>cut econtrario quando continuum diuiditur in plura eiusdem 
+      <!--00437.xml-->
+      <pb ed="#L" n="182-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>rationis non est ibi noua generatio, sed praeexistentis diuisio¬ 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e542">
+               <lb ed="#L" n="2"/>
+               <!--13.--> Et hic modus est in vno dissimilis incarnationi, quia est ibi 
+      <lb ed="#L" n="3"/>vnio similis cum simili ratione, cuius est ibi continuatio, &amp; non 
+      <lb ed="#L" n="4"/>solum contactus: hoc autem excluso (quod &amp; in proposito 
+      ex<lb ed="#L" n="5" break="no"/>cludi potest rationabiliter, quia quod potest natura creata 
+      re<lb ed="#L" n="6" break="no"/>spectu similis secundum speciem, hoc potest natura diuina 
+      pro<lb ed="#L" n="7" break="no"/>pter suam illimitatam perfectionem respectu naturae creatae &amp; 
+      <lb ed="#L" n="8"/>dissimilis) totum residuum est simile, natura enim diuina &amp; 
+      <lb ed="#L" n="9"/>humana non constituunt vnam naturam, vniuntur autem per 
+      <lb ed="#L" n="10"/>modum insitionis, quam facit ordo, non situs: secundum enim 
+      <lb ed="#L" n="11"/>beatum Augustinum, quod facit situs in corporalibus hoc 
+      fa<lb ed="#L" n="12" break="no"/>cit ordo in spiritualibus. Et ideo sicut mediante contactu, vel 
+      <lb ed="#L" n="13"/>situ ramus inseritur arbori, &amp; efficiuntur vnum secundum su 
+      <lb ed="#L" n="14"/>positum. Sic mediante ordine quem habet natura creata ad 
+      <lb ed="#L" n="15"/>diuinam essentiam, &amp; ad diuinum suppositum, in quo est 
+      om<lb ed="#L" n="16" break="no"/>nis ratio suppositi potest natura creata virtute diuina, quasi 
+      <lb ed="#L" n="17"/>diuino supposito insita in ipso substantificari. Huic autem con 
+      <lb ed="#L" n="18"/>cordat scriptura loquens de incarnatione Christi, vel de 
+      Chri<lb ed="#L" n="19" break="no"/>sto incarnato, dicitur enim Apocal. 5. vicit leo de tribu Iuda 
+      <lb ed="#L" n="20"/>radix Dauid: &amp; 22. eiusdem, Ego sum radix &amp; genus Dauid 
+      <lb ed="#L" n="21"/>stella splendida &amp;c. Ex quibus datur intelligi, quod sicut ex 
+      ra<lb ed="#L" n="22" break="no"/>dice &amp; ramo fit vnum per insitionem, sic ex natura diuina 
+      tan<lb ed="#L" n="23" break="no"/>quam ex radice, vel trunco &amp; natura Chrissi humana sumpta 
+      <lb ed="#L" n="24"/>de stirpe Dauid, tanquam ramo insisto factus est vnus Christu: 
+      <lb ed="#L" n="25"/>per incarnationem, tanquam per insitionem: vnde Iacob. 1. 
+      <lb ed="#L" n="26"/>vocatur verbum insitum, in mansuetudine inquit, suscipite 
+      in<lb ed="#L" n="27" break="no"/>situm verbum: vbi glosa dicit verbum diuinum quod insitum 
+      <lb ed="#L" n="28"/>est &amp; seminatum in die redemptionis. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e605">
+               <lb ed="#L" n="29"/>
+               <!--14--> AD PRIMVM argumentum dicendum quod 
+      incar<lb ed="#L" n="30" break="no"/>natio competit Deo ex tempore, non ex mutatione sui, sed 
+      <lb ed="#L" n="31"/>creaturae, quae dum assumitur mutatur non secundum locum 
+      <lb ed="#L" n="32"/>nec secundum aliquam formam absolutam, sed dicitur mutari 
+      <lb ed="#L" n="33"/>inquantum suscipit nouum modum essendi cum priuatione pro 
+      <lb ed="#L" n="34"/>prij modi. Et si dicatur quod iste modus non dicit nisi 
+      quan<lb ed="#L" n="35" break="no"/>dam relationem ad quam non potest esse actio, dicendum quod 
+      <lb ed="#L" n="36"/>verum est de actione creaturae, quae non attingit ad respectum, 
+      <lb ed="#L" n="37"/>nisi per fundamentum propter determinationem suam in modo 
+      <lb ed="#L" n="38"/>agendi: Deus autem potest immediate super modum rei 
+      in<lb ed="#L" n="39" break="no"/>fluendo, vel subtrahendo sicut ei placet. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e635">
+               <lb ed="#L" n="40"/>
+               <!--15--> Ad secundum dicendum quod Philosophi solum 
+      conside<lb ed="#L" n="41" break="no"/>rauerunt illud quod habet cursum naturae, secundum quem 
+      <lb ed="#L" n="42"/>non videmus substantiam spiritualem vniri corpori, nisi per 
+      <lb ed="#L" n="43"/>modum mouentis, vel per modum formae: Deus autem ad hoc 
+      <lb ed="#L" n="44"/>non limitatur quin aliter possit facere. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e651">
+               <lb ed="#L" n="45"/>
+               <!--16--> Ad tertium dicendum, quod Deum esse in rebus per essei 
+      <lb ed="#L" n="46"/>tiam non tantum dicitur vno modo, sed dupliciter. Vno modo 
+      <lb ed="#L" n="47"/>per communem exhibitionem suae essentiae, qui modus vocatur 
+      <lb ed="#L" n="48"/>communis illapsus: &amp; hic modus quum sit communis 
+      respe<lb ed="#L" n="49" break="no"/>ctu omnium non sufficit ad incarnationem. Secundo modo per 
+      <lb ed="#L" n="50"/>specialem illapsum, quem quidam vocant circumincessionem 
+      <lb ed="#L" n="51"/>nos autem incisionem, &amp; hic modus non est communis 
+      omni<lb ed="#L" n="52" break="no"/>bus, sed est proprius naturae assumptae, ideo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e148653-d1e673">
+               <lb ed="#L" n="53"/>
+               <!--17--> Ad quartum dicendum quod indiuiduum &amp; suppositum 
+      <lb ed="#L" n="54"/>non se habent praecise, sicut vniuersale &amp; particulare, ita vt 
+      il<lb ed="#L" n="55" break="no"/>lud solum quod dicit indiuiduum in omni genere dicat 
+      suppo<lb ed="#L" n="56" break="no"/>situm in genere substantiae, quia materiae &amp; forma in 
+      gener<lb ed="#L" n="57" break="no"/>substantiae sunt quaedam indiuidua, nec tamen sunt supposita 
+      <lb ed="#L" n="58"/>Indiuiduum, enim solum dicit illud quod est singulare, seu vni 
+      <lb ed="#L" n="59"/>numero, in omni genere. Suppositum autem super hoc 
+      addi<lb ed="#L" n="60" break="no"/>determinatum modum essendi, videlicet quod sit completum, 
+      <lb ed="#L" n="61"/>in natura, &amp; per se existens, &amp; alteri non innitens, &amp; isto modo 
+      <lb ed="#L" n="62"/>essendi potest carere talis natura, licet non possit carere sua 
+      <lb ed="#L" n="63"/>indiuiduatione.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

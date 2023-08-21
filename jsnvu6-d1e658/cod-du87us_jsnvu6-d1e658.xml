@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="35-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e658"><!-- l1d9q3 -->
+            <head xml:id="jsnvu6-d1e658-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e658-Hd1e103" type="question-title">Utrum Pater et Filius possint dici plures aeterni</head>
+            <p xml:id="jsnvu6-d1e658-d1e106">
+               <lb ed="#L" n="72"/>QVARSTIO TERTIA. 
+      <lb ed="#L" n="73"/>Vtrum Pater &amp; Filius sint plures aeterni. 
+      <lb ed="#L" n="74"/>Thom. 1. p. 9. 10. artic. 3.
+    </p>
+            <p xml:id="jsnvu6-d1e658-d1e115">
+               <lb ed="#L" n="75"/>TERTIO quaeritur vtrum pater &amp; filius possini 
+      <lb ed="#L" n="76"/>dicit plures aeterni. Et videtur quod non, quia 
+      <lb ed="#L" n="77"/>sicut trium personarum est vna deitas, ita vna 
+      <lb ed="#L" n="78"/>aeternitas, sed pater &amp; filius non dicuntur plure: 
+      <lb ed="#L" n="79"/>ai dij: ergo nec plures aeterni. 
+      </p>
+            <p xml:id="jsnvu6-d1e658-d1e128">
+               <lb ed="#L" n="80"/>
+               <!--2.--> Item quae dicuntur absolute non plurificantur in diuinis 
+      <lb ed="#L" n="81"/>(ignificant enim substantiam) sed aeternus dicitur absolute 
+      <!--00135.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>ergo non plurificatur dicendo plures aeterni. 
+      </p>
+            <p xml:id="jsnvu6-d1e658-d1e145">
+               <lb ed="#L" n="83"/>
+               <!--3--> Ad idem est quod dicit Athanasius in symbolo. Et tamen 
+      <lb ed="#L" n="84"/>non tres aeterni, sed vnus aeternus. 
+      </p>
+            <p xml:id="jsnvu6-d1e658-d1e154">
+               <lb ed="#L" n="85"/>
+               <!--4--> INCONTRARIVM est, quia non magis est essen 
+      <lb ed="#L" n="86"/>tialis personis diuinis aeternitas quam entitas, sed entitas 
+      prae<lb ed="#L" n="87" break="no"/>dicatur in plurali de pluribus personis (dicimus enim qued 
+      <lb ed="#L" n="88"/>pater &amp; filius sunt) ergo debemus similiter dicere quod pate 
+      <lb ed="#L" n="89"/>&amp; filius sunt aeterni 
+      </p>
+            <p xml:id="jsnvu6-d1e658-d1e170">
+               <lb ed="#L" n="90"/>
+               <!--5--> RESPONSIO. quaestio ista non est de re quid it, e 
+      <lb ed="#L" n="91"/>de modo loquendi. Non enim dubitamus vtrum aeternitas plu 
+      <lb ed="#L" n="92"/>rificetur in personis diuinis, sed supposito quod in omnibus 
+      perio<lb ed="#L" n="93" break="no"/>nis diuinis sit vna aeternitas sicut vna diuinitas, quaerimus vtri 
+      <lb ed="#L" n="94"/>debeamus praedicare nomen aeterni de tribus personis in 
+      plu<lb ed="#L" n="95" break="no"/>rali an in singulari: est ergo intelligendum quod nominum quaedam 
+      <lb ed="#L" n="96"/>sunt adiectiua, alia substantiua. Illa quaem sunt substantiua cn 
+      <lb ed="#L" n="97"/>non significent per modum dependentis ad alterum, &amp; alter 
+      <lb ed="#L" n="98"/>inhaerentis non dicuntur de aliquibus pluraliter, nisi 
+      natura<lb ed="#L" n="99" break="no"/>importata per talia nomina plurificetur in illis. Sed adiectiu. 
+      <lb ed="#L" n="100"/>cum significent per modum dependentis ad alterum, &amp; alteri 
+      <lb ed="#L" n="101"/>inhaerentis praedicantur pluraliter (de pluribus tamen) siue fo 
+      <lb ed="#L" n="102"/>ma importata per talia nomina plurificetur siue non. Debeni 
+      <lb ed="#L" n="103"/>enim vt dicunt grammatici, adiectiua conformari substantiuis it 
+      <lb ed="#L" n="104"/>numero. Vnde dicimus quod plures homines trahunt nauem 
+      plu<lb ed="#L" n="105" break="no"/>raliter, licet sit vnus tractus numero. Cum ergo quaeritur vtri 
+      <lb ed="#L" n="106"/>pater &amp; filius sint plures aeterni. Aut facis difficultatem in hoc 
+      <lb ed="#L" n="107"/>quod est plures, vel in hoc quod est aeterni: Si in hoc quod est plu 
+      <lb ed="#L" n="108"/>res, solutum est in prima quaestione huius dist. Si in hoc quod 
+      <lb ed="#L" n="109"/>est aeterni, nulla vis facienda est cum sit adiectiuum quod prae 
+      <lb ed="#L" n="110"/>dicatur pluraliter de pluribus: &amp; pluralis numerus non denota 
+      <lb ed="#L" n="111"/>numerum formae per adiectiuum importatae, sed pluralitatem 
+      <lb ed="#L" n="112"/>illorum quibus conuenit. Vnde bene dicitur plures persona 
+      <lb ed="#L" n="113"/>sunt diuinae non autem dij: &amp; quod pater &amp; filius &amp; spiritus 
+      san<lb ed="#L" n="114" break="no"/>ctus intelligunt &amp; volunt non autem intelligit aut vult, lice 
+      <lb ed="#L" n="115"/>intelligere &amp; velle in eis sint vnum numero. Et idem iudicium 
+      <lb ed="#L" n="116"/>est de hoc quod est aeternum prout sunutur adiectiua; quia 
+      <lb ed="#L" n="117"/>debet dici quod sunt plures aeterni. 
+</p>
+            <p xml:id="jsnvu6-d1e658-d1e235">
+               <lb ed="#L" n="118"/>Ad primum argumentum dicendum quod non est 
+      sihil<lb ed="#L" n="119" break="no"/>de hoc nomine deus, &amp; de hoc nomine aeternus, quia illud est 
+      <lb ed="#L" n="120"/>substantiuum &amp; istud adiectiuum: quamuis hoc quod est aeter 
+      <lb ed="#L" n="121"/>nus sumatur aliquotiens substantiue, &amp; tunc non praedicatu 
+      <lb ed="#L" n="122"/>pluraliter: vnde Athanasius sic accepit cum dixit, &amp; tamen non 
+      <lb ed="#L" n="123"/>tres aeterni, sed &amp;c. Adiectiue autem accepit cum dixit quod 
+      <lb ed="#L" n="124"/>tres personae coaeternae sibi sunt &amp; coaeuae. 
+    </p>
+            <p xml:id="jsnvu6-d1e658-d1e253">
+               <lb ed="#L" n="125"/>Ad secundum dicendum quod adiectiua praedicantur i 
+      <lb ed="#L" n="126"/>plurali, quamuis sint absoluta &amp; natura importata per ea non 
+      <lb ed="#L" n="127"/>plurificetur, &amp; causa dicta est. Ad autoritatem Athanasij 
+      pa<lb ed="#L" n="128" break="no"/>tet solutio ex iam dictis. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

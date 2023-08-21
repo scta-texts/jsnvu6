@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="148-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3425"><!-- l2d24p2prae -->
+            <head xml:id="jsnvu6-d1e3425-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e3425-d1e103">
+               <lb ed="#L" n="99"/>Sententia secundae partis XXIIII. dist. in 
+      <lb ed="#L" n="100"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-d1e3425-d1e110">
+               <lb ed="#L" n="101"/>ILLVD quoque praetermittendum est. Superius 
+      <lb ed="#L" n="102"/>determinauit magister de potentiis animae. Hic 
+      <lb ed="#L" n="103"/>determinat quomodo in eis habet esse peccatum. 
+      <lb ed="#L" n="104"/>¶ Et diuiditur in tres. Primo determinat suum 
+      in<lb ed="#L" n="105" break="no"/>tentum. Secundo determinat causam suae 
+      digres<lb ed="#L" n="106" break="no"/>sionis seu determinationis. Tertio remouet quoddam dubium 
+      <lb ed="#L" n="107"/>Secunda ibi, hoc autem de animae partibus. Tertia ibi, non ess 
+      <lb ed="#L" n="108"/>autem filentio praetermittendum. Prima in duas. Primo poni 
+      <lb ed="#L" n="109"/>quandam similitudinem progressionis peccati in nobis; &amp; in 
+      <lb ed="#L" n="110"/>primo parente inducens similitudinem de peccato primorum 
+      <lb ed="#L" n="111"/>parentum quo ad virum, &amp; mulierem, &amp; serpentem. Secundo vere 
+      <lb ed="#L" n="112"/>ostendit quomodo in primis parentibus habuit esse peccatum 
+      <lb ed="#L" n="113"/>Secunda ibi, nunc superest ostendere. Prima in duas. Primo 
+      <lb ed="#L" n="114"/>ostendit suum intentum. Secundo confirmat quod dixerat per 
+      <lb ed="#L" n="115"/>auctoritates. Secunda ibi, vnde Augusti. Haec est sententia &amp; 
+      <lb ed="#L" n="116"/>diuisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e3425-d1e147">
+               <lb ed="#L" n="117"/>
+               <!--2--> IN SPECIALI sic procedit &amp; proponit quod sicut in 
+      <lb ed="#L" n="118"/>primo peccato serpens mulieri persuasit, &amp; mulier viro, ita in 
+      <lb ed="#L" n="119"/>nobis sensualitas suggerit inferiori parti rationis, &amp; inferior 
+      su<lb ed="#L" n="120" break="no"/>periori, inferior autem &amp; superior se habent sicut mulier &amp; vir, 
+      <lb ed="#L" n="121"/>quia sicut mulier producta fuit de viro, &amp; sola in adiutorium data 
+      <lb ed="#L" n="122"/>&amp; vna cum ipso in carne. Ita inferior portio a superiori deducta 
+      <lb ed="#L" n="123"/>est &amp; data ei in adiutorium. Et est vnum cum ipsa in vna mentis 
+      <lb ed="#L" n="124"/>natura. Postea dicit quod si in sensualitate solum sit motus, 
+      ve<lb ed="#L" n="125" break="no"/>niale peccatum est. Si vero ad partem rationis superioris 
+      perue<lb ed="#L" n="126" break="no"/>niat est mortale peccatum, si autem in inferioriratione consistit. 
+      <lb ed="#L" n="127"/>Aliquando veniale est, si non diu in cogitatione manet. Aliquando 
+      <lb ed="#L" n="128"/>mortale si diu in cogitatione manet &amp; delectio placet. Et subdit 
+      <lb ed="#L" n="129"/>quod sunt quaedam quae si semel fiunt sunt mortalia, quaedam sunt 
+      <lb ed="#L" n="130"/>quae si fiant semel sunt venialia. Si autem pluries sunt mortalia. 
+      <lb ed="#L" n="131"/>Postea probat haec omnia per auctoritates Aug. in quibus 
+      ali<lb ed="#L" n="132" break="no"/>quando videtur dicere quod cogitatio sine opere sit mortale, 
+      <lb ed="#L" n="133"/>aliquando quod sit veniale quia dicit quod ratio inferior in 
+      ali<lb ed="#L" n="134" break="no"/>quo similis, &amp; in aliquo dissimilis est mulieri, quia mulier sola 
+      <lb ed="#L" n="135"/>poterat peccare perfecte non sic autem inferior ratio. Vnde 
+      se<lb ed="#L" n="136" break="no"/>cundo dicit quod pro sola cogitatione venia petenda est, sicut 
+      <lb ed="#L" n="137"/>&amp; pro aliis peccatis. Postea dicit quod ideo de partibus anima 
+      <lb ed="#L" n="138"/>determinat vt cognoscatur lib. arb. Et quomodo in eo potest 
+      <lb ed="#L" n="139"/>esse peccatum. Vitimo dicit quod large sumendo inferior ratio 
+      <lb ed="#L" n="140"/>potest dicit sensualitas. Et in hoc terminatur, &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

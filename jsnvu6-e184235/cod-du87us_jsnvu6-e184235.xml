@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="224-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e184235"><!-- l3d26prae -->
+            <head xml:id="jsnvu6-e184235-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e184235-d1e103">
+               <lb ed="#L" n="139"/>Sententia huius distinctionis XXVj in 
+      <lb ed="#L" n="140"/>generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e184235-d1e110">
+               <lb ed="#L" n="141"/>T autem spes &amp; virtus. Superius determinauit 
+      <lb ed="#L" n="142"/>Magister de fide. Hic determinat de spe. Et 
+      di<lb ed="#L" n="143" break="no"/>uiditur in quatuor. Primo determinat de spe, 
+      <lb ed="#L" n="144"/>ostendens quid sit. Secundo quoad obiectum. 
+      <lb ed="#L" n="145"/>ostendens de quo sir: &amp; assignat quo ad hoc diffe 
+      <lb ed="#L" n="146"/>rentiam &amp; conuenientiam fidei, &amp; spei. Et sicut fides, ita &amp; spes, 
+      <lb ed="#L" n="147"/>Tertio quoad subiectum, an fuerit in Christo. Post haec 
+      super<lb ed="#L" n="148" break="no"/>est inuestigare. Quarto quoad statum, vtrum scilicet fuerit in 
+      <lb ed="#L" n="149"/>antiquis patribus qui in lymbo erant ibi, de antiquis vero 
+      pa<lb ed="#L" n="150" break="no"/>tribus. Haec est diuisio, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e184235-d1e134">
+               <lb ed="#L" n="151"/>
+               <!--2--> In speciali sic procedit, &amp; ponir duas disfinitiones spei. 
+      Pri<lb ed="#L" n="152" break="no"/>ma est, quod spes est virtus, qua spiritualia bona &amp; aeterna cum 
+      <lb ed="#L" n="153"/>fiducia expectantur. Secunda est, quod spes est certa expectatio 
+      <lb ed="#L" n="154"/>futurae beatitudinis, veniens ex Dei gratia, &amp; ex meritis 
+      prae<lb ed="#L" n="155" break="no"/>cedentibus, non quidem ipsam spem, sed rem speratam. Postea 
+      <lb ed="#L" n="156"/>dicit quod sicut fides est de non visis, ita &amp; spes, spes enim quae 
+      <lb ed="#L" n="157"/>videtur non est spes. Differunt tamen fides &amp; spes, quia fides est 
+      <lb ed="#L" n="158"/>tam de bonis quam de malis, &amp; tam de praesentibus quam de fu¬ 
+      <!--00522.xml-->
+      <pb ed="#L" n="224-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>turis &amp; praeteritis, &amp; tam de pertinentibus ad ipsum credentem 
+      <lb ed="#L" n="2"/>quam de non pertinentibus. Spes vero est solum de futuris bonis 
+      <lb ed="#L" n="3"/>pertinentibus ad ipsum sperantem. Postea quaeritvtrum fides &amp; 
+      <lb ed="#L" n="4"/>spes fuerint in Christo, &amp; dicit quod non sicut non sunt in 
+      ange<lb ed="#L" n="5" break="no"/>lis &amp; beatis, &amp; quamuis dicatur de Christo, In te domine 
+      spera<lb ed="#L" n="6" break="no"/>ui, illa tamen spes non fuit sicut nostra, quia manifeste videba 
+      <lb ed="#L" n="7"/>ea quae credebat &amp; sperabat. Vitimo quaerit vtrum in antiqui 
+      <lb ed="#L" n="8"/>patribus qui fuerunt in lymbo essent fides &amp; spes, &amp; dicit quod 
+      <lb ed="#L" n="9"/>sic, sed fuerunt euacuatae quando peruenerunt ad visionem. Et 
+      <lb ed="#L" n="10"/>in hoc terminatur &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

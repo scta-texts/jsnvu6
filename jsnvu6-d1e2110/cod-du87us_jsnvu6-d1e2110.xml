@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="98-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2110"><!-- l1d44prae -->
+            <head xml:id="jsnvu6-d1e2110-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e2110-d1e103">
+               <lb ed="#L" n="61"/>DISTINCTIO XIIIII. 
+      <lb ed="#L" n="62"/>Sententia literae magistri in 
+      gene<lb ed="#L" n="63" break="no"/>rali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e2110-d1e112">
+               <lb ed="#L" n="64"/>NVNC restat. Superius determinauit magister 
+      <lb ed="#L" n="65"/>Terrorem limitantium potentiam diuinam 
+      quan<lb ed="#L" n="66" break="no"/>tum ad facienda. Hic excludit errorem eorum 
+      <lb ed="#L" n="67"/>quantum ad qualitatem faciendorum. Et 
+      diui<lb ed="#L" n="68" break="no"/>ditur in tres. Primo excludit errorem ponentium 
+      <lb ed="#L" n="69"/>quod deus non potest facere meliora quam facit. Secundo 
+      de<lb ed="#L" n="70" break="no"/>terminat vtrum meliori modo possit facere quam facit. Tertio 
+      <lb ed="#L" n="71"/>determinat siue remouet quendam alium errorem incidentem. 
+      <lb ed="#L" n="72"/>Secunda ibi, post haec sciendum. Tertia ibi, praeterea solet quaeri. 
+      <lb ed="#L" n="73"/>Prima diuiditur in duas. Primo ponit rationem errorum. 
+      Secun<lb ed="#L" n="74" break="no"/>do obiicit in contrarium pro veritate. Secunda ibi, verum hoc ha 
+      <lb ed="#L" n="75"/>bemus ab eis. Et haec est diuisio &amp; scientia lectionis in ge nerali. 
+      </p>
+            <p xml:id="jsnvu6-d1e2110-d1e141">
+               <lb ed="#L" n="76"/>
+               <!--2--> In speciali vero sic procedit, &amp; proponit primo quod 
+      qui<lb ed="#L" n="77" break="no"/>busdam videtur deum non posse facere res meliores quam 
+      fa<lb ed="#L" n="78" break="no"/>cit, quia si posset, &amp; non faceret, inuidus esset. Et videtur 
+      argu<lb ed="#L" n="79" break="no"/>mentum sequi, quia supra arguit Aug. de deo patre, quod si 
+      po<lb ed="#L" n="80" break="no"/>tuit generare filium sibi aequalem &amp; non generauit, inuidus fuit 
+      <!--00262.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>Et magister respondet quod non est similis ratio vel argumentatio. 
+      <lb ed="#L" n="82"/>filius enim est de substantia patris, non autem creatura. Postea 
+      pro<lb ed="#L" n="83" break="no"/>bat quod deus possit facere res meliores quam sunt, quia si non pe 
+      <lb ed="#L" n="84"/>test, aut ideo est, qa creatura est summe bona (quod falsum est 
+      <lb ed="#L" n="85"/>quia sic creatura creatori aequaretur, aut quia creatura non est 
+      <lb ed="#L" n="86"/>capax talis bonitatis, &amp; hoc non obstat, quia potest ei maiorem 
+      ca<lb ed="#L" n="87" break="no"/>pacitatem dare, &amp; ita potest meliora facete quam facit. Postea 
+      <lb ed="#L" n="88"/>quaeri, vtrum deus possit meliori modo facere quae facit: &amp; dicit. 
+      <lb ed="#L" n="89"/>si modus ad sapientiam referatur, non potest deus meliori modo 
+      <lb ed="#L" n="90"/>facere, si vero modus faciendi ad rem ipsam referatur, maiori &amp; 
+      <lb ed="#L" n="91"/>aeque bono modo &amp; minus bono modo potest deus facere res, 
+      <lb ed="#L" n="92"/>Postea quaerit, vtrum deus possit quicquid potuit: &amp; ostendit o 
+      <lb ed="#L" n="93"/>non, quia potuit incarnari &amp; nasci, modo autem non potest. Et 
+      re<lb ed="#L" n="94" break="no"/>spondet quod sicut omnem scientiam quam habuit habet modo, non 
+      <lb ed="#L" n="95"/>tamen eodem modo respectu rerum scitarum, propter earum 
+      varia<lb ed="#L" n="96" break="no"/>tionem, ita omnem potentiam quam habuit, habet modo, non 
+      <lb ed="#L" n="97"/>tamen possibile eodem modo se habet. Vnde potentia dei 
+      sem<lb ed="#L" n="98" break="no"/>per se extendit ad assumptionem, tamen quod semel assumptum 
+      <lb ed="#L" n="99"/>est, non potest iterum de nouo assumere, sed per eandem potentiam 
+      <lb ed="#L" n="100"/>per quam potuit incarnari potest modo incarnatus fuisse, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

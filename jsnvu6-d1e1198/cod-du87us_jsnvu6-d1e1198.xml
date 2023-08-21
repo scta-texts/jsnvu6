@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="56-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1198"><!-- l1d19q6 -->
+            <head xml:id="jsnvu6-d1e1198-Hd1e101">Quaestio 6</head>
+            <head xml:id="jsnvu6-d1e1198-Hd1e103" type="question-title">Utrum veritas sit in rebus an in anima seu intellectu</head>
+            <p xml:id="jsnvu6-d1e1198-d1e106">
+               <lb ed="#L" n="134"/>QVAESTIO SEXTA. 
+      <lb ed="#L" n="135"/>Vtrum veritas sit in rebus an in 
+      <lb ed="#L" n="136"/>intellectu. 
+      <lb ed="#L" n="137"/>Tham. Ubi supra.
+    </p>
+            <p xml:id="jsnvu6-d1e1198-d1e117">
+               <lb ed="#L" n="138"/>SECVNDO quaeritur in quo sit veritas, vtrum sit 
+      <lb ed="#L" n="139"/>in rebus an in intellectu. Et arguitur quod sit in 
+      <lb ed="#L" n="140"/>intellectu, primo per dictum Aristotelis 6. 
+      meta<lb ed="#L" n="141" break="no"/>physicae qui dicit quod bonum &amp; malum sunt in 
+      <lb ed="#L" n="142"/>Drebus, verum &amp; falsum in anima. 
+      </p>
+            <p xml:id="jsnvu6-d1e1198-d1e130">
+               <lb ed="#L" n="143"/>
+               <!--2--> Secundo per rationem, quia relatio est maxime in illo 
+      ex<lb ed="#L" n="144" break="no"/>tremo quod dependet, sed veritas est relatio conformitatis 
+      in<lb ed="#L" n="145" break="no"/>tellectus ad rem intellectam, intellectus autem est dependens 
+      <lb ed="#L" n="146"/>ad rem intellectam &amp; non econuerso, ergo veritas est in eo. 
+      </p>
+            <p xml:id="jsnvu6-d1e1198-d1e144">
+               <lb ed="#L" n="147"/>
+               <!--3--> IN CONTRARIVM arguitur, quia omnis 
+      respe<lb ed="#L" n="148" break="no"/>ctus est in suo fundamento, sed fundamentum veritatis est 
+      en<lb ed="#L" n="149" break="no"/>titas rerum, ergo in entitate rerum est veritas. 
+      </p>
+            <p xml:id="jsnvu6-d1e1198-d1e155">
+               <lb ed="#L" n="150"/>
+               <!--4--> RESPONSIO. illi qui dicunt veritatem esse respectum 
+      <lb ed="#L" n="151"/>realem conformitatis intellectus ad rem intellectam, dicunt quod 
+      <lb ed="#L" n="152"/>veritas est in intellectu sicut in subiecto vel potius sicut realis 
+      <lb ed="#L" n="153"/>respectus in suo fundamento. Et ad hoc adducunt duas rationes 
+      <lb ed="#L" n="154"/>Prima talis est, quandocunque aliquid dicitur tale ex ordine 
+      <lb ed="#L" n="155"/>ad aliud in quo sistitur &amp; dicitur tale, primum dicitur tale 
+      cau<lb ed="#L" n="156" break="no"/>saliter, &amp; secundum formaliter, sed res dicitur vera illo modo ei 
+      <lb ed="#L" n="157"/>ordine ad intellectum, ergo &amp;c. maior declaratur per exemplum 
+      <lb ed="#L" n="158"/>nam quia medicina dicitur sana ex ordine ad animal sanum in 
+      <lb ed="#L" n="159"/>quo sistitur medicina dicitur sana causaliter &amp; animal 
+      formali<lb ed="#L" n="160" break="no"/>ter, minor probatur, quia vbi est processus a mouente ad 
+      mo<lb ed="#L" n="161" break="no"/>tum sistitur in re mota, sed in processu a re ad intellectum est 
+      <lb ed="#L" n="162"/>processus a mouente ad motum, ergo &amp;c.
+</p>
+            <p xml:id="jsnvu6-d1e1198-d1e188">
+      <!--00179.xml-->
+               <pb ed="#L" n="57-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>5. Secundo sinc, quia veritas est rectitudo passiua, scilicet 
+      recti<lb ed="#L" n="2" break="no"/>tudo eius quod rectificatur, quia est imago &amp; exemplatum, sed 
+      <lb ed="#L" n="3"/>intellectus se habet ad rem intellectam sicut passum ad 
+      mo<lb ed="#L" n="4" break="no"/>uens, ergo adaequatio intellectus est veritas formaliter &amp; in re 
+      <lb ed="#L" n="5"/>est solum causaliter, &amp; vt sic est causaliter vera. 
+      </p>
+            <p xml:id="jsnvu6-d1e1198-d1e208">
+               <lb ed="#L" n="6"/>
+               <!--6--> Sed contra hoc arguitur primo, quia inter intellectum 
+      di<lb ed="#L" n="7" break="no"/>uinum &amp; suum principale obiectum, puta quum intelligit se 
+      <lb ed="#L" n="8"/>ipsum esse summe perfectum ex nulla parte est adaequatio 
+      passi<lb ed="#L" n="9" break="no"/>ua, &amp; tamen est ibi veritas, ergo veritas non recipit 
+      adaequa<lb ed="#L" n="10" break="no"/>tionem passiuam. 
+      </p>
+            <p xml:id="jsnvu6-d1e1198-d1e224">
+               <lb ed="#L" n="11"/>
+               <!--7.--> Secundo, quia contingit intelligere vere illud quod nullam 
+      <lb ed="#L" n="12"/>entitatem realem habet, sicut quod chimera est chimera, sec 
+      <lb ed="#L" n="13"/>talia non entia nihil possunt adaequare sibi realiter, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e1198-d1e235">
+               <lb ed="#L" n="14"/>
+               <!--8--> Tertio, quia intellectus potest moueri ad vere 
+      intelligen<lb ed="#L" n="15" break="no"/>dum ab alio quam a re intellecta (sicut deus posset mouere 
+      <lb ed="#L" n="16"/>intellectum meum ad intelligendum antichristum futurum) sed 
+      <lb ed="#L" n="17"/>talis veritas non consisteret in habitudine intellectus ad deum 
+      <lb ed="#L" n="18"/>mouentem, sed in habitudine intellectus ad rem intellectam 
+      <lb ed="#L" n="19"/>a qua non esset motus, ergo veritas non requirit 
+      adaequatio<lb ed="#L" n="20" break="no"/>nem passiuam ex parte intelectus, vel illius in quo est per 
+      eas<lb ed="#L" n="21" break="no"/>dem rationes, vel per aliquas earum, patet quod veritas nor 
+      <lb ed="#L" n="22"/>est relatio actus intelligendi ad rem intellectam, tanquam mer 
+      <lb ed="#L" n="23"/>surati ad mensuram, quia in cognitione Dei respectu sui est ve 
+      <lb ed="#L" n="24"/>ritas, sed ibi non est relatio mensurati ad mensuram, nisi forti 
+      <lb ed="#L" n="25"/>secundum rationem, ergo veritas non est relatio mensurati ad 
+      <lb ed="#L" n="26"/>mensuram, vel est relatio solum secundum rationem, &amp; non 
+      <lb ed="#L" n="27"/>secundum rem, cuius oppositum alij dicunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e1198-d1e271">
+               <lb ed="#L" n="28"/>
+               <!--9--> Dicendum est ergo aliter, quod veritas formaliter dicta non es 
+      <lb ed="#L" n="29"/>in rebus, sed in intellectu, non quidem subiectiue, sed 
+      obiecti<lb ed="#L" n="30" break="no"/>ue tantum. Quod non sit in rebus patet, quia quicquid est in 
+      <lb ed="#L" n="31"/>rebus est in eis circunscripto omni actu intelligendi, sed veritas 
+      <lb ed="#L" n="32"/>formaliter sumpta non est sine actu intelligendi, ergo veritas 
+      <lb ed="#L" n="33"/>formaliter sumpta non est in rebus. Dico autem formaliter, quia 
+      <lb ed="#L" n="34"/>veritas sumpta materialiter vel fundamentaliter bene est in 
+      re<lb ed="#L" n="35" break="no"/>bus, si cut dictum fuit in praecedente quaestione. 
+      </p>
+            <p xml:id="jsnvu6-d1e1198-d1e293">
+               <lb ed="#L" n="36"/>
+               <!--10--> Per idem patet quod veritas non est in intellectu 
+      subie<lb ed="#L" n="37" break="no"/>ctiue, quia quicquid est in intellectu subiectiue est res vera, &amp; 
+      <lb ed="#L" n="38"/>non ratio tantum, veritas autem estens rationis, vt 
+      proba<lb ed="#L" n="39" break="no"/>tum fuit in praecedente quaestione, ergo ipsa non est in 
+      intel<lb ed="#L" n="40" break="no"/>lectu subiectiue. 
+</p>
+            <p xml:id="jsnvu6-d1e1198-d1e309">
+               <lb ed="#L" n="41"/>
+               <!--11--> Relinquitur ergo tertium, qui veritas sit in intelectu obie 
+      <lb ed="#L" n="42"/>ctiue, non quidem sicut obiectum cognitum principaliter, sed 
+      <lb ed="#L" n="43"/>vt quidam modus conueniens rei solum vt est cognita. Iuxta 
+      <lb ed="#L" n="44"/>quod est intelligendum quod sicut distinguimus triplicem actum 
+      <lb ed="#L" n="45"/>intelligendi, videlicet simplicem componentem, &amp; discursiuum 
+      <lb ed="#L" n="46"/>sic sunt entia rationis in triplici differentia, quia quaedam 
+      con<lb ed="#L" n="47" break="no"/>ueniunt rei, prout est cognita per intellectum simplicem, 
+      si<lb ed="#L" n="48" break="no"/>cut vniuersale genus &amp; species. Quaedam conueniunt rei, vt ess 
+      <lb ed="#L" n="49"/>intellecta per intellectum enunciatiuum componentem vel d 
+      <lb ed="#L" n="50"/>uidentem, sicut affirmatio &amp; negatio, &amp; per consequens 
+      veri<lb ed="#L" n="51" break="no"/>tas &amp; falsitas. Alia vero consequuntur res, prout sunt 
+      obiecti<lb ed="#L" n="52" break="no"/>ue in intellectu discursiuo, sicut antecedens &amp; consequens 
+      <lb ed="#L" n="53"/>syllogismus, enthimema &amp; similia, de quibus omnibus tanquam 
+      <lb ed="#L" n="54"/>de entibus rationis considerat logicus. 
+      </p>
+            <p xml:id="jsnvu6-d1e1198-d1e344">
+               <lb ed="#L" n="55"/>
+               <!--12--> Ad rationes in oppositum respondendum est primo ad 
+      <lb ed="#L" n="56"/>dictum Aristotelis quod verum &amp; falsum sunt in anima, non 
+      <lb ed="#L" n="57"/>quidem subiectiue, sed obiectiue. 
+      </p>
+            <p xml:id="jsnvu6-d1e1198-d1e355">
+               <lb ed="#L" n="58"/>
+               <!--13--> Ad secundam dicendum, quod relatio realis est potissime 
+      <lb ed="#L" n="59"/>in extremo quod dependet, sed relatio rationis non est in 
+      ali<lb ed="#L" n="60" break="no"/>quo subiectiue, sed solum in intellectu obiectiue modo quo 
+      <lb ed="#L" n="61"/>prius fuit expositum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1198-d1e368">
+               <lb ed="#L" n="62"/>
+               <!--14--> Per idem patet ad argumentum alterius partis, quia 
+      respe<lb ed="#L" n="63" break="no"/>ctus realis est in fundamento, sed respectusrationis qualis est ve 
+      <lb ed="#L" n="64"/>ritas quae non est aliud quam respectus conformitatis rei, vt intellecta 
+      <lb ed="#L" n="65"/>est ad seipsam, vt existit non est nisi in intellectu obiectiue, 
+      tan<lb ed="#L" n="66" break="no"/>quam quidam modus conueniens rei solum vt est cognita. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

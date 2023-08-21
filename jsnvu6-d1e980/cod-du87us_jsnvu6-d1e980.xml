@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="46-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e980"><!-- l1d17p1prae -->
+            <head xml:id="jsnvu6-d1e980-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e980-d1e103">
+               <lb ed="#L" n="152"/>DISTINCTLO XVII. 
+      <lb ed="#L" n="153"/>Diuisio literae in generali &amp; speciali 
+    </p>
+            <p xml:id="jsnvu6-d1e980-d1e110">
+               <lb ed="#L" n="154"/>JAM NVNC autem accedamus. Superius ma 
+      <lb ed="#L" n="155"/>ller determinauit de missione Spiritus sancti 
+      vl<lb ed="#L" n="156" break="no"/>sibili. In ista distinctione determinat de eius 
+      mis<lb ed="#L" n="157" break="no"/>sione inuisibili. Et diuiditur in duas partes. 
+      Pri<lb ed="#L" n="158" break="no"/>mo determinat suum intentum ostendendo mer 
+      <lb ed="#L" n="159"/>tem vel opinionem suam. Secundo mouet quasdam incidentes 
+      <lb ed="#L" n="160"/>quaestiones. Secunda ibi. Item quaeritur si charitas. Prima est 
+      <lb ed="#L" n="161"/>praesentis lectionis. Et diuiditur in tres. Primo enim ponit sui 
+  <!--00158.xml-->
+      <pb ed="#L" n="46-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>intentum in generali. Secundo prosequitur. Tertio confirmat 
+      <lb ed="#L" n="2"/>Secunda ibi. Nunc autem intelligimus. Tertia ibi: Nec autem in 
+      <lb ed="#L" n="3"/>recreata. &amp; haec vltima diuiditur in quatuor. Primo ostendit? 
+      <lb ed="#L" n="4"/>charitas est Deus. Secundo specialiter quod charitas est Spiritu 
+      <lb ed="#L" n="5"/>sanctus. Tertio excludit quandam responsionem. Quarto ostendi 
+      <lb ed="#L" n="6"/>quomodo Spiritus sanctus dicitur dari vel mitti. Secunda ibi 
+      <lb ed="#L" n="7"/>Tunc autem fraterna dilectio. Tertia ibi: Sed ne forte. Quarta ibi 
+      <lb ed="#L" n="8"/>Tunc enim mitti vol dari. Haec est diuisio &amp; sententia in generali 
+      </p>
+            <p xml:id="jsnvu6-d1e980-d1e154">
+               <lb ed="#L" n="9"/>
+               <!--2.--> In speciali sic procedit magister. Et primo ponit quod Spiritu 
+      <lb ed="#L" n="10"/>sanctus temporaliter datur vel mittitur inuisibiliter. Postea dici 
+      <lb ed="#L" n="11"/>quod Spiritus sanctus charitas est qua diligimus Deum &amp; proximum 
+      <lb ed="#L" n="12"/>Et tunc datur nobis vel mittitur quando facit nos diligere De 
+      <lb ed="#L" n="13"/>&amp; proximum. Postea ostendit per multas autoritates Augustin 
+      <lb ed="#L" n="14"/>quibus probat, quod dilectio qua diligimus Deum vel proximum 
+      <lb ed="#L" n="15"/>facit nos manere in lumine &amp; sine qua non datur viuere. Quod 
+      <lb ed="#L" n="16"/>charitas Deus est vt probatur per canonicam Ioan. Post oster 
+      <lb ed="#L" n="17"/>dit tali ratione quod Spiritus sanctus charitas est, majus donun 
+      <lb ed="#L" n="18"/>inter dona Dei est Spiritussanctus qui facit nos manere in De 
+      <lb ed="#L" n="19"/>&amp; Deum in nobis, ergo Spiritussanctus est charitas. Postea exclu 
+      <lb ed="#L" n="20"/>dit quandem rationem, posset enim dicere aliquis quod hoc est pe 
+      <lb ed="#L" n="21"/>causalitatem sicut dicitur Deus est patientia nostra, spes nostra 
+      <lb ed="#L" n="22"/>Et respondet magister quod non t quia sicut dicitur Deus est 
+      pa<lb ed="#L" n="23" break="no"/>tientia mea quod non inuenitur dictum Deus charitas mea, sec 
+      <lb ed="#L" n="24"/>Deus charitas est. Postea dicit quod Spiritussanctus datur quando 
+      <lb ed="#L" n="25"/>nos facit Deum diligere &amp; proximum. Ostendit etiam quod 
+      cha<lb ed="#L" n="26" break="no"/>ritas est excellentior inter omnia dona, quia excellentiores 
+      fa<lb ed="#L" n="27" break="no"/>cit effectus, ideo Spiritussanctus qui dicitur donu Dei dicitur 
+      <lb ed="#L" n="28"/>ipsa charitas, &amp; in hoc terminatur sententia istius dist. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

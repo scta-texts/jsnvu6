@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="172-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e142138"><!-- l2d41q1 -->
+            <head xml:id="jsnvu6-e142138-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e142138-Hd1e103" type="question-title">Utrum fides dirigat intentionem</head>
+            <p xml:id="jsnvu6-e142138-d1e106">
+               <lb ed="#L" n="139"/>QVALSTIO PRIMA. 
+      <lb ed="#L" n="140"/>Vtrum fides dirigat intentionem.
+    </p>
+            <p xml:id="jsnvu6-e142138-d1e113">
+               <lb ed="#L" n="141"/>IBCA distinctionem istam primo quaeritur 
+      <lb ed="#L" n="142"/>vtrum fides dirigat intentionem. Et videtur quod 
+      <lb ed="#L" n="143"/>d non, quia nullum opus bonum est, cui deest recta 
+      <lb ed="#L" n="144"/>intentio, sed in non habentibus fidem sunt aliqua 
+      <lb ed="#L" n="145"/>Abona opera, ergo &amp; intentio recta, quod non esset 
+      <lb ed="#L" n="146"/>si sola fides intentionem dirigeret. Minor patet, quia in 
+      infi<lb ed="#L" n="147" break="no"/>delibus sunt aliqua bona, &amp; quidam eorum commendantur a 
+      <lb ed="#L" n="148"/>sanctis Hierony. &amp; August. 
+      </p>
+            <p xml:id="jsnvu6-e142138-d1e133">
+               <lb ed="#L" n="149"/>
+               <!--2--> In Christo etiam qui fidem non habuit, cum fuerit 
+      compre<lb ed="#L" n="150" break="no"/>hensor fuerunt multa bona opera, ergo, &amp;c.
+</p>
+            <p xml:id="jsnvu6-e142138-d1e143">
+               <lb ed="#L" n="151"/>
+               <!--3--> IN CONTRARIVM est, quia illius solius est 
+      di<lb ed="#L" n="152" break="no"/>rigere intentionem, cuius est finem vltimum ostendere, sed 
+      <lb ed="#L" n="153"/>ostendere finem vltimum est solius fidei, quum cognitio 
+      natu<lb ed="#L" n="154" break="no"/>ralis ad vltimum finem non pertingat, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e142138-d1e156">
+               <lb ed="#L" n="155"/>
+               <!--4--> RESPONSIO. Intentio est actus voluntatis 
+      tenden<lb ed="#L" n="156" break="no"/>tis in finem mediantibus his quae sunt ad finem, vt dictum fuit 
+      <lb ed="#L" n="157"/>supra, distinct. 38. Hoc supposito videnda sunt duo. Primum est 4 
+      <lb ed="#L" n="158"/>an fides intentionem dirigat. Secundum est, an directio fidei sit 
+      <lb ed="#L" n="159"/>necessaria ad bonitatem cuiuslibet operis.
+</p>
+            <p xml:id="jsnvu6-e142138-d1e172">
+      <!--00412.xml-->
+               <pb ed="#L" n="172-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>5 QUANTVM ad primum dicendum quod fides dirigi 
+      <lb ed="#L" n="2"/>intentionem respectu vlumi finis specialiter. Item dirigit 
+      re<lb ed="#L" n="3" break="no"/>spectu cuiuslibet finis generaliter. Primum patet, quia vbi in 
+      vo<lb ed="#L" n="4" break="no"/>luntate est habitus dirigens in aliquid per modum inclinantis, 
+      <lb ed="#L" n="5"/>oportet quod in intellectu sit habitus dirigens in illud idem per 
+      <lb ed="#L" n="6"/>modum ostendentis, quia voluntas non potest inclinari, nisi in 
+      <lb ed="#L" n="7"/>aliquid sibi ostensum ab intellectu, nec firmiter inclinari, nisi 
+      <lb ed="#L" n="8"/>firmiter fuerit ei ostensum. Istam autem firmitatem facit 
+      habi<lb ed="#L" n="9" break="no"/>tus in vtroque, scilicet in intellectu &amp; voluntate, sed in 
+      volun<lb ed="#L" n="10" break="no"/>tate ponitur habitus dirigens in finem vltimum per modum 
+      <lb ed="#L" n="11"/>inclinantis (scilicet charitas) per quam diligitur deus propte 
+      <lb ed="#L" n="12"/>se, &amp; alia propter deum, ergo in intellectu est ponendus 
+      habi<lb ed="#L" n="13" break="no"/>tus dirigens in eundem finem per modum ostendentis: &amp; 
+      hae<lb ed="#L" n="14" break="no"/>est fides. 
+      </p>
+            <p xml:id="jsnvu6-e142138-d1e211">
+               <lb ed="#L" n="15"/>
+               <!--6--> Secundum patet, quia sicut se habet habitus primorum 
+      prin<lb ed="#L" n="16" break="no"/>cipiorum in speculatiuis ad omnem conclusionem speculatiuam 
+      <lb ed="#L" n="17"/>sic se habet habitus ostensiuus vltimi finis ad omnem 
+      conclusio<lb ed="#L" n="18" break="no"/>nem practicam, quia vltimus finis tenet locum primi principi 
+      <lb ed="#L" n="19"/>in practicis. Sed habitus primorum principiorum in speculatiui 
+      <lb ed="#L" n="20"/>dirigit, respectu omnis conclusionis speculatiuae: ergo fides, qua 
+      <lb ed="#L" n="21"/>est habitus ostensiuus vltimi finis dirigit respectu omnis 
+      conclu<lb ed="#L" n="22" break="no"/>sionis practicae, sed conclusiones speciales practicae syllogisantu 
+      <lb ed="#L" n="23"/>ex speciali fine: ergo fides dirigit ad speciales fines, hoc autem 
+      <lb ed="#L" n="24"/>est, quia ratio eorum quae sunt ad finem sumitur ex fine: 
+      parti<lb ed="#L" n="25" break="no"/>culares autem fines ordinantur ad vltimum finem. Et ideo quod 
+      <lb ed="#L" n="26"/>dirigit respectu vltimi finis, dirigit respectu omnium 
+      </p>
+            <p xml:id="jsnvu6-e142138-d1e242">
+               <lb ed="#L" n="27"/>
+               <!--7--> DE SECVNDO principali, scilicet an directio fidei 
+      si<lb ed="#L" n="28" break="no"/>necessaria ad bonitatem cuiuslibet operis. Dicendum quod est 
+      <lb ed="#L" n="29"/>quaedam bonitas meritoria vitae aeternae, quam considerat 
+      so<lb ed="#L" n="30" break="no"/>lus theologus, &amp; est bonitas pure moralis, quam considerat 
+      Phi<lb ed="#L" n="31" break="no"/>losophus. Loquendo de prima bonitate, dicendum quod ad eam 
+      <lb ed="#L" n="32"/>necessaria est directio intentionis per fidem, quia impossibile est 
+      <lb ed="#L" n="33"/>velle ordinare viam ad terminum ignoratum, sed meritum or 
+      <lb ed="#L" n="34"/>dinatur ad praemium, sicut via ad terminum, ergo 
+      impossibili<lb ed="#L" n="35" break="no"/>est ignorantem vitam aeternam ordinare actiones suas ad 
+      me<lb ed="#L" n="36" break="no"/>rendum eam, viatores autem quorum est mereri, non habenei 
+      <lb ed="#L" n="37"/>cognitionem de vita aeterna, nisi per fidem, igitur &amp;c. Propter 
+      <lb ed="#L" n="38"/>quod Hebraeorum vndecimo dicitur, quod sine fide 
+      impossi<lb ed="#L" n="39" break="no"/>bile est placere deo. Qualis autem intentio directa in deum pe 
+      <lb ed="#L" n="40"/>fidem sufficit ad opus meritorium? Credo quod non sufficit 
+      ha<lb ed="#L" n="41" break="no"/>bitualis, quia habitibus non meremur, sed actibus: &amp; ideo 
+      requi<lb ed="#L" n="42" break="no"/>ritur actualis, non quidem semper actu manens in toto processu, 
+      <lb ed="#L" n="43"/>&amp; in singulis partibus operis, sed virtute, quod fit quando opus 
+      <lb ed="#L" n="44"/>inchoatur intentione directa in deum, &amp; procedit in opere sic 
+      <lb ed="#L" n="45"/>inchoato, intentione non mutata in contrarium. 
+      </p>
+            <p xml:id="jsnvu6-e142138-d1e288">
+               <lb ed="#L" n="46"/>
+               <!--8.--> Loquendo ergo de bonitate pure morali, quam considerat 
+      <lb ed="#L" n="47"/>Philosophus, dicendum quod ad eam non est necessario 
+      directi<lb ed="#L" n="48" break="no"/>intentionis per fidem. Cuius ratio est, quia si fides requireretu 
+      <lb ed="#L" n="49"/>ad omne opus bonum, impossibile esset quod infidelis disponeret 
+      <lb ed="#L" n="50"/>se ad fidem: &amp; ita infidelitas nulli imputaretur ad culpam: 
+      con<lb ed="#L" n="51" break="no"/>sequens est falsum, ergo &amp; antecedens. Probatio consequentiae 
+      <lb ed="#L" n="52"/>quia nullus disponit se ad dei donum recipiendum per aliquem 
+      <lb ed="#L" n="53"/>actum culpabilem. Sed si fides requireretur ad omnem bonum 
+      <lb ed="#L" n="54"/>actum defectus fidei esset defectus circunstantiae debitae, qui 
+      red<lb ed="#L" n="55" break="no"/>dit actum malum. Et ita in non habente fidem omnis actus 
+      <lb ed="#L" n="56"/>esset malus, ergo per nullum actum posset infidelis disponer 
+      <lb ed="#L" n="57"/>se ad credendum, quod est malum incoueniens. Restat ergo 
+      di<lb ed="#L" n="58" break="no"/>cendum, quod directio intentionis per fidem non requiritur ac 
+      <lb ed="#L" n="59"/>omnem bonitatem, sed solum ad meritoriam vitae aeternae, 
+      vn<lb ed="#L" n="60" break="no"/>I. de non omnes actus infidelium sunt mali, sed multi sunt boni es 
+      <lb ed="#L" n="61"/>genere &amp; circunstantiis, licet nullus sit meritorius vitae eternae 
+      <lb ed="#L" n="62"/>Ex hoc patet confirmatio eius quod supra dictum est, 
+      distinctio<lb ed="#L" n="63" break="no"/>P. 2. ne quadragesima, scilicet quod ad bonitatem moralem non 
+      re<lb ed="#L" n="64" break="no"/>quiritur ordinatio actus in finem vltimum, etiam in habentibus 
+      <lb ed="#L" n="65"/>gratiam &amp; fidem, quia defectus culpabilis nullum excusat ab 
+      il<lb ed="#L" n="66" break="no"/>lo ad quod tenetur. Si ergo habens gratiam &amp; fidem teneretur, 
+      <lb ed="#L" n="67"/>omnes actus suos ordinare in finem vltimum, infidelitas &amp; 
+      quod<lb ed="#L" n="68" break="no"/>cunque peccatum quum sint defectus culpabiles non excusarent 
+      <lb ed="#L" n="69"/>quin infidelis &amp; peccator ad idem tenerentur, non tenetur 
+      au<lb ed="#L" n="70" break="no"/>tem infidelis, vt probatum est, ergo nec alij 
+      </p>
+            <p xml:id="jsnvu6-e142138-d1e348">
+               <lb ed="#L" n="71"/>
+               <!--9--> AD PRIMVM argumentum dicendum quod 
+      intenti<lb ed="#L" n="72" break="no"/>recta de vltimo fine non requiritur ad omnem bonitatem actus, 
+      <lb ed="#L" n="73"/>sed solum ad meritoriam: ad moralem autem bonitatem, 
+      suffi<lb ed="#L" n="74" break="no"/>cit intentio recta de proximo fine, &amp;t haec est in aliquibus 
+      acti<lb ed="#L" n="75" break="no"/>bus infidelium, licet non prima: propter quod actus eorum 
+      pos<lb ed="#L" n="76" break="no"/>sunt esse boni, licet non meritorij. 
+      </p>
+            <p xml:id="jsnvu6-e142138-d1e366">
+               <lb ed="#L" n="77"/>
+               <!--10--> De Christo autem dicendum quod fides intentionem 
+      di<lb ed="#L" n="78" break="no"/>rigit, non ratione aenigmatis, quod non fuit in Christo, sed 
+      ra<lb ed="#L" n="79" break="no"/>tione cognitionis, quam facit de vltimo fine. Cognitio autem 
+      <lb ed="#L" n="80"/>vltimi finis perfectius fuit in Christo, quam per fidem. 
+      </p>
+            <p xml:id="jsnvu6-e142138-d1e379">
+               <lb ed="#L" n="81"/>
+               <!--11--> ARGVMENTVM autem in oppositum probat, 
+      <lb ed="#L" n="82"/>quod in viatoribus sola fides dirigit ad vltimum finem, quod est 
+      <!--00412.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>necessarium ad actionem meritoriam, non au 
+      <lb ed="#L" n="84"/>bonam moraliter.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

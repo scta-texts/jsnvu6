@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="351-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e289397"><!-- l4d46q2 -->
+            <head xml:id="jsnvu6-e289397-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e289397-Hd1e103" type="question-title">Utrum poena aeterna debeatur peccato mortali</head>
+            <p xml:id="jsnvu6-e289397-d1e106">
+      <!--00776.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>QUAESTIO SICVNDA. 
+      <lb ed="#L" n="84"/>Vtrum poena aeterna debeatur peccato mortali
+    </p>
+            <p xml:id="jsnvu6-e289397-d1e117">
+               <lb ed="#L" n="85"/>ECVNDO quaeritur vtrum poena aeterna 
+      de<lb ed="#L" n="86" break="no"/>beatur peccato mortali. Et videtur quod non, quia 
+      <lb ed="#L" n="87"/>duorum peccatorum mortalium vnum est grauius 
+      <lb ed="#L" n="88"/>altero, ergo secundum iustitiam vnum debet puniri 
+      <lb ed="#L" n="89"/>maiori poena quam alterum, sed nulla poena 
+      ma<lb ed="#L" n="90" break="no"/>Tior potest esse quam aeterna, ergo non omne 
+      pec<lb ed="#L" n="91" break="no"/>catum mortale est puniendum iuste poena aeterna. 
+      </p>
+            <p xml:id="jsnvu6-e289397-d1e135">
+               <lb ed="#L" n="92"/>
+               <!--2--> Item poenae sunt medicinae, vt dicitur 2. Ethicorum, sed poena 
+      <lb ed="#L" n="93"/>aeterna nullius est medicina, ergo nullum peccatum est puniendum 
+      <lb ed="#L" n="94"/>poena aeterna. Minor probatur, quia poena aeterna non est 
+      medi<lb ed="#L" n="95" break="no"/>cina ipsi damnatis, quia sunt inemendabiles, nec beatis, quia sunt 
+      <lb ed="#L" n="96"/>impeccabiles, &amp; praeter istos non erunt alij, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e289397-d1e152">
+               <lb ed="#L" n="97"/>
+               <!--3--> IN CONTRARIVM est quod dicitur Mat. 25. lbunt 
+      <lb ed="#L" n="98"/>hi in supplicium aeternum deus autem nullum iniuste punit, quare &amp;c. 
+</p>
+            <p xml:id="jsnvu6-e289397-d1e161">
+               <lb ed="#L" n="99"/>RESPONSIO. Poena aeterna est poena infinita, &amp; ideo 
+      <lb ed="#L" n="100"/>sub dubio est qualiter culpa quae videtur esse finita cum sit 
+      tempora<lb ed="#L" n="101" break="no"/>lis potest puniri iuste poena infinita. Distinguendum est ergo de 
+      in<lb ed="#L" n="102" break="no"/>finitate poenae, quia vel potest attendi secundum intensionem seu 
+      acer<lb ed="#L" n="103" break="no"/>bitatem vel secundum durationem, primo modo non est possibile dare 
+      <lb ed="#L" n="104"/>poenam infinitam,s. secundum acerbitatem seu intensionem, &amp; si esset non 
+      in<lb ed="#L" n="105" break="no"/>fligeretur pro peccato mortali. Primum patet, quia in quacunmque 
+      na<lb ed="#L" n="106" break="no"/>tura specifica est dare terminum in minus in illa est dare terminum 
+      <lb ed="#L" n="107"/>in majus, hi enim termini sibi inuicem correspondent, sed in omni 
+      <lb ed="#L" n="108"/>qualitate est necessarium dare terminum in minus, alioquin nunquam 
+      <lb ed="#L" n="109"/>posset corrumpi per contrarium remittens ipsum, ergo in omni 
+      qua<lb ed="#L" n="110" break="no"/>litate est dare terminum in majus. Si sic, ergo non potest in infinitum 
+      <lb ed="#L" n="111"/>intendi. Et confirmatur, quia sicut in quantitate secundum se &amp; 
+      abso<lb ed="#L" n="112" break="no"/>lute non est dare terminum in minus, sed est diuisibilis in infinitum, 
+      <lb ed="#L" n="113"/>ita in ea non est dare terminum in majus, imo quantum est de se 
+      sem<lb ed="#L" n="114" break="no"/>per posset augeri in infinitum successiue quare econtrario, quia in 
+      <lb ed="#L" n="115"/>omni qualitate &amp; in omni re naturali habente latitudinem graduum 
+      <lb ed="#L" n="116"/>est dare terminum in minus, ergo necesse est dare terminum in 
+      ma<lb ed="#L" n="117" break="no"/>ius, nec posse esse processum in infinitum etiam successiue, &amp; multo 
+      <lb ed="#L" n="118"/>magis impossibile est quod sit actu infinita, cum ergo acerbitas poen 
+      <lb ed="#L" n="119"/>attendatur secundum intensionem qualitatis, vel formae quaecunque 
+      <lb ed="#L" n="120"/>sit illa, patet quod nulla poena potest esse infinita secundum acerbitatem 
+      </p>
+            <p xml:id="jsnvu6-e289397-d1e211">
+               <lb ed="#L" n="121"/>
+               <!--5--> Secundum patet, scilicet dato quod posset esse infinita intensiue 
+      <lb ed="#L" n="122"/>non tamen infligeretur pro peccato mortali, quia pronior est deu 
+      <lb ed="#L" n="123"/>ad reddendum praemium pro merito quam ad infligendum poenam pro 
+      <lb ed="#L" n="124"/>peccato, sed pro nullo merito quantumcumque magno reddet deu 
+      <lb ed="#L" n="125"/>praemium infinitum intensiue visio enim beata erit finita in quocunque 
+      <lb ed="#L" n="126"/>erit, ergo pro nullo peccato seu demerito quantuncunque magna 
+      <lb ed="#L" n="127"/>infligetur poena infinita intensiue. Si autem loquamur de infinitat. 
+      <lb ed="#L" n="128"/>poenae, quantum ad durationem, sic peccato mortali debetur 
+      poen<lb ed="#L" n="129" break="no"/>infinita iuste, quia sicut est in ciuilitate mundana sic suo mode 
+      <lb ed="#L" n="130"/>debet esse in ciuilitate diuina, sed in ciuilitate mundana sic est o 
+      <lb ed="#L" n="131"/>ille qui ex culpa sua subuertit quantum in se est pace &amp; amiciti. 
+      <lb ed="#L" n="132"/>ciuium adinuicem vel obedientiam ad principem meretur totaliter ex 
+      <lb ed="#L" n="133"/>tirpari a ciuitate per mortem, exilium, vel per perpetuum carcerem quae 
+      <lb ed="#L" n="134"/>poena est perpetua secundum capacitatem subiecti, &amp; secundum inten 
+      <lb ed="#L" n="135"/>tionem legis quo ad hoc, vt imperpetuum non reuocetur ad societatem 
+      <lb ed="#L" n="136"/>communitatis contra quam deliquit, ergo eodem modo debet esse in 
+      ci<lb ed="#L" n="137" break="no"/>uilitate diuina, in qua congregantur homines in lege fidei &amp; chari 
+      <lb ed="#L" n="138"/>tatis quod ille qui subuertit, quantum est in se ordinem charitatis ad pro 
+      <lb ed="#L" n="139"/>ximum vel subiectionis ad deum quod fit per quod libet peccatum 
+      mor<lb ed="#L" n="140" break="no"/>tale meretur totaliter extirpari a consortio dei et sanctorum per 
+      mo<lb ed="#L" n="141" break="no"/>tem, exilium, vel carcerem. Hae autem poenae sunt simpliciter perpetu 
+      <lb ed="#L" n="142"/>in ciuilitate diuina, scilicet mors secunda exilium a patria &amp; carcer 
+      <lb ed="#L" n="143"/>inferni, quia &amp; subiectum istarum poenarum perpetuo durabit. Secundo 
+      <lb ed="#L" n="144"/>patet idem quod manente culpa debet manere poena, sed in damnatis per 
+      <lb ed="#L" n="145"/>petuo manebit culpa propter obstinationem mentis eorum, ergo 
+      per<lb ed="#L" n="146" break="no"/>petuo remanebit poena. Tertio, quia magis est peccator dignus 
+      <lb ed="#L" n="147"/>poena perpetua propter culpam suam quam iustus sit dignus praemio 
+      <lb ed="#L" n="148"/>ppter quodcunque meritum, quia iustus quantuncunque bene operetu 
+      <lb ed="#L" n="149"/>propter deum in nullo constituit deum debitorem, &amp; ideo praemium non 
+      <lb ed="#L" n="150"/>est ei reddendum secundum debitum stricte sumptum, sed peccator vo 
+      <lb ed="#L" n="151"/>luntarie diuertens se ab obedientia respectu dei vere debet 
+      puni<lb ed="#L" n="152" break="no"/>ri secundum iustitiam, vnde est vere debitor poenae, sed iustus prpte 
+      <lb ed="#L" n="153"/>opus meritorium praemiatur praemio aeterno, ergo fortiori 
+      ratio<lb ed="#L" n="154" break="no"/>ne peccator propter demeritum punitur iuste poena aeterna. 
+      </p>
+            <p xml:id="jsnvu6-e289397-d1e289">
+               <lb ed="#L" n="155"/>
+               <!--6--> AD PRIMVM argu. dicendum quod quantitati peccati 
+      <lb ed="#L" n="156"/>respondet quantitas poenae secundum intensionem, vt quanto peccatum 
+      <lb ed="#L" n="157"/>est grauius, tanto poena sit acerbior, vtraque tamen poena tam 
+      ma<lb ed="#L" n="158" break="no"/>ioris quam minoris peccati mortalis debet esse duratione 
+      aeterna<lb ed="#L" n="159" break="no"/>Ad secundum arg. dicendum est quod poenae quantum ad 
+      institu<lb ed="#L" n="160" break="no"/>tionem sui sunt ad correctionem, vt earum rimore homines retrahantur 
+      <lb ed="#L" n="161"/>a malis, sed quantum ad earum actualem inflictionem non sem per sunt ad 
+      <lb ed="#L" n="162"/>correctionem nisi poenae illae quae non sunt ad finalem exterminationem 
+      <lb ed="#L" n="163"/>illius qui punitur, illa autem quae sunt ad exterminationem possunt 
+      <!--00777.xml-->
+      <pb ed="#L" n="352-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>pro nunc esse ad correctionem aliorum qui visa poena 
+      corrigun<lb ed="#L" n="2" break="no"/>tur, sed nunquam sunt ad correctionem illius qui punitur. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

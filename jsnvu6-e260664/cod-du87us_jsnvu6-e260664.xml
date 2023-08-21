@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="316-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e260664"><!-- l4d26prae -->
+            <head xml:id="jsnvu6-e260664-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e260664-d1e103">
+               <lb ed="#L" n="119"/>Sententia huius distinctionis xxvj. in 
+      <lb ed="#L" n="120"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e260664-d1e110">
+               <lb ed="#L" n="121"/>CVM ALIA sacramenta. Superius determina 
+      <lb ed="#L" n="122"/>uit magister de sacramento ordinis quod 
+      perti<lb ed="#L" n="123" break="no"/>net ad spiritualem ecclesiae multiplicationem: hic 
+      <lb ed="#L" n="124"/>determinat de sacramento matrimonij quod 
+      per<lb ed="#L" n="125" break="no"/>tinet ad multiplicationem eius carnalem: vnde 
+      <lb ed="#L" n="126"/>ractatus diuiditur in quinque. Primo determinat de 
+      ma<lb ed="#L" n="127" break="no"/>trimonio in se. Secundo quantum ad eius causam efficientem. 
+      <lb ed="#L" n="128"/>Tertio quantum ad eius causam finalem. Quario quantum ad 
+      <lb ed="#L" n="129"/>eius bona. Quinto quantum ad eius causam mater: alem, 
+      scili<lb ed="#L" n="130" break="no"/>cet personas contrahentes. Secunda in principio sequentis di 
+      <lb ed="#L" n="131"/>stinctionis ibi, Post haec aduertendum est. Tertia circa finem 
+      <lb ed="#L" n="132"/>post 30. dist. ibi, Exposito quae sit causa efficiens. Quarta 31. 
+      di<lb ed="#L" n="133" break="no"/>stin. ibi, Post haec de bonis coniugij. Quinta 34. distinct. nunc 
+      <lb ed="#L" n="134"/>superest attendere. Prima est praesentis lectionis. Et diuiditur 
+      <lb ed="#L" n="135"/>in duas. Paimo determinat matrimonij institutionem. Secundo 
+      <lb ed="#L" n="136"/>eius significationem. Secunda ibi, Cum ergo coniugium. Prima 
+      <lb ed="#L" n="137"/>in duas. Primo ponit duplicem matrimonij institutionem osten 
+      <lb ed="#L" n="138"/>dens cum hoc earum differentiam. Secundo remouet quorun 
+      <lb ed="#L" n="139"/>dam errorem ibi. Fuerunt autem nonnulli. 
+      </p>
+            <p xml:id="jsnvu6-e260664-d1e154">
+               <lb ed="#L" n="140"/>
+               <!--2--> INSPECIALI sic procedit, &amp; primo proponit hoc 
+      <lb ed="#L" n="141"/>sacramentum ante peccatum institutum fuisse cum dixit Adam 
+      <lb ed="#L" n="142"/>nunc os ex ossibus meis. Fuit etiam matrimonium post 
+      pecca<lb ed="#L" n="143" break="no"/>tum institutum, &amp; sic habet duplicem institutionem: differt autem 
+      pri<lb ed="#L" n="144" break="no"/>ma institutio a secunda. Quia prima facta est in paradiso, sed 
+      <lb ed="#L" n="145"/>da extra paradisum. Item prima ad effectum naturae multipli 
+      <lb ed="#L" n="146"/>candae. Secunda ad remedium concupiscentiae. Item prima fui 
+      <lb ed="#L" n="147"/>in praeceptum necessitatis. Secunda fuit voluntaria a tempore 
+      <lb ed="#L" n="148"/>multiplicationis generis humani, &amp; est accipienda secundum 
+      <lb ed="#L" n="149"/>indulgentiam: accipienda est autem quandoque indulgentia 
+      <lb ed="#L" n="150"/>pro re missione, quandoque pro concessione, quandoque pro 
+      <lb ed="#L" n="151"/>permissione, hic autem pro permissione accipitur: permittitur 
+      <lb ed="#L" n="152"/>autem coniugium non quasi malum, sed quasi minus bonum. Postes 
+      <lb ed="#L" n="153"/>condemnat errorem damnantium &amp; detestantium nuptias, 
+      osten<lb ed="#L" n="154" break="no"/>dens quod bona res est matrimonium per hoc quod Christus 
+      in<lb ed="#L" n="155" break="no"/>terfuit nuptiis, &amp; praecepit vxorem a viro non dimitti. Vidmo 
+      <lb ed="#L" n="156"/>dicit quod matrimonium est signum coniunctionis Christi &amp; 
+      ecele<lb ed="#L" n="157" break="no"/>siae in conformitate naturae, &amp; signum vnionis in charstate, quae 
+      <lb ed="#L" n="158"/>duo matrimonium carnali copula consummatum perfecte signi 
+      <lb ed="#L" n="159"/>ficant, &amp; ideo perfectum est: matrimonsum autem in quo est eon 
+      <lb ed="#L" n="160"/>sensus animorum sine carnali copula deficit ab hac perfecta 
+      signi<lb ed="#L" n="161" break="no"/>ficatione. Est tamen verum matrimonium, licet quaedam auctori 
+      <lb ed="#L" n="162"/>tates in contrarium dicere videantur: matrimonium edam tale 
+      <!--00706.xml-->
+      <pb ed="#L" n="316-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>vbi scilicet est consensus animorum tantum est signum 
+      dile<lb ed="#L" n="2" break="no"/>ctionis qua coniuges sibi inuicem sunt vniendi, &amp; in hoc &amp;c 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

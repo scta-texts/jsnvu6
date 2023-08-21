@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="329-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e271315"><!-- l4d37prae -->
+            <head xml:id="jsnvu6-e271315-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e271315-d1e103">
+               <lb ed="#L" n="27"/>Sententia huius distinctionis xXxvij, in 
+      <lb ed="#L" n="28"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e271315-d1e110">
+               <lb ed="#L" n="29"/>SVNT igitur quidam ordines. Superius 
+      deter<lb ed="#L" n="30" break="no"/>minauit magister de impedimentis matrimo 
+      <lb ed="#L" n="31"/>nij quae faciunt personas medias inter personas 
+      <lb ed="#L" n="32"/>legitimas &amp; penitus illegitimas: hic vero de 
+      <lb ed="#L" n="33"/>terminat de impedimentis quae faciunt penitur 
+      <lb ed="#L" n="34"/>illegitimas ad contrahendum, &amp; diuiditur in duas. Primo agis 
+      <lb ed="#L" n="35"/>de impedimentis quae reddunt personas penitus illegitimas 
+      <lb ed="#L" n="36"/>ad contrahendum cum quibuscunque, &amp; secundo determina 
+      <lb ed="#L" n="37"/>de impedimentis quae reddunt personas illegitimas ad con 
+      <lb ed="#L" n="38"/>trahendum cum quibusdam, &amp; non cum omnibus. Secunda 39 
+      <lb ed="#L" n="39"/>dist. ibi, Post haec de dispari cultu. Prima in duas. Primo deter 
+      <lb ed="#L" n="40"/>minat de impedimento ordinis. Secundo de impedimento voti 
+      <lb ed="#L" n="41"/>38. dist. ibi, Nunc de voto inspiciamus. Prima est principalis 
+      <lb ed="#L" n="42"/>lectionis, &amp; diuiditur in duas. Primo ostendit quomodo 
+      ma<lb ed="#L" n="43" break="no"/>trimonium per ordinem impeditur. Secundo quomodo 
+      im<lb ed="#L" n="44" break="no"/>peditur per vxoricidij crimen. Secunda incipit ibi, His adii 
+      <lb ed="#L" n="45"/>ciendum est. 
+      </p>
+            <p xml:id="jsnvu6-e271315-d1e149">
+               <lb ed="#L" n="46"/>
+               <!--2--> IN SPECIALI sic procedit, &amp; primo proponit? 
+      <lb ed="#L" n="47"/>quidam ordines sunt in quibus nullatenus potest contrahi 
+      con<lb ed="#L" n="48" break="no"/>iugium, &amp; si intercesserit copula fit diuortium, sicut 
+      sacerdo<lb ed="#L" n="49" break="no"/>tium, diaconatus, subdiaconatus: in aliis autem ordinibus 
+      per<lb ed="#L" n="50" break="no"/>mittitur fieri coningium, nisi vir religionis habitum 
+      sumpse<lb ed="#L" n="51" break="no"/>rit, vel votum continentiae fecerit, quod pluribus auctoritati 
+      <lb ed="#L" n="52"/>bus confirmat. Vltimo dicit quod ocelsoribus suarum 
+      consu<lb ed="#L" n="53" break="no"/>gum denegandum est penitus coniugium: tales autem sic 
+      cri<lb ed="#L" n="54" break="no"/>minosos ecclesiastica disciplina, spirituali gladio, &amp; non 
+      ma<lb ed="#L" n="55" break="no"/>teriali gladio feriri iubet &amp; puniri. Vnde tales debent 
+      publi<lb ed="#L" n="56" break="no"/>cam poenitentiam agere, &amp; si contumaces fuerint 
+      excommu<lb ed="#L" n="57" break="no"/>nicentur quousque consentiant, quod auctoritatibus 
+      confir<lb ed="#L" n="58" break="no"/>matur, ergo &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

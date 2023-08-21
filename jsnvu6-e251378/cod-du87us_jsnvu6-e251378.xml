@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="305-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e251378"><!-- l4d20q4 -->
+            <head xml:id="jsnvu6-e251378-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e251378-Hd1e103" type="question-title">Utrum indulgentiae tantum valeant 
+        quantum sonant</head>
+            <p xml:id="jsnvu6-e251378-d1e106">
+               <lb ed="#L" n="38"/>QVAESTIO QVARTA. 
+      <lb ed="#L" n="39"/>Vtrum indulgentiae tantum valeant 
+      <lb ed="#L" n="40"/>quantum sonant. 
+    </p>
+            <p xml:id="jsnvu6-e251378-d1e115">
+               <lb ed="#L" n="41"/>AD SECVNDVM sic proceditur. Et arguitur 
+      <lb ed="#L" n="42"/>quod indulgentiae non tantum valeant 
+      quan<lb ed="#L" n="43" break="no"/>tum sonant: quia quandoque datur indulgentia 
+      <lb ed="#L" n="44"/>quod qui praebet auxilium ad fabricam alicuius 
+      e<lb ed="#L" n="45" break="no"/>Iclesiae consequetur tertiam partem remissionis 
+      <lb ed="#L" n="46"/>peccatorum. Si ergo indulgentiae tantum valeant quantum 
+      so<lb ed="#L" n="47" break="no"/>nant qui tunc daret vnum denarium, &amp; secundo alium, &amp; tertie 
+      <lb ed="#L" n="48"/>tertium consequeretur plenam absolutionem ab omni 
+      poen<lb ed="#L" n="49" break="no"/>peccatis suis debita, quod videtur absurdum. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e137">
+               <lb ed="#L" n="50"/>
+               <!--2--> Item quandoque datur indulgentia euntibus ad ecclesiam 
+      <lb ed="#L" n="51"/>aliquam non distinguendo an veniant de remotis an de prope 
+      <lb ed="#L" n="52"/>Si ergo indulgentia tantum valeret quantum sonat, videretur q 
+      <lb ed="#L" n="53"/>tantum valeret illi qui est iuxta ecclesiam quantum illi qui 
+      ve<lb ed="#L" n="54" break="no"/>niret a remotis partibus, quod tamen non videtur aequum. 
+</p>
+            <p xml:id="jsnvu6-e251378-d1e154">
+               <lb ed="#L" n="55"/>Item ad talem ecclesiam posset quis pluries in dieire; sed 
+      <lb ed="#L" n="56"/>forma indulgentiae non dicit nisi quod euntes ad ecclesiam participam 
+      <lb ed="#L" n="57"/>talem indulgentiam, ergo quotienscunque aliquis ibit ad 
+      eccle<lb ed="#L" n="58" break="no"/>siam eodem die, totiens habebit indulgentiam, &amp; ita vno die po 
+      <lb ed="#L" n="59"/>terit consequi facillime expiationem totius poenae sibi debitae 
+      <lb ed="#L" n="60"/>quod non videtur conueniens. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e170">
+               <lb ed="#L" n="61"/>
+               <!--4--> IN CONTRARIVM arguitur, quia ecclesia non 
+      <lb ed="#L" n="62"/>decipit filios suos, sed deciperet nisi indulgentiae tantum 
+      vale<lb ed="#L" n="63" break="no"/>rent quantum sonant, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e181">
+               <lb ed="#L" n="64"/>
+               <!--5--> RESPONSIO. Ista quaestio supponit ex praecedente 
+      <lb ed="#L" n="65"/>quaestione quod indulgentiae aliquid valeant: &amp; per hoc excludi 
+      <lb ed="#L" n="66"/>tur opinio quorundam qui dixerunt quod indulgentiae valent 
+      <lb ed="#L" n="67"/>in iudicio ecclesiae, sed non in iudicio Dei, quia per indulgentiam 
+      <lb ed="#L" n="68"/>aliquis absoluitur a poenitentiis sibi iniunctis vt non teneatur 
+      <lb ed="#L" n="69"/>eas facere in praesenti vita, &amp; hoc sonat forma communis indul 
+      <lb ed="#L" n="70"/>gentiarum. Dicitur enim in forma indulgentiarum quod de poe 
+      <lb ed="#L" n="71"/>nitentiis iniunctis talem vel talem partem misericorditer 
+      rela<lb ed="#L" n="72" break="no"/>xamus, sed non absoluitur a poena culpae debita secundum iudicium 
+      <lb ed="#L" n="73"/>Dei quin eam totam exoluat in purgatorio. Sed secundum hanc 
+      <lb ed="#L" n="74"/>opinionem indulgentiae non valerent, sed magis nocerent. 
+      Cu<lb ed="#L" n="75" break="no"/>ius ratio est, quia remittere minorem poenam &amp; transmittere 
+      <lb ed="#L" n="76"/>ad grauiorem non est alleuiatio, sed nocumentum, sed si 
+      indul<lb ed="#L" n="77" break="no"/>gentiae valerent solum primo modo, tunc remitterent leuiorem po 
+      <lb ed="#L" n="78"/>nam, scilicet huius vitae, &amp; transmitterent ad grauiorem, scilicet 
+      <lb ed="#L" n="79"/>purgatoriam, imo non esset ibi aliqua remissio poenae, sed dilatio 
+      <lb ed="#L" n="80"/>cum augmento eiusdem, ergo indulgentiae non valerent, sed potius no 
+      <!--00683.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>cerent, quod non est dicendum: hac ergo opinione reiecta 
+      vi<lb ed="#L" n="82" break="no"/>denda sunt duo. Primum est, vtrum indulgeniiae tantum valeani 
+      <lb ed="#L" n="83"/>quantum sonant. Secundum est, quibus valeant. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e233">
+               <lb ed="#L" n="84"/>
+               <!--6--> QUANTVM ad primum est multiplex modus 
+      dicendi<lb ed="#L" n="85" break="no"/>Vnus est, quod indulgentiae valent secundum mensuram 
+      deuotiu<lb ed="#L" n="86" break="no"/>nis illius cui fit indulgentia, &amp; non quantum sonant. Sed istud no 
+      <lb ed="#L" n="87"/>tenetur, quia vel indulgentia valet praecise secundum mesuram 
+      <lb ed="#L" n="88"/>deuotionis suscipientis indulgentiam, dato quod non faciat 
+      il<lb ed="#L" n="89" break="no"/>lud pro quo datur indulgentia, quod est absurdum: quia tunc si 
+      <lb ed="#L" n="90"/>daretur indulgentia eunti in terram sancta, &amp; aliques infirmus 
+      <lb ed="#L" n="91"/>&amp; impotens ire haberet deuotionem eundi tantam quantam ha 
+      <lb ed="#L" n="92"/>bet ille qui actualiter vadit, sequeretur quod non vadens ad te 
+      <lb ed="#L" n="93"/>ram sanctam haberet tantam indulgentiam quantam ille qui 
+      va<lb ed="#L" n="94" break="no"/>dit, quod non potest esse verum, quia quod datur sub conditio 
+      <lb ed="#L" n="95"/>ne non habetur nisi ab illo qui implet conditionem, sed omne 
+      <lb ed="#L" n="96"/>indulgentiae dantur sub conditione alicuius operis faciendi vel 
+      <lb ed="#L" n="97"/>iam facti, ergo non implet illud pro quo datur indulgentia, non 
+      <lb ed="#L" n="98"/>habet indulgentiam. Si autem intelligatur quod valor 
+      indul<lb ed="#L" n="99" break="no"/>gentiae est secundum mensuram deuotionis illius cui datur 
+      indul<lb ed="#L" n="100" break="no"/>gentia non praecise, sed supposiro quod faciat illud pro quo da 
+      <lb ed="#L" n="101"/>tur indulgentia adhuc non est verum: quia licet ille qui habet ma 
+      <lb ed="#L" n="102"/>iorem deuotionem habeat plus de merito apud Deum, tamen non 
+      <lb ed="#L" n="103"/>habet plus de relaxatione poenae per indulgentiam, alioquin for 
+      <lb ed="#L" n="104"/>ma indulgentiae contineret falsitatem, in qua dicitur quod 
+      qui<lb ed="#L" n="105" break="no"/>cunque fecerit hoc vel illud habebit tantam indulgentiam. 
+      igi<lb ed="#L" n="106" break="no"/>tur quilibet faciens illud pro quo datur indulgentia habet 
+      to<lb ed="#L" n="107" break="no"/>tam indulgentiam, vel forma indulgentiae est falsa. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e290">
+               <lb ed="#L" n="108"/>
+               <!--7--> Secundus modus est, quod indulgentiae valent secundum mi 
+      <lb ed="#L" n="109"/>suram rei datae, vel factae prout in forma indulgentiae 
+      exprimi<lb ed="#L" n="110" break="no"/>tur ad dandum vel faciendum, sed istud non valet, quia hoc non 
+      <lb ed="#L" n="111"/>esset indulgentia sed commutatio. Et etiam commutatio non ess 
+      <lb ed="#L" n="112"/>necessaria, eleemosyna enim vel peregrinatio est secundum se 
+      sa<lb ed="#L" n="113" break="no"/>tisfactoria. Si igitur tunc pro eleemosyna data, vel peregrinatio 
+      <lb ed="#L" n="114"/>ne facta non datur per indulgentias alicui, nisi quantum hoc 
+      <lb ed="#L" n="115"/>ponderat, tunc non valeret eleemosyna vel peregrinatio, &amp; 
+      ite<lb ed="#L" n="116" break="no"/>rum iste modus ponit doctrinam ecclesiae falsam, ex quo 
+      indul<lb ed="#L" n="117" break="no"/>gentiae non tantum valent quantum sonant. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e316">
+               <lb ed="#L" n="118"/>
+               <!--8--> Tertius modus est quod indulgentiae tantum valent quantum sonant, si 
+      <lb ed="#L" n="119"/>causa pro qua sit indulgentia est condigna quantitati iudulgentiae 
+      <lb ed="#L" n="120"/>verbi gratia, si accipientibus crucem transmarinam detur 
+      indulgen<lb ed="#L" n="121" break="no"/>tia plenaria, videtur sufficiens causa, quia quum mors tolerata pro 
+      <lb ed="#L" n="122"/>Christo expiet omnem poenam illis qui vadunt vltra mare, quum ex 
+      <lb ed="#L" n="123"/>ponant se morti pro Christo, videtur iustum esse quod detur indulgi 
+      <lb ed="#L" n="124"/>tia plenaria, in aliis similiter est considerandum an causa 
+      indulgen<lb ed="#L" n="125" break="no"/>tiae sit eis proportionata. Haec autem opinio bene est probabilis, ta 
+      <lb ed="#L" n="126"/>mem non est totaliter concors consuetudini communi ecelesiae quae no 
+      <lb ed="#L" n="127"/>obseruat hanc proportionem, sed pro visitatione alicuius ecclesia 
+      <lb ed="#L" n="128"/>certa die dat magnam indulgentiam quandoque viginti annorum, &amp; 
+      <lb ed="#L" n="129"/>pro eadem causa dat quandoque maiorem, aliquando minorem. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e348">
+               <lb ed="#L" n="130"/>
+               <!--9--> Ideo est quartus modus qui tenetur communius, scilicet q 
+      <lb ed="#L" n="131"/>indulgentiae tantum valent quantum sonant, non ex deuotione su 
+      <lb ed="#L" n="132"/>scipientis, vt dicit prima opinio, nec ex quantitate rei datae, vt 
+      <lb ed="#L" n="133"/>dicit secunda, nec ex proportione ad causam indulgentiae, vt di 
+      <lb ed="#L" n="134"/>cit tertia, sed ex abundantia meritorum Christi supposito quod in 
+      <lb ed="#L" n="135"/>dante sit auctoritas, in suscipiente idoneitas (de qua dicetur in si 
+      <lb ed="#L" n="136"/>cundo articulo) in causa pietas, scilicet ad honorem Dei &amp; 
+      vtili<lb ed="#L" n="137" break="no"/>tatem ecclesiae. Quod probatur sic: meritum Christi est sufficien: 
+      <lb ed="#L" n="138"/>ad expiationem omnis poenae, si ergo per indulgentiam 
+      applica<lb ed="#L" n="139" break="no"/>tur alicui qui sit eius capax, &amp; per illum in quo est. auctoritas, &amp; 
+      <lb ed="#L" n="140"/>pro causa pia in qua est honor Dei, &amp; ecclesiae vtilitas ad quae 
+      o<lb ed="#L" n="141" break="no"/>dinantur merita Christi, patet quod tantum de poena expiatur ac 
+      <lb ed="#L" n="142"/>quantam expiandam applicatur, &amp; hoc modo tantum valent indul 
+      <lb ed="#L" n="143"/>gentiae quantum sonant: &amp; sic patet primum, videlicet quod 
+      in<lb ed="#L" n="144" break="no"/>dulgentiae tantum valent quantu sonit. Sed videamus nunc qua 
+      <lb ed="#L" n="145"/>liter sonant. Certum est quod forma indulgentiarum expressa 
+      ipl<lb ed="#L" n="146" break="no"/>teris papalibus est talis. Omnibus vere poenitentibus &amp; 
+      confes<lb ed="#L" n="147" break="no"/>sis qui hoc vel illud fecerint tantum de poenitentiis sibi iniunctis 
+      <lb ed="#L" n="148"/>misericorditer relaxamus. igitur forma indulgentiae non sonat 
+      <lb ed="#L" n="149"/>nisi quod certa pars de iniunctis poenitentiis relaxatur. Poenitentiae 
+      <lb ed="#L" n="150"/>autem iniunctae sunt illae solum quae imponuntur a sacerdote ci 
+      <lb ed="#L" n="151"/>fitenti, canones enim nulli imponunt poenitentiam, sed docent 
+      <lb ed="#L" n="152"/>qualis &amp; quanta sit imponenda. Et ideo de praedictis 
+      poeniten<lb ed="#L" n="153" break="no"/>tus sic a sacerdote iniunctis certa quantitas per indulgentiam 
+      re<lb ed="#L" n="154" break="no"/>laxatur, ita quod licitum est recipienti indulgentiam omittere tantam 
+      <lb ed="#L" n="155"/>partem poenitentiae sibi iniunctae, &amp; valet ei indulgentia ad 
+      expi<lb ed="#L" n="156" break="no"/>tionem tantae poenae quantum valuisset poenitentia si per eum esse 
+      <lb ed="#L" n="157"/>facta, alioquin non essent vtiles, sed nociuae, vt supra lictum fuit. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e413">
+               <lb ed="#L" n="158"/>
+               <!--10.--> Sed quid erit de illo qui complete facit omnes poenitentias 
+      <lb ed="#L" n="159"/>sibi iniunctas, nunquid sibi valebunt aliquid indulgentiae Vide 
+      <lb ed="#L" n="160"/>tur quod non, quia non valent nisi quantum sonant, sed non so 
+      <lb ed="#L" n="161"/>nant nisi quod certa pars poenitentiae iniunctae relaxatur, ergo ad 
+      <lb ed="#L" n="162"/>hoc solum valent. sed ad hoc non valent illi qui propter eas nihil 
+      <!--00684.xml-->
+      <pb ed="#L" n="305-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>omittit de poenitentiis sibi iniunctis, sed eas complete facit, erge 
+      <lb ed="#L" n="2"/>nihil ei valent. Et dicendum est quodimo ei valent, quia ille qui 
+      fa<lb ed="#L" n="3" break="no"/>cit id pro quo datur indulgentia statim consequitur fructum in 
+      <lb ed="#L" n="4"/>dulgentiae: videlicet quod non tenetur facere illam poenitentiam 
+      <lb ed="#L" n="5"/>quae sibi relaxata est per indulgentiam, &amp; de poena peccatis sui 
+      <lb ed="#L" n="6"/>debita tantum remissum est, quantum remissum fuisset si illam 
+      <lb ed="#L" n="7"/>poenitentiam fecisset. Si autem vltra hoc vult poenitentiam 
+      fa<lb ed="#L" n="8" break="no"/>cere, &amp; facit eam, licet non teneatur, hoc valet ei ad meritum &amp; 
+      <lb ed="#L" n="9"/>remissionem vlterioris poenae, quia poena per poenam 
+      recompen<lb ed="#L" n="10" break="no"/>satur. Quod ergo dicitur: indulgentiae non valent illi qui 
+      pro<lb ed="#L" n="11" break="no"/>pter eas non omittit facere aliquid de poenitentiis sibi iniunctis 
+      <lb ed="#L" n="12"/>cum ad hoc per se &amp; directe valeant indulgentiae, dicendum est 
+      <lb ed="#L" n="13"/>quod imo: quia semper absoluitur ab obligatione faciendi illas po 
+      <lb ed="#L" n="14"/>nitentias, &amp; a poena poenitentiae proportionata. Sed si gratis vult 
+      <lb ed="#L" n="15"/>illam vel magis similem poenitentiam facere, hoc cedit ei ad 
+      me<lb ed="#L" n="16" break="no"/>ritum, &amp; ad expiationem vlterioris poenae. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e470">
+               <lb ed="#L" n="17"/>
+               <!--10--> Quantum ad primum dicendum est, quod indulgentia non 
+      va<lb ed="#L" n="18" break="no"/>let existentibus in peccato mortali, nec eis qui sunt in charitate 
+      <lb ed="#L" n="19"/>nisi expleant conditionem indulgentiarum. Primum patet, quia 
+      in<lb ed="#L" n="20" break="no"/>dulgentiae ordinantur ad expiationem poenae, sed poena non 
+      ex<lb ed="#L" n="21" break="no"/>piatur nisi culpa dimissa, ergo perseuerantibus in peccato 
+      mo<lb ed="#L" n="22" break="no"/>tali non valent indulgentiae. Secundum patet, quia sicut dictum 
+      <lb ed="#L" n="23"/>est prius, indulgentiae dantur sub conditione alicuius operis 
+      fa<lb ed="#L" n="24" break="no"/>ciendi, vt est eleemosyna data ad fabricam operis: vel 
+      visitati<lb ed="#L" n="25" break="no"/>liminum aliquorum sanctorum, vel oppugnatio hostium fidei 
+      <lb ed="#L" n="26"/>vel aliud consimile, quam conditionem qui non explet, non ha 
+      <lb ed="#L" n="27"/>bet indulgentiam: &amp; ideo pauper &amp; religiosus qui non facit illud 
+      <lb ed="#L" n="28"/>quod in indulgentia continetur, licet possit habere meritum ex 
+      de<lb ed="#L" n="29" break="no"/>uotione sua, non tamen consequitur indulgentiam. Quicunque 
+      <lb ed="#L" n="30"/>autem est in charitate, &amp; cum hoc est vere confessus, si facit illud 
+      <lb ed="#L" n="31"/>pro quo datur indulgentia consequitur eam, etiam ille idem qui 
+      <lb ed="#L" n="32"/>facit indulgentias: quia licet nullus posset excommunicare se 
+      di<lb ed="#L" n="33" break="no"/>recte vel indirecte, eo quod excommunicatio profertur per modum 
+      <lb ed="#L" n="34"/>sententiae, &amp; nullus potest esse iudex sui ipsius, indulgentiam 
+      ta<lb ed="#L" n="35" break="no"/>men potest recipere a seipso, faciendo illud pro quo datur 
+      in<lb ed="#L" n="36" break="no"/>dulgentia, quum fiat per modum dispensationis, qua quilibet 
+      po<lb ed="#L" n="37" break="no"/>test vti &amp; ad se &amp; ad alium. Dico autem si sit confessus: quia con 
+      <lb ed="#L" n="38"/>munis forma indulgentiae est, quod datur vere poenitentibus &amp; 
+      con<lb ed="#L" n="39" break="no"/>fessis. Sed nunquid absque supradictis conditionibus posset 
+      da<lb ed="#L" n="40" break="no"/>ri indulgentia, videlicet contritis &amp; non confessis, &amp; absque hoc 
+      <lb ed="#L" n="41"/>quod imponeretur aliquid dandum vel faciendum, puta 
+      elee<lb ed="#L" n="42" break="no"/>mosyna, vel peregrinatio? Credo quod sic: ex quo enim 
+      ali<lb ed="#L" n="43" break="no"/>quis est in charitate, capax est indulgentiae, &amp; ideo potest ei 
+      <lb ed="#L" n="44"/>conferri antequam sit confessus. Papa etiam concedit multis? 
+      <lb ed="#L" n="45"/>possint absolui generali absolutione quantum extendunt se 
+      cla<lb ed="#L" n="46" break="no"/>ues Petri. Ista autem absolutio non solum est a culpa, quia illa 
+      <lb ed="#L" n="47"/>semper est generalis, cum vna culpa non possit remitti sine alia 
+      <lb ed="#L" n="48"/>sed extendit se ad dimissionem poenae, &amp; tamen Papa non 
+      ex<lb ed="#L" n="49" break="no"/>ponit talibus aliquid faciendum. Et simili modo videtur quod 
+      <lb ed="#L" n="50"/>possent dari indulgentiae (vt videtur) absque hoc quod 
+      Pap<lb ed="#L" n="51" break="no"/>imponat ad dandum vel faciendum. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e551">
+               <lb ed="#L" n="52"/>
+               <!--11.--> Per idem patet quod indulgentiae non valent existentibus 
+      <lb ed="#L" n="53"/>in purgatorio directe, quamuis ipsi sint in charitate: quia ipsi non 
+      <lb ed="#L" n="54"/>possunt facere id pro quo datur indulgentia, &amp; iterum non sunt 
+      <lb ed="#L" n="55"/>de foro ecclesiae. Et quia potestas data Petro est absoluere &amp; li 
+      <lb ed="#L" n="56"/>gare super terram, sicut dictum est ei: Tibi dabo claues regn 
+      <lb ed="#L" n="57"/>caelorum, &amp; quodcunque ligaueris super terram, &amp;c. Vnde 
+      po<lb ed="#L" n="58" break="no"/>testas papae per se &amp; directe extendit se solum ad statum 
+      prae<lb ed="#L" n="59" break="no"/>sentis vitae: possunt tamen in eis indirecte valere per modum 
+      <lb ed="#L" n="60"/>suffragij, quatenus aliquis qui indulgentiam recipit faciendo 
+      <lb ed="#L" n="61"/>id pro quo datur indulgentia ex intentione transfert eam in 
+      <lb ed="#L" n="62"/>satisfactionem eius qui est in purgatorio. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e580">
+               <lb ed="#L" n="63"/>
+               <!--12--> AD PRIMVM argumentum dicendum quod quando da 
+      <lb ed="#L" n="64"/>tur sic indulgentia quod qui dat eleemosynam vel auxilium ac 
+      <lb ed="#L" n="65"/>fabricam ecclesiae, &amp;c. intelligitur de auxilio quod est conueniens 
+      <lb ed="#L" n="66"/>ei qui auxilium dat, &amp; negotio pro quo datur. Et ideo cum pau 
+      <lb ed="#L" n="67"/>per dans vnum denarium ad fabricam ecclesiae de conuenienter 
+      se<lb ed="#L" n="68" break="no"/>cundum conditionem paupertatis suae: diues autem dans vnum 
+      de<lb ed="#L" n="69" break="no"/>narium non det conuenienter secundum conditionem diuitiarum 
+      <lb ed="#L" n="70"/>suarum, patet quod pauper consequitur totam indulgentiam, 
+      <lb ed="#L" n="71"/>quam diues non consequitur, &amp; si pauper consequatur 
+      remissio<lb ed="#L" n="72" break="no"/>nem omnium peccatorum suorum pro tribus denariis, non est 
+      <lb ed="#L" n="73"/>hoc nimis magnum forum de misericordia Dei, dummodo sit 
+      <lb ed="#L" n="74"/>debita causa hoc faciendi, quia multo plus fuit misericors Chri 
+      <lb ed="#L" n="75"/>stus sustinendo pro nobis passionem, cuius virtute fit indulgentia 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e613">
+               <lb ed="#L" n="76"/>
+               <!--13--> Ad secundum dicendum quod ille qui est vicarius ecclesiae 
+      <lb ed="#L" n="77"/>&amp; sacerdeges et clerici, scholares &amp; religiosi officiantes in eccle 
+      <lb ed="#L" n="78"/>sia consequuntur tantam indulgentiam, sicut illi qui veniunt? 
+      <lb ed="#L" n="79"/>multis dietis, sed non tantum meritum: quia secundum quantitatem 
+      <lb ed="#L" n="80"/>deuotionis &amp; laborum est quantitas meriti essentialis &amp; accid. 
+      <lb ed="#L" n="81"/>talis: nec est in hoc aliqua iniustitia, cum indulgentiae non 
+      den<lb ed="#L" n="82" break="no"/>tur ex debito, sed ex beneplacito illius qui habet thesaurum ec 
+      <!--00684.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>clesiae dispensare supposita legitima causa: &amp; ideo licet ei qui 
+      <lb ed="#L" n="84"/>vult facere sine praeiudicio cuiuscunque. 
+      </p>
+            <p xml:id="jsnvu6-e251378-d1e643">
+               <lb ed="#L" n="85"/>
+               <!--14--> Ad tertium dicendum quod forma indulgentiae videtur 
+      so<lb ed="#L" n="86" break="no"/>nare quod vadens ad ecclesiam aliquam solum habet indulgen 
+      <lb ed="#L" n="87"/>tias semel pro vno die. Dicitur enim in indulgentiis 
+      communi<lb ed="#L" n="88" break="no"/>ter, quod qui visitauerit talem ecclesiam die tali vel aliquo alio 
+      <lb ed="#L" n="89"/>intra octauam habeat indulgentias, &amp; non dicitur tali hora vel 
+      <lb ed="#L" n="90"/>singulis horis. Vtrum autem indulgentiis datis ad aliquod 
+      ma<lb ed="#L" n="91" break="no"/>gnum tempus, vadens singulis diebus consequitur eas quotiens 
+      <lb ed="#L" n="92"/>vadit? Dicunt alicui quod quando indulgentia data est ad 
+      deter<lb ed="#L" n="93" break="no"/>minatum tempus, puta ad octo dies, sic tunc non percipitur 
+      ni<lb ed="#L" n="94" break="no"/>si semel: prorogatur autem tempus hac sola de causa, vt qui non 
+      <lb ed="#L" n="95"/>potest venire vno die ad locum indulgentiarum veniat alio, &amp; 
+      <lb ed="#L" n="96"/>non vt aliquis pluries veniens pluries consequatur indulgentiam: 
+      <lb ed="#L" n="97"/>quando vero datur ad semper, vt in ecclesia beati Petri, tunc vt 
+      <lb ed="#L" n="98"/>dicunt, singulis diebus potest homo habere indulgentiam, hoc 
+      <lb ed="#L" n="99"/>autem vtrum sit verum, an non, non potest sciri per 
+      certitudi<lb ed="#L" n="100" break="no"/>nem, nisi papa hoc determinet, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

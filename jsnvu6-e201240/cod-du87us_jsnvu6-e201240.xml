@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="244-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e201240"><!-- l3d39prae -->
+            <head xml:id="jsnvu6-e201240-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e201240-d1e103">
+               <lb ed="#L" n="113"/>Sententia huius distinctionis XXXIX. in 
+      <lb ed="#L" n="114"/>generali &amp; speciali. 
+</p>
+            <p xml:id="jsnvu6-e201240-d1e110">
+               <lb ed="#L" n="115"/>NC de periurio videamus. Prius egit magister 
+      <lb ed="#L" n="116"/>de mendacio. Hic agit de periurio. Et diuiditur in 
+      <lb ed="#L" n="117"/>duas, quia primo agit de periurio. Et secundo agit 
+      <lb ed="#L" n="118"/>de iuramento quod est genus periurij ibi, Si autem 
+      <lb ed="#L" n="119"/>xa quaeritur, vtrum iurare sit maium. Prima diuiditur 
+      <lb ed="#L" n="120"/>in quatuor, quia primo ponit opinionem aliorum, &amp; secundo 
+      <lb ed="#L" n="121"/>suam ibi, Sed melius. Tertio mouet &amp; voluit dubitationem inci 
+      <lb ed="#L" n="122"/>dentem ibi, Cum vero quis iurat. Quarto opponit contra 
+      de<lb ed="#L" n="123" break="no"/>scriptionem ibi, hic opponitur, Secunda pars principalis quae 
+      <lb ed="#L" n="124"/>incipit, ibi, Si autem quaeritur, diuiditur in quatuor. Quia 
+      <lb ed="#L" n="125"/>primo quaerit vtrum liceat iurare. Secundo per quid sit 
+      iuran<lb ed="#L" n="126" break="no"/>dum ibi, Quaeritur etiam. Tertio de obligatione iuramenti ibi, 
+      <lb ed="#L" n="127"/>Nunc superest. Quarto de peccato exigentis iuramentum ibi 
+      <lb ed="#L" n="128"/>Quaeritur etiam si peccat &amp;c. Secunda istarum diuiditur in 
+      qua<lb ed="#L" n="129" break="no"/>tuor. Quia primo quaerit an licitum sit iurare per creaturam. Et 
+      se<lb ed="#L" n="130" break="no"/>cundo quis plus obligatur, vtrum ille qui iurat per creaturam, an ille 
+      <lb ed="#L" n="131"/>qui iurat per deum ibi, Si autem quaeritur. Tertio quid sit iurari 
+      <lb ed="#L" n="132"/>per deum &amp; quid per creaturam ibi, Hic quaeritur. Et quarto vtri 
+      <lb ed="#L" n="133"/>recipiendum sit iuramentum factum per idolum ibi, Post haec 
+      <lb ed="#L" n="134"/>quaeritur. Illa pars quae incipit ibi, Nunc superest, diuiditur in 
+      <lb ed="#L" n="135"/>tres, quia primo ostendit quod iuramentum illicitum non est 
+      im<lb ed="#L" n="136" break="no"/>plendum. Et secundo inquirit an sit periurus qui mutat 
+      huius<lb ed="#L" n="137" break="no"/>modi iuramentum ibi. Qui vero mutat. Et tertio inquirit 
+      secun<lb ed="#L" n="138" break="no"/>dum cuius intentionem iuramentum sit interpretandum ibi, Hoc 
+      <lb ed="#L" n="139"/>etiam sciendum est. Vltima pars quae incipit ibi, Quaeritur etiam, 
+      di<lb ed="#L" n="140" break="no"/>uiditur in duas. Quia primo ostendit quando peccat vel non pec 
+      <lb ed="#L" n="141"/>cat, qui exigit iuramentum. Et secundo quando sit iurandum ve 
+      <lb ed="#L" n="142"/>non ibi, Sancta synodus decreuit. Haec est sententia in generali 
+      </p>
+            <p xml:id="jsnvu6-e201240-d1e173">
+               <lb ed="#L" n="143"/>
+               <!--2--> In speciali sic procedit dicens, quod periurium est 
+      menda<lb ed="#L" n="144" break="no"/>cium iuramento firmatum. Et super hoc quaerit vtrum 
+      periu<lb ed="#L" n="145" break="no"/>rium possit esse sine mendacio. Et probat quod sic auctoritati 
+      <lb ed="#L" n="146"/>Hier. qui dicit quod vbi deest iudicium, iustitia, vel veritas ibi es 
+      <lb ed="#L" n="147"/>periurium. Sed veritas potest deesse vbi non est mendacium vt ci 
+      <lb ed="#L" n="148"/>aliquis iurat illud quod credit esse, &amp; tamen non est, ergo 
+      periu<lb ed="#L" n="149" break="no"/>rium potest esse sine mendacio. Et ponit opinionem quorundam 
+      di<lb ed="#L" n="150" break="no"/>centium non esse periurium vbi non est mendacium, quia sicut 
+      po<lb ed="#L" n="151" break="no"/>test dici falsum fine mendacio ita potest dici falsum sine periurio 
+      <lb ed="#L" n="152"/>quod declarat in litera. Tunc ponit aliam opinionem quod periurium 
+      <lb ed="#L" n="153"/>est siue quis iuret falsum intentione fallendi, siue quis iuret veri 
+      <lb ed="#L" n="154"/>quod putat esse falsum, siue quis iuret falsum, quod putat esse 
+      <lb ed="#L" n="155"/>verum, quod confirmat per Aug. de verbis apostoli. Talis enim 
+      <lb ed="#L" n="156"/>reus est, quia praesumit iurare quod sibi perspicuum non est. Tunc 
+      <lb ed="#L" n="157"/>quaerit cum aliquis iurat quod verum est existimans esse falsum quid 
+      <lb ed="#L" n="158"/>facit ibi, rationem periurij. Et dicit quod non facit haec falsa vocis si 
+      <lb ed="#L" n="159"/>gnificatio quae non est ibi, sed intentio falsum dicendi. Quaeri 
+      <lb ed="#L" n="160"/>iterum vtrum omnis qui falsum iurat, peieret. Contingit enim quod 
+      <lb ed="#L" n="161"/>aliquis iurat se facturum aliquid quod postea non facit, est ne tali¬ 
+      <!--00563.xml-->
+      <pb ed="#L" n="245-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>periurus statim quando iurat? Et respondet quod non, sed ex quo 
+      <lb ed="#L" n="2"/>mutat propositum faciendi illud quod iurat. Postea quaerit vtrum 
+      <lb ed="#L" n="3"/>iurare sit malum. Et respondet quod non, quando iuratur pro 
+      vti<lb ed="#L" n="4" break="no"/>litate debita vel iusta necessitate. Alias malum est iurare propte 
+      <lb ed="#L" n="5"/>timorem periurij, in quo faciliter lingua laborat. Et ideo domi 
+      <lb ed="#L" n="6"/>nus in euangelio prohibet iurare non tanquam simpliciter 
+      ma<lb ed="#L" n="7" break="no"/>lum, sed tanquam periculosum. Tunc quaerit vtrum licitum sit 
+      <lb ed="#L" n="8"/>iurare per creaturam, &amp; dicit quod non, venerando creaturam in 
+      <lb ed="#L" n="9"/>seipsa. Et sic dicit Christus in euangelio. Nolite iurare neque per 
+      <lb ed="#L" n="10"/>caelum, neque per terram, venerando autem creatorem in 
+      crea<lb ed="#L" n="11" break="no"/>tura, licitum est iurare per creaturam. Et sic iurauit Ioseph, per 
+      <lb ed="#L" n="12"/>salutem Pharaonis. Postea quaerit quis plus tenetur ille qui iurat 
+      <lb ed="#L" n="13"/>deum, an ille qui iurat per euangelium, vel per creaturam. Et dici 
+      <lb ed="#L" n="14"/>quod ille qui iurat per deum, ob cuius reuerentiam debet fieri omne 
+      <lb ed="#L" n="15"/>iuramentum. Quaerit etiam quid est iurare. Et dicit quod est deum 
+      <lb ed="#L" n="16"/>in testem vocare. Est etiam quoddam genus iuramenti quod 
+      <lb ed="#L" n="17"/>vocatur execratio, vt cum aliquis iurat, si ego feci, hoc vel illuc 
+      <lb ed="#L" n="18"/>malum tale mihi contingat. Deinde quaerit vtrum vtendum si 
+      <lb ed="#L" n="19"/>iuramento illius qui iurat per falsos deos, &amp; dicit quod licet ta 
+      <lb ed="#L" n="20"/>lis iurando peccet, licitum est tamen vti iuramento suo ad bo 
+      <lb ed="#L" n="21"/>num. Postea quaerit vtrum omne iuramentum sit implendum 
+      <lb ed="#L" n="22"/>Et dicit quod iuramentum quod est contra fidem &amp; charitatem, 
+      <lb ed="#L" n="23"/>vel quod obseruatum veniret in deteriorem exitum non est 
+      ob<lb ed="#L" n="24" break="no"/>seruandum quod declarat per auctoritates &amp; exempla. Et addis 
+      <lb ed="#L" n="25"/>quod ille qui tale iuramentum non implet ex hoc non est per 
+      <lb ed="#L" n="26"/>iurus, sed quia temere iurauit. tunc dicit ex auctoritate Isid 
+      <lb ed="#L" n="27"/>quod quacunque arte verborum iuretur, deus sic iuramentum 
+      <lb ed="#L" n="28"/>accipit, sicut ille cui iuratur intelligit. Vitimo quaerit. Si ille pec 
+      <lb ed="#L" n="29"/>cat qui cogit alium iurare. Et dicit quod si nescit eum 
+      iuratu<lb ed="#L" n="30" break="no"/>rum falsum non peccat. Si autem scit eum iuraturum falsum 
+      ho<lb ed="#L" n="31" break="no"/>micida est. De modo autem iurandi subdit quod debet fieri 
+      <lb ed="#L" n="32"/>ieiunis. Et in hoc terminatur sententia &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

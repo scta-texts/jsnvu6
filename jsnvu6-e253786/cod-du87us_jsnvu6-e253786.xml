@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="308-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e253786"><!-- l4d22q1 -->
+            <head xml:id="jsnvu6-e253786-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e253786-Hd1e103" type="question-title">Utrum peccata dimissa per poenitentiam 
+        redeant per sequentem culpam</head>
+            <p xml:id="jsnvu6-e253786-d1e106">
+               <lb ed="#L" n="16"/>QVAESTLO PRIMA. 
+      <lb ed="#L" n="17"/>Vtrum peccata dimissa per poenitentiam 
+      re<lb ed="#L" n="18" break="no"/>deant per sequentem culpam. 
+    </p>
+            <p xml:id="jsnvu6-e253786-d1e115">
+               <lb ed="#L" n="19"/>CIRCA distinctionem istam quaeritur. Vtrum 
+      <lb ed="#L" n="20"/>peccata dimissa per poenitentiam redeant per 
+      <lb ed="#L" n="21"/>sequentem culpam. Et videtur quod sic, quia maio 
+      <lb ed="#L" n="22"/>est culpa quae committitur in Deum quam qua 
+      <lb ed="#L" n="23"/>committitur in hominem: sed seruus 
+      manumis<lb ed="#L" n="24" break="no"/>ius per culpam quam committit in dominum suum merito 
+      re<lb ed="#L" n="25" break="no"/>ducitur in seruitutem pristinam, ergo multo fortius peccator? 
+      <lb ed="#L" n="26"/>seruitute peccati liberatus per culpam in quam recidiuat, &amp; 
+      <lb ed="#L" n="27"/>per quam peccat in Deum merito reducitur in seruitutem pr 
+      <lb ed="#L" n="28"/>stinam peccatorum, &amp; sic peccata dimissa redeunt. 
+      </p>
+            <p xml:id="jsnvu6-e253786-d1e139">
+               <lb ed="#L" n="29"/>
+               <!--2.--> Item sicut per poenitentiam dimittuntur peccata, ita per 
+      <lb ed="#L" n="30"/>peccatum mortale mortificantur merita praecedentia, sed 
+      poe<lb ed="#L" n="31" break="no"/>nitentia quae tollit peccatum viuificat merita mortificata per 
+      <lb ed="#L" n="32"/>ipsum, ergo ipsum peccatum quod mortificat praecedentem 
+      <lb ed="#L" n="33"/>poenitentiam, viuificat peccata dimissa per eam. 
+      </p>
+            <p xml:id="jsnvu6-e253786-d1e156">
+               <lb ed="#L" n="34"/>
+               <!--3--> Item peccator contritus de peccatis, &amp; confessus, qui cadit 
+      <lb ed="#L" n="35"/>in peccatum mortale, &amp; in eo moritur antequam fecerit. de 
+      <lb ed="#L" n="36"/>peccatis praeteritis poenitentiam, constat quod pro eis 
+      punie<lb ed="#L" n="37" break="no"/>tur in inferno: punietur autem poena aeterna, quum in inferno 
+      <lb ed="#L" n="38"/>nulla fit redemptio, ergo tantum punietur ac si nunquam 
+      poe<lb ed="#L" n="39" break="no"/>nituisset, ergo per sequentem culpam redeunt peccata saltem 
+      <lb ed="#L" n="40"/>quo ad poenam eis debitam. 
+      </p>
+            <p xml:id="jsnvu6-e253786-d1e176">
+               <lb ed="#L" n="41"/>
+               <!--4.--> IN CONTRARIVM arguitur, quia de peccato 
+      <lb ed="#L" n="42"/>eodem &amp; aequali vnus non meretur maiorem poenam quam 
+      <lb ed="#L" n="43"/>alius, sed contingit innocentem &amp; poenitentem peccare 
+      eo<lb ed="#L" n="44" break="no"/>dem peccato, &amp; aequali, ergo poenitens non fit deterior per 
+      <lb ed="#L" n="45"/>tale peccatum quam innocens. fieret autem si peccata dimissa 
+      <lb ed="#L" n="46"/>redirent, ergo non redeunt. 
+      </p>
+            <p xml:id="jsnvu6-e253786-d1e194">
+               <lb ed="#L" n="47"/>
+               <!--5.--> Ad idem est quod dicit Aug. lib. de responsionibus 
+      Prospe<lb ed="#L" n="48" break="no"/>ri. Qui recedit a Christo &amp; alienatur a gratia viuit fiquidem 
+      <lb ed="#L" n="49"/>secundum hanc vitam, quid nisi in perditionem vadit? sed non 
+      <lb ed="#L" n="50"/>in id quod dimissum est redit. 
+      </p>
+            <p xml:id="jsnvu6-e253786-d1e207">
+               <lb ed="#L" n="51"/>
+               <!--6--> RESPONSIO. Peccata redire potest intelligi 
+      du<lb ed="#L" n="52" break="no"/>pliciter scilicet secundum se, vel secundum poenam eis debitam, secundum 
+      <lb ed="#L" n="53"/>se redire non possunt etiam si dimissa non essent. Cuius ratio est, 
+      <lb ed="#L" n="54"/>quia si redirent, aut Deo auctore, aut homine: non homine, quia 
+      <lb ed="#L" n="55"/>per hominem non potest fieri qo idem actus numero reparetur, 
+      <lb ed="#L" n="56"/>licet similis secundum speciem posset iterum fieri. Sed actus 
+      prae<lb ed="#L" n="57" break="no"/>cedentium peccatorum transierunt, ergo non possunt idem 
+      nu<lb ed="#L" n="58" break="no"/>mero per hominem reparari: nec per Deum reparantur in homine 
+      <lb ed="#L" n="59"/>recidiuante, quia tunc homo se haberet ad ea passiue, Deus 
+      au<lb ed="#L" n="60" break="no"/>tem actiue, &amp; sic essent peccata Dei &amp; non hominis, quia pecca 
+      <lb ed="#L" n="61"/>tum vel culpa est malum quod facimus, paena vero est malum quod 
+      <lb ed="#L" n="62"/>patimur. Restat ergo cum peccata secundum se redire non possint, 
+      <lb ed="#L" n="63"/>quod si aliquo modo redeant, hoc sit quoad poenam eis debitam 
+      </p>
+            <p xml:id="jsnvu6-e253786-d1e240">
+               <lb ed="#L" n="64"/>
+               <!--7.--> Et hoc quidem dixerunt aliqui scilicet quod per sequentem culpam 
+      <lb ed="#L" n="65"/>peccator efficitur debitor totius poenae peccatis dimissis 
+      debi<lb ed="#L" n="66" break="no"/>tae: dicebant enim qued Deus poenam aeternam debitam peccatis 
+      <lb ed="#L" n="67"/>mortalibus non dimittit nisi sub conditione (hac scilicet) si non 
+      <lb ed="#L" n="68"/>recidiuarent in culpam. Sed istud non valet, quia si causa 
+      suffi<lb ed="#L" n="69" break="no"/>ciens ponitur absolute, effectus eius debet poni absolute: sed sa 
+      <lb ed="#L" n="70"/>cramentalis gratia &amp; virtus passionis Christi nobis 
+      communi<lb ed="#L" n="71" break="no"/>catae in sacramentis sunt sufficiens causa remissionis 
+      peccato<lb ed="#L" n="72" break="no"/>rum quo ad culpam vel poenam in toto vel in parte secundum 
+      <lb ed="#L" n="73"/>dispositionem recipientium, ergo cum exhibeantur absolute &amp; 
+      <lb ed="#L" n="74"/>absque aliqua conditione respiciente fudurum, vt patet ex formi 
+      <lb ed="#L" n="75"/>sacramentorum quae nunquam sunt conditionatae, sequitur 
+      <lb ed="#L" n="76"/>per ea fiat absoluta remissio peccatorum, quod concedendum est 
+      </p>
+            <p xml:id="jsnvu6-e253786-d1e273">
+               <lb ed="#L" n="77"/>
+               <!--8--> Dicendum est ergo aliter quod duplex est poena peccato debita 
+      <lb ed="#L" n="78"/>Vna est poena quae dicitur poena damni, quae confistit in sola 
+      ca<lb ed="#L" n="79" break="no"/>rentia gratiae &amp; gloriae. Alia est poena sensus quae includit do¬ 
+      <!--00689.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>lorem mentalem de amissione visionis diuinae, quae vocatur 
+      ver<lb ed="#L" n="81" break="no"/>mis conscientiae, &amp; poena ignis gehennae. Loquendo de prima 
+      <lb ed="#L" n="82"/>poena dicendum quod per sequentem culpam redeunt omnia 
+      pec<lb ed="#L" n="83" break="no"/>cata prius dimissa quo ad poenam damni ei debitam: quia per 
+      <lb ed="#L" n="84"/>eam aeque priuatur homo gratia &amp; gloria ficut per omnia prae 
+      <lb ed="#L" n="85"/>cedentia peccata. Omnia enim peccata mortalia in hoc habent 
+      <lb ed="#L" n="86"/>connexionem quod auertunt a Deo, &amp; per consequens priuant 
+      gra<lb ed="#L" n="87" break="no"/>tia, propter quod aequalis est effectus vnius sicut omnium 
+      quan<lb ed="#L" n="88" break="no"/>tum ad articulum istum. Et sic loquitur beatus Iacobus in 
+      Ca<lb ed="#L" n="89" break="no"/>nonica sua dicens: quod qui offenderit in vno factus est omnium 
+      <lb ed="#L" n="90"/>reus. Loquendo autem de poena sensus, quo ad eam non redeum 
+      <lb ed="#L" n="91"/>peccata commissa prius nisi secundum quid: quia homo non est 
+      <lb ed="#L" n="92"/>debitor tantae poenae vt prius, est tamen debitor aliquantulum ma 
+      <lb ed="#L" n="93"/>ioris poenae quam si peccata praecedentia non fuissent dimissa 
+      <lb ed="#L" n="94"/>propter ingratitudinem quae est in peccato sequenti. Cuius ratio 
+      <lb ed="#L" n="95"/>est: quia secundum quantitatem culpae taxatur apud Deum 
+      quan<lb ed="#L" n="96" break="no"/>titas poenae, sed culpa in quam aliquis recidiuat non semper est 
+      <lb ed="#L" n="97"/>aeque grauis vt fuerunt omnia peccata prius dimissa. Est tamen 
+      <lb ed="#L" n="98"/>aliquantulum grauior propter circumstantiam ingratitudinis quam esset 
+      <lb ed="#L" n="99"/>secundum se, ergo non debetur ei tanta poena quanta debebatur 
+      <lb ed="#L" n="100"/>omnibus praecedentibus peccatis antequam essent dimissa, de 
+      <lb ed="#L" n="101"/>betur tamen ipsi maior paena ratione ingratitudinis quam 
+      fuis<lb ed="#L" n="102" break="no"/>set alias debita. Maior patet, minor declaratur, quia quantitas 
+      <lb ed="#L" n="103"/>culpae in quam aliquis recidiuat non potest pensari nisi ex sua 
+      <lb ed="#L" n="104"/>specie vel ex circunstantia aggrauante: ex sua specie autem non 
+      <lb ed="#L" n="105"/>semper habet tantam grauitatem vt peccata prius dimissa, cum 
+      <lb ed="#L" n="106"/>contingat aliquem recidiuare per simplex furtum qui forte prius 
+      <lb ed="#L" n="107"/>commisit adulterium vel homicidium quae sunt ex sua specie 
+      <lb ed="#L" n="108"/>grauiora furto. Nec ex circunstantia aggrauante, quia cum 
+      ta<lb ed="#L" n="109" break="no"/>lis grauitas non trahat peccatum extra suam speciem non 
+      at<lb ed="#L" n="110" break="no"/>tingit ad grauitatem altioris speciei: cum ergo ingratitudo fit cir 
+      <lb ed="#L" n="111"/>cunstantia culpae in quam aliquis post poenitentiam recidiuat 
+      <lb ed="#L" n="112"/>ratione ipsius debetur maior poena illi culpae quam fuisset 
+      de<lb ed="#L" n="113" break="no"/>bita secundum se, &amp; quo ad hoc dicuntur praecedentia delicta 
+      <lb ed="#L" n="114"/>redire, sed non debetur ei tanta poena sicut debebatur 
+      omni<lb ed="#L" n="115" break="no"/>bus praecedentibus peccatis, &amp; ideo non dicuntur redire 
+      simpli<lb ed="#L" n="116" break="no"/>citer quo ad talem paenam. Quod autem consueuit dici quod 
+      tan<lb ed="#L" n="117" break="no"/>ta est ingratitudo quantum fuit beneficium dimissionis, &amp; 
+      be<lb ed="#L" n="118" break="no"/>neficium tantum quanta fuit quantitas peccatorum dimissorum 
+      <lb ed="#L" n="119"/>ergo a primo ad vitimum tanta est ingratitudo quanta fuerunt 
+      <lb ed="#L" n="120"/>peccata prius dimissa, non valet: quia ingratitudo non est tanta 
+      <lb ed="#L" n="121"/>quantum est beneficium de quo aliquis est ingratus vt fiat 
+      con<lb ed="#L" n="122" break="no"/>paratio vnius ad alterum, sed comparando ingratitudinem vnam 
+      <lb ed="#L" n="123"/>alteri, &amp; beneficium vnum alteri, vt sicut se habet beneficium 
+      <lb ed="#L" n="124"/>ad beneficium, ita ingratitudo ad ingratitudinem, verum est. 
+      <lb ed="#L" n="125"/>Illa enim ingratitudo est major quae in respectu maioris 
+      bene<lb ed="#L" n="126" break="no"/>ficij, &amp; minor quae est respectu minoris: &amp; hoc est quod 
+      ali<lb ed="#L" n="127" break="no"/>qui dicunt, quod illa proportio est intelligenda non secundum 
+      <lb ed="#L" n="128"/>aequalitatem quantitatis inter ingratitudinem &amp; beneficium, 
+      <lb ed="#L" n="129"/>sed secundum aequalitatem proportionis: quia sicut se habet 
+      be<lb ed="#L" n="130" break="no"/>neficium ad beneficium, ita ingratitudo ad ingratitudinem. 
+      </p>
+            <p xml:id="jsnvu6-e253786-d1e400">
+               <lb ed="#L" n="131"/>
+               <!--9--> AD PRIMVM argumentum dicendum quod seruus 
+      <lb ed="#L" n="132"/>manumissus propter ingratitudinem retruditur in seruitutem 
+      <lb ed="#L" n="133"/>non ex causa praecedente, sed ex noua, nec in eandem cum 
+      prio<lb ed="#L" n="134" break="no"/>re sed in similem: &amp; eodem modo per culpam sequentem 
+      poe<lb ed="#L" n="135" break="no"/>nitentiam reducetur homo in seruitutem peccati, non tamen 
+      <lb ed="#L" n="136"/>vt sit seruus ex actibus peccatorum praecedentium, sed solum 
+      <lb ed="#L" n="137"/>ex actu peccati sequentis, nec est eadem seruitus numero cum 
+      <lb ed="#L" n="138"/>praecedente, sed alia huic similis, non oportet tamen quod 
+      tan<lb ed="#L" n="139" break="no"/>ta, nec quo ad culpam, nec quo ad poenam sensus. 
+      </p>
+            <p xml:id="jsnvu6-e253786-d1e424">
+               <lb ed="#L" n="140"/>
+               <!--10--> Ad secundum dicendum quod non est simile de bonis 
+      morti<lb ed="#L" n="141" break="no"/>ficatis per peccatum quod reuiuiscant per poenitentiam, &amp; de peccati: 
+      <lb ed="#L" n="142"/>dimissis per poenitentiam quod redeant per sequentem culpam nisi lo 
+      <lb ed="#L" n="143"/>quendo de reditu actuum bonorum vel malorum secundum se: sic 
+      <lb ed="#L" n="144"/>enim nec bona mortificata reuiuiscunt nec peccata dimissa re¬4 
+      <lb ed="#L" n="145"/>deunt, quia actus qui transiit tam bonus quam malus non redit ide 
+      <lb ed="#L" n="146"/>numero. Sed quo ad praemium debitum meritis &amp; quo ad poeni 
+      <lb ed="#L" n="147"/>debitam peceatis est dissimilitudo: quia merita non 
+      mortifican<lb ed="#L" n="148" break="no"/>tur per peccatum, nisi quia praestatur impedimentum quo durante 
+      <lb ed="#L" n="149"/>non consequitur praemium, &amp; ideo eo amoto habent valorem 
+      <lb ed="#L" n="150"/>suum, &amp; poena debita peccatis non solum impeditur per veram 
+      <lb ed="#L" n="151"/>poenitentiam, sed vere remittitur, &amp; ideo per sequentem culpam non 
+      <lb ed="#L" n="152"/>reuocatur cum sit simpliciter dimissa &amp; non solum impedita. 
+      </p>
+            <p xml:id="jsnvu6-e253786-d1e457">
+               <lb ed="#L" n="153"/>
+               <!--11--> Ad tertium dicendum qued recidiuans in aliquam culpam, si in 
+      <lb ed="#L" n="154"/>ea moriatur non punietur in inferno pro peccatis prius dimissis 
+      <lb ed="#L" n="155"/>poena aeterna, sed temporali: nec propter hoc sequitur quod in 
+      in<lb ed="#L" n="156" break="no"/>ferno sit proprie redeptio, quia ad poenam inferni non pestine 
+      <lb ed="#L" n="157"/>per se nisi poena debita peccato mortali non dimisso, &amp; haec 
+      to<lb ed="#L" n="158" break="no"/>taliter non soluitur, nec redimitur. Poena vero quae debetur 
+      pec<lb ed="#L" n="159" break="no"/>cato mortali iam dimisso cum sit temporalis ex taxatione diuina 
+      <lb ed="#L" n="160"/>non pertinet per se ad poenam inferni, sed per accidens, inquantum 
+      <lb ed="#L" n="161"/>debitor eius pro alio peceato punitur in inferno, &amp; haec ibi to¬ 
+      <!--00690.xml-->
+      <pb ed="#L" n="308-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>taliter soluitur: nec est inconueniens quod quantum ad aliquid 
+      ac<lb ed="#L" n="2" break="no"/>cidentale poena inferni minuatur vsque ad diem iudicij. Alij 
+      ta<lb ed="#L" n="3" break="no"/>men dicunt, quod illa poena ratione fori in quo punitur erit aeterna 
+      <lb ed="#L" n="4"/>quamuis hic fuisset temporalis, si peccato dimisso poena expleta 
+      <lb ed="#L" n="5"/>fuisset: sicut est de peccatis venialibus quae in inferno 
+      puniun<lb ed="#L" n="6" break="no"/>tur poena aeterna, &amp; in purgatorio poena temporali. Sed hoc 
+      ni<lb ed="#L" n="7" break="no"/>est simile: quia veniale, ideo in inferno punitur aeternaliter, cum 
+      <lb ed="#L" n="8"/>semper maneat culpa, cum ibi deleri non possit, &amp; per 
+      conse<lb ed="#L" n="9" break="no"/>quens debet manere poena, ne culpa remaneat inordinata: nos 
+      <lb ed="#L" n="10"/>autem lonquimur de poena debita culpae prius dimissae, quae es 
+      <lb ed="#L" n="11"/>ipso quod soluitur expiatur, &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

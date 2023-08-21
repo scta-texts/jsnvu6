@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="335-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e276375"><!-- l4d42prae -->
+            <head xml:id="jsnvu6-e276375-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e276375-d1e103">
+               <lb ed="#L" n="145"/>Sententia huius distinctionis XLII. 
+      <lb ed="#L" n="146"/>in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e276375-d1e110">
+               <lb ed="#L" n="147"/>AM DE spirituali cognatione. Determinato de 
+      <lb ed="#L" n="148"/>cognatione carnali, hic determinat de 
+      cognatio<lb ed="#L" n="149" break="no"/>ne spirituali. Et diuiditur in duas. Primo enim de 
+      <lb ed="#L" n="150"/>IIterminat intentum. Secundo subiungit quoddam 
+      <lb ed="#L" n="151"/>Jincidens ibi, Sciendum est. Prima habet duas 
+      par<lb ed="#L" n="152" break="no"/>rinio enim determinat de cognatione spirituali directe 
+      <lb ed="#L" n="153"/>proueniente. Secundo indirecte ibi, Solet etiam quaeri. Prima 
+      <lb ed="#L" n="154"/>habet duas. Primo enim determinat de cognatione inter 
+      pa<lb ed="#L" n="155" break="no"/>rentes. Secundo de cognatione spirituali inter filios ibi, Quod 
+      <lb ed="#L" n="156"/>autem spiritualis. Prima habet quatuor. Primo enim in 
+      gene<lb ed="#L" n="157" break="no"/>rali cognationem enumerat. Secundo specialiter 
+      cognatio<lb ed="#L" n="158" break="no"/>nem declarat ibi, Spirituales filij sunt. Tertio ostendit 
+      quomo<lb ed="#L" n="159" break="no"/>do talis cognatio matrimonium impedit ibi, Quod autem 
+      <lb ed="#L" n="160"/>corporaliter. Quarto obiicit in contrarium &amp; soluit ibi, His 
+      <!--00745.xml-->
+      <pb ed="#L" n="336-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>autem obuiare videtur. Aliae autem remanent indiuisae. Prope 
+      <lb ed="#L" n="2"/>nit ergo magister triplicem esse cognationem a se inuicem 
+      dif<lb ed="#L" n="3" break="no"/>ferentem, scilicet consanguinitatem quae est inter illos qui sunt 
+      <lb ed="#L" n="4"/>eiusdem generis, &amp; affinitatem quae contrahitur mediante 
+      ge<lb ed="#L" n="5" break="no"/>nere, &amp; spiritualem quae contrahitur ex sacramenti ministerio 
+      <lb ed="#L" n="6"/>nostri enim sunt spirituales filij quos baptisamus vel in 
+      cathe<lb ed="#L" n="7" break="no"/>cismo, vel in confirmatione tenemus, vel quorum confessiones 
+      <lb ed="#L" n="8"/>audiuimus. Deinde probat quod compater &amp; commater co 
+      <lb ed="#L" n="9"/>pulari non possunt, si vero matrimonio iam existente simul con 
+      <lb ed="#L" n="10"/>luges de sacro fonte susceperunt filium proprium, vel alter 
+      eo<lb ed="#L" n="11" break="no"/>rum &amp; non ignoranter hoc fecerint grauiter debent puniri, 
+      <lb ed="#L" n="12"/>nec tamen propter hoc debent separari. Deinde subiungit quod 
+      <lb ed="#L" n="13"/>spirituales &amp; adoptiui filij naturalibus nequeunt copulari, quod 
+      <lb ed="#L" n="14"/>intelligunt quidam &amp; bene de illis filiis quibus compaternita 
+      <lb ed="#L" n="15"/>contrahitur. In fine dicit quod secundae &amp; tertiae nuptiae licite 
+      <lb ed="#L" n="16"/>contrahuntur, quia bigamia non est peccatum, licet impediat: 
+      <lb ed="#L" n="17"/>promotione ordinum. Et in hoc &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

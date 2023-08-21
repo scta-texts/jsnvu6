@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="43-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e865"><!-- l1d14q4 -->
+            <head xml:id="jsnvu6-d1e865-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e865-Hd1e103" type="question-title">Utrum Spiritus Sanctus detur a sanctis viris</head>
+            <p xml:id="jsnvu6-d1e865-d1e106">
+               <lb ed="#L" n="130"/>QVAESTIO, QVARTA. 
+      <lb ed="#L" n="131"/>Vtrum Spiritus sanctus detur a viris sanctis.
+    </p>
+            <p xml:id="jsnvu6-d1e865-d1e113">
+               <lb ed="#L" n="132"/>QVARTO quaeritur vtrum spiritus sanctus 
+      detu<lb ed="#L" n="133" break="no"/>a sanctis viris. Et videtur quod sic, quia Christus 
+      <lb ed="#L" n="134"/>dedit discipulis potestatem dimittendi peccata, sed 
+      <lb ed="#L" n="135"/>peccata non dimittuntur nisi per spiritum san. 
+      ergi<lb ed="#L" n="136" break="no"/>discipuli potuerunt dare spiritum sanctum. 
+      </p>
+            <p xml:id="jsnvu6-d1e865-d1e126">
+               <lb ed="#L" n="137"/>
+               <!--2--> IN CONTRARIVM est quod dicit Augustinus 
+      <lb ed="#L" n="138"/>de Trinit. non aliquis discipulorum dedit spir. san. sed orabant 
+      <lb ed="#L" n="139"/>vt veniret in hominem. 
+      </p>
+            <p xml:id="jsnvu6-d1e865-d1e138">
+               <lb ed="#L" n="140"/>
+               <!--3--> RESPONSIO. dicendum quod spi. san. potest dari 
+      duplici<lb ed="#L" n="141" break="no"/>ter. Vno modo directe per modum autoritatis. Alio modo 
+      in<lb ed="#L" n="142" break="no"/>directe &amp; per modum ministerij. Primo modo non potest spir. 
+      san<lb ed="#L" n="143" break="no"/>dari a quacunque creatura, angelo vel homine nec in se nec in do 
+      <lb ed="#L" n="144"/>nis suis, non in se quia spiritus san. solum potest dari per modum 
+      <lb ed="#L" n="145"/>autoritatis ab illis a quibus originatur, quia non est autoritas 
+      <lb ed="#L" n="146"/>personae supra personam in diuinis nisi ratione originis, vndo 
+      <lb ed="#L" n="147"/>nec aliqua persona semetipsam dat. Si tamen dat, non per 
+      mo<lb ed="#L" n="148" break="no"/>dum autoritatis dat, sed tantum per modum cuiusdam 
+      libera<lb ed="#L" n="149" break="no"/>litatis. Sed spiri. san. originatur solum a patre &amp; filio &amp; non al 
+      <lb ed="#L" n="150"/>aliqua creatura, ergo spiritus san. non datur per modum auto 
+      <lb ed="#L" n="151"/>ritatis nisi a patre &amp; filio &amp; non ab aliqua creatura, nec per me 
+      <lb ed="#L" n="152"/>dum liberalitatis dari potest nisi ab illis quorum voluntati subes 
+      <lb ed="#L" n="153"/>spi. san. haberi a nobis: hi autem sunt solum pater &amp; filius &amp; spi 
+      <lb ed="#L" n="154"/>san. quorum est vna &amp; eadem voluntas, ergo nec per modum 
+      <lb ed="#L" n="155"/>autoritatis potest dari spir. san. a quacunque creatura. 
+      </p>
+            <p xml:id="jsnvu6-d1e865-d1e177">
+               <lb ed="#L" n="156"/>
+               <!--4--> Item nec dona spiritus sancti possunt isto modo dari ab 
+      li<lb ed="#L" n="157" break="no"/>qua creatura, quia dona illa si sint naturae (cum sint intellectus &amp; 
+      <lb ed="#L" n="158"/>voluntas) non possunt esse nisi a creante cum intellectus &amp; 
+      volun<lb ed="#L" n="159" break="no"/>tas sint ab extrinseco. Si vero sint dona gratiae aut sunt 
+      don<lb ed="#L" n="160" break="no"/>gratiae gratum facientis &amp; similia aut non sunt aliud quam acce 
+      <lb ed="#L" n="161"/>ptatio diuina quae non potest esse ab alio causaliter, nec in alic 
+      <lb ed="#L" n="162"/>forimaliter nisi in Deo, aut si sint aliud cum non possint educi 
+      <!--00152.xml-->
+      <pb ed="#L" n="43-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>de potentia subiecti vel materiae inducuntur a creante solum 
+      <lb ed="#L" n="2"/>Idem intelligendum est de donis gratiae gratis datae quoad 
+      <lb ed="#L" n="3"/>hoc od non subest voluntati creaturae talia conferre cum eleuem 
+      <lb ed="#L" n="4"/>naturam supra id ad quod quocunque natura creata secundum 
+      si<lb ed="#L" n="5" break="no"/>non potest attingere ergo nec Spiri. sanct. in se nec in donis sui 
+      <lb ed="#L" n="6"/>potest dari a quacunque creatura directe &amp; per modum autorita 
+      <lb ed="#L" n="7"/>tis. Alio modo potest dari Spi. san. indirecte per modum 
+      mini<lb ed="#L" n="8" break="no"/>stri, &amp; hoc modo potest dari spiritus ab hominibus non solum 
+      <lb ed="#L" n="9"/>bonis, sed etiam malis dum administrant sacramenta ecclesiae 
+      <lb ed="#L" n="10"/>in quibus &amp; cum quibus datur Spi. san. nisi recipiens ponat 
+      obi<lb ed="#L" n="11" break="no"/>cem. Potest etiam dari ab omnibus talibus occasionaliter per 
+      <lb ed="#L" n="12"/>eorum praedicationem suadendo viam salutis. Potest etiam 
+      da<lb ed="#L" n="13" break="no"/>ri praeter hos modos Spi. san. a bonis aliqualiter merendo per 
+      <lb ed="#L" n="14"/>orationem sicut legitur de Apostolis actuum 8. Orauerunt pro ipsis 
+      <lb ed="#L" n="15"/>vt acciperent Spiritum san. Potest etiam phantasia hominis immu 
+      <lb ed="#L" n="16"/>tari per ministerium Angelicum vt in ea appareant mala 
+      fugi<lb ed="#L" n="17" break="no"/>enda &amp; bona prosequenda. Quibus ostensis redit homo de 
+      cul<lb ed="#L" n="18" break="no"/>pa ad gratiam per poenitentiam. Et ideo Spiri. sanct. potest dari 
+      <lb ed="#L" n="19"/>nis modis a bonis &amp; malis non solum hominibus sed etiam 
+      An<lb ed="#L" n="20" break="no"/>gelis non directe per modum autoritatis, sed indirecte modis 
+      <lb ed="#L" n="21"/>quibus dictum est. Et per hoc patet solutio ad argumenta. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

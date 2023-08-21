@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="167-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e4046"><!-- l2d38q3 -->
+            <head xml:id="jsnvu6-d1e4046-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e4046-Hd1e103" type="question-title">Utrum sit idem actus voluntatis respectu finis et eorum qui sunt ad finem</head>
+            <p xml:id="jsnvu6-d1e4046-d1e106">
+               <lb ed="#L" n="3"/>VAESTIO TERTIA. 
+      <lb ed="#L" n="4"/>trum sit idem voluntatis actus 
+      re<lb ed="#L" n="5" break="no"/>&amp; eorum quae sunt ad 
+      <lb ed="#L" n="6"/>finem. 
+      <lb ed="#L" n="7"/>Thom. 1. 2. q. 8. ar. 3. 
+    </p>
+            <p xml:id="jsnvu6-d1e4046-d1e119">
+               <lb ed="#L" n="8"/>TERTIO quaeritur, vtrum sit idem 
+      voluntati<lb ed="#L" n="9" break="no"/>Jactus respectu finis, &amp; eorum quae sunt ad fi 
+      <lb ed="#L" n="10"/>nem. Et videtur quod non, quia idem actus non 
+      <lb ed="#L" n="11"/>potest esse intensus &amp; remissus, sed voluntas 
+      in<lb ed="#L" n="12" break="no"/>Atensius fertur in finem, quam in illud quod est ad 
+      <lb ed="#L" n="13"/>finem, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e135">
+               <lb ed="#L" n="14"/>
+               <!--2.--> Item frui est actus voluntatis respectu finis: vti vero 
+      respe<lb ed="#L" n="15" break="no"/>ctu eorum quae sunt ad finem: sed idem actus non potest esse 
+      <lb ed="#L" n="16"/>fruitionis &amp; vsus, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e147">
+               <lb ed="#L" n="17"/>
+               <!--3--> Item sicut se habet intellectus ad principia, &amp; ad 
+      conclu<lb ed="#L" n="18" break="no"/>siones, sic voluntas ad finem, &amp; ad ea quae sunt ad finem, sed 
+      <lb ed="#L" n="19"/>intellectus non eodem actu fertur in principia &amp; 
+      conclusio<lb ed="#L" n="20" break="no"/>nes, ergo &amp;c. Minor probatur, quia plurium habituum non 
+      <lb ed="#L" n="21"/>est idem actus, sed alius est habitus intellectus respectu 
+      princi<lb ed="#L" n="22" break="no"/>piorum, qui dicitur intellectus, alius respectu conclusionum 
+      <lb ed="#L" n="23"/>qui dicitur scientia: ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e167">
+               <lb ed="#L" n="24"/>
+               <!--4.--> CONTRA. Vbi vnum propter aliud vtrobique 
+      tan<lb ed="#L" n="25" break="no"/>tum vnum est, cum ergo voluntas velit finem, &amp; illud quod est 
+      <lb ed="#L" n="26"/>ad finem propter finem vnum, tunc vult propter alterum, 
+      er<lb ed="#L" n="27" break="no"/>go idem est velle vtrobique. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e180">
+               <lb ed="#L" n="28"/>
+               <!--5--> Item duo actus volendi non possunt esse simul, sed 
+      volun<lb ed="#L" n="29" break="no"/>tas simul vult finem, &amp; illud quod est ad finem propter finem 
+      <lb ed="#L" n="30"/>ergo non sunt actus plures, sed vnus. Quod autem voluntas si 
+      <lb ed="#L" n="31"/>mul velit finem, &amp; illud quod est ad finem, inquantum 
+      huius<lb ed="#L" n="32" break="no"/>modi, patet, quia sicut ea quae referuntur in ratione entitatis 
+      si<lb ed="#L" n="33" break="no"/>mul intelliguntur, sic ea quae referuntur in ratione bonitatis, 
+      <lb ed="#L" n="34"/>sicut finis &amp; ea quae sunt ad finem necessario simul appetuntur. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e200">
+               <lb ed="#L" n="35"/>
+               <!--6.--> RESPONSIO. Primo videndum est qualiter 
+      volun<lb ed="#L" n="36" break="no"/>tas se habet ad finem, &amp; ad ea quae sunt ad finem. Hoc autem 
+      <lb ed="#L" n="37"/>ostendendum est ex similitudine eorum quae inueniuntur in 
+      in<lb ed="#L" n="38" break="no"/>tellectu. Videmus autem quod intellectus assentit alicui 
+      tan<lb ed="#L" n="39" break="no"/>quam per se noto, sicut primis principiis, &amp; hic assensus 
+      voca<lb ed="#L" n="40" break="no"/>tur intellectus. Aliis autem assentit tanquam notis, propter a 
+      <lb ed="#L" n="41"/>liud, sicut conclusionibus deductis ex primis principiis: &amp; hic 
+      <lb ed="#L" n="42"/>assensus vocatur scientia vel aliquo alio nomine: &amp; ad alterum 
+      <lb ed="#L" n="43"/>istorum reducitur omnis assensus intellectus, siue in 
+      speculati<lb ed="#L" n="44" break="no"/>uis, siue in practicis. Similiter voluntas fertur in aliquid 
+      absolu<lb ed="#L" n="45" break="no"/>te tanquam in bonum per se, &amp; hic motus voluntatis dicitur 
+      <lb ed="#L" n="46"/>simplex velle, &amp; in aliud fertur, non tanquam in bonum 
+      secun<lb ed="#L" n="47" break="no"/>dum se, sed sicut in bonum propter aliud, &amp; hic actus dicitui 
+      <lb ed="#L" n="48"/>eligere vel intendere diuersis rationibus, vt dictum est, &amp; ad 
+      al<lb ed="#L" n="49" break="no"/>terum duorum reducitur omnis motus voluntatis. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e237">
+               <lb ed="#L" n="50"/>
+               <!--7--> His praemissis dicendum quod quaestio potest dupliciter 
+      in<lb ed="#L" n="51" break="no"/>telligi. Vno modo, vtrum actus quo voluntas vult finem 
+      abso<lb ed="#L" n="52" break="no"/>lute (puta sanitatem) qui actus dicitur velle, &amp; actus quo vuli 
+      <lb ed="#L" n="53"/>aliquid propter finem, vel finem, vt per aliud acquiritur, qui 
+      <lb ed="#L" n="54"/>actus dicitur eligere vel intendere, sit vnus actus. Alio modo, 
+      <lb ed="#L" n="55"/>vtrum electio vel intentio, quae respiciunt tam finem, quam 
+      e<lb ed="#L" n="56" break="no"/>quae sunt ad finem, sint vnus actus, an plures. Primo modo, 
+      quae<lb ed="#L" n="57" break="no"/>stio non est dubia. Constat enim quod sunt plures actus, quia 
+      <lb ed="#L" n="58"/>quae separari possunt, non sunt vnum per essentiam, sed 
+      actu<lb ed="#L" n="59" break="no"/>voluntatis, quo aliquid vult absolute, puta sanitatem, separari 
+      <lb ed="#L" n="60"/>potest ab actu electionis &amp; intentionis, contingit enim 
+      volen<lb ed="#L" n="61" break="no"/>tem sanari nihil cogitare, &amp; per consequens nihil velle de his 
+      <lb ed="#L" n="62"/>per quae acquiritur sanitas, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e270">
+               <lb ed="#L" n="63"/>
+               <!--8--> Si vero intelligatur secundo modo, vtrum electio vel 
+      inten<lb ed="#L" n="64" break="no"/>tio sint vnus actus. Dicendum quod sic. Quod patet 
+      triplici<lb ed="#L" n="65" break="no"/>ter. Primo ex natura horum actuum secundum se: electio enim 
+      <lb ed="#L" n="66"/>non est aliud quam inclinatio voluntatis in aliquid propter 
+      fi<lb ed="#L" n="67" break="no"/>nem intentio vero est inclinatio voluntatis in finem 
+      medianti<lb ed="#L" n="68" break="no"/>bus his quae sunt ad finem. Ex hoc sic arguitur, sicut vnus est 
+      <lb ed="#L" n="69"/>motus, quo mobile fertur in terminum per media, sic est vna 
+      <lb ed="#L" n="70"/>inclinatio qua inclinatur ad terminum per medium vel in 
+      me<lb ed="#L" n="71" break="no"/>dium propter terminum: sed electio vel intentio voluntatis est 
+      <lb ed="#L" n="72"/>inclinatio eius in finem tanquam in terminum mediantibus 
+      <lb ed="#L" n="73"/>his quae sunt ad finem, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e300">
+               <lb ed="#L" n="74"/>
+               <!--9--> Secundo apparet idem ex comparatione actuum 
+      volunta<lb ed="#L" n="75" break="no"/>tis inter se, quia si electio vel intentio diuideretur ad duos actus 
+      <lb ed="#L" n="76"/>voluntatis diuideretur in actum simplicem, qui est velle, &amp; in 
+      <lb ed="#L" n="77"/>electionem vel intentionem, quod patet ex praemissis, quia 
+      om<lb ed="#L" n="78" break="no"/>nis actus voluntatis reducitur in aliquem istorum duorum: sed ele¬ 
+      <!--00402.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>ctio non potest diuidi in eligere &amp; velle, ergo &amp;c. Maior patet 
+      <lb ed="#L" n="80"/>Minor probatur, quia nihil diuiditur in illud quod contra ipsum 
+      <lb ed="#L" n="81"/>diuiditur, sicut animal non diuiditur in animal &amp; plantam, 
+      <lb ed="#L" n="82"/>quum vnum contineat totum diuisum, reliquum vero diuida 
+      <lb ed="#L" n="83"/>tur contra ipsum. Electio autem diuiditur contra voluntatem, 
+      <lb ed="#L" n="84"/>vel contra velle simplex, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e333">
+               <lb ed="#L" n="85"/>
+               <!--10--> Tertio apparet idem ex obiecti formalis ratione, quia 
+      quan<lb ed="#L" n="86" break="no"/>doque duo sic se habent quod vnum est alteri ratio quod 
+      ca<lb ed="#L" n="87" break="no"/>dat sub actu alicuius potentiae, illa duo apprehenduntur actu 
+      <lb ed="#L" n="88"/>eodem, sicut color &amp; quantitas eadem visione 
+      apprehendun<lb ed="#L" n="89" break="no"/>tur, quia color est formalis ratio vt quantitas videatur: sed 
+      <lb ed="#L" n="90"/>quando aliquid appetitur propter finem, vel quando finis 
+      in<lb ed="#L" n="91" break="no"/>tenditur in eo quod est ad finem: finis est tota ratio appetend 
+      <lb ed="#L" n="92"/>illud quod est ad finem, nec refert ad propositum, siue illud 
+      <lb ed="#L" n="93"/>quod est ad finem habeat secundum se aliquid appetibilitatis 
+      <lb ed="#L" n="94"/>(vt electuarium dulce) vel non (vt medicina amara) quia 
+      in<lb ed="#L" n="95" break="no"/>quantum appetitur propter finem, puta propter sanitatem, sa 
+      <lb ed="#L" n="96"/>nitas est tota ratio appetendi ea, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e364">
+               <lb ed="#L" n="97"/>
+               <!--11--> AD PRIMVM argumentum dicendum quod actus. 
+      <lb ed="#L" n="98"/>quo voluntas vult finem, &amp; illud quod est ad finem propter 
+      fi<lb ed="#L" n="99" break="no"/>nem, non est intensior &amp; remissior secundum se, sed per 
+      com<lb ed="#L" n="100" break="no"/>parationem ad obiecta, quia quum sit a duobus ab vno est 
+      per<lb ed="#L" n="101" break="no"/>fectius quam ab altero, sicut dicitur prima propositione de 
+      <lb ed="#L" n="102"/>causis, quod prima causa plus influit quam secunda, quamuis 
+      <lb ed="#L" n="103"/>vnum sit quod influitur, quia respectu illius causa prima 
+      prin<lb ed="#L" n="104" break="no"/>cipalius se habet quam secunda. Vel potest dici quod licet 
+      vo<lb ed="#L" n="105" break="no"/>luntas velit intensius finem, quam ea quae sunt ad finem 
+      quan<lb ed="#L" n="106" break="no"/>do sub distinctione ei proponuntur, puta si diceretur infirmo 
+      <lb ed="#L" n="107"/>vtrum magis vellet potionem, an curationem, statim 
+      respon<lb ed="#L" n="108" break="no"/>derit quod sanitatem: tamen quum proponitur copulatiue 
+      <lb ed="#L" n="109"/>vnum propter alterum aeque intense appetuntur. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e397">
+               <lb ed="#L" n="110"/>
+               <!--12--> Ad secundum dicendum quod inconueniens est idem esse 
+      <lb ed="#L" n="111"/>obiectum vsus &amp; fruitionis, quia idem non potest habere 
+      ratio<lb ed="#L" n="112" break="no"/>nem vltimi finis, cuius est frui, &amp; relati ad finem cuius est vsus 
+      <lb ed="#L" n="113"/>Sed nullum inconueniens est eundem actum esse vsum &amp; 
+      frui<lb ed="#L" n="114" break="no"/>tionem: &amp; in patria quidem necesse est sic esse, sicut enim eodem 
+      <lb ed="#L" n="115"/>actu beatifico videt quis deum &amp; res creatas in ipso, sic eodem 
+      <lb ed="#L" n="116"/>actu diligit quilibet beatus deum, &amp; fruitur eo, &amp; diligit 
+      creatu<lb ed="#L" n="117" break="no"/>ras referendo in deum, &amp; sic vtitur eis. Eodem modo est in 
+      via<lb ed="#L" n="118" break="no"/>toribus. Vel dicendum quod non omnis actus voluntatis es 
+      <lb ed="#L" n="119"/>fruitio respectu finis, sed respectu finis in se: non autem vt est 
+      vir<lb ed="#L" n="120" break="no"/>tualiter in eo quod est ad finem sicut in proposito. 
+      </p>
+            <p xml:id="jsnvu6-d1e4046-d1e426">
+               <lb ed="#L" n="121"/>
+               <!--13--> Ad tertium dicendum quod intellectus eodem actu fertui 
+      <lb ed="#L" n="122"/>in principia &amp; conclusiones, quando conclusiones deducit ex 
+      <lb ed="#L" n="123"/>principiis, non autem quando absolute fertur in principia sicut 
+      <lb ed="#L" n="124"/>proportionabiliter dictum est de voluntate respectu finis, &amp; 
+      eo<lb ed="#L" n="125" break="no"/>rum quae sunt ad finem. Et quod obiicitur quod idem actus no 
+      <lb ed="#L" n="126"/>potest elici a duobus habitibus. Dicendum quod intellectus ess 
+      <lb ed="#L" n="127"/>nabitus quo fertur mens nostra in prima principia absolute, sci 
+      <lb ed="#L" n="128"/>entia autem est habitus conclusionum deductarum ex principiis 
+      <lb ed="#L" n="129"/>&amp; actus his habitibus correspondentes sunt diuersi, sed quand 
+      <lb ed="#L" n="130"/>intellectus fertur in principia non absolute, sed inquantum sunt 
+      <lb ed="#L" n="131"/>principia (sic enim dicuntur relatiue ad conclusiones tanquam 
+      <lb ed="#L" n="132"/>ad principiata) cognitio principiorum &amp; conclusionum 
+      perti<lb ed="#L" n="133" break="no"/>net ad eundem habitum, scilicet ad scientiam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

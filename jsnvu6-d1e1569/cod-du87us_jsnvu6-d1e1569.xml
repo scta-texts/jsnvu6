@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="74-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1569"><!-- l1d31q2 -->
+            <head xml:id="jsnvu6-d1e1569-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e1569-Hd1e103" type="question-title">Utrum aequalitas dicatur positive an privative in divinis</head>
+            <p xml:id="jsnvu6-d1e1569-d1e106">
+               <lb ed="#L" n="15"/>QVAISTIO SECYNDA. 
+      <lb ed="#L" n="16"/>Vtrum aequalitas dicitur positiue an 
+      pri<lb ed="#L" n="17" break="no"/>uatiue in diuinis. 
+    </p>
+            <p xml:id="jsnvu6-d1e1569-d1e115">
+               <lb ed="#L" n="18"/>ECVNDO quaeritur vtrum aequalitas dicatu 
+      <lb ed="#L" n="19"/>positiue an priuatiue in diuinis. Et videtur quod 
+      <lb ed="#L" n="20"/>priuatiue, quia quaecunque opponuntur 
+      priuati<lb ed="#L" n="21" break="no"/>que alterum dicitur positiue, alterum vero 
+      priua<lb ed="#L" n="22" break="no"/>Il tiue, sed secundum philosophum decimo 
+      meta<lb ed="#L" n="23" break="no"/>physicae aequale opponitur magno &amp; paruo priuatiue, sed 
+      ma<lb ed="#L" n="24" break="no"/>gnum &amp; paruum dicuntur positiue, ergo aequale dicitur 
+      pri<lb ed="#L" n="25" break="no"/>uatiue. 
+      </p>
+            <p xml:id="jsnvu6-d1e1569-d1e135">
+               <lb ed="#L" n="26"/>
+               <!--2--> IN CONTRARIVM arguitur, quia aequale &amp; 
+      in<lb ed="#L" n="27" break="no"/>aequale opponuntur priuatiue, sed inaequale dicitur priuatiue 
+      <lb ed="#L" n="28"/>ergo aequale dicitur positiue. 
+      </p>
+            <p xml:id="jsnvu6-d1e1569-d1e147">
+               <lb ed="#L" n="29"/>
+               <!--3--> RESPONSIO. In aequalitate &amp; similitudine tria sunt 
+      <lb ed="#L" n="30"/>consideranda, fundamentum relationis quod est quantitas, ve 
+      <lb ed="#L" n="31"/>qualitas, extrema relationis quae dicuntur aequalia, aut similia, 
+      <lb ed="#L" n="32"/>&amp; ipsa habitudo relatiua aequalitatis, aut similitudinis. Nomen 
+      <lb ed="#L" n="33"/>autem aequalitatis aut similitudinis non significat primum (
+      sci<lb ed="#L" n="34" break="no"/>licet fundamentum) sic enim significaret similitudo 
+      albedi<lb ed="#L" n="35" break="no"/>nem quae est eius fundamentum inter duos albos, quod nullus 
+      <lb ed="#L" n="36"/>diceret. Mutaretur enim eius significatum quum mutetur 
+      fre<lb ed="#L" n="37" break="no"/>quenter similitudinis fundamentum. Sunt enim aliqui similes 
+      <lb ed="#L" n="38"/>in nigredine sicut alij sunt similes in albedine. Nec significat ex 
+      <lb ed="#L" n="39"/>trema relata, vt de se patet, ergo nomen aequalitatis directe si 
+      <lb ed="#L" n="40"/>gnificat tertium, scilicet ipsam habitudinem relatiuam. Alia 
+      ta<lb ed="#L" n="41" break="no"/>men duo dat intelligere non sicut significata, sed sicut habentia 
+      <lb ed="#L" n="42"/>habitudinem ad principale significatum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1569-d1e182">
+               <lb ed="#L" n="43"/>
+               <!--4--> HOC SVPPOSITO dicendum, quod aequalitas quan 
+      <lb ed="#L" n="44"/>tum ad suum formale significatum dicitur positiue. Quod 
+      pa<lb ed="#L" n="45" break="no"/>tet, sic omne quod est directe in praedicamento secundum rem 
+      <lb ed="#L" n="46"/>vel rationem, &amp; non per aliam reductionem est positiuum &amp; 
+      <lb ed="#L" n="47"/>non priuatiuum. (Priuationes enim &amp; negationes sunt in 
+      praedi<lb ed="#L" n="48" break="no"/>camentis solum reductiue ratione habituum vel affirmationum, 
+      <lb ed="#L" n="49"/>sed aequalitas est directe in praedicamento relationis saltem se 
+      <lb ed="#L" n="50"/>cundum rationem quum sit relatio (licet rationis in diuinis) 
+      er<lb ed="#L" n="51" break="no"/>go aequalitas formaliter dicit aliquid positiuum, maior patet. 
+      <lb ed="#L" n="52"/>quia esse relationem vel aliquid aliud pertinens ad 
+      praedicame<lb ed="#L" n="53" break="no"/>tum secundum rem vel secundum rationem non facit differen 
+      <lb ed="#L" n="54"/>tiam secundum positiuum &amp; priuatiuum. Et ideo si cut illud quod 
+      <lb ed="#L" n="55"/>dicit relationem realem directe, vel rem alterius 
+      praedicamen<lb ed="#L" n="56" break="no"/>ti est formaliter aliquid positiuum, sic illud quod dicit directe 
+      re<lb ed="#L" n="57" break="no"/>lationem rationis vel relationem alterius praedicamenti est 
+      for<lb ed="#L" n="58" break="no"/>maliter positiuum, &amp; idem est dicendum de extremo relationi 
+      <lb ed="#L" n="59"/>sumpto concretiue sub nomine relationis (vt aequale) quia idem 
+      <lb ed="#L" n="60"/>importatur formaliter per concretum &amp; abstractum. Quantum 
+      <lb ed="#L" n="61"/>autem ad fundamentum aequalitatis dicendum est, quod 
+      possu<lb ed="#L" n="62" break="no"/>mus ipsum considerare, vel quantum ad illud quod est, &amp; sic est 
+      <lb ed="#L" n="63"/>aliquid positiuum, &amp; positiue dictum, quia hoc est quantitas ve 
+      <lb ed="#L" n="64"/>aliquid acceptum subnomine quantitatis, vel possumus ipsum 
+      <lb ed="#L" n="65"/>considerare sub formali ratione fundamenti, &amp; sic dicitur 
+      com<lb ed="#L" n="66" break="no"/>muniter quod formaliter ratio fundamenti aequalitatis sit 
+      ra<lb ed="#L" n="67" break="no"/>tio vnius, super vnum enim in quantitate fundatur aequalitas, 
+      <lb ed="#L" n="68"/>ratio autem vnius est ratio priuatiua, patet quia aequalitas &amp; 
+      <lb ed="#L" n="69"/>aequale dicuntur priuatiue. Sed hoc non est formaliter, vt dictum 
+      <lb ed="#L" n="70"/>est. Veruntamen in hoc sensu loquitur phylosophus decimo 
+      me<lb ed="#L" n="71" break="no"/>taphysicae, quando dicit quod aequale opponitur magno &amp; par 
+      <lb ed="#L" n="72"/>uo priuatiue. Sic etiam diffinitur cum dicitur quod aequale est 
+      <lb ed="#L" n="73"/>quid positum iuxta alterum, nec excedit, nec exceditur. 
+      </p>
+            <p xml:id="jsnvu6-d1e1569-d1e254">
+               <lb ed="#L" n="74"/>
+               <!--5--> PER HOC patet responsio ad argumentum in 
+      oppo<lb ed="#L" n="75" break="no"/>fitum. 
+      </p>
+            <p xml:id="jsnvu6-d1e1569-d1e263">
+               <lb ed="#L" n="76"/>
+               <!--6--> ALIVD autem argumentum probat quod aequalitas 
+      <lb ed="#L" n="77"/>quantum ad illud quod dicit formaliter dicitur positiue quod 
+      <lb ed="#L" n="78"/>concedendum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

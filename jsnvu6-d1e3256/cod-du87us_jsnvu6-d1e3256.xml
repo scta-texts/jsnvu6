@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="142-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3256"><!-- l2d21q2 -->
+            <head xml:id="jsnvu6-d1e3256-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e3256-Hd1e103" type="question-title">Utrum tentatio sit appetenda</head>
+            <p xml:id="jsnvu6-d1e3256-d1e106">
+               <lb ed="#L" n="14"/>QUAESTIO SECYNDA. 
+      <lb ed="#L" n="15"/>Vtrum tentatio sit appetenda. 
+    </p>
+            <p xml:id="jsnvu6-d1e3256-d1e113">
+               <lb ed="#L" n="16"/>SECVNDO quaeritur, vtrum tentatio sit 
+      appe<lb ed="#L" n="17" break="no"/>tenda. Et videtur quod sic: quia illud est 
+      appe<lb ed="#L" n="18" break="no"/>tendum de quo cum euenerit est gaudendum. sed 
+      <lb ed="#L" n="19"/>tentatio est huiusmodi. vnde in Canoni. Iacob. 1. 
+      <lb ed="#L" n="20"/>capit. dicitur. Omne gaudium existimate fratres 
+      <lb ed="#L" n="21"/>mei, cum in varias tentationes incideritis. 
+      </p>
+            <p xml:id="jsnvu6-d1e3256-d1e129">
+               <lb ed="#L" n="22"/>
+               <!--2--> Item Paulus petiuit indiscrete stimulum carnis amoueri 
+      <lb ed="#L" n="23"/>sibi, vt dicit glos. 2. Corinth. 12. Ex quo videtur quod 
+      tentati<lb ed="#L" n="24" break="no"/>non sit fugienda, sed appetenda. 
+      </p>
+            <p xml:id="jsnvu6-d1e3256-d1e141">
+               <lb ed="#L" n="25"/>
+               <!--3--> IN CONTRARIVM est, quia Dominus doce 
+      <lb ed="#L" n="26"/>nos orare ne intremus in tentationem. Matth. 6. quod non 
+      es<lb ed="#L" n="27" break="no"/>set, si tentatio esset appetenda, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3256-d1e152">
+               <lb ed="#L" n="28"/>
+               <!--4--> RESPONSIO. Cum bonum sit quod omnia 
+      appe<lb ed="#L" n="29" break="no"/>tunt: sicut aliquid habet rationem boni, sic habet rationem 
+      <lb ed="#L" n="30"/>appetibilis. Est autem aliquid bonum secundum se, aliquid 
+      au<lb ed="#L" n="31" break="no"/>tem ratione adiuncti, siue sequelae, sicut amara medicina 
+      in<lb ed="#L" n="32" break="no"/>quantum est inductiua sanitatis, Dicendum quod nullus recte 
+      <lb ed="#L" n="33"/>eligens appetit tentari tentatione carnis, neque secundum se, 
+      <lb ed="#L" n="34"/>nec ratione adiuncti, puta victoriae. Non secundum se, quia 
+      <lb ed="#L" n="35"/>quod secundum se habet rationem mali, secundum se habe 
+      <lb ed="#L" n="36"/>rationem fugibilis, &amp; non appetibilis: sed tentatio carnis est 
+      <lb ed="#L" n="37"/>huiusmodi, (vt probatum est in quaestione praecedente) 
+      er<lb ed="#L" n="38" break="no"/>go &amp;c. Item nec ratione adiuncti, puta victoriae, quia 
+      secun<lb ed="#L" n="39" break="no"/>dum Apostolum, ad Rom. 3. Non sunt facienda mala vt 
+      ve<lb ed="#L" n="40" break="no"/>niant bona, licet mala poenae sint patienda. Sed tentatio 
+      car<lb ed="#L" n="41" break="no"/>nis est malum culpae quod facimus non malum poenae quod pa 
+      <lb ed="#L" n="42"/>timur, ergo, &amp;c. Item tentationi carnis nunquam est 
+      adiun<lb ed="#L" n="43" break="no"/>cta plena victoria, imo quicunque tentatur quo ad aliquod 
+      <lb ed="#L" n="44"/>vincitur, alioquin non peccaret. 
+      </p>
+            <p xml:id="jsnvu6-d1e3256-d1e194">
+               <lb ed="#L" n="45"/>
+               <!--5--> De tentatione autem daemonis &amp; mundi, dicendum quod 
+      <lb ed="#L" n="46"/>non est appetenda propter se, quia in ipsa secundum se non 
+      <lb ed="#L" n="47"/>consistit hominis bonum, quia non est actio hominis tentati 
+      <lb ed="#L" n="48"/>sed passio. Nec est appetenda ex spe victoriae, quia illud non 
+      <lb ed="#L" n="49"/>est propter alterum appetendum, quod non est eius 
+      inducti<lb ed="#L" n="50" break="no"/>uum, vel ad illud aliqualiter promotiuum, sed tentatio no 
+      <lb ed="#L" n="51"/>est inductiua victoriae, nec ad victoriam promotiua, imo 
+      ma<lb ed="#L" n="52" break="no"/>gis impeditiua, tum quia promptiores sumus ad malum quan 
+      <lb ed="#L" n="53"/>ad bonum, tum quia ipsa tentatio secundum se est propositio 
+      <lb ed="#L" n="54"/>alicuius mali sub specie boni, &amp; ideo nata est magis inclinari 
+      <lb ed="#L" n="55"/>ad consensum malum, quam ad oppositum: veruntamen 
+      ten<lb ed="#L" n="56" break="no"/>tare, &amp; vincere copulatiue accepta, appetenda essent, si 
+      copu<lb ed="#L" n="57" break="no"/>latiua esset certa. Non est autem sic, &amp; ideo tentatio securius 
+      <lb ed="#L" n="58"/>fugitur, quam quaeratur. Cum scriptum sit Ecclesiastici 3. Qui 
+      <lb ed="#L" n="59"/>amat periculum, peribit in illo. 
+      </p>
+            <p xml:id="jsnvu6-d1e3256-d1e231">
+               <lb ed="#L" n="60"/>
+               <!--6--> AD PRIMVM argumentum dicendum quod 
+      bea<lb ed="#L" n="61" break="no"/>tus lac. non dicit esse gaudendum de tentationibus, sed ad eas 
+      <lb ed="#L" n="62"/>vincendum hortatur per considerationem gaudij, ad quod 
+      per<lb ed="#L" n="63" break="no"/>uenitur, superando per patientiam, tentationem, &amp; 
+      tribulatio<lb ed="#L" n="64" break="no"/>nem, de quibus loquitur. 
+</p>
+            <p xml:id="jsnvu6-d1e3256-d1e247">
+               <lb ed="#L" n="65"/>Ad secundum dicendum est quod stimulus carnis quem 
+      <lb ed="#L" n="66"/>Paulus habuit, non fuit tentatio carnis, quia sine culpa esse non 
+      <lb ed="#L" n="67"/>potest, sed fuit afflictio corporalis, vel suggestio carnalis ab 
+      <lb ed="#L" n="68"/>hoste, tamen neque indiscrete petiit habita consideratione 
+      sti<lb ed="#L" n="69" break="no"/>muli secundum se, sed considerato euentu victoriae, de quo 
+      ta<lb ed="#L" n="70" break="no"/>men non erat certus, dicitur nesciuisse quid peteret, vnde 
+      cer<lb ed="#L" n="71" break="no"/>tificatus de victoria a domino dicente sibi, sufficit tibi gratia 
+      <lb ed="#L" n="72"/>mea, patienter sustinuit.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="25-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e458"><!-- l1d5q2 -->
+            <head xml:id="jsnvu6-d1e458-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-d1e458-Hd1e103" type="question-title">Utrum filius possit dici de substantia patris aut ex nihilo</head>
+            <p xml:id="jsnvu6-d1e458-d1e106">
+               <lb ed="#L" n="32"/>QVAISTIO SECVNDA. 
+      <lb ed="#L" n="33"/>Vtrum filius sit de substantia patris. 
+      <lb ed="#L" n="34"/>Tho. 1.t. 4. .1. ar. 6.
+    </p>
+            <p xml:id="jsnvu6-d1e458-d1e115">
+               <lb ed="#L" n="35"/>SECVMDO quaeritur vtrum filius sit de 
+      sub<lb ed="#L" n="36" break="no"/>stantia patris. Et videtur quod non, quia de, dici 
+      <lb ed="#L" n="37"/>habitudinem materiae vel quasi materiae, sed 
+      sub<lb ed="#L" n="38" break="no"/>stantia vel essentia diuina non est materia, vel 
+      qua<lb ed="#L" n="39" break="no"/>si materia generationis filij. Ergo filius non est 
+      <lb ed="#L" n="40"/>nec generatur de substantia patris. Maior patet, sed mino 
+      <lb ed="#L" n="41"/>probatur multipliciter. Primo sic. Illud quod est materia vel 
+      <lb ed="#L" n="42"/>quasi materia in generatione est subiectum formae 
+      communi<lb ed="#L" n="43" break="no"/>catae genito a generante, sed essentia vel substantia non es 
+      <lb ed="#L" n="44"/>esubiectum alterius formae communicatae filio a patre, nihil 
+      <lb ed="#L" n="45"/>enim communicat pater filio per generationem nisi 
+      substan<lb ed="#L" n="46" break="no"/>tiam suam quae non subiicitur sibipsi, ergo essentia diuina non 
+      <lb ed="#L" n="47"/>est subiectum in generatione. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e146">
+               <lb ed="#L" n="48"/>
+               <!--2.--> Item subiectum in generatione dici potest fieri hoc vel 
+      ta<lb ed="#L" n="49" break="no"/>le sicut in alteratione quae est generatio secundum qui, vt cum 
+      <lb ed="#L" n="50"/>aqua calefit, aqua potest dici fieri calida, licet non possit dici 
+      <lb ed="#L" n="51"/>fieri absolute &amp; simpliciter. Similiter in generatione 
+      simplici<lb ed="#L" n="52" break="no"/>ter materia potest dici, fieri formata, licet non possit dici fier 
+      <lb ed="#L" n="53"/>simpliciter &amp; absolute, sed in generatione diuina essentia nor 
+      <lb ed="#L" n="54"/>potest dicit fieri esse cum quacunque additione secundum 
+      quod<lb ed="#L" n="55" break="no"/>cunque adueniens absolutum, vel relatum, non absolutum, 
+      <lb ed="#L" n="56"/>quia nullum tale est in diuinis adueniens essentiae, nec relatum 
+      <lb ed="#L" n="57"/>quia essentia non dicitur fieri relata, ergo essentia nullo modo 
+      <lb ed="#L" n="58"/>est subiectum in generatione diuina. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e176">
+               <lb ed="#L" n="59"/>
+               <!--3--> Tertio sic, quod principium producens requirat materiam, 
+      <lb ed="#L" n="60"/>vel quasi materiam, hoc est ex imperfectione eius, sed pater 
+      <lb ed="#L" n="61"/>generans filium est perfectissimum agens: ergo materia non 
+      <lb ed="#L" n="62"/>requirit aliquid quod sit materia, vel quasi. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e189">
+               <lb ed="#L" n="63"/>
+               <!--4--> IN CONTRARIVM arguitur, quia aut filius 
+      ge<lb ed="#L" n="64" break="no"/>neratur de aliquo aut de nullo, non de nullo, quia si sic 
+      crea<lb ed="#L" n="65" break="no"/>retur, ergo de aliquo, sed non esset verus Deus, ergo de 
+      substan<lb ed="#L" n="66" break="no"/>tia propria. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e202">
+               <lb ed="#L" n="67"/>
+               <!--5--> Item quando aliquid est de alio, &amp; est ei consubstantiale 
+      <lb ed="#L" n="68"/>potest dici esse de eius substantia, sed filius est a patre &amp; est e 
+      <lb ed="#L" n="69"/>consubstantialis, ergo est de eiusdem substantia. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e213">
+               <lb ed="#L" n="70"/>
+               <!--6--> RESPONSIO, in modo loquendi sic consueuimus. 
+      <lb ed="#L" n="71"/>dicere quod esse de aliquo est esse de aliquo praeexistente &amp; 
+      <lb ed="#L" n="72"/>permanente in refacta. Vnde cum in creaturis nihil praeexistens 
+      <lb ed="#L" n="73"/>maneat in re facta, nisi materia, in eis nihil proprie dicitur essi 
+      <lb ed="#L" n="74"/>dem mquo nisi materialiter accipiendo, sicut dicimus cultellum 
+      <lb ed="#L" n="75"/>esse vel fieri de ferro &amp; sic de similibus, propter quod in 
+      diui<lb ed="#L" n="76" break="no"/>nis id quod habet rationem materiae vel quasi materiae est illud 
+      <lb ed="#L" n="77"/>de quo est generatio &amp; res generata. 
+</p>
+            <p xml:id="jsnvu6-d1e458-d1e235">
+               <lb ed="#L" n="78"/>Sed aduertendum est quod cum generatio non sit vniuoce 
+      <lb ed="#L" n="79"/>&amp; diuinis &amp; in creaturis non est quaerenda vniuocatio totalis 
+      <lb ed="#L" n="80"/>hniic ibi quantum ad illud de quo est generatio, &amp; etiam quan¬ 
+      <!--00116.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>tum ad alia quae sunt in generatione, sed sufficit inuenire 
+      simi<lb ed="#L" n="82" break="no"/>litudinem competentem quantum ad ea quae imperfectionem 
+      <lb ed="#L" n="83"/>non includunt. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e255">
+               <lb ed="#L" n="84"/>
+               <!--8--> Et secundum hoc potest dici quod filius generatur, &amp; est de 
+      <lb ed="#L" n="85"/>substantia patris, ita quod illa praepositio de dicit 
+      circunstan<lb ed="#L" n="86" break="no"/>tiam materiae vel quasi materiae, quod patet primo sic. Illud 
+      <lb ed="#L" n="87"/>quod secundum nostrum modum intelligendi praeexistit filio 
+      <lb ed="#L" n="88"/>producendo &amp; inexistit iam producto, se habet ad filium vt de 
+      <lb ed="#L" n="89"/>quo iam filius est, hoc patet ex praecedentibus. Et haec est 
+      con<lb ed="#L" n="90" break="no"/>ditio materiae quae non pertinet ad aliquam imperfectionem, 
+      <lb ed="#L" n="91"/>sed substantia patris secundum nostrum intelligendi praeexistit 
+      <lb ed="#L" n="92"/>filio generando &amp; inexistit filio genito, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e280">
+               <lb ed="#L" n="93"/>
+               <!--9--> Secundo sic, quandocunque aliquid constituitur ex 
+      pluri<lb ed="#L" n="94" break="no"/>bus, oportet quod vnum illorum se habeat secundum rationi 
+      <lb ed="#L" n="95"/>materiae &amp; perfectibiliter, &amp; alterum secundum rationem quasi 
+      <lb ed="#L" n="96"/>actus perficientis, sed filius constituitur ex essentia &amp; 
+      proprie<lb ed="#L" n="97" break="no"/>tate relatiua, ergo oportet quod alterum istorum se habeat quasi 
+      <lb ed="#L" n="98"/>in ratione materiae, &amp; alterum quasi in ratione actus, inter 
+      hae<lb ed="#L" n="99" break="no"/>autem essentia magis videtur se habere in ratione materiae quam 
+      <lb ed="#L" n="100"/>relatio, quia intelligitur quasi substare relationi &amp; non 
+      econ<lb ed="#L" n="101" break="no"/>uerso. quod autem habet rationem materiae, est illud do quo est 
+      <lb ed="#L" n="102"/>generatio, quare &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e306">
+               <lb ed="#L" n="103"/>
+               <!--10--> Tertio sic, illud est subiectum vel quasi subiectum in 
+      ge<lb ed="#L" n="104" break="no"/>neratione, quod recipit formam geniti, sed essentia diuina 
+      re<lb ed="#L" n="105" break="no"/>cipit in se formam per quam constituitur genitum, scilicet 
+      pro<lb ed="#L" n="106" break="no"/>prietatem relatiuam, ergo ipsa est quasi subiectum &amp; materia 
+      <lb ed="#L" n="107"/>de qua est generatio. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e322">
+               <lb ed="#L" n="108"/>
+               <!--11--> Sunt autem aliquae conditiones materiae quae nullo modo 
+      <lb ed="#L" n="109"/>conueniunt diuinae essentiae, nec sunt in generatione diuina quae 
+      <lb ed="#L" n="110"/>rendae, quia pertinent ad imperfectionem quae omnino 
+      rele<lb ed="#L" n="111" break="no"/>gatur a diuinis sicut quod ipsa est pura potentia &amp; fit actu per 
+      <lb ed="#L" n="112"/>aliquam formam absolutam sibi aduenientem. Item quod trans 
+      <lb ed="#L" n="113"/>mutatur de priuatione in formam, &amp; quod acquirendo vnam 
+      <lb ed="#L" n="114"/>formam amittit aliam &amp; huiusmodi. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e342">
+               <lb ed="#L" n="115"/>
+               <!--12--> Ad primum argumentum dicendum quod ad rationem 
+      <lb ed="#L" n="116"/>materiae vel quasi materiae in generatione sufficit quod aliquo 
+      <lb ed="#L" n="117"/>modo substet formae geniti, siue illa forma sit communis 
+      geni<lb ed="#L" n="118" break="no"/>to &amp; generanti, communitate rei, vel rationis specificae siue 
+      <lb ed="#L" n="119"/>non, modo in generatione filij, licet pater non communicet 
+      <lb ed="#L" n="120"/>filio formam sibi &amp; filio communem nisi essentiam a patre, 
+      ta<lb ed="#L" n="121" break="no"/>men est in filio, non est solum essentia, sed relatio cui tanquam 
+      <lb ed="#L" n="122"/>formae, large loquendo de forma, aliquo modo substat essentia. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e364">
+               <lb ed="#L" n="123"/>
+               <!--13--> Ad secundum dicendum quod subiectum generationis 
+      di<lb ed="#L" n="124" break="no"/>citur fieri hoc vel tale vbi terminus sub quo fit subiectum est 
+      <lb ed="#L" n="125"/>aliquid absolutum sic, aut non est in diuinis. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e375">
+               <lb ed="#L" n="126"/>
+               <!--14--> Ad tertium dicendum quod imperfectionis est in agente 
+      <lb ed="#L" n="127"/>quod requirat materiam extra se, sed quod agens in se aliquid 
+      <lb ed="#L" n="128"/>habeat quod alteri communicet, &amp; nihilominus teneat 
+      aliqua<lb ed="#L" n="129" break="no"/>liter rationem materiae non est imperfectionis, sed 
+      perfectio<lb ed="#L" n="130" break="no"/>nis, &amp; sic pater communicat filio essentiam suam quae aliquo 
+      <lb ed="#L" n="131"/>modo in generatione habet locum materiae. 
+      </p>
+            <p xml:id="jsnvu6-d1e458-d1e394">
+               <lb ed="#L" n="132"/>
+               <!--15--> Argumenta alterius partis concedantur ratione 
+      conclu<lb ed="#L" n="133" break="no"/>sionis, propter tamen primum aduertendum est, quod nullo 
+      <lb ed="#L" n="134"/>modo est dicendum quod filius sit de nihilo, quia esse de nihilo 
+      <lb ed="#L" n="135"/>est non habere in se aliquid quod non sit ab alio productum: ita 
+      <lb ed="#L" n="136"/>quod sibi derelictum cederet in nihil. In filio autem est essentia 
+      <lb ed="#L" n="137"/>diuina quae non ab alio producta, filius etiam nullo modo 
+      po<lb ed="#L" n="138" break="no"/>test non esse, sed necessario est. Et ideo ei non competit esse de 
+      <lb ed="#L" n="139"/>nihilo, sed est de substantia patris modo quo dictum est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

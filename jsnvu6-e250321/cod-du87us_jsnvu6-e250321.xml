@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="303-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e250321"><!-- l4d20q1 -->
+            <head xml:id="jsnvu6-e250321-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e250321-Hd1e103" type="question-title">Utrum ille qui implet poenitentiam a 
+      sacerdote sibi iniunctam sit 
+      totaliter liberatus</head>
+            <p xml:id="jsnvu6-e250321-d1e106">
+               <lb ed="#L" n="107"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="108"/>Vtrum ille qui implet poenitentiam a 
+      <lb ed="#L" n="109"/>sacerdote sibi iniunctam sit 
+      to<lb ed="#L" n="110" break="no"/>taliter liberatus. 
+    </p>
+            <p xml:id="jsnvu6-e250321-d1e117">
+               <lb ed="#L" n="111"/>CIRCA distinctionem istam quaeritur de duobus. 
+      <lb ed="#L" n="112"/>Primum est de taxatione poenae per sacerdotem. 
+      <lb ed="#L" n="113"/>Secundum est de relaxatione poenae per 
+      indulgen<lb ed="#L" n="114" break="no"/>tias. Circa primum primo quaeritur vtrum ille qui 
+      <lb ed="#L" n="115"/>gi implet poenitentiam a sacerdote sibi iniunctam sit 
+      <lb ed="#L" n="116"/>totaliter liberatus. Et arguitur quod sic: quia sacerdos est arbiter 
+      <lb ed="#L" n="117"/>inter poenitentem &amp; Deum, ergo sicut poenitens debet 
+      accepta<lb ed="#L" n="118" break="no"/>re taxationem poenae per sacerdotem, ita videtur quod Deus 
+      de<lb ed="#L" n="119" break="no"/>beat illa taxatione esse contentus. 
+      </p>
+            <p xml:id="jsnvu6-e250321-d1e139">
+               <lb ed="#L" n="120"/>
+               <!--2--> Item pronior est Deus ad miserendum quam ad 
+      condemnan<lb ed="#L" n="121" break="no"/>dum, sed si sacerdos imponeret peccatori maiorem 
+      poeniten<lb ed="#L" n="122" break="no"/>tiam quam debeatur culpae, peccator tenetur ad faciendum eam, 
+      <lb ed="#L" n="123"/>ergo similiter si iniungat minorem videtur quod faciendo eam 
+      <lb ed="#L" n="124"/>sit totaliter liberatus. 
+      </p>
+            <p xml:id="jsnvu6-e250321-d1e156">
+               <lb ed="#L" n="125"/>
+               <!--3--> IN CONTRARIVM arguitur, quia Deus pro 
+      maio<lb ed="#L" n="126" break="no"/>ri culpa exigit maiorem paenam, &amp; pro minori minorem, cum 
+      <lb ed="#L" n="127"/>hoc habeat ordo iustitiae. Sed sacerdos &amp; etiam canones 
+      impo<lb ed="#L" n="128" break="no"/>nunt quandoque pro minori culpa maiorem poenam &amp; 
+      econuer<lb ed="#L" n="129" break="no"/>so, sicut laico imponitur poenitentia septennis pro homicidio, 
+      <lb ed="#L" n="130"/>sacerdoti vero imponitur decennis pro fornicatione: licet 
+      homi<lb ed="#L" n="131" break="no"/>cidium sit majus peccatum quam fornicatio, ergo videtur quod 
+      <lb ed="#L" n="132"/>apud Deum non sufficiat talis taxatio. 
+      </p>
+            <p xml:id="jsnvu6-e250321-d1e178">
+               <lb ed="#L" n="133"/>
+               <!--4--> RESPONSIO. Videnda sunt duo quae tanguntur in 
+      ar<lb ed="#L" n="134" break="no"/>gumentis. Primum est qualiter poena sit a sacerdote taxanda, an 
+      <lb ed="#L" n="135"/>s. pro maiori culpa sit semper imponenda maior poena. Secundum 
+      <lb ed="#L" n="136"/>est supposito quod sacerdos discrete taxet poenam, vtrum 
+      fa<lb ed="#L" n="137" break="no"/>ciens eam sit a poena totaliter liberatus. 
+      </p>
+            <p xml:id="jsnvu6-e250321-d1e194">
+               <lb ed="#L" n="138"/>
+               <!--5--> Quantum ad primum sciendum est, quod poena in confessione 
+      <lb ed="#L" n="139"/>taxatur propter duo scilicet propter remedium praestandum contra 
+      re<lb ed="#L" n="140" break="no"/>cidiuum, &amp;t propter debitum soluendum. Quantum ad debitum, 
+      <lb ed="#L" n="141"/>soluendum semper esset imponenda maior poena pro maiori 
+      cul<lb ed="#L" n="142" break="no"/>pa. Cuius ratio est, quia poena soluitur, vt inaequalitas iniustitia 
+      <lb ed="#L" n="143"/>commissae per culpa reducatur ad aequalitatem iustitiae per 
+      solu<lb ed="#L" n="144" break="no"/>tiorem poenae: sed maior inaequalitas iniustitiae committitur per 
+      ma<lb ed="#L" n="145" break="no"/>iorem culpam, ergo non reducitur ad aequalitatem iustitiae nisi per 
+      ma<lb ed="#L" n="146" break="no"/>iorem poenam. Si autem consideretur poena prout praestat remedium 
+      <lb ed="#L" n="147"/>contra recidiuum in peccatore, &amp; contra scandalum quod oritur in 
+      <lb ed="#L" n="148"/>plebe, sic non semper imponenda est maior poena pro maiori 
+      cul<lb ed="#L" n="149" break="no"/>pa, sed quandoque minor. Cuius ratio est, quia poena praestat reme 
+      <lb ed="#L" n="150"/>dium contra recidiuum &amp;t scandalum inquantu prohibet pronitatem ad 
+      <lb ed="#L" n="151"/>peccandum: vbi est ergo major pronitas ad peccandum ibi requiritur 
+      <lb ed="#L" n="152"/>maius retractiuum, sed in eo qui committit minor e culpam quandoq 
+      <lb ed="#L" n="153"/>est major pronitas ad recidiuum, sicut in iuuene fornicante maior 
+      <lb ed="#L" n="154"/>est pronitas quam in sene, ergo indiget maiori poeia ipsum 
+      retra<lb ed="#L" n="155" break="no"/>hente quam senex, licet minus peccet, quia majus incentiuum habet. 
+      <lb ed="#L" n="156"/>Eadem ratio est de scandalo, quia minus peccatum quandoque est 
+      ma<lb ed="#L" n="157" break="no"/>gis scandalizatiuum &amp; magis trahitur in exemplum in persona quae 
+      de<lb ed="#L" n="158" break="no"/>bet esse maioris aedificationis (sicut est fornicatio in sacerdote 
+      <lb ed="#L" n="159"/>quam sit majus peccarum in priuata persona (puta homicidum) &amp; 
+      <lb ed="#L" n="160"/>praecipue, quia non est in communitate tanta pronitas ad hoc pec¬ 
+      <!--00681.xml-->
+      <pb ed="#L" n="304-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>catum: &amp; sic patet primum qualiter est taxanda poena &amp; culpa 
+      </p>
+            <p xml:id="jsnvu6-e250321-d1e257">
+               <lb ed="#L" n="2"/>
+               <!--6--> Quantum ad secundum dicendum est quod si poena imposita a 
+      <lb ed="#L" n="3"/>sacerdote non fit condigna pro solutione poenae debitae culpae 
+      <lb ed="#L" n="4"/>tunc exoluens talem poenam non est simpliciter liberatus, sec 
+      <lb ed="#L" n="5"/>faciet residuum in purgatorio. Cuius ratio est, quia error 
+      sacer<lb ed="#L" n="6" break="no"/>dotis seu qualiscunque indispositio poenitentis non debet 
+      muta<lb ed="#L" n="7" break="no"/>re iustitiam diuinam quo ad punitionem peccatorum: sed quod 
+      <lb ed="#L" n="8"/>imponatur poena non condigna culpae prouenit vel ex errore 
+      <lb ed="#L" n="9"/>sacerdotis nescientis ponderare quantitatem culpae vel saltem ex 
+      <lb ed="#L" n="10"/>eius nescientiai, quia non potest eam perfecte cognoscere, nec 
+      <lb ed="#L" n="11"/>contritionem poenitentis, vel dato quod sciat ex industria, sibi 
+      im<lb ed="#L" n="12" break="no"/>ponit minorem poenam propter conditionem poenitentis, qui forte 
+      <lb ed="#L" n="13"/>magnitudine poenae posset a poenitentia agenda impediri propter 
+      <lb ed="#L" n="14"/>debilitatem corporis vel infirmitatem mentis, &amp; ideo eliget 
+      mi<lb ed="#L" n="15" break="no"/>nus damnum vt majus euitet, ergo propter hoc non debet 
+      im<lb ed="#L" n="16" break="no"/>pediri iustitia diuina quin peccator puniatur poena condigni 
+      <lb ed="#L" n="17"/>peccato: quod est intelligendum de poena quae soluitur per modum 
+      <lb ed="#L" n="18"/>debiti, non autem de illa quae imponitur ad remedium recidiui, quia 
+      <lb ed="#L" n="19"/>in purgatorio solum exigitur poena ad soluendum debitum &amp; 
+      <lb ed="#L" n="20"/>non ad praeseruandum contra recidiuum, cum no maneat 
+      vlte<lb ed="#L" n="21" break="no"/>rius locus vel tempus peccandi, si autem poenitentia iniuncta tota 
+      <lb ed="#L" n="22"/>liter omitatur vel in parte, si fiat de voluntate &amp; auctoritate im 
+      <lb ed="#L" n="23"/>ponentis poenitentiam vel ex impotentia faciendi eam, vel ex alia cau 
+      <lb ed="#L" n="24"/>sa iusta &amp; necessaria, tunc omittens eam facere non peccat, faciei 
+      <lb ed="#L" n="25"/>tamen eam postea in praesenti seculo vel in purgatorio: si autem 
+      <lb ed="#L" n="26"/>omittat eam facere ex sola voluntate sua temeraria non solum 
+      fa<lb ed="#L" n="27" break="no"/>ciet eam postea hic, vel in purgatorio, sed peccat mortaliter: quia 
+      <lb ed="#L" n="28"/>si in foro contentioso non obediens sententiae iudicis reputatur 
+      <lb ed="#L" n="29"/>&amp; punitur tanquam contumax, multo magis in foro poenitentiae in 
+      <lb ed="#L" n="30"/>quo agitur causa salutis hominis, si recipiens poenitentiam sibi 
+      in<lb ed="#L" n="31" break="no"/>iunctam pro satisfactione peccatorum contemnat eam facere. 
+      <lb ed="#L" n="32"/>sola temeritate ductus, contumax debet reputari &amp; contenpto 
+      <lb ed="#L" n="33"/>ecclesiastici sacramenti, quod non potest esse sine peccato 
+      mortali<lb ed="#L" n="34" break="no"/>Ad primum argu. dicendum quod licet sacerdos sit arbiter, 
+      ha<lb ed="#L" n="35" break="no"/>bet tamen limitatam potestatem, scilicet quoad remissionem culp 
+      <lb ed="#L" n="36"/>&amp; dimissionem poenae virtute clauium quantum exigit contritio 
+      <lb ed="#L" n="37"/>poenitentis, non autem quoad taxationem vel dimissionem poena 
+      <lb ed="#L" n="38"/>pro arbitrio voluntatis, nisi quod peccator si plus non faciat in hac 
+      <lb ed="#L" n="39"/>vita quam sit ei taxatum non imputatur ei ad transgressionem 
+      </p>
+            <p xml:id="jsnvu6-e250321-d1e344">
+               <lb ed="#L" n="40"/>
+               <!--8--> Ad secundum dicendum qued quoad forum ecclesiae obligatur 
+      <lb ed="#L" n="41"/>peccator ad faciendam poenitentiam sibi impositam, &amp; 
+      libera<lb ed="#L" n="42" break="no"/>tur faciendo eam siue sit condigna, siue non, sed quo ad forum 
+      <lb ed="#L" n="43"/>Dei non sufficit minor, nec exigitur amplior quam condigna: 
+      vn<lb ed="#L" n="44" break="no"/>de si peccator cui poena est imposita maior in duplo quam 
+      exi<lb ed="#L" n="45" break="no"/>gat sua culpa decederet peracta sola medietate poenitentiae, 
+      euo<lb ed="#L" n="46" break="no"/>laret ad coelum, nec exolueret residuum in purgatorio. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

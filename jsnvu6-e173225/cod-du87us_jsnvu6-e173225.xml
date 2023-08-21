@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="211-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e173225"><!-- l3d19prae -->
+            <head xml:id="jsnvu6-e173225-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e173225-d1e103">
+               <lb ed="#L" n="27"/>Sententia huius distinctionis XIX. 
+      <lb ed="#L" n="28"/>in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e173225-d1e110">
+               <lb ed="#L" n="29"/>NVNC igitur quaeramus. Superius magister 
+      de<lb ed="#L" n="30" break="no"/>terminauit de merito Christi secundum quod ordi 
+      <lb ed="#L" n="31"/>natur ad consecutionem boni sibi &amp; nobis. Hi 
+      <lb ed="#L" n="32"/>determinat de ipso secundum quod ordinatur ad 
+      re<lb ed="#L" n="33" break="no"/>motionem mali in nobis, ipse enim in se nec 
+      sub<lb ed="#L" n="34" break="no"/>ditus fuit culpae, nec debitor poenae. Et diuiditur in duas. 
+      Pri<lb ed="#L" n="35" break="no"/>mo ostendit a quo sumus liberati per passionem Christi. 
+      Se<lb ed="#L" n="36" break="no"/>cundo determinat de causa passionis dist. 20. ibi, Si vero 
+      quae<lb ed="#L" n="37" break="no"/>ritur. Prima est principalis lectio. Et diuiditur in duas. Primo 
+      <lb ed="#L" n="38"/>ostendit a quibus malis Christus nos liberauit. Secundo de 
+      hi<lb ed="#L" n="39" break="no"/>quae dicuntur de Christo ratione huius liberationis ibi, vnde 
+      <lb ed="#L" n="40"/>dicitur. Prima in tres. Primo ostendit quomodo per praedictam 
+      <lb ed="#L" n="41"/>passionem liberati sumus a malo culpae &amp; a potestate instigar 
+      <lb ed="#L" n="42"/>tis ad culpam scilicet daemonis. Secundo ostendit quod hoc 
+      <lb ed="#L" n="43"/>non poterat esse nisi per Deum &amp; hominem ibi, factus est 
+      ho<lb ed="#L" n="44" break="no"/>mo. Tertio determinat de liberatione a poena ibi, A qua 
+      poen<lb ed="#L" n="45" break="no"/>temporali. Secunda pars principalis, vnde &amp; ipse, diuiditur in 
+      <lb ed="#L" n="46"/>tres. Primo ostendit per hanc deliberationem quod Christu: 
+      <lb ed="#L" n="47"/>debet dici redemptor. Secundo quod debet dici mediator ibi, 
+      <lb ed="#L" n="48"/>qui solus dicitur. Tertio ostendit secundum quam naturam 
+      di<lb ed="#L" n="49" break="no"/>catur mediator ibi, vnde &amp; mediator. Haec est sententia &amp; 
+      di<lb ed="#L" n="50" break="no"/>uisio lectionis in generali. 
+      </p>
+            <p xml:id="jsnvu6-e173225-d1e160">
+               <lb ed="#L" n="51"/>
+               <!--2--> IN SPECIALI sic procedit, &amp; proponit primo q 
+      <lb ed="#L" n="52"/>per mortem Christi sumus liberati a peccato &amp; principaliter 
+      <lb ed="#L" n="53"/>a diabolo per consequens inquantum sumus per Christum 
+      iu<lb ed="#L" n="54" break="no"/>stificati quod tripliciter apparet. Primo quia per mortem 
+      Chri<lb ed="#L" n="55" break="no"/>sti charitas in cordibus nostris excitatur, per quam iustificamur, 
+      <lb ed="#L" n="56"/>&amp; a peccatis liberamur, &amp; per consequens a diabolo qui per 
+      <lb ed="#L" n="57"/>peccatum vinctos nos tenebat. Secundo per fidem mortis eius 
+      <lb ed="#L" n="58"/>a peccatis mundamur &amp; iustificamur, sicut enim aspicientes ser 
+      <lb ed="#L" n="59"/>pentem aeneum in ligno sanabantur, sic cum per fidem in Chri 
+      <lb ed="#L" n="60"/>stum aspicimus qui pro nobis in ligno pependit a peccato 
+      sol<lb ed="#L" n="61" break="no"/>uimur, &amp; a diabolo liberamur. Tertio quia Christus sua morte 
+      <lb ed="#L" n="62"/>offerens verum sacrificium culpam destruxit per quam nos 
+      dia<lb ed="#L" n="63" break="no"/>bolus ligatos tenebat, &amp; eius potestatem in tantum debilitauit 
+      <lb ed="#L" n="64"/>quod licet tentari possimus, non tamen sine sponte nostra 
+      su<lb ed="#L" n="65" break="no"/>perari. Quod patet in Petro qui ante mortem Christi 
+      Chri<lb ed="#L" n="66" break="no"/>stum ad vocem ancillae negauit. Postea vero ante reges &amp; prae 
+      <lb ed="#L" n="67"/>fides ductus non timuit. Quod per plures auctoritates &amp; 
+      pa<lb ed="#L" n="68" break="no"/>rabolas euangelij de forti armato ostendit. Postea dicit 
+      quali<lb ed="#L" n="69" break="no"/>ter nos a diabolo liberauit dicens quod Deus factus est homo 
+      <lb ed="#L" n="70"/>per mortem eius diabolum vinceret qui ante hominem 
+      su<lb ed="#L" n="71" break="no"/>perauerat. Et sic non violenter, sed iuste eum vicit, dignum 
+      <lb ed="#L" n="72"/>erat, vt qui naturam humanam assumpserat per eam per quam 
+      <lb ed="#L" n="73"/>primo diabolus deuicerat vinceretur. Postea dicit quod 
+      Chri<lb ed="#L" n="74" break="no"/>stus nos a poena aeterna &amp; temporali liberauit siue redemit, al 
+      <lb ed="#L" n="75"/>aeterna quidem relaxando debitum, &amp; a temporali nos etiam l 
+      <lb ed="#L" n="76"/>berauit infundendo gratiam. Addit etiam quod poenam pecca 
+      <lb ed="#L" n="77"/>torum nostrorum portauit in corpore suo, quia omnis culpi 
+      <lb ed="#L" n="78"/>quae debetur homini pro peccatis deletur in baptismo 
+      totali<lb ed="#L" n="79" break="no"/>ter, &amp; in sacramento poenitentiae diminuitur, vnde concludit 
+      <lb ed="#L" n="80"/>quod filius dicitur noster redemptor secundum diuinam natu¬ 
+      <!--00495.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>ram pro vsu potestatis &amp; secundum humanam pro effectu 
+      hu<lb ed="#L" n="82" break="no"/>militatis, dicitur etiam mediator noster, quia per ipsum recor 
+      <lb ed="#L" n="83"/>ciliati sumus Deo patri. Postea quaerit, cum tota trinitas 
+      de<lb ed="#L" n="84" break="no"/>leat peccata, quare solus filius dicitur mediator. Et respondet 
+      <lb ed="#L" n="85"/>quod hoc est quia secundum humanitatem illa opera in se 
+      su<lb ed="#L" n="86" break="no"/>scepit quorum fide &amp; imitatione reconciliamur &amp; secundum 
+      <lb ed="#L" n="87"/>quam naturam habuit aliquid commune Deo, scilicet iustitiam 
+      <lb ed="#L" n="88"/>&amp; aliquid commune hominibus, scilicet mortalitatem qua 
+      <lb ed="#L" n="89"/>mediatori congruunt. Ex quo confunditur error dicentium in 
+      <lb ed="#L" n="90"/>Christo esse tantum vnam naturam scilicet humanam. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

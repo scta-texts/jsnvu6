@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="242-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e199130"><!-- l3d37prae -->
+            <head xml:id="jsnvu6-e199130-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e199130-d1e103">
+               <lb ed="#L" n="107"/>Sententia huius distinctionis XXXVII. 
+      <lb ed="#L" n="108"/>in generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e199130-d1e110">
+               <lb ed="#L" n="109"/>ED IAM distributio decalogi. Prius 
+      determi<lb ed="#L" n="110" break="no"/>nauit magister de habitibus virtutum &amp; donorum, 
+      <lb ed="#L" n="111"/>nunc agit de operibus mandatorum, per quae in 
+      <lb ed="#L" n="112"/>actibus virtutum dirigimur. Et diuiditur in tres, 
+      <lb ed="#L" n="113"/>Quia primo agit de septem mandatis quae 
+      par<lb ed="#L" n="114" break="no"/>tim consistunt in animo, partim in verbo, partim in facto. Et 
+      se<lb ed="#L" n="115" break="no"/>cundo prosequitur diffusius quaedam pertinentia ad octauum 
+      <lb ed="#L" n="116"/>mandatum quod consistit in verbo dist. 38. Sciendum tamen tria 
+      <lb ed="#L" n="117"/>esse genera mandatorum. Et tertio addit de duobus vltimis man 
+      <lb ed="#L" n="118"/>datis quae consistunt in animo dist. 40. sancta synodus decernit. 
+      <lb ed="#L" n="119"/>Prima diuiditur in duas. Quia primo agit de praeceptis primae 
+      <lb ed="#L" n="120"/>tabulae. Et secundo de praeceptis secundae ibi, In secunda vero 
+      <lb ed="#L" n="121"/>tabula. Prima diuiditur in quatuor. Quia primo assignat 
+      gene<lb ed="#L" n="122" break="no"/>raliter numerum praeceptorum. Et secundo exemplificat 
+      pri<lb ed="#L" n="123" break="no"/>mum. Tertio secundum. Quarto tertium. Secunda ibi, Primum 
+      <lb ed="#L" n="124"/>in prima tabula. Tertia ibi. Secundum praeceptum est. Quarta 
+      <lb ed="#L" n="125"/>ibi tertium vero est. Secunda istarum diuiditur in duas. Quia 
+      <lb ed="#L" n="126"/>primo ponit praecepti explicationem. Et secundo mouet &amp; 
+      sol<lb ed="#L" n="127" break="no"/>uit dubitationem incidentem. Sed quaeritur hic. Secunda pars 
+      <lb ed="#L" n="128"/>quae incipit ibi, In secunda vero, diuiditur in quinque parte 
+      <lb ed="#L" n="129"/>secundum quinque partes quae ibi explicantur &amp; patet in 
+      lite<lb ed="#L" n="130" break="no"/>ra. Haec est diuisio &amp; sententia in generali. 
+      </p>
+            <p xml:id="jsnvu6-e199130-d1e160">
+               <lb ed="#L" n="131"/>
+               <!--2--> IN SPECIALI sic procedit. Et primo dicit quod sunt 
+      <lb ed="#L" n="132"/>decem praecepta quorum tria primae tabulae ordinant nos ad Deum 
+      <lb ed="#L" n="133"/>Alia autem quae sunt in secunda tabula ordinant nos ad 
+      proxi<lb ed="#L" n="134" break="no"/>mum. Et statim ponit primum praeceptum. Non adorabis deo: 
+      <lb ed="#L" n="135"/>alienos. Non facies tibi sculptile, vbi dicit Origenes quod sunt duc 
+      <lb ed="#L" n="136"/>mandata. Sed Aug. dicit tantum esse vnum. Et secundum dictum 
+      <lb ed="#L" n="137"/>est expositio primi. Et ponit differentiam inter similitudinem &amp; 
+      <lb ed="#L" n="138"/>idolum, quia similitudo habet aliquid simile in rerum natura, 
+      ido<lb ed="#L" n="139" break="no"/>lum vero nihil, vt si aliquis caput hominis fingat in corpore ca 
+      <lb ed="#L" n="140"/>nis. Et ideo dicitur primo Cor. 8. quod idolum nihil est, quia nihil 
+      <lb ed="#L" n="141"/>est in rerum natura sibi correspondens, vel secundum Aug. 
+      ido<lb ed="#L" n="142" break="no"/>lum nihil est, quia licet materiam idoli natura ministret, formam 
+      <lb ed="#L" n="143"/>tamen fecit flultitia hominum. Et ideo nihil est sicut &amp; 
+      pecca<lb ed="#L" n="144" break="no"/>tum nihil est. Tunc obiicit contra hoc, quia secundum eundem 
+      <lb ed="#L" n="145"/>Augustinum omnis forma facta est per verbum,; ergo vt videtur 
+      <lb ed="#L" n="146"/>forma idoli bona est &amp; perfecta per verbum. Et respondet quod 
+      <lb ed="#L" n="147"/>forma idoli inquantum est, a Deo est, sed non inquantum est 
+      <lb ed="#L" n="148"/>forma idoli, id est, posita ad adorandum, sic enim est peccatum. 
+      <lb ed="#L" n="149"/>Secundum praeceptum est, non assumes nomen Dei tui in vanum, 
+      <lb ed="#L" n="150"/>&amp; est sensus literalis non iurabis pro nihilo &amp; subdit allegoriam. 
+      <lb ed="#L" n="151"/>Tertium mandatum est memento vt diem sabbati sanctifices, 
+      <lb ed="#L" n="152"/>&amp; ad literam praecipitur obseruatio sabbati, &amp; subditur allego 
+      <lb ed="#L" n="153"/>ria. Haec sunt tria praecepta primae tabulae. Primum autem 
+      praece<lb ed="#L" n="154" break="no"/>ptum secundae tabulae est honora patrem &amp; matrem, per quod 
+      praeci<lb ed="#L" n="155" break="no"/>pitur nobis reuereri parentes: &amp; eis necessaria ministrare. Aliud 
+      <lb ed="#L" n="156"/>est non occides. Aliud est non moechaberis, vbi nomine Moechia 
+      <lb ed="#L" n="157"/>intelligitur omnis illicitus concubitus. Aliud est non furtum facie 
+      <lb ed="#L" n="158"/>in quo prohibetur sacrilegium rapina, &amp; vsura sicut declaratur in 
+      <lb ed="#L" n="159"/>litera. Tio quaeritur, vtrum filij Israel qui acceperunt ab 
+      Aegyptii<lb ed="#L" n="160" break="no"/>vasa aurea, &amp; argentea, &amp; vestes, &amp; illa asportauerunt 
+      commise<lb ed="#L" n="161" break="no"/>rint furtum, &amp; respondet quod illi qui hoc fecerunt obediendo 
+      ius<lb ed="#L" n="162" break="no"/>sioni diuinae, non peccauerunt, quia Deus est dominus omnium. 
+      <!--00558.xml-->
+      <pb ed="#L" n="242-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>illi autem qui hoc fecerunt ex cupiditate peccauerunt. Postea 
+      <lb ed="#L" n="2"/>arguit quod omnes peccauerunt, quia omnes fecerunt contra 
+      <lb ed="#L" n="3"/>praeceptum iuris naturalis, quod etiam exprimitur lege diuina, 
+      <lb ed="#L" n="4"/>videlicet non facies alij quod tibi non vis fieri. Et respondet. 
+      <lb ed="#L" n="5"/>supplendum est; non faciens alij iniuste quod tibi non vis fieri 
+      <lb ed="#L" n="6"/>Vltimo ponit aliud praeceptum quod est, non loquaris contra 
+      <lb ed="#L" n="7"/>proximum tuum falsum testimonium, vbi prohibetur 
+      express<lb ed="#L" n="8" break="no"/>mendacium quod obest proximo. Sed quia de mendacio &amp; 
+      per<lb ed="#L" n="9" break="no"/>iurio agetur in sequenti distinctione. Ideo magister breuiter 
+      <lb ed="#L" n="10"/>transit. Haec est sententia &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

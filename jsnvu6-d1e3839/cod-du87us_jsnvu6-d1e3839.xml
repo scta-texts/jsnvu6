@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="161-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3839"><!-- l2d33q3 -->
+            <head xml:id="jsnvu6-d1e3839-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-d1e3839-Hd1e103" type="question-title">Utrum pueri decedentes in peccato originali doleant de carentia visionis divinae</head>
+            <p xml:id="jsnvu6-d1e3839-d1e106">
+               <lb ed="#L" n="11"/>QVAISTIO TERTIA. 
+      <lb ed="#L" n="12"/>Vtrum pueri mortui cum solo originali doleant 
+      <lb ed="#L" n="13"/>de carentia visionis diuinae. 
+      <lb ed="#L" n="14"/>Gand. quadl. 6 4. 21. Tba. g. 4.. ar. 4. ad siccundum
+    </p>
+            <p xml:id="jsnvu6-d1e3839-d1e117">
+               <lb ed="#L" n="15"/>TERTIO quaeritur, vtrum pueri decedentes in 
+      <lb ed="#L" n="16"/>Coriginali doleant de carentia visionis diuinae. Et 
+      <lb ed="#L" n="17"/>videtur quod sic, quia sicut se habent pueri 
+      ba<lb ed="#L" n="18" break="no"/>ptizati ad meritum Christi, ita se habent non 
+      <lb ed="#L" n="19"/>baptizati ad demeritum Adae, sed baptizati 
+      gau<lb ed="#L" n="20" break="no"/>dent de merito Christi per quod perueniunt ad diuinam 
+      visio<lb ed="#L" n="21" break="no"/>nem, ergo non baptizati dolent de demerito Adae, per quod 
+      <lb ed="#L" n="22"/>carent diuina visione. Item carere illo quod quis vellet non 
+      po<lb ed="#L" n="23" break="no"/>test esse sine afflictione, sed pueri vellent vide re deum, alioquin 
+      <lb ed="#L" n="24"/>voluntas eorum esset peruersa, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3839-d1e141">
+               <lb ed="#L" n="25"/>
+               <!--3--> CONTRA. poena paruulorum in originali decedentium 
+      <lb ed="#L" n="26"/>est mitissima secundum August. sed hoc non esset si dolerent de 
+      <lb ed="#L" n="27"/>carentia visionis diuinae. Nam secundum Criso. in damnatis 
+      gra<lb ed="#L" n="28" break="no"/>uior poena est quod dei visione carebunt quam quod igne 
+      cre<lb ed="#L" n="29" break="no"/>mabuntur, ergo, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e3839-d1e158">
+               <lb ed="#L" n="30"/>
+               <!--4--> RESPONSIO. de hac quaestione quo ad conclusionem 
+      <lb ed="#L" n="31"/>concors est doctorum sententia, scilicet, quod pueri non 
+      bapti<lb ed="#L" n="32" break="no"/>zati non dolent de carentia visionis diuinae, diuersificantur 
+      ta<lb ed="#L" n="33" break="no"/>men in assignando causam, quidam enim dicunt quod hoc est 
+      <lb ed="#L" n="34"/>pro tanto, quia sciunt quod non propria voluntate, sed alterius 
+      <lb ed="#L" n="35"/>culpam incurrerunt pro qua damnati sunt. Sed hoc nihil est, quia 
+      <lb ed="#L" n="36"/>non minus quis dolet de amissione alicuius boni ex facto 
+      alte<lb ed="#L" n="37" break="no"/>rius quam si esset ex facto suo. Immunitas enim a culpa dolorem 
+      <lb ed="#L" n="38"/>non minuit, sed auget. Pueri autem priuantur visione dei ex 
+      <lb ed="#L" n="39"/>culpa primi parentis &amp; non ex propria. In eis enim non est nis 
+      <lb ed="#L" n="40"/>reatus primae culpae vt dictum est. 
+      </p>
+            <p xml:id="jsnvu6-d1e3839-d1e187">
+               <lb ed="#L" n="41"/>
+               <!--5--> Ideo alij dicunt eos non dolere, quia nullus sapiens dolet de 
+      <lb ed="#L" n="42"/>amissione eius ad quod nunquam habuit facultatem, vel 
+      propor<lb ed="#L" n="43" break="no"/>tionem sicut sapiens homo non affligitur de hoc quod non potes 
+      <lb ed="#L" n="44"/>volare, vel si est filius rustici, de hoc quod non peruenit ad regnum 
+      <lb ed="#L" n="45"/>vel imperium. Pueri autem non baptizati nunquam fuerunt 
+      pro<lb ed="#L" n="46" break="no"/>portionati ad hoc quod deum viderent, quia nec eis debebatur ex 
+      <lb ed="#L" n="47"/>principiis naturae, nec gratiam habuerunt pertingendo 
+      sacramen<lb ed="#L" n="48" break="no"/>tum baptismi vt sic saltem ex merito Christi ad visionem dei 
+      per<lb ed="#L" n="49" break="no"/>tingerent, nec actus proprios habuerunt per quos se ad hoc 
+      di<lb ed="#L" n="50" break="no"/>sponerent, ideo &amp;c. Sed nec istud videtur sufficere, quia licet 
+      pue<lb ed="#L" n="51" break="no"/>ri non baptizati non habuerint in se aptitudinem ad 
+      consecutio<lb ed="#L" n="52" break="no"/>nem gloriae, tamen habuerunt eam in sua radice scilicet in primo 
+      <lb ed="#L" n="53"/>parente, &amp; ideo sicut filius militis (cui scilicet militi gratis collatum 
+      <lb ed="#L" n="54"/>esset imperium pro se &amp; pro sua tota posteritate) doleret si ob cul 
+      <lb ed="#L" n="55"/>pam patris priuaretur iure imperij, ita videtur quod pueri non 
+      ba<lb ed="#L" n="56" break="no"/>ptizati doleant si sciant ex culpa primi parentis se esse priuatos 
+      vi<lb ed="#L" n="57" break="no"/>sione diuina ad quam peruenissent nisi culpa patris impediuisset. 
+      </p>
+            <p xml:id="jsnvu6-d1e3839-d1e229">
+               <lb ed="#L" n="58"/>
+               <!--6--> Ideo videtur aliter dicendum quod dolor, vel gaudium 
+      di<lb ed="#L" n="59" break="no"/>aliquo bono, vel malo supponunt eius cognitionem. Sed pueri 
+      <lb ed="#L" n="60"/>non baptizati non habent aliquam cognitionem de 
+      beatitudi<lb ed="#L" n="61" break="no"/>ne seu visione diuina, ideo &amp;c. Minor probatur, quia ratio 
+      na<lb ed="#L" n="62" break="no"/>turalis ex se non attingit ad cognitionem beatitudinis, sed est opus 
+      <lb ed="#L" n="63"/>praedicante (sicut dicitur Romanorum decimo, quod fides est ex 
+      <lb ed="#L" n="64"/>auditu vel diuina reuelatione) paruuli autem non baptizati, lice 
+      <lb ed="#L" n="65"/>vigeant cognitione naturali, cognitione tamen fidei carent, cum 
+      <lb ed="#L" n="66"/>nec fidei sacramentum susceperint, nec doctrinam, nec est 
+      cre<lb ed="#L" n="67" break="no"/>dendum quod eis reueletur, quia non subest causa seu ratio re 
+      <lb ed="#L" n="68"/>uelandi, hoc enim solum cederet ad eorum afflictionem.
+</p>
+            <p xml:id="jsnvu6-d1e3839-d1e258">
+               <lb ed="#L" n="69"/>Sed contra hoc arguitur, quia vt tenetur communiter in 
+      ge<lb ed="#L" n="70" break="no"/>nerali iudicio omnes videbunt dei iudicium esse iustum pro eo 
+      <lb ed="#L" n="71"/>quod peccata singulorum omnibus apparebunt. Cum igitur 
+      de<lb ed="#L" n="72" break="no"/>cedentes in solo peccato originali resurgant &amp; ad iudicium 
+      perti<lb ed="#L" n="73" break="no"/>neant, videtur quod tunc cognoscant bonos praemiari visione 
+      <lb ed="#L" n="74"/>diuina propter suum meritum, se autem priuari eadem visione 
+      <lb ed="#L" n="75"/>propter suum demeritum, vel propter demeritum primi parentis, 
+      <lb ed="#L" n="76"/>qualiter ergo tunc non dolebunt quando haec cognoscent, 
+      quam<lb ed="#L" n="77" break="no"/>uis modo possunt non dolere, quia forte hoc non cognoscunt! 
+      </p>
+            <p xml:id="jsnvu6-d1e3839-d1e280">
+               <lb ed="#L" n="78"/>
+               <!--8--> Et ad hoc potest dici quod iudicium proprie erit de peccatis 
+      <lb ed="#L" n="79"/>commissis quae non sunt in pueris decedentibus in peccato ori¬ 
+      <!--00390.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>ginali. vnde sicut illi qui essent nati in puris naturalibus absque 
+      <lb ed="#L" n="81"/>originali peccato, &amp; sic decederent, non pertinerent proprie ad 
+      <lb ed="#L" n="82"/>fudicium, carerent tamen visione diuina, quae non datur nisi ha 
+      <lb ed="#L" n="83"/>bentibus gratiam Christi. Sic pueri decedentes in originali, qui 
+      <lb ed="#L" n="84"/>non commiserunt aliquod actuale peccatum, non pertinebunt 
+      <lb ed="#L" n="85"/>proprie ad iudicium. Carebunt tamen visione diuina, quia non 
+      <lb ed="#L" n="86"/>fuerunt regenerati per gratiam Christi, nec oportet qo cognoscant. 
+      <lb ed="#L" n="87"/>se esse priuatos gratia, &amp; per consequens visione diuina propter 
+      <lb ed="#L" n="88"/>peccatum primi parentis, cum talis cognitio pertineat ad fidem, 
+      <lb ed="#L" n="89"/>&amp; in ipsis ponitur esse sola cognitio naturalis: propter quod non 
+      <lb ed="#L" n="90"/>oportet quod doleant de carentia visionis diuinae quam ignorant, 
+      <lb ed="#L" n="91"/>cum enim sint perfecti in cognitione naturali sciunt quod 
+      cogni<lb ed="#L" n="92" break="no"/>tio naturalis non se extendit, nisi ad illud quod ipsi cognoscunt. 
+      <lb ed="#L" n="93"/>Vel dato quod in iudicio ipsi cognoscerent, quod bonm qui per 
+      <lb ed="#L" n="94"/>gratiam &amp; proprium opus aliquid meruerunt, habebunt pro 
+      prae<lb ed="#L" n="95" break="no"/>mio aliquod donum supernaturale quo ipsi carebunt, ex hoc 
+      <lb ed="#L" n="96"/>tamen nullum dolorem habebunt; quia in ipsis non erit aliqua 
+      <lb ed="#L" n="97"/>obliquitas voluntatis, ita vt irrationabiliter doleant de 
+      quocuu<lb ed="#L" n="98" break="no"/>que. Dolerent autem irrationabiliter de carentia visionis 
+      diui<lb ed="#L" n="99" break="no"/>nae, quia non datur nisi per gratiam Christi quam ipsi non 
+      ha<lb ed="#L" n="100" break="no"/>buerunt, nec habere meruerunt, nec oportet quod sciant se 
+      <lb ed="#L" n="101"/>priuatos gratia &amp; gloria propter peccatum primi parentis.
+</p>
+            <p xml:id="jsnvu6-d1e3839-d1e341">
+               <lb ed="#L" n="102"/>AD PRIMVM argumentum dicendum quod pueri 
+      ba<lb ed="#L" n="103" break="no"/>ptizati merito Christi veniunt ad visionem dei quae non potest 
+      <lb ed="#L" n="104"/>eos latere, &amp; ideo gaudent de tanto bono adepto. Sed pueros 
+      <lb ed="#L" n="105"/>damnatos forte latet causa suae damnationis, scilicet demeritum 
+      <lb ed="#L" n="106"/>Adae, &amp; solum cognoscunt se non habere illam visionem 
+      diuin<lb ed="#L" n="107" break="no"/>essentiae, ad quam homines possunt per solam gratiam Christi 
+      <lb ed="#L" n="108"/>attingere, cuius ipsi non fuerunt participes, propter quod ipsi 
+      <lb ed="#L" n="109"/>de hoc non possunt rationabiliter dolere. 
+      </p>
+            <p xml:id="jsnvu6-d1e3839-d1e362">
+               <lb ed="#L" n="110"/>
+               <!--10--> Ad secundum dicendum quod voluntas puerorum non est 
+      <lb ed="#L" n="111"/>peruersa, dato quod non velint videre deum visione beata, sed 
+      <lb ed="#L" n="112"/>potius esset peruersa si hoc vellent cum ad eam non sit accessus 
+      <lb ed="#L" n="113"/>creaturae nisi per gratiam Christi, cuius ipsi non sunt capaces.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

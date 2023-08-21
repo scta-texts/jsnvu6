@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="192-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e157506"><!-- l3d5q3 -->
+            <head xml:id="jsnvu6-e157506-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-e157506-Hd1e103" type="question-title">
+      Utrum vnio naturae humanae ad verbum 
+      sit maxima vnionum
+    </head>
+            <p xml:id="jsnvu6-e157506-d1e106">
+               <lb ed="#L" n="77"/>QVAISTIO TIRTIA. 
+      <lb ed="#L" n="78"/>Vtrum vnio naturae humanae ad verbum 
+      <lb ed="#L" n="79"/>sit maxima vnionum. 
+      <lb ed="#L" n="80"/>Thom. 3. 9. 2. a1. 9. 
+    </p>
+            <p xml:id="jsnvu6-e157506-d1e117">
+      <!--00457.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>ECYNDO quaeritur, vtrum ista vnio sit maxima 
+      <lb ed="#L" n="82"/>vnionum. Et arguitur quod sic. Primo per Bero. lib. 
+      <lb ed="#L" n="83"/>de considerat. vbi dicit o inter omnes vnitate 
+      <lb ed="#L" n="84"/>arcem tenet vnitas trinitatis. &amp; post eam est vnio 
+      <lb ed="#L" n="85"/>Adignissima, quae est in Christo, sed vnitas trinita 
+      <lb ed="#L" n="86"/>tis, est increata, quum ergo post illam vnio incarnationis sit maxi 
+      <lb ed="#L" n="87"/>ma, videtur quod inter omnes vniones creatas, illa sit praecipua 
+      </p>
+            <p xml:id="jsnvu6-e157506-d1e139">
+               <lb ed="#L" n="88"/>
+               <!--2--> Item August. dicit I. de trinit. quod homo potius est in filis 
+      <lb ed="#L" n="89"/>quam filius in patre. Sed pater &amp; filius sunt vnum vnitare 
+      potissi<lb ed="#L" n="90" break="no"/>ma, ergo Deus &amp; homo sunt vnum vnitate adhuc potiore.
+</p>
+            <p xml:id="jsnvu6-e157506-d1e151">
+               <lb ed="#L" n="91"/>IN CONTRARIVM arguitur, illa vnio est magi 
+      <lb ed="#L" n="92"/>vna, per quam ex vnitis fit vnum in persona &amp; natura, quam ill 
+      <lb ed="#L" n="93"/>per quam fit vnum solum in persona, &amp; non in natura, sed per 
+      <lb ed="#L" n="94"/>vnionem materiae cum forma fit vnum in natura &amp; persona, vt 
+      <lb ed="#L" n="95"/>in Sorte per vnionem autem incarnationis non fit vnum in 
+      na<lb ed="#L" n="96" break="no"/>tura, sed solum in persona, vt patet ex praeced. quaest. ergo vnio 
+      <lb ed="#L" n="97"/>materiae cum forma est major alia. 
+      </p>
+            <p xml:id="jsnvu6-e157506-d1e169">
+               <lb ed="#L" n="98"/>
+               <!--4--> RESPONSIO. Dicendum est primo quid sit vnio, e 
+      <lb ed="#L" n="99"/>qualiter differat ab assumptione. Et secundo videbitur de prope 
+      <lb ed="#L" n="100"/>sito. Quantum ad primum sciendum est quod vnio quandoque 
+      acci<lb ed="#L" n="101" break="no"/>pitur pro actione, per quam aliqua vniuntur, quandoque vero pro 
+      <lb ed="#L" n="102"/>relatione, per quam aliquid formaliter dicitur alteri vnitum: &amp; 
+      ist<lb ed="#L" n="103" break="no"/>secundus nodus videtur esse magis proprius quam primus, 
+      <lb ed="#L" n="104"/>quia actio per quam aliqua vniuntur magis proprie videtur 
+      im<lb ed="#L" n="105" break="no"/>portari nomine vnitionis, quam nomina vnionis, quandoque 
+      ta<lb ed="#L" n="106" break="no"/>mem vnum accipitur pro alio. Si ergo vnio accipiatur pro 
+      actio<lb ed="#L" n="107" break="no"/>ne, sic differt ab assumptione dupliciter. Vno modo sicut differt 
+      <lb ed="#L" n="108"/>superius ab inferiore, quia vnio est in plus quam assumptio. 
+      <lb ed="#L" n="109"/>Omnis enim assumptio est vnio. Sed non omnis vnio est assum 
+      <lb ed="#L" n="110"/>ptio. Est enim vnio materiae cum forma, subiecti cum 
+      acciden<lb ed="#L" n="111" break="no"/>te, &amp; corporum per contactum, colligationem, &amp; huiusmodi, 
+      <lb ed="#L" n="112"/>vbi nulla est assumptio, prout de assumptione loquimur. Secun 
+      <lb ed="#L" n="113"/>do modo differunt etiam, vbi concurrunt in idem secundum 
+      <lb ed="#L" n="114"/>numerum, quia assumptio importat actionem, per quam aliqua 
+      <lb ed="#L" n="115"/>vniuntur cum determinatione vtriusque extremi hac (scilicet! 
+      <lb ed="#L" n="116"/>quod vnum extremorum est passum, aliud vero agens: est enim 
+      <lb ed="#L" n="117"/>assumptio alicuius ad se sumptio, vnio vero importat solum 
+      <lb ed="#L" n="118"/>actionem, per quam aliqua vniuntur absque tali 
+      determinatio<lb ed="#L" n="119" break="no"/>ne, sed cum omnimoda indifferentia ad vtrumque. 
+      </p>
+            <p xml:id="jsnvu6-e157506-d1e221">
+               <lb ed="#L" n="120"/>
+               <!--5--> Ex quo sequuntur duo. Primum est, quod etiam in eadem actioni 
+      <lb ed="#L" n="121"/>puta in incarnatione verum est dicere quod omne assumens est 
+      <lb ed="#L" n="122"/>vniens ratione actionis. Sed non est verum dicere quod omnae vniens 
+      <lb ed="#L" n="123"/>sit assumens ratione extremi, quod includitur in assumente, non 
+      <lb ed="#L" n="124"/>autem in vniente. Vnde pater fuit vniens natura humanam diuinae 
+      <lb ed="#L" n="125"/>sed non fuit assumens, quia assumens dicit veniens aliquid sibi: 
+      <lb ed="#L" n="126"/>pater autem non vniuit naturam humanam sibi, sed filio. Secundum 
+      <lb ed="#L" n="127"/>quod sequitur est quod assumens non potest dici assumptum vniens, 
+      <lb ed="#L" n="128"/>tamen bene potest dici vnitum, sicut filius dicitur vniens sibi 
+      na<lb ed="#L" n="129" break="no"/>turam humanam, &amp; vnitus naturae humanae. Sed sic dicitur 
+      affu<lb ed="#L" n="130" break="no"/>mens, quod non dicitur assumptus. Et causa est, quia assumptio 
+      <lb ed="#L" n="131"/>differenter respicit extrema, vnio autem indifferenter. 
+      </p>
+            <p xml:id="jsnvu6-e157506-d1e252">
+               <lb ed="#L" n="132"/>
+               <!--6--> Si autem vnio sumatur pro relatione, sic differt ab assumptio 
+      <lb ed="#L" n="133"/>ne, sicut terminus ab actione &amp; passione quam terminat, sicut 
+      <lb ed="#L" n="134"/>dictum fuit in praeced. quaest. Et quia actio &amp; passio differenter 
+      re<lb ed="#L" n="135" break="no"/>spiciunt agens &amp; passum, relatio vero similium nominum (vt est vnio) 
+      <lb ed="#L" n="136"/>aequaliter respicit vtrumque extremum: ideo quodlibet 
+      extremo<lb ed="#L" n="137" break="no"/>rum dicitur vnitum, sed non assumptum, sicut filius dei dicitur 
+      <lb ed="#L" n="138"/>vnitus humanae naturae. sed non assumptus, &amp; sic patet primum 
+      </p>
+            <p xml:id="jsnvu6-e157506-d1e272">
+               <lb ed="#L" n="139"/>
+               <!--7.--> Quantum ad secundum, sciendum est quod cum ratio actionis su 
+      <lb ed="#L" n="140"/>matur ex termino. Vnio autem, vt dicit actione, terminatur ad 
+      <lb ed="#L" n="141"/>vnionem, vt dicit relationem. Ideo totum iudicium in hac quaest. 
+      <lb ed="#L" n="142"/>debet sumi ex vnione, quae est relatio. Dicendum est ergo quod 
+      <lb ed="#L" n="143"/>vnio incarnationis non est maxima vnionum creatarum, 
+      quan<lb ed="#L" n="144" break="no"/>tum ad rationem vnionis intrinsecam, est tamen maxima 
+      secun<lb ed="#L" n="145" break="no"/>dum dignitatem. Primum patet, quia per vnionem dicuntur 
+      ali<lb ed="#L" n="146" break="no"/>qua vnum: ratio autem vnius est ratio indiuisi: ergo illa vnio est 
+      <lb ed="#L" n="147"/>maxima, cuius extrema magis &amp; intimius efficiunt vnum. Sed 
+      <lb ed="#L" n="148"/>extrema multarum vnionum (puta materiae cum forma) magiss 
+      <lb ed="#L" n="149"/>intimus efficiunt, vel efficiuntur vnum, quam extrema 
+      incarna<lb ed="#L" n="150" break="no"/>tionis: constituunt enim vnum per essentiam vnum etiam non potes 
+      <lb ed="#L" n="151"/>separari ab altero, saltem materia a forma salua consistentia, &amp; 
+      <lb ed="#L" n="152"/>natura sua, quod est signum magnae intimitatis: inter extrema autem 
+      <lb ed="#L" n="153"/>incarnationis non est talis vnitas, nec talis intimitas, quia nec con 
+      <lb ed="#L" n="154"/>stituunt vnam naturâ, nec vnum est inseparabile ab altero: ergo 
+      <lb ed="#L" n="155"/>vnio materiae cum forma est major quantum ad rationem 
+      vnio<lb ed="#L" n="156" break="no"/>nis quam vnio incarnationis. Vnio tamen incarnationis est 
+      ma<lb ed="#L" n="157" break="no"/>ior, quoad dignitatem, propter nobilitatem extremorum, &amp; 
+      pro<lb ed="#L" n="158" break="no"/>pter vtilitatem finis, ad quam talis vnio ordinatur. 
+      </p>
+            <p xml:id="jsnvu6-e157506-d1e320">
+               <lb ed="#L" n="159"/>
+               <!--8--> Et secundum hunc sensum intelligendum est dictu beati 
+      Ber<lb ed="#L" n="160" break="no"/>nard. quia vnio incarnationis post vnionem trinitatis tenet arcem, 
+      <lb ed="#L" n="161"/>quoad dignitatem, non autem quoad rationem vnionis. 
+      </p>
+            <p xml:id="jsnvu6-e157506-d1e332">
+               <lb ed="#L" n="162"/>
+               <!--9--> Ad illud quod dicit beatus Augo. quod homo est magis in flio, 
+      <!--00458.xml-->
+      <pb ed="#L" n="192-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quam filius in patre, intelligendum est non simpliciter &amp; 
+      abso<lb ed="#L" n="2" break="no"/>lute, sed quoad vnitatem personae, quia idem personaliter est 
+      <lb ed="#L" n="3"/>deus &amp; homo, non autem sunt idem personaliter pater &amp; filius
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

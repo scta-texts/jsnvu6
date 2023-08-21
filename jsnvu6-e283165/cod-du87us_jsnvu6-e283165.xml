@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="344-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e283165"><!-- l4d44q6 -->
+            <head xml:id="jsnvu6-e283165-Hd1e101">Quaestio 6</head>
+            <head xml:id="jsnvu6-e283165-Hd1e103" type="question-title">
+      Utrum virtute diuina corpus gloriosum 
+      possit esse cum alio corpore glorioso 
+      velnon glorioso
+    </head>
+            <p xml:id="jsnvu6-e283165-d1e106">
+               <lb ed="#L" n="69"/>QVAESTIO VI. 
+      <lb ed="#L" n="70"/>Vtrum virtute diuina corpus gloriosum 
+      pos<lb ed="#L" n="71" break="no"/>sit esse cum alio corpore glorioso 
+      vel<lb ed="#L" n="72" break="no"/>non glorioso. 
+    </p>
+            <p xml:id="jsnvu6-e283165-d1e117">
+               <lb ed="#L" n="73"/>DEinde quaeritur vtrum virtute diuina corpus 
+      <lb ed="#L" n="74"/>gloriosum possit esse cum alio corpore glorioso 
+      <lb ed="#L" n="75"/>vel non gloriosque Et arguitur quod non quia 
+      ae<lb ed="#L" n="76" break="no"/>qualiter videtur possibile quod idem corpus sit 
+      <lb ed="#L" n="77"/>simul in diuersis locis circunscriptiue, &amp; quod 
+      <lb ed="#L" n="78"/>duo corpora sint simul in eodem loco, sed primum non potest 
+      <lb ed="#L" n="79"/>fieri quocunque virtute, vt communiter ponitur, ergo nec 
+      <lb ed="#L" n="80"/>secundum
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e137">. 
+      <lb ed="#L" n="81"/>Item Boctius io lib. de rinie. dicit que si animo cuncta acci 
+      <!--00761.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="82"/>dentia a corporibus separemus, tamen locus est cunctis 
+      diuer<lb ed="#L" n="83" break="no"/>sus, quem vnum fingere nullo modo possumus, sed illud non est 
+      <lb ed="#L" n="84"/>poslibile quacunque virtute quod non potest mente 
+      concipi<lb ed="#L" n="85" break="no"/>tale enim videtur implicare contradictionem, ergo videtur 9 
+      <lb ed="#L" n="86"/>nulla virtute possunt duo corpora simul esse in eodem loco. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e158">
+               <lb ed="#L" n="87"/>
+               <!--3--> Item sicut prius arguebatur, sicut se habent duo accidentia eiusdem ? 
+      <lb ed="#L" n="88"/>speciei ad subiectum, sic duo corpora ad locum, sed duo 
+      acci<lb ed="#L" n="89" break="no"/>dentia eiusdem speciei non possunt simul esse in eodem subiecto, et 
+      <lb ed="#L" n="90"/>go nec duo corpora in eodem loco. Minor probatur, quia duo 
+      ac<lb ed="#L" n="91" break="no"/>cidentia elusdem speciei vel sunt aequalis gradus, vel inaequalis, 
+      <lb ed="#L" n="92"/>puta quia vnum est intensius altero: si sint inaequalis gradus 
+      im<lb ed="#L" n="93" break="no"/>possibile est quod sint simul in eodem subiecto, alioquin idem 
+      sub<lb ed="#L" n="94" break="no"/>iectum posset simul esse magis album, &amp; minus album, quod 
+      vide<lb ed="#L" n="95" break="no"/>tur implicare contradictionem: &amp; iterum, termini motus vel 
+      mu<lb ed="#L" n="96" break="no"/>tationis &amp; remissionis non sunt compossibiles, sed huiusmodi 
+      <lb ed="#L" n="97"/>accidentia possunt esse termini motus vel mutationis secundum 
+      al<lb ed="#L" n="98" break="no"/>terationem intensionis &amp; remissionis, quare &amp;c. Si vero sint eius. 
+      <lb ed="#L" n="99"/>dem gradus, idem sequitur, quia subiectum non est in potentia ad 
+      ali<lb ed="#L" n="100" break="no"/>qua formam nisi mediante mutatione, sed subiectum habens ali 
+      <lb ed="#L" n="101"/>quam formam non potest mutari ad consimilem eiusdem gradus 
+      <lb ed="#L" n="102"/>priori manente: quia idem non potest simul esse tale formaliter in 
+      <lb ed="#L" n="103"/>actu, &amp; tale in potentia, sed illud sequeretur si subiectum 
+      ha<lb ed="#L" n="104" break="no"/>bens aliquam formam posset mutari ad consimilem, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e202">
+               <lb ed="#L" n="105"/>
+               <!--4--> IN contrarium arguitur, quia sicut se habent duae naturae com 
+      <lb ed="#L" n="106"/>pletae, quarum quaelibet est nata constituere proprium suppositum 
+      <lb ed="#L" n="107"/>ad vtilitatem suppositi, sic se habent duo corpora quorum quod libet 
+      <lb ed="#L" n="108"/>natum est occupare locum ad vnitatem loci, sed plures tales 
+      natu<lb ed="#L" n="109" break="no"/>rae possunt esse simul in eodem supposito diuina virtute, sicut fuit 
+      <lb ed="#L" n="110"/>in Christo, ergo similiter duo corpora possunt esse in eodem 
+      lo<lb ed="#L" n="111" break="no"/>co simul diuina virtute. Ad idem est quod dicit Dam. in lib. 4. ca. 
+      <lb ed="#L" n="112"/>vl. vbi dicit, quod corpus gloriosum erit spirituale quale fuit 
+      <lb ed="#L" n="113"/>corpus dni post resurrectionem clausis ianuis pertransiens. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e226">
+               <lb ed="#L" n="114"/>
+               <!--5--> RESPONSIO. Circa illam quaest. est duplex modus 
+      di<lb ed="#L" n="115" break="no"/>cendi. Primus est communlor, &amp; magis concors dictis diuinae 
+      scri<lb ed="#L" n="116" break="no"/>pturae quantum ad superficiem literae, &amp; secundum quod communius 
+      ex<lb ed="#L" n="117" break="no"/>ponitur. s.quod quaecunque plura corpora possunt esse in eodem loco 
+      <lb ed="#L" n="118"/>simul virtute diuina, &amp; illud probatur primo quantum ad 
+      con<lb ed="#L" n="119" break="no"/>clusionem. Et secundo datur modus possibilitatis. Primum probatur 
+      <lb ed="#L" n="120"/>ex multis. Primo qga Christus natu est clauso matris vtero. 
+      Re<lb ed="#L" n="121" break="no"/>masi enim virgo post partum sed istud non potuit esse nisi 
+      cor<lb ed="#L" n="122" break="no"/>pus Christi nascendo simul esseteum corpore matris, quare &amp;e. 
+      <lb ed="#L" n="123"/>Secundo qui a Christus ponitur surrexisse clauso sepulchro, quod 
+      si<lb ed="#L" n="124" break="no"/>militer non potuit esse, nisi simul esset corpus Christi cum 
+      lapi<lb ed="#L" n="125" break="no"/>dibus sepulchri, &amp; sic idem quod prius. Tertio qui a Christus post 
+      re<lb ed="#L" n="126" break="no"/>surrectionem intrauit ad discipulos ianuis clausis, vt habet loam. 
+      <lb ed="#L" n="127"/>22. quare &amp;c. Quario quia corpus caeleste non potuit diuidi salien 
+      <lb ed="#L" n="128"/>quantum ad substantiam sphaerarum: vnde dicitur Iob 3. quod eae 
+      <lb ed="#L" n="129"/>li solidissimi quasi aere fusi sunt. Si ergo corpus gloriosum non 
+      <lb ed="#L" n="130"/>posset simul esse cum alio corpore, nunquam corps Christi 
+      ascendis<lb ed="#L" n="131" break="no"/>set ad eaelum empyreum, nec corpora sanctorum post resurrectionem 
+      <lb ed="#L" n="132"/>illue ascenderent, quod est erroneum Quinto quia corpus non 
+      impedi<lb ed="#L" n="133" break="no"/>tur esse cum alio corpore nisi ratione quamtitatis, vt patet ex praece 
+      <lb ed="#L" n="134"/>denti quae stione, sed virtute diuina fit quod in sacramento altaris corp 
+      <lb ed="#L" n="135"/>Chr, sit simul cum quantitate panis ergo eadem virtute posset Feri 
+      <lb ed="#L" n="136"/>quod esset simul tum substantia panis, &amp; sic duo corpora essent simul. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e281">
+               <lb ed="#L" n="137"/>
+               <!--6.--> Modus autem quo hoc est possibile est talis. Quantitas enim 
+      <lb ed="#L" n="138"/>per quam corpus comparatur ad locum habet duo facere, scili 
+      <lb ed="#L" n="139"/>cet reddere corpus quantum, &amp; occupare locum: &amp; primum est 
+      <lb ed="#L" n="140"/>actus eius formalis. Secundum est actus eius quasi causae efficien 
+      <lb ed="#L" n="141"/>tis. Ex quo potest tripliciter argui. Et primo sic: sicut se habet 
+      <lb ed="#L" n="142"/>calor ad calefaciendum, sic quantitas ad occupandum locum 
+      <lb ed="#L" n="143"/>sed virtute diuina potest fieri quod calor praesens calefactibili 
+      <lb ed="#L" n="144"/>non calefaciat ipsum, vt factum fuit in fornace Babylonis 
+      re<lb ed="#L" n="145" break="no"/>spectu trium puerorum, ergo eadem virtuse potest fieri quod 
+      <lb ed="#L" n="146"/>quantitas praesens loco non occupet locum, &amp; sic alia 
+      quan<lb ed="#L" n="147" break="no"/>titas poterit esse cum ipsa. Secundo fici virtute diuina potest fieri 
+      <lb ed="#L" n="148"/>quod prius maneat amoto posteriori, quum hoc non implicet 
+      <lb ed="#L" n="149"/>aliquam contradictionem, seu aliquam repugnantiam intellectuum 
+      <lb ed="#L" n="150"/>sed dare subiecto esse quantum per prius conuenit quantitat 
+      <lb ed="#L" n="151"/>quam occupare locum, quia ille est actus formalis qui simul est 
+      <lb ed="#L" n="152"/>cum forma in subiecto, alius autem est actus eius, vt efficientis, 
+      <lb ed="#L" n="153"/>respectu alterius qui frequenter est posterior tempore, ergo vir 
+      <lb ed="#L" n="154"/>tute diuina potest fieri quod corpus maneat quantum, &amp; non 
+      oc<lb ed="#L" n="155" break="no"/>cupet locum, &amp; sic idem quod prius. Tertio sic: non videtur? 
+      <lb ed="#L" n="156"/>duo corpora impediantur simul esse in eodem loco, nisi quia non 
+      <lb ed="#L" n="157"/>appareret per quid distinguerentur sed illud non impedit, quis 
+      <lb ed="#L" n="158"/>corpora suis quantitatibus non distinguuntur per loca, quamuis 
+      <lb ed="#L" n="159"/>per distinctionem locorum appareat vel manifestetur distinctio 
+      <lb ed="#L" n="160"/>corporum: dato etiam qued corpora distinguerentur per loca, 
+      <lb ed="#L" n="161"/>Deus tamen potest facere se solo quicquid potest facere cum eau 
+      <lb ed="#L" n="162"/>sis secundis, &amp; ita potest distinguere corpora &amp; distinctionem 
+      <lb ed="#L" n="163"/>eorum seruare absque distinctione locorum, quare &amp;c. 
+</p>
+            <p xml:id="jsnvu6-e283165-d1e344">
+      <!--00762.xml-->
+               <pb ed="#L" n="344-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Secundus modus dicendi est huic contrarius, scilicet quod 
+      nul<lb ed="#L" n="2" break="no"/>la virtute potest fieri quod plura corpora sint in eodem loco pro 
+      <lb ed="#L" n="3"/>prio, siue quod sint indistincta secundum situm, quod declaratur fic 
+      <lb ed="#L" n="4"/>sicut acceptum fuit prius, corpus non impeditur esse in eodem loco 
+      <lb ed="#L" n="5"/>cum alio corpore nisi ratione quantitatis, quia nihil potest 
+      prohi<lb ed="#L" n="6" break="no"/>bere quin corpus possit esse simul cum alio corpore in eodem loco, 
+      <lb ed="#L" n="7"/>nisi illud per quod corpus vnum requirit distinctum situm ab alio. 
+      <lb ed="#L" n="8"/>Nihil enim est impe limentu identitatis nisi quod est causa diuei 
+      <lb ed="#L" n="9"/>sitatis, sed sola quantitas est illud per quod vnum corpus 
+      requi<lb ed="#L" n="10" break="no"/>rit distinctum situm ab alio, ergo sola quantitas secundum natu 
+      <lb ed="#L" n="11"/>ram impedit simultatem plurium corporum in eodem loco 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e377">
+               <lb ed="#L" n="12"/>
+               <!--8.--> Hoc supposito probatur quod duo corpora ex hoc quod haben. 
+      <lb ed="#L" n="13"/>duas quantitates non possunt simul esse in eodem loco. Primo 
+      <lb ed="#L" n="14"/>sie: non minus est necesse duo corpora distingui abinuicem 
+      si<lb ed="#L" n="15" break="no"/>tu &amp; positione quam duas partes eiusdem corporis, sed partes 
+      <lb ed="#L" n="16"/>quantitatiuae eiusdem corporis sic necessario distinguuntur situ 
+      <lb ed="#L" n="17"/>seu positione quod impossibile est eas simul esse simultate oppo 
+      <lb ed="#L" n="18"/>sita huic distinctioni, ergo similiter duo corpora adeo 
+      distin<lb ed="#L" n="19" break="no"/>guuntur situ seu positione quod impossibile est ea esse simul simul 
+      <lb ed="#L" n="20"/>tate opposita illi distincti oni. Vtraque praemissarum probatur, &amp; primi 
+      <lb ed="#L" n="21"/>maior sie: qaactualis diuisio partium quantitatis non tribuit parti 
+      <lb ed="#L" n="22"/>bus diuisis quod possint esse pP simul quam ante diuisionem, sed vna 
+      <lb ed="#L" n="23"/>quantitas efficitur duae sola diuisione, ergo simultas quae 
+      repu<lb ed="#L" n="24" break="no"/>gnat partibus quantitatis eiusdem, repugnat quibuscunque duabus 
+      <lb ed="#L" n="25"/>quantitatibus, &amp; iterum duae quantitates inter se diuisae possunt 
+      <lb ed="#L" n="26"/>vniri &amp; fieri partes eiusdem quantitatis, sicut econtrario partes 
+      <lb ed="#L" n="27"/>vnitae possunt diuidi &amp; fieri quantitates distinctae: ppter quod 
+      <lb ed="#L" n="28"/>omnino videtur esse idem ludicium de quantitatibus inter se diuisis, 
+      <lb ed="#L" n="29"/>&amp; de partibus eiusdem quantitatis, praecipue quia quaelibet pars 
+      <lb ed="#L" n="30"/>quantitatis est quantitas. Et sic patet maior videlicet qud quam 
+      im<lb ed="#L" n="31" break="no"/>possibilitarem habent partes eiusdem quantitatis, vt sint simul, eandem 
+      <lb ed="#L" n="32"/>habent quaecum que corpora. Minor probatur . s. quod partes eiusdem quan 
+      <lb ed="#L" n="33"/>titatis sic distinguuntur situ seu positione quod nullo modo possant 
+      <lb ed="#L" n="34"/>simul esse simultate opposita tali distinctio, qui a de intrinseca 
+      <lb ed="#L" n="35"/>&amp; essentiali ratione quantitatis sine qua non est possibile quantita 
+      <lb ed="#L" n="36"/>tem esse vel intelligi est quod habeat partem extra pariem seu iuxta per. 
+      <lb ed="#L" n="37"/>tem, quod vocatur ad praesens distingui positione vel situ, quae est 
+      <lb ed="#L" n="38"/>ordo partium in toto, quae distinctio secundum positionem &amp; ordo re 
+      <lb ed="#L" n="39"/>puguat simultati partis in parte, vel partis cum parte: vn contra 
+      <lb ed="#L" n="40"/>rationem quam itatis est quod partes eius sint simul, sed semper vna 
+      <lb ed="#L" n="41"/>est extra aliam &amp; non in alia, sed eum alia, alioquin duae non essent ma 
+      <lb ed="#L" n="42"/>iores vna, nec totum majus parte, quod est impossibile. &amp; sic 
+      pa<lb ed="#L" n="43" break="no"/>ter minor. Sequii ergo conclusio principalis . s. quod duo corpora 
+      <lb ed="#L" n="44"/>vel duae quantitates necessario distinguuntur situ seu positione sic 
+      <lb ed="#L" n="45"/>que impossibile est ea esse simul, sed necessario vnum est extra 
+      <lb ed="#L" n="46"/>aliud &amp; non in alio, nec cum alio positione vel situ indifferens. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e459">
+               <lb ed="#L" n="47"/>
+               <!--9--> Secundo probant idem sic, &amp; est eadem virtus rationis cum 
+      <lb ed="#L" n="48"/>praecedente: si duo corpora possunt esse simul, ita quod 
+      quantita<lb ed="#L" n="49" break="no"/>tes eorum sint indistinctae positione, modo quo expositum est 
+      <lb ed="#L" n="50"/>per eandem rationem partes eiusdem quantitatis possunt super 
+      <lb ed="#L" n="51"/>se replicari, ita vt sint indistinctae positionei, nec vna fit extra 
+      <lb ed="#L" n="52"/>aliam, &amp; tantum poterunt replicari, vt tota replicatio fiat super 
+      <lb ed="#L" n="53"/>vnam minimam partem, ita quod extra eam non sint aliae sed in ea 
+      <lb ed="#L" n="54"/>vel cum ea simul. Hoc autem videtur impossibile, quia tanc 
+      ma<lb ed="#L" n="55" break="no"/>ximum corpus posset contineri localiter minimo loco, videlice 
+      <lb ed="#L" n="56"/>a solo loco illius partis super quam esset facta replicatio, &amp; sic ma 
+      <lb ed="#L" n="57"/>ximus mons posset transire per foramen acus; &amp; totum caelum 
+      <lb ed="#L" n="58"/>esse posset in minima bursa saluata quantitate vtriusque 
+      mon<lb ed="#L" n="59" break="no"/>eis scilicet &amp; caeli, quod non videtur istis possibile: quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e492">
+               <lb ed="#L" n="60"/>
+               <!--10--> Tertio probant illud fiersicut partes quantitaria successiua 
+      <lb ed="#L" n="61"/>(vt sunt tempus, &amp; motus) habent inter se ordinem durationis, sic 
+      <lb ed="#L" n="62"/>partes quantitatis permanentis habent inter se ordinem positio. 
+      <lb ed="#L" n="63"/>nis, sed nulla virture poss fieri qued partes quantitatis successiua 
+      <lb ed="#L" n="64"/>vt partes temporis &amp;t motus sint simul duratione, eum de ratione 
+      <lb ed="#L" n="65"/>casi sit prius &amp; posterius secundum durationem, ergo similiter nul 
+      <lb ed="#L" n="66"/>lavirtute pos fierique partes quantitatis permanentis sint simul 
+      <lb ed="#L" n="67"/>positione, &amp; per consequons nec duae quantitates duorum 
+      cor<lb ed="#L" n="68" break="no"/>porum, cum vtrobique sit idem iudicium pro eo quod quaelibe 
+      <lb ed="#L" n="69"/>pars quantitatis est quantitas (vt dictum fuiqquare &amp;c. 
+      Nitun<lb ed="#L" n="70" break="no"/>tur etiam isti respondere ad rationes factas in oppositumms 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e521">
+               <lb ed="#L" n="71"/>
+               <!--11--> Ad primam respondent, &amp; dicunt quod verissimum est beatam 
+      virgi<lb ed="#L" n="72" break="no"/>nem Mariam permansisse virginem in partu &amp; post partum sicut an 
+      <lb ed="#L" n="73"/>te: fuit enim virgo non solum ex carentia experientiae delectatio 
+      <lb ed="#L" n="74"/>mavenereae per qua experientia virginitas proprie amittitur, 
+      <lb ed="#L" n="75"/>sed giam propter integritatem membri corporalis, nec tamen 
+      pro<lb ed="#L" n="76" break="no"/>pter hoc in natiuitate Christi fuerunt duo corpora simul scilicet 
+      cor<lb ed="#L" n="77" break="no"/>pus Chrisz; cum corpore marris, quia est alius modus possibilis. 
+      <lb ed="#L" n="78"/>s.quod virtute diuina fuerit facta dilatatio menbrorum &amp; meatuum ni 
+      <lb ed="#L" n="79"/>turalium sine interruptione, vel aliqua fractione, sicut secundum An 
+      <lb ed="#L" n="80"/>14. de ciuitate Dei hoc factum fuisset in omnibus mulieribus si statui 
+      <lb ed="#L" n="81"/>lonocentiae durasset, quia tunc perperissent sine dolore qui nunc 
+      <lb ed="#L" n="82"/>est poena peccati, secundum sententiam diuinam, Genm 3. vnde prolei 
+      <!--00762.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>nata fuisset per dilatationem membrorum naturalium, &amp; non per 
+      fra<lb ed="#L" n="84" break="no"/>ctionem, vel diuisionem, quae in sentientibus non potest esse sine 
+      <lb ed="#L" n="85"/>dolore. Et hanc opinionem videntur tenere Greg. &amp; Ambro. supel 
+      <lb ed="#L" n="86"/>illo verbo Luc. 2. omne masculinum, &amp;c. Ibi enim dicit Greg 
+      <lb ed="#L" n="87"/>sic: hoc autem legis decretum in solo incarnato Deo singulariter, 
+      <lb ed="#L" n="88"/>&amp; ab aliis differenter impleri videtur, ipse naque solus 
+      ineffa<lb ed="#L" n="89" break="no"/>biliter conceptus ac incomprehensibiliter editus virginalem 
+      vte<lb ed="#L" n="90" break="no"/>rum aperuit, non autem connubio reseratum seruans &amp; post 
+      par<lb ed="#L" n="91" break="no"/>tum mirabilem inuiolabiliter signaculum castitatis. Et Amb. 
+      di<lb ed="#L" n="92" break="no"/>cit idem. Non enim rursus coirus vlulae virginalis secreta 
+      rese<lb ed="#L" n="93" break="no"/>rauitur, sed immaculatum semen inuiolabiliter vtero spiritus 
+      san<lb ed="#L" n="94" break="no"/>ctus infudit. Et subdit quod pertinet ad propositum dicens: Qu 
+      <lb ed="#L" n="95"/>ergovuluam sanctificauit alienam, vt nasceretur propheta, hoc 
+      <lb ed="#L" n="96"/>est, qui aperuit matris suae vuluam, vt immaculatus exiret. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e586">
+               <lb ed="#L" n="97"/>
+               <!--12--> Ad secundum de resurrectione Christi clauso tumulo dicendi 
+      <lb ed="#L" n="98"/>est quod in nullo textu sacrae scripturae habet quod Christ? resurrexi 
+      <lb ed="#L" n="99"/>elauso tumulo, &amp; id eo assertio contraria non praeiudicat fidei, 
+      ne<lb ed="#L" n="100" break="no"/>scripturae: quod si ex dictis aliquorum sanctorum habeatur. 
+      <lb ed="#L" n="101"/>Christus resurrexit clauso sepulchro, accipiendum est pro 
+      opi<lb ed="#L" n="102" break="no"/>nione, &amp; si hoc dictum esset approbatum per ecelesiam, 
+      tun<lb ed="#L" n="103" break="no"/>respondendum est, sicut in tertia solutione dicetur starim. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e606">
+               <lb ed="#L" n="104"/>
+               <!--13--> Ad tertium cum dicitur quod Christus intrauit ad discipulos post 
+      <lb ed="#L" n="105"/>resurrectionem lanuis elausis, absolute dicendum est hoc esse verum. 
+      <lb ed="#L" n="106"/>s. quod cum fores esse nt elausae venit lesus, sed non dicit quod intrauitper 
+      <lb ed="#L" n="107"/>ianuas elausas: cum enim corpus gloriosum possit moueri per 
+      ae<lb ed="#L" n="108" break="no"/>rem. sicut per terram, &amp; Christus virtute diuina potuit corpus suum 
+      <lb ed="#L" n="109"/>ostendere &amp; occultare proutvoluit, potuit enim intrare ad disei 
+      <lb ed="#L" n="110"/>pulos per fenestras vel aliquem alium locum, &amp; tunc primo se ostende 
+      <lb ed="#L" n="111"/>re quando fuit coram discipulis, &amp; sic verevenit clausis ianuis, sec 
+      <lb ed="#L" n="112"/>non per ianuas clausas, &amp; si per ianuas intrauit potuerunt lanuae 
+      <lb ed="#L" n="113"/>per quam subito aperiri &amp; subito claudi, ita vt apertio &amp; clausio 
+      I<lb ed="#L" n="114" break="no"/>teret discipulos, &amp; quia res non dicitr fieri quando non innotescit, idec 
+      <lb ed="#L" n="115"/>dicuntur fuisse clausae qi apertio earum nulli apparuit, &amp; hoc me 
+      <lb ed="#L" n="116"/>posset dici surrexisse clauso sepulchro, si illud alicubi legeret. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e639">
+               <lb ed="#L" n="117"/>
+               <!--14--> Vel posset dici quod Christus rone qua Deus habuit in sua 
+      <lb ed="#L" n="118"/>potestate corpus &amp; figuram corporis sui, ita quod potuit figuram 
+      co<lb ed="#L" n="119" break="no"/>poris mutare in angustâ &amp; sic intrare per quancunque rimam ia 
+      <lb ed="#L" n="120"/>nuarum eis remanentibus clausis: &amp; quamuis aliqui dicant 
+      ho<lb ed="#L" n="121" break="no"/>non fuisse conueniens, nullus tamen dicit quin fuerit 
+      possibi<lb ed="#L" n="122" break="no"/>le Christo inquantum Deus est, conuenientius autem videtur po 
+      <lb ed="#L" n="123"/>nere modum qui ab omnibus conceditur possibilis, quam 
+      pone<lb ed="#L" n="124" break="no"/>re illum qui a pluribus impossibilis reputatur. Beatus etiam At 
+      <lb ed="#L" n="125"/>gustinus videtur hunc modum tenere. Pont etiam aliter 
+      responde<lb ed="#L" n="126" break="no"/>ri ad tres praedictas instantias, dicendo, quod si Deus potest 
+      fa<lb ed="#L" n="127" break="no"/>cere, &amp; facit quod idem corpus Christi fit simul in caelo &amp; in sa 
+      <lb ed="#L" n="128"/>cramento absque hoc quod fit in medio, multo fortius poses facere. 
+      <lb ed="#L" n="129"/>quod idem corpus sit successiue in locis distantibus, &amp; non in me 
+      <lb ed="#L" n="130"/>dio: &amp; sic potuit Deus facere quod corpus Christi primo fuisse 
+      <lb ed="#L" n="131"/>in vtero matris, &amp; postea extra absque hoc quod fuisset in medio 
+      <lb ed="#L" n="132"/>simul eum corpore matris. Et idem pos dici de egressu 
+      corpo<lb ed="#L" n="133" break="no"/>ris Christi de sepulchro clauso, &amp; de ingressu eius ad 
+      discipu<lb ed="#L" n="134" break="no"/>los ianuis clausis, &amp; istud est possibile Deo, quod prima facie 
+      <lb ed="#L" n="135"/>apparet possibilius quam id quod fide tenemus de fimultate 
+      ex<lb ed="#L" n="136" break="no"/>stentiae realis corporis Christi in caelo &amp; in sacramento, &amp; de 
+      fi<lb ed="#L" n="137" break="no"/>multate eiusdem in pluribus sacramentis, tunc praedictae instantia 
+      <lb ed="#L" n="138"/>sumptae ex dictis scripturae sunt elare solutae, &amp; omnes auctor, 
+      <lb ed="#L" n="139"/>tates sanctorum &amp; doctorum praedicta loca scripturae exponentium. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e695">
+               <lb ed="#L" n="140"/>
+               <!--15--> Ad quartum dicendum quod siue ponatur caelum diuisibi 
+      <lb ed="#L" n="141"/>le per naturam, sine per virtutem diuinam, non oportet corpur 
+      <lb ed="#L" n="142"/>Christi in ascensu ad caelum fuisse simul cum corporibus 
+      sph<lb ed="#L" n="143" break="no"/>rarum, sed cessit corpus corpori. Et fi dicatur quod omne diui 
+      <lb ed="#L" n="144"/>sible est corruptibile: dicendum quod non oportet, quia 
+      diui<lb ed="#L" n="145" break="no"/>sio non arguit corruptibilitatem illius in quibus est, sed addit fa 
+      <lb ed="#L" n="146"/>cilitatem, quia corruptibile diuisum in plures partes facilius cor 
+      <lb ed="#L" n="147"/>rumpitur quam si esset integrum, quia singulae partes minus 
+      <lb ed="#L" n="148"/>possunt resistere corrumpent; quam totam integrum, diuisio 
+      <lb ed="#L" n="149"/>tamen non dat eis corraptibilitatem, sed supponit: patet, quia si 
+      <lb ed="#L" n="150"/>esset quantum mathematicum certe quamumcunque 
+      diuidere<lb ed="#L" n="151" break="no"/>tur non corrumperetur. Non enim corrumpetur a contrario, quia quan 
+      <lb ed="#L" n="152"/>titas gontrarium non habet, nec corruptione subiecti quis sub 
+      <lb ed="#L" n="153"/>iectum non habet, vt ponitur, nec diuisione ad minima, quia 
+      ta<lb ed="#L" n="154" break="no"/>le quantum secundum se diuisibile est in infinitum, nee est possibi 
+      <lb ed="#L" n="155"/>le peruenire ad minimum, neque coniunctum toto, neque sep 
+      <lb ed="#L" n="156"/>rarum a coto: patcet ergo quod diuisio non argnit corruptibilisatem sa 
+      <lb ed="#L" n="157"/>tem illa quae fieret virtuto diuina, mec caeli dicunt solidissimi tal 
+      <lb ed="#L" n="158"/>ter quin possintvircute diuina diuidi, &amp; praebere fransitum co 
+      <lb ed="#L" n="159"/>poribus gloriosis ad eaelum empyreum, sed dicuntur solidissimi 
+      <lb ed="#L" n="160"/>quia naturaliter sunt incorruptibiles. Videtur etiam quod 
+      ronna<lb ed="#L" n="161" break="no"/>biliter oporteat hoc porere, quia nisi caelum sit secundum 
+      aliqui<lb ed="#L" n="162" break="no"/>sui diuisibile , ita ve cedat corpori glorioso, necessarium est quod 
+      <lb ed="#L" n="163"/>corpora gloriosa nunquam possint esse in caelo, nisi semper sint 
+      si<lb ed="#L" n="164" break="no"/>mus cam alio corpore, quod forte reputarent aliqui satis absurdum.
+</p>
+            <p xml:id="jsnvu6-e283165-d1e754">
+      <!--00763.xml-->
+               <pb ed="#L" n="345-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>16 Ad quintum dicendum qued corpus Christi prout spectat ad 
+      <lb ed="#L" n="2"/>genus substantiae est vere in sacramento altaris, nec illud est cor 
+      <lb ed="#L" n="3"/>tra dicta, nisi ponatur que in eodem sacramento sit quantita 
+      <lb ed="#L" n="4"/>corporis Christi, quia sola quantitas impedit ccexistentiam plu 
+      <lb ed="#L" n="5"/>rium corporum in eodem loco: sicut aute ostensum fuit priu 
+      <lb ed="#L" n="6"/>non est necesse quo quantitas corporis Christi sit in hoc sacra 
+      <lb ed="#L" n="7"/>mento, nec ex vi conuersionis vt omnes concedunt, nec ex 
+      con<lb ed="#L" n="8" break="no"/>comitantia aliqua, quamuis vnum ab altero non separaretur vi 
+      <lb ed="#L" n="9"/>plenius fuet superius declaratum. Item secundum omnes corpu 
+      <lb ed="#L" n="10"/>Christi uon est in sacramento altaris quantitatiue, sed sub qua 
+      <lb ed="#L" n="11"/>liber parte hostiae, quantumcunque minima est totum corpur 
+      <lb ed="#L" n="12"/>Christi. Vnde non potest ibi videri, nec a seipso, nec ab alio, v. 
+      <lb ed="#L" n="13"/>declaratum fuit prius in praecedentibus; nec vt sic compereba 
+      <lb ed="#L" n="14"/>sibi aliquis motus vel actio seu passio quando aute quaerimus, 
+      <lb ed="#L" n="15"/>vtrum virtute diuina vnum corpus possit esse cum alio, intellig 
+      <lb ed="#L" n="16"/>mus hoc de existentia quantitatiua vtriusque corporis, videlicet 
+      <lb ed="#L" n="17"/>vtrum duae quantitates duorum corporum sibi inuicem quantita 
+      <lb ed="#L" n="18"/>tine comparatae possint esse simul in eodem loco: sic enim vide 
+      <lb ed="#L" n="19"/>tur procedere declaratio primae opinionis quae dicit; quod sicu 
+      <lb ed="#L" n="20"/>calor potest impediri ne calefaciat alterum, sic quantitas vniu 
+      <lb ed="#L" n="21"/>corporis potest impediri ne occupet locum alterius, &amp; ne pellai 
+      <lb ed="#L" n="22"/>allud corpus ex eodem loco, qa hic est effectus quantitatis poste 
+      <lb ed="#L" n="23"/>rior ea &amp; eius diffusione. Constat etiam quod motus localis non com 
+      <lb ed="#L" n="24"/>petit nisi quanto &amp; quantiratiue sumpto tam mobili quam medio 
+      <lb ed="#L" n="25"/>natiuitas autem Christi &amp; egressus eius ex vtero &amp; ingressus eiu 
+      <lb ed="#L" n="26"/>ad discipulos post resutrectionem, &amp; ascensum eius in caelum fuerum 
+      <lb ed="#L" n="27"/>per verum motum localem, ergo competebat Christo vt quan 
+      <lb ed="#L" n="28"/>to, non sic autem competit ei esse in sacramento; &amp; ideo non es 
+      <lb ed="#L" n="29"/>simile hine &amp; inde. Qui ergo vellet tenere viam istam, posset re 
+      <lb ed="#L" n="30"/>spondere ad tones primae opinionis declatrantis modum quo sit pos 
+      <lb ed="#L" n="31"/>sibile duo corpora quantitatiue sibi inuice comparata simul esse 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e830">
+               <lb ed="#L" n="32"/>
+               <!--17.--> Ad primam dicendum quod non est simile de calefactioni 
+      <lb ed="#L" n="33"/>respectu caloris &amp; de occupatioe loci respectu quaritatis, qui 
+      <lb ed="#L" n="34"/>per calefactionem fit aliqua natura in calefacto (scilicet calor 
+      <lb ed="#L" n="35"/>qui virtute diuina potest impediri ne fiat conseruando qualitati 
+      <lb ed="#L" n="36"/>oppositam, propier quod calidum praesens calefactibili potest vir 
+      <lb ed="#L" n="37"/>tute diuins impediri ne calefaciat, sed ad occupare locum non se 
+      <lb ed="#L" n="38"/>quitur aliqua natura absoluta ex praesentia locati ad locum ve 
+      <lb ed="#L" n="39"/>econuerso, sed ex hoc solo occupatur locus a locato, quod locati 
+      <lb ed="#L" n="40"/>habet intra locum distensionem suarum partium: cum igitur ho 
+      <lb ed="#L" n="41"/>fit essentiale locato prout est quantum (vt prius probatum est 
+      <lb ed="#L" n="42"/>impossibile est quod locatum fit in loco &amp; non occuper locum 
+      <lb ed="#L" n="43"/>ac per consequens sit incompossibile alteri superoccupanti. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e861">
+               <lb ed="#L" n="44"/>
+               <!--18--> Ad secundam dicendum quod Deus potest facere quod corpus 
+      <lb ed="#L" n="45"/>sit quantum &amp; non occupes locem, quia potest facere 
+      corpu<lb ed="#L" n="46" break="no"/>sine loco: sed supposito quod corpus fit localiter in loco, non po 
+      <lb ed="#L" n="47"/>test fieri quod non occupet locum, quia occupare locum est habe 
+      <lb ed="#L" n="48"/>re in loco partes positione distantes a se inuicem; &amp; ab omni 
+      <lb ed="#L" n="49"/>alia quantitate, &amp; illud non est aliquid aliud quam esse quantuim 
+      <lb ed="#L" n="50"/>(vt declaratum fuit prius) nec in proposito facit difficultatem cor 
+      <lb ed="#L" n="51"/>pus continens aliud in quo contentum dicitur esse in loco, quia 
+      <lb ed="#L" n="52"/>si duo corpora ponerentur esse in eodem loco continente, &amp; postea 
+      <lb ed="#L" n="53"/>corpus continens toraliter annihilaretur non prpter hoc praece 
+      <lb ed="#L" n="54"/>dentia corpora desinerent simul esse, &amp; quanuis iita simultas non 
+      <lb ed="#L" n="55"/>esset secundum locum, esset tamen secundum positionem partium 
+      <lb ed="#L" n="56"/>quae semper est incompassibilis in quantitate, cum distantia 
+      par<lb ed="#L" n="57" break="no"/>tium quantitatis sic essentialites intrinseca quantitati. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e896">
+               <lb ed="#L" n="58"/>
+               <!--19.--> Ad tertium dicendum quod Deus potest seruare distinctio 
+      <lb ed="#L" n="59"/>nem partium sine distinctione locorum, quia potest facere plu 
+      <lb ed="#L" n="60"/>ra corpora quorum neutrum sit in loco: non potest tamen faceti 
+      <lb ed="#L" n="61"/>quod duo quanta sint distincta &amp; partes earum sint pofitione 
+      in<lb ed="#L" n="62" break="no"/>distinctae, cum hoc fit contra rationem intrinsecam quantitatis 
+      <lb ed="#L" n="63"/>&amp; quia hoc sequeretur si ponerentur plura corpora in eodem 
+      <lb ed="#L" n="64"/>loco, ideo illud non est possibile. Ad formam ergo rationis dicen 
+      <lb ed="#L" n="65"/>dum, quod non prohibentur esse plura corpora in eodem loco, quia 
+      <lb ed="#L" n="66"/>locus fit causa distinctionis corporum, sed quia distinctio corpo 
+      <lb ed="#L" n="67"/>rum requirit distinctam positionem eorum quam non tompi 
+      <lb ed="#L" n="68"/>titur vnitas loci: sic ergo videtur quibusda quod duo corpora 
+      <lb ed="#L" n="69"/>quantitatiue sumpta nulla virtute possunt esse simul in eodem 
+      <lb ed="#L" n="70"/>loco. Si autem alterum eorum non comparetur ad aliud quantitatiue 
+      <lb ed="#L" n="71"/>sicut est de corpore Christi in sacramento, vel alio modo Deo 
+      <lb ed="#L" n="72"/>possibili licet nobis ignoto, tunc vnum corpus posseresse cum a 
+      <lb ed="#L" n="73"/>lio simul in eodem loco, sed alterum non esset ibi localiter seu 
+      <lb ed="#L" n="74"/>quantitatiue. Vnde non est absolute &amp; simpliciter dicendum. 
+      <lb ed="#L" n="75"/>duo corpora nullo modo possunt esse simul virtute diuina, sec 
+      <lb ed="#L" n="76"/>solum quando sibi inuicem comparantur quantitariue &amp; ad locum: &amp; 
+      <lb ed="#L" n="77"/>huic conclusioni fie intellectae non obuiant dictae scripturae, nec 
+      <lb ed="#L" n="78"/>auctoritares sanctorum quas vsque nunc vidimus. Et si quis 
+      con<lb ed="#L" n="79" break="no"/>tendat oppositum esse verum, ego salua fide &amp; veritate melius 
+      <lb ed="#L" n="80"/>iudico alieno intellectui cedere quam contentionibus deseruire: 8 
+      <lb ed="#L" n="81"/>tespondeo ad rationes veriusque partis sicut communiter rfidetur. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e953">
+               <lb ed="#L" n="82"/>
+               <!--20--> Ad primum dicendum est quod non est simile de existen-
+      <!--00763.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>tia vnius corporis simul in pluribus locis, &amp; de existentia 
+      plu<lb ed="#L" n="84" break="no"/>rium corporum in eodem loco. Primum enim implicat express? 
+      <lb ed="#L" n="85"/>contradictionem; quia illud quod est circunscriptiue in 
+      distanti<lb ed="#L" n="86" break="no"/>bus locis oportet quod sit distinctum distinctione locorum: qa 
+      quie<lb ed="#L" n="87" break="no"/>quid est circunscriptiue in loco aliquo torum continetur ab ipso, 
+      <lb ed="#L" n="88"/>trae que nihil contenti est circunmscriptiue extra continentem. Propter 
+      <lb ed="#L" n="89"/>quod illa quae sunt in distinctis locis circunscriptiue necessario 
+      <lb ed="#L" n="90"/>distincta sunt; &amp; quia est contra rationem vnius quod fit distinctum, 
+      <lb ed="#L" n="91"/>ideo si vnum corpus esset in pluribus locis circunscriptiue, 
+      <lb ed="#L" n="92"/>esset vnum &amp; non vnum seu indistinctum quod implicat 
+      contradi<lb ed="#L" n="93" break="no"/>ctionem, sed ponere plura corpora in eodem loco solum videt repu 
+      <lb ed="#L" n="94"/>gnare distinctioni eorum: non repugnat autem, quia prima distinctic 
+      <lb ed="#L" n="95"/>corporum non est per loca, sed per seipsa vel per quantitates suas, 
+      <lb ed="#L" n="96"/>&amp; ita virtute diuina possn conseruari non obstante vnitate loci. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e996">
+               <lb ed="#L" n="97"/>
+               <!--21--> Ad secundum potest dici quod non potest per imaginationi 
+      <lb ed="#L" n="98"/>fingi quod in vno loco sint plura corpora, quia imaginatio non 
+      <lb ed="#L" n="99"/>transcendit quantum, &amp; ideo per imaginationem semper 
+      capium<lb ed="#L" n="100" break="no"/>tur plura quanta, vt situ distincta, sed intellectus qui est aldor 
+      <lb ed="#L" n="101"/>imaginatione potest concipere quod licet quantum in se habea 
+      <lb ed="#L" n="102"/>partes positione distinctas, tamen comparando vnum quantum 
+      <lb ed="#L" n="103"/>alteri non oportet quod sic distinguantur, adeo quod vnum expella 
+      <lb ed="#L" n="104"/>aliud de eodem loco, vel situ, cum ille sit actus secundus 
+      quan<lb ed="#L" n="105" break="no"/>titatis a quo quantitas potest virtute diuina priuari. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e1020">
+               <lb ed="#L" n="106"/>
+               <!--22--> Ad tertium dicendum que non est simile de duobus 
+      acci<lb ed="#L" n="107" break="no"/>dentibus respectu vnius subiecti, &amp; de duobus corporibus re 
+      <lb ed="#L" n="108"/>spectu vnius loci: quia accidentia se habent informatiue ad 
+      sub<lb ed="#L" n="109" break="no"/>lectum, corpora autem se habent ad locum extrinsece. Item 
+      quan<lb ed="#L" n="110" break="no"/>uit duo accidentia absolute forte non possint esse in eodem sub 
+      <lb ed="#L" n="111"/>jecto (vt duae albedines) tamen ab aliquibus ponitur quod duo 
+      <lb ed="#L" n="112"/>accidentia respectiua possunt esse in eodem subiecto, sicut in vno 
+      <lb ed="#L" n="113"/>patre duae paternitates respectu duorum filiorum: nec est dubium 
+      <lb ed="#L" n="114"/>quin in duobus subiectis sint duo accidentia relatiua per conpa 
+      <lb ed="#L" n="115"/>rationem ad vnum, sicut in duobus filiis sunt duae filiationes per 
+      <lb ed="#L" n="116"/>comparationem ad vnum parrem, &amp; illud (vt videtur) potest 
+      suffi<lb ed="#L" n="117" break="no"/>cere ad proposirum, quia esse in loco dicit respectum 
+      corpo<lb ed="#L" n="118" break="no"/>ris ad locum; propter quod nihil prohibet quin duo corpor 
+      <lb ed="#L" n="119"/>simul habeant duo vbi, respectu eiusdem loci. 
+      </p>
+            <p xml:id="jsnvu6-e283165-d1e1055">
+               <lb ed="#L" n="120"/>
+               <!--23--> Ratio in oppositum quamuis fit ad communem conclusio 
+      <lb ed="#L" n="121"/>nem, tamen solui potest, quia non est simile de duabus 
+      comple<lb ed="#L" n="122" break="no"/>tis naiuris respectu vnius suppositi; &amp; de duobus corporibus 
+      <lb ed="#L" n="123"/>respectu vnius loci: quia natura constituit suppositum ratione mo 
+      <lb ed="#L" n="124"/>di essendi in se, qui cum non sit de intrinseca ratione naturae potest 
+      <lb ed="#L" n="125"/>ab ea separari, &amp; tuc talis natura non constituet suppositum, sed 
+      <lb ed="#L" n="126"/>alia a qua non se parabitur dictus modus, &amp; tuc erunt plures na 
+      <lb ed="#L" n="127"/>turae in eodem supposito, sed occupare locum conuenit quante 
+      <lb ed="#L" n="128"/>ratione eius quod est de intrinseca ratione quanti, scilicet ex eo 
+      <lb ed="#L" n="129"/>quod habet partes positione distantes, propter quod illud non 
+      <lb ed="#L" n="130"/>potest a quanto separari, nec per consequens potest separari qu 
+      <lb ed="#L" n="131"/>non occupet locum in quo est. Ad auctoritatem Dam. esset re 
+      <lb ed="#L" n="132"/>spondendum sicut ad dictum euangelij quod allegat. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

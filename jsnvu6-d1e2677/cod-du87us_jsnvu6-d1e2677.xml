@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="123-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2677"><!-- l2d6q4 -->
+            <head xml:id="jsnvu6-d1e2677-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-d1e2677-Hd1e103" type="question-title">Utrum daemon semel victus possit postea tentare aliquem</head>
+            <p xml:id="jsnvu6-d1e2677-d1e106">
+               <lb ed="#L" n="134"/>QVAESTIO QVARTA. 
+      <lb ed="#L" n="135"/>Vtrum daemon victus possit deinceps 
+      <lb ed="#L" n="136"/>aliquem tentare. 
+      <lb ed="#L" n="137"/>Thom. 1. 4. 114. artic. 5.
+    </p>
+            <p xml:id="jsnvu6-d1e2677-d1e117">
+               <lb ed="#L" n="138"/>QVARTO quaeritur, vtrum daemon victus possit 
+      <lb ed="#L" n="139"/>deinceps aliquem tentare, videtur quod sic, quia 
+      <lb ed="#L" n="140"/>Lucifer creditur fuisse, qui tentauit Christum, 
+      <lb ed="#L" n="141"/>&amp; perfecte ab eo victus fuit. Matth. 4. sed idem 
+      <lb ed="#L" n="142"/>in fine mundi, tempore antichristi tentabit 
+      gra<lb ed="#L" n="143" break="no"/>uissime homines, vt in litera dicitur, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2677-d1e133">
+               <lb ed="#L" n="144"/>
+               <!--2.--> Item quanto pauciores sunt tentatores, tanto facilior est 
+      <lb ed="#L" n="145"/>tentatio, sed multi &amp; quasi infiniti daemones a principio 
+      mun<lb ed="#L" n="146" break="no"/>di per sanctos victi sunt, ergo si semel victi amplius tentare non 
+      <lb ed="#L" n="147"/>possunt in fine mundi essent paucissimi tentatores, &amp; facillima 
+      <lb ed="#L" n="148"/>tentatio, quod falsum est. 
+</p>
+            <p xml:id="jsnvu6-d1e2677-d1e150">
+               <lb ed="#L" n="149"/>CONTRA. iustitia humana exemplata est a diuina. Sed 
+      <lb ed="#L" n="150"/>secundum iustitiam humanam, pugil victus semel non 
+      recipi<lb ed="#L" n="151" break="no"/>tur iterum ad duellum: ergo secundum iustitiam diuinam 
+      dae<lb ed="#L" n="152" break="no"/>mon semel victus non debet a deo permitti quod tentet alium. 
+      </p>
+            <p xml:id="jsnvu6-d1e2677-d1e161">
+               <lb ed="#L" n="153"/>
+               <!--4--> RESPONSIO. dicendum quod daemon tentans 
+      ho<lb ed="#L" n="154" break="no"/>minem de aliquo vitio (puta gulae) quantumcunque sit perfecte 
+      <lb ed="#L" n="155"/>victus potest tamen alium tentare hominem etiam de eodem 
+      <!--00314.xml-->
+      <pb ed="#L" n="123-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>vitio. Item eundem a quo victus est potest tentare de alio 
+      vi<lb ed="#L" n="2" break="no"/>tio, sed eundem eodem modo se habentem non potest tentare 
+      <lb ed="#L" n="3"/>de eodem vitio, Quod totum patet vnica ratione sic, omnis 
+      <lb ed="#L" n="4"/>tentans sub spe alicuius victoriae tentat, sed daemon 
+      quantum<lb ed="#L" n="5" break="no"/>cunque perfecte victus ab aliquo potest sperare quod vincet alios 
+      <lb ed="#L" n="6"/>etiam simili tentatione, quia non omnes sunt eiusdem 
+      volunta<lb ed="#L" n="7" break="no"/>tis vel firmitatis in resistendo tentationi potest etiam sperare q 
+      <lb ed="#L" n="8"/>vincet eundem tentando de alio vitio, quia frequenter qui non 
+      <lb ed="#L" n="9"/>est pronus ad vnum vitium est pronus ad aliud, sed non potest 
+      <lb ed="#L" n="10"/>sperare quod eundem eodem modo se habentem vincat eadem 
+      <lb ed="#L" n="11"/>vel simili tentatione, quia idem manens idem natum est 
+      eo<lb ed="#L" n="12" break="no"/>dem modo resistere. propter quod nisi mutetur processu 
+      tem<lb ed="#L" n="13" break="no"/>poris non potest sperare victoriam de eo. 
+      </p>
+            <p xml:id="jsnvu6-d1e2677-d1e207">
+               <lb ed="#L" n="14"/>
+               <!--5--> Ad argumentum respondendum. Prima enim duo solum 
+      pro<lb ed="#L" n="15" break="no"/>bant quod victus ab vno potest alios tentare quod concedimus 
+      </p>
+            <p xml:id="jsnvu6-d1e2677-d1e216">
+               <lb ed="#L" n="16"/>
+               <!--6--> Ad argumentum in contrarium dicendum, quod non est 
+      si<lb ed="#L" n="17" break="no"/>mile de daemone victo in pugna spirituali, &amp; de pugile victio in 
+      <lb ed="#L" n="18"/>pugna corporali, quia in pugna corporali praesumitur quis 
+      vi<lb ed="#L" n="19" break="no"/>ctus ex defectu virtutis corporalis quae in viris perfectis semper 
+      <lb ed="#L" n="20"/>tendit ad defectum. Sed in pugna spirituali vincitur daemon 
+      qui<lb ed="#L" n="21" break="no"/>tentatus non praebet tentationi assensum. Assentit autem 
+      ten<lb ed="#L" n="22" break="no"/>tationi vnus (cui non assentit alius.) Et idem assentit vni 
+      ten<lb ed="#L" n="23" break="no"/>tationi qui non assentit aliis. Et vnus idem dissentit vno tempore 
+      <lb ed="#L" n="24"/>tanquam bene dispositus, qui alio tempore simili tentationi 
+      con<lb ed="#L" n="25" break="no"/>sentit tanquam male dispositus secundum mentem, ideo &amp;c.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

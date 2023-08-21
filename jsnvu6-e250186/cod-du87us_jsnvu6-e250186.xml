@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="303-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e250186"><!-- l4d20prae -->
+            <head xml:id="jsnvu6-e250186-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e250186-d1e103">
+               <lb ed="#L" n="53"/>Sententia huius distinctionis XX in 
+      <lb ed="#L" n="54"/>generali &amp; speciali. 
+    </p>
+            <p xml:id="jsnvu6-e250186-d1e110">
+               <lb ed="#L" n="55"/>SCIENDVM est, &amp;c. Superius determinauit 
+      ma<lb ed="#L" n="56" break="no"/>gister de poenitentia &amp; eius partibus, &amp; de 
+      po<lb ed="#L" n="57" break="no"/>testate ministrorum hoc sacramentum 
+      dispensan<lb ed="#L" n="58" break="no"/>Itium: hic determinat de quibusdam poenitentiam 
+      <lb ed="#L" n="59"/>A consequentibus. Et diuiditur in duo. Primo deter 
+      <lb ed="#L" n="60"/>minat de tempore poenitentiae. Secundo determinat quaedam 
+      <lb ed="#L" n="61"/>quae ad effectum poenitentiae pertinent di. 22. ibi, caeterum 
+      mul<lb ed="#L" n="62" break="no"/>tis auctoritatibus. Prima in duas. Primo ostendit tempus poeni 
+      <lb ed="#L" n="63"/>tentiae vsque in finem vitae esse. Secundo mouet quasdam quaestione 
+      <lb ed="#L" n="64"/>quae ex dictis ortum habent dist. 21. ibi, solet etiam quaeri vtrum post 
+      <lb ed="#L" n="65"/>Prima est principalis lectionis, &amp; diuiditur in tres. Primo 
+      osten<lb ed="#L" n="66" break="no"/>dit tempus poenitentiae esse vsque in finem vitae, &amp; opponit per Aug 
+      <lb ed="#L" n="67"/>in contrarium &amp; soluit. Secundo mouet quaestionem de illis qui 
+      quan<lb ed="#L" n="68" break="no"/>doque condignam in hac vita satisfactionem implent. Tertio inquiri 
+      <lb ed="#L" n="69"/>qualiter sit agendum cum illis qui in fine vitae poenitent. Secunda 
+      <lb ed="#L" n="70"/>ibi, Si vero quaeritur de illis. Tertia ibi, Solet etiam quaeri vtrum 
+      </p>
+            <p xml:id="jsnvu6-e250186-d1e147">
+               <lb ed="#L" n="71"/>
+               <!--2--> In speciali sic procedit, &amp; proponit primo quod tempus 
+      poeni<lb ed="#L" n="72" break="no"/>tentiae durat vsque ad finem vitae: Ans. autem videtur dicere quod illi qui 
+      <lb ed="#L" n="73"/>solum in fine vitae poenitent in securo statu non transeunt de 
+      ha<lb ed="#L" n="74" break="no"/>vita s ed quia poenitentia satisfactoria est vespertinum sacrificium, 
+      <lb ed="#L" n="75"/>&amp; ideo Deo acceptanda: ideo verba Aug. praemissa intelligenda 
+      <lb ed="#L" n="76"/>sunt de illss qui no ex amore Dei, sed timore mortis poenitentiam 
+      <lb ed="#L" n="77"/>agunt, &amp; pro tanto securitatem non dat Aug. quia difficile in tal 
+      <lb ed="#L" n="78"/>statu poenitentiam agunt propter filios, vxorem, mundum &amp; dolori 
+      <lb ed="#L" n="79"/>mortis, quae in illo statu retrahunt hominem a conuersione ad 
+      <lb ed="#L" n="80"/>Deum, tamen qui in fine vitae poenitent, bene possunt poenitere 
+      <!--00680.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>sed in purgatorio soluunt poenam quam in praesenti non 
+      absol<lb ed="#L" n="82" break="no"/>uunt, nisi forte tam vehemens esset contritio, vt sufficeret ad 
+      de<lb ed="#L" n="83" break="no"/>bitam punitionem, vbi etiam incidenter dicit quod ignis purgato 
+      <lb ed="#L" n="84"/>rij est grauior quam aliqua poena temporalis. Postea mouet duas 
+      <lb ed="#L" n="85"/>quaestiones de solutione poenae post hac vitam. Prima est de illis 
+      <lb ed="#L" n="86"/>qui poenitentiam sibi impositam in hac vita non impleuerunt, 
+      <lb ed="#L" n="87"/>vtrum in purgatorio poenitentiam soluant. Et respondet quod sic, 
+      <lb ed="#L" n="88"/>nisi in eis fuerit tanta contritio quod vel illa solum, vel illa cum 
+      poeni<lb ed="#L" n="89" break="no"/>tentia quam fecit sufficiat ad poenitentiae completionem, Deus 
+      <lb ed="#L" n="90"/>enim impunitum crimen non dimittit. Secunda est de his qui 
+      fe<lb ed="#L" n="91" break="no"/>cerunt poenitentiam sibi impositam a sacerdote, quae tamen 
+      poe<lb ed="#L" n="92" break="no"/>nitentia non fuit condigna peccato commisso, vtrum in 
+      purgato<lb ed="#L" n="93" break="no"/>rio pro ea puniantur. Et respondet quod sic, nisi vehementia 
+      con<lb ed="#L" n="94" break="no"/>tritionis peccata sufficienter puniat: propter quod Aug. vult cor 
+      <lb ed="#L" n="95"/>dis contritionem in poenitente multum attendi. Sed quia de 
+      con<lb ed="#L" n="96" break="no"/>tritione non constat, ideo poenitentia non imponitur, quae vt idem 
+      <lb ed="#L" n="97"/>Aug. dicit, secundum contritionis modum diuersimode 
+      imponem<lb ed="#L" n="98" break="no"/>da est. Vitimo dicit quod morientibus non est neganda 
+      reconcilia<lb ed="#L" n="99" break="no"/>tio si petant, quod si tunc petere non possunt prae grauamine 
+      infir<lb ed="#L" n="100" break="no"/>mitatis &amp; prius petiuerunt testimonio fidelium astantium 
+      recon<lb ed="#L" n="101" break="no"/>ciliandi sunt: sacerdos autem qui talibus poenitentiam negat, reus 
+      <lb ed="#L" n="102"/>est animarum. Solenniter autem poenitentem non debet presbyte 
+      <lb ed="#L" n="103"/>reconciliare inconsulto episcopo nisi in extrema necessitate 
+      <lb ed="#L" n="104"/>Subdit etiam quod si aliquis ad poenitentiam festinans non inueniat 
+      <lb ed="#L" n="105"/>sacerdotem &amp; sic mortuus est, oblatio eius est recipienda, &amp; 
+      elee<lb ed="#L" n="106" break="no"/>mosynae pro eo faciendae. Et in hoc terminatur sententia, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

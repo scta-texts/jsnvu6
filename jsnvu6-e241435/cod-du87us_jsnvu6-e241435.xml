@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="293-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e241435"><!-- l4d17q4 -->
+            <head xml:id="jsnvu6-e241435-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e241435-Hd1e103" type="question-title">Utrum dolor contritionis debeat esse maximus</head>
+            <p xml:id="jsnvu6-e241435-d1e106">
+               <lb ed="#L" n="52"/>QVAESTIO QVARTA. 
+      <lb ed="#L" n="53"/>Vtrum dolor contritionis debeat esse maximus 
+      <lb ed="#L" n="54"/>Thom. 3. 4. 84. ar. 8. &amp; 9. 
+    </p>
+            <p xml:id="jsnvu6-e241435-d1e115">
+               <lb ed="#L" n="55"/>POSTEA quaeritur de quantitate contritionis, &amp; 
+      <lb ed="#L" n="56"/>primo vtrum dolor contritionis debeat esse 
+      ma<lb ed="#L" n="57" break="no"/>ximus: &amp; secundo vtrum vere contritus debeat 
+      po<lb ed="#L" n="58" break="no"/>tius eligere sustinere poenam inferni, vel omnino 
+      <lb ed="#L" n="59"/>I non esse quam committere peccatum mortale. Ad 
+      <lb ed="#L" n="60"/>primum sic proceditur. Et arguitur quod dolor contritionis non debea 
+      <lb ed="#L" n="61"/>esse maximus, quia quantitas effectus indicat quantitatem car 
+      <lb ed="#L" n="62"/>sae, sed lachrymae sunt effectus doloris, ergo quantitas 
+      lachry<lb ed="#L" n="63" break="no"/>marum quantitatem doloris indicat: sed contritus quandoque 
+      <lb ed="#L" n="64"/>non tantum lachrymatur pro peccatis sicut pro morte amici 
+      <lb ed="#L" n="65"/>vel pro laesione aliqua corporali, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e241435-d1e141">
+               <lb ed="#L" n="66"/>
+               <!--2--> Item dolor qui habet aliquid de admistione gaudij non est maxim 
+      <lb ed="#L" n="67"/>dolor, sed dolor contritionis est huiusmodi, dicente Aug. peccator 
+      <lb ed="#L" n="68"/>semper doleat, &amp; de dolore gaudeat, ergo non est maxim? dolor. 
+</p>
+            <p xml:id="jsnvu6-e241435-d1e153">
+               <lb ed="#L" n="69"/>IN CONTRARIVM arguitur sic: quia dolor est 
+      <lb ed="#L" n="70"/>de malo, ergo de maiori malo debet esse maior dolor, sed 
+      pec<lb ed="#L" n="71" break="no"/>catum est magis malum quam quodcunque temporale damnum. 
+      <lb ed="#L" n="72"/>ergo dolor contritionis qui est de peccato contrito debet esse 
+      <lb ed="#L" n="73"/>maior quocunque alio dolore. 
+      </p>
+            <p xml:id="jsnvu6-e241435-d1e166">
+               <lb ed="#L" n="74"/>
+               <!--4--> RESPONSIO. Sicut patet ex praeced. quaest. dolor con 
+      <lb ed="#L" n="75"/>tritionis est duplex. Vnus qui est displicentia voluntatis, in quo 
+      <lb ed="#L" n="76"/>essentialiter contritio consistit. Alius qui est dolor sensitiuae 
+      par<lb ed="#L" n="77" break="no"/>tis, qui sequitur ad contritionem. Loquendo autem de dolore 
+      <lb ed="#L" n="78"/>contritionis, qui est displicentia voluntatis: dicendum est quod ist. 
+      <lb ed="#L" n="79"/>dolor potest comparari, vel ad dolorem qui habetur de rebus aliis 
+      <lb ed="#L" n="80"/>vel potest comparari dolor contritionis de vno peccato ad do¬ 
+      <!--00659.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>lorem contritionis de alio: si dolor contritionis comparatur ad 
+      do<lb ed="#L" n="82" break="no"/>lorem qui est de rebus aliis, dicendum est quod debet esse major eis 
+      <lb ed="#L" n="83"/>Cuius ratio est, quia secundum Aug. Omnis dolor in amore 
+      fun<lb ed="#L" n="84" break="no"/>datur: ex hoc enim quod aliquid amamus, dolemus de amissione 
+      <lb ed="#L" n="85"/>eius. Ex quo potest sic argui: secundum quantitatem amoris 
+      de<lb ed="#L" n="86" break="no"/>bet esse quantitas doloris in amore charitatis. Ex hoc enim dole 
+      <lb ed="#L" n="87"/>mus de peccato commisso, quia separat nos a Deo cui coniungimur 
+      <lb ed="#L" n="88"/>per charitatem, ergo cum charitas ad Deum debeat excellere 
+      <lb ed="#L" n="89"/>omnem alium amorem, dicente dno. Qui amat patrem vel matrem 
+      <lb ed="#L" n="90"/>plus quam me, non est me dignus: relinquitur igitur quod dolor 
+      con<lb ed="#L" n="91" break="no"/>tritionis de peccato debeat excellere omnem alium dolorem, 
+      nul<lb ed="#L" n="92" break="no"/>lus tamen contritus tenetur apud se facere hanc comparationem 
+      <lb ed="#L" n="93"/>cogitando, an plus doleat de peccato commisso quam si pater suu 
+      <lb ed="#L" n="94"/>fuisset mortuus, si tamen faciat, tenetur ex electione voluntatis 
+      <lb ed="#L" n="95"/>plus detestari peccatum commissum quam quodcunque aliud damnum. 
+      </p>
+            <p xml:id="jsnvu6-e241435-d1e223">
+               <lb ed="#L" n="96"/>
+               <!--5--> Si autem dolor contritionis de vno peccato comparetur ad 
+      <lb ed="#L" n="97"/>dolorem contritionis de alio, sic non quilibet dolor contritionis 
+      <lb ed="#L" n="98"/>debet esse maximus, sed sicut vnum peccatu est grauius altero: 
+      <lb ed="#L" n="99"/>ita dolor vnius contritionis debet esse major dolore 
+      contritio<lb ed="#L" n="100" break="no"/>nis alterius: quamuis enim omnia peccata mortalia sint aeque 
+      <lb ed="#L" n="101"/>grauia, inquantum priuant gratiam: quaedam tamen sunt aliis 
+      <lb ed="#L" n="102"/>grauiora inquantum merentur poenam ampliorem. 
+      </p>
+            <p xml:id="jsnvu6-e241435-d1e243">
+               <lb ed="#L" n="103"/>
+               <!--6--> Si autem loquamur de dolore qui est passio sensitiuae partis, 
+      <lb ed="#L" n="104"/>&amp; sequitur ad contritionem, sic dicendum, quod talis dolor 
+      quan<lb ed="#L" n="105" break="no"/>doque non potest esse maximus, &amp; si posset non deberet. Quod 
+      <lb ed="#L" n="106"/>quandoque non possit esse maximus patet: quia vnumquodque 
+      <lb ed="#L" n="107"/>facilius mouetur a proprio motore quam ab extraneo, sed cum 
+      <lb ed="#L" n="108"/>vires sensitiuae mouentur a propriis obiectis mouentur a 
+      pro<lb ed="#L" n="109" break="no"/>priis motoribus, quando autem mouentur ex redundantia virium 
+      <lb ed="#L" n="110"/>superiorum mouentur quasi ex extraneis, ergo facilius 
+      mouen<lb ed="#L" n="111" break="no"/>tur vires sensitiuae a propriis obiectis ad dolorem, fletum &amp; 
+      hu<lb ed="#L" n="112" break="no"/>iusmodi, quam moueantur ex imperio voluntatis: &amp; pari ratione 
+      <lb ed="#L" n="113"/>quando vires inferiores mouentur a superioribus facilius 
+      mo<lb ed="#L" n="114" break="no"/>uentur quando ratio deliberat de corporalibus quam quando 
+      <lb ed="#L" n="115"/>deliberat de spiritualibus propter maiorem propinquitatem ad 
+      <lb ed="#L" n="116"/>obiecta earum. Si etiam talis dolor posset esse maximus, non 
+      ta<lb ed="#L" n="117" break="no"/>men deberet. Cuius ratio est, quia omnis actus a virtute 
+      impe<lb ed="#L" n="118" break="no"/>ratus debet habere mensuram vt non excedat rectitudinem 
+      ra<lb ed="#L" n="119" break="no"/>tionis, nec deficiat, sed fletus quem contritus in seipso excitat est 
+      <lb ed="#L" n="120"/>actus imperatus virtute poenitentiae, ergo non debet excedere 
+      <lb ed="#L" n="121"/>mensuram rationis: mensura autem omnium actuum 
+      corpora<lb ed="#L" n="122" break="no"/>lium sumitur in comparatione ad conseruationem subiecti. Ei 
+      <lb ed="#L" n="123"/>ideo tristitia vel fletus si sit tantus quod subiectum corrumpatur 
+      <lb ed="#L" n="124"/>vel notabiliter prosternatur est irrationabilis &amp; indebitus: 
+      con<lb ed="#L" n="125" break="no"/>tra quod dicit Apost. Rom. 12. rationabile sit obsequium vestrum 
+      <lb ed="#L" n="126"/>dolor igitur sensitiuae partis qui sequitur contritionem non 
+      de<lb ed="#L" n="127" break="no"/>bet esse maximus, sed moderatus. 
+      </p>
+            <p xml:id="jsnvu6-e241435-d1e302">
+               <lb ed="#L" n="128"/>
+               <!--7--> Ad primum argumentum dicendum quod lachrymae sunt per se 
+      <lb ed="#L" n="129"/>&amp; immediate effectus tristitiae vel doloris sensibilis: &amp; ideo 
+      de<lb ed="#L" n="130" break="no"/>monstrant talem dolorem sicut effectus demonstrat causam. Ita 
+      <lb ed="#L" n="131"/>quod caeteris paribus ad maiorem dolorem sequitur maior fletus, &amp; 
+      <lb ed="#L" n="132"/>ad minorem minor, sed lachrymae non sunt per se &amp; immediate 
+      <lb ed="#L" n="133"/>effectus disciplinae voluntatis, in qua consistit dolor contritionis 
+      <lb ed="#L" n="134"/>essentialiter, sed consequitur ad ipsum prout vires inferiores mo 
+      <lb ed="#L" n="135"/>uentur ex redundantia superiorum, quod non fit ita efficaciter 
+      si<lb ed="#L" n="136" break="no"/>cut quando mouentur a propriis obiectis, (vt dictum fuit prius 
+      <lb ed="#L" n="137"/>facilius etiam mouentur ex redundantia superiorum quando ratio 
+      <lb ed="#L" n="138"/>deliberat de corporalibus, quam quando deliberat de 
+      spiritua<lb ed="#L" n="139" break="no"/>libus propter causam prius assignatam, propter quod pluralitas, vel 
+      <lb ed="#L" n="140"/>paucitas lachrymarum non est sufficiens argumenrum maioris vel 
+      <lb ed="#L" n="141"/>minoris displicentiae voluntatis. Quum quandoque homo fleat 
+      <lb ed="#L" n="142"/>inuitus, &amp; quandoque non possit flere volens. 
+      </p>
+            <p xml:id="jsnvu6-e241435-d1e339">
+               <lb ed="#L" n="143"/>
+               <!--8--> Ad secundum dicendum quod bene inuenitur maior displicentia 
+      <lb ed="#L" n="144"/>voluntatis, quam sit dolor contritionis sicut est dolor 
+      desperan<lb ed="#L" n="145" break="no"/>tis, qui nullam habet commistam consolationem veniae, sicut dolor 
+      <lb ed="#L" n="146"/>contritionis habet, sed ille dolor est indebitus. Nos autem non 
+      <lb ed="#L" n="147"/>quaerimus vtrum possit esse maior dolor quam contritionis, sed vtrum 
+      <lb ed="#L" n="148"/>debeat esse aliquis maior dolor secundum iudicium recte 
+      ratio<lb ed="#L" n="149" break="no"/>nis. Nec huic obstat quod dolori contritionis admistum est 
+      gau<lb ed="#L" n="150" break="no"/>dium, quia nullus alius dolor qui sit secundum rectam rationem 
+      <lb ed="#L" n="151"/>(etiam si sit sine admistione gaudij) potest ei aequiparari, sicut 
+      <lb ed="#L" n="152"/>fortissimo vino modicissima aqua mista nullum debile vinum 
+      <lb ed="#L" n="153"/>etiam purum potest aequiparari in fortitudine. Quod autem dicunt 
+      <lb ed="#L" n="154"/>aliqui quod gaudium admistum dolori contritionis est maximum 
+      <lb ed="#L" n="155"/>quia concipitur ex spe veniae, nec minuit dolorem contritionis, 
+      <lb ed="#L" n="156"/>sed potius auget, friuolum est, quia spes veniae habet admistum 
+      <lb ed="#L" n="157"/>timorem, quum nullus possit esse certus de venia: &amp; sicut spes 
+      <lb ed="#L" n="158"/>causat gaudium, sic timor minuit ipsum, &amp; ideo non potest esse 
+      <lb ed="#L" n="159"/>maximu gaudium, vt isti dicunt. Quod autem illud gaudium non 
+      mi<lb ed="#L" n="160" break="no"/>nuat dolorem contritionis, omnino falsum est: quia secundum 
+      Phi<lb ed="#L" n="161" break="no"/>losophum, gaudium oppositum tristitiae tollit eam, si vero non sit 
+      <lb ed="#L" n="162"/>oppositum sed concuirens vel contingens, minuit eam. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

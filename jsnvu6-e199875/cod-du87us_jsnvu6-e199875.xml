@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="243-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e199875"><!-- l3d37q3 -->
+            <head xml:id="jsnvu6-e199875-Hd1e101">Quaestio 3</head>
+            <head xml:id="jsnvu6-e199875-Hd1e103" type="question-title">
+      Utrum vsurario non repetenti aliquid vltra sortem, 
+      vel si receperit, postea restituit, teneatur qui 
+      mutuum ab eo accepit, facere aliquam 
+      recompensationem
+    </head>
+            <p xml:id="jsnvu6-e199875-d1e106">
+               <lb ed="#L" n="74"/>QVAESTIO TERTIA. 
+      <lb ed="#L" n="75"/>Vtrum vsurario non repetenti aliquid vltra sortem, 
+      <lb ed="#L" n="76"/>vel si receperit, postea restituit, teneatur qui 
+      <lb ed="#L" n="77"/>mutuum ab eo accepit, facere aliquam 
+      <lb ed="#L" n="78"/>recompensationem. 
+      <lb ed="#L" n="79"/>Thom. 2. 2. q. 78. ar. 2. 
+    </p>
+            <p xml:id="jsnvu6-e199875-d1e122">
+      <!--00559.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>SECVNDO quaeritur vtrum vsurario non 
+      repe<lb ed="#L" n="81" break="no"/>tenti aliquid vltra sortem, vel si recepit, postea 
+      re<lb ed="#L" n="82" break="no"/>stituit, teneatur ille qui mutuum ab eo recepit, 
+      fa<lb ed="#L" n="83" break="no"/>cere aliquam recompensationem. Et arguitur q 
+      <lb ed="#L" n="84"/>&amp; sic, quia idem videtur esse iudicium de illo qui 
+      gra<lb ed="#L" n="85" break="no"/>tis dedit mutuum &amp; de vsurario qui vsuras non recepit, aut si 
+      <lb ed="#L" n="86"/>recepit restituit. Sed danti gratis mutuum recipiens tenetur ad 
+      <lb ed="#L" n="87"/>antidora, hoc est ad aliquam recompensationem, ergo similiter 
+      <lb ed="#L" n="88"/>recipiens mutuum ab vsurario (qui nec vsuras recepit, &amp; si 
+      re<lb ed="#L" n="89" break="no"/>cepit eas restituit) tenetur ei ad aliquam recompensationem 
+      </p>
+            <p xml:id="jsnvu6-e199875-d1e151">
+               <lb ed="#L" n="90"/>
+               <!--2--> Item naturali aequitate recipiens beneficium obligatur ei 
+      <lb ed="#L" n="91"/>qui dedit. Sed recipiens mutuum a tali vsurario recipit ab eo 
+      <lb ed="#L" n="92"/>beneficium cum in aliquo iuuetur &amp; in nullo laedatur, ergo 
+      te<lb ed="#L" n="93" break="no"/>netur ei ad aliquam recompensationem. 
+</p>
+            <p xml:id="jsnvu6-e199875-d1e165">
+               <lb ed="#L" n="94"/>IN CONTRARIVM arguitur, quia reddenti 
+      de<lb ed="#L" n="95" break="no"/>bitum recipiens non tenetur ad aliquam recompensationem. Sed 
+      <lb ed="#L" n="96"/>si vsurarius non repetat vsuras, aut si eas receperit, tamen ea 
+      <lb ed="#L" n="97"/>restituit nihil facit nisi abstinere ab indebito, vel reddere quod 
+      <lb ed="#L" n="98"/>est alteri debitum, ergo nulla recompensatio debet ei fieri. 
+      </p>
+            <p xml:id="jsnvu6-e199875-d1e178">
+               <lb ed="#L" n="99"/>
+               <!--4--> RESPONSIO. Dicendum est simpliciter quod vsurario 
+      <lb ed="#L" n="100"/>tradenti mutuum sub vsuris non tamen vsuras repetenti aut non 
+      re<lb ed="#L" n="101" break="no"/>cipienti, aut si receperit restituit, recipiens mutuum a tali 
+      vlu<lb ed="#L" n="102" break="no"/>rario non tenetur facere aliquam recompensationem. Quod 
+      pa<lb ed="#L" n="103" break="no"/>tet sic, quia aliquis potest teneri ad recompensationem alicui alteri 
+      <lb ed="#L" n="104"/>dupliciter. Vno modo ex debito iustitiae. Alio modo ex debito 
+      <lb ed="#L" n="105"/>aequitatis naturalis amicitiae quo homo tenetur ad alium &amp; 
+      ma<lb ed="#L" n="106" break="no"/>xime ab beneficium amicabiliter conferendum. Recompensatio quae 
+      <lb ed="#L" n="107"/>fit ex debito iustitiae attenditur secundum quantitatem beneficij 
+      <lb ed="#L" n="108"/>quod quis accepit. Et ad hanc potest quis certo pacto obligari, 
+      <lb ed="#L" n="109"/>nec ad plus tenetur quam mutuo accepit de pecunia, vel quacunque 
+      <lb ed="#L" n="110"/>alia re cuius vsus est consumptio. Et si ad plus obligatur, sit contra 
+      <lb ed="#L" n="111"/>iustitiam commutatiuam quae consistit in aequalitate. Recompensatio 
+      ve<lb ed="#L" n="112" break="no"/>ro quae est ex debito amicitiae praeter quantitatem rei quam in 
+      mu<lb ed="#L" n="113" break="no"/>tuis respicit iustitia considerat affectum ex quo mutuum procedit, 
+      <lb ed="#L" n="114"/>puta quia sponte tradidit, vt amicus, &amp; ad vtilitatem recipientis. 
+      <lb ed="#L" n="115"/>Et ideo proportionabiliter recompensatio ad quam tenetur, debet 
+      <lb ed="#L" n="116"/>esse spontanea. Nec potest cadere sub aliqua ciuili obligatione, 
+      <lb ed="#L" n="117"/>per quam inducitur quaedam necessitas. Ex his dicendum est ad 
+      pro<lb ed="#L" n="118" break="no"/>positum. Si vsurario restituenti tenetur aliquis quoquomodo hoc 
+      <lb ed="#L" n="119"/>esset vel ratione primi contractus vsurarij, vel ratione acts resti 
+      <lb ed="#L" n="120"/>tuendi. Non ratione contractus vsurarij, quia illa tentio seu 
+      obli<lb ed="#L" n="121" break="no"/>gatio vel esset ex debito iustitiae vel amicitiae, non ex debito iusti 
+      <lb ed="#L" n="122"/>tiae, quia hoc debito nullus tenetur in mutuis nisi ad illud quod 
+      <lb ed="#L" n="123"/>accepit, nec ex debito amicitiae, quia affectus vsurarij mutuantis 
+      <lb ed="#L" n="124"/>sub vsura non est affectus amicitiae quaerentis bonum alterius, sed 
+      <lb ed="#L" n="125"/>est affectus quaerentis bonum proprium cum damno alterius 
+      <lb ed="#L" n="126"/>quare &amp;c. Nullo ergo modo ratione primi contractus vsurari 
+      <lb ed="#L" n="127"/>tenetur aliquis ad recompensandum aliquid vsurario vltra sortem 
+      </p>
+            <p xml:id="jsnvu6-e199875-d1e246">
+               <lb ed="#L" n="128"/>
+               <!--5--> Item nec ratione sequentis restitutionis, quia vt prius haec 
+      <lb ed="#L" n="129"/>tentio seu obligatio, vel esset ex debito iustitiae, vel amicitiae. 
+      <lb ed="#L" n="130"/>Non ex debito iustitiae propter eandem rationem quae 
+      priu<lb ed="#L" n="131" break="no"/>facta est. Et iterum si esset ex debito iustitiae posset poni sub 
+      <lb ed="#L" n="132"/>pacto, &amp; obligatione ciuili quod non est verum, imo tales 
+      resti<lb ed="#L" n="133" break="no"/>tutiones factas ex pacto damnant iura, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e199875-d1e264">
+               <lb ed="#L" n="134"/>
+               <!--6--> Item nec ex debito amicitiae propter tria. Primo, quia haec 
+      <lb ed="#L" n="135"/>obligatio est ad beneficium cui debet beneficiatus non esse 
+      in<lb ed="#L" n="136" break="no"/>gratus. Vnde &amp; inter amicos duos ille qui recipit mutuum 
+      sib<lb ed="#L" n="137" break="no"/>gratis traditum tenetur ad recopensationem, non solum mutui 
+      <lb ed="#L" n="138"/>ex debito iustitiae, sed ad gratiarum actionem, vel ad aliquid aliud 
+      <lb ed="#L" n="139"/>ex debito amicitiae. Ille autem qui tradidit alteri mutuum non 
+      <lb ed="#L" n="140"/>tenetur ad aliquam recompensationem ei qui mutuum sibi reddit, 
+      <lb ed="#L" n="141"/>quia talis non confert beneficium, sed reddit debitum. Sic autem 
+      <lb ed="#L" n="142"/>est in proposito, quia vsurarius restituens quod iniuste accepit 
+      <lb ed="#L" n="143"/>non confert beneficium, sed reddit debitum. Et ideo in hac 
+      resti<lb ed="#L" n="144" break="no"/>tutione recipiens non tenetur in aliquo, nec etiam ad gratiarum 
+      <lb ed="#L" n="145"/>actionem. Secudo, quia sicut recompensatio quae est ex debito am 
+      <lb ed="#L" n="146"/>citiae est gratuita, sit causa ex qua oritur debet esse gratuita 
+      ne<lb ed="#L" n="147" break="no"/>potest cadere sub ciuili obligatione. Sed restitutio vsurarum non 
+      <lb ed="#L" n="148"/>est gratuita illo modo quo loquimur de gratuito scilicet quod est mere 
+      <lb ed="#L" n="149"/>liberale, potest etiam cadere sub ciuili obligatione, quia danti vsu 
+      <lb ed="#L" n="150"/>ras conuenit restitutio in foro contentioso, ergo &amp;c. Tertio quia 
+      <lb ed="#L" n="151"/>debitum amicitiae in recompensante respondet actui amicitiae in ec 
+      <lb ed="#L" n="152"/>cui fit recompensatio. Sed restitutio non est actus amicitiae, sed 
+      iu<lb ed="#L" n="153" break="no"/>stitiae quae debet aequaliter seruari ad inimicum sicut ad amicum 
+      <lb ed="#L" n="154"/>propter quod recipiens restitutionem vsurarum sibi debitam nullo 
+      mo<lb ed="#L" n="155" break="no"/>do obligatur vsurario restituenti ad quamcunque curialitatem 
+      modi<lb ed="#L" n="156" break="no"/>cam in verbo, vel facto, imo vsurarius qui iniuste pecuniam alteriu 
+      <lb ed="#L" n="157"/>detinuit tenetur ei ad interesse secundum arbitrium boni viri 
+</p>
+            <p xml:id="jsnvu6-e199875-d1e321">
+               <lb ed="#L" n="158"/>AD PRIMVM argumentum dicendum qued maior est 
+      <lb ed="#L" n="159"/>falsa, quia dare mutuum gratis procedit ex affectu beneuolentiae. 
+      <lb ed="#L" n="160"/>Et ideo recipies mutuu tenetur ei ad aliquam recompensationem 
+      <lb ed="#L" n="161"/>quaecunque sit illa. Sed tradere mutuum sub vsura non procedit ex 
+      <!--00560.xml-->
+      <pb ed="#L" n="243-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>affectu beneuolentiae, sed auaritiae, per quam tradens quaerit lu 
+      <lb ed="#L" n="2"/>crum proprium cum damno recipientis. Et dato quod tales vsuras no 
+      <lb ed="#L" n="3"/>recipiat aut receptas restituat hoc non procedit ex affectu be 
+      <lb ed="#L" n="4"/>neuolentiae, sed ex debito iustitiae. Et ideo ex nulla parte debetui 
+      <lb ed="#L" n="5"/>ei recompensatio, quamuis possit commendari vt poenitens, vel vi 
+      <lb ed="#L" n="6"/>iustus. Cum etiam dicitur in minore quod recipiens mutuum gratis 
+      <lb ed="#L" n="7"/>traditum tenetur an antidora. Verum est, quia si tradens alias indi 
+      <lb ed="#L" n="8"/>geat mutuo ille qui recipit ab eo mutuum, tenetur ei gratis dare 
+      <lb ed="#L" n="9"/>mutuum si potest, sicut gratis ab eo recepit, tenetur etiam ei ad gra 
+      <lb ed="#L" n="10"/>tiarum actionem, sed non tenetur ad aliquam recompensationem pecuniariam 
+      </p>
+            <p xml:id="jsnvu6-e199875-d1e360">
+               <lb ed="#L" n="11"/>
+               <!--8--> Ad secundum patet responsio ex praedictis, quia affectus vsi 
+      <lb ed="#L" n="12"/>rarij tradentis mutuum non est affectus benefacientis, sed po 
+      <lb ed="#L" n="13"/>tius intendentis laedere. Et quamuis postea poeniteat non 
+      reci<lb ed="#L" n="14" break="no"/>piendo vsuras vel restituendo receptas, ex hoc tamen alius no 
+      <lb ed="#L" n="15"/>obligatur ei vt declaratum fuit. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

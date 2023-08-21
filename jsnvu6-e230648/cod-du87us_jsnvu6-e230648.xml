@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="280-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e230648"><!-- l4d13prae -->
+            <head xml:id="jsnvu6-e230648-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-e230648-d1e103">
+               <lb ed="#L" n="74"/>Sententia huius distinctionis xiij. in 
+      ge<lb ed="#L" n="75" break="no"/>nerali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-e230648-d1e110">
+               <lb ed="#L" n="76"/>SOlet etiam quaeri Superis determinauit magister 
+      d<lb ed="#L" n="77" break="no"/>sacramento eucharistiae quantum ad esse &amp; fieri. 
+      Hi<lb ed="#L" n="78" break="no"/>determinat de eo quantum ad dispensationem. Et diuid 
+      <lb ed="#L" n="79"/>tur in quatuor partes. Primo determinat de mini 
+      <lb ed="#L" n="80"/>E stro dispensante. Secundo de sacramenti susceptione 
+      <!--00633.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>Tertio epilogat dicta in hoc tractatu. Quarto subiungit quoddam 
+      <lb ed="#L" n="82"/>incidens. Secunda ibi, Illud etiam potest sane dici. Tertia ibi, De hoc 
+      <lb ed="#L" n="83"/>coelesti mysterio. Quarta ibi, Ne autem ignores. Prima in duas 
+      <lb ed="#L" n="84"/>Quia primo inquirit de ministerio dispensante. Secundo 
+      subiun<lb ed="#L" n="85" break="no"/>git quae requiruntur in ministro vt hoc sacramentum possit 
+      confi<lb ed="#L" n="86" break="no"/>cere ibi, In huius autem mysterij explicatione. Prima adhuc in 
+      <lb ed="#L" n="87"/>duas. Quia primo inquirit an facerdos malus possit conficere. 
+      <lb ed="#L" n="88"/>Secundo vtrum praecisus ab ecclesia. Secunda ibi, Illi vero qui 
+      <lb ed="#L" n="89"/>excommunicati sunt. Haec est diuisio, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e230648-d1e147">
+               <lb ed="#L" n="90"/>
+               <!--2--> In speciali sic procedit. Et proponit primo vtrum mali 
+      sa<lb ed="#L" n="91" break="no"/>cerdotes possint hoc sacramentum conficere. Et respondet 
+      Ma<lb ed="#L" n="92" break="no"/>gister quod bonitas vel malitia ministri nihil ad consecrationem 
+      fa<lb ed="#L" n="93" break="no"/>cit: quia hoc non est in merito consecrantis sed in verbo efficitur 
+      <lb ed="#L" n="94"/>creatoris. In hoc enim sacramento sub tegumento rerum 
+      visi<lb ed="#L" n="95" break="no"/>bilium diuina virtus secretius operatur salutem. Et hoc pluribus 
+      <lb ed="#L" n="96"/>auctoritatibus confirmat. Postea dicit quod qui praecisi sunt per 
+      <lb ed="#L" n="97"/>excommunicationem ab ecclesia (vt haeretici) non videntur 
+      <lb ed="#L" n="98"/>hoc sacramentum posse conficere, quamuis sint sacerdotes: quia 
+      <lb ed="#L" n="99"/>nemo dicit in consecratione huius hostiae offero, sed offerimus, 
+      <lb ed="#L" n="100"/>quasi in persona totius ecclesiae, ipsi autem sunt extra ecclesiam 
+      <lb ed="#L" n="101"/>Missa etiam dicitur, eo quod caelestis nuncius missus adueniat ad 
+      <lb ed="#L" n="102"/>consecrandum hoc sacramentum. Non est autem praesumendum 
+      <lb ed="#L" n="103"/>quod ad benedictionem haeretici Deus mittat coelestem nuncium, cum 
+      <lb ed="#L" n="104"/>ipse dicat per prophetam: Maledicam benedictionibus vestris 
+      <lb ed="#L" n="105"/>Postea dicit quod ad consecrationem huius ministerij requiritur q 
+      <lb ed="#L" n="106"/>minister sit sacerdos, &amp; quod habeat intentionem consecrandi (hanc 
+      <lb ed="#L" n="107"/>saltem) quod intendat facere quod facit ecclesia. Postea dicit qui 
+      <lb ed="#L" n="108"/>corpus Christi a brutis non sumitur, quid ergo fumunt quando 
+      <lb ed="#L" n="109"/>species incaute seruatas comedunt, dicit se nescire, sed Deus scit 
+      <lb ed="#L" n="110"/>Postea epilogat dicens, quod de hoc sacramento aliqua 
+      perstrin<lb ed="#L" n="111" break="no"/>xit quibus illi qui contradicunt haeretici sunt censendi: quid sit 
+      <lb ed="#L" n="112"/>autem haereticus diffinit, quod ille est haereticus qui falsas ac 
+      <lb ed="#L" n="113"/>nouas opiniones contra fidem gignit aut sequitur. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

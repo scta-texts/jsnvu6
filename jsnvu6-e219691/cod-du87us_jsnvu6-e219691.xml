@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="267-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e219691"><!-- l4d8q1 -->
+            <head xml:id="jsnvu6-e219691-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e219691-Hd1e103" type="question-title">Utrum Eucharistia sit sacramentum</head>
+            <p xml:id="jsnvu6-e219691-d1e106">
+      <!--00607.xml-->
+               <pb ed="#L" n="267-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO PRIMA. 
+      <lb ed="#L" n="2"/>Vtrum Eucharistia sit sacramentum. 
+      <lb ed="#L" n="3"/>Thog. q. 73.ar. 1. 
+    </p>
+            <p xml:id="jsnvu6-e219691-d1e122">
+               <lb ed="#L" n="4"/>CIRCA quaestionem istam quaeritur de tribus 
+      <lb ed="#L" n="5"/>Primum est de sacramento eucharistiae secundi 
+      <lb ed="#L" n="6"/>se. Secundum est de eius forma. Tertium est di 
+      <lb ed="#L" n="7"/>modo &amp; ordine sumendi ipsum respectu aliorum 
+      <lb ed="#L" n="8"/>ciborum. Quantum ad primum quaeritur vtrum 
+      <lb ed="#L" n="9"/>eucharistia sit sacramentum. Et videtur quod non, quia quod 
+      <lb ed="#L" n="10"/>non est vnum sacramentum non est sacramentum, sicut qui 
+      <lb ed="#L" n="11"/>non est vnus homo non est homo, quia per idem aliquid est ens, 
+      <lb ed="#L" n="12"/>&amp; vnum 4. Meta. &amp; in 1. Elench. dicitur quod eadem est ratio 
+      <lb ed="#L" n="13"/>hominis &amp; vnius hominis, sed eucharistia non est vnum 
+      sacra<lb ed="#L" n="14" break="no"/>mentum vt probabitur, ergo non est sacramentum. Probatio 
+      <lb ed="#L" n="15"/>minoris, vnitas rei est ex vnitate formae &amp; materiae, sed in 
+      eu<lb ed="#L" n="16" break="no"/>charistia est duplex materia, scilicet panis &amp; vinum, &amp; duplex 
+      <lb ed="#L" n="17"/>forma duplici materiae correspondens, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e219691-d1e155">
+               <lb ed="#L" n="18"/>
+               <!--2--> Item in omni sacramento res &amp; verba cum ministro 
+      effi<lb ed="#L" n="19" break="no"/>ciunt id quod figurant, sed panis &amp; vinum quae sunt materia 
+      <lb ed="#L" n="20"/>huius sacramenti &amp; verba a ministro prolata non efficiunt 
+      cor<lb ed="#L" n="21" break="no"/>pus Christi quod in sacramento continetur &amp; per vtrunque 
+      <lb ed="#L" n="22"/>significatur, ergo non est sacramentum. 
+</p>
+            <p xml:id="jsnvu6-e219691-d1e172">
+               <lb ed="#L" n="23"/>IN CONTRARIVM est quod dicit Grego. in 
+      col<lb ed="#L" n="24" break="no"/>lecta, praesta vt hoc tuum sacramentum, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e219691-d1e179">
+               <lb ed="#L" n="25"/>
+               <!--4--> RESPONSIO. Dicenda sunt duo. Primum est quod 
+      <lb ed="#L" n="26"/>eucharistia est sacramentum. Secundum est quod inter caeter. 
+      <lb ed="#L" n="27"/>est sacramentum dignissimum. 
+</p>
+            <p xml:id="jsnvu6-e219691-d1e190">
+               <lb ed="#L" n="28"/>PRIMVM patet sic. omne remedium ordinatum 
+      princi<lb ed="#L" n="29" break="no"/>paliter in subsidium vitae spiritualis sub rebus sensibilibus pro 
+      <lb ed="#L" n="30"/>positum est sacramentum, sed eucharistia est huiusmodi, ergo &amp;c. 
+      <lb ed="#L" n="31"/>Maior patet ex his quae dicta sunt de sacramento supra distin. I 
+      <lb ed="#L" n="32"/>Minor probatur, quia sicut est in vita corporali sic suo modo est 
+      <lb ed="#L" n="33"/>in vita spirituali, gerunt enim corporalia similitudinem 
+      spiritua<lb ed="#L" n="34" break="no"/>lium, sed in vita corporali sic est quod non requiritur solum 
+      genera<lb ed="#L" n="35" break="no"/>tio per quam vita acquiritur, &amp; augmentum per quod ad perfect. 
+      <lb ed="#L" n="36"/>quantitatem deducitur, sed etiam alimentum per quod homo in vit. 
+      <lb ed="#L" n="37"/>conseruatur, ergo similiter in vita spirituali praeter baptismum qui 
+      <lb ed="#L" n="38"/>est spiritualis regeneratio, in quo nobis vita spiritualis 
+      tribui<lb ed="#L" n="39" break="no"/>tur, &amp; confirmationem per quam spirituale augmentum nobis 
+      acquiri<lb ed="#L" n="40" break="no"/>tur opus est nutritione spirituali per quam vita spiritualis acque 
+      <lb ed="#L" n="41"/>sita in nobis conseruetur, hoc autem est eucharistia, vnde &amp; nobi 
+      <lb ed="#L" n="42"/>proponitur sub speciebus pertinentibus ad nutrimentum, quare &amp;c 
+      </p>
+            <p xml:id="jsnvu6-e219691-d1e225">
+               <lb ed="#L" n="43"/>
+               <!--6--> SECVNDVM sic patet: sacramentum quod excellit ir 
+      <lb ed="#L" n="44"/>sanctitate excellit in dignitate, quia tota dignitas sacramenti est 
+      <lb ed="#L" n="45"/>ex hoc quod sanctitatem continet, sed eucharistia excedit omnia 
+      <lb ed="#L" n="46"/>alia in sanctitate, ergo excellit in dignitate. Minor probatur, 
+      <lb ed="#L" n="47"/>quia illud est sanctius quod continet sanctitatem formaliter &amp; 
+      <lb ed="#L" n="48"/>essentialiter quam illud quod dicitur sanctum solum per 
+      attri<lb ed="#L" n="49" break="no"/>butionem ad sanctitatem quae est in alio, sed sacramentum 
+      eucha<lb ed="#L" n="50" break="no"/>ristiae continet sanctitatem essentialiter &amp; formaliter. Continet 
+      <lb ed="#L" n="51"/>enim Christum qui inquantum est Deus est sanctitas essentialiter, 
+      <lb ed="#L" n="52"/>&amp; inquantum homo habet sanctitatem &amp; gratiam formaliter. 
+      Cae<lb ed="#L" n="53" break="no"/>tera vero sacramenta dicuntur solum sancta per attributionem 
+      <lb ed="#L" n="54"/>ad sanctitatem quae est in alio. Quia sunt eius signa vel 
+      instru<lb ed="#L" n="55" break="no"/>mentalis causa, ergo eucharistia excedit omnia sacramenta in 
+      <lb ed="#L" n="56"/>sanctitate, quare &amp; in dignitate. Et quia perfectioribus plura 
+      <lb ed="#L" n="57"/>attribuuntur: ideo hoc sacramentum pluribus figuris fuit figu 
+      <lb ed="#L" n="58"/>ratum in vet. le. Et in noua pluribus nominibus nominatum 
+</p>
+            <p xml:id="jsnvu6-e219691-d1e264">
+               <lb ed="#L" n="59"/>Quantum ad figuras sciendum est quod in hoc sacramento es 
+      <lb ed="#L" n="60"/>tria considerare. s. illud quod est sacramentum tantum, panem 
+      <lb ed="#L" n="61"/>scilicet &amp; vinum, &amp; id quod est res &amp; sacramentum, scilicet 
+      corpu<lb ed="#L" n="62" break="no"/>Christi verum. Et id quod est res &amp; tantum, scilicet effectum 
+      sa<lb ed="#L" n="63" break="no"/>cramenti in suscipiente. Quantum igitur ad id quod est 
+      sacra<lb ed="#L" n="64" break="no"/>mentum tantum, potissima &amp; expressissima figura huius sacra 
+      <lb ed="#L" n="65"/>menti fuit oblatio Melchisedech, qui obtulit panem &amp; vinum, 
+      <lb ed="#L" n="66"/>vt habetur Gen. 14. Quantum vero ad id quod est res &amp; 
+      sacramen<lb ed="#L" n="67" break="no"/>tum, (scilicet ipse Christus passus) figurae eius fuerunt omnia 
+      sa<lb ed="#L" n="68" break="no"/>crificia ve. le. &amp; praecipue sacrificium oblationis quod fuit 
+      solen<lb ed="#L" n="69" break="no"/>nissimum quando pontifex intrabat semel in anno cum sanguine 
+      <lb ed="#L" n="70"/>in sancta sanctorum: quam figuram adducit Apostolus Hebr. 9 
+      <lb ed="#L" n="71"/>Quantum autem ad effectum sacramenti praecipua eius figura fuit 
+      <lb ed="#L" n="72"/>mana quod habuit omnem saporem suauitatis, vt dicitur Sap. 16. 
+      <lb ed="#L" n="73"/>sic &amp; gratia huius sacramenti quantum ad omnia perficit mentem. 
+      </p>
+            <p xml:id="jsnvu6-e219691-d1e299">
+               <lb ed="#L" n="74"/>
+               <!--8--> Agnus autem paschalis quantum ad haec tria simul 
+      praefigu<lb ed="#L" n="75" break="no"/>rabat hoc sacramentum. Quantum ad primum, quia comedebatu 
+      <lb ed="#L" n="76"/>cum panibus azimis. vt habetur Exo. 12. Quantum ad secundum 
+      <lb ed="#L" n="77"/>quia immolabatur ab omni multitudine filiorum Israel luna 14 
+      <lb ed="#L" n="78"/>quod fuit figura passionis Christi. Quantum vero ad effectum, quia 
+      <lb ed="#L" n="79"/>sicut per sanguinem agni paschalis protecti sunt filij Israel a 
+      de<lb ed="#L" n="80" break="no"/>uastate angelo: sic per effectum huius sacramenti protegimu 
+      <!--00607.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>a diabolo. sic ergo propter suam perfectionem hoc 
+      sacramen<lb ed="#L" n="82" break="no"/>tum fuit figuris pluribus praefiguratum. 
+      </p>
+            <p xml:id="jsnvu6-e219691-d1e329">
+               <lb ed="#L" n="83"/>
+               <!--9--> Et propter eandem perfectionem nominatur in lege noua 
+      <lb ed="#L" n="84"/>pluribus nominibus, dicitur enim hostia, sacrificium, 
+      euchari<lb ed="#L" n="85" break="no"/>stia, viaticum &amp; communio. Hostia vel sacrificium dicitur, quia 
+      <lb ed="#L" n="86"/>est speciale rememoratiuum dominicae passionis Lucae 22. 
+      ho<lb ed="#L" n="87" break="no"/>facite in meam commemorationem. Passio autem Christi fuit 
+      <lb ed="#L" n="88"/>sacrificium, &amp; hostia pro redemptione omnium oblata. 
+      Eucha<lb ed="#L" n="89" break="no"/>ristia vero dicitur, quia illum continet qui est fons &amp; origi 
+      <lb ed="#L" n="90"/>omnis gratiae de cuius plenitudine omnes nos accepimus 
+      gra<lb ed="#L" n="91" break="no"/>tiam pro gratia Ioan. I. Eucharistia autem idem est quod bona 
+      <lb ed="#L" n="92"/>gratia. Viaticum autem, quia in via nos sustentat per modum nu 
+      <lb ed="#L" n="93"/>trimenti, &amp; ad finem viae perducit. Nemo enim venit ad patrem 
+      <lb ed="#L" n="94"/>nisi per me Io. 12. Communio vero quia per hoc sacramentum 
+      <lb ed="#L" n="95"/>vnimur nobis inuicem, &amp; ipsi Christo Io. 6. Qui manducat meam 
+      <lb ed="#L" n="96"/>carnem &amp; bibit meum sanguinem in me manet, &amp; ego in eo. 
+      </p>
+            <p xml:id="jsnvu6-e219691-d1e364">
+               <lb ed="#L" n="97"/>
+               <!--10--> AD PRIMVM argu. dicendum per interemptionem 
+      <lb ed="#L" n="98"/>minoris. Eucharistia enim est vnum sacramentum. Non enim 
+      vni<lb ed="#L" n="99" break="no"/>tas sacramenti est vnitas indiuisibilitatis vt puncti, vel 
+      conti<lb ed="#L" n="100" break="no"/>nuitatis vt lineae, vel essentiae vt in simplicibus &amp; compositis ex 
+      <lb ed="#L" n="101"/>forma substantiali &amp; materia, vel suppositi, vt subiecti &amp; 
+      accidem<lb ed="#L" n="102" break="no"/>tis, sed est vnitas perfectionis quae consistit in concursu omnium 
+      <lb ed="#L" n="103"/>quae requiruntur ad consequendum finem ad quem res ordinatur 
+      <lb ed="#L" n="104"/>sicut domus dicitur vna, vel calciamentum vnum quando 
+      concur<lb ed="#L" n="105" break="no"/>runt omnia quae requiruntur ad inhabitationem congruam, vel 
+      <lb ed="#L" n="106"/>ad debitum tegumentum pedum: hoc autem sacramentum 
+      diui<lb ed="#L" n="107" break="no"/>nitus est ordinatum ad refectionem spiritualem quae per corporalem 
+      <lb ed="#L" n="108"/>significatur, nec est perfecta nisi in ea proponatur aliquod vt ci 
+      <lb ed="#L" n="109"/>bus &amp; aliquid vt potus. Et ideo materia est vna perfectione licet 
+      <lb ed="#L" n="110"/>sit duplex in natura rei &amp; absolute, &amp; similiter est de forma. 
+      </p>
+            <p xml:id="jsnvu6-e219691-d1e399">
+               <lb ed="#L" n="111"/>
+               <!--11--> Ad secundum dicendum qu verba in hoc sacramento 
+      effi<lb ed="#L" n="112" break="no"/>ciunt modo quo dictum est de efficacia sacramentorum, quod 
+      cor<lb ed="#L" n="113" break="no"/>pus Christi sit in hoc sacramento, licet non efficiant quod corpus 
+      <lb ed="#L" n="114"/>Christi absolute sit, nec hoc oportet, quia primum sufficit. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

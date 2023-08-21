@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="233-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e191998"><!-- l3d31q7 -->
+            <head xml:id="jsnvu6-e191998-Hd1e101">Quaestio 7</head>
+            <head xml:id="jsnvu6-e191998-Hd1e103" type="question-title">Utrum scientia euacuetur in patria</head>
+            <p xml:id="jsnvu6-e191998-d1e106">
+      <!--00540.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>QVABITIO 313. 
+      <lb ed="#L" n="80"/>Vtrum scientia euacuetur in patria. 
+      <lb ed="#L" n="81"/>Thun. i α . 6. . 3. 
+    </p>
+            <p xml:id="jsnvu6-e191998-d1e119">
+               <lb ed="#L" n="82"/>OSTEA quaeritur, vtrum scientia eumacuetur 
+      <lb ed="#L" n="83"/>in patria. Et videtur quod sic, quia I. Corint. 13. 
+      <lb ed="#L" n="84"/>dicitur, siue scientia destruetur, sed destructio 
+      <lb ed="#L" n="85"/>i scientiae est eius euacuatio, igitur &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-e191998-d1e130">
+               <lb ed="#L" n="86"/>Item in patria nihil erit superfluum, sed 
+      co<lb ed="#L" n="87" break="no"/>gnitio rerum in verbo erit in beatis sufficientissima, ergo 
+      om<lb ed="#L" n="88" break="no"/>nia alia superfluerent, quod est inconueniens. 
+    </p>
+            <p xml:id="jsnvu6-e191998-d1e140">
+               <lb ed="#L" n="89"/>IN CONTRARIVM est, quia in Christo praeter 
+      <lb ed="#L" n="90"/>scientiam beatam fuit alia scientia: ergo similiter in beatis 
+      prae<lb ed="#L" n="91" break="no"/>ter cognitionem rerum in verbo potest esse scientia, quam hic 
+      <lb ed="#L" n="92"/>de rebus acquisierunt, 
+      </p>
+            <p xml:id="jsnvu6-e191998-d1e151">
+               <lb ed="#L" n="93"/>
+               <!--4--> Et iterum, in beatis angelis ponitur cognitio duplex, 
+      scili<lb ed="#L" n="94" break="no"/>cet matutina &amp; vespertina, hoc est rerum in verbo &amp; in 
+      pro<lb ed="#L" n="95" break="no"/>prio genere: ergo similiter ponenda est duplex scientia in 
+      homi<lb ed="#L" n="96" break="no"/>nibus beatis. Hoc autem non esset, nisi scientia hic acquisita 
+      <lb ed="#L" n="97"/>maneret, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e191998-d1e167">
+               <lb ed="#L" n="98"/>
+               <!--5--> RESPONSIO. Quamuis sit valde difficile videre 
+      <lb ed="#L" n="99"/>quomodo duo actus intelligendi simul possint esse in eodem 
+      <lb ed="#L" n="100"/>intellectu, &amp; maxime respectu eiusdem obiecti, tamen doctore 
+      <lb ed="#L" n="101"/>tenent communiter quod scientia hic acquisita manebit in 
+      bea<lb ed="#L" n="102" break="no"/>tis, non solum quantum ad habitum, sed etiam quantum ad 
+      <lb ed="#L" n="103"/>actum: exclusa tamen imperfectione quae pro statu viae 
+      inueni<lb ed="#L" n="104" break="no"/>tur in actu scientiae acquisitae, &amp; persuadent hoc tali ratione, 
+      <lb ed="#L" n="105"/>gloria non tollit perfectionem naturae, sed scientia non solum 
+      <lb ed="#L" n="106"/>quo ad habitum, sed etiam quantum ad actum pertinet ad 
+      per<lb ed="#L" n="107" break="no"/>fectionem naturae, imo summa perfectio naturae humanae, quam 
+      <lb ed="#L" n="108"/>ex naturalibus potest acquirere ponitur in actu sciendi; 
+      ergi<lb ed="#L" n="109" break="no"/>gloria non tollit scientiam quantum ad habitum, neque 
+      quan<lb ed="#L" n="110" break="no"/>tum ad actum, sed solum quantum ad modum imperfectionis 
+      <lb ed="#L" n="111"/>quam habet in statu praesenti, &amp; quamuis ad hanc rationem 
+      <lb ed="#L" n="112"/>posset dici quod gloria non tollit perfectionem naturae, nisi dando 
+      <lb ed="#L" n="113"/>maiorem perfectionem primam eminentius continentem, 
+      qua<lb ed="#L" n="114" break="no"/>liter cognitio beata continet omnem cognitionem naturalem, 
+      <lb ed="#L" n="115"/>tamen in supradicta ratione fistunt doctores, quae non potest 
+      <lb ed="#L" n="116"/>valere nisi ponendo quod visio beata sit alterius generis 
+      proxi<lb ed="#L" n="117" break="no"/>mi, quam quaecunque alia cognitio ipsi compossibilis: hoc enim 
+      <lb ed="#L" n="118"/>modo potest cum visione beata stare alia cognitio, nec apparet 
+      <lb ed="#L" n="119"/>ad praesens alius modus. 
+</p>
+            <p xml:id="jsnvu6-e191998-d1e219">
+               <lb ed="#L" n="120"/>AD PRIMVM argumentum dicendum quod illud 1 
+      <lb ed="#L" n="121"/>Corinth. 13. scientia destruetur, est intelligendum quo ad 
+      neces<lb ed="#L" n="122" break="no"/>sitatem, vel quo ad modum imperfectum, qui nunc est in actu 
+      <lb ed="#L" n="123"/>scientiae, non autem quantum ad substantiam habitus vel actus. 
+      <lb ed="#L" n="124"/>Ad secundum dicendum quod scientia hic acquisita non 
+      su<lb ed="#L" n="125" break="no"/>perfluit in patria, quum sit perfectio naturae, &amp; pertinet ad alium 
+      <lb ed="#L" n="126"/>modum cognoscendi. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

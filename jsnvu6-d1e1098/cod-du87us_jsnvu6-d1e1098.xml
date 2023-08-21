@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="53-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e1098"><!-- l1d18prae -->
+            <head xml:id="jsnvu6-d1e1098-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e1098-d1e103">
+               <lb ed="#L" n="149"/>DISTINCTIO XVIII. 
+      <lb ed="#L" n="150"/>Diuisio literae magistri in generali &amp; speciali.
+    </p>
+            <p xml:id="jsnvu6-d1e1098-d1e110">
+               <lb ed="#L" n="151"/>PRAETEREA diligenter considerandum. 
+      Su<lb ed="#L" n="152" break="no"/>perius magister determinauit de processione 
+      <lb ed="#L" n="153"/>spiritus sancti, hic vero inquirit nomen quod 
+      <lb ed="#L" n="154"/>competit ei secundum modum suae 
+      processio<lb ed="#L" n="155" break="no"/>nis, vnde specialiter in ista dist. tractatur 
+      quo<lb ed="#L" n="156" break="no"/>modo nomen doni conueniat spiritui sancto. Et diuiditur in 
+      <lb ed="#L" n="157"/>tres partes. Primo inquirit, vtru spiritus sanctus eadem 
+      ratio<lb ed="#L" n="158" break="no"/>ne dicatur donum &amp; datum, &amp; objicit ad vtramque partem. 
+      Se<lb ed="#L" n="159" break="no"/>cundo soluit. Tertio mouet quaestionem incidentem. Secunda 
+      <lb ed="#L" n="160"/>ibi, ad quod dicimus. Tertia ibi, post hoc quaeritur. Secunda 
+      ista<lb ed="#L" n="161" break="no"/>rum diuiditur in tres partes. Primo ostendit differentiam inter 
+      <!--00172.xml-->
+      <pb ed="#L" n="53-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>donum &amp; datum ex parte proprietatis importatae per nomen. 
+      <lb ed="#L" n="2"/>Secundo ex parte originis. Tertio ex parte dati. Secunda ibi, 8 
+      <lb ed="#L" n="3"/>notandum. Tertia ibi, &amp; secundum hoc quod sempiterne. Cuilibet 
+      <lb ed="#L" n="4"/>istarum partium adiungit vnam quaestionem &amp; soluit. Et in 
+      ho<lb ed="#L" n="5" break="no"/>terminatur sententia &amp; diuisio magistri in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e1098-d1e154">
+               <lb ed="#L" n="6"/>
+               <!--2--> In speciali sic procedit: Et quaerit primo, vtrum spiritus sar 
+      <lb ed="#L" n="7"/>ctus eadem ratione dicatur donum &amp; datum. Et arguitur 
+      pri<lb ed="#L" n="8" break="no"/>mo quod sic per Augustinum, quia a datione dicitur donum &amp; 
+      <lb ed="#L" n="9"/>datum. Deinde opponit in contrarium, quia donum dicitur al 
+      <lb ed="#L" n="10"/>aeterno: Datum vero ex tempore. Postea respondet magister 
+      as<lb ed="#L" n="11" break="no"/>signans vtramque differentiam inter donum &amp; datum: &amp; dici 
+      <lb ed="#L" n="12"/>quod spiritus sanctus alia ratione dicitur donum, &amp; alia 
+      ratio<lb ed="#L" n="13" break="no"/>ne datum: quia ex proprietate relationis quam habuit ab aeter 
+      <lb ed="#L" n="14"/>no dicitur donum, non autem datum: quia ab aeterno fuit 
+      do<lb ed="#L" n="15" break="no"/>nabilis, &amp; ab aeterno per modum doni processit a patre &amp; 
+      fi<lb ed="#L" n="16" break="no"/>lio: Sic enim spiritus sanctus esse donum Dei, est procedere a 
+      <lb ed="#L" n="17"/>patre &amp; filio sicut natum esse est filium esse a patre. Et hoc 
+      con<lb ed="#L" n="18" break="no"/>firmat auctoritate Augustini, ab illa enim proprietate donum 
+      <lb ed="#L" n="19"/>dicitur, a qua proprietatem sumitur nomen doni. Nomen 
+      au<lb ed="#L" n="20" break="no"/>tem dati sumitur ex actuali donatione: vnde ab aeterno 
+      dici<lb ed="#L" n="21" break="no"/>tur donum, quia donabilis, a tempore vero dicitur datum, 
+      qui<lb ed="#L" n="22" break="no"/>datur. Erat autem donabilis ab aeterno nobis, qui futuri eramus 
+      <lb ed="#L" n="23"/>in tempore, &amp; non quia donatus a patre &amp; filio, vel 
+      econuer<lb ed="#L" n="24" break="no"/>so. Quaerit etiam cum filius fuerit nobis donabilis ex 
+      tempo<lb ed="#L" n="25" break="no"/>re, quare non dicitur donum. Et respondet, quod licet 
+      dona<lb ed="#L" n="26" break="no"/>bilis fuerit, non tamen ex modo suae processionis quae est 
+      go<lb ed="#L" n="27" break="no"/>neratio, habuit istam donabilitatem. Postea assignat aliam dif 
+      <lb ed="#L" n="28"/>ferentiam inter donum &amp; datum, quia spiritus sanctus a pro 
+      <lb ed="#L" n="29"/>cessione aeterna habet quod sit donum, non quod sit datum: vndi 
+      <lb ed="#L" n="30"/>spiritui sancto esse donum, est a patre &amp; filio procedere: vndi 
+      <lb ed="#L" n="31"/>dicit quod sicut spiritussanctus ex processione sua aeterna accipit 
+      <lb ed="#L" n="32"/>vt sit ita etiam vt donum sit, sed ex eo quod datur non habe 
+      <lb ed="#L" n="33"/>vt sit, nec etiam vt donum sit, quia ab eodem habet esse &amp; esse 
+      <lb ed="#L" n="34"/>donum: &amp; filius quomodo nascendo habet vt filius ita habe 
+      <lb ed="#L" n="35"/>vt sit. Sed tunc quaestio est, quia, vt dicit August. pater non es 
+      <lb ed="#L" n="36"/>ex eo deus quo pater: nec filius eo est filius quo deus. Et respon 
+      <lb ed="#L" n="37"/>det qu non eodem formaliter est filius &amp; est, sed originaliter: &amp; 
+      <lb ed="#L" n="38"/>spiritussanctus est eodem originaliter donum &amp; deus, quia pe 
+      <lb ed="#L" n="39"/>suam processionem habet quicquid habet essentiam scilicet &amp; 
+      <lb ed="#L" n="40"/>relationem. Et concludit quod nomen doni respondet 
+      aeterni<lb ed="#L" n="41" break="no"/>processioni, nomen dati temporali. Postea quaerit aliam 
+      diffe<lb ed="#L" n="42" break="no"/>rentiam inter donum &amp; datum: quia spiritussanctus secundum 
+      <lb ed="#L" n="43"/>quod donum refertur ad patrem &amp; filium, a quibus 
+      procedi<lb ed="#L" n="44" break="no"/>secundum quod datur, refertur ad dantem &amp; ad eos quibus 
+      <lb ed="#L" n="45"/>datur. Postea ponit differentiam inter spiritum hominis &amp; spi 
+      <lb ed="#L" n="46"/>ritum sanctum: dicens, Spiritus enim hominis dicitur noster, 
+      <lb ed="#L" n="47"/>"quia per illum sumus, sed spiritussanctus dicitur noster, quia 
+      <lb ed="#L" n="48"/>nobis datur. Subdit etiam quod nomina quae important 
+      re<lb ed="#L" n="49" break="no"/>spectum alia principaliter recipiunt additionem horum 
+      pro<lb ed="#L" n="50" break="no"/>nominum, meum, nostrum. Alia vero quae imponuntur a 
+      pro<lb ed="#L" n="51" break="no"/>prietate aeterna non recipiunt horum additionem vnde non 
+      <lb ed="#L" n="52"/>dicitur filius noster, sed spiritus noster. Vitimo quaerit cum 
+      da<lb ed="#L" n="53" break="no"/>tum referatur ad dantem &amp; spiritussanctus detur a se, vtrum 
+      <lb ed="#L" n="54"/>possit dici referri ad se: cuius quaestionis solutionem differt 
+      <lb ed="#L" n="55"/>vsque ad tractatum in quo agitur de his quae relatiue deo 
+      con<lb ed="#L" n="56" break="no"/>ueniunt. Et in hoc habetur sententia in speciali.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

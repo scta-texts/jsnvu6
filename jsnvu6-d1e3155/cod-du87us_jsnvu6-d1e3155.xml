@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="139-v"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e3155"><!-- l2d19q1 -->
+            <head xml:id="jsnvu6-d1e3155-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e3155-Hd1e103" type="question-title">Utrum immortalitas Adae in statu innocentiae fuerit naturalis</head>
+            <p xml:id="jsnvu6-d1e3155-d1e106">
+               <lb ed="#L" n="87"/>QVAESTIO PRIMA. 
+      <lb ed="#L" n="88"/>Vtrum immortalitas Adae in statu 
+      innocen<lb ed="#L" n="89" break="no"/>tiae fuerit naturalis. 
+      <lb ed="#L" n="90"/>Thom. 1. q. 97. ar. 1. &amp; 4.
+    </p>
+            <p xml:id="jsnvu6-d1e3155-d1e117">
+               <lb ed="#L" n="91"/>CIRCA distinctionem decimamnonam 
+      quaerun<lb ed="#L" n="92" break="no"/>tur duo. Primo vtrum immortalitas Adae in 
+      sta<lb ed="#L" n="93" break="no"/>tu innocentiae fuerit naturalis. Et videtur quod 
+      <lb ed="#L" n="94"/>non, quia sicut in daemonibus remanserunt 
+      na<lb ed="#L" n="95" break="no"/>gi turalia integra post peccatum, vt dicit 
+      Diony<lb ed="#L" n="96" break="no"/>sius 4. cap. de di. no. Sic &amp; in hominibus vt videtur: Sed homo 
+      <lb ed="#L" n="97"/>post peccatum non remansit immortalis: ergo prior 
+      immorta<lb ed="#L" n="98" break="no"/>litas non fuit per naturam. 
+      </p>
+            <p xml:id="jsnvu6-d1e3155-d1e137">
+               <lb ed="#L" n="99"/>
+               <!--2--> IN CONTRARIVM est, quia illud est naturale, 
+      <lb ed="#L" n="100"/>quod inest per virtutem naturae, siue secundum rationes 
+      semi<lb ed="#L" n="101" break="no"/>nales. Sed talis fuit immortalitas status innocentiae, quia inerat 
+      <lb ed="#L" n="102"/>homini per esum lignorum paradisi, &amp; praecipue per esum ligni 
+      <lb ed="#L" n="103"/>vitae, ergo &amp;c 
+      </p>
+            <p xml:id="jsnvu6-d1e3155-d1e154">
+               <lb ed="#L" n="104"/>
+               <!--3.--> RESPONSIO. Videnda sunt tria. Primo an homo in 
+      <lb ed="#L" n="105"/>statu innocentiae fuerit immortalis. Secundo qualis fuerit 
+      im<lb ed="#L" n="106" break="no"/>mortalitas, vtrum eadem cum immortalitate resurgentium, an 
+      <lb ed="#L" n="107"/>alia. Tertio an fuerit per naturam, an per gratiam. 
+      </p>
+            <p xml:id="jsnvu6-d1e3155-d1e167">
+               <lb ed="#L" n="108"/>
+               <!--4--> CIRCA PRIMVM sciendum quod eum fuisse 
+      im<lb ed="#L" n="109" break="no"/>mortalem conuincitur auctoritate sacrae scripturae, &amp; 
+      probabi<lb ed="#L" n="110" break="no"/>li persuasione. Auctoritate scripturae per hoc quod dicit 
+      Apo<lb ed="#L" n="111" break="no"/>stolus ad Romanos quinto, quod per vnum hominem 
+      pecca<lb ed="#L" n="112" break="no"/>tum intrauit in mundum, &amp; per peccatum mors: ergo ante 
+      pec<lb ed="#L" n="113" break="no"/>catum erat homo immortalis: Vnde &amp; dominus poenam mortis 
+      <lb ed="#L" n="114"/>comminatus est primo homini Genes. secundo, dicens, 
+      quacun<lb ed="#L" n="115" break="no"/>que die ex eo comederis, morte morieris, id est, necessitati 
+      mo<lb ed="#L" n="116" break="no"/>riendi addictus eris. Est etiam ad hoc persuasio probabilis, quia 
+      <lb ed="#L" n="117"/>sicut est in esse naturae, sic suo modo est in esse supernaturali. 
+      <lb ed="#L" n="118"/>Sed sic est in esse naturae, quod quaecunque processu temporis 
+      <lb ed="#L" n="119"/>producta sunt in se, a principio fuerunt producta secundum suas 
+      <lb ed="#L" n="120"/>rationes seminales (vt dicit Augustinus super Genesim) ergo 
+      <lb ed="#L" n="121"/>debuit esse similiter in supernaturali, quod gloria tam animae 
+      <lb ed="#L" n="122"/>quam corporis, quae processu temporis erat danda hominibus, 
+      <lb ed="#L" n="123"/>fuit a principio producta secundum suum seminarium. Semina 
+      <lb ed="#L" n="124"/>rium autem gloriae animae, est gratia, seminarium vero gloriae 
+      <lb ed="#L" n="125"/>corporis, est quaedam inchoatio immortalitatis: ergo a 
+      princi<lb ed="#L" n="126" break="no"/>pio homo fuit creatus in gratia animae, tanquam in 
+      semi<lb ed="#L" n="127" break="no"/>nario gloriae eius, &amp; in aliqua inchoatione immortalis 
+      corpo<lb ed="#L" n="128" break="no"/>ris, tanquam in seminario perfectae immortalitatis &amp; 
+      impassi<lb ed="#L" n="129" break="no"/>bilitatis. 
+</p>
+            <p xml:id="jsnvu6-d1e3155-d1e219">
+               <lb ed="#L" n="130"/>QUANTVM ad secundum articulum notandum quod 
+      <lb ed="#L" n="131"/>immortalitas status innocentiae fuit, qua poterat non mori, &amp; 
+      <lb ed="#L" n="132"/>non qua non poterat mori, qualis eri immortalitas 
+      resurgen<lb ed="#L" n="133" break="no"/>tium: poterat enim peccare, &amp; mori, sicut &amp; factum est. Posse 
+      <lb ed="#L" n="134"/>autem non mori in quo consistebat ratio illius immortalitatis 
+      <lb ed="#L" n="135"/>potest capi dupliciter, ad semper, vel ad tempus. Ad semper 
+      au<lb ed="#L" n="136" break="no"/>tem non erat illud posse non mori quoad actum, quia de illo 
+      <lb ed="#L" n="137"/>statu homo transferendus erat ad statum gloriae in quo non 
+      pos<lb ed="#L" n="138" break="no"/>set simpliciter mori, quae est immortalitas alterius rationis. Et 
+      <lb ed="#L" n="139"/>sic primae immortalitati successit secunda immortalitas, nec 
+      <lb ed="#L" n="140"/>virtus primae immortalitatis semper fuisset. Erat igitur illa 
+      im<lb ed="#L" n="141" break="no"/>mortalitas qua poterat homo non mori non ad semper, 
+      quan<lb ed="#L" n="142" break="no"/>tum erat ex conditione status, sed vsque ad tempus) s. quousque 
+      <lb ed="#L" n="143"/>transferretur ad gloriam.) 
+      </p>
+            <p xml:id="jsnvu6-d1e3155-d1e252">
+               <lb ed="#L" n="144"/>
+               <!--6--> His suppositis, dicendum quod immortalitas status 
+      inno<lb ed="#L" n="145" break="no"/>centiae non fuit simpliciter naturalis, sed quantum ad aliqua 
+      po<lb ed="#L" n="146" break="no"/>tuit esse naturalis. Primum patet, quia nihil dicitur simpliciter 
+      <lb ed="#L" n="147"/>naturale, nisi quod potest prouenire ex causis pure 
+      naturali<lb ed="#L" n="148" break="no"/>bus. Sed illa immortalitas ex causis pure naturalibus non 
+      pote<lb ed="#L" n="149" break="no"/>rat prouenire: sed requirebatur diuina prouidentia specialis 
+      <lb ed="#L" n="150"/>defendens ab omni inferente extriuseco mortem per violentiam 
+      <lb ed="#L" n="151"/>&amp; prudentia quam habuit de omni cibo mortifero, quae fuit ei 
+      <lb ed="#L" n="152"/>gratuite collata, &amp; iterum quod esset in tali loco temperato 
+      <lb ed="#L" n="153"/>scilicet in paradiso, &amp; vesceretur tali cibo sic confortatiuo non 
+      <lb ed="#L" n="154"/>fuit naturae, sed gratiae, vt magister dicit, propter quae 
+      immor<lb ed="#L" n="155" break="no"/>talitas illa simpliciter loquendo magis dicenda est fuisse 
+      super<lb ed="#L" n="156" break="no"/>naturalis, quam naturalis. Item quod est simpliciter naturale 
+      <!--00347.xml-->
+      <pb ed="#L" n="140-r"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>manet, vel manere potest in omni statu, sicut a principio argue 
+      <lb ed="#L" n="2"/>batur. Sed illa immortalitas non mansit in homine post pecca 
+      <lb ed="#L" n="3"/>tum: ergo non fuit simpliciter naturalis, &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-d1e3155-d1e298">
+               <lb ed="#L" n="4"/>
+               <!--7--> Secundum patet, videlicet quod exclusis praedictis in caeteris po 
+      <lb ed="#L" n="5"/>terat illa immortalitas pure esse naturalis, quod patet sic, quanto 
+      <lb ed="#L" n="6"/>complexio est fortior, &amp; cibus melior, &amp; aer purior, tanto 
+      po<lb ed="#L" n="7" break="no"/>test naturaliter vita esse diuturnior. Sed in paradiso fuerunt haec 
+      <lb ed="#L" n="8"/>omnia cum caeteris quae cooperantur ad longitudinem vitae. Fui 
+      <lb ed="#L" n="9"/>enim natura hominis optime complexionata: cibus lignorum 
+      <lb ed="#L" n="10"/>paradisi purissimus, &amp; confortatiuus, praecipue fructus ugni 
+      vi<lb ed="#L" n="11" break="no"/>tae, plusquam quaecunque species aromaticae: fuit etiam 
+      tempera<lb ed="#L" n="12" break="no"/>tissimus aer absque vlla imordinatione caloris &amp; frigoris, qua 
+      <lb ed="#L" n="13"/>multos interficit: ergo potuit aetas eorum esse diuturnissima 
+      <lb ed="#L" n="14"/>scilicet quousque ad alium statum transferretur. Hoc autem ma 
+      <lb ed="#L" n="15"/>gis patet ex comparatione statuum &amp; aetatum. Comparande 
+      <lb ed="#L" n="16"/>enim statum innocentiae ad statum post peccatum, &amp; ante 
+      dilu<lb ed="#L" n="17" break="no"/>uium complexio plus excessit complexionem in vigore, 
+      cibu<lb ed="#L" n="18" break="no"/>cibum in bonitate, &amp; conformatione naturae, locus locum in 
+      <lb ed="#L" n="19"/>aeris temperamento, &amp; puritate quam excessit status ante diluuium, 
+      <lb ed="#L" n="20"/>&amp; post peccatum statum modernum. Sed ante diluuium viuebani 
+      <lb ed="#L" n="21"/>absque miraculo in decuplo plus quam modo, vt patet Genes. 5 
+      <lb ed="#L" n="22"/>ergo in paradiso pro statu innocentiae poterant in decuplo, &amp; 
+      <lb ed="#L" n="23"/>forte in centuplo plus viuere quam illi qui fuerunt post pecca 
+      <lb ed="#L" n="24"/>tum, &amp; ante diluuium, quorum aliqui vixerunt fere mille annis 
+      <lb ed="#L" n="25"/>quo completo translati fuissent ad gloriam. 
+      </p>
+            <p xml:id="jsnvu6-d1e3155-d1e350">
+               <lb ed="#L" n="26"/>
+               <!--8--> Et si esset verum hoc quod aliqui dicunt, quod fructus ligni 
+      <lb ed="#L" n="27"/>vitae talem habuit naturam, vt quod sumebatur de alimento 
+      con<lb ed="#L" n="28" break="no"/>uerteretur in naturam in aequali puritate qua prius, &amp; 
+      natur<lb ed="#L" n="29" break="no"/>restituebatur ad eundem vigorem, vt prius, nihil prohibuisse 
+      <lb ed="#L" n="30"/>illam immortalitatem fuisse per naturam etiam ad semper: &amp; 
+      <lb ed="#L" n="31"/>haec immortalitas per naturam poterat stare cum mortalitate 
+      <lb ed="#L" n="32"/>per naturam quia huiusmodi immortalitas non erat ex 
+      subla<lb ed="#L" n="33" break="no"/>tione principiorum passiuorum intrinsecorum, quibus aliquid 
+      <lb ed="#L" n="34"/>dicitur per naturam mortale vel corruptibile. Sed erat ex impi 
+      <lb ed="#L" n="35"/>dimento eorum quorum actio poterat inducere corruptionem, 
+      <lb ed="#L" n="36"/>&amp; haec bene stant simul. Sunt enim mortalis, &amp; tamen non 
+      mo<lb ed="#L" n="37" break="no"/>rior actu. Et sicut est pro nunc, sic posset esse pro toto 
+      tempo<lb ed="#L" n="38" break="no"/>re, si idem impedimentum moriendi existeret, &amp; sic patet quod 
+      <lb ed="#L" n="39"/>immortalitas status innocentiae non fuit simpliciter naturalis, 
+      <lb ed="#L" n="40"/>sed solum quoad supradicta. 
+      </p>
+            <p xml:id="jsnvu6-d1e3155-d1e388">
+               <lb ed="#L" n="41"/>
+               <!--9--> Ad argumentum in oppositum dicendum quod si homo 
+      <lb ed="#L" n="42"/>post peccatum in paradiso mansisset &amp; comedisset temperate 
+      <lb ed="#L" n="43"/>de lignis paradisi, maxime autem de ligno vitae, &amp; cum hoc ha 
+      <lb ed="#L" n="44"/>buisset prouidentiam diuinam, scilicet praeseruantem a laesiuis 
+      <lb ed="#L" n="45"/>extrinsecis, forsitan illam eandem immortalitatem consecutus 
+      <lb ed="#L" n="46"/>fuisset. Sed extra paradisum non erant illa quae hanc 
+      immorta<lb ed="#L" n="47" break="no"/>litatem in eo causabant. Et hoc videtur innuere scriptura 
+      Ge<lb ed="#L" n="48" break="no"/>nes. 3. quum dicit Dominus, videte ne forte sumat de ligno 
+      vi<lb ed="#L" n="49" break="no"/>tae, &amp; viuat in aeternum, &amp; emisit eum de paradiso. Defecit 
+      <lb ed="#L" n="50"/>etiam ei diuina prouidentia quoad custodiam a nocumentis 
+      <lb ed="#L" n="51"/>extrinsecis. Vnde &amp; postmodum Abel occisus fuit a Cain, vt 
+      <lb ed="#L" n="52"/>dicitur Genes. 4. Nec hoc est contra illud quod Dominus 
+      di<lb ed="#L" n="53" break="no"/>xerat quacunque die ex eo comederis, morte morieris, quia 
+      <lb ed="#L" n="54"/>hoc dicit praeuidens eum eiiciendum de paradiso, &amp; amissurum 
+      <lb ed="#L" n="55"/>specialem Dei custodiam quam habebat. Et haec est 
+      senten<lb ed="#L" n="56" break="no"/>tia August. lib. de quaestionibus noui &amp; veteris testamenti, vb 
+      <lb ed="#L" n="57"/>dicit sic, denique post peccatum potuit insolubilis maneres 
+      <lb ed="#L" n="58"/>permissum illi esset edere de ligno vitae. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="309-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e255009"><!-- l4d23q2 -->
+            <head xml:id="jsnvu6-e255009-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e255009-Hd1e103" type="question-title">Utrum oleum consecratum per 
+      episcopum sit conueniens materia 
+      huius sacramenti</head>
+            <p xml:id="jsnvu6-e255009-d1e106">
+               <lb ed="#L" n="11"/>CYAISTIO, SECTKDA. 
+      <lb ed="#L" n="12"/>Vtrum oleum consecratum per 
+      episco<lb ed="#L" n="13" break="no"/>pum sit conueniens materia 
+      hu<lb ed="#L" n="14" break="no"/>ius sacramenti. 
+    </p>
+            <p xml:id="jsnvu6-e255009-d1e117">
+               <lb ed="#L" n="15"/>SECVNDO quaeritur vtrum oleum consecratum 
+      <lb ed="#L" n="16"/>per episcopum fit conueniens materia huius sacra 
+      <lb ed="#L" n="17"/>menti. Et videtur quod non, quia istud saeramentum 
+      <lb ed="#L" n="18"/>Aimmediate ordinat hominem ad gloriam 
+      ineorru<lb ed="#L" n="19" break="no"/>ptionis: sed incorruptio magis representabitur per balsamum 
+      <lb ed="#L" n="20"/>qui cum oleo in chrismate ponitur quam per simplex oleum, 
+      <lb ed="#L" n="21"/>ergo chrisma esset conuenientior materia. 
+      </p>
+            <p xml:id="jsnvu6-e255009-d1e135">
+               <lb ed="#L" n="22"/>
+               <!--2--> Item dignius est sacramentum baptismi, quam sit extrema 
+      <lb ed="#L" n="23"/>vnctio: sed ad baptismum non requiritur materia consecrata 
+      <lb ed="#L" n="24"/>ergo ad hoc sacramentum non requiritur oleum consecratum. 
+      </p>
+            <p xml:id="jsnvu6-e255009-d1e147">
+               <lb ed="#L" n="25"/>
+               <!--3--> Item saperior non praeparat materiam inferiori, sed econ 
+      <lb ed="#L" n="26"/>uerso, vt patet in artibus, dignior est enim nauigatiua quam 
+      <lb ed="#L" n="27"/>nauifactiua, quae praeparat materiam: sed episcopus est dignio 
+      <lb ed="#L" n="28"/>simplici sacerdote, ergo non praeparat materiam qua simples 
+      <lb ed="#L" n="29"/>sacerdos vtitur in extrema vnctione, ergo non requiritur ad 
+      <lb ed="#L" n="30"/>eam oleum consecratum per episcopum. 
+      </p>
+            <p xml:id="jsnvu6-e255009-d1e165">
+               <lb ed="#L" n="31"/>
+               <!--4--> IN CONTRARIVM est quod dicitur Iaeobi quin 
+      <lb ed="#L" n="32"/>to, vngentes eum oleo &amp;c. Hoc oleum debet esse per 
+      episco<lb ed="#L" n="33" break="no"/>pumbenedictum, sicut in omnibus aliis benedictionibus 
+      ma<lb ed="#L" n="34" break="no"/>teria per episcopum consecratur. 
+      </p>
+            <p xml:id="jsnvu6-e255009-d1e178">
+               <lb ed="#L" n="35"/>
+               <!--5--> RESPONSIO. Dicenda sunt tria. Primum est, quo 
+      <lb ed="#L" n="36"/>oleum est conueniens materia huius sacramenti. Secundum 
+      <lb ed="#L" n="37"/>est, quod illud debet esse consecratum. Tertium est, quod illa 
+      <lb ed="#L" n="38"/>consecratio debet fieri per episcopum. 
+      </p>
+            <p xml:id="jsnvu6-e255009-d1e191">
+               <lb ed="#L" n="39"/>
+               <!--6--> RATIO primi est: quia illud est conueniens materia hu 
+      <lb ed="#L" n="40"/>ius saeramenti quod habet maximam conuenientiam cum eiu 
+      <lb ed="#L" n="41"/>effecta, sed tale est oleum respectu effectus extremaevnctionis 
+      <lb ed="#L" n="42"/>ergo &amp;c. Probatio minoris, quia effectus istius sacramenti es 
+      <lb ed="#L" n="43"/>spiritualis hilaritas mentis, per quam mens lenitur a graued 
+      <lb ed="#L" n="44"/>ne &amp; depressione quam communiter tunc homines patiuntur: 
+      <lb ed="#L" n="45"/>huic autem maxime conuenit oleum oliuarum, quod proprie 
+      <lb ed="#L" n="46"/>dicitur oleum, est enim nitidum &amp; linituum, ideo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e255009-d1e213">
+               <lb ed="#L" n="47"/>
+               <!--7--> QUANTVM ad secundum dicunt quidam quod oportet 
+      <lb ed="#L" n="48"/>Illud oleum esse consecratum, quia oportet omnem materiam 
+      <lb ed="#L" n="49"/>saeramenti quam Christus sibi non applicuit consecrari, &amp; 
+      qui<lb ed="#L" n="50" break="no"/>Christus non fuit vsus vnctionibus corporalibus: ideo necessa 
+      <lb ed="#L" n="51"/>rium est omnem materiam sacramenti pertinentem ad vnctio 
+      <lb ed="#L" n="52"/>nem consecrari. Sed istud reprobatum fuit supra, distinction 
+      <lb ed="#L" n="53"/>prima. Dicendum est igitur (vt ibi tactum fuit) quod vbi minister 
+      <lb ed="#L" n="54"/>est determinatus certa ordinatione, materia qua minister 
+      vti<lb ed="#L" n="55" break="no"/>tur, applicando eam ad suscipientem debet esse consecrata 
+      cer<lb ed="#L" n="56" break="no"/>ta benedictione, sed in hoc sacramento minister est 
+      determi<lb ed="#L" n="57" break="no"/>natus certa ordinatione scilicet sacerdotali (vt postea patebit 
+      <lb ed="#L" n="58"/>ergo materia debet esse consecrata certa benedictione. 
+      </p>
+            <p xml:id="jsnvu6-e255009-d1e244">
+               <lb ed="#L" n="59"/>
+               <!--8--> RATIO tertij est, quia ex eodem a quo dependet ordina 
+      <lb ed="#L" n="60"/>rio ministri, dependet etiam consecratio materiae, quum sibi 
+      <lb ed="#L" n="61"/>inuicem correspondeant, sed ordinatio ministri huius sacra 
+      <lb ed="#L" n="62"/>menti dependet a solo episcopo, ergo &amp; consecratio materiae 
+      <lb ed="#L" n="63"/>Et rationabile est hoc etiam, quia quum minister propria vir. 
+      <lb ed="#L" n="64"/>tute non inducat effectum sacramenti, sed Christus 
+      inquan<lb ed="#L" n="65" break="no"/>tum Deus: ideo Christus inquantum Deus est principalis au 
+      <lb ed="#L" n="66"/>ctor, &amp; inquantum homo causa meritoria, &amp; quia quae a Dec 
+      <lb ed="#L" n="67"/>sunt, sunt ordinata (vt dicitur Romanorum decimotertio) cor 
+      <lb ed="#L" n="68"/>gruit vt sicut ab ipso redundat gratia sacramentalis in populi 
+      <lb ed="#L" n="69"/>"mediantibus ministris qui sacramenta dispensant, sic redunde 
+      <lb ed="#L" n="70"/>auctoritas dispensandi sacramenta in ministros inferiores me 
+      <lb ed="#L" n="71"/>diantibus superioribus qui materiam sanctificant &amp; ministros 
+      <lb ed="#L" n="72"/>ordinant. Et ideo in omnibus sacramentis quae indigent 
+      mate<lb ed="#L" n="73" break="no"/>ria sanctificata, sicut fit ordinatio ministri per episcopum, 
+      si<lb ed="#L" n="74" break="no"/>etiam sanctificatio materiae. 
+      </p>
+            <p xml:id="jsnvu6-e255009-d1e284">
+               <lb ed="#L" n="75"/>
+               <!--9--> AD PRIMVM ARGVMENTVM dicendum est 
+      <lb ed="#L" n="76"/>quod incorruptio gloriae non est res contenta in hoc sacramento, 
+      <lb ed="#L" n="77"/>nec per sacramentum immediate facta. Et ideo non oportet 
+      <lb ed="#L" n="78"/>sanctificatio materiae ei correspondeat, propter quod non opor¬ 
+      <!--00692.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>tet balsamum imponi in materia huius sacramenti, quia 
+      balsa<lb ed="#L" n="80" break="no"/>mus propter odorem designat claritatem famae, qua non 
+      indi<lb ed="#L" n="81" break="no"/>gent exeuntes de hoc mundo, sed solum nitore conscie iae qua 
+      <lb ed="#L" n="82"/>sufficienter designatur per oleum. 
+      </p>
+            <p xml:id="jsnvu6-e255009-d1e310">
+               <lb ed="#L" n="83"/>
+               <!--10--> Ad secundum argumentum dicendum quol non est simile 
+      <lb ed="#L" n="84"/>de baptismo &amp; extrema vnctione: quia sicut non est de 
+      necessi<lb ed="#L" n="85" break="no"/>tate baptismi, quod minister sit ordinatus, ita consecratio 
+      mate<lb ed="#L" n="86" break="no"/>riae non est de necessitate baptisimi. E contrario autem est in 
+      <lb ed="#L" n="87"/>sacramento extremae vnctionis, vt dictum est. 
+      </p>
+            <p xml:id="jsnvu6-e255009-d1e326">
+               <lb ed="#L" n="88"/>
+               <!--11--> Ad tertium argumentum dicendum est quod praeparatio 
+      <lb ed="#L" n="89"/>materiae per quam nulla virtus actiua materiae acquiritur, 
+      per<lb ed="#L" n="90" break="no"/>tinet ad inferiorem artificem, &amp; vsus ad superiorem, vt dictum 
+      <lb ed="#L" n="91"/>est de materia quam inferior ars praeparat superiori. Sed 
+      quan<lb ed="#L" n="92" break="no"/>do per praeparationem acquiritur virtus actiua materiae 
+      aequa<lb ed="#L" n="93" break="no"/>lis virtuti artificis, tunc vsus materiae non est potior praepara 
+      <lb ed="#L" n="94"/>tione materiae, quum tanta sit virtus materiae sicut vtentis: &amp; 
+      <lb ed="#L" n="95"/>sic est in proposito puta per sanctificationem materiae tanta ei 
+      <lb ed="#L" n="96"/>acquiritur virtus, sicut ministro per suam ordinationem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

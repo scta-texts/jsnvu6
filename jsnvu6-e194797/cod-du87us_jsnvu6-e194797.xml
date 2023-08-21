@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="237-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e194797"><!-- l3d34q1 -->
+            <head xml:id="jsnvu6-e194797-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-e194797-Hd1e103" type="question-title">
+      Utrum dona sint eadem cum virtutibus, an 
+      distincta ab eis
+    </head>
+            <p xml:id="jsnvu6-e194797-d1e106">
+               <lb ed="#L" n="49"/>QVAISTIO PRIMA. 
+      <lb ed="#L" n="50"/>Vtrum dona sint eadem cum virtutibus, an 
+      <lb ed="#L" n="51"/>distincta ab eis. 
+      <lb ed="#L" n="52"/>Thom. 1. 2. 4. 68. ar.1. 
+    </p>
+            <p xml:id="jsnvu6-e194797-d1e117">
+               <lb ed="#L" n="53"/>II CA distinctionem istam quaeritur primo, vtrum 
+      <lb ed="#L" n="54"/>dona sint eadem cum virtutibus, an distincta ab eis 
+      <lb ed="#L" n="55"/>Et arguitur quod sint idem cum virtutibus, quia 
+      il<lb ed="#L" n="56" break="no"/>Ila sunt idem, quorum vna est diffinitio, sed 
+      virtu<lb ed="#L" n="57" break="no"/>tum &amp; donorum est eadem diffinitio, ergo ipsa sunt idem 
+      <lb ed="#L" n="58"/>Minor probatur, quia diffinitio quam dat August. de virtut. 
+      <lb ed="#L" n="59"/>competit donis, scilicet quod virtus est bona qualitas 
+      menti<lb ed="#L" n="60" break="no"/>qua recte viuitur, qua nullus male vtitur, qua Deus nobis &amp; 
+      <lb ed="#L" n="61"/>sine nobis operatur. 
+    </p>
+            <p xml:id="jsnvu6-e194797-d1e139">
+               <lb ed="#L" n="62"/>Item inter dona nominatur sapientia, intellectus, scientia, 
+      <lb ed="#L" n="63"/>fortitudo, consilium &amp; prudentia: constat autem quod haec sunt 
+      <lb ed="#L" n="64"/>virtutes, vt patet 6. &amp; 3. Ethic. ergo videtur quod dona non 
+      di<lb ed="#L" n="65" break="no"/>stinguantur a virtutibus. 
+    </p>
+            <p xml:id="jsnvu6-e194797-d1e151">
+               <lb ed="#L" n="66"/>IN CONTRARIVM est quod dicit beatus Grege 
+      <lb ed="#L" n="67"/>rius primo moralium, quod dona data sunt in adiutorium 
+      vir<lb ed="#L" n="68" break="no"/>tutum, sed nihil in adiutorium suiipsius, ergo &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-e194797-d1e160">
+               <lb ed="#L" n="69"/>Item timor numeratur inter dona, qui tamen non est virtus, 
+      <lb ed="#L" n="70"/>sed passio, quare &amp;c. 
+    </p>
+            <p xml:id="jsnvu6-e194797-d1e167">
+               <lb ed="#L" n="71"/>RESPONSIO. Circa quaestionem ista sunt quatuor 
+      <lb ed="#L" n="72"/>modi dicendi, quorum duo primi parum habent de 
+      probabili<lb ed="#L" n="73" break="no"/>tate. Alij vero duo sunt probabiliores. Primus moc est quod 
+      <lb ed="#L" n="74"/>virtutes &amp; dona realiter distinguuntur, quia virtutes dantur ad 
+      <lb ed="#L" n="75"/>bene operandum, sed dona ad resistendum tentationibus. Sed 
+      <lb ed="#L" n="76"/>istud satis conuenienter reprobatur, quia per idem datur alicui 
+      <lb ed="#L" n="77"/>facultas ad bene operandum, &amp; ad resistendum malo contrario, 
+      <lb ed="#L" n="78"/>sicut enim per temperantiam aliquis habet temperate viuere, 
+      <lb ed="#L" n="79"/>ita per eadem habet resistere oppositis temperantiae, &amp; sic de 
+      <!--00547.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="80"/>aliis virtutibus, vnde de charitate quae importat actus omnium 
+      <lb ed="#L" n="81"/>virtutum dicitur, Cant. 8. quod aquae multae, id est, tentationes 
+      <lb ed="#L" n="82"/>qualescunque non potuerunt extinguere charitatem: si ergo 
+      <lb ed="#L" n="83"/>virtutes perficiunt ad bene operandum, non oportet praeter 
+      <lb ed="#L" n="84"/>eas ponere aliquos alios habitus, qui perficiant nos ad resisten 
+      <lb ed="#L" n="85"/>dum contrariis tentationibus. 
+      </p>
+            <p xml:id="jsnvu6-e194797-d1e206">
+               <lb ed="#L" n="86"/>
+               <!--6--> Secundus modus est quod dona differunt a virtutibus, quia 
+      <lb ed="#L" n="87"/>per virtutes euitantur peccata; per dona purgantur sequela 
+      <lb ed="#L" n="88"/>peccatorum, &amp; istud confirmatur per verbum Greg. qui dicit 
+      <lb ed="#L" n="89"/>quod sapientia datur contra stultitiam, intellectus contra 
+      he<lb ed="#L" n="90" break="no"/>betudinem, &amp; sic de aliis, quae non sunt peccata, sed sequelae 
+      <lb ed="#L" n="91"/>peccatorum. Sed nec istud valet, quia omnes huiusmodi 
+      defe<lb ed="#L" n="92" break="no"/>ctus tolluntur per virtutes, sicut per dona, sapientia enim &amp; 
+      in<lb ed="#L" n="93" break="no"/>tellectus siue accipiantur vt dona, siue vt virtutes aequaliter 
+      tol<lb ed="#L" n="94" break="no"/>lunt stultitiam &amp; hebetudinem. Item pronitas ad peccandum 
+      <lb ed="#L" n="95"/>est sequela peccati: ista autem pronitas tollitur per 
+      assuefactio<lb ed="#L" n="96" break="no"/>nem actibus virtuosis, quare &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e194797-d1e235">
+               <lb ed="#L" n="97"/>
+               <!--7--> Tertius modus est quod dona &amp; virtutes non sunt idem, sed 
+      diffe<lb ed="#L" n="98" break="no"/>runt sicut superius &amp; inferius, ita quod omnis virtus est donum, sed 
+      <lb ed="#L" n="99"/>non omne donum est virtus. Differentia autem nominum est, q 
+      <lb ed="#L" n="100"/>id idem quod dicitur virtus. prout perficit nos ad bene 
+      operan<lb ed="#L" n="101" break="no"/>dum dicitur donum, prout datur a deo, virtus enim sortitur ra 
+      <lb ed="#L" n="102"/>tionem doni non qualitercunque habita, sed prout per infusionem 
+      <lb ed="#L" n="103"/>habetur, &amp; non ex mera acquisitione. Et videtur haec differentia 
+      <lb ed="#L" n="104"/>nominum haberi ex ipsa scriptura, sapientia enim quae secundum 
+      <lb ed="#L" n="105"/>se est virtus quaedam, vocatur donum, prout alicui diuinitus 
+      in<lb ed="#L" n="106" break="no"/>funditur: &amp; sic loquitur beatus Ioannes in sua cano. cap. 1. dicens, 
+      <lb ed="#L" n="107"/>Omne datum optimum, &amp; omne donum perfectum de fursum est. 
+      <lb ed="#L" n="108"/>&amp; statim subiungit de sapientia, si quis indiget sapientia 
+      postu<lb ed="#L" n="109" break="no"/>let a Deo qui dat omnibus, &amp;c. Simili modo loquitur Apostol 
+      <lb ed="#L" n="110"/>de fide, vocans eam donum hac ratione. Ephe. 2. Gratia saluati 
+      <lb ed="#L" n="111"/>estis per fidem vocans eam donum hac ratione. Ephes. 2. Gratia 
+      <lb ed="#L" n="112"/>saluati estis per fidem, &amp; non ex vobis, Dei enim donum est. 
+      </p>
+            <p xml:id="jsnvu6-e194797-d1e274">
+               <lb ed="#L" n="113"/>
+               <!--8--> Obiicitur autem contra hunc modum sic, si donum &amp; 
+      virtu<lb ed="#L" n="114" break="no"/>tes sint idem re, solum differentia socundum rationem, tunc quo 
+      <lb ed="#L" n="115"/>essent virtutes, tot erunt dona: &amp; sic temperantia, quae est virtus 
+      <lb ed="#L" n="116"/>erit etiam donum, &amp; similiter iustitia, necnon fides &amp; spes, &amp; chi 
+      <lb ed="#L" n="117"/>ritas: hoc autem non dicitur communiter, quare &amp;c. Ad hoc 
+      respon<lb ed="#L" n="118" break="no"/>dent tenentes hunc modum, concedendo quod tot sunt dona quot 
+      vir<lb ed="#L" n="119" break="no"/>tutes infusae, qa ex infusione sortiuntur rationem doni, &amp; quando 
+      <lb ed="#L" n="120"/>dicitur, quod fides, iustitia, temperantia, &amp; huiusmodi non nume 
+      <lb ed="#L" n="121"/>rantur inter dona. Esaiae II. dicunt quod imo si videatur non solum 
+      <lb ed="#L" n="122"/>principium illius capituli, sed processus, dicitur enim consequenter, 
+      <lb ed="#L" n="123"/>erit iustitia cingulum lumborum eius, &amp; fides cinctorium renum 
+      <lb ed="#L" n="124"/>eius, &amp; sic habemus iustitiam &amp; fidem: sub fide autem 
+      comprehen<lb ed="#L" n="125" break="no"/>duntur spes &amp; charitas, de temperantia autem dicitur quod 
+      in<lb ed="#L" n="126" break="no"/>telligitur in dono timoris, quia per timorem potissime 
+      retrahi<lb ed="#L" n="127" break="no"/>mur a delectationibus carnis, secundum illud Psal. Confige 
+      ti<lb ed="#L" n="128" break="no"/>more tuo carnes meas, prudentia autem nomine consilij, &amp; 
+      <lb ed="#L" n="129"/>secundum istum modum omnes virtutes intellectuales, vt sunt sapie 
+      <lb ed="#L" n="130"/>tia, scientia, &amp; intellectus, &amp; omnes morales, prudentia, 
+      fortitu<lb ed="#L" n="131" break="no"/>do, temperantia &amp; iustitia, vt a Deo dantur, dona dicuntur, 
+      nec<lb ed="#L" n="132" break="no"/>non &amp; virtutes theologicae. Et si arguitur quia tunc erunt plura 
+      <lb ed="#L" n="133"/>dona quam septem. Respondent isti quod non est inconueniens, quia 
+      <lb ed="#L" n="134"/>in bonis quanto plura sunt, tanto melius est. Modus autem 
+      com<lb ed="#L" n="135" break="no"/>munis loquendi, quo dicuntur esse septem dona, &amp; non plura, 
+      or<lb ed="#L" n="136" break="no"/>tum habuit ab illis qui considerauerunt principium II. cap. Esa. 
+      <lb ed="#L" n="137"/>&amp; non processum, sed quia quaedam sunt quae inclinant 
+      homi<lb ed="#L" n="138" break="no"/>nem ad bene operandum, &amp; a contrariis retrahunt: quamuis non 
+      <lb ed="#L" n="139"/>sint virtutes, tamen talia quando a Deo infunduntur, sunt 
+      quae<lb ed="#L" n="140" break="no"/>dam Dei dona, vt timor, siue accipiatur pro passione, siue pro 
+      <lb ed="#L" n="141"/>affectione voluntatis actuali vel habituali, &amp; secundum hoc 
+      do<lb ed="#L" n="142" break="no"/>num est in plus quam virtus, quia non omne donum est virtus, 
+      <lb ed="#L" n="143"/>sed omnis virtus est donum quando a Deo infunditur. 
+      </p>
+            <p xml:id="jsnvu6-e194797-d1e347">
+               <lb ed="#L" n="144"/>
+               <!--9--> Quartus modus est, quod dona &amp; virtutes differunt, quia dona 
+      <lb ed="#L" n="145"/>perficiunt ad operandum altiori modo quam virtutes. Ad quod 
+      <lb ed="#L" n="146"/>sciendum est aduertendum qud habitus non requiruntur ad 
+      eli<lb ed="#L" n="147" break="no"/>ciendum substantiam operationis, sed propter modum operandi. 
+      <lb ed="#L" n="148"/>Modus autem operandi ad praesens est duplex humanus, &amp; 
+      super<lb ed="#L" n="149" break="no"/>humanus, &amp; primum quidem experimur in nobis. De secundo 
+      au<lb ed="#L" n="150" break="no"/>tem videtur loqui Philosoph. 7. Ethic. diuidens contra virtutem 
+      <lb ed="#L" n="151"/>absolute, &amp; simpliciter acceptam virtutem heroicam, quam vocat 
+      <lb ed="#L" n="152"/>diuinam, eo quod secundum eam homo quasi diuino modo 
+      opera<lb ed="#L" n="153" break="no"/>tur. Ex quo potest sic argui, vbi est alius &amp; alius modus operan 
+      <lb ed="#L" n="154"/>di, ibi est alius &amp; alius habitus, sed secundum virtutes &amp; dona est 
+      <lb ed="#L" n="155"/>alius &amp; alius modus operandi, quia secundum virtutes 
+      opera<lb ed="#L" n="156" break="no"/>mur modo humano, secundum dona autem modo super 
+      huma<lb ed="#L" n="157" break="no"/>no, siue diuino, ergo virtutes &amp; dona sunt differentes habitus, 
+      <lb ed="#L" n="158"/>&amp; confirmatur hoc, quia cum homo sit quid medium inter bruta 
+      <lb ed="#L" n="159"/>&amp; substantias separatas, quae diuinae dicuntur, sicut in malitus 
+      <lb ed="#L" n="160"/>est inuenire modum humanum &amp; modum superhumanum vel 
+      <lb ed="#L" n="161"/>bestialem (sicut sunt peccata contra naturam quae excedunt 
+      mo<lb ed="#L" n="162" break="no"/>dum malitiae humanae) sic in bonis est inuenire humanum mo¬ 
+      <!--00548.xml-->
+      <pb ed="#L" n="237-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Sum ad quem perficiunt virtutes &amp; super humanum siue 
+      diui<lb ed="#L" n="2" break="no"/>num ad quem perficiunt dona. Vteristorum duorum 
+      modo<lb ed="#L" n="3" break="no"/>rum scilicet tertij &amp; quarti sit verior, nescio an est alicui notum 
+      <lb ed="#L" n="4"/>per certitudinem. 
+      </p>
+            <p xml:id="jsnvu6-e194797-d1e408">
+               <lb ed="#L" n="5"/>
+               <!--10--> AD PRIMVM arg. dicendum secundum quartum 
+      mo<lb ed="#L" n="6" break="no"/>dum quod illa diffinitio sic intelligenda est quod virtus est bona 
+      <lb ed="#L" n="7"/>qualitas mentis qua recte viuit homo humano modo, &amp; sic nor 
+      <lb ed="#L" n="8"/>conuenit donis quibus viuitur modo diuino vel superhumano, 
+      <lb ed="#L" n="9"/>secundum autem tertium modum concederetur quod omnis 
+      <lb ed="#L" n="10"/>virtus sic donum quamuis non econuerso, propter timorem qui 
+      <lb ed="#L" n="11"/>secundum aliam sui acceptionem est donum &amp; non virtus, sed 
+      <lb ed="#L" n="12"/>tunc iam non est habitus, sed passio vel affectio, vel si sit habitus 
+      <lb ed="#L" n="13"/>non tamen aeque perfectus vt virtus cum consistat in fuga mali¬ 
+      </p>
+            <p xml:id="jsnvu6-e194797-d1e432">
+               <lb ed="#L" n="14"/>
+               <!--11.--> Ad secundum dicendum est secundum quartum modum 
+      <lb ed="#L" n="15"/>quod quia ea quae sunt super nos non cognoscimus nisi ex his 
+      <lb ed="#L" n="16"/>quae sunt secundum nos, ideo nomina donorum sumuntur 
+      se<lb ed="#L" n="17" break="no"/>cundum nomina aliquarum virtutum quamuis illa nomina non 
+      <lb ed="#L" n="18"/>vniuoce virtutibus &amp; donis conueniant, secundum autem 
+      ter<lb ed="#L" n="19" break="no"/>tium modum conceditur totum argumentum. 
+      </p>
+            <p xml:id="jsnvu6-e194797-d1e450">
+               <lb ed="#L" n="20"/>
+               <!--22--> Argumentum in oppositum bene procedit secundum 
+      quar<lb ed="#L" n="21" break="no"/>tum modum, sed secundum tertium dicendum quod pro tanto 
+      <lb ed="#L" n="22"/>dona dicuntur dari in adiutorium virturum, quia habentes 
+      vir<lb ed="#L" n="23" break="no"/>tutes ex infusione diuina (quae vt sic dicuntur dona) habent eas 
+      <lb ed="#L" n="24"/>perfectius quam illi qui habent eas ex sola acquisitione, &amp; si 
+      <lb ed="#L" n="25"/>prius habeantur per acquisitionem &amp; deinde augeantur per 
+      <lb ed="#L" n="26"/>infusionem &amp; tunc dona dicuntur in adiutorium virtutum, quia 
+      <lb ed="#L" n="27"/>quod prius poterant facere minus perfecte, postea possunt 
+      per<lb ed="#L" n="28" break="no"/>fectius. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

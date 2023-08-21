@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="125-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e2756"><!-- l2d8q1 -->
+            <head xml:id="jsnvu6-d1e2756-Hd1e101">Quaestio 1</head>
+            <head xml:id="jsnvu6-d1e2756-Hd1e103" type="question-title">Utrum angeli sint corporei</head>
+            <p xml:id="jsnvu6-d1e2756-d1e106">
+               <lb ed="#L" n="54"/>QVAISTIO PIINA. 
+      <lb ed="#L" n="55"/>Vtrum angeli sint corporei. 
+      <lb ed="#L" n="56"/>Thom. l. 4. 51. art. 1. &amp; 2. 
+    </p>
+            <p xml:id="jsnvu6-d1e2756-d1e115">
+               <lb ed="#L" n="57"/>HIC QUAERITVR de quatuor. Primo 
+      <lb ed="#L" n="58"/>angelorum corporeitate. Secundo de operatio 
+      <lb ed="#L" n="59"/>ne eorum in assumptis corporibus. Tertio de ope 
+      <lb ed="#L" n="60"/>ratione eorum circa nostra corpora. Et quarto 
+      <lb ed="#L" n="61"/>de operatione eorum circa animas nostras. Cir 
+      <lb ed="#L" n="62"/>ca primum videtur quod angeli sint corporei, quia 
+      perfectio<lb ed="#L" n="63" break="no"/>est vita in angelis quam in animabus, sed anima non solum vi 
+      <lb ed="#L" n="64"/>uit, sed &amp; corpus viuificat, ergo &amp; angeli corpora viuificant 
+      <lb ed="#L" n="65"/>sed hoc non esset nisi essent corporei, ergo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-d1e2756-d1e137">
+               <lb ed="#L" n="66"/>
+               <!--2--> Item Aug. de ecc. doc. dicit, angelos &amp; omnes substantias 
+      in<lb ed="#L" n="67" break="no"/>tellectuales naturas corporeas dicimus, &amp; sic idem quod prius. 
+      </p>
+            <p xml:id="jsnvu6-d1e2756-d1e147">
+               <lb ed="#L" n="68"/>
+               <!--3--> SED CONTRA est quod dicit Dionysius 4. de diui 
+      <lb ed="#L" n="69"/>no. quod angeli incorporales &amp; immateriales intelliguntur. El 
+      <lb ed="#L" n="70"/>arguitur per rationem, quia plus dependet corpus a spiritu 
+      <lb ed="#L" n="71"/>quam spiritus a corpore. Est autem dare creaturam pure 
+      cor<lb ed="#L" n="72" break="no"/>poralem non vnitam alicui spiritui, ergo multo fortius est 
+      da<lb ed="#L" n="73" break="no"/>re substantiam spiritualem non vnitam alicui corpori. 
+      </p>
+            <p xml:id="jsnvu6-d1e2756-d1e165">
+               <lb ed="#L" n="74"/>
+               <!--4--> RESPONSIO. Dicendum quod angelum habere 
+      cor<lb ed="#L" n="75" break="no"/>pus, vel esse corporeum potest intelligi dupliciter. Vno modo 
+      <lb ed="#L" n="76"/>habeat corpus naturaliter ei vnitum. Alio modo quod habeat cor 
+      <lb ed="#L" n="77"/>pus ei voluntarie assumptum. Primo modo intelligedo quaestion 
+      <lb ed="#L" n="78"/>idem est quaerere an angelus sit corporeus, &amp; vtrum sit compositu, 
+      <!--00318.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79"/>ex materia &amp; forma dante esse corporeum, quia spiritus non 
+      vni<lb ed="#L" n="80" break="no"/>tur corpori naturaliter nisi sicut forma materiae, &amp; actus potem 
+      <lb ed="#L" n="81"/>tiae: vnio enim spiritus ad corpus quae est per modum motoris 
+      <lb ed="#L" n="82"/>ad mobile, vel assumentis ad assumptibile voluntaria est, &amp; non 
+      <lb ed="#L" n="83"/>naturalis. Si igitur angelus habeat corpus sibi naturaliter 
+      vni<lb ed="#L" n="84" break="no"/>tum, oportet quod nomine angeli intelligatur, vel spiritus 
+      vni<lb ed="#L" n="85" break="no"/>tus corpori vt forma materiae, vel compositum ex materia &amp; 
+      <lb ed="#L" n="86"/>tali forma. Primum non potest dici quod secundum 
+      communi<lb ed="#L" n="87" break="no"/>ter loquentes per nomen angeli semper intelligitur quid 
+      com<lb ed="#L" n="88" break="no"/>pletum in specie &amp; non pars speciei: restat ergo quod secunde 
+      <lb ed="#L" n="89"/>modo intelligatur. Et tunc quaestio haec soluta est per illud 
+      <lb ed="#L" n="90"/>quod dictum est supra dist. 3. vbi probatum est quod angelus 
+      <lb ed="#L" n="91"/>non est compositus ex materia &amp; forma. Et nihilominus 
+      po<lb ed="#L" n="92" break="no"/>test addi alia ratio talis, duo corpora non possunt esse simul: sed 
+      <lb ed="#L" n="93"/>angelus simul est cum corpore, ergo non potest esse corporeus 
+      </p>
+            <p xml:id="jsnvu6-d1e2756-d1e217">
+               <lb ed="#L" n="94"/>
+               <!--5--> Si vero loquamur de corpore voluntarie assumpto, Hoc 
+      po<lb ed="#L" n="95" break="no"/>test esse dupliciter, quia vel assumitur in vnitate personae sicut 
+      <lb ed="#L" n="96"/>humanitas in Christo. Et hoc modo non possunt angeli 
+      pro<lb ed="#L" n="97" break="no"/>pria &amp; naturali virtute aliquod corpus assumere, quia sicut 
+      n<lb ed="#L" n="98" break="no"/>turaliter competit accidenti in alio esse, &amp; ei repugnat per 
+      i<lb ed="#L" n="99" break="no"/>esse, sic substantiae completae naturaliter competit per se esse 
+      <lb ed="#L" n="100"/>&amp; ei repugnat in alio esse: Sed nulla virtute creata fieri potes 
+      <lb ed="#L" n="101"/>quod accidens per se subsistat, sed fit hoc solum diuina virtute, 
+      <lb ed="#L" n="102"/>vt in sacramento altaris, ergo nulla virtute nisi diuina fieri 
+      po<lb ed="#L" n="103" break="no"/>test quod substantia completa in alio subsistat. 
+      </p>
+            <p xml:id="jsnvu6-d1e2756-d1e243">
+               <lb ed="#L" n="104"/>
+               <!--6--> Causa autem huius est, quia proprium modum essendi 
+      na<lb ed="#L" n="105" break="no"/>turae vnitae non potest immutare nisi auctor naturae, cum 
+      secun<lb ed="#L" n="106" break="no"/>dum cursum institutum vnum de necessitate sequatur ad 
+      alte<lb ed="#L" n="107" break="no"/>rum. Cum igitur corpus assumptibile sic natum per se 
+      subsiste<lb ed="#L" n="108" break="no"/>re, patet quod angelus non potest ipsum sibi vnire in vnitatem 
+      <lb ed="#L" n="109"/>personae. Si vero assumatur solum vt mobile a motore 
+      reprae<lb ed="#L" n="110" break="no"/>sentato sic potest angelus corpus assumere, quia sicut dictum es 
+      <lb ed="#L" n="111"/>prius cum natura corporea obediat angelis ad nutum possunt 
+      <lb ed="#L" n="112"/>angeli determinata actiua coniungere ad determinata passiua. 
+      <lb ed="#L" n="113"/>Et sic formare qualia volunt corpora. 
+      </p>
+            <p xml:id="jsnvu6-d1e2756-d1e269">
+               <lb ed="#L" n="114"/>
+               <!--7.--> Cum igitur in his corporibus appareant aliquae 
+      proprieta<lb ed="#L" n="115" break="no"/>tes visibiles proprietatibus inuisibilibus angeli congruentes tum 
+      <lb ed="#L" n="116"/>dicuntur corpus assumere, vt quando apparet in figura leonis 
+      <lb ed="#L" n="117"/>vel bouis, &amp; huiusmodi per quorum proprietates intelliguntur 
+      <lb ed="#L" n="118"/>spirituales virtutes angelorum, nec habent huiusmodi corpora 
+      <lb ed="#L" n="119"/>veritatem naturae quam praetendunt: vnde si angelus moueat 
+      ve<lb ed="#L" n="120" break="no"/>rum lapidem, aut corpus veri animalis vt in energuminis, no 
+      <lb ed="#L" n="121"/>dicitur illud assumere, quia secundum Dionysium, finis visibilium 
+      <lb ed="#L" n="122"/>formationum est vt ducant in cognitionem proprietatum 
+      substan<lb ed="#L" n="123" break="no"/>tiae spiritualis, quod non fit vbi proprietates secundum veritatem 
+      <lb ed="#L" n="124"/>sunt in correspondente corpore, quia tunc ducunt in cognitioni 
+      <lb ed="#L" n="125"/>proprij subiecti, &amp; non in cognitionem substantiae spiritualis 
+      <lb ed="#L" n="126"/>Oportet ergo corpus quod ab angelo dicitur assumptum 
+      mini<lb ed="#L" n="127" break="no"/>sterio eius esse formatum, &amp; habere proprietates aliquas 
+      secum<lb ed="#L" n="128" break="no"/>dum apparentiam tantum ducentes in cognitionem proprieta 
+      <lb ed="#L" n="129"/>tum substantiae spiritualis: formantur autem talia corpora, 
+      ma<lb ed="#L" n="130" break="no"/>xime de aere inspissato qui facillime colorari, &amp; figurari potest 
+      <lb ed="#L" n="131"/>sicut patet in nubibus. Et huius signum est, quia quidam 
+      niten<lb ed="#L" n="132" break="no"/>tes corpus assumptum a daemone scindere gladio non 
+      value<lb ed="#L" n="133" break="no"/>runt, quia partes aeris diuisi statim continuabantur. 
+      </p>
+            <p xml:id="jsnvu6-d1e2756-d1e317">
+               <lb ed="#L" n="134"/>
+               <!--8--> AD PRIMVM argumentum dicendum quod 
+      viuifi<lb ed="#L" n="135" break="no"/>care effectiue simpliciter est perfectionis quo modo anima nor 
+      <lb ed="#L" n="136"/>viuificat, sed formaliter, qui modus competit solum substantia 
+      <lb ed="#L" n="137"/>quae est pars non habens in se integram naturam speciei, vndie 
+      <lb ed="#L" n="138"/>substantia intellectualis &amp; viuens quae non est vnita corpori vi 
+      <lb ed="#L" n="139"/>forma (qualis est angelus) perfectior est quam ea quae corpus 
+      <lb ed="#L" n="140"/>formaliter viuificat (vt anima. 
+      </p>
+            <p xml:id="jsnvu6-d1e2756-d1e338">
+               <lb ed="#L" n="141"/>
+               <!--9--> Ad secundum dicendum quod August. non loquitur 
+      asseren<lb ed="#L" n="142" break="no"/>do, sed recitando opinionem aliquorum qui non aestimauerunt 
+      <lb ed="#L" n="143"/>aliquas substantias esse incorporeas, nisi corporibus vnitas, adeo 
+      <lb ed="#L" n="144"/>quod deum dicebant esse animam mundi, vt August. narrat. in 
+      <lb ed="#L" n="145"/>7. de ci. dei. vel dicendum quod loquitur comparatiue respectu 
+      <lb ed="#L" n="146"/>dei, respectu cuius omnia incidunt in compositionem aliquam, 
+      <lb ed="#L" n="147"/>&amp; in tantum ad corpoream naturam accedunt. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

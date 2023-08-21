@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="190-r"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e155955"><!-- l3d4q2 -->
+            <head xml:id="jsnvu6-e155955-Hd1e101">Quaestio 2</head>
+            <head xml:id="jsnvu6-e155955-Hd1e103" type="question-title">Utrum virgo beata possit dici mater Dei</head>
+            <p xml:id="jsnvu6-e155955-d1e106">
+               <lb ed="#L" n="131"/>QVARSTIO SCVNDA. 
+      <lb ed="#L" n="132"/>Vtrum virgo beata possit dici mater Dei. 
+      <lb ed="#L" n="133"/>Tbum . . 5. r363.
+    </p>
+            <p xml:id="jsnvu6-e155955-d1e115">
+               <lb ed="#L" n="134"/>ECVNBO quaeritur, vtrum beata virgo possit d 
+      <lb ed="#L" n="135"/>ci mater dei. Et videtur quod non, quia magis debe 
+      <lb ed="#L" n="136"/>concedi illud quod est verum per se, quam illud 
+      <lb ed="#L" n="137"/>quod est verum per accidens, sed in hoc nomine 
+      <lb ed="#L" n="138"/>Christus importatur natura humana, quam a 
+      ma<lb ed="#L" n="139" break="no"/>tre accepit, non autem in hoc nomine Deus: ergo magis 
+      de<lb ed="#L" n="140" break="no"/>bet dici mater Christi, quam mater Dei, sed non dicitur mater 
+      <lb ed="#L" n="141"/>Christi per Damasc. lib. 3. cap. 12. vbi dicit sic, Christo theotho 
+      <lb ed="#L" n="142"/>con. 1. Christi matrem virginem non dicimus: ergo fortiori 
+      ra<lb ed="#L" n="143" break="no"/>tione non debet dici mater Dei. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e139">
+               <lb ed="#L" n="144"/>
+               <!--2--> Item beata virgo non est mater Christi, nisi secundum id 
+      <lb ed="#L" n="145"/>quod Christus ab ea accepit, sed non accepit ab ea diuinitatem, 
+      <lb ed="#L" n="146"/>secundum quam est Deus, sed humanitatem secundum quanm 
+      <lb ed="#L" n="147"/>est homo, ergo non debet dici mater Dei, licet possit dici 
+      ma<lb ed="#L" n="148" break="no"/>ter bominis. 
+</p>
+            <p xml:id="jsnvu6-e155955-d1e156">
+               <lb ed="#L" n="149"/>IN CONTRARIVM est Damasc. 3. lib. cap. 12. vbi 
+      <lb ed="#L" n="150"/>dicit Theotocon, id est, Dei genitricem vere &amp; principaliter 
+      <lb ed="#L" n="151"/>praedicamus virginem. Et <name xml:id="jsnvu6-e155955-Nd1e164">Cirillus</name> in capitulis approbatis i 
+      <lb ed="#L" n="152"/>Ephesina synodo dicit, Si quis non confitetur Deum esse 
+      se<lb ed="#L" n="153" break="no"/>cundum veritatem Emanuel, &amp; propter hoc Dei genitricen 
+      <lb ed="#L" n="154"/>sanctam virginem (genuit enim carnaliter carnem factam ex 
+      <lb ed="#L" n="155"/>Deo verbum) anathema sit. 
+    </p>
+            <p xml:id="jsnvu6-e155955-d1e176">
+               <lb ed="#L" n="156"/>RESPONSIO. ista quaestio non est de re, sed de modo 
+      <lb ed="#L" n="157"/>loquendi. Supponimus enim in vna persona Christi fuisse dua 
+      <lb ed="#L" n="158"/>naturas perfectas diuinam scilicet &amp; humanam, quo supposito 
+      <!--00454.xml-->
+      <pb ed="#L" n="190-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quaerimus qualiter sit loquendum in hoc materia. Et quia fides est 
+      <lb ed="#L" n="2"/>de re, non de verbis nisi quatenus significant res. Ideo tenens 
+      veri<lb ed="#L" n="3" break="no"/>tatem incarnationis dato quod erraret in verbis non erraret in fide, 
+      <lb ed="#L" n="4"/>sed erraret in grammatica, vel logica quarum est considerare 
+      con<lb ed="#L" n="5" break="no"/>gruitatem orationis, &amp; veritatem, &amp; proprietatem locutionis. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e202">
+               <lb ed="#L" n="6"/>
+               <!--5--> Dicitur ergo sic communiter quod ista est vera &amp; propria 
+      lo<lb ed="#L" n="7" break="no"/>cutio beata virgo est mater dei. Cuius ratio assignatur talis quam 
+      <lb ed="#L" n="8"/>do duae naturae vniuntur in vno supposito eodem vna praedicatur 
+      <lb ed="#L" n="9"/>de alia in concreto. Et proprietas vnius de altera concretiue sum 
+      <lb ed="#L" n="10"/>pta, sicut dicimus quod album est musicum, &amp; musicum album 
+      <lb ed="#L" n="11"/>&amp; album disputat &amp; musicum disgregat pro eo quod in eodem 
+      <lb ed="#L" n="12"/>supposito sunt albedo &amp; musica. In Christo autem 
+      coniungun<lb ed="#L" n="13" break="no"/>tur deitas &amp; humanitas in vnitatem suppositi, ergo verum es 
+      <lb ed="#L" n="14"/>dicere concretiue quod deus est homo, &amp; homo est deus. Cum 
+      <lb ed="#L" n="15"/>igitur beata virgo fuerit vera mater illius hominis scilicet 
+      Chri<lb ed="#L" n="16" break="no"/>sti sequitur quod possit vere dici quod fit mater dei. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e231">
+               <lb ed="#L" n="17"/>
+               <!--6.--> Item homo nihil aliud dicitur nisi suppositum habens 
+      huma<lb ed="#L" n="18" break="no"/>nitatem, sed deus nominat suppositum quod vere habet 
+      huma<lb ed="#L" n="19" break="no"/>nitatem quoad suppositum filij, ergo vere &amp; proprie potest dici 
+      <lb ed="#L" n="20"/>quod deus est homo, &amp; sic idem quod prius. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e244">
+               <lb ed="#L" n="21"/>
+               <!--7.--> Item proprietates humanae naturae vere &amp; proprie 
+      praedi<lb ed="#L" n="22" break="no"/>cantur de deo, dicendo quod deus est passus &amp; mortuus, ergo 
+      <lb ed="#L" n="23"/>fortiori ratione ipsa natura humana potest de deo praedicari 
+      di<lb ed="#L" n="24" break="no"/>cendo deus est homo. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e257">
+               <lb ed="#L" n="25"/>
+               <!--8--> Ad idem est quod dicit August. quod talis fuit vnio illa qua 
+      <lb ed="#L" n="26"/>deum faceret hominem, &amp; hominem deum. Et ita sicut beata 
+      <lb ed="#L" n="27"/>virgo potest dici mater hominis ita mater dei¬ 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e269">
+               <lb ed="#L" n="28"/>
+               <!--9--> Veruntamen sicut dictum fuit prius prima distin. quaestio. 3. 
+      <lb ed="#L" n="29"/>qui vult omnino proprie vti nominibus debet eis vti proui 
+      <lb ed="#L" n="30"/>sunt ad significandum imposita. Hoc autem prout videmus in 
+      <lb ed="#L" n="31"/>creaturis in quibus videmus quod plures naturae substantiales, 
+      <lb ed="#L" n="32"/>&amp; completae, constituunt plura supposita, &amp; nunquam vnum, 
+      <lb ed="#L" n="33"/>&amp; quaelibet concretiue sumpta praedicantur de suo supposito, &amp; 
+      <lb ed="#L" n="34"/>est ipsummet suppositum, vbi autem plures naturae completa 
+      <lb ed="#L" n="35"/>concurrunt in vnum suppositum miraculos e (vt in opere 
+      incar<lb ed="#L" n="36" break="no"/>nationis) ibi non potest seruari tanta proprietas locutionis sicul 
+      <lb ed="#L" n="37"/>in aliis, vnde quamuis ista deus est homo sit vera &amp; propria 
+      mo<lb ed="#L" n="38" break="no"/>dis quibus dictum est, tamen haec est magis propria sortes est 
+      ho<lb ed="#L" n="39" break="no"/>mo. Et vniuersaliter omnis illa propositio in qua concretine 
+      <lb ed="#L" n="40"/>praedicatur natura humana de supposito creato. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e302">
+               <lb ed="#L" n="41"/>
+               <!--10.--> Quod patet sic, cum propositio affirmatiua sit vera &amp; propria 
+      <lb ed="#L" n="42"/>ex identitate praedicati cum subiecto vbi est maior identitas ibi 
+      <lb ed="#L" n="43"/>est maior veritas &amp; proprietas. Sed dicendo Petrus est homo ibi 
+      <lb ed="#L" n="44"/>est maior identitas praedicati cum subiecto quam dicendo deus 
+      <lb ed="#L" n="45"/>est homo, vt probabitur, ergo ibi est maior veritas, &amp; minor pri 
+      <lb ed="#L" n="46"/>prietas. Probatio minoris quia dicendo Petrus est homo ibi est 
+      <lb ed="#L" n="47"/>identitas per se praedicati cum subiecto. Etenim in primo mode 
+      <lb ed="#L" n="48"/>dicendi per se, nec Petrus manens potest non esse homo. Cum 
+      au<lb ed="#L" n="49" break="no"/>tem dicitur deus est homo ibi non est identitas per se predicat: 
+      <lb ed="#L" n="50"/>cum subiecto. Ista non est in primo modo dicendi per se deus est 
+      <lb ed="#L" n="51"/>homo, quia deus manens deus potest non esse homo, ergo maior 
+      <lb ed="#L" n="52"/>est identitas praedicati cum subiecto in illa Petrus est homo, quam 
+      <lb ed="#L" n="53"/>in ista, deus est homo, &amp; haec fuit minor, sequitur ergo conclusio. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e335">
+               <lb ed="#L" n="54"/>
+               <!--11--> Item cum dicitur Petrus est homo suppositum Petri non 
+      <lb ed="#L" n="55"/>constituitur per aliam naturam quam per illam quae importatu 
+      <lb ed="#L" n="56"/>formaliter nomine hominis. Sed cum dicitur deus est homo. 
+      Su<lb ed="#L" n="57" break="no"/>positum diuinum constituitur per aliam naturam magis quam 
+      <lb ed="#L" n="58"/>per illam quae importatur formaliter nomine hominis, ergo 
+      de<lb ed="#L" n="59" break="no"/>virtute locutionis maior identitas est inter praedicatum &amp; 
+      sub<lb ed="#L" n="60" break="no"/>iectum. Cum dicitur Petrus est homo quam cum dicitur deus 
+      <lb ed="#L" n="61"/>est homo, &amp; per consequens maior proprietas. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e357">
+               <lb ed="#L" n="62"/>
+               <!--12.--> Item homo de quocunque praedicatur omnino proprie prae 
+      <lb ed="#L" n="63"/>dicatur in quid cum non sit denominatiuum, sed homo non potest 
+      <lb ed="#L" n="64"/>proprie praedicari de deo quid, ergo ista non est omnino propria 
+      <lb ed="#L" n="65"/>deus est homo. minor probatur, quia illud non praedicatur 
+      pro<lb ed="#L" n="66" break="no"/>prie de aliquo in quid quod non proprie respondetur ad interro 
+      <lb ed="#L" n="67"/>gationem factam per quid. Sed ad interrogationem factam quid est 
+      <lb ed="#L" n="68"/>deus non proprie respondetur homo, quia quid quaerit de 
+      essen<lb ed="#L" n="69" break="no"/>tia, sicut quale de qualitatem, &amp; quantum de quantitate. Eadem 
+      au<lb ed="#L" n="70" break="no"/>tem essentia non importatur per haec nomina deus &amp; homo licet 
+      <lb ed="#L" n="71"/>fit idem suppositum habens vtramque essentiam, quare, &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e383">
+               <lb ed="#L" n="72"/>
+               <!--13--> Item proprietas praedicationis denominatiue non stat cun 
+      <lb ed="#L" n="73"/>omnimoda proprietate praedicationis in quid, nec ergo econuer 
+      <lb ed="#L" n="74"/>so, vnde non proprie dicitur Sortes est humanatus, quia 
+      propri<lb ed="#L" n="75" break="no"/>dicitur sortes est homo. Sed secundum Damasc. 3.lib. ista est 
+      pro<lb ed="#L" n="76" break="no"/>pria deus est humanatus, ergo ista non est omnino propria deus 
+      <lb ed="#L" n="77"/>est homo. Et confirmatur hoc, quia si deus assumpsisset naturam 
+      <lb ed="#L" n="78"/>carnis inanimatae, ista esset magis propria deus est incarnatus, 
+      <lb ed="#L" n="79"/>quam illa deus est caro, ergo similiter in proposito haec est 
+      ma<lb ed="#L" n="80" break="no"/>gis propria deus est humanatus quam illa deus est homo. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e407">
+               <lb ed="#L" n="81"/>
+               <!--14--> Item diuersae naturae existentes in eodem supposito non 
+      <lb ed="#L" n="82"/>praedicantur omnino propriae de se inuicem, nisi vtraque, vel saltem 
+      <!--00454.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>altera sumatur denominatiue, vtraque, vt dicendo album est 
+      musi<lb ed="#L" n="84" break="no"/>cum, vel altera, vt sortes est albus. Et causa est, quia duae 
+      natur<lb ed="#L" n="85" break="no"/>in eodem supposito aliquo modo se habent, vt partes totius 
+      subsi<lb ed="#L" n="86" break="no"/>stentis, pars autem non praedicatur omnino proprie de toto, vel de 
+      <lb ed="#L" n="87"/>alia parte, nisi denominatiue. Cum igitur diuina natura &amp; 
+      hu<lb ed="#L" n="88" break="no"/>mana in Christo sint aliquo modo partes vnius suppositi 
+      subsi<lb ed="#L" n="89" break="no"/>stentis in vtraque natura. Vnde Dam. dicit personam verbi post 
+      in<lb ed="#L" n="90" break="no"/>carnationem compositam. Videtur quod vna non possit praedicari de 
+      <lb ed="#L" n="91"/>altera omnino proprie, nisi vtraque, vel saltem altera denominatiue 
+      <lb ed="#L" n="92"/>sumatur, vt dicendo, deus est humanatus, vel aliquid huiusmodi: 
+      <lb ed="#L" n="93"/>dicendo autem, deus est homo, vel homo est deus, neutra 
+      denomi<lb ed="#L" n="94" break="no"/>natiue sumitur, quanquam vtraque concretiue sumatur. Non enim 
+      <lb ed="#L" n="95"/>est idem concretum &amp; denominatiuum, vt statim patebit, 
+      ergi<lb ed="#L" n="96" break="no"/>illa propositio, deus est homo, non est omnino aeque proprra 
+      <lb ed="#L" n="97"/>sicut Sortes est homo, vel deus est humanatus, quamuis sit vera 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e454">
+               <lb ed="#L" n="98"/>
+               <!--15--> Iuxta quod est intelligendum quod in substantiis inuenitu 
+      <lb ed="#L" n="99"/>triplex differentia nominum, scilicet abstractum, concretum, &amp; 
+      de<lb ed="#L" n="100" break="no"/>nominatiuum, vt humanitas, homo, &amp; humanatus. In 
+      accidenti<lb ed="#L" n="101" break="no"/>bus autem solum duplex, scilicet abstractum, vt albedo, &amp; concretum 
+      <lb ed="#L" n="102"/>seu denominatiuum (quia in vnum coincidunt) vt album. Et 
+      caus<lb ed="#L" n="103" break="no"/>est, quia est quaedam concretio naturae ad primum suppositum 
+      <lb ed="#L" n="104"/>vt humanitas ad hominem. Alia est concretio accidentis ad sub. 
+      <lb ed="#L" n="105"/>iectum, vt albedinis ad sortem. Quum igitur natura accidentalis 
+      <lb ed="#L" n="106"/>proprium suppositum non constituat, sed in alieno existat subie 
+      <lb ed="#L" n="107"/>ctiue, ideo in accidentibus non est concretio ad suppositum, nisi 
+      <lb ed="#L" n="108"/>quia concernit ipsum vt subiectum mediate vel immediate. E 
+      <lb ed="#L" n="109"/>quia concretio accidentis ad subiectum est denominatius, &amp; non 
+      <lb ed="#L" n="110"/>essentialis, eo quod accidens comparatur ad subiectum, vt 
+      for<lb ed="#L" n="111" break="no"/>ma accidentalis, ideo in omnibus accidentibus omne concretum 
+      <lb ed="#L" n="112"/>est denominatiuum. Substantia autem constituit proprium 
+      sup<lb ed="#L" n="113" break="no"/>positum, nec est pars eius, imo dicit totum, propter quod 
+      inue<lb ed="#L" n="114" break="no"/>nitur quoddam concretum ex concretione naturae, ad supposi 
+      <lb ed="#L" n="115"/>tum vt homo, quod tamen non est denominatiuum: quia omni 
+      <lb ed="#L" n="116"/>denominatio est a parte formali, vel materiali, quantitatiua ve 
+      <lb ed="#L" n="117"/>potentiali, nisi sit denominatio ab aliquo extrinseco. Et ideo pr 
+      <lb ed="#L" n="118"/>comparationem ad tale suppositum, cuius totam naturam dici 
+      <lb ed="#L" n="119"/>substractum non potest inueniri aliquod concretum, quod deno 
+      <lb ed="#L" n="120"/>minatiue praedicetur de eo, vnde non bene dicitur sortes est 
+      hu<lb ed="#L" n="121" break="no"/>manatus, sed homo, dicitur tamen quod sortes est humanus. 
+      Se<lb ed="#L" n="122" break="no"/>tunc humanus non sumitur in sensu denominatiuo ab humana 
+      <lb ed="#L" n="123"/>natura: sed accipitur pro mansueto. Si vero talis natura 
+      inuenia<lb ed="#L" n="124" break="no"/>tur in supposito iam per aliam naturam constituto, sicut natur 
+      <lb ed="#L" n="125"/>humana est in Christo per miraculum respectu talis supposit 
+      <lb ed="#L" n="126"/>inuenitur in tali natura concretum denominatiuum. Vnde bene 
+      <lb ed="#L" n="127"/>dicitur deus est humanatus, quia respectu talis suppositi natur 
+      <lb ed="#L" n="128"/>habet rationem patris, &amp; non rationem totius: &amp; ideo, vt 
+      vide<lb ed="#L" n="129" break="no"/>tur, debet praedicari solum denominatiue de eo, &amp; non essen 
+      <lb ed="#L" n="130"/>tialiter, &amp; in quid: si volumus omnino seruare proprietatem lo 
+      <lb ed="#L" n="131"/>cutionis, vt dicendo deus est humanatus, &amp; non deus est homo 
+      <lb ed="#L" n="132"/>quamuis &amp; illud sit verum, licet forte non vsquequaque ita 
+      pro<lb ed="#L" n="133" break="no"/>prium, sicut illa sortes est homo, nec scriptura, nec doctores sem 
+      <lb ed="#L" n="134"/>per seruant omnimodam proprietatem locutionis in dictis suis 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e539">
+               <lb ed="#L" n="135"/>
+               <!--16--> Per hoc potest responderi ad rationes primae opinionis. Ac 
+      <lb ed="#L" n="136"/>primam enim patet responsio ex iam dictis. Verum enim est 
+      quo<lb ed="#L" n="137" break="no"/>quando plures naturae sunt in vno supposito praedicantur de si 
+      <lb ed="#L" n="138"/>inuicem denominatiue in concreto, dummodo concretio 
+      vtri<lb ed="#L" n="139" break="no"/>usque vel alterius sit denominatiua, alias non, nisi cum aliqui 
+      <lb ed="#L" n="140"/>improprietate. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e557">
+               <lb ed="#L" n="141"/>
+               <!--17.--> Quod dicitur secundo quod homo dicit suppositui haben 
+      <lb ed="#L" n="142"/>humanitatem, verum est, sed illud habere secundum indifferen 
+      <lb ed="#L" n="143"/>tiam realem habiti ad habentem, ex quo homo dicit id quod di 
+      <lb ed="#L" n="144"/>cit in quid: deus autem non dicit tale suppositum, quod omni 
+      <lb ed="#L" n="145"/>no sit ab humanitate indifferens, ideo &amp;c. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e573">
+               <lb ed="#L" n="146"/>
+               <!--18--> Quod dicitur tertio, quod proprietates naturae humana 
+      <lb ed="#L" n="147"/>praedicantur de deo, verum est denominatiue, vt dicendo Deu 
+      <lb ed="#L" n="148"/>est natus, deus est passus. Et eodem modo sufficit quod 
+      natur<lb ed="#L" n="149" break="no"/>humana praedicetur de deo denominatiue, vt dicendo deus es 
+      <lb ed="#L" n="150"/>humanatus. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e589">
+               <lb ed="#L" n="151"/>
+               <!--19--> Ad auctotitatem Aug responsum est quidoctores non seruanm 
+      <lb ed="#L" n="152"/>semper in suis dictis omnimodam proprietatem locutionis. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e598">
+               <lb ed="#L" n="153"/>
+               <!--20.--> Ad argumenta principalia. Ad primum dicendum 
+      quo<lb ed="#L" n="154" break="no"/>beata virgo vere dicitur mater Christi, nec Damasc. negat ear 
+      <lb ed="#L" n="155"/>Christotocon, id est, Christi genitricem, nisi quia hoc nomer 
+      <lb ed="#L" n="156"/>inuentum fuit a Nestorio, ad abolendum nomen theotocon 
+      <lb ed="#L" n="157"/>cum haereticis autem non debemus habere nomina 
+      commu<lb ed="#L" n="158" break="no"/>nia, vt dicit Hieronvmus super Osee. 2. cap. 
+      </p>
+            <p xml:id="jsnvu6-e155955-d1e617">
+               <lb ed="#L" n="159"/>
+               <!--21.--> Ad secundum dicendum, quod si hoc nomen deus impor 
+      <lb ed="#L" n="160"/>taret solum diuinam naturam, &amp; non suppositum, nullo mod 
+      <lb ed="#L" n="161"/>posset dici quod beata virgo esset mater dei, sed quia importa 
+      <lb ed="#L" n="162"/>suppositum quod cum diuina natura habet humanam quam 
+      <lb ed="#L" n="163"/>matre accepit: ideo ratione eius potest dici ex ea natus, &amp; 
+      eiu<lb ed="#L" n="164" break="no"/>filus, &amp; ipsa mater. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

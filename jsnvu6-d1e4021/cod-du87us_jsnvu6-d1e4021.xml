@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="166-v"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-d1e4021"><!-- l2d38prae -->
+            <head xml:id="jsnvu6-d1e4021-Hd1e101">Praeambulum</head>
+            <p xml:id="jsnvu6-d1e4021-d1e103">
+               <lb ed="#L" n="20"/>Sententia huius distinctionis XXXViij. 
+      <lb ed="#L" n="21"/>generali &amp; 
+      spe<lb ed="#L" n="22" break="no"/>ciali.
+    </p>
+            <p xml:id="jsnvu6-d1e4021-d1e112">
+               <lb ed="#L" n="23"/>POST praedicta de voluntate. Superius Magiste 
+      <lb ed="#L" n="24"/>determinauit de peccato per comparationem 
+      <lb ed="#L" n="25"/>ad actus quibus peccamus, ponendo diffinitio. 
+      <lb ed="#L" n="26"/>nem peccati. Hic determinat de peccato pe 
+      <lb ed="#L" n="27"/>I comparationem ad potentiam voluntatis, &amp; ad 
+      <lb ed="#L" n="28"/>alias potentias. Secundo inquirit de peccato voluntatis per 
+      <lb ed="#L" n="29"/>comparationem ad alias potentias. Tertio inquirit de 
+      pecca<lb ed="#L" n="30" break="no"/>to prout respicit actus exteriores. Secunda in principio 
+      di<lb ed="#L" n="31" break="no"/>stinctionis 39. ibi, hic erit quaestio. Tertia in principio 40 
+      <lb ed="#L" n="32"/>distinctionis ibi, post haec de actibus est considerandum. 
+      Pri<lb ed="#L" n="33" break="no"/>ma est principalis lectio. Et diuiditur in tres. Primo, inquiri 
+      <lb ed="#L" n="34"/>vtrum voluntas habeat rectitudinem tantum a fine. Secunde 
+      <lb ed="#L" n="35"/>inquirit vtrum iste finis sit vnus an plures. Tertio ostendi 
+      <lb ed="#L" n="36"/>quomodo se habeant intentio &amp; voluntas adinuicem. 
+      Secun<lb ed="#L" n="37" break="no"/>da ibi, sed quaeritur, vtrum bonae voluntates. Tertia ibi, 
+      so<lb ed="#L" n="38" break="no"/>let etiam quaeri. Prima in duas. Primo ostendit quod 
+      volun<lb ed="#L" n="39" break="no"/>tatis finis est charitas. Secundo ostendit quod iste finis finem, 
+      <lb ed="#L" n="40"/>qui est Deus, non excludit. Secunda ibi, ergo charitatem 
+      si<lb ed="#L" n="41" break="no"/>bi ponit finem. Secunda pars principalis, in qua determinat 
+      <lb ed="#L" n="42"/>de vnitate &amp; pluralitate finis diuiditur in duas. Primo 
+      deter<lb ed="#L" n="43" break="no"/>minat quaestionem intentam. Secundo obiicit contra 
+      deter<lb ed="#L" n="44" break="no"/>minata, &amp; soluit. Secunda ibi, veruntamen huic sententiae, 
+      <lb ed="#L" n="45"/>Illa pars principalis, in qua inquirit quomodo se habeant 
+      in<lb ed="#L" n="46" break="no"/>tentio &amp; voluntas, diuiditur in duas partes, secundum duas 
+      <lb ed="#L" n="47"/>quaestiones quas mouet &amp; soluit. Secunda ibi, sed 
+      quaeri<lb ed="#L" n="48" break="no"/>tur vtrum etiam intentio. Haec est sententia &amp; diuisio 
+      lectio<lb ed="#L" n="49" break="no"/>nis in generali. 
+      </p>
+            <p xml:id="jsnvu6-d1e4021-d1e173">
+               <lb ed="#L" n="50"/>
+               <!--2--> IN SPECIALI vero sic procedit Magister. Et 
+      pro<lb ed="#L" n="51" break="no"/>ponit primo, quod voluntas rectitudinem &amp; peruersitatem 
+      ha<lb ed="#L" n="52" break="no"/>bet a bono vel malo: finis autem bonus est charitas, quonian 
+      <lb ed="#L" n="53"/>propter charitatem fieri debet quicquid fit. Postea dicit quod 
+      <lb ed="#L" n="54"/>iste finis ad vlteriorem finem ordinatur, scilicet ad Deum: 
+      ma<lb ed="#L" n="55" break="no"/>lae autem voluntatis finis est mala dilectio, vel delectatio. Postea 
+      <lb ed="#L" n="56"/>dicit quod poterunt esse plures fines intermedij, tam 
+      bona<lb ed="#L" n="57" break="no"/>rum quam malarum voluntatum, qui sunt quasi quoddam me 
+      <lb ed="#L" n="58"/>dium in veniendo ad vlteriorem finem. Postea ponit quandam 
+      <lb ed="#L" n="59"/>auctoritatem, per quam videtur probare quod duos fines non 
+      <lb ed="#L" n="60"/>debemus nobis constituere, &amp; soluit dicens quod hoc 
+      intelli<lb ed="#L" n="61" break="no"/>gendum est, quando illi fines sic se habent quod vnus ad alium 
+      <lb ed="#L" n="62"/>non refertur. Postea querit, vtrum voluntas &amp; intentio sint 
+      <lb ed="#L" n="63"/>idem. Et respondet quod voluntas proprie dicit ipsam 
+      poten<lb ed="#L" n="64" break="no"/>tiam. Intentio vero dicit illud propter quod mouetur ad 
+      vo<lb ed="#L" n="65" break="no"/>lendum. Vitimo quaerit, vtrum idem sit actus, quo volunta 
+      <lb ed="#L" n="66"/>vult finem, &amp; ea quae sunt ad finem. Et respondet quod 
+      qui<lb ed="#L" n="67" break="no"/>busdam non videtur esse idem: quibusdam vero videtur quod 
+      <lb ed="#L" n="68"/>sunt idem actus voluntatis: diuersificantur tamen secundum 
+      <lb ed="#L" n="69"/>volita, magister tamen hoc indeclaratum relinquit. Et in 
+      ho<lb ed="#L" n="70" break="no"/>terminatur sententia lectionis, &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

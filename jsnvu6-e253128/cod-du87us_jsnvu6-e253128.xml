@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Durandus">Durandus</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-08-20">August 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="307-r"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="jsnvu6-e253128"><!-- l4d21q4 -->
+            <head xml:id="jsnvu6-e253128-Hd1e101">Quaestio 4</head>
+            <head xml:id="jsnvu6-e253128-Hd1e103" type="question-title">Utrum in quolibet casu teneatur sacerdos 
+        celare peccata quae audit in 
+        confessione</head>
+            <p xml:id="jsnvu6-e253128-d1e106">
+               <lb ed="#L" n="77"/>QVAISTIO QVARTA. 
+      <lb ed="#L" n="78"/>Vtrum in quolibet casu teneatur sacerdos 
+      <lb ed="#L" n="79"/>celare peccata quae audit in 
+      <lb ed="#L" n="80"/>confessione. 
+    </p>
+            <p xml:id="jsnvu6-e253128-d1e117">
+      <!--00687.xml-->
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="81"/>QVARTO quaeritur vtrum in quolibet casu 
+      te<lb ed="#L" n="82" break="no"/>neatur sacerdos celare peccata quae audit in 
+      com<lb ed="#L" n="83" break="no"/>eὲ fessione. Et videtur quod non, quia quilibet plus 
+      te<lb ed="#L" n="84" break="no"/>netur conscientiam suam seruare illaesam quam 
+      <lb ed="#L" n="85"/>famam alterius, quia charitas ordinata &amp;c. sed 
+      <lb ed="#L" n="86"/>sacerdos si semper celaret peccatum quod audiuit in 
+      confes<lb ed="#L" n="87" break="no"/>sione incurreret damnum propriae conscientiae: sicut cum 
+      addu<lb ed="#L" n="88" break="no"/>citur in testem pro peccato illo, &amp; cogitur iurare de veritate di 
+      <lb ed="#L" n="89"/>cenda, ergo videtur quod in hoc casu liceat peccatum 
+      confes<lb ed="#L" n="90" break="no"/>sum reuelare. 
+      </p>
+            <p xml:id="jsnvu6-e253128-d1e146">
+               <lb ed="#L" n="91"/>
+               <!--2--> Item illud quod quis potest facere per semetipsum per 
+      al<lb ed="#L" n="92" break="no"/>terum etiam facere potest: sed confitens per semetipsum 
+      po<lb ed="#L" n="93" break="no"/>test suum peccatum reuelare, ergo idem potest facere per 
+      sa<lb ed="#L" n="94" break="no"/>cerdotem internuncium. 
+      </p>
+            <p xml:id="jsnvu6-e253128-d1e160">
+               <lb ed="#L" n="95"/>
+               <!--3--> Item quod ex charitate &amp; pro charitate iustitutum est, con 
+      <lb ed="#L" n="96"/>tra charitatem militare non debet, vt dicit beatus Ber. sed 
+      cela<lb ed="#L" n="97" break="no"/>tio confessionis introducta est pro charitate vt ex hoc homines 
+      <lb ed="#L" n="98"/>magis alliciantur ad confessionem faciendam: militaret autem 
+      <lb ed="#L" n="99"/>contra charitatem nisi in aliquo casu reuelari posset quod est 
+      au<lb ed="#L" n="100" break="no"/>ditum vel confessum, sicut quando aliquis in confessione scit 
+      ali<lb ed="#L" n="101" break="no"/>quem haereticum quem non potest inducere vt desistat a corru 
+      <lb ed="#L" n="102"/>ptione plebis, boni enim plebis ex charitate praeferendum est 
+      bo<lb ed="#L" n="103" break="no"/>no personae singularis, ergo in casu illo potest confessio reuelari. 
+      </p>
+            <p xml:id="jsnvu6-e253128-d1e184">
+               <lb ed="#L" n="104"/>
+               <!--4--> IN CONTRARIVM est quod habetur in litera, 
+      <lb ed="#L" n="105"/>&amp; id quod dicit Inno. extra de poeni. &amp; remis. ca. omnis 
+      vtrius<lb ed="#L" n="106" break="no"/>que sexus. Caueat sacerdos ne verbo vel signo vel alio 
+      quoui<lb ed="#L" n="107" break="no"/>modo prodat aliquatenus peccatorem. 
+      </p>
+            <p xml:id="jsnvu6-e253128-d1e197">
+               <lb ed="#L" n="108"/>
+               <!--5--> RESPONSIO. Videnda sunt tria. Primum est quo 
+      iu<lb ed="#L" n="109" break="no"/>re teneatur sacerdos ad celandum confessionem. Secundum est an in 
+      <lb ed="#L" n="110"/>hoc possit per aliquem dispensari. Tertium est an saltem de licentia 
+      <lb ed="#L" n="111"/>confitentis possit sacerdos dicere quod in confessione audiuit. 
+      </p>
+            <p xml:id="jsnvu6-e253128-d1e210">
+               <lb ed="#L" n="112"/>
+               <!--6--> QUANTVM ad primum dicitur communiter quod 
+      cela<lb ed="#L" n="113" break="no"/>tio confessionis est de iure diuino, quod patet sic: ex eodem iu 
+      <lb ed="#L" n="114"/>re procedit institutio confessionis &amp; celatio eius, sed institutio 
+      <lb ed="#L" n="115"/>confessionis nostrae est a iure diuino, ergo &amp; celatio. Minor 
+      pa<lb ed="#L" n="116" break="no"/>tet ex praecedentibus. Sed maior probatur, quia in sacramentis id 4. 
+      <lb ed="#L" n="117"/>quod geritur per ministrum significat &amp; figurat id quod geritur 
+      <lb ed="#L" n="118"/>interius per Christum, quia sacramenta efficiunt quod figurant, &amp; 
+      mi<lb ed="#L" n="119" break="no"/>nister sacramenti gerit vicem Christi, sed in sacramento 
+      con<lb ed="#L" n="120" break="no"/>fessionis Christus peccatum illius qui subiicitur per 
+      confessio<lb ed="#L" n="121" break="no"/>nem sic tegit vt ex hoc non possit ei cedere in verecundiam, 
+      con<lb ed="#L" n="122" break="no"/>fusionem, vel quamcunque poenam, ergo ex ipsa natura sacramen 
+      <lb ed="#L" n="123"/>ti minister qui gerit exterius vicem Christi tenetur celare quod 
+      <lb ed="#L" n="124"/>audiuit in confessione, taliter quod confitenti non possit 
+      ce<lb ed="#L" n="125" break="no"/>dere in confusionem, verecundiam, vel poenam aliquam: hoc 
+      <lb ed="#L" n="126"/>autem non posset esse nisi illud totaliter teneretur secretum quod 
+      <lb ed="#L" n="127"/>auditur in confessione, ergo &amp;c. Quicquid sit de conclusione, 
+      <lb ed="#L" n="128"/>ratio tamen adducta ad probationem minoris deficit: quamuis 
+      <lb ed="#L" n="129"/>enim in sacramentis illud quod geritur interius per Christum 
+      <lb ed="#L" n="130"/>repraesentetur exterius per ministrum factis &amp; verbis vel 
+      alte<lb ed="#L" n="131" break="no"/>ro eorum quantum ad principalem effectum sacramenti, non 
+      <lb ed="#L" n="132"/>oportet tamen quod omnes circunstantiae repraesententur. 
+      Ver<lb ed="#L" n="133" break="no"/>bi gratia, minister baptizas facto suo quo lauat exterius &amp; ve 
+      <lb ed="#L" n="134"/>bo suo quod dicit, ego te baptizo te, &amp;c. repraesentat ablutioni 
+      <lb ed="#L" n="135"/>spiritualem a peccatis quam Christus facit interius, &amp; hic est 
+      <lb ed="#L" n="136"/>principalis effectus baptismi, &amp; similiter in confirmatione, 
+      or<lb ed="#L" n="137" break="no"/>dine &amp; extrema vnctione, &amp; eodem modo est in confessione, 
+      <lb ed="#L" n="138"/>quia principalis effectus quem Deus facit interius est remissio 
+      <lb ed="#L" n="139"/>peccatorum, &amp; istud repraesentatur exterius per ministrum cum 
+      <lb ed="#L" n="140"/>dicit absoluo te, &amp;c. Celare autem peccata confessa non est 
+      effe<lb ed="#L" n="141" break="no"/>ctus sacramenti, sed obligatio ministri de qua quaeritur vnde 
+      <lb ed="#L" n="142"/>veniat, nec apparet quod veniat ex hoc quod illud quod geritur 
+      in<lb ed="#L" n="143" break="no"/>terius sacramentis, debet repraesentari per hoc quod geritur 
+      ex<lb ed="#L" n="144" break="no"/>terius a nunistris, hoc enim intelligitur de effectu sacramenti: sic 
+      <lb ed="#L" n="145"/>enim est &amp; non aliter intelligitur quod sacramenta efficiunt, quod, 
+      <lb ed="#L" n="146"/>significant. Item qualiter intelligitur quod Christus celat peccata 
+      <lb ed="#L" n="147"/>confitentium, hoc enim intelligitur pro praesenti seculo vel pro 
+      <lb ed="#L" n="148"/>futuro: non pro praesenti, quia sic Christus aequaliter celat pec 
+      <lb ed="#L" n="149"/>cata non confessa sicut confessa: non enim reuelat ista vel illa. Si 
+      <lb ed="#L" n="150"/>intelligitur pro futuro non apparet qualiter sit verum, quia licet 
+      <lb ed="#L" n="151"/>sacramenta significent id quod principaliter efficitur nisi 
+      reci<lb ed="#L" n="152" break="no"/>piens sit indispositus, tamen quod ignificent id quod in futuro 
+      se<lb ed="#L" n="153" break="no"/>culo agitur nullus vnquam dixit. Item in futuro seculo non 
+      celabun<lb ed="#L" n="154" break="no"/>tur peccata neque confessa neque non confessa, sed omnia erunt 
+      om<lb ed="#L" n="155" break="no"/>nibus manifesta virture diuina omnia reuelata, propter quod 
+      <lb ed="#L" n="156"/>ex isto latere non apparet quod sacerdos debeat peccata sibi 
+      con<lb ed="#L" n="157" break="no"/>fessa celare. Propter quod pro eadem conclusione adducenda est 
+      <lb ed="#L" n="158"/>alia ratio, quae talis est: id quod dicitur secrete sacerdoti &amp; con 
+      <lb ed="#L" n="159"/>fessori non solum est secretum, sed etiam est secretum 
+      sacramen<lb ed="#L" n="160" break="no"/>tale, quia in sacramento confessionis dictum, &amp; est pars 
+      sacra<lb ed="#L" n="161" break="no"/>menti. Cum ergo secretum sit celandum eo modo quo est vel 
+      es<lb ed="#L" n="162" break="no"/>se debet secretum, secretum dictum in confessione non solum 
+      <!--00688.xml-->
+      <pb ed="#L" n="307-v"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>est celandum, quia secrete dictum, sed quia dictum est in secreto 
+      <lb ed="#L" n="2"/>sacramentali, &amp; vt pars sacramenti: sed sacramenta secundum quan 
+      <lb ed="#L" n="3"/>libet partem essentialem sunt de iure diuino, &amp; ex institutioni 
+      <lb ed="#L" n="4"/>Christi, ergo celatio secreti dicti in confessione est de iure diuino 
+      </p>
+            <p xml:id="jsnvu6-e253128-d1e340">
+               <lb ed="#L" n="5"/>
+               <!--7--> Circa hoc tamen est aduertendum, quod non omnia quae di 
+      <lb ed="#L" n="6"/>cuntur in confessione confessori sunt de secreto confessionis, sed 
+      <lb ed="#L" n="7"/>solum peccata vel circunstantiae, per quas posset deueniri in co 
+      <lb ed="#L" n="8"/>gnitionem peccati &amp; peccatoris: multa autem alia dicuntur 
+      con<lb ed="#L" n="9" break="no"/>fessori, vt genus, patria, nomen confitentis, &amp; plura alia quae con 
+      <lb ed="#L" n="10"/>fitens exprimit quandoque confessori interrogatus ab eo vel non 
+      <lb ed="#L" n="11"/>interrogatus, quae confessor non tenetur celare, nisi quatenus pe 
+      <lb ed="#L" n="12"/>ea posset reuelari peccatum confirentis. Est etiam aduertendum 
+      <lb ed="#L" n="13"/>quod cum dicitur quod sacerdos debet celare peccata confitentis. 
+      <lb ed="#L" n="14"/>intelligendum est coniunctim, &amp; non diuisim: confessor enim po 
+      <lb ed="#L" n="15"/>test dicere se audiuisse in confessione talia peccata non expri 
+      <lb ed="#L" n="16"/>mendo personam confitentis, &amp; quandoque est necessarium ad 
+      <lb ed="#L" n="17"/>habendum consilium quid super aliquo casu sit faciendum: 
+      po<lb ed="#L" n="18" break="no"/>test etiam dicere quod ralis est sibi confessus, non exprimendo 
+      di<lb ed="#L" n="19" break="no"/>recte vel indirecte peccata sibi confessa sed coniunctim dicere, 
+      <lb ed="#L" n="20"/>talis est mihi confessus talia peccata, est violatio sacramenti 
+      con<lb ed="#L" n="21" break="no"/>fessionis. &amp; sic patet primum. 
+      </p>
+            <p xml:id="jsnvu6-e253128-d1e382">
+               <lb ed="#L" n="22"/>
+               <!--8--> Ex quo patet secundum, scilicet que nullus potest dispensar 
+      <lb ed="#L" n="23"/>que reuelentur ea quae audita sunt in confessione: quia 
+      ecclesi<lb ed="#L" n="24" break="no"/>non potest mutare ea quae Christus praecepit, &amp; quae pertinen 
+      <lb ed="#L" n="25"/>ad veritatem articulorum vel sacramentorum, cum praelati 
+      ec<lb ed="#L" n="26" break="no"/>clesiae non sint domini, sed ministri, nec fundatores. sed 
+      execu<lb ed="#L" n="27" break="no"/>tores, vt prius dictum fuit: sed ad celationem confessionis 
+      tene<lb ed="#L" n="28" break="no"/>tur minister ex natura sacramenti, vt statim dictum est: ergo in 
+      <lb ed="#L" n="29"/>hoc non potest per aliquem dispensari. 
+      </p>
+            <p xml:id="jsnvu6-e253128-d1e405">
+               <lb ed="#L" n="30"/>
+               <!--9--> Quantum ad tertium an de licentia confitentis possit sacei 
+      <lb ed="#L" n="31"/>dos dicere id quod audiuit in confessione, dicitur communiter? 
+      <lb ed="#L" n="32"/>non: quia si non valet licentia papae, neque totius ecclesiae, multo 
+      <lb ed="#L" n="33"/>minus licentia priuatae personae, maxime cum celatio 
+      confessio<lb ed="#L" n="34" break="no"/>nis sit de iure diuino. Veruntamen confitens potest facereq 
+      <lb ed="#L" n="35"/>illud quod sacerdos scit sciat per alium modum, quam per con 
+      <lb ed="#L" n="36"/>fessionem: &amp; sic possit reuelare absque reuelatione confessionis, 
+      <lb ed="#L" n="37"/>exprimendo alium modum per quem scit. Ad hoc autem quod 
+      <lb ed="#L" n="38"/>sacerdos sciat per alium modum sufficit (vt dicunt) quod 
+      confi<lb ed="#L" n="39" break="no"/>tens licentiet eum ad dicendum qued in confessione audiuit. 
+      Pri<lb ed="#L" n="40" break="no"/>mum istorum licet sit verum, secundum tamen non videtur be 
+      <lb ed="#L" n="41"/>ne dictum, nec stare cum primo. quia si licentia confitentis no 
+      <lb ed="#L" n="42"/>sufficit ad dicendum id quod auditum est in confessione, nisi 
+      <lb ed="#L" n="43"/>habeatur noua notitia, tunc non sufficiunt verba per quae no 
+      <lb ed="#L" n="44"/>habetur de peccato noua notitia, sed solum de praecedente no 
+      <lb ed="#L" n="45"/>titia datur licentia: sed per haec verba, licentio te ad dicendum id 
+      <lb ed="#L" n="46"/>quod a me in confessione audiuisti non datur aliqua noua 
+      noti<lb ed="#L" n="47" break="no"/>tia; alioquin omnis audiens haec verba acciperet de peccato 
+      di<lb ed="#L" n="48" break="no"/>cto in confessione notitiam, sed solum datur licentia, quia nec plus 
+      <lb ed="#L" n="49"/>verba sonant, ergo per illam nunquam est licitum dicere 
+      sacer<lb ed="#L" n="50" break="no"/>doti quod audiuit in confessione. Item si talis licentia sufficeret. 
+      <lb ed="#L" n="51"/>esset via ad reuelationem confessionis &amp; suspicionem criminum 
+      <lb ed="#L" n="52"/>quia iudex habens aliquem suspectum de aliquo crimine, pote 
+      <lb ed="#L" n="53"/>rit ei dicere, da sacerdoti licentiam vt dicat quod a te audiuit: si 
+      <lb ed="#L" n="54"/>dat licentiam, &amp; data valeat, habebit testem contra se, si non dat 
+      <lb ed="#L" n="55"/>&amp; dare possit, vt ponit haec opinio, merito habebitur amplius 
+      <lb ed="#L" n="56"/>suspectus. Et ita non erit ysquequaque secretum quod dictum 
+      <lb ed="#L" n="57"/>erat in confessione cum oporteat talem licentiam dare ad 
+      reue<lb ed="#L" n="58" break="no"/>lationem confessionis, vel incurrere notam grauis suspicionis 
+      <lb ed="#L" n="59"/>Melius est igitur vt dicatur quod talis licentia non valet, nec 
+      ver<lb ed="#L" n="60" break="no"/>ba praedicta quae sohant in talem licenriam sufficiunt: sed 
+      opor<lb ed="#L" n="61" break="no"/>tet quod poenitens dicat sacerdoti extra confessionem in 
+      ge<lb ed="#L" n="62" break="no"/>nerali, vel in speciali peccatum quod vult alteri reuelari. 
+      </p>
+            <p xml:id="jsnvu6-e253128-d1e481">
+               <lb ed="#L" n="63"/>
+               <!--10--> AD ARGVMENTA. Ad primum dicitur quod 
+      scien<lb ed="#L" n="64" break="no"/>aliquid solum per confessionem si inducitur in testem, &amp; cogitu 
+      <lb ed="#L" n="65"/>Liurare de veritate dicenda, potest sine scrupulo conscientiae 
+      di<lb ed="#L" n="66" break="no"/>cere se nescire (quia cum loquatur vt subditus, quia coactus, no 
+      <lb ed="#L" n="67"/>tenetur respondere nisi de his quae scit, vt subditus.) Et quia 
+      s<lb ed="#L" n="68" break="no"/>cerdos audiens confessionem nulli est subditus nisi Christo cuiu: 
+      <lb ed="#L" n="69"/>vicem gerit, vt subditus autem cuicunque alteri nihil scit de 
+      per<lb ed="#L" n="70" break="no"/>tinentibus ad confessionem: ideo potest secure dicere se nescire. S 
+      <lb ed="#L" n="71"/>autem non cogitur, sed sponte testificatur, vel in communi 
+      locu<lb ed="#L" n="72" break="no"/>tione dicit se nihil scire mentitur, quia licet nesciat vt subditus 
+      <lb ed="#L" n="73"/>homini (propter quod excusatur cum cogitur) scit tamen, &amp; ideo 
+      <lb ed="#L" n="74"/>negans absolute se scire, mentitur. Quod patet, quia si diceret scio 
+      <lb ed="#L" n="75"/>verum diceret, ergo si dicat nescio, falsum dicit: impossibile est 
+      <lb ed="#L" n="76"/>aum quod vtraque pars contradictionis sit vera relata ad idem 
+      </p>
+            <p xml:id="jsnvu6-e253128-d1e516">
+               <lb ed="#L" n="77"/>
+               <!--11--> Ad secundum dicendum quod sicut confitens potest pe 
+      <lb ed="#L" n="78"/>seipsum reuelare peccata quae dicit in confessione, ita potes 
+      <lb ed="#L" n="79"/>per sacerdotem si dicat extra confessionem, sed non dando 
+      so<lb ed="#L" n="80" break="no"/>lum licentiam, cum hoc fit in praeiudicium sacramenti. 
+      </p>
+            <p xml:id="jsnvu6-e253128-d1e529">
+               <lb ed="#L" n="81"/>
+               <!--12--> Ad tertium dicunt quidam quod sacerdos non tenetur celare 
+      <lb ed="#L" n="82"/>nisi peccata de quibus poenitens emendationem promittit: quia 
+      <!--00688.xml-->
+      <cb ed="#L" n="b"/>
+               <lb ed="#L" n="83"/>nec Deus cuius sacerdos est minister alias celat. Sed istud non 
+      <lb ed="#L" n="84"/>valet, quia fictio suscipientis sacramentum licet impediat ipsum 
+      <lb ed="#L" n="85"/>a fructu sacramenti, tamen non euacuat saci amentum quin sit 
+      <lb ed="#L" n="86"/>verum. Et ideo quum sacerdos obligetur ad celandum 
+      confessio<lb ed="#L" n="87" break="no"/>nem ex natura sacramenti, patet quod ad hoc obligatur 
+      quantum<lb ed="#L" n="88" break="no"/>cunque suscipiens sit impaenitens vel fictus, loquendo de fictione 
+      <lb ed="#L" n="89"/>respectu effectus sacramenti. quia si aliquis esset fictus respectu 
+      <lb ed="#L" n="90"/>susceptionis sacramenti, tunc nullum est sacramentum sicut dictum 
+      <lb ed="#L" n="91"/>fuit prius cum ageretur de poenitentia &amp; baptismo. Et in isto 
+      <lb ed="#L" n="92"/>casu sacerdos non teneretur ex vi sacramenti celare, id quod esset 
+      <lb ed="#L" n="93"/>sibi secrete dictum. Verbi gratia, haereticus impoenitens &amp; 
+      pro<lb ed="#L" n="94" break="no"/>ponens alios corrumpere, nec credens sacramentum 
+      confessio<lb ed="#L" n="95" break="no"/>nis seu poenitentiae aliquid valere, nec intendens se subiicere sa 
+      <lb ed="#L" n="96"/>cerdoti pro absolutione, nec pro consilio, nec facere aliquid 
+      <lb ed="#L" n="97"/>quod fideles ecclesiae faciunt, aut quod intendit ecclesia, sed vo 
+      <lb ed="#L" n="98"/>lens prouocare &amp; irritare sacerdotem dicit ei se esse haereticum, &amp; 
+      <lb ed="#L" n="99"/>velle corrumpere populum pro posse suo, in tali casu nullum est 
+      <lb ed="#L" n="100"/>sacramentum, nec ex virtute sacramenti peccatum sic dictum sa 
+      <lb ed="#L" n="101"/>cerdoti est celandum: quia non fuit ibi sacramentum, neque 
+      se<lb ed="#L" n="102" break="no"/>cundum totum, neque secundum aliquam eius partem; &amp; hoc 
+      habea<lb ed="#L" n="103" break="no"/>tur tanquam probabiliter dictum absque alia assertione. Si 
+      au<lb ed="#L" n="104" break="no"/>tem haereticus haesitans de errore suo venit ad confessionem, 
+      <lb ed="#L" n="105"/>&amp; dicit haeresim suam sacerdoti vt habeat ab eo consilium, an erre 
+      <lb ed="#L" n="106"/>an non, dato quod habito consilio sacerdotis non credat ei, nec di 
+      <lb ed="#L" n="107"/>mittat haeresim suam: tale peccatum haeretici est celandum, qui dictum 
+      <lb ed="#L" n="108"/>est in confessione sacramentali quantum est ex parte confitentis 
+      <lb ed="#L" n="109"/>Quod autem talis haeresis sic dicta in confessione non debeat ee 
+      <lb ed="#L" n="110"/>lari sicut alia peccata non potest esse propter grauitatem eius: 
+      <lb ed="#L" n="111"/>quia quaedam alia inueniuntur aeque grauia, vt blasphemia, nec 
+      <lb ed="#L" n="112"/>quia infectiuum aliorum, quia multa alia sunt infectiua, sicut 
+      so<lb ed="#L" n="113" break="no"/>licitatio mulierum. Quum igitur haec celentur, &amp; illud debet 
+      ce<lb ed="#L" n="114" break="no"/>lari, nec istud est contra charitatem: quia charitas non requiris 
+      <lb ed="#L" n="115"/>quod apponatur remedium contra peccatum modo indebito 
+      <lb ed="#L" n="116"/>quod fieret si reuelaretur confessio, potest tamen sacerdos sine 
+      <lb ed="#L" n="117"/>reuelatione confessionis dicere praelato quod inuigilet diligenter 
+      <lb ed="#L" n="118"/>super gregem suum, ne forte lupus sit inter oues, igitur &amp;c. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>
