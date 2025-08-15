@@ -1,193 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#Durandus">Durandus</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2023-08-20">August 20, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-08-20" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="177-v"/>
-            <cb ed="#L" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="jsnvu6-e146671"><!-- l2d44q2 -->
-            <head xml:id="jsnvu6-e146671-Hd1e101">Quaestio 2</head>
-            <head xml:id="jsnvu6-e146671-Hd1e103" type="question-title">
-      Utrum praelatio et quaecunque potestas 
-      dominandi sit a deo
-    </head>
-            <p xml:id="jsnvu6-e146671-d1e106">
-               <lb ed="#L" n="143"/>QVALSTIO SECVNDA. 
-      <lb ed="#L" n="144"/>Vtrum praelatio &amp; quaecunque potestas 
-      <lb ed="#L" n="145"/>dominandi sit a deo.
-    </p>
-            <p xml:id="jsnvu6-e146671-d1e115">
-               <lb ed="#L" n="146"/>SECVNDO quaeritur vtrum praelatio &amp; 
-      quaecun<lb ed="#L" n="147" break="no"/>que potestas dominandi fit a deo. Et videtur quod 
-      <lb ed="#L" n="148"/>non, quia quae a deo sunt ordinata sunt vt dicitut 
-      <lb ed="#L" n="149"/>ad Romanos decimotertio, sed in praelatione vel 
-      <lb ed="#L" n="150"/>auctoritate dominandi inuenitur mala 
-      deordina<lb ed="#L" n="151" break="no"/>tio (vtpote quod puer dominatur seni, stultus sapienti) ergo 
-      ta<lb ed="#L" n="152" break="no"/>lis praelatio vel dominatio non est a deo. 
-      </p>
-            <p xml:id="jsnvu6-e146671-d1e133">
-               <lb ed="#L" n="153"/>
-               <!--2--> Item Osee octauo dicitur, ipsi repugnauerunt, &amp; non ex me 
-      </p>
-            <p xml:id="jsnvu6-e146671-d1e141">
-               <lb ed="#L" n="154"/>
-               <!--3--> INCONTRARIVM est, quia in angelis bonis &amp; in 
-      <lb ed="#L" n="155"/>hominibus pro statu innocentiae nihil fuisset, nisi quod esset a deo 
-      <lb ed="#L" n="156"/>institutum, sed in angelis beatis est praelatio, fuisset etiam in 
-      sta<lb ed="#L" n="157" break="no"/>tu innocentiae, ergo &amp;c. 
-      </p>
-            <p xml:id="jsnvu6-e146671-d1e154">
-               <lb ed="#L" n="158"/>
-               <!--4--> Ad idem est quod dicitur ad Romanos decimotertio, quod 
-      <lb ed="#L" n="159"/>qui potestati pesistit, dei ordinationi resistit, quod non esset nis 
-      <lb ed="#L" n="160"/>praelatio &amp; dominatio essent a deo ordinata, ergo &amp;c.
-</p>
-            <p xml:id="jsnvu6-e146671-d1e165">
-      <!--00425.xml-->
-               <pb ed="#L" n="178-r"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>RESPONSIO. Videnda sunt duo. Primum est, quod 
-      <lb ed="#L" n="2"/>principaliter quaeritur, scilicet vtrum omnis praelatio sit a Deo. 
-      <lb ed="#L" n="3"/>Secundum erit, vtrum praelatio fuisset in statu innocentiae, quia 
-      <lb ed="#L" n="4"/>hoc implicatur in argumento. 
-      </p>
-            <p xml:id="jsnvu6-e146671-d1e183">
-               <lb ed="#L" n="5"/>
-               <!--6--> Quantum ad primum sciendum quod praelatus et in hom 
-      <lb ed="#L" n="6"/>nibus ex ordinatione diuina quantum ad debitum, non autem 
-      <lb ed="#L" n="7"/>quantum ad eius acquisitionem, vel vsum malum, nisi dictum 
-      <lb ed="#L" n="8"/>fuit actus peccatorum esse a Deo, supra distinct. 37. quod pate 
-      <lb ed="#L" n="9"/>fic, illud quod est debitum esse in hominibus secundum rectan 
-      <lb ed="#L" n="10"/>rationem, est debitum in eis secundum diuinam 
-      ordinatio<lb ed="#L" n="11" break="no"/>nem, quia ad hoc rationem indidit hominibus, vt ipsi 
-      secun<lb ed="#L" n="12" break="no"/>dum rectam rationem viuant, sed secundum rectam rationem 
-      <lb ed="#L" n="13"/>debitum est praelationem esse inter homines, ergo illud idem 
-      <lb ed="#L" n="14"/>debitum est secundum diuinam ordinationem. Maior patet, sed 
-      <lb ed="#L" n="15"/>minor probatur, quid illud est secundum rectam rationem in 
-      <lb ed="#L" n="16"/>moribus, quod est secundum conformitatem ad bonitatem, 
-      <lb ed="#L" n="17"/>quae est in naturalibus, quia ars imitatur naturam, sed ordo 
-      prae<lb ed="#L" n="18" break="no"/>lationis est secundum conformitatem bonitatis, quae est in 
-      na<lb ed="#L" n="19" break="no"/>turalibus, ergo, &amp;c. Minor per simile probatur, quia in 
-      natura<lb ed="#L" n="20" break="no"/>libus inferiora reguntur per superiora quod multitudo per vnum, 
-      <lb ed="#L" n="21"/>denique vniuersum admodum exercitus ordinatur sub vno prin 
-      <lb ed="#L" n="22"/>cipe, vt dicitur 12. Metaphysi. ergo, &amp;c. Item dicit Philosoph 
-      <lb ed="#L" n="23"/>primo Politicorum, quod in omni pluralitate ordinata 
-      natu<lb ed="#L" n="24" break="no"/>rale est &amp; expediens, quod vnus principietur, &amp;c. sint subiecta 
-      <lb ed="#L" n="25"/>ergo in pluralitate hominum debitum est &amp; expediens quod 
-      <lb ed="#L" n="26"/>vnus praesit, &amp; caeteri sint subiecti. In hoc autem consistit ordo 
-      <lb ed="#L" n="27"/>&amp; ratio praelationis, ergo praelatio est in hominibus secundum 
-      <lb ed="#L" n="28"/>debitum rationis &amp; diuinae ordinationis. Dico tamen quod non 
-      <lb ed="#L" n="29"/>semper assecutio &amp; vsus praelationis est a Deo, scilicet quando 
-      <lb ed="#L" n="30"/>modus perueniendi ad praelationem, vel vsus praelationis ianm 
-      <lb ed="#L" n="31"/>adeptae est malus, de quibus intelligitur quod dicitur Osee 7 
-      <lb ed="#L" n="32"/>ipsi regnauerunt, &amp; non ex me, &amp; quia iudicium est de re 
-      su<lb ed="#L" n="33" break="no"/>mendum, secundum quod existit cum omnibus circunstantus 
-      <lb ed="#L" n="34"/>quarum bonitas requiritur ad bonitatem rei, ideo non omnis 
-      <lb ed="#L" n="35"/>praelatio est bona, nec a Deo, nisi sicut mala sunt ab eo: &amp; sic 
-      <lb ed="#L" n="36"/>patet primum. 
-</p>
-            <p xml:id="jsnvu6-e146671-d1e257">
-               <lb ed="#L" n="37"/>De secundo, seuicet an in statuinuocentiae fuinet pralatio. 
-      <lb ed="#L" n="38"/>dicendum quod sic, sed non secundum omnem modum. 
-      Pri<lb ed="#L" n="39" break="no"/>mum patet, quia vbi in multitudine sunt aliqui apti alios 
-      diri<lb ed="#L" n="40" break="no"/>gere &amp; promouere in agendis &amp; sciendis, alij autem apti 
-      diri<lb ed="#L" n="41" break="no"/>gi &amp; promoueri, ibi decet esse ordinem praelationis, sed in 
-      sta<lb ed="#L" n="42" break="no"/>tu inuocentiae, sic fuisset, vt dictum est, nam vnus fuisset plus 
-      <lb ed="#L" n="43"/>alio praeditus in lumine sapientiae in speculabilibus &amp; 
-      practi<lb ed="#L" n="44" break="no"/>cis, per quem &amp; huiusmodi similes alij minus praediti, dirig 
-      <lb ed="#L" n="45"/>possent &amp; promoueri ad bonum, quare &amp;c. Quod autem non 
-      <lb ed="#L" n="46"/>fuisset ibi praelatio secundum omnem modum patet. Praefertu 
-      <lb ed="#L" n="47"/>enim aliquis alteri dupliciter. Vno modo referendo eum cui 
-      <lb ed="#L" n="48"/>praest ad propriam vtilitatem, &amp; sic praest dominus seruo, &amp; 
-      <lb ed="#L" n="49"/>tyrannus subdito, &amp; iste modus non fuisset in statu 
-      innocen<lb ed="#L" n="50" break="no"/>tiae propter duo, primum est, quia iste modus praeessendi alij, 
-      <lb ed="#L" n="51"/>non est licitus nisi respectu eius quod ad hominem tanquan 
-      <lb ed="#L" n="52"/>ad finem ordinatur, sic enim vtitur dominus seruo, scilice 
-      <lb ed="#L" n="53"/>gratia sui, &amp; non serui, sed in statu indocentiae non fuisset 
-      ta<lb ed="#L" n="54" break="no"/>lis ordo hominis ad hominem, nec ex gratia, nec natura, 
-      qui<lb ed="#L" n="55" break="no"/>tam natura quam gratia ordinant hominem ad Deum tanquam 
-      <lb ed="#L" n="56"/>ad finem, non autem hominem ad hominem, ergo in statu in 
-      <lb ed="#L" n="57"/>nocentiae non praefuisset homo homini, tanquam dominus 
-      ser<lb ed="#L" n="58" break="no"/>uo, vel tyrannus subdito, praefuisset tamen isto modo caeteri 
-      <lb ed="#L" n="59"/>animalibus, vtendo eis propter se. Post peccatum etiam 
-      ta<lb ed="#L" n="60" break="no"/>lis praelatio inter aliquos introducta est vel ex violentia, ve 
-      <lb ed="#L" n="61"/>inquantum propter peccatum comparatus est homo 
-      iumenti<lb ed="#L" n="62" break="no"/>insipientibus, &amp; similis factus est illis. Secundum patet, quia 
-      <lb ed="#L" n="63"/>vnicuique est amabile bonum proprium, &amp; per 
-      consequen<lb ed="#L" n="64" break="no"/>contristabile est quod bonum proprium tantum cedat alteri 
-      <lb ed="#L" n="65"/>sed nihil tristabile vel poenale, fuisset in statu annocenuae, er 
-      <lb ed="#L" n="66"/>go nec praelatio, per quam bonum subditi cedit &amp; ordinatu 
-      <lb ed="#L" n="67"/>ad commodum praesidentis, talis autem est, praelatio domiun 
-      <lb ed="#L" n="68"/>ad seruum, ergo, &amp;c 
-    </p>
-            <p xml:id="jsnvu6-e146671-d1e329">
-               <lb ed="#L" n="69"/>
-               <!--8--> Alio modo praest aliquis alteri ad bonum iliui qui aiiai, 
-      <lb ed="#L" n="70"/>tur, vel ad bonum commune quod fit, vel directe, vel indire 
-      <lb ed="#L" n="71"/>cte, scilicet remouendo impedimenta extrinseca, sicut popul 
-      <lb ed="#L" n="72"/>a regibus defenduntur, vel infligendo poenas ad correctionem 
-      <lb ed="#L" n="73"/>morum. Primus modus fuisset in statu innocentiae propter 
-      ra<lb ed="#L" n="74" break="no"/>tionem prias dictam, sed secundus non fuisset, quia ante 
-      pec<lb ed="#L" n="75" break="no"/>catum nihil fuisset quod homini nocere posset, nec voluntas 
-      <lb ed="#L" n="76"/>cuiusquam bono contradixisset, propter quod non fuisset opus 
-      <lb ed="#L" n="77"/>subditos defendere ab iunpugnatione aliorum, nec poenas 
-      infli<lb ed="#L" n="78" break="no"/>gere ad correctionem morum. Patet igitur quod debitum est 
-      <lb ed="#L" n="79"/>ex diuina ordinatioue, quod inter homines sit praelatio, sed exe 
-      <lb ed="#L" n="80"/>cutio huius ordinationis per homines plerunque non est a Deo, 
-      <lb ed="#L" n="81"/>nisi sicut peccata sunt a Deo..112. ari ichuim grsrisi rendir 
-      </p>
-            <p xml:id="jsnvu6-e146671-d1e363">
-               <lb ed="#L" n="82"/>
-               <!--9--> Per hoc patet responsio ad argumentum vtriusque partis
-</p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#Durandus">Durandus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2023-08-20">August 20, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-08-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="177-v"/>
+        <cb ed="#L" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jsnvu6-e146671"><!-- l2d44q2 -->
+        <head xml:id="jsnvu6-e146671-Hd1e101">Quaestio 2</head>
+        <head xml:id="jsnvu6-e146671-Hd1e103" type="question-title">Utrum praelatio et quaecunque potestas dominandi sit a deo
+        </head>
+        <p xml:id="jsnvu6-e146671-d1e106">
+          <lb ed="#L" n="143"/>QVAESTIO SECVNDA. 
+          <lb ed="#L" n="144"/>Vtrum praelatio &amp; quaecunque potestas 
+          <lb ed="#L" n="145"/>dominandi sit a deo.
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e115">
+          <lb ed="#L" n="146"/>SECVNDO quaeritur vtrum praelatio &amp; 
+          quaecun<lb ed="#L" n="147" break="no"/>que potestas dominandi fit a deo. 
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e123">
+          Et videtur quod 
+          <lb ed="#L" n="148"/>non, quia <quote xml:id="jsnvu6-e146671-Qd1e127" source="http://scta.info/resource/rom13_1@14-20">quae a deo sunt ordinata sunt</quote> vt <choice><sic>dicitut</sic> <corr>dicitur</corr></choice> 
+          <lb ed="#L" n="149"/><ref xml:id="jsnvu6-e146671-Rd1e136">ad Romanos decimotertio</ref>, sed in praelatione vel 
+          <lb ed="#L" n="150"/>auctoritate dominandi inuenitur mala 
+          deordina<lb ed="#L" n="151" break="no"/>tio (vtpote quod puer dominatur seni, stultus sapienti) ergo 
+          ta<lb ed="#L" n="152" break="no"/>lis praelatio vel dominatio non est a deo. 
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e133">
+          <lb ed="#L" n="153"/><!--2--> Item <ref xml:id="jsnvu6-e146671-Rd1e152">Osee octauo</ref> dicitur, <quote xml:id="jsnvu6-e146671-Qd1e154" source="http://scta.info/resource/os8_4@1-6">ipsi repugnauerunt, &amp; non ex me</quote> 
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e141">
+          <lb ed="#L" n="154"/><!--3--> IN CONTRARIVM est, quia in angelis bonis &amp; in 
+          <lb ed="#L" n="155"/>hominibus pro statu innocentiae nihil fuisset, nisi quod esset a deo 
+          <lb ed="#L" n="156"/>institutum, sed in angelis beatis est praelatio, fuisset etiam in 
+          sta<lb ed="#L" n="157" break="no"/>tu innocentiae, ergo &amp;c. 
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e154">
+          <lb ed="#L" n="158"/><!--4--> Ad idem est quod dicitur <ref xml:id="jsnvu6-e146671-Rd1e175">ad Romanos decimotertio</ref>, quod 
+          <lb ed="#L" n="159"/><quote xml:id="jsnvu6-e146671-Qd1e178" source="http://scta.info/resource/rom13_2@2-7">qui potestati resistit, dei ordinationi resistit</quote>, quod non esset nisi 
+          <lb ed="#L" n="160"/>praelatio &amp; dominatio essent a deo ordinata, ergo &amp;c.
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e165">
+          <!--00425.xml-->
+          <pb ed="#L" n="178-r"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>RESPONSIO. Videnda sunt duo. Primum est, quod 
+          <lb ed="#L" n="2"/>principaliter quaeritur, scilicet vtrum omnis praelatio sit a Deo. 
+          <lb ed="#L" n="3"/>Secundum erit, vtrum praelatio fuisset in statu innocentiae, quia 
+          <lb ed="#L" n="4"/>hoc implicatur in argumento. 
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e183">
+          <lb ed="#L" n="5"/>
+          <!--6--> Quantum ad primum sciendum quod praelatus et in 
+          homi<lb ed="#L" n="6" break="no"/>nibus ex ordinatione diuina quantum ad debitum, non autem 
+          <lb ed="#L" n="7"/>quantum ad eius acquisitionem, vel vsum malum, nisi dictum 
+          <lb ed="#L" n="8"/>fuit actus peccatorum esse a Deo, <ref xml:id="jsnvu6-e146671-Rd1e215">supra distinct. 37.</ref> quod patet 
+          <lb ed="#L" n="9"/>sic, illud quod est debitum esse in hominibus secundum rectam 
+          <lb ed="#L" n="10"/>rationem, est debitum in eis secundum diuinam 
+          ordinatio<lb ed="#L" n="11" break="no"/>nem, quia ad hoc rationem indidit hominibus, vt ipsi 
+          secun<lb ed="#L" n="12" break="no"/>dum rectam rationem viuant, sed secundum rectam rationem 
+          <lb ed="#L" n="13"/>debitum est praelationem esse inter homines, ergo illud idem 
+          <lb ed="#L" n="14"/>debitum est secundum diuinam ordinationem. 
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e231">
+          Maior patet, sed 
+          <lb ed="#L" n="15"/>minor probatur, quid illud est secundum rectam rationem in 
+          <lb ed="#L" n="16"/>moribus, quod est secundum conformitatem ad bonitatem, 
+          <lb ed="#L" n="17"/>quae est in naturalibus, quia ars imitatur naturam, sed ordo 
+          prae<lb ed="#L" n="18" break="no"/>lationis est secundum conformitatem bonitatis, quae est in 
+          na<lb ed="#L" n="19" break="no"/>turalibus, ergo, &amp;c.
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e245">
+          Minor per simile probatur, quia in 
+          natura<lb ed="#L" n="20" break="no"/>libus inferiora reguntur per superiora quod multitudo per vnum, 
+          <lb ed="#L" n="21"/>denique vniuersum admodum exercitus ordinatur sub vno 
+          prin<lb ed="#L" n="22" break="no"/>cipe, vt dicitur <ref xml:id="jsnvu6-e146671-Rd1e253">12. Metaphysi.</ref> ergo, &amp;c. Item dicit <ref xml:id="jsnvu6-e146671-Rd1e255">Philosophus 
+          <lb ed="#L" n="23"/>primo Politicorum</ref>, quod in omni pluralitate ordinata 
+          natu<lb ed="#L" n="24" break="no"/>rale est &amp; expediens, quod vnus principietur, &amp;c. sint subiecta 
+          <lb ed="#L" n="25"/>ergo in pluralitate hominum debitum est &amp; expediens quod 
+          <lb ed="#L" n="26"/>vnus praesit, &amp; caeteri sint subiecti. In hoc autem consistit ordo 
+          <lb ed="#L" n="27"/>&amp; ratio praelationis, ergo praelatio est in hominibus secundum 
+          <lb ed="#L" n="28"/>debitum rationis &amp; diuinae ordinationis. 
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e272">
+          Dico tamen quod non 
+          <lb ed="#L" n="29"/>semper assecutio &amp; vsus praelationis est a Deo, scilicet quando 
+          <lb ed="#L" n="30"/>modus perueniendi ad praelationem, vel vsus praelationis iam 
+          <lb ed="#L" n="31"/>adeptae est malus, de quibus intelligitur quod dicitur <ref xml:id="jsnvu6-e146671-Rd1e280">Osee <sic>7</sic></ref> 
+          <lb ed="#L" n="32"/><quote xml:id="jsnvu6-e146671-Qd1e285" source="http://scta.info/resource/os8_4@1-6">ipsi regnauerunt, &amp; non ex me</quote>, &amp; quia iudicium est de re 
+          su<lb ed="#L" n="33" break="no"/>mendum, secundum quod existit cum omnibus circunstantiis 
+          <lb ed="#L" n="34"/>quarum bonitas requiritur ad bonitatem rei, ideo non omnis 
+          <lb ed="#L" n="35"/>praelatio est bona, nec a Deo, nisi sicut mala sunt ab eo: &amp; sic 
+          <lb ed="#L" n="36"/>patet primum. 
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e257">
+          <lb ed="#L" n="37"/>De secundo, scilicet an in statu innocentiae fuisset praelatio, 
+          <lb ed="#L" n="38"/>dicendum quod sic, sed non secundum omnem modum. 
+          Pri<lb ed="#L" n="39" break="no"/>mum patet, quia vbi in multitudine sunt aliqui apti alios 
+          diri<lb ed="#L" n="40" break="no"/>gere &amp; promouere in agendis &amp; sciendis, alij autem apti 
+          diri<lb ed="#L" n="41" break="no"/>gi &amp; promoueri, ibi decet esse ordinem praelationis, sed in 
+          sta<lb ed="#L" n="42" break="no"/>tu innocentiae, sic fuisset, vt dictum est, nam vnus fuisset plus 
+          <lb ed="#L" n="43"/>alio praeditus in lumine sapientiae in speculabilibus &amp; 
+          practi<lb ed="#L" n="44" break="no"/>cis, per quem &amp; huiusmodi similes alij minus praediti, dirigi 
+          <lb ed="#L" n="45"/>possent &amp; promoueri ad bonum, quare &amp;c. Quod autem non 
+          <lb ed="#L" n="46"/>fuisset ibi praelatio secundum omnem modum patet. Praefertur 
+          <lb ed="#L" n="47"/>enim aliquis alteri dupliciter. Vno modo referendo eum cui 
+          <lb ed="#L" n="48"/>praest ad propriam vtilitatem, &amp; sic praest dominus seruo, &amp; 
+          <lb ed="#L" n="49"/>tyrannus subdito, &amp; iste modus non fuisset in statu 
+          innocen<lb ed="#L" n="50" break="no"/>tiae propter duo, primum est, quia iste modus praeessendi alij, 
+          <lb ed="#L" n="51"/>non est licitus nisi respectu eius quod ad hominem tanquam 
+          <lb ed="#L" n="52"/>ad finem ordinatur, sic enim vtitur dominus seruo, scilicet 
+          <lb ed="#L" n="53"/>gratia sui, &amp; non serui, sed in statu innocentiae non fuisset 
+          ta<lb ed="#L" n="54" break="no"/>lis ordo hominis ad hominem, nec ex gratia, nec natura, quia
+          <lb ed="#L" n="55"/>tam natura quam gratia ordinant hominem ad Deum tanquam 
+          <lb ed="#L" n="56"/>ad finem, non autem hominem ad hominem, ergo in statu 
+          in<lb ed="#L" n="57" break="no"/>nocentiae non praefuisset homo homini, tanquam dominus 
+          ser<lb ed="#L" n="58" break="no"/>uo, vel tyrannus subdito, praefuisset tamen isto modo caeteri 
+          <lb ed="#L" n="59"/>animalibus, vtendo eis propter se. Post peccatum etiam 
+          ta<lb ed="#L" n="60" break="no"/>lis praelatio inter aliquos introducta est vel ex violentia, vel 
+          <lb ed="#L" n="61"/>inquantum propter peccatum comparatus est homo iumentis
+          <lb ed="#L" n="62"/>insipientibus, &amp; similis factus est illis. Secundum patet, quia 
+          <lb ed="#L" n="63"/>vnicuique est amabile bonum proprium, &amp; per consequens
+          <lb ed="#L" n="64"/>contristabile est quod bonum proprium tantum cedat alteri 
+          <lb ed="#L" n="65"/>sed nihil tristabile vel poenale fuisset in statu innocentiae, 
+          er<lb ed="#L" n="66" break="no"/>go nec praelatio, per quam bonum subditi cedit &amp; ordinatur 
+          <lb ed="#L" n="67"/>ad commodum praesidentis, talis autem est, praelatio domini 
+          <lb ed="#L" n="68"/>ad seruum, ergo, &amp;c 
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e329">
+          <lb ed="#L" n="69"/>
+          <!--8--> Alio modo praest aliquis alteri ad bonum illius qui 
+          dirigi<lb ed="#L" n="70" break="no"/>tur, vel ad bonum commune quod fit, vel directe, vel 
+          indire<lb ed="#L" n="71" break="no"/>cte, scilicet remouendo impedimenta extrinseca, sicut populi 
+          <lb ed="#L" n="72"/>a regibus defenduntur, vel infligendo poenas ad correctionem 
+          <lb ed="#L" n="73"/>morum. Primus modus fuisset in statu innocentiae propter 
+          ra<lb ed="#L" n="74" break="no"/>tionem prius dictam, sed secundus non fuisset, quia ante 
+          pec<lb ed="#L" n="75" break="no"/>catum nihil fuisset quod homini nocere posset, nec voluntas 
+          <lb ed="#L" n="76"/>cuiusquam bono contradixisset, propter quod non fuisset opus 
+          <lb ed="#L" n="77"/>subditos defendere ab impugnatione aliorum, nec poenas 
+          infli<lb ed="#L" n="78" break="no"/>gere ad correctionem morum. Patet igitur quod debitum est 
+          <lb ed="#L" n="79"/>ex diuina ordinatioue, quod inter homines sit praelatio, sed 
+          exe<lb ed="#L" n="80" break="no"/>cutio huius ordinationis per homines plerunque non est a Deo, 
+          <lb ed="#L" n="81"/>nisi sicut peccata sunt a Deo. 
+        </p>
+        <p xml:id="jsnvu6-e146671-d1e363">
+          <lb ed="#L" n="82"/>
+          <!--9--> Per hoc patet responsio ad argumentum vtriusque partis
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
