@@ -1,355 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 3</title>
-            <author ref="#Durandus">Durandus</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 3</title>
-               <date when="2023-08-20">August 20, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-08-20" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="178-r"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="jsnvu6-e146938"><!-- l2d44q3 -->
-            <head xml:id="jsnvu6-e146938-Hd1e101">Quaestio 3</head>
-            <head xml:id="jsnvu6-e146938-Hd1e103" type="question-title">Utrum Christiani teneantur obedire prin- 
-      cipibus secularibus</head>
-            <p xml:id="jsnvu6-e146938-d1e106">
-      <!--00425.xml-->
-               <cb ed="#L" n="b"/>
-               <lb ed="#L" n="83"/>QVAESTIIO TERTIA
-      <lb ed="#L" n="84"/>Vtrum Christiani teneantur obedire 
-      prin<lb ed="#L" n="85" break="no"/>cipibus secularibus
-      <lb ed="#L" n="86"/>εὶc: eor,dd o cipibus secularibus. 1 
-      <lb ed="#L" n="87"/>Taαὶ 1, 5ai iue. 
-    </p>
-            <p xml:id="jsnvu6-e146938-d1e124">
-               <lb ed="#L" n="88"/>TERTIO quaeritur vtrum Christiani teneantur 
-      <lb ed="#L" n="89"/>obedire principibus secularibus, &amp; videtur quod non 
-      <lb ed="#L" n="90"/>quia Iac. i.lex euangelica vocatur lex perfectae 
-      li<lb ed="#L" n="91" break="no"/>bertatis, quod non esset, nisi liberaret ab obedientia 
-      <lb ed="#L" n="92"/>cuiuscunque principis secularis, ergo, &amp;c. 
-      </p>
-            <p xml:id="jsnvu6-e146938-d1e137">
-               <lb ed="#L" n="93"/>
-               <!--2.--> Item quilibet potest licite recurrere ad iudicium illius cui 
-      te<lb ed="#L" n="94" break="no"/>principum secularium maxime si sint infideles. Vnde Apost. 
-      re<lb ed="#L" n="95" break="no"/>netur obedire, sed Christianis non licet recurrere ad iudicium 
-      <lb ed="#L" n="96"/>prehendit I. ad Cor. 6. quosdam qui recurrebant ad iudices 
-      se<lb ed="#L" n="97" break="no"/>culares infideles, ergo videtur quod Christiani non tenentur 
-      obe<lb ed="#L" n="98" break="no"/>dire principibus secularibus, maxime si sint infideles. 
-      </p>
-            <p xml:id="jsnvu6-e146938-d1e156">
-               <lb ed="#L" n="99"/>
-               <!--3--> IN CONTRARIVM est quod dicit Apostol. ad 
-      <lb ed="#L" n="100"/>Rom. 13. quod omnis anima potestatibus sublimioribus subdit: 
-      <lb ed="#L" n="101"/>sit, &amp; quod loquatur de potestate seculari, patet per illud quod 
-      <lb ed="#L" n="102"/>subditur: non enim sine causa gladium portat. Constat autem 
-      <lb ed="#L" n="103"/>quod loquitur Christianis; quibus &amp; scribit, ergo Christiani 
-      <lb ed="#L" n="104"/>tenentur obedire potestati seculari. 
-      </p>
-            <p xml:id="jsnvu6-e146938-d1e174">
-               <lb ed="#L" n="105"/>
-               <!--4--> RESPONSIO. Principum secularium quidam sant 
-      <lb ed="#L" n="106"/>fideles, &amp; quidam infideles, &amp; in vtrisque deducetur quaestio 
-      <lb ed="#L" n="107"/>vtendo vno generali principio per se noto, isto scilicet, quod si 
-      <lb ed="#L" n="108"/>Christianus legitime subest potestati seculari certe tenetur 
-      <lb ed="#L" n="109"/>obedire in his ad quae se extendit potestas non solum propter 
-      <lb ed="#L" n="110"/>iram, id est, timorem poenae, sed propter conscientiam, quia non 
-      <lb ed="#L" n="111"/>obediendo resistit Dei ordinationi, vt dicitur ad Rom. 13. Primo 
-      <lb ed="#L" n="112"/>ergo ostendetur quod Christiani legitime subsunt potestati 
-      <lb ed="#L" n="113"/>seculari fideli. Et secundo inquiretur an legitime subsint 
-      pol<lb ed="#L" n="114" break="no"/>testati seculari iufideli. 
-      </p>
-            <p xml:id="jsnvu6-e146938-d1e200">
-               <lb ed="#L" n="115"/>
-               <!--5--> Primum patet dupliciter; primo sic, illud quod est secundum 
-      <lb ed="#L" n="116"/>dictamen rectae rationis non tollitur per fidem &amp; gratiam, fides 
-      <lb ed="#L" n="117"/>enim &amp; gratia non tollunt naturam seu rationem naturalem, 
-      <lb ed="#L" n="118"/>sed perficiunt, sed praelatio secularis debet secundum dictamen 
-      <lb ed="#L" n="119"/>rectae rationis esse in hominibus, vt patet ex praeced. quaest. 
-      er<lb ed="#L" n="120" break="no"/>go haec non tollitur a Christianis per fidem &amp; gratiam, per quae 
-      <lb ed="#L" n="121"/>distinguuntur ab aliis. Item vbicunque potest perturbari ordo 
-      <lb ed="#L" n="122"/>iusticiae, decet aliquos esse, qui ex officio faciant hunc ordinem 
-      <lb ed="#L" n="123"/>obseruari, sed inter Christianos contingit perturbari ordinem 
-      <lb ed="#L" n="124"/>iustitiae, non solum in spiritualibus, sed etiam in temporalibus, ergo 
-      <lb ed="#L" n="125"/>decet aliquos esse qui ex officio faciant hunc ordinem obseruari 
-      in<lb ed="#L" n="126" break="no"/>ter Christianos, ex officio autem non habet hoc nisi ille qui 
-      prae<lb ed="#L" n="127" break="no"/>est, vnde ad Ro.13. Vis non timere potestatem, bonum fac, &amp; 
-      ha<lb ed="#L" n="128" break="no"/>bebis laudem ex ea. Si autem male feceris, time: non enim sine causa 
-      <lb ed="#L" n="129"/>gladium portat, minister enim Dei est, &amp;c. Decet ergo secundum 
-      <lb ed="#L" n="130"/>rectam rationem, quod inter Christianos sint aliqui qui praesint non 
-      <lb ed="#L" n="131"/>solum in spiritualibus (vt praelati ecclesiastici) sed &amp; in 
-      tempo<lb ed="#L" n="132" break="no"/>ralibus, &amp; hi sunt principes seculares. Patet ergo quod potestas 
-      se<lb ed="#L" n="133" break="no"/>cularis inter Christianos legitima est, cui subditi tenentur 
-      obe<lb ed="#L" n="134" break="no"/>dire in his quae ad ius talis potestatis perrinent. 
-</p>
-            <p xml:id="jsnvu6-e146938-d1e248">
-               <lb ed="#L" n="135"/>Quantum autem ad secundum an princeps secularis infidelis 
-      <lb ed="#L" n="136"/>rite possit praeesse fidelibus Christianis, &amp; per consequens Chri 
-      <lb ed="#L" n="137"/>stiani debeant ei obedire. Distinguendum est quia dominium vel 
-      <lb ed="#L" n="138"/>relatio principis infidelis super Christianum aut praeexistit di 
-      <lb ed="#L" n="139"/>stinctioni eorum per fidem &amp; infidelitatem, vtpote, quia 
-      subdi<lb ed="#L" n="140" break="no"/>tus conuersus est ad fidem &amp; non princeps, sicut in primitiua 
-      <lb ed="#L" n="141"/>ecclesia passim fiebat, vel seruus conuertitur &amp; non dominus, 
-      <lb ed="#L" n="142"/>sicut adhuc quandoque fit de seruis Iudaeorum, aut talis 
-      praela<lb ed="#L" n="143" break="no"/>tio, vel dominium de nouo introducitur. In primo casa dicunt 
-      <lb ed="#L" n="144"/>quidam quod distinctio fidelium ab infidelibus non collit ipso facto 
-      <lb ed="#L" n="145"/>praecedentem praelationem, vel dominium infidelium super fideles. 
-      <lb ed="#L" n="146"/>Cuius ratio est, quia ius diuinum quod est ex gratia non rollic 
-      <lb ed="#L" n="147"/>ius humanum quod est ex naturali ratione, sed praelatio introc 
-      <lb ed="#L" n="148"/>ducta est iure humano &amp; innititur naturali rationi, vt patuit 
-      su<lb ed="#L" n="149" break="no"/>pra Distinctio autem fidelium ab infidelibus est ex iure diuino, 
-      <lb ed="#L" n="150"/>ergo haec distinctio non tollit praecedentem praelationem, vel 
-      <lb ed="#L" n="151"/>dominium ipso facto, imo adhuc tenentur fideles subditi 
-      obe<lb ed="#L" n="152" break="no"/>dire principibus vel dominis infidelibus, addunt tamen quod 
-      li<lb ed="#L" n="153" break="no"/>cet ipso facto non tollatur talis dominatio, iuste tamen potess. 
-      <lb ed="#L" n="154"/>tolli per ordinationem ecclesiae, quae habet auctoritatem 
-      Dei<lb ed="#L" n="155" break="no"/>quia infideles merito suae infidelitatis merentur amittere 
-      po<lb ed="#L" n="156" break="no"/>testatem super fideles qui transferuntur in filios Dei, &amp; hoc 
-      qui<lb ed="#L" n="157" break="no"/>dem ecclesia quandoque facit, quandoque autem non facit. In 
-      <lb ed="#L" n="158"/>illis autem infidelibus qui temporaliter subiiciuntur ecclesiae, &amp; 
-      <lb ed="#L" n="159"/>in membris eius hoc ius ecclesia statuit, vt seruus Iudaeorum 
-      <lb ed="#L" n="160"/>factus Christianus statim a seruitute liberetur si fuerit 
-      verna<lb ed="#L" n="161" break="no"/>culus, id est, in seruitute natus, &amp; similiter si fuerit emptus ad 
-      <lb ed="#L" n="162"/>seruitutem. Si autem fuerit emptus ad mercationem tenetur: 
-      <lb ed="#L" n="163"/>eum exponere intra tres menses ad vendendum, vt patet 57. dist. 
-      <!--00426.xml-->
-      <pb ed="#L" n="178-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>fraternitatem. &amp; extra de Iudaeis &amp; Sara. cap. 1. &amp; vltimo, nec 
-      <lb ed="#L" n="2"/>in hoc iniuriam facit illis ecclesia, quia cum Iudaei sint serui 
-      ec<lb ed="#L" n="3" break="no"/>clesiae, ipsa potest disponere de rebus eorum, sicut etiam 
-      prin<lb ed="#L" n="4" break="no"/>cipes seculares multas leges ediderunt erga suos subditos in 
-      fa<lb ed="#L" n="5" break="no"/>uorem libertatis. In illis vero infidelibus qui temporaliter 
-      ec<lb ed="#L" n="6" break="no"/>clesiae vel eius membris non subiacent praedictum ius non 
-      sta<lb ed="#L" n="7" break="no"/>tuit, licet posset iuste statuere, &amp; hoc facit propter scandalum 
-      <lb ed="#L" n="8"/>vitandum ficut etiam dominus Matthaei 17. ostendit quod 
-      po<lb ed="#L" n="9" break="no"/>terat se a tributo excusare, quia liberi sunt filij, sed mandauit 
-      tri<lb ed="#L" n="10" break="no"/>butum solui ad scandalum vitandum. 
-  
-</p>
-            <p xml:id="jsnvu6-e146938-d1e341">
-               <lb ed="#L" n="11"/>Horum autem primum reputo verum absolute, scilicet quod 
-      <lb ed="#L" n="12"/>subditus principis infidelis si conuertatur ad fidem non est ipsi 
-      <lb ed="#L" n="13"/>facto absolutus a dominio alterius, quod autem subditur, quod 
-      <lb ed="#L" n="14"/>iuste per ordinationem ecclesiae habentis auctoritatem dei po 
-      <lb ed="#L" n="15"/>test absolui, quia infideles merito suae infidelitatis possunt iust. 
-      <lb ed="#L" n="16"/>priuari potestate quam habent super fideles verum quidem est, 
-      <lb ed="#L" n="17"/>dum tamen aliquid addatur hoc scilicet quod si princeps vel 
-      do<lb ed="#L" n="18" break="no"/>minus infidelis non contentus sua legitima auctoritate nititur 
-      <lb ed="#L" n="19"/>subditum, vel seruum factum Christianum reducere ad 
-      infide<lb ed="#L" n="20" break="no"/>litatem, nec patitur quietum esse vt prius, sed inquietat ipsum 
-      <lb ed="#L" n="21"/>per contumelias illatas creatori tunc ipso facto priuatur vel sal 
-      <lb ed="#L" n="22"/>tem priuari potest per auctoritatem ecclesiae iure quod 
-      habe<lb ed="#L" n="23" break="no"/>bat in subditum. 
-      </p>
-            <p xml:id="jsnvu6-e146938-d1e372">
-               <lb ed="#L" n="24"/>
-               <!--8.--> Quod patet per rationem &amp; per simile. Ratio talis est, 
-      do<lb ed="#L" n="25" break="no"/>minus inferior procurans &amp; persuadens discessionem a domino 
-      <lb ed="#L" n="26"/>superiore a quo habet totam auctoritatem dominandi privatur 
-      <lb ed="#L" n="27"/>ipso facto vel iuste meretur priuari auctoritate sui principatus 
-      <lb ed="#L" n="28"/>vel dominij, sed princeps vel dominus infidelis qui subditum 
-      <lb ed="#L" n="29"/>suum vel seruum factum Christianum nititur ab infidelitate 
-      <lb ed="#L" n="30"/>reuocare &amp; inquietare per contumelias creatori illatas est 
-      huius<lb ed="#L" n="31" break="no"/>modi, suadet enim discessionem a deo a quo est omnis potestas 
-      <lb ed="#L" n="32"/>vt dicitur ad Romanos decimotertio, ergo talis meretur iuste 
-      <lb ed="#L" n="33"/>priuari auctoritate sui dominij. Idem patet per simile, aeque 
-      <lb ed="#L" n="34"/>enim grandis est obligatio coniugum adinuicem sicut est 
-      sub<lb ed="#L" n="35" break="no"/>diti ad principem vel serui ad dominum, sed si alter coniugum 
-      <lb ed="#L" n="36"/>conuertatur ad fidem altero in infidelitate permanente si infide 
-      <lb ed="#L" n="37"/>lis non vult manere cum fideli nisi pertrahendo ipsum ad 
-      infide<lb ed="#L" n="38" break="no"/>litatem, vel cum blasphemia creatoris, fidelis absoluitur a 
-      vin<lb ed="#L" n="39" break="no"/>culo quo ei ligabatur, eodem modo si princeps vel dominus in 
-      <lb ed="#L" n="40"/>fidelis nititur seruum vel subditum factum Christianum ad 
-      in<lb ed="#L" n="41" break="no"/>fidelitatem reducere blasphemando creatorem; meretur 
-      amir<lb ed="#L" n="42" break="no"/>tere ius dominij quod habet super eum, unde &amp; in hoc casu 
-      mo<lb ed="#L" n="43" break="no"/>uent Christiani auctoritate ecclesiae bellum iuste contra 
-      infide<lb ed="#L" n="44" break="no"/>les ne fidem Christi impediant blasphemiis vel persuasionibus 
-      <lb ed="#L" n="45"/>malis vel persecutionibus manifestis, &amp; forte hanc causam 
-      ha<lb ed="#L" n="46" break="no"/>bet, etiam &amp; iam diu habuit ecclesia de quocunque conuerso ad 
-      <lb ed="#L" n="47"/>fidem respectu cuiuscunque principis vel domini infidelis 
-      Sa<lb ed="#L" n="48" break="no"/>raceni vel Iudaei, quia cum sint obstinati in sua infidelitate 
-      pro<lb ed="#L" n="49" break="no"/>babile est, &amp; multis experimentis compertum est quod 
-      quem<lb ed="#L" n="50" break="no"/>cunque subditum vel seruum suum conuersum ad fidem 
-      nite<lb ed="#L" n="51" break="no"/>rentur reducere ad infidelitatem &amp; ob hoc haec conditio 
-      habe<lb ed="#L" n="52" break="no"/>tur ab ecclesia pro impleta 
-</p>
-            <p xml:id="jsnvu6-e146938-d1e441">
-               <lb ed="#L" n="53"/>Si autem princeps vel dominus infidelis esset contentus sua 
-      <lb ed="#L" n="54"/>legitima auctoritate, nec niteretur subditum ad infidelitatem 
-      <lb ed="#L" n="55"/>reducere, nec blasphemias inferret creatori, sed permitteret 
-      ip<lb ed="#L" n="56" break="no"/>sum quietum esse vt prius, non ita euidenter apparet, quod talis 
-      <lb ed="#L" n="57"/>princeps deberetiuste priuari auctoritate &amp; dominioquod pri 
-      <lb ed="#L" n="58"/>habebat in subditum, quia si subditus de nouo conuertitur ad 
-      <lb ed="#L" n="59"/>fidem &amp; non dominus, in hoc nullum nouum peccatum est 
-      do<lb ed="#L" n="60" break="no"/>mini, sed est meritum subditi, igitur infidelitas domini non 
-      po<lb ed="#L" n="61" break="no"/>test esse sufficiens ratio, quare mereatur amittere dominium 
-      <lb ed="#L" n="62"/>quod prius legitime habuit in eadem infidelitate existens, sed si 
-      <lb ed="#L" n="63"/>qua est ratio illa debet sumi ex merito serui, vel subditi, qui de 
-      <lb ed="#L" n="64"/>nouo translatus est in societatem filiorum dei. Et ob hoc posset 
-      <lb ed="#L" n="65"/>videri alicui quod talis mereretur absolui a dominio principis 
-      <lb ed="#L" n="66"/>infidelis, &amp; ecclesia auctoritate dei posset eum iuste absoluere. 
-      <lb ed="#L" n="67"/>Sed quamuis conuersus ad fidem mereatur aliquid majus tali 
-      li<lb ed="#L" n="68" break="no"/>bertate (liberatur enim a peccato &amp; meretur vitam aeternam) 
-      <lb ed="#L" n="69"/>non oportet tamen quod mereatur liberari a subiectione 
-      prin<lb ed="#L" n="70" break="no"/>cipis infidelis, quia conuersus ad fidem ex hoc solo non meretur 
-      <lb ed="#L" n="71"/>liberari ab eo quod nullo modo praeiudicat fidei, sed subiici prin 
-      <lb ed="#L" n="72"/>cipi infideli qui contentus est sua legitima auctoritate, nec 
-      niti<lb ed="#L" n="73" break="no"/>tur subditum conuersum ad fidem reducere ad infidelitatem, 
-      <lb ed="#L" n="74"/>nec inquietat ipsum per aliquam contumeliam creacori illatam, 
-      <lb ed="#L" n="75"/>sed patitur quietum esse vt prius, non praeiudicat, nec in aliquo 
-      <lb ed="#L" n="76"/>derogat fidei, ergo ex sola conuersione ad fidem non meretur. 
-      <lb ed="#L" n="77"/>quis absolui a tali subiectione. Ecclesia etiam licet habeat in 
-      ter<lb ed="#L" n="78" break="no"/>ris auctoritatem dei, illa tamen non excedit limitationem 
-      scri<lb ed="#L" n="79" break="no"/>pturae. Scriptura autem expresse conuersos ad fidem 
-      subiicide<lb ed="#L" n="80" break="no"/>pere prioribus dominis suis, quamuis infidelibus &amp; eis 
-      obedi<lb ed="#L" n="81" break="no"/>re. dicit enim Apostolus ad Romanos decimotertio, quod 
-      prin<lb ed="#L" n="82" break="no"/>cipes qui pro tunc solum erant infideles sunt ministri dei ser¬ 
-      <!--00426.xml-->
-      <cb ed="#L" n="b"/>
-               <lb ed="#L" n="83"/>dientes ad hiudem bonorum &amp; vindictam nialefactorum, ob 
-      <lb ed="#L" n="84"/>quam causam dantur eis tributa, &amp; concludit, reddite ergo 
-      om<lb ed="#L" n="85" break="no"/>nibus debita cui tributum, tributum, cui vectigal, vectigai, vnde 
-      <lb ed="#L" n="86"/>patet quod mandat conuersos ad fidem adhuc subiici 
-      principi<lb ed="#L" n="87" break="no"/>bus infidelibus &amp; reddere ea, quae ratione subiectionis sunt eis 
-      <lb ed="#L" n="88"/>debita: &amp; primae Petri secundo cap. dicitur, subiecti estote 
-      si<lb ed="#L" n="89" break="no"/>ue regi, tanquam praecellenti, siue ducibus tanquam ab eo 
-      mis<lb ed="#L" n="90" break="no"/>sis ad vindictam malefactorum, laudem vero bonorum, quia 
-      <lb ed="#L" n="91"/>sic est voluntas dei: &amp; primae ad Timothaeum sexto dicitur sic 
-      <lb ed="#L" n="92"/>quicunque sunt sub iugo serui, dominos suos omni honore 
-      di<lb ed="#L" n="93" break="no"/>gnos arbitrentur, &amp; loquitur de dominis infidelibus, vt patet 
-      <lb ed="#L" n="94"/>ex his quae statim ibidem subduntur. Ex quo patet quod 
-      scri<lb ed="#L" n="95" break="no"/>ptura non innuit quod serui vel subditi conuersi ad fidem 
-      pos<lb ed="#L" n="96" break="no"/>sint vel debeant solo merito suae conuersionis absolui a 
-      pote<lb ed="#L" n="97" break="no"/>state dominorum, quamuis infidelium: imo potius videtur 
-      in<lb ed="#L" n="98" break="no"/>finuare oppositum 
-      </p>
-            <p xml:id="jsnvu6-e146938-d1e548">
-               <lb ed="#L" n="99"/>
-               <!--10--> Secundo persuadetur illud sic, illicitum est quod 
-      infidele<lb ed="#L" n="100" break="no"/>qui nunquam susceperunt fidem, compellantur ad fidem, sed si 
-      <lb ed="#L" n="101"/>ecclesia priuaret principem infidelem suo iure quod habet super 
-      <lb ed="#L" n="102"/>subditos suos ipsis conuersis ad fidem, tunc compelleret ad 
-      fi<lb ed="#L" n="103" break="no"/>dem eos per amissionem bonorum suorum, quia seruus est res 
-      <lb ed="#L" n="104"/>domini sui, &amp; omnis subditus tenetur in aliquo domino suo, 
-      <lb ed="#L" n="105"/>hoc amitteret dominus, nisi conuerteretur ad fidem, sicut 
-      ser<lb ed="#L" n="106" break="no"/>ui, seu subditi, ergo illicitum est hoc facere: nulla autem 
-      pote<lb ed="#L" n="107" break="no"/>stas est ad illicita, ergo, &amp;c. 
-      </p>
-            <p xml:id="jsnvu6-e146938-d1e572">
-               <lb ed="#L" n="108"/>
-               <!--11--> Tertio sic, si alter coniugum conuertatur ad fidem altero in 
-      <lb ed="#L" n="109"/>infidelitate remanente, si infidelis consentit habitare cum fidel 
-      <lb ed="#L" n="110"/>absque hoc quod pertrahat ipsum ad infidelitatem; &amp; absqu 
-      <lb ed="#L" n="111"/>blasphemia creatoris non soluitur, nec solui debet vinculum 
-      <lb ed="#L" n="112"/>matrimonij inter ipsos, ergo similiter si princeps vel dominu 
-      <lb ed="#L" n="113"/>infidelis exigit a subdito vel seruo facto Christiano solum illud 
-      <lb ed="#L" n="114"/>quod pertinet ad ius sui dominij, nec nititur ipsum 
-      pertraher<lb ed="#L" n="115" break="no"/>ad infidelitatem, nec inquietat per blasphemias creatori illata 
-      <lb ed="#L" n="116"/>non soluitur, nec iuste potest solui obligatio quae prius erat ser 
-      <lb ed="#L" n="117"/>ui ad dominum suum, vel subditi ad principem suum. 
-      Verunta<lb ed="#L" n="118" break="no"/>men sicut dictum fuit prius, praedicta conditio forte pro nunc 
-      <lb ed="#L" n="119"/>non habet locum, nec diu etiam habuit propter obstinationen 
-      <lb ed="#L" n="120"/>infidelium, propter quam nituntur blasphemare creatorem, &amp; 
-      <lb ed="#L" n="121"/>fideles ad infidelitatem reducere, ob quam causam prohibitum 
-      <lb ed="#L" n="122"/>est coniugi conuersae ad fidem commanere cum illo qui 
-      rema<lb ed="#L" n="123" break="no"/>net in infidelitate, sicut habetur vigesimasexta quaest. 1. cap. 
-      Iu<lb ed="#L" n="124" break="no"/>daeo in fine: &amp; cap. saepe malorum consortia, &amp; pluribus aliis 
-      <lb ed="#L" n="125"/>Et ideo praedicta conditio nunc habetur pro nulla &amp; opposit. 
-      <lb ed="#L" n="126"/>supponitur vt impleta: quam ob causam dicunt doctores, quod 
-      <lb ed="#L" n="127"/>seruus vel subditur conuersus ad fidem potest per ecclesiam ab 
-      <lb ed="#L" n="128"/>solui a dominio &amp; potestate principis infidelis. Puto tamen quod 
-      <lb ed="#L" n="129"/>hoc sit ex suppositione conditionis suprapositae. Sic igitur pate 
-      <lb ed="#L" n="130"/>qualiter Christiani tenentur obedire dominis infidelibus, 
-      quan<lb ed="#L" n="131" break="no"/>do dominium praexistit distinctioni eorum per fidem &amp; 
-      infi<lb ed="#L" n="132" break="no"/>delitatem. 
-      </p>
-            <p xml:id="jsnvu6-e146938-d1e631">
-               <lb ed="#L" n="133"/>
-               <!--12--> De praelatione autem infidelium de nouo introducenda su 
-      <lb ed="#L" n="134"/>per fideles nullo modo permittit ecclesia, quod infideles acqui 
-      <lb ed="#L" n="135"/>rant dominium super fideles, aut quod eis m aliquo officio pr 
-      <lb ed="#L" n="136"/>ficiantur, &amp; rationabiliter. Cedit enim hoc in scandalum &amp; pe 
-      <lb ed="#L" n="137"/>ficulum fidei: de facili enim qui subduntur aliorum iurisdiction 
-      <lb ed="#L" n="138"/>immutantur ab eius, vt patet in libris Regum in pluribus locis 
-      <lb ed="#L" n="139"/>Iofideles enim contemnut fidem, quando cognoscunt defectus 
-      <lb ed="#L" n="140"/>fidelium, propter quod iste prohibet ecclesia, ne tale dominium 
-      <lb ed="#L" n="141"/>introducatur, si tamen introductum fuerit, sicut quidam 
-      prin<lb ed="#L" n="142" break="no"/>cipes Christiani faciunt ex Iudaeis quosdam praeposito &amp; 
-      bali<lb ed="#L" n="143" break="no"/>uos peccant quidem facientes contra statutum ecclesiae. Subdi 
-      <lb ed="#L" n="144"/>tim tamen tenentur Iudaeis sic institutis obedire in his, quae perti 
-      <lb ed="#L" n="145"/>nent ad iustam exequutionem officij talibus commissi. 
-      </p>
-            <p xml:id="jsnvu6-e146938-d1e664">
-               <lb ed="#L" n="146"/>
-               <!--13--> AD PRIMVM argumentum in oppositum dicendum 
-      <lb ed="#L" n="147"/>quod lex euangelica vocatur lex perfectae libertatis, quia 
-      libe<lb ed="#L" n="148" break="no"/>rat a seruiture peccati, quae est pessima seruitus, &amp; ab omni lege 
-      <lb ed="#L" n="149"/>veteri, quam vix vnquam aliquis portare potuit: &amp; non quia 
-      li<lb ed="#L" n="150" break="no"/>beret a scruitute ciuili per quam subditus tenetur obedire de 
-      <lb ed="#L" n="151"/>mino suo, cum hoc fit consonum rationi, &amp; meritorium. 
-      </p>
-            <p xml:id="jsnvu6-e146938-d1e682">
-               <lb ed="#L" n="152"/>
-               <!--14--> Ad secundum argumentum dicendum quod maior est 
-      fal<lb ed="#L" n="153" break="no"/>sa? Obedire enim principi in his quae ad huiusmodi dominium 
-      <lb ed="#L" n="154"/>percinent est necessitatis, trahere autem alium ad iudicium 
-      co<lb ed="#L" n="155" break="no"/>ram iudice infideli est voluntatis, &amp; ideo primum est debitum 
-      <lb ed="#L" n="156"/>secundum vero non, sed mere voluntarium: vnde vbi vergit in 
-      <lb ed="#L" n="157"/>periculum est illicitum, in quo casu loquitur Apostolus. Quod 
-      <lb ed="#L" n="158"/>autem dicit Dominus Matth. 17. filij sunt liberi, de se loquens 
-      <lb ed="#L" n="159"/>hoc dicit, erat enim filius regis aeterni, sicut dixerat Petrus prius 
-      <lb ed="#L" n="160"/>decimosexto cap. Tu es Christus filius dei viui, &amp; ob hoc liber 
-      <lb ed="#L" n="161"/>erat a debito tributi, non sic autem est de nobis nec sic erat tnme 
-      <lb ed="#L" n="162"/>de caeteris fidelibus illius temporis. Nam Dominus iussit 
-      eo<lb ed="#L" n="163" break="no"/>tributa soluere principi infideli, Matthaei vigesimosecundo 
-      di<lb ed="#L" n="164" break="no"/>cens, Reddite quae sunt Caesaris Caesari. 
-</p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#Durandus">Durandus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2023-08-20">August 20, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-08-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="178-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jsnvu6-e146938"><!-- l2d44q3 -->
+        <head xml:id="jsnvu6-e146938-Hd1e101">Quaestio 3</head>
+        <head xml:id="jsnvu6-e146938-Hd1e103" type="question-title">Utrum Christiani teneantur obedire principibus secularibus</head>
+        <p xml:id="jsnvu6-e146938-d1e106">
+          <!--00425.xml-->
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="83"/>QVAESTIIO TERTIA
+          <lb ed="#L" n="84"/>Vtrum Christiani teneantur obedire 
+          prin<lb ed="#L" n="85" break="no"/>cipibus secularibus
+          <lb ed="#L" n="86"/><!-- line coord error -->
+          <lb ed="#L" n="87"/>Thom 22 q. 10. ar. 10 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e124">
+          <lb ed="#L" n="88"/>TERTIO quaeritur vtrum Christiani teneantur 
+          <lb ed="#L" n="89"/>obedire principibus secularibus,
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e133">
+          &amp; videtur quod non 
+          <lb ed="#L" n="90"/>quia <ref xml:id="jsnvu6-e146938-Rd1e137">Iac. 1.</ref> lex euangelica vocatur <quote xml:id="jsnvu6-e146938-Qd1e139" source="http://scta.info/resource/iac1_25@5-7">lex <sic>perfectae</sic> 
+          li<lb ed="#L" n="91" break="no"/>bertatis</quote>, quod non esset, nisi liberaret ab obedientia 
+          <lb ed="#L" n="92"/>cuiuscunque principis secularis, ergo, &amp;c. 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e137">
+          <lb ed="#L" n="93"/><!--2.--> Item quilibet potest licite recurrere ad iudicium illius cui 
+          te<lb ed="#L" n="95" break="no"/><!-- line coord error -->netur obedire, sed Christianis non licet recurrere ad iudicium
+          <lb ed="#L" n="94"/><!-- line coord error: order problem -->principum secularium maxime si sint infideles. Vnde <ref xml:id="jsnvu6-e146938-Rd1e161">Apost. 
+          re<lb ed="#L" n="96"/><!-- line coord error: order problem -->prehendit I. ad Cor. 6.</ref> quosdam qui recurrebant ad iudices 
+          se<lb ed="#L" n="97" break="no"/>culares infideles, ergo videtur quod Christiani non tenentur 
+          obe<lb ed="#L" n="98" break="no"/>dire principibus secularibus, maxime si sint infideles. 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e156">
+          <lb ed="#L" n="99"/><!--3--> IN CONTRARIVM est quod dicit <ref xml:id="jsnvu6-e146938-Rd1e178">Apostol. ad 
+            <lb ed="#L" n="100"/>Rom. 13.</ref> quod <quote xml:id="jsnvu6-e146938-Qd1e183" source="http://scta.info/resource/rom13_1@1-6">omnis anima potestatibus sublimioribus subdit: 
+          <lb ed="#L" n="101"/>sit</quote>, &amp; quod loquatur de potestate seculari, patet per illud quod 
+          <lb ed="#L" n="102"/>subditur: non enim sine causa gladium portat. Constat autem 
+          <lb ed="#L" n="103"/>quod loquitur Christianis; quibus &amp; scribit, ergo Christiani 
+          <lb ed="#L" n="104"/>tenentur obedire potestati seculari. 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e174">
+          <lb ed="#L" n="105"/><!--4--> RESPONSIO. Principum secularium quidam sunt 
+          <lb ed="#L" n="106"/>fideles, &amp; quidam infideles, &amp; in vtrisque deducetur quaestio 
+          <lb ed="#L" n="107"/>vtendo vno generali principio per se noto, isto scilicet, quod si 
+          <lb ed="#L" n="108"/>Christianus legitime subest potestati seculari certe tenetur 
+          <lb ed="#L" n="109"/>obedire in his ad quae se extendit potestas non solum propter 
+          <lb ed="#L" n="110"/>iram, id est, timorem poenae, sed propter conscientiam, quia non 
+          <lb ed="#L" n="111"/>obediendo <quote xml:id="jsnvu6-e146938-Qd1e214" source="http://scta.info/resource/rom13_2@5-7">resistit Dei ordinationi</quote>, vt dicitur <ref xml:id="jsnvu6-e146938-Rd1e217">ad Rom. 13</ref>. Primo 
+          <lb ed="#L" n="112"/>ergo ostendetur quod Christiani legitime subsunt potestati 
+          <lb ed="#L" n="113"/>seculari fideli. Et secundo inquiretur an legitime subsint 
+          po<lb ed="#L" n="114" break="no"/>testati seculari infideli. 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e200">
+          <lb ed="#L" n="115"/><!--5--> Primum patet dupliciter: primo sic, illud quod est secundum 
+          <lb ed="#L" n="116"/>dictamen rectae rationis non tollitur per fidem &amp; gratiam, fides 
+          <lb ed="#L" n="117"/>enim &amp; gratia non tollunt naturam seu rationem naturalem, 
+          <lb ed="#L" n="118"/>sed perficiunt, sed praelatio secularis debet secundum dictamen 
+          <lb ed="#L" n="119"/>rectae rationis esse in hominibus, vt patet ex praecedenti quaestione 
+          er<lb ed="#L" n="120" break="no"/>go haec non tollitur a Christianis per fidem &amp; gratiam, per quae 
+          <lb ed="#L" n="121"/>distinguuntur ab aliis. Item vbicunque potest perturbari ordo 
+          <lb ed="#L" n="122"/>iustitiae, decet aliquos esse, qui ex officio faciant hunc ordinem 
+          <lb ed="#L" n="123"/>obseruari, sed inter Christianos contingit perturbari ordinem 
+          <lb ed="#L" n="124"/>iustitiae, non solum in spiritualibus, sed etiam in temporalibus, ergo 
+          <lb ed="#L" n="125"/>decet aliquos esse qui ex officio faciant hunc ordinem obseruari 
+          in<lb ed="#L" n="126" break="no"/>ter Christianos, ex officio autem non habet hoc nisi ille qui 
+          prae<lb ed="#L" n="127" break="no"/>est, vnde <ref xml:id="jsnvu6-e146938-Rd1e258">ad Ro. 13</ref>. <quote xml:id="jsnvu6-e146938-Qd1e260" source="http://scta.info/resource/rom13_3@10-21">Vis non timere potestatem, bonum fac, &amp; 
+          ha<lb ed="#L" n="128" break="no"/>bebis laudem ex ea</quote>. Si autem male feceris, time: non enim sine causa 
+          <lb ed="#L" n="129"/>gladium portat, minister enim Dei est, &amp;c. Decet ergo secundum 
+          <lb ed="#L" n="130"/>rectam rationem, quod inter Christianos sint aliqui qui praesint non 
+          <lb ed="#L" n="131"/>solum in spiritualibus (vt praelati ecclesiastici) sed &amp; in 
+          tempo<lb ed="#L" n="132" break="no"/>ralibus, &amp; hi sunt principes seculares. Patet ergo quod potestas 
+          se<lb ed="#L" n="133" break="no"/>cularis inter Christianos legitima est, cui subditi tenentur 
+          obe<lb ed="#L" n="134" break="no"/>dire in his quae ad ius talis potestatis pertinent. 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e248">
+          <lb ed="#L" n="135"/>Quantum autem ad secundum an princeps secularis infidelis 
+          <lb ed="#L" n="136"/>rite possit praeesse fidelibus Christianis, &amp; per consequens 
+          Chri<lb ed="#L" n="137" break="no"/>stiani debeant ei obedire. Distinguendum est quia dominium vel 
+          <lb ed="#L" n="138"/>relatio principis infidelis super Christianum aut praeexistit 
+          di<lb ed="#L" n="139" break="no"/>stinctioni eorum per fidem &amp; infidelitatem, vtpote, quia 
+          subdi<lb ed="#L" n="140" break="no"/>tus conuersus est ad fidem &amp; non princeps, sicut in primitiua 
+          <lb ed="#L" n="141"/>ecclesia passim fiebat, vel seruus conuertitur &amp; non dominus, 
+          <lb ed="#L" n="142"/>sicut adhuc quandoque fit de seruis Iudaeorum, aut talis 
+          praela<lb ed="#L" n="143" break="no"/>tio, vel dominium de nouo introducitur. In primo casa dicunt 
+          <lb ed="#L" n="144"/>quidam quod distinctio fidelium ab infidelibus non tollit ipso facto 
+          <lb ed="#L" n="145"/>praecedentem praelationem, vel dominium infidelium super fideles. 
+          <lb ed="#L" n="146"/>Cuius ratio est, quia ius diuinum quod est ex gratia non tollit 
+          <lb ed="#L" n="147"/>ius humanum quod est ex naturali ratione, sed praelatio 
+          intro<lb ed="#L" n="148" break="no"/>ducta est iure humano &amp; innititur naturali rationi, vt patuit 
+          su<lb ed="#L" n="149" break="no"/>pra. Distinctio autem fidelium ab infidelibus est ex iure diuino, 
+          <lb ed="#L" n="150"/>ergo haec distinctio non tollit praecedentem praelationem, vel 
+          <lb ed="#L" n="151"/>dominium ipso facto, imo adhuc tenentur fideles subditi 
+          obe<lb ed="#L" n="152" break="no"/>dire principibus vel dominis infidelibus, addunt tamen quod 
+          li<lb ed="#L" n="153" break="no"/>cet ipso facto non tollatur talis dominatio, iuste tamen potest 
+          <lb ed="#L" n="154"/>tolli per ordinationem ecclesiae, quae habet auctoritatem Dei
+          <lb ed="#L" n="155" break="no"/>quia infideles merito suae infidelitatis merentur amittere 
+          po<lb ed="#L" n="156" break="no"/>testatem super fideles qui transferuntur in filios Dei, &amp; hoc 
+          qui<lb ed="#L" n="157" break="no"/>dem ecclesia quandoque facit, quandoque autem non facit. In 
+          <lb ed="#L" n="158"/>illis autem infidelibus qui temporaliter subiiciuntur ecclesiae, &amp; 
+          <lb ed="#L" n="159"/>in membris eius hoc ius ecclesia statuit, vt seruus Iudaeorum 
+          <lb ed="#L" n="160"/>factus Christianus statim a seruitute liberetur si fuerit 
+          verna<lb ed="#L" n="161" break="no"/>culus, id est, in seruitute natus, &amp; similiter si fuerit emptus ad 
+          <lb ed="#L" n="162"/>seruitutem. Si autem fuerit emptus ad mercationem tenetur 
+          <lb ed="#L" n="163"/>eum exponere intra tres menses ad vendendum, vt patet <ref xml:id="jsnvu6-e146938-Rd1e344">57. dist. 
+          <!--00426.xml-->
+          <pb ed="#L" n="178-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>fraternitatem.</ref> &amp; <ref xml:id="jsnvu6-e146938-Rd1e355" target="http://scta.info/resource/cice-l5t6-d1e119">extra de Iudaeis &amp; Sara. cap. 1.</ref> &amp; <ref xml:id="jsnvu6-e146938-Rd1e358" target="http://scta.info/resource/cice-l5t6-d1e392">vltimo</ref>, nec 
+          <lb ed="#L" n="2"/>in hoc iniuriam facit illis ecclesia, quia cum Iudaei sint serui 
+          ec<lb ed="#L" n="3" break="no"/>clesiae, ipsa potest disponere de rebus eorum, sicut etiam 
+          prin<lb ed="#L" n="4" break="no"/>cipes seculares multas leges ediderunt erga suos subditos in 
+          fa<lb ed="#L" n="5" break="no"/>uorem libertatis. In illis vero infidelibus qui temporaliter 
+          ec<lb ed="#L" n="6" break="no"/>clesiae vel eius membris non subiacent praedictum ius non 
+          sta<lb ed="#L" n="7" break="no"/>tuit, licet posset iuste statuere, &amp; hoc facit propter scandalum 
+          <lb ed="#L" n="8"/>vitandum sicut etiam dominus <ref xml:id="jsnvu6-e146938-Rd1e376" target="http://scta.info/resource/mt17_25 http://scta.info/resource/mt17_26">Matthaei 17</ref>. ostendit quod 
+          po<lb ed="#L" n="9" break="no"/>terat se a tributo excusare, quia liberi sunt filij, sed mandauit 
+          tri<lb ed="#L" n="10" break="no"/>butum solui ad scandalum vitandum. 
+          
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e341">
+          <lb ed="#L" n="11"/>Horum autem primum reputo verum absolute, scilicet quod 
+          <lb ed="#L" n="12"/>subditus principis infidelis si conuertatur ad fidem non est ipsi 
+          <lb ed="#L" n="13"/>facto absolutus a dominio alterius, quod autem subditur, quod 
+          <lb ed="#L" n="14"/>iuste per ordinationem ecclesiae habentis auctoritatem dei 
+          po<lb ed="#L" n="15" break="no"/>test absolui, quia infideles merito suae infidelitatis possunt iuste 
+          <lb ed="#L" n="16"/>priuari potestate quam habent super fideles verum quidem est, 
+          <lb ed="#L" n="17"/>dum tamen aliquid addatur hoc scilicet quod si princeps vel 
+          do<lb ed="#L" n="18" break="no"/>minus infidelis non contentus sua legitima auctoritate nititur 
+          <lb ed="#L" n="19"/>subditum, vel seruum factum Christianum reducere ad 
+          infide<lb ed="#L" n="20" break="no"/>litatem, nec patitur quietum esse vt prius, sed inquietat ipsum 
+          <lb ed="#L" n="21"/>per contumelias illatas creatori tunc ipso facto priuatur vel 
+          sal<lb ed="#L" n="22" break="no"/>tem priuari potest per auctoritatem ecclesiae iure quod 
+          habe<lb ed="#L" n="23" break="no"/>bat in subditum. 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e372">
+          <lb ed="#L" n="24"/><!--8.--> Quod patet per rationem &amp; per simile. Ratio talis est, 
+          do<lb ed="#L" n="25" break="no"/>minus inferior procurans &amp; persuadens discessionem a domino 
+          <lb ed="#L" n="26"/>superiore a quo habet totam auctoritatem dominandi privatur 
+          <lb ed="#L" n="27"/>ipso facto vel iuste meretur priuari auctoritate sui principatus 
+          <lb ed="#L" n="28"/>vel dominij, sed princeps vel dominus infidelis qui subditum 
+          <lb ed="#L" n="29"/>suum vel seruum factum Christianum nititur ab infidelitate 
+          <lb ed="#L" n="30"/>reuocare &amp; inquietare per contumelias creatori illatas est 
+          huius<lb ed="#L" n="31" break="no"/>modi, suadet enim discessionem a deo a quo est omnis potestas 
+          <lb ed="#L" n="32"/>vt dicitur <ref xml:id="jsnvu6-e146938-Rd1e439" target="http://scta.info/resource/rom13_1">ad Romanos decimotertio</ref>, ergo talis meretur iuste 
+          <lb ed="#L" n="33"/>priuari auctoritate sui dominij. Idem patet per simile, aeque 
+          <lb ed="#L" n="34"/>enim grandis est obligatio coniugum adinuicem sicut est 
+          sub<lb ed="#L" n="35" break="no"/>diti ad principem vel serui ad dominum, sed si alter coniugum 
+          <lb ed="#L" n="36"/>conuertatur ad fidem altero in infidelitate permanente si 
+          infide<lb ed="#L" n="37" break="no"/>lis non vult manere cum fideli nisi pertrahendo ipsum ad 
+          infide<lb ed="#L" n="38" break="no"/>litatem, vel cum blasphemia creatoris, fidelis absoluitur a 
+          vin<lb ed="#L" n="39" break="no"/>culo quo ei ligabatur, eodem modo si princeps vel dominus in 
+          <lb ed="#L" n="40"/>fidelis nititur seruum vel subditum factum Christianum ad 
+          in<lb ed="#L" n="41" break="no"/>fidelitatem reducere blasphemando creatorem, meretur 
+          amit<lb ed="#L" n="42" break="no"/>tere ius dominij quod habet super eum, unde &amp; in hoc casu 
+          mo<lb ed="#L" n="43" break="no"/>uent Christiani auctoritate ecclesiae bellum iuste contra 
+          infide<lb ed="#L" n="44" break="no"/>les ne fidem Christi impediant blasphemiis vel persuasionibus 
+          <lb ed="#L" n="45"/>malis vel persecutionibus manifestis, &amp; forte hanc causam 
+          ha<lb ed="#L" n="46" break="no"/>bet, etiam &amp; iam diu habuit ecclesia de quocunque conuerso ad 
+          <lb ed="#L" n="47"/>fidem respectu cuiuscunque principis vel domini infidelis 
+          Sa<lb ed="#L" n="48" break="no"/>raceni vel Iudaei, quia cum sint obstinati in sua infidelitate 
+          pro<lb ed="#L" n="49" break="no"/>babile est, &amp; multis experimentis compertum est quod 
+          quem<lb ed="#L" n="50" break="no"/>cunque subditum vel seruum suum conuersum ad fidem 
+          nite<lb ed="#L" n="51" break="no"/>rentur reducere ad infidelitatem &amp; ob hoc haec conditio 
+          habe<lb ed="#L" n="52" break="no"/>tur ab ecclesia pro impleta 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e441">
+          <lb ed="#L" n="53"/>Si autem princeps vel dominus infidelis esset contentus sua 
+          <lb ed="#L" n="54"/>legitima auctoritate, nec niteretur subditum ad infidelitatem 
+          <lb ed="#L" n="55"/>reducere, nec blasphemias inferret creatori, sed permitteret 
+          ip<lb ed="#L" n="56" break="no"/>sum quietum esse vt prius, non ita euidenter apparet, quod talis 
+          <lb ed="#L" n="57"/>princeps deberet iuste priuari auctoritate &amp; dominio quod prius 
+          <lb ed="#L" n="58"/>habebat in subditum, quia si subditus de nouo conuertitur ad 
+          <lb ed="#L" n="59"/>fidem &amp; non dominus, in hoc nullum nouum peccatum est 
+          do<lb ed="#L" n="60" break="no"/>mini, sed est meritum subditi, igitur infidelitas domini non 
+          po<lb ed="#L" n="61" break="no"/>test esse sufficiens ratio, quare mereatur amittere dominium 
+          <lb ed="#L" n="62"/>quod prius legitime habuit in eadem infidelitate existens, sed si 
+          <lb ed="#L" n="63"/>qua est ratio illa debet sumi ex merito serui, vel subditi, qui de 
+          <lb ed="#L" n="64"/>nouo translatus est in societatem filiorum dei. Et ob hoc posset 
+          <lb ed="#L" n="65"/>videri alicui quod talis mereretur absolui a dominio principis 
+          <lb ed="#L" n="66"/>infidelis, &amp; ecclesia auctoritate dei posset eum iuste absoluere. 
+          <lb ed="#L" n="67"/>Sed quamuis conuersus ad fidem mereatur aliquid maius tali 
+          li<lb ed="#L" n="68" break="no"/>bertate (liberatur enim a peccato &amp; meretur vitam aeternam) 
+          <lb ed="#L" n="69"/>non oportet tamen quod mereatur liberari a subiectione 
+          prin<lb ed="#L" n="70" break="no"/>cipis infidelis, quia conuersus ad fidem ex hoc solo non meretur 
+          <lb ed="#L" n="71"/>liberari ab eo quod nullo modo praeiudicat fidei, sed subiici 
+          prin<lb ed="#L" n="72" break="no"/>cipi infideli qui contentus est sua legitima auctoritate, nec 
+          niti<lb ed="#L" n="73" break="no"/>tur subditum conuersum ad fidem reducere ad infidelitatem, 
+          <lb ed="#L" n="74"/>nec inquietat ipsum per aliquam contumeliam creatori illatam, 
+          <lb ed="#L" n="75"/>sed patitur quietum esse vt prius, non praeiudicat, nec in aliquo 
+          <lb ed="#L" n="76"/>derogat fidei, ergo ex sola conuersione ad fidem non meretur. 
+          <lb ed="#L" n="77"/>quis absolui a tali subiectione. Ecclesia etiam licet habeat in 
+          ter<lb ed="#L" n="78" break="no"/>ris auctoritatem dei, illa tamen non excedit limitationem 
+          scri<lb ed="#L" n="79" break="no"/>pturae. Scriptura autem expresse conuersos ad fidem subiici
+          de<lb ed="#L" n="80" break="no"/>bere prioribus dominis suis, quamuis infidelibus &amp; eis 
+          obedi<lb ed="#L" n="81" break="no"/>re. dicit enim <ref xml:id="jsnvu6-e146938-Rd1e552">Apostolus ad Romanos decimotertio</ref>, quod 
+          prin<lb ed="#L" n="82" break="no"/>cipes qui pro tunc solum erant infideles sunt ministri dei 
+          ser<cb ed="#L" n="b"/><lb ed="#L" n="83" break="no"/>uientes ad laudem bonorum &amp; vindictam malefactorum, ob 
+          <lb ed="#L" n="84"/>quam causam dantur eis tributa, &amp; concludit, <quote xml:id="jsnvu6-e146938-Qd1e561" source="http://scta.info/resource/rom13_7@1-9">reddite ergo 
+          om<lb ed="#L" n="85" break="no"/>nibus debita cui tributum, tributum, cui vectigal, vectigal</quote>, vnde 
+          <lb ed="#L" n="86"/>patet quod mandat conuersos ad fidem adhuc subiici 
+          principi<lb ed="#L" n="87" break="no"/>bus infidelibus &amp; reddere ea, quae ratione subiectionis sunt eis 
+          <lb ed="#L" n="88"/>debita: &amp; <ref xml:id="jsnvu6-e146938-Rd1e573">primae Petri secundo cap.</ref> dicitur, <quote xml:id="jsnvu6-e146938-Qd1e575" source="http://scta.info/resource/Ipetr2_13@1-11 http://scta.info/resource/Ipetr2_14@1-12">subiecti estote 
+          si<lb ed="#L" n="89" break="no"/>ue regi, tanquam praecellenti, siue ducibus tanquam ab eo 
+          mis<lb ed="#L" n="90" break="no"/>sis ad vindictam malefactorum, laudem vero bonorum</quote>, quia 
+          <lb ed="#L" n="91"/>sic est voluntas dei: &amp; <ref xml:id="jsnvu6-e146938-Rd1e585">primae ad Timothaeum sexto</ref> dicitur sic 
+          <lb ed="#L" n="92"/><quote xml:id="jsnvu6-e146938-Qd1e588" source="http://scta.info/resource/Itim6_1@1-11">quicunque sunt sub iugo serui, dominos suos omni honore 
+          di<lb ed="#L" n="93" break="no"/>gnos arbitrentur</quote>, &amp; loquitur de dominis infidelibus, vt patet 
+          <lb ed="#L" n="94"/>ex his quae statim ibidem subduntur. Ex quo patet quod 
+          scri<lb ed="#L" n="95" break="no"/>ptura non innuit quod serui vel subditi conuersi ad fidem 
+          pos<lb ed="#L" n="96" break="no"/>sint vel debeant solo merito suae conuersionis absolui a 
+          pote<lb ed="#L" n="97" break="no"/>state dominorum, quamuis infidelium: imo potius videtur 
+          in<lb ed="#L" n="98" break="no"/>sinuare oppositum 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e548">
+          <lb ed="#L" n="99"/>
+          <!--10--> Secundo persuadetur illud sic, illicitum est quod 
+          infidele<lb ed="#L" n="100" break="no"/>qui nunquam susceperunt fidem, compellantur ad fidem, sed si 
+          <lb ed="#L" n="101"/>ecclesia priuaret principem infidelem suo iure quod habet super 
+          <lb ed="#L" n="102"/>subditos suos ipsis conuersis ad fidem, tunc compelleret ad 
+          fi<lb ed="#L" n="103" break="no"/>dem eos per amissionem bonorum suorum, quia seruus est res 
+          <lb ed="#L" n="104"/>domini sui, &amp; omnis subditus tenetur in aliquo domino suo, 
+          <lb ed="#L" n="105"/>hoc amitteret dominus, nisi conuerteretur ad fidem, sicut 
+          ser<lb ed="#L" n="106" break="no"/>ui, seu subditi, ergo illicitum est hoc facere: nulla autem 
+          pote<lb ed="#L" n="107" break="no"/>stas est ad illicita, ergo, &amp;c. 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e572">
+          <lb ed="#L" n="108"/>
+          <!--11--> Tertio sic, si alter coniugum conuertatur ad fidem altero in 
+          <lb ed="#L" n="109"/>infidelitate remanente, si infidelis consentit habitare cum fideli 
+          <lb ed="#L" n="110"/>absque hoc quod pertrahat ipsum ad infidelitatem; &amp; absque 
+          <lb ed="#L" n="111"/>blasphemia creatoris non soluitur, nec solui debet vinculum 
+          <lb ed="#L" n="112"/>matrimonij inter ipsos, ergo similiter si princeps vel dominus 
+          <lb ed="#L" n="113"/>infidelis exigit a subdito vel seruo facto Christiano solum illud 
+          <lb ed="#L" n="114"/>quod pertinet ad ius sui dominij, nec nititur ipsum pertrahere
+          <lb ed="#L" n="115"/>ad infidelitatem, nec inquietat per blasphemias creatori illata 
+          <lb ed="#L" n="116"/>non soluitur, nec iuste potest solui obligatio quae prius erat 
+          ser<lb ed="#L" n="117" break="no"/>ui ad dominum suum, vel subditi ad principem suum. 
+          Verunta<lb ed="#L" n="118" break="no"/>men sicut dictum fuit prius, praedicta conditio forte pro nunc 
+          <lb ed="#L" n="119"/>non habet locum, nec diu etiam habuit propter obstinationem 
+          <lb ed="#L" n="120"/>infidelium, propter quam nituntur blasphemare creatorem, &amp; 
+          <lb ed="#L" n="121"/>fideles ad infidelitatem reducere, ob quam causam prohibitum 
+          <lb ed="#L" n="122"/>est coniugi conuersae ad fidem commanere cum illo qui 
+          rema<lb ed="#L" n="123" break="no"/>net in infidelitate, sicut habetur <ref xml:id="jsnvu6-e146938-Rd1e674">vigesimasexta quaest. 1. cap. 
+            Iu<lb ed="#L" n="124" break="no"/>daeo in fine</ref>: &amp; <ref xml:id="jsnvu6-e146938-Rd1e679" target="http://scta.info/resource/gd-p2c28q1-d1e300">cap. saepe malorum consortia</ref>, &amp; pluribus aliis 
+          <lb ed="#L" n="125"/>Et ideo praedicta conditio nunc habetur pro nulla &amp; opposit. 
+          <lb ed="#L" n="126"/>supponitur vt impleta: quam ob causam dicunt doctores, quod 
+          <lb ed="#L" n="127"/>seruus vel subditur conuersus ad fidem potest per ecclesiam ab 
+          <lb ed="#L" n="128"/>solui a dominio &amp; potestate principis infidelis. Puto tamen quod 
+          <lb ed="#L" n="129"/>hoc sit ex suppositione conditionis suprapositae. Sic igitur pate 
+          <lb ed="#L" n="130"/>qualiter Christiani tenentur obedire dominis infidelibus, 
+          quan<lb ed="#L" n="131" break="no"/>do dominium praexistit distinctioni eorum per fidem &amp; 
+          infi<lb ed="#L" n="132" break="no"/>delitatem. 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e631">
+          <lb ed="#L" n="133"/>
+          <!--12--> De praelatione autem infidelium de nouo introducenda 
+          su<lb ed="#L" n="134" break="no"/>per fideles nullo modo permittit ecclesia, quod infideles 
+          acqui<lb ed="#L" n="135" break="no"/>rant dominium super fideles, aut quod eis in aliquo officio 
+          prae<lb ed="#L" n="136" break="no"/>ficiantur, &amp; rationabiliter. Cedit enim hoc in scandalum &amp; 
+          pe<lb ed="#L" n="137" break="no"/>riculum fidei: de facili enim qui subduntur aliorum iurisdictioni 
+          <lb ed="#L" n="138"/>immutantur ab eius, vt patet in libris Regum in pluribus locis 
+          <lb ed="#L" n="139"/>Infideles enim contemnunt fidem, quando cognoscunt defectus 
+          <lb ed="#L" n="140"/>fidelium, propter quod iste prohibet ecclesia, ne tale dominium 
+          <lb ed="#L" n="141"/>introducatur, si tamen introductum fuerit, sicut quidam 
+          prin<lb ed="#L" n="142" break="no"/>cipes Christiani faciunt ex Iudaeis quosdam praeposito &amp; 
+          bali<lb ed="#L" n="143" break="no"/>uos peccant quidem facientes contra statutum ecclesiae. 
+          Subdi<lb ed="#L" n="144" break="no"/>tim tamen tenentur Iudaeis sic institutis obedire in his, quae 
+          perti<lb ed="#L" n="145" break="no"/>nent ad iustam exequutionem officij talibus commissi. 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e664">
+          <lb ed="#L" n="146"/><!--13--> <ref xml:id="jsnvu6-e146938-Rd1e729" target="http://scta.info/resource/jsnvu6-e146938-d1e133">AD PRIMVM argumentum in oppositum</ref> dicendum 
+          <lb ed="#L" n="147"/>quod lex euangelica vocatur lex perfectae libertatis, quia 
+          libe<lb ed="#L" n="148" break="no"/>rat a seruitute peccati, quae est pessima seruitus, &amp; ab omni lege 
+          <lb ed="#L" n="149"/>veteri, quam vix vnquam aliquis portare potuit: &amp; non quia 
+          li<lb ed="#L" n="150" break="no"/>beret a seruitute ciuili per quam subditus tenetur obedire 
+          do<lb ed="#L" n="151" break="no"/>mino suo, cum hoc fit consonum rationi, &amp; meritorium. 
+        </p>
+        <p xml:id="jsnvu6-e146938-d1e682">
+          <lb ed="#L" n="152"/><!--14--> <ref xml:id="jsnvu6-e146938-Rd1e755" target="http://scta.info/resource/jsnvu6-e146938-d1e137">Ad secundum argumentum</ref> dicendum quod maior est 
+          fal<lb ed="#L" n="153" break="no"/>sa. Obedire enim principi in his quae ad huiusmodi dominium 
+          <lb ed="#L" n="154"/>pertinent est necessitatis, trahere autem alium ad iudicium 
+          co<lb ed="#L" n="155" break="no"/>ram iudice infideli est voluntatis, &amp; ideo primum est debitum 
+          <lb ed="#L" n="156"/>secundum vero non, sed mere voluntarium: vnde vbi vergit in 
+          <lb ed="#L" n="157"/>periculum est illicitum, in quo casu loquitur Apostolus. Quod 
+          <lb ed="#L" n="158"/>autem dicit Dominus <ref xml:id="jsnvu6-e146938-Rd1e771" corresp="#jsnvu6-e146938-Qd1e773">Matth. 17</ref>. <quote xml:id="jsnvu6-e146938-Qd1e773" source="http://scta.info/resource/mt17_25@10-12">filij sunt liberi</quote>, de se loquens 
+          <lb ed="#L" n="159"/>hoc dicit, erat enim filius regis aeterni, sicut dixerat <ref xml:id="jsnvu6-e146938-Rd1e779" corresp="#jsnvu6-e146938-Qd1e784">Petrus prius 
+          <lb ed="#L" n="160"/>decimosexto cap.</ref> <quote xml:id="jsnvu6-e146938-Qd1e784" source="http://scta.info/resource/mt16_16@5-10">Tu es Christus filius dei viui</quote>, &amp; ob hoc liber 
+          <lb ed="#L" n="161"/>erat a debito tributi, non sic autem est de nobis nec sic erat tunc 
+          <lb ed="#L" n="162"/>de caeteris fidelibus illius temporis. Nam Dominus iussit eos 
+          <lb ed="#L" n="163"/>tributa soluere principi infideli, <ref xml:id="jsnvu6-e146938-Rd1e793" corresp="#jsnvu6-e146938-Qd1e798">Matthaei vigesimosecundo</ref> 
+          di<lb ed="#L" n="164" break="no"/>cens, <quote xml:id="jsnvu6-e146938-Qd1e798" source="http://scta.info/resource/mt22_21@7-12">Reddite quae sunt Caesaris Caesari</quote>. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
