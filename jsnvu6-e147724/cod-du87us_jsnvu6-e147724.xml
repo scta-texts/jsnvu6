@@ -1,335 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 5</title>
-            <author ref="#Durandus">Durandus</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 5</title>
-               <date when="2023-08-20">August 20, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-08-20" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="179-r"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="jsnvu6-e147724"><!-- l2d44q5 -->
-            <head xml:id="jsnvu6-e147724-Hd1e101">Quaestio 5</head>
-            <head xml:id="jsnvu6-e147724-Hd1e103" type="question-title">Vtri monachus teneatur plus obedire, an 
-      praelato suo religioso, an 
-      Episcopo, seu Papae</head>
-            <p xml:id="jsnvu6-e147724-d1e106">
-               <lb ed="#L" n="66"/>QVAESTIO QVINTA. 
-      <lb ed="#L" n="67"/>Vtri monachus teneatur plus obedire, an 
-      <lb ed="#L" n="68"/>praelato suo religioso, an 
-      Episco<lb ed="#L" n="69" break="no"/>po, seu Papae 
-    </p>
-            <p xml:id="jsnvu6-e147724-d1e117">
-               <lb ed="#L" n="70"/>AD secundum sic proceditur. Et videtur quod 
-      <lb ed="#L" n="71"/>monachus teneatur plus obedire Abbati quan 
-      <lb ed="#L" n="72"/>Episcopo vel Papae, saltem in his quae pertinent 
-      <lb ed="#L" n="73"/>ad regulam &amp; ad statuta suae religionis, quia 
-      obe<lb ed="#L" n="74" break="no"/>dientia religiosorum quantum ad praedicta est 
-      <lb ed="#L" n="75"/>ex voto eorum, sed monachus vouet talem obedientiam 
-      Ab<lb ed="#L" n="76" break="no"/>bati &amp; non Episcopo vel Papae, ergo in talibus tenetur 
-      obedi<lb ed="#L" n="77" break="no"/>re Abbati &amp; non Episcopo vel Papae. 
-      </p>
-            <p xml:id="jsnvu6-e147724-d1e137">
-      <!--00427.xml-->
-               <cb ed="#L" n="b"/>
-               <lb ed="#L" n="78"/>2 Item si aliquis promittat operari in agro curati sui non 
-      <lb ed="#L" n="79"/>propter hoc tenetur operari in agro Episcopi vel Papae, ergo 
-      <lb ed="#L" n="80"/>similiter si quis promittat obedire inferiori, puta Abbati in 
-      ali<lb ed="#L" n="81" break="no"/>quibus non propter hoc tenetur in illis vel consimilibus 
-      obe<lb ed="#L" n="82" break="no"/>dire Episcopo vel Papae. 
-      </p>
-            <p xml:id="jsnvu6-e147724-d1e156">
-               <lb ed="#L" n="83"/>
-               <!--3--> IN CONTRARIVM arguitur, quia secundum Aug 
-      <lb ed="#L" n="84"/>sublimiori potestati magis est obediendum, si enim proconsul iu 
-      <lb ed="#L" n="85"/>beat vnum &amp; aliud imperator contempto proconsule obediendi 
-      <lb ed="#L" n="86"/>est imperatori, sed potestas Epi sublimior est potestate Abbati. 
-      <lb ed="#L" n="87"/>&amp; potestas Papae sublimior est vtraque, ergo plus est obediendum 
-      <lb ed="#L" n="88"/>Episcopo quam Abbati, &amp; Papae quam cuicunque inferiori. 
-      </p>
-            <p xml:id="jsnvu6-e147724-d1e174">
-               <lb ed="#L" n="89"/>
-               <!--4--> RESPONSIO. potestas superior &amp; inferior possum. 
-      <lb ed="#L" n="90"/>se habere dupliciter, vno modo sic quod vttaque oriatur a potestat. 
-      <lb ed="#L" n="91"/>suprema, quae vnam subdit altei, prout vult, &amp; tunc vna non est 
-      <lb ed="#L" n="92"/>simplicicer superior altera in omnibus, sed solum in illis in 
-      qui<lb ed="#L" n="93" break="no"/>bus praeficitur alteri secundum ordinationem supremae 
-      potesta<lb ed="#L" n="94" break="no"/>tis, sicut est de Episcopis &amp; Archiepiscopis &amp; de dioecesanis &amp; 
-      <lb ed="#L" n="95"/>Abbatibus, quia omnium istorum potestates procedunt a 
-      potesta<lb ed="#L" n="96" break="no"/>te Papae, &amp; vna subiicitur alteri tantum in certis casibus, prout 
-      <lb ed="#L" n="97"/>volunt iura canonica, quorum Papa est conditor. In his ergo 
-      casi<lb ed="#L" n="98" break="no"/>bus magis est obediendum superiori quam inferiori, puta 
-      Archi<lb ed="#L" n="99" break="no"/>episcopo quam Episcopo, &amp; Episcopo quam Abbati, si monasterium 
-      <lb ed="#L" n="100"/>non est exemptum. In aliis autem in quibus vnus est subditus 
-      al<lb ed="#L" n="101" break="no"/>teri magis est obediendum Episcopo quam Archiepiscopo, &amp; 
-      Ab<lb ed="#L" n="102" break="no"/>bati quam Episcopo, quia in talibus inferior est praelatus &amp; non 
-      <lb ed="#L" n="103"/>superior. Alio modo possunt se habere potestas superior &amp; infe 
-      <lb ed="#L" n="104"/>rior, ita videlicet quod inferior totaliter oriatur a superiore, sicut 
-      <lb ed="#L" n="105"/>potestas Proconsulis a potestate Imperatoris, quo etiam modo 
-      <lb ed="#L" n="106"/>omnis potestas ecclesiastica oritur ex potestate Papae, &amp; tunc ma 
-      <lb ed="#L" n="107"/>gis est obediendum in omnibus superiori quam inferiori, si cut im 
-      <lb ed="#L" n="108"/>peratori quam Proconsuli, &amp; papae magis est obediendum tam a se 
-      <lb ed="#L" n="109"/>cularibus quam a religiosis, quam Archiepiscopo, quam 
-      Episco<lb ed="#L" n="110" break="no"/>po vel Abbati, &amp; hoc in quibuscunque absque vlla distinctione, si 
-      <lb ed="#L" n="111"/>vterque vtatur rite &amp; legitime potestate sua praecipiendo ea ad 
-      <lb ed="#L" n="112"/>quae sua potestas extenditur, alias non, Verbi gratia, si Abba 
-      <lb ed="#L" n="113"/>praecipiat monacho quod seruet ea quae in sua protessione 
-      promi<lb ed="#L" n="114" break="no"/>sit, &amp; illud idem praecipiat Papa, quamuis vtrique sit obediendum, 
-      <lb ed="#L" n="115"/>quia in talibus quilibet religiosus est vtrique subditus, magis ta 
-      <lb ed="#L" n="116"/>men Papae quam alteri Episcopo vel Abbati, quia ab 
-      auctori<lb ed="#L" n="117" break="no"/>tate Papae dependet auctoritas cuiuslibet.
-</p>
-            <p xml:id="jsnvu6-e147724-d1e242">
-               <lb ed="#L" n="118"/>Si vero Abbas &amp; Papa praecipiant opposita, vterque tamen 
-      <lb ed="#L" n="119"/>praecipit illud ad quod sua auctoritas se extendit, magis est 
-      obe<lb ed="#L" n="120" break="no"/>diendum Papae quam Abbati. Verbi gratia, si Abbas praecipiat 
-      <lb ed="#L" n="121"/>monacho seruare statuta legitima sui ordinis, puta remanere in 
-      <lb ed="#L" n="122"/>claustro ire ad chorum, tenere silentium &amp; huiusmodi, Papa vero 
-      <lb ed="#L" n="123"/>praecipiat eidem monacho quod exeat claustrum, quia pro vtilitate 
-      <lb ed="#L" n="124"/>Ecclesiae vult eum mittere in aliquam legationem, magis est 
-      <lb ed="#L" n="125"/>obediendum Papae non obstante praecepto abbatis, quia 
-      spon<lb ed="#L" n="126" break="no"/>tanea obligatio istius monachi ad huiusmodi statuta sui ordinis 
-      <lb ed="#L" n="127"/>non potest praeiudicare obligationi qua tenetur Papae, cuius est 
-      <lb ed="#L" n="128"/>ordinare siue procurare vtilitatem vniuersalis ecclesiae, cui? 
-      qui<lb ed="#L" n="129" break="no"/>libet secularis &amp; religiosus est membrum, &amp; ideo debet pro 
-      vtili<lb ed="#L" n="130" break="no"/>tate corporis moueri ab imperium capitis (Papae videlicet) nec 
-      <lb ed="#L" n="131"/>solum est hoc verum de statutis cerimonialibus religionis, imo 
-      <lb ed="#L" n="132"/>etiam de principalibus, tanta enim posset esse necessitas, &amp; tanta 
-      <lb ed="#L" n="133"/>procreari vtilitas vniuersalis ecclesiae per matrimonium quod 
-      <lb ed="#L" n="134"/>religiosus vel religiosa ad praeceptum Papae teneretur in 
-      matri<lb ed="#L" n="135" break="no"/>monium non obstante voto proprio vel Abbatis praecepto. 
-      </p>
-            <p xml:id="jsnvu6-e147724-d1e284">
-               <lb ed="#L" n="136"/>
-               <!--6.--> Si autem Papa praeciperet monacho quod faceret ea quae sunt 
-      <lb ed="#L" n="137"/>contra suam professionem non motus aliqua necessitate vel 
-      <lb ed="#L" n="138"/>vtilitate ecclesiae, sed sola voluntate &amp; de hoc constaret, &amp; Abbas 
-      <lb ed="#L" n="139"/>praeciperet contrarium, obediendum esset Abbati &amp; non Papae, 
-      <lb ed="#L" n="140"/>non propter hoc quod Abbas habeat maiorem potestatem super 
-      <lb ed="#L" n="141"/>monachum quam Papa, aut quod auctoritas abbatis non dependeas 
-      <lb ed="#L" n="142"/>ex auctoritate Papae, sed quia praeceptum abbatis est secundum 
-      <lb ed="#L" n="143"/>limites suae potestatis tanquam conformae professioni per quam 
-      <lb ed="#L" n="144"/>accipit potestatem in monachum, praeceptum autem Papae exce 
-      <lb ed="#L" n="145"/>deret limites suae potestatis tanquam discordans a iure diuino, 
-      <lb ed="#L" n="146"/>&amp; concessione Christi, quod enim tale praeceptum abbatis esset 
-      <lb ed="#L" n="147"/>secundum praeceptum, siue secundum limites suae potestatis ex 
-      <lb ed="#L" n="148"/>quo solum praeciperet ea quae monachus in sua professione 
-      pro<lb ed="#L" n="149" break="no"/>misisset probare non oportet, quia de se clarum est, sed quod 
-      <lb ed="#L" n="150"/>praeceptum Papae de contrario excederet limites potestatis eius 
-      <lb ed="#L" n="151"/>probatur. Primo quantum ad vota principalia religiosorum. Et 
-      <lb ed="#L" n="152"/>secundo quantum ad statuta cerimonialia eorum. 
-      </p>
-            <p xml:id="jsnvu6-e147724-d1e326">
-               <lb ed="#L" n="153"/>
-               <!--7--> De votis principalibus patet sic, de iure naturali &amp; diuino 
-      <lb ed="#L" n="154"/>expresso in pluribus locis sacrae scripturae est quod vota soluantur. 
-      <lb ed="#L" n="155"/>sed religiosi vouent tria principaliter, videlicet castitatem, 
-      pau<lb ed="#L" n="156" break="no"/>pertatem (hoc non est habere proprium) &amp; obedientiam, ergo 
-      <lb ed="#L" n="157"/>de iure naturali &amp; diuino tenentur ista seruare, si ergo Papa sola 
-      <lb ed="#L" n="158"/>voluntate absque vlla necessitate vel vtilitate praecipiat ista non 
-      <lb ed="#L" n="159"/>seruari, praeceptum suum est contra praeceptum Dei, a quo est 
-      <!--00428.xml-->
-      <pb ed="#L" n="179-v"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>omnis potestas. Et ideo non est ei obediendum in hoc casu cum 
-      <lb ed="#L" n="2"/>scriptum sit Actuum 5. obedire oportet deo magis quam homi 
-      <lb ed="#L" n="3"/>nibus. Item magis tenetur seruare castitatem &amp; paupertatem 
-      <lb ed="#L" n="4"/>ille qui hoc vouit, quam qui non vouit, imo verius loquendo 
-      <lb ed="#L" n="5"/>primus tenetur, &amp; non secundus. Sed si papa sola voluntate absque 
-      <lb ed="#L" n="6"/>vlla necessitate &amp; vtilitate praeciperet alicui volenti 
-      contine<lb ed="#L" n="7" break="no"/>re, qui tamen continentiam non vouit quod non contineret, illi 
-      <lb ed="#L" n="8"/>non teneretur obedire, vt probabitur, ergo multominus 
-      tenere<lb ed="#L" n="9" break="no"/>tur obedire ille qui continentiam vouit, si praeciperetur sibi quod 
-      <lb ed="#L" n="10"/>non contineret. Minor probatur, quia concessionem superioris 
-      <lb ed="#L" n="11"/>inferior reuocare non potest: sed Christus, qui est supremum 
-      ca<lb ed="#L" n="12" break="no"/>put ecclesiae, concessit &amp; consuluit castitatem, seu continentiam, 
-      <lb ed="#L" n="13"/>vt patet Matth. 19. &amp; idem consulit A postolus 1. ad Cor. 7. ergo 
-      <lb ed="#L" n="14"/>papa, qui est inferior Christo, non potest alicui prohibere quin 
-      <lb ed="#L" n="15"/>vtatur hac concessione, vt si velit contineat, nisi sit alteri per 
-      <lb ed="#L" n="16"/>matrimonium ligatus, quia talis non habet potestatem corporis 
-      <lb ed="#L" n="17"/>sui, vt dicitur 1. ad Cor. 7. &amp; sic patet minor, sequitur ergo 
-      con<lb ed="#L" n="18" break="no"/>clusio. Item 2. ad Cor. 10. dicit Apostolus de se &amp; caeteris Christi 
-      <lb ed="#L" n="19"/>ministris, potestatem dedit nobis deus in aedificationem, &amp; non 
-      <lb ed="#L" n="20"/>in destructionem, sed si papa pro sola voluntate, absque vlla 
-      ne<lb ed="#L" n="21" break="no"/>cessitate &amp; vtilitate posset prohibere ea quae sunt 
-      supereroga<lb ed="#L" n="22" break="no"/>tionis, quum pertineant ad perfectionem vitae, tam in 
-      vouenti<lb ed="#L" n="23" break="no"/>bus ea, quam in non vouentibus, hoc esset non ad aedificationem, 
-      <lb ed="#L" n="24"/>sed ad destructionem bonorum morum, &amp; perfectionis vitae, erge 
-      <lb ed="#L" n="25"/>ad hoc non se extendit potestas apostolica: &amp; ita patet quod 
-      pro<lb ed="#L" n="26" break="no"/>hibere aliquem religiosum non seruare vota principalia suae 
-      re<lb ed="#L" n="27" break="no"/>ligionis absque vlla necessitate vel vtilitate, sed pro sola 
-      volun<lb ed="#L" n="28" break="no"/>tate excedit limites potestatis papae: &amp; hoc expresse dicunt 8 
-      <lb ed="#L" n="29"/>scribunt doctores, quod aliqua sunt in quibus homo est ita libe 
-      <lb ed="#L" n="30"/>quod contra praeceptum papae potest ea facere, vel committere, vt 
-      <lb ed="#L" n="31"/>sunt castitas, paupertas, &amp; similia diuina, quae Christus suadet 
-      </p>
-            <p xml:id="jsnvu6-e147724-d1e420">
-               <lb ed="#L" n="32"/>
-               <!--8--> Secundo principaliter patet idem de statutis 
-      cerimonia<lb ed="#L" n="33" break="no"/>libus, vt sunt non comedere carnes, orationes, statutae vigiliae, 
-      <lb ed="#L" n="34"/>&amp; huiusmodi: &amp; potest hoc probari per rationes statim factas 
-      <lb ed="#L" n="35"/>maxime per secundam &amp; tertiam, quia magis tenetur abstiner 
-      <lb ed="#L" n="36"/>a carnibus monachus qui professus est regulam quae 
-      prohibe<lb ed="#L" n="37" break="no"/>eum vesci (scilicet carnibus) quam secularis qui nihil tale promi 
-      <lb ed="#L" n="38"/>sit: sed si papa absque vlla ratione, sed pro mera voluntate prae 
-      <lb ed="#L" n="39"/>ciperet seculari volenti abstinere propter deum a carnibus, &amp; 
-      <lb ed="#L" n="40"/>orare, et vigilare, &amp; ieiunare quod nihil faceret horum ille nor 
-      <lb ed="#L" n="41"/>teneretur obedire: alioquin papa posset pro voluntate sua absqu 
-      <lb ed="#L" n="42"/>quacunque ratione prohibere cuilibet seculari &amp; omnibus simul, 
-      <lb ed="#L" n="43"/>non solum pro vno die, sed pro toto tempore, quod non faceret 
-      <lb ed="#L" n="44"/>ea quae sunt consilij &amp; supererogationis, quod nullus sanae 
-      men<lb ed="#L" n="45" break="no"/>tis diceret: ergo fortiori ratione monachus qui professus est 
-      re<lb ed="#L" n="46" break="no"/>gulam quae prohibet eum vesci carnibus, &amp; mandat seruare 
-      cae<lb ed="#L" n="47" break="no"/>tera regularia instituta, non teneretur obedire papae 
-      praecipien<lb ed="#L" n="48" break="no"/>ti quod comedat carnes, &amp; quod transgrediatur legitima sui 
-      or<lb ed="#L" n="49" break="no"/>dinis instituta, si constet quod haec praecipiat ex sola voluntate 
-      <lb ed="#L" n="50"/>absque vlla causa necessitatis vel vtilitate: alioquin vno verbo 
-      <lb ed="#L" n="51"/>posset papa prohibere omnibus religiosis de mundo, quod nihil 
-      <lb ed="#L" n="52"/>tenerent de obseruantiis suae religionis, quod videtur valde 
-      in<lb ed="#L" n="53" break="no"/>conueniens. 
-      </p>
-            <p xml:id="jsnvu6-e147724-d1e473">
-               <lb ed="#L" n="54"/>
-               <!--9--> Tertia etiam ratio prius posita concludit dicta non solum 
-      <lb ed="#L" n="55"/>de votis principalibus, sed etiam de aliis statutis regularibus, 
-      <lb ed="#L" n="56"/>quia pertinent ad perfectionem vitae, saltem secundario: &amp; idec 
-      <lb ed="#L" n="57"/>prohibere obseruantiam eorum absque vlla causa pertinet 
-      po<lb ed="#L" n="58" break="no"/>tius ad destructionem bonorum morum, quam ad aedificationem, 
-      <lb ed="#L" n="59"/>ad quod non se extendit potestas data a Christo, sed potius ad 
-      <lb ed="#L" n="60"/>oppositum: &amp; ideo non videtur quod in talibus sit obediendum 
-      <lb ed="#L" n="61"/>papae, &amp; si monachus non tenetur in eisdem obedire abbati, 
-      si<lb ed="#L" n="62" break="no"/>cut expresse dicit auctoritas beati Bernardi prius allegata, in 
-      <lb ed="#L" n="63"/>qua dicitur sic, nihil mihi praelatus prohibeat eorum quae 
-      pro<lb ed="#L" n="64" break="no"/>misi. Sic igitur patet quod monachus non tenetur obedire 
-      cui<lb ed="#L" n="65" break="no"/>cunque papae, vel abbati praecipienti sibi sine vlla causa 
-      necessi<lb ed="#L" n="66" break="no"/>tatis, vel vtilitatis transgredi vota sua, &amp; legitima statuta sui 
-      or<lb ed="#L" n="67" break="no"/>dinis ad quae seruanda se obligauit, quin potius quia sunt opera 
-      <lb ed="#L" n="68"/>supererogationis, quae Christus suasit, &amp; pro eis seruandis subie. 
-      <lb ed="#L" n="69"/>cit se religiosus obedientiae abbatis: ideo quodcunque illorum 
-      <!--00428.xml-->
-      <cb ed="#L" n="b"/>
-               <lb ed="#L" n="70"/>praecipiat ei abbas seruare, tenetur obedire ei, etiam si papa 
-      prae<lb ed="#L" n="71" break="no"/>ciperet oppositum, dum tamen constaret quod hoc faceret sine 
-      <lb ed="#L" n="72"/>causa necessitatis, vel vtilitatis, nec hoc est propter hoc quod 
-      <lb ed="#L" n="73"/>abbas habeat maiorem potestatem super monachum, quam 
-      pa<lb ed="#L" n="74" break="no"/>pa, aut quod auctoritas abbatis non dependeat ab auctoritate 
-      <lb ed="#L" n="75"/>papae, sicut prius dictum est, sed quia monachus obligauit se ad 
-      <lb ed="#L" n="76"/>talia facienda, &amp; quoad talia obedire, &amp; praeceptum abbatis ess 
-      <lb ed="#L" n="77"/>iuxta tenorem suae obligationis, praeceptum vero papae esset 
-      dis<lb ed="#L" n="78" break="no"/>cordans, imo totaliter contrarium obligationi, quae est de 
-      tali<lb ed="#L" n="79" break="no"/>bus, a quibus nullus sine causa prohiberi potest. 
-      </p>
-            <p xml:id="jsnvu6-e147724-d1e538">
-               <lb ed="#L" n="80"/>
-               <!--10.--> Vnde quod dixi alias in fiae secundi libri sententiarum 
-      pri<lb ed="#L" n="81" break="no"/>mae lecturae, quod quantum ad talia potestas abbatis in nullo 
-      <lb ed="#L" n="82"/>dependet a potestate papae, non est intelligendum ratione 
-      pote<lb ed="#L" n="83" break="no"/>statis hulus &amp; illius, quia constat quod vna est in omnibus alteri 
-      <lb ed="#L" n="84"/>subiecta, sed ratione materiae, quae talis est, quod papae vel 
-      cui<lb ed="#L" n="85" break="no"/>cunque praecipienti contrarium absque causa &amp; ratione si de hoc 
-      <lb ed="#L" n="86"/>constet, licitum est non obedire, &amp; facere quod est 
-      supereroga<lb ed="#L" n="87" break="no"/>tionis, maxime illi qu talia promisit: &amp; hunc sensum expressi 
-      sa<lb ed="#L" n="88" break="no"/>tis ibidem dicendo sic, quod quantum ad talia potestas abbati. 
-      <lb ed="#L" n="89"/>in nullo dependet a potestate papae: ita vt papa possit pro 
-      vo<lb ed="#L" n="90" break="no"/>luntate sua praecipere ista non obseruari, nisi quando 
-      obseruan<lb ed="#L" n="91" break="no"/>tia talium praeiudicaret bono communi, ad quod procurandum 
-      <lb ed="#L" n="92"/>quilibet tenetur obedire papae 
-      </p>
-            <p xml:id="jsnvu6-e147724-d1e571">
-               <lb ed="#L" n="93"/>
-               <!--11--> AD ARGVMENTA in oppositum dicendum quod 
-      <lb ed="#L" n="94"/>obedientia quae promittitur alicui, aut promittitur eim, vt 
-      perso<lb ed="#L" n="95" break="no"/>nae singulari, aut vt personae publicae, quae praeest alicui 
-      legiti<lb ed="#L" n="96" break="no"/>mo collegio, prima promissio non transit in aliam personam 
-      <lb ed="#L" n="97"/>vnde qui promisit Gulielmo se facturum aliquid pro eo, 
-      quan<lb ed="#L" n="98" break="no"/>do ille iusserit non tenetur ex tali promissione ad jussionem 
-      al<lb ed="#L" n="99" break="no"/>terius simile facere. Secunda autem promissio quae fit persona 
-      <lb ed="#L" n="100"/>publicae, quae praeest alicui legitimo collegio obligat non solum 
-      <lb ed="#L" n="101"/>quoad illum, sed quoad omnem superiorem a quo potestas eius 
-      <lb ed="#L" n="102"/>dependet: talis autem est obedientia, quam monachus &amp; 
-      qui<lb ed="#L" n="103" break="no"/>cunque religiosus profitendo promittit suo praelato: &amp; ideo 
-      obli<lb ed="#L" n="104" break="no"/>gat ipsum cuilibet superiori, &amp; potissimum papae, a quo 
-      aucto<lb ed="#L" n="105" break="no"/>ritas cuiuslibet legitimi collegij dependet: propter quod 
-      mona<lb ed="#L" n="106" break="no"/>chus tenetur obedire papae in omnibus, in quibus tenetur 
-      obe<lb ed="#L" n="107" break="no"/>dire abbati: &amp; in illis, in quibus procuraretur vtilitas 
-      vniuersa<lb ed="#L" n="108" break="no"/>lis ecclesiae, etiam si abbas praeciperet oppositum: &amp; per hoc pa 
-      <lb ed="#L" n="109"/>tet responsio ad vtrumque argumentum. 
-      </p>
-            <p xml:id="jsnvu6-e147724-d1e613">
-               <lb ed="#L" n="110"/>
-               <!--12--> ARGVMENTVM autem quod est pro altera parte 
-      <lb ed="#L" n="111"/>bene probat quod plus obedire debet monachus papae quam 
-      ab<lb ed="#L" n="112" break="no"/>bati, quia sicut tota auctoritas proconsulis dependet ab 
-      aucto<lb ed="#L" n="113" break="no"/>ritate imperatoris, ita tota auctoritas abbatis supra monachum 
-      <lb ed="#L" n="114"/>dependet ab auctoritate papae, tamen si papa iubeat aliquid quod 
-      <lb ed="#L" n="115"/>sit contra inssionem aut concessionem Christi, cuius ipse est 
-      vi<lb ed="#L" n="116" break="no"/>carius, non est ei obediendum, sicut Aug. in illa auctoritate 
-      sub<lb ed="#L" n="117" break="no"/>iungit dicens, si aliud iubeat imperator, aliud deus, contempto 
-      <lb ed="#L" n="118"/>illo obediendum est deo: et sic esset si papa sine vlla causa 
-      pro<lb ed="#L" n="119" break="no"/>hiberet monachum seruare quae promisit. De episcopo autem &amp; 
-      <lb ed="#L" n="120"/>abbate non sic est sicut de papa &amp; abbate, quia abbas non 
-      sub<lb ed="#L" n="121" break="no"/>est episcopo in omnibus, sed solum in illis in quibus subiecit eum 
-      <lb ed="#L" n="122"/>papa qui praeest omnibus: &amp; ideo in illis casibus in quibus abbas 
-      <lb ed="#L" n="123"/>est subiectus episcopo, plus debet monachus obedire episcopo 
-      <lb ed="#L" n="124"/>quam abbati: in aliis autem non, deo autem est simpliciter 
-      obe<lb ed="#L" n="125" break="no"/>diendum in omnibus, quia ipsi subsunt omnia, &amp; ab omnibus, 
-      <lb ed="#L" n="126"/>qui est benedictus in secula seculorum, Amen. 
-</p>
-            <p xml:id="jsnvu6-e147724-d1e655">
-               <lb ed="#L" n="127"/>Et sic finitur tractatus secundi libri, in quo si quid bene dicti 
-      <lb ed="#L" n="128"/>est, sit laus Christo, qui est vnus &amp; summus magister. Si quic 
-      <lb ed="#L" n="129"/>autem minus bene dictum sit, ex imperitia nostra procedit, cui 
-      <lb ed="#L" n="130"/>indulgeat pius lector, quo magis velit esse benignus corrector, 
-      <lb ed="#L" n="131"/>quam aemulus reprehensor. 
-      <lb ed="#L" n="132"/>Finis quastionum magistri Durandi in 
-      secun<lb ed="#L" n="133" break="no"/>dum librum Sententiarum. 
-      <lb ed="#L" n="134"/>Deo sint gratiae. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#Durandus">Durandus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2023-08-20">August 20, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-du87us">Lyon 1563</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-08-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="179-r"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="jsnvu6-e147724"><!-- l2d44q5 -->
+        <head xml:id="jsnvu6-e147724-Hd1e101">Quaestio 5</head>
+        <head xml:id="jsnvu6-e147724-Hd1e103" type="question-title">Vtri monachus teneatur plus obedire, an 
+          praelato suo religioso, an 
+          Episcopo, seu Papae</head>
+        
+        <p xml:id="jsnvu6-e147724-d1e106">
+          <lb ed="#L" n="66"/>QVAESTIO QVINTA. 
+          <lb ed="#L" n="67"/><sic>Vtri</sic> monachus teneatur plus obedire, an 
+          <lb ed="#L" n="68"/>praelato suo religioso, an 
+          Episco<lb ed="#L" n="69" break="no"/>po, seu Papae 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e117">
+          <lb ed="#L" n="70"/>AD secundum sic proceditur. Et videtur quod 
+          <lb ed="#L" n="71"/>monachus teneatur plus obedire Abbati quam 
+          <lb ed="#L" n="72"/>Episcopo vel Papae, saltem in his quae pertinent 
+          <lb ed="#L" n="73"/>ad regulam &amp; ad statuta suae religionis, quia 
+          obe<lb ed="#L" n="74" break="no"/>dientia religiosorum quantum ad praedicta est 
+          <lb ed="#L" n="75"/>ex voto eorum, sed monachus vouet talem obedientiam 
+          Ab<lb ed="#L" n="76" break="no"/>bati &amp; non Episcopo vel Papae, ergo in talibus tenetur 
+          obedi<lb ed="#L" n="77" break="no"/>re Abbati &amp; non Episcopo vel Papae. 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e137">
+          <!--00427.xml-->
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="78"/>2 Item si aliquis promittat operari in agro curati sui non 
+          <lb ed="#L" n="79"/>propter hoc tenetur operari in agro Episcopi vel Papae, ergo 
+          <lb ed="#L" n="80"/>similiter si quis promittat obedire inferiori, puta Abbati in 
+          ali<lb ed="#L" n="81" break="no"/>quibus non propter hoc tenetur in illis vel consimilibus 
+          obe<lb ed="#L" n="82" break="no"/>dire Episcopo vel Papae. 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e156">
+          <lb ed="#L" n="83"/><!--3--> IN CONTRARIVM arguitur, quia secundum Augustinum 
+          <lb ed="#L" n="84"/>sublimiori potestati magis est obediendum, si enim proconsul 
+          iu<lb ed="#L" n="85" break="no"/>beat vnum &amp; aliud imperator contempto proconsule obediendi 
+          <lb ed="#L" n="86"/>est imperatori, sed potestas Episcopi sublimior est potestate Abbati 
+          <lb ed="#L" n="87"/>&amp; potestas Papae sublimior est vtraque, ergo plus est obediendum 
+          <lb ed="#L" n="88"/>Episcopo quam Abbati, &amp; Papae quam cuicunque inferiori. 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e174">
+          <lb ed="#L" n="89"/><!--4--> RESPONSIO. potestas superior &amp; inferior possunt 
+          <lb ed="#L" n="90"/>se habere dupliciter, vno modo sic quod vtraque oriatur a potestate 
+          <lb ed="#L" n="91"/>suprema, quae vnam subdit alteri, prout vult, &amp; tunc vna non est 
+          <lb ed="#L" n="92"/>simpliciter superior altera in omnibus, sed solum in illis in 
+          qui<lb ed="#L" n="93" break="no"/>bus praeficitur alteri secundum ordinationem supremae 
+          potesta<lb ed="#L" n="94" break="no"/>tis, sicut est de Episcopis &amp; Archiepiscopis &amp; de dioecesanis &amp; 
+          <lb ed="#L" n="95"/>Abbatibus, quia omnium istorum potestates procedunt a 
+          potesta<lb ed="#L" n="96" break="no"/>te Papae, &amp; vna subiicitur alteri tantum in certis casibus, prout 
+          <lb ed="#L" n="97"/>volunt iura canonica, quorum Papa est conditor. In his ergo 
+          casi<lb ed="#L" n="98" break="no"/>bus magis est obediendum superiori quam inferiori, puta 
+          Archi<lb ed="#L" n="99" break="no"/>episcopo quam Episcopo, &amp; Episcopo quam Abbati, si monasterium 
+          <lb ed="#L" n="100"/>non est exemptum. In aliis autem in quibus vnus est subditus 
+          al<lb ed="#L" n="101" break="no"/>teri magis est obediendum Episcopo quam Archiepiscopo, &amp; 
+          Ab<lb ed="#L" n="102" break="no"/>bati quam Episcopo, quia in talibus inferior est praelatus &amp; non 
+          <lb ed="#L" n="103"/>superior. Alio modo possunt se habere potestas superior &amp; 
+          infe<lb ed="#L" n="104" break="no"/>rior, ita videlicet quod inferior totaliter oriatur a superiore, sicut 
+          <lb ed="#L" n="105"/>potestas Proconsulis a potestate Imperatoris, quo etiam modo 
+          <lb ed="#L" n="106"/>omnis potestas ecclesiastica oritur ex potestate Papae, &amp; tunc 
+          ma<lb ed="#L" n="107"/>gis est obediendum in omnibus superiori quam inferiori, sicut 
+          im<lb ed="#L" n="108" break="no"/>peratori quam Proconsuli, &amp; papae magis est obediendum tam a 
+          se<lb ed="#L" n="109" break="no"/>cularibus quam a religiosis, quam Archiepiscopo, quam 
+          Episco<lb ed="#L" n="110" break="no"/>po vel Abbati, &amp; hoc in quibuscunque absque vlla distinctione, si 
+          <lb ed="#L" n="111"/>vterque vtatur rite &amp; legitime potestate sua praecipiendo ea ad 
+          <lb ed="#L" n="112"/>quae sua potestas extenditur, alias non, Verbi gratia, si Abbas 
+          <lb ed="#L" n="113"/>praecipiat monacho quod seruet ea quae in sua professione 
+          promi<lb ed="#L" n="114" break="no"/>sit, &amp; illud idem praecipiat Papa, quamuis vtrique sit obediendum, 
+          <lb ed="#L" n="115"/>quia in talibus quilibet religiosus est vtrique subditus, magis 
+          ta<lb ed="#L" n="116" break="no"/>men Papae quam alteri Episcopo vel Abbati, quia ab 
+          auctori<lb ed="#L" n="117" break="no"/>tate Papae dependet auctoritas cuiuslibet.
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e242">
+          <lb ed="#L" n="118"/>Si vero Abbas &amp; Papa praecipiant opposita, vterque tamen 
+          <lb ed="#L" n="119"/>praecipit illud ad quod sua auctoritas se extendit, magis est 
+          obe<lb ed="#L" n="120" break="no"/>diendum Papae quam Abbati. Verbi gratia, si Abbas praecipiat 
+          <lb ed="#L" n="121"/>monacho seruare statuta legitima sui ordinis, puta remanere in 
+          <lb ed="#L" n="122"/>claustro ire ad chorum, tenere silentium &amp; huiusmodi, Papa vero 
+          <lb ed="#L" n="123"/>praecipiat eidem monacho quod exeat claustrum, quia pro vtilitate 
+          <lb ed="#L" n="124"/>Ecclesiae vult eum mittere in aliquam legationem, magis est 
+          <lb ed="#L" n="125"/>obediendum Papae non obstante praecepto abbatis, quia 
+          spon<lb ed="#L" n="126" break="no"/>tanea obligatio istius monachi ad huiusmodi statuta sui ordinis 
+          <lb ed="#L" n="127"/>non potest praeiudicare obligationi qua tenetur Papae, cuius est 
+          <lb ed="#L" n="128"/>ordinare siue procurare vtilitatem vniuersalis ecclesiae, cuius 
+          qui<lb ed="#L" n="129" break="no"/>libet secularis &amp; religiosus est membrum, &amp; ideo debet pro 
+          vtili<lb ed="#L" n="130" break="no"/>tate corporis moueri ab imperium capitis (Papae videlicet) nec 
+          <lb ed="#L" n="131"/>solum est hoc verum de statutis cerimonialibus religionis, imo 
+          <lb ed="#L" n="132"/>etiam de principalibus, tanta enim posset esse necessitas, &amp; tanta 
+          <lb ed="#L" n="133"/>procreari vtilitas vniuersalis ecclesiae per matrimonium quod 
+          <lb ed="#L" n="134"/>religiosus vel religiosa ad praeceptum Papae teneretur in 
+          matri<lb ed="#L" n="135" break="no"/>monium non obstante voto proprio vel Abbatis praecepto. 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e284">
+          <lb ed="#L" n="136"/>
+          <!--6.--> Si autem Papa praeciperet monacho quod faceret ea quae sunt 
+          <lb ed="#L" n="137"/>contra suam professionem non motus aliqua necessitate vel 
+          <lb ed="#L" n="138"/>vtilitate ecclesiae, sed sola voluntate &amp; de hoc constaret, &amp; Abbas 
+          <lb ed="#L" n="139"/>praeciperet contrarium, obediendum esset Abbati &amp; non Papae, 
+          <lb ed="#L" n="140"/>non propter hoc quod Abbas habeat maiorem potestatem super 
+          <lb ed="#L" n="141"/>monachum quam Papa, aut quod auctoritas abbatis non dependeas 
+          <lb ed="#L" n="142"/>ex auctoritate Papae, sed quia praeceptum abbatis est secundum 
+          <lb ed="#L" n="143"/>limites suae potestatis tanquam conformae professioni per quam 
+          <lb ed="#L" n="144"/>accipit potestatem in monachum, praeceptum autem Papae 
+          exce<lb ed="#L" n="145" break="no"/>deret limites suae potestatis tanquam discordans a iure diuino, 
+          <lb ed="#L" n="146"/>&amp; concessione Christi, quod enim tale praeceptum abbatis esset 
+          <lb ed="#L" n="147"/>secundum praeceptum, siue secundum limites suae potestatis ex 
+          <lb ed="#L" n="148"/>quo solum praeciperet ea quae monachus in sua professione 
+          pro<lb ed="#L" n="149" break="no"/>misisset probare non oportet, quia de se clarum est, sed quod 
+          <lb ed="#L" n="150"/>praeceptum Papae de contrario excederet limites potestatis eius 
+          <lb ed="#L" n="151"/>probatur. Primo quantum ad vota principalia religiosorum. Et 
+          <lb ed="#L" n="152"/>secundo quantum ad statuta cerimonialia eorum. 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e326">
+          <lb ed="#L" n="153"/>
+          <!--7--> De votis principalibus patet sic, de iure naturali &amp; diuino 
+          <lb ed="#L" n="154"/>expresso in pluribus locis sacrae scripturae est quod vota soluantur. 
+          <lb ed="#L" n="155"/>sed religiosi vouent tria principaliter, videlicet castitatem, 
+          pau<lb ed="#L" n="156" break="no"/>pertatem (hoc non est habere proprium) &amp; obedientiam, ergo 
+          <lb ed="#L" n="157"/>de iure naturali &amp; diuino tenentur ista seruare, si ergo Papa sola 
+          <lb ed="#L" n="158"/>voluntate absque vlla necessitate vel vtilitate praecipiat ista non 
+          <lb ed="#L" n="159"/>seruari, praeceptum suum est contra praeceptum Dei, a quo est 
+          <!--00428.xml-->
+          <pb ed="#L" n="179-v"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>omnis potestas. Et ideo non est ei obediendum in hoc casu cum 
+          <lb ed="#L" n="2"/>scriptum sit <ref xml:id="jsnvu6-e147724-Rd1e355">Actuum 5</ref>. obedire oportet deo magis quam 
+          homi<lb ed="#L" n="3" break="no"/>nibus. Item magis tenetur seruare castitatem &amp; paupertatem 
+          <lb ed="#L" n="4"/>ille qui hoc vouit, quam qui non vouit, imo verius loquendo 
+          <lb ed="#L" n="5"/>primus tenetur, &amp; non secundus. Sed si papa sola voluntate absque 
+          <lb ed="#L" n="6"/>vlla necessitate &amp; vtilitate praeciperet alicui volenti 
+          contine<lb ed="#L" n="7" break="no"/>re, qui tamen continentiam non vouit quod non contineret, illi 
+          <lb ed="#L" n="8"/>non teneretur obedire, vt probabitur, ergo multominus 
+          tenere<lb ed="#L" n="9" break="no"/>tur obedire ille qui continentiam vouit, si praeciperetur sibi quod 
+          <lb ed="#L" n="10"/>non contineret. Minor probatur, quia concessionem superioris 
+          <lb ed="#L" n="11"/>inferior reuocare non potest: sed Christus, qui est supremum 
+          ca<lb ed="#L" n="12" break="no"/>put ecclesiae, concessit &amp; consuluit castitatem, seu continentiam, 
+          <lb ed="#L" n="13"/>vt patet <ref xml:id="jsnvu6-e147724-Rd1e381">Matth. 19.</ref> &amp; idem consulit <ref xml:id="jsnvu6-e147724-Rd1e383">Apostolus 1. ad Cor. 7.</ref> ergo 
+          <lb ed="#L" n="14"/>papa, qui est inferior Christo, non potest alicui prohibere quin 
+          <lb ed="#L" n="15"/>vtatur hac concessione, vt si velit contineat, nisi sit alteri per 
+          <lb ed="#L" n="16"/>matrimonium ligatus, quia talis non habet potestatem corporis 
+          <lb ed="#L" n="17"/>sui, vt dicitur <ref xml:id="jsnvu6-e147724-Rd1e394">1. ad Cor. 7.</ref> &amp; sic patet minor, sequitur ergo 
+          con<lb ed="#L" n="18" break="no"/>clusio. Item <ref xml:id="jsnvu6-e147724-Rd1e398">2. ad Cor. 10. dicit Apostolus</ref> de se &amp; caeteris Christi 
+          <lb ed="#L" n="19"/>ministris, potestatem dedit nobis deus in aedificationem, &amp; non 
+          <lb ed="#L" n="20"/>in destructionem, sed si papa pro sola voluntate, absque vlla 
+          ne<lb ed="#L" n="21" break="no"/>cessitate &amp; vtilitate posset prohibere ea quae sunt 
+          supereroga<lb ed="#L" n="22" break="no"/>tionis, quum pertineant ad perfectionem vitae, tam in 
+          vouenti<lb ed="#L" n="23" break="no"/>bus ea, quam in non vouentibus, hoc esset non ad aedificationem, 
+          <lb ed="#L" n="24"/>sed ad destructionem bonorum morum, &amp; perfectionis vitae, ergo 
+          <lb ed="#L" n="25"/>ad hoc non se extendit potestas apostolica: &amp; ita patet quod 
+          pro<lb ed="#L" n="26" break="no"/>hibere aliquem religiosum non seruare vota principalia suae 
+          re<lb ed="#L" n="27" break="no"/>ligionis absque vlla necessitate vel vtilitate, sed pro sola 
+          volun<lb ed="#L" n="28" break="no"/>tate excedit limites potestatis papae: &amp; hoc expresse dicunt &amp; 
+          <lb ed="#L" n="29"/>scribunt doctores, quod aliqua sunt in quibus homo est ita liber 
+          <lb ed="#L" n="30"/>quod contra praeceptum papae potest ea facere, vel committere, vt 
+          <lb ed="#L" n="31"/>sunt castitas, paupertas, &amp; similia diuina, quae Christus suadet. 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e420">
+          <lb ed="#L" n="32"/><!--8--> Secundo principaliter patet idem de statutis 
+          cerimonia<lb ed="#L" n="33" break="no"/>libus, vt sunt non comedere carnes, orationes, statutae vigiliae, 
+          <lb ed="#L" n="34"/>&amp; huiusmodi: &amp; potest hoc probari per rationes statim factas 
+          <lb ed="#L" n="35"/>maxime per secundam &amp; tertiam, quia magis tenetur abstinere 
+          <lb ed="#L" n="36"/>a carnibus monachus qui professus est regulam quae prohibet
+          <lb ed="#L" n="37"/>eum vesci (scilicet carnibus) quam secularis qui nihil tale 
+          promi<lb ed="#L" n="38" break="no"/>sit: sed si papa absque vlla ratione, sed pro mera voluntate 
+          prae<lb ed="#L" n="39" break="no"/>ciperet seculari volenti abstinere propter deum a carnibus, &amp; 
+          <lb ed="#L" n="40"/>orare, et vigilare, &amp; ieiunare quod nihil faceret horum ille non 
+          <lb ed="#L" n="41"/>teneretur obedire: alioquin papa posset pro voluntate sua absque 
+          <lb ed="#L" n="42"/>quacunque ratione prohibere cuilibet seculari &amp; omnibus simul, 
+          <lb ed="#L" n="43"/>non solum pro vno die, sed pro toto tempore, quod non faceret 
+          <lb ed="#L" n="44"/>ea quae sunt consilij &amp; supererogationis, quod nullus sanae 
+          men<lb ed="#L" n="45" break="no"/>tis diceret: ergo fortiori ratione monachus qui professus est 
+          re<lb ed="#L" n="46" break="no"/>gulam quae prohibet eum vesci carnibus, &amp; mandat seruare 
+          cae<lb ed="#L" n="47" break="no"/>tera regularia instituta, non teneretur obedire papae 
+          praecipien<lb ed="#L" n="48" break="no"/>ti quod comedat carnes, &amp; quod transgrediatur legitima sui 
+          or<lb ed="#L" n="49" break="no"/>dinis instituta, si constet quod haec praecipiat ex sola voluntate 
+          <lb ed="#L" n="50"/>absque vlla causa necessitatis vel vtilitate: alioquin vno verbo 
+          <lb ed="#L" n="51"/>posset papa prohibere omnibus religiosis de mundo, quod nihil 
+          <lb ed="#L" n="52"/>tenerent de obseruantiis suae religionis, quod videtur valde 
+          in<lb ed="#L" n="53" break="no"/>conueniens. 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e473">
+          <lb ed="#L" n="54"/><!--9--> Tertia etiam ratio prius posita concludit dicta non solum 
+          <lb ed="#L" n="55"/>de votis principalibus, sed etiam de aliis statutis regularibus, 
+          <lb ed="#L" n="56"/>quia pertinent ad perfectionem vitae, saltem secundario: &amp; ideo 
+          <lb ed="#L" n="57"/>prohibere obseruantiam eorum absque vlla causa pertinet 
+          po<lb ed="#L" n="58" break="no"/>tius ad destructionem bonorum morum, quam ad aedificationem, 
+          <lb ed="#L" n="59"/>ad quod non se extendit potestas data a Christo, sed potius ad 
+          <lb ed="#L" n="60"/>oppositum: &amp; ideo non videtur quod in talibus sit obediendum 
+          <lb ed="#L" n="61"/>papae, &amp; si monachus non tenetur in eisdem obedire abbati, 
+          si<lb ed="#L" n="62" break="no"/>cut expresse dicit auctoritas beati Bernardi prius allegata, in 
+          <lb ed="#L" n="63"/>qua dicitur sic, nihil mihi praelatus prohibeat eorum quae 
+          pro<lb ed="#L" n="64" break="no"/>misi. Sic igitur patet quod monachus non tenetur obedire 
+          cui<lb ed="#L" n="65" break="no"/>cunque papae, vel abbati praecipienti sibi sine vlla causa 
+          necessi<lb ed="#L" n="66" break="no"/>tatis, vel vtilitatis transgredi vota sua, &amp; legitima statuta sui 
+          or<lb ed="#L" n="67" break="no"/>dinis ad quae seruanda se obligauit, quin potius quia sunt opera 
+          <lb ed="#L" n="68"/>supererogationis, quae Christus suasit, &amp; pro eis seruandis 
+          subie<lb ed="#L" n="69" break="no"/>cit se religiosus obedientiae abbatis: ideo quodcunque illorum 
+          <!--00428.xml-->
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="70"/>praecipiat ei abbas seruare, tenetur obedire ei, etiam si papa 
+          prae<lb ed="#L" n="71" break="no"/>ciperet oppositum, dum tamen constaret quod hoc faceret sine 
+          <lb ed="#L" n="72"/>causa necessitatis, vel vtilitatis, nec hoc est propter hoc quod 
+          <lb ed="#L" n="73"/>abbas habeat maiorem potestatem super monachum, quam 
+          pa<lb ed="#L" n="74" break="no"/>pa, aut quod auctoritas abbatis non dependeat ab auctoritate 
+          <lb ed="#L" n="75"/>papae, sicut prius dictum est, sed quia monachus obligauit se ad 
+          <lb ed="#L" n="76"/>talia facienda, &amp; quoad talia obedire, &amp; praeceptum abbatis est 
+          <lb ed="#L" n="77"/>iuxta tenorem suae obligationis, praeceptum vero papae esset 
+          dis<lb ed="#L" n="78" break="no"/>cordans, imo totaliter contrarium obligationi, quae est de 
+          tali<lb ed="#L" n="79" break="no"/>bus, a quibus nullus sine causa prohiberi potest. 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e538">
+          <lb ed="#L" n="80"/><!--10.--> Vnde quod dixi alias in fine secundi libri sententiarum 
+          pri<lb ed="#L" n="81" break="no"/>mae lecturae, quod quantum ad talia potestas abbatis in nullo 
+          <lb ed="#L" n="82"/>dependet a potestate papae, non est intelligendum ratione 
+          pote<lb ed="#L" n="83" break="no"/>statis huius &amp; illius, quia constat quod vna est in omnibus alteri 
+          <lb ed="#L" n="84"/>subiecta, sed ratione materiae, quae talis est, quod papae vel 
+          cui<lb ed="#L" n="85" break="no"/>cunque praecipienti contrarium absque causa &amp; ratione si de hoc 
+          <lb ed="#L" n="86"/>constet, licitum est non obedire, &amp; facere quod est 
+          supereroga<lb ed="#L" n="87" break="no"/>tionis, maxime illi que talia promisit: &amp; hunc sensum expressi 
+          sa<lb ed="#L" n="88" break="no"/>tis ibidem dicendo sic, quod quantum ad talia potestas abbati. 
+          <lb ed="#L" n="89"/>in nullo dependet a potestate papae: ita vt papa possit pro 
+          vo<lb ed="#L" n="90" break="no"/>luntate sua praecipere ista non obseruari, nisi quando 
+          obseruan<lb ed="#L" n="91" break="no"/>tia talium praeiudicaret bono communi, ad quod procurandum 
+          <lb ed="#L" n="92"/>quilibet tenetur obedire papae 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e571">
+          <lb ed="#L" n="93"/><!--11--> AD ARGVMENTA in oppositum dicendum quod 
+          <lb ed="#L" n="94"/>obedientia quae promittitur alicui, aut promittitur ei, vt 
+          perso<lb ed="#L" n="95" break="no"/>nae singulari, aut vt personae publicae, quae praeest alicui 
+          legiti<lb ed="#L" n="96" break="no"/>mo collegio, prima promissio non transit in aliam personam 
+          <lb ed="#L" n="97"/>vnde qui promisit Gulielmo se facturum aliquid pro eo, 
+          quan<lb ed="#L" n="98" break="no"/>do ille iusserit non tenetur ex tali promissione ad jussionem 
+          al<lb ed="#L" n="99" break="no"/>terius simile facere. Secunda autem promissio quae fit persona 
+          <lb ed="#L" n="100"/>publicae, quae praeest alicui legitimo collegio obligat non solum 
+          <lb ed="#L" n="101"/>quoad illum, sed quoad omnem superiorem a quo potestas eius 
+          <lb ed="#L" n="102"/>dependet: talis autem est obedientia, quam monachus &amp; 
+          qui<lb ed="#L" n="103" break="no"/>cunque religiosus profitendo promittit suo praelato: &amp; ideo 
+          obli<lb ed="#L" n="104" break="no"/>gat ipsum cuilibet superiori, &amp; potissimum papae, a quo 
+          aucto<lb ed="#L" n="105" break="no"/>ritas cuiuslibet legitimi collegij dependet: propter quod 
+          mona<lb ed="#L" n="106" break="no"/>chus tenetur obedire papae in omnibus, in quibus tenetur 
+          obe<lb ed="#L" n="107" break="no"/>dire abbati: &amp; in illis, in quibus procuraretur vtilitas 
+          vniuersa<lb ed="#L" n="108" break="no"/>lis ecclesiae, etiam si abbas praeciperet oppositum: &amp; per hoc 
+          pa<lb ed="#L" n="109"/>tet responsio ad vtrumque argumentum. 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e613">
+          <lb ed="#L" n="110"/><!--12--> ARGVMENTVM autem quod est pro altera parte 
+          <lb ed="#L" n="111"/>bene probat quod plus obedire debet monachus papae quam 
+          ab<lb ed="#L" n="112" break="no"/>bati, quia sicut tota auctoritas proconsulis dependet ab 
+          aucto<lb ed="#L" n="113" break="no"/>ritate imperatoris, ita tota auctoritas abbatis supra monachum 
+          <lb ed="#L" n="114"/>dependet ab auctoritate papae, tamen si papa iubeat aliquid quod 
+          <lb ed="#L" n="115"/>sit contra <sic>inssionem</sic> aut concessionem Christi, cuius ipse est 
+          vi<lb ed="#L" n="116" break="no"/>carius, non est ei obediendum, sicut Aug. in illa auctoritate 
+          sub<lb ed="#L" n="117" break="no"/>iungit dicens, si aliud iubeat imperator, aliud deus, contempto 
+          <lb ed="#L" n="118"/>illo obediendum est deo: et sic esset si papa sine vlla causa 
+          pro<lb ed="#L" n="119" break="no"/>hiberet monachum seruare quae promisit. De episcopo autem &amp; 
+          <lb ed="#L" n="120"/>abbate non sic est sicut de papa &amp; abbate, quia abbas non 
+          sub<lb ed="#L" n="121" break="no"/>est episcopo in omnibus, sed solum in illis in quibus subiecit eum 
+          <lb ed="#L" n="122"/>papa qui praeest omnibus: &amp; ideo in illis casibus in quibus abbas 
+          <lb ed="#L" n="123"/>est subiectus episcopo, plus debet monachus obedire episcopo 
+          <lb ed="#L" n="124"/>quam abbati: in aliis autem non, deo autem est simpliciter 
+          obe<lb ed="#L" n="125" break="no"/>diendum in omnibus, quia ipsi subsunt omnia, &amp; ab omnibus, 
+          <lb ed="#L" n="126"/>qui est benedictus in secula seculorum, Amen. 
+        </p>
+        <p xml:id="jsnvu6-e147724-d1e655">
+          <lb ed="#L" n="127"/>Et sic finitur tractatus secundi libri, in quo si quid bene dicti 
+          <lb ed="#L" n="128"/>est, sit laus Christo, qui est vnus &amp; summus magister. Si quid 
+          <lb ed="#L" n="129"/>autem minus bene dictum sit, ex imperitia nostra procedit, cui 
+          <lb ed="#L" n="130"/>indulgeat pius lector, quo magis velit esse benignus corrector, 
+          <lb ed="#L" n="131"/>quam aemulus reprehensor. 
+          <lb ed="#L" n="132"/>Finis quaestionum magistri Durandi in 
+          secun<lb ed="#L" n="133" break="no"/>dum librum Sententiarum. 
+          <lb ed="#L" n="134"/>Deo sint gratiae. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
