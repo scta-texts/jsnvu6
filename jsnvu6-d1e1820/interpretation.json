@@ -1,0 +1,72 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-21T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "ee8d52146dd866558f26b834707e4e681135eb22",
+    "generation_method": "hierarchical"
+  },
+
+  "jsnvu6-d1e1820-d1e103": {
+    "summary": "Sub-heading introducing the division that follows: 'The sense of this text, in general.'",
+    "claims": [],
+    "concepts": ["accessus/divisio textus"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jsnvu6-d1e1820-Hd1e101"]
+    }
+  },
+
+  "jsnvu6-d1e1820-d1e108": {
+    "summary": "Identifies the lemma 'Ubique divina natura' as opening the second principal part of the distinction, in which the Master excludes from God those attributes that follow upon a creature's existing in place, namely locatability and motion. Divides this part into three: first it proposes what is intended; second it shows the imperfection found in creatures existing in place (at 'omne ergo corpus'); third it concludes that God does not have that imperfection (at 'fatemur itaque').",
+    "claims": [
+      "The lemma 'Ubique divina natura' begins the second principal part of the distinction, which excludes locatability and motion from God",
+      "This part divides into three textual segments: the proposal, the demonstration of creaturely imperfection in place, and the conclusion denying that imperfection of God"
+    ],
+    "concepts": ["divisio textus", "locatability and motion as marks of creaturely imperfection", "lemma-based commentary structure"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jsnvu6-d1e1820-d1e103"]
+    }
+  },
+
+  "jsnvu6-d1e1820-d1e128": {
+    "summary": "Gives the detailed division: first the text posits that the divine nature is in every place in such a way that it is not circumscribed or defined by place; then it shows this twofold imperfection found in creatures—corporeal creatures are both defined and circumscribed by place, while spiritual creatures are only defined by it; likewise corporeal creatures are moved through both time and place, while spiritual creatures are moved only through time, mutation through time being mutation through affections subject to time. It then asks whether motion through place applies to spirit, determining that passing from place to place applies to spirits insofar as this is definitive rather than circumscriptive. It then shows that local, circumscriptible, and definable being does not apply to God at all, adding that God, without change in himself, newly begins and ceases to be in a creature. Finally the determinations are recapitulated, as appears in the text.",
+    "claims": [
+      "The divine nature is present in every place without being circumscribed or defined by place",
+      "Corporeal creatures are both circumscribed and defined by place; spiritual creatures are only defined by it, not circumscribed",
+      "Corporeal creatures move through both time and place; spiritual creatures move only through time, understood as mutation through temporally subject affections",
+      "Definitive (but not circumscriptive) local motion applies to spirits",
+      "Local, circumscriptible, or definable being does not apply to God at all",
+      "God begins and ceases to be present in a creature without undergoing any change in himself"
+    ],
+    "concepts": ["circumscriptive versus definitive presence", "motion of spirits versus bodies", "divine immutability amid changing presence"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["jsnvu6-d1e1820-d1e108"]
+    }
+  },
+
+  "jsnvu6-d1e1820": {
+    "summary": "A preamble outlining the division of the Lombard's text at the lemma 'Ubique divina natura,' which excludes locatability and motion from God as marks of creaturely imperfection. The exposition distinguishes corporeal creatures (circumscribed and moved by place and time) from spiritual creatures (only defined by place, only moved through time), determines that spirits can move from place to place definitively but not circumscriptively, denies any local, circumscriptible, or definable mode of being to God, and notes that God begins and ceases to be present in a creature without any change in himself.",
+    "claims": [
+      "God's presence in every place is neither circumscribed nor defined by place, unlike both corporeal and spiritual creatures",
+      "Spiritual creatures are defined (but not circumscribed) by place and move only through time in the strict sense, though they can move definitively from place to place",
+      "God can begin and cease to be present in a creature without undergoing change in himself"
+    ],
+    "concepts": ["divisio textus", "circumscriptive versus definitive presence", "divine immutability amid changing presence", "motion of spirits versus bodies"],
+    "_metadata": {
+      "level": "structural",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jsnvu6-d1e1820-d1e103",
+        "jsnvu6-d1e1820-d1e108",
+        "jsnvu6-d1e1820-d1e128"
+      ]
+    }
+  }
+}

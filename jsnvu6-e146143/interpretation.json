@@ -1,0 +1,58 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-21T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "ee8d52146dd866558f26b834707e4e681135eb22",
+    "generation_method": "hierarchical"
+  },
+
+  "jsnvu6-e146143-d1e103": {
+    "summary": "Sub-heading introducing Distinction 44 and the division that follows: 'The sense of this distinction, in general and in particular.'",
+    "claims": [],
+    "concepts": ["accessus/divisio textus", "Distinction 44"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e146143-Hd1e101"] }
+  },
+
+  "jsnvu6-e146143-d1e112": {
+    "summary": "Gives the general division of Distinction 44 at the lemma 'Post praedicta considerare dignum est.' Having previously treated sin, the Master here treats the power to sin. This divides into two parts: first he settles his intended topic; second he transitions to what follows (at 'Iam nunc in intelligendis'). The first part divides into two: first he raises and resolves a question about the power to sin; second he incidentally raises a question about the obedience owed to prelates (at 'Hic oritur quaestio'). This is the general sense and division of the lesson.",
+    "claims": [
+      "Distinction 44 treats the power to sin, following the Master's prior treatment of sin itself",
+      "The distinction divides into a treatment of the power to sin (including an incidental question on obedience owed to prelates) and a transition to what follows"
+    ],
+    "concepts": ["divisio textus", "power to sin (potentia peccandi)", "obedience owed to prelates"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e146143-d1e103"] }
+  },
+
+  "jsnvu6-e146143-d1e136": {
+    "summary": "Gives the detailed division. The Master first asks whether the power to sin is from God, noting that some say it is not, just as the evil will itself is not from God; but the Master determines that all power is from God, including the power to sin, and that every power is thereby also just—hence even the devil has no power to sin except from God. He then asks, since all power is from God, whether everyone who resists power always sins, answering that one need not obey a power that commands against God, and that when several authorities command different things, one must always obey the higher. Finally the Master transitions to what follows, noting that Book III will treat matters pertaining to the mystery of the Incarnate Word.",
+    "claims": [
+      "All power, including the power to sin, comes from God, and every power is thereby also just",
+      "The devil's power to sin is itself from God",
+      "One is not obliged to obey a power that commands something contrary to God; where authorities conflict, obedience is owed to the higher",
+      "Book III of the Sentences will treat the mystery of the Incarnate Word"
+    ],
+    "concepts": ["divine origin of all power, including the power to sin", "limits of obedience", "hierarchy of authority", "transition to Christology in Book III"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e146143-d1e112"] }
+  },
+
+  "jsnvu6-e146143": {
+    "summary": "A preamble to Distinction 44, which treats the power to sin as a topic following the Master's earlier treatment of sin. It establishes that all power—including the power to sin, and even the devil's power—derives from God and is thereby just, that obedience is not owed to a power commanding against God, and that in conflicts among authorities the higher takes precedence. The preamble closes by noting the transition to Book III, which will treat the mystery of the Incarnate Word.",
+    "claims": [
+      "All power, including the power to sin, is from God and is thereby just",
+      "Obedience is not owed to power exercised against God; conflicting commands from different authorities are resolved by deferring to the higher authority",
+      "This distinction concludes Book II's material and transitions to Book III's treatment of the Incarnation"
+    ],
+    "concepts": ["divisio textus", "divine origin of power", "limits of obedience", "transition to Christology"],
+    "_metadata": {
+      "level": "structural",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jsnvu6-e146143-d1e103",
+        "jsnvu6-e146143-d1e112",
+        "jsnvu6-e146143-d1e136"
+      ]
+    }
+  }
+}

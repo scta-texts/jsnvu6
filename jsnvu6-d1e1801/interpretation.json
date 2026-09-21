@@ -1,0 +1,59 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-21T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "ee8d52146dd866558f26b834707e4e681135eb22",
+    "generation_method": "hierarchical"
+  },
+
+  "jsnvu6-d1e1801-d1e103": {
+    "summary": "Sub-heading introducing the division that follows: 'The sense of this distinction, in general and in particular.'",
+    "claims": [],
+    "concepts": ["accessus/divisio textus"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-d1e1801-Hd1e101"] }
+  },
+
+  "jsnvu6-d1e1801-d1e112": {
+    "summary": "Gives the general division of the distinction at the lemma 'Quoniam demonstratum est.' Having previously shown how things are said to be in God, the Master here shows how God is in things. This part divides into two: first, how God has being in things; second, that no imperfection is thereby posited in God, unlike the imperfection creatures have from being in place (at 'Cumque divina'). The first part further divides into three: the modes by which God is said to be in things; confirmation of this by authorities (at 'Ne autem illa'); and an inquiry into the reason for it (at 'Quomodo autem Deus'), which itself divides into three—how God is said to be in the saints; removal of a doubt about this (at 'Si autem quaeris'); and the reason God is said to be in things generally (at 'Ex praedictis patet')—this last dividing further into the difficulty of the claim and the exclusion of a certain opinion (at 'Quidam tamen').",
+    "claims": [
+      "The Master's text moves from how things are in God to how God is in things",
+      "The text is structured as: modes of divine presence, confirmation by authorities, and inquiry into the reason, the last subdividing into presence in the saints, resolution of a doubt, and the general account of divine presence in things (including the exclusion of a rival opinion)"
+    ],
+    "concepts": ["divisio textus", "things in God versus God in things", "structure of the Lombard's argument"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-d1e1801-d1e103"] }
+  },
+
+  "jsnvu6-d1e1801-d1e151": {
+    "summary": "Gives the detailed division. First, the text proposes that God is commonly said to be in things by essence, power, and presence, without definition, circumscription, or limitation; in another mode God is said to be in the saints through the grace by which he indwells them; in a third mode God is said to be in the man Christ through union, though this third mode belongs to Book III of the Sentences. This is confirmed by authorities, one of which notes that God is always present even to the wicked. Second, the text shows how God is in the saints, saying he is said to indwell them insofar as he proceeds into them temporally, then removes certain doubts: this indwelling should be soundly understood—God does not indwell the saints such that he ceases to remain in himself, nor is one divine person excluded by another's indwelling, and this indwelling consists in being known and loved by the minds of the faithful. The text then notes that, as commonly said, God is understood and expressed to be in all things, though how he is in all things or everywhere is grasped by intellect no more than it can be expressed. Finally it excludes an opinion of some who say God is in things by presence alone because all things are present to him, and by essence and power because by the power of his essence and nature he conserves and operates in all things, on account of his simplicity and infinity—adding that God's presence to unclean things does not thereby become stained, just as a spirit is not polluted by union with a leprous body, nor the sun by its rays touching unclean places.",
+    "claims": [
+      "God is said to be in things by essence, power, and presence (without definition, circumscription, or limitation); in the saints by grace; and in Christ by hypostatic union (treated in Book III)",
+      "God's indwelling in the saints is temporal in its procession, does not entail his ceasing to remain in himself, does not exclude other divine persons, and consists in being known and loved by the faithful",
+      "How God is in all things or everywhere exceeds both intellectual grasp and expression",
+      "An opinion attributing presence merely to things being present to God, and essence/power merely to conserving and operating power, is excluded",
+      "God's presence to unclean things does not stain or pollute that presence, illustrated by the spirit-leprous-body and sun-unclean-place analogies"
+    ],
+    "concepts": ["essence-presence-power triad", "grace of indwelling", "hypostatic union (deferred to Book III)", "incomprehensibility of divine omnipresence", "presence without contamination"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-d1e1801-d1e112"] }
+  },
+
+  "jsnvu6-d1e1801": {
+    "summary": "A preamble dividing the text of the distinction on how God is in things, following the prior treatment of how things are in God. It outlines a structure moving from the general modes of divine presence (essence, power, presence; grace in the saints; union in Christ), through confirming authorities, to a reasoned account of presence in the saints (with a doubt resolved about indwelling not excluding divine simplicity or the other persons) and a general account of divine presence in all things, which excludes a rival opinion and affirms that such presence, however incomprehensible, is never stained by contact with what is unclean.",
+    "claims": [
+      "God is said to be in things by essence, power, and presence; in the saints by grace; and in Christ by union (the latter reserved for Book III)",
+      "The Master's account of divine indwelling preserves divine simplicity and the distinction of persons, and construes indwelling as being known and loved by the faithful",
+      "Divine omnipresence exceeds intellectual comprehension and linguistic expression, yet remains unstained by presence to what is unclean"
+    ],
+    "concepts": ["divisio textus", "essence-presence-power triad", "grace of indwelling", "incomprehensibility of divine omnipresence", "presence without contamination"],
+    "_metadata": {
+      "level": "structural",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jsnvu6-d1e1801-d1e103",
+        "jsnvu6-d1e1801-d1e112",
+        "jsnvu6-d1e1801-d1e151"
+      ]
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-21T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "ee8d52146dd866558f26b834707e4e681135eb22",
+    "generation_method": "hierarchical"
+  },
+
+  "jsnvu6-e147724-d1e106": {
+    "summary": "Rubric heading for Question 5, the final question of Book II, stating the question to be treated: to whom is a monk more bound to obey—his own religious superior, or the bishop, or the pope.",
+    "claims": [],
+    "concepts": ["hierarchy of obedience", "final question of Book II"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-Hd1e101", "jsnvu6-e147724-Hd1e103"] }
+  },
+
+  "jsnvu6-e147724-d1e117": {
+    "summary": "First objection: a monk seems bound to obey his Abbot more than the bishop or pope, at least in matters pertaining to the rule and statutes of his order, since religious obedience in such matters arises from the monk's vow; but a monk vows such obedience to the Abbot, not to the bishop or pope; therefore in such matters he is bound to obey the Abbot, not the bishop or pope.",
+    "claims": [
+      "Obedience regarding the rule and statutes of an order arises specifically from the monk's vow",
+      "The vow of obedience is made specifically to the Abbot, not to bishop or pope",
+      "Therefore, in matters covered by the vow, the monk owes obedience to the Abbot rather than to bishop or pope"
+    ],
+    "concepts": ["vow-specific obligation", "Abbot as the direct object of the vow of obedience"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e106"] }
+  },
+
+  "jsnvu6-e147724-d1e137": {
+    "summary": "Second objection: if someone promises to work in his parish priest's field, he is not thereby bound to work in the bishop's or pope's field; likewise, if someone promises to obey an inferior (such as an Abbot) in certain matters, he is not thereby bound, in those or similar matters, to obey the bishop or pope.",
+    "claims": [
+      "A promise made to one party does not transfer an obligation to a different, higher party, by analogy with a promise to work a parish priest's field",
+      "Similarly, a vow of obedience to an Abbot does not extend to obedience owed to the bishop or pope in the same matters"
+    ],
+    "concepts": ["non-transferability of a specific promise", "analogy from a field-labor promise"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e117"] }
+  },
+
+  "jsnvu6-e147724-d1e156": {
+    "summary": "Sed contra: per Augustine, greater obedience is owed to higher power—if a proconsul commands one thing and the emperor another, one must, despising the proconsul, obey the emperor; but the bishop's power is higher than the abbot's, and the pope's higher than both; therefore greater obedience is owed to the bishop than to the abbot, and to the pope than to any inferior.",
+    "claims": [
+      "Augustine holds that when powers conflict, the higher power is to be obeyed, illustrated by proconsul versus emperor",
+      "Since episcopal power exceeds abbatial power, and papal power exceeds both, greater obedience is owed to bishop over abbot, and to pope over any inferior"
+    ],
+    "concepts": ["Augustine on obedience to the higher of conflicting powers", "hierarchy: abbot, bishop, pope"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e137"] }
+  },
+
+  "jsnvu6-e147724-d1e174": {
+    "summary": "Responsio: superior and inferior power can relate in two ways. (1) Both may arise from one supreme power that subjects one to the other only as and where it wills—as with bishops and archbishops, or diocesans and abbots, whose powers all derive from the pope and are mutually subject only in the specific cases fixed by canon law (of which the pope is author); in those cases greater obedience is due the superior (archbishop over bishop, bishop over abbot if the monastery is not exempt), but in other matters, where the 'inferior' is actually the one who presides, greater obedience is due to him instead. (2) Alternatively, the inferior power may arise totally from the superior, as the proconsul's from the emperor's, in the way all ecclesiastical power arises from the pope's; in this relation, greater obedience in all things is due the superior—so the pope is owed greater obedience than archbishop, bishop, or abbot by both seculars and religious, in absolutely all matters, provided both parties use their power rightly, commanding only within their proper scope; hence if both Abbot and pope command a monk to keep what he promised in profession, though both are to be obeyed, the pope is owed more, since every authority depends on papal authority.",
+    "claims": [
+      "Powers deriving jointly from one supreme source are mutually superior/inferior only within the specific scope that supreme source assigns, so obedience owed varies by matter",
+      "Powers where the inferior derives totally from the superior (as proconsul from emperor, and all ecclesiastical power from the pope) entail unqualified greater obedience to the superior in all matters within proper scope",
+      "Since abbatial authority derives entirely from papal authority, the pope is owed greater obedience than the abbot when both command within their rightful scope"
+    ],
+    "concepts": ["two models of superior/inferior power (delegated-and-mutually-limited versus wholly-derived)", "canon law as fixing mutual subjection among prelates", "papal authority as the ultimate source of ecclesiastical power"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e156"] }
+  },
+
+  "jsnvu6-e147724-d1e242": {
+    "summary": "Extends the analysis to conflicting commands: if Abbot and pope command opposite things, each nonetheless commanding within the scope of his own authority, greater obedience is due the pope—e.g., if the Abbot commands the monk to keep the order's statutes (remain in the cloister, attend choir, keep silence) while the pope commands him to leave the cloister for the Church's utility (a legation), the pope is to be obeyed, since the monk's voluntary obligation to his order's statutes cannot outweigh his obligation to the pope, whose office is to procure the universal Church's good, of which every religious is a member and so must be moved by the command of the head for the good of the body. This holds not only for ceremonial statutes but even for the principal vows: sufficiently great necessity or utility to the universal Church could, through marriage, bind a religious to marry at the pope's command, notwithstanding his own vow or the Abbot's precept.",
+    "claims": [
+      "When Abbot and pope command genuinely opposing things, each within his proper scope, the pope's command prevails because the whole Church's good takes precedence over a particular order's statutes",
+      "This precedence can, in principle, extend even to the principal vows (e.g., a religious commanded by the pope to marry for grave ecclesial necessity or utility), not merely to ceremonial statutes"
+    ],
+    "concepts": ["precedence of the universal Church's good over particular statutes", "head-and-body analogy for pope and Church", "hypothetical papal dispensation from vows for grave utility"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e174"] }
+  },
+
+  "jsnvu6-e147724-d1e284": {
+    "summary": "Qualifies the preceding conclusion sharply: if the pope commanded a monk to act against his profession, moved not by any necessity or utility of the Church but by sheer will alone (and this were certain), while the Abbot commanded the contrary, the Abbot should be obeyed, not the pope—not because the Abbot has greater power over the monk than the pope, or because abbatial authority does not depend on papal authority, but because the Abbot's command remains within the limits of his power (conforming to the profession from which he derives his authority over the monk), whereas such a papal command would exceed the limits of papal power, being discordant with divine law and Christ's own concession. That the Abbot's command (requiring only what was promised in profession) is within his power's limits needs no proof, being self-evident; that the described papal command would exceed papal power's limits is then proved—first regarding the principal vows, second regarding ceremonial statutes.",
+    "claims": [
+      "A papal command to violate a monk's profession, issued from sheer will without ecclesial necessity or utility, exceeds the limits of papal power and need not be obeyed",
+      "In such a case the Abbot's contrary command should be followed instead, not because his power exceeds the pope's, but because his command stays within his (derivative) authority's proper limits while the papal command in this scenario would not",
+      "This will be proved with respect to both the principal vows and the ceremonial statutes"
+    ],
+    "concepts": ["limits of papal power grounded in divine law and Christ's concession", "authority remaining within versus exceeding its proper scope", "distinction between power's source and power's proper limits"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e242"] }
+  },
+
+  "jsnvu6-e147724-d1e326": {
+    "summary": "Proves the point regarding the principal vows (chastity, poverty, obedience). By natural and divine law, expressed repeatedly in Scripture, vows are to be fulfilled; religious vow these three principally; therefore they are bound by natural and divine law to keep them. If the pope, by sheer will without necessity or utility, commanded these not be kept, his command would contradict God's command, the source of all power, and so would not bind, per Acts 5 ('we ought to obey God rather than men'). Further, one who has vowed chastity is more bound to it than one who has not; but even an unvowed person willing to be continent could not licitly be forbidden by a merely willful papal command (as will be shown, since an inferior—the pope, relative to Christ—cannot revoke a superior's concession, and Christ himself counseled continence per Matthew 19 and 1 Corinthians 7); so, a fortiori, one who has vowed it cannot be so forbidden. Finally, per 2 Corinthians 10, apostolic power is given for edification, not destruction; a merely willful papal prohibition of works of supererogation belonging to the perfection of life would be destructive, not edifying, and so lies outside the scope of apostolic power altogether—hence the doctors expressly teach that in matters like chastity and poverty, a person is free enough to act against a papal command lacking just cause.",
+    "claims": [
+      "Natural and divine law require vows to be kept, so a purely willful papal command to break the principal vows would contradict divine law and need not be obeyed (Acts 5)",
+      "The pope, as inferior to Christ, cannot revoke Christ's own concession/counsel of continence (Matthew 19, 1 Corinthians 7), so cannot forbid it even to the unvowed, let alone the vowed",
+      "Apostolic power is given for edification, not destruction (2 Corinthians 10); a causeless prohibition of works of supererogation would be destructive and so falls outside papal power's proper scope",
+      "The doctors affirm that in matters like chastity and poverty a person retains freedom to act against an unjustified papal command"
+    ],
+    "concepts": ["natural and divine law requiring fulfillment of vows", "papal power as subordinate to Christ's own concessions", "apostolic power ordered to edification, not destruction (2 Corinthians 10)", "works of supererogation and counsels of perfection"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e284"] }
+  },
+
+  "jsnvu6-e147724-d1e420": {
+    "summary": "Proves the same point regarding ceremonial statutes (abstaining from meat, prescribed prayers, vigils, and the like), using the reasons already given, especially the second and third: a monk professed under a rule prohibiting meat is more bound to abstain than a secular who made no such promise; but if the pope, by sheer will without reason, commanded a secular willing to abstain from meat, pray, keep vigil, and fast for God's sake to do none of these, that secular would not be bound to obey—otherwise the pope could, without any reason, forbid all seculars everywhere and for all time from any work of counsel or supererogation, which no sane person would maintain. A fortiori, a monk professed to abstain from meat and keep other regular observances would not be bound to obey a papal command to break them, if it were certain this was issued from sheer will without cause of necessity or utility—otherwise the pope could, by a single word, strip all religious in the world of their observances, which is manifestly unacceptable.",
+    "claims": [
+      "A causeless papal command forbidding even an unvowed secular from voluntary works of piety would not bind, since it would amount to an unreasonable, universal prohibition of counsel and supererogation",
+      "A fortiori, a professed monk is not bound to obey a similarly causeless papal command to abandon his order's ceremonial observances",
+      "The alternative would absurdly allow the pope, by a single word, to strip all religious everywhere of their observances"
+    ],
+    "concepts": ["a fortiori argument from secular to religious", "reductio ad absurdum against unlimited papal power over counsels"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e326"] }
+  },
+
+  "jsnvu6-e147724-d1e473": {
+    "summary": "Notes that the third reason given earlier (the edification/destruction argument from 2 Corinthians 10) applies not only to the principal vows but also to other regular statutes, since these too pertain, at least secondarily, to the perfection of life; prohibiting their observance without cause therefore tends to the destruction of good morals rather than edification, exceeding the power Christ gave. Hence in such matters the pope is not to be obeyed, just as (per Bernard's authority, cited earlier) a monk is not bound to obey the Abbot in the same circumstances. It follows that a monk need not obey either pope or Abbot commanding him, without any cause of necessity or utility, to transgress his vows and his order's legitimate statutes; rather, since these are works of supererogation counseled by Christ, for the keeping of which the religious subjected himself to the Abbot's obedience, he is bound to obey whatever the Abbot commands him to observe of them, even against a contrary papal command lacking necessity or utility—not because the Abbot has greater power over the monk than the pope, or because abbatial authority is independent of papal authority, but because the monk obligated himself specifically to these observances, and the Abbot's command matches the tenor of that obligation while such a papal command would be discordant with, indeed wholly contrary to, it.",
+    "claims": [
+      "The edification/destruction argument extends from the principal vows to the order's other regular statutes, since these too serve the perfection of life",
+      "A monk need not obey either pope or Abbot when either commands, without cause, transgression of his vows and legitimate statutes",
+      "Where the Abbot commands adherence to what the monk vowed, the monk must obey him even against a contrary, causeless papal command, because the Abbot's command matches the monk's actual obligation while the papal command in this scenario would contradict it"
+    ],
+    "concepts": ["extension of the edification/destruction argument to regular statutes", "obligation matching the tenor of the vow as the deciding factor, not comparative rank of power"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e420"] }
+  },
+
+  "jsnvu6-e147724-d1e538": {
+    "summary": "Clarifies a statement made elsewhere (at the end of Book II's first lecture) that, regarding such matters, the Abbot's power 'in no way depends' on the pope's power: this should not be understood with respect to the power itself (since the Abbot's power is certainly subject to the pope's in every respect), but with respect to the subject matter—namely, that it is licit not to obey a causeless contrary command from the pope (or anyone) and instead to perform a work of supererogation, especially for one who has promised it. This is the sense intended by that earlier formulation: the pope cannot, by mere will, command that such observances not be kept, except when their observance would prejudice the common good, for whose procuring everyone is bound to obey the pope.",
+    "claims": [
+      "The Abbot's power does depend entirely on the pope's power in general, contrary to a possible misreading of an earlier formulation",
+      "What is meant is that, regarding this specific subject matter (works of supererogation vowed by the religious), a causeless contrary papal command need not be obeyed—except when observance would prejudice the common good, in which case papal obedience is owed"
+    ],
+    "concepts": ["clarification of a prior authorial statement", "common good as the overriding exception"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e473"] }
+  },
+
+  "jsnvu6-e147724-d1e571": {
+    "summary": "Reply to the two opening objections (d1e117, d1e137): obedience promised to someone is promised either to him as a private/singular person, or as a public person presiding over a legitimate college; a promise of the first kind does not transfer to another person (as one who promised William something is not thereby bound to do the like at another's command), but a promise of the second kind—made to a public person presiding over a legitimate college—obligates the promiser with respect not only to that person but to every superior on whom his power depends. The obedience a monk or any religious promises in profession is of this second kind, and so obligates him to every superior, above all the pope, on whom the authority of every legitimate college depends; hence the monk is bound to obey the pope in everything he is bound to obey the Abbot, and also in matters concerning the universal Church's utility, even against a contrary abbatial command. This resolves both opening objections.",
+    "claims": [
+      "A promise to a private person does not transfer to another, but a promise to a public officeholder obligates the promiser to every superior on whom that office's authority depends",
+      "The religious vow of obedience is of this second, public kind, so it obligates the monk to the pope as well as the Abbot, and even more so where the universal Church's utility is at stake"
+    ],
+    "concepts": ["private versus public promise", "obedience as owed through the chain of dependent authority", "reply to objections"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e117", "jsnvu6-e147724-d1e137"] }
+  },
+
+  "jsnvu6-e147724-d1e613": {
+    "summary": "Addresses the sed contra argument (d1e156): it correctly proves that a monk generally owes the pope more obedience than the Abbot, since the Abbot's entire authority over the monk depends on the pope's, just as the proconsul's depends on the emperor's; yet if the pope commands something against Christ's own command or concession (of which the pope is vicar), he is not to be obeyed—just as Augustine, in the very authority cited, adds that if emperor and God command differently, God is to be obeyed despite the emperor; so it is if the pope, without cause, prohibits a monk from keeping what he promised. Regarding bishop and abbot, the case differs from pope and abbot, since the abbot is not subject to the bishop in all things but only where the pope (who presides over all) has subjected him; so in those specific cases the monk owes the bishop more obedience than the abbot, but not in others. God, however, is to be obeyed absolutely in all things, since all things are subject to and from him, who is blessed forever and ever, Amen.",
+    "claims": [
+      "The sed contra's general principle (obey the higher power) holds, since abbatial authority derives wholly from papal authority—except when the pope's command itself contradicts Christ's own command or concession, in which case Augustine's principle (obey God over the emperor) applies to override even papal precedence",
+      "The bishop-abbot relation differs from the pope-abbot relation, since the abbot is subject to the bishop only in the specific matters where the pope has so subjected him, not universally",
+      "God alone is to be obeyed absolutely and without exception in all things"
+    ],
+    "concepts": ["limits on papal precedence when contradicting Christ's own command", "Augustine's principle applied to the pope-Christ relation", "qualified versus absolute obedience"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e156", "jsnvu6-e147724-d1e538"] }
+  },
+
+  "jsnvu6-e147724-d1e655": {
+    "summary": "Closing colophon: the treatise of Book II ends here; whatever has been well said is to the praise of Christ, the one supreme Teacher, while any shortcomings proceed from the author's own lack of skill, for which the pious reader is asked for indulgence, preferring to be a kind corrector rather than a jealous critic. This marks the end of Master Durandus's questions on the second book of the Sentences. Thanks be to God.",
+    "claims": [],
+    "concepts": ["scholastic colophon", "authorial humility topos", "conclusion of Book II"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-e147724-d1e613"] }
+  },
+
+  "jsnvu6-e147724": {
+    "summary": "Question 5, the final question of Book II, asks to whom a monk owes greater obedience: his religious superior, the bishop, or the pope. Objections argue from the specificity of the vow (made to the Abbot, not bishop or pope) and from the non-transferability of promises that obedience owed to an Abbot does not extend to higher prelates; the sed contra, via Augustine, holds that obedience is generally owed to the higher of conflicting powers. The responsio distinguishes two models of superior/inferior authority: powers that are mutually and only partially subject to each other by a shared supreme source's specific assignment (bishops/archbishops, abbots/bishops), versus powers wholly derived from a single source (as all ecclesiastical authority from the pope, paralleling proconsul and emperor)—under the latter model, the pope is generally owed the greatest obedience, even overriding a contrary abbatial command when grave ecclesial utility is at stake, extending in principle even to dispensation from the principal vows. This general precedence is then sharply qualified: a papal command issued from sheer will, without any genuine necessity or utility of the Church, and contrary to a monk's profession, exceeds the proper limits of papal power (which cannot revoke Christ's own concessions or serve destruction rather than edification, per 2 Corinthians 10) and need not be obeyed—in which case the Abbot's contrary command, remaining within his own authority's proper limits, must be followed instead. This holds both for the principal vows and for ceremonial statutes, on the ground that the monk's own obligation, not any comparison of abstract rank, determines whose command matches what he actually vowed. The reply to the opening objections shows that the vow of obedience, made to the Abbot as a public officeholder, thereby obligates the monk to every superior on whom the Abbot's office depends, resolving the apparent tension with the sed contra's Augustinian principle, itself qualified by the priority owed to Christ's own command over any merely willful papal command. The treatise, and Book II, then closes with the author's colophon.",
+    "claims": [
+      "General obedience is owed to the pope above the abbot and bishop, since ecclesiastical authority as a whole derives from papal authority, on the model of proconsul deriving from emperor",
+      "This precedence is overridden whenever a papal command, issued from sheer will without genuine ecclesial necessity or utility, would contradict a monk's profession or Christ's own concessions—in which case the Abbot's command, remaining within his derivative but proper authority, must be obeyed instead",
+      "The religious vow of obedience, as a promise to a public officeholder, obligates the monk to every superior on whom that office depends, not merely to the immediate superior named in the vow",
+      "Absolute, unqualified obedience is owed only to God"
+    ],
+    "concepts": ["hierarchy of obedience (abbot, bishop, pope)", "two models of superior/inferior ecclesiastical power", "limits of papal power relative to Christ's own concessions", "obligation matching the tenor of the vow", "public versus private promises"],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jsnvu6-e147724-d1e106",
+        "jsnvu6-e147724-d1e117",
+        "jsnvu6-e147724-d1e137",
+        "jsnvu6-e147724-d1e156",
+        "jsnvu6-e147724-d1e174",
+        "jsnvu6-e147724-d1e242",
+        "jsnvu6-e147724-d1e284",
+        "jsnvu6-e147724-d1e326",
+        "jsnvu6-e147724-d1e420",
+        "jsnvu6-e147724-d1e473",
+        "jsnvu6-e147724-d1e538",
+        "jsnvu6-e147724-d1e571",
+        "jsnvu6-e147724-d1e613",
+        "jsnvu6-e147724-d1e655"
+      ]
+    }
+  }
+}

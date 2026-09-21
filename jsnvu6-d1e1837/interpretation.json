@@ -1,0 +1,90 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-21T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "ee8d52146dd866558f26b834707e4e681135eb22",
+    "generation_method": "hierarchical"
+  },
+
+  "jsnvu6-d1e1837-d1e106": {
+    "summary": "Rubric heading for Question 4, stating the question to be treated—whether an angel is moved locally—and cross-referencing the parallel treatment in Aquinas, Summa Theologiae I, q.53, a.1.",
+    "claims": [],
+    "concepts": ["angelic local motion", "cross-reference to Aquinas ST I q.53 a.1"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-d1e1837-Hd1e101", "jsnvu6-d1e1837-Hd1e103"] }
+  },
+
+  "jsnvu6-d1e1837-d1e115": {
+    "summary": "Objection against angelic local motion: no indivisible (impartible) thing can be moved, as proved in Physics VI; an angel is indivisible; therefore an angel cannot be moved.",
+    "claims": [
+      "No indivisible thing can undergo motion, per Physics VI",
+      "An angel is indivisible",
+      "Therefore an angel cannot be moved locally"
+    ],
+    "concepts": ["indivisibility and motion", "Physics VI on the impossibility of motion in the indivisible"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-d1e1837-d1e106"] }
+  },
+
+  "jsnvu6-d1e1837-d1e128": {
+    "summary": "Sed contra: what the Master (Peter Lombard) says in the text affirms that angels do move locally.",
+    "claims": ["The Lombard's text affirms angelic local motion"],
+    "concepts": ["textual authority of the Sentences"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-d1e1837-d1e115"] }
+  },
+
+  "jsnvu6-d1e1837-d1e138": {
+    "summary": "Responsio: just as with being in place, so with being moved locally, the question must be examined mode by mode. Since an angel is not circumscriptively in place as a body is, proper local motion—successive transfer commensurate with the parts of a magnitude—does not belong to it. Nor does definitive presence (a determinate situs with its properties) belong to the angel per se (reported here, not asserted, per the prior question's disputed opinions), so motion in that sense does not apply either. Nor, in the mode of presence 'by order' to place, can the angel be moved locally, since motion is toward something not yet had that is possible to be had, whereas the angel, in this mode, is already said to be in every place it can possibly be in (as established in the prior question), leaving nothing not-had that is possible to be had. Only in the fourth mode—presence as to manifestation, effected through the angel's operation on place—can motion be attributed to the angel, and this in two ways: improperly, where the motion of a body caused by the angel is called 'motion of the angel' simply because it originates from the angel; and more properly, where the succession of diverse motions caused by the angel in different bodies and places is called 'motion of the angel,' because through this succession the angel's nature is successively manifested in different places. The first sort of motion is continuous; the second is discrete, being a succession of distinct motions, whether separated by an interval of time or not. Neither motion is in the angel as in a subject, but only as in an effective principle manifested through its effect.",
+    "claims": [
+      "Proper (circumscriptive) local motion does not belong to an angel, since circumscriptive presence in place does not belong to it",
+      "Motion in the sense of definitive presence likewise does not belong to the angel, per the prior question's reported (not asserted) opinions",
+      "Motion in the sense of presence 'by order' does not belong to the angel either, since the angel is already present, in that mode, to every place it can possibly occupy",
+      "Only presence as to manifestation (through operation) admits of angelic 'motion,' improperly (a moved body's motion attributed to its angelic mover) or more properly (the discrete succession of the angel's operations in different places)",
+      "Neither kind of motion inheres in the angel as subject; both are attributed to it only as effective principle manifested through effect"
+    ],
+    "concepts": ["four modes of presence applied to motion", "circumscriptive, definitive, order, and manifestational presence", "motion as subject-inherent versus effect-manifested", "continuous versus discrete motion"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-d1e1837-d1e128"] }
+  },
+
+  "jsnvu6-d1e1837-d1e212": {
+    "summary": "Draws the first of two conclusions about angelic motion from what has been established: angelic motion cannot occur in an instant. This is proved because angelic motion is either the local motion of some body locally transferred by the angel, or the succession of two (or more) such motions, and neither of these can occur in an instant.",
+    "claims": [
+      "Angelic motion cannot occur in an instant, since it consists either in a body's local motion (which is inherently successive) or in a succession of such motions"
+    ],
+    "concepts": ["instantaneous versus successive motion", "conclusion drawn from the fourfold analysis of presence"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-d1e1837-d1e138"] }
+  },
+
+  "jsnvu6-d1e1837-d1e230": {
+    "summary": "Draws the second conclusion: angelic motion from place to place can occur either by passing through the intermediate or without doing so, depending on which sense of 'angelic motion' is meant. If it means the successive transfer of a body from place to place, the intermediate between the starting and ending terms must necessarily be traversed, this being essential to the nature of continuous motion. But if it means the succession of diverse motions caused by the angel, the angel can traverse the intermediate if it wills, or not: given three contiguous bodies a, b, and c, the angel can, if it wills, move a, then b, then c in succession—thereby passing from a to c only through the intermediate b—or it can move a and then c without moving b, thereby not passing through the intermediate at all. The reply to the opening objection follows: the objection only proves that motion does not belong to the angel as a subject, which is granted, since motion is instead attributed to the angel as an effective principle manifested through its effect; the Master's words in the text are to be interpreted accordingly.",
+    "claims": [
+      "If angelic motion means a body's successive local transfer, the intermediate place must be traversed, as belongs essentially to continuous motion",
+      "If angelic motion means the succession of the angel's own discrete operations, the intermediate may or may not be traversed, depending on the angel's will",
+      "The opening objection only shows that motion does not belong to the angel as subject, which is granted; motion is instead attributed to the angel as effective principle manifested through effect"
+    ],
+    "concepts": ["essential continuity of local motion", "discretionary traversal in discrete angelic operation", "reply to the opening objection"],
+    "_metadata": { "level": "paragraph", "generation_method": "source_text_with_context", "context_ids": ["jsnvu6-d1e1837-d1e212", "jsnvu6-d1e1837-d1e115"] }
+  },
+
+  "jsnvu6-d1e1837": {
+    "summary": "Question 4 asks whether an angel is moved locally. An objection denies this since no indivisible thing can be moved (Physics VI) and the angel is indivisible; the sed contra appeals to the Master's text, which affirms angelic motion. The responsio applies the fourfold analysis of angelic presence in place developed in the prior question: proper (circumscriptive), definitive, and order-based presence each exclude local motion of the angel, since none involve a 'not-had but possible' place toward which motion could tend; only presence as to manifestation, effected through the angel's operation, admits of 'motion'—improperly, when a moved body's motion is attributed to its angelic mover, and more properly, as the discrete succession of the angel's operations across different places, which manifests its nature successively rather than continuously. Two conclusions follow: angelic motion cannot occur in an instant, and it may or may not require traversing an intermediate place depending on which sense of 'motion' is meant—body-transfer requires traversal, while the succession of the angel's own discrete acts does not. The reply to the opening objection clarifies that the argument only shows motion does not belong to the angel as subject, which is granted, since motion is attributed to it only as an effective principle manifested through effect.",
+    "claims": [
+      "An angel cannot be moved locally in any proper (subject-inherent) sense, whether circumscriptive, definitive, or order-based, since none of these modes involve tending toward a not-yet-had but possible place",
+      "Angelic 'motion' is attributed to the angel only improperly (via the motion of a body it causes) or as the discrete, successive manifestation of its operations across different places",
+      "Such motion cannot be instantaneous, and need not involve traversing an intermediate place when understood as a succession of the angel's own discrete acts"
+    ],
+    "concepts": ["angelic local motion", "four modes of presence applied to motion", "discrete versus continuous motion", "motion as manifested effect rather than subject-inherent change"],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jsnvu6-d1e1837-d1e106",
+        "jsnvu6-d1e1837-d1e115",
+        "jsnvu6-d1e1837-d1e128",
+        "jsnvu6-d1e1837-d1e138",
+        "jsnvu6-d1e1837-d1e212",
+        "jsnvu6-d1e1837-d1e230"
+      ]
+    }
+  }
+}
