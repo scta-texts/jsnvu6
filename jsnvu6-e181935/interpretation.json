@@ -1,0 +1,88 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-09T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "85420ce705938a1f6db1f3a53cc03a4b49cd6c93",
+    "generation_method": "hierarchical"
+  },
+  "jsnvu6-e181935-d1e103": {
+    "summary": "Rubric announcing the general and special exposition of Book 3, Distinction 24.",
+    "claims": [],
+    "concepts": [
+      "divisio textus",
+      "sententia"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jsnvu6-e181935-Hd1e101"
+      ]
+    }
+  },
+  "jsnvu6-e181935-d1e112": {
+    "summary": "General division: having treated faith in itself and its subject, Lombard now treats faith in relation to what is believed, its object, prompted by the definition of faith as the 'argument of things not apparent'. The text first shows that faith concerns the unseen and then raises and resolves a doubt, divided by two questions.",
+    "claims": [
+      "Distinction 24 treats faith in relation to its object",
+      "Lombard's text shows that faith concerns things not seen"
+    ],
+    "concepts": [
+      "divisio textus",
+      "object of faith",
+      "non-apparent"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jsnvu6-e181935-d1e103",
+        "jsnvu6-e178375-d1e110"
+      ]
+    }
+  },
+  "jsnvu6-e181935-d1e141": {
+    "summary": "Special exposition: Lombard asks how faith can be only of the unseen given John 14 ('that when it has happened you may believe'), answering with Ambrose that faith's praise is believing what is not seen—Thomas saw a man and believed him God. Peter did not believe Christ's passion, which he saw, but that the sufferer was God. Asked whether faith concerns the unknown as the unseen, Lombard distinguishes exterior vision, which is not faith, from interior vision, either clear (not faith) or obscure, 'through a mirror in an enigma', which is faith.",
+    "claims": [
+      "Faith believes what is not seen; what is seen is not properly believed",
+      "Thomas and Peter saw the man and believed in his divinity",
+      "Faith is obscure interior cognition, per speculum in aenigmate"
+    ],
+    "concepts": [
+      "non-apparent objects of faith",
+      "Thomas the apostle",
+      "exterior and interior vision",
+      "per speculum in aenigmate"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jsnvu6-e181935-d1e112"
+      ]
+    }
+  },
+  "jsnvu6-e181935": {
+    "summary": "Praeambulum to Book 3, Distinction 24: a divisio textus and exposition of Lombard's treatment of faith in relation to its object. Prompted by the definition of faith as the argument of things not apparent, Lombard shows that faith is of the unseen and resolves doubts. Texts such as John 14 seem to make faith concern things seen, but Thomas saw a man and believed he was God, and Peter saw the passion and believed the sufferer was divine. Faith concerns not the unknown simply but what is known by obscure interior vision, 'through a mirror in an enigma', as distinct from exterior sight and clear intellectual vision.",
+    "claims": [
+      "Distinction 24 treats faith in relation to its object",
+      "Faith concerns what is not seen, known obscurely rather than clearly"
+    ],
+    "concepts": [
+      "divisio textus",
+      "object of faith",
+      "non-apparent",
+      "per speculum in aenigmate"
+    ],
+    "_metadata": {
+      "level": "structural",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jsnvu6-e181935-d1e103",
+        "jsnvu6-e181935-d1e112",
+        "jsnvu6-e181935-d1e141"
+      ]
+    }
+  }
+}

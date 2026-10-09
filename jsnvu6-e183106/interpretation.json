@@ -1,0 +1,92 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-09T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "85420ce705938a1f6db1f3a53cc03a4b49cd6c93",
+    "generation_method": "hierarchical"
+  },
+  "jsnvu6-e183106-d1e103": {
+    "summary": "Rubric announcing the general and special exposition of Book 3, Distinction 25.",
+    "claims": [],
+    "concepts": [
+      "divisio textus",
+      "sententia"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jsnvu6-e183106-Hd1e101"
+      ]
+    }
+  },
+  "jsnvu6-e183106-d1e110": {
+    "summary": "General division: having treated faith in its essence and in relation to its object, Lombard now treats it in relation to believers, determining the quantity of faith required for sufficiency and salvation. He treats first its extensive quantity, from the number of credibles, then its intensive quantity, from the intensity of the habit. The first part shows that saving faith extends to knowledge of the deity, then to the redemption, then to which articles of the redemption, and then raises a further question.",
+    "claims": [
+      "Distinction 25 treats faith in relation to believers",
+      "The quantity of faith is extensive (number of credibles) and intensive (strength of habit)"
+    ],
+    "concepts": [
+      "divisio textus",
+      "extensive vs. intensive quantity of faith",
+      "faith necessary for salvation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jsnvu6-e183106-d1e103",
+        "jsnvu6-e178375-d1e110"
+      ]
+    }
+  },
+  "jsnvu6-e183106-d1e145": {
+    "summary": "Special exposition: faith before Christ's coming grew over time like knowledge, but there was never salvation without faith (Heb. 11: one must believe God exists and rewards). After the Fall, faith in the mediator was also required—explicitly by the greater, to whom it was revealed, implicitly by the simple. Lombard reports views on what the ancients had to believe of the mediator (four articles—nativity, death, resurrection, judgment—or only nativity and judgment, citing John the Baptist's question 'Are you he who is to come?', read by Gregory as doubt, by others as wonder). Cornelius (Acts 10) had faith in the incarnation but did not know it had already occurred. Faith, hope, charity, and works are equal in this life; charity is not from faith and hope but placed after them because it cannot exist without them, while they can exist without it.",
+    "claims": [
+      "Faith grew over time before Christ, but salvation always required faith",
+      "After the Fall faith in the mediator was required, explicit in the greater and implicit in the simple",
+      "Cornelius had faith in the incarnation without knowing it had occurred",
+      "Faith, hope, charity, and works are equal in this life",
+      "Charity cannot exist without faith and hope, but they can without it"
+    ],
+    "concepts": [
+      "explicit and implicit faith",
+      "faith of the patriarchs",
+      "mediator",
+      "Cornelius",
+      "John the Baptist",
+      "equality of the virtues"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "jsnvu6-e183106-d1e110"
+      ]
+    }
+  },
+  "jsnvu6-e183106": {
+    "summary": "Praeambulum to Book 3, Distinction 25: a divisio textus and exposition of Lombard's treatment of faith in relation to believers, namely the quantity of faith required for salvation, extensive (number of articles) and intensive (strength of the habit). Lombard holds that faith developed over time before Christ, though salvation always required believing that God exists and rewards. After the Fall, faith in the mediator was needed: explicit in the leaders who received revelation, implicit in the simple. He reports differing views on how many articles the ancients had to believe (citing John the Baptist's question), resolves the case of Cornelius, asserts that faith, hope, charity, and works are equal in this life, and explains that charity is not from faith and hope but cannot exist without them.",
+    "claims": [
+      "Distinction 25 treats the quantity of faith required of believers",
+      "Salvation always required faith, and after the Fall faith in the mediator, explicit or implicit"
+    ],
+    "concepts": [
+      "divisio textus",
+      "explicit and implicit faith",
+      "faith of the patriarchs",
+      "quantity of faith"
+    ],
+    "_metadata": {
+      "level": "structural",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "jsnvu6-e183106-d1e103",
+        "jsnvu6-e183106-d1e110",
+        "jsnvu6-e183106-d1e145"
+      ]
+    }
+  }
+}
